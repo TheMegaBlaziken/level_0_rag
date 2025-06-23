@@ -1,0 +1,1153 @@
+{
+  "id": "05f3ea79ccfa73c3ed76f4721da97430",
+  "pdf_path": "apl/Superconductors/arXiv:1504.00594.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **Energy deposition studies for the High-Luminosity Large Hadron Collider inner triplet magnets**\n\nN. V. Mokhov, I.L. Rakhno, I.S. Tropin\n\n*Fermi National Accelerator Laboratory, Batavia, Illinois 60510, USA*\n\nF. Cerutti, L.S. Esposito, A. Lechner\n\n*CERN, Geneva 23, CH-1211, Switzerland*\n\n(Received: March 19, 2015)\n\n## Abstract\n\nA detailed model of the High Luminosity LHC inner triplet region with new large-aperture Nb3Sn magnets, field maps, corrector packages, and segmented tungsten inner absorbers was built and implemented into the FLUKA and MARS15 codes. In the optimized configuration, the peak power density averaged over the magnet inner cable width is safely below the quench limit. For the integrated luminosity of 3000 fb-1 , the peak dose in the innermost magnet insulator ranges from 20 to 35 MGy. Dynamic heat loads to the triplet magnet cold mass are calculated to evaluate the cryogenic capability. In general, FLUKA and MARS results are in a very good agreement.\n\nPACS numbers: 29.20.-c, 29.20.db, 84.71.Ba\n\nmokhov@fnal.gov\n\n#### **I. INTRODUCTION**\n\nThe Large Hadron Collider (LHC) was operated at 4 TeV per beam and 70% of nominal luminosity in 2012. After the consolidation of the accelerator, it will provide 300 fb-1 of integrated luminosity at center-of-mass energy of 13-14 TeV by 2021. Subsequently, CERN is planning to make a high luminosity upgrade (HL-LHC) to get 3000 fb-1 in 10 years [1], or 4000 fb-1 as the ultimate target.\n\nOne essential objective of the upgrade is to reduce β\\* down to 10-15 cm by means of stronger and larger aperture low-beta triplet quadrupoles in the high luminosity Insertion Regions (IRs). The envisaged solution [2] relies on the new Nb3Sn technology, which allows a more compact layout and ~30% higher performance with respect to NbTi coils, and on a 150 mm aperture, doubling the present one of 70 mm. In addition, a superconducting D1 separation dipole will replace the normal-conducting version, as well as new quadrupoles in the Matching Section are foreseen, still based on NbTi technology, but with a larger aperture.\n\nFrom the quench stability and radiation damage points of view, these magnets should cope with an exceptionally high luminosity. They need to be designed to operate at L = 5×10<sup>34</sup> cm-2 s -1 (corresponding to 5 times nominal LHC peak luminosity) or at an ultimate L = 7.5×10<sup>34</sup> cm-2 s -1 , with appropriate safety margins. Assumed design limits [3-5] are 13 and 4 mW/cm<sup>3</sup> for Nb3Sn and NbTi coils, respectively, including a safety factor of 3 on expected quench limits. For long term radiation damage, a tentative dose limit is set to a few tens of MGy, mainly because of the degradation of the epoxy resin used to impregnate Nb3Sn coils [6]. As the first studies of radiation loads in the LHC upgrades have shown [3, 7], one could provide the operational stability and adequate lifetime of the IT superconducting magnets by using tungsten-based inner absorbers in the magnets. Another constraint is given by the total heat power to be evacuated from the ensemble of the Inner Triplet (IT), Corrector Package (CP) and D1 magnets by the cryogenic equipment.\n\nThis paper is divided in five parts. The first one is devoted to characterization of the ppcollisions at the LHC interaction points as a source of irradiation of the IR magnets as well as to the approach used to design their protection via inner absorbers. The next part gives the details of the FLUKA and MARS models built to study the problem. Results of Monte Carlo calculations of 3D distributions of power density in the coils of the IT magnets are presented in the third part. The FLUKA and MARS predictions - being in an excellent agreement – are safely below the quench limits. The dynamic heat loads on the magnets are also presented in the section. Results on the quantities related to the radiation damage and lifetime of the IT magnet components – considered as ones of the most critical in the design of the HL-LHC IT magnets - are described in detail in the next part. The fifth part is devoted to the dependencies of the critical radiationinduced quantities on the details of the IT magnet design and their relation to a possible design evolution.\n\n#### **II. COLLISION DEBRIS AND TRIPLET MAGNETS**\n\n#### **A. Characterization of the radiation source**\n\nProton-proton inelastic collisions taking place in the LHC inside its four detectors generate a large number of secondary particles, on average about 100 (120) per a single proton-proton interaction of 3.5 (7) TeV beams, as calculated with DPMJET-III [8]. There are substantial fluctuations over different events. Moving away from the interaction point (IP), this multiform population evolves, even before touching the surrounding material, because of the decay of unstable particles (in particular neutral pions decaying into photon pairs). Figure 1 illustrates the\n\ncomposition of the debris at 5 mm from the point of a 14 TeV center of mass collision, featuring a ~ 30% increase in number of particles, due to aforementioned decays, and a clear prevalence of photons (almost one half) and charged pions (~ 35%).\n\nMost of these particles are intercepted by the detector and its forward region shielding releasing their energy within the experimental cavern. However, the most energetic ones, emitted at small angles with respect to the beam direction, travel farther in the vacuum and reach the accelerator elements, causing a significant impact on the magnets along the Insertion Regions, in particular the final focus quadrupoles and the separation dipole. Figure 1 shows also the breakdown of the debris components going through the aperture of the TAS (Target Absorber Secondaries) absorber, a protection element consisting of a copper core 1.8-m long located at 20 m from the IP and representing the interface between the detector and the accelerator. The TAS absorbers are installed at each side of the high-luminosity detectors, ATLAS in P1 and CMS in P5. Their protection role, in fact limited to the first quadrupole, is not needed for luminosities up to 0.2 × 10<sup>34</sup> cm-2 s -1 , which is the upgrade target of LHCb [9].\n\nDespite the fact that the number of particles per collision leaving the TAS aperture is more than one order of magnitude lower than the total number of debris particles, they carry about 80% of the total energy, implying that 40% of the released energy at the IP exits on each side of the experiments. At the nominal HL-LHC luminosity (5 × 10<sup>34</sup> cm-2 s -1 ), this represents about 3800 W per side that is inevitably impacting the LHC elements and consequently dissipated in the machine and in the nearby equipment (e.g. electronics, racks,...) and in the tunnels walls.\n\nIt is fundamental to study how these particles are lost in order to implement the necessary protections for shielding sensitive parts of the LHC magnets and the machine. For these purposes, Monte Carlo simulations of the particle interaction with matter play an essential role, relying on a detailed implementation of physics models and an accurate 3D-description of the region of interest.\n\n![](_page_4_Figure_1.jpeg)\n\nFIG. 1. Number of debris particles per single proton-proton inelastic interaction at 5 mm from the interaction point (black histogram) and at the exit of each 60-mm TAS aperture (red).\n\n### **B. Large aperture Nb3Sn magnets and inner shielding**\n\nThe LHC upgrade includes replacement of the IP1/IP5 inner triplet 70-mm NbTi quadrupoles with the 150-mm coil aperture Nb3Sn quadrupoles along with the new 150-mm coil aperture NbTi dipole magnet and orbit correctors. Moreover, a corrector package that includes a skew quadrupole and eight high-order magnets (from sextupole to dodecapole, normal and skew, based on the NbTi technology) will be located between the triplet and the D1.\n\nAn octagonal stainless steel beam screen, equipped with 6-mm tungsten absorbers on the midplanes, is placed inside the cold bore all along the triplet, the CP and the D1, except in Q1 (up to ~32.5m from IP) where the tungsten thickness is increased to 16 mm, compatible with the relaxed aperture requirements. The absorbers are in between the beam screen and the 1.9-K beam pipe: they are supported by the beam screen, and thermally connected to it, whereas they have\n\nnegligible contact with the cold mass. Therefore, from the point of view of energy deposition, the beam screen function is two-fold:\n\n(i) It shields the coils from the debris by reducing the energy deposited in there,\n\n(ii) It removes a sizable part of the heat load from the 1.9 K cooling system, collecting it at higher temperature.\n\nThe present HL-LHC layout foresees six cryostats on each side of the IP: four for the triplet quadrupoles (Q1, Q2A, Q2B and Q3), one for the CP and the last for the D1 dipole. The distance between the magnets in the interconnect regions is 1.5 - 1.7 m (as preliminarily assumed in this study) and an interruption of the beam screen is necessary therein. As a reasonable baseline, we adopt here a 500-mm interruption of the tungsten absorbers in the middle of the interconnect regions.\n\n#### **III. MONTE CARLO MODELING WITH FLUKA AND MARS CODES**\n\nTo design such a system in a consistent and confident way, coherent investigations have been undertaken with two independent Monte Carlo codes benchmarked up to the TeV energy region and regularly used in such applications: FLUKA at CERN [10, 11] and MARS15(2014) at Fermilab [12-14]. The studies were done for 7+7 TeV pp-collisions at the luminosity of 5×10<sup>34</sup> cm-2 s -1 with a 0.295 mrad half-angle vertical crossing in IP1 (which was found earlier to be the worst case) using DPMJET-III as the event generator.\n\nAn identical, very detailed geometry model was created and used in both the codes with same materials and magnetic field distributions in each of the components of the 80-m region from IP through the D1 dipole. Figs. 2 thru 6 show a 3D view of the model and details of the inner parts of the quadrupoles, orbit correctors and dipole D1.\n\n![](_page_6_Figure_0.jpeg)\n\nFIG. 2. Computer model of HiLumi LHC inner triplet with correctors MCBX/CP and D1 dipole.\n\n![](_page_6_Figure_2.jpeg)\n\nFIG. 3. Details of the FLUKA-MARS model in the innermost region of the Q1 quadrupole. The major difference between Q2-Q3 and Q1 is that the tungsten liner in the former significantly thinner than that in the latter. The Nb3Sn coils are homogenized; inner coils are sub-divided azimuthally and radially for scoring. Nomex and S2 fiberglass insulating inserts are not included in the model; corresponding labels indicate their locations as discussed in the text for Table 2 below.\n\n![](_page_7_Figure_0.jpeg)\n\nFIG. 4. Cross-sectional view of the FLUKA-MARS model in the central part of the MCBX orbit correctors.\n\n![](_page_7_Figure_2.jpeg)\n\nFIG. 5. Cross-sectional view of the FLUKA-MARS model in the central part of the D1 dipole. The coil is homogenized and sub-divided azimuthally and radially for scoring.\nFine-mesh distributions of power density as well as of accumulated for 3000 fb-1 integrated luminosity (~10-12 years of HiLumi LHC operation) absorbed dose, neutron fluence and Displacement-Per-Atom (DPA) along with dynamic heat load in every IT component were calculated with FLUKA and MARS in high-statistics runs. The power density and dynamic heat load results are normalized to the luminosity of 5×10<sup>34</sup> cm-2 s -1 , while all other ones to the 3000 fb-1 integrated luminosity. Longitudinal scoring bins are 10 cm, and azimuthal ones are 2<sup>o</sup> . Radially, power density is scored in the superconducting cable width, while dose, fluence and DPA are scored at the azimuthal maxima within the innermost layer equal to 3-mm or its thickness, whatever is thinner.\n\n![](0__page_8_Figure_1.jpeg)\n\nFIG. 6. Cross-sectional view of the FLUKA-MARS model fragments with kapton cells in Q1-Q3 quadrupoles (left) and MCBX correctors (right).\n\n## **IV. OPERATIONAL RADIATION LOADS**\n\nPower density isocontours at the IP end of the cold mass of the Q2A quadrupole are shown in Fig. 7. The longitudinal peak power density profile on the inner coils of the IT magnets at the azimuthal maxima is presented in Fig. 8. Results from FLUKA and MARS are in an excellent agreement. The peak value in the quadrupoles, 2 mW/cm<sup>3</sup> , is 20 times less than the assumed quench limit of 40 mW/cm<sup>3</sup> in Nb3Sn coils. The peak value of ~1.5 mW/cm<sup>3</sup> in the NbTi based coils of the correctors and D1 dipole is almost ten times less of the known quench limit 13 mW/cm<sup>3</sup> in such coils.\n\n![](0__page_9_Figure_2.jpeg)\n\nFIG. 7. Power density isocontours at the IP end of Q2A.\n\n![](0__page_10_Figure_0.jpeg)\n\nFIG. 8. Longitudinal peak power density profile on the inner coils of the IT magnets.\n\nThe total power dissipation in the IT region from the IP1 collision debris splits approximately 50-50 between the cold mass and beam screen with the tungsten absorber: 630 W and 615 W, respectively, from the FLUKA calculations. Total heat load to various components of the inner triplet, including comparison between FLUKA and MARS data, is presented in Table I. One can see that, as far as total heat load is concerned, the two codes agree within about 2%. For the 45-m effective length of the cold mass, the average dynamic heat load on it is ~14 W/m.\n\n| Component     | FLUKA            |             |                  |             | MARS             |             |\n|---------------|------------------|-------------|------------------|-------------|------------------|-------------|\n|               | 10 cm gap in ICs |             | 50 cm gap in ICs |             | 50 cm gap in ICs |             |\n|               | Magnet           | Beam screen | Magnet           | Beam screen | Magnet           | Beam screen |\n|               | cold mass        |             | cold mass        |             | cold mass        |             |\n| Q1A+Q1B       | 100              | 170         | 100              | 170         | 95               | 170         |\n| Q2A+orbit     | 95               | 60          | 100              | 65          | 100              | 65          |\n| corrector     |                  |             |                  |             |                  |             |\n| Q2B+orbit     | 115              | 80          | 120              | 80          | 115              | 80          |\n| corrector     |                  |             |                  |             |                  |             |\n| Q3A+Q3B       | 140              | 80          | 140              | 80          | 135              | 75          |\n| Corrector     | 55               | 55          | 60               | 55          | 60               | 65          |\n| package       |                  |             |                  |             |                  |             |\n| D1            | 90               | 60          | 90               | 60          | 90               | 55          |\n| Interconnects | 20               | 140         | 20               | 105         | 15               | 85          |\n| Total         | 615              | 645         | 630              | 615         | 615              | 600         |\n\nTABLE I. Integral power dissipation (W) in components of inner triplet calculated with FLUKA and MARS codes for two different interconnect (IC) gap lengths.\n\n## **V. LIFETIME RADIATION LOADS**\n\nThe peak dose and DPA – the quantities that define radiation damage and lifetime of insulators and non-organic materials of the IT magnets, respectively – are calculated at the azimuthal maxima in the innermost tiny layers of each the IT component shown in Figs. 3-6.\n\nThe longitudinal peak dose profiles on the inner coils and insulating materials are presented in Fig. 9. The values in the MCBX orbit correctors in the Q1-Q2A, Q2B-Q3 and Q3-D1 regions are given for the epoxy layer (FLUKA) and kapton layer (MARS); see Figs. 4-6 for details. Results from FLUKA and MARS are again in a good agreement. The larger aperture IT magnets and the tungsten absorbers implemented perform very well, reducing the peak values of both power density and absorbed dose in the HiLumi LHC IT to the levels which correspond to the LHC nominal luminosity.\n\nThe integrated peak dose in the IT magnet insulation reaches 30-36 MGy in the MCBX3 corrector, 28-30 MGy in the quadrupoles and ~22 MGy in the D1 dipole. This is at the common limits for kapton (25-35 MGy) and CTD-101K epoxy (25 MGy) or slightly above them. The maximum peak dose in the coils is about 25 MGy for quadrupoles and ~15 MGy for the D1 dipole.\n\n![](0__page_12_Figure_1.jpeg)\n\nFIG. 9. Longitudinal peak dose profile on inner coils and nearby insulators.\n\nAnother important issue is related to absorbed dose at the level of the beam screen. In order to mitigate electron cloud heating, a thin-film carbon coating is deposited on the inner surface. Mechanical stability of the coating depends on various factors including irradiation. The calculated peak absorbed dose in the stainless steel beam screen is shown in Fig. 10.\n\n![](0__page_13_Figure_0.jpeg)\n\n![](0__page_13_Figure_1.jpeg)\n\nFIG. 10. Longitudinal peak dose profile (bottom) on different segments of the beam screen (top).\n\nTable II summarizes the peak predicted absorbed dose in the hottest components of the inner triplet. One can see that in the hottest spots of the triplet the calculated absorbed dose for the target integrated luminosity is near or slightly above the lifetime limit which means that degradation of material properties becomes relevant. One has to point out that the real magnets are more complicated than the simulation models built for this study. For example, some insulating inserts made of S2 fiberglass and Nomex as shown, e.g., in Fig. 3, were not included in the model. Nevertheless, to estimate the radiation loads to these components slightly beyond the current model, Table II includes the extrapolated peak dose values in such inserts using the calculated spatial dose gradients. That is why some peak values in Table II do not correspond to the data shown in Fig. 9.\n\n| Component | Common name      | Material       | Maximum<br>calculated<br>value<br>per I0=3000 fb-1 | Limit |\n|-----------|------------------|----------------|----------------------------------------------------|-------|\n| Q2B       | Insulation       | Kapton         | 34                                                 | 25-35 |\n| Q2B       | Insulation       | G10            | 25                                                 | 20    |\n| Q2B       | Insulation/Glue  | Epoxy CTD-101K | 24                                                 | 25    |\n| Q2B       | Insulation       | S2 fiberglass  | 24                                                 | 15    |\n| Q2B       | Insulation       | G11            | 24                                                 | 25-40 |\n| Q2B       | Support material | Nomex          | 6.7                                                | 15    |\n| Q2B       | Insulation       | Polyimide      | 6.7                                                | 25    |\n| MCBX3     | Insulation       | Kapton         | 30                                                 | 25-35 |\n| MCBX3     | Insulation/Glue  | Epoxy CTD-101K | 27                                                 | 25    |\n| D1        | Insulation       | Kapton         | 22                                                 | 25-35 |\n| D1        | Insulation       | G10            | 20                                                 | 20    |\n\nTable II. Predicted radiation load (MGy) to organic materials in hottest components of the inner triplet.\n\nDegradation of the critical properties of inorganic materials of the IT magnets – Nb3Sn and NbTi superconductors, copper stabilizer and mechanical structures – is usually characterized not by absorbed dose but by integrated neutron fluence and by DPA accumulated in the hottest spots over the expected magnet lifetime. DPA is the most universal way to characterize the impact of irradiation on inorganic materials. In both FLUKA and MARS, all products of elastic and inelastic nuclear interactions as well as Coulomb elastic scattering (NIEL) of transported charged particles (hadrons, electrons, muons and heavy ions) from ~1 keV to TeV energies contribute to DPA using energy-dependent displacement efficiency. For neutrons at <20 MeV (FLUKA) and <150 MeV (MARS), the ENDF-VII database with NJOY99 processing is used in both the codes.\n\nThe longitudinal peak neutron fluence and peak DPA profiles on the IT magnet coils are presented in Fig. 11. The peaks are generally observed at the inner coils; therefore, the data is given there. With the vertical crossing in IP1, the MCBX3 orbit corrector is the exception with the peak in the outer coil in the vertical plane (see Fig. 4). To see this effect, the MARS data in Fig. 11 for MCBX3 is given for the outer coil, while FLUKA shows results for the inner coil as in all other magnets.\n\nContrary to the power density and dose distributions driven by electromagnetic showers initiated by photons from neutral pion decay, DPA peaks at the non-IP end of the Q1B quadrupole. At that location, about 70% of DPA is from neutrons with kinetic energy below 20 MeV, ~25% from transported nuclear recoils with the energy above 0.25 keV per nucleon, and the rest is due to other transported particles and non-transported recoils. One can also see from Fig. 11 that a quite definite scaling is observed between the values of peak neutron fluence and peak DPA.\nFLUKA and MARS results on neutron fluence are in a quite good agreement. Results on DPA from two codes are also very similar in the Q1A through Q3B region with the MARS's ones being slightly higher than those from FLUKA. At the same time discrepancy in DPA prediction increases in the opposite direction in D1, despite the consistency of neutron fluence values. Our attempts to explain this effect in the DPA behavior at the very end of the studied region have been unsuccessful so far.\n\n![](1__page_16_Figure_1.jpeg)\n\nFIG. 11. Longitudinal peak neutron fluence and peak DPA profiles along the hottest regions in the IT magnet coils.\n\nThe peak in the Q1B inner coil is about 2×10-4 DPA per 3000 fb-1 integrated luminosity. In other IT components it is about (1±0.5)×10-4 . These numbers should be acceptable for the superconductors and copper stabilizer provided periodic annealing during the collider shutdowns. Taking into account a good correlation of DPA with neutron fluence in the coils, one can also compare the latter with the known limits. In the quadrupole coils, the peak fluence is ~2×10<sup>17</sup> cm -2 which is substantially lower than the 3×10<sup>18</sup> cm -2 limit used for the Nb3Sn superconductor. In the orbit corrector and D1 dipole coils, the peak fluence is ~5×10<sup>16</sup> cm-2 which is again lower than the 10<sup>18</sup> cm-2 limit used for the NbTi superconductor.\n\nThe integrated DPA in the magnet mechanical structures are 0.003 to 0.01 in the steel beam screen and tungsten absorber, ~ 10-4 in the collar and yoke, and noticeably less outside. These are to be compared to a ~10 DPA limit for mechanical properties of these materials. Neutron fluences in the IT mechanical structures range from 3×10<sup>16</sup> cm-2 to 3×10<sup>17</sup> cm-2 compared to the 10<sup>21</sup> cm-2 to 7×10<sup>22</sup> cm-2 limits.\n\n## **VI.CRITICAL DEPENDENCIES AND DESIGN EVOLUTION**\n\nThe beam screen equipped with tungsten absorbers represents the backbone element for the protection of the IT magnets. Therefore, the details of its design play a crucial role in determining its actual effectiveness.\n\nAfter the preliminary studies described in the previous section, new estimates were necessary to include:\n\n− the real absorber material, INERMET 180 that has a density of 18 g cm-3 , about 8% less than pure tungsten, implying a reduced shielding performance,\n\n− the first prototype drawing [15] that takes into account the machinability of INERMET and the required size of the cooling tubes as dictated by preliminary cryogenics estimates,\n\n− the reduction of the beam screen thickness (from 2 to 1 mm) necessary to let the structure respond elastically to possible deformations occurring during a quench.\n\nFigure 12 (left) shows the transverse section of the beam screen model (BS#2) embedding the aforementioned modifications. It can be compared to the model (BS#1) used in the calculations reported in the previous section (see Figs. 3-6). The longitudinal peak dose profile on the inner coils of the IT magnets is presented in Fig. 13 (left) for the case of BS#1 (black points) and of\n\nBS#2 (red points). In the latter case, the accumulated peak dose turns out to be systematically higher all along the IT magnets, almost doubling its value in the Q3 and reaching about 55 MGy in the MCBX3 corrector (however in an azimuthal position that in the MCBX design being detailed in the meantime lies in the collar outside the coil region). Along the Q2, most of the impacting debris, positively charged, is pushed by the magnetic field from the crossing angle side to the opposite one, i.e. from top to bottom in the assumed crossing scheme, where the outgoing beam points upwards. This moves the energy deposition peak through different azimuthal regions, which in the revised design (BS#2) are no longer shielded by the beam screen absorbers, hence yielding the resulting substantial increase. In order to address this drawback, we considered a third version of the beam screen (BS#3), where the INERMET absorbers were extended as much as possible to cover the coils towards the poles (see Fig. 12, right). The estimated peak dose distribution (green points in Fig. 13, left) shows a significant improvement in the Q3-CP region, when compared to the BS#2 case. It should also be noted that, mainly due to the reduced absorber density, the sharing of the total deposited power between the cold mass and beam screen gets unbalanced, moving to 55-45 and making the heat released in the cold mass approach 700W (at 5×10<sup>34</sup> cm-2 s -1 ).\n\n![](1__page_19_Figure_0.jpeg)\n\nFIG. 12. Left: beam screen model as per the first conceptual design (BS#2) [15]. Right: beam screen model with the modification of the absorbers driven by energy deposition considerations (BS#3).\n\nAnother crucial aspect is the longitudinal interruption of the beam screen and its absorbers, which is necessary between two consecutive cryostats in order to host a bellow and a BPM. As mentioned in the previous section, we initially assumed a 500-mm gap. Shorter gaps are possible if the BPMs are going to be equipped with absorber layers like the ones in the beam screen. To mimic this case, we looked at the effect of a 100-mm gap, which should be considered as the most optimistic case. The peak dose dependence on the gap length is presented in Fig. 13 (right) where the improvement achieved downstream the Q2A-Q2B, Q2B-Q3 and especially Q3-CP interconnects is visible, with a reduction from 55 to 35 MGy in the MCBX3 for the BS#2 design. Therefore, the actual implementation of the absorber layers in the design of both the beam screen and the relevant BPMs considerably affects the maximum dose expected in the IT coils.\n\n![](1__page_20_Figure_0.jpeg)\n\nFIG. 13. Longitudinal distributions of peak dose on the inner coils of the IT magnets referring to different beam screen designs (top) and to different lengths of the beam screen gap in the interconnects (bottom).\n\n## **VII. CONCLUSIONS**\n\nIt was shown that 80% of the energy released in pp-collisions leak through the TAS apertures on the two sides of the experiments, resulting in 3.8-kW dynamic heat load impacting the HL-LHC accelerator components on each side around IP1 and IP5. Very detailed descriptions of geometry, materials and magnetic fields for all the components in the inner triplet regions were implemented into the FLUKA and MARS15 models to find the optimal parameters of the protective components needed to assure the operational performance of the IP1/IP5 150-mm aperture Nb3Sn final focus quadrupoles along with the 150-mm aperture NbTi D1 separation dipoles and corrector magnets. Results of simulations with the two independent codes were found to be in a good agreement. It was demonstrated that the proposed system of the tungstenbased inner absorbers assures the quench stability of the IT magnets with a safety margin close to or exceeding a factor of 10 as well as manageable dynamic heat loads on the IT cryogenic system. The peak DPA in non-organic materials of the IT magnet coils is about 2×10-4 DPA per 3000 fb-1 integrated luminosity that should be acceptable for the superconductors and copper stabilizer provided annealing during the collider shutdowns. The peak dose accumulated in the magnet non-organic materials at the same integrated luminosity is close to the established limits. To provide a reasonable safety margin, it implies that the limits need better understanding, advanced radiation-resistant materials should be considered and the ways to further improve protection efficiency of the inner absorber system need a further attention (e.g., a 100-mm gap in the beam screen and its absorbers rather than a 500-mm one). Finally, whereas the study demonstrated the effectiveness of the conceptual design solution corroborated by a robust crossvalidation of the calculation tools, detailed numbers should not be taken as references carved in stone, since the actual design is still evolving, with the impact discussed in the previous section.\n\n## **ACKNOWLEDGEMENTS**\n\nThis work was supported by Fermi Research Alliance, LLC, under contract No. DE-AC02- 07CH11359 with the U.S. Department of Energy through the US LARP Program, and by the High-Luminosity LHC Project.\n\n## **REFERENCES**\n\n- [1] O. Brüning, L. Rossi, \"High Luminosity Large Hadron Collider: A description for the European Strategy Preparatory Group,\" CERN ATS 2012-236.\n- [2] E. Todesco et al., \"Design Studies for the Low-beta Quadrupoles for the LHC Luminosity Upgrade,\" CERN ATS 2013-018.\n- [3] N.V. Mokhov, I.L. Rakhno, Phys. Rev. ST Accel. Beams **9**, 101001 (2006).\n- [4] N. Kimura et al., \"Heat transfer characteristics of Rutherford-type superconducting cables in pressurized He II,\" IEEE Trans. Appl. Super- cond., vol. 9, no. 2, pp. 1097–1100, 1999.\n- [5] L. Chiesa et al., \"Thermal studies of a high gradient quadrupole magnet cooled with pressurized, stagnant superfluid\", IEEE Trans. Appl. Supercond. 11 (2001) 1625-8\n- [6] Composite Technology Development, Inc., Data-sheets.\n- [7] L.S. Esposito, F. Cerutti, E. Todesco, IPAC2013, TUPFI021, p. 1379.\n- [8] S. Roesler, R. Engel and J. Ranft, The Monte Carlo event generator DPMJET-III, Proceedings of the Monte Carlo 2000 Conference, Lisbon, October 23rd–26th 2000, Springer-Verlag Berlin, pp. 1033-1038, 2001.\n- [9] L.S. Esposito et al., Power load from collision debris on the LHC Point 8 insertion magnets implied by the LHCb luminosity increase, IPAC2013, TUPFI022, p. 1382.\n- [10] A. Ferrari, P. Sala, A. Fasso, J. Ranft, FLUKA, A multi-particle transport code, CERN-2005-010 (2005); [http://www.fluka.org](http://www.fluka.org/)\n- [11] T.T. Böhlen, F. Cerutti, M.P.W. Chin, A. Fassó, A. Ferrari, P.G. Ortega, A. Mairani, P.R. Sala, G. Smirnov and V. Vlachoudis, \"The FLUKA Code: Developments and Challenges for High Energy and Medical Applications\", Nuclear Data Sheets 120, 211-214 (2014).\n- [12] N.V. Mokhov, C. James, The MARS Code System User's Guide, [http://www](http://www-ap.fnal.gov/MARS/)[ap.fnal.gov/MARS/](http://www-ap.fnal.gov/MARS/)\n- [13] N.V. Mokhov, S.I. Striganov, \"MARS15 Overview\", in Proc. of Hadronic Shower Simulation Workshop, Fermilab, AIP Conf. Proc. 896 (2007) pp. 50-60.\n- [14] N. Mokhov, P. Aarnio, Y. Eidelman, K. Gudima, A. Konobeev, V. Pronskikh, I. Rakhno, S. Striganov, I. Tropin, Progress in Nuclear Science and Technology **4,** 496 (2014).\n- [15] R. Kersevan et al., private communication.",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Energy deposition studies for the High-Luminosity Large Hadron Collider \ninner triplet magnets",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              82.6259765625,
+              73.67950439453125
+            ],
+            [
+              531.9366455078125,
+              73.67950439453125
+            ],
+            [
+              531.9366455078125,
+              119.8795166015625
+            ],
+            [
+              82.6259765625,
+              119.8795166015625
+            ]
+          ]
+        },
+        {
+          "title": "Abstract",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              281.49609375,
+              337.70953369140625
+            ],
+            [
+              331.1015625,
+              337.70953369140625
+            ],
+            [
+              331.1015625,
+              351.74951171875
+            ],
+            [
+              281.49609375,
+              351.74951171875
+            ]
+          ]
+        },
+        {
+          "title": "I. INTRODUCTION",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              70.59814453125,
+              73.50152587890625
+            ],
+            [
+              190.0546875,
+              73.50152587890625
+            ],
+            [
+              190.0546875,
+              85.658203125
+            ],
+            [
+              70.59814453125,
+              85.658203125
+            ]
+          ]
+        },
+        {
+          "title": "II. COLLISION DEBRIS AND TRIPLET MAGNETS",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              71.04638671875,
+              487.5714416503906
+            ],
+            [
+              357.5519714355469,
+              487.5714416503906
+            ],
+            [
+              357.5519714355469,
+              499.5714416503906
+            ],
+            [
+              71.04638671875,
+              499.5714416503906
+            ]
+          ]
+        },
+        {
+          "title": "A. Characterization of the radiation source",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              92.11376953125,
+              525.1314392089844
+            ],
+            [
+              313.90399169921875,
+              525.1314392089844
+            ],
+            [
+              313.90399169921875,
+              537.1314392089844
+            ],
+            [
+              92.11376953125,
+              537.1314392089844
+            ]
+          ]
+        },
+        {
+          "title": "B. Large aperture Nb3Sn magnets and inner shielding",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              91.8896484375,
+              410.8914794921875
+            ],
+            [
+              372.489990234375,
+              410.8914794921875
+            ],
+            [
+              372.489990234375,
+              423.6788024902344
+            ],
+            [
+              91.8896484375,
+              423.6788024902344
+            ]
+          ]
+        },
+        {
+          "title": "III. MONTE CARLO MODELING WITH FLUKA AND MARS CODES",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              71.12109375,
+              404.75146484375
+            ],
+            [
+              450.03515625,
+              404.75146484375
+            ],
+            [
+              450.03515625,
+              416.8828125
+            ],
+            [
+              71.12109375,
+              416.8828125
+            ]
+          ]
+        },
+        {
+          "title": "IV. OPERATIONAL RADIATION LOADS",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              70.74755859375,
+              111.08148193359375
+            ],
+            [
+              300.322265625,
+              111.08148193359375
+            ],
+            [
+              300.322265625,
+              123.08148193359375
+            ],
+            [
+              70.74755859375,
+              123.08148193359375
+            ]
+          ]
+        },
+        {
+          "title": "V. LIFETIME RADIATION LOADS",
+          "heading_level": null,
+          "page_id": 11,
+          "polygon": [
+            [
+              89.57373046875,
+              413.40234375
+            ],
+            [
+              285.3919982910156,
+              413.40234375
+            ],
+            [
+              285.3919982910156,
+              425.5314636230469
+            ],
+            [
+              89.57373046875,
+              425.5314636230469
+            ]
+          ]
+        },
+        {
+          "title": "VI.CRITICAL DEPENDENCIES AND DESIGN EVOLUTION",
+          "heading_level": null,
+          "page_id": 17,
+          "polygon": [
+            [
+              88.6025390625,
+              276.71148681640625
+            ],
+            [
+              419.4739990234375,
+              276.71148681640625
+            ],
+            [
+              419.4739990234375,
+              288.87890625
+            ],
+            [
+              88.6025390625,
+              288.87890625
+            ]
+          ]
+        },
+        {
+          "title": "VII. CONCLUSIONS",
+          "heading_level": null,
+          "page_id": 21,
+          "polygon": [
+            [
+              89.2001953125,
+              98.1214599609375
+            ],
+            [
+              214.05198669433594,
+              98.1214599609375
+            ],
+            [
+              214.05198669433594,
+              110.1214599609375
+            ],
+            [
+              89.2001953125,
+              110.1214599609375
+            ]
+          ]
+        },
+        {
+          "title": "ACKNOWLEDGEMENTS",
+          "heading_level": null,
+          "page_id": 22,
+          "polygon": [
+            [
+              85.46484375,
+              156.32147216796875
+            ],
+            [
+              227.66400146484375,
+              156.32147216796875
+            ],
+            [
+              227.66400146484375,
+              168.32147216796875
+            ],
+            [
+              85.46484375,
+              168.32147216796875
+            ]
+          ]
+        },
+        {
+          "title": "REFERENCES",
+          "heading_level": null,
+          "page_id": 22,
+          "polygon": [
+            [
+              70.9716796875,
+              324.3514709472656
+            ],
+            [
+              152.59197998046875,
+              324.3514709472656
+            ],
+            [
+              152.59197998046875,
+              336.638671875
+            ],
+            [
+              70.9716796875,
+              336.638671875
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              53
+            ],
+            [
+              "Line",
+              21
+            ],
+            [
+              "Text",
+              8
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Footnote",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              165
+            ],
+            [
+              "Line",
+              32
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              69
+            ],
+            [
+              "Line",
+              22
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              71
+            ],
+            [
+              "Line",
+              29
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "TextInlineMath",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              46
+            ],
+            [
+              "Line",
+              15
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              85
+            ],
+            [
+              "Line",
+              24
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              31
+            ],
+            [
+              "Line",
+              6
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              13
+            ],
+            [
+              "Line",
+              4
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              38
+            ],
+            [
+              "Line",
+              15
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              37
+            ],
+            [
+              "Line",
+              13
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              13
+            ],
+            [
+              "Line",
+              7
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              133
+            ],
+            [
+              "TableCell",
+              98
+            ],
+            [
+              "Line",
+              57
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              25
+            ],
+            [
+              "Line",
+              10
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Line",
+              1
+            ],
+            [
+              "Span",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 14,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              166
+            ],
+            [
+              "Line",
+              71
+            ],
+            [
+              "TableCell",
+              60
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 15,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              57
+            ],
+            [
+              "Line",
+              22
+            ],
+            [
+              "Text",
+              3
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 16,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              60
+            ],
+            [
+              "Line",
+              21
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 17,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              97
+            ],
+            [
+              "Line",
+              30
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 18,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              43
+            ],
+            [
+              "Line",
+              19
+            ],
+            [
+              "TextInlineMath",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 19,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              34
+            ],
+            [
+              "Line",
+              13
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 20,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              3
+            ],
+            [
+              "Line",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 21,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              87
+            ],
+            [
+              "Line",
+              22
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 22,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              57
+            ],
+            [
+              "Line",
+              18
+            ],
+            [
+              "ListItem",
+              7
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 23,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              51
+            ],
+            [
+              "Line",
+              17
+            ],
+            [
+              "ListItem",
+              8
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 24,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Energy deposition studies for the high-luminosity Large Hadron Collider inner triplet magnets",
+    "authors": [
+      {
+        "authors_list": [
+          "Mokhov, N. V.",
+          "Rakhno, I. L.",
+          "Tropin, I. S.",
+          "Cerutti, F.",
+          "Esposito,"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "A detailed model of the high-luminosity LHC inner triplet region with new large-aperture Nb<SUB>3</SUB>Sn magnets, field maps, corrector packages, and segmented tungsten inner absorbers was built and implemented into the fluka and mars15 codes. Detailed simulations have been performed coherently with the codes on the impact of particle debris from the 14-TeV center-of-mass pp-collisions on the short- and long-term stability of the inner triplet magnets. After optimizing the absorber configuration, the peak power density averaged over the magnet inner cable width is found to be safely below the quench limit at the luminosity of 5 ×10<SUP>34</SUP> cm<SUP>-2</SUP> s<SUP>-1</SUP> . For the anticipated lifetime integrated luminosity of 3000 fb<SUP>-1</SUP> , the peak dose calculated for the innermost magnet insulator ranges from 20 to 35 MGy, a figure close to the commonly accepted limit. Dynamic heat loads to the triplet magnet cold mass are calculated to evaluate the cryogenic capability. fluka and mars results on energy deposition are in very good agreement.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Physical Review Accelerators and Beams",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1504.00594"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1103/PhysRevSTAB.18.051001",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2015PhRvS..18e1001M"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

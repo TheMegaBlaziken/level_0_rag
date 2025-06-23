@@ -1,0 +1,608 @@
+{
+  "id": "25edfdacb644adbb52de88bcb8208a72",
+  "pdf_path": "apl/Superconductors/arXiv:2505.04159.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "## **Complete suppression of flux instabilities in ramped superconducting magnets with synchronous temperature-modulated** *J***<sup>c</sup>**\n\nCun Xue<sup>1</sup> , Han-Xi Ren<sup>2</sup> , Kai-Wei Cao<sup>3</sup> , Wei Liu4,5 , Wen-Tao Zhang4,5 , Fang Yang<sup>1</sup> ,\n\n> Guo Yan<sup>4</sup> , You-He Zhou<sup>6</sup> , Pingxiang Zhang1,7\n\n*1 Institute of Superconducting Materials and Applied Technology, Northwestern Polytechnical University, Xi'an 710072, China*\n\n*2 School of Aeronautics, Northwestern Polytechnical University, 710072 Xi'an, China*\n\n- *3 School of Mechanics, Civil Engineering and Architecture, Northwestern Polytechnical University, 710072 Xi'an, China*\n- *4 Western Superconducting Technologies Co. Ltd, Xi'an 710018, People's Republic of China*\n\n*5 Xi'an Superconducting Magnet Technology Co. Ltd, 710014 Xi'an, China*\n\n*6 Department of Mechanics and Engineering Sciences, Lanzhou University, Lanzhou 730000, China*\n\n*7 Northwest Institute for Nonferrous Metal Research, Xi'an 710016, People's Republic of China*\n\n## **Abstract**\n\nNonlinear multi-field coupling as an intrinsic property of complex physical systems often leads to abrupt and undesired instabilities. For current-ramped high-field Nb3Sn magnets, frequent flux jumps are observed, which easily causes premature quenches and requires prolonged and resourceintensive magnet training process. In this study, we propose a paradigm-shifting methodology framework that achieves complete suppression of thermomagnetic instabilities through synchronized temperature-modulated critical current density (*J*c). Through numerical simulations of flux jumps in multifilamentary Nb3Sn wires at various temperatures, we construct thermomagnetic stability diagram in the *H*a–*T* plane. The simulated results are in good agreement with experiments, confirming that the synchronized temperature ramp-down can fully eliminate flux jumps. We reveal the underlying mechanism of enhancing the thermomagnetic stability arises from that synchronized temperature ramp-down can continuously tune both *J*<sup>c</sup> and its slope. Furthermore, we explore the thermomagnetic instabilities of current-ramped superconducting magnets through large-scale GPU-optimized algorithm. The flux jump and quench diagram in the *I*a–*T* plane are obtained. It indicates that the temperature ramp-down can completely suppress flux jumps without compromising *J*<sup>c</sup> at high magnetic fields. Importantly, this method does not require modifications to the superconducting microstructures or fabrication process, offering a practical and broadly applicable solution. The findings not only provide a robust method for stabilizing various superconducting magnet systems, including high-temperature superconducting magnets wound with second-generated (2G) coated tapes, but also suggest a generalizable strategy for controlling instability in other nonlinear non-equilibrium physical systems.\n\nThe natural world is rife with complex physical systems where nonlinear couplings between multiple fields give rise to sudden, often catastrophic transitions under external perturbations. From the fragmentation of brittle solids and the initiation of avalanches to electrical breakdown in storms, these emergent instabilities reflect universal challenges in controlling coupled energy landscapes across vastly different length and time scales[1-5]. For type-II superconductors,such as Nb₃Sn exposed to a time-varying magnetic field, magnetic vortices driven by Lorentz forces dissipate energy through local Joule heating, triggering rapid flux redistribution and thermal runaway—a phenomenon known as thermomagnetic instability of flux jump [6-9]. These abrupt flux jumps in Nb3Sn superconductors pose a critical operational challenge, inducing premature quenches at fields and currents far below engineering critical thresholds [10-12]. This instability requires prolonged and resource-intensive magnet training protocols to achieve target operational parameters, significantly escalating cryogenic costs and system downtime [13, 14]. Moreover, the stochastic nature of flux jumps introduces spatial and temporal field inhomogeneities within the magnet bore, thereby complicating precision fieldcorrection algorithms that are essential for applications demanding sub-ppm stability, such as particle beam steering [15-17]. Attempts to mitigate such events using quench detection systems based on voltage transients have also proven unreliable, as flux jumps may trigger spurious signals indistinguishable from true quench precursors [15, 18]. Consequently, the flux jumping remains a critical bottleneck for applications in next-generation accelerators, fusion reactors, and high-field medical imaging.\n\nOver the past decades, various approaches have been explored to suppress flux jumps in Nb₃Sn superconductors, with an emphasis on optimizing wire structure and metallographic structure of the material. Studies from Fermilab [19] and Brookhaven National Laboratory [20, 21] have demonstrated that reducing filament size and increasing the residual resistivity ratio (RRR) of the copper matrix can improve low-field stability, although these strategies often introduce trade-offs in manufacturability and critical current density (*J*c) [22]. Grain refinement and the introduction of artificial pinning centers (APCs) via internal oxidation have shifted the pinning force peaks to higher fields, substantially enhancing high-field *J*<sup>c</sup> [23-28]. Nevertheless, these methods fall short of completely eliminating lowfield flux jumping. Other strategies, such as high-temperature heat treatment and Ti doping [29], have improved the upper critical field (*B*c2) and specific heat, yet at the cost of degraded high-field performance. For bulk Nb₃Sn, modest Sn enrichment [30], grinding, and sintering have yielded notable gains in low-field stability, although often accompanied by undesired reductions in *J*<sup>c</sup> across the field range.\n\nEnhancing the specific heat of superconducting conductors has emerged as a promising alternative to suppress flux jumps. Various approaches have been investigated, including the embedding of low-temperature high-specific-heat (LHCS) materials into epoxy matrices [31-42], hybrid cabling techniques, and direct LHCS doping into superconducting strands. While embedding techniques yielded limited MQE improvements due to poor thermal conductivity, direct doping offered dramatic stabilization at the expense of mechanical integrity. Recent advances by Fermilab achieved twofold MQE enhancement in 50-meter Nb₃Sn conductors [43, 44], although narrow processing margins and mechanical challenges persist. Attempts to further improve filament thermal conductivity and mechanical robustness [44-46] have yielded promising short-sample results, but scalable industrial fabrication remains elusive.\n\nIn this work, we present a breakthrough of new approach to suppress flux jump in Nb3Sn highfield magnets by synchronously controlling the dynamic temperature during the current ramp process. Through a precise real-time temperature modulation strategy, we achieve full suppression of flux jumps without sacrificing *J*<sup>c</sup> or other properties. This dynamic temperature-modulated methodology paves a new way to enhance the flux instability of the next generation of high-field superconducting systems.\n\n## **Fully Suppression of Flux Jumps in Superconducting Wires**\n\nIn a first step, we will unveil the thermomagnetic instabilities of multifilamentary high-*J*<sup>c</sup> Nb3Sn wire at different working temperatures. In this case, we carry out magnetization measurements for a short sample from Oxford Superconducting Technology (OST). As shown in Fig. 1(a), the sample with length of 4.9 mm is prepared with polishing two ends before experimental measurements (see details of the sample in Ref. [47]). Fig. 1(b) represents the experimental magnetization loops of the sample with field-ramping rate of 10 mT/s at different working temperatures. Note that we only show the branches with positive magnetic field in order to see the details clearly. It is apparent that the number of the spikes in the magnetization curve induced by flux jumps decreases with increasing working temperature. It indicates that higher working temperature can significantly suppress the flux jumps of superconductors. Particularly, the flux jumps of signal bare superconducting wire completely vanish when the working temperature is increased up to 7 K.\n\n![](_page_3_Figure_1.jpeg)\n\nFig. 1. (a) The short sample and SEM image of its cross-section used in magnetization experiments. (b) The magnetization loop of the short sample with field-ramping rate of 10 mT/s at different working temperatures. (c) The thermomagnetic stability diagram in the *H*a-*T* plane obtained through the statistics of experiments. (d) The schematic of the numerical model for the multifilamentary wire. (e) The simulated magnetizations of the multifilamentary wire at the same parameters with experiments. (f) The simulated thermomagnetic stability diagram in the *H*a-*T* plane.\n\nThe cross-section of the multifilamentary wire does not exhibit continuous rotational symmetry. In this case, the magnetic field threshold of the flux jumps on the superconducting wires should exhibit angular dependence relative to the magnetic field orientation. To obtain statistical results, multiple magnetization experiments with mounting and remounting samples were conducted at each working temperature (see all experimental results in Supplementary Material). Fig. 1(c) shows the thermomagnetic stability diagram in the *H*a-*T* plane obtained through the statistics of experimental data for field ramping-rate of 10 mT/s. One can see the region of flux jumps are determined by two critical parameters. One is the onset of thermomagnetic instabilities (Red curves), representing the superconducting systems accumulate sufficient electromagnetic energy to trigger the flux jumps. Another one is the critical magnetic field of terminating flux jump events in the superconducting system (Grey curves). With increasing applied magnetic field under a specific temperature, one can observe flux jumps in multifilamentary superconducting wires if the electromagnetic energy is sufficient to trigger the thermomagnetic instabilities prior to reaching the threshold of terminating flux jumps; otherwise, the flux jumps cannot be detected.\n\n![](_page_4_Figure_1.jpeg)\n\nFig. 2. (a) The experimental magnetization loops of the short multifimentary wire by sweep magnetic field within ±12 T at different working temperatures. (b) The critical current density *J*<sup>c</sup> as a function of magnetic field and temperature. (c) The variations of critical current *J*<sup>c</sup> with magnetic field along four different temperature routes depicted in (b). (d) The experimental and simulated magnetizations of multifilamentary wires along temperature ramp-down routes during the field ramp process.\n\nTo elucidate the flux jumps observed in the multifilamentary superconducting wire and the relevant coils discussed later, we developed numerical framework with A-V method by coupling with the heat conduction equation. The computational framework was implemented with home-made codes using the CUDA parallel computing platform and optimized for execution on GPU architectures to leverage massive parallel processing capabilities (see details in Ref. [47]). The computational methodology has been verified through benchmark simulations comparing with a serious of experiments. In this work, utilizing the numerical model shown in Fig. 1(d) along with the accurate *J*<sup>c</sup> as a function of magnetic field and temperature (see detailed discussions in the following text), we obtain the simulated magnetization of the multifilamentary wire at various working temperatures (see Fig. 1(e)). In order to consider the effects of magnetic field orientations, a statistical averaged result of the thermomagnetic stability diagram in the *H*a-*T* plane as shown in Fig. 1(f) can be obtained based on the numerical cases with different angles of magnetic field (α=0, 10°, 20°, 30°, see details in Supplementary Material). The main characteristics of the simulated magnetization loop and the flux jumps diagram in the *H*a-*T* plane can reproduces the experimental results well. The observed minor quantitative discrepancies between experiments and simulations should be attributed to irregular filament geometries and the presence of tin-cores localized within the filamentary structures.\n\nBoth the experiments and numerical simulations demonstrate that the critical field of terminating flux jumps progressively diminishes with increasing temperature. It is attributed to the critical current density as a function of temperature and magnetic field, i.e., *J*c(*B*, *T*). By carrying out more magnetization experiments with sweeping magnetic field within ±12 T at different working temperatures (see Fig. 2(a)), we could obtain an accurate *J*c(*B*, *T*) as shown in Fig. 2(b) (see details in Supplementary Material and Ref. [47]). With increasing working temperature, we can see that the absolute value of *J*c and its slope with magnetic field significantly decreases, which leads to the disappearance of flux jumps under higher working temperature. While elevated operating temperatures can effectively suppress flux jumps, the accompanying rapid degradation of critical current density in superconducting wires at high temperatures inevitably induces premature quenches prior to achieving the designed magnetic field targets. Consequently, this thermal suppression strategy with constant high temperature cannot be viably implemented in practical superconducting magnet.\n\nTo address this challenge, we can select other routes of temperature from initial 6 K, 8 K and 10 K to terminal 4.2 K marked with routes 2, 3 and 4 as shown in Fig. 2(b), which representing a simultaneous progressive reduction in working temperature during magnetic field ramp process. Fig. 2(c) demonstrates that the slope of *J*<sup>c</sup> can be significantly decreased with the temperature ramp-down approach. Additionally, the temperature routes 2-4 are also plotted with dashed lines in Fig. 1(c, f). We suppose this temperature ramp-down strategy can simultaneously circumvent flux jump regimes while preserve the critical current density of superconducting wires under high magnetic fields. For the purpose of validation, we conduct additional magnetization experiments and performed numerical simulations on superconducting wires with simultaneously increasing magnetic field and varying temperature. As shown in Fig. 2(d), the temperature ramp-down strategy can indeed suppress the flux jumps during the field ramp process. There are no any spikes observed in the magnetization and the flux jump instability is entirely eliminated with the temperature routes 10→4.2 K and 8→4.2 K (see more detailed experimental and simulated results in Supplementary Information).\n\n## **Suppression of Flux Jumps in Superconducting coils**\n\nAs shown in Fig. 3(a), high-field superconducting magnets are fabricated through densely wound configurations of high-*J*<sup>c</sup> multifilamentary superconducting wires with structural stabilization achieved via epoxy resin impregnation and curing protocols. As demonstrated in Ref. [47], Nb3Sn magnet systems exhibit fundamentally distinct flux jump dynamics compared to a single bare Nb3Sn wire. This complexity arises from two synergistic mechanisms: (i) spatially heterogeneous magnetic field ramping-rates across superconducting wires, (ii) strong thermal coupling between neighboring wires. Crucially, thermal perturbations generated by localized flux jumps propagate through the magnet's thermal network, thereby inducing premature thermomagnetic instabilities in adjacent wires below their intrinsic critical thresholds. Consequently, the global instability of superconducting magnets manifests not as linear superposition of individual wire behaviors, but rather as nonlinear spatiotemporal propagation of coupled thermomagnetic disturbances. In this case, we further explore the temperature-modulated suppression of flux jumps in the superconducting coils.\n\nOur numerical model consists a solenoid coil configuration with *N*x×*N*<sup>y</sup> winding turns, subjected to linearly ramped transport current *I*a(*t*) as illustrated in Fig. 3(a). The field-dependent critical current density (*J*c) characteristics of the multifilamentary superconducting wire at various operational temperatures are presented in Fig. 3(b). Both 40×40 and 20×20 turn configurations exhibit linear scaling between peak self-field generation and applied current density. The quench current for these coil geometries under different fixed temperatures are determined by critical intersection coordinates between the transport current load line and *J*c(*B*,*T*) characteristics, visualized as demarcation curves separating stable operation from quench regimes in Fig. 3(c, d).\n\nUtilizing the large-scale GPU-optimized numerical algorithm, we systematically conduct electromagnetic-thermal coupling simulations at different fixed working temperatures in order to map the thermomagnetic instability boundaries in temperature-applied current (*I*a-*T*) plane for both coil configurations (cases of 40×40 and 20×20 as shown in Fig. 3(c, d)). Remarkably, persistent flux jumps are observed at 4.2 K until transport current exceeds 600 A for the coil with 40×40 turns. This phenomenon arises from the localized field in the inner region of the coil is still in the regime of thermomagnetic instabilities as discussed in Ref. [47].\n![](0__page_7_Figure_0.jpeg)\n\nFig. 3. Schematic of numerical model for a solenoid superconducting coil with *N*x×*N*<sup>y</sup> winding turns. (b) The variations of critical current density with magnetic field at different working temperatures. The ramped transport current for the coils with 40×40 and 20×20 turns. (c, d) Thermomagnetic stability diagram and the quench current trajectories in the temperature-applied current (*I*a-*T*) plane for the coils with 40×40 and 20×20 turns with current ramping-rate of 1 A/s. (e, f) The time-evolutions of maximum temperature in the coils during current ramp-up with progressive cooling from 8 K, 7 K, 6 K, and 5 K to a terminal state of 4.2 K.\n\nHaving established the thermomagnetic stability diagram and the quench current trajectories in the *I*a-*T* plane for the studied coil configuration, four distinct thermal control protocols are implemented during current ramp-up process: progressive cooling from initial working temperatures of 8 K, 7 K, 6 K, and 5 K to a terminal state of 4.2 K (depicted as dashed trajectories in Fig. 3(c, d)). Numerical modeling results for the 40×40 turn configuration, presented in Fig. 3(e), reveal fundamentally different time-evolution of maximum temperature in the coil. The 8→4.2 K cooling trajectory demonstrates exceptional thermal stability, exhibiting smooth temperature progression devoid of characteristic flux jump spikes and conclusive evidence of complete flux jump suppression. This suppression mechanism is well consistent with the protocol's strategic avoidance of the identified flux jump regime in the phase diagram (see Fig. 3(c, d)). Furthermore, the flux jump region in the *I*a-*T* phase diagram exhibits dependence not only on the number of turns in superconducting coils but also on the current ramping-rate (see Fig. S7 in Supplementary Material). Additionally, it is worth noting that modifications in coil configurations, such as racetrack coils, will correspondingly alter the flux jump regions, which is needed to explore in further work.\n\nTo facilitate engineering applications, we introduce the following generalized strategy for circumventing flux jumps in superconducting magnet systems. Considering a magnet designed for operation at temperature *T*<sup>0</sup> (e.g., Nb3Sn magnets typically operating at 4.2 K), the temperature trajectory should be initiated at 10–12 K followed by linear cooling synchronized with the current ramp process. This approach leverages the characteristic convex temperature dependence of the magnet's quench current curve. The terminal condition requires the cooldown path to reach 4.2 K with the operating current maintained at 0.8–0.9 times the quench current, i.e., 0.8*I*c(*T*0) or 0.9*I*c(*T*0). This dual-constrained protocol achieves concurrent mitigation of flux jump phenomena while preserving a sufficient safety margin against quench initiation, as the coordinated temperature-current pathway systematically avoids both instability regimes.\n\nTo systematically validate the theoretical framework, it is imperative to implement complementary experimental investigations. We propose two feasible experimental schemes as shown in Fig. S8 in Supplementary Material. (i) Active Thermal Control Scheme: Integration of heating resistors external to the superconducting coil enables precise temperature variations through currentcontrolled Joule heating. This permits programmable cooling trajectories synchronized with energization processes. (ii) Coaxial Current Injection Scheme: A modified conductor design employing coaxial cable geometry could be implemented, incorporating an insulated thin copper core along the central axis. By applying an independent current through this copper channel – decoupled from the main transport current – localized resistive heating can be achieved while maintaining electrical isolation, thereby enabling in-situ temperature modulation during magnet operation.\n\nIn summary, this work presents a synchronous temperature-modulated strategy to comprehensively suppress thermomagnetic instabilities in ramped superconducting magnets. Systematic investigations were conducted through numerical simulations and experimental magnetization measurements on a single multifilamentary wire, establishing a thermomagnetic stability phase diagram in the magnetic field-temperature (*H*a-*T*) plane. We demonstrate that complete suppression of flux jumps can be achieved through real-time temperature-modulated critical current density. Furthermore, large-scale GPU-accelerated parallel computations were implemented through home-made CUDA-coded programs to simulate solenoid magnet stability, reconstructing the thermomagnetic stability phase diagram in current-temperature (*I*a-*T*) plane. Numerical results confirm that synchronized cooling during current ramp process not only fully suppresses flux jumps but also maintains operational currents below the quench threshold, thereby achieving dual stability against both flux jumps and quench.\n\nThis paradigm-shifting approach addresses the challenges of intrinsic flux jump suppression in high-field Nb3Sn magnets. The proposed methodology offers significant advantages by avoiding the necessity for altering the superconducting microstructure or modifying established fabrication processes of superconducting wires, while simultaneously maintaining the quench critical current of the magnet system. The findings presented in this work not only deliver a practical solution for developing stable high-field (12-16 T) Nb3Sn magnets, but also extend beyond Nb3Sn systems, demonstrating broader applicability in enhancing the stability of various high-field superconducting magnets to address rapid localized quench events, such as high temperature superconducting magnets wound with second-generation (2G) coated conductor tapes. The established framework not only enables electromagnetic optimization across diverse engineering implementations but also stimulates further experimental and theoretical investigations into multiscale field-coupled stability problems. More fundamentally, the derived stability criteria and control philosophy shed new insights for managing instability phenomena in other complex multi-physics systems involving strong electromagnetic-thermal coupling.\n\n## **Acknowledgement**\n\nC.X. and H.X.R acknowledge support from the National Natural Science Foundation of China (Grant Nos. 12372210 and 11972298).\n\n## **References**\n\n- [1] J.P. Sethna, K.A. Dahmen, C.R. Myers. Crackling noise. Nature*,* 410, 242-250 (2001).\n- [2] S. Zapperi, A. Vespignani, H.E. Stanley. Plasticity and avalanche behaviour in microfracturing phenomena. Nature*,* 388, 658-660 (1997).\n- [3] S. Field, J. Witt, F. Nori, X.-S. Ling. Superconducting vortex avalanches. Physical Review Letters*,* 74, 1206 (1995).\n- [4] E. Altshuler, T.H. Johansen. Colloquium: Experiments in vortex avalanches. Reviews of Modern Physics*,* 76, 471 (2004).\n- [5] P. Diodati, F. Marchesoni, S. Piazza. Acoustic emission from volcanic rocks: An example of self-organized criticality. Physical Review Letters*,* 67, 2239 (1991).\n- [6] R.G. Mints, A.L. Rakhmanov. Critical state stability in type-II superconductors and superconducting-normalmetal composites. Reviews of Modern Physics*,* 53, 551 (1981).\n- [7] S.L. Wipf. Magnetic instabilities in type-II superconductors. Physical Review*,* 161, 404 (1967).\n- [8] P.S. Swartz, C.P. Bean. A model for magnetic instabilities in hard superconductors: The adiabatic critical state. Journal of Applied Physics*,* 39, 4991-4998 (1968).\n- [9] Z.-L. Xiao, P. Voss-de Haan, G. Jakob, T. Kluge, P. Haibach, H. Adrian, E.Y. Andrei. Flux-flow instability and its anisotropy in Bi2Sr2CaCu2O8+δ superconducting films. Physical Review B*,* 59, 1481 (1999).\n- [10] A.K. Ghosh, E.A. Sperry, L.D. Cooley, A.M. Moodenbaugh, R.L. Sabatini, J.L. Wright. Dynamic stability threshold in high-performance internal-tin Nb3Sn superconductors for high field magnets. Superconductor Science and Technology*,* 18, L5 (2004).\n- [11] G. Ambrosio, N. Andreev, S.E. Bartlett, E. Barzi, C.-H. Denarie, D. Dietderich, A.K. Ghosh, A.P. Verweij, A.V. Zlobin. Critical current and instability threshold measurement of Nb3Sn cables for high field accelerator magnets. IEEE Transactions on Applied Superconductivity*,* 15, 1545-1549 (2005).\n- [12] L.D. Cooley. More time for Nb3Sn magnet conductors. Superconductor Science and Technology*,* 31, 100501 (2018).\n- [13] S. Stoynev, G. Ambrosio, M. Anerella, R. Bossert, E. Cavanna, D. Cheng, D. Dietderich, J. DiMarco, H. Felice, P. Ferracin. Summary of test results of MQXFS1—The first short model 150 mm aperture Nb3Sn quadrupole for the high-luminosity LHC upgrade. IEEE Transactions on Applied Superconductivity*,* 28, 1-5 (2017).\n- [14] B. Bordini, D. Richter, P. Alknes, A. Ballarino, L. Bottura, L. Oberli. Magnetization Measurements of High- J<sup>C</sup> Nb3Sn Strands. IEEE Transactions on Applied Superconductivity*,* 23, 7100806 (2013).\n- [15] A. Ballarino, L. Bottura. Targets for R&D on Nb3Sn conductor for high energy physics. IEEE Transactions on applied superconductivity*,* 25, 1-6 (2015).\n- [16] A. Facco, V. Zvyagintsev. Beam steering in superconducting quarter-wave resonators: An analytical approach. Physical Review Special Topics—Accelerators Beams*,* 14, 070101 (2011).\n- [17] M. Martino, P. Arpaia, S. Ierardi, \"Impact of flux jumps on high-precision powering of Nb3Sn superconducting magnets,\" in *Journal of Physics: Conference Series*, 2019, p. 012180.\n- [18] R.B. Goldfarb, L.F. Goodrich, T. Pyon, E. Gregory. Suppression of flux jumps in marginally stable Niobium-Tin superconductors. IEEE Transactions on Applied Superconductivity*,* 11, 3679-3682 (2001).\n- [19] V.V. Kashikhin, A.V. Zlobin. Magnetic instabilities in Nb3Sn strands and cables. IEEE Transactions on Applied Superconductivity*,* 15, 1621-1624 (2005).\n- [20] A.K. Ghosh, L.D. Cooley, A.R. Moodenbaugh. Investigation of instability in high Jc Nb3Sn strands. IEEE Transactions on Applied Superconductivity*,* 15, 3360-3363 (2005).\n- [21] L.D. Cooley, P.S. Chang, A.K. Ghosh. Magnetization, RRR and stability of Nb3Sn strands with high subelement number. IEEE Transactions on Applied Superconductivity*,* 17, 2706-2709 (2007).\n- [22] M.B. Field, Y.-Z. Zhang, H.-P. Miao, M. Gerace, J.A. Parrell. Optimizing Nb3Sn conductors for high field applications. IEEE Transactions on Applied Superconductivity*,* 24, 1-5 (2013).\n- [23] X. Xu, M.D. Sumption, X. Peng. Internally oxidized Nb3Sn strands with fine grain size and high critical current density. Advanced Materials*,* 27, 1346-1350 (2015).\n- [24] X. Xu, M. Sumption, X. Peng, E.W. Collings. Refinement of Nb3Sn grain size by the generation of ZrO<sup>2</sup> precipitates in Nb3Sn wires. Applied Physics Letters*,* 104, 082602 (2014).\n- [25] X. Xu, J. Rochester, X. Peng, M. Sumption, M. Tomsic. Ternary Nb3Sn superconductors with artificial pinning centers and high upper critical fields. Superconductor Science and Technology*,* 32, 02LT01 (2019).\n- [26] X. Xu, X. Peng, J. Rochester, J.-Y. Lee, M. Sumption. High critical current density in internally-oxidized Nb3Sn superconductors and its origin. Scripta Materialia*,* 186, 317-320 (2020).\n- [27] J. Rochester, M. Ortino, X. Xu, X. Peng, M. Sumption. The roles of grain boundary refinement and nanoprecipitates in flux pinning of APC Nb3Sn. IEEE Transactions on Applied Superconductivity*,* 31, 1-5 (2021).\n- [28] X. Xu, M.D. Sumption, F. Wan, X. Peng, J. Rochester, E.S. Choi. Significant reduction in the low-field magnetization of Nb3Sn superconducting strands using the internal oxidation APC approach. Superconductor Science and Technology*,* 36, 085008 (2023).\n- [29] X. Xu, M.D. Sumption, E.W. Collings. Influence of heat treatment temperature and Ti doping on low-field flux jumping and stability in (Nb-Ta) 3Sn strands. Superconductor Science and Technology*,* 27, 095009 (2014).\n- [30] B. Zheng, W. Xie, Y.-H. Liu, X.-Y. Zhu, X. Ming, Y.-H. Zhang, H.-H. Wen. Optimization of magnetic stability in Nb3Sn materials near stoichiometric composition. IEEE Transactions on Applied Superconductivity*,* 34, 8200910 (2024).\n- [31] P.A. Alekseev, A.I. Boev, V.E. Keilin, I.A. Kovalev, S.L. Kruglov, V.N. Lazukov, I.P. Sadikov. Experimental evidence of considerable stability increase in superconducting windings with extremely high specific heat substances. Cryogenics*,* 44, 763-766 (2004).\n- [32] V.E. Keilin, P.A. Alekseev, A.I. Boev, I.A. Kovalev, S.S. Kozub, S.L. Kruglov, V.N. Lazukov, I.P. Sadikov. Considerable stability increase in superconducting windings doped with extremely high specific heat substances. IEEE transactions on applied superconductivity*,* 15, 1629-1632 (2005).\n- [33] P.A. Alekseev, A.I. Boev, V.E. Keilin, I.A. Kovalev, S.S. Kozub, E.A. Kostrov, S.L. Kruglov, V.N. Lazukov, I.P. Sadikov, D.I. Shutova. Influence of high heat capacity substances doping on quench currents of fast ramped superconducting oval windings. Cryogenics*,* 46, 252-255 (2006).\n- [34] V. Keilin, I. Kovalev, S. Kruglov, D. Lupanov, V. Shcherbakov. Increasing thermomagnetic stability of composite superconductors with additives of extremely-large-heat-capacity substances. Technical Physics Letters*,* 34, 418-420 (2008).\n- [35] V.E. Keilin, I.A. Kovalev, S.L. Kruglov, D.I. Shutova. The influence of thermal disturbance duration on the stability of superconducting windings with extremely large heat capacity dopants. Superconductor Science and Technology*,* 21, 025018 (2008).\n- [36] V.E. Keilin, I.A. Kovalev, S.L. Kruglov, E.A. Kostrov, D.I. Shutova, P.A. Alekseev, V.N. Lazukov, I.P. Sadikov, I.I. Akimov, M.I. Medvedev. Stability Increase of NbTi Conductors With Additions of Extremely Large Specific Heat Substances. IEEE Transactions on Applied Superconductivity*,* 16, 1172-1175 (2006).\n- [37] P.A. Alekseev, V.E. Keilin, I.A. Kovalev, S.L. Kruglov, V.N. Lazukov, M.I. Medvedev, D.I. Shutova. Investigation of considerable stability increase of composite superconductors doped withextremely large heat capacity substances. Superconductor Science and Technology*,* 20, 71 (2006).\n- [38] V.E. Keilin, P.A. Alekseev, I.A. Kovalev, S.L. Kruglov, V.N. Lazukov, M.I. Medvedev, D.I. Shutova. Considerable rise in the stability of combined superconductors doped by intermetallic compounds with an extremely high low-temperature specific heat. Technical Physics*,* 52, 1148-1154 (2007).\n- [39] V.E. Keilin, I.A. Kovalev, S.L. Kruglov, D.I. Shutova, A.E. Vorobjeva, M.I. Medvedev, A.K. Shikov. Considerable stability increase of Nb3Sn multifilamentary wire internally doped with a large heat capacity substance (PrB6). Superconductor Science and Technology*,* 22, 085007 (2009).\n- [40] V.E. Keilin, I.A. Kovalev, S.L. Kruglov, A.K. Shikov, D.I. Shutova, A.E. Vorob'eva, M.I. Medvedev, L.V. Potanina, N.I. Salunin. Gain in the stability of NbTi composite superconductor doped by large-heat-capacity substance Gd2O2S. Technical Physics*,* 55, 1459-1462 (2010).\n- [41] V.E. Keilin, I.A. Kovalev, S.L. Kruglov, D.I. Shutova, V.I. Scherbakov. Considerable increase in the thermomagnetic stability of multifilament superconductors internally doped by large-heat-capacity substances. Technical Physics*,* 55, 312-315 (2010).\n- [42] V.E. Keilin, A.A. Iljin, A.V. Naumov, I.A. Kovalev, S.L. Kruglov, A.K. Shikov, D.I. Shutova, A.E. Vorobjeva, M.I. Medvedev, L.V. Potanina. Stability of superconducting coils made of NbTi wires internally doped with large heat capacity Gd2O<sup>3</sup> powder. Superconductor Science and Technology*,* 25, 115017 (2012).\n- [43] X. Xu, P. Li, A.V. Zlobin, X. Peng. Improvement of stability of Nb3Sn superconductors by introducing high specific heat substances. Superconductor Science and Technology*,* 31, 03LT02 (2018).\n- [44] X. Xu, A.V. Zlobin, X. Peng, P. Li. Development and study of Nb3Sn wires with high specific heat. IEEE Transactions on Applied Superconductivity*,* 29, 1-4 (2019).\n- [45] E. Barzi, F. Berritta, D. Turrioni, A.V. Zlobin. Heat diffusion in high-Cp Nb3Sn composite superconducting wires. Instruments*,* 4, 28 (2020).\n- [46] X. Xu, X. Peng, F. Wan, J. Rochester, M. Sumption. Recent progress in developing Nb3Sn conductors with increased specific heat. IEEE Transactions on Applied Superconductivity*,* 33, 1-5 (2023).\n- [47] C. Xue, H.-X. Ren, P. Jia, Q.-Y. Wang, W. Liu, X.-J. Ou, L.-T. Sun, A.V. Silhanek. Holistic numerical simulation of a quenching process on a real-size multifilamentary superconducting coil. Nature Communications*,* 15, 10454 (2024).",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Complete suppression of flux instabilities in ramped superconducting \nmagnets with synchronous temperature-modulated Jc",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              74.6455078125,
+              76.1068115234375
+            ],
+            [
+              523.3299560546875,
+              76.1068115234375
+            ],
+            [
+              523.3299560546875,
+              111.14678955078125
+            ],
+            [
+              74.6455078125,
+              111.14678955078125
+            ]
+          ]
+        },
+        {
+          "title": "Abstract",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              53.728759765625,
+              327.79150390625
+            ],
+            [
+              98.55599975585938,
+              327.79150390625
+            ],
+            [
+              98.55599975585938,
+              340.21240234375
+            ],
+            [
+              53.728759765625,
+              340.21240234375
+            ]
+          ]
+        },
+        {
+          "title": "Fully Suppression of Flux Jumps in Superconducting Wires",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              53.255859375,
+              510.0914611816406
+            ],
+            [
+              359.5439453125,
+              510.0914611816406
+            ],
+            [
+              359.5439453125,
+              522.0914611816406
+            ],
+            [
+              53.255859375,
+              522.0914611816406
+            ]
+          ]
+        },
+        {
+          "title": "Suppression of Flux Jumps in Superconducting coils",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              53.255859375,
+              111.6414794921875
+            ],
+            [
+              321.887939453125,
+              111.6414794921875
+            ],
+            [
+              321.887939453125,
+              124.059326171875
+            ],
+            [
+              53.255859375,
+              124.059326171875
+            ]
+          ]
+        },
+        {
+          "title": "Acknowledgement",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              53.546875,
+              483.3314514160156
+            ],
+            [
+              148.656005859375,
+              483.3314514160156
+            ],
+            [
+              148.656005859375,
+              495.3314514160156
+            ],
+            [
+              53.546875,
+              495.3314514160156
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              53.03759765625,
+              572.6414489746094
+            ],
+            [
+              110.07666015625,
+              572.6414489746094
+            ],
+            [
+              110.07666015625,
+              585.0419921875
+            ],
+            [
+              53.03759765625,
+              585.0419921875
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              217
+            ],
+            [
+              "Line",
+              42
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "ListItem",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              87
+            ],
+            [
+              "Line",
+              30
+            ],
+            [
+              "Text",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              92
+            ],
+            [
+              "Line",
+              28
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              60
+            ],
+            [
+              "Line",
+              17
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              63
+            ],
+            [
+              "Line",
+              19
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              124
+            ],
+            [
+              "Line",
+              31
+            ],
+            [
+              "TextInlineMath",
+              3
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              104
+            ],
+            [
+              "Line",
+              28
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              71
+            ],
+            [
+              "Line",
+              18
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              120
+            ],
+            [
+              "Line",
+              31
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "TextInlineMath",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              130
+            ],
+            [
+              "Line",
+              32
+            ],
+            [
+              "ListItem",
+              6
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              225
+            ],
+            [
+              "Line",
+              42
+            ],
+            [
+              "ListItem",
+              20
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              175
+            ],
+            [
+              "Line",
+              43
+            ],
+            [
+              "ListItem",
+              15
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              70
+            ],
+            [
+              "Line",
+              14
+            ],
+            [
+              "ListItem",
+              6
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 13,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Complete suppression of flux instabilities in ramped superconducting magnets with synchronous temperature-modulated Jc",
+    "authors": [
+      {
+        "authors_list": [
+          "Xue, Cun",
+          "Ren, Han-Xi",
+          "Cao, Kai-Wei",
+          "Liu, Wei",
+          "Zhang, Wen-Tao",
+          "Yang,"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Nonlinear multifield coupling as an intrinsic property of complex physical systems often leads to abrupt and undesired instabilities.For currentramped high field Nb3Sn magnets, frequent flux jumps are observed, which easily causes premature quenches and requires prolonged and resourceintensive magnet training process.In this study, we propose a paradigm shifting methodology framework that achieves complete suppression of thermomagnetic instabilities through synchronized temperature-modulated critical current density Jc.Through numerical simulations of flux jumps in multifilamentary Nb3Sn wires exposed to a time varying magnetic field at various temperatures, we construct thermomagnetic stability diagram in the Ha-T plane.The simulated results are in good agreement with experimental measurements, which demonstrates the synchronized ramped down temperature can indeed fully eliminate flux jumps.We reveal the underlying physical mechanism of enhancing the thermomagnetic stability arises from that synchronized ramped-down temperature can continuously tune both Jc and its slope.Furthermore, we carry out numerical simulations for the thermomagnetic instabilities of current-ramped superconducting magnets through large-scale GPU-optimized algorithm with home-made codes. The flux jump and quench diagram in the Ia-T plane are obtained.It indicates that the ramped-down temperature can completely suppress flux jumps without compromising Jc at high magnetic fields.Importantly, this method does not require modifications to the superconducting microstructures or fabrication process, offering a practical and broadly applicable solution.The findings offer a robust method to stabilize diverse superconducting magnet systems (including 2nd-gen coated tape HTS magnets), and propose a generalizable strategy for controlling instability in nonlinear non-equilibrium physical systems.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2505.04159"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2025arXiv250504159X"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

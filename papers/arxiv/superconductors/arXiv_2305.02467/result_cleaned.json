@@ -1,0 +1,1565 @@
+{
+  "id": "b282448913e4d8d591f54424fdcbc8c6",
+  "pdf_path": "apl/Superconductors/arXiv:2305.02467.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# Surface oxides, carbides, and impurities on RF superconducting Nb and Nb3Sn: A comprehensive analysis\n\nZeming Sun<sup>1</sup>,2,<sup>∗</sup> , Zhaslan Baraissov<sup>3</sup> , Catherine A. Dukes<sup>4</sup> , Darrah K. Dare<sup>5</sup> , Thomas Oseroff<sup>1</sup>,<sup>2</sup> , Michael O. Thompson<sup>6</sup> , David A. Muller<sup>3</sup> , Matthias U. Liepe<sup>1</sup>,<sup>2</sup>\n\n<sup>1</sup> Cornell Laboratory for Accelerator-based Sciences and Education, Cornell University, Ithaca, New York, 14853, United States of America\n\n<sup>2</sup> Department of Physics, Cornell University, Ithaca, New York, 14853, United States of America\n\n<sup>3</sup> School of Applied & Engineering Physics, Cornell University, Ithaca, New York, 14853, United States of America\n\n<sup>4</sup> Laboratory for Astrophysics and Surface Physics, University of Virginia,\n\nCharlottesville, Virginia, 22904, United States of America\n\n<sup>5</sup> Cornell Center for Materials Research, Cornell University, Ithaca, New York, 14853, United States of America\n\n<sup>6</sup> Materials Science and Engineering, Cornell University, Ithaca, New York, 14853, United States of America\n\nE-mail: zs253@cornell.edu\n\nSeptember 2023\n\nAbstract. Surface structures on radio-frequency (RF) superconductors are crucially important in determining their interaction with the RF field. Here we investigate the surface compositions, structural profiles, and valence distributions of oxides, carbides, and impurities on niobium (Nb) and niobium-tin (Nb3Sn) in situ under different processing conditions. We establish the underlying mechanisms of vacuum baking and nitrogen processing in Nb and demonstrate that carbide formation induced during high-temperature baking, regardless of gas environment, determines subsequent oxide formation upon air exposure or low-temperature baking, leading to modifications of the electron population profile. Our findings support the combined contribution of surface oxides and second-phase formation to the outcome of ultra-high vacuum baking (oxygen processing) and nitrogen processing. Also, we observe that vapor-diffused Nb3Sn contains thick metastable oxides, while electrochemically synthesized Nb3Sn only has a thin oxide layer. Our findings reveal fundamental mechanisms of baking and processing Nb and Nb3Sn surface structures for high-performance superconducting RF and quantum applications.\n\nKeywords: niobium, niobium-tin, surface, oxide, carbide, impurity, superconducting radio-frequency\n\n## 1. Introduction\n\nNiobium (Nb) oxides with diverse chemistries, phase structures, atomic-scale layering, and properties are widely used in various applications, including catalysis, electrolytic capacitors, solar cells, photodetectors, carrier selective contacts, photochromic and electrical-switching devices, and critical temperature sensors [\\[1\\]](#page-22-0). The oxides in the form of native layers on the superconducting Nb surface are critical – functional or detrimental – in a wide range of emerging superconducting radio-frequency/microwave (SRF) technologies, such as SRF resonators [\\[2\\]](#page-22-1), SRF cavities and photoinjectors for particle accelerator applications [\\[3,](#page-22-2) [4\\]](#page-22-3), superconducting quantum computing [\\[5,](#page-22-4) [6\\]](#page-22-5), microwave parametric amplifiers [\\[7\\]](#page-22-6), and ultra-sensitive detectors and filters (e.g., kinetic inductance detectors [\\[8\\]](#page-22-7)).\n\nIn high-field (MVm<sup>−</sup><sup>1</sup> -scale), high-operation-temperature (2 – 4.2 K) SRF applications, surface oxide alterations and subsurface impurities significantly affect relevant cavity metrics of the industry-standard Nb (critical temperature T<sup>c</sup> =9.2 K) [\\[9,](#page-22-8) [10,](#page-22-9) [11,](#page-22-10) [12,](#page-22-11) [13\\]](#page-22-12). These foreign surface structures could also impact the next-generation SRF candidate niobium-tin (Nb3Sn, T<sup>c</sup> = 18 K). The RF field only interacts with the near-surface layer of superconductors, i.e., ∼ 40 nm in Nb and ∼ 100 nm in Nb3Sn, whereas the \"dirty\" native layer is typically several nanometers thick, with impurities appearing as deep as tens of nanometers (as observed in this work).\n\nAn ideal SRF surface could consist of either a dielectric capping layer or a normalconducting proximity-coupled layer proposed by Gurevich and Kubo [\\[14,](#page-22-13) [15\\]](#page-22-14). The normal-conducting design could potentially utilize oxides of the desired thickness, structure, and electrical properties [\\[13\\]](#page-22-12). One of the objectives of this work is to provide a map of the structures and depths of surface oxides for (i) in situ heated Nb samples under ultra-high vacuum (UHV) and nitrogen (N2) environments, (ii) 13 types of Nb coupon samples processed by acid/polishing, ozone, anodization, and heat treatments covering nearly all the protocols used in SRF preparations, (iii) Nb3Sn coupons made by conventional vapor diffusion [\\[16\\]](#page-22-15) and the new electrochemical synthesis [\\[17\\]](#page-22-16), and their in situ vacuum heated samples.\n\nInspired by the theoretical surface design [\\[14,](#page-22-13) [15\\]](#page-22-14), Oseroff [\\[18,](#page-22-17) [19\\]](#page-22-18) invented a thin-Au/Nb SRF surface, where a nanometer-thin normal-conducting gold (Au) layer could be relevant for losses and potentially beneficial if engineered with subnanometer thinness and specific electrical properties. The advantage of thinner surface oxides was also observed in tunneling experiments [\\[13\\]](#page-22-12). This work is designed to support the construction of SRF surfaces by fundamentally understanding the nature of surface oxides and valence bonding with impurities and indicating electronic structures.\n\nAdditionally, in low-field (Vm<sup>−</sup><sup>1</sup> -scale), low-operation-temperature (mK-scale) SRF applications (e.g., quantum qubits [\\[20\\]](#page-22-19), cavity quantum electrodynamics (QED) [\\[20\\]](#page-22-19), and SRF cavities used as QED architecture [\\[21\\]](#page-22-20)), oxide dielectrics create superconductor-insulator Josephson junction QED and enable the realization of logical operation states. However, amorphous oxides, which act as a two-level system, dominate dissipation and decoherence and hinder the preservation of logical states [\\[22,](#page-22-21) [23,](#page-22-22) [24\\]](#page-22-23). This study in materials chemistry contributes to the investigation of loss mechanisms and the development of new interfaces for these emerging SRF devices.\n\nNumerous studies [\\[3,](#page-22-2) [4,](#page-22-3) [25,](#page-22-24) [26,](#page-22-25) [27,](#page-22-26) [28,](#page-22-27) [29,](#page-22-28) [30,](#page-22-29) [31,](#page-22-30) [32,](#page-23-0) [33,](#page-23-1) [34,](#page-23-2) [35\\]](#page-23-3) have investigated surface oxides and oxidization processes on Nb. The Nb surface is easily oxidized and presents signs of oxidization even with low oxygen exposures (0.2 – 2 langmuir) [\\[33,](#page-23-1) [34\\]](#page-23-2). Oxygen diffuses fairly fast in Nb with coefficients of 3 × 10<sup>−</sup><sup>8</sup> cm<sup>2</sup>/s at 800 °C and 10<sup>−</sup><sup>21</sup> cm<sup>2</sup>/s at 50 °C [\\[36\\]](#page-23-4). In recent years, native oxides on a high-purity Nb surface exposed to ambient pressure at room temperature (RT) are believed to comprise roughly three layers in the following order: 1 – 6 nm pentoxide (Nb2O5) / 0 – 2 nm dioxide (NbO2) / 0.3 – 1 nm monoxide (NbO) / Nb (table [1\\)](#page-3-0). In bulk studies, Nb2O<sup>5</sup> exhibits amorphous, hexagonal, orthorhombic, tetragonal, and monoclinic structures at elevated temperatures [\\[37,](#page-23-5) [38\\]](#page-23-6), with 3.2 – 4.2 eV band gaps being dielectric [\\[39\\]](#page-23-7). NbO<sup>2</sup> has a distorted-rutile structure with a 0.7 eV band gap being semiconducting (close to dielectric for the Nb SRF cavity operation). NbO has a vacancy-ordered rocksalt structure [\\[40\\]](#page-23-8) with a 1.4 K T<sup>c</sup> (normal-conducting at the cavity operation temperature). However, surface oxides do not fully follow their bulk properties. For example, surface Nb2O<sup>5</sup> and NbO<sup>2</sup> decompose and disappear above 250 – 300 °C, instead of transforming into another phase as the bulk behaves. Therefore, resolving accurate surface structures is critical to guiding the interpretation of loss mechanisms and the surface design of dielectric or proximity-coupled normal-conducting passivations.\n\nDespite the large volume of literature (table [1\\)](#page-3-0)[\\[3,](#page-22-2) [25,](#page-22-24) [26,](#page-22-25) [27,](#page-22-26) [28,](#page-22-27) [29,](#page-22-28) [30,](#page-22-29) [31,](#page-22-30) [32,](#page-23-0) [13\\]](#page-22-12), significant variations exist across surface Nb oxides in terms of their native structures, depths, and decomposition products. Such discrepancies hinder a unified theory describing the SRF surface. For example, Eremeev [\\[9\\]](#page-22-8) observed inconsistent SRF responses between repeated treatments, despite in situ modulation of surface oxide removal and re-growth. The probable causes include the unstable and non-uniform nature of surface oxides, the processing history, small variations between treatments (owing to the Nb surface's extremely high sensitivity/reactivity), and variations in instrument resolutions and analysis methods. These unclear results motivate revisiting the Nb surface oxide chemistry.\n\nImportant questions remain, further, of how multiple impurities (e.g., oxygen, O; carbon, C; and nitrogen, N) interact with Nb upon heating and affect subsequent oxidization. Impurity processing has recently become a key element of Nb SRF cavity treatments, producing record accelerating gradients and quality factors approaching the theoretical limit [\\[11,](#page-22-10) [12\\]](#page-22-11). These treatments involve N<sup>2</sup> processing (so-called \"N<sup>2</sup> doping\"[\\[12\\]](#page-22-11) and \"N<sup>2</sup> infusion\"[\\[11,](#page-22-10) [41,](#page-23-9) [42\\]](#page-23-10)) at 20 – 45 mTorr N<sup>2</sup> pressures at low (120 – 160 °C) [\\[11,](#page-22-10) [41,](#page-23-9) [42\\]](#page-23-10), medium (300 – 400 °C) [\\[43,](#page-23-11) [44\\]](#page-23-12), and high (800 – 1000 °C)[\\[12\\]](#page-22-11) temperatures, or UHV baking similarly at low [\\[10\\]](#page-22-9) and medium [\\[45\\]](#page-23-13) temperatures. With claims of new recipes and new associated physics emerging, there is a need to provide an accurate picture of the processed Nb surface to build the foundation used for relevant theoretical modeling and process development. Secondary ion mass spectroscopy, SIMS,\n\n| Oxide structure and depth                                                                                                                                                           | Thermal decomposition of oxides                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Bake-induced<br>carbides                                                                        | Subsurface<br>impurities                                           | Methods*                                              | Ref.                                           |\n|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|-------------------------------------------------------|------------------------------------------------|\n| 2 – 6 nm Nb2O5−x<br>/ ∼ 1 nm NbO1−y<br>at<br>(6 – 8)<br>× 10−10 Torr                                                                                                                | < 1 nm<br>NbO1−y<br>1850<br>at<br>at<br>°C<br>8 × 10−10 Torr                                                                                                                                                                                                                                                                                                                                                                                                                                              | –                                                                                               | ∼ 50 nm NbO0.02                                                    | Sputter-assisted<br>ARXPS;<br>XPS;<br>AES             | [3, 25, 26,<br>27]                             |\n| Nb2O5 at 10−10 Torr                                                                                                                                                                 | < 1 nm NbO at<br>> 325 °C                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | –                                                                                               | –                                                                  | XPS                                                   | [28]                                           |\n| 6 nm Nb2O5<br>at 2<br>× 10−10 Torr                                                                                                                                                  | 1.5 nm Nb2O5<br>/ 4.5 nm NbO2<br>at 280<br>°C<br>at 2<br>× 10−10 Torr<br>< 1 nm NbO2<br>/ 1.5 nm NbO at 380<br>°C<br>at 2<br>× 10−10 Torr<br>< 1 nm<br>NbO<br>at<br>at<br>> 500 °C<br>2 × 10−10 Torr                                                                                                                                                                                                                                                                                                      | C monolayers at<br>< 700 °C;<br>formation<br>NbC<br>during cooling                              | –                                                                  | ARXPS                                                 | [29]                                           |\n| 3 nm Nb2O5<br>/ 1 nm NbOx<br>or 2 nm<br>Nb2O5 / NbO2<br>/ other oxides at<br>2 × 10−10 Torr                                                                                         | < 1 nm<br>Nb2O<br>at<br>250 –275<br>at<br>°C<br>10−9 Torr                                                                                                                                                                                                                                                                                                                                                                                                                                                 | –                                                                                               | –                                                                  | Synchrotron<br>glancing<br>XPS;<br>incidence<br>ARXPS | [30, 31]                                       |\n| 1 nm Nb2O5<br>/ 0.7 nm NbO2<br>/ 0.3 nm<br>NbO at 8<br>× 10−10 Torr                                                                                                                 | 0.8 nm Nb2O5<br>/ 0.7 nm NbO2<br>/ 0.3 nm<br>NbO at 145<br>°C at 8<br>× 10−10 Torr<br>1 nm NbO at 300<br>°C at 8<br>× 10−10 Torr                                                                                                                                                                                                                                                                                                                                                                          | –                                                                                               | ∼ 10 nm O inter<br>stitials at 145<br>°C<br>at UHV                 | XRR; X-ray dif<br>scattering;<br>fuse<br>XPS          | [32]                                           |\n| 1 –3 nm Nb2O5<br>/ 0.2 –1 nm NbO2<br>/<br>∼ 1 nm NbO at 8<br>× 10−9 Torr                                                                                                            | 2 nm Nb2O5<br>/ 1 nm NbO2<br>/ ∼ 1 nm<br>NbO at 120<br>°C at 8<br>× 10−9 Torr<br>∼ 1 nm NbO under 120<br>°C 25 mTorr N2<br>\"infusion\"<br>0.5 nm Nb2O5<br>/ 0.2 nm NbO2<br>/ ∼ 1 nm<br>NbO at 200<br>°C at 8<br>× 10−9 Torr<br>0.2 nm NbO2<br>/ ∼ 1 nm NbO at 250<br>°C<br>at 8<br>× 10−9 Torr<br>0.2 nm NbO2<br>/ ∼ 1 nm NbO at 250<br>°C<br>25 mTorr N2<br>\"infusion\"<br>0.2 nm NbO2<br>/ ∼ 1 nm NbO / NbxNy<br>under 500<br>°C 25 mTorr N2<br>\"infusion\"<br>∼ 1 nm NbO at 800<br>°C at 8<br>× 10−8 Torr | –                                                                                               | –                                                                  | XRR; X-ray dif<br>fuse scattering;<br>XPS             | [13]                                           |\n| 1 nm Nb2O5<br>+ Nb / 2 nm Nb2O5<br>+ NbO2<br>+ NbO + Nb / 2 nm Nb2O5<br>+ NbO2<br>+<br>NbO + NbOx<br>+ Nb / 1 nm NbO2<br>+ NbO<br>+ NbOx<br>+ Nb / 1 nm NbO + NbOx<br>+ Nb<br>+ NbC | 1 nm Nb2O5<br>+ NbO2<br>+ Nb / 2 nm Nb2O5<br>+ NbO2<br>+ NbO + Nb / 2 nm NbO2<br>+<br>NbO + NbOx+ Nb / 2 nm NbO + NbOx<br>+ Nb + NbC<br>at<br>200°C<br>at<br>(0.7 –<br>2) × 10−10 Torr<br>No higher-order oxides<br>in situ<br>at 500<br>°C<br>+ NbO2<br>+ NbOx<br>+ Nb + NbC /                                                                                                                                                                                                                           | NbC underneath<br>the oxides<br>in situ<br>at 200°C<br>70% – 80% NbC<br>in situ<br>at 500<br>°C | > 7 nm O & C at<br>200°C at UHV<br>> 5 nm O & C at<br>500°C at UHV | Sputter-assisted<br>ARXPS;<br>XPS;<br>STEM/EELS       | Nb<br>EP'ed<br>(this work)                     |\n| 1 nm Nb2O5<br>+ NbOx<br>+ Nb + NbC / 1 nm Nb2O5<br>6 nm NbO + NbOx<br>+ Nb + NbC<br>in situ<br>at 120                                                                               | Up to 60% NbC<br>in situ<br>at 120<br>°C,<br>300 °C, 400<br>°C, &<br>800 °C                                                                                                                                                                                                                                                                                                                                                                                                                               | > 40 nm<br>C<br>&<br>> 50 nm<br>O<br>at<br>300<br>120 °C,<br>°C,<br>400 °C, & 800<br>°C         | Sputter-assisted<br>XPS                                            | 500°C pre<br>Nb<br>baked<br>(this work)               |                                                |\n| 1 nm Nb2O5<br>+ Nb + NbC                                                                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Up to 50% NbC                                                                                   | > 30 nm C & O                                                      | Sputter-assisted<br>XPS                               | 800°C pre<br>Nb<br>baked<br>(this work)        |\n| 1 nm Nb2O5<br>+ Nb + NbC / 1 nm Nb2O5<br>NbO2 + NbOx<br>+ Nb + NbC / 1 nm NbO2<br>+ NbOx<br>+ Nb + NbC<br>(embedded<br>ni<br>tride nano-crystals)                                   | +                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Up to 60% NbC                                                                                   | > 40 nm C & O                                                      | Sputter-assisted<br>STEM<br>XPS;<br>/EELS             | 800°C N2-<br>processed<br>(this<br>Nb<br>work) |\n| 1 nm Nb2O5<br>+ Nb + NbC                                                                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Up to 20% NbC                                                                                   | > 20 nm C & O                                                      | Sputter-assisted<br>STEM<br>XPS;<br>/EELS             | N2-<br>processed<br>EP'ed<br>+<br>(this work)  |\n\n<span id=\"page-3-0\"></span>Table 1. Native surface oxides on Nb, thermal decomposition of oxides, bake-induced carbides, and subsurface impurities.\n\n\\*XPS: X-ray photoelectron spectroscopy; ARXPS: angle-resolved XPS; AES: Auger electron spectroscopy; XRR: X-ray reflectivity; STEM/EELS: scanning transmission electron microscopy with electron energy loss spectroscopy; UHV: ultra-high vacuum.\n\nresults have been widely reported [\\[11,](#page-22-10) [42,](#page-23-10) [46,](#page-23-14) [44,](#page-23-12) [17\\]](#page-22-16). Confusion abounds concerning the extremely low nitrogen concentration (∼ 0.01 at.%) in \"N2-infused\" Nb, in contrast to 1 – 3 orders of magnitude higher oxygen and carbon concentrations (figure S1) [\\[46\\]](#page-23-14). Similarly, \"N2-doped\" Nb, which requires post-electropolishing of the µm-thick surface, contains < (0.1 – 1) at.% nitrogen and absolutely higher oxygen and carbon concentrations. Therefore, this work also aims to untangle the mystery of subsurface impurities in Nb in terms of their concentrations, structures, and valence distributions.\n\nCombining the implications of surface oxides and subsurface impurities, we extend the understanding of a desirable SRF surface that implies collective contributions. Previous studies have reported on the thinned oxide layer of N2-processed Nb [\\[13,](#page-22-12) [4\\]](#page-22-3) and the oxygen dissolution in UHV-baked Nb [\\[32\\]](#page-23-0). Here, we expand on the efforts by considering multiple impurities and deconvoluting their multiplet structures, including carbides and suboxides. We provide a comprehensive understanding of structural identification and impurity bonding. To advance accuracy and throughput, our considerations span several aspects:\n\n- Sputter-assisted XPS and cross-sectional STEM/EELS are combined to calibrate depth-resolved chemical states;\n- Characteristics of XPS chemical states are identified in >500 in situ samples using GENPLOT semi-automatic search algorithms to overcome the ambiguity of binding energy references;\n- Empirical electronic structures (valence band electron distribution) are analyzed using XPS valence spectra fingerprints in the impurity region where hybridization is distinguishable [\\[47\\]](#page-23-15);\n- Results are correlated between in situ measurements during continuous heating at elevated temperatures and in situ measurements of individual conditions (no heating history) versus coupon samples;\n- Characterization is extended to Nb3Sn, and the different oxide structures on vapordiffused and electrochemically synthesized samples are highlighted. [\\[17\\]](#page-22-16).\n\n## 2. Experimental Section\n\n## 2.1. Nb and Nb3Sn samples and treatments\n\nHigh-purity (> 300 residual-resistivity ratio), large-grain (> 50 mm), 3 mm thick Nb plates were used. The Nb samples, unless otherwise specified, were polished following standard SRF protocols: first, buffered chemical polishing (BCP) using 1:1:1 hydrofluoric (HF, 48%), nitric (70%), and phosphoric (85%) acids; second, 100 µm electropolishing (EP) using 1:9 HF (48%) and sulfuric (98%, H2SO4) acids. The average surface roughness (Ra) of the EP'ed Nb was 40 nm.\n\nAs summarized in table [2,](#page-5-0) treatments of interest include (i) acid-related treatments such as BCP, EP, and 2% HF soak; (ii) heat-related treatments such as 800 °C UHV (10<sup>−</sup><sup>10</sup> torr) baking, \"N<sup>2</sup> doping\", and \"N<sup>2</sup> infusion\"; and (iii) environment-related treatments such as modulated 20%:80% O<sup>2</sup> / N<sup>2</sup> soak, ozone processing (Jelight 144AX),\n\n| Sample #    | SMP1             | SMP1           | SMP1          | SMP1          | SMP2          | SMP3           | SMP3        |\n|-------------|------------------|----------------|---------------|---------------|---------------|----------------|-------------|\n| Step #      | STP1             | STP2           | STP3          | STP4          | –             | STP1           | STP2        |\n| Treatment   | BCP              | HF<br>soak     | BCP<br>2nd    | ex<br>Ozone   | 100 µm EP     | 100<br>µm EP   | RT O2/N2    |\n|             |                  | 30 min         | 30 min        | posure 3 d    |               |                | flow > 1 d  |\n| Pre         | N/A              | N/A            | N/A           | N/A           | BCP           | No<br>prior    | N/A         |\n| treatment   |                  |                |               |               |               | BCP            |             |\n| air<br>Post | > 6 mo           | < 3 d          | < 3 d         | < 3 d         | < 3 d         | < 3 d          | < 3 d       |\n| exposure    |                  |                |               |               |               |                |             |\n| Sample #    | SMP4             | SMP5           | SMP6          | SMP6          | SMP7          | SMP8           | SMP9        |\n| Step #      | –                | –              | STP1          | STP2          | –             | –              | –           |\n| Treatment   | 800<br>5 h<br>°C | \"2/800\"        | 100 µm EP     | \"2/800\"       | 100 µm EP     | N2<br>160 °C   | Anodization |\n|             | +<br>baking      | N2<br>doping   | RT<br>N2<br>+ | N2<br>doping  | RT<br>N2<br>+ | infusion       |             |\n|             | RT O2/N2         | 5<br>+<br>µm   | storage       |               | storage       | 96 h           |             |\n|             | flow > 1 d       | light EP       |               |               |               |                |             |\n| Pre         | BCP + EP         | BCP + EP       | prior<br>No   | 5 h<br>800 °C | N/A           | BCP + EP       | EP          |\n| treatment   |                  | 800<br>+<br>°C | BCP           | baking        |               | 800<br>+<br>°C |             |\n|             |                  | 5 h baking     |               |               |               | 5 h baking     |             |\n| air<br>Post | > 6 mo           | > 6 mo         | < 3 d         | < 3 d         | < 3 d         | > 6 mo         | < 3 d       |\n| exposure    |                  |                |               |               |               |                |             |\n|             |                  |                |               |               |               |                |             |\n\n<span id=\"page-5-0\"></span>Table 2. Summary of acid/polishing, ozone, anodization, and heat treatments on Nb coupons.\n\nand exposure under ambient conditions for varying periods. The typical \"2/800 N<sup>2</sup> doping\" recipe involved exposing the Nb to 45 mTorr N<sup>2</sup> at 800 °C for 2 min, followed by a 5 µm EP removal [\\[12,](#page-22-11) [42\\]](#page-23-10). Except for ozone exposure and anodization, these treatments adhered to the typical procedures employed in Nb cavity preparation [\\[46\\]](#page-23-14). The reactive ozone treatment was designed to modify surface oxides, while anodization is a typical treatment of Nb substrates utilized prior to the Sn-vapor diffusion process to produce Nb3Sn.\n\nApproximately 2 µm thick Nb3Sn films were produced using two methods: (i) Sn-vapor diffusion [\\[16\\]](#page-22-15) and (ii) a recently developed process that involves combining electrochemical Sn deposits with thermal conversion to a smoother Nb3Sn [\\[17\\]](#page-22-16). The average surface roughnesses (Ra) for these two methods were 300 nm and 40 nm, respectively.\n\nAfter undergoing treatments, the samples were stored in a nitrogen-flowed glovebox and transported in cleanroom plastic bags before any characterization.\n\n## 2.2. XPS and STEM/EELS characterizations\n\nQuantitative determination of chemical states, elemental compositions, and valence distributions was primarily achieved through XPS depth profiling, supported by crosssectional STEM/EELS.\n\nThree XPS systems were employed for this study, namely a PHI Versaprobe III, a Surface Science Instruments SSX-100 ESCA Spectrometer, and a Thermo Fisher Nexsa G2, with binding energy calibrations cross-referenced using EP'ed Nb. Comparing the monoatomic argon and cluster ion sputtering results from Nexsa (figure S2(a)), we found mono-sputtering provided effective surface removal and minimal oxide residuals. The non-destructive ARXPS results (figure S2(b)) were consistent with the structural evolution of the oxide layers as resolved by sputter-assisted XPS. Although preferential sputtering, atomic mixing, and the effect of roughness can occur [\\[48\\]](#page-23-16), sputter-assisted XPS allows probing the impurity region, sitting as deep as tens of nanometers (beyond the < 5 nm capability of ARXPS). Also, understanding chemical bonding (XPS peak position) is the priority over other tasks in this work, so mono-sputter-assisted depth profiling was primarily used.\n\n2.2.1. In situ XPS with heating stage and reaction cells To capture critical changes during UHV and N<sup>2</sup> bakings, as well as after subsequent air exposure, in situ investigations were performed in three sets using the PHI Versaprobe XPS instrument with a heating stage. First, EP'ed Nb was repeatedly heated at 200 °C, 500 °C, 120 °C, 300 °C, 400 °C, and 800 °C at (0.7 – 2) × 10<sup>−</sup><sup>10</sup> Torr UHV for 30 min, with intentional ambient air exposure for 10 – 24 h between measurements to imitate SRF cavity treatments. Depth profiles were collected in situ during heating at the same temperature as the 30 min pre-heating, except for 800 °C processing. For this, an adjacent UHV reaction chamber (8 × 10<sup>−</sup><sup>9</sup> Torr) was required. The sample processed at 800 °C was transferred directly into the analysis chamber, without exposure to the atmosphere, under 8 × 10<sup>−</sup><sup>10</sup> Torr and measured at 500 °C, the highest temperature available in the XPS analysis chamber. Additionally, the 500 °C data were collected several times to confirm the observation of high carbon concentrations induced, which increased the number of sample heating cycles. Second, fresh-EP'ed Nb was processed to resemble the 800 °C \"N<sup>2</sup> doping\" procedures, which involved subjecting the Nb to 800 °C N<sup>2</sup> processing at 1 mTorr for 90 min (the same amount of N<sup>2</sup> exposure as \"N<sup>2</sup> doping\"), followed by re-exposure to air and a final 5 µm EP, with depth profiling conducted between each procedure. Third, a reference 800 °C UHV baked sample was examined immediately after baking and after air exposure, which provided comparisons with \"N<sup>2</sup> doping\" and avoided effects induced by the heating history. The samples were tightly mounted on the heating stage, and the stage temperature was calibrated and showed negligible variation (typically < +/− 1 degree).\n\nHigh-resolution spectra of Nb 3d, Nb 3p, O 1s, C 1s, and valence photoelectrons were probed using a 100 µm monochromatic Al k-alpha X-ray (1486.6 eV) beam. After optimization (figure S3), the scan parameters were set to 45° emission angle, 26 eV pass energy, 50 ms/step, and up to 60 sweeps with the dual-neutralization on, resulting in a 0.3 –0.6 eV FWHM resolution for Nb subpeaks. For depth profiles, a 3 keV Ar<sup>+</sup> beam was rastered over 2 × 2 mm<sup>2</sup> area with Zalar rotation. The sputtering rate of 1.6 ˚A/s was determined using a SiO<sup>2</sup> standard and compared with the cross-sectional STEM result. Depth profiles were collected with 6 s intervals at the surface region and 12 – 60 s intervals toward the bulk.\n\nVapor-diffused Nb3Sn was in situ measured at RT, 200 °C, and 500 °C under\n\ncontinuous heating, without exposure to air, using the same parameters as for Nb measurements.\n\n2.2.2. Coupon inspections To obtain depth profiles of oxides on the coupons, we conducted survey scans of representative Nb samples listed in table [2,](#page-5-0) as well as two types of Nb3Sn samples, using the SSX-100 XPS instrument. Monochromatic Al kalpha X-ray (1486.6 eV) photoelectrons were collected under a 10<sup>−</sup><sup>9</sup> Torr vacuum from an 800 µm analysis spot with a 55° emission angle. The scan parameters were set to 150 eV pass energy, 1 eV step size, and 100 s/step. For the depth profile, a 4 kV Ar<sup>+</sup> beam with a spot size of ∼ 5 mm was rastered over a 2 × 4 mm<sup>2</sup> area.\n\nWe used an FEI/Thermo Fisher Titan Themis STEM with beam energy up to 300 kV and resolution down to 0.08 nm to image the surface cross-sections of EP'ed and \"N<sup>2</sup> doped\" Nb and vapor-diffused Nb3Sn. The equipped EELS was utilized to analyze the chemical states as a function of depth at local regions. The cross-sectional specimens were prepared using a Thermo Fisher Helios G4 UX focused ion beam.\n\n## 3. Results and Discussion\n\n## 3.1. Native oxides on Nb at RT\n\nThe cross-sectional STEM image (figure [1\\(](#page-8-0)a)) reveals an amorphous oxide region of ∼ 7 nm on the surface of EP'ed Nb (measured at RT). Due to the limitations of each technique, structural deconvolution requires the combination and correlation of findings from EELS, ARXPS, and sputter-assisted XPS. The structure consists of Nb2O<sup>5</sup> mixed with metallic Nb at the outermost layer, along with hydroxide and organics adsorbed. The next layer, which is 4 – 5 nm thick, comprises a mixture of Nb2O5, NbO2, NbO, NbO<sup>x</sup> (suboxide), and Nb. The following layer, which is 1 – 2 nm thick, is a mixture of NbO, NbOx, and Nb, with NbO<sup>x</sup> continuing and NbC appearing deeper. The evidence of these identifications is detailed below.\n\nEELS spectra (figure [1\\(](#page-8-0)b)), taken at the locations indicated in figure [1\\(](#page-8-0)a), reveal two distinct regions with thicknesses of ∼ 5 nm and ∼ 2 nm, respectively. Figure S4 summarizes the EELS fingerprints collected from Nb2O5, NbO2, and NbO in the literature [\\[49\\]](#page-23-17), showing that the Nb2O<sup>5</sup> and NbO<sup>2</sup> features have close energy states while NbO exhibits distinguishable energies near 535 eV and 548 eV. Based on this, the EELS data suggests that the first 5 nm of the oxide region is mixed with Nb2O5/NbO<sup>2</sup> and NbO, while the second 2 nm is primarily NbO. This local probe substantiates the mixing composition within each layer of surface oxides.\n\nThe XPS concentration profile (figure [1\\(](#page-8-0)c)) also shows an oxide region of ∼ 7 nm in thickness, followed by deeper oxygen and carbon impurities. Additionally, contamination was observed at the outermost surface of all coupon samples studied, likely due to methanol cleaning. The deconvoluted structure of the hydroxyl, methoxy, carbonyl, and carboxyl dangling bonds is depicted in figure S5.\n\nARXPS measurements, taken at a 15°take-off angle (figure [1\\(](#page-8-0)d)), strongly indicate the presence of metallic Nb mixed within Nb2O5, as previously observed in a 2° grazing angle measurement [\\[31\\]](#page-22-30). Deeper probing at higher angles between 45° and 90° detected the NbO<sup>2</sup> and NbO signals. This near-grazing measurement supports the observation of metallic Nb within the oxide layers in sputter-assisted XPS.\n\nThe sputter-assisted XPS spectra in figure [1\\(](#page-8-0)e) clearly show the evolution of structural changes as a function of depth. To deconvolute this complex system with diverging references, we utilized GENPLOT semi-auto searching in vast amounts of data to elucidate the binding energies of all components present on the Nb surface, as summarized in figure [2.](#page-9-0) The identification is further corroborated by concurrent features observed in the valence spectra, such as C 2s (figure [1\\(](#page-8-0)f)). We have identified Nb at 202.2 ± 0.1 eV, NbC at 203 ± 0.1 eV, NbO<sup>x</sup> at 203.8 ± 0.1 eV, NbO at 204.5 ± 0.1 eV, NbO<sup>2</sup> at 205.8 ± 0.1 eV, and Nb2O<sup>5</sup> at 207.5 ± 0.1 eV. All subpeaks, except for NbOx, exhibit their characteristic peaks, as exemplified in figures [2\\(](#page-9-0)b)–(d); the incorporation of NbO<sup>x</sup> is nevertheless necessary to fit the spectra in 375 samples. With the support of EELS and ARXPS analyses, we can trust the validity of these observations, although sputtering effects may slightly influence the results.\n\n![](_page_8_Figure_2.jpeg)\n\nIntensity\n\n[arb. unit]\n\n<span id=\"page-8-0\"></span>Figure 1. Native oxides on EP'ed Nb at RT: (a) Cross-sectional STEM image showing surface oxides on Nb. (b) EELS O-K edge spectra at various depths as labeled in (a). (c) Concentration depth profiles of Nb, O, and C collected by XPS at RT (and during in situ heating at 200°C and 500°C). (d) ARXPS spectra collected at take-off angles of 15°, 45°, and 90°. (e) Nb 3d and (f) valence XPS spectra as a function of depth. The intensity units in (b) and (d – f) are arbitrary.\n![](0__page_9_Figure_0.jpeg)\n\n<span id=\"page-9-0\"></span>Figure 2. Nb 3d XPS binding energy analysis: (a) Binding energies of Nb in different chemical states (metallic Nb, carbide, suboxide, monoxide, dioxide, and pentoxide) determined using (i) this work, (ii) the NIST reference database [\\[50\\]](#page-23-0) and (iii) EELS chemical shifts [\\[49\\]](#page-23-1). (b,c,d) Representative XPS spectra of EP'ed Nb showing characteristic peaks used for peak fitting: (b) at RT without sputtering, (c) at RT after sputtering 3 nm, and (d) at 500 °C without sputtering. In (b – d), the labeled circles are color-coded to correspond with the identifications in (a), and the intensity units are arbitrary.\n\nWe emphasize that metallic Nb coexists with amorphous oxides exhibiting a mixing feature, likely involving non-stoichiometry and defective energy states near the Fermi level. Both findings are consistent with the observation of electron populations at the Fermi level in the valence spectra of surface layers, while bulk signals contribute to the Fermi electrons at deeper layers, as shown in figure [1\\(](#page-8-0)f). Our observations strongly suggest that the entire ∼ 7 nm surface oxide region is conductive, most likely normal-conducting, and plays a crucial role in determining the surface properties of superconducting Nb. Further identification of sub-nanometer local amorphous structures is helpful to confirm this finding.\n\n## 3.2. Effects of UHV baking temperature on Nb\n\nIn situ XPS measurements were taken on Nb at various temperatures, with deliberate air exposure between each measurement. A high concentration of carbon appeared in the sample at 500°C (figure [1\\(](#page-8-0)c)), which crucially affected the subsequent oxidization and impurity bonding. Thus, we divide the results into two groups: (i) the effects of UHV baking temperature on EP'ed Nb, with a heating history of RT, 200°C, and 500°C, and (ii) the effects of UHV baking temperature on high-temperature baked Nb (close to the 800°C \"outgassing\" baking condition), with a history of 500°C, 120°C, 300°C, 400°C, and 800°C. The complete Nb 3d and valence spectra are included in figures S6 and S7, respectively.\n\n3.2.1. Effects of UHV baking temperature on EP'ed Nb Figure [3](#page-10-0) presents a map of the surface oxide and carbide motifs for all baking conditions. When heated at 200°C, the oxides undergo slight reconstruction and thickness reduction, while the layout remains similar to RT, which is consistent with the decomposition threshold at ∼ 250 – 300 °C\n\n![](0__page_10_Figure_0.jpeg)\n\n<span id=\"page-10-0\"></span>Figure 3. Structural profiles of UHV-baked Nb: Comparative proportion of different Nb motifs resolved by XPS peak fitting of Nb 3d spectra, plotted as a function of depth in nm. The spectra were taken in situ at (a) RT, (b) 200°C, (c) 500°C, (d) 120°C, (e) 300°C, (f) 400°C, and (g) 800°C, in the indicated sequence, with air exposure between measurements. A reference sample was (h) baked directly at 800°C and then (i) exposed to air. The expected fitting residue is between 5% – 10 %.\n\nreported in the literature [\\[29,](#page-22-0) [4,](#page-22-1) [32\\]](#page-23-2). However, upon heating at 500°C, nearly 80% of the surface structures convert to carbides, with the higher-order oxides disappearing. The binding energy of the main peak in the spectra shifts to 203 eV (figure [2\\(](#page-9-0)c)). These carbides significantly alter the subsequent oxidization process and the diffusion of impurities into the bulk upon re-exposure to air.\n\n3.2.2. Effects of UHV baking temperature on high-temperature baked Nb Figures [4\\(](#page-11-0)a) and (b) illustrate the changes in carbon and oxygen concentrations with baking temperature after the 500°C pre-baking. A thick impurity region is observed with a carbon thickness of 20 – 40 nm and an oxygen thickness exceeding 40 nm (using a conservative residue signal threshold of 5 at.%). We argue that the influence from chamber gas residues is negligible since nitrogen consistently remains below the detection limit (< 1000 ppm), as measured by residual gas analysis. We also argue that the sputtering effect is minor since the RT data is consistent with the results of STEM imaging. However, we find that the heating history affects the impurity profile. For instance, directly heating the EP'ed sample to 800°C results in a carbon thickness of 20 nm and an oxygen thickness of ∼ 30 nm.\n\n![](0__page_11_Figure_0.jpeg)\n\n<span id=\"page-11-0\"></span>Figure 4. Composition profiles of UHV-baked Nb: (a) Carbon and (b) oxygen concentrations as a function of depth measured in situ at different temperatures, following a heating history of 500°C, 120°C, 300°C, 400°C, and 800°C. (c) Carbon and (d) oxygen concentrations at selective depths as a function of baking temperature. The starting RT reference for this experiment was an EP'ed sample.\n\nThe comparison between the 200°C (figures [3\\(](#page-10-0)b) and S6(b)) and 120°C (figures [3\\(](#page-10-0)d) and S6(d)) data, both temperatures of which are below the decomposition threshold, implies that the initial surface plays a critical role in oxidation. The 200°C oxides form on an EP'ed surface, whereas the 120°C oxides grow on a surface populated with carbides from a 500°C pre-baking. The presence of carbides essentially minimizes the generation of higher-order oxides. The transition metal (e.g., Nb) favors dissociation into chemisorbed oxygen, and any foreign phases interrupt the self-passivating oxides, which allows for oxygen (and carbon) dissolution into the subsurface [\\[51\\]](#page-23-3). Considering the low equilibrium O and C solubilities in Nb (<< 1 at.% even at 800°C [\\[52,](#page-23-4) [53\\]](#page-23-5)), a pertinent question is regarding the oversaturation of oxygen and carbon in the subsurface.\n\nAlthough we adopt the buried oxide (or precipitate) hypothesis and treat them as carbides and suboxides in this work, there are arguments regarding the accurate picture [\\[51\\]](#page-23-3). Our other work observed the existence of carbides in the subsurface [\\[54\\]](#page-23-6), while our valence analyses (below) suggest that these subsurface impurities are not likely to form a specific phase, especially for the suboxide. Nevertheless, our data indicate that the UHV baking mechanism in the SRF field mainly takes advantage of preceding carbide formation during the high-temperature treatment, e.g., 800 °C outgassing. This process surpasses the limiting rate during impurity dissolution, resulting in a mixture of carbides and suboxides, in addition to varying oxide thickness.\n\nUpon heating to 300°C, oxygen accumulates on the surface over carbon in concentration (figures [4\\(](#page-11-0)c) and (d)), which matches the onset of native oxide decomposition. However, carbides continue to dominate over suboxides (figure [3\\(](#page-10-0)e)). Baking at 400°C yields similar composition and motif proportion profiles compared to baking at 300°C, while carbide formation is intensified at the relatively surface region with a 60% proportion compared to the bulk region with a 20% proportion, as shown in figure [3\\(](#page-10-0)f). At 800°C (figure [4\\(](#page-11-0)d)), there is a surface depletion of oxygen, with the proportion of pure Nb increasing to above 30% at the 20 nm surface in addition to 50% carbides (figure [3\\(](#page-10-0)g)). For reference, the sample that was directly heated to 800°C (figure [3\\(](#page-10-0)h)) has 30% – 40% carbides and 60% –70 % pure Nb on the surface with minimal suboxides. However, air exposure of this sample (figure [3\\(](#page-10-0)i)) immediately introduces higher numbers of carbides and suboxides within 20 nm, along with a one-nanometer-thin higher-order oxide region, demonstrating the higher-order oxide formation limitation and impurity uptake due to carbide formation.\n\nAdditionally, upon inspecting the O 1s spectra (e.g., figure S8), we identify two types of oxygen-related motifs, assigned to O<sup>2</sup><sup>−</sup> and O<sup>−</sup>. As illustrated in figure S9, the change in the relative ratio of O<sup>−</sup> likely correlates with the carbon concentration as a function of depth, indicating a possible interaction between carbon and certain oxygen species.\n\n![](0__page_12_Figure_3.jpeg)\n\n<span id=\"page-12-0\"></span>Figure 5. Composition profiles of N2-processed Nb: Depth profiles of (a) carbon, (b) oxygen, and (c) nitrogen concentrations for different processing conditions: (i) after pre-EP, (ii) during in situ N<sup>2</sup> processing at 800°C (\"N<sup>2</sup> doping\"), (iii) after air exposure, and (iv) after re-EP (light). A reference sample was subjected to (v) UHV baking at 800°C and then (vi) air exposure. (d) Cross-sectional phase-contrast STEM image of the N2-processed coupon (condition iii), showing surface nitride nano-grains (labeled \"3\" and \"4\") and an oxide layer (labeled \"0\").\n\n## 3.3. Effects of N<sup>2</sup> processing on Nb\n\nTwo sets of EP'ed Nb were processed: one at 800°C with 5.4 × 10<sup>6</sup> langmuir N<sup>2</sup> exposure to simulate \"N<sup>2</sup> doping\", and the other under UHV as a reference. The complete Nb 3d and valence spectra are included in figures S10 and S11, respectively.\n\nFigure [5](#page-12-0) shows that both in situ conditions introduce significant amounts of carbon and oxygen, but nitrogen is below the detection limit in all samples studied (< 1000 ppm), even for the \"N<sup>2</sup> doping\" condition, despite the observation of two nitride nano-grains during STEM inspection. Structural deconvolution reveals that the N<sup>2</sup> processed sample (figure [6\\(](#page-13-0)b)) contains slightly higher levels of carbides and suboxides than the UHV baked sample (figure [6\\(](#page-13-0)e)). Upon air exposure (figure [6\\(](#page-13-0)c)), the suboxide layer on the N2-processed sample surface substantially increases, along with more higherorder oxides. In contrast, the UHV baking reference (figure [6\\(](#page-13-0)f)) only exhibits a 3 nm suboxide layer with proportions exceeding 10% and 1 nm with higher-order oxides. These findings, together with the UHV baking data, prove that the thickness of the suboxide layer, grown on surfaces populated with carbides, is proportional to the ratio of carbides, as illustrated in figure [7.](#page-14-0) Specifically, an initial surface with a higher number of carbides results in a larger amount of suboxide growth. The suboxide layer profile, including its peak concentration and location, determines the type and thickness of higher-order oxides formed on top of the suboxide layer.\n\nTo achieve high-performance SRF cavities, a 5 µm (light) EP treatment is commonly employed after N<sup>2</sup> processing to remove any nitrides. We have examined the surface profile following air exposure of the EP'ed, N2-processed surface. Our study shows that this surface (figure [6\\(](#page-13-0)d)) contains the lowest quantities of carbides and suboxides,\n\n![](0__page_13_Figure_4.jpeg)\n\n<span id=\"page-13-0\"></span>Figure 6. Structural profiles of N2-processed Nb: Comparative proportion of different Nb motifs as a function of depth in nm. The spectra were taken (a) after pre-EP, (b) during in situ N<sup>2</sup> processing at 800°C (\"N<sup>2</sup> doping\"), (c) after air exposure, and (d) after re-EP (light) treatments. A reference sample was subjected to (e) UHV baking at 800°C and then (f) air exposure. The expected fitting residue is between 5% – 10 %.\n\n![](0__page_14_Figure_0.jpeg)\n\n<span id=\"page-14-0\"></span>Figure 7. Effect of second-phase formation: The correlation between the thickness of suboxide layers and the varying ratio of carbides on the surface where suboxides are formed. The data was obtained through in situ UHV baking (history: 500°C, 120°C, 300°C, 400°C, and 800°C), in situ direct 800°C UHV baking and N<sup>2</sup> processing, and their subsequent air exposure.\n\nalongside the thinnest higher-order oxides. Notably, variations in the oxide profile exist between EP'ed, N2-processed Nb and EP'ed Nb. While the electrochemical mechanism is beyond the scope of this study, our focus centers on valence analyses to demonstrate the modification of electron populations in orbitals resulting from these treatments.\n\n## 3.4. Valence analyses\n\nThe valence bonding in carbides and oxides typically involves hybridization, which causes overlapping energy levels in momentum space. This makes it challenging to distinguish the contribution of electronic density of states in each orbital to the overall electronic structure. First-principles calculations [\\[55,](#page-23-7) [56\\]](#page-23-8) have reported that higherorder Nb oxides exhibit strong hybridization (as observed in figure [1\\(](#page-8-0)f)). Conversely, lower-order Nb oxides and carbides show weaker hybridization and more distinguishable orbital occupation [\\[55,](#page-23-7) [57\\]](#page-23-9).\n\nWhen the transition metal d-orbitals are partially filled with low numbers of electrons (< 3), these orbitals and the O or C orbitals are roughly separated[\\[58,](#page-23-10) [59\\]](#page-23-11). XPS studies (figure S12) have revealed that pure Nb displays three characteristic peaks at 0 – 3 eV, with the majority contribution coming from the Nb 4d orbital [\\[60,](#page-23-12) [61,](#page-23-13) [62\\]](#page-23-14). Exposure to oxygen results in a peak near 6.5 eV, mainly from O 2p [\\[33\\]](#page-23-15). NbC shows two peaks: one near 4.4 eV, mainly from C 2p, and another near 11 eV from C 2s [\\[63,](#page-23-16) [61,](#page-23-13) [57\\]](#page-23-9).\n\nFigures [8](#page-15-0) and [9](#page-15-1) demonstrate that we repeatedly and clearly identify these characteristic peaks in over 500 valence spectra, except for those with higher-order oxides. To deconvolute the spectra, we perform peak fitting using 7 Gaussian peaks, as exemplified in figure [8\\(](#page-15-0)b). The sub-peak denoted \"i\" near the Fermi edge may include surface states and a large contribution from Nb 5s (and possibly 5p if hybridized).\n\n![](0__page_15_Figure_0.jpeg)\n\nIntensity\n\nY\n\nAxis\n\n[AU]\n\n<span id=\"page-15-0\"></span>Figure 8. Valence spectral analysis in UHV-baked Nb: (a) Comparison of valence spectra taken in situ at different temperatures, following the sample's heating history of RT, 200°C, 500°C, 120°C, 300°C, 400°C, and 800°C, at depths of (a-1) 0 nm and (a-2) 9 nm (or the maximum depth probed). (b-1) Example of valence peak fitting for spectra taken at 1 nm during in situ baking at 800°C, and (b-2) comparison with spectra taken at 55 nm, demonstrating characteristic features. The binding energy scales in (a-2) and (b-2) are equivalent to those in (a-1) and (b-1), respectively.\n\n![](0__page_15_Figure_2.jpeg)\n\n<span id=\"page-15-1\"></span>Figure 9. Valence spectral analysis in N2-processed Nb: Comparison of valence spectra taken after pre-EP, during in situ N<sup>2</sup> processing at 800°C (\"N<sup>2</sup> doping\"), after air exposure, and after re-EP (light): (a) at 0 nm and (b) at 9 nm. A reference sample was baked at 800°C under UHV and then exposed to air. These results are re-plotted as figures [6\\(](#page-13-0)e) and (f) to facilitate comparison. The intensity units in (a) and (b) are arbitrary.\n\nAnother small sub-peak denoted \"j\" is likely a hybridization product of Nb-O, as indicated by higher-order oxides. Consequently, these sub-peaks are not included in the quantitative calculations.\n\n![](0__page_16_Figure_0.jpeg)\n\n<span id=\"page-16-0\"></span>Figure 10. Electron population analysis in UHV-baked and N2-processed Nb: Electron population as a function of depth in nm for Nb (solid line), O (dotted), and C (dashed) orbitals. (a) The in situ UHV baked sample, following a heating history of 500°C (black square), 120°C (red up-triangle), 300°C (blue down-triangle), 400°C (orange star), and 800°C (purple diamond). (b) The in situ 800°C N<sup>2</sup> processed (\"N<sup>2</sup> doped\") sample (red up-triangle), followed by air exposure (blue down-triangle) and light EP (orange star). A reference sample was directly baked at 800°C under UHV (purple diamond) and then exposed to air (green square).\n\nWe calculate the electron population at each bonding orbital through realistic normalization, such as in Nb (NNb), by [\\[59,](#page-23-11) [64,](#page-23-17) [65\\]](#page-24-0)\n\n$$N\\_{\\rm Nb} = \\frac{A\\_{\\rm Nb} \\,/\\, [\\delta\\_{\\rm Nb} \\, \\lambda\\_{\\rm Nb} c\\_{\\rm Nb} (1 - f\\_{\\rm met.})]}{\\sum\\_{i} A\\_{i} \\,/\\, (\\delta\\_{i} \\, \\lambda\\_{i} c\\_{i})} \\times N\\_{\\rm t}. \\tag{1}$$\n\nIn the case of a multicomponent system, this quantification is subject to several assumptions and simplifications. To specifically study the interaction between Nb and impurities, we first subtract the metallic Nb component (fmet.) using the Nb 3d data. Due to the presence of multiple impurities, we estimate the total number of electrons involved in bonding (Nt) and the number of bonds by using a weighted average based on impurity concentrations (ci). Since the homogeneity of the system is uncertain, we utilize matrix factor approximations. For carbon and oxygen, we assume the hybridization of 2s and 2p orbitals. We calculate the Gaussian peak area (Ai) and obtain the values for cross-section area (σi) and inelastic mean free path (λi) from literature [\\[66,](#page-24-1) [67\\]](#page-24-2). Lastly, molecular orbital theory is not involved. By following these methods, we can effectively compare samples processed by different heat treatments (although the absolute values should be refined). For instance, in figure [10,](#page-16-0) the electron populations observed at different depths after the 800°C UHV baking, regardless of the heating history, exhibit striking similarities, indicating the intrinsic effect on bonding of this heat treatment.\n\nFigure [10\\(](#page-16-0)a) demonstrates the versatile capability of suboxides to arrange the number of electrons in the presence of carbides. The 120°C low-temperature baking reveals the effect of air exposure on the carbide-populated surface, showing that oxygen captures more electrons and creates more ionic character, especially within the first 10 nm. In figure [10\\(](#page-16-0)b), the air exposure of the N2-processed sample and its EP'ed sample exhibit similar behavior, with a more significant impact that results in nearly no electrons around the Nb orbital within the first 5 nm. The topic of ionic bonding is relevant to theories for high T<sup>c</sup> oxides and carbides [\\[68\\]](#page-24-3), but caution should be taken when interpreting it in the Nb system, where BCS theories apply.\n\nMoreover, mid-temperature baking at 300°C generates a uniformly distributed region of high-electron-affinity oxygen, coinciding with the decomposition of higherorder oxides on the surface. However, this effect gradually diminishes as the baking temperature increases to 400°C and 800 °C, yielding a slope of oxygen's electron population as a function depth. In contrast, the N2-processed samples at 800°C, as well as those UHV-baked at 120°C and 300°C, induce more ionic character at the surface region or exhibit a uniform profile of high ionic character throughout the sample. Overall, the carbide-facilitated oxygen diffusion and surface higher-order oxide decomposition affect the electron distribution in the suboxides mixed within the superconducting Nb.\n\n## 3.5. Nb coupon studies\n\nQualitative analyses are conducted on Nb coupons listed in table [2](#page-5-0) using Nb 3p and O 1s data collected with the SSX-100 XPS instrument. The concentration values obtained from high-intensity survey scans are reliable, while the Nb 3p spectra, which contain well-separated spin orbitals and better calibration in the SSX-100 XPS instrument, are\n\n![](0__page_17_Figure_4.jpeg)\n\nFigure 11. Coupon composition analysis: Oxygen concentration as a function of depth on Nb coupons measured with the SSX-100 XPS, compared with thicker lines representing in situ data taken with the PHI XPS. (a) EP'ed (light blue), (b) BCP'ed (dark green), (c) HF soaked (light green), (d) 800°C baked (purple), (e) \"N<sup>2</sup> doped\" and exposed to air (red), (f) \"N<sup>2</sup> doped\" and EP'ed (orange), (g) \"N<sup>2</sup> infused\" (pink), (h) modulated 20% O<sup>2</sup> / 80% N<sup>2</sup> flow for > 1 day (grey), (i) ozone treated for 3 days (black), and (j) electrochemically anodized (dark blue). The dashed lines indicate samples exposed to air for > 6 months.\nused for comparison.\n\nThe oxygen concentration profiles in figure [11](#page-17-0) demonstrate that the Nb surface is highly sensitive to various acid-related and heat treatments, as well as environmental factors. The EP'ed samples (light blue) have been used as a calibration reference between different samples. We find a significantly higher quantity of higher-order oxides with greater depth in the EP'ed and N2-processed samples, regardless of whether they are N<sup>2</sup> \"doped\" (red) or \"infused\" (pink), which is consistent with our in situ investigations. In contrast, the BCP'ed (green), 800°C UHV baked (purple), and \"N<sup>2</sup> doped\" + EP'ed (orange) samples exhibit a thinner higher-order oxide layer on the surface.\n\nAfter 6 months of exposure to ambient air, most samples develop a typical oxide stack that matches a reference oxide model derived from ozone treatment (black). However, the \"N2-doped\" + EP'ed sample (orange) does not show an increase in higherorder oxide thickness after the same exposure period. This suggests that passivating oxides are generated under this unique condition, and the EP mechanism for this type of sample requires further investigation.\n\nFurthermore, figure [12](#page-18-0) presents the oxide structural differences imposed by\n\n![](1__page_18_Figure_4.jpeg)\n\n<span id=\"page-18-0\"></span>Figure 12. Coupon spectral analysis: Depth-dependent XPS 3p3/<sup>2</sup> spectra on Nb coupons measured at depths of 0 – 6.5 nm and 39 nm. Acid/polishing treatments: (a) BCP'ed, (b) EP'ed, and (c) HF soaked. These samples were stored in air for < 3 days before measurement. Effects of oxidizer exposure: (d) BCP'ed sample after > 6 months in air, (e) EP'ed sample exposed to a modulated 20% O<sup>2</sup> / 80% N<sup>2</sup> flow for > 1 day, (f) EP'ed sample exposed to ozone for 3 days. The binding energies of different oxide structures in the Nb 3p spectra are indicated in figure S13. The intensity units are arbitrary.\n\nacid/polishing and oxidizer exposure factors, showing similar observations.\n\n# 3.6. Native oxides on Nb3Sn at RT\n\nY\n\nAxis\n\nCharacterizing surface oxides on Nb3Sn is crucial due to the current challenges faced by Nb3Sn cavities, which are hindered by unclear quench mechanisms [\\[17,](#page-22-0) [16\\]](#page-22-1). The theory surrounding how surface oxides influence Nb3Sn cavities is evolving [\\[18,](#page-22-2) [19\\]](#page-22-3). Here we report our findings on oxides in both vapor-diffused and electrochemically synthesized Nb3Sn, the only two types capable of producing high-performance SRF cavities to date. Our observations of distinct oxide structures and thicknesses provide atomic models for the development of emerging theories.\n\nFigure [13\\(](#page-19-0)a) displays a cross-sectional STEM image of vapor-diffused Nb3Sn, revealing an amorphous oxide region with a thickness exceeding 9 nm. EELS O-K edge spectra (figure [13\\(](#page-19-0)b)), while slightly affected by the Sn-M edge, exhibit nearly identical features that indicate a mixed structure throughout the oxide region. XPS Nb 3d and 3p spectra in figure [13\\(](#page-19-0)c) demonstrate a similar oxide evolution as a function of depth compared to Nb, but with an almost doubled thickness. Notably, these Nb oxides are\n\n![](1__page_19_Figure_4.jpeg)\n\n<span id=\"page-19-0\"></span>Figure 13. Native oxides on Nb3Sn at RT: (a) Cross-sectional STEM image showing surface oxides on Nb3Sn produced by vapor diffusion. (b) EELS O-K edge spectra, collected at various depths as indicated in (a). (c) Nb 3d and 3p spectra and (d) Sn 3d spectra as a function of depth, measured with the PHI XPS on vapor-diffused Nb3Sn. (Data measured with the SSX-100 XPS is included in figure S14). (e) Sn 3d and (f) Nb 3p spectra as a function of depth measured with the SSX-100 on electrochemical Nb3Sn. The intensity units in (b – f) are arbitrary.\n\n![](1__page_20_Figure_0.jpeg)\n\n<span id=\"page-20-0\"></span>Figure 14. UHV baking in Nb3Sn oxides: (a) Concentration depth profiles of Nb, Sn, O, and C, collected by the PHI XPS on vapor-diffused Nb3Sn at RT and during in situ heating at 200°C and 500°C under UHV without exposure to air between measurements. (b,c) Nb 3d and Sn 3d spectra as a function of depth during in situ heating at (b) 200°C and (c) 500°C. The intensity units in (b) and (c) are arbitrary.\n\nfurther mixed with either SnO<sup>2</sup> or SnO, which have close binding energies, as shown in figure [13\\(](#page-19-0)d).\n\nParticularly noteworthy are the strikingly different surface oxides present on the electrochemically synthesized Nb3Sn. As shown in figures [13\\(](#page-19-0)e) and (f), this type of Nb3Sn only has a surface layer of < 2.6 nm SnO2/SnO, without any higher-order Nb oxides. The existence of suboxides needs further investigation.\n\n# 3.7. Effects of UHV baking temperature on Nb3Sn\n\nUpon in situ heating at 200°C (figure [14\\(](#page-20-0)b)), slight reconstruction and decomposition occur in both Nb oxides and Sn oxides mixed on the surface. However, these metastable oxides undergo dramatic decomposition and transformation during in situ 500 °C baking. As shown in figure [14\\(](#page-20-0)c), Sn oxides disappear, and Nb oxides begin to incorporate a significant quantity of oxides with all charges, resulting in wide spectra throughout the 8 nm probed. Additionally, up to 20 at.% carbon appears on the surface.\n\nThe valence spectra of these baking results in figure S15 indicate the conducting behavior, most likely normal-conducting, of this thick oxide region.\n\n# 4. Conclusions\n\nIn summary, we investigated the effects of different baking and processing conditions, including UHV baking, N<sup>2</sup> processing, acid/polishing, and oxidizer exposure treatments, on the structures, compositions, depths, and valence distributions of surface oxides, carbides, and impurities on Nb and Nb3Sn.\n\nOur findings revealed that these treatments significantly alter the type and thickness of Nb surface oxides. We found that the entire surface region (e.g., ∼ 7 nm in EP'ed Nb), containing amorphous oxides and metallic components, is most likely normalconducting, which can impact the superconducting bulk. Using XPS, STEM/EELS, and in situ measurements we accurately established the structural profiles of the oxide regions as a function of depth under various baking and processing conditions.\n\nMoreover, we resolved the underlying mechanism of baking and N2-processing in Nb (which had previously achieved record SRF performance). We discovered that hightemperature baking induces carbide formation, regardless of gas environment. This, in turn, determines the subsequent formation of suboxides and higher-order oxides upon air exposure and low-temperature baking. These findings, combined with previous studies [\\[13,](#page-22-4) [14,](#page-22-5) [15,](#page-22-6) [19\\]](#page-22-3), strongly support that both surface oxides and second-phase formation collectively contribute to the effects induced by UHV baking (or oxygen processing) and nitrogen processing. Specifically, UHV baking at 500°C and N<sup>2</sup> processing at 800°C, with significant carbide formation, introduce a large number of suboxides and create more ionic character toward the surface after air exposure and 120°C – 300°C baking. Additionally, the decomposition of surface higher-order oxides at 250°C – 300°C also modifies the electron population profile at the surface.\n\nFurthermore, our investigation revealed that vapor-diffused Nb3Sn contains >9 nm thick oxides mixed with Nb oxides and Sn oxides, while electrochemically synthesized Nb3Sn only has < 2.6 nm thin Sn oxides on the surface. The thick metastable oxides on vapor-diffused Nb3Sn may pose critical issues.\n\nOverall, this study provides important insights into the fundamental mechanisms of baking and processing Nb and Nb3Sn surface structures for high-performance SRF and quantum applications.\n\n# 5. Supporting Information\n\nThe Supporting Information is submitted.\n\n# 6. Data Availability Statement\n\nData are available by contacting the corresponding author.\n\n# 7. Conflicts of Interest\n\nThe authors declare no competing financial interest.\n\n# 8. Acknowledgement\n\nThis work was supported by the U.S. National Science Foundation under Award PHY-1549132, the Center for Bright Beams. Utilization of the PHI Versaprobe III XPS within UVa's Nanoscale Materials Characterization Facility (NMCF) was fundamental to this project; we acknowledge NSF MRI award #1626201 for the acquisition of this instrument. This work also made use of the Cornell Center for Materials Research Shared Facilities which are supported through the NSF MRSEC program (DMR-1719875), and was performed in part at the Cornell NanoScale Facility, an NNCI member supported by NSF Grant NNCI-2025233. Z.S. thanks H. G. Conklin and T. M. Gruber for assisting with sample preparation and Dr. M. Salim for XPS assistance.\n\n# References\n\n- [1] Nico C, Monteiro T and Gra¸ca M P F 2016 Progress in Materials Science 80 1–37\n- [2] Zmuidzinas J 2012 Annual Review of Condensed Matter Physics 3 169\n- [3] Halbritter J 1987 Applied Physics A 43 1\n- [4] Semione G D L, Pandey A D, Tober S, Pfrommer J, Poulain A, Drnec J, Sch¨utz G, Keller T F, Noei H, Vonk V, Foster B and Stierle A 2019 Physical Review Accelerators and Beams 22 103102\n- [5] de Leon N P, Itoh K M, Kim D, Mehta K K, Northup T E, Paik H, Palmer B S, Samarth N, Sangtawesin S and Steuerman D W 2021 Science 372 253\n- [6] Murray C E 2021 Materials Science & Engineering R 146 100646\n- [7] Esposito M, Ranadive A, Planat L and Rocha N 2021 Applied Physics Letters 119 120501\n- [8] Doyle S, Mauskopf P, Naylon J, Porch A and Duncombe C 2008 Journal of Low Temperature Physics 151 530\n- [9] Eremeev G 2008 Study of the high field Q-slope using thermometry Ph.D. thesis Cornell University\n- [10] Romanenko A, Grassellino A, Barkov F and Ozelis J P 2013 Physical Review Accelerators and Beams 16 012001\n- [11] Grassellino A et al. 2017 Superconductor Science and Technology 30 094004\n- [12] Grassellino A, Romanenko A, Sergatskov D, Melnychuk O, Trenikhina Y, Crawford A, Rowe A, Wong M, Khabiboulline T and Barkov F 2013 Superconductor Science and Technology 26 102001\n- <span id=\"page-22-4\"></span>[13] Lechner E M, Oli B D, Makita J, Ciovati G, Gurevich A and Iavarone M 2020 Physical Review Applied 13 044044\n- <span id=\"page-22-5\"></span>[14] Kubo T and Gurevich A 2019 Physical Review B 100 064522\n- <span id=\"page-22-6\"></span>[15] Gurevich A and Kubo T 2017 Physical Review B 96 184515\n- <span id=\"page-22-1\"></span>[16] Porter R 2021 Advancing the maximum accelerating gradient of niobium-3 tin superconducting radiofrequency accelerator cavities: RF measurements, dynamic temperature mapping, and material growth Ph.D. thesis Cornell University\n- <span id=\"page-22-0\"></span>[17] Sun Z, Baraissov Z, Porter R D, Shpani L, Shao Y T, Oseroff T, Thompson M O, Muller D A and Liepe M U 2023 Superconductor Science and Technology\n- <span id=\"page-22-2\"></span>[18] Oseroff T 2022 Advancing a superconducting sample host cavity and its application for studying proximity-coupled normal layers in strong microwave fields Ph.D. thesis Cornell University\n- <span id=\"page-22-3\"></span>[19] Oseroff T, Sun Z and Liepe M 2023 Superconductor Science and Technology\n- [20] Blais A, Grimsmo A L, Girvin S and Wallraff A 2021 Reviews of Modern Physics 93 025005\n- [21] Romanenko A, Pilipenko R, Zorzetti S, Frolov D, Awida M, Belomestnykh S, Posen S and Grassellino A 2020 Physical Review Applied 13 034032\n- [22] Martinis J M et al. 2005 Physical Review Letters 95 210503\n- [23] M¨uller C, Cole J H and Lisenfeld J 2019 Reports on Progress in Physics 82 124501\n- [24] Romanenko A and Schuster D I 2017 Physical Review Letters 119 264801\n- [25] Grundner M and Halbritter J 1980 Journal of Applied Physics 51 397\n- [26] Darlinski A and Halbritter J 1987 Surface and Interface Analysis 10 223\n- [27] Grundner M and Halbritter J 1984 Surface Science 135 144\n- [28] King B R, Patel H C, Gulino D A and Tatarchuk B J 1990 Thin Solid Films 192 351\n- [29] Dacc`a A, Gemme G, Mattera L and Parodi R 1998 Applied Surface Science 126 219\n- [30] Ma Q and Rosenberg R A 2003 Applied Surface Science 206 209\n- [31] Ma Q, Ryan P, Freeland J W and Rosenberg R A 2004 Journal of Applied Physics 96 7675\n- [32] Delheusy M, Stierle A, Kasper N, Kurt R P, Vlad A, Dosch H, Antoine C, Resta A, Lundgren E and Andersen J 2008 Applied Physics Letters 92 101911\n- [33] Miller J N, l Lindau, Stefan P M, Weissman D L, Shek M L and Spicer W E 1982 Journal of Applied Physics 53 3267\n- [34] Wang Y, Wei X, Tian Z, Cao Y, Zhai R, Ushikubo T, Sato K and Zhuang S 1997 Surface Science 372 L285\n- [35] Sanz J M and Hofmann S 1983 Journal of the Less-Common Metals 92 317\n- [36] Perkins R A and R A Padgett J 1977 Acta Metallurgica 25 1221\n- [37] Ko E and Weissman J 1990 Catalysis Today 8 27\n- [38] Schafer H, Gruehn R and Schulte F 1966 Angewandte Chemie International Edition 5 27\n- [39] Sathasivam S, Williamson B A D, Althabaiti S A, Obaid A Y, Basahel S N, Mokhtar M, Scanlon D O, Carmalt C J and Parkin I P 2017 ACS Applied Materials & Interfaces 9 18031\n- [40] Wimmer E, Schwarz K, Podloucky R, Herzig P and Neckel A 1982 Journal of Physics and Chemistry of Solids 43 439\n- [41] Umemori K, Kako E, Konomi T, Michizono S, Sakai H, Tamura J and Okada T 2019 Study on nitrogen infusion using KEK new furnace 19th International Conference on RF Superconductivity p 95\n- [42] Koufalis P N, Furuta F, Ge M, Gonnella D, Kaufman J J, Liepe M, Maniscalco J T and Porter R D 2016 Low temperature nitrogen baking of a SRF cavity International Linear Accelerator Conference 2016 p 472\n- [43] Ito H, Araki H, Takahashi K and Umemori K 2021 Progress of Theoretical and Experimental Physics 2021 071G01\n- [44] Yang Z, Hao J, Quan S, Lin L, Wang F, Jiao F and Liu K 2022 Physica C: Superconductivity and its applications 599 1354092\n- [45] He F et al. 2021 Superconductor Science and Technology 34 095005\n- [46] Koufalis P N 2022 Field and frequency dependence of the surface resistance of superconducting microwave resonators for particle accelerators Ph.D. thesis Cornell University\n- [47] Bergmann D and Hinze J 1996 Angewandte Chemie International Edition 35 150\n- [48] Hofmann S, Liu Y, Wang J Y and Kovac J 2014 Applied Surface Science 314 942\n- [49] Bach D, Schneider R, Gerthsen D, Verbeeck J and Sigle W 2009 Microscopy and Microanalysis 15 505\n- [50] NIST X-ray Photoelectron Spectroscopy Database, Version 4.1 (National Institute of Standards and Technology, Gaithersburg, 2012); http://srdata.nist.gov/xps/.\n- [51] Over H and Seitsonen A P 2002 Science 297 2003\n- [52] Bryant R T 1962 Journal of the Less Common Metals 4 62\n- [53] H¨orz G, Lindenmaier K and Klaiss R 1974 Journal of the Less Common Metals 35 97\n- [54] Sun Z et al. 2023 Advanced Electronic Materials 9\n- [55] Kurmaev E Z, Moewes A, Bureev O G, Nekrasovc I A, Cherkashenkoa V M, Korotina M A and Ederer D L 2002 Journal of Alloys and Compounds 347 213\n- [56] Zhang W, Wu W, Wang X, Cheng X, Yan D, Shen C, Peng L, Y W and L B 2013 Surface and Interface Analysis 45 1206\n- [57] Edamoto K, Maehama S, Miyazaki E and Kato H 1989 Physical Review B 39 7461\n- [58] Greiner M T, Helander M G, Tang W M, Wang Z B, Qiu J and Lu Z H 2012 Nature Materials 11 76\n- [59] Grosvenor A P, Wik S D, Cavell R G and Mar A 2005 Inorganic Chemistry 44 8988\n- [60] Hochst H, Hufner S and Goldmann A 1976 Solid State Communications 19 899\n- [61] Hochst H, Hufner S and Goldmann A 1980 Zeitschrift fur Physik B 37 27\n- [62] Hochst H, Steiner P, Reiter G and Hufner S 1981 Zeitschrift fur Physik B Condensed Matter 42 199\n- [63] Weaver J H and Schmidt F A 1980 Physics Letters 77A 73\n- [64] Seah M P 1980 Surface and Interface Analysis 2 222\n- [65] Powell C J and Larson P E 1978 Applications of Surface Science 1 186\n- [66] Yeh J J and Lindau I 1985 Atomic Data and Nuclear Data Tables 32 1\n- [67] Powell C J and Jablonski A 1999 Journal of Physical and Chemical Reference Data 28 19\n- [68] Rosner H, Kitaigorodsky A and Pickett W E 2002 Physical Review Letters 88 127001",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Surface oxides, carbides, and impurities on RF\nsuperconducting Nb and Nb3Sn: A comprehensive\nanalysis",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              71.2705078125,
+              144.224609375
+            ],
+            [
+              500.23828125,
+              144.224609375
+            ],
+            [
+              500.23828125,
+              205.27508544921875
+            ],
+            [
+              71.2705078125,
+              205.27508544921875
+            ]
+          ]
+        },
+        {
+          "title": "1. Introduction",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              71.5693359375,
+              90.55157470703125
+            ],
+            [
+              162.40524291992188,
+              90.55157470703125
+            ],
+            [
+              162.40524291992188,
+              102.50677490234375
+            ],
+            [
+              71.5693359375,
+              102.50677490234375
+            ]
+          ]
+        },
+        {
+          "title": "2. Experimental Section",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              71.531982421875,
+              543.9355926513672
+            ],
+            [
+              214.66140747070312,
+              543.9355926513672
+            ],
+            [
+              214.66140747070312,
+              556.48828125
+            ],
+            [
+              71.531982421875,
+              556.48828125
+            ]
+          ]
+        },
+        {
+          "title": "2.1. Nb and Nb3Sn samples and treatments",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              71.419921875,
+              571.714599609375
+            ],
+            [
+              293.44921875,
+              571.714599609375
+            ],
+            [
+              293.44921875,
+              584.5921783447266
+            ],
+            [
+              71.419921875,
+              584.5921783447266
+            ]
+          ]
+        },
+        {
+          "title": "2.2. XPS and STEM/EELS characterizations",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              71.49462890625,
+              630.9226531982422
+            ],
+            [
+              306.2142639160156,
+              630.9226531982422
+            ],
+            [
+              306.2142639160156,
+              642.8778533935547
+            ],
+            [
+              71.49462890625,
+              642.8778533935547
+            ]
+          ]
+        },
+        {
+          "title": "3. Results and Discussion",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              71.606689453125,
+              348.4595642089844
+            ],
+            [
+              223.3408966064453,
+              348.4595642089844
+            ],
+            [
+              223.3408966064453,
+              360.4147644042969
+            ],
+            [
+              71.606689453125,
+              360.4147644042969
+            ]
+          ]
+        },
+        {
+          "title": "3.1. Native oxides on Nb at RT",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              71.49462890625,
+              376.2385559082031
+            ],
+            [
+              234.28125,
+              376.2385559082031
+            ],
+            [
+              234.28125,
+              388.1937561035156
+            ],
+            [
+              71.49462890625,
+              388.1937561035156
+            ]
+          ]
+        },
+        {
+          "title": "3.2. Effects of UHV baking temperature on Nb",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              71.04638671875,
+              514.0057067871094
+            ],
+            [
+              309.5859375,
+              514.0057067871094
+            ],
+            [
+              309.5859375,
+              525.9609069824219
+            ],
+            [
+              71.04638671875,
+              525.9609069824219
+            ]
+          ]
+        },
+        {
+          "title": "3.3. Effects of N2 processing on Nb",
+          "heading_level": null,
+          "page_id": 13,
+          "polygon": [
+            [
+              71.5693359375,
+              90.55157470703125
+            ],
+            [
+              252.0615234375,
+              90.55157470703125
+            ],
+            [
+              252.0615234375,
+              103.43017578125
+            ],
+            [
+              71.5693359375,
+              103.43017578125
+            ]
+          ]
+        },
+        {
+          "title": "3.4. Valence analyses",
+          "heading_level": null,
+          "page_id": 14,
+          "polygon": [
+            [
+              71.009033203125,
+              443.1535949707031
+            ],
+            [
+              181.70098876953125,
+              443.1535949707031
+            ],
+            [
+              181.70098876953125,
+              455.1087951660156
+            ],
+            [
+              71.009033203125,
+              455.1087951660156
+            ]
+          ]
+        },
+        {
+          "title": "3.5. Nb coupon studies",
+          "heading_level": null,
+          "page_id": 17,
+          "polygon": [
+            [
+              71.382568359375,
+              362.3245849609375
+            ],
+            [
+              189.0087890625,
+              362.3245849609375
+            ],
+            [
+              189.0087890625,
+              374.27978515625
+            ],
+            [
+              71.382568359375,
+              374.27978515625
+            ]
+          ]
+        },
+        {
+          "title": "3.6. Native oxides on Nb3Sn at RT",
+          "heading_level": null,
+          "page_id": 19,
+          "polygon": [
+            [
+              71.5693359375,
+              123.2215576171875
+            ],
+            [
+              252.9580078125,
+              123.2215576171875
+            ],
+            [
+              252.9580078125,
+              136.09918212890625
+            ],
+            [
+              71.5693359375,
+              136.09918212890625
+            ]
+          ]
+        },
+        {
+          "title": "3.7. Effects of UHV baking temperature on Nb3Sn",
+          "heading_level": null,
+          "page_id": 20,
+          "polygon": [
+            [
+              71.12109375,
+              439.7167053222656
+            ],
+            [
+              327.216796875,
+              439.7167053222656
+            ],
+            [
+              327.216796875,
+              452.5942687988281
+            ],
+            [
+              71.12109375,
+              452.5942687988281
+            ]
+          ]
+        },
+        {
+          "title": "4. Conclusions",
+          "heading_level": null,
+          "page_id": 20,
+          "polygon": [
+            [
+              71.531982421875,
+              608.7257232666016
+            ],
+            [
+              158.2294921875,
+              608.7257232666016
+            ],
+            [
+              158.2294921875,
+              620.6809234619141
+            ],
+            [
+              71.531982421875,
+              620.6809234619141
+            ]
+          ]
+        },
+        {
+          "title": "5. Supporting Information",
+          "heading_level": null,
+          "page_id": 21,
+          "polygon": [
+            [
+              71.19580078125,
+              443.3125915527344
+            ],
+            [
+              228.18289184570312,
+              443.3125915527344
+            ],
+            [
+              228.18289184570312,
+              455.5546875
+            ],
+            [
+              71.19580078125,
+              455.5546875
+            ]
+          ]
+        },
+        {
+          "title": "6. Data Availability Statement",
+          "heading_level": null,
+          "page_id": 21,
+          "polygon": [
+            [
+              71.04638671875,
+              505.0475769042969
+            ],
+            [
+              253.82679748535156,
+              505.0475769042969
+            ],
+            [
+              253.82679748535156,
+              517.04296875
+            ],
+            [
+              71.04638671875,
+              517.04296875
+            ]
+          ]
+        },
+        {
+          "title": "7. Conflicts of Interest",
+          "heading_level": null,
+          "page_id": 21,
+          "polygon": [
+            [
+              71.19580078125,
+              566.7825775146484
+            ],
+            [
+              205.892578125,
+              566.7825775146484
+            ],
+            [
+              205.892578125,
+              578.7377777099609
+            ],
+            [
+              71.19580078125,
+              578.7377777099609
+            ]
+          ]
+        },
+        {
+          "title": "8. Acknowledgement",
+          "heading_level": null,
+          "page_id": 21,
+          "polygon": [
+            [
+              71.307861328125,
+              628.5175933837891
+            ],
+            [
+              194.63656616210938,
+              628.5175933837891
+            ],
+            [
+              194.63656616210938,
+              640.4727935791016
+            ],
+            [
+              71.307861328125,
+              640.4727935791016
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 22,
+          "polygon": [
+            [
+              70.859619140625,
+              172.32855224609375
+            ],
+            [
+              134.8963165283203,
+              172.32855224609375
+            ],
+            [
+              134.8963165283203,
+              184.28375244140625
+            ],
+            [
+              70.859619140625,
+              184.28375244140625
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              136
+            ],
+            [
+              "Line",
+              45
+            ],
+            [
+              "Text",
+              11
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              168
+            ],
+            [
+              "Line",
+              44
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              228
+            ],
+            [
+              "Line",
+              44
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              839
+            ],
+            [
+              "Line",
+              137
+            ],
+            [
+              "TableCell",
+              71
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              161
+            ],
+            [
+              "Line",
+              39
+            ],
+            [
+              "ListItem",
+              5
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              292
+            ],
+            [
+              "TableCell",
+              168
+            ],
+            [
+              "Line",
+              80
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              220
+            ],
+            [
+              "Line",
+              42
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              169
+            ],
+            [
+              "Line",
+              39
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              438
+            ],
+            [
+              "Line",
+              128
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              312
+            ],
+            [
+              "Line",
+              97
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              309
+            ],
+            [
+              "Line",
+              89
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              230
+            ],
+            [
+              "Line",
+              79
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              235
+            ],
+            [
+              "Line",
+              74
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              288
+            ],
+            [
+              "Line",
+              78
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 14,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              141
+            ],
+            [
+              "Line",
+              40
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 15,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              504
+            ],
+            [
+              "Line",
+              160
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 16,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              271
+            ],
+            [
+              "Line",
+              66
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 17,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              167
+            ],
+            [
+              "Line",
+              48
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 18,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              172
+            ],
+            [
+              "Line",
+              51
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 19,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              396
+            ],
+            [
+              "Line",
+              144
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 20,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              361
+            ],
+            [
+              "Line",
+              120
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 21,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              105
+            ],
+            [
+              "Line",
+              34
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "SectionHeader",
+              4
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 22,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              274
+            ],
+            [
+              "Line",
+              48
+            ],
+            [
+              "ListItem",
+              31
+            ],
+            [
+              "Reference",
+              7
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 23,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              285
+            ],
+            [
+              "Line",
+              52
+            ],
+            [
+              "ListItem",
+              33
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 24,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              33
+            ],
+            [
+              "Line",
+              5
+            ],
+            [
+              "ListItem",
+              4
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 25,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Surface oxides, carbides, and impurities on RF superconducting Nb and Nb<SUB>3</SUB>Sn: a comprehensive analysis",
+    "authors": [
+      {
+        "authors_list": [
+          "Sun, Zeming",
+          "Baraissov, Zhaslan",
+          "Dukes, Catherine A.",
+          "Dare, Darrah"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Surface structures on radio-frequency (RF) superconductors are crucially important in determining their interaction with the RF field. Here we investigate the surface compositions, structural profiles, and valence distributions of oxides, carbides, and impurities on niobium (Nb) and niobium-tin (Nb<SUB>3</SUB>Sn) in situ under different processing conditions. We establish the underlying mechanisms of vacuum baking and nitrogen processing in Nb and demonstrate that carbide formation induced during high-temperature baking, regardless of gas environment, determines subsequent oxide formation upon air exposure or low-temperature baking, leading to modifications of the electron population profile. Our findings support the combined contribution of surface oxides and second-phase formation to the outcome of ultra-high vacuum baking (oxygen processing) and nitrogen processing. Also, we observe that vapor-diffused Nb<SUB>3</SUB>Sn contains thick metastable oxides, while electrochemically synthesized Nb<SUB>3</SUB>Sn only has a thin oxide layer. Our findings reveal fundamental mechanisms of baking and processing Nb and Nb<SUB>3</SUB>Sn surface structures for high-performance superconducting RF and quantum applications.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Superconductor Science Technology",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2305.02467"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1088/1361-6668/acff23",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2023SuScT..36k5030S"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

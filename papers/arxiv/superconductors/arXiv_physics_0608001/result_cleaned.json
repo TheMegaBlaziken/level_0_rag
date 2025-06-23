@@ -1,0 +1,357 @@
+{
+  "id": "bafa2d1115e629026d757f36e445cfba",
+  "pdf_path": "apl/Superconductors/arXiv:physics_0608001.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "[We gratefully acknowledge support from](https://confluence.cornell.edu/x/ALlRF) [the Simons Foundation and University of Pennsylvania .](https://confluence.cornell.edu/x/ALlRF) [Cornell University](https://www.cornell.edu/)\n\n## **> [physics.acc-ph](file:///list/physics.acc-ph/recent) [arxiv logo](file:///)**\n\n| All papers | ˅ |\n|------------|---|\n\n([Help](https://info.arxiv.org/help) | [Advanced search\\)](file:///find)\n\n## **PDF unavailable for [physics/](file:///abs/physics/0608001) [0608001](file:///abs/physics/0608001)...**\n\nThe author has provided no source to generate PDF, and no PDF.\n\nLink back to: [arXiv,](http://arXiv.org/) [form interface,](http://arxiv.org/form) [contact](file:///help/contact).\n\n[About](https://arxiv.org/about)\n\n## [Help](https://arxiv.org/help)\n\n![](_page_1_Picture_1.jpeg)\n\n[Contact](https://arxiv.org/help/contact)\n\n![](_page_2_Picture_0.jpeg)\n\n[Subscribe](https://arxiv.org/help/subscribe)\n\n[Copyright](https://arxiv.org/help/license)\n\n[Privacy Policy](https://arxiv.org/help/policies/privacy_policy)\n\n[Web Accessibility Assistance](https://arxiv.org/help/web_accessibility)\n\n[arXiv Operational Status](https://status.arxiv.org)\n\n![](_page_4_Picture_0.jpeg)\n\n## Get status notifications via\n\n![](_page_5_Picture_1.jpeg)\n\n[email](https://subscribe.sorryapp.com/24846f03/email/new) or\n\n![](_page_6_Picture_0.jpeg)\n\n[slack](https://subscribe.sorryapp.com/24846f03/slack/new)",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "> physics.acc-ph\narxiv logo",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              61.6953125,
+              119.43408203125
+            ],
+            [
+              443.8473815917969,
+              119.43408203125
+            ],
+            [
+              443.8473815917969,
+              148.4189453125
+            ],
+            [
+              61.6953125,
+              148.4189453125
+            ]
+          ]
+        },
+        {
+          "title": "PDF unavailable for physics/\n0608001...",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              61.5498046875,
+              251.61328125
+            ],
+            [
+              451.65625,
+              251.61328125
+            ],
+            [
+              451.65625,
+              308.7607421875
+            ],
+            [
+              61.5498046875,
+              308.7607421875
+            ]
+          ]
+        },
+        {
+          "title": "Help",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              81.9208984375,
+              61.772705078125
+            ],
+            [
+              113.14999389648438,
+              61.772705078125
+            ],
+            [
+              113.14999389648438,
+              75.751220703125
+            ],
+            [
+              81.9208984375,
+              75.751220703125
+            ]
+          ]
+        },
+        {
+          "title": "Get status notifications via",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              82.86669921875,
+              61.05322265625
+            ],
+            [
+              249.59397888183594,
+              61.05322265625
+            ],
+            [
+              249.59397888183594,
+              75.751220703125
+            ],
+            [
+              82.86669921875,
+              75.751220703125
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              36
+            ],
+            [
+              "Line",
+              12
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "TableCell",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Form",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              3
+            ],
+            [
+              "Line",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              7
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Line",
+              4
+            ],
+            [
+              "Picture",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Line",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Picture",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              4
+            ],
+            [
+              "Line",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Picture",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Line",
+              1
+            ],
+            [
+              "Span",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/tmpunrz1y_o"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 7,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Mitigating radiation loads in Nb<SUB>3</SUB>Sn quadrupoles for the CERN Large Hadron Collider upgrades",
+    "authors": [
+      {
+        "authors_list": [
+          "Mokhov, N. V.",
+          "Rakhno, I. L."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Challenging beam-induced energy deposition issues are addressed for the next generation of the LHC high-luminosity interaction regions based on Nb<SUB>3</SUB>Sn quadrupoles. Detailed mars15 Monte Carlo energy deposition calculations are performed for various coil diameters, thicknesses, and materials of the inner absorber at a field gradient of 200T/m. It is shown that using the inner absorber made of tungsten-based materials can make the final focus superconducting quadrupoles compatible with a luminosity of 10<SUP>35</SUP>cm<SUP>-2</SUP>s<SUP>-1</SUP>.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Physical Review Accelerators and Beams",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:physics/0608001"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1103/PhysRevSTAB.9.101001",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2006PhRvS...9j1001M"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

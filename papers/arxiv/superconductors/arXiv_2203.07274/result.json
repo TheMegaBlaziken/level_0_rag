@@ -1,0 +1,438 @@
+{
+  "id": "5a388dba948da477f5d41aa7e103dcef",
+  "pdf_path": "apl/Superconductors/arXiv:2203.07274.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# Test samples and infrastructure for accelerator magnet developments\n\nStoyan Stoynev<sup>1</sup>\n\n*Abstract***— LHC still does not operate at full energy due to training features in magnets. Higher field practical superconductors (Nb3Sn) show much worse training behavior than NbTi. Most magnet performance issues relate to quenching, and it is this phenomenon and its dependencies that need to be understood for us to succeed addressing them in magnets. For pragmatic and scientific reasons underlying mechanisms are hard to investigate in real magnets. Available data suggest that emulating local conditions at quench location may be enough to arrive at a good understanding of what drives observed behavior. \"Local\" conditions imply emulation by small samples of cables/\"stacks\" powered within a facility with controllable conditions, including external magnetic and force fields. This paper argues about the necessity of this approach, while reminding current understanding and directions of quench studies, and pointing out inadequacy of available techniques. Improved facilities and change of perspective are required for consistent and affordable development.**\n\n#### I. INTRODUCTION\n\nHC is undoubtfully the most important instrument the HEP community has on its disposal and is widely considered an amazing technological achievement. At the core of this instrument lay accelerator magnets based on NbTi technology – a technology well developed and widely used in the commercial sector too. Yet, a decade after the accelerator started it still did not reach its design collision energy of 14 TeV [1] and it operated for years well below it. The reason for this is simple – magnet training [2], [3] (even though only a subset of the LHC magnets is mostly affected). **L**\n\nLHC upgrades and future colliders rely on new technologies allowing to reach higher operational fields and the most practical one now is based on Nb3Sn conductor. Nb3Sn superconducting properties were in fact discovered several years before NbTi. There are good reasons its development stalled - its mechanical properties, for one, are much worse than those of the very strong NbTi. As a result of this and mitigation measures, Nb3Sn accelerator magnets of today, as a rule, show an unpleasant feature – much longer training than NbTi magnets.\n\nAfter decades of magnet development, we are still unable to successfully deal with the problem of magnet training. The problem was known and acknowledged decades ago [4], there were and are continuous targeted attempts to solve it [5], [6], [7], [8], it is a top priority goal of the MDP [9]. Based on the many years of experience do we have the confidence it will be\n\nresolved soon enough, how? Moreover, a larger issue is quench behavior and performance limitations, and they too fall within the scope of the same question. In this paper, we discuss the phenomena involved and argue about steps the community should take to address them.\n\n# II. QUENCH TRAINING AND MORE\n\n# *A. Training phenomenon, quenching*\n\nThe manifestation of quench training is the semi-continuous rise in magnet current reached at consecutive power ramps before a natural quench breaks the ramping. A quench current plateau is eventually reached, eventually at design field. We talk about magnet quench training because this is what we observe directly. We see manifestations of phenomena, correlations between controlled quantities and behavior. Correlations are not enough to explain relations, we need to dig deeper.\n\nIt is probably reasonable to expect that processes during magnet powering and protection, especially large stress changes, after quenching affect the whole conductor – what-ever happens in one coil will be seen by the others. However, data do not support such a wide range statement. While variations of coil and magnet designs exist, most SC accelerator magnets are dipoles or quadrupoles, two or four \"identical\" coils per magnet, respectively. A special R&D object is a \"mirror\" magnet using only one coil with the rest replaced by iron (\"mirror\"). Although stress and field characteristics are not \"mirrored\" perfectly it is instructive to compare training behavior between coils. As shown in [10], with somewhat limited statistics, coils in \"mirrors\" and coils in \"regular\" configurations train similarly, i.e., \"coil training\" is better approximation than \"magnet training\". A focus on coils is also a simplification step to understand the underlying processes. If coils, which are typically double-layered, train independently - do layers train independently? Or are there sub-regions that train independently? How is \"independently\" even defined within a coil?\n\nSub-scale coils are often considered the smallest models for magnet development. However, multiple consecutive training quenches do happen in the same coil locations and can be even responsible for long stretches of the training curve if not defining it [11]. It is plausible and even logical to consider that the phenomenon could be driven by changes in local conditions\n\n<sup>1</sup>S. Stoynev is with the Fermilab National Accelerator Laboratory, Batavia, IL, 60510, USA (e-mail: stoyan@fnal.gov).\n\nalone – after all most natural quenches are believed to be caused by local energy release (a single minimum propagation zone developing). In that case a \"sub-scale\" model of those local conditions may be well suited to explore the phenomenon and pinpoint underlying reasons for it, possibly opening the way to mitigate adverse effects. Certainly, longer range current sharing effects could have non-trivial implications and could not be easily reproduced in any \"sub-scale\"; still they can be completely switched off and separately approximated in those experiments reducing the overall number of parameters to follow simultaneously.\n\nWhile \"training\" is the use case we stick to, it is apparent that other quench dependencies and quenching itself can be subject to the same kind of scrutiny at \"local\" scale. Performance limitations, degradation, abnormal behaviors like reverse ramp rate quench current dependencies can all be studied at a smaller focused scale with conditions mimicking those in magnets. Defects could be introduced and studied while test samples will likely differ depending on research goals.\n\n## *B. Sub-scale models and training*\n\nSuperconducting magnets are expensive, and the trend is going up. Almost all R&D objects are sub-scale magnets/prototypes, often of the order of one-two meters long, with otherwise the same structure as of a long magnet. Sometimes a coil(s) is (are) replaced by iron block(s). Or simplistic coils are built for specific studies (racetracks). All this works well for development but those are still expensive objects, we can build limited number of them, fabricating and testing them takes years and, yes, we still have problems figuring out the training. In fact, there is no firm understanding of what the exact causes are and what mitigations will help, beyond overall description of energy release sources and rich literature on possible solutions for magnets; there are concrete yet partial successes [12].\n\n Because of cost considerations, magnet developments often rely on assumptions for magnet fabrication to move the field forward. There is still not much consensus on reliable testing, with direct link to magnets, on anything else but magnets. Recent CCTs development [13] reasonably proposed [14] CCTs to be a solution for training supported by a promising NbTi test [15]. Few years later the sub-scale magnets (~ 1 m long) in those experiments are replaced by even shorter CCT versions, themselves called subscale CCTs [16], intending, among other things, to resolve the extremely long training curves observed in Nb3Sn CCTs[12]. Activities are ongoing.\n\n Hopefully the CCT subscales will resolve the familiar problem encountered, will move to the 1-2 m models to confirm the resolution and then to longer CCT coils. It is unclear which part of the potential solution will work for other accelerator magnet types – as said there is no consensus on a universal test model for \"general\" magnet R&D.\n\nSince the Letter of Interest, which seeded the work on this paper, a new testing concept was proposed - BOX [17]. That work also contains an excellent set of references relevant here. The concept is a non-trivial development as it revolves around using an object, which is not a magnet, for magnet\n\ndevelopment. The basic concept is not new, per se: a cable \"structure\" for testing material and interfaces. The actual object though is a serpentine shaped cable, properly supported, immersed in external magnetic field, and it goes well beyond \"cable testing\" scope as currently understood. While authors emphasized the concept, they also showed initial results and discussed training curves of those devices. They also envisioned possible next steps: '…and to promote additional stress conditions by implementing in-situ compressive stresses on the broad face of the cable during powering…'.\n\nInvestigating the quench phenomenon, as well as many other aspects of magnet performance, in the context of accelerator magnets, naturally takes the shape of \"sub-scale\" development – ideally a \"fast-turn-around\", \"low cost\" solution with sizable statistical power to resolve built-in uncertainties. In search for \"fast-turn-around\" experiments sub-scale magnet models are often employed, indeed most of the R&D \"short\" magnet models are sub-scales of what a future design may look like. However, still smaller models are needed in practice. Training is a typical part of R&D magnet testing and the community have a good amount of data there; there are also some dedicated tests on smaller scale (including small solenoids) in self-field or in background field [5],[6]; there were tests on cables [18], there were tests conducted even on wires (for a subject review and references see [19]). While all those are steps in the right direction it can be questioned if such experiments, in particular on \"fast-turn-around\" models, can be directly related to training processes in actual coils. The logic would dictate to search for training patterns and relations in increasingly elaborate but logical structures – wire, wires, small magnets based on wire windings; cable, cables (\"stack\", with appropriate interfaces); small coils/magnets (various types); large coils/magnets (various types). As we care about the large (accelerator) magnets everything before them in the logical chain serves as an approximation and it needs to be determined at which point in the chain the approximation is good enough. The earlier we set the threshold the better (faster, cheaper). While experiments continue, the best we can rely on so far is still too expensive and slow to be considered adequate. This is hardly sustainable for R&D on quenching and training; and results will likely depend on magnet type used as a testing \"model\".\n\nA better starting point is adopting a \"local\" reproduction of magnets, relatable to real situations in magnets; controlling and understanding of physics of quenches there gives a proper path to up-scaling of consistent performance characteristics and quench-group behavior. It is worth noting that the question of reliable up-scaling from small to large Nb3Sn accelerator magnets is still not universally settled today as seen with on-going developments for LHC. The solution could not be to do more of the same, it never completely worked so far, and it is costly.\n\nExcept for a possible extension of BOX [17], there is no dedicated device that allows to test fully powered (Nb3Sn) cables/\"stacks\" inside large magnetic field under pressure for the purpose of training exploration and quenching. There are devices for cable testing (like FRESCA2 [20]) though it is not clear if they can be used for dedicated quench or quench training studies. It is much better to design infrastructure that is more flexible, specifically conceived with training/quench studies in mind, that is, ideally, configurable for testing various samples. The byproduct of such a facility is that it is by construction also a cable testing one. To design a dedicated facility for cable/\"stack\" studies, pressure devices for wires (that is, a single strand is typically powered) inside magnetic field can serve as a model to upgrade [21] along with cable testing facilities themselves.\n\n#### III. INFRASTRUCTURE FOR MAGNET DEVELOPMENT\n\n#### *A. Emulation of local conditions*\n\nConditions that govern or affect quenches in magnets are relatively limited in number. The main ones regard conductor (including design) and interfaces together with insulation material, current, magnetic field, pressure (force), temperature, cooling. All of them can be designed to be controllable in a small volume/area, within some uncertainty. Control is of utmost importance and variability of conditions, independently on each other, is a goal to pursue. It is to be noted that \"locality\" can also be a condition, in a sense that samples can vary in size and complexity. While the size of a minimum propagation zone at given environment is the natural scale for quench studies and \"large enough\" can be defined through that scale, properly designed longer/larger samples could test larger-scale effects on \"locality\".\n\nThe relative simplicity of such setups makes them perfectly suited for computer simulation reproduction. Simulation frameworks developed for magnets (like [22], [23], [24]), along with wide-use simulation tools, could be utilized to provide quite solid basis for such studies. Various models can be tested, software tuned and benchmarked. Simulations shall interactively yield to better designs of \"local\" samples and apparatuses, and eventually to better design and understanding of larger objects behavior.\n\n#### *B. Test stands and samples*\n\nThe BOX experiment [17], as the name itself suggests, had relatively narrow scope initially and its potential is likely to become more appreciated over time. Promising results are starting to appear [25]. In the context of this section, \"BOX\" is a \"sample\" which is utilized within an external structure (test stand) not designed with it in mind. With some modifications BOX could nearly give the practical example of a \"sample\" and a facility that can address the problems discussed so far. However, the fact remains that it fits within a facility not designed to provide flexibility (independent and comprehensive variation of key parameters) for testing. The general conception approaches the problem from the wrong end which is still better than not approaching it at all. To get maximum return a test stand designed with flexibility to test various samples at various conditions in mind is necessary. This does not mean it should be designed from scratch as \"components\" may be already available. It does mean comprehensive design studies are due with options evaluated. Those include magnet (type, field), mechanical press or presses (may also be based on interaction with another magnet), geometry of the system (magnet-press-sample), sample and extensions (limitations), cooling supply, multidimensional considerations (of parameters), degrees of control. The goal is to build a system that is able to reproduce \"local\" conductor conditions, as inferred, nearly anywhere in a real magnet and, better, different type of magnets.\n\nThe primary goal of such a facility is to enable studies on small superconducting samples (cables, \"stacks\") relatable to large magnets. It will allow to manipulate quenching and quench training in those samples at certain controllable conditions. Studies on the quench phenomenon and quench dependencies are much faster and easier on small samples, reliable simulations of those are to be expected. Large statistics and a limited sample area to study will contribute to solid results to be compared to real magnet behavior and features. Eventually, we will be able to reproduce patterns of both quench development and quench dependencies in large magnets on this small scale and reverse engineer coil designs to minimize unwanted effects. Simultaneously, the fast-turn-around models, the \"stacks\", are to be used for material, conductor, and interface studies in closer to real conditions environment. Over time this approach not only resolves problems but also saves valuable resources.\n\nA main drawback of this approach may be considered the necessity to invest and concentrate efforts in non-accelerator-magnet development – mass fabrications and analysis of \"stacks\" and up-front investment of relevant facilities, as a start. If our community does not recognize the problems it has to resolve are not purely engineering but also scientific then we will continue hopping from technology to technology without ever reaching the true limits of any in practice. If we instead do recognize the true nature of issues, then a complex problem needs to be discerned into comprehensible pieces and resolved meticulously. Only then we can understand what makes magnet behaviors special.\n\n## IV. CONCLUSION\n\nLearning from the past suggests root problems in development of new technologies for accelerator magnets should be addressed at early stages. The community is past those stages in Nb3Sn R&D. A redirection of efforts is needed in order to avoid more costly disappointments in future. To understand persistent issues with magnet quenching it is necessary to investigate underlying mechanisms and build on this knowledge step by step. To do that with physical objects one needs statistics, reproducibility, precisely controllable environment, cost efficiency, comprehensive diagnostics, solid modeling support, fast turn-around times. Adopting configurable samples (cables/\"stacks\") that could be powered inside external magnetic and external force fields as part of dedicated test facilities could meet those needs. Such an approach should target emulation of \"local\" conditions in magnets. We have to learn how to control and influence behavior. So far results from complex structures (magnets) are not promising nor they point to a viable path forward. The proposed dedicated facilities and concepts do.\n\n#### REFERENCES\n\n- [1] \"LHC prepares for new achievements\", https://home.cern/news/press-release/accelerators/lhc-prepares-new-achievements, 3 December 2018. Retrieved 24 July 2020.\n- [2] E. Todesco et al., \"Training Behavior of the Main Dipoles in the Large Hadron Collider\", IEEE Trans. Appl. Supercond. , vol. 27, no. 4, 4702807, June 2017.\n- [3] \"Restarting the LHC: Why 13 TeV?\", https://home.cern/science/engineering/restarting-lhc-why-13-tev, Retrieved 24 July 2020.\n- [4] P.F. Smith and B. Colyer, \"A Solution to the Training Problem in Superconducting Magnets\", Cryogenics 15 (1975) 201-207.\n- [5] Charlie Sanabria, https://conferences.lbl.gov/event/204/ \"An experiment to explore training behavior in superconducting magnets - Part 1: solenoid fabrication\", https://conferences.lbl.gov/event/204/ (2018), presented.\n- [6] Helene Felice et al., \"Design and Test of a Nb3Sn Subscale Dipole Magnet for Training Studies\", IEEE Trans. Appl. Supercond. 17 (2007) no.2, 1144-1148.\n- [7] C. Kovacs et al., \"A Cable-Scale Experiment to Explore New Materials for Optimizing Superconductor Accelerator Magnets\", Cryogenics, 106:103025, 2019.\n- [8] Krivykh, A. & Anashkin, O. & Keilin, V., Elimination of training and degradation of superconducting magnets by electrodynamic treatment, Soviet Physics Doklady (1985). https://www.researchgate.net/profile/A-Krivykh/publication/241206217\\_Elimination\\_of\\_training\\_and\\_degradation\\_of\\_superconducting\\_magnets\\_by\\_electrodynamic\\_treatment/links/550987f10cf27e990e0ed743/Elimination-of-training-anddegradation-of-superconducting-magnets-by-electrodynamic-treatment.pdf\n- [9] \"The U.S. Magnet Development Program Plan\", https://atap.lbl.gov/wpcontent/uploads/sites/22/2016/01/MagnetDevelopmentProgramPlan.pdf, Retrieved 24 July 2020.\n- [10] S. Stoynev et al., \"Analysis of Nb3Sn accelerator magnet training,\" IEEE Trans. Appl. Supercond., vol. 29, no. 5, Aug. 2019, Art. no. 4001206, doi: 10.1109/TASC.2019.2895554\n- [11] T. Strauss et al., \"Quench Location in the LARP MQXFS1 Proto-type\", IEEE Trans. Appl. Supercond., , vol. 28, no. 3, 4001604, 2018.\n- [12] D. Arbelaez et al., \"Design and test results of the Nb3Sn canted-cosine-Theta dipole magnet CCT5,\" presented at the Appl. Supercond. Conf., Seattle, WA, USA, Oct. 28–Nov. 2, 2018, Paper 2LOr1B-04.\n- [13] A. Hafalia et al., \"The Structural Design for a \"Canted Cosine–Theta\" Superconducting Dipole Coil and Magnet Structure—CCT1,\" in IEEE Trans. Appl. Supercond., vol. 24, no. 3, pp. 1-4, June 2014, Art no. 4001904, doi: 10.1109/TASC.2013.2284429.\n- [14] S. Caspi et al., \"Design of a Canted-Cosine-Theta Superconducting Dipole Magnet for Future Colliders,\" IEEE Trans. Appl. Supercond., vol. 27, no. 4, pp. 1-5, June 2017, Art no. 4001505, doi: 10.1109/TASC.2016.2638458.\n- [15] S. Caspi et al., \"Test Results of CCT1—A 2.4 T Canted-Cosine-Theta Dipole Magnet,\" IEEE Trans. Appl. Supercond., vol. 25, no. 3, pp. 1-4, June 2015, Art no. 4002304, doi: 10.1109/TASC.2014.2369061.\n- [16] S. Prestemon, \"CCT Magnet Development: Results and Next Steps\", International HFM Meeting 2019\", Gaithersburg,, Maryland\n- [17] M. Daly et al., \"BOX: An efficient benchmark facility for the study and mitigation of interface-induced training in accelerator type high-field superconducting magnets\", Superconductor science and technology, 2021, vol. 34, no. 11, 115008[. https://doi.org/10.1088/1361-6668/ac2002](https://doi.org/10.1088/1361-6668/ac2002)\n- [18] Ghosh, A.K., Garber, M., Robins, K.E., and Sampson, W.B. Mon . \"Training in test samples of superconducting cables for accelerator magnets\". United States. https://www.osti.gov/servlets/purl/6356510.\n- [19] Amaud DEVRED, \"QUENCH ORIGINS\", AIP Conference Proceedings 249, 1262 (1992)[; https://doi.org/10.1063/1.41993](https://doi.org/10.1063/1.41993)\n- [20] G. Willering, et al., \"Tests of the FRESCA2 100 mm bore Nb3Sn blockcoil magnet to a record field of 14.6 T.\", IEEE Trans. Appl. Supercond. 2019, 29, 4004906.\n- [21] E. Barzi, M. Fratini, A. V. Zlobin , \"A Device to Test Critical Current Sensitivity of Nb3Sn Cables to Pressure\", Advances in Cryogenic Engineering, V. 48, AIP, V. 614, pp. 45-52 (2002).\n- [22] L. Bottura, M. Breschi, and A. Musso, \"Calculation of interstrand coupling losses in superconducting Rutherford cables with a continuum model\", Cryogenics 96, 44, 2018.\n- [23] E. Ravaioli et al., \"Lumped-element dynamic electro-thermal model of a superconducting magnet, \"Cryogenics, pp. –, 2016. [Online]. Available:http://www.sciencedirect.com/science/article/pii/S0011227516300832\n- [24] M. Janitschke et al., \"A Simplified Approach to Simulate Quench Development in a Superconducting Magnet,\" IEEE Trans. Appl. Supercond., vol. 31, no. 5, pp. 1-5, Aug. 2021, Art no. 4000905, doi: 10.1109/TASC.2021.3059980.\n- [25] M. Daly et al.,\" Improved training in paraffin-wax impregnated Nb3Sn Rutherford cables demonstrated in BOX samples\", to be published in IOP's Superconductor Science and Technology Journal (SuST), 2021, arXiv:2201.11039 [physics.acc-ph], https://doi.org/10.48550/arXiv.2201.11039",
+    "html": null,
+    "images": {},
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Test samples and infrastructure\nfor accelerator magnet developments",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              157.9399871826172,
+              55.8702392578125
+            ],
+            [
+              454.1455383300781,
+              55.8702392578125
+            ],
+            [
+              454.1455383300781,
+              102.93017578125
+            ],
+            [
+              157.9399871826172,
+              102.93017578125
+            ]
+          ]
+        },
+        {
+          "title": "I. INTRODUCTION",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              134.173828125,
+              383.1134338378906
+            ],
+            [
+              210.76268005371094,
+              383.1134338378906
+            ],
+            [
+              210.76268005371094,
+              393.099609375
+            ],
+            [
+              134.173828125,
+              393.099609375
+            ]
+          ]
+        },
+        {
+          "title": "II. QUENCH TRAINING AND MORE",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              365.765625,
+              263.1134033203125
+            ],
+            [
+              508.8839111328125,
+              263.1134033203125
+            ],
+            [
+              508.8839111328125,
+              273.41015625
+            ],
+            [
+              365.765625,
+              273.41015625
+            ]
+          ]
+        },
+        {
+          "title": "A. Training phenomenon, quenching",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              313.25,
+              281.1134338378906
+            ],
+            [
+              464.36297607421875,
+              281.1134338378906
+            ],
+            [
+              464.36297607421875,
+              292.166015625
+            ],
+            [
+              313.25,
+              292.166015625
+            ]
+          ]
+        },
+        {
+          "title": "B. Sub-scale models and training",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              46.281005859375,
+              298.033447265625
+            ],
+            [
+              184.58045959472656,
+              298.033447265625
+            ],
+            [
+              184.58045959472656,
+              308.21484375
+            ],
+            [
+              46.281005859375,
+              308.21484375
+            ]
+          ]
+        },
+        {
+          "title": "III. INFRASTRUCTURE FOR MAGNET DEVELOPMENT",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              67.53515625,
+              170.0833740234375
+            ],
+            [
+              277.4675598144531,
+              170.0833740234375
+            ],
+            [
+              277.4675598144531,
+              180.04339599609375
+            ],
+            [
+              67.53515625,
+              180.04339599609375
+            ]
+          ]
+        },
+        {
+          "title": "A. Emulation of local conditions",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              46.206298828125,
+              188.0833740234375
+            ],
+            [
+              181.388671875,
+              188.0833740234375
+            ],
+            [
+              181.388671875,
+              198.04339599609375
+            ],
+            [
+              46.206298828125,
+              198.04339599609375
+            ]
+          ]
+        },
+        {
+          "title": "B. Test stands and samples",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              46.355712890625,
+              498.09344482421875
+            ],
+            [
+              159.5408477783203,
+              498.09344482421875
+            ],
+            [
+              159.5408477783203,
+              508.0534362792969
+            ],
+            [
+              46.355712890625,
+              508.0534362792969
+            ]
+          ]
+        },
+        {
+          "title": "IV. CONCLUSION",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              401.02734375,
+              494.1334533691406
+            ],
+            [
+              475.7638854980469,
+              494.1334533691406
+            ],
+            [
+              475.7638854980469,
+              504.28125
+            ],
+            [
+              401.02734375,
+              504.28125
+            ]
+          ]
+        },
+        {
+          "title": "REFERENCES",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              147.02000427246094,
+              52.1033935546875
+            ],
+            [
+              199.6171875,
+              52.1033935546875
+            ],
+            [
+              199.6171875,
+              62.06341552734375
+            ],
+            [
+              147.02000427246094,
+              62.06341552734375
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              240
+            ],
+            [
+              "Line",
+              90
+            ],
+            [
+              "Text",
+              9
+            ],
+            [
+              "SectionHeader",
+              4
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Footnote",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              282
+            ],
+            [
+              "Line",
+              113
+            ],
+            [
+              "Text",
+              10
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              260
+            ],
+            [
+              "Line",
+              108
+            ],
+            [
+              "Text",
+              8
+            ],
+            [
+              "SectionHeader",
+              4
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              221
+            ],
+            [
+              "Line",
+              86
+            ],
+            [
+              "ListItem",
+              25
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/tC0ZFWX6rOQGr450hO-uZA"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 4,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Test samples and infrastructure for accelerator magnet developments",
+    "authors": [
+      {
+        "authors_list": [
+          "Stoynev, Stoyan"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "LHC still does not operate at full energy due to training features in magnets. Higher field practical superconductors (Nb3Sn) show much worse training behavior than NbTi. Most magnet performance issues relate to quenching, and it is this phenomenon and its dependencies that need to be understood for us to succeed addressing them in magnets. For pragmatic and scientific reasons underlying mechanisms are hard to investigate in real magnets. Available data suggest that emulating local conditions at quench location may be enough to arrive at a good understanding of what drives observed behavior. \"Local\" conditions imply emulation by small samples of cables/\"stacks\" powered within a facility with controllable conditions, including external magnetic and force fields. This paper argues about the necessity of this approach, while reminding current understanding and directions of quench studies, and pointing out inadequacy of available techniques. Improved facilities and change of perspective are required for consistent and affordable development.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2203.07274"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.2203.07274",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2022arXiv220307274S"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

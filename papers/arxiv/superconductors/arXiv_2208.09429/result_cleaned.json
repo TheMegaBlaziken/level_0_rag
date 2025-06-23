@@ -1,0 +1,1693 @@
+{
+  "id": "3f5b10bc54b98167a4f6a817fe130786",
+  "pdf_path": "apl/Superconductors/arXiv:2208.09429.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **Superconductivity of Cs**3**C**<sup>60</sup> **at atmosphere pressure**\n\nDi Peng<sup>1</sup> , Ren-Shu Wang<sup>2</sup>,<sup>1</sup> , Li-Na Zong<sup>1</sup> & Xiao-Jia Chen<sup>1</sup>,2<sup>∗</sup>\n\n1Center for High Pressure Science and Technology Advanced Research, Shanghai, 201203, China 2School of Science, Harbin Institute of Technology, Shenzhen 518055, China\n\n∗ e-mail: xjchen2@gmail.com\n\nPressure as a clean and efficient tool can bring about unexpected extraordinary physical and chemical properties of matters[1](#page-11-0) . The recent discoveries of superconductivity at nearly room temperature in hydrides[2,](#page-11-1) [3](#page-11-2) highlight the power of pressure in this aspect. Capturing such high critical temperature (Tc) superconductivity at atmosphere pressure for the technological applications is highly desired. The large-scale growth of diamond through the chemical vapor deposition[4](#page-11-3) away from the usual high-pressure and high-temperature conditions[5](#page-11-4) fuels such a hope. Similar to hydrides, Cs-doped C<sup>60</sup> [6–](#page-11-5)[9](#page-12-0) was also found to exhibit superconductivity by the application of pressure with a comparable T<sup>c</sup> of 40 K as MgB<sup>2</sup> [10](#page-12-1). Here, we report the successful realization of superconductivity in Cs-doped C<sup>60</sup> at atmosphere pressure. The phase is characterized to have the primitive cubic structure in the space group of P a3 with the stoichiometry of Cs3C60. The superconductivity is evidenced from the observations of both the Meissner effect and zero-resistance state. Although the pressure effects on superconductivity are different for the newly discovered Cs3C<sup>60</sup> compared to the known two phases with the face-centered-cubic (f cc) and A15 structure[7–](#page-12-2)[9](#page-12-0) , the evolution of T<sup>c</sup> with the volume occupied per C<sup>3</sup><sup>−</sup> <sup>60</sup> anion for all these superconductors follows the same universal trend, suggesting the same pairing mechanism of the superconductivity. Such a trend together with the nearly linear T<sup>c</sup> vs the lattice constant in the structure with smaller unit-cell volumes and the neighbouring antiferromagnetic state in the structure with larger unit-cell volumes invites the electron-phonon coupling and the electron correlations together to account for the superconductivity in Cs3C60. The present results and findings suggest a new route to capturing the superconductivity which takes place at high pressures to atmosphere pressure environment.\n\nThe discovery of superconductivity with T<sup>c</sup> of 18-19 K in K-doped C<sup>60</sup> [11](#page-12-3) and 28-29 K in Rb-doped C<sup>60</sup> [12](#page-12-4) is an important event in modern physical science based on the new form of carbon called 'buckminsterfullerene' or in short fullerene[13](#page-13-0). These amazing molecules exhibit rather rich physical properties[14,](#page-13-1) [15](#page-13-2) in their f cc superconducting phase in the formula of A3C<sup>60</sup> with triple valence for alkali metal (A)[16–](#page-13-3)[19](#page-13-4). Although Cs shares a similar outer electronic structure with K and Rb, synthesizing the Cs3C<sup>60</sup> superconducting phase turns out to be extremely difficult. The trace superconductivity with a maximum T<sup>c</sup> of 40 K at pressure of around 1.2 GPa was reported in Cs-doped C<sup>60</sup> sample[6](#page-11-5) . However, the structure and composition of the superconducting phase can not be determined due to the poor sample quality and extremely small shielding fractions (SFs). Till 2008, bulk superconductivity with a maximum T<sup>c</sup> of 38 K at pressure of around 0.7 GPa was reported in a Cs-doped C<sup>60</sup> sample[7](#page-12-2) with SF of 67%. Structural analysis[7](#page-12-2) revealed the sample includes 77.7(6)% of a cubic phase with the A15 structure in the space group Pm3n, 13.4(1)% of a body-centered-orthorhomic (bco) phase, and 8.9(2)% of a second f cc phase in the space group Fm3m. The comparison measurements supported the observed T<sup>c</sup> from the A15 Cs3C<sup>60</sup> phase[7](#page-12-2) . The superconductivity of this A15 phase was found to exhibit a dome-shape with pressure or volume occupied per fulleride anion[7](#page-12-2) . Later, the electronic ground state of A15 Cs3C<sup>60</sup> was determined to be an antiferromagnetic insulator with the Neel temperature (T<sup>N</sup> ) of ∼46 K at ambient pressure[8](#page-12-5) . Applying pressure suppresses this antiferromagnetic state and induces superconductivity followed by a dome-shaped T<sup>c</sup> behaviour with a narrow regime for coexisting two states. All these features[9](#page-12-0) were also observed in the samples containing 86% f cc Cs3C<sup>60</sup> and A15 phase as low as 3%. Compared to A15 Cs3C<sup>60</sup> [7,](#page-12-2) [8](#page-12-5) , f cc Cs3C<sup>60</sup> [9](#page-12-0) was found to possess weak antiferromagnetism with a much lower T<sup>N</sup> value of 2.2 K and become superconducting easier at modest lower pressure but with a lower maximum T<sup>c</sup> of 35 K and larger SFs over the studied pressure range. Despite these differences, the dome-like T<sup>c</sup> behaviours for both A15 Cs3C<sup>60</sup> [7,](#page-12-2) [8](#page-12-5) and f cc Cs3C<sup>60</sup> [9](#page-12-0) can be well scaled by the ratio of the on-site interelectron repulsion U to the bare conduction bandwidth W, suggesting the importance of electron correlations and the same pairing mechanism of superconductivity. So far, the reported superconductivity was based solely on the magnetization measurements with the detected Meissner effect in A15 Cs3C<sup>60</sup> [7,](#page-12-2) [8](#page-12-5) and f cc Cs3C<sup>60</sup> [9](#page-12-0) . However, the key character of the zero-resistance state for the superconductivity in Cs3C<sup>60</sup> molecules is still missing and waits to be filled up over a decade. It is also interesting to explore whether the superconductivity can take place at atmosphere pressure in Cs-doped C<sup>60</sup> molecules. Finding answers to all these issues is the target of the present study.\n\n# Superconductivity from the Meissner effect and zero-resistivity state\n\nCs-doped C<sup>60</sup> samples were synthesized by using the developed wet-chemical method[20–](#page-14-0)[22](#page-14-1) , as described in Methods. Meissner effect and zero-resistance state are the essential evidence for superconductivity. We performed dc and ac magnetic susceptibility (χ) measurements on the synthesized samples. Figure 1a shows the temperature-dependent dc χ in the zero-field cooling (ZFC) and field-cooling (FC) runs with an applied magnetic field (H) of 5 Oe. The Meissner diamagnetic effect can be seen by the rapid decline of both curves at 21 K, where the temperature is defined as Tc. Both the ZFC and FC χ curves show a clear bifurcation, which is usually caused by flux pinning. The SF value can be enhanced significantly by optimizing the preparation conditions (Extended Data Fig. 1). Repeated annealing was found to be effective in increasing SF for this material (Extended Data Fig. 2). The right inset in Fig. 1a shows the H-dependent magnetization (M) at various temperatures of interest with the applied fields up to ±7 T. The diamond-shaped M-H curves illustrate a large hysteresis effect, which is typical for a type-II superconductor. As temperature is increased, the M-H curve gradually shrinks inward near T<sup>c</sup> and eventually disappears at and above Tc.\n\nFigure 1b shows the the real part (χ ′ ac) and imaginary component (χ ′′ ac) of the ac magnetic susceptibility. The χ ′ ac signal reflects the magnetic shielding effect, similar to the ZFC result of the dc susceptibility. The χ ′′ ac part is the signal of the induced vortex current, which usually occurs only when the resistance is small and drop sharply such as the occurrence of the superconducting transition[23](#page-14-2). Therefore, the peak in the χ ′′ ac curve can be regarded as the signature of the zeroresistance state. The χ ′ ac and χ ′′ ac behaviours for the samples prepared with different synthesis conditions are summarized in Extended Data Fig. 3. With the increase of SF, the magnetic shielding signal in χ ′ ac becomes sharp, the χ ′′ ac peak gradually appears. It should be mentioned that the sharp peak in the χ ′′ ac vs. temperature curve is the first observation from the ac χ for Cs-doped C60,\n\nwhich has not been reported in the early studies[7–](#page-12-2)[9](#page-12-0) .\n\nElectrical transport measurements can provide direct evidence for the zero-resistance state. For f cc or A15 Cs3C60, the experimental evidence for the superconductivity was mainly from the magnetic measurements and the electrical transport measurements have not been reported yet[7–](#page-12-2)[9](#page-12-0) . Figure 1c shows the temperature-dependent resistivity (ρ) of our synthesized Cs-doped C<sup>60</sup> with the highest SF under the applied magnetic fields up to 9 T. Note that the resistivity begins to drop sharply around 20 K and quickly reaches the zero-resistance state. As the magnetic field is increased, the zero-resistance transition shifts to low temperatures, indicating the suppression of superconductivity by the application of the magnetic field. By examining the resistivity behaviours for samples with various SF grown at different synthesis conditions (Extended Data Fig. 4), one learns that the higher the SF for the better quality of the sample, the narrower and sharper the resistance transition. Now the experimental evidence for the superconductivity from the zeroresistance state in the synthesized samples of Cs-doped C<sup>60</sup> is firmly established. This is also the first zero-resistance state ever observed for Cs-doped C<sup>60</sup> [7](#page-12-2)[–9](#page-12-0) . We thus complete the essential Meissner effect and zero-resistance state for the discovered Cs-doped C<sup>60</sup> superconductors.\n\n# Phase identification from the structural and vibrational properties\n\nThe phase behaviour and structure character of Cs-doped C<sup>60</sup> were determined by combining the x-ray diffraction and Raman scattering measurements. The obtained diffraction profile together with the refined results is shown in Fig. 2a. Rietveld refinement analysis reveals that the synthesized material crystallizes in an orientationally-ordered primitive cubic form (space group P a3) with a stoichiometry of Cs3C60. The refined parameters are summarized in Extended Data Tables 1 and 2. The excellent refinements give the lattice constant a of 14.259(18) A for the studied ˚ Cs3C60. This value is in between ∼ 11.8 A (for body-centered cubic ˚ bcc Cs3C60) [7](#page-12-2) and ∼ 14.8 A˚ (face-centered cubic f cc Cs3C60) [9](#page-12-0) . The large difference in the lattice constants also reveal the new phase of Cs3C<sup>60</sup> at atmosphere pressure. The obtained a value in the present study is comparable to that of f cc K3C<sup>60</sup> (a ≈14.2 A) ˚ [16,](#page-13-3) [22](#page-14-1) and Rb3C<sup>60</sup> (a ≈14.5 A) ˚ [17](#page-13-5). Thus, it is not surprising to observe superconductivity in these fullerides due to their close lattice constants.\n\nRaman spectroscopy has been widely used in doped fullerides[18,](#page-13-6) [19](#page-13-4) and other organic systems[24–](#page-14-3)[27](#page-14-4) for determining the number of transferred charges. The Raman spectra of the pristine and Cs-doped C<sup>60</sup> are shown in Fig. 2b. The parent C<sup>60</sup> possesses two A<sup>g</sup> and eight H<sup>g</sup> vibrational modes, consistent with the previous studies[19](#page-13-4). Among these Raman active modes, only the two A<sup>g</sup> modes and the two lowest frequency H<sup>g</sup> modes have the relatively high scattering intensities after doping, as illustrated in Fig. 2b. The Ag(2) mode represents the pentagonal breathing and is often used to monitor the doped electrons[20–](#page-14-0)[22](#page-14-1). Upon Cs doping, the Ag(2) mode shifts from 1458 cm<sup>−</sup><sup>1</sup> to 1440 cm<sup>−</sup><sup>1</sup> . The redshift of 18 cm<sup>−</sup><sup>1</sup> corresponds to the transferred three electrons based on the empirical law of 6 cm<sup>−</sup><sup>1</sup> per electron[18](#page-13-6), consistent with the formula of Cs3C<sup>60</sup> determined from our above structure study.\n\n# Carrier character from the Hall effect\n\nThe charge carrier character of newly synthesized Cs3C<sup>60</sup> superconductor was evaluated in terms of the Hall effect measurements. This information is very necessary for the understanding of the superconducting properties themselves and also important for the theory development. Figure 3a shows H-dependent Hall resistivity (ρxy) in the normal state at the temperature range of 30-290 K. It can be seen that the ρxy-H curve exhibits a linear behavior. This enables to obtain the Hall coefficient R<sup>H</sup> easily just through the linear fitting to the collected data points for each temperature. The temperature dependence of R<sup>H</sup> and the carrier concentration n<sup>H</sup> is thus obtained (Figs. 3b and 3c). Similar to the observation in f cc K3C<sup>60</sup> [20](#page-14-0) , R<sup>H</sup> changes sign around 250 K, indicating the existence of both the electron and hole conduction due to half-filling[28](#page-15-0). The temperature-dependent n<sup>H</sup> behaviour demonstrates that the major charge carriers of this superconductor are holes at room temperature but become electrons at low temperatures below 250 K. In addition, both R<sup>H</sup> and n<sup>H</sup> abruptly change around 110 K, implying a possible electronic structure change. Interestingly, the pristine C<sup>60</sup> was found to undergo a glass transition at around 90 K[29](#page-15-1). The similar transitions in the materials with the same structure suggest the possible same origin for these anomalies. The two anomalies at temperature of 110 and 250 K are also reflected from the resistivity behaviour (the dρ/dT-T curve), as shown in the insets of Extended Data Fig. 6. Here, the reported carrier character is the first for Cs-doped C<sup>60</sup> superconductors[7–](#page-12-2)[9](#page-12-0) and thus hopes to be used to understand the superconductivity in these molecules.\n\n# Determination of the superconducting parameters\n\nThe upper critical field, lower critical field, coherence length, and penetration depth are the key parameters for the understanding of the superconducting properties and the superconductivity nature. The high quality of our samples ensures the resistivity and magnetization measurements at\n\ndesired temperature and magnetic field conditions to determine such important parameters.\n\nThe temperature-dependent resistivity measurements for a given magnetic field were used to determine the upper critical field Hc<sup>2</sup> (see Methods). The measured results for Cs3C<sup>60</sup> are summarized in Fig. 1c. For each applied magnetic field regarded as Hc<sup>2</sup>, we can have the corresponding Tc. The results for the pairs of Hc<sup>2</sup> and T<sup>c</sup> are summarized in Fig. 1d. These Hc<sup>2</sup> and T<sup>c</sup> data points can be well described by Ginzburg-Landau theory[30](#page-15-2) (see Methods), yielding Hc<sup>2</sup>(0) of 63.4±1.7 T at the absolute zero temperature. This is the first Hc<sup>2</sup>(0) value ever reported for Cs-doped C<sup>60</sup> superconductors[7](#page-12-2)[–9](#page-12-0) . The obtained Hc<sup>2</sup>(0) value for Cs3C<sup>60</sup> is significantly larger than 17-49 T reported for K3C<sup>60</sup> [31](#page-15-3)[–33](#page-15-4), and comparable to 57 T for Rb3C<sup>60</sup> and 67 T for Rb2CsC<sup>60</sup> but lower than 85 T for RbCs2C<sup>60</sup> [33](#page-15-4). The high Hc<sup>2</sup>(0) values of fullerene superconductors might result from the orientational disorder between adjacent C<sup>60</sup> molecules. This advantage points out the importance of these superconductors for the potential technological applications.\n\nMagnetic field-dependent magnetization measurements at different given temperatures were used to determine the lower critical field Hc<sup>1</sup>. The results for Cs3C<sup>60</sup> in the superconducting state are shown in Extended Data Fig. 5a. Taking the magnetic field at the point where the M-H curve deviates from the linearity as Hc<sup>1</sup> for a given temperature, we obtained the temperature dependence of Hc<sup>1</sup> (Extended Data Fig. 5b). The zero-temperature Hc<sup>1</sup>(0) of 30.4±0.7 Oe is thus obtained from the empirical fitting[30](#page-15-2) to the obtained data points. The Hc<sup>1</sup>(0) value of this new superconductor is comparable to 42±1 Oe for K3C<sup>60</sup> and 32±1 Oe for Rb3C<sup>60</sup> synthesized from large single-crystals[34](#page-15-5) .\n\nUsing the expressions Hc<sup>1</sup>(0) = (Φ0/4πλ<sup>2</sup> L )(lnλL/ξGL) [30](#page-15-2) and Hc<sup>2</sup>(0) = Φ0/2πξ<sup>2</sup> GL with the flux quantum Φ<sup>0</sup> = 2.0678×10<sup>−</sup><sup>15</sup> Wb, we obtain the zero-temperature Ginzburg-Landau coherence length ξGL = 22.8±0.4 A and London penetration depth ˚ λ<sup>L</sup> = 5444±69 A with the help of the ˚ obtained Hc<sup>1</sup>(0) and Hc<sup>2</sup>(0) values. Thus, the Ginzburg-Landau parameter κ = λL/ξGL = 238.8±7.2 is obtained, further implying that Cs3C<sup>60</sup> is a type-II superconductor. It is clearly seen that the obtained ξGL is just 1.5 larger than a in Cs3C<sup>60</sup> and comparable to the short coherence lengths of cuprate superconductors.\n\n# Pressure effect on superconductivity\n\nHigh-pressure resistivity measurements were carried out to draw the T<sup>c</sup> evolution for P a3 Cs3C60. Figure 4a shows the normalized ρ-T curves in the temperature range of 1.8-25 K at various pressures up to 2.7 GPa. As pressure is increased, the superconducting transition shows a shift toward low temperatures. T<sup>c</sup> was found to decrease systematically with increasing pressure (Fig. 4b), yielding the initial pressure derivative of Tc, dTc/dP=-10.0±0.4 K/GPa. The absolute value of dTc/dP for P a3 Cs3C<sup>60</sup> is obviously larger than those reported for f cc K3C<sup>60</sup> [22,](#page-14-1) [35](#page-15-6) and Rb3C<sup>60</sup> [36,](#page-16-0) [37](#page-16-1) , indicating its large pressure effect on superconductivity. The negative dTc/dP is totally different to the pressure-induced superconductivity followed by the huge enhancement reported in f cc and A15 Cs3C<sup>60</sup> [7](#page-12-2)[–9](#page-12-0) . Thus, the different pressure effects on superconductivity classify P a3 Cs3C<sup>60</sup> again as a new superconducting phase. In addition, the obtained nearly linear Tc-P behavior is distinctly different from the dome-shaped phase diagram observed in f cc and A15 Cs3C<sup>60</sup> [7–](#page-12-2)[9](#page-12-0) but similar to those reported for f cc K3C<sup>60</sup> and Rb3C<sup>60</sup> [22,](#page-14-1) [38](#page-16-2) .\n## Evolution of the structure with pressure\n\nSynchrotron x-ray powder diffraction data were collected to study the structural behaviour at high pressures. All the diffraction patterns in the studied pressure range remain the same compared to those at the ambient pressure (Fig. 4c). This indicates that the material keeps the same structure feature at high pressures as the initial one. No structural transformation can be detected from the collected data. Upon compression, these patterns shift to the high angles, indicating the lattice shrinkage. Fitting the patterns by using the same structure model with the space group P a3 as the initial phase turns out to be in good agreement. The obtained unit cell volume V versus pressure is plotted in Fig. 4d. These experimental data points can be well described by the Murnaghan equation of state[39](#page-16-0), yielding the unit cell volume at ambient pressure V<sup>0</sup> of 2904.3±5.2 A˚ 3 , the bulk modulus B<sup>0</sup> of 19.0±1.5 GPa, and its pressure derivative B′ <sup>0</sup> of 8.6±1.1. The obtained V<sup>0</sup> is consistent with that determined from the structure data at ambient pressure (Fig. 2a), indicating the reliability of the high-pressure structural analysis. The obtained B<sup>0</sup> of 19.0±1.5 GPa for Cs3C<sup>60</sup> is significantly larger than that for A15 Cs3C<sup>60</sup> (16.4 GPa)[7](#page-12-0) and f cc Cs3C<sup>60</sup> (13.7 GPa)[9](#page-12-1) , but is comparable to those for K3C<sup>60</sup> (17.3 GPa)[22](#page-14-0) and Rb3C<sup>60</sup> (17.35 GPa and 20.5 GPa)[37,](#page-16-1) [40](#page-16-2). Having these parameters, one can convert the Tc-P data to the desired Tc-a curve (Fig. 4e). It can be seen that T<sup>c</sup> decreases monotonically with the gradual reduction of a. This behavior is distinctly different from the dome-shaped T<sup>c</sup> phase diagram observed in other two Cs3C<sup>60</sup> phases (f cc and A15)[7–](#page-12-0)[9](#page-12-1) , but similar to those of K3C<sup>60</sup> [22](#page-14-0) and Rb3C<sup>60</sup> [37,](#page-16-1) [38,](#page-16-3) [40](#page-16-2). The different Tc-a relations compared to other Cs-doped C<sup>60</sup> [7–](#page-12-0)[9](#page-12-1) further demonstrate that this synthesized Cs3C<sup>60</sup> is a new superconducting phase. The similar Tc-a relations in P a3 Cs3C<sup>60</sup> compared to f cc K3C<sup>60</sup> and Rb3C<sup>60</sup> are possibly a result of their similar C<sup>3</sup><sup>−</sup> <sup>60</sup> anion packings.\n\n## Universal phase diagram of superconductivity\n\nThe volume occupied per C<sup>3</sup><sup>−</sup> <sup>60</sup> anion (V<sup>C</sup> 3− 60 ) is usually used as a measure to study fullerides across different systems, which might provide the clue for the microscopic mechanism of superconductivity. Putting the obtained T<sup>c</sup> and V<sup>C</sup> 3− 60 data points in Fig. 5 for the newly discovered Cs3C<sup>60</sup> superconductor with other superconducting phases[7](#page-12-0)[–9](#page-12-1) , one can find the beautiful evolution tendency for all the three superconducting phases of Cs3C60. The material is in the antiferromagnetic state at large volume, becomes superconducting upon slight compression with the suppression of the antiferromagnetic order, and possesses the maximum T<sup>c</sup> at an optimal volume (thus pressure) before its T<sup>c</sup> value declining upon further heavy lattice compression. The same trend held for three superconducting phases suggests the same pairing mechanism for them. It is interesting to notice that Cs3C<sup>60</sup> exhibits the nearly linear T<sup>c</sup> and a (or V<sup>C</sup> 3− 60 ) relation in the *Pa*3 structure (Fig. 4e and Fig. 5), the antiferromagnetic Mott insulating state, and the dome-shaped Tc-V<sup>C</sup> 3− 60 behaviour (Fig. 5) in the f cc and A15 structure[7–](#page-12-0)[9](#page-12-1) . The nearly linear Tc-a relation is the indicator for the important electron-phonon interaction[38,](#page-16-3) [41](#page-16-4). The emergence of superconductivity by suppressing the neighbouring antiferromagnetic order highlights the dominant contribution of the electron correlations to the superconductivity[7–](#page-12-0)[9,](#page-12-1) [42](#page-16-5). Thus, the beautiful and universal Tc-V<sup>C</sup> 3− 60 behaviour in Cs3C<sup>60</sup> obviously invites the electron-phonon interaction and electron correlations to work together responsible for the superconductivity[14,](#page-13-0) [15](#page-13-1). This also indicates that the theoretical considerations by putting both together[14,](#page-13-0) [15,](#page-13-1) [43,](#page-16-6) [44](#page-17-0) are favorable for fullerene superconductors.\n\n## References\n\n- 1. Mao, H. K., Chen, X. J., Ding, Y., Li, B. & Wang, L. Solids, liquids, and gases under high pressure. *Rev. Mod. Phys.* 90, 015007 (2018).\n- 2. Somayazulu, M., Ahart, M., Mishra, A. K., Geballe, Z. M., Baldini, M., Meng, Y., Struzhkin, V. V. & Hemley, R. J. Evidence for superconductivity above 260 K in lanthanum superhydride at megabar pressures. *Phys. Rev. Lett.* 122, 027001 (2019).\n- 3. Drozdov, A. P., Kong, P. P., Minkov, V. S., Besedin, S. P., Kuzovnikov, M. A., Mozaffari, S., Balicas, L., Balakirev, F. F., Graf, D. E., Prakapenka, V. B., Greenberg, E., Knyazev, D. A., Tkacz, M. & Eremets, M. I. Superconductivity at 250 K in lanthanum hydride under high pressures. *Nature* 569, 528-531 (2019).\n- 4. Liang, Q., Yan, C. S., Lai, J., Meng, Y. F., Krasnicki, S., Shu, H. Y., Mao, H. K. & Hemley, R. J. Large area single-crystal diamond synthesis by 915 MHz microwave plasma-assisted chemical vapor deposition. *Cryst. Growth Des.* 14, 3234-3238 (2014).\n- 5. Luo, K., Liu, B., Hu, W. T., Dong, X., Wang, Y. B., Huang, Q., Gao, Y. F., Sun, L., Zhao, Z. S., Wu, Y. J., Zhang, Y., Ma, M. D., Zhou, X. F., He, J. L., Yu, D. L., Z. Y., Xu, B. & Tian, Y. J. Coherent interfaces govern direct transformation from graphite to diamond. *Nature* 607, 486-491 (2022).\n- 6. Palstra, T. T. M., Zhou, O., Iwasa, Y., Sulewski, P. E., Fleming, R. M. & Zegarski, B. R. Superconductivity at 40 K in cesium doped C60. *Solid State Commun.* 93, 327-330 (1995).\n- <span id=\"page-12-0\"></span>7. Ganin, A. Y., Takabayashi, Y., Khimyak, Y. Z., Margadonna, S., Tamai, A., Rosseinsky, M. J. & Prassides, K. Bulk superconductivity at 38 K in a molecularsystem. *Nat. Mater.* 7, 367-371 (2008).\n- 8. Takabayashi, Y., Ganin, A. Y., Jeglicˇ, P., Arcˇon, D., Takano, T., Iwasa, Y., Ohishi, Y., Takata, M., Takeshita, N., Prassides, K. & Rosseinsky, M. J. The disorder-free non-BCS superconductor Cs3C<sup>60</sup> emerges from an antiferromagnetic insulator parent state. *Science* 323, 1585- 1590 (2009).\n- <span id=\"page-12-1\"></span>9. Ganin, A. Y., Takabyashi, Y., Jeglicˇ, P., Arcˇon, D., Potocˇnik, A., Baker, P. J., Ohishi, Y., McDonald, M. T., Tzirakis, M. D., McLennan, A., Darling, G. R., Takata, M., Rosseinsky M. J. & Prassides K. Polymorphism control of superconductivity and magnetism in Cs3C<sup>60</sup> close to the Mott transition. *Nature* 466, 221-225 (2010).\n- 10. Nagamatsu, J., Nakagawa, N., Muranaka, T., Zenitani, Y. & Akimitsu, J. Superconductivity at 39 K in magnesium diboride. *Nature* 410, 63-64 (2001).\n- 11. Hebard, A. F., Rosseinsky, M. J., Haddon, R. C., Murphy, D. W., Glarum, S. H., Palstra, T. T. M., Ramirez, A. P. & Kortan, A. R. Superconductivity at 18 K in potassium-doped C60. *Nature* 350, 600-601 (1991).\n- 12. Rosseinsky, M. J. Ramirez, A. P., Glarum, S. H., Murphy, D. W., Haddon, R. C., Hebard, A. F., Palstra, T. T. M., Kortan, A. R., Zahurak, S. M. & Makhija, A. V. Superconductivity at 28 K in RbxC60. *Phys. Rev. Lett.* 66, 2830-2832 (1991).\n- <span id=\"page-13-0\"></span>13. Kroto, H. W., Heath, J. R., O'Brien, S. C., Curl, R. F. & Smalley, R. E. C60: Buckminsterfullerene. *Nature* 318, 162-163 (1985).\n- <span id=\"page-13-1\"></span>14. Gunnarsson, O. Superconductivity in fullerides. *Rev. Mod. Phys.* 69, 575-606 (1997).\n- 15. Capone, M., Fabrizio, M., Castellani, C. & Tosatti, E. Colloquium: Modeling the unconventional superconducting properties of expanded A3C<sup>60</sup> fullerides. *Rev. Mod. Phys.* 81, 943-958 (2009).\n- 16. Stephens, P. W., Mihaly, L., Lee, P. L., Whetten, R. L., Huang, S.-M., Kaner, R. B., Diederich, F. & Holczer, K. Structure of single-phase superconducting K3C60. *Nature* 351, 632-634 (1991).\n- 17. McCauley, Jr., J. P., Zhu, Q., Coustel, N., Zhou, O., Vaughan, G., Idziak, S. H. J., Fischer, J. E., Tozer, S. W., Groski, D. M., Bykovetz, N., Lin, C. L., McGhie, A. R., Allen, B. H., Romanow, W. J., Denenstein, A. M. & Smith III, A. B. Synthesis, structure, and superconducting properties of single-phase Rb3C60. A new, convenient method for the preparation of M3C<sup>60</sup> superconductors. *J. Am. Chem. Soc.* 113, 8537-8538 (1991).\n- 18. Haddon, R. C., Hebard, A. F., Rosseinsky, M. J., Murphy, D. W., Dulcos, S. J., Lyons, K. B., Miller, B., Rosamilia, J. M., Fleming, R. M., Kortan, A. R., Glarum, S. H., Makhija, A. V., Muller, A. J., Elck, R. H., Zahurak, S. M., Tycko, R., Dabbagh, G. & Thiel, F. A. Conducting films of C<sup>60</sup> and C<sup>70</sup> by alkali-metal doping. *Nature* 350, 320-322 (1991).\n- 19. Kuzmany, H., Matus, M., Burger, B. & Winter, J. Raman scattering in C<sup>60</sup> fullerenes and fullerides. *Adv. Mater.* 6, 731-745 (1994).\n- 20. Wang, R. S., Peng, D., Hu, J. W., Zong, L. N. & Chen, X. J. Orientational ordering and electron-phonon interaction in K3C<sup>60</sup> superconductor. *Carbon* 195, 1-8 (2022).\n- <span id=\"page-14-0\"></span>21. Zong, L. N., Wang, R. S., Peng, D. & Chen, X. J. Superconductivity in nonstoichiometric rubidium-doped C60. *J. Phys. Chem. C* 126, 2912-2919 (2022).\n- 22. Wang, R. S., Peng, D., Zong, L. N., Chen, L. C. & Chen, X. J. Variation of the critical temperature with the lattice parameter in K3C60. *Carbon* 199, 181-188 (2022).\n- 23. G¨om ¨ory, F. Characterization of high-temperature superconductors by ac susceptibility measurements. *Supercond. Sci. Technol.* 10, 523-542 (1997).\n- 24. Huang, Q. W., Zhong, G. H., Zhang, J., Zhao, X. M., Zhang, C., Lin, H. Q. & Chen, X. J. Constrain on the potassium content for the superconductivity of potassium-intercalated phenanthrene. *J. Chem. Phys.* 140, 114301 (2014).\n- 25. Wang, R. S., Chen, L. C., Yang, H., Fu, M. A., Cheng, J., Wu, X. L., Gao, Y., Huang, Z. B. & Chen, X. J. Superconductivity in an organometallic compound. *Phys. Chem. Chem. Phys.* 21, 25976-25981 (2019).\n- 26. Yan, J. F., Zhong, G. H., Wang, R. S., Zhang, K., Lin, H. Q. & Chen, X. J. Superconductivity and phase stability of potassium-intercalated p-quaterphenyl. *J. Phys. Chem. Lett.* 10, 40-47 (2019).\n- 27. Huang, G., Zhong, G. H., Wang, R. S., Han, J. X., Lin, H. Q. & Chen, X. J. Superconductivity and phase stability of potassium-doped p-quinquephenyl. *Carbon* 143, 837-843 (2019).\n- 28. Erwin, S. C. & Pickett, W. E. Theoretical Fermi-surface properties and superconducting parameters for K3C60. *Science* 254, 842-845 (1991).\n- 29. Gugenberger, F., Heid, R., Meingast, C., Adelmann, P., Braun, M., W¨uhl, H., Haluska, M. & Kuzmany, H. Glass transition in single-crystal C<sup>60</sup> studied by high-resolution dilatometry. *Phys. Rev. Lett.* 69, 3774-3777 (1992).\n- 30. Tinkham, M. Introdution to superconductivity (McGraw-Hill, New York, 1975).\n- 31. Holczer, K., Klein, O., Gr¨uner, G., Thompson, J. D., Diederich, F. & Whetten, R. L. Critical magnetic fields in the superconducting state of K3C60. *Phys. Rev. Lett.* 67, 271-274 (1991).\n- 32. Hou, J. G., Crespi, V. H., Xiang, X.-D., Vareka, W. A., Briceneo, G., Zettl, A. & Cohen, M. L. Determination of superconducting and normal state parameters of single crystal K3C60. *Solid State Commun.* 86, 643-646 (1993)\n- 33. Kasahara, Y., Takeuchi, Y., Zadik, R. H., Takabayashi, Y., Colman, R. H., McDonald, R. D., Rosseinsky, M. J., Prassides, K. & Iwasa, Y. Upper critical field reaches 90 tesla near the Mott transition in fulleride superconductors. *Nat. Commun.* 8, 11467 (2017).\n- 34. Irons, S. H., Liu, J. Z., Klavins, P. & Shelton, R. N. Magnetic properties of superconducting of K3C<sup>60</sup> and Rb3C<sup>60</sup> synthesized from large single-crystal fullerens. *Phys. Rev. B* 52, 15517- 15521 (1995).\n- 35. Sparn, G., Thompson, J. D., Huang, S. M., Kaner, R. B., Diederich, F., Whetten, R. L., Gr¨uner, G. & Holczer, K. Pressure dependence of superconductivity in single-phase K3C60. *Science* 252, 1829-1831 (1991).\n- <span id=\"page-16-1\"></span>36. Sparn, G., Thompson, J. D., Whetten, R. L., Huang, S.-M., Kaner, R. B., Diederich, F., Gr¨uner & Holczer, K. Pressure and field dependence of superconductivity in Rb3C60. *Phys. Rev. Lett.* 68, 1228-1231 (1992).\n- <span id=\"page-16-3\"></span>37. Diederichs, J., Schilling, J. S., Herwig, K. W. & Yelon, W. B. Dependence of the superconducting transition temperature and lattice parameter on hydrostatic pressure for Rb3C60. *J. Phys. Chem. Solids* 58, 123-132 (1997).\n- <span id=\"page-16-0\"></span>38. Zhou, O., Zhu, Q., Fischer, J. E., Coustel, N., Vaughan, G. B., Heiney, P. A., McCauley, Jr., P. A. & Smith III, A. B. Compressibility of M3C<sup>60</sup> fullerene superconductors: Relation between T<sup>c</sup> and lattice parameter. *Science* 255, 833-835 (1992).\n- <span id=\"page-16-2\"></span>39. Murnaghan, F. D. Finite deformations of an elastic solid. *Am. J. Math.* 59, 235-260 (1937).\n- <span id=\"page-16-4\"></span>40. Ludwig, H. A., Fietz, W. H., Hornung, F. W., Grube, K., Renker, B. & Burhart, G. J. The compressibility of Rb3C<sup>60</sup> derived by X-ray experiments under high pressure. *Physica C* 234, 45-48 (1994).\n- <span id=\"page-16-5\"></span>41. Fleming, R. M., Ramirez, A. P., Rosseinsky, M. J., Murphy, D. W., Haddon, R. C., Zahurak, S. M. & Makhija, A. V. Relation of structure and superconducting transition temperatures in A3C60. *Nature* 352, 787-788 (1991).\n- <span id=\"page-16-6\"></span>42. Capone, M., Fabrizio, M., Castellani, C. & Tosatti, E. Strongly correlated superconductivity. *Science* 296, 2364-2366 (2002).\n- 43. Han, J. E., Gunnarsson, O. & Crespi, V. H. Strong superconductivity with local Jahn-Teller phonons in C<sup>60</sup> solids. *Phys. Rev. Lett.* 90, 167006 (2003).\n\n<span id=\"page-17-0\"></span>44. Nomura, Y., Sakai, S., Capone, M. & Arita, R. Unified understanding of superconductivity and Mott transition in alkali-doped fullerides from first principles. *Sci. Adv.* 1, e1500568 (2015).\n![](1__page_18_Figure_0.jpeg)\n\nFig. 1 | Meissner effect and zero-resistivity state of Cs3C<sup>60</sup> at ambient pressure. a, Temperature dependence of the dc magnetic susceptibility χ measured in both the zero-fieldcooling (ZFC) and field-cooling (FC) runs with the applied magnetic field of 5 Oe in the sweep mode at the scanning rate of 3 K/min<sup>−</sup><sup>1</sup> . Inset (left): An expanded view of the data near the superconducting transition. Inset (right): Magnetization hysteresis loop with the magnetic field up to ± 7 T at various temperatures from 2 to 24 K. b, Temperature dependence of the real part χ ′ ac and imaginary part χ ′′ ac of the ac magnetic susceptibility. The frequency and amplitude of the applied field are 233.6 Hz and 4 Oe, respectively. c, Temperature dependence of the resistivity ρ with various magnetic fields up to 9 T. d, Temperature dependence of the upper critical field Hc<sup>2</sup>. The solid line is the fitting to the Gonzburg-Landau theory[30](#page-15-0) by using Hc<sup>2</sup>(T)=Hc<sup>2</sup>(0)[1-(T/Tc) 2 ]/[1+(T/Tc) 2 ]. Inset: the definition of T<sup>c</sup> by the crossover for the\n\nlinear fitting of the derivative of the ρ-T below and above the transition. The error bars are the uncertainties in the determination of Tc.\n\n![](1__page_20_Figure_0.jpeg)\n\nFig. 2 | Structural and vibrational properties of primitive cubic Cs3C<sup>60</sup> (space group P a3). a, The observed (open blue circles) and calculated (red line) synchrotron x-ray powder diffraction patterns collected at room temperature. The light blue line shows the difference profile and the ticks represent the reflection positions of the primitive cubic structure. Extended Data Tables 1 and 2 summarize all the refined parameters and structural information. Inset: Crystal structure of the primitive cubic Cs3C60. Spherical models consisting of cyan sticks represent C<sup>60</sup> molecules and closed balls represent Cs atoms. b, Raman scattering spectra of the pristine C<sup>60</sup> and Cs3C<sup>60</sup> collected at room temperature. The Ag(2) mode shows a redshift from 1457.89 cm<sup>−</sup><sup>1</sup> for pristine C<sup>60</sup> to 1439.88 cm<sup>−</sup><sup>1</sup> for Cs3C60.\n\n![](1__page_21_Figure_0.jpeg)\n\nFig. 3 | Hall effect of primitive cubic Cs3C60. a, Magnetic field dependence of the Hall resistivity ρxy with the applied field up to ±5 T at various temperatures from 30 to 290 K. Red line represents a linear fitting to the observed data points (blue circles). b, Hall coefficient R<sup>H</sup> as a function of temperature. c, Temperature dependence of the carrier concentration *n*<sup>H</sup> in the temperature range of 30-290 K.\n\n![](1__page_22_Figure_0.jpeg)\n\nFig. 4 | Evolution of structural and superconducting properties of primitive cubic Cs3C<sup>60</sup> with pressure. a, Temperature dependence of the normalized resistivity divided by their own values at 25 K at various pressures from 0.1 to 2.7 GPa. b, Pressure dependence of Tc. The shaded area represents the regime of superconductivity. Inset: The interface of the sample with four probes under a microscope. The error bars are the uncertainties in determining T<sup>c</sup> and pressure. c, Synchrotron x-ray (λ = 0.6199 A) powder diffraction patterns ˚ collected at pressures up to 3 GPa, together with the data at ambient pressure (bottom) for comparison. d, Pressure versus the unit cell volume V . The solid green line represents the fitting to data points (red dots) using the Murnaghan equation of state[39](#page-16-0) . e, T<sup>c</sup> as a function of lattice constant a. The red line is the fitting to the data points with the expression Tc=(41.4±7.4)a 2 -(1124.0±207.6)a+(7623.1±1455.4) (K).\n\n![](1__page_23_Figure_0.jpeg)\n\nFig. 5 | Superconducting phase diagram for the primitive cubic, f cc, and A15 Cs3C<sup>60</sup> at the same scale of VC<sup>60</sup>, the volume occupied per fulleride anion. T<sup>c</sup> versus VC<sup>60</sup> for three superconducting phases. The orange and blue squares denote the bodycentered cubic anion packing of the A15-structured phase (space group Pm3n). The wine circles and half-blue squares represent the f cc phase with Fm3m symmetry and the primitive cubic phase with space group of P a3, respectively. Data points for the f cc and A15 phase are taken from the literature[7](#page-12-0)[–9](#page-12-1) . The light blue vertical shaded region indicates the boundary between the antiferromagnetic insulating state (AFI, right) and superconducting state (SC, left). The red line is a polynomial fitting to all sets of the data points, showing the relation Tc=-(2.1±0.9)×10<sup>−</sup><sup>7</sup>V 4 <sup>C</sup><sup>60</sup>+(5.8±2.7)×10<sup>−</sup><sup>4</sup><sup>V</sup> 3 <sup>C</sup><sup>60</sup>-\n\n(6.0±3.0)×10<sup>−</sup><sup>1</sup>V 2 <sup>C</sup><sup>60</sup>+(2.8±1.4)×10<sup>2</sup>V 1 C<sup>60</sup>-(4.8±2.6)×10<sup>4</sup> (K) for Cs3C<sup>60</sup> across structural systems.\n\n## Methods\n\nSample synthesis. The polycrystalline Cs3C<sup>60</sup> samples grown by a modified wet chemistry method using tetrahydrofuran ?THF? solvent[20–](#page-14-0)[22,](#page-14-1) [45,](#page-30-0) [46](#page-30-1). High-purity cesium (99.98%, Alfa Aesar) and C<sup>60</sup> (99.9%, Alfa Aesar) were mixed with a molar ratio of 3:1 (Cs:C60), and then dissolved with 3-5 mL extra-dry tetrahydrofuran (99.9%, Innochem). The bottle with the mixture was placed in an oscillator (Vortex3000, Wiggens) at 300 rpm for 20 minutes. After that, the bottle was treated with sonication at 60 ◦C for 20 minutes. The THF solvent was slowly removed under a weak dynamic negative pressure environment, and the whole process took about 4 hours. The obtained powder sample was dried at 100 ◦C for 30 minutes, and then pressed into a cylinder with a pressure of 0.2-0.6 GPa. Finally, the cylindrical sample was sealed into a quartz tube, followed by an annealing treatment at 200-240 ◦C for 1-6 days. All of these operations were done in a glove box filled with argon (O<sup>2</sup> and H2O less than 0.01 ppm) to avoid oxidation.\n\nEstimation of the superconducting shielding fraction. The samples prepared under different conditions show a significant difference in superconducting shielding fractions (SF). The SF can be calculated from the ZFC magnetic susceptibility once knowing the density of the material. From the refined structural parameters, the density of the primitive cubic Cs3C<sup>60</sup> is 2.5 g cm<sup>−</sup><sup>3</sup> . The SF values for samples obtained at different conditions are displayed in Extended Data Figs. 1-4. In some cases, the SF value is even larger than 100%. This is probably due to factors such as the geometry of the sample[47](#page-30-2). Such large SF phenomena were also noticed in K and Rb-doped C<sup>60</sup> superconductors[34,](#page-15-1) [48](#page-30-3). Therefore, the SF value is not the real superconducting volume fraction but can be used to reflect the quality of the synthesized material.\n\nX-ray diffraction measurements. The synchrotron x-ray powder diffraction measurements were performed on the beamline 15U (wavelength λ = 0.6199 A) at the Shanghai Synchrotron ˚ Radiation Facility, China. The distance between the sample and detector was corrected with CeO<sup>2</sup> standards. To prevent oxidation in air, the sample was sealed in an amorphous glass capillary (wall thickness 0.01 mm, outside diameter 1.0 mm) to obtain the diffraction pattern at ambient pressure. High-pressure x-ray diffraction experiments were collected using diamond anvil cells. The sample was loaded in the hole of a beryllium copper gasket with 50 µm in thickness and the diameter of the diamond culet is 900 µm. Neon gas was loaded into the diamond anvil cell as the pressure transmitting medium. The pressure level was determined by using the ruby fluorescence[49](#page-30-4) .\n\nThe Bragg reflection of ruby in all high-pressure diffraction data was carefully subtracted using the Dioptas program[50](#page-30-5). Data analysis of the diffraction patterns at ambient pressure was performed with the Topas v4.2 suite of Rietveld programs[51](#page-31-0). Structural parameters from the high-pressure diffraction profiles were determined by using the JANA2006 software package[52](#page-31-1) with the Le Bail method[53](#page-31-2). The pressure-dependent unit cell volume V in Fig. 4d can be fitted by the Murnaghan equation of state[39](#page-16-0) P = (B0/B′ 0 )[(V0/V ) B′ <sup>0</sup> − 1], where the V<sup>0</sup> is the unit cell volume at ambient pressure, B<sup>0</sup> and B′ 0 are the bulk modulus and its pressure derivative.\nRaman scattering measurements. Raman scattering measurements were performed on an in-house system equipped with the Charge Coupled Device and Spectrometer (Princeton Instruments). A laser wavelength of 488 nm and power of 0.5 mW was used to collect Raman spectra of pristine C<sup>60</sup> and Cs3C<sup>60</sup> at room temperature. The Cs3C<sup>60</sup> was sealed in glass capillaries (wall thickness 0.01 mm, outside diameter 1.0 mm) to avoid sample oxidation. The center frequencies of the Ag(2) mode for undoped C<sup>60</sup> and Cs3C<sup>60</sup> were obtained by the Lorentz fitting to the spectrum data.\n\nMagnetic susceptibility measurements. Approximately one piece of 6.0 milligram sample was sealed in a nonmagnetic PTFE (polytetrafluoroethylene) capsule with a corresponding sealable adapter. In order to prevent oxidation of the sample during measurements, the PTFE capsule and the adapter contacted were sealed with an appropriate amount of glue. All these operations were done in a glove box filled with argon to avoid oxidation of the highly airsensitive samples. The capsule with sample was removed from the glove box and installed on a brass sample holder assy. Magnetic susceptibility measurements were collected at different conditions using a superconducting quantum interference device magnetometer (Quantum Design, MPMS3). The *d.c.* magnetic susceptibility measurements in the zero-field-cooling and field-cooling runs were carried out at the applied magnetic field of 5 Oe in the sweep mode with a scan rate of 3 K min<sup>−</sup><sup>1</sup> . Magnetic field dependence of the magnetization measurements for the lower critical field *H*c<sup>1</sup> was performed in the 1 Oe step with stable mode up to 100 Oe at various temperatures from 2 K to 24 K. Magnetization hysteresis loop measurements with the scanning magnetic field ± 7 T were performed in the sweep mode with a scanning rate of 10 Oe per second. The alternating current (*a.c.*) magnetic susceptibility measurements were performed on the same sample after completing the *d.c.* magnetic susceptibility measurements. The real part and imaginary part of the *ac* magnetic susceptibility measurements were performed in the step of 0.05 K with stable mode from 1.8 K to 40 K. The frequency and amplitude of the applied magnetic field are 233.6 Hz and 4 Oe, respectively.\n\nElectrical resistivity and Hall resistivity measurements. The electrical transport measurements were carried out by using a Physical Property Measurement System (Quantum Design). The resistivity (ρ) was analyzed based on the van der Pauw four-electrode method [54](#page-31-0) . Current excitation of 100 µA was used for the resistance measurements. The resistance measurements at ambient pressure were carried out by loading the sample in a beryllium copper cell with zirconia ceramic rod containing electrodes. Four symmetrical copper electrodes were pre-fixed to the center of zirconia ceramic rod and the basically symmetrical four electrodes ensure the reliable quality of the measurements. To prevent oxidation of the sample during low temperature and prolonged measurements, the gaps between the beryllium copper battery and the zirconia ceramic rod were sealed with an appropriate amount of grease (Apiezon N). The Hall resistivity (ρxy) was obtained by continuously scanning the magnetic field (50 Oe per second) from the positive to negative direction at a fixed temperature during the warming run. The linear fitting to the ρxy data yields the Hall coefficient *R*H. The carrier concentration *n*<sup>H</sup> can be determined by using the formula *n*<sup>H</sup> = 1/*eR*<sup>H</sup> with e being the electron charge.\n\nHigh-pressure resistivity measurements. High-pressure resistance measurements were performed in a custom-built diamond anvil cell with a beryllium copper gasket by using a Physical Property Measurement System (Quantum Design). Annular cubic boron nitride with epoxy was filled in a laser drilled hole of 500 µm (the diamond culet was 500 µm) in diameter and 20 µm thickness. Before the sample was loaded into a space of 240 µm in diameter and ruby powder was used as a manometer, four gold wires with a diameter of 25 µm were arranged symmetrically on the diamond culet in advance[55](#page-31-1). The pressure was also gauged by using the ruby fluorescence[49](#page-30-0) .\n\nDetermination of the upper and lower critical field. The measurements of the resistivity ρ as a function of temperature by the applied magnetic field were used to estimate the upper critical field Hc<sup>2</sup>. For a given magnetic field, the temperature vs resistivity behaviour gives a T<sup>c</sup> value, which can be defined by the crossover for the linear fitting of the derivative of the ρ-T below and above the superconducting transition. Such a magnetic field can be considered as the upper critical field Hc<sup>2</sup>. The obtained Hc<sup>2</sup> and T<sup>c</sup> values describe the temperature dependence behaviour of Hc<sup>2</sup>. Fitting these data points based on the Ginzburg-Landau theory[30](#page-15-0) by using Hc<sup>2</sup>(T)=Hc<sup>2</sup>(0)[1-(T/Tc) 2 ]/[1+(T/Tc) 2 ] yields the upper critical field at zero temperature Hc<sup>2</sup>(0). Such measurement results and data analysis for Cs3C<sup>60</sup> are shown in Figs. 1c and 1d.\n\nThe lower critical magnetic field Hc<sup>1</sup> was obtained in terms of the magnetization measurements. For a fixed temperature (T) in the superconducting state, we measured the magnetic field (H) dependence of the magnetization (M). Taking the magnetic field at the point where the M-H curve deviates from the linearity as Hc<sup>1</sup>, we thus have one pair of T and Hc<sup>1</sup>. Putting all the measured pairs together and fitting these pair points by the empirical law[30](#page-15-0) Hc<sup>1</sup>(T)/Hc<sup>1</sup>(0)=1-(T/Tc) <sup>2</sup> yield the lower critical field at zero temperature Hc<sup>1</sup>(0). The related measurement results and data analysis for Cs3C<sup>60</sup> are given in Extended Data Fig. 5.\n\n- 45. Mclennan, A. G., Ganin, A. Y., Takabayashi, Y., Colman, R. H., Zadik, R. H., Rosseinsky, M. J. & Prassides, K. Synthesis of face-centred cubic Cs3C<sup>60</sup> in THF. *Faraday Discuss.* 173, 95-103 (2014).\n- 46. Yoon, T., Koo, J. Y. & Choi, H. C. High yield organic superconductors via solutionphase alkali metal doping at room temperature. *Nano Lett.* 20, 612-617 (2020).\n- 47. Buntar, V. & Weber, H. W. Magnetic properties of fullerene superconductors. *Supercond. Sci. Technol.* 9, 599-615 (1996).\n- <span id=\"page-30-0\"></span>48. Buntar, V., Sauerzopf, F. M., Weber, H. W., Halushka, M. & Kuzmany, H. Mixed state parameters of single crystalline Rb3C<sup>60</sup> fullerene superconductors. *Phys. Rev. B* 72, 024521 (2005).\n- 49. Mao, H. K., Xu, J. & Bell, P. M. Calibration of the ruby pressure gauge to 800 kbar under quasi-hydrostatic conditions. *J. Geophys. Res.* 91, 4673-4676 (1986).\n- 50. Prescher, C. & Prakapenka, V. B. DIOPTAS: A program for reduction of two-dimensional x-ray diffraction data and data exploration. *High Press. Res.* 35, 223-230 (2015).\n- 51. Coelho, A. A. T OP AS and T OP AS-Academic: An optimization program integrating computer algebra and crystallographic objects written in C++. *J. Appl. Cryst.* 51, 1-9 (2018).\n- 52. Petˇr´ıˇcek, V., Duˇsek, M. & Palatinus, L. Crystallographic computing system JANA2006: General features. *Z Krist-Cryst Mater.* 229, 345-352 (2014).\n- <span id=\"page-31-0\"></span>53. Bail, A. L. Whole powder pattern decomposition methods and applications: A retrospection. *Powder diffr.* 20, 316-326 (2005).\n- <span id=\"page-31-1\"></span>54. Pauw, L. J. A method of measuring specific resistivity and Hall effect of discs of arbitrary shape. *Philips Res. Rep.* 13, 1-9 (1958).\n- 55. Rotundu, C. R., Cuk, T. & Greene, R. L. High-pressure resistivity technique ´ for quasihydrostatic compression experiments. *Rev. Sci. Instrum.* 84, 063903 (2013).\n\nAcknowledgements The work at HPSTAR was supported by the National Key R&D Program of China (Grant No. 2018YFA0305900). The work at HIT was supported by the Shenzhen Science and Technology Program (Grant No. KQTD20200820113045081) and the Basic Research Program of Shenzhen (Grant No. JCYJ20200109112810241).\n\nExtended Data Table 1 | Refined parameters for the primitive cubic (space group *Pa*3) Cs3C<sup>60</sup> phase obtained from the Rietveld analysis of synchrotron x-ray (λ = 0.6199 A) powder diffrac- ˚ tion data collected at room temperature. The weighted profile and expected *R*-factors are *R*wp = 3.161 % and *R*exp = 6.431 %. Goodness-of-fit and *R*-pattern are *Gof* = 0.491 and *R*<sup>p</sup> = 2.533 %. The lattice constant and unit cell volume are *a* = 14.259(18) A and ˚ *V* = 2899.14(11) A˚ 3 . Errors for the last two digits are given in parentheses. The fractional occupancy (N) was fixed to 1 for both cesium and carbon atoms. The atomic position is represented by (x,y,z).\n\n| Atom  | x/a     | y/b      | z/c      | N   |\n|-------|---------|----------|----------|-----|\n| Cs(1) | 0.5     | 0.5      | 0.5      | 1.0 |\n| Cs(2) | 0.25290 | 0.25290  | 0.25290  | 1.0 |\n| C(1)  | 0.22900 | -0.03200 | 0.10100  | 1.0 |\n| C(2)  | 0.24400 | -0.05400 | 0.00600  | 1.0 |\n| C(3)  | 0.20600 | 0.06500  | 0.12900  | 1.0 |\n| C(4)  | 0.20700 | -0.14000 | -0.03600 | 1.0 |\n| C(5)  | 0.17100 | -0.09600 | 0.15900  | 1.0 |\n| C(6)  | 0.22400 | 0.11200  | -0.03700 | 1.0 |\n| C(7)  | 0.24400 | 0.01900  | -0.06400 | 1.0 |\n| C(8)  | 0.20500 | 0.13500  | 0.06200  | 1.0 |\n| C(9)  | 0.15000 | -0.20200 | 0.02000  | 1.0 |\n| C(10) | 0.13200 | -0.17900 | 0.11900  | 1.0 |\n\nExtended Data Table 2 | Refined anisotropic thermal parameters (Uij ) for the primitive cubic (space group *Pa*3) Cs3C60. Anisotropic thermal motion is described by six parameters of the diagonal and off diagonal terms of a three-by-three matrix.\n\n| Atom  | U11       | U22       | U33       | U12        | U13        | U23        |\n|-------|-----------|-----------|-----------|------------|------------|------------|\n| Cs(1) | 0.514(33) | 0.514(33) | 0.514(33) | -0.047(23) | -0.047(23) | -0.047(23) |\n| Cs(2) | 2.13(18)  | 2.13(18)  | 2.13(18)  | -0.40(19)  | -0.40(19)  | -0.40(19)  |\n| C(1)  | 0.011(96) | 0.50(15)  | 0.38(18)  | 0.56(12)   | 0.046(89)  | 0.16(12)   |\n| C(2)  | 0.00(19)  | 0.88(35)  | 2.55(50)  | -0.75(23)  | -0.40(20)  | -0.38(28)  |\n| C(3)  | 0.000(83) | 0.61(14)  | 1.36(20)  | -0.72(11)  | -0.84(11)  | 1.02(15)   |\n| C(4)  | 0.00(17)  | 1.32(52)  | 0.48(24)  | 0.76(26)   | 0.22(11)   | 0.13(22)   |\n| C(5)  | 5.2(6)    | 0.52(29)  | 6.9(2)    | -1.26(87)  | 4.3(6)     | -2.04(92)  |\n| C(6)  | 0.17(18)  | 0.13(16)  | 0.81(30)  | -0.10(16)  | 0.74(21)   | -0.12(24)  |\n| C(7)  | 2.1(1)    | 2.0(1)    | 1.54(94)  | 2.4(1)     | -0.96(81)  | -0.34(41)  |\n| C(8)  | 2.56(55)  | 0.03(11)  | 0.01(14)  | 0.76(19)   | -0.69(25)  | -0.307(98) |\n| C(9)  | 2.66(81)  | 0.50(19)  | 0.50(21)  | 1.21(40)   | 0.71(37)   | 0.41(18)   |\n| C(10) | 1.49(34)  | 2.40(58)  | 0.00(14)  | -1.76(37)  | 0.91(23)   | -1.03(30)  |\n\n![](2__page_34_Figure_0.jpeg)\n\nExtended Data Figure 1 | Evolution of the magnetic susceptibility (χ) of Cs3C<sup>60</sup> with samples at different synthesis conditions. a, b and c, Temperature dependence of χ measured in both the zero-field-cooling (ZFC) and field-cooling (FC) runs of sample No. 9. Parts A, B and C of sample No. 9 were annealed at different temperatures of 200 ◦C, 220 ◦C and 240 ◦C for 24 hours, respectively. The obtained superconducting shielding fraction (SF) increases from 2.0 % to 12.9 % with increasing temperature. There is a huge increase in SF from 200 ◦C to 220 ◦C, but the relatively small increase between 220 ◦C and 240 ◦C suggests that annealing the sample at 240 ◦C is a relatively suitable temperature. d, e and f, Parts A, B and C of sample No. 10 were annealed at 240 ◦C for periods ranging from 1 to 5 days, respectively. With increasing annealing time, SF increases substantially to 82.0 %, indicating that increasing the time is effective in obtaining better samples. g, h and i, Parts A, B and C of sample No. 11 were annealed at 240 ◦C for 5 days after the powder samples were pre-pressed into solid cylinders using different pressures. The SF values\n\nof the pre-pressed samples exceed 100 % and increase substantially with increasing pressure. Note that SF can exceed 100 % in the magnetic susceptibility measurements for the bulk samples and the effect of demagnetizing factor is not considered here.\n![](3__page_36_Figure_0.jpeg)\n\nExtended Data Figure 2 | Evolution of the magnetic susceptibility (χ) of Cs3C<sup>60</sup> with the change of the annealing time to have the different superconducting shielding fraction (SF) for the same sample. a, Temperature dependence of χ measured in both the ZFC and FC runs with the applied magnetic field of 10 Oe in the sweep mode. The superconducting phase appears after the sample was annealed at 240 ◦C for 24 hours. The obtained SF is 8.3 %. b, SF is increased to 20.6 % after an additional annealing of 24 hours. c, After adding another round of the annealing at 240 degrees Celsius for 24 hours, SF increases to 67.0 %. d, After four times of the annealing at 240 degrees Celsius for a total of 84 hours, SF increases to 114.5 %. Note that SF can exceed 100 % in the magnetic susceptibility measurements for the bulk samples. e, After the fourth time of the annealing at 240 ◦C for 24 hours, SF continues to increase to 162.9 %. e, Finally, SF increases to 243.8 % after annealing for a total of 132 hours.\n\n![](3__page_37_Figure_0.jpeg)\n\nExtended Data Figure 3 | Temperature dependence of the real part (χ ac) and imaginary component (χ ′′ ac) of the *ac* magnetic susceptibility for samples at different synthesis conditions to have the different superconducting shielding fraction (SF). a, b and c, Temperature dependence of χ ′ ac and χ ′′ ac of sample No. 9. Parts A, B and C of sample No. 9 were annealed at different temperatures of 200 ◦C, 220 ◦C and 240 ◦C for 24 hours, respectively. χ ′ ac is essentially close to the *dc* magnetic susceptibility in the ZFC run for the different SFs. The χ ′′ ac value increases with increasing SF. d, e and f, Parts A, B and C of sample No. 10 were annealed at 240 ◦C for the periods ranging from 1 to 5 days, respectively. The imaginary part of the *ac* magnetic susceptibility of the sample with a SF of 50.8 % appears as a plateau region at low temperatures, and the 82.0 % of the sample shows a distinct hump. This is characteristic of samples with increasing SF. g, h and i, Parts A, B and C of sample No. 11 were annealed at 240 ◦C for 5 days after the powder samples were pre-pressed into solid cylinders using different pressures. The sharper the peak of χ ′′ ac in higher SF samples. SF is positively correlated with the volume fraction of the superconducting phase in the sample, and the actual measured values are also affected by the non-superconducting fraction\n\nof the sample. The frequency and amplitude of the applied field for all *ac* magnetic susceptibility measurements are 233.6 Hz and 4 Oe, respectively.\n\n![](3__page_39_Figure_0.jpeg)\n\nExtended Data Figure 4 | Temperature dependence of normalized resistance to 30 K (R/R30) for samples with different superconducting shielding fractions (SFs) collected in the warming run. The resistance of the sample increases with decreasing temperature before dropping to the zero value in the superconducting state. Superconducting transition width decreases with increasing SF from 10.4 % to 194.5 %. Increasing SF leads to the increase of both the on-set temperature for the superconducting transition and the temperature for the sample to enter completely the zero-resistance state.\n\n![](3__page_40_Figure_0.jpeg)\n\nExtended Data Figure 5 | The lower critical field *H*c<sup>1</sup> of Cs3C60. a, Magnetic field dependence of the magnetization at various temperatures from the superconducting state to the normal state. The temperature step of 1 K below 10 K, and 2 K above 10 K in the measurements. b, Temperature dependence of the lower critical field *H*c<sup>1</sup>. The error bars represent estimated uncertainties in determining *H*c<sup>1</sup>. The inset at the upper right shows the determination for *H*c<sup>1</sup> at the temperature of 2 K. The solid line of shadow border represents the empirical law *H*c<sup>1</sup>(T)/*H*c<sup>1</sup>(0) = 1 - (*T*/*T*c) 2 . The fitting to the measured values of the lower critical magnetic field near zero temperature yields *H*c<sup>1</sup>(0). The *H*c<sup>1</sup> values at temperatures higher than 10 K do not affect much the fitting accuracy of *H*c<sup>1</sup>(0).\n\n![](3__page_41_Figure_0.jpeg)\n\nExtended Data Figure 6 | Temperature dependence of the resistivity of Cs3C<sup>60</sup> in the warming run. The resistivity of the sample increases with decreasing temperature before dropping to the zero value in the superconducting state. Two insets: The temperature dependence of the derivative of the resistivity (dρ/dT) in two different temperature regimes. Two anomalies can be observed at around 110 K and 250 K, respectively.",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Superconductivity of Cs3C60 at atmosphere pressure",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              72.0,
+              71.43182373046875
+            ],
+            [
+              501.43359375,
+              71.43182373046875
+            ],
+            [
+              501.43359375,
+              90.35797119140625
+            ],
+            [
+              72.0,
+              90.35797119140625
+            ]
+          ]
+        },
+        {
+          "title": "Superconductivity from the Meissner effect and zero-resistivity state",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              70.822265625,
+              583.66064453125
+            ],
+            [
+              420.75,
+              583.66064453125
+            ],
+            [
+              420.75,
+              595.6158447265625
+            ],
+            [
+              70.822265625,
+              595.6158447265625
+            ]
+          ]
+        },
+        {
+          "title": "Phase identification from the structural and vibrational properties",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              71.419921875,
+              543.8208465576172
+            ],
+            [
+              409.7704772949219,
+              543.8208465576172
+            ],
+            [
+              409.7704772949219,
+              555.7760467529297
+            ],
+            [
+              71.419921875,
+              555.7760467529297
+            ]
+          ]
+        },
+        {
+          "title": "Carrier character from the Hall effect",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              71.34521484375,
+              601.5409393310547
+            ],
+            [
+              265.82122802734375,
+              601.5409393310547
+            ],
+            [
+              265.82122802734375,
+              613.72265625
+            ],
+            [
+              71.34521484375,
+              613.72265625
+            ]
+          ]
+        },
+        {
+          "title": "Determination of the superconducting parameters",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              70.6728515625,
+              554.7408294677734
+            ],
+            [
+              327.515625,
+              554.7408294677734
+            ],
+            [
+              327.515625,
+              566.6960296630859
+            ],
+            [
+              70.6728515625,
+              566.6960296630859
+            ]
+          ]
+        },
+        {
+          "title": "Pressure effect on superconductivity",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              70.6728515625,
+              294.700927734375
+            ],
+            [
+              256.53741455078125,
+              294.700927734375
+            ],
+            [
+              256.53741455078125,
+              306.6561279296875
+            ],
+            [
+              70.6728515625,
+              306.6561279296875
+            ]
+          ]
+        },
+        {
+          "title": "Evolution of the structure with pressure",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              70.74755859375,
+              74.62091064453125
+            ],
+            [
+              275.818359375,
+              74.62091064453125
+            ],
+            [
+              275.818359375,
+              86.57611083984375
+            ],
+            [
+              70.74755859375,
+              86.57611083984375
+            ]
+          ]
+        },
+        {
+          "title": "Universal phase diagram of superconductivity",
+          "heading_level": null,
+          "page_id": 10,
+          "polygon": [
+            [
+              70.822265625,
+              121.4208984375
+            ],
+            [
+              306.338623046875,
+              121.4208984375
+            ],
+            [
+              306.338623046875,
+              133.3760986328125
+            ],
+            [
+              70.822265625,
+              133.3760986328125
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 11,
+          "polygon": [
+            [
+              71.19580078125,
+              74.62091064453125
+            ],
+            [
+              127.29072570800781,
+              74.62091064453125
+            ],
+            [
+              127.29072570800781,
+              86.57611083984375
+            ],
+            [
+              71.19580078125,
+              86.57611083984375
+            ]
+          ]
+        },
+        {
+          "title": "Methods",
+          "heading_level": null,
+          "page_id": 25,
+          "polygon": [
+            [
+              97.79150390625,
+              72.7451171875
+            ],
+            [
+              152.10072326660156,
+              72.7451171875
+            ],
+            [
+              152.10072326660156,
+              87.09130859375
+            ],
+            [
+              97.79150390625,
+              87.09130859375
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              173
+            ],
+            [
+              "Line",
+              77
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              146
+            ],
+            [
+              "Line",
+              27
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              166
+            ],
+            [
+              "Line",
+              34
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              192
+            ],
+            [
+              "Line",
+              42
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              88
+            ],
+            [
+              "Line",
+              25
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              222
+            ],
+            [
+              "Line",
+              30
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              126
+            ],
+            [
+              "Line",
+              24
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              208
+            ],
+            [
+              "Line",
+              25
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              300
+            ],
+            [
+              "Line",
+              33
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              258
+            ],
+            [
+              "Line",
+              32
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              190
+            ],
+            [
+              "Line",
+              39
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              77
+            ],
+            [
+              "Line",
+              20
+            ],
+            [
+              "ListItem",
+              6
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              101
+            ],
+            [
+              "Line",
+              20
+            ],
+            [
+              "ListItem",
+              6
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              104
+            ],
+            [
+              "Line",
+              21
+            ],
+            [
+              "ListItem",
+              7
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 14,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              99
+            ],
+            [
+              "Line",
+              20
+            ],
+            [
+              "ListItem",
+              8
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 15,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              103
+            ],
+            [
+              "Line",
+              21
+            ],
+            [
+              "ListItem",
+              8
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 16,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              110
+            ],
+            [
+              "Line",
+              21
+            ],
+            [
+              "ListItem",
+              8
+            ],
+            [
+              "Reference",
+              7
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 17,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              12
+            ],
+            [
+              "Line",
+              4
+            ],
+            [
+              "ListItem",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 18,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              231
+            ],
+            [
+              "Line",
+              82
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 19,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              15
+            ],
+            [
+              "Line",
+              3
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 20,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              182
+            ],
+            [
+              "Line",
+              59
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 21,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              263
+            ],
+            [
+              "Line",
+              100
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 22,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              196
+            ],
+            [
+              "Line",
+              70
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 23,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              103
+            ],
+            [
+              "Line",
+              16
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 24,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              42
+            ],
+            [
+              "Line",
+              8
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 25,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              100
+            ],
+            [
+              "Line",
+              23
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 26,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              128
+            ],
+            [
+              "Line",
+              28
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 27,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              92
+            ],
+            [
+              "Line",
+              23
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 28,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              91
+            ],
+            [
+              "Line",
+              23
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 29,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              145
+            ],
+            [
+              "Line",
+              26
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 30,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              128
+            ],
+            [
+              "Line",
+              21
+            ],
+            [
+              "ListItem",
+              6
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 31,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              70
+            ],
+            [
+              "Line",
+              15
+            ],
+            [
+              "ListItem",
+              5
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 32,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              132
+            ],
+            [
+              "TableCell",
+              65
+            ],
+            [
+              "Line",
+              23
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 33,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "TableCell",
+              91
+            ],
+            [
+              "Span",
+              68
+            ],
+            [
+              "Line",
+              17
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 34,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              475
+            ],
+            [
+              "Line",
+              168
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 35,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              15
+            ],
+            [
+              "Line",
+              4
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 36,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              466
+            ],
+            [
+              "Line",
+              147
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 37,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              662
+            ],
+            [
+              "Line",
+              227
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 38,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              9
+            ],
+            [
+              "Line",
+              3
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 39,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              76
+            ],
+            [
+              "Line",
+              26
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 40,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              140
+            ],
+            [
+              "Line",
+              50
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 41,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              113
+            ],
+            [
+              "Line",
+              48
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 42,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Superconductivity of Cs$_3$C$_{60}$ at atmosphere pressure",
+    "authors": [
+      {
+        "authors_list": [
+          "Peng, Di",
+          "Wang, Ren-Shu",
+          "Zong, Li-Na",
+          "Chen, Xiao-Jia"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Pressure as a clean and efficient tool can bring about unexpected extraordinary physical and chemical properties of matters. The recent discoveries of superconductivity at nearly room temperature in hydrides highlight the power of pressure in this aspect. Capturing such Tc superconductivity at atmosphere pressure for the technological applications is highly desired. The large-scale growth of diamond through the chemical vapor deposition away from the usual high-pressure and high-temperature conditions fuels such a hope. Similar to hydrides, Cs-doped C$_{60}$ was also found to exhibit superconductivity by the application of pressure with a comparable Tc of 40 K as MgB$_2$. Here, we report the successful realization of superconductivity in Cs-doped C$_{60}$ at atmosphere pressure. The phase is characterized to have the primitive cubic structure in the space group of Pa-3 with the stoichiometry of Cs$_3$C$_{60}$. The superconductivity is evidenced from the observations of both the Meissner effect and zero-resistance state. Although the pressure effects on superconductivity are different for the newly discovered Cs$_{3}$C$_{60}$ compared to the known two phases with fcc and A15 structure, the evolution of Tc with the volume for all these superconductors follows the same universal trend, suggesting the same pairing mechanism of the superconductivity. Such a trend together with the nearly linear Tc vs the lattice constant in the structure with smaller unit-cell volumes and the neighbouring antiferromagnetic state in the structure with larger unit-cell volumes invites the electron-phonon coupling and the electron correlations together to account for the superconductivity in Cs$_3$C$_{60}$. The present results and findings suggest a new route to capturing the superconductivity which takes place at high pressures to atmosphere pressure environment.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2208.09429"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.2208.09429",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2022arXiv220809429P"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

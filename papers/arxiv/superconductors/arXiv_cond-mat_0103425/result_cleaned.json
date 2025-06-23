@@ -1,0 +1,312 @@
+{
+  "id": "95314c9de3f44641f86a2bd939136177",
+  "pdf_path": "apl/Superconductors/arXiv:cond-mat_0103425.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "## **Thin Film Magnesium Boride Superconductor with Very High Critical Current Density and Enhanced Irreversibility Field**\n\n**C.B. Eom† §, M.K. Lee† , J.H. Choi† §, L. Belenky† , X. Song§ , L.D. Cooley§ , M.T. Naus§ , S. Patnaik§ , J. Jiang§ , M. Rikel§ , A. Polyanskii§ , A. Gurevich§ , X.Y. Cai§ , S.D. Bu† , S.E. Babcock†§, E.E. Hellstrom†§, D.C.**\n\n## **Larbalestier†§ N. Rogado\\*, K.A. Regan\\*, M.A. Hayward\\*, T. He\\*, J.S. Slusky\\*, K. Inumaru\\*, M.K. Haas\\* and R.J. Cava\\***\n\n† *Department of Materials Science and Engineering, Univer-sity of Wisconsin, 1509 University Avenue, Madison, WI 53706 USA* § *Applied Superconductivity Center, University of Wisconsin, 1500 Engineering Drive, Madison, WI 53706 USA*\n\n\\* *Department of Chemistry and Princeton Materials Institute, Princeton University, Princeton, NJ 08544 USA*\n\n**The discovery of superconductivity at 39 K in magnesium diboride [1] offers the possibility of a new class of low-cost, high-performance superconducting materials for magnets and electronic applications. With twice the critical temperature of Nb3Sn and four times that of Nb-Ti alloy, MgB2 has the potential to reach much higher fields and current densities than either of these technological superconductors. A vital prerequisite, strongly linked current flow, has already been demonstrated even at this early stage [2-5]. One possible drawback is the observation that the field at which superconductivity is destroyed is modest. Further, the field which limits the range of practical applications, the irreversibility field** *H\\*(T)***, is ~7 T at liquid helium temperature (4.2 K), significantly lower than ~10 T for Nb-Ti [6] and ~20 T for Nb3Sn [7]. Here we show that MgB2 thin films can exhibit a much steeper temperature dependence of** *H\\*(T)* **than is observed in bulk materials, yielding** *H\\****(4.2 K) above 14 T. In addition, very high critical current densities at 4.2K, 1 MA·cm-2 at 1 T and 10<sup>5</sup> A/cm<sup>2</sup> at 10 T, are possible. These data demonstrate that MgB2 has credible potential for high-field superconducting applications.**\n\nThree MgB2 films were prepared by pulsed laser deposition at room temperature under 0.3 Pa of argon from a sintered MgB<sup>2</sup> target using a Lambda Physik KrF laser (248 nm) operating at 4 J/cm<sup>2</sup> and 10 Hz onto (111) oriented single crystal SrTiO<sup>3</sup> substrates. Before each deposition, the vacuum chamber was pumped to a base pressure of 2 × 10-7 Torr in order to minimize the oxidation during the deposition. The MgB2 target was prepared as described previously [2, 8]. After deposition, Film 1 was annealed in an evacuated niobium tube (0.6 cm diameter × 5 cm long) at 850 °C for 15 minutes. Film 2 was annealed in an evacuated quartz tube (1.7 cm diameter × 15 cm long) at 750 °C for 30 minutes and quenched to room temperature. Film 3 was annealed in a tantalum envelope inside an evacuated niobium tube at 750 °C for 30 minutes. Magnesium pellets were included in each tube to prevent magnesium loss. The film thickness was approximately 5000 Å.\n\nThe films' chemical composition was determined by wavelength dispersive spectroscopy (WDS) in an electron microprobe at 3 keV acceleration voltage to avoid x-ray intensity from the substrates. Before annealing, the films had a Mg:B:O atomic ratio of about 1.0:1.0:0.17, the oxygen probably coming from the target or background gas during deposition. The primary differences in the films are the measured ratios of Mg:B:O obtained after annealing. Film 2 had a ratio of ~1.0: 0.9: 0.7, which corresponds to a relative oxygen concentration approximately twice that of film 1 and 3 and higher Mg content. By contrast, film 1 and film 3 annealed in small-volume Nb and Ta tubes show 1.0:1.0: 0.4 and 1.0: 1.2: 0.3 ratios, respectively. Film 1 has a dark spot in the center of the sample, which is excluded from our chemical analysis, but could not be excluded from the 3 × 3 mm squares used for superconducting property characterization. Samples 2 and 3 exhibited no similar inhomogeneity. We believe that the higher oxygen of postannealed film 2 comes from the relatively poor vacuum (approximately 150 Pa) and the large volume of the quartz tube. As shown later, film 2 has dramatically different superconducting properties compared to films 1 and 3.\n\nThe critical temperature *T<sup>c</sup>* was determined by both inductive SQUID magnetometer and resistive measurements, which showed principal magnetic transitions at 28 to 32 K. Film 1 had a small amount of superconducting material up to 38.5 K. The resistive transitions, shown in Fig. 1, have onset values of 36, 35, and 30 K for films 1, 2, and 3 respectively, and fall to zero resistance just above the principal inductive transition. The room temperature resistivity ρ(300 K) of film 2, 390 µΩ·cm, is clearly much higher than that for film 1 (125 µΩ·cm) and film 3 (60 µΩ·cm). The uncertainty of the resistivity value due to the large voltage contacts relative to sample dimension is about ±20%. High-resistivity film 2 also exhibits a slight resistivity increase with decreasing temperature, indicating a resistivity ratio, RR = ρ(300 K) / ρ(40 K), less than 1. By contrast, the RR of film 1 is about 1.5, while that of film 3 is 1.3. For comparison, the RR of Nb-Ti alloys (Ginzburg-Landau parameter κ ≈ 40) is seldom higher than 1.4 [6], while that of Nb3Sn (κ ≈ 30) is typically between 2 and 5 [7]. Good bulk samples of MgB2 can attain RR values of up to 25 and have κ ~ 25 [4, 5].\n\nMagnetization curves were obtained using 3 mm × 3 mm squares at 4.2-30 K and fields up to 14 T in a vibrating sample magnetometer (VSM). The 4.2 K data shown in fig. 2a demonstrate important differences between film 2 and films 1 and 3 and also between the films and bulk samples. Hysteresis curves close at fields very much higher for film 2, ~14 T, than for film 1 (~6 T) and film 3 (~6.5 T). We were not able to unambiguously determine *Hc2* due to the smooth blending of the superconducting magnetization into the background magnetization of substrate and sample holder. This is in marked contrast to the behavior seen for bulk samples, which have a significant reversible contribution to the remaining hysteretic magnetic moment above the primary loop closure field [2,4,9- 11]. The O-rich film 2 has a much higher irreversibility field than films 1 and 3 up to 25 K.\n\nMagneto-optical examination of the films showed strong flux shielding with only slightly distorted roof patterns, indicative of macroscopic supercurrents flowing over the whole films. This validates use of the standard expression [12] for the magnetization of a thin film, *J<sup>c</sup>* = 30·∆*m*·*V* –1 ·*r*  –1, to extract critical current densities *J<sup>c</sup> (H,T),* where ∆*m* is the width of the hysteresis loop, *V* ≈ 4.5 x 10-6 cm 3 is the film volume, and *r* = 0.15 cm is the sample half-width. Figure 2b shows that the highest *J<sup>c</sup>* value at 1 T, 4.2 K exceeds 3 MA·cm-2 for the lowresistivity film 3. However, the much larger *H\\**(4.2 K) of film 2 enables *J<sup>c</sup>* to achieve 1 MA·cm-2 at 1 T and to remain above 10<sup>5</sup> A·cm-2 up to 10 T, well above *H\\** for films 2 and 3. Film 2 also exhibits substantial high-field current densities up to 20 K. *J<sup>c</sup>* values of film 1 are well below those of film 3 at 4.2 and 20 K, which may be due to its inhomogeneity.\n\nBulk pinning-force curves, *Fp(H) =* µ0*H*·*J<sup>c</sup> (H)* are shown in fig. 2c. Very strong flux pinning, in excess of 40 GN·m-3 at 4.2 K, is reached by film 3, while *Fp* approaches 20 GN·m-3 at 5 T for film 2 and remains above 10 GN·m-3 between 1 and 10 T. These data are comparable to or exceed the pinning force of the established technological superconductors Nb47wt.%Ti [6] and Nb3Sn [7], which lie in the range 15-30 GN·m-3 .\n\nFig. 3 summarizes the irreversibility fields for bulk and thin film MgB2. The gray bands indicate established *Hc2(T)* and *H\\*(T)* lines for bulk MgB<sup>2</sup> , based on inductive [2,4,5,9-11] and resistive [4,5,9,11] measurements. The extrapolation to zero of the Kramer function (*J<sup>c</sup>* 0.5*H* 0.25) was used to define the irreversibility field. Plots for films 1 and 3 were nearly straight, just as in bulk samples [2]. Kramer plots for film 2 were curved because of stronger pinning at higher fields. The *H\\*(T)* line for film 2 also has a much steeper slope, d*H\\**/d*T* 0.7 T·K -1, than the *H\\*(T)* data for bulk samples, which have a slope of about 0.3 T·K-1. This steeper *H\\*(T)* characteristic allows *H\\*(T)* for film 2 to intersect and exceed bulk sample *Hc2(T)* values below about 10 K. In strong contrast to the film 2 data, the *H\\*(T)* data for lower resistivity films 1 and 3 lie along the bulk *H\\*(T)* line, except for a downturn at higher temperature that reflects their lower critical temperature (30-32 K).\n\nTransmission electron microscopy (TEM) imaging and selected area diffraction pattern (SADP) analysis from widely spaced regions were used to characterize the phase constitution and microstructure of film 2. Each region had an area of ~1 µm 2 in the plane of the film. All of the SADPs were ring-pattern types (Fig. 4), a characteristic of fine-grained material, and indicated the presence of significant volume fractions of both MgB2 and MgO. All MgB2 rings from crystal planes other than (*hk*0) were absent when the electron beam was directed along the film surface normal. Arcs, rather than rings, appeared at the MgB<sup>2</sup> interplanar spacings when the beam was tilted significantly away from the film normal. These two characteristics of the SADPs show that the MgB2 has a crystallographic texture, in which most grains have their *c*-axis oriented along the film surface normal but have no preferred orientation in the plane of the film. TEM imaging showed that the MgB2 grain size was remarkably small, ~10 nm (Fig. 4). As in the WDS microprobe results, energydispersive TEM x-ray microanalysis suggests a considerably higher concentration of O compared to what we have observed in TEM specimens from bulk MgB2 [13].\n\nAll three films were probed by x-ray diffractometry using both a point and a two-dimensional area detector to collect the diffracted intensity and probe its spatial distribution. All films showed a [00*l*] texture with a large mosaic spread normal to the substrate and random in-plane orientation, consistent with the SADP shown in Fig. 4. The rocking curve widths of the (002) reflection of MgB2 are 4.8°, 7.3° and 8.2° for films 1, 2 and 3, respectively. Furthermore there is significant broadening of the (002) x-ray peaks in 2θ scans. Using the Sherrer formula for the determination of the grain size *d* from the broadening of x-ray diffraction peaks, *d* =0.9 λ/*B* cos θ where *B* is the full width at half maximum of the 2θ diffraction peaks, grain dimensions along the *c*-axis are 17 nm, 7 nm and 8 nm for films 1, 2 and 3, respectively. To within the limit of the analysis, the grain size of film 2 measured by TEM and XRD are the same. All are very small, though the grain size of film 1 is significantly larger.The MgO grains appeared to be randomly oriented with a grain size of ~10 nm in all three films.\n\nX-ray diffraction studies also revealed that the MgB<sup>2</sup> *c*-lattice parameter is larger in film 2 than in either film 1 or film 3 and also in bulk samples. Fig. 5 presents θ-2θ scans for films 1, 2, and 3, which clearly show that the (002) MgB2 peak of film 2 is shifted to lower angle. The c-lattice parameter of MgB2 in film 2 is 0.3547±0.0007 nm, substantially larger than the 0.3521 nm for film 1 and 3, which is identical to the bulk value [1,3]. (The (111) and (222) peaks of SrTiO3 were used as a reference in these calculations). We believe the expansion of the c-lattice parameter in MgB2 is due to oxygen alloying in boron layer.\n\nTaken as a whole, the experiment suggests that the thin film process can alloy magnesium diboride. Unlike bulk samples, which appear to have a common *T<sup>c</sup>* , *Hc2(T)*, and *H\\*(T)*, here we see a strong enhancement of *H\\*(T)* that correlates well to the strongly enhanced resistivity of film 2 and to concomitantly reduced electron mean free path and coherence length. Films 1 and 3, which were annealed in metal tubes and have lower oxygen, have metallic resistivity and *H\\*(T)* values close to the now well established bulk-sample line. Film 2, which was annealed in quartz and has higher measured oxygen and an enhanced c-axis parameter (0.3547 nm versus 0.3521 nm for bulk) has a weak increase of resistivity with decreasing temperature and a much steeper *H\\*(T)* curve, suggesting that oxygen can substitute for boron and expand the c-axis of MgB2. In both alloy and intermetallic-compound superconductors, substitutional alloying to decrease the electron mean free path is very important for enhancing high-field superconductivity, as indicated by the direct dependence of *Hc2*(0) on the normal-state resistivity through *Hc2*(0) = 3.11 ρ γ *T<sup>c</sup>* [14] (γ is the coefficient of electronic specific heat). Taking the value of γ = 153 J·m-3·K-2 for MgB2 [15], the resistivity values predict *µ0Hc2(0)* values of 12, 57, and 7.6 T for films 1, 2, and 3 respectively, assuming the dirty limit applies. Although we were not able to deduce *Hc2* values from the magnetization measurements, these predictions are at least qualitatively reasonable given the data in fig. 3, which suggest extrapolated values of *µ0H\\*(0)* of 10, 22, and 7 T for films 1, 2 and 3, respectively. Moreover the very high *J<sup>c</sup>* values indicate strong flux pinning and confirm the absence of electromagnetic granularity [2]. The source of flux pinning is not obvious in the TEM examination of the grains, but the exceptionally fine 10 nm-scale of the grain size would be consistent with strong grain boundary pinning, as in Nb3Sn [16]. In summary, it appears that MgB2 can be alloyed, probably with oxygen, so as to increase the irreversibility field and the fluxpinning properties to levels where they may compete with today's materials of choice, Nb47wt.%Ti and Nb3Sn.\n\n2. D. C. Larbalestier et al., \"Strongly linked current flow in polycrystalline\n\n<sup>1.</sup> J. Nagamatsu, N. Nakagawa, T. Muranaka, Y. Zenitani, and J. Akimitsu, \"Superconductivity at 39 K in magnesium diboride\", Nature (London) 410, 63-64 (2001).\n\nforms of the superconductor MgB2\", *Nature* 410, 186-189 (2001).\n\n- 3. S. L. Bud'ko, G. Lapertot, C. Petrovic, C. E. Cunningham, N. Anderson, and P. C. Canfield, \"Boron Isotope Effect in Superconducting MgB2\" *Phys. Rev. Lett.* 86, 1877-1880, 2001.\n- 4. D. K. Finnemore, J. E. Ostenson, S. L. Bud'ko, G. Lapertot, and P. C. Canfield, \"Thermodynamic and Transport Properties of Superconducting Mg<sup>10</sup>B2\" *Phys. Rev. Lett.* 86, 2420-2422, 2001.\n- 5. P. C. Canfield, D. K. Finnemore, S. L. Bud'ko, J. E. Ostenson, G. Lapertot,\\* C. E. Cunningham, † and C. Petrovic, Superconductivity in Dense MgB2 Wires, *Phys. Rev. Lett.* 86, 2423-2426, 2001.\n- 6. P.J. Lee, \"Abridged metallurgy of ductile alloy superconductors\", in *Wiley Encyclopedia of Electrical and Electronics Engineering*, ed. J. G. Webster (New York: Wiley, 1999), Volume 21, pp. 75-87\n- 7. D.B. Smathers, \"A-15 Superconductors\", in *Metals Handbook* 10th edn. (ASM Ingternational 1990), Volume 2, Properties and Selection: Nonferrous Alloys and Special-Purpose Materials, pp. 1060-1076\n- 8. J.S. Slusky, N. Rogado, K.A. Regan, M.A. Hayward, P. Khalifah, T. He, K. Inumaru, S. Loureiro, M.K. Haas, H. W. Zandbergen and R.J. Cava, \"Loss of superconductivity and structural transition in Mg1-xAlxB2\", condmat/0102262\n- 9. K.-H. Müller, G. Fuchs, A. Handstein, K. Nenkov, V.N. Narozhnyi, D. Eckert, \"The upper critical field in superconducting MgB2\" condmat/0102517\n- 10. Y. Takano, H. Takeya, H. Fujii , H. Kumakura, T. Hatano and K. Togano, \"Superconducting Properties of MgB2 Bulk Materials Prepared by High Pressure Sintering\", cond-mat/0102167\n- 11. Y. Bugoslavsky, G.K. Perkins, X.Qi, L.F. Cohen and A.D. Caplin, Critical currents and vortex dynamics in superconducting MgB2, submitted to *Nature*\n- 12. E.M. Gyorgy, R.B. van Dover, K.A. Jackson, L.F. Schneemeyer, and J.V. Waszczak, \"Anisotropic critical currents in Ba2YCu3O7 analyzed using an extended Bean model*\", Appl. Phys. Lett.* 55: 263-265 (1989).\n- 13. X. Song, to be published\n- 14. T.P. Orlando, E.J. McNiff, Jr., S. foner, and M.R. Beasley, \"Critical fields, Pauli paramagnetic limiting, and material parameters of Nb3Sn and V3Si\", *Phys. Rev. B* 19, 4545-4561 (1979).\n- 15. Y. Wang, T. Plackowski, and A. Junod, \"Specific heat in the superconducting and normal state (2-300 K, 0-16 T), and magnetic susceptibility of the 38-K superconductor MgB2: Evidence for a multicomponent gap\", cond-mat/0103181\n- 16. D. Dew-Hughes, \"The role of grain boundaries in determining Jc in highfield, high-current superconductors\", Phil. Mag. 55, 459-479 (1987).\n\n## **Acknowledgments**\n\nThis work was supported by funding from the United States Department of Energy, the Air Force Office of Scientific Research, the National Science Foundation through the Materials Research Science and Education Center for Nanostructured Materials and David Lucile Packard Fellowship (CBE). The work at Princeton was supported by the National Science Foundation and the U.S. Department of Energy.\n\n![](_page_2_Figure_17.jpeg)\n\nFigure 1: Resistivity as a function of temperature. Film 1 is indicated by the red curve with crosses, film 2 by the black curve\n\nwith squares, and film 3 by the blue curve with circles. The inset shows a magnified view of the resistive transitions near the critical temperature.\n\n![](_page_2_Figure_20.jpeg)\n\n![](_page_2_Figure_21.jpeg)\n\n![](_page_2_Figure_22.jpeg)\n\nFigure 2: Magnetization measurements for films 1 (red data and curves), 2 (black), and 3 (blue). In (a), raw magnetization data, obtained using a vibrating sample magnetometer, is compared at 4.2 K. The inset shows a magnified view of the closure of hysteresis loops, after subtracting a linear background due to the paramagnetic moment of the samples and the sample holder. In (b), the derived values of the critical current density are plotted as a function of field at 4.2 and 20 K for films 1 and 3, and at 4.2, 10, 15, 20, and 25 K for film 2. Notice that the data for film\n\n2 at 4.2 K are above 10<sup>5</sup> A·cm-2, a common benchmark for superconducting magnet applications, nearly to 10 T. In (c), the bulk pinning forces *Fp(H)* = *Jc(H)*·µ0*H* at 4.2 K are shown. Inhomogeneous film 1 has lower *J<sup>c</sup>* , while the more optimum films 2 and 3 show very strong flux pinning, comparable to the range of *J<sup>c</sup>* values found for technological superconductors.\n\n![](_page_3_Figure_1.jpeg)\n\n Figure 3: *H-T* phase diagram for MgB2 thin films and bulk samples. Data for bulk samples are represented by the gray bands, using data from [2,4,5,8-11] for different samples and different measuring techniques. The irreversibility fields for films 1 (red) and 3 (blue) lie close to the *H\\*(T)* line for bulk materials, even though their *T<sup>c</sup>* values are lower than the ~39 K bulk value. The irreversibility field for film 2 increases at a faster rate of ~0.7 T/K below the critical temperature of 28.5 K, crossing the bulk *Hc2(T)* line below ~10 K.\n\n![](_page_3_Figure_3.jpeg)\n\nFigure 4: Transmission electron microscopy. (a) This dark-field image of a plan-view section of film 2 displays a fraction of the MgB2 grains, revealing a 10 nm grain size. (b) and (c) show selected area diffraction patterns from the films. All of the rings can be attributed to either MgB2 or MgO. The pattern in (b) was collected with the incident electron beam aligned approximately parallel to the film normal. It shows only complete rings, and those rings that correspond to the MgB2 phase are all of the (*hk*0) type. The pattern in (c) was collected with the incident beam oriented at an angle to the film normal. It shows an uneven distribution of intensity along all MgB2 rings. Considered together, the selected area diffraction patterns in (b) and (c) indicate that the film possesses a (00*l*) (i.e. *c*-axis) fiber texture oriented parallel to the film normal with little or no texture in the plane of the film.\n\n![](_page_3_Figure_5.jpeg)\n\nFigure 5. X-ray diffraction θ-2θ scans of films 1, 2 and 3, showing both (002) MgB2 and (002) MgO peaks. The data clearly shows that the 2θ position of the MgB2 (002) peak for film 2 (51.5°) is smaller than for films 1 and 3 (51.9°), which indicates the *c*-lattice parameter of film 2 is larger.",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Thin Film Magnesium Boride\nSuperconductor with Very High Critical\nCurrent Density and Enhanced\nIrreversibility Field",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              35.33642578125,
+              50.9501953125
+            ],
+            [
+              299.126953125,
+              50.9501953125
+            ],
+            [
+              299.126953125,
+              124.50811767578125
+            ],
+            [
+              35.33642578125,
+              124.50811767578125
+            ]
+          ]
+        },
+        {
+          "title": "Larbalestier†§ N. Rogado*, K.A. Regan*, M.A.\nHayward*, T. He*, J.S. Slusky*, K. Inumaru*, M.K. Haas*\nand R.J. Cava*",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              35.03759765625,
+              194.46826171875
+            ],
+            [
+              297.03515625,
+              194.46826171875
+            ],
+            [
+              297.03515625,
+              234.3614501953125
+            ],
+            [
+              35.03759765625,
+              234.3614501953125
+            ]
+          ]
+        },
+        {
+          "title": "Acknowledgments",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              35.672607421875,
+              436.21923828125
+            ],
+            [
+              107.279296875,
+              436.21923828125
+            ],
+            [
+              107.279296875,
+              445.21923828125
+            ],
+            [
+              35.672607421875,
+              445.21923828125
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              372
+            ],
+            [
+              "Line",
+              135
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              483
+            ],
+            [
+              "Line",
+              135
+            ],
+            [
+              "TextInlineMath",
+              6
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Footnote",
+              1
+            ],
+            [
+              "ListItem",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              434
+            ],
+            [
+              "Line",
+              162
+            ],
+            [
+              "ListItem",
+              14
+            ],
+            [
+              "Figure",
+              4
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              221
+            ],
+            [
+              "Line",
+              70
+            ],
+            [
+              "Figure",
+              3
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "FigureGroup",
+              3
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/duTNR2JSwUDtmUpdSAFqAA"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 4,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "High critical current density and enhanced irreversibility field in superconducting MgB<SUB>2</SUB> thin films",
+    "authors": [
+      {
+        "authors_list": [
+          "Eom, C. B.",
+          "Lee, M. K.",
+          "Choi, J. H.",
+          "Belenky, L. J.",
+          "Song, X."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "The discovery of superconductivity at 39K in magnesium diboride offers the possibility of a new class of low-cost, high-performance superconducting materials for magnets and electronic applications. This compound has twice the transition temperature of Nb<SUB>3</SUB>Sn and four times that of Nb-Ti alloy, and the vital prerequisite of strongly linked current flow has already been demonstrated. One possible drawback, however, is that the magnetic field at which superconductivity is destroyed is modest. Furthermore, the field which limits the range of practical applications-the irreversibility field H*(T)-is approximately 7T at liquid helium temperature (4.2K), significantly lower than about 10T for Nb-Ti (ref. 6) and ~20T for Nb<SUB>3</SUB>Sn (ref. 7). Here we show that MgB<SUB>2</SUB> thin films that are alloyed with oxygen can exhibit a much steeper temperature dependence of H*(T) than is observed in bulk materials, yielding an H* value at 4.2K greater than 14T. In addition, very high critical current densities at 4.2K are achieved: 1MAcm<SUP>-2</SUP> at 1T and 10<SUP>5</SUP>Acm<SUP>-2</SUP> at 10T. These results demonstrate that MgB<SUB>2</SUB> has potential for high-field superconducting applications.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Nature",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:cond-mat/0103425"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1038/35079018",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2001Natur.411..558E"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

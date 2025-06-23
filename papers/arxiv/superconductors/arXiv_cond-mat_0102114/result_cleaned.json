@@ -1,0 +1,364 @@
+{
+  "id": "75fad32420a7d53c922147038a2b26a1",
+  "pdf_path": "apl/Superconductors/arXiv:cond-mat_0102114.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# Therm odynam ic and Transport P roperties of Superconducting M g40B2\n\nD.K.Finnem ore, J.E.Ostenson, S.L.Bud'ko, G.Lapertot, P.C.Can eld\n\nAm es Laboratory, U .S.D epartment of Energy and Department of Physics and A stronom y\n\nIowa State University, Am es, Iowa 50011\n\n(A pril 14, 2024)\n\nTransport and them odynam ic properties of a sintered pellet of the new ly discovered M gB 2 superconductor have been m easured to determ ine the characteristic critical m agnetic elds and critical current densities. Both resistive transition and m agnetization data give sim ilar values of the upper critical eld, H c2, with magnetization data giving dH c2=dT = 0:44 T=K at the transition temperature of T = 402 K . C lose to the transition tem perature, m agnetization curves are them odynam ically reversible, but at low tem peratures the trapped ux can be on the order of one Tesla. The value of dH ¿=dT at T . is estim ated to be about 12 m T=K , a value sim ilar to classical superconductors like Sn. Hence, the G insburg-Landau param eter 26. Estim ates of the critical supercurrent density, Jc, using hysteresis loops and the Bean model give critical current densities on the order of 105 A = a . H ence the supercurrent coupling through the grain boundaries is com parable to interm etallics like N b3 Sn .\n\n74.25 Bt, 74.25 Fy, 74.25 Ha, 74.60 Ge, 74.60 Jg\n\n#### I. IN TRODUCTION\n\nW ith the discovery of superconductivity in M gB 2 at about 39 K by A kim itsu and co-workers, there is an opportunity to study super uid transport and phase locking of conduction electrons in a whole new class of m aterials. In early studies of the B isotope e ect, Bud'ko and co-workers found the superconducting transition tem perature, Tc, increased from 39:2 K for M g-1B2 to 40:2 K for M g B 2 giving a partial isotope exponent B = 0 26 for the isotope relation To M & W here M is the isotopem ass. This is a clear indication that the phonons are playing an im portant role in the superconducting interaction . In addition, band structure calculations indicate a rather isotropic electrical transport in spite of the very layered appearance of honeycom bed boron and hexagonalm agnesium networks in the m aterial.\n\nThe purpose of this letter is to report m easurem ents of the critical elds of this material to get an estim ate of the characteristic length and energy scales for com parison with the classical superconductors like Nb and the high tem perature superconductors, like Y B a2C u30 7 A second goal is to obtain som em easure of the supercurrent transport through grain boundaries for com parison with the high tem perature superconductors where there are serious weak link problem swith the grain boundaries.\n\n#### II.EXPER IM EN T\n\nA sintered pellet of M g10B 2 was made by sealing a stoichiom etric mixture of M g and 10B in a Ta tube and heating to 950 C fortwo hours.2 M agnetization wasm easured with a Quantum Designs SQUID magnetom eter with a 60 mm scan length on a 14:22 m g piece from the sam e batch ofM g10B2 m aterial reported previously ? Electrical resistance between 1:9 K and 300 K in applied m agnetic eld up to 9 T was measured in a Quantum Designs PPM S-9 apparatus on another piece from the sam e M g B 2 batch using standard four probe ac resistance technique at f = 16 H z and a current density of 0:1 = 0:3 A =cm 2. E lectrical contacts were m ade w ith Epotek H 20E silver epoxy.\n\n#### III. RESULTS AND DISCUSSION\n\nThe tem perature dependent electrical resistance of the m aterial from 300 K to 1:9 K , shown in Fig. 1, roughly obeys R = Ro + R1T power law in the norm al state. The residual resistance ratio (RRR) is approxim ately 20, w hich is relatively high for a sintered polycrystalline sam ple. Near Tc, the data show considerable ux- ow broadening as shown by the inset in Fig. 1 where the scans range from 0 to 9 T . Transition w idths gradually broaden from 0:5 K at 0 eld to 9:5 K at JH = 9 T indicating a broad region of ux- ow resistivity.The extent of this ux- ow regime is delineated by the onset and com ple-\n\ntion temperatures shown in Fig. 2 by the vertical dash lines.\n\nPossibly the most interesting aspect of these data is the strong m agnetoresistance which show s the resistance at 45 K rising approxim ately 80 percent in 9 T . If these data are plotted on a K ohler P lot shown in Fig. 3, the\n\n= 。 vs: H = 。 curve is a straight line for the change of tem perature at constant eld (open circles) and for changing eld at constant tem perature (solid triangles). This observation is consistent with the observed magnetoresistance being a band e ect and intrinsic to the sam ple.\n\nM agnetization data are exem pli ed by the 36 K and 30 K runs in Fig.4. For the 30 K run, the m agnetization abruptly departs from the background at H c2 = 4:4 T and is reversible to an accuracy of one percent of the m agnetization down to H irr = 1:6 T . Because the background m agnetization is very sm all, linear in m agnetic eld, and independent of tem perature between 42 K and <span id=\"page-1-0\"></span>50 K ,this correction is easily m ade and H <sup>c</sup><sup>2</sup> and H irr are fairly easy to m easure. A t 7 T, the m agnitude of the background is about 0:13 em u=cm <sup>3</sup> and the correction can be m ade to an accuracy of0:01 em u=cm <sup>3</sup>. T he inset show s that the irreversible m agnetization over a fuller tem perature range. In the inset, the x-sym bols show the 30 K data and show that about 200 em u=cm <sup>3</sup> or about 0:2 T ux is trapped at zero \f eld. A t 6 K , show n by the solid squaresofthe inset,the trapped \nux atzero applied \f eld forthisratherporousgranularpellet is 500 em u=cm <sup>3</sup> or over0:5 T.\n\nU sing the Bean<sup>5</sup> m odelw ith J<sup>c</sup> = 17 M =r,the critical current densities of Fig. 5 can be derived. H ere, J<sup>c</sup> is in A =cm <sup>2</sup>, M in em u=cm <sup>3</sup>, and the sam ple radius, r, in cm . T hese J<sup>c</sup> values are not as high as a sintered pellet ofN b3Sn, <sup>5</sup> but the grain-to-grain supercurrent coupling is rather prom ising. A scanning electron m icroscopepicture ofa fracture surfaceofthe pellet show s grain size running from about 0:5 m to 5 m . T he grainsare som ew hatfaceted plates and m any sm all grains are equiaxed. From the m agnitude of the m easured screening currents,it is clear that the properr to put in the Bean m odelis the fullsam ple diam eter and not the grain size. T he sam ple radius is about1 m m .\n\nC lose to Tc,there is a reasonable range oftherm odynam ic reversibility,so an estim ate has been m ade ofH <sup>c</sup> vs. T. To do this, it is assum ed that the \nux pinning in decreasing m agnetic \f eld is the sam e as in increasing m agnetic \f eld and an equilibrium m agnetization is de-\n\n\f ned asthe average ofthe average ofthe increasing \f eld m agnetization and the decreasing \f eld m agnetization by M eq = (M inc + M dec)=2. W illem in and co-workers<sup>6</sup> have show n the validity of this procedure. A plot of M eq vs:T in Fig.6 show sbehaviorcloseto thatpredicted by A brikosov.<sup>7</sup> Integrating the area under these m agnetization curves gives the H <sup>c</sup> vs: T curve show n in the inset ofFig. 6. From the slope ofdH <sup>c</sup>=dT = 119 O e=K , one can calculate the jum p in speci\f c heat at T<sup>c</sup> to be C = [V Tc=4 ][dH <sup>c</sup>=dT] <sup>2</sup> = 79 m J=m ole K . T his is consistent w ith the direct speci\f c heat m easurem ents published earlier<sup>2</sup> from w hich C can be estim ated to be about 84 m J=m ole K .\n\n## IV . C O N C LU SIO N S\n\nT he transport and m agnetization studies ofM g10B <sup>2</sup> give very consistent m easures of H <sup>c</sup>2(T) for this m aterial w ith m agnetization data giving a slope at T<sup>c</sup> of dH <sup>c</sup>2=dT = 0:44 T=K . T he m agnetization H <sup>c</sup><sup>2</sup> agrees w ith the onsetofthe resistive transition,and the broadened resistive transitions seem to re\nect a \nux ow resistivity phenom enon. C lose to Tc,the values ofthe H <sup>c</sup> can be estim ated and the slope isfound to be dH <sup>c</sup>=dT = 0:012T=K . T his then m eans that the G insburg-Landau param eter, = H <sup>c</sup><sup>2</sup>=[:707H <sup>c</sup>] ' 26. By estim ating H <sup>c</sup><sup>2</sup>(T = 0) = 0:71Tc[dH <sup>c</sup><sup>2</sup>=dT]T<sup>c</sup> to be 12:5 T,the low\n\ntem perature coherence distance, <sup>o</sup> = [ <sup>o</sup>=[2H <sup>c</sup><sup>2</sup>] <sup>1</sup>=<sup>2</sup> is found to be 5:2 nm . U sing the relation = <sup>o</sup>=, the penetration depth, = 140 nm .\n\nT hecriticalcurrentdensitiesforthisratherporoussintered sam pleare on the orderof10<sup>5</sup> A =cm <sup>2</sup> at6 K .T his would seem to indicate thatM gB <sup>2</sup> grain boundariescan transm itrather large supercurrents.\n\n### V . A C K N O W LE D G M E N T S\n\nW e would like to thank M .J.K ram er and F.Laabs for the electron m icroscope pictures, and V . G .K ogan for usefuldiscussions. C .Petrovic and C .E.C unningham also m ade valuable contributions. A m es Laboratory is operated for the U .S.D epartm ent ofEnergy by Iowa State U niversity undercontractN o.W -7405-EN G - 82 and supported by theD O E,theO ceofBasicEnergy Sciences.\n\n\\*O n leave from C om m issariat a l'Energie A tom ique, D R FM C -SPSM S,38054 G renoble,France.\n\n- <sup>1</sup> J. A kim iitsu, Sym posium on Transition M etal O xides, Sendai,January 10,2001;J.N agam atsu,N .N akagawa,T . M uranaka,Y .Zenitani,and J.A kim itsu (to be published).\n- <sup>2</sup> S.L.B ud'ko,G .Lapertot,C .Petrovic,C .C unningham ,N .\n- A nderson,and P.C .C an\feld,Phys.R ev.Lett.(in press).\n- <sup>3</sup> J.K ortus,I.I.M azin,K .D .B elashchenko,V .P.A ntropov, and L.L.B oyer,[cond-m at/0101446](http://arxiv.org/abs/cond-mat/0101446).\n- <sup>4</sup> Y .B .K im and M .J.Stevens,Superconductivity,Ed.R .D . Parks,1969,M arcelD ekker,Inc,N ew York,p 1149.\n- <sup>5</sup> C .P.B ean,Phys.R ev.Lett.8,225 (1962).\n- <sup>6</sup> M .W illem in,C .R ossel,J.H ofer,H .K eller,A .Erb,and E. W alker,Phys.R ev.58,R 5940 (1998).\n- <sup>7</sup> A .A .A brikosov,Zh.Eksp.Teor.Fiz.32,1442 (1957) [Sov. Phys.JET P 5,1174 (1957)].\n\n![](_page_2_Figure_0.jpeg)\n\nFIG . 1. Resistance of M g10 B 2 sample in zero and in 9 T applied eld. Inset: resistive superconducting transition in di erent applied elds (right to left): 0 T , 0:5 T , and from 1 T to 9 T in steps of 1 T .\n\n![](_page_2_Figure_2.jpeg)\n\nFIG . 2. Upper critical eld of M g1 B 2 determ ined resistively (onset and o set are vertical bars and m axim um slope points are the open circles) and from magnetization ( lled circles). A sterisks show H irr ·\n\n![](_page_2_Figure_4.jpeg)\n\nFIG . 3. K ohlerplot forM g1 B2: open circles from tem perature-dependent resistance from 0 T to 9 T and lled triangles from eld-dependent resistance at 45 K .\n\n![](_page_2_Figure_6.jpeg)\n\nFIG . 4. Expanded view of m agnetization vs. eld to show the reversible range and the H irr region . Inset show s the full range of m agnetization up to 4 T .\n\n![](_page_2_Figure_8.jpeg)\n\nFIG . 5 . C om parison of J . (H ;T ) up to 30 K w ith published data for a sintered N b3 Sn sam ple at 4 2 K .\n\n![](_page_2_Figure_10.jpeg)\n\nFIG . 6. M eq = extension of the reversible m agnetization into the irreversible range assum ing that ux pinning is the sam e for increasing and decreasing elds. The inset show s the resulting values of H c.",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Therm odynam ic and Transport P roperties of Superconducting M g40B2",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              98.314453125,
+              53.25
+            ],
+            [
+              516.0,
+              51.0
+            ],
+            [
+              516.0,
+              63.56689453125
+            ],
+            [
+              98.314453125,
+              64.5
+            ]
+          ]
+        },
+        {
+          "title": "I. IN TRODUCTION",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              126.2548828125,
+              395.25
+            ],
+            [
+              222.0,
+              395.25
+            ],
+            [
+              222.0,
+              403.34765625
+            ],
+            [
+              126.2548828125,
+              403.34765625
+            ]
+          ]
+        },
+        {
+          "title": "II.EXPER IM EN T",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              393.85546875,
+              149.25
+            ],
+            [
+              481.5,
+              149.25
+            ],
+            [
+              481.5,
+              158.16796875
+            ],
+            [
+              393.85546875,
+              158.16796875
+            ]
+          ]
+        },
+        {
+          "title": "III. RESULTS AND DISCUSSION",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              357.0,
+              345.75
+            ],
+            [
+              519.662109375,
+              345.75
+            ],
+            [
+              519.662109375,
+              353.84765625
+            ],
+            [
+              357.0,
+              353.84765625
+            ]
+          ]
+        },
+        {
+          "title": "IV . C O N C LU SIO N S",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              127.82373046875,
+              556.69970703125
+            ],
+            [
+              224.71875,
+              556.69970703125
+            ],
+            [
+              224.71875,
+              567.703125
+            ],
+            [
+              127.82373046875,
+              567.703125
+            ]
+          ]
+        },
+        {
+          "title": "V . A C K N O W LE D G M E N T S",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              372.83984375,
+              155.65997314453125
+            ],
+            [
+              507.708984375,
+              155.65997314453125
+            ],
+            [
+              507.708984375,
+              165.8056640625
+            ],
+            [
+              372.83984375,
+              165.8056640625
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              96
+            ],
+            [
+              "Span",
+              96
+            ],
+            [
+              "Text",
+              11
+            ],
+            [
+              "SectionHeader",
+              4
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              556
+            ],
+            [
+              "Line",
+              90
+            ],
+            [
+              "ListItem",
+              8
+            ],
+            [
+              "TextInlineMath",
+              7
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              98
+            ],
+            [
+              "Span",
+              98
+            ],
+            [
+              "Figure",
+              6
+            ],
+            [
+              "Caption",
+              5
+            ],
+            [
+              "FigureGroup",
+              4
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              6
+            ],
+            [
+              "Span",
+              6
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/MQk36pNNwUqUmpDMAaJeNA"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 4,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Thermodynamic and Transport Properties of Superconducting Mg<SUP>10</SUP>B<SUB>2</SUB>",
+    "authors": [
+      {
+        "authors_list": [
+          "Finnemore, D. K.",
+          "Ostenson, J. E.",
+          "Bud'Ko, S. L.",
+          "Lapertot, G."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Transport and thermodynamic properties of a sintered pellet of the newly discovered MgB<SUB>2</SUB> superconductor have been measured to determine the characteristic critical magnetic fields and critical current densities. Both resistive transition and magnetization data give similar values of the upper critical field, H<SUB>c2</SUB>, with magnetization data giving dH<SUB>c2</SUB>/dT = 0.44 T/K at the transition temperature of T<SUB>c</SUB> = 40.2 K. Close to the transition temperature, magnetization curves are thermodynamically reversible, but at low temperatures the trapped flux can be on the order of 1 T. The value of dH<SUB>c</SUB>/dT at T<SUB>c</SUB> is estimated to be about 12 mT/K, a value similar to classical superconductors like Sn. Hence, the Ginzburg-Landau parameter κ~26. Estimates of the critical supercurrent density, J<SUB>c</SUB>, using hysteresis loops and the Bean model, give critical current densities on the order of 10<SUP>5</SUP> A/cm<SUP>2</SUP>. Hence the supercurrent coupling through the grain boundaries is comparable to intermetallics like Nb<SUB>3</SUB>Sn.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Physical Review Letters",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:cond-mat/0102114"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1103/PhysRevLett.86.2420",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2001PhRvL..86.2420F"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

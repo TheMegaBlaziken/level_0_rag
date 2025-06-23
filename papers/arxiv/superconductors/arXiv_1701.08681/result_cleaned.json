@@ -1,0 +1,1162 @@
+{
+  "id": "b62a04e4a2ef5a353616c0f42a5d0bab",
+  "pdf_path": "apl/Superconductors/arXiv:1701.08681.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **Influence of heat treatment excursion on critical current and residual resistivity ratio of ITER Nb3Sn strands**\n\nJ. Lu\\*, D. R. McGuire, S. Hill, and R. Niu, National high magnetic field laboratory, Tallahassee, Florida 32310 USA\n\nK. Chan and N. N. Martovetsky, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831 USA \\*Email: junlu@magnet.fsu.edu\n\n# **Abstract**\n\nHeat treatment is critically important to the performance of Nb3Sn superconducting strands. For very large Nb3Sn magnet coils, such as the International Thermonuclear Experimental Reactor (ITER) Central Solenoid (CS) coils, heat treatment carries risk of temperature and time excursion, which may result in performance degradation. Therefore, it is prudent to study the effect of possible excursion on Nb3Sn performance. In this study, Nb3Sn strands used for ITER CS coils are heat treated at different temperatures for different times. Their critical current, residual resistance ratio and hysteresis losses are measured. It is found that in the range we studied, critical current and hysteresis losses do not change significantly. Residual resistance ratio, however, decreases with increasing heat treatment temperature and time. This is attributed to the diffusion of metallic elements from the plated Cr layer to the copper stabilizer. Based on a model of metallic elements diffusion, a numerical code is developed to predict residual resistance ratio as a function of heat treatment temperature and time.\n\n**Keywords: Nb3Sn, Heat treatment, critical current, RRR, Cr diffusion**\n\n# **1. Introduction**\n\nNb3Sn strand is a composite of Cu, pure Nb, and Sn or Sn containing components, which requires a reaction heat treatment to form A15 phase of superconducting Nb3Sn. Obviously the superconducting properties of a Nb3Sn strand is strongly influenced by heat treatment schedule. In a heat treatment, Nb3Sn\n\nreaction is limited by diffusion of Sn to Nb filaments [1]. So as the heat treatment advances, thickness of the reacted A15 phase increases with temperature and time. At the same time, Sn content of the A15 layer increases. Both lead to increase in critical current (*Ic*). Heat treatment at too high of a temperature for too long, however, results in large Nb3Sn grain size with fewer grain boundaries. This reduces the flux pinning ability by grain boundaries and consequently lowers critical current. In order to maximize A15 layer thickness and its Sn content while minimizing its grain size, heat treatment schedule is optimized for specific strand manufacturing route and its architecture. Many studies have been carried out [2]-[16] on the optimization of Nb3Sn heat treatment schedule to bring out the best possible superconducting properties. In principle, deviation from the optimized heat treatment schedule may lead to performance degradation. For large Nb3Sn magnet coils, due to the challenges in achieving uniform temperature of large thermal mass, heat treatment temperature and time excursions are always possibilities, which might lead to coil performance degradation.\n\nThe Central Solenoids (CS) of the International Thermonuclear Experimental Reactor (ITER) are wound by Nb3Sn cable-in-conduit conductors and need to be heat treated after coil-winding [17]. The coil of such large size requires a very large heat treatment facility [18] which makes precise and uniform temperature control very challenging. In addition to the possible heat treatment interruption due to electrical power or other failures, temperature and time excursion during heat treatment are also possible. In order to minimize the risk of coil performance degradation, therefore, it is prudent to study the effect of heat treatment temperature and time excursion from the optimized heat treatment schedule.\n\nMoreover, it has been reported that Residual Resistance Ratio (RRR) of Cr plated ITER strands decrease with increasing heat treatment time [19-23]. This has been attributed to Cr diffusion into copper stabilizer. Nevertheless, despite of continuing efforts of past decades by a number of research groups, a complete understanding of this phenomenon and ability of predicting strand RRR by its heat treatment schedule are still lacking. In this paper, we studied the effect of heat treatment temperature and time excursion on\n\nNb3Sn critical current (*Ic*) and RRR. Our discussion is focused on the prediction of RRR of Cr plated strands based on its heat treatment schedule.\n\n# **2. Experimental**\n\nThe Nb3Sn strands used in this study are made by Japan Superconductor Technology Inc. (JASTEC) and Kiswire Advanced Technology (KAT). JASTEC and KAT strands are made by bronze and internal-tin route respectively. Both are Cr plated with nominal diameters of 0.82 mm and copper/non-Cu ratio of 1. Figure 1 shows their cross-sections.\n\nFor this study, heat treatments were divided into two steps as listed in Table I. For each strand, 36 sets of samples (each set includes one *Ic*, one RRR, and one hysteresis losses sample) were heat treated together in step-one where temperature ramp rate to all levels was 5 C/h. Then samples were furnace cooled to room temperature. For each of the step-two heat treatment, temperature was ramped up at 60 C/h to a level and held for a duration. Combinations of three temperatures and three or more durations were designed for step-two heat treatments. Up to four samples were heat treated for each combination. After step-two heat treatment, temperature was ramped down to 500 C at 5 C/h followed by furnace cool to room temperature. Total of 13 and 9 step-two heat treatments were performed for JASTEC and KAT strand respectively as shown in Table I. The manufacturer optimized step-two heat treatment schedule are 100 h at 650 C for JASTEC strand and 120 h at 650 C for KAT strand. All heat treatments were carried out in flowing argon.\n\nAfter heat treatment, samples were tested for *Ic,*, hysteresis losses (*Qhyst*) and RRR. *Ic* were measured at 4.2 K in 11, 12, and 13 T magnetic fields; a criterion of 10 µV/m was used to determine *Ic*. RRR is defined as the resistance ratio between 273 K and 20 K. *Qhyst* during ± 3 T field sweep were measured by a vibrating sample magnetometer at 4.22 K. For most heat treatment temperature and time combinations, multiple samples were heat treated and tested. In these cases, average property values are presented in this paper. More details of measurement techniques can be found in [24]. Cross-section of some heat treated\n\nsamples were polished and examined by Zeiss 1540 Field Emission Scanning Electron Microscope (FESEM). The backscattered electron intensity in the FESEM is sensitive to atomic number of an element, so Sn exhibits brighter contrast than Cu or Nb. This is conveniently used to detect Sn rich region in Nb3Sn filaments.\n\n# **3. Results and discussions**\n\n# *a. Cross-sections of reacted strands by FESEM*\n\nFigures 2(a) – 2(d) show cross-sections of JASTEC samples heat treated for 0, 10, 40, and 100 h at 650 C. These filaments are about 2 µm in diameter with some minor bridging between filaments. As heat treatment progressed from 0 to 100 h, the Sn content of each filament gradually increases starting from the periphery of the filament. For the sample reacted for 40 h (figure 2(c)), a Sn deficient core is still clearly visible at the center of the filament. Whereas at 100 h (figure 2(d)), the reaction seems completed as indicated by the absence of the Sn deficient core.\n\n# *b. Critical current and hysteresis losses*\n\nFigures 3(a) and 3(b) show 12 T *Ic* versus heat treatment temperatures for JASTEC and KAT samples respectively. Evidently *Ic* is not sensitive to heat treatment temperature or time within the experimental uncertainty which can be up to 5% of *Ic* [25]. When the heat treatment time in step-two is reduced to 20 h or less, however, *Ic* of the JASTEC strand reduces significantly as shown in figure 4 (a) where data can be fitted (solid line) using an exponential function\n\n$$I\\_c = I\\_{c0} + A \\{ I - \\exp(-t/\\tau) \\} \\tag{1}$$\n\nWhere *t* is heat treatment time, *Ic0*, *A*, and a time constant τ are fitting parameters. The best fit of τ = 12 h suggests a relatively rapid reaction process. This exponential approach to an asymptotic level, as described by equation (1), is consistent with a diffusion controlled Nb3Sn growth where the growth rate decreases as Sn in the bronze matrix is being depleted.\n\nFigure 4(a) also shows that even before the step-two heat treatment (at time = 0 h in the figure), *Ic* is already appreciable at about 75% of the saturated value, thanks to 250 h at 570 C in step-one. After that, for only 20 h at 650 C, the *Ic* reaches over 96% of the saturated value. Therefore the manufacturer optimized schedule of 100 h at 650 C for JASTEC strand is sufficiently long to avoid *Ic* degradation. Upper critical field *Bc2\\** (4.2 K) versus heat treatment time at 650 C is plotted in figure 4(b). Here *Bc2\\** (4.2 K) values are obtained from *Ic(B)* by linear extrapolation of Kramer plots [26] (self-field correction is not applied to *Ic(B)* data). An exponential function similar to equation (1) also provides good fits for *Bc2\\** (4.2 K) versus time with a similar time constant of τ = 13 h. Since *Bc2*\\*(4.2 K) is related to Sn content in A15 phase [27], the rapid *Bc2\\** (4.2 K) rise in the beginning of step-two heat treatment indicates a quick increase in Sn content of A15, in addition to the increase in A15 layer thickness. It should be noted that, although minor under reaction does not cause significant *Ic* degradation, it might cause considerable *Ic* strain sensitivity which is detrimental to the performance of Nb3Sn under high stress [3].\n\nSince hysteresis losses of a superconducting strand (*Qhyst*) is proportional to its magnetization, and its magnetization is proportional to its *Ic*, *Qhyst* is directly linked to *Ic*. Therefore, it is expected that *Qhyst* increases with heat treatment time in the way analogous to *Ic* as shown in figure 5. The solid line in the figure is a fit by a function similar to equation (1) with a time constant of τ= 12 h.\n\n# *c. RRR experimental results and calculation*\n\nIt is known that RRR of Cr plated strands decreases with increasing heat treatment time [19-23]. In order to verify that Cr layer is the main contributor to RRR degradation, the Cr layer is removed from a set of JASTEC samples by chemical etching with 37% HCl. These samples were heat treated together with a few Cr plated samples at 570 C for various durations. As shown in figure 6, RRR of samples without Cr have rather weak heat treatment time dependence; whereas RRR of samples with Cr shows a clear downward trend with increasing heat treatment time. This experiment demonstrates very clearly that plated Cr layer is largely responsible for the observed RRR degradation.\n\nAs for the effect of step-two heat treatment, RRR of JASTEC samples is plotted against heat treatment temperature and time and in figure 7 which show a clear trend of degradation with increasing heat treatment temperature and time. This degradation in RRR is consistent with previously observed phenomenon which was attributed to the Cu contamination due to the diffusion of metallic elements in plated Cr. As depicted schematically in figure 8, Cr concentration distribution in Cu stabilizer at distance *x* from Cr/Cu interface and at time *t* can be calculated by a complementary error function [19],\n\n$$\\mathcal{L}(\\mathbf{x}, t) = \\mathcal{C}\\_0 \\left[ \\mathbf{erfc} \\left( \\frac{\\mathbf{x}}{2 \\text{(}Dt\\text{)}^{1/2}} \\right) \\right] \\tag{1}$$\n\nWhere *C0* is the initial Cr concentration at the Cr/Cu interface which, in this case, equals the solubility of Cr in Cu at the heat treatment temperature, *D* is the diffusion coefficient which follows an Arrhenius equation,\n\n$$D = D\\_0 \\exp(-E\\_d \\% T) \\tag{2}$$\n\nWhere *D0* is a constant, *Ea* is an activation energy, and *k* is Boltzmann constant. For calculation of resistivity of contaminated copper, the resistivity ρ can be related to low level impurities concentration *C(x, t)* by Matthiessen's rule,\n\n$$\n\\rho \\langle \\mathbf{x}, \\mathbf{t} \\rangle = \\rho \\underset{\\rho}{\\text{+ } \\alpha \\mathbf{C} \\{ \\mathbf{x}, \\mathbf{t} \\}}{\\text{+ } \\alpha \\mathbf{C} \\{ \\mathbf{x}, \\mathbf{t} \\}} \\tag{3}\n$$\n\nWhere ρ*<sup>0</sup>* is the resistivity of pure copper at a certain temperature, α is a constant which represents resistivity-increase per atomic percent of impurity. In RRR calculation, for convenience we consider Nb3Sn strand as Cu stabilizer region and non-Cu core region connected in a parallel circuit. So RRR can be calculated by,\n\n$$RRR = \\frac{K\\_{Cu-20K} + K\\_{Core-20K}}{K\\_{Cu-273K} + K\\_{Core-273K}} \\tag{4}$$\n\nWhere *KCu-20K* and *KCu-273K* are conductances of Cu stabilizer at 20 and 273 K respectively. *KCore-20K* and *KCore-273K* are conductances of the non-Cu core at 20 and 273 K respectively, which can be measured experimentally.\n\nUsing equations (1) - (3), we can calculate the conductance of Cu stabilizer *Kcu* by radially integrating conductance over the entire Cu region,\n\n$$K\\_{Cu} = \\int\\_{r\\_1}^{r\\_2} \\frac{2\\pi r dr}{\\rho(r)} = \\int\\_{r\\_1}^{r\\_2} 2\\pi r [\\rho\\_0 + a\\mathcal{C}\\_0 \\text{erfc}(\\frac{r\\_2 - r}{2\\sqrt{Dt}})]^{-1} dr \\tag{5}$$\n\nWhere *D* is a function of temperature follows equation (2), *r1* and *r2* are inner and outer radii of the Cu stabilizer respectively as depicted in figure 8.\n\nWe developed a Microsoft Excel VBA code based on (4) and (5) to numerically calculate RRR of a Cr plated strand as a function of heat treatment temperature and time. Parameters used in the code for JASTEC strand are listed in Table II. Some of these parameters are explained as follows. The value of α = 4.0 x 10-8 Ω-m/at% is based on experimental result by Linde [28]. Similar value is published by Gregory *et al.* [29]. This value was also adopted by Novosilova *et al.* [22] in their RRR simulation. Solubility of Cr in Cu, *C0*, has considerable uncertainty according to a critical review by Chakrabarti and Lauphlin [30]. Due to this considerable uncertainty, we ignore its temperature dependence for simplicity, use 0.1 at% for 640 - 660 C temperature range based on data in [30]. It is also consistent with *C0* value used by Novosilova *et al.* [22] in their RRR calculations. Initial Cu RRR, *D0* and *E0* as free parameters which are adjusted to best fit experimental data in figure 7. The calculated RRR versus heat treatment time for all three temperatures are plotted in figure 7 as solid lines. The fitted values of these free parameters are listed in Table II as well.\n\nIn the following, we discuss the significance of the values of free parameters Initial Cu RRR, *D0* and *E0*. For simplicity, the value of initial Cu RRR takes into account the effect of step-one heat treatment which is therefore not calculated separately. When the fitted initial Cu RRR of 540 is used to calculate the RRR\n\nof the strand, which includes both Cu and non-Cu regions, a strand RRR of 347 is obtained. This is in a reasonable agreement with the RRR measured after step-one heat treatment as shown in figure 6. *D0* and *Ea* obtained from fitting experimental data are compared with those in [31] and [32] and listed in table III. It is evident that the diffusion coefficients obtained in this work is significantly higher than those in [31] and [32]. If we considered the possible precipitation of Cr during cooling from heat treatment temperature, as suggested by Alknes *et al.* [23], to cause the measured low RRR, the diffusion coefficient would have been even higher. This discrepancy was also observed by Novosilova *et al.* [22] who suggested that diffusion of other elements that co-exist in the Cr coating, such as oxygen, might be the cause. However, as Alknes *et al.* [23] pointed out, oxygen as a main cause of RRR degradation is not likely. This is because the diffusion coefficient of O in Cu (also listed in Table III) is about 6 orders of magnitude greater than that of Cr in Cu. So RRR degradation would have been saturated very shortly after the start of heat treatment. In fact impurities of other metallic elements such as Ni, Fe, and Zn are commonly found in Cr plating electrolyte [34]. This presents another possible cause of RRR degradation. For example, Ni is completely soluble in Cu at Nb3Sn heat treatment temperatures, and its diffusion coefficient in Cu [35] is higher than that of Cr in Cu as shown in Table III. Therefore even a low level of 0.1 at% Ni in Cr layer would be sufficient to cause significant contamination of Cu, despite the fact that the effect of Ni impurity on Cu resistivity is somewhat smaller than that of Cr [28], [29]. Therefore, we speculate that the combined diffusions of Cr and other metallic impurities in the Cr layer result in RRR degradation which advances with heat treatment time and temperature. Unfortunately, this low level of metallic impurities in Cr layer is difficult to measure by conventional characterization techniques such as energy dispersive x-ray spectroscopy (EDS). Ultimately the complete understanding of this RRR degradation should be based on accurate measurement of Cr and other impurity content in Cu stabilizer as a function of distance from the Cr/Cu interface. This is a very challenging measurement, due to extremely high detection sensitivity needed. Previous measurements by laser mass spectrometer [20], and high sensitivity EDS [23] only had limited success.\nIn order to demonstrate the validity of our RRR calculation code, a few additional sets of RRR versus heat treatment time data are plotted in figure 9. These include RRR of KAT strands at 640, 650, and 660 C, as well as some data reproduced from the literature [21]-[24] where heat treatments were at 650 C only. A downward trend of RRR with heat treatment time is evident. The same calculated curves as presented in figure 7 is also plotted in figure 9. Despite the differences in strand manufacturer, testing labs and the step-one heat treatment schedule, a universal trend of RRR versus heat treatment time is clear. It suggests the predictability of this phenomenon, and our RRR calculation code with the parameters listed in Table II seems to be very useful in predicting RRR of Cr plated strands.\n\n## **4. Conclusion**\n\nHeat treatment sensitivity of JASTEC and KAT strands for ITER CS coils are studied by measuring *Ic*, *Qhyst* and RRR of samples heat treated at various temperatures and times. We found that moderate variation in temperature and time of the step-two heat treatment does not significantly change *Ic*. In the case of JASTEC strand, after the step-one heat treatment, samples already have about 75% of its maximum *Ic*. RRR decreases with increasing heat treatment temperature and time due to the diffusion of contaminants from Cr layer into the Cu stabilizer. The RRR of a Cr plated Nb3Sn strand can be predicted by a Cr diffusion model as demonstrated by our calculation in this paper.\n\n## **5. Acknowledgement**\n\nThe authors from NHMFL thank financial supports in part by the U.S. Department of Energy vie US-ITER under subcontract 4000110684, by the National Science Foundation under Grant DMR-0084173, and by the State of Florida.\n\nThe authors from US-ITER would like to thank the U.S. Department of Energy by Lawrence Livermore National Laboratory under Contract DE-AC52-07NA27344, by UT-Battelle, LLC, under contract DE-AC05-00OR22725 with the U.S. Department of Energy, and by the U.S. Department of Energy, Office of Science, Office of Fusion Energy Sciences.\n\nThe views and opinions expressed herein do not necessarily reflect those of the ITER Organization.\n\n## **6. Reference**\n\n- [1] Müller H and Schneider Th 2008 *Cryogenics* **48** 323–330\n- [2] Parrel J A *et al*. 2007 *IEEE Trans. Appl. Supercond.* **17** 2560-2563\n- [3] Cheggour N *et al*. 2014 *Supercond. Sci. Technol.* **27** 105004\n- [4] Zhang K et al. 2015 *IEEE Trans. Appl. Supercond.* **25** 6001506\n- [5] Lu J *el al.* 2009 *IEEE Trans. Appl. Supercond.* **19** 2615-2618\n- [6] Fischer C M *et al.* 2002 *AIP Conference Proceedings* **614B** 1008-1015\n- [7] Boutboul T *et al.* 2009 *IEEE Trans. Appl. Supercond.* **19** 2564-2567\n- [8] Barzi E and Mattafirri S 2003 *IEEE Trans. Appl. Supercond.* **13** 3414-3417\n- [9] Kim M *et al*. 2001 *Physica C* **354** 406-409\n- [10] Hense K *et al.* 2003 *Fusion Eng. Design* **66-68** 1103-1107\n- [11] Fillunger H *et al.* 2002 *Physica C* **372-376** 1758-1761\n- [12] Fillunger H *et al.* 2002 *Physica C* **357-360** 1289-1292\n- [13] Müller H and Schneider Th 2004 *Physica C* **401** 325-329\n- [14] Fillunger H *et al.* 2002 *IEEE Trans. Appl. Supercond.* **12** 1049-1051\n- [15] Barzi E *et al.* 2007 *IEEE Trans. Appl. Supercond.* **17** 2607-2610\n- [16] Ghosh A K *et al.* 2007 *IEEE Trans. Appl. Supercond.* **17** 2623-2630\n- [17] Mitchell N *et al.* 2012 *IEEE Trans. Appl. Supercond.* **22** 4200809\n- [18] Spitzer J et al. 2015 *IEEE 26th Symposium on Fusion Engineering* 6\n- [19] Sumption M D and Collings E W 1995 *IEEE Trans. Appl. Supercond. 5* 1925-1928\n- [20] Vorobieva A *et al.* 2000 *IEEE Trans. Appl. Supercond.* **10** 1004–1007\n- [21] Kim J *et al.* 2008 *IEEE Trans. Appl. Supercond.* **18** 1043–1047\n- [22] Novosilova D S *et al.* 2012 *The Physics of Metals and Metallography* **113** 957-962\n- [23] Alknes P *et al.* 2015 *IEEE Trans. Appl. Supercond.* **25** 6001306\n- [24] McGuire D *et al.* 2015 *IEEE Trans. Appl. Supercond.* **25** 9500304\n- [25] Lu J *et al* arXiv (x-checking with U Twente)\n- [26] Kramer E J 1973 *J. Appl. Phys.* **44** 1360-\n- [27] Godeke A 1996 PhD thesis\n- [28] Linde J O 1968 *Helvetica Physica Acta* **41** 1007-1015\n- [29] Gregory P *et al.* 1965 *Metallurgia and Metal Forming* **71** 207-214\n\n[30] Chakrabarti D J and Laughlin D E 1984 *Bulletin of Alloy Phase Diagrams* **5** 59-68\n\n[31] Hoshino K, Iijima K, Hirano K 1977 *Metallurgical Transactions A* **8** 469–472\n\n[32] Youdelis W V and Wu H Y 1975 *The Canadian Journal of Metallurgy and Materials Science* **14** 315-318\n\n[33] Narula M L, Tare V B and Worrell W L 1983 Metallurgical Materials and Transactions B **14** 673– 677\n\n[34] Lalvani S B 2002 Removal of metallic impurities in Chromium plating solutions by electrocoagulation *WMRC Reports*\n\n[35] Trønsdal G O and Sørum H 1964 *phys. stat. sol.* **4** 493-498\n\n# **7. Figure caption**\n\nTable I Heat treatment schedules\n\nTable II Parameters used in the RRR calculation.\n\nTable III Diffusion coefficients\n\nFigure 1 Cross-section of Nb3Sn wires measured in this paper, left JASTEC, right KAT.\n\nFigure 2 Scanning electron microscopy images of cross-section of JASTEC strand heat treated at 650 C for (a) 0 h, (b) 10 h, (c) 40 h, and (d) 100 h.\n\nFigure 3 Critical current versus heat treatment temperature for a) JASTEC strands and b) KAT strands.\n\nFigure 4 JASTEC strand data. (a) *Ic* as function of heat treatment time at 650 C in 11, 12, and 13 T fields. The solid lines are simulations as described by equation (1) with τ = 12 h. (b) Upper critical field *Bc2*\\*(4.2 K) obtained by Kramer method as a function of heat treatment time at 650 C. The solid line is a fit by a function similar to equation (1) with τ= 16 h.\n\nFigure 5 hysteresis losses as a function of heat treatment time. The solid line is a fit with a function similar to equation (1) where time constant τ= 12 h.\n\nFigure 6 RRR as function of heat treatment time at 570 C (first step) for samples with and without plated Cr.\n\nFigure 7 RRR as a function of step-two heat treatment time at different temperatures. The solid lines are results of calculation for 640, 650, 660 C using parameters listed in Table II.\n\nFigure 8 Compiled data of RRR versus heat treatment time. Solid lines are from numerical calculation, the same as in figure 7(a).\n\n|  | Table I. |  |  | Heat treatment schedules |\n|--|----------|--|--|--------------------------|\n|--|----------|--|--|--------------------------|\n\n|          | JASTEC                      | KAT                                |\n|----------|-----------------------------|------------------------------------|\n| Step one | 570 C for 250 h             | 210 C for 50 h,<br>followed by     |\n|          |                             | 340 C for 25<br>h,<br>followed by  |\n|          |                             | 450 C for 25<br>h,<br>followed by  |\n|          |                             | 570 C for 100 h                    |\n| Step two | 640 C for<br>80, 100, 150 h | 640 C<br>for<br>100, 120, 150 h    |\n|          | 650 C for<br>0, 10, 20, 40, | 650<br>C<br>for<br>100, 120, 150 h |\n|          | 80, 100, 150 h              |                                    |\n|          | 660 C for<br>80, 100, 150 h | 660 C<br>for<br>100, 120, 150 h    |\n\n\\*After step one, samples were furnace cooled. Step two ramp up rate is 60 C/h. After step two heat treatment, temperature is ramped down to 500 C at 5 C/h before furnace cooled to room temperature.\n\n\\*\\*The ITER heat treatment schedule for JASTEC and KAT wire at step two is 650 C for 100 and 120 h respectively.\n\n| Parameters used in RRR simulation                | Remark    |            |\n|--------------------------------------------------|-----------|------------|\n| Diameter (mm)                                    | 0.82      | Measured   |\n| Core diameter (mm)                               | 0.591     | Measured   |\n| ρCu-273K<br>(Ω-m)                                | 1.54x10-8 | [6]        |\n| Initial Cu RRR                                   | 540       | Free       |\n| ρCore-273K<br>(Ω<br>-m)                          | 2.73x10-8 | Measured   |\n| Core RRR                                         | 3.98      | Measured   |\n| Solubility limit (at%)                           | 0.1       | [30]       |\n| Resistivity-increase per 1 at%<br>α<br>(Ω-m/at%) | 4.0x10-8  | [28], [29] |\n| (m2<br>Cr diffusion D0<br>/s)                    | 4.2x10-2  | Free       |\n| Cr diffusion activation Ea<br>(eV)               | 2.53      | Free       |\n\nTable II. Parameters used in the RRR calculation.\n\n# Table III Diffusion coefficients\n\n| Source         | Ea<br>(eV) | (m2<br>D0<br>/s) | Diffusion coefficient (x10-16 m2<br>/s) |          |          |          |\n|----------------|------------|------------------|-----------------------------------------|----------|----------|----------|\n|                |            |                  | 570<br>C                                | 640<br>C | 650<br>C | 660<br>C |\n| Cr (this work) | 2.53       | 4.2x10-2         | 0.31                                    | 4.54     | 6.43     | 9.05     |\n| Cr [31]        | 2.02       | 3.37x10-5        | 0.275                                   | 2.32     | 3.07     | 4.03     |\n| Cr [32]        | 2.10       | 1.11x10-4        | 0.310                                   | 2.84     | 3.79     | 5.04     |\n| Ni [35]        | 0.99       | 2.69x10-10       | 3.21                                    | 9.14     | 10.5     | 12.0     |\n| O [33]         | 0.70       | 1.16x10-6        | 7.58x105                                | 1.59x106 | 1.75x106 | 1.92x106 |\n\n\\*Data from the references are extrapolated values.\n\n![](0__page_15_Picture_0.jpeg)\n\nFig. 1 J. Lu et al\n![](1__page_16_Picture_0.jpeg)\n\nSn deficient core\n\nFig. 2 J. Lu et al\n\n![](1__page_17_Figure_0.jpeg)\n\n![](1__page_17_Figure_1.jpeg)\n\n18\n\n(a)\n\n![](1__page_18_Figure_1.jpeg)\n\nFig. 4 J. Lu et al\n\n![](1__page_19_Figure_0.jpeg)\n\nFig. 5 J. Lu et al\n\n![](1__page_20_Figure_0.jpeg)\n\nFig. 6 J. Lu et al\n\n![](1__page_21_Figure_0.jpeg)\n\nFig. 7 J. Lu et al\n\n![](1__page_22_Figure_0.jpeg)\n\nFig. 8 J. Lu et al\n\n![](1__page_23_Figure_0.jpeg)\n\nFig. 9 J. Lu et al",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Influence of heat treatment excursion on critical current and residual \nresistivity ratio of ITER Nb3Sn strands",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              96.6708984375,
+              74.0335693359375
+            ],
+            [
+              516.592529296875,
+              74.0335693359375
+            ],
+            [
+              516.592529296875,
+              105.4735107421875
+            ],
+            [
+              96.6708984375,
+              105.4735107421875
+            ]
+          ]
+        },
+        {
+          "title": "Abstract",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              71.2705078125,
+              216.7459716796875
+            ],
+            [
+              112.98552703857422,
+              216.7459716796875
+            ],
+            [
+              112.98552703857422,
+              227.78594970703125
+            ],
+            [
+              71.2705078125,
+              227.78594970703125
+            ]
+          ]
+        },
+        {
+          "title": "1. Introduction",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              89.349609375,
+              602.9069213867188
+            ],
+            [
+              168.01377868652344,
+              602.9069213867188
+            ],
+            [
+              168.01377868652344,
+              613.9469299316406
+            ],
+            [
+              89.349609375,
+              613.9469299316406
+            ]
+          ]
+        },
+        {
+          "title": "2. Experimental",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              88.97607421875,
+              132.26165771484375
+            ],
+            [
+              172.28919982910156,
+              132.26165771484375
+            ],
+            [
+              172.28919982910156,
+              143.47265625
+            ],
+            [
+              88.97607421875,
+              143.47265625
+            ]
+          ]
+        },
+        {
+          "title": "3. Results and discussions",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              89.99759674072266,
+              182.8973388671875
+            ],
+            [
+              217.52171325683594,
+              182.8973388671875
+            ],
+            [
+              217.52171325683594,
+              193.93731689453125
+            ],
+            [
+              89.99759674072266,
+              193.93731689453125
+            ]
+          ]
+        },
+        {
+          "title": "a. Cross-sections of reacted strands by FESEM",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              89.99759674072266,
+              207.9859619140625
+            ],
+            [
+              305.7048645019531,
+              207.9859619140625
+            ],
+            [
+              305.7048645019531,
+              219.02593994140625
+            ],
+            [
+              89.99759674072266,
+              219.02593994140625
+            ]
+          ]
+        },
+        {
+          "title": "b. Critical current and hysteresis losses",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              88.9013671875,
+              402.7535705566406
+            ],
+            [
+              271.7689514160156,
+              402.7535705566406
+            ],
+            [
+              271.7689514160156,
+              413.7935791015625
+            ],
+            [
+              88.9013671875,
+              413.7935791015625
+            ]
+          ]
+        },
+        {
+          "title": "c. RRR experimental results and calculation",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              89.27490234375,
+              497.5487976074219
+            ],
+            [
+              292.0865783691406,
+              497.5487976074219
+            ],
+            [
+              292.0865783691406,
+              508.58880615234375
+            ],
+            [
+              89.27490234375,
+              508.58880615234375
+            ]
+          ]
+        },
+        {
+          "title": "4. Conclusion",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              88.9013671875,
+              288.1060791015625
+            ],
+            [
+              160.71859741210938,
+              288.1060791015625
+            ],
+            [
+              160.71859741210938,
+              299.1460876464844
+            ],
+            [
+              88.9013671875,
+              299.1460876464844
+            ]
+          ]
+        },
+        {
+          "title": "5. Acknowledgement",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              88.9013671875,
+              506.4216613769531
+            ],
+            [
+              194.8122100830078,
+              506.4216613769531
+            ],
+            [
+              194.8122100830078,
+              517.461669921875
+            ],
+            [
+              88.9013671875,
+              517.461669921875
+            ]
+          ]
+        },
+        {
+          "title": "6. Reference",
+          "heading_level": null,
+          "page_id": 10,
+          "polygon": [
+            [
+              90.0,
+              73.69830322265625
+            ],
+            [
+              156.4365234375,
+              73.69830322265625
+            ],
+            [
+              156.4365234375,
+              84.83642578125
+            ],
+            [
+              90.0,
+              84.83642578125
+            ]
+          ]
+        },
+        {
+          "title": "7. Figure caption",
+          "heading_level": null,
+          "page_id": 12,
+          "polygon": [
+            [
+              89.6484375,
+              72.7998046875
+            ],
+            [
+              177.0556640625,
+              72.7998046875
+            ],
+            [
+              177.0556640625,
+              85.078125
+            ],
+            [
+              89.6484375,
+              85.078125
+            ]
+          ]
+        },
+        {
+          "title": "Table III Diffusion coefficients",
+          "heading_level": null,
+          "page_id": 14,
+          "polygon": [
+            [
+              243.24609375,
+              433.125
+            ],
+            [
+              383.9665222167969,
+              433.125
+            ],
+            [
+              383.9665222167969,
+              445.7374267578125
+            ],
+            [
+              243.24609375,
+              445.7374267578125
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              161
+            ],
+            [
+              "Line",
+              24
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              173
+            ],
+            [
+              "Line",
+              25
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              185
+            ],
+            [
+              "Line",
+              25
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              199
+            ],
+            [
+              "Line",
+              30
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              257
+            ],
+            [
+              "Line",
+              33
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              179
+            ],
+            [
+              "Line",
+              37
+            ],
+            [
+              "Equation",
+              4
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              269
+            ],
+            [
+              "Line",
+              30
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              193
+            ],
+            [
+              "Line",
+              26
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              136
+            ],
+            [
+              "Line",
+              25
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              3
+            ],
+            [
+              "Line",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              285
+            ],
+            [
+              "Line",
+              31
+            ],
+            [
+              "ListItem",
+              29
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              64
+            ],
+            [
+              "Line",
+              10
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              125
+            ],
+            [
+              "Line",
+              28
+            ],
+            [
+              "Text",
+              11
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              77
+            ],
+            [
+              "TableCell",
+              32
+            ],
+            [
+              "Line",
+              18
+            ],
+            [
+              "Table",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 14,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              202
+            ],
+            [
+              "TableCell",
+              75
+            ],
+            [
+              "Line",
+              32
+            ],
+            [
+              "Table",
+              2
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 15,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              13
+            ],
+            [
+              "Line",
+              4
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 16,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              16
+            ],
+            [
+              "Line",
+              6
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "PictureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 17,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              83
+            ],
+            [
+              "Line",
+              36
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 18,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              96
+            ],
+            [
+              "Line",
+              31
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 19,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              54
+            ],
+            [
+              "Line",
+              19
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 20,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              47
+            ],
+            [
+              "Line",
+              19
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 21,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              47
+            ],
+            [
+              "Line",
+              15
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 22,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              19
+            ],
+            [
+              "Line",
+              8
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 23,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              45
+            ],
+            [
+              "Line",
+              19
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 24,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Influence of heat treatment excursion on critical current and residual resistivity ratio of ITER Nb<SUB>3</SUB>Sn strands",
+    "authors": [
+      {
+        "authors_list": [
+          "Lu, J.",
+          "McGuire, D. R.",
+          "Hill, S.",
+          "Niu, R.",
+          "Chan, K.",
+          "Martovetsky, N."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Heat treatment is critically important to the performance of Nb<SUB>3</SUB>Sn superconducting strands. For very large Nb<SUB>3</SUB>Sn magnet coils, such as the International Thermonuclear Experimental Reactor (ITER) central solenoid (CS) coils, heat treatment carries the risk of temperature and time excursion, which may result in performance degradation. Therefore, it is prudent to study the effect of possible excursion on Nb<SUB>3</SUB>Sn performance. In this study, Nb<SUB>3</SUB>Sn strands used for ITER CS coils are heat treated at different temperatures for different times. Their critical current, residual resistance ratio and hysteresis losses are measured. It is found that in the range we studied, critical current and hysteresis losses do not change significantly. Residual resistance ratio, however, decreases with increasing heat treatment temperature and time. This is attributed to the diffusion of metallic elements from the plated Cr layer to the copper stabilizer. Based on a model of metallic elements diffusion, a numerical code is developed to predict residual resistance ratio as a function of heat treatment temperature and time.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Superconductor Science Technology",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1701.08681"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1088/1361-6668/aa67ab",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2017SuScT..30g5007L"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

@@ -1,0 +1,2204 @@
+{
+  "id": "5b56d3e35b8fde71dd739dae0fcaedc1",
+  "pdf_path": "apl/Superconductors/arXiv:1706.10253.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **A review and prospects for Nb3Sn superconductor development**\n\n### Xingchen Xu\n\nFermi National Accelerator Laboratory, Batavia, Illinois, US 60510\n\nE-mail: [xxu@fnal.gov](mailto:xxu@fnal.gov)\n\n## **Abstract**\n\nNb3Sn superconductors have significant applications in constructing high-field (> 10 T) magnets. This article briefly reviews development of Nb3Sn superconductor and proposes prospects for further improvement. It is shown that significant improvement of critical current density (*Jc*) is needed for future accelerator magnets. After a brief review of the development of Nb3Sn superconductors, the factors controlling *J<sup>c</sup>* are summarized and correlated with their microstructure and chemistry. The non-matrix *J<sup>c</sup>* of Nb3Sn conductors is mainly determined by three factors: the fraction of current-carrying Nb3Sn phase in the non-matrix area, the upper critical field *Bc2*, and the flux-line pinning capacity. Then prospects to improve the three factors are discussed respectively. An analytic model was developed to show how the ratios of precursors determine the phase fractions after heat treatment, based on which it is predicted that the limit of current-carrying Nb3Sn fraction in subelements is ~65%. Then, since *Bc2* is largely determined by the Nb3Sn stoichiometry, a thermodynamic/kinetic theory was presented to show what essentially determines the Sn content of Nb3Sn conductors. This theory explains the influences of Sn sources and Ti addition on stoichiometry and growth rate of Nb3Sn layers. Next, to improve flux pinning, previous efforts in this community to introduce additional pinning centers (APC) to Nb3Sn wires are reviewed, and an internal oxidation technique is described. Finally, prospects for further improvement of non-matrix *J<sup>c</sup>* of Nb3Sn conductors are discussed, and it is seen that the only opportunity for further significantly improving *J<sup>c</sup>* lies in improving the flux pinning.\n\n**Keywords:** Nb3Sn, *Jc*, area fraction, stoichiometry, flux pinning, APC.\n\n# **1. Introduction**\n\nAs the first superconductor that demonstrated the capability to carry high loss-less current at high magnetic fields [1], Nb3Sn is known as the material that transformed superconductivity from a scientific curiosity to an area of significant practical importance by opening the door to high-field magnet applications [2]. Although the last few decades witnessed the domination of the ductile Nb-Ti in superconducting magnet market, in recent years massive use of Nb3Sn has expanded dramatically as fields beyond the limit of Nb-Ti are needed. As an example, over 500 tonnes of Nb3Sn strands were procured by the international thermonuclear experimental reactor (ITER) project from 2008 to 2015, driving a ten-fold increase of worldwide Nb3Sn production capability [3]. With critical temperature (*Tc*) up to 18.3 K, upper critical field (*Bc2*) around 30 T, and high critical current density (*Jc*) at high fields (e.g., whole-wire *J<sup>c</sup>* of 1000 A/mm<sup>2</sup> at 4.2 K, 15 T [4]), Nb3Sn fills the gap between Nb-Ti and the costly and not-yet-mature high temperature superconductors (HTS).\n\nCurrent and potential application areas of Nb3Sn superconductors include: dipole and quadrupole magnets for particle accelerators, central solenoids (CS) and toroidal field (TF) coils in tokamak fusion devices (such as ITER [3]), magnetic resonance imaging (MRI) [5], nuclear magnetic resonance (NMR) [6], and laboratory-used high-field magnets including hybrid magnets, and so on. Non-magnet applications, such as superconducting radio frequency (SRF) cavities [7], are also promising.\n\nFor all magnet applications, high *J<sup>c</sup>* is an important requirement in order to make magnets compact and economical. Apart from high *Jc*, the critical operation conditions of superconducting magnets put several other requirements on Nb3Sn superconductors. First, to combat instability, Nb3Sn conductors are typically produced in the form of round wires, each comprised of a plurality of fine superconducting units (\"filaments\" or \"subelements\") embedded in a Cu matrix. Two parameters have been found critical for the electromagnetic stability of superconductors: the subelement size *dsub*, and the thermal conductivity of the Cu matrix, which at low temperatures is sensitive to its purity. The latter is gauged by the residual resistivity ratio (RRR) usually defined as the electrical resistivity at 273 K divided by that at 20 K. Small filament size and high RRR are desired for Nb3Sn stability [8,9]. Second, to reduce field-ramprate-dependent a.c. loss, the superconductors should have small filament size and the filaments should be twisted. Third, reduction of the parasitic magnetic field produced by screening current induced by external magnetic field also requires small *dsub* [10]. A summary of the requirements on Nb3Sn conductors for different applications is shown in Table I. Apart from requirements on *J<sup>c</sup>* and *dsub*, all applications require high RRR and good stress/strain tolerance as well.\n\n| Applications | Targeted      | Field ramp | Requirement<br>on Jc           | Requirement     |\n|--------------|---------------|------------|--------------------------------|-----------------|\n| in           | Field, T      | rate, T/s  |                                | on dsub         |\n| NMR          | Up to 24      | Low        | A/mm2<br>Je<br>≥ 100<br>at     | < 100 µm<br>[4] |\n|              |               |            | operational fields             |                 |\n| Accelerators | 10<br>-<br>16 | ~0.01      | ≥ 1500 A/mm2<br>Non-Cu<br>Jc   | ≤ 50 µm         |\n|              |               |            | at 4.2 K, 16 T*                |                 |\n| Fusion       | 11<br>-<br>13 | 0.1-10     | A/mm2<br>Non-Cu<br>Jc<br>≥ 800 | Well below      |\n|              |               |            | at 4.2 K, 12 T**               | 10<br>µm        |\n\nTable I. The main characteristics of superconducting magnets and their requirements on Nb3Sn conductors\n\n\\* The example of the planned Future Circular Collider (FCC) [11] is used.\n\n\\*\\* The example of the ITER project is used [12].\n\nAmong these applications, the next biggest potential market for Nb3Sn superconductors is in accelerator magnets. For example, the planned Future Circular Collider (FCC) requires about eight thousand tons of Nb3Sn strands [13]. The need to boost particle collision energy requires dipole magnets with higher field for bending particle beams, with the targeted operational field for FCC being 16 T. For a cosine-theta type dipole magnet, the magnetic field *B* generated by a coil is determined by the coil width (*W*) and electric current density in the coil (*Jcoil*): *B* ∝ *W*•*Jcoil* [14]. With a chosen operational margin, *Jcoil* is determined by the Nb3Sn conductors' *J<sup>c</sup>* and fill factor in the coil. Since the coil size *Acoil* ∝ (*W*<sup>2</sup>+*a*•*W*), where *a* is the aperture diameter, a large *W* is undesirable because it causes sharp increase of amount and cost of conductors and other materials, and challenges in quench protection of magnets. To restrain *W*, high-*J<sup>c</sup>* conductors are required. A minimum *J<sup>c</sup>* requirement has been put forward for the FCC conductors [11]. A comparison between the FCC requirement and the present rod-restack-process (RRP) wires [16], which represent the state-of-the-art level of Nb3Sn conductors, is shown in Figure 1. Although the highest 15 T *Jc*s of top-performing RRP conductors can reach 1600-1700 A/mm<sup>2</sup> and are only 15-20% below the FCC specification, due to the inevitable variations among billets in series production [15], at least 40-45% improvement is still required to fulfill the FCC requirement.\n\n![](_page_4_Figure_0.jpeg)\n\nFigure 1. RRR vs 15 T *J<sup>c</sup>* for RRP wires produced for the Large Hadron Collider (LHC) Luminosity Upgrade [16]. Different symbols represent different designs (see [16] for details). All wires are Ti doped, with *dsub* of 50-55 μm, and heat treated at 650-665 °C. The horizontal and vertical dashed lines denote the minimum RRR and *J<sup>c</sup>* levels required by the FCC specification [11].\n\nOn the other hand, the state-of-the-art *Jc*s of Nb3Sn conductors have plateaued since the early 2000s [17] (the improvement of Nb3Sn record *Jc*s for long-length wires with time is shown in Figure 2 [18]), in spite of the significant efforts that have been made to improve them. This article will discuss prospects for further improvement of Nb3Sn superconductors.\n\n![](_page_5_Figure_0.jpeg)\n\nFigure 2. Improvement of the record 12 T *J<sup>c</sup>* of Nb3Sn conductors with time [18].\n\n### **2. Review of Nb3Sn conductor development**\n\nNb3Sn was found to be superconducting in 1954 [19]. Soon after the publication of Kunzler's exciting results in 1961 [1], 7-15 T Nb3Sn magnets were made commercially available [20]. These early magnets were wound from Nb3Sn tapes with thin Nb3Sn layers deposited or formed on metallic substrates [21,22], which were flexible enough for winding into coils. The application of Nb3Sn tapes, however, was discouraged by the problem of electromagnetic instabilities, particularly flux jumping at low fields. It was then realized in the late 1960s that such instabilities could be suppressed by sub-dividing the superconductors [23]. This fostered the development of multi-filamentary Nb3Sn wires with fine superconducting units embedded in a metallic matrix with high thermal conductivity.\n\nThanks to the discovery that the participation of Cu in the Nb-Sn reaction facilitated the formation of Nb3Sn at relatively low temperatures [24], the first multi-filamentary Nb3Sn wires were produced using the so-called \"bronze-process\" method around 1970 [25,26]. In a typical process using this method, a certain number of Nb rods are inserted into the axially drilled holes in a bronze billet, and the composite is wrapped with a tantalum foil and inserted into a Cu can, and the whole composite is drawn down to the final size. Several intermediate anneals between drawing courses are required to relieve work hardening of the bronze. The final-size, green-state wires are wound to coils, and finally, heat treatments are applied during which bronze reacts with Nb to form Nb3Sn phase. The Ta layer protects the outer Cu matrix from contamination by the bronze during heat treatment. In this type of wire, bronze with higher Sn content leads to higher Nb3Sn performance [27], but the Sn content in bronze is limited by its processibility.\n\nTo avoid the frequent annealing during wire drawing, an \"internal-tin\" approach was developed in 1974 [28]: numerous Nb rods were inserted into axial holes drilled in a Cu billet, and a few Sn rods were distributed among Nb filaments to supply Sn, with scanning electron microscopy (SEM) images shown in Figure 3 (a). During heat treatment the Cu and Sn first mix to form Cu-Sn alloys, which then react with Nb to form the Nb3Sn phase. Compared with bronze-process wires, the internal-tin type can have Sn/Cu/Nb ratios varied over a large range.\n\nIn both bronze-process and single-barrier internal-tin strands, each Nb rod transforms to a Nb3Sn filament after heat treatment; due to the large Cu/Nb ratio (which causes large spacing among the Nb rods), the filaments are generally separated by low-Sn bronze after reaction, leading to small filament size (several μm) and thus low a.c. loss. The price for the high Cu fraction that is necessary for dividing the filaments, is a relatively low *Jc*. Such strands find significant applications in fusion devices, laboratory magnets and NMR magnets.\n\n![](_page_7_Figure_0.jpeg)\n\nFigure 3. SEM images of cross sections of (a) single-barrier internal-tin, (b) RRP, (c) PIT, and (d) TT Nb3Sn strands.\n\nThe 1970s and 1980s witnessed the blooming of researches in Nb3Sn superconductor; a large number of studies were made in this period to explore what controlled the superconducting properties of Nb3Sn. The Nb-Sn binary phase diagram was determined [29], which revealed the presence of Nb6Sn<sup>5</sup> and NbSn<sup>2</sup> phases and the composition range of Nb3Sn phase (~17-25.5 at.% Sn). At this time researchers also realized that the *T<sup>c</sup>* and *Bc2* depend strongly on the stoichiometry of Nb3Sn – deficiency in Sn was shown to lead to seriously degraded *T<sup>c</sup>* and *Bc2* [30,31]. The *Bc2* was also correlated with the normal state resistivity [32], stimulating researchers to study improvements to *Bc2* by way of doping. Numerous studies were made regarding the influence of various additions on the superconducting properties of Nb3Sn (for example, [33- 36]). These led to the selection of tantalum and titanium as dopants [36], which are routinely used for all present-day Nb3Sn strands. In addition to the studies about Nb3Sn chemistry and superconducting properties, researchers also made efforts to optimize microstructures in order to improve *Jc*. It was found that grain boundaries are the primary flux pinning centers for Nb3Sn and that reduction in grain size is a very effective approach to improving pinning force and *J<sup>c</sup>* [37,38].\n\nAlso during this time some variants of internal-tin strands were developed. One of them is the modified jelly roll (MJR) approach [39], in which a subelement is produced by rolling laminated Cu foil and expanded Nb mesh around a central Cu-clad Sn rod. Later distributed barriers were introduced to MJR wires so that each subelement had its own barrier against Sn leakage into the outer Cu matrix [40]. This turned out to be a very important change for improving *J<sup>c</sup>* of Nb3Sn wires, because it allowed for significant decrease of the Cu content inside each barrier (note that the Cu inside the barrier participates in the Nb-Sn reaction), in which case all the Nb filaments in each subelement merge into a single Nb3Sn annulus. On the other hand, a significant reduction of Cu content is not an option for a single-barrier wire, because merging of all the filaments into a single current-carrying unit in each wire would lead to excessively large *dsub*. Decreasing Cu content inside the barrier turned out to be a very effective way to improve non-matrix *J<sup>c</sup>* of internal-tin strands. Figure 4 [41] shows the variation of non-matrix *J<sup>c</sup>* with the Sn/Cu ratio inside the barrier for internal-tin strands. It should be noted that the Nb/Cu ratio increases accordingly with Sn/Cu ratio so that Sn is consumed to form Nb3Sn. It can be seen that with the increase of Sn (and also Nb) fractions, the non-matrix *J<sup>c</sup>* increases by a factor of 4. It will be shown later that this is not only due to increase of Nb3Sn fraction as Cu fraction decreases, but also due to improvement of Nb3Sn phase quality, such as reduction of Sn content gradient and columnar grain morphology. In fact, the improvement of *J<sup>c</sup>* from the 1980s to the early 2000s shown in Figure 2 was mainly driven by reducing Cu content in subelements of\ninternal-tin wires, although other factors (e.g., optimizing heat treatments and doping) also contributed.\n\n![](0__page_9_Figure_1.jpeg)\n\nFigure 4. The dependence of non-matrix *J<sup>c</sup>* on Sn/Cu ratio in internal-tin strands [41].\n\nIn the early 2000s the MJR approach was replaced by the \"rod-restack-process\" (RRP) method to facilitate large-scale production [17]. RRP is a distributed-barrier type, and in each subelement a Sn rod is inserted into the central hole of a Cu layer that is surrounded by a stack of Cu-clad Nb rods inside a Nb barrier (Figure 3 b). In the RRP method, the Cu/Nb area ratio (named \"local area ratio\", LAR) of the Cu-clad Nb rods can be flexibly adjusted. During reaction the Nb filaments transform to a single Nb3Sn annulus in each subelement. In the early 2000s non-Cu *J<sup>c</sup>* of ~3000 A/mm<sup>2</sup> was achieved at 4.2 K, 12 T in RRP wires by Oxford Superconducting Technology, with the best values about 3300 A/mm<sup>2</sup> [17].\n\nIn parallel with the internal-tin type and its variants, other Nb3Sn wire types were also developed. Although the first powder-in-tube (PIT) Nb3Sn wire dated back to Kunzler's work [1], the first multi-filamentary PIT wire with Cu addition to assist Nb-Sn reaction at low temperatures was not developed until 1977 by the Netherlands Energy Research Foundation (ECN) [42]. In such wires a blending of NbSn<sup>2</sup> and small amounts of Cu powders is filled into a thin Cu tube, which is inserted into a Nb (or Nb-7.5wt.%Ta) tube to compose a subelement, images shown in Figure 3 (c). In such wires unreacted Nb in each filament serves as the barrier. Later the technology was transferred to ShapeMetal Innovation (SMI), which, by optimizing heat treatment and adding ternary dopants, increased the non-Cu *J<sup>c</sup>* (4.2 K, 12 T) to ~2500 A/mm<sup>2</sup> [43], with a record value of 2700 A/mm<sup>2</sup> also reported [44]. Such PIT wires are produced by Bruker-EAS at present.\n\nAlso in the 1970s another Nb3Sn wire manufacturing technology emerged, which produces subelements by inserting Cu-clad Sn rods into Nb (or Nb-7.5wt.%Ta) tubes [45,46]. Clearly, this manufacturing process is much simpler than any other counterparts. Over two decades later this approach was picked up by Supercon Inc. [47] and Hyper Tech Research (HTR) Inc. [48], which named this type of strand \"internal-tin tube\" (ITT) and \"tube type\" (TT), respectively. Images of such a strand manufactured by HTR is shown in Figure 3 (d). With optimized Cu/Nb/Sn ratios and heat treatments, the highest non-Cu *J<sup>c</sup>* (4.2 K, 12 T) achieved in this type of strand is nearly 2500 A/mm<sup>2</sup> by HTR [49].\n\nCompared with bronze-process and single-barrier internal-tin wires, Nb3Sn wires featured by the distributed-barrier design (including RRP, PIT, and TT) have high *Jc*s due to the much lower Cu fraction inside each subelement, and they are mainly used for accelerator magnets and NMR magnets. Among these three types, PIT and TT are easier to obtain smaller subelement size thanks to their simpler subelement structures. SMI successfully manufactured PIT strands\n\nwith 20-25 μm subelement size [50], while HTR has successfully produced TT strands with *dsub* of 12-16 μm and non-matrix *J<sup>c</sup>* (4.2 K, 12 T) nearly 2000 A/mm<sup>2</sup> [51].\n\n## **3. Factors controlling the Nb3Sn conductor** *J<sup>c</sup>*\n\nThere are three types of critical current density *J<sup>c</sup>* depending on the area by which the critical current *I<sup>c</sup>* is divided: (1) the engineering *J<sup>c</sup>* (or *Je*) of a wire is defined as *I<sup>c</sup>* divided by its whole cross-sectional area, (2) the non-matrix *J<sup>c</sup>* is *I<sup>c</sup>* divided by the total Nb3Sn subelement area (i.e., the whole cross-sectional area minus the Cu matrix area), and (3) the layer *J<sup>c</sup>* is *I<sup>c</sup>* divided by the current-carrying Nb3Sn layer area. The layer *J<sup>c</sup>* reflects the quality of the Nb3Sn layer, while the non-matrix *J<sup>c</sup>* equals to the product of the Nb3Sn layer *J<sup>c</sup>* and the current-carrying Nb3Sn area fraction in each subelement.\n\nThe Nb3Sn layer *J<sup>c</sup>* at a certain field *B* is determined by the bulk pinning force density *F<sup>p</sup>* (N/m<sup>3</sup> ) that the pinning centers can provide at this field to balance the Lorentz force on the flux lines: *J<sup>c</sup>* = *Fp*/*B*. The *F<sup>p</sup>* is a function of *B*, and the *Fp*(*B*) for Nb3Sn has been shown to have the following form at high fields [52-54]:\n\n$$F\\_p(B) = 1.5625 \\sqrt{\\mathbb{E}} F\\_{p, \\max} (B/B\\_{c2})^{1/2} (1 - B/B\\_{c2})^2 \\tag{1}$$\n\nwhere *Fp,max* is the maximum bulk pinning force density, and *Bc2* (upper critical field) is the field at which *J<sup>c</sup>* vanishes. According to this equation, a Nb3Sn layer *Jc*(*B*) curve is determined by only two parameters – *Fp,max* and *Bc2*; increase in *Fp,max* or *Bc2* can both lead to improvement of *F<sup>p</sup>* and *J<sup>c</sup>* in the high-field range (≥0.3*Bc2*) where Nb3Sn superconductors are used. From equation (1) it is clear that *Fp*(*B*) curves peak at 0.2*Bc2*, i.e., *Fp*(0.2*Bc2*) = *Fp,max*. Fitting measured *Jc*(*B*) data to equation (1) yields values of *Fp,max* and *Bc2*.\n\nIt follows that the non-matrix *J<sup>c</sup>* of Nb3Sn superconductors is mainly determined by three parameters: the current-carrying Nb3Sn fraction, *Bc2*, and *Fp,max* (assuming the properties of a strand are uniform along its length; otherwise, the *J<sup>c</sup>* of a long strand is limited by that of its weakest segment). These three parameters are closely related to microstructure and microchemistry of conductors. For example, *Bc2* depends on Nb3Sn phase stoichiometry [53], doping [36], and strain state [54], and *Fp,max* mainly depends on volumetric density of flux pinning centers (mainly grain boundaries for Nb3Sn) [54]. Microstructure and microchemistry of strands depend on starting chemistry/structure of the precursors as well as processing and heat treatment. For example, higher heat treatment temperatures lead to higher Sn contents in Nb3Sn which benefit *Bc2*, but result in larger Nb3Sn grain sizes which are detrimental to *Fp,max* [55].\n\nAn important method to diagnose a low-*J<sup>c</sup>* superconductor is to analyze the above three parameters – this allows for identifying the causes (or limiting factors) for the low *Jc*, which is the basis for improvement. An example is given here. Among the three types of high-*J<sup>c</sup>* Nb3Sn wires (RRP, PIT, and TT) discussed in Section 2, only RRP strands achieve a non-matrix *J<sup>c</sup>* of 3000 A/mm<sup>2</sup> at 4.2 K, 12 T, while those of the other two types are typically ~2500 A/mm<sup>2</sup> or below. To seek further improvement, a question to ask is, what causes their inferior non-matrix *Jc*s? An explanation was that stoichiometry was relatively uniform across the Nb3Sn layer in a RRP subelement thanks to the Cu networks among Nb filaments that facilitate Sn transportation, while the Sn content gradient across the Nb3Sn layer in a PIT or TT filament was larger.\n\nTo find out the true origin, the above three parameters (Nb3Sn fraction, *Bc2*, and pinning) of the three types of strands are analyzed below. Figure 5 shows *Bc2* (4.2 K) values obtained from Kramer plots of transport *Jc*(*B*) data for RRP, PIT, and TT strands. Clearly *Bc2* increases with reaction temperature, and Ti doped strands have higher *Bc2*s than Ta doped strands, although at very high reaction temperatures (e.g., ≥750 °C) they both saturate at a similar level (27-28 T) [56], which is presumed to be close to the limit of Nb3Sn. From Figure 5 it is clear that PIT and TT strands (all with Ta doping) reacted at 615-625 °C have *Bc2*s (4.2 K) of 25-26 T, even higher than those of RRP strands. A closer examination of the microchemistry of RRP and TT strands shows that the stoichiometry of the former is not superior to the latter [57].\n\n![](0__page_13_Figure_1.jpeg)\n\nFigure 5. *Bc2* values obtained from Kramer plots of transport *Jc*(*B*) data (after self-corrections) for RRP [56], PIT [44], and TT [58] strands. Except an RRP strand with Ti doping (shown in open symbols), all other strands use Nb-7.5wt.%Ta (shown in solid symbols).\n\nAnalysis of their microstructures shows that they have similar grain sizes (110-130 nm when reacted at 625-650 °C) and aspect ratios [55,57], which should lead to similar pinning capacities. Hence, it is determined that *Bc2* or layer *Fp,max* should not be the cause of lower 12 T non-matrix *Jc*s for PIT and TT strands relative to RRP. Thus, the Nb3Sn area fractions may be responsible. Figure 6 shows SEM images of typical TT and RRP subelements after being fully reacted.\n\n![](0__page_14_Figure_0.jpeg)\n\nFigure 6. SEM images of fully-reacted (a) TT and (b) RRP subelements with the fractions of components.\n\nAs can be seen, a TT subelement is comprised of four components: the remaining Nb area (as a barrier preventing Sn poisoning the outer Cu matrix) typically taking 25-30 % of the subelement, the fine-grain Nb3Sn area taking 40-45 % of the subelement, the coarse-grain Nb3Sn area which has large grain size (typically > 1 μm) and takes ~15 %, and a core region (as composed of low-Sn Cu-Sn, Kirkendall voids, and disconnected Nb3Sn chunks or particles) taking ~20 % of the subelement area. The coarse-grain Nb3Sn and the Nb3Sn particles in the core are formed by the dissociation of the intermediate high-Sn Nb-Sn phases, and do not carry supercurrent [59], while the fine-grain Nb3Sn, which is formed by diffusion reaction between Sn and Nb, is the only supercurrent-carrying Nb3Sn phase in a subelement. Analysis of PIT strands shows similar area fraction components [54]. On the other hand, the fine-grain Nb3Sn fraction in RRP subelements (Figure 6 b) is much higher (~60%), thanks to the much lower unreacted Nb fraction (6-8 %) and disconnected (or coarse-grain) Nb3Sn phase (~ 5%) near the core.\n\nBased on the fine-grain Nb3Sn fractions in subelements, it can be calculated that the 4.2 K, 12 T layer *J<sup>c</sup>* of RRP strands is ~5000 A/mm<sup>2</sup> , while those of PIT and TT are 5500-6000 A/mm<sup>2</sup> . Therefore, the origin for the lower non-matrix *Jc*s in PIT and TT strands is not lower quality, but lower quantity, of Nb3Sn phase in subelements; thus, efforts should be placed on improving their fine-grain Nb3Sn fractions.\n\nThe next three sections will discuss what determines the three factors (fine-grain Nb3Sn fraction, *Bc2*, and *Fp,max*) and prospects to improve them, respectively.\n\n## **4. Prospects to improve the Nb3Sn fractions**\n\nBased on observations of the phase transformations in TT strands during heat treatments [59], the reaction between Cu-Sn and Nb can be summarized as follows: as η phase (Cu6Sn5) or high-Sn liquid Cu-Sn reacts with Nb, it transforms to ε phase (Cu3Sn) while releasing the extra Sn to form Cu-Nb-Sn ternary phase, which transforms to NbSn2, and then Nb6Sn<sup>5</sup> [59,61]; Nb6Sn<sup>5</sup> itself transforms to coarse-grain Nb3Sn, releasing the extra Sn for fine-grain Nb3Sn layer growth. After Nb6Sn<sup>5</sup> is depleted, the ε phase (or γ phase at high temperatures) then supplies Sn for further fine-grain Nb3Sn layer growth until the chemical potential of Sn in the Cu-Sn source is not higher than that in Nb3Sn. As ε phase or Cu-Sn phase with lower Sn content (e.g., bronze) reacts with Nb, only fine-grain Nb3Sn forms due to the absence of intermediate phases. This is why no coarse-grain Nb3Sn forms in bronze-process or single-barrier internal-tin strands, in which the Cu/Sn ratio is high.\n\nAn analytical model was developed to find coarse-grain and fine-grain Nb3Sn amounts for fully-reacted TT strands based on starting amounts of precursors (particularly Sn and Cu, because Nb is in excess so that remaining Nb serves as barrier). The derivation details of the model, which are based on mass conservation, can be found in paper [60]. Expressions for the area inside the barrier (*Ain*, not including the barrier area), the fine-grain area (*AFG*), the coarsegrain areas (*ACG*), and the core area (*Acore*), in terms of the areas of Sn and Cu in the green-state subelement (noted as *ASn* and *ACu*, respectively), are given in Equations 2-5. Note that these equations are transformed from the equations in [60].\n\n$$A\\_{\\rm in} = \\{1 + 3.3 \\, V\\_{\\rm m}^{\\rm Nb} \\, / V\\_{\\rm m}^{\\rm Sn}\\} \\cdot A\\_{\\rm Sn} + \\{1 + 0.2 \\, \\chi / (1 - \\chi) \\cdot V\\_{\\rm m}^{\\rm Nb} \\, / V\\_{\\rm m}^{\\rm Cu}\\} \\cdot A\\_{\\rm Cu} \\tag{2}$$\n\n$$A\\_{FG} = 0.6 \\, V\\_m^{FG} \\, / V\\_m^{Sn} \\cdot A\\_{\\mathbb{S}n} + 0.4 \\, \\chi / (1 - \\chi) \\cdot V\\_m^{FG} \\, / V\\_m^{Cu} \\cdot A\\_{Cu} \\tag{3}$$\n\n$$A\\_{\\rm CG} = 0.4 \\, V\\_{\\rm m}^{\\rm CG} \\, / V\\_{\\rm m}^{\\rm Sn} \\cdot A\\_{\\rm Sn} - 0.4 \\, \\chi \\, / (1 - \\chi) \\cdot V\\_{\\rm m}^{\\rm CG} \\, / V\\_{\\rm m}^{\\rm Cu} \\cdot A\\_{\\rm Cu} \\tag{4}$$\n\n$$A\\_{core} = \\left[1 + \\frac{3.3V\\_m^{Nb} - 0.6V\\_m^{FG} - 0.4V\\_m^{CG}}{V\\_m^{Sn}}\\right] \\cdot A\\_{Sn} + \\left[1 + \\frac{\\chi}{5(1 - \\chi)} \\frac{V\\_m^{Nb} + 2V\\_m^{CG} - 2V\\_m^{FG}}{V\\_m^{Cu}}\\right] \\cdot A\\_{Cu} \\tag{5}$$\n\nIn equations 2-5, *V<sup>m</sup> Nb* , *V<sup>m</sup> Sn* , *V<sup>m</sup> Cu* , *V<sup>m</sup> FG* , *V<sup>m</sup> CG* represent the molar volumes of Nb, Sn, Cu, fine-grain Nb3Sn and coarse-grain Nb3Sn, respectively, and *χ* represents the Sn content in the Cu-Sn phase as Nb6Sn<sup>5</sup> serves as Sn source, which is around 0.25. It should be noted that coarsegrain Nb3Sn is typically stoichiometric, while fine-grain Nb3Sn has a Sn content of 22-24 at.%, so *V<sup>m</sup> FG* and *V<sup>m</sup> CG* are not necessarily the same. The molar volumes of different materials can be found in [60]. From the Equation (4), it is clear that *ACG* decreases with *ACu*/*ASn*, reaching zero at an *ACu*/*ASn* that is equivalent to a Cu-Sn composition of Cu- *χ* Sn. A similar conclusion applies to PIT strands, whose cores contain three elements – Nb, Sn, Cu: as long as the composition of the core makes the formation of Nb6Sn<sup>5</sup> thermodynamically unstable, the formation of coarse grains can be avoided, as shown in the isothermal section of the ternary Cu-Nb-Sn phase diagram in Figure 7.\n\n![](0__page_17_Figure_0.jpeg)\n\nFigure 7. Schematic isothermal section of the ternary Cu-Nb-Sn phase diagram [62]. The green dashed line marks the boundary of the core composition in a PIT wire to the left of which no coarse grains would form. The approximate compositions of Sn sources in PIT, TT, RRP, and single-barrier (including bronze-process and internal-tin) types of Nb3Sn wires are marked in the figure. Note that details of Cu-Sn phases and some phase equilibrium between Nb-Sn and Cu-Sn phases are not shown here as they are irrelevant for discussions.\n\nTo test the above analytic model, TT wires with a large range of Cu/Sn ratios were fabricated and fully reacted, and the fine-grain and coarse-grain Nb3Sn area fractions were calculated, and it was found that the experimental results agreed well with the predictions of equations 2-5 [60]. As examples, three wires with different Cu/Sn ratios are shown in Figure 8. It is clear that as Cu/Sn ratio increases, the amounts of Cu-Nb-Sn phase and coarse-grain Nb3Sn decrease while fine-grain Nb3Sn fraction increases, with details given in [60].\n![](1__page_18_Figure_0.jpeg)\n\nFigure 8. SEM images of the TT wires with low, medium, and high Cu/Sn ratios: (a)-(c) in the green state, (d)-(f) after reaction at 470 °C for 24 hours, (g)-(i) after reaction at 625 °C for 300 hours, respectively.\n\nFigure 9 shows the fractions of fine-grain Nb3Sn, coarse-grain Nb3Sn, and core area in *Ain* as a function of Cu/Sn ratio, calculated from equations 2-5. It can be seen that although the increase of Cu/Sn ratio leads to a marked increase in the core area, the fine-grain Nb3Sn fraction still increases due to the decrease of coarse-grain amount. According to Figure 9, the fine-grain Nb3Sn fraction is at its maximum when the precursor ratios reach the point where the coarsegrain Nb3Sn amount drops to zero (i.e., no high-Sn intermediate phases form). A larger Cu/Sn ratio relative to this point simply dilutes the fraction of Nb3Sn area due to the excess Cu, as in bronze-process and single-barrier internal-tin wires. This model also applies to RRP wires as phase transformations do not depend on subelement structures. It can be seen that the predicted area fractions in Figure 9 agree reasonably well with those measured ones in Figure 6.\n\n![](1__page_19_Figure_1.jpeg)\n\nFigure 9. Fractions of fine-grain Nb3Sn, coarse-grain Nb3Sn (including coarse-grain Nb3Sn layer and disconnected Nb3Sn chunks/particles in the core), and the core relative to *Ain* as functions of Cu/Sn ratio, calculated from equations 2-5. The approximate Cu/Sn ratio ranges of TT and RRP wires are shown in the figure as well.\n\nAssuming that the barrier fraction in Nb3Sn subelements can be as small as 5% to preserve RRR (while this value for present RRP is 6-8%), then according to Figure 9, it can be estimated that the limit of the fine-grain Nb3Sn fraction in a subelement is about 68% × 95% ≈ 65 %.\n\nAs shown in Figure 6, the fine-grain Nb3Sn fraction in RRP subelements is around 60%, so the room for further improving the Nb3Sn fraction in RRP strands is marginal. New intermediate heat treatments are proposed by Sanabria et al. to reduce the formation of Cu-Nb-Sn ternary phase and thus improve the fine-grain Nb3Sn fraction in RRP wires [63]. While this leads to some *J<sup>c</sup>* improvement for small-*dsub* RRP wires [63], little improvement is seen on highperformance conductors (e.g., those shown in Figure 1) that have fine-grain Nb3Sn fraction of ~60% in subelements [63]. Efforts were also made on improving Nb3Sn fraction by adjusting LAR; however, no improvement is seen relative to the standard wires (e.g., those shown in Figure 1) [64]. These attempts demonstrate that it is difficult to further remarkably improve Nb3Sn fraction in RRP wires.\n\nOn the other hand, the fine-grain Nb3Sn fractions in PIT and TT subelements are only 40- 45%, so there is still plenty of room for improvement. One way to do so is to decrease the coarse-grain Nb3Sn fraction by increasing the Cu/Sn ratio, as shown in Figure 9. However, it will be seen in the next section that higher Cu/Sn ratio would cause negative impact on the stoichiometry and *Bc2* of Nb3Sn phase. The other way to increase Nb3Sn fraction in PIT and TT wires is to reduce the unreacted Nb fraction under the permission of allowable RRR.\n\nAs can be seen from Figure 6, after heat treatment the remaining Nb in a RRP subelement is more or less a uniform layer protecting the Cu stabilizer effectively, while in a PIT and TT subelement a thick Nb barrier must be kept to prevent Sn leakage. What causes this difference? RRP subelements benefit from the Cu network among the Nb filaments. These Cu channels provide shortcuts for Sn diffusion because the diffusion rate of Sn in Cu-Sn is much higher than\n\nthe Nb3Sn layer growth rate; with a proper ratio of Nb barrier thickness to filament diameter (e.g., ≥2), the filament-packing area can be fully reacted, with part of the Nb barrier left unreacted to protect the Cu stabilizer. On the other hand, a PIT or TT subelement simply uses a Nb alloy tube which has no such Cu network – comparing RRP and TT subelements (Figures 3 b and d, respectively), TT can be regarded as a special distributed-barrier internal-tin type with LAR = 0. In this case, Nb3Sn layer grows outwards as a Sn source/Nb3Sn/Nb diffusion reaction couple in the cylindrical geometry. If sited within a hexagonal Nb alloy tube, this cylindrical Nb3Sn layer can touch the subelement edges and release Sn to the outer Cu matrix while a lot of Nb is still left in the corners. Thus, using round subelements (e.g., Figure 3 c) helps in reducing the unreacted Nb fraction in PIT and TT strands. In practice the situation is more complicated because subelements can become distorted and eccentric after many courses of wire drawing. This is to a large extent tolerable in RRP subelements thanks to the Cu networks, as long as the Nb barriers are not locally thinned. In PIT and TT subelements, however, this is a major problem because the Nb layer can be reacted through on one side while the Nb layer is still thick elsewhere. Thus, the quality of a wire (e.g., regularity, homogeneity along the wire length, etc.), which highly depends on the quality of the starting materials and the processing technology of a manufacturer, can significantly influence the trade-off between the remaining Nb area fraction and wire RRR.\n\nAnother possible means to reduce the barrier area fraction without sacrificing RRR is to use materials that react with Sn more slowly than Nb (or Nb-7.5wt.%Ta) does as the barrier. For example, the reaction rate of Nb-Ta alloy (Nb and Ta have unlimited solid solubility) with Sn decreases as the Ta content increases, making pure Ta an ideal barrier material for single-barrier Nb3Sn conductors. However, Ta has much higher work hardening rate and poor ductility compared with Nb, causing breakage issues at small subelement size. On the other hand, the commercial Ta-40wt.%Nb has intermediate ductility and reaction rate with Sn, making itself a promising barrier material [65]. Vanadium was also tried, but it was suspected to degrade *J<sup>c</sup>* [65].\n\n## **5. A theory for Nb3Sn stoichiometry**\n\nFor Nb3Sn a high *Bc2* requires both proper doping and high Sn content in Nb3Sn. Doping to Nb3Sn can be controlled via the additions to the precursors (e.g., Nb-7.5wt.%Ta, Nb-47wt.%Ti, or Sn-Ti), which is mature for present conductors. On the other hand, high Sn content typically requires high heat treatment temperature (e.g., Figure 5) which is undesirable as grain size increases exponentially with reaction temperature [55]. Evidently a fundamental understanding of what controls Nb3Sn stoichiometry is critical. Based on the studies in the past several decades, several factors have been found to strongly influence the Sn content of Nb3Sn conductors, which are summarized below.\n\nThe Sn source can significantly influence the stoichiometry, especially the Sn content gradient, of the Nb3Sn layer. For example, bronze-process strands, of which the Sn sources are bronze with Sn concentration below 9 at.%, tend to have larger Sn content gradients in the Nb3Sn layers than those of RRP, PIT and TT strands, of which the Sn sources are much more Sn-rich (the compositions of Sn sources for different types of Nb3Sn wires are shown in Figure 7). Examples of Sn concentration profiles in Nb3Sn layers of bronze-process and distributed-barrier internal-tin strands are shown in Figure 10.\n\n![](1__page_23_Figure_0.jpeg)\n\nFigure 10. Sn content profiles measured by Energy Dispersive Spectroscopy (EDS)/Scanning Transmission Electron Microscopy (STEM) on Nb3Sn layers in bronze-process [66] and distributed-barrier internal-tin [67] wires.\n\nIt can be seen that for both wires the Nb3Sn layers adjacent to the Sn sources have Sn contents above 24 at.%; however, they have very different Sn concentration gradients as the Nb3Sn layers grow thicker. The bronze-process wires have Sn content gradients above 3 at.%/μm [66]. For distributed-barrier internal-tin strands in which original Nb filaments in each subelement merge to a single Nb3Sn annulus after reaction, the Sn content gradient within each original filament may be as high as 0.4-0.5 at.%/μm (Figure 10) [67], although the Sn content gradients from the inner-row filaments to the outer-row filaments are small thanks to the Cu paths for Sn diffusion [68]. The Sn content gradients of TT and PIT subelements are typically 0.1-0.2 at.%/μm [58,69,70]. Such a difference in the Sn content gradients leads to different grain morphologies and superconducting properties (e.g., the *Bc2* values shown in Figure 5). It is found that Nb3Sn layers with larger Sn content gradients tend to have grains of larger aspect ratios. For instance, bronze-process wires are well known to have columnar grains, while grains of RRP, PIT, and TT wires are more or less equiaxed. RRP wires reacted at very low temperatures (e.g., 615 °C) can also have grains with somewhat large aspect ratios [55]. Measurements indicate that boundaries of grains with larger aspect ratios have lower pinning efficiency than those of equiaxed grains [55,68], which is an important reason for the inferior *Jc*s of bronze-process and single-barrier internal-tin wires. Sn sources also influence Nb3Sn layer growth rate: high-Sn Sn sources lead to higher Nb3Sn layer growth rates [71].\n\nHeat treatment temperature is well known to strongly influence the *Bc2*, with higher reaction temperature leading to higher Sn content and thus higher *Bc2* (Figure 5). In addition, many studies have demonstrated that *Bc2* increases with reaction extents. For example, Fischer's study on PIT strands showed that highly under-reacted samples have *Bc2*s that are only 70-80% of those fully-reacted ones [72]. Such a phenomenon was also observed in TT strands. This could be due to decrease in thermal-strain (induced by the mismatch in thermal contraction coefficients of different components in the composite wire as it is cooled down) with increase of Nb3Sn layer thickness. Moreover, some other factors have also been found to influence Sn content. For example, it was found that Ti doping tends to make Sn content more uniform across the Nb3Sn layer [73], which could explain its positive effect on *Bc2* (Figure 5).\n\nDespite the above empirical conclusions drawn from experiment observations, there still lacks a theory that can explain these facts and illustrate what essentially determines Nb3Sn stoichiometry in conductors. Recently a model has been developed to explore what essentially controls the Sn content of Nb3Sn in a wire [74]. In a subelement, Nb3Sn layer grows in a Sn source/Nb3Sn/Nb diffusion reaction couple at the heat treatment temperature, with a schematic of the system for the planar geometry shown in Figure 11 (a), and the chemical potential of Sn, *μSn*, of the system shown in Figure 11 (b). The Sn sources for Nb3Sn layer growth include Cu-Sn alloys and Nb6Sn5. It is known that Sn is the primary diffusing species in the Nb3Sn phase [75]. The minimum and maximum mole fractions of Sn in Nb3Sn from the phase diagram are denoted as *X<sup>l</sup>* and *Xu*, respectively (Figure 7), which are around ~0.17 and ~0.26 [76]. The Sn source/Nb3Sn and Nb3Sn/Nb interfaces are noted as Interfaces I and II, respectively.\n\n![](1__page_25_Figure_1.jpeg)\n\nFigure 11. Schematics of (a) a Sn source/Nb3Sn/Nb diffusion reaction system in the planar geometry, and (b) the *μSn* profile of the system, where *μSn I* and *μSn II* stand for *μSn*s of Nb3Sn at the Interfaces I and II, respectively, and *μSn l* stands for *μSn*(Nb-*X<sup>l</sup>* Sn).\n\nThe assumptions and derivations for the governing equations, which are based on Fick's laws and mass conservation, for this diffusion reaction system are described in details in [74]. Theoretically the model can quantitatively calculate the chemical potential, composition profile, and growth rate of a growing Nb3Sn layer by solving the governing equations. Here this section focuses on analyzing the Nb3Sn layer stoichiometry qualitatively.\n\nBefore discussing the composition of Nb3Sn, it must be ascertained whether Sn diffuses through the Nb3Sn layer via bulk diffusion or grain boundary diffusion. In the case of bulk diffusion, for a Cu-Sn/Nb3Sn/Nb system, as Sn content and *μSn* of Cu-Sn drop with the growth of Nb3Sn layer, *XSn* of the entire Nb3Sn layer should decrease with *μSn*(Cu-Sn), because *μSn*(Sn source) ≥ *μSn*(Nb3Sn) ≥ *μSn*(Nb- *X<sup>l</sup>* Sn). Finally, one of the following two cases would occur: (1) if Nb is in excess in the Sn source/Nb3Sn/Nb system, *μSn*(Sn source) eventually drops to *μSn*(Nb-*X<sup>l</sup>* Sn), so the system ends up with the equilibrium among Nb, Nb- *X<sup>l</sup>* Sn, and low-Sn Cu-Sn (as shown by the shaded region in the Cu-Nb-Sn phase diagram in Figure 7), in which case the Sn content in the whole Nb3Sn layer would be *Xl*; (2) if the Sn source is in excess, then Nb would eventually be consumed up and Nb3Sn gets homogenized with time and finally *µSn*(Nb3Sn) = *µSn*(Sn source). In either case, Nb3Sn layer stoichiometry eventually reaches homogeneity. However, it is found that the real characteristics for Nb3Sn compositions are different from the above bulk diffusion case. For example, in PIT and TT subelements in which Nb is in excess, even after extended annealing times after the Nb3Sn layers have finished growing (which indicates that the Sn sources have been depleted, i.e., *µSn*s have dropped to *μSn l* ), *XSn*s of Nb3Sn remain high above *Xl*, without dropping with annealing time. For example, as the reaction time of a PIT strand was extended from 64 hours (at which time the Sn source had been depleted) to 768 hours at 675 °C, the Sn content of Nb3Sn remained above 22 at.% [54], far above the *X<sup>l</sup>* of ~17 at.%. Moreover, the Sn content gradients in the Nb3Sn layers remain after extended annealing.\n\nThe above peculiarities indicate that bulk diffusion in Nb3Sn is frozen and grain boundary diffusion dominates. In fact, it was reported in [77] that the bulk diffusivity of Sn in Nb3Sn is lower than 10-23 m<sup>2</sup> /s at 650 °C. Using the relation *l* ≈√*Dt*, it can be estimated that the bulk diffusion distance is less than ~1 nm for a duration of 100 hours at 650 °C. Instead, the diffusivity of Sn along Nb3Sn grain boundaries is several orders of magnitudes higher than that in the bulk [77], which, in combination with the small Nb3Sn grain size (~100 nm), leads to the domination of grain boundary diffusion. A schematic of the diffusion reaction process for grain boundary diffusion is shown in Figure 12.\n![](2__page_27_Figure_0.jpeg)\n\nFigure 12. A schematic of the diffusion reaction process for grain boundary diffusion.\n\nAt the Nb3Sn/Nb interface, high-Sn Nb3Sn (L<sup>2</sup> layer in Figure 12) reacts with Nb (L<sup>3</sup> layer) to form some new Nb3Sn cells, leaving Sn vacancies (noted as VSns) in the L<sup>2</sup> layer (time *t2*). If bulk diffusivity is high, VSns simply diffuse through bulk (e.g., from L<sup>2</sup> to L1) to the Sn source. If bulk diffusion is frozen, the VSns diffuse first along Nb3Sn/Nb inter-phase interface and then along Nb3Sn grain boundaries to the Sn source. This process continues until this L<sup>3</sup> layer entirely becomes Nb3Sn (time *t3*), so the reaction frontier moves ahead to L3/L<sup>4</sup> interface, while the L2/L<sup>3</sup> interface now becomes an inter-plane inside the Nb3Sn lattice. If bulk diffusion is completely frozen, the VSns in the L<sup>2</sup> layer that fail to diffuse into the Sn source before the Nb3Sn/Nb inter-phase interface moves ahead from the L2/L<sup>3</sup> interface will be frozen in this L<sup>2</sup> layer forever, and will perhaps transform to Nb-on-Sn anti-site defects later (for Nb3Sn, Nb-on-Sn anti-sites are more stable than Sn vacancies [78]). Since these point defects determine the Nb3Sn composition, the *XSn* in this L<sup>2</sup> layer cannot change anymore regardless of *μSn* variations in grain boundaries. That is to say, *XSn* of any point in a Nb3Sn layer is just the Sn content of the moment when the reaction frontier sweeps across this point, i.e., the *XSn*(*x*) of the Nb3Sn layer is simply an accumulation of Sn contents at Interface II with layer growth. This explains why Nb3Sn layer composition cannot reach homogeneity.\n\nThen what determines the Nb3Sn composition? From Figure 12 it can be clearly seen that there is a competition between two processes which determines the VSn fraction in the frontier Nb3Sn layer: the reaction at the Nb3Sn/Nb interface produces VSns in the L<sup>2</sup> layer, while the diffusion of Sn along Nb3Sn grain boundaries fills these VSns. Thus, if the diffusion rate is slow relative to the reaction rate at Interface II, a high fraction of VSns would be left behind as the Interface II moves ahead, causing low Sn content. If, on the other hand, the diffusion rate is high relative to the reaction rate at Interface II, the Nb3Sn layer has enough time to get homogenized with the Sn source, causing low *XSn* gradient. Thus, higher diffusion rate relative to reaction rate benefits Nb3Sn stoichiometry.\n\nNext let us consider the influence of Sn source on Nb3Sn composition. In order to do this, the relation between *μSn*(*XSn*) of Cu-Sn and *μSn*(*XSn*) of Nb3Sn is required. The Cu-Sn system has been well studied, and the phase diagram calculated by the CALPHAD technique using the thermodynamic parameters given by [79] is well consistent with the experimentally measured Cu-Sn phase diagram [80]. Thus, the parameters from [79] are used to calculate the *μSn* of Cu-Sn, which is shown in Figure 13. On the other hand, although thermodynamic data of Nb-Sn system were proposed by [79] and [81], in these studies Nb3Sn was treated as a line compound, making their data unreliable. However, some information about *μSn* of Nb3Sn can be inferred from its relation with *μSn* of Cu-Sn: since in bronze-process wires Cu-7 at.% Sn leads to the formation of Nb-24 at.% Sn near the Cu-Sn source [66], we have *μSn*(Cu-7 at.% Sn) ≥ *μSn*(Nb-24 at.% Sn). Thus, the *μSn*(*XSn*) curve for Nb3Sn must be concave up and is approximately shown in Figure 13. Furthermore, it can also be inferred that the Sn transfer rate at the Cu-Sn/Nb3Sn interface must be much faster than that at the Nb3Sn/Nb interface, so *μSn* discontinuity across the Interface I is small.\n\n![](2__page_29_Figure_1.jpeg)\n\nFigure 13. The *μSn*(*XSn*) curve for Cu-Sn calculated from the thermodynamic data given in [79], and a rough *μSn*(*XSn*) curve for Nb3Sn speculated based on the phase formation relation between Cu-Sn and Nb3Sn. The blue dotted lines show how Cu-7 at.%Sn can form Nb3Sn with Sn content above 24 at.% Sn at the bronze/Nb3Sn interface. Note that the approximate *μSn*(*XSn*) curve for Nb3Sn is only for showing the trend.\n\nThe phenomenon that low-Sn Sn sources lead to larger *XSn* gradients and lower growth rates of Nb3Sn layers also originates from the concave-up *μSn*-*XSn* curve for Nb3Sn. Schematics for the *μSn* profiles of the Sn source/Nb3Sn/Nb system for two different Sn sources are shown in Figure 14 (a). Based on the calculations using the model in [74], it is known that larger *μSn* in the Sn source causes both larger *μSn* drop across the Nb3Sn layer and larger (*μSn II* –*μSn l* ), which cause larger diffusion rate and larger reaction rate, respectively. This explains the fact that increase in the activity of Sn in the Sn source (e.g., increasing Sn content of Cu-Sn) leads to higher Nb3Sn layer growth rate. Figure 14 (b) shows a schematic of the Nb3Sn *XSn*(*μSn*) plot transformed from Figure 13, and the *XSn* drop, Δ*XSn*, caused by the *μSn* drop, Δ*μSn*, across the Nb3Sn layer for the two cases shown in Figure 14 (a). As can be seen, although higher *μSn*(Sn source) causes larger *μSn* drop across the Nb3Sn layer, *XSn* drop is smaller due to the curved *XSn*(*μSn*) of Nb3Sn, explaining why strands with high-*μSn* Sn sources (such as RRP, PIT, and TT) have smaller Sn at.% gradients than those with low-*μSn* Sn sources (such as bronze-process and single-barrier internal-tin).\n\n![](2__page_30_Figure_1.jpeg)\n\nFigure 14. (a) Schematics of the *μSn* profiles of the system for two different Sn sources – high *μSn* (denoted as *μSn-h*) and low *μSn* (denoted as *μSn-l*), and (b) schematic of the Δ*XSn* caused by the Δ*μSn* across the Nb3Sn layer. Note in (b) how a small Δ*µSn* across the Nb3Sn layer in the low-*µSn* region can cause a large Δ*XSn*.\n\nPIT and TT strands have Sn sources with higher *µSn*s than RRP strands (Figure 7), so a large amount of Nb6Sn<sup>5</sup> is formed in PIT and TT strands, and such Nb6Sn<sup>5</sup> serves as the Sn source before Cu-Sn alloys (which have lower *µSn*s than Nb6Sn<sup>5</sup> does) takes over, which explains why *XSn* gradients across the Nb3Sn layers in PIT and TT strands are low.\n\nAs shown in Section 4, higher Cu/Sn ratio in RRP, PIT and TT strands leads to higher fine-grain Nb3Sn fraction due to reduction in amounts of Nb-Sn intermediate phases and coarsegrain Nb3Sn. Could this be used to improve *Jc*? The non-matrix *Jc*s of the three TT wires displayed in Figure 8 are shown in Figure 15. As Cu/Sn ratio increases, although fine-grain Nb3Sn fraction does increase, the *Jc*s drop dramatically. This is mainly due to the decrease of *Bc2* and *Fp,max*. This is consistent with observations in internal-tin strands of which layer *J<sup>c</sup>* increases as Cu/Sn ratio decreases [68], as mentioned in Section 2. The 4.2 K *Bc2* values of the three TT wires obtained from the Kramer plots are 24, 22, and 21 T as Cu/Sn ratio increases, respectively. It is also observed that the Nb3Sn layer growth rate is the highest for the wire with the lowest Cu/Sn ratio.\n\n![](2__page_31_Figure_2.jpeg)\n\nFigure 15. The non-matrix *Jc*s (4.2 K) of the three TT wires shown in Figure 8.\n\nFigure 16 shows SEM images on fractured surfaces of the three wires: columnar grains can be seen in each wire at the Nb3Sn/Nb interface. Such columnar grains can be observed in RRP and PIT wires as well. This can be explained by the theory in this section: in the last stages of Nb3Sn layer growth, the Cu-Sn source has low Sn content and *µSn*, causing larger *XSn* gradient in the growing Nb3Sn layer. From Figure 16 it is clear that as Cu/Sn ratio increases, the columnar-grain layer becomes thicker. These columnar-grain Nb3Sn layers have large *XSn* gradients (which is demonstrated by EDS results [58]), explaining the low *Bc2*s for the wires with high Cu/Sn ratios. Moreover, because boundaries of columnar grains have low pinning efficiency, a larger fraction of such columnar grains leads to lower *Fp,max*.\n\n![](2__page_32_Figure_1.jpeg)\n\nFigure 16. SEM images of the TT wires with (a) low, (b) medium and (c) high Cu/Sn ratios, with the columnar-grain layers marked.\n\nIt is interesting to note that RRP wires with similar Cu/Sn ratio to that of the TT wire with the highest Cu/Sn ratio in Figure 15 have considerably higher *Bc2*. This is because in RRP wires, thanks to the Cu paths that transport Sn among Nb filaments, the Sn source/Nb3Sn/Nb diffusion reaction occurs with filaments as units; as a result, the Sn diffusion distance in a Sn source/Nb3Sn/Nb unit in RRP wires is less than 1 μm (the radius of a filament), while those of PIT and TT wires are larger than 5 μm. It is clear from the model developed in [74] that short diffusion distance helps in reducing *XSn* inhomogeneity in the Nb3Sn layer.\n\nAs another example, Zn addition to the Cu-Sn source was found to enhance the Nb3Sn layer growth rate and the Sn content of the Nb3Sn layer as well [82]. This effect can also be explained by the above model, given that Zn addition to Cu-Sn increases the activity of Sn in the Cu-Sn source [83].\n\nHeat treatment temperature can simultaneously influence multiple factors, such as chemical potential of Sn in the Sn source, diffusion rate of Sn in Nb3Sn, and reaction rates at both interfaces, etc. Moreover, from the thermodynamic point of view, the *μSn*(*XSn*) of both Cu-Sn and Nb3Sn and their relation may also change with temperature. Thus, to explain the influence of heat treatment temperature on the Sn content of Nb3Sn, it needs studies about change of each of these factors with temperature.\n\nAnother factor that may influence the Sn content of Nb3Sn, according to the above theory, is the competition between the Sn diffusion rate across the Nb3Sn layer and the Nb-Sn reaction rate at the Nb3Sn/Nb interface. This effect has hardly been noticed; however, the phenomenon that Ti addition tends to accelerate Nb3Sn layer growth rate [55] and make the stoichiometry more uniform in the Nb3Sn layer [73] could be explained by this effect. It has been seen that Ti addition segregates at Nb3Sn grain boundaries and causes greater lattice distortion at\n\ngrain boundaries, which is believed to cause higher grain boundary diffusivity [84]. According to the theory presented in this section, higher grain boundary diffusion rate leads to not only higher Nb3Sn layer growth rate, but also reduced *XSn* gradient, because higher Sn diffusion rate relative to Nb-Sn reaction rate benefits Sn content homogenization.\n\nIn summary, according to the theory presented in [74] and in this section, the Sn content of Nb3Sn layer can be improved by: a) increasing the *μSn* of the Sn source, b) increasing the diffusivity of Sn along the Nb3Sn grain boundaries, c) reducing Nb3Sn grain size which leads to more grain boundaries that can transport Sn faster to the reaction frontier, d) decreasing the diffusion distance by reducing the subelement (filament) size, (e) increasing reaction rate at the Sn source/Nb3Sn interface to decrease the *μSn* drop across it, and f) decreasing reaction rate at the Nb3Sn/Nb interface to increase the *μSn* drop across it.\n\n## **6. Prospects to improve pinning capacity**\n\nThe average grain sizes of present Nb3Sn strands (110-150 nm) are ten times larger than the flux line spacing at 12-20 T, which is 10-15 nm. In this case, a large fraction of flux lines are not directly pinned by grain boundaries; the pinning force for such flux lines is provided by the rigidity of the flux line lattice (*i.e.*, the repulsion force among flux lines, which transfers the Lorentz force on each flux line to the leading flux lines that are directly pinned by grain boundaries). Such pinning force is limited by the shear strength of the flux line lattice, which is weak relative to the pinning force provided directly by grain boundaries. In this case, the *Fp*(*B*) curves peak at ~0.2*Bc2* [52]. The pinning efficiency can be significantly improved if grain size is refined. Many studies have shown that *Fp,max* is inversely proportional to grain size [37,38,55,72].\n\nFurthermore, experiments on Nb3Sn thin films [85] showed that if Nb3Sn grain sizes were reduced to 15-30 nm, the peaks of their *Fp*(*B*) curves would shift to 0.5*Bc2*. As grain size is comparable to flux line spacing, flux lines interact with grain boundaries individually, so loss in superconductivity is possible only if the Lorentz force is high enough for flux lines to break free from the direct pinning by grain boundaries; in this case *F<sup>p</sup>* is a summation of pinning force on each flux line, making the *Fp*(*B*) curve peak at 0.5*Bc2*. This \"individual pinning\" mode has been realized in Nb-Ti superconductors, in which non-superconducting α-Ti precipitates with space below 10 nm serve as the primary flux pinning centers.\n\nThe shift of the *Fp*(*B*) curve peak from 0.2*Bc2* to 0.5*Bc2* brings not only significant improvement in high-field *J<sup>c</sup>* but also remarkable reduction of low-field *J<sup>c</sup>* and associated magnetization, because the *Jc*(*B*) curve is linear as the *Fp*(*B*) curve peaks at 0.5*Bc2* – by contrast, as the *Fp*(*B*) curve peaks at 0.2*Bc2*, *J<sup>c</sup>* increases sharply as field decreases at low fields (≤4 T). Since magnetization is the driving force for low-field flux jumps and field errors in magnets, decreasing the low-field *J<sup>c</sup>* by shifting the *Fp*(*B*) curve peak to 0.5*Bc2* also benefits in improving low-field stability and suppressing the field errors caused by persistent-current magnetization [10,86].\n\nThe primary method used at present to reduce Nb3Sn grain size is to decrease heat treatment temperature for Nb3Sn formation. However, even reducing the temperature to 615 °C, the grain size is still 90-110 nm [55], and decreasing reaction temperature is adverse to Nb3Sn stoichiometry and *Bc2*. Another means to increase pinning is introducing additional pinning centers (APCs) to Nb3Sn wires, which has been heavily pursued since the 1980s. Flukiger et al. tried to use Nb containing thin Ta ribbons for wire fabrication, expecting the normal Ta metal to serve as APCs [87]. Some improvements were seen; however, this was believed to be caused by\nincreased *Bc2* (due to Ta doping) rather than increase of pinning [88]. Later Cu ribbons were used instead of Ta, and this idea of introducing Cu ribbons to Nb alloy precursors was actively pursued by a few groups for two decades [89-92]. In this method, filaments composed of Cucompassed Nb (with Cu and Nb thicknesses of 20-40 and 30-100 nm, respectively) were produced by successive steps of bundling and drawing of Cu-Nb composites [91]. These nonsuperconducting Cu ribbons (which transformed to Cu-Sn at the reaction stage) were expected to serve as APCs impeding flux line motion. However, this approach failed to produce conductors with *J<sup>c</sup>* higher than regular Nb3Sn wires [90,92]. A possible reason is that after heat treatment the Cu-Sn became isolated, widely-separated voids [92], which could not truly serve as APCs. In fact, one should remember that the Cu networks among Nb filaments in RRP subelements, which are even thicker (hundreds of nanometers), still disappear after heat treatment. These efforts demonstrate that introducing nano metal ribbons to Nb alloy precursors as APCs is not likely feasible.\n\nEfforts were also made to introduce second phase particles to Nb precursors. One such effort was made by Motowidlo to add the rare earth elements Y or Gd to Nb melt to make Nb-Y or Nb-Gd alloy [93]. Because Y or Gd has little solubility in Nb, it forms fine precipitates in Nb. Motowidlo's experiments showed that the addition of 0.75 at.% Y led to a refinement of the average grain size from 400-500 nm to 200-300 nm for samples reacted at 750 °C [93]. Magnetization measurements showed that the *Fp,max* of the Y-added sample was nearly twice that of the control sample [93]. Perhaps a larger amount of Y addition can lead to an even more significant reduction of grain size. Nevertheless, a problem with this method is, even this small amount of addition hardened the Nb alloy enough to make wire processing difficult [93].\n\nIndeed, the requirement for fine filament size makes introduction of APCs to Nb3Sn wires a challenging job. To obtain small *dsub*, manufacturing of Nb3Sn strands requires many courses of extrusion/drawing to attain the final wire size, with stretch ratios of Nb alloy precursors typically above 100,000. Hence, the precursors must be very ductile. This precludes the possibility of dispersing particles in the starting Nb alloy, as precipitation hardening makes the subsequent reduction difficult. Then there is only one possible means to introduce APCs into Nb3Sn wires, which is to form such APCs through chemical reactions during heat treatment. However, it is impossible to find a Nb-M alloy such that the metal M reacts with Sn to form compound precipitates in Nb3Sn. Thus, it requires introduction of an additional element (such as oxygen) that can react with M to form compound precipitates: a feasible approach to realize this is the internal oxidation method, which forms oxide compound of M.\n\nInternal oxidation of an A-B solid solution means that as oxygen is supplied to it, only the solute B is selectively oxidized. The oxide product of the solute may precipitate out in the matrix (solvent A) in the form of fine particles, which could be used for dispersion strengthening or grain refinement. To make the internal oxidation possible, the solute B must be much less noble than the solvent A. The internal oxidation method was successfully used in Nb3Sn tapes in the 1960s [94]. Commercially available Nb-1wt.%Zr alloy was used because Zr has much stronger affinity to oxygen than Nb does. The Ellingham diagram (which shows the formation energies of oxides) of some metals is shown in Figure 17 [95]. Nb-1%Zr foil was anodized to form Nb2O<sup>5</sup> layer on the surface, which decomposed during the subsequent annealing and released oxygen to Nb-1%Zr. The foil was then coated with Cu-Sn and reacted at 1050 °C to form Nb3Sn containing ZrO<sup>2</sup> particles [96]. With sufficient oxygen supplied, the grain size was refined to 300 nm, compared with 2-3 µm for samples without any oxygen addition [96].\n\n![](3__page_38_Figure_0.jpeg)\n\nFigure 17. The formation energies of some metal oxides [95].\n\nAfter Nb3Sn tapes were replaced by wires in the early 1970s, a lot of efforts have been made to transfer the internal oxidation method to Nb3Sn wires. This turned out to be quite challenging. In a Nb3Sn wire, due to the presence of the outside Cu sheath, oxygen cannot be delivered to the Nb-Zr alloy externally (e.g., by anodization or by annealing in an oxygen atmosphere). Benz ([97]) and Zeitlin [98] tried to pre-dissolve oxygen in Nb-1%Zr alloy and to use this oxygen-containing Nb-1%Zr for wire fabrication. However, the oxygen-containing Nb-1%Zr alloy was hard to draw, because the pre-dissolved oxygen markedly increased its strength and decreased its ductility. Subsequently, Zeitlin tried to use oxide powder as oxygen source in a mono-element-internal-tin (MEIT) wire, with the core composed of a mixture of SnO<sup>2</sup> and Sn powders [98,99]. However, no noticeable grain refinement was observed [98,99].\n\nThe work of internal oxidation was restarted recently [100,101]. Zeitlin's work was analyzed with the aim of finding out why the grains of the wires were not refined as those of the Nb3Sn tapes were. It was concluded that the Nb-Zr alloy in that wire did not really obtain the\n\noxygen in the SnO<sup>2</sup> powder [100]. Then a series of calculations and experiments were done to reveal the characteristics of oxygen transfer from oxide powder to Nb alloy [59,100]. They demonstrate that direct contact between oxide powder and Nb alloy is not necessary for oxygen transfer to occur – as long as the atmosphere connects, oxide powders can supply oxygen to the Nb alloy through atmosphere [102]; on the other hand, the oxygen diffusion rate in Cu is too slow to supply sufficient oxygen to Nb-1%Zr, unless the Cu layer is very thin [59]. Thus, the subelement structure must be properly designed to avoid cases in which inert Cu layer blocks the path of oxygen transfer.\n\nBased on these findings about oxygen transfer, the subelement structures of various types of Nb3Sn strands were modified such that oxide powders are located in proper positions inside the subelements to supply sufficient oxygen to oxidize the Zr atoms during heat treatment. A feasible filament structure enabling internal oxidation in a TT wire is illustrated in Figure 18 (a). The filament is comprised of four concentric layers (the central Sn rod, the Cu layer, the oxide powder layer, and the Nb-1%Zr alloy tube) inside the Cu sheath. Monofilaments following this structure using SnO<sup>2</sup> or NbO<sup>2</sup> powder were fabricated; NbO<sup>2</sup> supplies little oxygen to Nb-Zr [100], and was thus used as a control. Both wires were heat treated at 625 °C and 650 °C.\n\n![](3__page_39_Figure_2.jpeg)\n\nFigure 18. Schematics of modified (a) TT and (b) PIT filaments to realize internal oxidation.\n\nFrom SEM images of fractured surfaces of the wires reacted at 650 °C (Figure 19), the average grain sizes of the wires with NbO<sup>2</sup> and SnO<sup>2</sup> were calculated as 104 nm and 43 nm, respectively. The wires with NbO<sup>2</sup> and SnO<sup>2</sup> reacted at 625 °C had average grain sizes of 81 nm and 36 nm, respectively.\n\n![](3__page_40_Figure_1.jpeg)\n\nFigure 19. Magnified SEM images on fractured surfaces of the filaments with NbO<sup>2</sup> and SnO<sup>2</sup> powders, both reacted at 650 °C for 150 hours.\n\nThe grain sizes of samples heat treated at various temperatures up to 850 °C show that internal oxidation refines the grain size over the whole temperature range [100]. TEM images show that in the filament with SnO2, there are both intra-granular and inter-granular ZrO<sup>2</sup> particles, with sizes ranging from 3 to 15 nm [100].\n\nNb3Sn layer *Jc*s were calculated from magnetic moment vs field loops. The 4.2 K, 12 T layer *Jc*s of the wire with NbO<sup>2</sup> reacted at 625 °C is 4400 A/mm<sup>2</sup> [101], close to those of RRP strands. The value of the wire with SnO<sup>2</sup> reacted at 625 °C is 9600 A/mm<sup>2</sup> [101]. The *Fp*(*B*) curves were calculated from the *Jc*(*B*) curves and fitted to a universal scaling law *Fp*=*C•Fp,max*•*b p* •(1-*b*) *q* (where *C* is a constant, and *b*=*B/Bc2*) [101]. The Nb3Sn layer *Fp,max* of the wire with SnO<sup>2</sup> reacted at 625 °C is 180 GN/m<sup>3</sup> , doubling those of RRP conductors due to refined grain size. The *Bc2* of the wire with NbO<sup>2</sup> reacted at 625 °C is 20.9 T, while those of the wire with SnO<sup>2</sup> are 23 T and 20 T for samples reacted at 650 °C and 625 °C [101]. These values are similar to those obtained in regular binary PIT wires reacted at 675 °C [72], indicating that introduction of ZrO<sup>2</sup> nanoparticles to Nb3Sn and refinement of grain size do not affect *Bc2*. By normalizing *F<sup>p</sup>* to *Fp,max* and *B* to *Bc2*, normalized *Fp*(*B*) curves were generated, which peak at ~0.2*Bc2*, 0.26*Bc2*, and 1/3*Bc2* for the wire with NbO<sup>2</sup> reacted at 625 °C and the wire with SnO<sup>2</sup> reacted at 650 °C and 625 °C, which have grain size of 81 nm, 43 nm, and 36 nm, respectively [101].\n\nWhat is the mechanism for the shift of *Fp*(*B*) curve peak to one third of *Bc2* for the sample with grain size of 36 nm? One possibility is that this is due to point pinning by ZrO<sup>2</sup> particles, following the point-pinning model proposed by Dew-Hughes [103]. If this is the case, the *Fp*(*B*) curve peak cannot shift beyond 1/3*Bc2*. An alternative explanation is, as the refined grain size becomes closer to the flux line spacing, some individual pinning begins to occur; if this mechanism is true, then the *Fp*(*B*) curve can eventually shift to 0.5*Bc2* by further refinement of grain size. To find out which mechanism is correct, it is necessary to further refine the grain size and see if the peak can shift further. To obtain smaller grain size, the above wire was heat treated at 600 °C, which led to an average grain size of ~30 nm (SEM image of a fractured surface is shown in Figure 20 a). A fit to its *Fp*(*B*) curve at 4.2 K (Figure 20 b) shows that the curve peaks at ~0.4*Bc2*, indicating that the second mechanism is correct. An extrapolation shows that the *Fp*(*B*) curve peak can shift to 0.5*Bc2* by further refining grain size to roughly 20-25 nm.\n\n![](3__page_42_Figure_0.jpeg)\n\nFigure 20. (a) SEM image of the fractured surface of the wire with SnO<sup>2</sup> powder reacted at 600 °C, and (b) its normalized *Fp*(*B*) curve at 4.2 K with a fit using the general scaling law.\n\nIt is concluded from these studies that as grain size is large (e.g., nearly 100 nm), a decrease of the grain size only shifts the *Fp*(*B*) curve upward (i.e., *Fp,max* increases) while the peak remains at 0.2*Bc2*; however, as grain size drops below ~50 nm, not only does *Fp,max* increase, but also the *Fp*(*B*) curve peak shifts to higher fraction of *Bc2*, which gives extra benefit for high-field *J<sup>c</sup>* improvement [101].\n\nThe above results were obtained on a TT subelement based on the scheme shown in Figure 18 (a). Such a structure is difficult to obtain small *dsub*, however. Figure 18 (b) shows a scheme to realize internal oxidation in a PIT filament. The filament is comprised of a Cujacketed Nb-Zr alloy tube, which is filled with a mixture of Sn source (e.g., Cu-Sn or Nb-Sn) and oxide powders. This structure turns out to be much more amenable to wire drawing. A PIT wire with 61 filaments produced in HTR was drawn down to 0.254 mm (with *dsub* of 24 μm) without breakage [102]. During heat treatment, the oxide powder in the core releases oxygen to the Nb-1%Zr. Experiments demonstrated that with proper oxide amount, the Nb-1%Zr alloy was fully oxidized after suitable heat treatments, which led to grain sizes similar to the TT wires shown in Figure 19. It is worth pointing out that proper intermediate heat treatment schedule is critical for oxygen transfer in PIT wires [102]. Transport (voltage-current) measurements on such PIT wires revealed transport *Jc*s similar to the magnetic layer *Jc*s mentioned earlier [104].\n\nDevelopment of such PIT wires is under way to fulfill the requirements of high nonmatrix *Jc*, small *dsub*, high RRR, and large piece length. In order to obtain high non-matrix *Jc*, while we improve pinning by refining grain size, we also need to optimize the other two factors (fine-grain Nb3Sn fraction and *Bc2*) so that they are not considerably lower compared with those of regular Nb3Sn conductors. Fortunately, the amount of oxide powder needed to fully oxidize the Nb-1%Zr alloy only occupies several percent of the subelement volume [102]; thus, use of this technique causes very small influence on real estate. This, however, requires optimization of precursor ratios in this new type of conductors, including Nb/Sn, Sn/Cu, and O/Zr, which needs R&D work.\n\nThe *Bc2*s of the above internally-oxidized wires are not optimized as a result of underreaction and lack of ternary doping. The wires can be fully reacted in a reasonable time if the *dsub* is small and the Nb/Sn ratio is suitable. Adding ternary dopants, however, requires special attention. Since oxide powder is preferably added to the core of each subelement for the ease of wire processing, introduction of Ti to the Sn core as in regular Nb3Sn wires would cause a reaction between Ti and O to form TiO<sup>2</sup> [102]. One way to solve this problem is to move the Ti source away from the core (e.g., distributing Nb-47%Ti rods among the Nb alloy as in [105]). Another way is to use Ta as dopant, because Ta has similar affinity to oxygen than Nb does (Figure 17). Suppose by adding dopants, the 4.2 K *Bc2* can be increased to 25 T while the grain size is kept at 36 nm, and at such a grain size, the *Fp*(*B*) curve still peaks at 1/3*Bc2* and *Fp,max* is\n\nstill 180 GN/m<sup>3</sup> [101], then the 15-20 T layer *Jc*s are estimated to be over 3 times of those of present RRP wires [104].\n\nIt is expected that the internal oxidation technique can also be implemented in RRP wires by making suitable modifications of subelements. One promising scheme is to use a mixture of Sn source powder and oxide powder to replace the Sn rod. Experiments have shown that oxygen in the core can diffuse through the Cu-Nb-Sn ternary phase [102]. A possible scheme for applying this technique to single-barrier internal-tin strands is to use Nb-Zr tubes filled with oxide powder to replace Nb rods – however, it needs verification whether desirable filament sizes can be obtained in this structure.\n\n## **7. Prospects for further improvement of Nb3Sn superconductors**\n\nIt is shown in Section 3 that the non-matrix *J<sup>c</sup>* of Nb3Sn strands is determined by three factors: current-carrying Nb3Sn fraction in subelements, *Bc2*, and pinning capacity, with the latter two determining the layer *Jc*. Table II summaries the three factors of state-of-the-art RRP, PIT and TT strands, and the presumed limits or optimal levels that Nb3Sn conductors can possibly reach. Based on an analytic model developed for the variation of phase fractions with precursor ratios, it is shown in Section 4 that the maximum current-carrying Nb3Sn fraction in a subelement can reach ~65%. Nb3Sn strands with optimized doping and very high heat treatment temperature have *Bc2*s (4.2 K) of ~28 T, which corresponds to 31-32 T for *Bc2* (0 K), the highest reported measured *Bc2* for Nb3Sn [54].\n\nTable II. Comparison of Nb3Sn fractions, *Bc2*, and pinning characteristics of the present best RRP, PIT and TT conductors, and the presumed limits for Nb3Sn superconductors.\n|                      | Fine-grain Nb3Sn | Bc2<br>(4.2 K), T | Flux Pinning |            |\n|----------------------|------------------|-------------------|--------------|------------|\n|                      | fraction         |                   | Grain size   | Fp(B) peak |\n| Present best RRP     | ~60<br>%         | 25-27<br>T        | 120-150 nm   | ~0.2Bc2    |\n| Present best PIT, TT | 40-45<br>%       | 25-27<br>T        | 100-150 nm   | ~0.2Bc2    |\n| Limits<br>or optimum | ~65<br>%         | ~28<br>T          | < 15<br>nm   | 0.5Bc2     |\n\nFrom Table II it is clear that the room for further improving Nb3Sn fraction and *Bc2* of state-of-the-art Nb3Sn conductors (RRP type) is marginal. By optimizing chemistry, processing, and heat treatments of Nb3Sn strands to push these two factors to their limits, it may be possible to further improve non-Cu *J<sup>c</sup>* of the state-of-the-art Nb3Sn strands by up to 10-20%; however, further greater improvement along these lines seems not likely. It is also worth pointing out that an additional difficulty lies in that the above three factors are not independently influenced by the starting chemistry and processing of conductors. In many cases a modification to improve one of the factors may cause negative impacts to other factors. For example, increasing reaction temperature benefits *Bc2* but undermines flux pinning; increasing Cu/Sn ratio in RRP, PIT and TT wires helps in reducing high-Sn intermediate phases and improving fine-grain Nb3Sn fraction (Figure 9), but could be detrimental to stoichiometry and *Bc2* (Section 5). Thus, there may be trade-offs between these factors, making it difficult to push all of them to their optimal levels simultaneously.\n\nOn the other hand, it is clear from Table II that there is still a lot of room for improving the pinning, since the optimal grain size is far below those of present strands. To achieve further significant improvement of *J<sup>c</sup>* (for instance, by 40-45% for RRP conductors as required by the FCC project as shown in Section 1), efforts should be made to improve flux pinning, particularly via introduction of APCs.\n\n## **8. Summary**\n\nImprovement in *J<sup>c</sup>* of Nb3Sn conductors is highly needed to reduce size and cost of magnets, particularly for circular proton accelerators. It is shown that due to large performance variation in series production of conductors, improvement of *J<sup>c</sup>* by 40-45% for present state-ofthe-art RRP wires is required for FCC specification. With the record *J<sup>c</sup>* of Nb3Sn strands plateaued for nearly two decades, new techniques are needed to lift *J<sup>c</sup>* out of stagnation. This article reviews the factors that determine the non-Cu *J<sup>c</sup>* of Nb3Sn conductors, and discusses the prospects for further optimizing each factor. The non-Cu *J<sup>c</sup>* of Nb3Sn strands is determined by three factors: current-carrying Nb3Sn fraction in subelements, *Bc2*, and pinning capacity, with the latter two determining the layer *Jc*. An analytic model developed to explore the dependence of phase fractions on precursor ratios shows that the current-carrying Nb3Sn fraction is at maximum as precursor ratios make the high-Sn intermediate phases amount drop to zero, and the limit of fine-grain Nb3Sn fraction in Nb3Sn subelements is estimated to be ~65%. Approaches to improving current-carrying Nb3Sn fractions of PIT and TT wires are proposed. The diffusion reaction process for the formation of Nb3Sn is analyzed in this article, which explores what controls stoichiometry of Nb3Sn phase formed in the Sn source/Nb3Sn/Nb system. This theory explains how Sn source influences Sn content gradient and growth rate of the Nb3Sn layer, as well as why Ti tends to make Nb3Sn layer stoichiometry more uniform. The theory could be used as a guide to improve Nb3Sn stoichiometry and *Bc2*. The internal oxidation technique, which forms ZrO<sup>2</sup> nano inclusions in Nb3Sn and significantly refines grain size and improves *Jc*, is feasible to be implemented in practical Nb3Sn wires. Further work to optimize this technique is proposed. Finally, after summarizing all the factors, it is seen that the only opportunity for further significantly improving non-Cu *J<sup>c</sup>* of Nb3Sn conductors lies in improving pinning,\n\nparticularly by the introduction of APCs.\n\n## **Acknowledgements**\n\nThe author thanks Edward W. Collings for reviewing the language of this manuscript.\n\n## **References**\n\n- [1]. Kunzler J E, Buehler E, Hsu F S L and Wernick J H 1961 Superconductivity in Nb3Sn at High Current Density in a Magnetic Field of 88 kgauss *Phys. Rev lett.* **6** 89-91\n- [2]. Kunzler J E and Tanenbaum M 1962 Superconducting Magnets *Sci. Am.* **206** 60-67\n- [3]. http://www.iter.org/factsfigures\n- [4]. Parrell J A, Field M B, Zhang Y and Hong S 2005 Advances in Nb3Sn strand for fusion and particle accelerator applications *IEEE Trans. Appl. Supercond.* **15** 1200-4\n- [5]. Baig T, Yao Z, Doll D, Tomsic M and Martens M 2014 Conduction cooled magnet design for 1.5 T, 3.0 T and 7.0 T MRI systems *Supercond. Sci. Technol.* **27** 125012\n- [6]. Sharma R G 2015 Superconductivity: Basics and Applications to Magnets *Springer International Publishing* 360-3\n- [7]. Posen S and Hall D L 2017 Nb3Sn superconducting radiofrequency cavities: fabrication, results, properties, and prospects *Supercond. Sci. Technol.* **30** 033004\n- [8]. Kashikhin V V and Zlobin A V 2005 Magnetic instabilities in Nb3Sn strands and cables *IEEE Trans. Appl. Supercond.* **15** 1621-4\n- [9]. Cooley L D, Chang P S and Ghosh A K 2007 Magnetization, RRR and Stability of Nb3Sn Strands with High Sub-element Number *IEEE Trans. Appl. Supercond.* **17** 2706-9\n- [10]. Wang X *et al.* 2015 Validation of Finite-Element Models of Persistent-Current Effects in Nb3Sn Accelerator Magnets *IEEE Trans. Appl. Supercond.* **25** 4003006\n- [11]. Tommasini D and Toral F 2016 Overview of magnet design options *EuroCirCol-P1-WP5 report* 4-6\n- [12]. Field M B, Parrell J A, Zhang Y, Meinesz M and Hong S 2008 Internal tin Nb3Sn conductors for particle accelerator and fusion applications *AIP Conf. Proc.* **986** 237-43\n- [13]. Schoerling D, Tommasini D, Toral F, Martinez T and Durante M 2016 Considerations on a cost model for high-field dipole arc magnets for FCC *Applied Supercond. Conf.* 2LPo1D-07\n- [14]. Todesco E 2014 Magnetic design of superconducting magnets *Proceedings of the CAS-CERN Accelerator School* **CERN-2014-005** 269-92\n- [15]. Parrell J A *et al.* 2009 Internal tin Nb3Sn conductors engineered for fusion and particle accelerator applications *IEEE Trans. Appl. Supercond.* **19** 2573-9\n- [16]. Cooley L D, Ghosh A K, Dietderich D R and Pong I 2017 Conductor Specification and Validation for High-Luminosity LHC Quadrupole Magnets *IEEE Trans. Appl. Supercond.* **27** 6000505\n- [17]. Parrell J A, Zhang Y Z, Field M B, Cisek P and Hong S 2003 High field Nb3Sn conductor development at Oxford Superconducting Technology *IEEE Trans. Appl. Supercond.* **13** 3470-3\n- [18]. Parrell J A, Field M B, Zhang Y Z and Hong S 2004 Nb3Sn Conductor Development for Fusion and Particle Accelerator *AIP Conf. Proc.* **711** 369-75\n- [19]. Matthias B T, Geballe T H, Geller S and Corenzwit E 1954 Superconductivity of Nb3Sn *Phys. Rev.* **95** 1435\n- [20]. Rosner C H 2012 Intermagnetics Remembered: From Superconductor-Based GE Spin-Off to Billion Dollar Valuation *IEEE/CSC & ESAS EUROPEAN SUPERCONDUCTIVITY NEWS FORUM* **19** 1-29\n- [21]. Hanak J J, Strater K and Cullen G W 1964 Preparation and properties of vapor-deposited niobium stannide RCA Review **25** 342-65\n- [22]. Benz M G 1966 Superconducting properties of diffusion processed niobium-tin tape *IEEE Trans. Magn.* **2** 760-4\n- [23]. Swartz P S and Bean C P 1968 A Model for magnetic instabilities in hard superconductors – adiabatic critical state *J. Appl. Phys.* **39** 4991–8\n- [24]. Tachikawa K, Tanaka Y and Fukuda S 1966 *Japan Pat.* 0670619\n- [25]. Howlett B 1969 *Great Britain Pat.* 52,623 /69\n- [26]. Kaufman A R and Pickett J J 1970 *Bull. Ame. Phys. Soc.* **15** 833\n- [27]. Suenaga M, Horigami O and Luhman T S 1974 Effects of Sn concentration on the critical current density of Nb3Sn formed at the Nb–(Cu–Sn alloy) interface *Appl. Phys. Lett.* **25** 624-7\n- [28]. Hashimoto Y, Yoshizaki K and Tanaka M 1974 *Proceedings of the 5th ICEC* 332\n- [29]. Charlesworth J P, Macphail I and Madsen P E 1970 Experimental Work on the Niobium-Tin Constitution Diagram and Related Studies *J. Mat. Sci.* **5** 580-603\n- [30]. Moore D F, Zubeck R B, Rowell J M and Beasley M R 1979 Energy gaps of the A-15 superconductors Nb3Sn, V3Si, and Nb3Ge measured by tunneling *Phys. Rev.* **20B** 2721\n- [31]. Devantay H, Jorda J L, Decroux M, Muller J and Flukiger R 1981 The Physical and Structural-Properties of Superconducting A15-Type Nb-Sn Alloys *J. Mater. Sci.* **16** 2145- 53\n- [32]. Orlando T P, Beasley M R, Mcniff E J and Foner S 1979 Critical Fields, Pauli Paramagnetic Limiting, and Material Parameters of Nb3Sn and V3Si *Phys*. *Rev*. *B* **19** 4545- 61\n- [33]. Togano K, Asano T and Tachikawa K 1979 Effects of Magnesium Addition to the Cu-Sn Matrix in the Composite-Processed Nb3Sn Superconductor *J. Less-Common Met*. **68** 15-22\n- [34]. Takeuchi T, Asano T, Iijima Y and Tachikawa K 1981 Effects of the Iva Element Addition on the Composite-Processed Superconducting Nb3Sn *Cryogenics* **21** 585-90\n- [35]. Wecker J, Bormann R and Freyhardt H C 1983 Effects of Additives on the Superconducting Properties of Powder-Metallurgically Produced Cu-Nb3Sn Composite Wires *J. Appl. Phys.* **54** 3318-24\n- [36]. Suenaga M, Welch D O, Sabatini R L, Kammerer O F and Okuda S 1986 Superconducting Critical-Temperatures, Critical Magnetic-Fields, Lattice-Parameters, and Chemical-Compositions of Bulk Pure and Alloyed Nb3Sn Produced by the Bronze Process *J. Appl. Phys.* **59** 840-53\n- [37]. Scanlan R M, Fietz W A and Koch E F 1975 Flux Pinning Centers in Superconducting Nb3Sn *J. Appl. Phys.* **46** 2244-9\n- [38]. Schauer W and Schelb W 1981 Improvement of Nb3Sn High-Field Critical Current by a 2- Stage Reaction *IEEE Trans. Magn.* **17** 374-7\n- [39]. McDonald W, Curtis C, Scanlan R, Larbalestier D, Marken K and Smathers D 1983 Manufacture and evaluation of Nb3Sn conductors fabricated by the MJR method *IEEE Trans. Magn.* **19** 1124-7\n- [40]. Smathers D B, O'Larey P M, Siddall M B and Peterson J R 1987 Characterization of vanadium diffusion barriers in Nb-Sn composite wires *IEEE Trans. Magn.* **23** 1347-50\n- [41]. Field M B, Parrell J A, Zhang Y and Hong S 2008 Critical current density in Nb3Sn superconducting wire *US pat.* 2006/0081307 A1\n- [42]. Elen J D, van Beijnen C A M and van der Klein C A M 1977 Multifilament V3Ga and Nb3Sn superconductors produced by the ECN-technique. *IEEE Trans*. *Magn*. **13** 470-3\n- [43]. Godeke A, den Oudenb A, Nijhuisb A and ten Kateb H H J 2008 State of the art powderin-tube niobium–tin superconductors *Cyogenics* **48** 308-16\n- [44]. Boutboul T, Oberli L, Ouden A, Pedrini D, Seeber B and Volpini G 2009 Heat Treatment Optimization Studies on PIT Nb3Sn Strand for the NED Project *IEEE Trans. Appl. Supercond.* **19** 2564-7\n- [45]. Murase S *et al.* 1979 Multifilament Niobium-Tin Conductors *IEEE Trans. Magn.* **15** 83-6\n- [46]. Yamasaki H and Kimura Y 1982 Fabrication of Nb3Sn Superconductors by the Solid-Liquid Diffusion Method Using Sn Rich CuSn Alloy *Cryogenics* **22** 89-93\n- [47]. Renaud C V, Wong T and Motowidlo L R 2005 ITT Nb3Sn Processing and Properties *IEEE Trans. Appl. Supercond.* **15** 3418-21\n- [48]. Gregory E, Tomsic M, Peng X, Dhaka R and Sumption M D 2008 A tubular process for making Nb3Sn conductors *Adv. Cryo. Eng.* **54** 252-9\n- [49]. Bhartiya S, Sumption M D, Peng X, Gregory E, Tomsic M J and Collings E W 2009 Investigation of the effects of low temperature heat treatments on the microstructure and properties of multifilamentary, Tube-Type Nb3Sn strands *IEEE Trans. Appl. Supercond.* **19** 2588–92\n- [50]. Lindenhovius J H, Hornsveld E M, den Ouden A, Wessel W A J and ten Kate H H J 1999 Progress in the development of Nb3Sn conductors based on the \"powder in tube\" method with finer filaments *IEEE Trans. Appl. Supercond.* **9** 1451-4\n- [51]. Peng X *et al* 2011 Strain and Magnetization Properties of High Subelement Count Tube-Type Nb3Sn Strands *IEEE Trans. Appl. Supercond.* **21** 2559-62\n- [52]. Kramer E J 1973 Scaling Laws for Flux Pinning in Hard Superconductors *J. Appl. Phys.* **44** 1360-70\n- [53]. Godeke A 2006 A review of the properties of Nb3Sn and their variation with A15 composition, morphology and strain state *Supercond. Sci. Technol.* **19** R68-80\n- [54]. Godeke A 2005 Performance boundaries in Nb3Sn superconductors *PhD dissertation* University of Twente\n- [55]. Xu X, Sumption M D and Collings E W 2014 Influence of Heat Treatment Temperature and Ti doping on Low Field Flux Jumping and Stability in (Nb-Ta)3Sn Strands *Supercond. Sci. Technol.* **27** 095009\n- [56]. Ghosh A K, Sperry E A, Ambra J D' and Cooley L D 2009 Systematic changes of the Nb-Sn reaction with time, temperature, and alloying in restacked-rod-process (RRP) Nb3Sn strands *IEEE Trans. Appl. Supercond.* **19** 2580-3\n- [57]. Xu X, Sumption M D, Bhartiya S, Peng X and Collings E W 2013 Critical current densities and microstructures in rod-in-tube and Tube Type Nb3Sn strands – Present status and prospects for improvement *Supercond. Sci. Technol.* **26** 075015\n- [58]. Xu X, Collings E W, Sumption M D, Kovacs C and Peng X 2014 The effects of Ti addition and high Cu/Sn ratio on tube type (Nb,Ta)3Sn strands, and a new type of strand designed to reduce unreacted Nb ratio *IEEE Trans. Appl. Supercond.* **24** 6000904\n- [59]. Xu X 2016 Prospects for Improving the Critical Current Density of Superconducting Nb3Sn Strands via Optimization of Nb3Sn Fraction, Stoichiometry, and Grain Size *PhD dissertation* The Ohio State University\n- [60]. Xu X, Sumption M D and Collings E W 2013 A Model for Phase Evolution and Volume Expansion in Tube Type Nb3Sn Conductors *Supercond. Sci. Technol.* **26** 125006\n- [61]. Scheuerlin C *et al.* 2010 Phase transformations during the reaction heat treatment of Nb3Sn superconductors *J. Phys. Conf. Ser.* **234** 022032\n- [62]. Neijmeijer W L 1988 Microstructural and Kinetic studies of the manufacturing of superconducting Nb3Sn *Ph.D. dissertation* University of Twente\n- [63]. Sanabria C, Field M, Lee P and Larbalestier D 2016 The vital role of a well-developed Sn-Nb-Cu membrane for high *J<sup>c</sup>* RRP Nb3Sn wires *Applied Supercond. Conf.* 4MOr2A-04\n- [64]. Barzi E *et al.* 2017 Heat treatment optimization of Rutherford cables for a 15-T Nb3Sn dipole demonstrator *IEEE Trans. Appl. Supercond.* **27** 4802905\n- [65]. McKinnell J C, O'Larey P M, Jablonski P D and Siddall M B 1996 Tantalum-Niobium Alloy Diffusion Barriers for Superconducting Nb3Sn Wires in Fusion Applications *Adv. Cryo. Eng.* **42** 1415-22\n- [66]. Abächerli V, Uglietti D, Lezza P, Seeber B, Flükiger R, Cantoni M and Buffat P A 2005 The Influence of Ti Doping Methods on the High Field Performance of (N,Ta,Ti)3Sn Multifilamentary Wires Using Osprey Bronze *IEEE Trans. Appl. Supercon.* **15** 3482-5\n- [67]. Peng X, Sumption M D, Dhaka R, Bhatia M, Tomsic M, Gregory E and Collings E W 2007 Composition profiles and upper critical field measurement of internal-Sn and tube-type conductors *IEEE Trans. Appl. Supercond.* **17** 2668-71\n- [68]. Lee P J and Larbalestier D C 2005 Microstructure, Microchemistry and the Development of Very High Nb3Sn Layer Critical Current Density *IEEE Trans. Appl. Supercond.* **15** 3474-7\n- [69]. Cantoni M, Scheuerlein C, Pfirter P Y, de Borman F, Rossen J, Arnau G, Oberli L and Lee P 2010 Sn concentration gradients in Powder-in-Tube superconductors *J. Phys.* **234** 022005\n- [70]. Baumgartner T, Eisterer M, Bernardi J, Senatore C, Scheuerlein C and Ballarino A 2016 A-15 Inhomogeneity in Nb3Sn Wires: A Potential Leverage Point for Conductor Improvement *FCC Week* 179\n- [71]. Reddi B V, Raghavan V, Ray S and Narlikar A V 1983 Growth kinetics of monofilamentary Nb3Sn and V3Ga synthesized by solid-state diffusion *J. Mater. Sci.* **18** 1165-73\n- [72]. Fischer C M 2002 Investigation of the relationships between superconducting properties and Nb3Sn reaction conditions in powder-in-tube Nb3Sn *M.S. Thesis* University of Wisconsin-Madison\n- [73]. Tarantini C, Sung Z, Lee P, Ghosh A and Larbalestier D 2016 Can Ti-doping produce more stoichiometric RRP composites and improve in-field performance? *Applied Supercond. Conf.* 4MOr2A-02\n- [74]. Xu X and Sumption M 2016 A model for the compositions of non-stoichiometric intermediate phases formed by diffusion reactions, and its application to Nb3Sn superconductors *Sci. Rep.* **6** 19096\n- [75]. Laurila T, Vuorinen V, Kumar A K and Paul A 2010 Diffusion and growth mechanism of superconductor grown by bronze technique *Appl. Phys. Lett.* **96** 231910\n- [76]. Zhou J 2011 The effects of variable tin content on the properties of A15 superconducting niobium-3-tin *Ph.D. dissertation* Florida State University\n- [77]. Muller H and Schneider Th 2008 Heat treatment of Nb3Sn conductors *Cryogenics.* **48** 323- 30\n- [78]. Besson R, Guyot S and Legris A 2007 Atomic-scale study of diffusion in A15 Nb3Sn *Phys. Rev. B* **75** 054105\n- [79]. Li M, Du Z, Guo C and Li C 2009 Thermodynamic optimization of the Cu-Sn and Cu-Nb-Sn systems *J. Alloys Compd.* **477** 104-17\n- [80]. Hansen M and Anderko R P 1958 Constitution of binary alloys *McGraw-Hill* 634\n- [81]. Toffolon C, Servant C, Gachon J C and Sundman B 2002 Reassessment of the Nb-Sn system *J. Phase Equilib.* **23** 134-9\n- [82]. Banno N, Miyamoto Y and Tachikawa K 2016 Multifilamentary Nb3Sn wires fabricated through internal diffusion process using brass matrix *IEEE Trans. Appl. Supercon.* **26** 6001504\n- [83]. Kirkaldy J S, Brigham R J and Weichert D H 1965 Diffusion interactions in Cu-Zn-Sn as determined from infinite and finite diffusion couples *ACTA Metallurgica* **13** 907-15\n- [84]. Sandim M J R, Tytko D, Kostka A, Choi P, Awaji S, Watanabe K and Raabe D 2013 Grain boundary segregation in a bronze-route Nb3Sn superconducting wire studied by atom probe tomography *Supercond. Sci. Technol.* **26** 055008\n- [85]. Dietderich D R and Godeke A 2008 Nb3Sn research and development in the USA wires and cables *Cryogenics* **48** 331-40\n- [86]. Xu X, Majoros M, Sumption M D and Collings E W 2015 Persistent-Current Magnetization of Nb3Sn Strands -- Influence of Applied Field Angle and Transport Current, *IEEE Trans. Appl. Supercon.* **25** 8200704\n- [87]. Flukiger R, Specking W, Klemm M and Gauss S 1989 Composite core Nb3Sn wires: preparation and characterization *IEEE Trans. Magn.* **25** 2192-9\n- [88]. Dietderich D and Scanlan R 1997 Nb3Sn artificial pinning microstructures *IEEE Trans. Appl. Supercond.* **7** 1201-4\n- [89]. Zhou R, Hong S, Marancik W and Kear B 1993 Artificial flux pinning in Nb and Nb3Sn superconductors *IEEE Trans. Appl. Supercond.* **3** 986-9\n- [90]. Zhou R 1994 Processing and characterization of Nb and Nb3Sn superconductors with artificial pinning centers *Ph.D. dissertation* Rutgers University\n- [91]. Rodrigues C A and Rodrigues D 2004 Development and analysis of superconductors with projected nanostructured pinning centers *Physica C* **408-410** 921-2\n- [92]. Rodrigues D, Da Silva L B S, Rodrigues C A, Oliveira N F and Bormio-Nunes C 2011 Optimization of Heat Treatment Profiles Applied to Nanometric-Scale Nb3Sn Wires With Cu-Sn Artificial Pinning Centers *IEEE Trans. Appl. Supercon.* **21** 3150-3\n- [93]. Motowidlo L R, Lee P J and Larbalestier D C 2009 The Effect of Second Phase Additions on the Microstructure and Bulk Pinning Force in Nb3Sn PIT Wire *IEEE Trans. Appl. Supercond.* **19** 2568-72\n- [94]. Martin D L and Benz M G 1969 Method of making superconductors containing flux traps *US Pat.* 3429032\n- [95]. DeHoff R 2006 Thermodynamics in Materials Science *CRC Press* 376-7\n- [96]. Rumaner L E, Benz M G and Hall E L 1994 The Role of Oxygen and Zirconium in the Formation and Growth of Nb3Sn Grains *Metall. Mater. Trans. A* **25** 213-9\n- [97]. Benz M 2003 Zirconia-stabilized multi-filamentary niobium-tin superconducting wire *US Pat.* 2003/0085053\n- [98]. Zeitlin B A, Gregory E, Marte J, Benz M, Pyon T, Scanlan R and Dietderich D 2005 Results on Mono Element Internal Tin Nb3Sn Conductors (MEIT) with Nb7.5Ta and Nb(1Zr+Ox) Filaments *IEEE Trans. Appl. Supercond.* **15** 3393-6\n- [99]. Zeitlin B A, Gregory E, Marte J, Benz M, Scanlan R and Dietderich D 2006 The Effects on the Superconducting Properties on the Addition of Oxygen and Titanium to (Nb-1Zr)3Sn Mono Element Internal Tin (MEIT) Conductors *Adv. Cryo. Eng.* **52B** 513-9\n- [100]. Xu X, Sumption M D, Peng X and Collings E W 2014 Refinement of Nb3Sn grain size by the generation of ZrO<sup>2</sup> precipitates in Nb3Sn wires *Appl. Phys. Lett.* **104** 082602\n- [101]. Xu X, Sumption M D and Peng X 2015 Internally Oxidized Nb3Sn Superconductor with Very Fine Grain Size and High Critical Current Density *Adv. Mater.* **27** 1346-50\n- [102]. Xu X, Peng X, Sumption M D and Collings E W 2017 Recent Progress in Application of Internal Oxidation Technique in Nb3Sn Strands *IEEE Trans. Appl. Supercond.* **27** 6000105\n- [103]. Hughes D 1974 Flux pinning mechanisms in type II superconductors *Phil. Mag.* **30** 293- 305\n- [104]. Xu X 2017 Opportunities and Challenges for Nb3Sn conductors with APC *Low Temperature Superconductor Workshop* III-3\n- [105]. Renaud C V and Wong T 2009 Titanium Doped Nb3Sn Superconductor Fabricated by the Internal Tin Tube (ITT) Approach *IEEE Trans. Appl. Supercond.* **19** 2548-51",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "A review and prospects for Nb3Sn superconductor development",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              115.646484375,
+              73.6595458984375
+            ],
+            [
+              496.951171875,
+              73.6595458984375
+            ],
+            [
+              496.951171875,
+              87.69952392578125
+            ],
+            [
+              115.646484375,
+              87.69952392578125
+            ]
+          ]
+        },
+        {
+          "title": "Xingchen Xu",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              271.3359375,
+              105.44146728515625
+            ],
+            [
+              338.10198974609375,
+              105.44146728515625
+            ],
+            [
+              338.10198974609375,
+              117.44146728515625
+            ],
+            [
+              271.3359375,
+              117.44146728515625
+            ]
+          ]
+        },
+        {
+          "title": "Abstract",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              71.19580078125,
+              195.32147216796875
+            ],
+            [
+              116.57999420166016,
+              195.32147216796875
+            ],
+            [
+              116.57999420166016,
+              207.474609375
+            ],
+            [
+              71.19580078125,
+              207.474609375
+            ]
+          ]
+        },
+        {
+          "title": "1. Introduction",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              70.859619140625,
+              183.801513671875
+            ],
+            [
+              149.35198974609375,
+              183.801513671875
+            ],
+            [
+              149.35198974609375,
+              196.453125
+            ],
+            [
+              70.859619140625,
+              196.453125
+            ]
+          ]
+        },
+        {
+          "title": "2. Review of Nb3Sn conductor development",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              71.12109375,
+              348.3514709472656
+            ],
+            [
+              293.2760314941406,
+              348.3514709472656
+            ],
+            [
+              293.2760314941406,
+              360.3514709472656
+            ],
+            [
+              71.12109375,
+              360.3514709472656
+            ]
+          ]
+        },
+        {
+          "title": "3. Factors controlling the Nb3Sn conductor Jc",
+          "heading_level": null,
+          "page_id": 11,
+          "polygon": [
+            [
+              71.12109375,
+              168.2015380859375
+            ],
+            [
+              303.9797668457031,
+              168.2015380859375
+            ],
+            [
+              303.9797668457031,
+              180.3887939453125
+            ],
+            [
+              71.12109375,
+              180.3887939453125
+            ]
+          ]
+        },
+        {
+          "title": "4. Prospects to improve the Nb3Sn fractions",
+          "heading_level": null,
+          "page_id": 15,
+          "polygon": [
+            [
+              71.34521484375,
+              239.00152587890625
+            ],
+            [
+              295.093994140625,
+              239.00152587890625
+            ],
+            [
+              295.093994140625,
+              251.173828125
+            ],
+            [
+              71.34521484375,
+              251.173828125
+            ]
+          ]
+        },
+        {
+          "title": "5. A theory for Nb3Sn stoichiometry",
+          "heading_level": null,
+          "page_id": 22,
+          "polygon": [
+            [
+              71.2705078125,
+              183.801513671875
+            ],
+            [
+              255.83599853515625,
+              183.801513671875
+            ],
+            [
+              255.83599853515625,
+              195.873046875
+            ],
+            [
+              71.2705078125,
+              195.873046875
+            ]
+          ]
+        },
+        {
+          "title": "6. Prospects to improve pinning capacity",
+          "heading_level": null,
+          "page_id": 34,
+          "polygon": [
+            [
+              71.79345703125,
+              404.6314392089844
+            ],
+            [
+              280.06402587890625,
+              404.6314392089844
+            ],
+            [
+              280.06402587890625,
+              416.6314392089844
+            ],
+            [
+              71.79345703125,
+              416.6314392089844
+            ]
+          ]
+        },
+        {
+          "title": "7. Prospects for further improvement of Nb3Sn superconductors",
+          "heading_level": null,
+          "page_id": 44,
+          "polygon": [
+            [
+              71.5693359375,
+              355.43145751953125
+            ],
+            [
+              400.65802001953125,
+              355.43145751953125
+            ],
+            [
+              400.65802001953125,
+              367.576171875
+            ],
+            [
+              71.5693359375,
+              367.576171875
+            ]
+          ]
+        },
+        {
+          "title": "8. Summary",
+          "heading_level": null,
+          "page_id": 46,
+          "polygon": [
+            [
+              71.382568359375,
+              73.3814697265625
+            ],
+            [
+              134.51998901367188,
+              73.3814697265625
+            ],
+            [
+              134.51998901367188,
+              85.70654296875
+            ],
+            [
+              71.382568359375,
+              85.70654296875
+            ]
+          ]
+        },
+        {
+          "title": "Acknowledgements",
+          "heading_level": null,
+          "page_id": 47,
+          "polygon": [
+            [
+              70.29931640625,
+              154.880859375
+            ],
+            [
+              172.423828125,
+              154.880859375
+            ],
+            [
+              172.423828125,
+              168.609375
+            ],
+            [
+              70.29931640625,
+              168.609375
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 47,
+          "polygon": [
+            [
+              69.7763671875,
+              223.5234375
+            ],
+            [
+              127.8984375,
+              223.5234375
+            ],
+            [
+              127.8984375,
+              237.4453125
+            ],
+            [
+              69.7763671875,
+              237.4453125
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              158
+            ],
+            [
+              "Line",
+              23
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              163
+            ],
+            [
+              "Line",
+              24
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              224
+            ],
+            [
+              "Line",
+              39
+            ],
+            [
+              "TableCell",
+              36
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              149
+            ],
+            [
+              "Line",
+              18
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              64
+            ],
+            [
+              "Line",
+              10
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              115
+            ],
+            [
+              "Line",
+              15
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              120
+            ],
+            [
+              "Line",
+              21
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              122
+            ],
+            [
+              "Line",
+              14
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              188
+            ],
+            [
+              "Line",
+              24
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              86
+            ],
+            [
+              "Line",
+              15
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              150
+            ],
+            [
+              "Line",
+              25
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              339
+            ],
+            [
+              "Line",
+              31
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              237
+            ],
+            [
+              "Line",
+              26
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              82
+            ],
+            [
+              "Line",
+              15
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 14,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              132
+            ],
+            [
+              "Line",
+              18
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 15,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              189
+            ],
+            [
+              "Line",
+              24
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 16,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              340
+            ],
+            [
+              "Line",
+              56
+            ],
+            [
+              "Equation",
+              4
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 17,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              59
+            ],
+            [
+              "Line",
+              13
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 18,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              36
+            ],
+            [
+              "Line",
+              7
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 19,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              86
+            ],
+            [
+              "Line",
+              14
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 20,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              148
+            ],
+            [
+              "Line",
+              24
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 21,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              131
+            ],
+            [
+              "Line",
+              24
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 22,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              138
+            ],
+            [
+              "Line",
+              20
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 23,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              113
+            ],
+            [
+              "Line",
+              17
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 24,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              163
+            ],
+            [
+              "Line",
+              24
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 25,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              196
+            ],
+            [
+              "Line",
+              22
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 26,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              204
+            ],
+            [
+              "Line",
+              27
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 27,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              132
+            ],
+            [
+              "Line",
+              14
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 28,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              187
+            ],
+            [
+              "Line",
+              24
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 29,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              149
+            ],
+            [
+              "Line",
+              14
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 30,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              193
+            ],
+            [
+              "Line",
+              19
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 31,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              121
+            ],
+            [
+              "Line",
+              16
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 32,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              73
+            ],
+            [
+              "Line",
+              12
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 33,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              150
+            ],
+            [
+              "Line",
+              24
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 34,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              158
+            ],
+            [
+              "Line",
+              22
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 35,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              217
+            ],
+            [
+              "Line",
+              24
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 36,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              133
+            ],
+            [
+              "Line",
+              23
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 37,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              140
+            ],
+            [
+              "Line",
+              24
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 38,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              113
+            ],
+            [
+              "Line",
+              15
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 39,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              105
+            ],
+            [
+              "Line",
+              18
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 40,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              166
+            ],
+            [
+              "Line",
+              24
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 41,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              206
+            ],
+            [
+              "Line",
+              21
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 42,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              134
+            ],
+            [
+              "Line",
+              17
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 43,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              155
+            ],
+            [
+              "Line",
+              23
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 44,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              152
+            ],
+            [
+              "Line",
+              23
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Footnote",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 45,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              182
+            ],
+            [
+              "Line",
+              25
+            ],
+            [
+              "TableCell",
+              23
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 46,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              191
+            ],
+            [
+              "Line",
+              23
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 47,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              278
+            ],
+            [
+              "Line",
+              38
+            ],
+            [
+              "ListItem",
+              16
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 48,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              388
+            ],
+            [
+              "Line",
+              47
+            ],
+            [
+              "ListItem",
+              21
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 49,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              367
+            ],
+            [
+              "Line",
+              45
+            ],
+            [
+              "ListItem",
+              19
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 50,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              362
+            ],
+            [
+              "Line",
+              46
+            ],
+            [
+              "ListItem",
+              17
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 51,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              402
+            ],
+            [
+              "Line",
+              46
+            ],
+            [
+              "ListItem",
+              20
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 52,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              205
+            ],
+            [
+              "Line",
+              26
+            ],
+            [
+              "ListItem",
+              12
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 53,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "A review and prospects for Nb<SUB>3</SUB>Sn superconductor development",
+    "authors": [
+      {
+        "authors_list": [
+          "Xu, Xingchen"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Nb<SUB>3</SUB>Sn superconductors have significant applications in constructing high-field (>10 T) magnets. This article briefly reviews development of Nb<SUB>3</SUB>Sn superconductor and proposes prospects for further improvement. It is shown that significant improvement of critical current density (J <SUB>c</SUB>) is needed for future accelerator magnets. After a brief review of the development of Nb<SUB>3</SUB>Sn superconductors, the factors controlling J <SUB>c</SUB> are summarized and correlated with their microstructure and chemistry. The non-matrix J <SUB>c</SUB> of Nb<SUB>3</SUB>Sn conductors is mainly determined by three factors: the fraction of current-carrying Nb<SUB>3</SUB>Sn phase in the non-matrix area, the upper critical field B <SUB>c2</SUB>, and the flux line pinning capacity. Then prospects to improve the three factors are discussed respectively. An analytic model was developed to show how the ratios of precursors determine the phase fractions after heat treatment, based on which it is predicted that the limit of current-carrying Nb<SUB>3</SUB>Sn fraction in subelements is ∼65%. Then, since B <SUB>c2</SUB> is largely determined by the Nb<SUB>3</SUB>Sn stoichiometry, a thermodynamic/kinetic theory is presented to show what essentially determines the Sn content of Nb<SUB>3</SUB>Sn conductors. This theory explains the influences of Sn sources and Ti addition on stoichiometry and growth rate of Nb<SUB>3</SUB>Sn layers. Next, to improve flux pinning, previous efforts in this community to introduce additional pinning centers to Nb<SUB>3</SUB>Sn wires are reviewed, and an internal oxidation technique is described. Finally, prospects for further improvement of non-matrix J <SUB>c</SUB> of Nb<SUB>3</SUB>Sn conductors are discussed, and it is seen that the only opportunity for further significantly improving J <SUB>c</SUB> lies in improving flux pinning.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Superconductor Science Technology",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1706.10253"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1088/1361-6668/aa7976",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2017SuScT..30i3001X"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

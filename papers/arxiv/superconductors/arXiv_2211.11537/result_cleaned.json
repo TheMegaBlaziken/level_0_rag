@@ -1,0 +1,595 @@
+{
+  "id": "006b7504d66840e49a5d78f2a6dce1d7",
+  "pdf_path": "apl/Superconductors/arXiv:2211.11537.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# High-frequency diode effect in superconducting Nb3Sn micro-bridges\n\nSara Chahid, Serafim Teknowijoyo, Iris Mowgood, and Armen Gulian[∗](#page-0-0)\n\nAdvanced Physics Laboratory, Institute for Quantum Studies,\n\nChapman University, Burtonsville, MD 20866, USA\n\nThe superconducting diode effect has been recently reported in a variety of systems and different symmetry breaking mechanisms have been examined. However, the frequency range of these potentially important devices still remains obscure. We investigated superconducting micro-bridges of Nb3Sn in out-of-plane magnetic fields; optimum magnetic fields of ∼10 mT generate ∼10% diode efficiency, while higher fields of ∼15-20 mT quench the effect. The diode changes its polarity with magnetic field reversal. We documented superconductive diode rectification at frequencies up to 100 kHz, the highest reported as of today. Interestingly, the bridge resistance during diode operation reaches a value that is a factor of two smaller than in its normal state, which is compatible with the vortex-caused mechanism of resistivity. This is confirmed by finite element modeling based on time-dependent Ginzburg-Landau equations. To explain experimental findings, no assumption of lattice thermal inequilibrium was required. Dissimilar edges of the superconductor strip can be responsible for the inversion symmetry breaking by vortex penetration barrier; visual evidence of this opportunity was revealed by scanning electron microscopy. Estimates are in favor of much higher (GHz) range of frequencies for this type of diode.\n\n#### I. INTRODUCTION\n\nFor certain important problems of fundamental physics, such as the exploration of possible quasi-local action of curl-less vector potential [\\[1\\]](#page-6-0), it is necessary to explore superconducting micro-bridges for assurance that the magnitudes of critical currents of the bridge are equal for both current polarities. In particular, accidental breaking of time reversal symmetry (TRS) by remanent or spurious magnetic fields in the cryostat together with simultaneous inversion symmetry (IS) breaking by, e.g., physical asymmetry of the bridge edges can cause the superconducting diode effect (SDE) which violates this equality [\\[2–](#page-6-1)[9\\]](#page-6-2). While this equality violation should be avoided for the above-mentioned task, it is underlying for the SDE.\n\nRecently, the SDE attracted noticeable attention within the research community [\\[2–](#page-6-1)[22\\]](#page-6-3), and the related activity generated multiple mechanisms applicable to understanding the SDE. In theoretical models, the TRS is broken by an externally applied magnetic field or internal inclusions of magnetic micro-clusters, while the IS is broken by the out-of-plane Rashba spin–orbit coupling [\\[14,](#page-6-4) [15,](#page-6-5) [17–](#page-6-6)[19\\]](#page-6-7), valley-Zeeman interaction [\\[13\\]](#page-6-8), etc., which results in the emergence of a chiral superconducting order [\\[14,](#page-6-4) [15,](#page-6-5) [17,](#page-6-6) [19\\]](#page-6-7). Experimentally, systems based on van der Waals material MoS<sup>2</sup> with noncentrosymmetric crystal potential [\\[10\\]](#page-6-9), synthetic super lattice of Nb/V/Ta [\\[5\\]](#page-6-10), and intrinsically IS broken NbSe<sup>2</sup> [\\[11\\]](#page-6-11) have been reported as well as planar Josephson junction arrays of Al on InAs [\\[7,](#page-6-12) [12\\]](#page-6-13). Yet other systems reveal nonreciprocal behavior in field-free environments, such as NbSe2-based Josephson junction [\\[8\\]](#page-6-14), tri-layer graphene [\\[16\\]](#page-6-15), and Josephson junction based on chiral superconductor Sr2RuO<sup>4</sup> with the internally broken TRS [\\[20\\]](#page-6-16). In\n\nview of a variety of experimental observations and theories on the SDE in systems of different configuration, it is quite reasonable to assume that more than one mechanism can be responsible for the ubiquity of nonreciprocity observations in superconductor thin films [\\[23\\]](#page-6-17). In a recent article [\\[24\\]](#page-6-18), the SDE was found in NbN microbridges in an out-of-plane magnetic field. This observation was attributed to the critical current being determined by the vortex flow, confirming that the SDE is caused by unequal vortex barriers on the two edges of the bridge [\\[25,](#page-6-19) [26\\]](#page-6-20).\n\nTo understand this mechanism, consider a type-II superconductor film strip. A magnetic field above a certain critical value creates vortices; initially, they nucleate at the strip edges [\\[27,](#page-6-21) [28\\]](#page-6-22). Morphology of these edges affects the surface barrier, which prevents the vortices from entering into the strip [\\[29,](#page-6-23) [30\\]](#page-6-24). However, if the current through the strip is strong enough, the Lorentz force which it exerts onto the vortices overcomes the surface barrier; vortices start moving across the strip, thus dissipating energy and creating a resistive state. In practice, vortex barriers are unequal because of the non-identical structure of strip edges. This circumstance was used by Vodolazov and Peeters [\\[26\\]](#page-6-20) when predicting the SDE in 2005. It was experimentally observed recently [\\[24\\]](#page-6-18).\n\nThe spike of activities in the area of superconducting diodes paves the way towards future practical application of these novel devices in superconducting electronics. However, a very important topic is still open and remains mainly unaddressed: the frequency range of the SDE. In the report by Lyu et al. [\\[31\\]](#page-6-25) experiments have been performed at 30 kHz; however, the diode outputs were acquired by a DC nanovoltmeter, which leaves the dynamics of device obscure. Here, we directly detect the voltage response in the time domain at frequencies up to 100 kHz. Experimental findings and modeling results provided us grounds to conclude that the SDE can perform at much higher frequencies.\n\n<span id=\"page-0-0\"></span><sup>∗</sup> Corresponding author: [gulian@chapman.edu](mailto:gulian@chapman.edu)\n\n![](_page_1_Figure_1.jpeg)\n\n<span id=\"page-1-0\"></span>FIG. 1. (a) Surface morphology of the films with inclusion of small areas (nanomountains) with higher concentration of Sn (zoomed tenfold in the inset). (b) Resistive and magnetic transitions into superconducting state. (c) A bridge after ion milling of 3D-printed pattern (initial stage of preparation). (d) Last stage of bridge preparation: the structure in panel (c) was covered by positive photoresist, two circles were projected via epi-fluorescent microscope and ion milled to reduce the active part of bridges to micron-scale (the smallest, 2 µm result is shown). Inset illustrates micro-roughness of the edge line. (e) Effects of ion milling and post annealing on transition temperature of bridges. (f) Typical voltage-current dependence of bridges above (T = 20 K) and well-below (T = 1.7 K) the superconducting transition.\n\n## II. EXPERIMENTAL DETAILS\n\nOur study used conventional Nb3Sn superconducting thin film bridges. The Nb3Sn films were prepared in a DC/RF magnetron sputtering system (manufactured by AJA International, Inc.) with a base pressure of 1×10<sup>−</sup><sup>8</sup> Torr. The Nb target (Kurt Lesker, 99.95%) was placed inside a DC gun while the Sn target (Kurt Lesker, 99.999%) was sputtered using an RF source to avoid melting. The sapphire substrate (AdValue Technology, thickness 650 µm, C-cut) was cleaned thoroughly with isopropyl alcohol before it was mounted on the holder. In our chamber's configuration, the substrate holder is at the center of the chamber facing upwards, while the (five) sputtering guns are located at the top. The substrate is rotated in-plane throughout the whole deposition process to ensure homogeneous deposition layer over the whole surface. Our pre-deposition in-situ cleaning of the substrate involves heating it up to 900°C for 10 min followed by a gentle bombardment of Ar<sup>+</sup> ions at 400°C for 5 min. The substrate was oriented to face the ion gun squarely. For the Nb3Sn film deposition, we used a \"stack+anneal\" process similar to the one in [\\[32\\]](#page-7-0). Taking advantage of the Nb-Sn phase diagram [\\[33\\]](#page-7-1), an alternating Nb and Sn stacks with an excess Sn content (Nb:Sn ratio ∼ 2) \"phase-locks\" into the Nb3Sn composition when the excess Sn evaporates during post-deposition annealing. For the first/base layer, Nb was sputtered in DC mode with 500 W power and 3 mTorr pressure at 600°C for 20 min. Then, the Sn layer was deposited on top of Nb in RF mode with 250 W power and 30 mTorr pressure at 100°C for 15 min. Nb was deposited one more time as the capping (third) layer using the same parameters as the base layer for 3 min. Finally, the substrate was heated insitu to 950°C for 30 minutes to let the excess Sn evaporate before cooling down to room temperature. All the heating/cooling protocols consistently used a 30°C/min ramp rate. Our films are ∼ 100 nm thick and resistivity measurements in PPMS (Quantum Design) indicated the correct Nb3Sn stoichiometry and homogeneity in view of their consistently measured T<sup>c</sup> = 17.6 K and RRR(300K/20K) ∼ 4 between samples across several batches, which was corroborated by VSM measurements. Lastly, the stoichiometry was also checked by the SEM EDX (Hitachi SU3500, Oxford Instruments X-MAX-20).\n\nFigure 1 demonstrates certain physical properties of our films (panels a and b) and bridges (panels c-f).\n\nTransformation of the films into bridges was performed using a combination of 3D-printing (Elegoo Mars-3 printer), photolithography and ion milling to achieve macroscopic contact pads on 1 × 1 cm<sup>2</sup> sapphire substrates. Reactive ion milling (Bal-Tec RES-101, CF4\n\n![](_page_2_Figure_0.jpeg)\n\n<span id=\"page-2-0\"></span>FIG. 2. (a) Resistive state at various values of bias temperature for the applied current of opposite polarities (absolute values are plotted). (b) The SDE in 2 µm bridge at sinusoidal current amplitude ≈ 10 mA and frequency 0.1 Hz. (c) Same as in panel (b) with 5 µm-wide bridge at frequency 10 kHz. (d) Same as in panel (c) at frequency 100 kHz. (e) Average of 200 acquisitions with reversed polarity of magnetic field. In all cases, a magnetic field orthogonal to the surface of the bridge was applied and optimized in the range 50-100 Oe.\n\netchant) was used to develop a metallic film pattern, Fig. [1\\(](#page-1-0)c). After removal of the resin, the structure was covered by negative photoresist (PKP-308PI, Transene Co., Inc.), and the 100 µm-scale bridge was narrowed down to 12 µm with the projective photolithography (using mask projection via LUMAM epi-fluorescent microscope, 10× objective). After ion milling, the last stage of patterning was undertaken using positive photoresist (TRANSIST PC800, Transene Co., Inc.) and the same projective technique with the 40× objective and a different mask in the form of two holes. The final ion milling delivered bridges about 10-20 µm long and down to 2 µm wide, Fig. [1\\(](#page-1-0)d).\n\nIon milling affects the physical properties of bridges thus reducing the critical temperatures down to the 2- 12 K range. This Tc-reduction was also noticed in the literature [\\[24\\]](#page-6-18). We were able to restore the T<sup>c</sup> values up to 17 K in some of the bridges by high-vacuum postannealing (∼ 10−<sup>6</sup> Torr) at 900°C for 30 min, as shown in Fig. [1\\(](#page-1-0)e).\n\n## III. RESULTS\n\nThe tests demonstrated |V (I+)| 6= |V (I−)|, Fig. 1(f), thus indicating the possibility of an SDE. At various temperatures, this type of the V (I)-test was systematically performed on a 2 µm bridge and the results are shown in Fig. [2\\(](#page-2-0)a). These measurements confirm the fact mentioned in literature that at lower temperatures the difference ∆I between the threshold values of I res <sup>+</sup> and I res − increases with the decreasing bias temperature [\\[5,](#page-6-10) [23\\]](#page-6-17) (the value of I res corresponds to the current at which the resistive state emerges).\n\nTo confirm the expected diode effect, the bridge then was biased at 2 K (PPMS DynaCool cryostat) with external current source and nanovoltmeter (Keithley 6221 and 2182a respectively) applied at frequency 0.1 Hz. Figure [2](#page-2-0)b demonstrates the result optimized at magnetic field 75 Oe.\n\nSince superconducting diodes are considered to be important elements for electronics, for the majority of applications, it is meaningful to register the effect at possibly higher frequencies. The Keithley current source we used generates AC-currents up to 100 kHz. Corresponding detection of voltage output was performed by an oscilloscope (Tektronix TDS 644A). The results are shown in Fig. [2\\(](#page-2-0)c) and (d) for 10 kHz and 100 kHz frequencies, respectively. Higher frequency measurements require specially-designed circuitry in the cryostat since noise becomes an issue, as is seen from the comparison of panel (b) with panels (c) and (d) in Fig. 2. For noise reduction, we plotted 100 kHz data averaged over 200 acquisitions, Fig. 2(e).\n\n![](_page_3_Figure_0.jpeg)\n\nFIG. 3. V (I) dependence of 2 µm-wide bridge. Resistive state jumps are noticeable before the transition to the normal state as well as at the intermediate current.\n\n# IV. DISCUSSION\n\nTo estimate the frequency range of this type of diode, one needs to understand what the underlying mechanism of the SDE is. As was expected from the general reasons mentioned in Introduction, the effect is nonexistent in the absence of external magnetic field Hext. Comparison of panels (d) and (e) in Fig. 2 shows the change of diode polarity due to the reversal of the external magnetic field from 100 Oe to -100 Oe. The field Hext is orthogonal to the bridge surface. So is the vector of internal magnetic field, Hint, though only at the lateral (top and bottom) edges of the bridge. This field is generated by the current flow through the bridge, with the field lines circulating it. Thus, from symmetry considerations, for an infinitesimally thin bridge, it is orthogonal to the bridge surface at the top and bottom edges. At one edge Hint is parallel, and on the other edge - antiparallel to Hext. Thus, on one of these lateral edges, the amplitudes of external and internal fields add up while on the other edge they subtract. In the AC case, this adding and subtracting reciprocate periodically with frequency ω:\n\n$$B = \\begin{cases} H\\_{ext} + H\\_{int} \\sin(\\omega t) & \\text{for the top edge} \\\\ H\\_{ext} - H\\_{int} \\sin(\\omega t) & \\text{for the bottom edge.} \\end{cases} (1)$$\n\nThe Hext−field amplitude of ∼ 100 Oe is optimal for the SDE in our bridges. Higher values (∼ 150 Oe) quench the effect. The resistive state which yields a non-zero voltage in Fig. 2(c) is caused by vortex motion: the corresponding value of the resistance is a fraction of its normal value. This strongly distinguishes our SDE from the via conformal-mapped nanoholes SDE [\\[31\\]](#page-6-25), where the normal state transition stands for the resistance, and flux pinning on defects (nanoholes) secures the lossless current flow, and also breaks the IS. In our case, as follows from Fig. 2(c), the resistance (V /I) reaches values of 25-40 Ω. At the same time, full transition to the normal state corresponds to the resistance of ∼ 60 Ω. Figure 3 depicts a set of V (I) measurements at various temperatures. Multiple resistivity jumps are noticeable at lower temperature curves. This step-wise behavior of the V (I) curves is explained via vortex pattern rearrangement [\\[34–](#page-7-2) [36\\]](#page-7-3). Interestingly, Berdiyorov et al. [\\[34\\]](#page-7-2) predicted a nonmonotonic behavior of critical current of transition from resistive flux-flow state into normal state (calling this current jc3) for an increase in magnetic field. In our case, a non-monotonic behavior of jc<sup>3</sup> is observable with the bias temperature. This fact requires explanation via modeling; however, it is beyond the scope of this report.\n\nTo explain the results shown in Fig. 2, modeling is necessary which, unlike [\\[31\\]](#page-6-25), does not involve a transition into the normal state for resistivity. Using COMSOL Multiphysics, we designed a p−parameter model [\\[37\\]](#page-7-4) in which the IS is geometrically broken: the top edge of the strip has a weaker barrier to vortex penetration than the bottom edge. One can assume, as in the case of NbN SDE [\\[24\\]](#page-6-18), that the IS is broken by opposite edges asymmetry caused by physical reasons during the bridge preparation. A closer look at Fig. 1 (d, inset) illustrates the fractal structure of the edge of the current-flow channel. Realistically, the opposite edges are not microscopically symmetric, so our assumption looks quite plausible.\n\nPrior to discussing the details of modeling, we should make one more important remark. Sapphire, which we used as a substrate material, has a very high heat conductivity at low temperatures - much higher than Si, which was used in [\\[31\\]](#page-6-25). This allowed us when modeling to decouple the dynamics of superconducting electrons from the thermal deviation of the lattice from equilibrium. The lattice just serves as an equilibrium heat sink at some effective temperature T. The system of timedependent Ginzburg-Landau (TDGL) equations for the Cooper-pair wave function Ψ = ReΨ + iImΨ = ψ<sup>1</sup> + iψ<sup>2</sup> in the dimensionless form can be presented as (see, e.g., [\\[37\\]](#page-7-4)):\n\n$$\\begin{split} \\dot{\\psi}\\_{1} &= \\frac{1}{\\kappa^{2}} \\left( \\psi\\_{1.xx} + \\psi\\_{1.yy} \\right) + \\frac{2}{\\kappa} \\left( A\\_{1} \\psi\\_{2.x} + A\\_{2} \\psi\\_{2.y} \\right) \\\\ &+ \\frac{\\psi\\_{2}}{\\kappa} \\left( A\\_{1.x} + A\\_{2.y} \\right) - \\psi\\_{1} \\left( A\\_{1}^{2} + A\\_{2}^{2} \\right) \\\\ &+ \\psi\\_{1} \\left( 1 - \\psi\\_{1}^{2} - \\psi\\_{2}^{2} + p \\right) \\end{split} \\tag{2}$$\n\n$$\\begin{split} \\dot{\\psi}\\_{2} &= \\frac{1}{\\kappa^{2}} \\left( \\psi\\_{2.xx} + \\psi\\_{2.yy} \\right) - \\frac{2}{\\kappa} \\left( A\\_{1} \\psi\\_{1.x} + A\\_{2} \\psi\\_{1.y} \\right) \\\\ &- \\frac{\\psi\\_{1}}{\\kappa} \\left( A\\_{1.x} + A\\_{2.y} \\right) - \\psi\\_{2} \\left( A\\_{1}^{2} + A\\_{2}^{2} \\right) \\\\ &+ \\psi\\_{2} \\left( 1 - \\psi\\_{1}^{2} - \\psi\\_{2}^{2} + p \\right) \\end{split} \\tag{3}$$\n\n$$\\begin{aligned} \\sigma \\dot{A}\\_1 &= -\\frac{1}{\\kappa} \\left( \\psi\\_2 \\psi\\_{1.x} - \\psi\\_1 \\psi\\_{2.x} \\right) - \\left( \\psi\\_1^2 + \\psi\\_2^2 \\right) A\\_1 \\\\ &+ A\\_{1.yy} - A\\_{2.xy} \\end{aligned} \\tag{4}$$\n\n$$\\begin{aligned} \\sigma \\dot{A}\\_2 &= -\\frac{1}{\\kappa} \\left( \\psi\\_2 \\psi\\_{1.y} - \\psi\\_1 \\psi\\_{2.y} \\right) - \\left( \\psi\\_1^2 + \\psi\\_2^2 \\right) A\\_2 \\\\ &+ A\\_{2.xx} - A\\_{1.xy} \\end{aligned} \\tag{5}$$\n\nHere κ = λL(T)/ξ(T) is the Ginzburg-Landau parameter, σ = 0.172 is the dimensionless conductivity, A = ˆxA<sup>1</sup> +ˆyA<sup>2</sup> is the vector potential (we chose the unit vector ˆx to be along the transport current flow in the strip, with ˆy orthogonal to it). The parameter p = p(x, y), if negative, generates local \"weakening\" of the superconducting order parameter [\\[37\\]](#page-7-4) and, consequently, breaking of the IS. In our model we chose p = p(y) = −0.3 along the top edge within a λL(T) distance from that edge. Since both superconducting and normal currents are absent across the lateral edges of the strip, we imposed zero-flux conditions for ∂Ψ/∂n on these boundaries and periodic boundary conditions on transverse facets (i.e., on the boundaries orthogonal to the current flow). Initial conditions for the Ψ−function should not be identical zero; for example, ψ1(t = 0) = 1 and ψ2(t = 0) = 0 may be chosen. Boundary conditions for the ˆy−component of the vector potential A are also periodic on the transverse facets of the strip. On the lateral edges they are curlA = B, which is implemented via the flux-source conditions. Electric field in the chosen gauge for Eqs. (2)-(5) with the zero scalar potential, ϕ ≡ 0, is E = −∂A/∂t, which means that the solution A = A(t) is an explicit function of time. As soon as this function is known in the whole 2D−volume of the strip, one can average A1.t over this volume, and determine, up to a constant, the voltage V caused by the transport current between the transverse facets of the strip.\n\nThe dimensionless spatial distance in the adopted system of equations corresponds to the London penetration depth, λL(T), while the dimensionless unit of time t<sup>0</sup> = π~/ [8k<sup>B</sup> (T<sup>c</sup> − T)] has picosecond order of magnitude if T<sup>c</sup> ∼ 17 K and T ∼ 2 K.\n\nThe results of the modeling are shown in Fig. 4. Figure 5 explains the physical mechanism behind the behavior of the voltage in Fig. 4. A video file in the Online Supplemental Materials provides more details related to both of these figures.\n\nAs follows from Fig. 5, for the initial segment of periodic current (say, at t = 111) no fluxons are in the bridge. The current flow is lossless (V ≈ 0), and the Cooper pair density is homogeneous within the bridge except the top edge, where it is weakly suppressed due to the asymmetry caused by the p−parameter, mimicking the IS break. In accordance to Eq. (1), the magnetic field in the top edge of the bridge at this time segment is higher than at the bottom. Tuning the amplitude of the current, or/and the value of external field amplitude Hext, one can exceed the critical value of B at the top edge. This allows vortices to start penetrating from the top edge into the bulk of the bridge. The relative values of Hext and Hint should be chosen such that the Lorentz force will be strong enough to move these vortices across the bridge during the first half-period of sin(ωt) function. In the second half-period, the value of B is larger\n\n![](_page_4_Figure_6.jpeg)\n\nFIG. 4. Voltage across the diode (superconducting bridge) generated by a sinusoidal AC bias: j = j<sup>0</sup> sin(ωt+π), where π is added for computational convenience. The amplitude of j<sup>0</sup> is chosen to yield Hint = −0.48. Different curves correspond to different values of external magnetic field Hext.\n\nat the bottom edge. However, because the \"rigidity\" of this edge (i.e., the Bean-Livingston barrier) is higher, the value of B, which was critical for the top edge, is not enough to also be critical for the bottom edge. So even at t = 940, when B is maximal at the bottom, no vortices penetrate from the bottom (just the density of Cooper pairs is changed a bit). This evolution displayed in Fig. 5 occurs at Hext = 0.14 (and Hint = −0.48). If these values are correctly chosen, during the next period the process repeats. In case of improper choices (e.g., Hext = 0.16 or Hext = 0.20 with the same Hint = −0.48), diode malfunctioning can occur. This kind of behavior was also noticed during the experiments (see Fig. 2d).\n\nAssociating the SDE with the described vortex motion, we can make certain estimates for the performance limits of the SDE in the frequency domain. In the modeled example, the width of the bridge should constitute units of λL. The angular frequency was chosen to be ω = 0.005. It corresponds to frequency ν ∼ 300 MHz. This value is in accordance with our experimental observations. The 100 kHz results have been obtained for a 5 µm-wide bridge. If the geometry is scaled down from 5 µm to 5-50 nm-wide bridges, it can deliver frequencies 2-3 orders of magnitude higher (10-100 MHz range) because of geometric factors affecting their escape time. One can ask: can an even higher frequency range be reached? The answer appears to be yes, due to the following reason: the speed of kinematic vortices is 3 orders of magnitude higher than that of the Abrikosov vortices [\\[38,](#page-7-5) [39\\]](#page-7-6). If the I res +/− asymmetry enters the range of kinematic vortices (the highest current V (I) jump area in Fig. 3 which corresponds to the transition into normal state), then the operational frequencies of superconduct-\n\n![](_page_5_Figure_0.jpeg)\n\ning diodes can reach 100 GHz. Obviously, more research is required to reach that stage experimentally and more modeling is required for better guidance on how to reach this regime.\n\n## V. SUMMARY\n\nWe successfully demonstrated the SDE in ordinary thin superconducting µm-size bridges of Nb3Sn with T<sup>c</sup> = 17 K. The TRS was broken by external magnetic fields less than 100 Oe, and the IS was broken by structural asymmetry between the bridge edges. High-frequency (up to 100 kHz) diode performance was documented in the time domain and evidence regarding nonequilibrium flux quanta dynamic mechanism of diode action was obtained. Using this evidence, a qualitative explanation of the diode action was obtained via finite element modeling using TDGL equations. Based on both our experimental and modeling results, it is possible to conclude that this kind of SDE can be functional at 2-3 orders higher frequencies than the upper limit of our instrument (100 kHz). With the involvement of kinematic vortices into the diode action, an even higher range of frequencies (of the order of 100 GHz) can be achieved. More experiments guided by modeling can yield two-terminal and multiterminal high-performance devices for superconducting electronics.\n\n#### ACKNOWLEDGMENTS\n\nFIG. 5. Physical processes in the active part of superconducting bridge resulting in the SDE for Hext = 0.14, Hint = −0.48.\n\nThe work of Chapman U. research team is supported by the ONR grants N00014-21-1-2879 and N00014-20-1- 2442. We are grateful to Physics Art Frontiers for the provided technical assistance.\n\n- <span id=\"page-6-1\"></span><span id=\"page-6-0\"></span>potential on vortex dynamics in superconductors, Physics Letters A 382, 1058 (2018). [2] Y. Tokura and N. Nagaosa, Nonreciprocal responses from non-centrosymmetric quantum materials, Nature Com-\n- munications 9, 3740 (2018). [3] R. Wakatsuki and N. Nagaosa, Nonreciprocal Current\n- in Noncentrosymmetric Rashba Superconductors, Phys. Rev. Lett. 121, 026601 (2018).\n- [4] S. Hoshino, R. Wakatsuki, K. Hamamoto, and N. Nagaosa, Nonreciprocal charge transport in twodimensional noncentrosymmetric superconductors, Phys. Rev. B 98, 054510 (2018).\n- <span id=\"page-6-10\"></span>[5] F. Ando, Y. Miyasaka, T. Li, J. Ishizuka, T. Arakawa, Y. Shiota, T. Moriyama, Y. Yanase, and T. Ono, Observation of superconducting diode effect, Nature 584, 373 (2020).\n- [6] T. Ideue and Y. Iwasa, One-way supercurrent achieved in an electrically polar film, Nature 584, 349 (2020).\n- <span id=\"page-6-12\"></span>[7] C. Baumgartner, L. Fuchs, A. Costa, S. Reinhardt, S. Gronin, G. C. Gardner, T. Lindemann, M. J. Manfra, P. E. Faria Junior, D. Kochan, J. Fabian, N. Paradiso, and C. Strunk, Supercurrent rectification and magnetochiral effects in symmetric Josephson junctions, Nature Nanotechnology 17, 39 (2022).\n- <span id=\"page-6-14\"></span>[8] H. Wu, Y. Wang, Y. Xu, P. K. Sivakumar, C. Pasco, U. Filippozzi, S. S. P. Parkin, Y.-J. Zeng, T. McQueen, and M. N. Ali, The field-free Josephson diode in a van der Waals heterostructure, Nature 604, 653 (2022).\n- <span id=\"page-6-2\"></span>[9] E. Strambini, M. Spies, N. Ligato, S. Ili´c, M. Rouco, C. Gonz´alez-Orellana, M. Ilyn, C. Rogero, F. S. Bergeret, J. S. Moodera, P. Virtanen, T. T. Heikkil¨a, and F. Giazotto, Superconducting spintronic tunnel diode, Nature Communications 13, 2431 (2022).\n- <span id=\"page-6-9\"></span>[10] R. Wakatsuki, Y. Saito, S. Hoshino, Y. M. Itahashi, T. Ideue, M. Ezawa, Y. Iwasa, and N. Nagaosa, Nonreciprocal charge transport in noncentrosymmetric superconductors, Science Advances 3, e1602390 (2017).\n- <span id=\"page-6-11\"></span>[11] J. Shin, S. Son, J. Yun, G. Park, K. Zhang, Y. J. Shin, J.-G. Park, and D. Kim, Magnetic Proximity-Induced Superconducting Diode Effect and Infinite Magnetoresistance in van der Waals Heterostructure, arXiv.2111.05627 (2021).\n- <span id=\"page-6-13\"></span>[12] C. Baumgartner, L. Fuchs, A. Costa, J. Pic´o-Cort´es, S. Reinhardt, S. Gronin, G. C. Gardner, T. Lindemann, M. J. Manfra, P. E. F. Junior, D. Kochan, J. Fabian, N. Paradiso, and C. Strunk, Effect of Rashba and Dresselhaus spin–orbit coupling on supercurrent rectification and magnetochiral anisotropy of ballistic Josephson junctions, Journal of Physics: Condensed Matter 34, 154005 (2022).\n- <span id=\"page-6-8\"></span>[13] L. Bauriedl, C. B¨auml, L. Fuchs, C. Baumgartner, N. Paulik, J. M. Bauer, K.-Q. Lin, J. M. Lupton, T. Taniguchi, K. Watanabe, C. Strunk, and N. Paradiso, Supercurrent diode effect and magnetochiral anisotropy in few-layer NbSe2, Nature Communications 13, 4266 (2022).\n- <span id=\"page-6-4\"></span>[14] N. F. Q. Yuan and L. Fu, Supercurrent diode effect and finite-momentum superconductors, Proceedings of the National Academy of Sciences 119, e2119548119 (2022).\n- <span id=\"page-6-5\"></span>[15] J. J. He, Y. Tanaka, and N. Nagaosa, A phenomenological theory of superconductor diodes, New Journal of Physics 24, 053014 (2022).\n- <span id=\"page-6-15\"></span>[16] J.-X. Lin, P. Siriviboon, H. D. Scammell, S. Liu, D. Rhodes, K. Watanabe, T. Taniguchi, J. Hone, M. S. Scheurer, and J. I. A. Li, Zero-field superconducting diode effect in small-twist-angle trilayer graphene, Nature Physics (2022).\n- <span id=\"page-6-6\"></span>[17] S. Ili´c and F. S. Bergeret, Theory of the Supercurrent Diode Effect in Rashba Superconductors with Arbitrary Disorder, Phys. Rev. Lett. 128, 177001 (2022).\n- [18] T. Karabassov, I. V. Bobkova, A. A. Golubov, and A. S. Vasenko, Hybrid helical state and superconducting diode effect in S/F/TI heterostructures, arXiv.2203.15608 (2022).\n- <span id=\"page-6-7\"></span>[19] A. Daido, Y. Ikeda, and Y. Yanase, Intrinsic Superconducting Diode Effect, Phys. Rev. Lett. 128, 037001 (2022).\n- <span id=\"page-6-16\"></span>[20] M. S. Anwar, T. Nakamura, R. Ishiguro, S. Arif, J. W. A. Robinson, S. Yonezawa, M. Sigrist, and Y. Maeno, Spontaneous superconducting diode effect in non-magnetic Nb/Ru/Sr2RuO<sup>4</sup> topological junctions, arXiv.2211.14626 (2022).\n- [21] R. S. Souto, M. Leijnse, and C. Schrade, The Josephson diode effect in supercurrent interferometers, arXiv.2205.04469 (2022).\n- <span id=\"page-6-3\"></span>[22] K. Halterman, M. Alidoust, R. Smith, and S. Starr, Supercurrent diode effect, spin torques, and robust zeroenergy peak in planar half-metallic trilayers, Phys. Rev. B 105, 104508 (2022).\n- <span id=\"page-6-17\"></span>[23] Y. Hou, F. Nichele, H. Chi, A. Lodesani, Y. Wu, M. F. Ritter, D. Z. Haxell, M. Davydova, S. Ili´c, F. S. Bergeret, A. Kamra, L. Fu, P. A. Lee, and J. S. Moodera, Ubiquitous Superconducting Diode Effect in Superconductor Thin Films, arXiv.2205.09276 (2022).\n- <span id=\"page-6-18\"></span>[24] D. Suri, A. Kamra, T. N. G. Meier, M. Kronseder, W. Belzig, C. H. Back, and C. Strunk, Non-reciprocity of vortex-limited critical current in conventional superconducting micro-bridges, Applied Physics Letters 121, 102601 (2022).\n- <span id=\"page-6-19\"></span>[25] M. K. Hope, M. Amundsen, D. Suri, J. S. Moodera, and A. Kamra, Interfacial control of vortex-limited critical current in type-II superconductor films, Phys. Rev. B 104, 184512 (2021).\n- <span id=\"page-6-20\"></span>[26] D. Y. Vodolazov and F. M. Peeters, Superconducting rectifier based on the asymmetric surface barrier effect, Phys. Rev. B 72, 172508 (2005).\n- <span id=\"page-6-21\"></span>[27] V. V. Shmidt, The critical current in superconducting films, Sov. Phys. JETP 30, 1137 (1970).\n- <span id=\"page-6-22\"></span>[28] V. V. Shmidt, Critical currents in superconductors, Sov. Phys. Usp. 13, 408 (1970).\n- <span id=\"page-6-23\"></span>[29] C. P. Bean and J. D. Livingston, Surface Barrier in Type-II Superconductors, Phys. Rev. Lett. 12, 14 (1964).\n- <span id=\"page-6-24\"></span>[30] K. Fossheim and A. Sudboe, Superconductivity: Physics and Applications (Wiley, 2004) p. 232.\n- <span id=\"page-6-25\"></span>[31] Y.-Y. Lyu, J. Jiang, Y.-L. Wang, Z.-L. Xiao, S. Dong, Q.-H. Chen, M. V. Miloˇsevi´c, H. Wang, R. Divan, J. E. Pearson, P. Wu, F. M. Peeters, and W.-K. Kwok, Superconducting diode effect via conformal-mapped nanoholes, Nature Communications 12, 2703 (2021).\n- <span id=\"page-7-0\"></span>[32] C. S. Sundahl, Synthesis of Superconducting Nb3Sn Thin Film Heterostructures for the Study of High-Energy RF Physics, Ph.D. thesis, The University of Wisconsin - Madison, ProQuest Dissertations Publishing, 13805402 (2019).\n- <span id=\"page-7-1\"></span>[33] J. P. Charlesworth, I. Macphail, and P. E. Madsen, Experimental work on the niobium-tin constitution diagram and related studies, Journal of Materials Science 5, 580 (1970).\n- <span id=\"page-7-2\"></span>[34] G. R. Berdiyorov, A. K. Elmurodov, F. M. Peeters, and D. Y. Vodolazov, Finite-size effect on the resistive state in a mesoscopic type-II superconducting stripe, Phys. Rev. B 79, 174506 (2009).\n- [35] P. S´anchez-Lotero, J. Albino Aguiar, and D. Dom´ınguez, Behavior of the flux-flow resistivity in mesoscopic superconductors, Physica C: Superconductivity and its Appli-\n\ncations 503, 120 (2014).\n\n- <span id=\"page-7-3\"></span>[36] D. Y. Vodolazov and F. M. Peeters, Rearrangement of the vortex lattice due to instabilities of vortex flow, Phys. Rev. B 76, 014521 (2007).\n- <span id=\"page-7-4\"></span>[37] A. Gulian, Shortcut to Superconductivity: Superconducting Electronics via COMSOL Modeling (Springer, 2020).\n- <span id=\"page-7-5\"></span>[38] A. Weber and L. Kramer, Dissipative states in a currentcarrying superconducting film, Journal of Low Temperature Physics 84, 289 (1991).\n- <span id=\"page-7-6\"></span>[39] A. Andronov, I. Gordion, V. Kurin, I. Nefedov, and I. Shereshevsky, Kinematic vortices and phase slip lines in the dynamics of the resistive state of narrow superconductive thin film channels, Physica C: Superconductivity and its Applications 213, 193 (1993).",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "High-frequency diode effect in superconducting Nb3Sn micro-bridges",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              101.7509765625,
+              52.693603515625
+            ],
+            [
+              511.59375,
+              52.693603515625
+            ],
+            [
+              511.59375,
+              65.57220458984375
+            ],
+            [
+              101.7509765625,
+              65.57220458984375
+            ]
+          ]
+        },
+        {
+          "title": "I. INTRODUCTION",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              123.04248046875,
+              287.408447265625
+            ],
+            [
+              228.7008514404297,
+              287.408447265625
+            ],
+            [
+              228.7008514404297,
+              296.3748474121094
+            ],
+            [
+              123.04248046875,
+              296.3748474121094
+            ]
+          ]
+        },
+        {
+          "title": "II. EXPERIMENTAL DETAILS",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              95.10205078125,
+              424.9014587402344
+            ],
+            [
+              255.72909545898438,
+              424.9014587402344
+            ],
+            [
+              255.72909545898438,
+              434.28515625
+            ],
+            [
+              95.10205078125,
+              434.28515625
+            ]
+          ]
+        },
+        {
+          "title": "III. RESULTS",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              401.625,
+              340.2878723144531
+            ],
+            [
+              476.44830322265625,
+              340.2878723144531
+            ],
+            [
+              476.44830322265625,
+              349.400390625
+            ],
+            [
+              401.625,
+              349.400390625
+            ]
+          ]
+        },
+        {
+          "title": "IV. DISCUSSION",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              129.09375,
+              321.2884521484375
+            ],
+            [
+              222.20155334472656,
+              321.2884521484375
+            ],
+            [
+              222.20155334472656,
+              330.837890625
+            ],
+            [
+              129.09375,
+              330.837890625
+            ]
+          ]
+        },
+        {
+          "title": "V. SUMMARY",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              394.154296875,
+              215.595703125
+            ],
+            [
+              478.8988952636719,
+              215.595703125
+            ],
+            [
+              478.8988952636719,
+              224.74578857421875
+            ],
+            [
+              394.154296875,
+              224.74578857421875
+            ]
+          ]
+        },
+        {
+          "title": "ACKNOWLEDGMENTS",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              379.51171875,
+              603.0464019775391
+            ],
+            [
+              499.640625,
+              603.0464019775391
+            ],
+            [
+              499.640625,
+              612.0128021240234
+            ],
+            [
+              379.51171875,
+              612.0128021240234
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              244
+            ],
+            [
+              "Line",
+              92
+            ],
+            [
+              "Text",
+              8
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Footnote",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              221
+            ],
+            [
+              "Line",
+              60
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              253
+            ],
+            [
+              "Line",
+              66
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              579
+            ],
+            [
+              "Line",
+              152
+            ],
+            [
+              "TextInlineMath",
+              5
+            ],
+            [
+              "Equation",
+              4
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              578
+            ],
+            [
+              "Line",
+              112
+            ],
+            [
+              "TextInlineMath",
+              5
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              88
+            ],
+            [
+              "Line",
+              34
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              366
+            ],
+            [
+              "Line",
+              122
+            ],
+            [
+              "ListItem",
+              31
+            ],
+            [
+              "Reference",
+              26
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "ListGroup",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              97
+            ],
+            [
+              "Line",
+              31
+            ],
+            [
+              "ListItem",
+              8
+            ],
+            [
+              "Reference",
+              7
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/XW480QH25yemyb56FtNFTg"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 8,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "High-frequency diode effect in superconducting Nb<SUB>3</SUB>Sn microbridges",
+    "authors": [
+      {
+        "authors_list": [
+          "Chahid, Sara",
+          "Teknowijoyo, Serafim",
+          "Mowgood, Iris",
+          "Gulian, Armen"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "The superconducting diode effect has recently been reported in a variety of systems and different symmetry-breaking mechanisms have been examined. However, the frequency range of these potentially important devices still remains obscure. We investigated superconducting microbridges of Nb<SUB>3</SUB>Sn in out-of-plane magnetic fields; optimum magnetic fields of ∼10 mT generate ∼10 % diode efficiency, while higher fields of ∼15-20 mT quench the effect. The diode changes its polarity with magnetic field reversal. We documented superconductive diode rectification at frequencies up to 100 kHz, the highest reported as of today. Interestingly, the bridge resistance during diode operation reaches a value that is a factor of two smaller than in its normal state, which is compatible with the vortex-caused mechanism of resistivity. This is confirmed by finite-element modeling based on time-dependent Ginzburg-Landau equations. To explain experimental findings, no assumption of lattice thermal inequilibrium has been required. Dissimilar edges of the superconductor strip can be responsible for the inversion symmetry breaking by the vortex penetration barrier; visual evidence of this opportunity was revealed by scanning electron microscopy. Estimates are in favor of a much higher (GHz) range of frequencies for this type of diode.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Physical Review B",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2211.11537"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1103/PhysRevB.107.054506",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2023PhRvB.107e4506C"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

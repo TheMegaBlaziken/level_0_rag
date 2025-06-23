@@ -1,0 +1,341 @@
+{
+  "id": "2bf3bb7b38ccad35e5660d6585433ab7",
+  "pdf_path": "apl/Superconductors/arXiv:1310.5529.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "## arXiv:1310.5529v3 [cond-mat.supr-con] 19 Feb 2014\n\n## NMR Study of the Superconducting Gap Variation near the Mott Transition in Cs3C<sup>60</sup>\n\nP. Wzietek,<sup>1</sup> T. Mito,1, 2 H. Alloul,<sup>1</sup> D. Pontiroli,3, 4 M. Aramini,<sup>3</sup> and M. Ricco`\n\n1 *Laboratoire de Physique des Solides, Universite Paris-Sud 11, CNRS UMR 8502, 91405 Orsay, France ´* [∗](#page-3-0)\n\n<sup>2</sup>*Graduate School of Material Science, University of Hyogo, Kamigori, Hyogo 678-1297, Japan*\n\n<sup>3</sup>*Dipartimento di Fisica e Scienze della Terra, Universita di Parma - Via G.P.Usberti 7/a, I-43124 Parma, Italy `* 4\n\n*Laboratorio MIST.E-R, P. Gobetti 101, I-40129 Bologna, Italy*\n\nFormer extensive studies of superconductivity in the *A*3C<sup>60</sup> compounds, where *A* is an alkali metal, have led one to consider that Bardeen-Cooper-Schrieffer (BCS) electron-phonon pairing prevails in those compounds, though the incidence of electronic Coulomb repulsion has been highly debated. The discovery of two isomeric fulleride compounds Cs3C<sup>60</sup> which exhibit a transition with pressure from a Mott insulator (MI) to a superconducting (SC) state clearly reopens that question. Using pressure (p) as a single control parameter of the C<sup>60</sup> balls lattice spacing, one can now study the progressive evolution of the SC properties when the electronic correlations are increased towards the critical pressure p<sup>c</sup> of the Mott transition. We have used <sup>13</sup>C and <sup>133</sup>Cs NMR measurements on the cubic phase A15-Cs3C<sup>60</sup> just above p<sup>c</sup> = 5.0(3) kbar, where the SC transition temperature T<sup>c</sup> displays a dome shape with decreasing cell volume. From the T dependence below T<sup>c</sup> of the nuclear spin lattice relaxation rate (T1) <sup>−</sup><sup>1</sup> we determine the electronic excitations in the SC state, that is 2∆, the gap value. The latter is found to be largely enhanced with respect to the BCS value established in the case of dense *A*3C<sup>60</sup> compounds. It even increases slightly with decreasing p towards pc, where T<sup>c</sup> decreases on the SC dome, so that 2∆/kBT<sup>c</sup> increases regularly upon approaching the Mott transition. These results bring clear evidence that the increasing correlations near the Mott transition are not significantly detrimental to superconductivity. They rather suggest that repulsive electron interactions might even reinforce elecron-phonon superconductivity, being then partly responsible for the large T<sup>c</sup> values, as proposed by theoretical models taking the electronic correlations as a key ingredient.\n\nPACS numbers: 74.70.Wz, 71.30.+h, 74.25nj\n\nSince the BCS proposal it has always been clear that, in order to drive a superconducting (SC) state, the attractive interaction between electrons mediated by phonons must overcome the Coulomb repulsion between the electrons. Conversely, if the repulsion is strong enough, as in the cuprate high temperature superconductors (HTSC), it tends to localize the electrons on atomic sites, leading to a Mott insulator (MI) that may be magnetically ordered at low temperature. In the cuprates the appearance of superconductivity is investigated by doping such a magnetic MI. Many other systems (pnictides, heavy fermions) display phase diagrams in which a metallic magnetic state is proximate to a SC state. It is now recognized that AF fluctuations might sometimes mediate the SC pairing in such systems, rather than electron-phonon coupling. By contrast, the absence of nearby magnetic phases in a SC family is often considered a sign of conventional superconductivity with negligible incidence of Coulomb repulsion.\n\nThis scenario has been initally applied to the HTSC alkalifulleride salts *A*3C<sup>60</sup> discovered only a few years after the cuprates [\\[1\\]](#page-3-1). However, the fact that AnC<sup>60</sup> compounds with even n = 2, 4 are nonmagnetic insulators has always suggested that Coulomb repulsions are important in the fulleride families. Furthermore the strength of electronic correlations is in this case reinforced by Jahn-Teller distortions (JTD) of the C<sup>60</sup> ball, which localize the electrons on the balls in singlet nonmagnetic (low-spin) states [\\[2,](#page-3-2) [3\\]](#page-3-3). A significant effort to determine whether *A*3C<sup>60</sup> compounds could become MI by increasing the separation between C<sup>60</sup> balls has been successful recently, thanks to the synthesis of the compound with *A*=Cs, the alkali metal with the largest ionic radius [\\[4](#page-3-4)[–6\\]](#page-3-5). This expanded fulleride Cs3C<sup>60</sup> being highly compressible, it has been possible to recover a SC state by application of pressure, without charge modification, by analogy with the situation in layered organic compounds [\\[7,](#page-4-0) [8\\]](#page-4-1). The phase diagram looks then very much like those of the other families of unconventional correlated electron superconductors. This opens an original possibility to study the evolution from a MI to a SC state in this three-dimensional compound.\n\n3\n\nAs two isomeric phases of Cs3C<sup>60</sup> could be synthesized, the initial studies have been mostly focused on the differences in their respective (T, p) phase diagrams and of their magnetic properties in the Mott state, in which similar dynamic JTD have been detected [\\[9\\]](#page-4-2). But so far very little has been achieved concerning the incidence of the growth of the electronic correlations on both the microscopic SC and metallic properties when approaching the Mott transition.\n\nWe address this question here by the use of <sup>13</sup>C and <sup>133</sup>Cs NMR, namely the spin lattice (T1) <sup>−</sup><sup>1</sup> measurements which uniquely permit us to determine the SC gap magnitude [\\[10\\]](#page-4-3) through the pressure p<sup>c</sup> of the MI to SC transition. We first confirm that the s-wave symmetry of the order parameter is maintained, down to pc. We find evidence, however, that near p<sup>c</sup> the SC gap does not follow the BCS weak coupling scenario which appeared to prevail in dense fcc-A3C<sup>60</sup> (e.g. *A*=K, Rb) [\\[10](#page-4-3)[–12\\]](#page-4-4). Also, at variance with the pseudogap behaviour found in underdoped cuprates [\\[13\\]](#page-4-5), the spin susceptibility exhibits a regular increase with correlations, up to the Mott transition. All these features might be related to a quite original SC pairing mechanism [\\[14\\]](#page-4-6), local in nature since mediated by on-ball optical phonon modes. Indeed, a new paradigm for superconductivity in fullerides has been conceived using dynamical mean field theory (DMFT) calcu-\n\n![](_page_1_Figure_1.jpeg)\n\n<span id=\"page-1-0\"></span>FIG. 1. (a) The zero field T dependence of the resonance frequency of the NMR coil monitors the growth of the SC diamagnetism with increasing p. (b) The p variation of the low T diamagnetic signal permits us to locate the Mott transition at p<sup>c</sup> = 5 ± 0.3 kbar. (c) The Tc(p) phase diagram determined for this sample is completed by higher p data taken on a former A15 phase sample [\\[6\\]](#page-3-5).\n\nlations which show that such a pairing scheme could in fact be reinforced by electronic correlations: a SC state with an enhanced T<sup>c</sup> in the vicinity of the Mott transition has been anticipated [\\[14,](#page-4-6) [15\\]](#page-4-7).\n\n*Experimental techniques and sample characterization.* Improved synthesis techniques [\\[16\\]](#page-4-8) allowed us to produce a sample with an 85% ratio of A15/fcc phases (A15 73%, fcc 15%, bco 12%), much larger than that used previously [\\[6\\]](#page-3-5). A large amount of this batch has been introduced in the NMR coil in a glove box, and sealed there in a high pressure cell designed for NMR experiments. The zero field variation of the coil tuning frequency monitors the SC diamagnetic response of the sample. The data of Fig[.1\\(](#page-1-0)a) have been collected at increasing p, in the same set up. The onset of superconductivity occurs quite sharply with increasing p, as monitored in Fig[.1\\(](#page-1-0)b). A full SC state is achieved above 5.9 kbar, while the residual signal at 4.1 kbar is assigned to the small fcc phase content which has a lower pcvalue. [\\[6\\]](#page-3-5). The large A15 fraction in this sample allowed a more precise determination of the Tc(p) phase diagram [Fig[.1\\(](#page-1-0)c)] than in former reports [\\[5,](#page-3-6) [6\\]](#page-3-5).\n\n*NMR spectra and SC state spin susceptibility near* pc*.* The <sup>133</sup>Cs spectra of the A15 phase [\\[17\\]](#page-4-9) were found identical to those published formerly [\\[6,](#page-3-5) [18\\]](#page-4-10). More important for the study of the SC state properties are the <sup>13</sup>C spectra displayed in Fig. [2\\(](#page-1-1)a), to be discussed below.\n\nThe NMR shift of a nuclear spin site is a tensor K<sup>α</sup> [\\[10\\]](#page-4-3):\n\n$$K^{\\alpha} = K\\_s^{\\alpha}(T) + K\\_{orb}^{\\alpha} + K\\_{dia}(T). \\tag{1}$$\n\nwhere α labels the orientation of the applied field H relative to the local crystallographic axis and Kdia is the inhomogeneous field reduction due to the vortices and macroscopic screening currents in the SC state. Here the Knight shift K<sup>α</sup> <sup>s</sup> = A<sup>α</sup>χs(T) probes the electronic spin susceptibility χs(T), which vanishes at T = 0 for a singlet SC state.\n\n![](_page_1_Figure_9.jpeg)\n\n<span id=\"page-1-1\"></span>FIG. 2. The <sup>13</sup>C NMR spectra (measured at f<sup>0</sup> = 82 MHz) at p =5.8 kbar (a) exhibit anisotropic line shapes, which evolve abruptly below T<sup>c</sup> with a change of sign of the anisotropy Kax. The fits of the spectra (dotted blue lines in (a), see [\\[17\\]](#page-4-9)) are equivalently good if Kax(T) is governed by Yosida function with ∆/kBT<sup>c</sup> = 1.75 (dotted red line in (b)) or with ∆/kBT<sup>c</sup> = 2.2 (solid blue line in (b)). In the latter case the imposed Kax(T) (lozenges in (b)) is compared to the data obtained for ∆Kiso (see text and [\\[17\\]](#page-4-9)).\n\nThe usually T independent K<sup>α</sup> orb, due to orbital currents associated with filled electronic shells, is the unique contribution to K<sup>α</sup> in nonmetallic AnC<sup>60</sup> compounds, such as pure C<sup>60</sup> [\\[19\\]](#page-4-11), Na2C<sup>60</sup> or K4C60[\\[20\\]](#page-4-12).\n\nIn powder samples the shift of the first moment of the NMR spectrum is given by the isotropic component Kiso = (1/3)PK<sup>α</sup>, while the spectral shape depends on the anisotropic traceless contribution to K<sup>α</sup>. The latter dominates for <sup>13</sup>C [\\[6,](#page-3-5) [10\\]](#page-4-3) and yields the characteristic shape seen above T<sup>c</sup> = 30 K in Fig[.2\\(](#page-1-1)a). In that case K<sup>α</sup> is nearly axial and a single component Kax is required to characterize the spectral shape [\\[17\\]](#page-4-9).\n\nSpectra in the SC state could only be taken for p ≥ 5.8 kbar for which the sample displays bulk superconductivity below Tc, without any leftover from the Mott state. For <sup>13</sup>C one can see in Fig[.2\\(](#page-1-1)a) a fast variation of the spectrum shape below T<sup>c</sup> corresponding to a sign change of Kax. This is direct evidence that χs(T) drops down as expected for singlet s-wave superconductivity, as Kax orb [\\[21\\]](#page-4-13) has an opposite sign to the normal state value of Kax. Quantitative estimates of χs(T) were possible thanks to the excellent fits of the <sup>13</sup>C NMR spectra as shown in Fig[.2\\(](#page-1-1)a). They permit us to ensure the overall consistency with the expected variation of Kax s (T) for a BCS singlet state displayed in Fig[.2\\(](#page-1-1)b). The accuracy on Kax s (T) is, however, slightly hampered [\\[17\\]](#page-4-9) as one needs to consider the spectrum broadening induced by Kdia, which increases progressively below Tc, as seen in Fig[.2\\(](#page-1-1)a).\n\nAn independent determination of χs(T) is available from the <sup>13</sup>C and <sup>133</sup>Cs isotropic shifts Kiso, which display a significant decrease below Tc, as reported in [\\[6\\]](#page-3-5) and in [\\[17\\]](#page-4-9). The fields induced by the screening currents being independent on the nuclear probe, Kdia is eliminated in ∆Kiso ≡<sup>133</sup> Kiso−<sup>13</sup>Kiso, which therefore reflects the variation of χs(T)\n\n![](_page_2_Figure_1.jpeg)\n\n<span id=\"page-2-0\"></span>FIG. 3. (a) The behaviour of <sup>133</sup> T<sup>1</sup> −1 in A15-Cs3C<sup>60</sup> below T<sup>c</sup> would correspond to a power law exponent T <sup>n</sup> with n ≥ 7(solid line) or to the exponential fits with ∆/kBT<sup>c</sup> = 2.95 (5.8 kbar) and 2.43 (11 kbar). The index n in T1<sup>n</sup> stands for the value taken at Tc. (b) The corresponding <sup>13</sup>T<sup>1</sup> data (plotted in a logarithmic scale) also fit this activated behaviour, with similar gap values (∆/kBT<sup>c</sup> = 2.7 at 5.8 kbar and 2.2 at 11 kbar). Data obtained in Rb3C<sup>60</sup> [\\[24\\]](#page-4-14) and Rb2CsC<sup>60</sup> [\\[10\\]](#page-4-3) as well as the BCS slope (∆/kBT<sup>c</sup> = 1.75) are shown for comparison.\n\nbelow Tc.\n\nIn Fig. [2\\(](#page-1-1)b) we show ∆Kiso [\\[22\\]](#page-4-15) scaled to permit the best fit with Kax(T). We adapted the ∆Kiso scale to attempt fits with either the solid and dotted curves. We found that the sharp drop of ∆Kiso seen just below T<sup>c</sup> is better reproduced by scaling the experimental points with the larger SC gap. Though this is not a fully secured conclusion this suggests that the drop of χs(T) might be sharper than the pure BCS function as in strong coupling superconductors.\n\n*SC gap from spin lattice relaxation data.* T<sup>1</sup> measurements were conducted to better evaluate the SC gap. For both <sup>13</sup>C and <sup>133</sup>Cs, the recoveries of the nuclear magnetization are not exponential due to a weak distribution of relaxation rates, similar to that found for the <sup>13</sup>C NMR in K3C<sup>60</sup> [\\[23\\]](#page-4-16). This permits us to determine an upper limit for (T1) −1 [\\[17\\]](#page-4-9), which can be seen to drop sharply in Fig. [3\\(](#page-2-0)a), of about a factor 30 at ∼ Tc/2. The data in Fig. [3\\(](#page-2-0)a) follow the expected low-T variation for a full s-wave gap 2∆:\n\n$$T\\_1^{-1} \\propto (T\\_1 T)\\_n^{-1} \\exp(-\\Delta/k\\_B T). \\tag{2}$$\n\nwhere (T1T)<sup>n</sup> is the normal state value (approximately constant above Tc). We therefore conclude that nodeless superconductivity common to the dense fcc-*A*3C<sup>60</sup> systems still persists near pc. Both fits in Fig. [3\\(](#page-2-0)a) correspond to ∆/kBT<sup>c</sup> ≥ 2.5, quite larger than the BCS value of 1.75. Note that the lower T data unambiguously correspond to *longer* T<sup>1</sup> values than expected for the BCS gap: as discussed in [\\[17\\]](#page-4-9) this cannot be explained by any experimental artifact or sample deficiencies.\n\nWe illustrate in Fig[.3\\(](#page-2-0)b) that similar values for ∆ are found for <sup>13</sup>C NMR. There we also show for comparison the T<sup>1</sup> data reported for the dense fcc alkali fullerides (Rb2CsC<sup>60</sup> [\\[10\\]](#page-4-3)\n\n![](_page_2_Figure_9.jpeg)\n\n<span id=\"page-2-1\"></span>FIG. 4. (a) The SC gap parameter ∆ deduced from T<sup>1</sup> data of Fig[.3](#page-2-0) increases regularly with VC60, while T<sup>c</sup> goes through the SC dome (full line). The T<sup>c</sup> variation for the dense fcc A3C<sup>60</sup> compounds as determined from NMR [\\[10,](#page-4-3) [24\\]](#page-4-14) is shown in the dashed line. (b,c) Normal state (T = Tc) values of (b) the <sup>13</sup>C and <sup>133</sup>Cs (T1T) −1 and of (c) the <sup>13</sup>C anisotropic Knight shift Kax <sup>s</sup> . In (b) the empty circles also show high p <sup>13</sup>C data from [\\[25\\]](#page-4-17). The dotted line in (c) corresponds to the variation of the ESR susceptibility (see text). The corresponding data for other compounds are from [\\[10,](#page-4-3) [24\\]](#page-4-14).\n\nand Rb3C<sup>60</sup> [\\[24\\]](#page-4-14)), for which T<sup>c</sup> are similar. The results are summarized in Fig[.4\\(](#page-2-1)a), where ∆ is plotted versus VC<sup>60</sup> , the volume per C<sup>60</sup> ball, so as to compare its variation with decreasing interball distance to that obtained for Tc. There one can see that the gap increases continuously with lattice expansion at variance with T<sup>c</sup> which goes through a maximum. The ratio ∆/kBT<sup>c</sup> decreases progressively when p > p<sup>c</sup> and approaches the BCS value of 1.75 only beyond the SC dome. The fast drop of (T1T) <sup>−</sup><sup>1</sup> below T<sup>c</sup> also points towards a disappearance at p<sup>c</sup> of the Hebel-Slichter coherence peak [\\[17\\]](#page-4-9), seen in the dense A3C<sup>60</sup> compounds [\\[10](#page-4-3)[–12\\]](#page-4-4).\n\n*Normal state spin susceptibility and* T<sup>1</sup> *data.* <sup>13</sup>C anisotropic shift data permit us to probe the variation of the normal state χ<sup>s</sup> versus p upon approaching pc. We obtain <sup>13</sup>Kax <sup>s</sup> by fitting the spectrum above T<sup>c</sup> with Kax orb = −120 ppm [\\[21\\]](#page-4-13). We report in Fig[.4\\(](#page-2-1)c) a small decrease of <sup>13</sup>Kax s (Tc), that is of χs(Tc), from p = 5.8 to 11 kbar. There, the data for <sup>13</sup>Kax s in Rb3C60, Rb2CsC<sup>60</sup> and K3C<sup>60</sup> have been estimated from <sup>13</sup>C spectra taken below 80K [\\[10,](#page-4-3) [19,](#page-4-11) [26\\]](#page-4-18) for which rotation motions of the C<sup>60</sup> balls are frozen and do not induce any line narrowing [\\[26\\]](#page-4-18). Such comparison is valid as the <sup>13</sup>C hyperfine coupling is defined by the C<sup>60</sup> molecular properties independent of the compound. Finally, in Fig[.4\\(](#page-2-1)c), the ESR measurements of χ<sup>s</sup> [\\[27\\]](#page-4-19) (dotted line, arbitrary units) give us as well an independent determination of the trend expected for the dense A3C60.\n\nThe observed regular increase of Kax <sup>s</sup> versus V<sup>C</sup><sup>60</sup> when approaching the Mott transition contrasts with the wellestablished case of cuprates, for which the occurrence of a pseudogap results in a large decrease of χ<sup>s</sup> with underdoping [\\[13\\]](#page-4-5). Therefore a pseudogap cannot be anticipated to occur in A15-Cs3C60.\n\nWe discuss now the pressure dependence of R ≡ (T1T) −1 in the normal state just above Tc. The data versus VC<sup>60</sup> are summarized in Fig[.4\\(](#page-2-1)b) for <sup>13</sup>C and <sup>133</sup>Cs. The variation of <sup>13</sup>R [\\[25\\]](#page-4-17) parallels that for χs, and corresponds to a progressive increase from the smooth variation known for the other fcc-A3C<sup>60</sup> compounds [\\[28\\]](#page-4-20). For <sup>133</sup>Cs the relative increase of <sup>133</sup>R for decreasing p is somewhat smaller than for <sup>13</sup>C. Indeed <sup>133</sup>R/13R increases regularly from ∼ 0.75 in the Mott state at 1 bar [\\[18,](#page-4-10) [25\\]](#page-4-17) to ∼ 1.4 at 5.9 kbar and ∼ 2 at 11 kbar.\n\nThe NMR relaxation rate 1/T<sup>1</sup> probes the wave vector q dependent dynamic spin susceptibilities χ(q, ω) according to the well-known Moriya relation (T1T) P <sup>−</sup><sup>1</sup> ∝ <sup>q</sup> Ahf(q) 2 Imχ(q, ω). There the location of the probe nucleus with respect to the magnetic sites determines the q dependence of Ahf(q). The latter is q independent for the <sup>13</sup>C spins, which probe the on-ball spin fluctuations, while <sup>133</sup>Ahf(q) is reduced at the AF wave vector for the <sup>133</sup>Cs spin, coupled to its neighbouring C60. The progressive decrease of <sup>133</sup>R/13R with decreasing p through the Mott transition thus appears associated with a moderate increase of AF fluctuations. The larger increase of <sup>13</sup>R with VC<sup>60</sup> indicates that both the AF fluctuations and the mass enhancement or increase of density of states (DOS), responsible for the increase of χs, do contribute to the dynamic spin susceptibility.\n\n*Discussion.* These experimental results permit us to address for the first time experimentally the interplay between electron phonon coupling and electronic correlations in a clean case. In a BCS formalism T<sup>c</sup> would be given by\n\n<span id=\"page-3-7\"></span>\n$$k\\_B T\\_c = 1.14 \\hbar \\omega\\_D \\exp\\left(-1/\\lambda\\right),\\tag{3}$$\n\nwhere λ = V ρ(E<sup>F</sup> ), V being the electron-phonon coupling and ρ(E<sup>F</sup> ) the DOS at the Fermi level. The monotonic variation of T<sup>c</sup> versus VC<sup>60</sup> (or lattice constant) found initially for the dense fcc-A3C<sup>60</sup> compounds has been used at length in the past to indicate that the BCS formalism applies. This enforced the idea that the Debye frequency ω<sup>D</sup> and the electron-phonon coupling V depend solely on C<sup>60</sup> molecular properties, so that a smooth variation of ρ(E<sup>F</sup> ) with V<sup>C</sup><sup>60</sup> drives both variations of T<sup>c</sup> and ( <sup>13</sup>T1T) −1 [\\[1\\]](#page-3-1). Here T<sup>c</sup> goes through a maximum versus V<sup>C</sup><sup>60</sup> , while ( <sup>13</sup>T1T) −1 steadily increases, which is indicative of a breakdown of Eq. [\\(3\\)](#page-3-7).\n\nThe fast drop of χs(T) and (T1T) −1 for T < T<sup>c</sup> that we found first reveals that the Hebel-Slichter coherence peak which is detected for dense A3C<sup>60</sup> is suppressed near the Mott transition [\\[17\\]](#page-4-9). Such a suppression is expected in the case of strong electron-phonon coupling. But an increase near p<sup>c</sup> of this coupling cannot be expected, since it is a molecular quantity independent of the proximity to the Mott state. This departure from weak coupling BCS, together with the increase of ∆/kBT<sup>c</sup> with decreasing p that we evidenced, should definitely be associated with the growth of Coulomb correlations and the expected loss of quasiparticle weight near p<sup>c</sup> [\\[15,](#page-4-7) [29\\]](#page-4-21).\n\nThe Coulomb repulsion is usually partly taken into account in the BCS formalism by assuming that the strength of the effective attractive coupling λ gets decreased by a parameter µ ∗ [\\[30\\]](#page-4-22). An increase of µ ∗ cannot explain a reduction of T<sup>c</sup> near the Mott transition as it would necessarily drive the system back towards weak coupling. On the other hand the increase of ∆/kBT<sup>c</sup> is also found in strong-coupling BCS extensions where quasiparticle states are renormalized by electron-phonon coupling [\\[30\\]](#page-4-22). Here, the observed increase of *both* ∆ and χs(Tc) when p decreases allows to think that the modification of quasiparticle states affected by the increase of electronic correlations near the Mott transition is important for the appearance of superconductivity and the variation of Tc.\n\nSuch a possibility is apparently supported by the recent calculations by Capone *et al.* [\\[15\\]](#page-4-7) who used DMFT to study the interplay between Coulomb correlations and the attractive on-ball coupling. As these authors point out, the effective coupling near the Mott transition is governed by the interaction-renormalized bandwidth which vanishes at p<sup>c</sup> and therefore any BCS-like approach breaks down. This also results in a large enhancement of T<sup>c</sup> as compared to that solely expected from the bare electron-phonon coupling and Eq.[\\(3\\)](#page-3-7), so that electronic correlations would help the SC state rather than suppress it. If such a scenario holds here, superconductivity might rather bear resemblance to local-singlet pairing schemes developed for narrow-band superconductors [\\[31\\]](#page-4-23), where a T<sup>c</sup> dome is also anticipated [\\[32\\]](#page-4-24). Note that the DMFT calculation of Capone *et al*. also allows for a dome-shaped behaviour of the gap amplitude very close to the MI. The present experimental results should definitely help to give some clue as to the relevance of such an approach if refined computations of the gap, of T<sup>c</sup> and of the static and dynamic susceptibilities can be performed.\n\n*Acknowledgements.* We would like to acknowledge Y. Ihara for his constant interest, and M. Capone, M. Fabrizio and E. Tosatti for helpful discussions. We thank also the ESF program INTELBIOMAT for supporting a short visit of T. Mito at LPS.\n\n<span id=\"page-3-0\"></span>∗ [pawel.wzietek@u-psud.fr](mailto:pawel.wzietek@u-psud.fr)\n\n- <span id=\"page-3-1\"></span>[1] O. Gunnarsson, [Rev. Mod. Phys.](http://dx.doi.org/10.1103/RevModPhys.69.575) 69, 575 (1997).\n- <span id=\"page-3-2\"></span>[2] V. Brouet, H. Alloul, S. Garaj, and L. Forro, in ´ *Fullerene-based materials*, edited by K. Prassides (Springer, 2004) p. 125.\n- <span id=\"page-3-3\"></span>[3] M. Fabrizio and E. Tosatti, Phys. Rev. B 55[, 13465 \\(1997\\).](http://dx.doi.org/10.1103/PhysRevB.55.13465)\n- <span id=\"page-3-4\"></span>[4] A. Y. Ganin, Y. Takabayashi, Y. Z. Khimyak, S. Margadonna, A. Tamai, M. J. Rosseinsky, and K. Prassides, [Nature Mat.](http://dx.doi.org/10.1038/nmat2179) 7, [367 \\(2008\\).](http://dx.doi.org/10.1038/nmat2179)\n- <span id=\"page-3-6\"></span>[5] Y. Takabayashi, A. Y. Ganin, P. Jeglic, D. Ar ˇ con, T. Takano, ˇ Y. Iwasa, Y. Ohishi, M. Takata, N. Takeshita, K. Prassides, and M. J. Rosseinsky, Science 323[, 1585 \\(2009\\).](http://dx.doi.org/ 10.1126/science.1169163)\n- <span id=\"page-3-5\"></span>[6] Y. Ihara, H. Alloul, P. Wzietek, D. Pontiroli, M. Mazzani, and M. Ricco, Phys. Rev. Lett. ` 104[, 256402 \\(2010\\).](http://dx.doi.org/ 10.1103/PhysRevLett.104.256402)\n- <span id=\"page-4-0\"></span>[7] S. Lefebvre, P. Wzietek, S. Brown, C. Bourbonnais, D. Jerome, ´ C. Mezi ´ ere, M. Fourmigu ` e, and P. Batail, [Phys. Rev. Lett.](http://dx.doi.org/ 10.1103/PhysRevLett.85.5420) ´ 85, [5420 \\(2000\\).](http://dx.doi.org/ 10.1103/PhysRevLett.85.5420)\n- <span id=\"page-4-1\"></span>[8] F. Kagawa, K. Miyagawa, and K. Kanoda, [Nature](http://dx.doi.org/10.1038/nature03806) 436, 534 [\\(2005\\).](http://dx.doi.org/10.1038/nature03806)\n- <span id=\"page-4-2\"></span>[9] G. Klupp, P. Matus, K. Kamaras, A. McLennan, M. Rossein- ´ sky, Y. Takabayashi, M. McDonald, and K. Prassides, [Nature](http://dx.doi.org/ doi:10.1038/ncomms1910) Commun. 3[, 912 \\(2012\\).](http://dx.doi.org/ doi:10.1038/ncomms1910)\n- <span id=\"page-4-3\"></span>[10] C. H. Pennington and V. A. Stenger, [Rev. Mod. Phys.](http://dx.doi.org/10.1103/RevModPhys.68.855) 68, 855 [\\(1996\\).](http://dx.doi.org/10.1103/RevModPhys.68.855)\n- [11] M. Ricco, L. Menozzi, R. D. Renzi, and F. Bolzoni, [Physica C:](http://dx.doi.org/http://dx.doi.org/10.1016/S0921-4534(98)00359-1) ´ [Superconductivity](http://dx.doi.org/http://dx.doi.org/10.1016/S0921-4534(98)00359-1) 306, 136 (1998).\n- <span id=\"page-4-4\"></span>[12] R. F. Kiefl, W. A. MacFarlane, K. H. Chow, S. Dunsiger, T. L. Duty, T. M. S. Johnston, J. W. Schneider, J. Sonier, L. Brard, R. M. Strongin, J. E. Fischer, and A. B. Smith, [Phys. Rev. Lett.](http://dx.doi.org/10.1103/PhysRevLett.70.3987) 70[, 3987 \\(1993\\).](http://dx.doi.org/10.1103/PhysRevLett.70.3987)\n- <span id=\"page-4-5\"></span>[13] H. Alloul, T. Ohno, and P. Mendels, [Phys. Rev. Lett.](http://dx.doi.org/10.1103/PhysRevLett.63.1700) 63, 1700 [\\(1989\\).](http://dx.doi.org/10.1103/PhysRevLett.63.1700)\n- <span id=\"page-4-6\"></span>[14] M. Capone, M. Fabrizio, C. Castellani, and E. Tosatti, [Science](http://dx.doi.org/10.1126/science.1071122) 296[, 2364 \\(2002\\).](http://dx.doi.org/10.1126/science.1071122)\n- <span id=\"page-4-7\"></span>[15] M. Capone, M. Fabrizio, C. Castellani, and E. Tosatti, [Rev.](http://dx.doi.org/10.1103/RevModPhys.81.943) Mod. Phys. 81[, 943 \\(2009\\).](http://dx.doi.org/10.1103/RevModPhys.81.943)\n- <span id=\"page-4-8\"></span>[16] A. Y. Ganin, Y. Takabayashi, P. Jeglic, D. Ar ˇ con, A. Poto ˇ cnik, ˇ P. J. Baker, Y. Ohishi, M. T. McDonald, M. D. Tzirakis, A. McLennan, *et al.*, Nature 466, 221 (2010).\n- <span id=\"page-4-9\"></span>[17] Supplemental Material.\n- <span id=\"page-4-10\"></span>[18] P. Jeglic, D. Ar ˇ con, A. Poto ˇ cnik, A. Y. Ganin, Y. Takabayashi, ˇ M. J. Rosseinsky, and K. Prassides, [Phys. Rev. B](http://dx.doi.org/ 10.1103/PhysRevB.80.195424) 80, 195424 [\\(2009\\).](http://dx.doi.org/ 10.1103/PhysRevB.80.195424)\n- <span id=\"page-4-11\"></span>[19] R. Tycko, G. Dabbagh, R. M. Fleming, R. C. Haddon, A. V. Makhija, and S. M. Zahurak, [Phys. Rev. Lett.](http://dx.doi.org/ 10.1103/PhysRevLett.67.1886) 67, 1886 (1991).\n- <span id=\"page-4-12\"></span>[20] V. Brouet, H. Alloul, S. Garaj, and L. Forro, [Phys. Rev. B](http://dx.doi.org/ 10.1103/PhysRevB.66.155122) ´ 66, [155122 \\(2002\\).](http://dx.doi.org/ 10.1103/PhysRevB.66.155122)\n- <span id=\"page-4-13\"></span>[21] The anisotropic <sup>13</sup>C NMR shape found in these compounds at low T < 80 K, for which the C<sup>60</sup> molecular rotations are frozen, correspond to Kax orb values which vary from -110 to -120 ppm with increasing charge between 0 and 4, so that Kax orb ∼ −120 ppm can be taken for n = 3.\n- <span id=\"page-4-15\"></span>[22] ∆Kiso has been determined from the <sup>13</sup>C data at p = 5.8kbar and <sup>133</sup>Cs data at p = 5.9kbar.\n- <span id=\"page-4-16\"></span>[23] K. Holczer, O. Klein, H. Alloul, Y. Yoshinari, F. Hippert, S.-M. Huang, R. B. Kaner, and R. L. Whetten, [Europhysics Letters](http://stacks.iop.org/0295-5075/23/i=1/a=011) 23[, 63 \\(1993\\).](http://stacks.iop.org/0295-5075/23/i=1/a=011)\n- <span id=\"page-4-14\"></span>[24] R. Tycko, G. Dabbagh, M. J. Rosseinsky, D. W. Murphy, A. P. Ramirez, and R. M. Fleming, [Phys. Rev. Lett.](http://dx.doi.org/ 10.1103/PhysRevLett.68.1912) 68, 1912 (1992).\n- <span id=\"page-4-17\"></span>[25] Y. Ihara, H. Alloul, P. Wzietek, D. Pontiroli, M. Mazzani, and M. Ricco, [Europhysics Letters](http://stacks.iop.org/0295-5075/94/i=3/a=37007) ´ 94, 37007 (2011).\n- <span id=\"page-4-18\"></span>[26] Y. Yoshinari, H. Alloul, G. Kriza, and K. Holczer, [Phys. Rev.](http://dx.doi.org/ 10.1103/PhysRevLett.71.2413) Lett. 71[, 2413 \\(1993\\).](http://dx.doi.org/ 10.1103/PhysRevLett.71.2413)\n- <span id=\"page-4-19\"></span>[27] J. Robert, P. Petit, T. Yildirim, and J. E. Fischer, [Phys. Rev. B](http://dx.doi.org/10.1103/PhysRevB.57.1226) 57[, 1226 \\(1998\\).](http://dx.doi.org/10.1103/PhysRevB.57.1226)\n- <span id=\"page-4-20\"></span>[28] Y. Maniwa, T. Saito, A. Ohi, K. Mizoguchi, K. Kume, K. Kikuchi, I. Ikemoto, S. Suzuki, Y. Achiba, M. Kosaka, K. Tanigaki, and T. W. Ebbesen, [Journal of the Physical So](http://dx.doi.org/10.1143/JPSJ.63.1139)ciety of Japan 63[, 1139 \\(1994\\).](http://dx.doi.org/10.1143/JPSJ.63.1139)\n- <span id=\"page-4-21\"></span>[29] A. Georges, G. Kotliar, W. Krauth, and M. J. Rozenberg, [Rev.](http://dx.doi.org/ 10.1103/RevModPhys.68.13) [Mod. Phys.](http://dx.doi.org/ 10.1103/RevModPhys.68.13) 68, 13 (1996).\n- <span id=\"page-4-22\"></span>[30] D. J. Scalapino, J. R. Schrieffer, and J. W. Wilkins, [Phys. Rev.](http://dx.doi.org/10.1103/PhysRev.148.263) 148[, 263 \\(1966\\).](http://dx.doi.org/10.1103/PhysRev.148.263)\n- <span id=\"page-4-23\"></span>[31] P. Nozieres and S. Schmitt-Rink, [Journal of Low Temperature](http://dx.doi.org/10.1007/BF00683774) ` Physics 59[, 195 \\(1985\\).](http://dx.doi.org/10.1007/BF00683774)\n- <span id=\"page-4-24\"></span>[32] R. Micnas, J. Ranninger, and S. Robaszkiewicz, [Rev. Mod.](http://dx.doi.org/10.1103/RevModPhys.62.113) Phys. 62[, 113 \\(1990\\).](http://dx.doi.org/10.1103/RevModPhys.62.113)",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "arXiv:1310.5529v3 [cond-mat.supr-con] 19 Feb 2014",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              18.34000015258789,
+              175.6199951171875
+            ],
+            [
+              36.3636474609375,
+              175.6199951171875
+            ],
+            [
+              36.3636474609375,
+              616.4296875
+            ],
+            [
+              18.34000015258789,
+              616.4296875
+            ]
+          ]
+        },
+        {
+          "title": "NMR Study of the Superconducting Gap Variation near the Mott Transition in Cs3C60",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              87.1083984375,
+              52.86114501953125
+            ],
+            [
+              527.73046875,
+              52.86114501953125
+            ],
+            [
+              527.73046875,
+              65.57220458984375
+            ],
+            [
+              87.1083984375,
+              65.57220458984375
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              402
+            ],
+            [
+              "Line",
+              94
+            ],
+            [
+              "Text",
+              9
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              609
+            ],
+            [
+              "Line",
+              91
+            ],
+            [
+              "TextInlineMath",
+              7
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              817
+            ],
+            [
+              "Line",
+              146
+            ],
+            [
+              "TextInlineMath",
+              6
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              713
+            ],
+            [
+              "Line",
+              127
+            ],
+            [
+              "Reference",
+              8
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "ListItem",
+              6
+            ],
+            [
+              "TextInlineMath",
+              5
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              311
+            ],
+            [
+              "Line",
+              66
+            ],
+            [
+              "ListItem",
+              26
+            ],
+            [
+              "Reference",
+              25
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/4Y4BHCAC-2i0kKRuZ5RS5w"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 5,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "NMR Study of the Superconducting Gap Variation near the Mott Transition in Cs<SUB>3</SUB>C<SUB>60</SUB>",
+    "authors": [
+      {
+        "authors_list": [
+          "Wzietek, P.",
+          "Mito, T.",
+          "Alloul, H.",
+          "Pontiroli, D.",
+          "Aramini, M.",
+          "Riccò,"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Former extensive studies of superconductivity in the A<SUB>3</SUB>C<SUB>60</SUB> compounds, where A is an alkali metal, have led one to consider that Bardeen-Cooper-Schrieffer electron-phonon pairing prevails in those compounds, though the incidence of electronic Coulomb repulsion has been highly debated. The discovery of two isomeric fulleride compounds Cs3C60 which exhibit a transition with pressure from a Mott insulator (MI) to a superconducting (SC) state clearly reopens that question. Using pressure (p) as a single control parameter of the C60 balls lattice spacing, one can now study the progressive evolution of the SC properties when the electronic correlations are increased towards the critical pressure p<SUB>c</SUB> of the Mott transition. We have used C13 and Cs133 NMR measurements on the cubic phase A15-Cs3C60 just above p<SUB>c</SUB>=5.0(3) kbar, where the SC transition temperature T<SUB>c</SUB> displays a dome shape with decreasing cell volume. From the T dependence below T<SUB>c</SUB> of the nuclear spin lattice relaxation rate (T<SUB>1</SUB><SUP>)-1</SUP> we determine the electronic excitations in the SC state, that is 2Δ, the gap value. The latter is found to be largely enhanced with respect to the Bardeen-Cooper-Schrieffer value established in the case of dense A3C60 compounds. It even increases slightly with decreasing p towards p<SUB>c</SUB>, where T<SUB>c</SUB> decreases on the SC dome, so that 2Δ /k<SUB>B</SUB>T<SUB>c</SUB> increases regularly upon approaching the Mott transition. These results bring clear evidence that the increasing correlations near the Mott transition are not significantly detrimental to superconductivity. They rather suggest that repulsive electron interactions might even reinforce elecron-phonon superconductivity, being then partly responsible for the large T<SUB>c</SUB> values, as proposed by theoretical models taking the electronic correlations as a key ingredient.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Physical Review Letters",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1310.5529"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1103/PhysRevLett.112.066401",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2014PhRvL.112f6401W"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

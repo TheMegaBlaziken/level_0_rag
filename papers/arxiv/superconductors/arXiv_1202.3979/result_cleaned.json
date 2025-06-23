@@ -1,0 +1,507 @@
+{
+  "id": "f5d70d4d29402a150386a7d22a42e4fa",
+  "pdf_path": "apl/Superconductors/arXiv:1202.3979.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "![](_page_0_Picture_0.jpeg)\n\n# **Fermilab-Conf-11-094-APC-TD March 2011**\n\n### **MUON COLLIDER INTERACTION REGION AND MACHINE-DETECTOR INTERFACE DESIGN\\*†**\n\nN.V. Mokhov# , Y.I. Alexahin, V.V. Kashikhin, S.I. Striganov, A.V. Zlobin Fermilab, Batavia, IL 60510, U.S.A.\n\n### **Abstract**\n\n.\n\nOne of the key systems of a Muon Collider (MC) - seen as the most exciting option for the energy frontier machine in the post-LHC era - is its interaction region (IR). Designs of its optics, magnets and machine-detector interface are strongly interlaced and iterative. As a result of recent comprehensive studies, consistent solutions for the 1.5-TeV c.o.m. MC IR have been found and are described here. To provide the required momentum acceptance, dynamic aperture and chromaticity, an innovative approach was used for the IR optics. Conceptual designs of large-aperture high-field dipole and high-gradient quadrupole magnets based on Nb3Sn superconductor were developed and analyzed in terms of the operating margin, field quality, mechanics, coil cooling and quench protection. Shadow masks in the interconnect regions and liners inside the magnets are used to mitigate the unprecedented dynamic heat deposition due to muon decays (~0.5 kW/m). It is shown that an appropriately designed machine-detector interface (MDI) with sophisticated shielding in the detector has a potential to substantially suppress the background rates in the MC detector.\n\n\\* Work supported by Fermi Research Alliance, LLC under contract No. DE-AC02-07CH11359 with the U.S. Department of Energy through the US LARP Program.\n\n<sup>†</sup> Presented paper at Particle Accelerator Conference'11, March 28 – April 1, 2011, New York, U.S.A. #mokhov@fnal.gov\n\n## **MUON COLLIDER INTERACTION REGION AND MACHINE-DETECTOR INTERFACE DESIGN\\***\n\nN.V. Mokhov# , Y.I. Alexahin, V.V. Kashikhin, S.I. Striganov, A.V. Zlobin Fermilab, Batavia, IL 60510, U.S.A.\n\n#### *Abstract*\n\nOne of the key systems of a Muon Collider (MC) - seen as the most exciting option for the energy frontier machine in the post-LHC era - is its interaction region (IR). Designs of its optics, magnets and machine-detector interface are strongly interlaced and iterative. As a result of recent comprehensive studies, consistent solutions for the 1.5-TeV c.o.m. MC IR have been found and are described here. To provide the required momentum acceptance, dynamic aperture and chromaticity, an innovative approach was used for the IR optics. Conceptual designs of large-aperture high-field dipole and high-gradient quadrupole magnets based on Nb3Sn superconductor were developed and analyzed in terms of the operating margin, field quality, mechanics, coil cooling and quench protection. Shadow masks in the interconnect regions and liners inside the magnets are used to mitigate the unprecedented dynamic heat deposition due to muon decays (~0.5 kW/m). It is shown that an appropriately designed machine-detector interface (MDI) with sophisticated shielding in the detector has a potential to substantially suppress the background rates in the MC detector.\n\n#### **INTRODUCTION**\n\nIn order to realize the high physics potential of a Muon Collider a high luminosity of µ<sup>+</sup> µ- -collisions at the Interaction Point (IP) in the TeV range must be achieved (~10<sup>34</sup> cm-2 s -1 ). To reach this goal, a number of demanding requirements on the collider optics and the IR hardware, arising from the short muon lifetime and from relatively large values of the transverse emittance and momentum spread in muon beams that can realistically be obtained with ionization cooling [1], should be satisfied. These requirements are aggravated by limitations on the quadrupole gradients [2] as well as by the necessity to protect superconducting magnets and collider detectors from muon decay products [3, 4]. The overall detector performance in this domain is strongly dependent on the background particle rates in various sub-detectors. The deleterious effects of the background and radiation environment produced by the beam in the ring are very important issues in the Interaction Region and detector design.\n\n#### **IR LATTICE**\n\nThe basic parameters of the muon beams and of the collider lattice necessary to achieve the desired luminosity are given in Table 1.\n\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\n|  |  |  |  |  |  |  |  | Table 1: Baseline muon collider parameters |  |\n|--|--|--|--|--|--|--|--|--------------------------------------------|--|\n|--|--|--|--|--|--|--|--|--------------------------------------------|--|\n\n| Parameter                               | Unit           | Value     |\n|-----------------------------------------|----------------|-----------|\n| Beam energy                             | TeV            | 0.75      |\n| Repetition rate                         | Hz             | 15        |\n| Average luminosity / IP                 | 1034/cm2<br>/s | 1.1       |\n| Number of IPs, NIP                      | -              | 2         |\n| Circumference, C                        | km             | 2.73      |\n| *<br>β                                  | cm             | 1 (0.5-2) |\n| Momentum compaction,<br>α<br>p          | 10-5           | -1.3      |\n| Normalized r.m.s. emittance,<br>ε<br>⊥N | π⋅mm⋅mrad      | 25        |\n| Momentum spread,<br>p/p<br>σ            | %              | 0.1       |\n| Bunch length,<br>σ<br>s                 | cm             | 1         |\n| Number of muons / bunch                 | 1012           | 2         |\n| Beam-beam parameter / IP,<br>ξ          | -              | 0.09      |\n| RF voltage at 800 MHz                   | MV             | 16        |\n\nThe major problem to solve was correction of the chromaticity of IR quadrupoles in such a way that the dynamic aperture remained sufficiently large and did not suffer much from strong beam-beam effect. To achieve these goals a new approach to the IR chromaticity correction was developed [1] which may be called a three-sextupoles scheme. The IR layout and beam sizes for β*\\** = 1 cm are shown in Fig. 1.\n\n![](_page_1_Figure_12.jpeg)\n\nFigure 1: Beam sizes and aperture of the final focus.\n\n#### **IR MAGNET DESIGN**\n\n The IR doublets are made of relatively short quadrupoles (no more than 2 m long) to optimize their aperture according to the beam size variation and allow placing protecting tungsten masks in between them. The first two quadrupoles in Fig. 1 are focusing ones and the next three are defocusing ones. The space between the 4th and 5th quadrupoles is reserved for beam diagnostics and\n\n<sup>\\*</sup>Work supported by Fermi Research Alliance, LLC under Contract DE-AC02-07CH11359 with the U.S. DOE. # mokhov@fnal.gov\n\ncorrectors. The cross-sections of MC IR quadrupoles feature two-layer shell-type Nb3Sn coils and cold iron yokes. The coil aperture ranges from 80 mm (Q1) to 160 mm (Q3 to Q5). The nominal field in the magnet coils is ~11-12 T, whereas the maximum field reaches ~13-15 T. As can be seen, all the magnets have ~12% margin at 4.5 K, which is sufficient for the stable operation with an average heat deposition in magnet mid-planes up to 1.7 mW/g. Operation at 1.9 K would increase the magnet margin to ~22% and their quench margin by a factor of 4.\n\nThe specifics of the heat deposition distributions in the MC dipoles – with decay products inducing showers predominantly in the orbit plane – require either a very large aperture with massive high-Z absorbers to protect the coils or an open midplane design [1-3]. It has been shown [5] that the most promising approach is the open mid-plane design which allows the decay electrons to pass between the superconducting coils and be absorbed in high-Z rods cooled at liquid nitrogen temperatures, placed far from the coils. The coils are arranged in a costheta configuration [1, 5]. The coil aperture in the IR dipoles is 160 mm, the gap height is 55 mm with supporting Al-spacers, and magnetic length is 6 m. The nominal field is 8 T.\n\n#### **ENERGY DEPOSITION IN IR MAGNETS**\n\n Energy deposition and detector backgrounds are simulated with the MARS15 code [6]. All the related details of geometry, materials distributions and magnetic fields for lattice elements and tunnel in the ±200-m region from IP, detector components [7], experimental hall and machine-detector interface (Fig. 2) are implemented in the model. To protect the superconducting magnets and detector, 10 and 20-cm tungsten masks with 5 σx,y elliptic openings are placed in the IR magnet interconnect regions and a sophisticated tungsten cone inside the detector [3, 4] were implemented into the model and carefully optimized. The muon beam with parameters of Table 1 is assumed to be aborted after 1000 turns. The cut-off energy for all particles but neutrons is 200 keV, while neutrons are followed down thermal energies (~0.001 eV).\n\n![](_page_2_Figure_4.jpeg)\n\nFigure 2: MARS15 model.\n\n Calculated power density (absorbed dose) profiles are shown in Fig. 3-4 for the second and fifth final focus quadrupoles and in Fig 5 for the first IR dipole. The right side in these plots is toward the ring center, the peak energy deposition is on this side for the IR dipoles and defocusing quadrupoles.\n\n![](_page_2_Figure_7.jpeg)\n\nFigure 3: Power density (absorbed dose) profiles in the QLB2 focusing quadrupole.\n\n![](_page_2_Figure_9.jpeg)\n\nFigure 4: Power density (absorbed dose) profiles in the QLB5 defocusing quadrupole.\n\n The open midplane design for the dipoles provides for their safe operation. The peak power density in the IR dipoles is about 2.5 mW/g, being safely below the quench limit for the Nb3Sn superconductor-based coils at the 1.9- K operation temperature. At this temperature, first four quadrupoles are operationally stable, while the level in the next three IR quadrupoles is 5 to 10 times above the limit. This heat load could be reduced by a tungsten liner in the magnet aperture.\n\n![](_page_3_Figure_1.jpeg)\n\nFigure 5: Power density (absorbed dose) profiles in the first IR dipole.\n\n#### **MDI AND DETECTOR BACKGROUNDS**\n\n In the IR design assumed, the dipoles close to the IP and tungsten masks in each interconnect region (needed to protect magnets) help reduce background particle fluxes in the detector by a substantial factor. The tungsten nozzles in the 6 to 600 cm region from the IP (as proposed in the very early days of MC [8] and optimized later [1,3]), assisted by the detector solenoid field, trap most of the decay electrons created close to the IP as well as most of incoherent e<sup>+</sup> e - pairs generated in the IP. With sophisticated tungsten, iron, concrete and borated polyethylene shielding in the MDI region, total reduction of background loads by more than three orders of magnitude is obrained.\n\n Fig. 6 shows muon flux isocontours in the MC IR. Note that the cut-off energy in the tunnel concrete walls and soil outside is position-dependent and can be as high as a few GeV at 50-100 m from the IP compared to 0.2 MeV close to the IP. These muons – with energies of tens to hundreds of GeV - illuminate the entire detector. They are produced by energetic photons from electromagnetic showers generated by decay electrons in the lattice components. The neutron isofluences inside the detector are shown in Fig. 7. The maximum neutron fluence and absorbed doses in the innermost layer of the silicon tracker for a one-year operation are at a 10% level of that in the LHC detectors at the nominal luminosity. More work is needed to further suppress the very high fluences of photons and electrons in the tracker and calorimeter which exceed those at proton colliders.\n\n![](_page_3_Figure_7.jpeg)\n\nFigure 6: Muon isoflux distribution in IR.\n\n![](_page_3_Figure_10.jpeg)\n\nFigure 7: Neutron isofluence distribution in the detector per bunch crossing.\n\n#### **REFERENCES**\n\n- [1] Y.I. Alexahin, E. Gianfelice-Wendt, V. V. Kashikhin, N.V. Mokhov, A.V. Zlobin, IPAC10.\n- [2] I. Novitski, V.V. Kashikhin, N.V. Mokhov, A.V. Zlobin, ASC2010.\n- [3] C.J. Johnstone, N.V. Mokhov, in Proc. Snowmass 1996, pp. 226-229 (1996).\n- [4] C.J. Johnstone, N.V. Mokhov, in Proc. PAC97, pp. 414-416 (1997).\n\n[5] N.V. Mokhov, V.V. Kashikhin, I. Novitski, A.V. Zlobin,, \"Radiation Effects in a Muon Collider Ring and Dipole Magnet Protection\", these Proceedings.\n\n- [6] N.V. Mokhov[, http://ww-ap.fnal.gov/MARS/.](http://ww-ap.fnal.gov/MARS/)\n- [7]<http://www.4thconcept.org/4LoI.pdf>\n- [8] G.W. Foster, N.V. Mokhov, AIP Conf. Proc. 352, Sausalito (1994), pp. 178-190.",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Fermilab-Conf-11-094-APC-TD\nMarch 2011",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              244.43807983398438,
+              131.9407958984375
+            ],
+            [
+              538.4052734375,
+              131.9407958984375
+            ],
+            [
+              538.4052734375,
+              167.3897705078125
+            ],
+            [
+              244.43807983398438,
+              167.3897705078125
+            ]
+          ]
+        },
+        {
+          "title": "MUON COLLIDER INTERACTION REGION AND MACHINE-DETECTOR \nINTERFACE DESIGN*†",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              58.666015625,
+              226.95355224609375
+            ],
+            [
+              539.342041015625,
+              226.95355224609375
+            ],
+            [
+              539.342041015625,
+              257.0693359375
+            ],
+            [
+              58.666015625,
+              257.0693359375
+            ]
+          ]
+        },
+        {
+          "title": "Abstract",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              288.391357421875,
+              360.9795837402344
+            ],
+            [
+              343.0166015625,
+              360.9795837402344
+            ],
+            [
+              343.0166015625,
+              375.01959228515625
+            ],
+            [
+              288.391357421875,
+              375.01959228515625
+            ]
+          ]
+        },
+        {
+          "title": "MUON COLLIDER INTERACTION REGION AND MACHINE-DETECTOR \nINTERFACE DESIGN*",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              57.76806640625,
+              56.0482177734375
+            ],
+            [
+              539.342041015625,
+              56.0482177734375
+            ],
+            [
+              539.342041015625,
+              87.029296875
+            ],
+            [
+              57.76806640625,
+              87.029296875
+            ]
+          ]
+        },
+        {
+          "title": "Abstract",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              55.2987060546875,
+              137.08984375
+            ],
+            [
+              98.1009521484375,
+              137.08984375
+            ],
+            [
+              98.1009521484375,
+              149.08984375
+            ],
+            [
+              55.2987060546875,
+              149.08984375
+            ]
+          ]
+        },
+        {
+          "title": "INTRODUCTION",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              125.4000015258789,
+              413.0837097167969
+            ],
+            [
+              222.69140625,
+              413.0837097167969
+            ],
+            [
+              222.69140625,
+              425.0837097167969
+            ],
+            [
+              125.4000015258789,
+              425.0837097167969
+            ]
+          ]
+        },
+        {
+          "title": "IR LATTICE",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              137.835205078125,
+              658.1236877441406
+            ],
+            [
+              208.28399658203125,
+              658.1236877441406
+            ],
+            [
+              208.28399658203125,
+              670.1236877441406
+            ],
+            [
+              137.835205078125,
+              670.1236877441406
+            ]
+          ]
+        },
+        {
+          "title": "IR MAGNET DESIGN",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              360.9755859375,
+              641.5636901855469
+            ],
+            [
+              481.30078125,
+              641.5636901855469
+            ],
+            [
+              481.30078125,
+              653.5636901855469
+            ],
+            [
+              360.9755859375,
+              653.5636901855469
+            ]
+          ]
+        },
+        {
+          "title": "ENERGY DEPOSITION IN IR MAGNETS",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              58.217041015625,
+              341.5636901855469
+            ],
+            [
+              287.493408203125,
+              341.5636901855469
+            ],
+            [
+              287.493408203125,
+              353.5636901855469
+            ],
+            [
+              58.217041015625,
+              353.5636901855469
+            ]
+          ]
+        },
+        {
+          "title": "MDI AND DETECTOR BACKGROUNDS",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              61.5843505859375,
+              455.5636901855469
+            ],
+            [
+              284.05126953125,
+              455.5636901855469
+            ],
+            [
+              284.05126953125,
+              467.5636901855469
+            ],
+            [
+              61.5843505859375,
+              467.5636901855469
+            ]
+          ]
+        },
+        {
+          "title": "REFERENCES",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              381.2400207519531,
+              510.6437072753906
+            ],
+            [
+              463.9404296875,
+              510.6437072753906
+            ],
+            [
+              463.9404296875,
+              522.6437072753906
+            ],
+            [
+              381.2400207519531,
+              522.6437072753906
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              97
+            ],
+            [
+              "Line",
+              27
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "Footnote",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              399
+            ],
+            [
+              "Line",
+              119
+            ],
+            [
+              "TableCell",
+              52
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "SectionHeader",
+              5
+            ],
+            [
+              "Table",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Footnote",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              160
+            ],
+            [
+              "Line",
+              52
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Figure",
+              3
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "FigureGroup",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              192
+            ],
+            [
+              "Line",
+              62
+            ],
+            [
+              "ListItem",
+              7
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "Figure",
+              3
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "ListGroup",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/kZ7-eubfT7XTQF9iHtFBhQ"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 4,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Muon Collider interaction region and machine-detector interface design",
+    "authors": [
+      {
+        "authors_list": [
+          "Mokhov, N. V.",
+          "Alexahin, Y. I.",
+          "Kashikhin, V. V.",
+          "Striganov, S. I."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "One of the key systems of a Muon Collider (MC) - seen as the most exciting option for the energy frontier machine in the post-LHC era - is its interaction region (IR). Designs of its optics, magnets and machine-detector interface are strongly interlaced and iterative. As a result of recent comprehensive studies, consistent solutions for the 1.5-TeV c.o.m. MC IR have been found and are described here. To provide the required momentum acceptance, dynamic aperture and chromaticity, an innovative approach was used for the IR optics. Conceptual designs of large-aperture high-field dipole and high-gradient quadrupole magnets based on Nb3Sn superconductor were developed and analyzed in terms of the operating margin, field quality, mechanics, coil cooling and quench protection. Shadow masks in the interconnect regions and liners inside the magnets are used to mitigate the unprecedented dynamic heat deposition due to muon decays (~0.5 kW/m). It is shown that an appropriately designed machine-detector interface (MDI) with sophisticated shielding in the detector has a potential to substantially suppress the background rates in the MC detector.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1202.3979"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.1202.3979",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2012arXiv1202.3979M"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

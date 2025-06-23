@@ -1,0 +1,1775 @@
+{
+  "id": "affbf72c7361719c08939d37899ae255",
+  "pdf_path": "apl/Superconductors/arXiv:1310.6729.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **Examination of the tradeoff between intrinsic and extrinsic properties in the optimization of a modern internal tin Nb**₃**Sn conductor**\n\n**C Tarantini<sup>1</sup> , P J Lee<sup>1</sup> , N Craig<sup>1</sup> , A Ghosh<sup>2</sup> and D C Larbalestier<sup>1</sup>**\n\n<sup>1</sup>National High Magnetic Field Laboratory, Florida State University, Tallahassee, Florida 32310, USA <sup>2</sup> Magnet Division, Brookhaven National Laboratory, Upton, NY11973 USA\n\nEmail: tarantini@asc.magnet.fsu.edu\n\nIn modern Nb3Sn wires there is a fundamental compromise to be made between optimizing the intrinsic properties associated with the superfluid density in the A15 phase (e.g. *T<sup>c</sup>* , *H<sup>c</sup>* , *Hc2*, all of which are composition dependent), maximizing the quantity of A15 that can be formed from a given mixture of Nb, Sn and Cu, minimizing the A15 composition gradients within each sub-element, while at the same time generating a high vortex pinning critical current density, *J<sup>c</sup>* , by maximizing the grain boundary density with the additional constraint of maintaining the RRR of the Cu stabilizer above 100. Here we study these factors in a Ta-alloyed Restacked-Rod-Process (RRP® ) wire with ~70 m diameter sub-elements. Consistent with many earlier studies, maximum non-Cu *Jc*(12 T, 4.2 K) requires preventing A15 grain growth, rather than by optimizing the superfluid density. In wires optimized for 12 T, 4.2 K performance, about 60% of the non-Cu cross-section is A15, 35% residual Cu and Sn core, and only 5% a residual Nb-7.5wt.%Ta diffusion barrier. The specific heat and chemical analyses show that in this 60% A15 fraction there is a wide range of *T<sup>c</sup>* and chemical composition that does diminish for higher heat treatment temperatures, which, however, are impractical because of the strong RRR degradation that occurs when only about 2% of the A15 reaction front breaches the diffusion barrier. As this kind of Nb3Sn conductor design is being developed for sub-elements about half the present size, it is clear that better barriers are essential to allowing higher temperature reactions with better intrinsic A15 properties. We present here multiple and detailed intrinsic and extrinsic evaluations because we believe that only such broad and quantitative descriptions are capable of accurately tracking the limitations of individual conductor designs where optimization will always be a compromise between inherently conflicting goals.\n\n## **1. Introduction**\n\n<span id=\"page-0-0\"></span>It has been qualitatively understood for many years that the large compositional variation possible within the A15 Nb3Sn phase makes optimization of any particular Nb3Sn conductor an often uncertain compromise between maximizing the amount and quality of the A15 phase in the non-Cu cross-section and minimizing the effective sub-element size, *deff*, whilst also avoiding any breakdown of the diffusion barrier that would degrade the electrical and thermal conductivity of the stabilizing Cu surrounding the sub-elements. What makes the best compromise uncertain is that the reaction to make the A15 phase from Sn and Nb constituents within the conductor is very dependent on small details of the local Sn, Nb and Cu (i.e. the non-Cu fraction) environment and the reaction time and temperature. Thus progress towards a full optimization of Nb3Sn conductor design has been slow and empirical, typically proceeding by optimizing one parameter at a time, then followed by finding an acceptable balance of properties in secondary optimizations that maintain as much of the primary optimization as possible. Over the last 15 years the primary accelerator-physics goal has been to raise the non-Cu *Jc*(12 T, 4.2 K) above 3000 A/mm<sup>2</sup> so that efficient quadrupole and dipole magnets can be designed [1, 2, 3]. Since field quality (largely determined by the effective filament diameter, *deff*, after reaction) and magnet protection (largely determined by the residual resistivity ratio, RRR, of the Cu stabilizer) are both of great importance, small *deff* and high RRR enabled by effective diffusion barriers now provide the two principal constraints on the architecture and the reaction window that can be applied to the conductor. For accelerator saddle magnets, it is clear that bronze route conductors cannot deliver a high enough non-Cu *J<sup>c</sup>* , even though they can provide a good balance of non-Cu *Jc*(12 T, 4.2 K) ~1000-1200 A/mm<sup>2</sup> and *deff* < 5 m suitable for low hysteretic loss ITER conductors. For accelerator magnets, internal tin (IT) and powder-in-tube (PIT) conductors presently represent the state of the art. Broadly speaking it appears that the best IT conductors of the RodRestack-Process (RRP® ) design can easily provide non-Cu *Jc*(12 T, 4.2 K) > 3000 A/mm<sup>2</sup> but struggle to produce long-piece length conductors with *deff* < 35-40 m [4], while PIT conductors struggle to produce non-Cu *Jc*(12 T, 4.2 K) exceeding 2500 A/mm<sup>2</sup> , although they do offer a slightly smaller sub-element size [5]. The present paper seeks to understand the way that a balance of intrinsic (*T<sup>c</sup>* , *Hc2*, Sn content, …) and extrinsic (partition of real estate between Sn, Cu, Nb(Ta) and diffusion barrier, A15 grain boundary density, *J<sup>c</sup>* , …) factors controls the properties of a modern high performance RRP® conductor designed for demanding accelerator use, while a subsequent paper will explore some aspects of the same issue for recent PIT conductors.\n\n<span id=\"page-1-3\"></span><span id=\"page-1-2\"></span><span id=\"page-1-1\"></span><span id=\"page-1-0\"></span>The further development of high performance Nb3Sn should be enabled by a more detailed understanding of the A15 composition, grain morphology, wire structure and strain that until now has been evaluated in a mostly *ad hoc,* empirical way. In fact the optimization of modern Nb3Sn conductors in terms of their Cu:Nb:Sn ratio, effectiveness of doping (Ti or Ta), type and thickness of the diffusion barrier (DB) necessary to maintain a high RRR has been conducted principally by measuring the in-field transport *J<sup>c</sup>* , magnetization, and RRR performance on multiple billets with continuously evolving conductor configurations [\\[2,](#page-0-0) 6, 7 , 8 , 9, 10 , 11 ,12 ]. An important factor that determines the superconducting properties of Nb3Sn conductors is the distribution of properties developed during the A15 phase reaction. In particular it is well known that properties like critical temperature, *T<sup>c</sup>* , and upper critical field, *Hc2*, are strongly suppressed by offstoichiometry compositions [\\[6,](#page-1-0)13,14] degrading also the critical current density, *J<sup>c</sup>* . The way that this averaging affects the whole layer properties has been modeled by Cooley *et al.* [15] and compared to the properties of PIT wires by Godeke *et al.* [11].\n\nIn this paper we investigate both the local and the average properties of a state-of-the-art RRP® Nb3Sn conductor from the viewpoint that understanding the distribution of properties is essential to improving their optimization. A vital tool is the specific heat (*C*p) which can provide the real *T<sup>c</sup>* distribution on a scale of the superconducting coherence length over the whole sample, unlike magnetic measurements, which suffer from screening of lower *T<sup>c</sup>* internal regions by external higher *T<sup>c</sup>* regions and do not properly show the transition broadening [16, 17,18,19]. Here we provide an extended characterization of both intrinsic and extrinsic properties by specific heat, magnetization and detailed microstructure on both the macro- and the micro-scale of the same Nb3Sn wire after different heat treatments (HT) that yield conductor performance that varies from acceptable to degraded [\\[8\\]](#page-1-1). Not unexpectedly, many of the conclusions about the role of A15 grain size and reaction conditions are qualitatively similar to earlier studies cited above. What we believe to be new is the quantitative detail of our study and incorporation of diffusion barrier study as a central focus. Since the state of the art for these RRP® designs is now at sub-elements about half the size of the present conductor, sizing the barrier is crucial for permitting high *J<sup>c</sup>* without unacceptable RRR loss. We believe that the quantitative optimization of such conductors will be greatly helped by applying a suite of characterizations like those presented here to these new, finer filament conductors of the 127, 169 and 217 stacks, where maintaining high *J<sup>c</sup>* and high RRR becomes progressively more difficult. It is our hope that this quantitative baseline characterization will make it easier too to compare recent work on PIT and other variants that vie with RRP® to become the next, best design of advanced Nb3Sn conductor.\n\n## **2. Experimental details**\n\nIn this paper we study an RRP® wire manufactured by Oxford Instruments, Superconducting Technology (wire RRP-8220) previously characterized by transport in ref. [\\[8\\]](#page-1-2). It has a 0.7 mm diameter and is composed of 54 sub-elements in the 61 stack design shown in figure 1. Each ~70 m diameter sub-element was assembled with Cu-clad Nb-7.5wt.%Ta (4 at.%Ta) diffusion barrier (DB) and with the same composition of Nb-Ta rods dispersed in a Cu matrix that surrounds a Sn-rich core [20]. The Sn diffusion stages of the heat treatment occurred at 210°C/48 h+400°C/48 h, followed by a high temperature A15 reaction heat treatment at temperatures ranging between 620°C and 750°C for 48-192 h. The samples will here be identified by their final reaction (e.g. 650°C/96h is the wire treated at 650°C for 96 h) and heat treatment will be abbreviated to \"HT\".\n\nMicroscopy was performed in a Zeiss 1540 Crossbeam® Field Emission Scanning Electron Microscope (FESEM) -Backscattered Electron Detector (BSE) using both metallographically polished transverse crosssections and fracture cross-sections to evaluate wire macro- and micro-structure. Energy Dispersive Spectroscopy (EDS) was performed at 15 kV using standard-less analysis (EDAX TEAM V3-4) with an EDAX Apollo XP SDD detector. Image analysis was performed primarily using ImageJ software [21]. Grain size distributions were found to be log-normal, thus all measurements reported here use log-normal statistics. Magnetization hysteresis loops were performed in a vibrating sample magnetometer (VSM) in a 14 T superconducting magnet in order to estimate the non-Cu critical current density *J<sup>c</sup>* , the pinning force density *F<sup>p</sup>* and the extrapolated irreversibility field *HIrr* at 4.2 K. The specific heat of the wires was measured at 0 and 16 T in a 16 T PPMS with 25-30 mg samples using a relaxation technique. Each wire was measured without removing the external Cu stabilizer in order to prevent changes in Nb3Sn properties due to release of the precompression applied to the sub-elements by differential thermal contraction of the Cu matrix.\n\n## **3. Detailed Microstructural and Microchemical Description**\n\nIn this section we present a detailed quantitative description of many aspects of the conductor with a view to understanding how much A15 phase is formed, how much residual core and diffusion barrier remains after\n\nreaction, how the residual thickness of the barrier varies and how this correlates to the measured RRR. We also measure the A15 grain size, measure the A15 composition gradient and provide information about the trapped phases within the A15 layer. As noted above we believe that this information will be essential to understanding the present gradual degradation of properties in RRP® conductors as subelements are pushed to smaller sizes.\n\n## *3.1 Digital macro analysis at the sub-element scale*\n\n![](_page_2_Figure_5.jpeg)\n\n**Figure 1** FESEM-BSE (Field Emission Scanning Electron Microscope-Backscattered Electron) image of a transverse cross-section of the reacted (665°C/50h) RRP® 8220 wire showing the three-ring architecture of the conductor and the tendency for sub-element shape to degrade on going from the inner to the outer ring, where the corners are particularly strongly distorted.\n\n![](_page_2_Picture_7.jpeg)\n\n**Figure 2** FESEM-BSE images of transverse cross-sections of three final heat treatments made at progressively higher temperature [620°C/192h (top), 680°C/48h (middle), 750°C/96h (bottom)] which yield decreasing interfilamentary contrast and density of Cu(Sn) islands within the annular filament pack that develops around the Sn core. The unreacted barrier decreases in thickness with increasing A15 reaction and visible A15 reaction appears outside the barrier after the 750°C heat treatment (HT). A non-linear contrast adjustment was made to the images to enhance the interfilamentary contrast and visibility of the A15 layer found outside the barrier.\n\nFigure 1 presents a reacted cross-section of the wire and its 54 non-Cu sub-elements**.** On the outside of each sub-element is the Nb-Ta diffusion barrier designed to retain the Sn within the sub-element and avoid degradation of the RRR of the stabilizing Cu. After reaction, the originally discrete Cu-clad Nb-Ta filaments form one multiply connected A15 phase annulus (*deff* thus approximates the annular diameter of the sub-element) containing a small void density, trapped Nb-Ta and residual Cu that has not counterdiffused into the core. At the center of each subelement, the original location of the Sn, large voids and a solid solution of Cu and the residual Sn are found (the amount of residual Sn varies with heat treatment and is reported later). The approximate area fractions of these 3 components after reaction are very different, the diffusion barrier being ~5%, the A15 annulus ~60% and the residual core ~35% in the optimally reacted condition. For the purposes of this study the A15 area is measured as the whole connected A15 layer area lying between the diffusion barrier and the Sn core.\n\nA detailed analysis was performed for each wire using a large matrix of FESEM-BSE images (typically montages of 12,000 × 12,000 pixels) which allowed us to analyze the entire cross-section with sufficient resolution to separate voids and interfilamentary Cu(Sn) islands from the A15 layer. In figure 2 we compare FESEM-BSE image details at the same sub-element location in the second sub-element ring for three different HTs of increasing extent. For\n\n![](_page_3_Figure_2.jpeg)\n\n**Figure 3** The heat treatment dependence of (top panel) Non-Cu, A15 and Nb percentages within the wire crosssection and (bottom panel) A15 and Nb percentages within the Non-Cu cross-section of each sub-element.\n\n620°C/192h there is a large quantity of interfilamentary Cu (Sn) islands and a few voids, as well as a strong\n\n**Table 1** Summary of geometrical measurements for each heat treatment as determined by analytical microscopy (see text for details) and residual resistivity ratio (RRR) measured by transport. Wire diameter (Wire diam.), copper/non copper ratio (Cu/Non-Cu) in the wire, percentage of the wire cross-section (CS) occupied by the sub-elements (Sub.el. % of CS) and its variation (Coeff of. Var.in Sub-el. CS), percentage of the wire cross-section containing A15 (A15,% of CS) and its variation (Coeff. Var. A15), percentage of A15 in the sub-element (A15 of Non-Cu (Sub-el)), percentage of unreacted barrier in the wire and sub-element cross-section (Unreacted barrier, % of wire CS and Unreacted barrier, % of Sub-el.).\n\n| Heat         | Wire   | Cu/   | Sub-el. | Coeff<br>Var. | A15, | Coeff. | Unreacted     | A15 of Non   | Unreacted  | RRRa |\n|--------------|--------|-------|---------|---------------|------|--------|---------------|--------------|------------|------|\n| Treatment    | diam., | Non   | % of CS | in<br>Sub-el. | % of | Var.   | barrier, %    | Cu (Sub-el), | barrier, % |      |\n|              | m     | Cu    |         | CS,<br>%      | CS   | A15, % | of wire<br>CS | %            | of Sub-el. |      |\n| 620°C/192h   | 720    | 0.858 | 53.8    | 2.79          | 31.7 | 1.24   | 4.4           | 58.8         | 8.1        | 377  |\n| 650°C/96h    | 727    | 0.805 | 55.4    | 3.09          | 33.1 | 1.39   | 4.0           | 59.7         | 7.2        | 233  |\n| 665°C/50h    | 722    | 0.822 | 54.9    | 2.43          | 32.5 | 1.55   | 4.0           | 59.3         | 7.4        | 171  |\n| 680°C/48h    | 724    | 0.834 | 54.5    | 3.19          | 33.2 | 1.83   | 3.1           | 60.9         | 5.6        | 109  |\n| 695°C/48h    | 714    | 0.791 | 55.8    | 2.64          | 35.5 | 1.58   | 2.9           | 63.7         | 5.1        | 56   |\n| 750°C/96h    | 713    | 0.799 | 55.6    | 2.62          | 36.6 | 1.39   | 2.0           | 65.8         | 3.7        | 15   |\n| Std. Dev.    | 5.4    | 0.025 | 0.8     |               | 1.9  |        | 0.9           | 2.8          | 1.7        |      |\n| Coeff. Var.% | 0.7    | 3.1   | 1.4     |               | 5.6  |        | 26.7          | 4.5          | 26.9       |      |\n|              |        |       |         |               |      |        |               |              |            |      |\n\n<sup>a</sup> RRR data from ref[.8.](#page-1-1)\n\n**4 |** P a g e\n\ninterfilamentary contrast. The interfilamentary regions are too thin for a precise chemical analysis by FESEM but their dark contrast indicates lower atomic number than the filament interiors (qualitative EDS mapping will be reported later in figure 11). Increasing the A15 reaction temperature lowers the interfilamentary contrast and increases the void density in the filament pack of the 680°C/48h wire. At the highest reaction temperature (750°C/96h) almost no interfilamentary contrast or Cu(Sn) islands are observed in the A15 annulus and few voids are visible either, implying homogenization of the initially separated filaments and almost complete ejection of the Cu to the (now much depleted) Sn core region [22]. Figure 2 also shows the progressive decrease in thickness of the unreacted Nb-Ta barrier with increasing temperature and the visible A15 reaction that appears on the outside of the barrier after the 750°C heat treatment due to leakage of Sn into the Cu and long range migration through the stabilizing Cu to the reaction site.\n\nGeometrical measurements after the 6 different heat treatments are compared in table 1 and figure 3. As the heat treatment temperature increased so does the A15 phase % in each sub-element (from 58.8% to 65.8%).\n\n![](_page_4_Figure_2.jpeg)\n\n**Figure 4** Analysis of the diffusion barrier integrity: (a) percentage of A15 react-through to the Cu as a function of the RRR value [\\[8\\]](#page-1-2): average thickness, ring by ring, and location within the 3rd ring data are shown; (b) percentage of reactthrough and percentage of barrier thinner than 0.5 m as a function of final HT; (c) mean barrier thickness as a function of final HT: average, ring by ring, and location within the outer, 3rd ring data are shown. The shadowed area indicates the wires with significant reduction of barrier thickness and compromised RRR.\n\nThe residual Nb-Ta barrier area decreased from 8.1% down to 3.7%, but the non-Cu area stayed remarkably constant (notice the difference between gain in A15 and loss of Nb-Ta volumes: the explanation for the volume discrepancy is beyond the scope of this paper but it is discussed for instance in ref. [23]). The A15 fraction within each sub-element is remarkable independent of the subelement location. For instance, the 665°C/50h wire (figure 1) has an average of 59.3% A15, but the sub-element to sub-element variation is only 0.9 %, despite the strong deformation of the outer corner sub-elements.\n\n## *3.2 Diffusion barrier analysis*\n\nThe integrity of the Nb-Ta diffusion barrier is essential to maintaining good RRR so we also made detailed measurements of the barrier thickness around each sub-element of each sample, as summarized in figure 4. The Nb(Ta)/A15 and Nb(Ta)/Cu interfaces were identified by intensity thresholding of the atomic-number sensitive backscattered electron images; however, additional manual correction was required in some cases where there were thin external A15 layers resulting from Sn-leakage. The barrier thickness was determined from the digital FESEM images by measuring the distance from every pixel at the Nb(Ta)/A15 interface to the closest pixel at the Nb/Cu interface, using the same technique used in previous position sensitive measurements [24] (a pixel corresponds to 61 nm at the magnifications we use). This is effectively the minimum outwards diffusion distance across the barrier, and because of the geometry of the sub-elements, is slightly smaller than the distance measured from the outside of the barrier to the Nb(Ta)/A15 interface. The data obtained by this technique (and their averages) are used in figure 4c. We found that the barrier reaction  extent is quite position sensitive, thinner barriers being found in the more distorted outer ring sub-elements. This is especially so when we compare the length of barrier that has completely reacted through (for instance in the 665°C/50h wire, 0.02% for the inner ring vs. 0.41% for the distorted outer corner subelements). The direct relation between the amount of fully reacted diffusion barrier and the degradation of the RRR is evident in figure 4(a). The surprising result of our analysis is that degradation of RRR below 100 occurs when only about 2% of the barrier perimeter has reacted through. The dependence of the barrier reaction on HT is shown in figure 4 (b) which reveals that react-through is limited to only 0.17% up to 665°C/50h but it then rapidly increases to 23% for 750°C/96h. The mean barrier thickness decreases from 1.2-1.4 m below 665°C/50h to 0.5-0.6 m in the 750°C/96h sample (figure 4(c)). Figure 4 presents the challenge for conductor design very clearly: although average thickness is still 0.5-0.6 m after 750°C/96h, it is the local thinning in just a small fraction of the total barrier perimeter that drives RRR to an unacceptable value of 15.\n\nFigure 5 shows that there is a strong trend to thicker residual barrier as the distance from the center\n\n![](_page_5_Figure_2.jpeg)\n\n**Distance from Center of Sub-element (m )**\n\n**Figure 5** Unreacted barrier thickness plotted against distance to the outside surface of the barrier from the center of each sub-element for the 680°C/48h heat treated strand. The trends to thicker unreacted barriers with increasing distance from the center of the barrier are similar for all sub-elements except the 6 highly distorted outer ring sub-elements (inset) which show a more complex trend.\n\nof the sub-elements increases (we have chosen to show the results just for the 680°C/48h as a mid-range HT example with RRR = 109 but the results for the other HTs are similar). This trend may be due to the outward distortion of the sub-elements that also produces thicker A15 layers on the sides of the sub-elements furthest away from strand center (see for instance figure 1). It is also possible that there is less reaction of the barrier further away from the Sn core, however, confirmation of these hypotheses will require a study of unreacted strand that was not covered in this work.\n\n## *3.3 A15 grain size analysis*\n\nAlthough the filament pack within each sub-element is almost fully reacted, there are some locations where the filaments themselves do not fully react, as shown in figure 6. The length and duration of the final heat treatment do not change the number or distribution of these partially reacted areas. Although these areas have a negligible impact on the total A15 area, they are of interest with regards to the progress of Sn diffusion. As shown in figure 6, these regions occur in similar regions of the 2 nd and 3 rd ring of sub-elements suggesting a consistent mechanism by which the Sn diffusion needed for full reaction is blocked by inhomogeneous subelement deformation during wire fabrication. FESEM-EDS mapping from a partially reacted region of the 620°C/192h sample (bottom right figure 6) is shown in figure 7, confirming the presence of the unreacted filament cores. The EDS maps also indicate a Ta-poor/Sn-rich ring around each of the original filament locations. The Ta-poor ring becomes less pronounced as the distance increases from the Sn core. The Sn-rich regions appear to be thicker around the partially reacted filaments and there are fewer Cu islands. Higher magnification mapping from fully reacted regions will be reported later. Unreacted Nb regions were previously discussed by Pong *et al*. [25] but, differently from our case, they were found near both the core and the diffusion barrier. The reason for this blocking of Sn diffusion is still unknown and it may be similar in the two cases, but a further investigation of intermediate heat treatments, like that performed in ref. [\\[25\\]](#page-5-0) would be helpful to clarify this phenomenon.\n\n<span id=\"page-5-0\"></span>Figure 8 compares the microstructures revealed by fractography for the 620°C/192h and 680°C/48h wires. In both cases, the initial location of the Nb filaments can be recognized (white circles), although this is more evident at lower reaction extents such as 620°C/192h, where the aspect ratio of the grains and their radial distribution is more pronounced. In both wires a 1.5 m-thick layer of columnar grains at the far side of the reaction front close to the Nb barrier is visible. Similar images have been taken on all wires in order to estimate the A15 grain size, grain aspect ratio and grain boundary (GB) density. The typical trend of aspect ratio and grain size across the A15 layer is shown in figure 9. It shows that the mean A15 grain diameter *d \\** (the geometrical diameter of the grains obtained from their cross-sectional areas if assumed to be circular) is quite uniform in the small grain (100-200 nm diameter) region that forms the large majority of the layer. However the\n\n![](_page_6_Figure_1.jpeg)\n\n**Figure 6** FESEM-BSE image details for all 6 heat treatments showing examples of unreacted filament centers adjacent to the Sn cores of each sub-element and the number of sub-elements for each heat treatment that have such unreacted filament centers. In each example, particularly for the high temperature heat treatments, the location of the voids has been displaced around the partially unreacted region. We also show the location of the 10 partially reacted regions in the 695°C/48h cross-section at right center.\n\n![](_page_7_Figure_0.jpeg)\n\n**Figure 7** Qualitative (brighter = higher atomic composition) maps (Nb (L), Ta (M), Sn (L) and Cu (L)) obtained by FESEM-EDS for the partially reacted region of the 620°C strand shown in the bottom right hand corner of Figure 6. The image column on the right subtracts the Nb-L intensity from a normalized Ta intensity (for the upper image the intensity is normalized to the unreacted Nb-Ta barrier and for the lower image the intensity is normalized to the unreacted filament cores). The normalized Ta-Nb maps also show the variation in Ta depletion with distance across the A15 layer.\n\ngrain size is 3-5 times larger close to the Sn-rich core, growing a large-grain A15 layer reminiscent of the inner annulus of much larger A15 grains found in PIT conductors [\\[12\\]](#page-1-3). The grain aspect ratio undergoes a significant increase far from the Sn source near the Nb barrier, changing morphology from equiaxed to columnar. Reflecting the grain growth that occurs with increasing HT temperature, the A15 GB densities progressively decrease from 2.64×10<sup>7</sup> m -1 to 1.4×10<sup>7</sup> m -1 on going from 620°C/192h To 750°C/96h. These values will be used in section 5 to determine the specific GB pinning force. The fractography does not, however, show the small voids or ductile interfilamentary Cu(Sn) islands that are more readily visible in the images of polished samples in figures 2 and 6.\n\n![](_page_7_Figure_3.jpeg)\n\n**Figure 8** In-lens secondary electron FESEM images of fractured 620°C/192h and 680°C/48h wires showing the A15 grain microstructure variation across the whole A15 layer (right) and the location of the examined layers (left). White circles identify the approximate centers of some original Nb-Ta filaments. EDS measurements of local Sn and Cu content reported in figure 10 were made both in the approximate centers of filaments from one side to the other of the whole A15 layer and in some cases at the edge of individual filaments so as to observe if there was a radial gradient within each filament. Large disconnected grains are observed on the Sn-rich core side of the A15 layers. A 1.5 m-thick layer of columnar grains is present next to the unreacted Nb-Ta barrier on the right where the Sn concentration is lowest.\n\n#### *3.4 Chemical composition analysis*\n\nMicrochemical analysis by EDS was performed with the aim of discovering whether there were macroscopic Sn gradients across the whole A15 annular layer and additional local gradients within the regions defined by the original Nb-Ta filaments. For consistency the layer chosen was in the middle ring on the same\n\nring direction side (a compromise between the thicker outer layer and the thinner inner layer) as shown in the schematic illustration under figure 10. Global gradient measurements were made mainly in the center of the original Nb-Ta filaments, where the A15 Sn composition is expected to be locally lowest. Figure 10 shows that the A15 Sn content is relatively flat in the 20-30% of the A15 layer closest to the Sn core for all HTs. At the lowest temperature, 620°C/192h, the Sn composition decreases at larger distances from the Sn core with a strong filament-tofilament variation (21.2-23.4 at.%Sn) that indicates significant reaction inhomogeneity. 680°C/48h has a similar decrease in the Sn composition across the layer but with a much smaller filament-to-filament variation, showing that higher temperature HT favors a more uniform Sn diffusion through the whole\n\n![](_page_8_Figure_3.jpeg)\n\n**Figure 9** Aspect ratio (top panel) and A15 mean grain diameter *d \\** (bottom panel) across the A15 layer starting from the A15/Nb interface. Each data point represents the log-normal mean from a 500 nm wide bin.\n\n![](_page_8_Figure_5.jpeg)\n\n**Figure 10** Sn (top chart panel) and Cu (bottom chart panel) atomic compositions across the A15 layer for 4 different HTs determined by EDS (standard-less analysis). The composition has been estimated in the center of the original Nb-Ta filaments (full symbols) or at filament edges in the 695°C/48h wire (empty symbols). The estimated compositional error for the Sn and Cu are approximately ±1.1 and ±0.8 at. %, respectively. These data provide evidence for both filament-scale and whole filament-pack composition gradients. On the right side of the top panel the amount of the residual Sn in the core is also reported, showing a progressive decrease increasing the HT temperature. The EDS location was the same for all strands (2nd ring, ring direction) and is shown the image panel below the chart.\n![](0__page_9_Figure_0.jpeg)\n\n**Figure 11** FESEM-EDS qualitative elemental atomic compositional maps (64x50 data points) showing variations in Nb (L), Ta (M), Sn (L) and Cu (L) at the filament level. The location of the detailed maps is shown in the images on the left column of the panel. The image column on the right subtracts the Nb-L intensity from a normalized Ta intensity (using the same normalization factor used for the bottom right image in figure 7). Each of the original filament locations is surrounded by a high-Sn low-Ta ring creating a cellular looking microchemical distribution. The normalized Ta-Nb maps also show the declining Ta segregation with increasing heat treatment temperature.\n\nfilament pack. At even higher temperature (695°C/48h and 750°C/96h), the gradient is even flatter and the A15 more homogeneous. Similar chemical analysis performed on the outer perimeter of filaments in the 695°C/48h case (empty symbols in figure 10) shows about 1.5% higher Sn than in the center of the filaments and values close to stoichiometry (24.5-25 at.%Sn). In the lower panel of figure 10 the presence of Cu in the A15 layer is investigated as well. It is evident that 620°C/192h has much more Cu than the other heat treatments. There is a significant gradient (5.7-2.4 at.%Cu), whereas at the highest HT temperature the gradient disappears and the Cu content ranges between 1.7 and 2.7 at.%. We do not yet know how much of this increased Cu is actually incorporated into the A15 grain or A15 grain boundaries or is from the residual Cu(Sn) islands (of which there are more at lower HT temperatures).\n\nThe spatial composition variation at the filament level was investigated using FESEM-EDS mapping as is shown in figure 11. The maps indicate compositional variations in the Nb, Ta and Cu that are associated with the original filament locations; there is a low-Ta and a high-Sn ring around each of the original filaments. As the temperature of heat treatment increases the Ta distribution is homogenized, especially when the heat treatment is increased from 695°C to 750°C. However, even at 750° there are distinct Sn-rich and Ta-poor rings. Because the spatial resolution of this technique is only ~1-2 m it is likely that the real gradients are smeared by the technique and that STEM-EDS will be necessary to discover the true thickness and composition of the layers around the filaments.\n\nIn summary, it is clear that the spatial variation of microstructure in this conductor is always measurable and evident, even though it is much reduced by increased reaction. The constraint to maintain RRR > 100 imposes strong requirements on the diffusion barrier for which average residual thickness properties are almost irrelevant since degradation occurs when only 1-2% of the barrier is reacted through to the stabilizing Cu.\n\n### **4. Specific heat characterization and analysis**\n\n### *4.1 Viewpoint of our specific heat studies*\n\nHaving provided a very detailed description of the variability of many important aspects of the macroscopic layout of the conductor and of the amount of A15 phase, its grain size distribution and chemical\n\n![](0__page_10_Figure_0.jpeg)\n\n**Figure 12** Specific heat as a function of temperature at 0 and 16 T on an RRP® wire heat treated at 695°C for 48 hours.\n\ngradients, we now turn in this and the following section to a description of the superconducting properties to see how they correlate to the previous section.\n\nSpecific heat characterizations are frequently performed on superconducting compounds in order to study properties like *T<sup>c</sup>* and gap amplitude in superconducting state or basic material science properties like structural transitions, electron density and Debye temperature in the normal state. This technique can also provide hints about phase uniformity (from the transition width) in materials with narrow compositional ranges of the superconducting phase and, being a technique sensitive to the whole sample, specific heat can distinguish between a fully and a partially superconducting sample. This technique, however, is rarely employed on wires and tapes\n\ndistribution, and at 16 T, the highest available field, so as to allow us to better determine the normal state properties (see later discussion\n\nin order to investigate the superconducting properties (although it is sometimes employed to characterize the normal state properties useful for magnet design). The case of A15 wires is an exception because of the wide compositional range of the superconducting phase and because all of these compositions are in principle present in a wire. Because of the direct correlation between *T<sup>c</sup>* and the Sn-content, the compositional gradient induces a *Tc*-distribution in the sample that can be evaluated using a model developed by Wang and Senatore *et al*. [\\[16,](#page-1-0) [17\\]](#page-1-1) described later. This technique is very effective in determining differences in wires based on different designs, such as the bronze-process, PIT and RRP® [\\[7,](#page-1-2)[17\\]](#page-1-1), or different doping methods [26], or to evaluate the presence of distinct A15 layers within the same wire [ 27 ]. The question we pose here is whether specific heat measurements are quantitatively useful for studying the systematic changes that occur in a progressive series of reaction heat treatments.\n\nIn this study the specific heat measurements were performed both at 0 T in order to determine the *Tc*-\n\n![](0__page_10_Figure_6.jpeg)\n\n**Figure 13** Normalized electronic specific heat as a function of temperature at zero-field for the same RRP® wire after different heat treatments. The two principal features are the A15 and Nb *T<sup>c</sup>* transitions.\n\nand Appendix) and to provide information about the in-field behavior. Figure 12 shows a typical C(*T*) measurement. At zero-field two features, typical of superconducting transitions, are observed: a first just above 18 K, corresponding to the onset of the highest-*T<sup>c</sup>* A15 phase fraction, and a second one at about 9 K (less visible in the C(*T*)-plot), related mainly to the superconducting transition of the Nb-Ta diffusion barrier (some residual unreacted Nb-Ta in the filament pack may also contribute: see figure 6). At 16 T the A15 transition is suppressed to about 12 K (red curve in figure 12) and the Nb-Ta transition is completely suppressed. In order to investigate the superconducting properties, the electronic contribution to the total specific heat of the superconducting phases alone (Ce) has to be\n\n**Table 2** Properties of the wires as determined by specific heat analysis (see details in the text) and RRR measured by transport. Onset (*T<sup>c</sup>* ,onset), middle point (*T<sup>c</sup>* ,mid), and transition width (Δ*Tc*) of the A15 superconducting transition at 0 T obtained from the *F*(*T*) curves excluding phases below Nb transition, residual Nb (Res. Nb) as determined by the jump at 9 K in the *F*(*T*) curves, main peak position (*T<sup>c</sup>* ,peak) and width (Δ*Tc,*FWHM) obtained from the *f*(Tc) curves, middle point of the 16 T transition (*Tc*,mid(16 T)) as determined from the *F*(*T*) curves at 16 T, residual phase in superconducting state at 16 T and 2K (1-*F*2K,16T).\n\n| Heat Treatment |        | Tc<br>,onset | Tc<br>,mid | Res. Nb | ΔTc  | Tc<br>,peak | ΔTc,FWHM | Tc,mid(16T) | 1-F2K,16T | RRRa |\n|----------------|--------|--------------|------------|---------|------|-------------|----------|-------------|-----------|------|\n| Temp °C        | Time h | K            | K          | %       | K    | K           | K        | K           | %         |      |\n| 620            | 192    | 18.10        | 16.83      | 7.6     | 3.23 | 17.11       | 1.46     | 9.05        | 42        | 377  |\n| 650            | 96     | 18.09        | 17.06      | 6.6     | 3.03 | 17.67       | 1.42     | 9.82        | 40        | 233  |\n| 665            | 50     | 18.31        | 17.14      | 4.9     | 3.74 | 17.67       | 1.31     | 9.81        | 37        | 171  |\n| 680            | 48     | 18.40        | 17.24      | 4.1     | 3.34 | 17.72       | 1.18     | 9.95        | 42        | 109  |\n| 695            | 48     | 18.36        | 17.51      | 3.7     | 2.27 | 17.85       | 0.91     | 10.40       | 41        | 56   |\n| 750            | 96     | 18.34        | 17.57      | 1.8     | 2.29 | 17.85       | 0.83     | 10.56       | 50        | 15   |\n\n<sup>a</sup> RRR data from ref[.8.](#page-1-3)\n\nisolated, since this is the only contribution carrying information about the superconducting state [28]. Therefore we need to take into account the presence in the wire of the two superconductors, Nb3Sn and Nb, and normal materials, like Cu and other Nb-Sn-Cu phases. The specific heat data were analyzed using the usual procedure described for instance in ref. [\\[16](#page-1-0)[,17,](#page-1-1) 29],with a small modification in order to exclude the contribution from Cu and other non-superconducting phases that are not of interest here (see Appendix for more details). Figure 13 reports the obtained C<sup>e</sup> contribution normalized to *T* (where is the Sommerfeld constant of the superconducting phases as determined in the Appendix). This plot reveals significant differences in the wires with increasing heat treatment. The onset of the Nb3Sn transition at 0 T (*Tc*,onset in table 2) lies in the 18.3-18.4 K range for HTs above 665°C but at 18.1 K for HTs below 650°C. The amplitude of the C<sup>e</sup> jump at *T<sup>c</sup>* significantly rises on raising the HT temperature and the position of the maximum moves to higher temperature making the transition sharper. This is particularly evident going from 680°C to 695°C. In contrast, the jump at the Nb transition becomes smaller with increasing HT temperature, indicating greater conversion of the Nb barrier to A15 as it reacts with Sn.\n\n# *4.2 Deconvolution of the T<sup>c</sup> distribution from the measurements*\n\nThe C<sup>e</sup> data can be deconvoluted to determine the *Tc*-distribution by using the method developed in ref. [\\[16\\]](#page-1-0). This method considers a two-fluid model under the hypothesis that there is one normal state electronic specific heat for all the superconducting phases, independent of *T<sup>c</sup>* ( Cen(*T*,*T<sup>c</sup>* ) =Cen(*T*) =*T* ), and that the superconducting state electronic specific heat can be described by the relation *n <sup>c</sup> T<sup>c</sup> T T<sup>c</sup>* C (*T*,*T* ) = *n* ( / ) es (according to the Gorter-Casimir model). Moreover the model employs a weighting function *f*(*Tc*) that represents the distribution of *T<sup>c</sup>* between 0 and the maximum critical temperature, *Tc*,Max. *f*(*Tc*) is related to C<sup>e</sup> and to the electronic entropy S<sup>e</sup> by the relation [\\[16\\]](#page-1-0):\n\n$$\\frac{n\\,\\mathrm{S}\\_{\\mathrm{e}}(T) - \\mathrm{C}\\_{\\mathrm{e}}(T)}{(n-1)\\eta T} = \\int\\_{0}^{T} f(T\\_{\\mathrm{c}}) \\mathrm{d}T\\_{\\mathrm{c}} = F(T) \\tag{1}$$\n\nwhere *F*(*T*) is the integral of the *Tc*-distribution from 0 to T. By definition *F*(*T*) is constrained by *F*(*Tc,*Max)=1 and it usefully represents the superfluid volume fraction of sample with *TcT*.\n\n### *4.3 Integral of Tc-distributions*\n\nThe *F*(*T*) curves obtained by eq. (1) are displayed in figure 14. Although the *F*(*T*) curves appear similar to the magnetization transitions shown in the inset, the specific heat curves actually provide considerably more information because they represent a genuine bulk average of *T<sup>c</sup>* on a scale of the coherence length . As expected the two principal features in figure 14 occur at 9 K and 18 K and correspond to the Nb and the highest part of the A15 transitions. The width of the Nb transition is only weakly affected by heat treatment (broadening becomes more obvious above 695°C) but the dominant effect is that the Nb transition amplitude\n\n![](0__page_12_Figure_0.jpeg)\n\n**Figure 14** *F*(*T*) is the integral of the *T<sup>c</sup>* -distribution at zero field as defined by eq. 1. It represents the volume fraction with *TcT*. The inset shows the normalized magnetization transition for the 650°C/96h and 695°C/48h heat treatments.\n\nprogressively decreases to almost zero with increasing reaction temperature. The Nb superfluid volume fraction estimated from the *F*(*T*) curves indeed drops from 7.6% at 620°C/192h to 1.8% at 750°C/96h (residual Nb in table 2). In regard to the A15 Nb3Sn transition, HT makes clear differences in both the width and the amplitude. It is particularly notable that much sharper transitions occur for high reaction temperatures. In order to quantify this sharpening, the A15 transition broadening Δ*T<sup>c</sup>* is defined by the 10-90% criterion on the A15 transition i.e. excluding the Nb transition and the lowest *T<sup>c</sup>* phases]. Δ*T<sup>c</sup>* decreases from 3.0-3.7 K for HTs below 680°C to 2.3 K for HT above 695°C (table 2). These *F*(*T*) transitions indicate the considerable inhomogeneity of the A15 layer since, even for the highest temperature reaction, over 28% of the A15 phases has a *T<sup>c</sup>* below 17 K whereas for the lowest temperature reaction this amount\n\nreaches 57% (excluding Nb and A15 found mostly near the diffusion barrier with *T<sup>c</sup>* below 9 K). The magnetic transition determined for comparison (the 650°C/96h and 695°C/48h curves are shown in the inset as example) reveal quite a different behavior: they show an onset lower than the one determined by specific heat. In fact when the *M*(*T*) starts to show a visible diamagnetic signal, the *F*(*T*) transition reveals that already 20% of the A15 phase is in the superconducting state. Moreover, differently from the *F*(*T*) case, in the *M*(*T*) curves the transition width of the A15 phase and the relative amplitude of the Nb and A15 transitions are similar for these two wires and only a small rise of the A15 transition is observed for the higher temperature reaction. The reason for such different results will be given in the discussion.\n\n![](0__page_12_Figure_4.jpeg)\n\n**Figure 15** *Tc-*distributions *f*(*Tc*) as a function of heat treatment (HT) temperature and, on the right, a magnified view of the A15 *T<sup>c</sup>* peaks at low (a) and high (b) HT temperature.\n\n# *4.4 Tc-distributions*\n\nFigure 15 shows the *Tc*-distributions *f*(*Tc*) (i.e. the derivative of *F*(T) shown in figure 14 as follows from eq.1) for the six different HT conditions. In general increasing the HT temperature causes the A15 peak to grow and the *Tc*-distribution to move toward higher *T<sup>c</sup>* , whereas the Nb peak becomes smaller. In fact, as summarized in table 2, the *Tc*-distribution peak, *Tc*,peak, moves from 17.1 K to 17.85 K with increasing HT temperature, whereas the peak width decreases from 1.5 K to 0.8 K. It is interesting to note that 620°C/192h has the same onset as 650°C/96h, but also that it is clearly more inhomogeneous having multiple peaks above 14 K in the *Tc*distribution and the lowest *Tc*,peak (~17.1 K against 17.7 K of 650°C/96h). Comparing the next two HT conditions (650°C/96h and 665°C/50h) clarifies the effect of HT time in driving more Sn into the A15 layer (figure 15a). In fact the two *f*(*Tc*) curves have the same peak intensity and position (17.7 K) but, despite a higher onset, 665°C/50h has a high temperature shoulder and multiple peaks down to 10 K, suggesting that the longer HT (650°C/96h) drives Sn more effectively into the filament pack and makes an overall more homogeneous A15 layer. Increasing the HT temperature above 680°C causes an increase in the intensity of the highest-temperature A15 peak and makes the secondary peaks in the 10-15 K range almost disappear. Probably this higher HT temperature is removing some spatial variation of reaction associated with small differences in the filament pack arrays and their influence on the Sn diffusion path into each sub-element. The *Tc*-distribution of the two highest-temperature HTs (695°C/48h and 750°C/96h) reveals that the two curves have the same peak position and in the 750°C/96h wire only a weak improvement in peak intensity and width are obtained (figure 15b).\n\n## *4.5 In field specific heat measurements*\n\nThe initial purpose of performing high-field measurements was to determine the normal state with more accuracy; however they also provide useful details about the in-field *Tc*-distribution. This may be of particular interest for that fraction of the A15 expected to be found near the diffusion barrier with *T<sup>c</sup>* < 10 K which is not expected to be superconducting at 16 T. Therefore a similar analysis of the specific heat transitions has been performed at 16 T, seeking correlations with the in-field *J<sup>c</sup>* performance. Figure 16 shows that increasing the HT temperature up to 695˚C produces a striking sharpening of *F*(*T*,16T) as *Tc,max* is approached. An even more marked change occurs in the 750°C/96h sample. The quantity 1-*F*(*T*,16T) represents the fraction of the sample still in the superconducting state at 16 T and, in the low temperature high field limit (2 K, 16 T), it changes only\n\n![](0__page_13_Figure_4.jpeg)\n\n**Figure 16** *F*(*T*) at 16 T showing how the transition changes in strong applied fields. The strong increase in superfluid volume fraction obtained by increasing the HT to 750°C is clear.\n\nweakly for HT up to 695°C [(1-*F*2K,16 <sup>T</sup>) 37-42 %] but strongly increases in the 750°C/96h wire, reaching its maximum of 50%. Despite this variation, the *T<sup>c</sup>* transition onsets of the different wires lie within a few tenths of a Kelvin. The 16 T *Tc*-distribution *f*(*T<sup>c</sup>* ,16 T) plotted in figure 17 clearly reveals the progressive increase in wire uniformity: the lower *T<sup>c</sup>* components of the A15 distribution are always significant and only slowly flatten as the HT continues, whereas the higher *T<sup>c</sup>* components gradually move to the highest *T<sup>c</sup>* . The sudden change in the 16 T *F*(*T*) curves below and above 695˚C suggests that different mechanisms are playing a role in the in-field behavior. A possible explanation of this will also be presented in the discussion section.\n\nIn summary we see that the marked signs of inhomogeneity seen in the microstructure in the last section reflect\n\n![](0__page_14_Figure_0.jpeg)\n\n**Figure 17** *Tc*-distributions *f*(*Tc*) at 16 T as a function of the heat treatment (HT) temperature and, on the right, magnified views of the highest *T<sup>c</sup>* A15 peak. The applied field measurements emphasize the important role of increasing HT in smoothing and pushing the *T<sup>c</sup>* distribution to higher temperature.\n\nthemselves quite clearly too in the *Tc*-distributions derived from specific heat. They reinforce our general conclusion that even champion *J<sup>c</sup>* wires like this contain a wide range of properties. The grand challenge that these results pose is of course to better minimize the distribution so as to yield yet better properties.\n\n### **5. VSM characterization**\n\n### *5.1 Non-Cu cross-section properties*\n\nMagnetization hysteresis loops were measured in the VSM by applying field perpendicular to the wire axis so as to induce current flow along it. Figure 18 reports the non-Cu *J<sup>c</sup>* determined by the Bean model using the expression for a sub-element in perpendicular configuration [ *J* 15 \\* *m*/(4*R*\\**V*) *c* where *R* is the average external sub-element radius (35 m), *V* is the sub-element volume, *m* is the total magnetic moment divided\n\n**Table 3** Microstructural and physical properties of the A15 wires. The percentage of A15 phase in the sub-elements (A15% 0f non-Cu) and the grain boundary density (GB density) were determined by analytical microscopy and fractography. The non-Cu values at 4.2 K were determined by VSM measurements using the Bean model (for *Jc*) and Kramer extrapolation (for *HIrr*). The A15 layer *J<sup>c</sup>* and *F<sup>p</sup>* at 4.2 K were calculated rescaling the non-Cu values on the crosssection occupied by the A15 phase (A15 % of non-Cu). The GB specific pinning force, *QGB*, is determined by *QGB* =*Fp/λSGB* (see main text).\n\n|                |        |          |             |       |         | Non-Cu values |         | A15 layer values |        |         |          |\n|----------------|--------|----------|-------------|-------|---------|---------------|---------|------------------|--------|---------|----------|\n| Heat Treatment |        | A15 % of | GB density  | HIrr  | Jc(12T) | Fp,Max        | Fp(12T) | Jc(12T)          | Fp,Max | Fp(12T) | QGB(12T) |\n| Temp °C        | Time h | non-Cu   | 107 m<br>-1 | T     | A/mm2   | GN/m3         | GN/m3   | A/mm2            | GN/m3  | GN/m3   | N/m2     |\n| 620            | 192    | 58.8     | 2.65        | 22.71 | 3086    | 64.5          | 37.0    | 5248             | 109.7  | 62.9    | 7124     |\n| 650            | 96     | 59.7     | 2.22        | 22.86 | 3067    | 63.0          | 36.8    | 5137             | 105.5  | 61.6    | 8330     |\n| 665            | 50     | 59.3     | 2.11        | 22.73 | 2709    | 56.0          | 32.5    | 4568             | 94.4   | 54.8    | 7792     |\n| 680            | 48     | 60.9     | 1.99        | 23.47 | 3007    | 59.2          | 36.1    | 4938             | 97.2   | 59.3    | 8936     |\n| 695            | 48     | 63.7     | 1.66        | 24.81 | 2832    | 52.2          | 34.0    | 4446             | 81.9   | 53.4    | 9646     |\n| 750            | 96     | 65.8     | 1.19        | 25.20 | 2097    | 38.4          | 25.2    | 3187             | 58.4   | 38.3    | 9655     |\n\n**15 |** P a g e\n\nby the number of sub-elements in the wire], the pinning force density *F<sup>p</sup>* and the Kramer plots as a function of field at 4.2 K [30]. Since we are interested in the non-Cu *J<sup>c</sup>* in order to facilitate comparison with many existing transport data, the same external radius of the diffusion barrier is used in the calculation for all the wires. It is worth noting that, differently from transport measurements where normally meter-long samples are measured, in the VSM it was only possible to measure samples of a few millimeters. This means that the so-obtained non-Cu *J<sup>c</sup>* (and, as a consequence, *Fp*) represents the local properties of the measured pieces. For this reason and because of differences in the measurement techniques, these *J<sup>c</sup>* values may slightly differ from the transport results. In order to obtain consistent, although local, results we measured the same pieces of wires previously characterized by specific heat.\n\nAs shown in the previous two sections, heat treatment also has a significant effect on the *J<sup>c</sup>* and *F<sup>p</sup>* behavior. The two lowest temperature HTs show only small differences and in fact they have the best performance in terms of pinning force with an *F<sup>p</sup>* maximum of 63-64.5 GN/m<sup>3</sup> . Increasing the HT temperature to 750°C/96h, both the non-Cu *J<sup>c</sup>* and *F<sup>p</sup>* are strongly suppressed (*Fp,Max* by 40%). Interestingly, *Fp*,Max does not monotonically change with the HT temperature (665°C/50h has a lower *Fp,Max* than 680°C/48h). This suggests that the longer HT of both 620°C/192h and 650°C/96h positively affects the *J<sup>c</sup>*\n\n![](0__page_15_Figure_2.jpeg)\n\n**Figure 18.** Non-Cu *J<sup>c</sup>* , *Fp*, and Kramer plot at 4.2 K as a function of applied field for the 6 wires obtained after different heat treatment.\n\nperformance more effectively than increasing the HT temperature to 665°C but for a shorter HT (only 50 h). The short HT becomes effective only with a further increase in temperature to 680°C. The extrapolated *HIrr*(4.2 K), estimated by the Kramer plot, has small variations in the 620-665°C range (22.7-22.9 T) and then it significantly improves, reaching 25.2 T in the 750°C/96h wire (see table 3). Because of the long extrapolation, some inaccuracy in the *HIrr*(4.2 K) values is possible, in particular if the long tail (due to inhomogeneity) frequently observed in the Kramer plot is affecting our samples [\\[15\\]](#page-1-4); however this inaccuracy is likely smaller than in many transport results where *J<sup>c</sup>* is usually measured up to 12 T or less. In the wires heat treated up to 695°C the position of the *F<sup>p</sup>* maximum is located at the same reduced field, Hmax/*HIrr=*0.19-0.2, consistent with the assumption that grain boundaries are the main pinning mechanism and that a Kramer extrapolation is valid. Only in the 750°C/96h case the ratio Hmax/*HIrr* is slightly lower (0.18); however the Kramer plot remains linear over a wide high-field range making the extrapolation still valid. This suggests that at 750°C/96h the predominant pinning mechanism at high field is still from grain boundaries and a possible additional mechanism is effective only in the low-field region.\n\n# *5.2 A15 layer J<sup>c</sup> and pinning force properties*\n\nThanks to the microstructural information presented in section 3 (A15 percentage of non-Cu and GB density), the A15 layer properties can be determined as well. It is important to notice that the change in the A15 percentage with HT does not determine the large variation of non-Cu *J<sup>c</sup>* (40%) from HT to HT: in fact the wire with the largest non-Cu *J<sup>c</sup>* at 12 T (620°C/192h) also has the smallest A15 percentage. As a consequence taking into account the A15 percentage produces an even larger variation in the A15 layer *J<sup>c</sup>* (65%). Of particular interest is the specific GB pinning force determined by *QGB* =*Fp/λSGB* (where *SGB* is the GB density and *λ* takes into account the proportion of grain boundary oriented for pinning). The parameter *λ* assumes the value 1/2 for columnar grains and 1/3 for equiaxed grains [31]. In low-Sn Nb3Sn strand designs such as the bronze-process, a large portion of the A15 has columnar grains, i.e. a high aspect ratio [\\[16,](#page-1-0)32] and *λ*=1/2 can be used. On the other hand, high-Sn designs such as PIT and RRP® wires have more equiaxed A15 grains (small aspect ratio) as shown in figures 8 and 9, so the use of *λ*=1/3 is more appropriate. We find that *QGB* also has a strong variation with HT (see table 3): *QGB*(4.2 K ,12 T) has a minimum of ~7120 N/m<sup>2</sup> in the 620°C/192h wire, then it increases and reaches a maximum of ~9650 N/m<sup>2</sup> at 695°C/48h and 750°C/96h. Such a variation of *Q*GB suggests that the performance of the wires does not simply change because of the decreasing GB density but also because the ability of grain boundaries to pin vortices is a function of other changes produced by the different HTs as well.\n\n#### **6. Discussion**\n\n#### *6.1 Motivation of our study*\n\nOur goal in this work was to try to provide a quantitative description of a real state-of-the-art, highest *J<sup>c</sup>* , long-length Nb3Sn conductor of the RRP® design so that progress towards other desirable conductor properties such as a smaller filament size, undegraded RRR and better high field *J<sup>c</sup>* performance could become possible and more predictable. At present RRP® and PIT conductors vie for application in the very demanding environment of the Large Hadron Collider (LHC) and the demands of the LHC are large enough to be driving much R&D on Nb3Sn [\\[1](#page-0-0)[,4\\]](#page-1-5). PIT and RRP® possess different architectures and reaction paths, but underlying their intensive development is a common question: is there unused space in the parameter optimization available to make them even better? This paper attempts to provide a baseline quantitative description of a large filament, high *J<sup>c</sup>* RRP® wire so that the reason for the lower *J<sup>c</sup>* and lower RRR in finer filament, greater sub-element number conductors for the same reaction can be understood. Our belief is that a full quantitative description will be able to find further optimization space to enable the desire for the very highest *J<sup>c</sup>* and RRR behavior to be obtained in smaller effective filament diameter versions of the state-of-the-art RRP® design.\n\n#### *6.2 Summary of results and layout of discussion*\n\nThe extensive range of measurements presented here shows that even though these wires have some of the best critical current densities of any Nb3Sn strands, they still have a remarkably inhomogeneous A15 layer, even when heat treated at temperatures much higher than typical. Comparison of results obtained by image analysis and specific heat with the more usual critical current characterizations provides a detailed picture of the way that intrinsic (*T<sup>c</sup>* , *Hc2*, Sn content, …) and extrinsic (grain boundaries density, *J<sup>c</sup>* , …) properties play off against each other to control the achievable properties of the reacted conductor. For this conductor at 12 T and 4.2 K, it is clear that the non-Cu *Jc*(12 T, 4.2 K) properties are still strongly coupled to the A15 grain size and that higher temperature reactions degrade both the non-Cu *Jc*(12 T, 4.2 K) and the RRR. For present accelerator use, where peak fields are in the 12 T range, lower temperature reactions (which emphasize a high A15 grain boundary density) rather than higher temperature reactions (which push the A15 layer composition more towards the stoichiometric composition) win out, showing that extrinsic rather than intrinsic property optimization is paramount. But many uses of Nb3Sn demand optimization at fields of 16 T or more. Most Nb3Sn laboratory magnets have peak fields in the 16-20 T range, thus focusing attention on the value of raising the in-field superfluid volume fraction by more successfully homogenizing the chemistry, in this case by increasing the reaction temperature.\n\nThe detailed microstructural and chemical analyses, the zero-field and in-field 16 T *Tc*-distributions and the *J<sup>c</sup>* , *F<sup>p</sup>* and *QGB* tabulations reveal many interesting and complementary correlations. In this section we now discuss the relevance of our findings for the diffusion barrier (section 6.3), the comparison of specific heat and magnetization measurements (section 6.4), the value of increasing the reaction temperature and its inability so far to avoid local gradients within each filament, as well as across the filament pack within each sub-element (section 6.5), the correlation of the in-field *Tc*-distributions and superfluid fraction extracted from specific heat to the irreversibility field (section 6.6) and the critical current density (section 6.7). We close (section 6.8) with some comparison to other conductor types and suggestions for small changes to the design of RRP® conductors.\n\n## *6.3 Diffusion barrier properties and maintenance of high RRR in the stabilizing Cu*\n\n<span id=\"page-17-0\"></span>The quantitative microscopy reveals a progressive decrease in the amount of unreacted Nb-Ta barrier from 8.1 to 3.7% of the non-Cu cross-section (table 1). A positive observation is that RRR > 100 occurs when only 5.6% of residual diffusion barrier remains, allowing almost 61% of the non-Cu cross-section to convert to the A15 phase. This is a much more efficient design than occurs in PIT conductors where it appears that about 25% of residual barrier is needed to maintain the same RRR [33]. Figure 4 shows that some react-through of the A15 to the Cu occurs at every temperature but below 665°C it is limited to <0.2%, whereas it reaches 23% of the total barrier perimeter at 750°C. As a consequence, sufficient Sn diffuses into the Cu stabilizer to form A15 layers outside the barrier at higher temperatures (e.g. the 750°C/96h wire in figure 2) compromising the RRR of the stabilizing Cu, as revealed by the degradation of the RRR to unacceptable values below 100 for heat treatment above 695°C (figure 4 and table 1). A key finding of the full digital analysis shown in figure 4a is that RRR falls to 100 when only ~2% of the barrier is reacted through. Figure 4 also shows that this barrier breakdown occurs preferentially in outer ring sub-elements, particularly in the outer-ring corner elements where sub-element distortion is greatest (figures 1 and 6). These results strongly suggest that better conductor architectures, especially those with a greater number of smaller sub-elements that are now being favored, must control this local breakdown. Degraded RRR is not at all a global property, but one triggered by very localized breakdown. Comparison to a study of a recent 192 filament PIT design with about 25% residual barrier (admittedly with 50 m diameter rather than the 70 m diameter sub-elements studied here) suggests both that RRP® conductors could be optimized by somewhat thicker barriers, while PIT conductors might develop higher non-Cu *J<sup>c</sup>* with somewhat thinner barriers.\n\nFor single strand magnets, for example most solenoids, this finding emphasizes that an important route to greater protection of the stabilizing Cu would be by better control of the deformation of the outer ring subelements and perhaps by preferential thickening of the barriers in those sub-elements that form the outer corners of the outer ring. We also have recently seen that similar greater deformation of outer ring filaments occurs in round, as-drawn PIT conductors too [\\[33\\]](#page-17-0). By contrast studies of rolled round wires aimed to simulate Rutherford cabling damage tend to show that the worst damage occurs for inner ring filaments as macroscopic shear bands distort the filament pack [34, 35, 36]. In any case the present results make it clear that RRR loss is caused by very local barrier breakdown, making diffusion barrier thickness a vital control parameter. For the specific case of 12 T use for accelerators, actually a reaction of up to 48 h at 680°C satisfies both RRR and *Jc*(12 T, 4.2 K) > 3000 A/mm<sup>2</sup> . Only for higher field use does the barrier breakdown of this conductor prevent more beneficial, higher temperature reactions. Smaller sub-elements just reinforce this problem. In short it seems that diffusion barrier breakdown is always a key, real conductor problem. A distinctive finding of this study is that we have provided a level of detail about the diffusion barrier breakdown that is quite new.\n\n### *6.4 Comparison of the specific heat and magnetization measurements*\n\nIn contrast to the metallographic measurements, the specific heat analysis does not provide location information but it does provide a true bulk average of the *T<sup>c</sup>* variation on a scale of the coherence length and clearly confirms the consumption of the Nb-Ta diffusion barrier by a progressive decrease in the *Tc*-distribution of the amplitude of the Nb peak (figure 15), which almost disappears at 750°C.<sup>a</sup> Its real value is however to\n\na The difference in the estimation of Nb amount obtained by the specific heat and microstructural analyses is due to the fact that the model of ref. [16](#page-1-0) assumes one unique Sommerfeld constant in eq.1 despite the presence of Nb and the A15 and a gradient of the superconducting properties in the A15 phase. Moreover the specific heat analysis cannot distinguish between the Nb in the diffusion barrier and in unreacted filament cores, as shown in figure 6 and 7. More details will be included in a paper in preparation.\nshow the great inhomogeneity of the A15 *Tc*-distribution with a finer resolution and without any screening artifacts as can and generally does occur in magnetization measurements. The *Tc*-distributions *f(Tc)* shown in figure 15 make it clear that, even in this example of the highest *J<sup>c</sup>* conductor yet made, major residual compositional and superconducting inhomogeneities remain.\n\nConcerning screening and other artifacts, the magnetization measurements in figure 14 show a lower *Tc*onset than the *F*(*T*) curves, which we interpret as being due to the disconnected nature of the highest *T<sup>c</sup>* regions which cannot produce a significant magnetization screening signal, perhaps due to the shape irregularities of the inner A15 ring that forms at the Sn core-filament pack interface. There may also be size effects too, since magnetization detects on a scale of a few penetration depths ((0) ~ 200 nm), while the specific heat detects on the scale of nm. Screening effects of the magnetization measurement are indicated by the similarity of the relative amplitudes of the Nb and A15 transitions after different reaction (inset, figure 14), whereas the integral of the *Tc*-distribution, *F*(*T*), much more clearly reveals the progressive reaction of the Nb barrier to A15 phase, some of which has *T<sup>c</sup>* lower than that of the unreacted barrier. Shielding by the outer section of the Nb-Ta barrier hides this low-*T<sup>c</sup>* A15 in magnetization measurements, leaving the region screened by Nb substantially independent of the extent of the A15 reaction. Moreover the *M*(*T*) curves in figure 14 reveal different *T<sup>c</sup>* values for the two samples shown but similar widths, whereas the *F*(*T*) curves clearly show a strongly different broadening of the A15 transitions, indicating again that some of the low-*T<sup>c</sup>* A15 is screened by higher-*T<sup>c</sup>* A15 in the magnetization measurement (probably at the level of the original Nb(Ta) filaments, see section 6.5). In summary it is clear that the (much quicker) magnetization measurements can yield valuable information, but also that specific heat measurements are more accurate. The two together can be particularly powerful since the completely location-independent averaging of the specific heat can be compared to the partial location-dependent magnetization measurements.\n\n## *6.5 Compositional and superconducting inhomogeneity*\n\nGreater A15 compositional homogeneity can be achieved either by longer heat treatment at lower temperatures or by shorter higher temperature heat treatments. As a practical matter, however, both specific heat and EDS measurements of local composition show clearly that no reaction used here can completely homogenize the A15 phase of this conductor. Figure 10 shows the Sn composition across the A15 layer with changing HT. This chemical analysis shows the compositional inhomogeneity in the A15 phases in the 620°C/192h wire (particular evident in the external portion of the A15 layer, far from the Sn source). In the 680°C/48h sample, a Sn gradient is still present but with a much smaller filament-to-filament variation. Despite reduction of the Sn gradient with increasing HT temperature, the FESEM-EDS mapping reveals spatial compositional variations at the filament level (figure 11) with low-Ta and high-Sn rings present even after 750°C reaction. RRP® wires have two gradient components, one being the radial Sn gradient outwards across the sub-element from the core [37, 38], the second being a more local radial gradient within each filament (this also explains why the A15 *F*(*T*) transitions are significantly broader than the *M*(*T*) transitions). Moreover Ta segregation is drastically reduced on increasing reaction from 695°C to 750°C. All these inhomogeneities, multiple composition gradients and their variation with location and heat treatment are what generate the strong *Tc*-distributions found by specific heat. Since *T<sup>c</sup>* of the A15 phase is related to the Sn content [\\[7\\]](#page-1-0), the change in width and amplitude of the *F*(*T*) transition (figure 14) reflects a flattening Sn compositional gradient as the HT is extended. For instance in the 620°C/192h wire the large compositional inhomogeneity (figure 11) and strong filament to-filament variation (figure 10) produces a smeared and the smallest peak in the *Tc*-distribution (figure 15). The specific heat analysis detects also small differences that are not easily determined by FESEM imaging or EDS analysis. In fact the *F*(*T*) and *f*(*Tc*) comparisons between 650°C/96h and 665°C/50h suggest that the longer, lower temperature HT (650°C/96h) is more effectively driving Sn into the whole annulus of each subelement, thus producing a more homogeneous A15 layer with narrower transitions (Δ*T<sup>c</sup>* 3 K versus 3.7 K for 665°C/50h). By contrast, the only indication of this conclusion in the image analysis is just a slightly smaller A15 percentage in the sub-element of 665°C/50h with respect to 650°C/96h. For the short heat treatments (48- 50 h) only a further increase of the HT temperature up to 680-695°C produces enough Sn diffusion to further narrow the *F*(*T*) transition from 3.7 K at 665°C to 2.3 K at 695°C.\n\n## *6.6 In-field Tc-distributions, superfluid fraction and irreversibility field*\n\nThe *F*(*T*) curves obtained at 16 T (figure 16) highlight even more small changes to the overall A15 inhomogeneity. In fact the transitions clearly sharpen with increasing HT temperature, as more Sn is driven into the filament pack, the only exception being the shorter 665°C/50h that again results in lower homogeneity than the longer 650°C/96h HT. This is also evident in the smaller *f*(*T<sup>c</sup>* ,16T) peak (figure 17) for 665°C/50h compared to 650°C/96h. Another somewhat unexpected result in the *F*(*T*,16T) curves is that raising the heat treatment to 695°C has little effect on the 2 K and 16 T superfluid volume fraction (1-*F*2K,16T), while raising it to 750°C provides a sudden increase with 1-*F*2K,16T reaching to 50%. Changes in the spatial compositional segregation at the filament scale may provide an explanation. As mentioned before, besides a further decrease in the Sn gradient, a notable homogenization of the Ta within the filament is also observed at 750°C. Since the *Hc2* of the A15 phase is strongly dependent on the Ta doping [39], a more uniform Ta distribution in the high-Sn ring of A15 around the outer radius of each former filament may positively affect the in-field *Tc*-distribution.\n\n![](1__page_19_Figure_2.jpeg)\n\n**Figure 19** Extrapolated irreversibility field *HIrr* at 4.2 K and the maximum of *f*(*T<sup>c</sup>* ,16 T) as a function of HT. *HIrr* and *f*(*T<sup>c</sup>* ,16 T) show a similar trend.\n\n## *6.7 In-field Tc-distributions, superfluid fraction and critical current density*\n\nIn contrast to the 12 T optimizations discussed earlier, where the most inhomogeneous HT made at 620 °C produced the highest *J<sup>c</sup>* , our results also show that enhanced A15 homogeneity obtained by higher HT temperature can improve the very high field *J<sup>c</sup>* performance because *HIrr* and in-field *Tc*-distribution correlate. Note that the non-Cu *Jc(H)* of 695°C/48h crosses the other curves above 10 T (figure 18), although it is not very effective at intermediate field where *J<sup>c</sup>* (and *Fp*) is most directly controlled by the A15 grain size. In fact the largest *Jc*(12 T) and *F<sup>p</sup>* maximum is found in the wire heat treated at the lowest temperature (620°C) where the GB density (and the pinning centers that they provide) is at a maximum. The delicate interplay between A15 grain boundary density and A15 compositional homogeneity is particularly evident in comparing the 650°C/96h, 665°C/50h and 680°C/48h samples. In fact the grain boundary density slightly decreases (table 3) with increasing HT temperature but it is the 665°C/50h sample that has the lowest *J<sup>c</sup>* (and *Fp,Max*). This variation demonstrates that *J<sup>c</sup>* (and *Fp,Max*) is indeed determined both by optimization of the *Tc*-distribution (both at 0 and 16 T) and the A15 phase homogeneity, not just by maximizing the GB density. The higher the field at which *J<sup>c</sup>* should be optimized, the more compositional and superfluid volume fraction optimization wins out over prevention of A15 grain growth. Another potentially important factor is that the grain boundary pinning strength, *Q*GB, strongly increases with increasing HT temperature [*QGB*(4.2 K ,12 T) rises by about 35% on going from 620 to 750 °C]. Whether this is because of the variations in grain boundary chemistry is unclear, but it is clear that *QGB* is a function of HT temperature too.\n\nCorrelations are also found between the in-field *Tc*-distribution and the irreversibility field determined by the Kramer extrapolation. In fact, as shown in figure 19, 620°C/192h and 665°C/50h have the least intense peaks, followed by 650°C/96h and the higher temperature heat treated wires. This same trend is followed by the extrapolated *HIrr*(4.2 K), also reported in figure 19. Because of the weak thermal fluctuations in the LTS, *Hc2* and *HIrr* are closely related: an enhancement of *Hc2* produces a proportional enhancement of *HIrr*. Since *Hc2* rapidly increases with increasing *T<sup>c</sup>* [\\[12,](#page-1-1)40], the narrowing and shift of the *Tc*-distribution (both at 0 and 16 T) to higher temperature implies a closely correlated shift of *Hc2* and *HIrr* distributions. This was already noted in an earlier detailed study of the *HIrr* and *Hc2* distribution in PIT conductors with varying HT conditions [\\[12\\]](#page-1-1). \n\n#### *6.8 Comparison to other conductor designs and some broader implications*\n\nIn terms of our qualitative conclusions, this study does not break new ground, since all of the main themes of the effect of HT temperature and extent on composition of the A15 and the *Jc(H)* have been found before [\\[6](#page-1-2)[-8,](#page-1-3)[11](#page-1-4)[-12,](#page-1-1)[15-](#page-1-5)[17\\]](#page-1-6). PIT [\\[18,](#page-1-7) [19,](#page-1-8) 41, 42, 43] and Sn-in-tube composites [44 , 45, 46] have been particularly valued for study because there is only an outward radial Sn flux from each Sn-rich core into the surrounding tubular sub-element. For instance, Hawes *et al.* [\\[18](#page-1-9)[,19\\]](#page-1-8) and Godeke *et al.* [\\[12\\]](#page-1-1) made extensive study of a wide range of HT in PIT conductors, coming to qualitatively similar conclusions. But we have recognized for some time that we needed a quantitative outcome. An earlier attempt was with the quantitative compositional shell model developed by Cooley *et al.* [\\[15\\]](#page-1-5), which enabled the effect of variable non-linear Sn gradients on *J<sup>c</sup>* and *HIrr* to be predicted. More recently Senatore and Flükiger [\\[27\\]](#page-10-0) investigated a PIT conductor with two distinct specific heat *T*<sup>c</sup> distributions which they attributed to fine and coarse grain A15 regions. Inhomogeneity is thus endemic to all modern designs of A15 conductor. What is in general missing from these earlier studies are specific recommendations for how to drive conductors towards the target that modern accelerator projects really want, namely *Jc*(12T, 4.2K) > 3000 A/mm<sup>2</sup> , *Jc*(15T, 4.2K) > 1500 A/mm<sup>2</sup> at *deff* < 20 m [\\[1\\]](#page-0-0).\n\nIn the RRP® wires, we assert that it is reasonable to expect more complexity to the compositional (and *T*c) variations than in the case of a single-filament design like PIT. What this study emphasizes is that an important obstacle to finer sub-elements is localized diffusion barrier breakdown. Smaller sub-element diameters will certainly require relatively thicker barriers while higher field use will increase the importance of developing a higher in-field superfluid volume fraction, even if the grain boundary density falls. High field solenoid magnets, an important market today, generally have sections operating at fields in the 16-20 T range, where optimization for maximum *Hirr* by higher temperature reaction would seem called for. Recent developments of RRP® conductors [\\[2\\]](#page-0-1) have tended to show that smaller sub-elements lead both to degraded RRR *and* lower *J<sup>c</sup>* . Quantitative analysis of the sort presented here should be able to sort out whether barrier breakdown is a local problem as found here and how *J<sup>c</sup>* is determined by the balance between intrinsic and extrinsic factors. Although this requires an extensive characterization, it is our conviction that this kind of quantitative evaluation is valuable for comparing small differences in design of the sort that are now characteristic of Nb3Sn conductor development. This kind of investigation may suggest how to decrease the double composition gradient observed here. Decreasing both gradients, while limiting A15 grain growth might be enabled by two-step heat treatments similar to those now being performed on PIT wires [47] and commonly used in bronze route wire [48,49]. Understanding the compromises in all present state-of-the-art Nb3Sn wires is clearly not a qualitative issue but a highly detailed quantitative issue, where choices have to be made between optimizing the intrinsic properties such as *T<sup>c</sup>* and *Hc2* at the expense of extrinsic properties such as GB density and diffusion barrier integrity. Our goal with this study was to provide a more detailed and overlapping set of characterizations capable of taking Nb3Sn to a new level of performance.\n\n#### **7. Conclusions**\n\nHere we have coupled specific heat measurements with detailed microstructural, microchemical and electromagnetic characterizations of a state-of-the-art, very high *J<sup>c</sup>* 54/61 RRP® Nb3Sn conductor so as to better understand where the freedom in the processing space is. Our goal in making this very broad and quantitative characterization was to find ways to allow even higher *J<sup>c</sup>* , smaller sub-elements without loss of RRR. We found that increased time and temperature of the heat treatment markedly enhanced the compositional homogeneity of the A15 phase without however removing major inhomogeneities, which remain even after HT at 750°C that completely destroys the diffusion barrier. Such higher temperature reactions raise the in-field superfluid fraction, the irreversibility field and the highest field *J<sup>c</sup>* . At 12 T, 4.2 K, however, minimizing A15 grain growth by restricting the HT is as well-known still important. For this 70 m diameter sub-element design, diffusion barriers can prevent RRR falling below 100 up to reactions of 48h at 680 °C. Detailed analysis of the barrier shows that RRR 100 corresponds to only 2% of the barrier being breached by the A15 reaction front. This emphasizes how essential it is to concentrate diffusion barrier studies on all incipient breaks, rather than concentrating on average properties.\n\nAs work continues to optimize conductors of this RRP® design, it is clear that stronger barriers will be vital in driving from the 61 sub-element design used here to the smaller sub-element 127, 169 and 217 stack designs. The target field range will also play a large role in selecting a reaction temperature and barrier quality. Higher field use is favored by longer and hotter reactions that place more stress on the diffusion barrier. The opportunity for small changes of design or fabrication sequence to enhance properties is suggested by the complex variations of chemical composition seen in the A15 layer of this very highest *J<sup>c</sup>* conductor. A macroscopic gradient from Sn core to sub-element diffusion barrier is seen for all HT types. Some locally deformed regions appear to resist local reaction of filaments, suggesting proximity to a pinch off of the Sn diffusion flux necessary to convert the Nb-Ta filaments to A15. A second quite general gradient was seen on the scale of each original filament, even though almost all of the original Cu surrounding each filament in fabrications counter-diffuses with the Sn, ending up in the core.\n\nWe intended this characterization to be broad and to serve as a benchmark for further characterizations of finer sub-element RRP® conductors. Since the high non-Cu *Jc*(12 T, 4.2 K) values measured here are obtained with about 60% A15 and about 5% of residual diffusion barrier, there does appear to be considerable room for development of stronger barriers capable of allowing finer sub-elements with high *J<sup>c</sup>* . Since high *J<sup>c</sup>* Nb3Sn conductor design is still evolving, the analysis method presented here may be of use in evaluating such conductors quite generally. Our study suggests that all such high *J<sup>c</sup>* conductors are markedly inhomogeneous and that optimization must pay proper attention to the nature and location of these inhomogeneities.\n\n### **Acknowledgments**\n\nThis work was supported by the US Department of Energy (DOE) Office of High Energy Physics under grant number DE-FG02-07ER41451, by the National High Magnetic Field Laboratory (which is supported by the National Science Foundation under NSF/DMR-1157490), and by the State of Florida. Work at BNL is supported by the US Department of Energy under Contract No. DE-AC02-98CH10886. The wire was developed under the DOE Conductor Development Program managed by D. Dietderich of the Lawrence Berkeley National Laboratory. Many discussions with Michael Brown, Chris Segal and Zu-Hawn Sung are gratefully appreciated.\n\n#### **Appendix**\n\nIn order to investigate the superconducting properties, the electronic contribution to the total specific heat of the superconducting phases alone has to be isolated, taking into account the presence in the wire of the two superconducting materials, Nb3Sn and Nb, and normal materials, like Cu and other Nb-Sn-Cu phases (for simplicity in the following equations the contributions from the superconducting materials will be indexed as \"Nb3Sn\" and those from the normal ones by \"Cu\"). Following the usual procedure described in ref [\\[29,](#page-11-0)[16](#page-1-10)[,17\\]](#page-1-6), the normal-state specific heat is determined by fitting the 16 T data above 12-12.5 K (the onset of the A15 transition at 16 T) with the relation 3 5 fit fit C (*T*) *T T T* and verifying the conservation of the entropy above *T<sup>c</sup>* [\\[28,](#page-11-1) [16\\]](#page-1-10): T 0 T 0 fit d C( , 0) d C ( ) *t t t B t t t* for T *T<sup>c</sup>* . As well known, the phonon contribution 3 5 ph C (*T*) *T T* (that in this case is also equal to C ( ) C ( ) ph,Nb3Sn *T* ph,Cu *T* ) is not affected by the occurring superconducting transition. As regards the electronic contributions, the one for the normal phases is determined by Cu*T* at every temperature, whereas the one from the superconducting phases is given by Nb Sn*T* 3 above the *T<sup>c</sup>* onset and it assumes a more complicated temperature dependence below *T<sup>c</sup>* (as described in the text). As a consequence, above the *T<sup>c</sup>* onset the total electronic contribution is given by Nb Sn*T* Cu*T* fit*T* 3 (with fit from the normal-state fit above). Cu can be estimated by the zerotemperature extrapolation of the low temperature data in the C*/T* versus *T* 2 plot, since Nb Sn <sup>3</sup> C/*T* tends to zero whereas C/ Cu *T* tends to Cu . Finally, the electronic contribution of the superconducting phases only, C<sup>e</sup> , is determined by subtracting both the phonon contribution and the electronic contribution on the normal phases from the total specific heat: Ce (*T*) C(*T*,*B* 0)Cph (*T*) Cu*T* . The further analysis described in the main\n\ntext following Wang's paper [\\[16\\]](#page-1-10) will use the Sommerfeld constant of the superconducting phase only ( Nb Sn <sup>3</sup> ).\n\n# **References**\n\n[1] Scanlan R M 2001 Conductor Development for High Energy Physics-Plans and Status of the U. S. Program *IEEE Trans. Appl. Supercond*. **11** 2150.\n\n[2] Dietderich D R, Godeke A 2008 Nb3Sn research and development in the USA - Wires and cables *Cryogenics* **48** 331-40\n\n[3] Bottura L, Godeke A 2012 Superconducting Materials and Conductors: Fabrication and Limiting Parameters *Reviews of Accelerator Science and Technology* **5** 25-50\n\n[4] Godeke A, Chlachidze G, Dietderich D R, Ghosh A K, Marchevsky M, Mentink M G T and Sabbi G L 2013 A review of conductor performance for the LARP high-gradient quadrupole magnets *Supercond.Sci. Technol.* **26**  095015\n\n[5] Bordini B, Richter D, Alknes P, Ballarino A, Bottura L and Oberli L 2013 Magnetization Measurements of High-*J*<sup>c</sup> Nb3Sn Strands *IEEE Trans. Appl. Supercond.* **23** 7100806–7100806\n\n[6] Lee P J, Fischer M C, Naus M T, Squitieri A A and Larbalestier D C 2003 The Microstructure and Microchemistry of High Critical Current Nb3Sn Strands Manufactured by the Bronze, Internal-Sn and PIT Techniques *IEEE Trans. Appl. Supercond.* **13** 3422-5\n\n[7] Flükiger R, Uglietti D, Senatore C, Buta F 2008 Microstructure, composition and critical current density of superconducting Nb3Sn wires *Cryogenics* **48** 293-307\n\n[8] Ghosh A, Sperry E A, D'Ambra J and Cooley L D 2009 Systematic Changes of the Nb-Sn Reaction With Time, Temperature, and Alloying in Restacked-Rod-Process (RRP) Nb3Sn Strands *IEEE Trans. Appl. Supercond.* **19** 2580-3\n\n[9] Barzi E, Bossert M, Gallo G, Lombardo V, Turrioni D, Yamada R, Zlobin A V 2012 Studies of Nb₃S Strands Based on the Restacked-Rod Process for High Field Accelerator Magnets *IEEE Trans. Appl. Supercond.* **22** 6001405\n\n[10] Cooley L D, Chang S P, Ghosh A K 2007 Magnetization, RRR and Stability of Nb3Sn Strands With High Sub-Element Number *IEEE Trans. Appl. Supercond.* **17** 2706-9\n\n[11] Marken K R, Kwon S J, Lee P. J. and Larbalestier D C 1986 Characterization Studies of a Fully Reacted High Bronze-to-Niobium Ratio Filamentary Nb3Sn Composite *Adv. Cryo. Eng. (Materials)* **32** 967-975\n\n[12] Godeke A, Jewell M C, Fischer C M, Squitieri A A, Lee P J, Larbalestier D C, 2005 The upper critical field of filamentary Nb3Sn conductors *J. Appl. Phys*. **97** 093909\n\n[13] Devantay H, Jorda J L, Decroux M, and Muller J 1981 The physical and structural properties of superconducting A15-type Nb-Sn alloys *J. Mater. Sci*. **16** 2145-53\n\n[14] Orlando T P, McNiff E J Jr., Foner S, Beasley M R 1979 Critical fields, Pauli paramagnetic limiting, and material parameters of Nb3Sn and V3Si *Phys Rev B* **19** 4545-61\n\n[15] Cooley L D, Fischer C M, Lee P J and Larbalestier D C 2004 Simulations of the effects of tin composition gradients on the superconducting properties of Nb3Sn conductors *J. Appl. Phys.* **96** 2122\n\n[16] Wang Y, Senatore C, Abächerli V, Uglietti D and Flükiger R 2006 Specific heat of Nb3Sn wires *Supercond.Sci. Technol.* **19** 263-6\n\n[17] Senatore C, Uglietti D, Abächerli V, Junod A and Flükiger R 2007 Specific Heat, A Method to Determine the *T*<sup>c</sup> Distribution in Industrial Nb3Sn Wires Prepared by Various Techniques *IEEE Trans. Appl. Supercond.* **17** 2611-4\n\n[18] Hawes C D, Lee P J, Larbalestier D C 2006 Measurements of the microstructural, microchemical and transition temperature gradients of A15 layers in a high-performance Nb3Sn powder-in-tube superconducting strand *Supercond.Sci. Technol.* **19** S27\n\n[19] Hawes C D, Lee P J, Larbalestier D C, 2000 Measurement of the critical temperature transition and composition gradient in powder-in-tube Nb3Sn composite wire *IEEE Trans. Appl. Supercond.* **10** 988-91 [20] Parrell J A, Zhang Y, Hentges R W, Field M B and Hong S 2003 High field Nb3Sn conductor development at oxford superconducting technology *IEEE Trans. Appl. Supercond.* **13** 3470-3\n\n[21] Schneider C A, Rasband W S, Eliceiri K W 2012 NIH Image to ImageJ: 25 years of image analysis *Nature*  Methods 9, 671-5.\n\n[22] Pong I, Oberli L-R and Bottura L 2013 Cu diffusion in Nb3Sn internal tin superconductors during heat treatment *Superconductor Science and Technology* **26** 105002\n\n[23] Xu X, Sumption M D and Collings E W 2013 A model for phase evolution and volume expansion in tube type Nb3Sn conductors *Supercond. Sci. Technol.* **26** 125006\n\n[24] Lee P J and Larbalestier D C 2000 Position normalization as a tool to extract compositional and microstructural profiles from backscatter And Secondary Electron Images *Microscopy and Microanalysis*, **6**, Supplement 2 (Springer-Verlag New York), pp. 1026-1027\n\n[25] Pong I, Oberli L-R, Bottura L and Scheuerlein C 2011 Longitudinal and Transverse Cross-Sectional Microstructure and Critical Current Density in Nb3Sn Superconductors *IEEE Trans. Appl. Supercond.* **21** 2537- 40\n\n[26] Senatore C, Abächerli V, Cantoni M and Flükiger R 2007 Distribution of T<sup>c</sup> from calorimetry and the determination of Sn gradients in bronze route Nb3Sn wires with an internal and external Ti source *Superconductor Science and Technology* **20** S217\n\n[27] Senatore C and l iger 2013 ormation and upper critical fields of the two distinct A15 phases in the subelements of powder-in-tube Nb3Sn wires *Applied Physics Letters* 102 012601\n\n[28] Poole C P, Farach H A and Creswich R J 1995 Superconductivity *San Diego Academic Press* [29] Putti M, Affronte M, Manfrinetti P and Palenzona A 2003 Effects of Al doping on the normal and superconducting properties of MgB2:A specific heat study *Phys. Rev. B* **68** 094514\n\n[30] Kramer E J 1973 Scaling laws for flux pinning in hard superconductors *J. Appl. Phys.* **44** 1360-70 [31] Kramer E J 1982 Flux pinning in high-current-carrying superconductors *Adv. Cryogenic Eng. (Materilas)*\n\n**28** 307-322 [32] Lee P J and Larbalestier D C 2001 Compositional and Microstructural Profiles across Nb3Sn Filaments Produced by Different Fabrication Methods *IEEE Transactions on Applied* Superconductivity **11** 3671-3674\n\n[33] Segal C *et al*., Applied Superconductivity Center, Florida State University private communication\n\n[34] Barzi E Z, Bossert M, and Gallo G, A Model to Study Plastic Deformation in RRP Nb3Sn Wires 2011 *IEEE Transactions on Applied Superconductivity* **21** 3 2588–2592\n\n[35] Mallon P, Bordini B, Chiesa L, Scheuerlein C, Ballarino A, Bottura L, and Oberli L R 2013 Mechanical material characterization and finite element modeling of unreacted Nb3Sn PIT wires under transverse pressure *IEEE Transactions on Applied Superconductivity* **23** 8400804.\n\n[36] Polyanskii A A, Lee P J, Jewell M C, Barzi E, Turrioni D, Zlobin A V and Larbalestier D C 2009 Evidence for highly localized damage in internal tin and powder-in-tube Nb3Sn strands rolled before reaction obtained from coupled magneto-optical imaging and confocal laser scanning microscopy *Supercond. Sci. Technol*. **22**  095008\n\n[37] Lee P J and Larbalestier D C 2005 Microstructure, Microchemistry and the Development of Very High Nb3Sn Layer Critical Current Density *IEEE Transactions on Applied Superconductivity* **15** 3474–7\n\n[38] Lee P J and Larbalestier D C 2008 Microstructural factors important for the development of high critical current density Nb3Sn strand *Cryogenics* **48** 283–92\n\n[39] Suenaga M, Welch D O, Sabatini R L, Kammerer O F and Okuda S 1986 Superconducting critical temperatures, critical magnetic fields, lattice parameters, and chemical compositions of ''bul '' pure and alloyed Nb3Sn produced by the bronze process *J. Appl. Phys.* **59** 840\n\n[40] Jewell M C, Godeke A, Lee P J, Larbalestier D C 2004 The Upper Critical Field of Stoichiometric and Off-Stoichiometric Bulk, Binary Nb3Sn *AIP Conf. Proc.* **711** 474-84\n\n[41] Cantoni M, Scheuerlein C, Pfirter P-Y, Borman F de, Rossen J, Arnau G, Oberli L and Lee P 2010 Sn concentration gradients in Powder-in-Tube superconductors *Journal of Physics: Conference Series* **234** 022005 [42] Godeke A 2005 Performance boundaries in Nb3Sn superconductors, PhD thesis, University of Twente, Enschede, The Netherlands.\n\n[43] Godeke A, den Ouden A, Nijhuis A and ten Kate H H J 2008 State of the art powder-in-tube niobium–tin superconductors *Cryogenics* **48** 308–16\n\n[44] Peng X, Sumption M D, Dhaka R, Bhatia M, Tomsic M, Gregory E and Collings E W 2007 Composition Profiles and Upper Critical Field Measurement of Internal-Sn and Tube-Type Conductors *IEEE Transactions on Applied Superconductivity* **17** 2668–71\n\n[45] Bhartiya S, Sumption M D, Xuan Peng, Gregory E, Tomsic M J and Collings E W 2009 Investigation of the Effects of Low Temperature Heat Treatments on the Microstructure and Properties of Multifilamentary, Tube-Type Nb3Sn Strands *IEEE Transactions on Applied Superconductivity* **19** 2588–92\n\n[46] Nazareth V R, Sumption M D, Peng X, Gregory E, Tomsic M J and Collings E W 2008 Effects of initial Sn∕Cu ratio and heat treatment on the microstructure and microchemistry of Cu-Nb-Sn-Ta tube type composites *AIP Conf. Proc*. **986** 260–8\n\n[47] Bottura L, CERN private communication\n\n[48] Ochiai S, Osamura K, Ryoji M 1987 Influence of two-stage annealing treatment on critical current of bronze-processed multifilamentary Nb3Sn superconducting materials *Acta metall*. **35** 1433-1445\n\n[49] Schauer W and Schelb W 1981 Improvement of Nb3Sn High Field Critical Current by a Two-Stage Reaction *IEEE Trans. Mag*. **17** 374-377",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Examination of the tradeoff between intrinsic and extrinsic properties in\nthe optimization of a modern internal tin Nb₃Sn conductor",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              57.8232421875,
+              81.16259765625
+            ],
+            [
+              555.8203125,
+              81.16259765625
+            ],
+            [
+              555.8203125,
+              116.05413818359375
+            ],
+            [
+              57.8232421875,
+              116.05413818359375
+            ]
+          ]
+        },
+        {
+          "title": "1. Introduction",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              56.63999938964844,
+              451.6875
+            ],
+            [
+              131.55908203125,
+              451.6875
+            ],
+            [
+              131.55908203125,
+              463.2890625
+            ],
+            [
+              56.63999938964844,
+              463.2890625
+            ]
+          ]
+        },
+        {
+          "title": "2. Experimental details",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              56.217041015625,
+              562.67578125
+            ],
+            [
+              168.6884765625,
+              562.67578125
+            ],
+            [
+              168.6884765625,
+              574.27734375
+            ],
+            [
+              56.217041015625,
+              574.27734375
+            ]
+          ]
+        },
+        {
+          "title": "3. Detailed Microstructural and Microchemical Description",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              55.95556640625,
+              193.2626953125
+            ],
+            [
+              341.26171875,
+              193.2626953125
+            ],
+            [
+              341.26171875,
+              205.734375
+            ],
+            [
+              55.95556640625,
+              205.734375
+            ]
+          ]
+        },
+        {
+          "title": "3.1 Digital macro analysis at the sub-element scale",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              55.95556640625,
+              357.328125
+            ],
+            [
+              287.173828125,
+              357.328125
+            ],
+            [
+              287.173828125,
+              370.4765625
+            ],
+            [
+              55.95556640625,
+              370.4765625
+            ]
+          ]
+        },
+        {
+          "title": "3.2 Diffusion barrier analysis",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              324.52734375,
+              409.3641357421875
+            ],
+            [
+              456.01171875,
+              409.3641357421875
+            ],
+            [
+              456.01171875,
+              421.13671875
+            ],
+            [
+              324.52734375,
+              421.13671875
+            ]
+          ]
+        },
+        {
+          "title": "3.3 A15 grain size analysis",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              56.0302734375,
+              486.4921875
+            ],
+            [
+              177.08206176757812,
+              486.4921875
+            ],
+            [
+              177.08206176757812,
+              498.09375
+            ],
+            [
+              56.0302734375,
+              498.09375
+            ]
+          ]
+        },
+        {
+          "title": "3.4 Chemical composition analysis",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              56.0302734375,
+              80.4375
+            ],
+            [
+              211.869140625,
+              80.4375
+            ],
+            [
+              211.869140625,
+              91.57415771484375
+            ],
+            [
+              56.0302734375,
+              91.57415771484375
+            ]
+          ]
+        },
+        {
+          "title": "4. Specific heat characterization and analysis",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              56.1796875,
+              655.875
+            ],
+            [
+              271.634765625,
+              655.875
+            ],
+            [
+              271.634765625,
+              667.6541442871094
+            ],
+            [
+              56.1796875,
+              667.6541442871094
+            ]
+          ]
+        },
+        {
+          "title": "4.1 Viewpoint of our specific heat studies",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              56.25439453125,
+              681.3984375
+            ],
+            [
+              240.01007080078125,
+              681.3984375
+            ],
+            [
+              240.01007080078125,
+              693.0
+            ],
+            [
+              56.25439453125,
+              693.0
+            ]
+          ]
+        },
+        {
+          "title": "4.2 Deconvolution of the Tc distribution from the measurements",
+          "heading_level": null,
+          "page_id": 11,
+          "polygon": [
+            [
+              55.95556640625,
+              456.328125
+            ],
+            [
+              338.281982421875,
+              456.328125
+            ],
+            [
+              338.281982421875,
+              468.46807861328125
+            ],
+            [
+              55.95556640625,
+              468.46807861328125
+            ]
+          ]
+        },
+        {
+          "title": "4.3 Integral of Tc-distributions",
+          "heading_level": null,
+          "page_id": 11,
+          "polygon": [
+            [
+              55.65673828125,
+              636.4541473388672
+            ],
+            [
+              192.67808532714844,
+              636.4541473388672
+            ],
+            [
+              192.67808532714844,
+              648.2580413818359
+            ],
+            [
+              55.65673828125,
+              648.2580413818359
+            ]
+          ]
+        },
+        {
+          "title": "4.4 Tc-distributions",
+          "heading_level": null,
+          "page_id": 13,
+          "polygon": [
+            [
+              56.291748046875,
+              80.00244140625
+            ],
+            [
+              143.01455688476562,
+              80.00244140625
+            ],
+            [
+              143.01455688476562,
+              92.3380126953125
+            ],
+            [
+              56.291748046875,
+              92.3380126953125
+            ]
+          ]
+        },
+        {
+          "title": "4.5 In field specific heat measurements",
+          "heading_level": null,
+          "page_id": 13,
+          "polygon": [
+            [
+              55.58203125,
+              336.83203125
+            ],
+            [
+              230.09765625,
+              336.83203125
+            ],
+            [
+              230.09765625,
+              348.8203125
+            ],
+            [
+              55.58203125,
+              348.8203125
+            ]
+          ]
+        },
+        {
+          "title": "5. VSM characterization",
+          "heading_level": null,
+          "page_id": 14,
+          "polygon": [
+            [
+              55.918212890625,
+              442.79296875
+            ],
+            [
+              175.412109375,
+              442.79296875
+            ],
+            [
+              175.412109375,
+              454.39453125
+            ],
+            [
+              55.918212890625,
+              454.39453125
+            ]
+          ]
+        },
+        {
+          "title": "5.1 Non-Cu cross-section properties",
+          "heading_level": null,
+          "page_id": 14,
+          "polygon": [
+            [
+              55.80615234375,
+              467.9296875
+            ],
+            [
+              221.73046875,
+              467.9296875
+            ],
+            [
+              221.73046875,
+              479.4641418457031
+            ],
+            [
+              55.80615234375,
+              479.4641418457031
+            ]
+          ]
+        },
+        {
+          "title": "5.2 A15 layer Jc and pinning force properties",
+          "heading_level": null,
+          "page_id": 16,
+          "polygon": [
+            [
+              55.95556640625,
+              80.244140625
+            ],
+            [
+              258.8086242675781,
+              80.244140625
+            ],
+            [
+              258.8086242675781,
+              92.3380126953125
+            ],
+            [
+              55.95556640625,
+              92.3380126953125
+            ]
+          ]
+        },
+        {
+          "title": "6. Discussion",
+          "heading_level": null,
+          "page_id": 16,
+          "polygon": [
+            [
+              55.918212890625,
+              295.8441162109375
+            ],
+            [
+              120.5771484375,
+              295.8441162109375
+            ],
+            [
+              120.5771484375,
+              306.8841247558594
+            ],
+            [
+              55.918212890625,
+              306.8841247558594
+            ]
+          ]
+        },
+        {
+          "title": "6.1 Motivation of our study",
+          "heading_level": null,
+          "page_id": 16,
+          "polygon": [
+            [
+              55.95556640625,
+              320.80413818359375
+            ],
+            [
+              178.400390625,
+              320.80413818359375
+            ],
+            [
+              178.400390625,
+              332.19140625
+            ],
+            [
+              55.95556640625,
+              332.19140625
+            ]
+          ]
+        },
+        {
+          "title": "6.2 Summary of results and layout of discussion",
+          "heading_level": null,
+          "page_id": 16,
+          "polygon": [
+            [
+              56.1796875,
+              497.9441223144531
+            ],
+            [
+              269.0010986328125,
+              497.9441223144531
+            ],
+            [
+              269.0010986328125,
+              509.30859375
+            ],
+            [
+              56.1796875,
+              509.30859375
+            ]
+          ]
+        },
+        {
+          "title": "6.3 Diffusion barrier properties and maintenance of high RRR in the stabilizing Cu",
+          "heading_level": null,
+          "page_id": 17,
+          "polygon": [
+            [
+              55.880859375,
+              168.1259765625
+            ],
+            [
+              426.12890625,
+              168.1259765625
+            ],
+            [
+              426.12890625,
+              180.1341552734375
+            ],
+            [
+              55.880859375,
+              180.1341552734375
+            ]
+          ]
+        },
+        {
+          "title": "6.4 Comparison of the specific heat and magnetization measurements",
+          "heading_level": null,
+          "page_id": 17,
+          "polygon": [
+            [
+              55.58203125,
+              600.1875
+            ],
+            [
+              366.35479736328125,
+              600.1875
+            ],
+            [
+              366.35479736328125,
+              611.8241424560547
+            ],
+            [
+              55.58203125,
+              611.8241424560547
+            ]
+          ]
+        },
+        {
+          "title": "6.5 Compositional and superconducting inhomogeneity",
+          "heading_level": null,
+          "page_id": 18,
+          "polygon": [
+            [
+              55.880859375,
+              372.41015625
+            ],
+            [
+              303.310546875,
+              372.41015625
+            ],
+            [
+              303.310546875,
+              384.3984375
+            ],
+            [
+              55.880859375,
+              384.3984375
+            ]
+          ]
+        },
+        {
+          "title": "6.6 In-field Tc-distributions, superfluid fraction and irreversibility field",
+          "heading_level": null,
+          "page_id": 19,
+          "polygon": [
+            [
+              56.1796875,
+              80.48583984375
+            ],
+            [
+              370.8444519042969,
+              80.48583984375
+            ],
+            [
+              370.8444519042969,
+              92.3380126953125
+            ],
+            [
+              56.1796875,
+              92.3380126953125
+            ]
+          ]
+        },
+        {
+          "title": "6.7 In-field Tc-distributions, superfluid fraction and critical current density",
+          "heading_level": null,
+          "page_id": 19,
+          "polygon": [
+            [
+              56.6279296875,
+              485.3441162109375
+            ],
+            [
+              388.91912841796875,
+              485.3441162109375
+            ],
+            [
+              388.91912841796875,
+              497.1480407714844
+            ],
+            [
+              56.6279296875,
+              497.1480407714844
+            ]
+          ]
+        },
+        {
+          "title": "6.8 Comparison to other conductor designs and some broader implications",
+          "heading_level": null,
+          "page_id": 20,
+          "polygon": [
+            [
+              55.7314453125,
+              80.4375
+            ],
+            [
+              390.26953125,
+              80.4375
+            ],
+            [
+              390.26953125,
+              91.57415771484375
+            ],
+            [
+              55.7314453125,
+              91.57415771484375
+            ]
+          ]
+        },
+        {
+          "title": "7. Conclusions",
+          "heading_level": null,
+          "page_id": 20,
+          "polygon": [
+            [
+              55.768798828125,
+              524.3441162109375
+            ],
+            [
+              127.8984375,
+              524.3441162109375
+            ],
+            [
+              127.8984375,
+              535.3841247558594
+            ],
+            [
+              55.768798828125,
+              535.3841247558594
+            ]
+          ]
+        },
+        {
+          "title": "Acknowledgments",
+          "heading_level": null,
+          "page_id": 21,
+          "polygon": [
+            [
+              56.217041015625,
+              295.259765625
+            ],
+            [
+              144.333984375,
+              295.259765625
+            ],
+            [
+              144.333984375,
+              306.8841247558594
+            ],
+            [
+              56.217041015625,
+              306.8841247558594
+            ]
+          ]
+        },
+        {
+          "title": "Appendix",
+          "heading_level": null,
+          "page_id": 21,
+          "polygon": [
+            [
+              56.0302734375,
+              397.0041198730469
+            ],
+            [
+              102.6474609375,
+              397.0041198730469
+            ],
+            [
+              102.6474609375,
+              408.04412841796875
+            ],
+            [
+              56.0302734375,
+              408.04412841796875
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 22,
+          "polygon": [
+            [
+              55.58203125,
+              123.8466796875
+            ],
+            [
+              110.7158203125,
+              123.8466796875
+            ],
+            [
+              110.7158203125,
+              138.1341552734375
+            ],
+            [
+              55.58203125,
+              138.1341552734375
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              314
+            ],
+            [
+              "Line",
+              58
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              393
+            ],
+            [
+              "Line",
+              63
+            ],
+            [
+              "Reference",
+              4
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              148
+            ],
+            [
+              "Line",
+              43
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              450
+            ],
+            [
+              "TableCell",
+              132
+            ],
+            [
+              "Line",
+              119
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              338
+            ],
+            [
+              "Line",
+              120
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              273
+            ],
+            [
+              "Line",
+              81
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              55
+            ],
+            [
+              "Line",
+              15
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              94
+            ],
+            [
+              "Line",
+              25
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              252
+            ],
+            [
+              "Line",
+              95
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              114
+            ],
+            [
+              "Line",
+              32
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              374
+            ],
+            [
+              "Line",
+              95
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              694
+            ],
+            [
+              "TableCell",
+              88
+            ],
+            [
+              "Line",
+              86
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              440
+            ],
+            [
+              "Line",
+              126
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              483
+            ],
+            [
+              "Line",
+              74
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 14,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              492
+            ],
+            [
+              "TableCell",
+              101
+            ],
+            [
+              "Line",
+              85
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 15,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              403
+            ],
+            [
+              "Line",
+              97
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 16,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              399
+            ],
+            [
+              "Line",
+              59
+            ],
+            [
+              "SectionHeader",
+              4
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 17,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              245
+            ],
+            [
+              "Line",
+              55
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Footnote",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 18,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              350
+            ],
+            [
+              "Line",
+              51
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 19,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              480
+            ],
+            [
+              "Line",
+              88
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 20,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              324
+            ],
+            [
+              "Line",
+              59
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 21,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              412
+            ],
+            [
+              "Line",
+              118
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 22,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              325
+            ],
+            [
+              "Line",
+              53
+            ],
+            [
+              "Text",
+              20
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 23,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              359
+            ],
+            [
+              "Line",
+              49
+            ],
+            [
+              "Text",
+              20
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 24,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              93
+            ],
+            [
+              "Line",
+              19
+            ],
+            [
+              "Text",
+              8
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 25,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Examination of the trade-off between intrinsic and extrinsic properties in the optimization of a modern internal tin Nb<SUB>3</SUB>Sn conductor",
+    "authors": [
+      {
+        "authors_list": [
+          "Tarantini, C.",
+          "Lee, P. J.",
+          "Craig, N.",
+          "Ghosh, A.",
+          "Larbalestier, D. C."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "In modern Nb<SUB>3</SUB>Sn wires there is a fundamental compromise to be made between optimizing the intrinsic properties associated with the superfluid density in the A15 phase (e.g. T<SUB>c</SUB>, H<SUB>c</SUB>, H<SUB>c2</SUB>, all of which are composition dependent), maximizing the quantity of A15 that can be formed from a given mixture of Nb, Sn and Cu, minimizing the A15 composition gradients within each sub-element, while at the same time generating a high vortex pinning critical current density, J<SUB>c</SUB>, by maximizing the grain boundary density with the additional constraint of maintaining the RRR of the Cu stabilizer above 100. Here we study these factors in a Ta-alloyed Restacked-Rod-Process (RRP<SUP>®</SUP>) wire with ∼70 μm diameter sub-elements. Consistent with many earlier studies, maximum non-Cu J<SUB>c</SUB>(12 T, 4.2 K) requires preventing A15 grain growth, rather than by optimizing the superfluid density. In wires optimized for 12 T, 4.2 K performance, about 60% of the non-Cu cross-section is A15, 35% residual Cu and Sn core, and only 5% a residual Nb-7.5 wt% Ta diffusion barrier. The specific heat and chemical analyses show that in this 60% A15 fraction there is a wide range of T<SUB>c</SUB> and chemical composition that does diminish for higher heat treatment temperatures, which, however, are impractical because of the strong RRR degradation that occurs when only about 2% of the A15 reaction front breaches the diffusion barrier. As this kind of Nb<SUB>3</SUB>Sn conductor design is being developed for sub-elements about half the present size, it is clear that better barriers are essential to allowing higher temperature reactions with better intrinsic A15 properties. We present here multiple and detailed intrinsic and extrinsic evaluations because we believe that only such broad and quantitative descriptions are capable of accurately tracking the limitations of individual conductor designs where optimization will always be a compromise between inherently conflicting goals.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Superconductor Science Technology",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1310.6729"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1088/0953-2048/27/6/065013",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2014SuScT..27f5013T"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

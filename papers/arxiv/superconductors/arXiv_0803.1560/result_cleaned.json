@@ -1,0 +1,1339 @@
+{
+  "id": "d97fe12faba36dc246c6b262a6d6e1d2",
+  "pdf_path": "apl/Superconductors/arXiv:0803.1560.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "## M agnetic \feld induced 3D to 1D crossover in type II superconductors\n\nT .Schneider\n\nP hysik-Institut der U niversitat Zurich,W interthurerstrasse 190,C H -8057 Zurich,Sw itzerland\n\nE -m ail: tschnei@physik.unizh.ch\n\nA bstract. W e review and analyze m agnetization and speci\fc heat investigations on type-IIsuperconductors w hich uncover rem arkable evidence forthe m agnetic \feld induced \fnite size eect and the associated 3D to 1D crossover w hich enhances therm al \nuctuations. Indeed, the correlation length transverse to the m agnetic \feld H <sup>i</sup>,applied along the i-axis,cannot grow beyond the lim iting m agnetic length L<sup>H</sup> <sup>i</sup> = ( <sup>0</sup>=(aH <sup>i</sup>))1=2,related to the average distance betw een vortex lines. N oting that 1D is incom patible w ith the occurrence ofa continuous phase transition at\fnite tem peratures,the m ean-\feld transition lineH <sup>C</sup> <sup>2</sup> (T )isreplaced by the 3D to 1D crossover line H <sup>p</sup> (T ). Since the m agnetic \feld induced \fnite size eect relies on therm al\nuctuations and there enhancem ent originating from the 3D to 1D crossover,its observability is not be restricted to type-II superconductors w ith sm allcorrelation volum e only,including Y B a2C u4O <sup>8</sup>,N dB a2C u3O <sup>7</sup> , Y B a2C u3O <sup>7</sup> ,and D yB a2C u3O <sup>7</sup> ,w here 3D -xy criticalbehavior w as already observed in zero \feld. Indeed, our analysis of the reversible m agnetization of R bO s2O 6 and the speci\fc heat ofN b77Zr23,N b3Sn and N bSe2 reveals that even in these low T<sup>c</sup> superconductors w ith com paratively large correlation volum e the 3D to 1D crossoverisobservable in suciently high m agnetic \felds. C onsequently, below T<sup>c</sup> and above H pi (T ) superconductivity is con\fned to cylinders w ith diam eter L<sup>H</sup> <sup>i</sup> (1D ) and there is no continuous phase transition in the (H ;T ) -plane along theH <sup>c</sup><sup>2</sup> (T )-lineaspredicted by the m ean-\feld treatm ent. M oreoverw eobserve that the therm odynam ic vortex m elting transition occurs in the 3D regim e. W hile in Y B a2C u4O <sup>8</sup>,N dB a2C u3O <sup>7</sup> ,Y B a2C u3O <sup>7</sup> ,and D yB a2C u3O <sup>7</sup> it turns out to be driven by 3D -xy therm al \nuctuations, the speci\fc heat data of the conventional type-II superconductors N b77Zr23,N b3Sn and N bSe2 point to G aussian \nuctuations. B ecause the vortex m elting and the 3D -1D crossover line occur at universalvalues ofthe scaling variable their relationship is universal.\n\nPA C S num bers: 74.25.B t,74.25.H a,74.40.+ k\n\nT he phenom enology of superconductivity is based on the G inzburg-Landau theory [\\[1\\]](#page-24-0),w hich provides the starting functionalfor the free energy for the charged superconductor coupled to electrom agnetism .T he two \feldsdeterm ining the physics of the system are the superconducting order param eter and the vector potential A .In its sim plest version the order param eter, = j jexp (i'),is a com plex scalar. T he resulting m ean-\feld phase diagram was constructed by A brikosov in 1957 [\\[2\\]](#page-24-1) and provided a ratheraccurate description forallconventionalsuperconductors.T his m ean-\feld H T phase diagram ofa type-II superconductor is show n schem atically in Fig. [1.](#page-1-0) It com prises a M eissner phase characterized by com plete \nux expulsion\n\n![](_page_1_Figure_2.jpeg)\n\n<span id=\"page-1-0\"></span>F igure 1. M ean-\feld phase diagram com prising a norm alm etallic phase at high \felds and tem peratures, separated by the upper critical-\feld line H <sup>c</sup><sup>2</sup> (T ) from the m ixed phase,w hich in turn is separated by the low er critical-\feld line H <sup>c</sup>1(T ) from the M eissner-O chsenfeld phase at low tem peratures and \felds.\n\nat low m agnetic \felds (H < H <sup>C</sup> <sup>1</sup>),separated from the m ixed phase at higher \felds (H > H <sup>c</sup><sup>1</sup>), w here the m agnetic \feld penetrates the superconductor in the form of \nux lines. T he lower critical \feld H <sup>c</sup><sup>1</sup> (T) depends on the London penetration depth ,w hich is the length scale determ ining the electrom agnetic response of the superconductor. Since the superconducting state is a m acroscopic quantum \nuid, the m agnetic \nux enclosed in a vortex is quantized in units of <sup>0</sup> = hc=2e, the ux quantum . W ith increasing \feld the density of \nux lines, form ing a triangular lattice, increases untilthe vortex cores overlap w hen the upper critical\feld H <sup>c</sup><sup>2</sup> is reached. A bove this \feld the norm alm etallic phase is recovered. T he upper critical \feld H <sup>c</sup><sup>2</sup> is determ ined by the correlation length ofthe superconductor,w hich is the second fundam entallength scale in the system determ ining which isthe characteristic distance for variationsofthe order param eter.\n\nG oing beyond this traditional m ean-\feld picture, an obvious generalization am ounts to include therm al\nuctuations and disorder. Indeed,there is considerable experim entalevidence for a m elting transition transform ing the vortex solid into a vortex-liquid phase [\\[3\\]](#page-24-2). Such a m elting transition can be understood in term s of therm al\nuctuationsin thephase'(r)oftheorderparam eter (r)= j (r)jexp[i'(r)]. H owever, in the high \feld regim e the phase diagram of cuprate superconductors in the H T-plane is \fxed by the interplay of therm al \nuctuations and disorder [\\[3,](#page-24-2)[4,](#page-24-3)[5\\]](#page-24-4). Furtherm ore,as noted by Lee and Shenoy [\\[6\\]](#page-24-5),the \nuctuations ofa type-II\n\nbulk superconductor in a m agnetic \feld becom e eectively one dim ensionaland the superconductorbehaveslikean array ofrodsw ith diam eterL<sup>H</sup> / H <sup>1</sup>=<sup>2</sup> perpendicular to the applied \feld. A sa consequence the correlation length transverse to the applied \feld cannot grow beyond the lim iting m agnetic length L<sup>H</sup> and the superconductor undergoesw ith increasing \feld a 3D to 1D crossover.Since \nuctuationsbecom e m ore im portant w ith reduced dim ensionality and there is the lim iting m agnetic length scale L<sup>H</sup> it becom es clear that the upper critical \feld H <sup>c</sup><sup>2</sup> is an artefact of the approxim ations. Indeed, calculations of the speci\fc heat in a m agnetic \feld w hich treatthe interaction term s in the H artree approxim ation and extensionsthereof,\fnd thatthespeci\fcheatissm ooth through them ean-\feld transition tem peratureTc<sup>2</sup> (H ) [\\[7,](#page-24-6)[8,](#page-24-7)[9\\]](#page-24-8). In the context of\fnite size scaling this is sim ply due to the fact that the correlation length of\nuctuations w hich are transverse to the applied m agnetic \feld are bounded by the m agnetic length L<sup>H</sup> / H <sup>1</sup>=<sup>2</sup>.\n\nIn this article we review and analyze m agnetization and speci\fc heat investigations on type-IIsuperconductors w hich uncover rem arkable evidence for the m agnetic \feld induced \fnite size eect and the associated 3D to 1D crossoverw hich enhancesthetherm al\nuctuations.N oting that1D isincom patiblew ith theoccurrence of a continuous phase transition at \fnite tem peratures, the m ean-\feld transition line H <sup>c</sup><sup>2</sup> (T) is replaced by the 3D to 1D crossover line H <sup>p</sup> (T). A long this line the correlation length transverse to the applied m agnetic \feld attains the lim iting m agnetic length L<sup>H</sup> and for this reason there is no continuous phase transition. Since the m agnetic \feld induced \fnite size eect relies on therm al \nuctuations and there enhancem ent originating from the 3D to 1D crossover,the observability of the m agnetic \feld induced \fnite size eect should not be restricted to type-II superconductors w ith sm all correlation volum e only. In these system s, including Y Ba2C u4O <sup>8</sup> [\\[10\\]](#page-24-9),N dBa2C u3O <sup>7</sup> [\\[11\\]](#page-24-10),Y Ba2C u3O <sup>7</sup> [\\[12,](#page-24-11)[13\\]](#page-24-12),and D yBa2C u3O <sup>7</sup> [\\[14\\]](#page-24-13),3D -xy criticalbehavior was observed already in zero \feld. Indeed,our analysis of the reversible m agnetization of R bO s2O <sup>6</sup> [\\[15\\]](#page-24-14) and the speci\fc heat of N b77Zr<sup>23</sup> [\\[16\\]](#page-24-15), N b3Sn [\\[17\\]](#page-24-16)and N bSe<sup>2</sup> [\\[18\\]](#page-24-17)reveals that even in these low T<sup>c</sup> superconductors w ith com paratively large correlation volum e the 3D to 1D crossover is observable in suciently high m agnetic \felds.M oreoverwe observethatthe therm odynam ic vortex m elting transition occurs in the 3D regim e. W hile in Y Ba2C u4O <sup>8</sup>,N dBa2C u3O <sup>7</sup> , Y Ba2C u3O <sup>7</sup> , and D yBa2C u3O <sup>7</sup> it turns out to be driven by 3D -xy therm al uctuations, the speci\fc heat data of the conventional type-II superconductors N b77Zr23, N b3Sn and N bSe<sup>2</sup> point to G aussian \nuctuations. Because the vortex m elting and the 3D -1D crossoverline occuratuniversalvalues ofthe scaling variable their relationship is universal.\n\nN ext we sketch the scaling properties ofthe \nuctuation contribution to the free energy perunitvolum efora type-IIsuperconductorin thepresenceofa m agnetic\feld. O n this basis we establish the equivalence w ith a super\nuid constrained to a cylinder w hich unavoidably undergoes a 3D to 1D crossover. Invoking a M axwellrelation we then derive the scaling properties ofthe m agnetization and speci\fc heatnear the 3D to 1D crossoverline.W e are then prepared to analyze the speci\fc heatand reversible m agnetization data ofY Ba2C u4O <sup>8</sup> [\\[10\\]](#page-24-9),N dBa2C u3O <sup>7</sup> [\\[11\\]](#page-24-10),Y Ba2C u3O <sup>7</sup> [\\[12](#page-24-11)[,13\\]](#page-24-12), and D yBa2C u3O <sup>7</sup> [\\[14\\]](#page-24-13), w here critical\nuctuations have been observed already in the zero \feld transition. Subsequently we analyze the reversible m agnetization of R bO s2O <sup>6</sup> [\\[15\\]](#page-24-14) and the speci\fc heat of N b77Zr<sup>23</sup> [\\[16\\]](#page-24-15), N b3Sn [\\[17\\]](#page-24-16) and N bSe<sup>2</sup> [\\[18\\]](#page-24-17), type-II superconductors w ith com paratively large correlation volum e,to explore the associated enhancem entoftherm al\nuctuations due to the 3D to 1D crossover.\n\nM agnetic \feld induced 3D to 1D crossover in type II superconductors 4\n\nIt is well-know n that system s of \fnite extent, i.e. isolated superconducting grains,undergo a rounded and sm ooth phase transition [\\[19\\]](#page-24-18). A s in an in\fnite and hom ogeneous system the transition tem perature T<sup>c</sup> is approached the correlation length increasesstrongly and divergesatTc.H owever,in realsystem stheincreaseof the correlation length is lim ited by the spatialextentL<sup>i</sup> ofthe hom ogenousdom ains in direction i. In type-II superconductors,exposed to a m agnetic \feld H <sup>i</sup>,there is an additionallim iting length scale L<sup>H</sup> <sup>i</sup> = p <sup>0</sup>=(aH <sup>i</sup>) w ith a ' 3:12 [\\[20\\]](#page-24-19),related to the average distance between vortex lines [\\[20,](#page-24-19)[21,](#page-24-20)[22,](#page-24-21)[23\\]](#page-24-22). Indeed,as the m agnetic \feld increases,the density ofvortex lines becom es greater,but this cannot continue inde\fnitely,the lim itisroughly seton the proxim ity ofvortex linesby the overlapping of their cores. D ue to these lim iting length scales the phase transition is rounded and occurs sm oothly. Indeed, approaching T<sup>c</sup> from above the correlation length <sup>i</sup> in direction i increase strongly. H owever,due to the lim iting length scales L<sup>i</sup> and L<sup>H</sup> <sup>i</sup> = p <sup>0</sup>=(aH <sup>i</sup>),it is bounded and cannotgrow beyond [\\[20\\]](#page-24-19)\n\n<span id=\"page-3-1\"></span>\n$$\\begin{array}{rcl} \\mathsf{q} & & \\mathsf{f}\\_{\\mathsf{i}} \\mathsf{L} = \\sum\\_{\\mathsf{i}} \\mathsf{f}\\_{\\mathsf{p}} \\mathsf{L}^{\\mathsf{i}} = \\mathsf{f}\\_{\\mathsf{p}} \\mathsf{L}^{\\mathsf{i}} \\mathsf{f}\\_{\\mathsf{i}} \\ \\mathsf{f}\\_{\\mathsf{i}} \\ \\mathsf{L}^{\\mathsf{i}} = \\mathsf{f}\\_{\\mathsf{i}} \\mathsf{L}^{\\mathsf{i}} \\mathsf{L}^{\\mathsf{i}} \\ \\mathsf{f}\\_{\\mathsf{i}} \\ \\mathsf{L}^{\\mathsf{i}} &\\\\ \\mathsf{f}\\_{\\mathsf{i}} & \\mathsf{f}\\_{\\mathsf{i}} \\ \\mathsf{f}\\_{\\mathsf{i}} \\ \\mathsf{f}\\_{\\mathsf{i}} \\ \\mathsf{f}\\_{\\mathsf{i}} \\ \\mathsf{f}\\_{\\mathsf{i}} \\ \\mathsf{f}\\_{\\mathsf{i}} \\ \\mathsf{f}\\_{\\mathsf{i}} \\ \\mathsf{f}\\_{\\mathsf{i}} \\ \\mathsf{f}\\_{\\mathsf{i}} \\ \\mathsf{f}\\_{\\mathsf{i}} \\ \\mathsf{f}\\_{\\mathsf{i}} \\ \\mathsf{f}\\_{\\mathsf{i}} \\ \\mathsf{f}\\_{\\mathsf{i}} \\ \\mathsf{f}\\_{\\mathsf{i}} \\ \\mathsf{f}\\_{\\mathsf{i}} \\ \\mathsf{f}\\_{\\mathsf{i}} \\ \\mathsf{f}\\_{\\mathsf{i}} \\end{array}$$\n\nw here\n\n$$\\mathbf{T} = \\begin{array}{c} \\mathbf{T} = \\mathbf{T}\\_{\\mathbb{C}} \\\\ \\end{array} \\tag{2}$$\n\ndenotesthe criticalexponentofthe correlation lengths <sup>i</sup> w ith criticalam plitude <sup>0</sup><sup>i</sup> below Tc.\n\nTo exploretheevidencefortheoccurrenceofthese\fnitesizeeectsweconcentrate on the behavior of the m agnetization and the speci\fc heat below the zero \feld transition tem perature Tc. O ur starting point is the \nuctuation contribution to the free energy per unit volum e. In the presence ofa m agnetic \feld applied parallelto the c-axis it adopts the scaling form [\\[20](#page-24-19)[,23](#page-24-22)[,24](#page-24-23)[,25\\]](#page-24-24)\n\n$$\\mathbf{f}\\_{\\mathbf{z}} = \\underbrace{\\begin{array}{c} \\mathbf{Q} \\\\ \\xrightarrow{\\mathbf{Z}} \\end{array}}\\_{\\mathbf{a}\\mathbf{b}\\mathbf{c}} \\mathbf{T} \\mathbf{G} \\quad \\langle \\mathbf{z} \\rangle; \\mathbf{z} = \\xrightleftharpoons[\\mathbf{H}]{\\mathbf{a}\\mathbf{b}} \\mathbf{H}\\_{\\mathbf{c}}; \\tag{3}$$\n\nw hereG (z)isa universalscaling function ofitsargum entand Q a universalconstant. For a brief derivation of the resulting universalrelations and scaling form s for the m agnetization and speci\fc heatwe referto the A ppendix. T he scaling function G (z) isexpected to exhibita singularity atthe universalvalue z<sup>m</sup> ofthe scaling variablez, w hich describes the therm odynam ic vortex m elting line [\\[25\\]](#page-24-24)\n\n<span id=\"page-3-0\"></span>t<sup>m</sup> = ab0 2 H <sup>c</sup> <sup>0</sup>z<sup>m</sup> ! <sup>1</sup>=<sup>2</sup> : (4)\n\nT here is considerable evidence thatthe vortex lattice m elts in very clean sam plesvia a \frst-order phase transition [\\[26,](#page-24-25)[27,](#page-24-26)[28\\]](#page-24-27). W ith the introduction of random vortex pinning defects,however,the \frst-order m elting transition becom es m ore continuous [\\[26](#page-24-25)[,29](#page-24-28)[,30](#page-25-0)[,31\\]](#page-25-1),com m only referred to asthe'vortex-glass'transition.T hereisevidence fordierentglassy phases(Bose glass,Bragg G lassand vortex glass)[\\[26\\]](#page-24-25),the detailed nature ofw hich appearsto be controversial.In any case,in suciently clean system s there is a therm al\nuctuation driven vortex m elting transition. In this case it occurs at a universalvalue ofthe scaling variable and relation [\\(4\\)](#page-3-0) im plies that the isotope and pressure eects on transition tem perature, m elting tem perature and in-plane correlation length are not independent.\n\nTo recognize the im plications ofthe m agnetic \feld induced \fnite size eect,it is instructive to note thatthisscaling isform ally equivalentto an uncharged super\nuid, such as <sup>4</sup>H e, constrained to a cylinder of diam eter <sup>L</sup><sup>H</sup> <sup>c</sup> = (0=(aH <sup>c</sup>))<sup>1</sup>=<sup>2</sup> . Indeed, the \fnite size scaling theory predicts,that a system con\fned to a barlike geom etry, L L H w here H ! 1 ,an observable O (t;L) scales [as \\[32,](#page-25-2)[33,](#page-25-3)[34\\]](#page-25-4)\n\n$$\\frac{\\text{C} \\quad \\text{(t:T.)}}{\\text{C} \\quad \\text{(t:T.)}} = \\text{F} \\quad \\text{(h)} \\; ; \\text{; } \\text{h} = \\qquad \\text{(t)} = \\text{L} \\; ; \\tag{5}$$\n\nw here f(y) is the \fnite size scaling function. A s in the con\fned system a 3D to 1D crossover occurs,there is a rounded transition only. Indeed,because the correlation length (T)cannotgrow beyond L there is the 3D to 1D crossoverline\n\n$$\\mathbf{T\\_{pL}} = \\begin{bmatrix} \\mathbf{T\\_c} & \\mathbf{1} & \\mathbf{1} & \\frac{\\mathbf{0}}{\\mathbf{L}} \\end{bmatrix}^{\\mathrm{1}} \\begin{array}{c} \\mathbf{1} \\\\ \\mathbf{1} \\\\ \\mathbf{L} \\end{array} ; \\tag{6}$$\n\nw hich transform sw ith Eq.[\\(1\\)](#page-3-1) to\n\nT<sup>p</sup> (H <sup>c</sup>)= T<sup>c</sup> 1 ab0 L<sup>H</sup> <sup>c</sup> 1=2 ! = T<sup>c</sup> 0 @ 1 aH <sup>c</sup> ab<sup>0</sup> 2 0 ! <sup>1</sup>=<sup>2</sup> 1 A (7)\n\nin the m agnetic \feld induced case. In this context it should be recognized that 1D system s w ith short range interactions do not undergo a continuous phase transition at\fnite tem perature [\\[35\\]](#page-25-5).To uncoverthiscrossoverline weinvoke M axwell'srelation @ (C =T)=@H <sup>c</sup>j<sup>T</sup> = @ <sup>2</sup>M =@T<sup>2</sup> H <sup>c</sup> .Togetherw ith the scaling form sofspeci\fc heatand m agnetization it yields the relation (Eq.[\\(A .13\\)](#page-23-0))\n\n<span id=\"page-4-0\"></span>\n$$\\mathrm{T \\, H \\, \\mathrm{\\,}^{1+}\\, \\mathrm{\\,}^{\\mathrm{\\,}2} \\quad \\frac{\\mathfrak{G} \\, \\{\\mathrm{\\,}\\mathrm{\\,}\\mathrm{\\,}\\mathrm{\\,}\\mathrm{\\,}\\mathrm{\\,}^{\\mathrm{\\,}}\\}}{\\mathfrak{G} \\, \\mathrm{H} \\, \\mathrm{\\,}^{\\mathrm{\\,}}\\mathrm{\\,}^{\\mathrm{\\,}}} = \\mathrm{T \\, H \\, \\mathrm{\\,}^{1+}\\, \\mathrm{\\,}^{\\mathrm{\\,}2} \\quad \\frac{\\mathfrak{G} \\, \\mathrm{\\,}^{2}\\mathrm{m}}{\\mathfrak{G} \\, \\mathrm{T}^{2}} = \\mathrm{T} \\, \\frac{\\mathrm{k\\_{B}} \\, \\mathrm{A}}{\\mathrm{Z}} \\, \\mathrm{\\,} \\mathrm{\\,}\\mathrm{\\,}^{\\mathrm{\\,}} \\quad \\frac{\\mathfrak{G} \\, \\mathrm{\\,}\\mathrm{\\,}\\mathrm{\\,}\\mathrm{\\,}^{\\mathrm{\\,}}}{\\mathfrak{G} \\, \\mathrm{\\,} \\mathrm{\\,}} \\, ; \\tag{8}$$\n\nw here m = M =V is the m agnetization per unit volum e. A ccordingly,m agnetization and speci\fc heat data taken in dierent \felds and plotted as H 1+ =2 <sup>c</sup> @ <sup>2</sup>m =@T<sup>2</sup> vs. x = t=H <sup>1</sup>=<sup>2</sup> <sup>c</sup> and H (1+ )=<sup>2</sup> @(C =T)=@H <sup>c</sup> vs.t=H <sup>1</sup>=<sup>2</sup> should then collapseon a single curve respectively. N ote that this scaling form applies as long as the lim iting length is set by the m agnetic \feld in term s ofL<sup>H</sup> <sup>c</sup> = p <sup>0</sup>=(aH <sup>c</sup>). H owever,in realtype II superconductorsthe spatialextentLab ofthe hom ogeneousdom ainsislim ited and by lowering the applied m agnetic \feld L<sup>H</sup> <sup>c</sup> approaches Lab unavoidably. In the regim e w here the grow th ofthe in-plane correlation length is lim ited by L<sup>H</sup> <sup>c</sup> these plots are expected to uncover the vortex m elting transition line in term s ofa peak atx<sup>m</sup> and the 3D to 1D crossoverline in term s ofa dip atxp. T his dip replaces the singularity atthe so called uppercritical\feld resulting from the G aussian approxim ation and the neglect ofthe m agnetic \feld induced \fnite size eect (see [A .19\\)](#page-23-1).\n\nA nothersuitableobservableto uncoverthem agnetic\feld induced crossoveristhe derivative ofthe speci\fc heat w ith respect to tem perature. A ccording to Eq. [\\(A .14\\)](#page-23-2) it adopts the scaling form\n\n$$\\frac{\\text{dcl}}{\\text{dT}} = \\frac{\\text{A}}{\\text{T}\\_{\\text{c}}} \\text{H}\\_{\\text{c}}^{-} \\stackrel{\\text{(1+)}}{\\text{}}^{\\text{(1+)}} \\quad \\text{x} \\quad ^{\\text{(1+)}}\\text{-} ^{\\text{(2)}} \\text{ f} \\text{ (k)} \\qquad \\text{x} \\quad \\frac{\\text{df}}{\\text{dx}} \\quad ; \\tag{9}$$\n\nw hereby the data dc=dT for dierent \felds should collapse on a single curve w hen plotted as H (1+ )=2 <sup>c</sup> Tcdc=dT vs. tH <sup>1</sup>=<sup>2</sup> <sup>c</sup> . In the regim e w here the grow th of the in-plane correlation length is lim ited by L<sup>H</sup> <sup>c</sup> this plot should also uncover the vortex m elting transition line in term s ofa peak at x<sup>m</sup> and the 3D to 1D crossover line in\n\nterm s of dip at xp. T his dip replaces the singularity at the so called upper critical \feld resulting from the G aussian approxim ation and the neglectofthe m agnetic \feld induced \fnite size eect (see ??).\n\nT here is considerable evidence that cuprate superconductors w ith m oderate anisotropy exhibit in zero \feld 3D -xy critical behavior [\\[11,](#page-24-10) [12,](#page-24-11) [13,](#page-24-12) [14,](#page-24-13) [20,](#page-24-19) [22,](#page-24-21) [23,](#page-24-22) [24,](#page-24-23)[36](#page-25-6)[,37](#page-25-7)[,38](#page-25-8)[,39,](#page-25-9)[40](#page-25-10)[,41](#page-25-11)[,42](#page-25-12)[,43,](#page-25-13)[44\\]](#page-25-14). T he criticalexponentsare then given by [\\[45,](#page-25-15)[46\\]](#page-25-16)\n\n<span id=\"page-5-0\"></span>= 2 3 ' 0:013; ' 0:671 ' 2=3: (10)\n\nA s disorder is concerned there is the H arris criterion [\\[47\\]](#page-25-17),w hich states that shortrange correlated and uncorrelated disorder is irrelevant at the unperturbed critical point, provided that the speci\fc heat exponent is negative. H owever, w hen superconductivity is restricted to hom ogeneousdom ainsof\fnite spatialextentLab;c, the system is inhom ogeneous and the resulting rounded transition uncovers a \fnite size eect[\\[32,](#page-25-2)[33,](#page-25-3)[34\\]](#page-25-4)because the correlation lengths ab;c = ab0;c<sup>0</sup> jtj cannotgrow beyond Lab;c, the respective extent of the hom ogenous dom ains. H ence, as long as ab;c < Lab;c the criticalproperties of the \fctitious hom ogeneous system can be explored. T here is considerable evidence that this scenario accounts for the rounded transition seen in the speci\fc heat [\\[24\\]](#page-24-23) and the m agnetic penetration depths [\\[43\\]](#page-25-13) in zero \feld. N evertheless, as long as L<sup>H</sup> <sup>k</sup> < Li, the m agnetic \feld induced \fnite size eect sets the lim iting length scale and the scaling plotsT H 1+ <sup>=</sup><sup>2</sup> <sup>c</sup> @ <sup>2</sup>m =@T<sup>2</sup> vs. x = t=H <sup>1</sup>=<sup>2</sup> <sup>c</sup> and T H (1+ )=<sup>2</sup> d(C =T)=dT vs.t=H <sup>1</sup>=<sup>2</sup> should uncoverthe collapse on a single curve.\n\nIn classic superconductors,such as N b77Zr23,N b3Sn and N bSe2,the zero \feld speci\fc heatm easurem entsuncovernearT<sup>c</sup> rem arkableconsistency w ith the standard m ean-\feld jum p [\\[16,](#page-24-15)[17,](#page-24-16)[18\\]](#page-24-17). A ccording to this it is unlikely that the m agnetic \feld induced 3D to 1D crossover is associated w ith 3D -xy therm al \nuctuations. H ere we consider the contribution ofG aussian \nuctuations lim ited by the m agnetic \feld induced \fnite size eect. In this case the outlined scaling form sapply aswellbutthe criticalexponents are given by [\\[24](#page-24-23)[,46\\]](#page-25-16)\n\n$$\\mathbf{1} = \\mathbf{1} \\mathbf{2}; \\quad \\mathbf{1} = \\mathbf{1} \\mathbf{2}; \\tag{11}$$\n\nW e are now prepared to review and analyze experim entaldata to explore the occurrence of the m agnetic \feld induced \fnite size eect and the associated 3D to 1D crossover. In Fig. [2](#page-6-0) we depicted the scaling plot T H <sup>c</sup>d <sup>2</sup>m =dT<sup>2</sup> vs. tH <sup>3</sup>=<sup>4</sup> c of a Y Ba2C u4O <sup>8</sup> single crystal taken from W eyeneth et al[.\\[10\\]](#page-24-9). It corresponds to Eq. [\\(8\\)](#page-4-0) w ith the 3D -xy exponents (Eq. [\\(10\\)](#page-5-0)). A pparently, the data collapses reasonably well on a single curve, consistent w ith dom inant 3D -xy \nuctuations. T he occurrence of a dip and the peak, m arked by the verticalline and the arrow , respectively dier drastically from the m ean-\feld behavior w here @ <sup>2</sup>m =@T<sup>2</sup> = 0. M oreover,the \fnite depth contradicts the reputed singularity atTc<sup>2</sup> obtained in the G aussian approxim ation [\\[48\\]](#page-25-18). T he observed collapse of the data on a single curve reveals consistency w ith 3D -xy \nuctuations dow n to H <sup>c</sup> = 5 10<sup>3</sup> O e lim ited by the m agnetic \feld induced \fnite size eect only. From <sup>L</sup> <sup>H</sup> <sup>c</sup> = (0=(aH <sup>c</sup>))1=<sup>2</sup> ,a ' 3:12 and H <sup>c</sup> = 5 10<sup>3</sup> O e we obtain for the extent ofthe hom ogeneous dom ains the lower bound Lab > 3:6 10<sup>4</sup> cm . In Fig. [3,](#page-6-1) we depicted the scaling plot m = T H <sup>1</sup>=<sup>2</sup> c vs. t=H <sup>3</sup>=<sup>4</sup> for Y Ba2C u4O <sup>8</sup>, w here the m agnetization data falls on a single curve\n\n(Eq. [\\(A .1\\)](#page-21-0)) w hen 3D -xy \nuctuations dom inate. It is readily seen that in this plot signatures ofthe peak and dip structure in T H <sup>c</sup>d <sup>2</sup>m =dT<sup>2</sup> vs. x = t=H <sup>3</sup>=<sup>4</sup> <sup>c</sup> are hardly\n\n![](_page_6_Figure_1.jpeg)\n\n<span id=\"page-6-0\"></span>F igure 2. T H <sup>c</sup>d <sup>2</sup>m =dT <sup>2</sup> vs. x = t=H <sup>3</sup>=<sup>4</sup> <sup>c</sup> of a Y B a2C u4O <sup>8</sup> single crystal w ith T<sup>c</sup> ' 79:6 K taken from W eyeneth et al. [\\[10\\]](#page-24-9). T he arrow m arks the m elting line x<sup>m</sup> ' 7:5 10 <sup>5</sup>( O e <sup>3</sup>=4) and the verticalline x<sup>p</sup> ' 2:85 10 <sup>5</sup>( O e <sup>3</sup>=4) the 3D to 1D crossover line.\n\n![](_page_6_Figure_3.jpeg)\n\n<span id=\"page-6-1\"></span>F igure 3. m =\" T H <sup>1</sup>=<sup>2</sup> c \" vs. t=H <sup>3</sup>=<sup>4</sup> of a Y B a2C u4O <sup>8</sup> single crystaltaken from [\\[10\\]](#page-24-9)for m agnetic \feldsH <sup>c</sup> applied along the c-axis. T he arrow s m ark the m elting \" #\\_ \" and 3D to 1D crossover line (#).\n\nvisible.T hough thisplotrevealsthe dom inantcritical\nuctuationsitdoesnotprovide further insight. To relate the \fnite depth ofthe dip and the m agnetic \feld induced \fnite size eect we note that at T<sup>p</sup> (H <sup>c</sup>) the in-plane correlation length ab attains according to Eq.[\\(1\\)](#page-3-1) the lim iting m agnetic length L<sup>H</sup> <sup>c</sup> so that\n\n<span id=\"page-6-3\"></span>\n$$\\mathbf{L}\\_{\\text{ap}}\\left(\\mathbf{L}\\_{\\text{b}}\\right) = \\begin{array}{c} \\text{a} \\\\ \\text{b} \\end{array} \\begin{array}{c} \\text{a} \\\\ \\text{b} \\end{array} \\begin{array}{c} \\text{a} \\\\ \\text{b} \\end{array} \\begin{array}{c} \\text{a} \\\\ \\text{b} \\end{array} \\begin{array}{c} \\text{a} \\\\ \\text{b} \\end{array} \\begin{array}{c} \\text{a} \\\\ \\text{b} \\end{array} \\begin{array}{c} \\text{a} \\\\ \\text{b} \\end{array} \\begin{array}{c} \\text{a} \\\\ \\text{b} \\end{array} \\begin{array}{c} \\text{a} \\\\ \\text{b} \\end{array} \\begin{array}{c} \\text{a} \\\\ \\text{b} \\end{array} \\begin{array}{c} \\text{a} \\\\ \\text{b} \\end{array} \\tag{12}$$\n\nA tT<sup>p</sup> Eq.[\\(8\\)](#page-4-0) yields\n\n<span id=\"page-6-2\"></span>\n$$\\frac{\\mathfrak{G}^2 \\mathfrak{m}}{\\mathfrak{G} \\mathfrak{T}^2}\\_{\\mathfrak{T} = \\mathfrak{T}\\_{\\mathbb{P}} \\mathfrak{H}\\_{\\mathbb{C}} \\mathfrak{I}} = \\mathfrak{h} \\quad \\quad \\quad \\frac{\\mathfrak{k}\\_{\\mathbb{B}} \\mathfrak{A}}{\\mathfrak{Z} - \\mathfrak{T}} \\mathfrak{H}\\_{\\mathbb{C}} \\mathfrak{l}^{-1} \\quad \\quad \\mathfrak{F} \\mathfrak{j}^{\\mathbb{L}} \\quad \\quad \\frac{\\mathfrak{G} \\mathfrak{f}\\_{\\mathbb{C}}}{\\mathfrak{G} \\mathfrak{x}}\\_{\\mathfrak{T} = \\mathfrak{T}\\_{\\mathbb{P}} \\mathfrak{H}\\_{\\mathbb{C}} \\mathfrak{f}\\_{\\mathbb{C}}}$$\n\nM agnetic \feld induced 3D to 1D crossover in type II superconductors 8\n\n$$\\mathbf{f} = \\begin{array}{c c c c} \\mathbf{k\\_{B}} \\mathbf{A} \\\\ \\hline \\\\ \\end{array} \\begin{array}{c c c} \\mathbf{\\hat{x}} \\mathbf{\\hat{y}} \\\\ \\end{array} \\begin{array}{c c c} \\mathbf{\\hat{f}} & \\mathbf{\\hat{f}} \\\\ \\hline \\\\ \\end{array} \\begin{array}{c c c} \\mathbf{\\hat{a}} & \\mathbf{\\frac{2}{c}} & \\mathbf{\\hat{a}} \\\\ & \\mathbf{0} & & \\\\ \\end{array} \\begin{array}{c c c} \\mathbf{\\hat{x}} & \\mathbf{\\hat{y}} \\\\ & & \\mathbf{\\hat{z}} \\\\ \\end{array} \\tag{7.3}$$\n\nrevealing that the depth of the dip in @ <sup>2</sup>m (H <sup>c</sup>;T)=@T<sup>2</sup> vs. T is controlled by the lim ited grow th ofthe in-plane correlation length ab.T his diersdrastically from the G aussian approxim ation w here@ <sup>2</sup>m (H <sup>c</sup>;T)=@T<sup>2</sup> divergesattheso called uppercritical \feld because the lim ited grow th ofthe correlation length is not taken into account (A ppendix A ).A s ab attainsT<sup>p</sup> (H <sup>c</sup>)thelim iting m agneticlength L<sup>H</sup> <sup>c</sup> ,@m (H <sup>c</sup>;T)=@T vs. T exhibits for \fxed H <sup>c</sup> an in\nection point and @ <sup>2</sup>m (H <sup>c</sup>;T)=@T<sup>2</sup> an extrem um . A ccordingly,\n\n$$\\text{H}\\_{\\text{p}} \\left\\{ \\text{H}\\_{\\text{c}} \\right\\} \\text{H}\\_{\\text{c}} \\stackrel{\\text{\\textdegree 3=4}}{=} \\quad \\text{2.85} \\quad 10^{5} \\quad \\text{O} \\text{ e} \\stackrel{\\text{\\textdegree 3=4}}{} \\text{ \\textdegree } \\tag{14}$$\n\ndeterm ines the 3D to 1D crossover line along w hich ab = L<sup>H</sup> <sup>c</sup> . M oreover,there is a peak in the 3D regim e at\n\nt<sup>m</sup> (H <sup>c</sup>)H 3=4 <sup>c</sup> ' <sup>8</sup>:<sup>35</sup> <sup>10</sup><sup>5</sup> O e <sup>3</sup>=<sup>4</sup> ; (15)\n\nsignaling the vortex m elting transition (Eq. [\\(4\\)](#page-3-0)). Indeed, rew ritten in the form , H m c ' 2:7 10<sup>5</sup> (1 T<sup>m</sup> =Tc) 4=3 (O e), it agrees reasonably well w ith the previous estim ate H m c ' 1:8 10<sup>5</sup> (1 T<sup>m</sup> =Tc) 4=3 (O e) of K atayam a et al. [\\[49\\]](#page-25-19). C om bining our estim ates for the vortex m elting and 3D -1D crossover line we obtain for the universalratiosbetween the respective valuesofthe scaling variablesand the reduced tem peratures the estim ates\n\n$$\\frac{\\text{kg}\\_{\\text{m}}}{\\text{kg}\\_{\\text{p}}} = \\underbrace{\\text{t}\\_{\\text{p}} \\text{ (H}\\_{\\text{c}}\\text{)}}\\_{\\text{t}\\_{\\text{m}} \\text{ (H}\\_{\\text{c}}\\text{)}} \\quad \\text{ \\text{ }} \\quad \\text{0.74} \\\\ \\text{ } \\text{t}\\_{\\text{p}} \\text{ (H}\\_{\\text{c}}\\text{)} = \\text{t}\\_{\\text{m}} \\quad \\text{(H}\\_{\\text{c}}\\text{)} \\text{ \\text{ }} \\quad \\text{0.75}$$\n\nA notherquantity,suitableto uncoverthevortex m elting and the3D -1D crossover line,is the derivative ofthe speci\fc heat w ith respect to tem perature. It adopts the scaling form (Eq. [\\(A .21\\)](#page-24-29))\n\n<span id=\"page-7-0\"></span>\n$$\\frac{\\text{dcl}}{\\text{dT}} = \\frac{\\text{A}}{\\text{T}\\_{\\text{c}}} \\text{H}\\_{\\text{c}}^{-} \\stackrel{\\text{(1+)}}{\\text{}}^{\\text{(1+)}} \\quad \\text{x} \\quad ^{\\text{(1+)}}\\text{F} \\text{ (x)} \\qquad \\text{x} \\quad \\frac{\\text{df}}{\\text{dx}} \\quad ; \\tag{17}$$\n\nT hus,the data for dierent \felds should collapse on a single curve w hen plotted as H (1+ )=2 <sup>c</sup> Tcdc=dT vs.tH <sup>1</sup>=<sup>2</sup> <sup>c</sup> .\n\nIn Fig. [4](#page-8-0) we show the data ofPlackow skietal. [\\[11\\]](#page-24-10)for a N dBa2C u3O <sup>7</sup> single crystalw ith T<sup>c</sup> = 95:5 K in term s ofT 1H (1+ )=2 <sup>c</sup> d(C =T)=dT vs.tH <sup>1</sup>=<sup>2</sup> <sup>c</sup> w ith the 3D -xy exponents (Eq. [\\(10\\)](#page-5-0)). A pparently,the data scales from 1 to 14 T rem arkably well. A n essentialfeature is the dip reaching its m inim um at\n\n<span id=\"page-7-1\"></span>t<sup>p</sup> (H <sup>c</sup>)H 3=4 <sup>c</sup> ' 0:0087 T <sup>3</sup>=<sup>4</sup> ; (18)\n\nw hich determ ines the 3D to 1D crossover line. Indeed it replaces the singularity at the so called upper critical\feld resulting from the G aussian approxim ation and the neglect ofthe m agnetic \feld induced \fnite size eect (see [A .22\\)](#page-24-30). W ith Eq. [\\(13\\)](#page-6-2) it yields for the criticalam plitude ofthe in-plane correlation length the estim ate\n\n$$\\begin{array}{rcl} \\text{1\\\\_a\\text{2A} :} & \\\\ \\text{2\\\\_b\\text{2A} :} & \\\\ \\text{3\\\\_b\\text{2A} :} & \\\\ \\end{array} \\tag{\\text{7A}}$$\n\nFurtherm ore,com bining Eqs.[\\(12\\)](#page-6-3) and [\\(17\\)](#page-7-0) we obtain\n\n$$\\frac{\\text{picture}}{\\text{picture}}\\_{\\text{T=\\text{T}\\_{\\text{P}}\\text{(H}\\_{\\text{c}}\\text{)}} = \\frac{\\text{A}}{\\text{T}\\_{\\text{c}}} \\quad \\xrightarrow[\\text{0}]{\\text{a}} \\quad \\xrightarrow[\\text{0}]{\\text{a}} \\quad \\text{x} \\xrightarrow{\\text{1}^{\\text{+}}} \\text{f} \\quad \\text{(x)} \\quad \\text{x} \\quad \\xrightarrow[\\text{dx}]{\\text{d}} \\quad \\text{x} \\quad \\xrightarrow[\\text{T=\\text{T}\\_{\\text{P}}\\text{(H}\\_{\\text{c}}\\text{)}]{\\text{d}}} ; \\langle \\text{20} \\rangle$$\n\n![](_page_8_Figure_1.jpeg)\n\n<span id=\"page-8-0\"></span>F igure 4. Scaling P lot T 1H (1+ )=<sup>2</sup> d(C =T )=dT vs. t=H <sup>1</sup>=<sup>2</sup> for a N dB a2C u3O <sup>7</sup> single crystal w ith T<sup>c</sup> = 95:5 K taken from P lackow skiet al. [\\[11\\]](#page-24-10). U nits are Tesla, Joule/gat and K elvin. T he vertical line m arks the 3D to 1D crossover line E q. [\\(18\\)](#page-7-1)) separating the 3D from the 1D regim e.\n\nrevealing that dow n to 1 T the depth of the dip is controlled by ab (T<sup>p</sup> (H <sup>c</sup>)) = L<sup>H</sup> <sup>c</sup> , the m agnetic \feld induced lim iting value of the in-plane correlation length. A ccordingly,the hom ogeneous dom ains exceed Lab = (0=aH <sup>c</sup>) 1=2 ' 2:6 10<sup>6</sup> cm . In addition,in the 3D regim e we observe a peak around\n\n<span id=\"page-8-1\"></span>\n$$\\begin{array}{ccccccccc} \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ } & \\text{ $\\mathfrak{h}$ }$$\n\nw hich wastraced back to the vortex-m elting transition [\\[11\\]](#page-24-10). From\n\n$$\\mathbf{q}\\_{\\mathsf{m}} = \\mathsf{q}\\_{\\mathsf{a}\\mathsf{b}\\mathsf{0}} \\stackrel{\\mathsf{a}}{\\rightsquigarrow} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/} \\mathbf{\\not\\!\\!/}$$\n\nand the estim ates [\\(18\\)](#page-7-1) and [\\(21\\)](#page-8-1) the universalratios ofthe scaling variables and the reduced tem peraturesatthe m elting transition and the 3D to 1D crossoverline adopt then the values\n\n> z<sup>m</sup> =z<sup>p</sup> = (t<sup>p</sup> (H <sup>c</sup>)=t<sup>m</sup> (H <sup>c</sup>))<sup>2</sup> ' 0:2;t<sup>p</sup> (H <sup>c</sup>)=t<sup>m</sup> (H <sup>c</sup>)' 0:3: (23)\n\nW ith z<sup>p</sup> = 1=a ' 0:32 the universal value of the scaling variable, z<sup>m</sup> = ab0 2 jt<sup>m</sup> j 2 H <sup>c</sup>= <sup>0</sup>,atthe m elting transition is\n\n$$\\begin{array}{ccccc}\\mathbf{z\\_{m}} & \\text{'} & \\text{0} \\mathbf{0} \\mathbf{6} \\text{:}\\\\ & & & \\begin{array}{c} \\mathbf{0} \\end{array} \\end{array} \\tag{24}$$\n\nH ence,3D -xy \nuctuations do notdeterm ine the 3D to 1D crossoverline only,butthe m elting line,belonging to the 3D regim e,as well.\n\nIn Fig. 5 we depicted the scaling plot H 1+ =2 <sup>c</sup> @ (C =T)=@H <sup>c</sup> vs. tH <sup>1</sup>=<sup>2</sup> <sup>c</sup> w ith 3D -xy exponents (Eq. [\\(10\\)](#page-5-0)) for a Y Ba2C u3O <sup>6</sup>:<sup>97</sup> single crystaltaken from R oulin et al. [\\[12\\]](#page-24-11). T he collapse of the data on a single curve uncovers again consistency w ith 3D -xy \nuctuations. M oreover,we observe that dow n to 1:75 T the depth ofthe dip is controlled by ab (T<sup>p</sup> (H <sup>c</sup>)) = L<sup>H</sup> <sup>c</sup> , the m agnetic \feld induced lim iting value of the in-plane correlation length. A ccordingly, the hom ogeneous dom ains exceed Lab = (0=aH <sup>c</sup>) 1=2 ' 1:9 10<sup>6</sup> cm . T he m inim um ofthe dip at\n\n$$\\text{H}\\_{\\text{p}} \\left( \\text{H}\\_{\\text{c}} \\right) \\text{H}\\_{\\text{c}} \\overset{1=2}{\\quad} = \\text{ } \\quad \\text{0.011} \\text{ T} \\overset{3=4}{\\quad} ; \\tag{25}$$\n![](0__page_9_Figure_1.jpeg)\n\nF igure 5. Scaling plot of H 1+ =2 <sup>c</sup> @ (C =T )=@H <sup>c</sup> vs. tH <sup>1</sup>=<sup>2</sup> <sup>c</sup> for a Y B a2C u3O <sup>6</sup>:<sup>97</sup> single crystal w ith T<sup>c</sup> = 91:1 K and H <sup>c</sup> = 1:75;2:25;2:75;3:25; 3:75;4:25;4:75;5:25;5:75;6:25;6:75;7:25;8;9;10;11:25 and 13 T taken from R oulin et al. [\\[12\\]](#page-24-0). T he solid line m arks the 3D to 1D crossover line (E q. [\\(25\\)](#page-8-0)).\n\ndeterm ine the 3D to 1D crossover line. W ith Eq. [\\(12\\)](#page-6-0) it yields for the critical am plitude ofthe in-plane correlation length the estim ate\n\n$$\\begin{array}{c} \\cdot \\end{array}\\_{\\mathsf{a}\\mathsf{b}\\mathsf{0}} \\prime \\quad \\mathsf{27}\\mathsf{A} \\mathsf{ \\cdot} \\tag{\\mathsf{26}}$$\n\nT he rathersharp peak in the 3D regim e at\n\nt<sup>m</sup> (H <sup>c</sup>)H 3=4 <sup>c</sup> ' 0:031 T <sup>3</sup>=<sup>4</sup> ; (27)\n\nuncovers again the vortex-m elting line. T hese estim ates yield for the universalratios the values\n\n> <span id=\"page-9-1\"></span>z<sup>m</sup> =z<sup>p</sup> = (t<sup>p</sup> (H <sup>c</sup>)=t<sup>m</sup> (H <sup>c</sup>))<sup>2</sup> ' 0:25;t<sup>p</sup> (H <sup>c</sup>)=t<sup>m</sup> (H <sup>c</sup>)' 0:35; (28)\n\nin reasonable agreem ent w ith our previous estim ates for Y Ba2C u4O <sup>8</sup> (Eq[.\\(16\\)](#page-7-0)) and N dBa2C u3O <sup>7</sup> (Eq[.\\(23\\)](#page-8-1)). R ecently it was show n that the m elting line depends on pressure [\\[50\\]](#page-25-0). T he underlying coupling between the vortex transition and the crystal lattice then dem onstrates that the crystallattice is m ore than a m ere host for the vortices. O n the other hand from the universalrelation [\\(4\\)](#page-3-0) it follow s naturally that the relationship between Tc,T<sup>m</sup> and the in-planecorrelation length is\fxed.From this we anticipate thatifT<sup>c</sup> is raised (lowered)by applying uniaxialpressure,the m elting line w illbe shifted to higher (lower)tem peratures.\n\nIn Fig. 6 we depicted the scaling plot H 1+ =2 <sup>c</sup> @ (C =T)=@H <sup>c</sup> vs. tH <sup>1</sup>=<sup>2</sup> <sup>c</sup> for a for D yBa2C u3O <sup>7</sup> <sup>x</sup> single crystaltaken from G ar\feld et al. [\\[14\\]](#page-24-1). It reveals again a reasonable collapse of the data on a single curve and w ith that consistency w ith 3D -xy \nuctuations. In addition we observe that dow n to 1:5 T the depth of the dip is controlled by ab (T<sup>p</sup> (H <sup>c</sup>)) = L<sup>H</sup> <sup>c</sup> , the m agnetic \feld induced lim iting value of the in-plane correlation length. A ccordingly, the hom ogeneous dom ains exceed Lab = (0=aH <sup>c</sup>) 1=2 ' 2:1 10<sup>6</sup> cm . T he m inim um ofthe dip at\n\n<span id=\"page-9-0\"></span>\n$$\\text{H}\\_{\\text{g}}\\text{ (H}\\_{\\text{c}}\\text{)}\\text{H}\\_{\\text{g}=\\text{4}} = \\begin{array}{c} \\text{0.00625} \\quad \\text{T} \\quad \\text{ $\\,^2$ C} \\\\ \\text{0.0102} \\quad \\text{T} \\quad \\text{ $\\,^2$ C} \\end{array} \\tag{29}$$\n\n![](0__page_10_Figure_1.jpeg)\n\nF igure 6 . Scaling plot H + = 2 @ (C =T ) = @ H . vs. tH . = = 2 for a D yB a2 C u30 6 : 97 with T = 91.05 K taken from G ar eld et al. [14]. The vertical line indicated the 3D to 1D crossover line (E q. (29)).\n\nxing the 3D to 1D crossover line, yields with Eq. (13) for the critical am plitude of the in-plane correlation length the estim ate\n\n$$\\begin{array}{c} \\text{1} \\\\ \\text{25A} \\end{array} ; \\begin{array}{c} \\text{25A} : \\\\ \\text{1} \\\\ \\end{array} \\tag{\\text{30}}$$\n\na bl The sharp peak in the 3D regim e at\n\n> <span id=\"page-10-0\"></span>tm (H c) H c 3=4 / 0 0:028 T 3=4 ; (31)\n\nuncovers again the vortex-m elting line. From the estim ates (29) and (31) we obtain\n\n<span id=\"page-10-1\"></span>2m =2p = (tp (H c) =tm (H c))2 / 0:24; tg (H c) =tm (H c) / 0:34; ( (32)\n\nin reasonable agreem ent with our previous estim ates for the universal ratios (E. (23) and (28)). Furtherm ore, these estim ates for the 3D to 1D crossover line and the m elting line agree well with to (H c) H e 3 = 0 :012 (T 3=4) and t & H c H c H c ) H e 3 = 1 (T 3=4), derived from the respective peak positions in the total speci c heat C =T of an untwined Y Ba2C u30 7 x single crystal with T = = 91:87 K , m easured by Schilling et al. [28].\n\nNext we consider the reversible magnetization of the recently discovered superconductor RbO s20 。 [51]. It is a transition metal (TM ) oxide which are of considerable interest because their properties range from m etal-insulator transitions to colossal m agnetoresistance and superconduct.ity. TM oxide com pounds with the pyroch bre structure have long been studied and have found m any applications [52], but it is not until recently that superconductivity was discovered in one such m aterial, nam ely, C d2R e20 7 at T2 ° 1 K [53, 54, 55]. Subsequent.ly, superconductivity was also discovered in the pyrochlore oxides K O s20 € (Tc ' 9:6 K ) [56], R b0 320 € (Tc ' 6:3 K ) [51], and C so s20 6 (Tc ' 3:3 K ) [57]. Speci c heat [58, 59], m agnetization, m uon-spin-rotation ( SR ) studies of the m agnetic penetration depth [60, 61], and the pressure e ect m easurem ents [60] on RbO s20 € reveal consistent evidence for m eaneld behavior, except close to T , where them al uctuations are observed. Indeed, the analysis of extended m easurem ents of the tem perature dependence of the m agnetic penetration depth strongly suggest that R.bO so & falls in the universality class of charged superconductors because charged critical uctuations were found to dom inate the tem perature dependence of near Tc [62]. It di ers from the m ean- eld behavior observed in conventionalsuperconductors and the uncharged (3D -xy) criticalbehavior found in nearly optim ally doped cuprate superconductors [23, 24, 40, 43], but agrees with the theoretical predictions for charged criticality [63, 64, 65] and the charged critical behavior observed in underdoped Y B a2C u30 6:59 [66]. Noting that in the charged case the m agnetic susceptibility scale as xy value [67] Eq.(10)) one expects that the scaling form (8) applies. In Fig. 7 we\n\n![](0__page_11_Figure_2.jpeg)\n\n<span id=\"page-11-0\"></span>F igure 7. Scaling plot o H d2M =dT2 vs. t ( oH ) 3=4 for a R b0 s20 g powder sam ple with Tc = 6:5 K derived from the m agnetization data of K hasanov et a1. [15]. The vertical dashed line is the 1D to 3D crossover line (Eq. (33)).\n\ndepicted the resulting scaling plot for a R bO s20 g pow der sam ple with T . ' 6:5 K . The vertical dashed line is the 3D to 1D crossover line\n\n<span id=\"page-11-1\"></span>\n$$\\begin{array}{ccccc} \\downarrow & & & \\downarrow & & \\downarrow & & \\downarrow & & \\downarrow & & \\\\ & & & & & & & & & \\downarrow & & \\\\ & & & & & & & & & & \\downarrow & & \\\\ & & & & & & & & & & \\end{array}$$\n\ny ielding with E q. (12) for the critical am plitude of the correlation length the estin ate\n\n$$\\mathbf{A}\\_{\\parallel} \\quad \\text{(88A)}\\tag{34}$$\n\nin com parison with them ean- eld value (0) ' 74A [58,59]. In the 3D -xy universality class inverted 3D-xy behavior [68]. Given then the evidence for charged criticality in R.b. 5.0 g and the associated critical am plitude of the m agnetic penetration depth o ' 1420 A [62], we obtain for the Ginzburg Landau param eter the estimate ' 1420= (2:21 88) ' 7:3. A ccordingly, the resulting e ective dim ensionless charge [69] e = 1= ' 0:14 is no longer negligible and large in com parison with extrem e type-II superconductors. Furtherm ore, according to Eqs. (16), (23), (28), (32), and (33) the vortex m elting line is expected to occur close to\n\n$$\\begin{array}{ccccccccc} \\text{A} & \\text{A} & \\text{B} & \\text{B} & \\text{A} & \\text{B} & \\text{A} & \\text{A} & \\text{B} & \\text{A} & \\text{B} \\\\ \\end{array}$$\n\nwhere in Fig. 7 a peak structure in the 3D regim e can be anticipated. Rem arkably enough, despite the com paratively large critical am plitude of the correlation length, the critical regim e is accessible. Finally, from LH . = ( 0= (aH c))=2, a ' 3:12 and\n\n<sup>0</sup>H <sup>c</sup> = 1:1 10<sup>3</sup> T ,we obtain forthe spatialextentofthe hom ogenousdom ainsin the R bO s2O <sup>6</sup> sam ple the lowerbound Lab > 1:4 10<sup>5</sup> cm .In Fig[.8,](#page-12-0)show ing dM =dT vs. T for a R bO s2O <sup>6</sup> pow der sam ple at various applied m agnetic \felds,we observe that the aforem entioned occurrence ofan in\nection pointatT<sup>p</sup> (H )is wellcon\frm ed.\n\n![](0__page_12_Figure_2.jpeg)\n\n<span id=\"page-12-0\"></span>F igure 8. dM =dT vs. T for a R bO s2O <sup>6</sup> pow der sam ple at various applied m agnetic \felds taken from K hasanov et al. [\\[15\\]](#page-24-5). ( <sup>0</sup>H = 0:11(4 ), 0:12, 0:13, 0:14, 0:15( ), 0:16, 0:17, 0:18, 0:22, 0:24(O), 0:26, 0:28, 0:333(?), 0:366, 0:433, 0:466,and 0:533 T ( )).\n\nW e have seen that in Y Ba2C u4O <sup>8</sup>, N dBa2C u3O <sup>7</sup> , Y Ba2C u3O <sup>6</sup>:<sup>97</sup>, and D yBa2C u3O <sup>6</sup>:<sup>97</sup> w here in zero m agnetic \feld the occurrenceof3D -xy criticalbehavior iswellestablished [\\[13](#page-24-6)[,20](#page-24-7)[,22](#page-24-8)[,23](#page-24-3)[,24](#page-24-4)[,36](#page-25-23)[,37](#page-25-24)[,38](#page-25-25)[,39](#page-25-26)[,40](#page-25-13)[,41](#page-25-27)[,42](#page-25-28)[,43\\]](#page-25-14),an applied m agnetic \feld does not lead to a continuous phase transition at an upper critical\feld H <sup>c</sup><sup>2</sup>,as predicted by the m ean-\feld approxim ation.Indeed,the experim entaldata considered here is fully consistent w ith a m agnetic \feld induced \fnite size eect leading to a 3D to 1D crossoverand a vortex m elting line.Since reduced dim ensionality enhances therm al\nuctuations one expects that even in conventionaltype-II superconductors w ith com paratively largecorrelation volum ethem agnetic\feld induced \fnitesizeeect and the associated 3D to 1D crossoverisatwork,although the\nuctuation dom inated regim e m ay not be accessible in zero m agnetic \feld. To clarify this supposition we analyzein thefollow ing the speci\fcheatdata ofN b77Zr<sup>23</sup> [\\[16\\]](#page-24-9),N b3Sn [\\[17\\]](#page-24-10),and N bSe<sup>2</sup> [\\[18\\]](#page-24-11).\n\nN b77Zr<sup>23</sup> isa cubicand isotropictype-IIsuperconductorw ith ' 22.A glanceto Fig[.9](#page-13-0) revealsthatthe eectofthe m agnetic \feld on the speci\fc heatjum p isinitially a shiftofitsposition and a reduction ofitsheight.Since the zero-\feld anom aly isonly 50 m K w idethe\nuctuation dom inated regim eisforsuciently low \feldsnotattained. N evertheless,we observe that the jum p sm ears out and crosses over to a peak w hich broadens and dim inishes w ith increasing \feld. In this view it is not surprising that the m ean-\feld approxim ation describes the data below 3 T rather wellin term s of an upper critical \feld H <sup>c</sup><sup>2</sup> and an assum ed continuous phase transition at T<sup>c</sup> (H ), estim ated from the \"transition\" m idpoints in Fig. [9](#page-13-0) [\\[16\\]](#page-24-9). To illustrate this point and to uncover the lim itations of the m ean-\feld approach we note that the size of the\n\n![](0__page_13_Figure_1.jpeg)\n\n<span id=\"page-13-0\"></span>F igure 9. C =T vs. T for N b <sup>77</sup>Zr<sup>23</sup> taken from M irm elstein et al. [\\[16\\]](#page-24-9) for various applied m agnetic \felds (( )0,(lines) 0.2,1,1.2,2,2.4,3,3.3,4,4.4,4.8, 5.2,6,6.6 T (lines),and ( ) 7.2 T .\n\nspeci\fc-heatjum p C is related to H <sup>c</sup><sup>2</sup> (T)in term s of[\\[70\\]](#page-25-29)\n\n<span id=\"page-13-2\"></span>C (T <sup>c</sup> (H ))/ T<sup>c</sup> (H ) 2 <sup>2</sup> (T<sup>c</sup> (H )) 1 dH <sup>c</sup><sup>2</sup> dT 2 Tc(H ) ; (36)\n\nw here is the G inzburg-Landau param eter. In Fig. [10](#page-13-1) we depicted the resulting\n\n![](0__page_13_Figure_6.jpeg)\n\n<sup>c</sup>\n\n<span id=\"page-13-1\"></span>F igure 10. C = C (H = 0) vs. T <sup>c</sup> (H ) ( ) and H <sup>c</sup><sup>2</sup> (T ) vs. T ( ) for N b77Zr22. T he solid line is obtained from E q. [\\(36\\)](#page-13-2) and the \ftted H <sup>c</sup><sup>2</sup> (T ) = H <sup>c</sup><sup>2</sup> (0)` 1 et 2 ´ `<sup>1</sup> <sup>1</sup>:<sup>181</sup> <sup>e</sup><sup>t</sup> <sup>2</sup> + 1:614e<sup>t</sup> <sup>3</sup> <sup>0</sup>:<sup>712</sup> <sup>e</sup><sup>t</sup> 4 ´ w ith H <sup>c</sup><sup>2</sup> (0) = 7:9T ,et= T =Tc, and T<sup>c</sup> = 10:8K taken from [\\[16\\]](#page-24-9),neglecting the T dependence of the G inzburg-Landau param eter . T he estim ates for H <sup>c</sup><sup>2</sup> (T )vs. T ( ) are derived from Fig. [9](#page-13-0) in term s ofthe \"transition\" m idpoints.\n\ndependence C (T <sup>c</sup> (H ))= C (H = 0),invoking the H <sup>c</sup><sup>2</sup> (T) taken from M irm elstein etal. [\\[16\\]](#page-24-9). A pparently,this approach describes the reduction ofthe jum p reasonably well.N evertheless,because an applied m agnetic \feld drivesa 3D to 1D crossoverand w ith that enhances \nuctuations,the m ean-\feld approxim ation is expected to break dow n in suciently high \felds.A n essentialsignatureofthisscenarioisthebroadening ofthe speci\fc heat peak,its reduction w ith increasing \feld and the \feld dependence ofthe peak location T<sup>p</sup> (H ). From T<sup>p</sup> vs. H show n in Fig. [11a](#page-14-0) it is seen that in the regim e w here the jum p broadens substantially (H > 2 T ) consistency w ith G aussian uctuation behavior\n\n<span id=\"page-14-1\"></span>\n$$\\mathbf{T\\_{F}}\\,\\mathrm{(H\\ )}=\\,11\\,\\mathsf{53}\\quad\\mathbf{1}\\,\\mathsf{29H}\\ \\mathrm{;}\\,\\mathrm{}\\tag{\\mathrm{\\mathcal{Y}}}$$\n\nsetsin.Indeed,the linearrelationship correspondsto Eq[.\\(7\\)](#page-4-1)w ith = 1=2,the critical exponent ofthe correlation length for G aussian \nuctuations (Eq. [\\(11\\)](#page-5-1)). T his yields for the am plitude ofthe correlation length the estim ate\n\n<span id=\"page-14-3\"></span>\n$$\\begin{array}{cc} \\cdot & \\bullet & \\bullet \\to \\bullet \\\\ \\cdot & \\bullet & \\bullet \\end{array} \\tag{38}$$\n\n![](0__page_14_Figure_5.jpeg)\n\n<span id=\"page-14-0\"></span>F igure 11. a) 3D to 1D crossover line,T<sup>p</sup> vs. H for N b77Zr22,derived from the data show n in Fig. [9.](#page-13-0) T he solid line is E q. [\\(37\\)](#page-14-1);b) C <sup>f</sup> (Tp) vs. H for N b77Zr<sup>23</sup> derived from the data show n in Fig. [9.](#page-13-0) T he solid line is E q. [\\(41\\)](#page-14-2).\n\nIn addition, Fig. [9](#page-13-0) reveals that the jum p broadens and the height of the resulting peak decreasesw ith increasing \feld. To explore the consistency ofthis behaviorw ith the m agnetic \feld induced \fnite size eect,im plying enhanced therm al\nuctuations due to the 3D to 1D crossover,we considernextthe m agnetic \feld dependence ofthe peak height\n\n$$\\begin{array}{ccccc}\\text{C}\\_{\\mathsf{F}} & \\langle \\mathsf{T}\\_{\\mathsf{P}} \\rangle = \\mathsf{C} & \\langle \\mathsf{T}\\_{\\mathsf{P}} \\rangle & \\mathsf{C}\\_{\\mathsf{b}} \\ \\langle \\mathsf{T}\\_{\\mathsf{P}} \\rangle \\\\\\\\ \\end{array} \\end{array} \\tag{59}$$\n\nw hereC<sup>b</sup> (Tp)isthetem peraturedependentbackground.W hen theG aussian scenario holds true,C<sup>f</sup> (Tp) scales according to Eq. [\\(A .11\\)](#page-22-0) as\n\n$$\\mathbf{C\\_{f}} \\cdot \\begin{pmatrix} \\mathbf{T\\_{p}} \\end{pmatrix} = \\begin{array}{c} \\mathbf{A} \\\\ \\longrightarrow \\\\ \\end{array} \\begin{array}{c} \\mathbf{j\\_{p}} \\circ \\mathbf{j\\_{c}} \\end{array} \\begin{array}{c} \\mathbf{f\\_{c}} \\quad \\left( \\mathbf{x\\_{p}} \\right) \\mathbf{H} \\end{array} \\begin{array}{c} \\mathbf{\"\\!\\! 2} \\end{array} + \\begin{array}{c} \\mathbf{B} \\end{array} \\tag{40}$$\n\nw ith = 1=2 and = 1=2 characteristic for G aussian \nuctuations (Eq. [\\(11\\)](#page-5-1)). From Fig[. 11b](#page-14-0),show ing C<sup>f</sup> (Tp)vs.H ,it is seen that\n\n<span id=\"page-14-2\"></span>\n$$\\mathbf{C\\_{f}} \\cdot \\begin{pmatrix} \\mathbf{T\\_{p}} \\end{pmatrix} = \\begin{array}{c} \\mathbf{132}\\mathbf{44} + \\mathbf{353}\\mathbf{364} \\end{array} \\begin{array}{c} \\mathbf{45}\\mathbf{3} \\end{array} \\mathbf{40} \\tag{41}$$\n\nw ith C<sup>f</sup> (Tp)in m J / K gatand H in T ,describestheexperim entaldata in thehigh \feld regim eratherwell.To substantiatetheconsistency w ith G aussian therm al\nuctuations further,we note that data taken in suciently high \felds should collapse on a single\n\n![](0__page_15_Figure_1.jpeg)\n\n<span id=\"page-15-0\"></span>F igure 12. Scaling plot H <sup>1</sup>=2C <sup>f</sup> vs. t=H for N b77Zr<sup>23</sup> derived from the data show n in Fig. [9](#page-13-0) w ith B = 132:44 (m J / K gat) (E q. ( [41\\)](#page-14-2)). T he verticaldashed line m arks tp=H = 0:11 (T <sup>1</sup>),the 3D to 1D crossover line.\n\ncurve w hen plotted as H <sup>1</sup>=<sup>2</sup> (C<sup>f</sup> B ) vs. t=H . In Fig. [12](#page-15-0) we observe rem arkable consistency w ith thisscaling behavior,characteristicfora m agnetic\feld induced \fnite sizeeectassociated w ith G aussian \nuctuations(Eq.[\\(11\\)](#page-5-1)),enhanced by the 3D to 1D crossover.T his crossoversline,tp=H = 0:11 (T <sup>1</sup>),yields for the criticalam plitude ofthe correlation length the estim ate <sup>0</sup> ' 85 A ,in agreem entw ith Eq. [\\(38\\)](#page-14-3).\n\nW hile the utilization of high-T<sup>c</sup> cuprates m ade considerable progress in recent years,triniobium stannide (N b3Sn) is stillone ofthe m ost im portant m aterials for the practicalapplication ofsuperconductivity after\ffty yearssince its discovery [\\[71\\]](#page-25-30), m ost notably as superconducting w ires in high-\feld m agnets. N b3Sn belongs to a class ofA3B binary interm etallic com pounds w ith the A 15 or -tungsten structure, w here those based on N b give rise to a subclassthatincludesNb3G e<sup>2</sup> [\\[72\\]](#page-25-31),having the highest T<sup>c</sup> (' 23 K ) for m ore than thirty years,and therefore it was once a subject ofintensive study until'70s [\\[73\\]](#page-25-32). Surprisingly enough,itseem s that the fundam ental superconducting propertiesofN b3Sn are notfully understood.In Fig.[13](#page-16-0) we depicted the totalspeci\fc heatofa N b3Sn single crystalm easured by Lortz etal. [\\[17\\]](#page-24-10)in \felds from 0 14 T .In zero \feld consistency w ith the typicalm ean-\feld jum p is observed and there appears to be no signature of \nuctuations as the superconducting phase is entered from the norm alstate. H owever,w ith increasing m agnetic \feld the jum p broadensand the heightofthe resulting peak decreases.To explore the consistency of this behavior w ith the m agnetic \feld induced \fnite size eect,we explore the scaling ofthe peak position Tp(H )and ofthe \nuctuation contribution C <sup>f</sup> (Tp)to the speci\fc heat. From Fig. [14a](#page-16-1) it is seen that the linear relationship\n\n<span id=\"page-15-1\"></span>\n$$\\mathbf{T\\_{P}} \\llcorner \\mathbf{H} \\llcorner \\rangle = \\mathbf{T} \\mathbf{T} \\mathbf{B} \\mathbf{G} \\llcorner \\mathbf{T} \\quad \\text{O.70325} \\quad \\text{(K)}\\\\ \\llcorner \\mathbf{t\\_{P}} = \\mathbf{H} \\llcorner \\quad \\text{O.70326} \\quad \\text{(K)}\\\\ \\llcorner \\mathbf{t\\_{P}} = \\mathbf{H} \\llcorner \\quad \\text{(K)}$$\n\nforthe 3D to 1D crossoverline describesthe data ratherwell.T hisuncoversw ith Eq. [\\(7\\)](#page-4-1) G aussian \nuctuations (Eq. [\\(11\\)](#page-5-1)) w ith\n\n$$\\mathbf{r}\\_{\\odot} \\quad \\text{``} \\quad \\text{46A';} \\tag{43}$$\n\nforthe criticalam plitude ofthe correlation length.W hen thisG aussian scenario holds true,C<sup>f</sup> (Tp)should then scaleaccording to Eq.[\\(11\\)](#page-5-1).From Fig[.14b](#page-16-1),showing C<sup>f</sup> (Tp)\n\n![](0__page_16_Figure_1.jpeg)\n\n<span id=\"page-16-0\"></span>F igure 13. Totalspeci\fc heat ofa single crystalofN b3Sn in \felds from 0 14 T m easured by an A C technique taken from Lortz et al. [\\[17\\]](#page-24-10). T he dashed line is C <sup>b</sup>=T = 8:72 + 3:6T (m J gat <sup>1</sup>K <sup>2</sup>), taken as tem perature dependent background.\n\n![](0__page_16_Figure_3.jpeg)\n\n<span id=\"page-16-1\"></span>F igure 14. a) 3D to 1D crossover line,T<sup>p</sup> vs. H ,for N b3Sn deduced from the speci\fc heat data show n in Fig. [13.](#page-16-0) T he solid line is E q. [\\(42\\)](#page-15-1);b) C <sup>f</sup> (Tp) vs. H for N b3Sn derived from the data show n in Fig. [13.](#page-16-0)T he solid line is E q. [\\(44\\)](#page-16-2) w ith C <sup>b</sup> (Tp)=T<sup>p</sup> = 8:72 + 3:6T <sup>p</sup> (m J gat <sup>1</sup>K <sup>2</sup>) indicated in Fig[. 13.](#page-16-0)\n\nvs.H ,it is seen that\n\n<span id=\"page-16-2\"></span>\n$$\\mathbf{C\\_{f}} \\cdot \\begin{pmatrix} \\mathbf{T\\_{p}} \\end{pmatrix} = \\begin{array}{c} \\mathbf{173}\\mathbf{3} + \\mathbf{1115}\\mathbf{H} \\end{array} \\begin{array}{c} \\mathbf{173}\\mathbf{5} \\\\ \\mathbf{4} \\end{array} \\text{ \\(\\mathbf{n} \\cdot \\mathbf{J=K}\\)\\*\\*} \\mathbf{3} \\mathbf{4} \\mathbf{5} \\mathbf{=K} \\mathbf{g}\\mathbf{3} \\mathbf{t}\\mathbf{j}\\text{;}\\tag{44}$$\n\ndescribes the experim entaldata for suciently high \felds rather welland con\frm s w ith that the m agnetic \feld induced \fnite size eect scenario driven by G aussian uctuations.\n\nFurtherm ore,the m ore detailed plot of the speci\fc heat coecient depicted in Fig[. 15](#page-17-0) uncoversin the low \feld regim e and below the m ean-\feld jum p a weak peak. T his anom aly,m arked by arrow s,was traced back to the vortex m elting transition [\\[17\\]](#page-24-10)and con\frm s w ith that the enhancem ent oftherm al\nuctuations w ith increasing \feld strength. T he resulting m elting line,consistentw ith\n\n<span id=\"page-16-3\"></span>T<sup>m</sup> (H )= 18(1 0:036H );t<sup>m</sup> =H = 0:036 T <sup>1</sup> ; (45)\n\n![](0__page_17_Figure_1.jpeg)\n\n<span id=\"page-17-0\"></span>F igure 15. Totalspeci\fc heat ofa single crystalofN b3Sn in \felds from 0 to 1T taken from Lortz et al. [\\[17\\]](#page-24-10). T he arrow s m ark the location ofthe vortex m elting transition.\n\nis show n in Fig. [16](#page-17-1) and reveals again consistency w ith G aussian \nuctuations. For com parison weincluded the3D to 1D crossoverline,disclosing thatthevortex m elting transition occursin the 3D regim e.From Eq.[\\(42\\)](#page-15-1)and [\\(45\\)](#page-16-3)we obtain in the G aussian case w ith z<sup>m</sup> =z<sup>p</sup> = (tp=t<sup>m</sup> ) 2 (Eq.[\\(32\\)](#page-10-1)) for the universalratio the estim ate\n\n$$\\text{tr}\\_{\\mathbb{P}}\\left(\\mathbb{H}\\right) = \\text{t}\\_{\\mathbb{m}}\\quad \\left(\\mathbb{H}\\right) = \\text{z}\\_{\\mathbb{m}} = \\text{z}\\_{\\mathbb{P}}\\quad '\\text{ 0.92};\\tag{46}$$\n\nw hich diers substantially from the 3D -xy value t<sup>p</sup> (H <sup>c</sup>)=t<sup>m</sup> (H <sup>c</sup>)' 0:32 (Eqs. [\\(23\\)](#page-8-1), [\\(28\\)](#page-9-1) and [\\(32\\)](#page-10-1)).\n\n![](0__page_17_Figure_6.jpeg)\n\nH (T)\n\n<span id=\"page-17-1\"></span>F igure 16. Vortex m elting line,T<sup>m</sup> vs. H ofN b3Sn derived from the location ofthe m arked anom alies in Fig. [15.](#page-17-0) T he solid line is the m elting line (E q. [\\(45\\)](#page-16-3)) and the dashed one the 3D to 1D crossover line (E q. [\\(42\\)](#page-15-1)).\n\nSo farweconsidered eitheranisotropicsuperconductorsin m agnetic\feldsapplied along the c-axis orisotropic m aterials.A suitable anisotropic type-IIsuperconductor\nw heretheeectsofthem agnetic\feld on thespeci\fcheat,for\feldsapplied paralleland perpendicularto the layers,have been studied in som e detailisN bSe<sup>2</sup> [\\[18\\]](#page-24-0).M oreover, the relevance of\nuctuations was established already som e tim e ago by Frindt [\\[74\\]](#page-25-0)in term softhedependenceofT<sup>c</sup> on thecrystalthickness,reduced below six N bSe<sup>2</sup> layers. In Fig. [17](#page-18-0) we reproduced the speci\fc heat data ofSanchez et al. [\\[18\\]](#page-24-0)for a N bSe<sup>2</sup> single crystalin various m agnetic \felds applied parallelto the layers. In analogy to\n\n![](1__page_18_Figure_2.jpeg)\n\n<span id=\"page-18-0\"></span>F igure 17. Speci\fc heat of a N bSe2 single crystal in various m agnetic \felds applied parallelto the layers taken from Sanchez et al[.\\[18\\]](#page-24-0)\n\nN b77Zr<sup>23</sup> (Fig. [9\\)](#page-13-0) and N b3Sn (Fig. [13\\)](#page-16-0) the jum p broadens and its height decreases w ith increasing m agnetic \feld. T he sam e behavior was observed for \felds applied perpendicularto the layers[\\[18\\]](#page-24-0).In Fig[.18](#page-18-1) we depicted T<sup>p</sup> vs.H ab and H <sup>c</sup> forN bSe<sup>2</sup>\n\n![](1__page_18_Figure_5.jpeg)\n\n<span id=\"page-18-1\"></span>F igure 18. 3D to 1D crossover lines,T<sup>p</sup> vs. H ab;c,for N bSe<sup>2</sup> deduced from the speci\fc heat data ofSanchez et al. [\\[18\\]](#page-24-0). T he solid line is E q. [\\(47\\)](#page-19-0),the 3D to 1D crossover line for \felds applied parallelto the ab-plane and the dashed one is E q. [\\(48\\)](#page-19-0) the dim ensionalcrossover line for \felds applied parallelto the c-axis.\n\nderived from Fig. [17](#page-18-0) and the data ofSanchez etal. [\\[18\\]](#page-24-0). T he solid and dashed lines\n\nare\n\n<span id=\"page-19-0\"></span>\n$$\\text{Tr}\\_{\\mathbb{B}}\\left\\{\\mathbb{H}\\_{\\text{ab}}\\right\\} = \\begin{array}{c} \\text{G.B.}\\\\ \\text{(}\\mathbb{B}\\text{.0.59}\\text{.42}\\\\ \\text{(}\\mathbb{B}\\text{.0.59}\\text{.0.59}\\text{.0.59}\\text{.0.59}\\text{.0.59}\\text{.0.59}\\text{.0.59}\\end{array}$$\n\n$$\\begin{array}{rcl} \\text{1T}\\_{\\text{P}} \\left( \\text{H}\\_{\\text{c}} \\right) & = & \\text{7B} \\text{\\textasciic} \\left( \\text{I} \\quad \\text{0} \\text{21} \\text{\\textquotedbl{}} \\text{H}\\_{\\text{a}} \\text{\\textquotedbl{}} \\right) \\text{ (K} \\text{)}; \\end{array} \\tag{48}$$\n\nrevealing consistency w ith a 3D to 1D crossover line associated w ith G aussian uctuations (Eq. [\\(11\\)](#page-5-0)). Invoking Eq. [\\(1\\)](#page-3-0) we obtain for the criticalam plitudes of the correlation lengths and the anisotropy the estim ates\n\n$$\\mathbf{A}\\_{\\text{ab0}}\\text{ }\\mathbf{'}\\text{ }\\mathbf{120A}\\text{; }\\begin{aligned} \\mathbf{'} \\mathbf{120A}\\mathbf{; }\\mathbf{; }\\mathbf{ }\\_{\\text{ab0}}\\text{ }\\mathbf{0}\\text{ }\\mathbf{1}\\text{ }\\mathbf{-}\\mathbf{2} \\end{aligned} \\text{ = } \\mathbf{66A}\\text{; }\\tag{49}$$\n\nand\n\n$$\\text{a}^{\\text{c}0}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^{\\text{e}}\\text{ }^$$\n\ncom pared to the previous estim ate, ' 2:4 [\\[75\\]](#page-25-1), for the ansisotropy. W hen this crossover line stem s from G aussian \nuctuations the extension of Eq. [\\(A .11\\)](#page-22-0) to anisotropic system s im plies that the peak heightC<sup>f</sup> (T<sup>p</sup> (H ab;c)) scale as\n\nc<sup>f</sup> (T<sup>p</sup> (H <sup>c</sup>))= A f<sup>c</sup> (xpc) ab0 2 aH <sup>c</sup> 0 ! <sup>=</sup><sup>2</sup> + B <sup>c</sup>; (51)\n\nfor \felds applied parallelto the c-axis w here\n\n$$\\mathbf{x}\\_{\\rm pc} = \\frac{\\mathbf{t}\\_{\\rm p}}{\\mathbf{H}\\_{\\rm c}^{\\rm 1}} = \\underbrace{\\begin{array}{c} \\mathbf{t} \\\\ \\xrightarrow{\\mathbf{a} \\mathbf{b} \\mathbf{0}} \\end{array}}\\_{\\mathbf{0}} \\overset{\\mathbf{?}}{\\mathbf{a}}^{\\rm 1} \\tag{52}$$\n\nand for \felds applied in the ab-plane\n\n$$\\begin{array}{ccccc} \\text{Cr}\\_{\\text{f}} & \\text{T}\\_{\\text{p}} & \\text{H}\\_{\\text{ab}} \\text{\\textasciic} & & & & \\text{B}\\_{\\text{c}} \\text{\\textasciic} & \\text{B}\\_{\\text{c}} \\text{\\textasciic} & & & & \\text{B}\\_{\\text{c}} \\text{\\textasciic} & & & & \\text{B}\\_{\\text{c}} \\text{\\textasciic} \\\\ \\text{C}\\_{\\text{f}} & \\text{T}\\_{\\text{p}} & \\text{H}\\_{\\text{c}} \\text{\\textasciic} & & & & & \\text{B}\\_{\\text{c}} \\text{\\textasciic} & & & \\text{B}\\_{\\text{c}} \\text{\\textasciic} \\\\ \\end{array}$$\n\nw here\n\n$$\\mathbf{x}\\_{\\text{pub}} = \\frac{\\mathbf{t}\\_{\\text{p}}}{\\mathbf{H}\\_{\\text{c}}^{1=2}} = \\underbrace{\\mathbf{a}\\_{\\text{a}\\text{b}0 \\quad \\text{c}0}}\\_{\\mathbf{0}} \\mathbf{a}^{1=2} \\tag{54}$$\n\nw ith = 1=2 and = 1=2 for G aussian \nuctuations (Eq. [\\(11\\)](#page-5-0)). In Fig. [19](#page-20-0) we show C<sup>f</sup> (T<sup>p</sup> (H ab;c))vs.H ab;c derived from the data ofSanchez etal. [\\[18\\]](#page-24-0).Forcom parison we included the \fts\n\n<span id=\"page-19-1\"></span>\n$$\\text{C}\\_{\\text{f}} \\text{ (}\\text{T}\\_{\\text{P}} \\text{ (H}\\_{\\text{ap}}\\text{))}\\text{ = }\\quad \\text{9:13} + \\text{ 66:45H}\\_{\\text{ap}}\\text{ {}^{1\\text{-2}}} \\text{ (}\\text{ft}\\text{ 0=K gatz)}\\text{;}\\tag{55}$$\n\n$$\\text{(C}\\_{\\text{f}} \\text{ (T}\\_{\\text{p}} \\text{ (H}\\_{\\text{c}}\\text{)) }\\text{ =} \\quad \\text{34.97} + \\text{ 66.89} \\text{H}\\_{\\text{c}}^{\\text{ 1}=2} \\text{ (t} \\text{ 0}\\text{-K (g\\text{at})}\\text{)}\\text{.} \\tag{56}$$\n\nw hich describe the sparse data reasonably well and con\frm w ith that the 3D to 1D crossover arising from the m agnetic \feld induced \fnite size eect tuned by G aussian \nuctuations. In addition, the ratio 66:45=66:8 ' ab<sup>0</sup> =c<sup>0</sup> ' ' 1, provides an independent estim ate of the anisotropy. W hile the rather lim ited resolution ofthe speci\fc heat data ofN bSe<sup>2</sup> (Fig. [17\\)](#page-18-0) does not revealany signature of the therm odynam ic vortex m elting transition, m ode locking and dc transport m easurem ents uncovered this transition over a w ide m agnetic \feld and tem perature range [\\[76\\]](#page-26-0). A ccordingly,the universalratio between the 3D -1D crossoverand vortex m elting line (Eq.[\\(46\\)](#page-17-0)) is expected to apply.\n\nT he characteristic features of the m agnetic \feld induced \fnite size eect on the speci\fc heat, broadening of the peak and the reduction of its height w ith increasing \feld,havealso been observed in ZrB <sup>12</sup> [\\[77\\]](#page-26-1)and -(BED T -T T F)2C u(N C S)<sup>2</sup>\n\n![](1__page_20_Figure_1.jpeg)\n\n<span id=\"page-20-0\"></span>F igure 19. C <sup>f</sup> (Tp) vs. H ab;c for N bSe<sup>2</sup> derived from the speci\fc heat data of Sanchez et al[.\\[18\\]](#page-24-0). T he solid line is E q. [\\(55\\)](#page-19-1) w ith C <sup>b</sup> (T<sup>p</sup> (H ab))=T<sup>p</sup> = 4:95 + 0:196T 2 <sup>p</sup> (m J/ K <sup>2</sup>gat) and the dashed one E q. [\\(56\\)](#page-19-1) w ith C <sup>b</sup> (T<sup>p</sup> (H <sup>c</sup>))=T<sup>p</sup> (H <sup>c</sup>)= 5:06 + 0:193T 2 <sup>p</sup> (m J/ K <sup>2</sup>gat) taken as tem perature dependent background.\n\n[\\[78\\]](#page-26-2). In contrast to the system s considered so far, these m aterials exhibit a richer response to an applied m agnetic \feld. W hile in m ost type-II superconductors the orbital-pair breaking m echanism dom inates,this is no longer the case in -(BED T - T T F)2C u(N C S)2. In parallel\felds above 21 T the Pauli-param agnetic pair-breaking eects appear and there is evidence for the Fulde-Ferrel-Larkin-O vchinnikov phase [\\[79](#page-26-3)[,80\\]](#page-26-4).Furtherm ore,clean ZrB<sup>12</sup> w ith T<sup>c</sup> ' 6 K isa superconductorw hoseG inzburg-Landau param eter ' 0:65 is close to the border value 2 <sup>1</sup>=<sup>2</sup> ' 0:7. Since varies w ith tem perature the m aterialcrossesoverfrom type-Ito type-IIas the tem perature is lowered.\n\nW ehaveseen thatm easurem entsoftherm odynam icpropertieshaveevolved into a m ajorexperim entaltoolin the questforan understanding oftype-IIsuperconductors. N oting that the in\nuence ofm agnetic \felds on the superconducting state is ofhigh technologicalrelevance this issue is not of fundam entalinterest only. N evertheless, the eects of therm al \nuctuations were not fully identi\fed over several decades. Particularly in classical superconductors, including N b77Zr23, N b3Sn and N bSe2, interpretations based on the standard m ean-\feld approxim ation were considered to be satisfactory. By contrast, our analysis of the speci\fc heat data uncovered in suciently high \felds rem arkable consistency w ith the m agnetic \feld induced \fnite size eect,giving rise to a 3D to 1D crossover w hich enhances therm al\nuctuations. W hile in Y Ba2C u4O <sup>8</sup>,N dBa2C u3O <sup>7</sup> ,Y Ba2C u3O <sup>7</sup> ,and D yBa2C u3O <sup>7</sup> 3D -xy-, in R bO s2O <sup>6</sup> inverted 3D -xy-therm al\nuctuations were show n to drive this crossover, the speci\fc heat data ofthe conventionaltype-II superconductors N b77Zr23,N b3Sn and N bSe<sup>2</sup> pointto G aussian \nuctuations.In any case,w heneverthiscrossoveroccurs there is no continuous phase transition in the H T -plane along a H <sup>c</sup><sup>2</sup> (T)-line, as predicted by the m ean-\feld treatm ent. Instead there is the 3D to 1D crossover line H pi(T) = <sup>0</sup>= aj<sup>0</sup> <sup>k</sup><sup>0</sup> (1 T=Tc) <sup>1</sup>=<sup>2</sup> w ith i6= j 6= k and <sup>i</sup>0;j0;k<sup>0</sup> denoting the critical am plitude of the correlation length below T<sup>c</sup> w ith critical exponent . A ccordingly,below T<sup>c</sup> and above H pi(T) superconductivity is con\fned to cylinders\n\nwith diam eter LH1 / H : 12 w hereupon the system becom es 1D . H ow ever, 1D system s with short range interactions do not undergo a continuous phase transition at nite temperature [65] and with that there is no continuous phase transition in the H T-plane above the 3D to 1D crossover line. Furtherm ore, we have show n that the them odynam ic vortex m elting transition occurs in the 3D regim e. W hile in YBa2Cu4Og, NdBa2Cu307 , YBa2Cu3O7 , and DyBa2Cu307 , it is driven by 3D xy them al uctuations, the speci c heat data of the conventional typesuperconductors N b77 Z 23 , N b3 Sn and N bSez point to G aussian uctuations. In any case, because the vortex m elling transition and the 3D -1D crossover occur at universal values of the scaling variable z, the ratio zm =zp = (tg (H c) =tw (H c)) = should be universal as well, O ur analysis revealed, zm =2p = (tp (H c) =tm (H c))2 / 0 23 (E qs. (23), (28) and (32)), when 3D xy uctuations dom inate and zm =26 = to (H ) =th (H ) ' 0:92 E q. (46)) in the Gaussian case. Thus it appears that them al uctuations, enhanced by the 3D to 1D crossover, are im portant not only in high-tem perature superconductors but also in conventional type-II superconductors with com paratively large correlation volume. This observation opens up a window onto the universal properties mediated by them al uctuations. and allow s to probe the them odynam ic relevant spatial extent of the hom ogenous dom ains. From this perspective, m ore extended high resolution speci c heat and reversible m agnetization m easurem ents on type-II superconductors and their analyzes along the lines outlined here w ill certain ly be necessary to unravel the details of the universal properties associated with the 3D to 1D crossover and the vortex m elting transition in type II superconductors.\n\n## A cknow ledgm ents\n\n0 ver the years, we have bene ted from num erous scienti c discussions on this topic with H . K eller, R . K hasanov, R . Lortz, C . M eingast, K . A . M uller, J . R oos, J . M . Singer, and S.W eyeneth. M oreover, the author is grateful to R . K hasanov, and R . Lortz for providing experim ental data.\n\n## A ppendix A\n\nW hen in a type II superconductor them al uctuations dom inate and the coupling to the charge is negligible the free energy per unit volum e adopts in the presence of a m agnetic eld H 。 applied parallel to the c-axis the scaling form (3). This leads for the m agnetization per unit volum e, m = M =V = @fs =@H 。 , the scaling expression [13, 23, 24, 41]\n\n<span id=\"page-21-0\"></span>\n$$\\begin{array}{ccccc}\\text{m} & \\text{m} & \\text{g} & \\text{h}\\_{\\text{B}} & \\text{h}\\_{\\text{B}} & \\text{g} & \\text{g} & \\text{g} & \\text{g} & \\text{g} \\\\ \\hline \\text{T} \\text{H} & ^{1 = 2} & & & & & \\text{g} & \\text{g} & \\text{g} & \\text{g} \\\\ & & & & & & \\text{g} & \\text{g} & & & & \\text{g} & \\text{g} \\\\ \\text{Z} & & & & & & & \\text{g} & \\text{g} & \\text{g} & \\text{g} & \\text{g} & \\text{g} & \\text{g} \\\\ & & & & & & & & \\text{g} & \\text{g} & \\text{g} & \\text{g} & \\text{g} & \\text{g} \\\\ & & & & & & & & & \\text{g} & \\text{g} & \\text{g} & \\text{g} & \\text{g} \\\\ & & & & & & & & & & & \\text{g} & \\text{g} & \\text{g} & \\text{g} \\\\ & & & & & & & & & & & & \\text{g} & \\text{g} & \\text{g} & \\text{g} \\\\ & & & & & & & & & & & & \\text{g} & \\text{g} & \\text{g} & \\text{g} & \\text{g} \\\\ & & & & & & & & & & & & & & \\text{g} & \\text{g} & \\text{g} & \\text{g} \\\\ & & & & & & & & & & & & & & & \\text{g} & \\text{g} & \\text{g} & \\text{g} & \\text{g} & \\text{g} & \\text{g} & \\text{g} & \\text{g$$\n\nQ is a universal constant and G (z) a universal scaling function of its argum ent, with G = 0) = 1. = 0) = 1. = = ab= denotes the anisotropy, ab the zero- eld in-plane correlation length and H . the magnetic eld applied along the c-axis. In term s of the variable x the scaling form (1) is sim ilar to Pranqe's [48] result for G aussian uctuations. A pproaching T . the in-plane correlation length diverges as\n\n$$\\mathbf{r}^{\\rm cp} = \\mathbf{r}^{\\rm cp} \\mathbf{j} \\mathbf{j} \\quad \\mathbf{j} \\ \\mathbf{t} = \\mathbf{T} = \\mathbf{T}^{\\rm c} \\quad \\mathbf{1} \\ \\mathbf{j} \\quad = \\text{sgn} \\ \\langle \\mathbf{t} \\rangle \\text{:} \\tag{4.2}$$\n\nM agnetic eld induced 3D to 1D crossover in type II superconductors\n\nSupposing that 3D -xy uctuations dom inate the criticalexponents are given by [45, 46]\n\n$$\\mathbf{3}' \\mathbf{5} \\mathbf{6} \\mathbf{7} \\mathbf{1}' \\mathbf{2} = \\mathbf{3}; \\quad \\mathbf{2} \\mathbf{3} \\mathbf{7} \\mathbf{2} = \\mathbf{3}; \\quad \\mathbf{3} \\mathbf{3} \\mathbf{1} \\mathbf{3}; \\tag{4.2}$$\n\nand there are the universal critical am plitude relations [13, 23, 24, 41, 45, 46]\n\n$$\\frac{\\text{L}\\_{\\text{a}}}{\\text{L}\\_{\\text{a}}} = \\underbrace{\\frac{\\text{c}\\mathbb{Q}}{\\text{s}}}\\_{\\text{c}0} \\text{ \" 2.21; } \\underbrace{\\frac{\\text{Q}}{\\text{Q}}}\\_{\\text{Q}} \\text{ \" 11.5; } \\underbrace{\\text{A}^{+}}\\_{\\text{A}} = \\text{1.07};\\tag{8.4}$$\n\nand\n\n$$\\mathbf{A} = \\begin{array}{ccccc} \\mathbf{A} & \\mathbf{A} & \\mathbf{A} \\\\ \\hline \\end{array} \\tag{5.50} \\mathbf{A} = \\begin{array}{ccccc} \\mathbf{A} & \\mathbf{A} & \\mathbf{A} \\\\ \\hline \\end{array} \\tag{5.51} \\mathbf{A} = \\begin{array}{ccccc} \\mathbf{A} & \\mathbf{A} & \\mathbf{A} \\\\ \\hline \\end{array}$$\n\n$$\\mathbf{A} = \\begin{array}{ccccc} \\mathbf{A} & \\mathbf{A} \\\\ \\hline \\end{array} \\tag{5.52}$$\n\nwhere A is the critical am plitude of the speci c heat singularity, de ned as\n\n<span id=\"page-22-1\"></span>\n$$\\mathbf{C} = \\frac{\\mathbf{C}}{\\mathbf{V} \\,\\mathrm{k}\\_{\\mathrm{B}}} = \\begin{array}{c} \\mathbf{A} \\\\ \\hline \\end{array} \\begin{array}{c} \\mathbf{j} \\\\ \\hline \\end{array} \\begin{array}{c} + \\ \\mathbf{B} \\\\ \\hline \\end{array} ; \\tag{4.5}$$\n\nwhere B denotes the background. Furtherm ore, in the 3D -xy universality class Tor o and the critical am plitude of the in-plane penetration depth are not independent but related by the universal relation [13, 23, 24, 41, 46],\n\n$$\\mathbf{k}\\_{\\rm B} \\ T\\_{\\rm c} = \\frac{\\stackrel{\\mathcal{Z}}{0}}{16 \\stackrel{\\mathcal{Z}}{3}} \\frac{\\stackrel{\\mathcal{C}0}{2}}{\\stackrel{\\mathcal{Z}}{2}} = \\frac{\\stackrel{\\mathcal{Z}}{0}}{16 \\stackrel{\\mathcal{Z}}{3}} \\frac{\\text{ab}\\mathbf{0}}{\\stackrel{\\mathcal{Z}}{2}} : \\tag{4.7}$$\n\nFrom this universal relation it follow s naturally that the isotope and pressure e ects on the transition tem perature, the correlation lengths, the anisotropy and the m agnetic penetration depths are not independent [81, 82]. Furtherm ore, the existence of the m agnetization at Tcr of the penetration depth below T. and of the m agnetic susceptibility above T . in ply the follow ing asym ptotic form s of the scaling finction [13, 23, 24, 41]\n\n$$\\begin{array}{rcl} \\text{Q} & \\frac{1}{\\text{P} \\cdot \\text{z}} \\frac{\\text{dG}}{\\text{dz}} \\Big|\\_{\\text{z} \\text{!} \\ 1} & = \\text{Q} \\quad \\text{c}\\_{\\text{1}} : & \\\\\\\\ \\text{Q} & \\frac{\\text{dG}}{\\text{dz}} \\Big|\\_{\\text{z} \\text{!} \\ 0} & = \\text{Q} \\quad \\text{c}\\_{\\text{0}} \\text{ (In z} + \\text{c}\\_{\\text{1}}) : & \\\\\\\\ \\text{Q}^{+} & \\frac{1}{\\text{Z}} \\frac{\\text{dG}^{+}}{\\text{dz}} \\Big|\\_{\\text{z} \\text{!} \\ 0} & = \\text{Q}^{+} \\text{ c}\\_{\\text{0}}^{+} ; & \\\\\\\\ \\end{array}$$\n\nwith the universal coe cients\n\n$$\\text{\\u0\\ } \\mathsf{c}\\_{\\mathsf{0}}\\text{ \\u0\\ } \\mathsf{c} \\quad \\text{\\u0\\ } \\mathsf{c}\\_{\\mathsf{0}}\\text{ \\u0\\ } \\mathsf{c}\\_{\\mathsf{0}}\\text{ \\u0\\ } \\mathsf{c}\\_{\\mathsf{1}}\\text{ \\u0\\ } \\mathsf{c}\\_{\\mathsf{1}}\\text{ \\u0\\ } \\mathsf{c}\\_{\\mathsf{1}}\\text{ \\u0\\ } \\mathsf{c}\\_{\\mathsf{1}}\\text{ \\u0\\ } \\mathsf{c}$$\n\nTo relate the m agnetization to the peak structure in the speci c heat we invoke M axwell's relation\n\n$$\\begin{array}{rcl} \\text{( $\\mathfrak{G}$ )} & \\text{( $\\mathfrak{C}$ )} & \\text{( $\\mathfrak{G}$ )} \\\\ \\hline \\mathfrak{G}\\mathfrak{H}\\_{\\mathfrak{C}} & \\mathfrak{r} & \\mathfrak{G}\\mathfrak{T}^{2} \\\\ \\end{array} \\\\ \\begin{array}{rcl} \\text{( $\\mathfrak{G}$ )} & \\text{( $\\mathfrak{G}$ )} \\\\ \\end{array} \\tag{\\mathfrak{G}} \\text{ ( $\\mathfrak{T}$ )} \\end{array}$$\n\nuncovering the melling transition in term s of a singularity, while the magnetic eld induced nite size e ect leads to a dip. These features di er drastically from the nearly sm ooth behavior of the m agnetization . Together with the scaling form of the speci c heat (E q.(A .6)), extended to the presence of a m agnetic eld,\n\n<span id=\"page-22-0\"></span>\n$$\\mathbf{f} \\mathbf{c} = \\begin{array}{c} \\mathbf{A} \\\\ \\hline \\\\ \\end{array} \\begin{array}{c} \\mathbf{f} \\mathbf{j} \\\\ \\end{array} \\quad \\mathbf{f} \\quad \\begin{array}{c} \\begin{array}{c} \\mathbf{x} \\\\ \\end{array} \\end{array} \\begin{array}{c} \\begin{array}{c} \\mathbf{x} \\\\ \\end{array} \\end{array} \\tag{4.11}$$\n\n23\n\nM agnetic \feld induced 3D to 1D crossover in type II superconductors 24\n\nw here\n\n$$\\mathbf{f}\\_{\\mathbf{c}} \\quad \\text{(x)} = \\begin{array}{c c c c c} \\mathbf{1} & \\mathbf{:} \\mathbf{x} \\ \\mathbf{!} & \\mathbf{1} \\\\ \\mathbf{f}\\_{0} \\ \\mathbf{j} \\ \\mathbf{j} & \\mathbf{:} \\mathbf{x} \\ \\mathbf{!} & \\mathbf{0} \\end{array} \\qquad \\text{:} \\tag{\\mathbb{A}} \\text{ \\upharpoonright}$$\n\nT his yields the scaling form\n\n<span id=\"page-23-0\"></span>\n$$\\text{T } \\mathbf{H}\\_{\\text{c}}^{\\text{1+}} \\overset{\\text{=2}}{=} \\frac{\\text{\\(\\(\\mathbf{g} = \\text{T} \\)}}{\\text{\\(\\mathbf{g} \\)}} = \\frac{\\text{k}\\_{\\text{B}} \\text{A}}{\\text{Z}} \\mathbf{x}^{\\text{1}} \\overset{\\text{=2}}{=} \\frac{\\text{\\(\\mathbf{g} \\)}}{\\text{\\(\\mathbf{g} \\)}} = \\text{T } \\mathbf{H}\\_{\\text{c}}^{\\text{1+}} \\overset{\\text{=2}}{=} \\frac{\\text{\\(\\mathbf{g} \\)} \\text{m}}{\\text{\\(\\mathbf{g} \\)} \\text{\\(\\mathbf{g} \\)}} ;$$\n\nA ccording to this,data plotted asT H 1+ <sup>=</sup><sup>2</sup> <sup>c</sup> @(c=T)=@H <sup>c</sup> orT H 1+ <sup>=</sup><sup>2</sup> <sup>c</sup> @ <sup>2</sup>m =@T<sup>2</sup> vs. x = tH <sup>1</sup>=<sup>2</sup> should collapse on a single curve as long as the m agnetic \feld induced \fnitesizeeectsetsthelim iting length (L <sup>H</sup> <sup>c</sup> = (0=aH <sup>c</sup>) 1=2 < Lab).A tT<sup>c</sup> Eq.[\\(A .13\\)](#page-23-0) reduces to\n\n$$\\text{Tr}\\_{\\text{c}}\\text{H}\\_{\\text{c}}^{\\text{1+}} \\stackrel{\\text{=2}}{=} \\frac{\\text{\\(\\(\\text{c}\\)}}{\\text{\\(\\text{H}\\)}\\_{\\text{c}}} = \\quad \\frac{\\text{k}\\_{\\text{B}}\\text{A}}{2} = \\text{Tr}\\_{\\text{c}}\\text{H}\\_{\\text{c}}^{\\text{1+}} \\stackrel{\\text{=2}}{=} \\frac{\\text{\\(\\text{g}\\)}^{2}\\text{m}}{\\text{\\(\\text{g}\\)}^{2}} ; \\tag{\\text{A 14}}$$\n\nT he scaling form [\\(A .13\\)](#page-23-0) can also be derived from Eq.[\\(A .1\\)](#page-21-0)rewritten in the form\n\n$$\\mathbf{m} = \\underbrace{\\mathbf{Q} \\times \\mathbf{k}\\_{\\mathbf{B}}}\\_{\\mathbf{0}} \\mathbf{T} \\, \\mathbf{H} \\, \\mathbf{f}\\_{\\mathbf{c}}^{1 = 2} \\mathbf{f}\\_{\\mathbf{m}} \\text{ (\\&)} \\; ; \\tag{\\&.15}$$\n\nyielding\n\n$$\\frac{\\partial \\mathbf{f}}{\\partial \\mathbf{T}} = \\underbrace{\\mathbf{Q} \\cdot \\mathbf{k\\_B}}\\_{\\text{\\(\\)}} \\mathbf{H}\\_{\\text{\\(\\)}}^{\\text{1}\\text{-2}} \\quad \\mathbf{f}\\_{\\text{\\(\\)}} \\text{ \\(\\&\\)} + \\underset{\\mathbf{T}\\_{\\text{\\(\\)}}}{\\text{T}\\_{\\text{\\(\\)}}} \\mathbf{H}\\_{\\text{\\(\\)}}^{\\text{1}\\text{-2}} \\xrightarrow[\\text{\\(\\&\\)}]{\\text{\\(\\&\\)}} \\begin{array}{c} \\mathbf{\\not\\&\\} \\mathbf{f}\\_{\\text{\\(\\)}} \\\\ \\end{array} ; \\tag{\\text{\\(\\&\\text{ }15\\)}}$$\n\nand\n\n<span id=\"page-23-1\"></span>\n$$\\begin{array}{cccc} \\text{Tr}\\_{\\mathbf{c}} \\mathbf{H}\\_{\\mathbf{c}} & \\stackrel{\\scriptstyle \\mathbf{f}}{\\operatorname{\\bf }} & \\stackrel{\\scriptstyle \\mathbf{2}}{\\operatorname{\\bf }} \\mathbf{\\frac{\\mathbf{g}}{\\operatorname{\\bf }}} \\mathbf{\\frac{\\mathbf{g}}{\\operatorname{\\bf }}} = & \\stackrel{\\scriptstyle \\mathbf{Q}}{\\operatorname{\\bf }} \\frac{\\mathbf{k}\\_{\\mathbf{B}}}{\\mathbf{\\frac{\\mathbf{g}}{\\operatorname{\\bf }}}} & \\stackrel{\\scriptstyle \\mathbf{2}}{\\operatorname{\\bf }} \\frac{\\mathbf{g}}{\\operatorname{\\bf }} \\mathbf{\\frac{\\mathbf{g}}{\\operatorname{\\bf }}} \\mathbf{\\frac{\\mathbf{g}}{\\operatorname{\\bf }}} \\mathbf{\\frac{\\mathbf{g}}{\\operatorname{\\bf }}} + \\frac{\\mathbf{T}}{\\mathbf{T}\\_{\\operatorname{\\bf }}} \\frac{\\mathbf{g}^{2} \\mathbf{f}\\_{\\operatorname{\\bf }}}{\\operatorname{\\bf }} & \\text{:\\{\\bf }} \\mathbf{\\frac{\\mathbf{g}}{\\operatorname{\\bf }}} \\end{array}$$\n\nN oting that\n\n$$\\begin{array}{ccccc} \\{ \\{ \\begin{array}{c} \\begin{array}{c} \\end{array} \\end{array} \\} = \\begin{array}{c} \\{ \\begin{array}{c} \\begin{array}{c} \\end{array} \\end{array} \\end{array} \\right\\} & \\left( \\begin{array}{c} \\begin{array}{c} \\end{array} \\right) = \\begin{array}{c} \\begin{array}{c} \\end{array} \\right) & \\left( \\begin{array}{c} \\end{array} \\right) = \\begin{array}{c} \\begin{array}{c} \\end{array} \\end{array} \\end{array} \\end{\\left( \\begin{array}{c} \\begin{array}{c} \\end{array} \\right) } \\end{array} \\end{\\left( \\begin{array}{c} \\begin{array}{c} \\end{array} \\right) } \\end{array}$$\n\nitisreadily seen thatclose to T<sup>c</sup> and low m agnetic \feldsthe scaling form s[\\(A .13\\)](#page-23-0)and [\\(A .17\\)](#page-23-1) agree.\n\nIn this context it is instructive to sketch the predictions of the approxim ation w here G aussian \nuctuations are taken into account w hile the m agnetic \feld induced \fnite size eect is neglected. In this case the m agnetization adopts the scaling form [\\[24,](#page-24-3)[48\\]](#page-25-4)\n\n$$\\frac{\\mathbf{m}}{\\mathbf{T}\\,\\mathbf{H}\\,\\,^{1=2}\\,^{0}} = \\underbrace{\\begin{array}{c} \\mathbf{2} \\\\ \\xrightarrow{\\mathbf{3}=\\mathbf{2}} \\mathbf{k}\\_{\\oplus} \\\\ \\mathbf{0} \\end{array}} \\mathbf{f}^{\\oplus} \\text{ (a)}\\;\\!/\\! \\mathbf{a} \\end{array} ; \\tag{\\text{A. 79}}$$\n\nw here\n\n$$\\mathbf{a} = \\frac{\\mathbf{\\hat{r}}}{\\mathbf{\\hat{a}} \\cdot \\mathbf{\\hat{r}}^2 \\mathbf{H}} \\mathbf{\\hat{r}} \\mathbf{\\hat{r}} \\tag{4.20}$$\n\nC lose to xe = 0:5 the scaling function adopts the form fe(xe) = 1= 4(xe + 0:5)1=<sup>2</sup> . T he resulting singularity suggestsa continuousphase transition atthe so-called upper critical\feld H <sup>c</sup>2(T)= 0= 2 2 <sup>0</sup> jtjand im pliesa divergence of@ <sup>2</sup>m =dT<sup>2</sup> atTc<sup>2</sup> (H ). H owever,taking the m agnetic \feld induced \fnite size eect into account,the grow th of the correlation length is lim ited by L = (0=(aH ))1=<sup>2</sup> and the singularity is sm eared outin term s ofa dip.\n\nM agnetic \feld induced 3D to 1D crossover in type II superconductors 25\n\nFurtherm ore,from Eq.[\\(A .11\\)](#page-22-0) we obtain fordc=dT the scaling form\n\n$$\\frac{\\text{d}\\mathbf{C}}{\\text{d}\\mathbf{T}} = \\frac{\\text{A}}{\\text{T}\\_{\\text{c}}} \\text{H}\\_{\\text{c}}^{-(1+\\ \\text{)}=2} \\quad \\text{x} \\quad ^{(1+\\ \\text{)}=2} \\quad \\text{f} \\text{ (x)} \\qquad \\text{x} \\quad \\frac{\\text{d}\\mathbf{F}}{\\text{dx}} \\quad ; \\tag{\\text{A. 21}}$$\n\nw hereby the data dc=dT for dierent \felds should collapse on a single curve w hen plotted as H (1+ )=2 <sup>c</sup> Tcdc=dT vs. tH <sup>1</sup>=<sup>2</sup> <sup>c</sup> as long as L<sup>H</sup> <sup>c</sup> = (0=aH <sup>c</sup>) 1=2 < Lab. To explore the the structure ofthis plot we consider again the G aussian approxim ation. In this case the free energy density (Eq.[\\(3\\)](#page-3-1)) adopts the form [\\[24](#page-24-3)[,48\\]](#page-25-4)\n\n$$\\mathbf{f}\\_{\\mathfrak{s}} = \\begin{array}{c} \\mathbf{k}\\_{\\mathfrak{B}} \\stackrel{\\mathbf{T}}{\\underset{\\mathfrak{I}}{\\in}} \\mathfrak{G} \\text{ (a) }; \\mathfrak{e} = \\begin{array}{c} \\mathbf{4} & \\, \\, \\, \\, ^{2}\\_{0} \\stackrel{\\mathbf{H}}{\\rightleftharpoons} = \\frac{1}{\\mathbf{B}};\\\\ \\mathbf{0} & \\, \\, \\mathbf{7} = \\begin{array}{c} \\mathbf{1} \\\\ \\end{array} \\end{array} \\tag{\\mathbb{A}} \\end{array} \\tag{\\mathbb{A}} \\tag{\\mathbb{A}} \\text{ 22)}$$\n\nC lose to ze = 2 the scaling function is given by Ge(z)= (1 + z=e 4)(ze 2)+ const. T he resulting singularity in the speci\fc heat, c = T @f<sup>2</sup> <sup>s</sup> =@T<sup>2</sup>, suggests again a continuousphasetransition attheso-called uppercritical\feld H <sup>c</sup><sup>2</sup>(T)= 0= 2 2 <sup>0</sup> jtj and im plies a divergence ofdc=dT at Tc<sup>2</sup> (H ). H owever, taking the m agnetic \feld induced \fnite size eectinto account,the grow th ofthe correlation length islim ited by L = (0=(aH ))<sup>1</sup>=<sup>2</sup> and the singularity is sm eared outin term s ofa dip.\n\n## R eferences\n\n- [1] G inzburg V L and Landau L D 1950 Zh. E ksp. Teor. Fiz.20 1064\n- [2] A brikosov A A 1957 Zh.E ksp. Teor. Fiz.32 1442 [1957 Sov. P hys. JE T P 5 1174]\n- [3] B latter G et al1994 R ev.M od. P hys.66 1125\n- [4] N atterm ann T and ScheidlS 2000 A dvances in P hysics 49 607\n- [5] D ietelJ and K leinert H 2006 cond-m at/0612042v2.\n- [6] Lee P A and Shenoy S R 1972 P hys. R ev.Lett.28 1025\n- [7] T houless D J 1975 P hys. R ev.Lett.34 946\n- [8] B rezin E ,Fujita A and H ikam iS 1990,P hys.R ev. Lett.65 1949\n- [9] H ikam iS and Fujita S 1990 P hys. R ev.B 41 6379\n- [10] W eyeneth S, Schneider T , B ukow ski Z, K arpinski J and K eller H 2008 P reprint condm at/0803.1384v1\n- [11] P lackow ski T , W ang Y , Lortz R , Junod A and W olf T h 2005 J. P hys.: C ondens. M atter 17 6871\n- <span id=\"page-24-1\"></span>[12] R oulin M ,Junod A and W alker E 1998 P hysica C 296 137\n- [13] Schneider T 2007 P hys. R ev.B 75 174517\n- [14] G ar\feld N J,H ow son M A ,Yang G and A bellS 1999 P hysica C 321 1\n- [15] K hasanov R et alunbublished.\n- [16] M irm elstein M ,Junod A ,W alker E ,R evaz B ,G enoud Y Y and Triscone G 1997 J.Supercond. 10 527\n- <span id=\"page-24-0\"></span>[17] Lortz R ,Lin F,M usolino N ,W ang Y ,Junod A ,R osenstein B and Toyota N 2006 P hys.R ev.B 74 104502\n- [18] Sanchez D ,Junod A ,M uller J,B erger H and Levy F 1995 P hysica B 204 167\n- [19] Fisher M E 1971 C riticalP henom ena, P roceedings of the 1970 InternationalSchoolof P hysics E nrico Ferm i,C ourse 51,ed G reen M S (N ew York: A cadem ic)\n- [20] Schneider T 2004 J. Supercond.17 41\n- [21] H aussm ann R 1999 P hys. R ev.B 60 12373\n- <span id=\"page-24-2\"></span>[22] Lortz R ,M eingast C ,R ykov A I and Tajim a S 2003 P hys.R ev. Lett.91 207001\n- [23] Schneider T 2004 T he P hysics ofSuperconductors ed B ennem ann K and K etterson J B (B erlin: Springer) p 111\n- <span id=\"page-24-3\"></span>[24] Schneider T and Singer J M 2000 P hase Transition A pproach To H igh Tem perature Superconductivity (London: Im perialC ollege P ress)\n- [25] Law rie I D 1997 P hys. R ev.Lett.79 131\n- [26] C rabtree G W ,N elson D R 1997 P hysics Today 4,38-45\n- [27] W elp U ,Fendrich J A ,K w ok W K ,C rabtree G W and VealB W 1996 P hys.R ev.Lett.76 4809\n- [28] A .Schilling et al.1997 P hys. R ev.Lett.78 4833\n- [29] Safar H ,G am m elP L,H use D A ,B ishop D J 1993 P hys. R ev.Lett.70 3800\n- [30] K w ok W K , Fendrich J , F leshler S , W elp U , D ow ney J and C rabtree G W 1994 Phys. Rev. Lett. 72 1092\n- [31] Bouquet F et al. 2001 Nature (London) 411 448\n- [32] C ardy J L 1998 F inite-Size Scaling (A m sterdam : N orth H olland)\n- [33] Privm an V 1990 Finite Size Scaling and N um erical Sim ulations of Statistical System s (NJ : W orld Scienti c\n- [34] Nho K and M anousakis E 2001 Phys. Rev. B 64 144513\n- [35] van Hove L 1950 P hysica 16 137\n- [36] Schneider T and A riosa D 1992 Z . P hys. B 89 267\n- [37] Schneider T and Keller H 1993 Int. J. M od. Phys. B 8 487\n- [38] O verend N , H ow son M A and Law rie I D 1994 P hys. Rev. Lett. 72 3238\n- [39] Hubbard M A , Salam on M B and VealB W Physica C 259 309\n- <span id=\"page-25-3\"></span>[40] K am alS, Liang R, HosseiniA, Bonn D A and Hardy W N 1998 Phys. Rev. B 58 8933\n- [41] Hofer J,Schneider T,Singer JM,W illem in M,Keller H,Sasagawa T,K ishio K,Conder K and KarpinskiJ 2000 Phys.Rev.B 62 631\n- [42] M eingast Ch, Pasler V, Nagel P, Rykov A, Tajim a S and O lsson P 2001 Phys. Rev. Lett. 86 1606\n- [43] Schneider T and DiCastro D 2004 Phys. Rev. B 69 024502\n- <span id=\"page-25-5\"></span>[44] Schneider T and Keller H 2004 New Journal of Physics 6 144\n- [45] K leinert H and Schulte Frohlinde V 2001 C rittical P roperties of Scienti que)\n- <span id=\"page-25-6\"></span>[46] Pelissetto A and V icari E 2002 Physics Reports 368 549\n- <span id=\"page-25-4\"></span>[47] Harris A B 1974 J. Phys. C 7 1671\n- [48] Prange R E 1970, Phys. Rev. B 1 2349\n- [49] K atayam a K et al 2003 Physica C 388-389 741\n- [50] Lortz R,M eingast C,W elp U,Kwok W K and Crabtree G W 2003 Phys.Rev.Lett. 90 237002\n- [51] Yonezawa S,Muraoka Y,M atsushita Y and HibriH 2004,J.Phys.Soc.Japan 73 819\n- [52] Subram anian M A , A ravam udan G and Rao S 1983 P rog. Solid State Chem . 15 55\n- [53] H anawa M , M uraoka Y , Tayam a T , Sakakibara T , Y am aura J and H iroi Z 2001 Phys. Rev. Lett. 87 187001\n- [54] SakaiH,YoshimuraK,OhnoH,Kato H,Kambe S,W alstedt R E,M atsuda T D,Haga Y and OnukiY 2001 J.Phys .: Condens. M atter 13 L785\n- [55] Jin R , He J, M C all S, A lexander C S, D rym iotis F and M andrus D 2001 Phys. Rev. B 64 180503\n- [56] Yonezawa S,Muraoka Y,M atsushita Y and HiroiZ 2004 J.Phys.: Condens.M atter 16 L9\n- [57] Yonezawa S,M uraoka Y and Hiroi Z 2004 J.Phys.Soc.Jpn. 73, 1655\n- (58) Bruhwiler M , K azakov S M , Zhigadlo N D , K arpinski J and Batlogg B 2004 Phys. Rev. B 70 020503\n- [59] B ruhw iler M , K azakov S M , K arpinski J and B atlogg B 2006 P hys. Rev. B 73, 094518\n- [60] K hasanov R , E shchenko D G , K arpinski J, K azakov S M , Zhigadlo N D , B nutsch R , G aville D and Keller H 2004 Phys. Rev. Lett. 93 157004\n- [61] K hasanov R , E shchenko D G , D iC astro D , Shengelaya A , La M attina F , M aisuradze A , B aines C , Luetkens H , K arpinski J , K azakov S M and K eller H 2004 P hys. Rev. B 72 104504\n- [62] Schneider T , K hasanov R and K eller H 2005 P hys. Rev. Lett. 94 077002\n- [63] K leinert H 1982 Lett. Nuovo C im ento 35 405\n- <span id=\"page-25-2\"></span>[64] Herbut IF and Tesanovic Z 1996 Phys. Rev. Lett. 76 4588\n- 165] Hove J and Sudb A 2000 Phys. Rev. Lett. 84 3426\n- [66] Schneider T , K hasanov R , C onder K , P om jakushina E , B rutsch R and K eller H 2004 J . P hys .: Condens. M atter 16 L437\n- [67] K a jantie K , Laine M , N euhaus T , R a jantie A and R um m ukainen K , 2004 N ucl.P hys. B , 6 9 9 632\n- [68] Peskin M E 1978 Annals Phys. 113 122; D asqupta C and H alperin B I 1981 Phys. Rev. Lett. 47 1556: Kovner A , Kurzepa P and Rosenstein B 1983 M od. Phys. Lett. A 8 , 1343: K iom etzis\n- M , K leinert H and Schakel A M J 1994 Phys. Rev. Lett. 73 1975\n- [69] Fisher D S,Fisher M P A and Huse D A 1991 Phys.Rev.B 43 130\n- [70] M akiK 1965 Phys.Rev.139 A 702\n- [71] M atthias B T et al 1954 P hys. Rev. 95 1435\n- [72] M atthias B T et al 1965 Phys. Rev. 139 A 1501\n- <span id=\"page-25-0\"></span>[73] TestardiL R 1975 Rev.Mod.Phys.47 637\n- <span id=\"page-25-1\"></span>[74] Frindt R F 1991 Phys. Rev. Lett. 28 299\n- [75] Soto F , H . B erger H , C abo L , C arballeira C , J . M osqueira J , P avuna D , T oim il P and V idal F 2007 Physica C 460-462 789\n- <span id=\"page-26-1\"></span><span id=\"page-26-0\"></span>[76] K okubo N et al. 2007 P hys. Rev. B 75, 184512\n- <span id=\"page-26-2\"></span>[77] W ang Yuxing et al 2005 Phys. Rev. B 72 024548\n- [78] Lortz R , W ang Y , D em uer A , B ottger M , B ergk B , Zw icknagl G , N akazaw a Y and W osnitza J 2007 Phys.Rev.Lett.99 187002\n- <span id=\"page-26-4\"></span><span id=\"page-26-3\"></span>[79] Fulde P and FerrelR A 1964 Phys. Rev. 135, A 550\n- [80] Larkin A I and Ovchinnikov Y N 1964 Zh. Eksp. Teor. Fiz. 47, 1136 (1964) [1965 Sov. Phys. JETP 20 762]\n- <span id=\"page-26-6\"></span><span id=\"page-26-5\"></span>[81] Schneider T 2003 Phys.Rev.B 67 134514\n- [82] K hasanov R , Schneider T and K eller H 2007 P hys. Rev. B 72 014524",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "M agnetic \feld induced 3D to 1D crossover in type\nII superconductors",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              90.0966796875,
+              148.68988037109375
+            ],
+            [
+              455.4140625,
+              148.68988037109375
+            ],
+            [
+              455.4140625,
+              180.91619873046875
+            ],
+            [
+              90.0966796875,
+              180.91619873046875
+            ]
+          ]
+        },
+        {
+          "title": "A cknow ledgm ents",
+          "heading_level": null,
+          "page_id": 21,
+          "polygon": [
+            [
+              95.25,
+              378.75
+            ],
+            [
+              187.5,
+              378.75
+            ],
+            [
+              187.5,
+              387.685546875
+            ],
+            [
+              95.25,
+              387.685546875
+            ]
+          ]
+        },
+        {
+          "title": "A ppendix  A",
+          "heading_level": null,
+          "page_id": 21,
+          "polygon": [
+            [
+              94.8779296875,
+              462.90234375
+            ],
+            [
+              155.25,
+              462.90234375
+            ],
+            [
+              155.25,
+              472.5
+            ],
+            [
+              94.8779296875,
+              472.5
+            ]
+          ]
+        },
+        {
+          "title": "R eferences",
+          "heading_level": null,
+          "page_id": 24,
+          "polygon": [
+            [
+              95.10205078125,
+              317.7802429199219
+            ],
+            [
+              151.17694091796875,
+              317.7802429199219
+            ],
+            [
+              151.17694091796875,
+              327.744140625
+            ],
+            [
+              95.10205078125,
+              327.744140625
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              242
+            ],
+            [
+              "Line",
+              36
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              228
+            ],
+            [
+              "Line",
+              50
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              344
+            ],
+            [
+              "Line",
+              52
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              418
+            ],
+            [
+              "Line",
+              71
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Equation",
+              4
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              538
+            ],
+            [
+              "Line",
+              100
+            ],
+            [
+              "TextInlineMath",
+              5
+            ],
+            [
+              "Equation",
+              5
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              455
+            ],
+            [
+              "Line",
+              58
+            ],
+            [
+              "TextInlineMath",
+              5
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Equation",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              421
+            ],
+            [
+              "Line",
+              81
+            ],
+            [
+              "Reference",
+              4
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Equation",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              661
+            ],
+            [
+              "Line",
+              104
+            ],
+            [
+              "Equation",
+              8
+            ],
+            [
+              "TextInlineMath",
+              6
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Reference",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              467
+            ],
+            [
+              "Line",
+              57
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Equation",
+              4
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              429
+            ],
+            [
+              "Line",
+              45
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Equation",
+              3
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              57
+            ],
+            [
+              "Span",
+              57
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              51
+            ],
+            [
+              "Span",
+              51
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Equation",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              304
+            ],
+            [
+              "Line",
+              39
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              350
+            ],
+            [
+              "Line",
+              50
+            ],
+            [
+              "Reference",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 14,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              342
+            ],
+            [
+              "Line",
+              60
+            ],
+            [
+              "Equation",
+              5
+            ],
+            [
+              "Reference",
+              4
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 15,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              332
+            ],
+            [
+              "Line",
+              52
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Equation",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 16,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              304
+            ],
+            [
+              "Line",
+              71
+            ],
+            [
+              "Reference",
+              4
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Equation",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 17,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              210
+            ],
+            [
+              "Line",
+              48
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 18,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              156
+            ],
+            [
+              "Line",
+              30
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 19,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              494
+            ],
+            [
+              "Line",
+              80
+            ],
+            [
+              "Equation",
+              10
+            ],
+            [
+              "Text",
+              9
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 20,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              373
+            ],
+            [
+              "Line",
+              56
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 21,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              40
+            ],
+            [
+              "Span",
+              40
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Equation",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 22,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              22
+            ],
+            [
+              "Span",
+              22
+            ],
+            [
+              "Text",
+              10
+            ],
+            [
+              "Equation",
+              9
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 23,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              597
+            ],
+            [
+              "Line",
+              129
+            ],
+            [
+              "Text",
+              9
+            ],
+            [
+              "Equation",
+              9
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 24,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              500
+            ],
+            [
+              "Line",
+              82
+            ],
+            [
+              "ListItem",
+              29
+            ],
+            [
+              "Reference",
+              4
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Equation",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 25,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              63
+            ],
+            [
+              "Span",
+              63
+            ],
+            [
+              "ListItem",
+              47
+            ],
+            [
+              "Reference",
+              7
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 26,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              11
+            ],
+            [
+              "Span",
+              11
+            ],
+            [
+              "ListItem",
+              7
+            ],
+            [
+              "Reference",
+              7
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 27,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "TOPICAL REVIEW: Magnetic field induced 3D 1D crossover in type-II superconductors",
+    "authors": [
+      {
+        "authors_list": [
+          "Schneider, T."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "We review and analyze magnetization and specific heat investigations on type-II superconductors which uncover remarkable evidence for a magnetic field induced finite size effect, and an associated 3D-1D crossover which enhances thermal fluctuations. Indeed, the correlation length transverse to the magnetic field H<SUB>i</SUB>, applied along the i-axis, cannot grow beyond the limiting magnetic length L<SUB>H<SUB>i</SUB></SUB> = (Φ<SUB>0</SUB>/(aH<SUB>i</SUB>))<SUP>1/2</SUP>, related to the average distance between vortex lines. Noting that 1D is incompatible with the occurrence of a continuous phase transition at finite temperatures, we replace the mean-field transition line H<SUB>c2</SUB>(T) by the 3D-1D crossover line H<SUB>p</SUB>(T). Since the magnetic field induced finite size effect relies on thermal fluctuations, and their enhancement originating from the 3D-1D crossover, its observability is not restricted to just type-II superconductors with small correlation volume, including YBa<SUB>2</SUB>Cu<SUB>4</SUB>O<SUB>8</SUB>, NdBa<SUB>2</SUB>Cu<SUB>3</SUB>O<SUB>7-δ</SUB>, YBa<SUB>2</SUB>Cu<SUB>3</SUB>O<SUB>7-δ</SUB>, and DyBa<SUB>2</SUB>Cu<SUB>3</SUB>O<SUB>7-δ</SUB>, where 3D xy critical behavior has already been observed in zero field. Indeed, our analysis of the reversible magnetization of RbOs<SUB>2</SUB>O<SUB>6</SUB> and the specific heat of Nb<SUB>77</SUB>Zr<SUB>23</SUB>, Nb<SUB>3</SUB>Sn and NbSe<SUB>2</SUB> reveals that even in these low T<SUB>c</SUB> superconductors with comparatively large correlation volume the 3D to 1D crossover is observable in sufficiently high magnetic fields. Consequently, below T<SUB>c</SUB> and above H<SUB>pi</SUB>(T) superconductivity is confined to cylinders with diameter L<SUB>H<SUB>i</SUB></SUB> (1D) and there is no continuous phase transition in the (H,T)-plane along the H<SUB>c2</SUB>(T)-line as predicted by the mean-field treatment. Moreover, we observe that a thermodynamic vortex melting transition occurs in the 3D regime. While in YBa<SUB>2</SUB>Cu<SUB>4</SUB>O<SUB>8</SUB>, NdBa<SUB>2</SUB>Cu<SUB>3</SUB>O<SUB>7-δ</SUB>, YBa<SUB>2</SUB>Cu<SUB>3</SUB>O<SUB>7-δ</SUB>, and DyBa<SUB>2</SUB>Cu<SUB>3</SUB>O<SUB>7-δ</SUB> it turns out to be driven by 3D xy thermal fluctuations, the specific heat data for the conventional type-II superconductors Nb<SUB>77</SUB>Zr<SUB>23</SUB>, Nb<SUB>3</SUB>Sn and NbSe<SUB>2</SUB> point to Gaussian fluctuations. Because the vortex melting and the 3D-1D crossover line occur at universal values of the scaling variable their relationship is universal.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Journal of Physics Condensed Matter",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:0803.1560"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1088/0953-8984/20/42/423201",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2008JPCM...20P3201S"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

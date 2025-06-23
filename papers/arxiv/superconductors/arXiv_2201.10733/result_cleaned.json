@@ -1,0 +1,895 @@
+{
+  "id": "52048bf61df497eddc920579fcbb1db3",
+  "pdf_path": "apl/Superconductors/arXiv:2201.10733.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# Measurement of high quality factor superconducting cavities in tesla-scale magnetic fields for dark matter searches\n\nS. Posen,<sup>∗</sup> M. Checchin,† O. S. Melnychuk, T. Ring, I. Gonin, and T. Khabiboulline\n\nFermi National Accelerator Laboratory, Batavia, Illinois 60510, USA\n\n(Dated: November 17, 2022)\n\nIn dark matter searches using axion haloscopes, the search sensitivity depends on the quality factors (Q0) of radiofrequency cavities immersed in multi-tesla magnetic fields. Increasing Q<sup>0</sup> would increase the scan rate through the parameter space of interest. Researchers developing superconducting radiofrequency cavities for particle accelerators have developed methods for obtaining extremely high Q<sup>0</sup> ∼ 10<sup>11</sup> in µT-scale magnetic fields. In this paper, we describe efforts to develop high Q cavities made from Nb3Sn films using a technique developed for particle accelerator cavities. Geometry optimization for this application is explored, and two cavities are tested: an existing particle accelerator-style cavity and a geometry developed and fabricated for use in high fields. A quality factor of (5.3 ± 0.3)×10<sup>5</sup> is obtained at 3.9 GHz and 6 T at 4.2 K.\n\n#### I. INTRODUCTION\n\nSuperconducting radiofrequency (SRF) cavities have been used in particle accelerator applications for decades, and substantial research efforts have gone into developing techniques to maximize cavity performance, in particular the quality factor Q0—which determines the heat dissipated to the cryogenic systems—and the accelerating gradient Eacc—which determines the energy gain per unit length [1]. Modern SRF cavities can routinely achieve Q<sup>0</sup> on the order of 10<sup>11</sup> and Eacc on the order of 40 MV/m.\n\nAxion haloscopes use radiofrequency cavities to search for dark matter [2]. Cavities are placed in magnetic fields on the order of several tesla. Theoretical models for axions [3–5] predict that, if they exist as dark matter [6–8], there is a chance that passing axion particles will be converted to photons, with frequency related to the axion mass (for a review see [9]). If the frequency of the cavity matches that of photons converted from axions, a small signal may be detectable. By tuning the cavity frequency, different potential axion masses can be evaluated. The signal predicted is extremely small, and there is a large mass range of interest. As a result, researchers are developing ways to achieve high sensitivity within a short sampling time for a given frequency, so that the scan rate can be as high as possible, allowing wide ranges to be scanned within reasonable experimental timeframes.\n\nThe scan rate is proportional to B<sup>4</sup> 0V <sup>2</sup>C <sup>2</sup>QeffT −2 n , where B<sup>0</sup> = max|B| is the applied magnetic field strength inside the cavity, V is the cavity volume, C is a geometric form factor related to the RF electric field distribution and its alignment with the applied magnetic field (the axion couples to ERF · B, where ERF is the RF electric field), Qeff is the effective quality factor of the cavity, and T<sup>n</sup> is the system noise temperature. Qeff nominally depends on Q0, Qext, and Qa, where Qext is the external quality factor (which depends on the coupling to the cavity and is typically set close to Q0) and Q<sup>a</sup> is the effective quality factor of the galactic axion field ∼ 10<sup>6</sup> . Ref. [10] shows that in both the limit of Q<sup>L</sup> Q<sup>a</sup> and the limit of Q<sup>L</sup> Qa, Qeff ≈ Q<sup>L</sup> = (Q −1 <sup>0</sup> + Q −1 ext) −1 . Thus, there is a substantial benefit to the scan rate to increasing Q<sup>0</sup> up to Q<sup>a</sup> and beyond.\n\nThe dependence on quality factor makes the use of SRF cavities a possible avenue for increasing scan rate. Past experiments have typically used copper cavities, including ADMX and HAYSTAC [11, 12], with typical Q<sup>0</sup> values ∼ 104−10<sup>5</sup> depending on the frequency. Early efforts on SRF cavities have been showing promising results, using superconductors like Nb3Sn, NbTi, and YBCO [13– 15]. Promising results have also been obtained by using dielectrics to screen fields from the walls of copper cavities [16, 17]. In this paper, we present high magnetic field Q<sup>0</sup> measurements of SRF cavities that were fabricated with a vapor diffusion technique to coat niobium cavities with an inner layer of Nb3Sn. This method is typically used to coat cavities for particle accelerator applications that can operate with high Q<sup>0</sup> at higher temperatures than cavities made from the standard material Nb [18]. For the first time, we explore the RF performance of vapor diffusion Nb3Sn cavities under multi-tesla magnetic fields. We present a model for flux dissipation in an SRF cavity in a large magnetic field, including a figure of merit and resulting considerations for designing the cavity geometry. Frequency dependence and misalignments are also considered in the model. The cavity results are compared to the model as well as to other experimental efforts with cavities in multi-tesla fields.\n\n## II. MAGNETIC FLUX DISSIPATION IN RF SUPERCONDUCTOR\n\nSRF cavities provide orders of magnitude higher Q<sup>0</sup> than copper in accelerator applications, but the operating conditions for haloscopes are substantially different. SRF cavities in accelerators are typically made of niobium at operate at ∼ 2 or ∼ 4 K, and in magnetic field environments ∼ 1 µT. Under these conditions, the\n\n<sup>∗</sup> sposen@fnal.gov\n\n<sup>†</sup> now at SLAC National Accelerator Laboratory, Menlo Park, CA\n\nsome small amount of trapped flux from the ambient field during cooldown. As a result, the surface resistance Rs—which determines Q<sup>0</sup> by Q<sup>0</sup> = G/Rs, where G is a geometry-dependent factor that is independent of frequency—generally is dominated by the temperaturedependent BCS resistance [19] and trapped flux surface resistance: under the influence of RF currents, flux trapped in the superconductor during cooldown undergoes motion, which generates dissipation [20, 21].\n\nniobium walls are primarily in the Meissner state, with\n\nIn haloscopes, cavities are operated at tens or hundreds of mK to reduce the noise temperature, where the BCS resistance is exponentially suppressed. However, the magnetic field is typically several tesla, above the upper critical field of niobium, which would leave it in the normal conducting state. Superconductors with substantially higher critical fields would be required to maintain superconductivity, such as those used in superconducting magnets, like Nb3Sn, NbTi, YBCO, and MgB2. Under these conditions, these superconductors would not be in the Meissner state but in the vortex state, with substantial amounts of flux in the superconductor. This is expected to be the dominant source of surface resistance.\n\nTo inform efforts to reduce dissipation and maximize Q0, we present a model to describe qualitatively the Qfactor as a function of the trapped magnetic field. The interaction between vortices is neglected and we assume small values of RF field amplitude—lower than the depinning value, as defined in Ref. [22]—so that the vortex response is linear, and independent of the applied RF field. We then calculate the vortex RF response by solving numerically the vortex motion equation for a vortex frozen in the superconductor (z ≥ 0 domain) and subjected to an RF current oscillating along the x direction:\n\n$$\\eta\\_0 \\dot{u}(t, z) = \\varepsilon u''(t, z) - \\kappa\\_\\mathrm{p} u(t, z) + \\gamma \\cos(\\omega t) e^{-z/\\lambda}, \\quad (1)$$\n\nwhere u(t, z) is the vortex displacement in the y direction per unit of local surface magnetic field Bs, ˙u(t, z) its first order time derivative and u <sup>00</sup>(t, z) its second order derivative with respect to z. A schematic of the vortex is shown in Fig. 1. The parameters η0, ε, κp, and λ are the flux-flow viscosity, vortex elasticity, pinning constant, and penetration depth, respectively; while γ = φ0/((µ0λ)). The viscosity is defined by the Bardeen-Stephen model [23], and it is equal to η<sup>0</sup> = φ<sup>0</sup> Bc2/ρ, where ρ is the normal conductive resistivity, that for Nb3Sn was experimentally found to be in the range ∼ (5 − 90) µΩ cm, [24, 25]. A detailed description of ε is instead found in Ref. [22]. Initial and boundary conditions are u(0, z) = 0, u 0 (t, 0) = 0, and u(t, ∞) = 0.\n\nWe assume an average pinning potential U(y) acting on each single vortex described by a Lorentzian function as defined in Ref. [22]. We determine the depth of U(y) by calculating the value that yields a maximum on the pinning force as a function of the vortex displacement equal to the elementary pinning force per unit of length p—for Nb3Sn filaments prepared via \"internal Sn\"\n\nand \"bronze\" processes, p is measured to be in the range ∼ (60 − 100) µN/m [26, 27]. For low B<sup>s</sup> amplitudes the vortex displacement is small and the pinning potential can be approximated by a parabola. The pinning constant is then calculated as κ<sup>p</sup> = −u(t, z) <sup>−</sup><sup>1</sup> dU(y)/dy.\n\nThe resistance due to N vortices in the area element Σ is defined as:\n\n$$\\begin{split} R\\_{\\text{fl}} &= 2\\mu\\_0^2 \\frac{N}{\\Sigma} \\frac{\\langle P \\rangle}{B\\_{\\text{s}}^2} \\\\ &= 2\\mu\\_0^2 \\frac{\\langle P \\rangle}{B\\_{\\text{s}}^2} \\mathbf{B} \\cdot \\hat{\\mathbf{n}}, \\end{split} \\tag{2}$$\n\nwhere the flux trapped in the surface element Σ is defined as φ = Nφ<sup>0</sup> = B · ˆn Σ, and hPi is the average singlevortex dissipated power, that is equal to:\n\n$$\\langle P \\rangle = \\frac{\\gamma \\omega B\\_s^2}{2\\pi} \\int\\_0^{2\\pi/\\omega} \\int\\_0^\\infty \\dot{u}(t, z) \\cos(\\omega t) e^{-z/\\lambda} \\, dt \\, dz. \\quad (3)$$\n\nHence, the total power dissipated by the vortices trapped in the cavity walls (Pc) is defined as the integral of Rfl over the cavity surface—depending on the local internal product B · ˆn—and the local surface RF magnetic field squared B<sup>2</sup> s :\n\n$$P\\_{\\rm c} = \\frac{1}{2\\mu\\_0^2} \\int R\\_{\\rm fl} B\\_{\\rm s}^2 \\, dA. \\tag{4}$$\n\nThe cavity internal Q-factor is then easily calculated as:\n\n$$Q\\_0 = \\frac{\\omega W}{P\\_\\mathbf{c}},\\tag{5}$$\n\n![](_page_1_Figure_17.jpeg)\n\nFIG. 1. Schematics of a vortex oscillating in the yz plane driven by an RF current directed along the x axis.\n\nwith stored energy defined as W = κB<sup>2</sup> p , where κ is a geometry-dependent parameter calculated via COMSOL [28] simulations (elliptical geometry: κ = 34.8 W/T<sup>2</sup> , CIGAR geometry: κ = 82.3 W/T<sup>2</sup> ) and B<sup>p</sup> the peak surface magnetic field.\n\nBased on the model just described, we can define the proper figure of merit (FoM) necessary to optimize the cavity geometry (for a fixed frequency) with respect to the Q-factor when immersed in a magnetic field:\n\n$$\\text{FoM} = \\frac{\\int \\mathbf{B} \\cdot \\hat{\\mathbf{n}} \\, |\\mathbf{B}\\_{\\text{RF}}|^2 \\, dA}{B\\_0 \\int |\\mathbf{B}\\_{\\text{RF}}|^2 \\, dV},\\tag{6}$$\n\nwhere BRF is the RF magnetic field in the resonator (N.B. at the cavity surface |BRF| = Bs). The FoM so defined is inversely related the to quality factor Q<sup>0</sup> ∼ 1/FoM, the numerator is proportional to the power dissipated by the resonator due to vortex oscillation (see Eq. 4), while the denominator is proportional to the total stored energy W ∝ R |BRF| <sup>2</sup> dV . The highest Q-factor is obtained for geometries that minimize the FoM of Eq. 6, i.e. geometries that simultaneously minimize vortex dissipation and maximize the total stored energy.\n\nUsing Eq. 6, one can propose design choices for the cavity geometry to reduce dissipation. It should be possible to greatly reduce the integral R B· ˆn |BRF| <sup>2</sup> dA by developing a geometry with low surface RF magnetic field B<sup>s</sup> in regions where the applied DC magnetic field B is perpendicular to the surface. In other words, in areas where B · ˆn is high, B<sup>s</sup> should be small, and in areas where B<sup>s</sup> is high, B · ˆn should be small. For example, compared to a pillbox geometry, which may have relatively large RF magnetic field on the endcaps which are perpendicular to the applied field, one would expect a benefit from a geometry with more gently tapering ends.\n\nThe frequency dependence of vortex surface resistance is also an important dependence to take into consideration during the design of new resonator geometries. Previous studies showed that both PbIn and NbTa alloys and Nb show a sigmoid-like behavior of the vortex surface resistance as a function of the logarithm of frequency [29, 30], the same behaviour is to be expected for Nb3Sn.\n\nIn Fig. 2, the vortex surface resistance as a function of frequency expected for Nb3Sn (using the material parameters described above) is shown. As described in Ref. [30], the plateau in the low frequency regime is governed by pinning, while the plateau at high frequency regime is governed by flux-flow and represents maximum surface resistance value per amount of B0. The depinning frequency—defined as the frequency value at which Rfl is half the flux-flow value—is simulated to be equal to about 12 GHz.\n\n#### III. CAVITY GEOMETRIES\n\nThe first cavity geometry chosen to study was that of TESLA [31], shown in Figure 3. This geometry is widely\n\n![](_page_2_Figure_10.jpeg)\n\nFIG. 2. Vortex surface resistance dependence over frequency. Rfl was calculated assuming B · ˆn = 1.\n\nused in particle accelerators, including for example the European XFEL and LCLS-II [32, 33]. This geometry is optimized for accelerators, not for high magnetic fields, but existing cavities were on hand to conduct first experiments. In the Appendix, it is shown that on a cavity of this shape, substantial flux losses occur in regions where surface currents are nearly perpendicular to the applied field. The accelerating mode would also be the mode relevant for axion searches, the fundamental TM010 mode of the cavity.\n\nWhile first studies were being set up on a TESLA-style cavity, a new cavity geometry was developed and began fabrication. Considering the the analysis in Section II, the geometry was developed with an aim to achieve low surface RF magnetic field B<sup>s</sup> in regions where the applied DC magnetic field B is perpendicular to the surface. The overall optimization was conducted by assuming an uniform magnetic field oriented along the z direction (that coincides with the cavity symmetry axis).\n\nA cigar-shaped cavity was chosen out of the different geometries evaluated, shown in Figure 4. The relevant mode for axion searches is the TM010 mode, which is the ninth-lowest frequency mode of the cavity, above four degenerate TE11n modes. The geometric form factor C for the TM010 mode is simulated to be 0.499 and the RF volume is 5.05 × 10<sup>−</sup><sup>4</sup> m<sup>3</sup> . Figure 5 shows a comparison of the two geometries, using the numerator of the figure of merit in Eq. 6, illustrating the advantage the cigarshaped geometry compared to the TESLA geometry for high magnetic field applications.\n\n![](_page_3_Figure_1.jpeg)\n\nFIG. 3. Normalized electric (left) and magnetic (right) field intensity of the TM010 mode in a cross section through the middle of a TESLA cavity used in particle accelerators [31].\n\n![](_page_3_Figure_3.jpeg)\n\nFIG. 4. Normalized electric (left) and magnetic (right) field intensity of the TM010 mode in a cross section through the middle of the cigar geometry cavity developed as part of this work.\n\n### IV. EXPERIMENTAL APPARATUS\n\nThe high magnetic field test stand available for carrying out the measurements was an Oxford TeslatronTM system at Fermilab [34], which previously has mainly been used to test wires for superconducting magnet application. It has a NbTi solenoid magnet capable of reaching ∼ 6 T with a 147 mm bore and is operated in liquid helium. A special insert was fabricated that allowed for a cavity to be assembled and evacuated in a cleanroom, then inserted into the dewar. The system is shown in\n\n![](_page_3_Figure_7.jpeg)\n\nFIG. 5. Comparison of ˆz · ˆn|BRF| 2 from Eq. 6 in the TESLA and cigar-shaped cavities. For the plots that include BRF, the cavities are normalized to the same stored energy. The cigar-shaped cavity was designed to substantially reduce the numerator in Eq. 6.\n\nFigure 6.\n\nIn this system, the solenoid current is measured, and converted to peak applied magnetic field on the central axis based on information from the vendor. Cavities are assembled with two antennae attached to feedthroughs. Coaxial cables bring the signal through the helium volume to feedthroughs on the top plate, which in turn are connected to a vector network analyzer. The network analyzer is used to measure the loaded quality factor Q<sup>L</sup> by fitting the resonance curve in transmission through the cavity. A simple signal map is shown in Figure 7.\n\nFigure 8 shows a magnetic field intensity map of the solenoid (map was simulated based on coil position and should be considered approximate) as well as how the cavities are designed to be positioned inside of the system. The solenoid is closed on the bottom, and the TESLA cavity position had to be raised slightly higher than the region of maximum field intensity to fit above the bottom plate with the RF hardware attached. The figure illustrates how the magnetic field lines cross the TESLA cavity nearly perpendicularly in regions with high surface RF magnetic field, while they are nearly parallel to the relevant regions of the cigar-shaped cavity.\n\nThe Fermilab particle accelerator research program had already generated Nb3Sn TESLA-style cavities with frequency 1.3 GHz and 3.9 GHz (the 3.9 GHz cavity doesn't exactly match the TESLA geometry, but it is close; for simplicity we refer to it as the TESLA cavity). The 3.9 GHz cavity was chosen because it fit in the bore of the solenoid (∼ 4 GHz is also an interesting frequency\n\n![](_page_4_Picture_1.jpeg)\n\nFIG. 6. TeslatronTM system at Fermilab including cryostat (background) and solenoid (foreground). The inset shows the cavity insert with the 3.9 GHz Nb3Sn TESLA cavity installed.\n\n![](_page_4_Figure_3.jpeg)\n\nFIG. 7. Signal map for high magnetic field Q<sup>0</sup> measurement.\n\nfor future axion studies, e.g., [35]). For proper comparison, 3.9 GHz was also chosen for the frequency at which to fabricate the cigar-shaped cavity.\n\nThe previous performance of the 3.9 GHz TESLA-style cavity is shown in Figure 9. The performance was measured at 4.4 K after cooldown in a < 1 µT magnetic field. The Nb3Sn cavity started as a niobium cavity, which was electropolished, then Nb3Sn vapor diffusion coated, as described in [18], then rinsed with high pressure ultrapure water, and assembled for measurement in a class 10 cleanroom.\n\nTo prepare for the high magnetic field measurement, the TESLA cavity was disassembled from its previous assembly, high pressure rinsed, then assembled in a clean-\n\n![](_page_4_Figure_8.jpeg)\n\nFIG. 8. Calculated magnetic field intensity inside the dewar when the center of the solenoid is at 6 T. R = 0 corresponds to the axis of symmetry. The dotted blue line shows the boundary of the region inside the solenoid. The red arrows indicate the magnetic field direction and relative intensity. The white solid line is the outline of the TESLA cavity positioned as expected in the system, and the black outline similarly is for the cigar-shaped cavity.\n\nroom to the insert shown in Figure 6.\n\nThe cigar-shaped cavity was milled from a pair of solid blocks of reactor-grade niobium. NbTi flanges were then welded to its ports. The cavity was then electropolished using a typical niobium SRF cavity electropolishing process [36], with a specially shaped aluminum anode and corresponding fixturing, shown in Figure 10. The cavity was coated with Nb3Sn, then rinsed with high pressure ultrapure water, and assembled for measurement, as shown in Figure 11.\n\n#### V. RESULTS\n\nThe main results of this work are shown in Figure 12. Results are given in terms of Q<sup>L</sup> vs applied magnetic field B0. The applied magnetic field is the peak DC field that would be expected to be measured on the central\n\n![](_page_5_Figure_0.jpeg)\n\nFIG. 9. Previous performance of Nb3Sn TESLA cavity at 4.4 K, after cooldown in a < 1 µT magnetic field.\n\n![](_page_5_Picture_2.jpeg)\n\nFIG. 10. Side view of the electropolishing setup for the cigarshaped cavity. The aluminum anode is lowered from above; it was fabricated with geometry to match the cavity.\n\naxis of the solenoid. All cavities were cooled down with near-zero current in the solenoid, then the current was increased in steps. The Q<sup>L</sup> was measured by the network analyzer. At low B0, Q<sup>L</sup> is expected to be dominated by the external quality factors Qext of the coupling ports (Q −1 <sup>L</sup> = Q −1 <sup>0</sup> + Q −1 ext1 + Q −1 ext2) and by trapped flux from during the cooldown of the cavity (from Earth's magnetic field and from residual magnetization in the dewar). At high B0, Q<sup>L</sup> is expected to be dominated by Q<sup>0</sup> of the cavity. Qext values were chosen to be at least an order of magnitude above the expected range of Q<sup>0</sup> so that it wouldn't contribute significantly to the overall Q<sup>L</sup> at high fields, but still low enough that the power coupled between the antennae and the cavity would provide a strong signal. For the TESLA cavity the Qext values were measured to be (3.4 ± 0.5) × 10<sup>8</sup> and (2.3 ± 0.3) × 10<sup>8</sup> . For the cigar-shaped cavities the Qext values were measured to be (8.2 ± 4.1) × 10<sup>8</sup> and (7.4 ± 3.7) × 10<sup>8</sup> (there was higher uncertainty in measuring Qext values at room temperature for the cigar cavity due to other modes close to the TM010 modes).\n\nFor these Nb3Sn-coated Nb cavities, the niobium bulk dominated the behavior at low fields. The cavity acted as\n\n![](_page_5_Picture_6.jpeg)\n\nFIG. 11. Top: Cigar-shaped cavity after Nb3Sn coating. Bottom: Cigar-shaped Nb3Sn cavity assembled to the test insert.\n\n![](_page_5_Figure_8.jpeg)\n\nFIG. 12. Loaded quality factor vs applied magnetic field data for the TESLA and cigar-shaped Nb3Sn cavities. The inset provides a zoom of the low field region. For the cigar-shaped Nb3Sn cavity, measurements were made both for increasing and for decreasing field.\n\na Meissner shield to the applied field until around 0.1 T, at which point it appears that flux begins to penetrate the niobium walls. This is approximately half of the nominal field at which flux penetration is expected for niobium, with the difference likely due to demagnetization effects. After flux penetrates, the Q<sup>0</sup> decreases steadily with increasing field, then begins to start decreasing more slowly towards higher applied fields, particularly above ∼ 3 T. By the time the cavities reach 6 T, the TESLA cavity Q<sup>0</sup> is (4.3±0.2)×10<sup>4</sup> , and the cigar-shaped Nb3Sn cavity Q<sup>0</sup> is (5.3±0.3)×10<sup>5</sup> (this assumes that Q<sup>0</sup> dominates Q<sup>L</sup> based on the comparatively high Qext values at B<sup>0</sup> = 6 T).\n\nAt the maximum applied field of 6 T, the incident power from the network analyzer was lowered to evaluate if would alter the measurement. The power was adjusted from 10 dBm to 0 dBm and then to -10 dBm.\n![](0__page_6_Figure_1.jpeg)\n\nFIG. 13. Frequency vs applied magnetic field data for the TESLA and cigar-shaped Nb3Sn cavities.\n\nFor both cavities, no change in Q<sup>0</sup> was observed within uncertainty for these 3 power levels.\n\nFor the cigar shaped cavity, after reaching the peak field of 6 T, the field was decreased in steps to check for hysteresis. The increasing curve was followed until the field was decreased to ∼ 0.5 T. At low field values, the Q<sup>L</sup> was smaller than for the increasing curve, suggesting additional trapped flux was present compared to after cooldown.\n\nThe frequency change vs applied magnetic field data is shown in Figure 13. The cavities were not tuned exactly to 3.9 GHz – the zero-field frequency f<sup>0</sup> for the TESLA Nb3Sn cavity was 3870 MHz. f<sup>0</sup> for the cigar-shaped Nb3Sn cavity was 3891 MHz. The frequency of the cigarshaped cavity changed less at higher fields. This may be due to the stiffer cavity resulting in smaller cavity deformation from magnetic forces.\n\n# VI. COMPARISON OF RESULTS TO THEORETICAL MODEL\n\nIn Fig. 14(a), the model data from Section II is compared to the experimental data for the two geometries assuming p = 8 µN/m and ρ = 60 µΩ cm. In Fig. 14(b) and (c), the dissipation pattern expected on the cavity surface for the two geometries is shown. The simulations were performed assuming the actual DC magnetic field distribution in the dewar. The pinning force assumed in the simulations is lower than the range reported in literature [26, 27]; however, since the material considered in this work is produced by direct solid-vapour reaction of Sn on Nb (no Cu or bronze are involved in the reaction), it has high purity and large grains [18], and one can reasonably expect lower pinning force than what previously measured in previous works [26, 27].\n\nWhile the model matches the experimental data reasonably well, some discrepancy between the two can be observed. As introduced previously, this model neglects the interaction between vortices, which is not negligible\n\n![](0__page_6_Figure_9.jpeg)\n\nFIG. 14. Internal quality factor dependence as a function of the maximum magnetic field generated by the solenoid is shown in figure (a). In figures (b) and (c), the distribution of power dissipation per unit of area on the cavity surface is shown for the two geometries under consideration (normalized to maximum dissipation).\n\nat high fields where vortices organize in an Abrikosov's lattice [37]. In such a condition, the deformation of the vortex lattice subjected to the RF current should be taken into consideration [38], but this goes beyond the scope of this qualitative model. Because of this approximation, the model overestimates the dissipation at high fields. The more rigid nature of the lattice compared to a single vortex implies less displacement per RF semiperiod, traducing to a lower vortex velocity and hence lower power dissipation. Nevertheless, this simple model can provide important information to properly design resonators for operation in high-magnetic field values.\n\nTo further examine possible sources of discrepancy, we explore the effect of misalignment of the two resonators with respect to the Dewar magnetic center. To do this, we introduce the parameters δ, ∆x, and ∆z that represent the tilt angle about the y-axis with respect to the z axis, and displacements along the x-axis and z-axis of the Dewar, respectively. The dot product is defined as:\n\n$$\\begin{aligned} \\mathbf{B} \\cdot \\hat{\\mathbf{n}} &= B\\_{\\mathbf{x}}(x', y', z') \\left( n\\_{\\mathbf{x}} \\cos \\delta + n\\_{\\mathbf{z}} \\sin \\delta \\right) \\\\ &+ B\\_{\\mathbf{y}}(x', y', z') \\, n\\_{\\mathbf{y}} \\\\ &+ B\\_{\\mathbf{z}}(x', y', z') \\left( -n\\_{\\mathbf{x}} \\sin \\delta + n\\_{\\mathbf{z}} \\cos \\delta \\right), \\end{aligned} \\tag{7}$$\n\nwhere the coordinates x 0 , y 0 , and z 0 represents points on the cavity surface after rotation and translation, and are defined as:\n\n$$\n\\begin{pmatrix} x' \\\\ y' \\\\ z' \\end{pmatrix} = \\begin{pmatrix} x\\cos\\delta + z\\sin\\delta + \\Delta x \\\\ y \\\\ -x\\sin\\delta + z\\cos\\delta + \\Delta z \\end{pmatrix} . \\tag{8}\n$$\n\nIn Fig. 15, the results of the analysis are shown. The plots in Fig. 15(a), (d), and (g) show the variation of Q<sup>0</sup> with respect to the perfect alignment condition times the maximum magnetic field in the solenoid (B0) as a function of δ, ∆x, and ∆z. The power areal density plots in Fig. 15(b), (c), (e), (f), (h), and (i), show instead\n\n![](0__page_7_Figure_0.jpeg)\n\nFIG. 15. Variation of the quality factor times B<sup>0</sup> as a function of the misalignment parameters δ, ∆x, and ∆x are shown in figures (a), (d), and (g). The distribution of power dissipation per unit of area on the cavity surface for the two geometries under consideration calculated at the respective maximum misalignment value are shown in figures (b), (c)—δ = 15 deg, (e), (f)—∆x = 1.5 cm, and (h), (i)—∆z = 3 cm (all normalized to maximum dissipation).\n\nthe trapped flux dissipation pattern assuming the maximum misalignment simulated—δ = 15 deg for (b) and (c), ∆x = 1.5 cm for (e) and (f), and ∆z = 3 cm for (h) and (i). Clearly, the CIGAR resonator is more sensitive to misalignment compared to the elliptical resonator, even though its shape minimizes vortex dissipation when properly aligned to the solenoid magnetic center.\n\nTABLE I. Comparison of the results from this work to several previous studies of superconducting cavities in high magnetic fields for axion research.\n\n| Source          | Material     | f (GHz) B0 |      | (T) T (K) Q0 |                   |\n|-----------------|--------------|------------|------|--------------|-------------------|\n| This work Nb3Sn |              | 3.9        | 6.0  | 4.2          | (5.3 ± 0.3) × 105 |\n| [13]            | NbTi/Cu 9.08 |            | 5    | 4.2          | 2.95 × 105        |\n| [14]            | Nb3Sn        | 9          | 8    | 4.2          | 6 × 103           |\n| [14]            | REBCO        | 9          | 11.6 | 4.2          | 7 × 104           |\n| [15]            | YBCO         | 6.93       | 8.0  | 4.2          | 3.2 × 105         |\n\n## VII. DISCUSSION\n\nThe highest Q<sup>0</sup> reported in this study at 6 T is (5.3 ± 0.3)×10<sup>5</sup> for the Nb3Sn cigar shaped cavity. The surface resistance for a copper cavity at the same temperature, magnetic field, and frequency can be calculated based on [39] to be 0.0029 Ω. Using this surface resistance and the same geometry factor as the cigar cavity would yield a Q<sup>0</sup> of 1.6 × 10<sup>5</sup> , a factor of 3.4 lower than the Nb3Sn cigar shaped cavity. This suggests that the use of Nb3Sn coatings could be a promising direction for improving axion search scan rate near this frequency. It may also improve at lower temperatures.\n\nThe results presented here are compared to several previous studies of superconducting cavities in high magnetic fields in Table I. It should be noted in these comparisons that differences in frequency, cavity geometry, and magnetic field value could substantially impact the Q<sup>0</sup> value. The previous materials studied included conventional superconductors like NbTi as well as high temperature superconductors like REBCO (RE stands for a rare earth metal such as Y). The Q<sup>0</sup> values reported from this study are the highest of those in the table, but also the frequency is substantially lower than the other cavities, which likely contributes to smaller flux losses. Furthermore, there are yet-to-be published results from the team from Ref. [15] showing a Q<sup>0</sup> in the 10<sup>7</sup> range at 8 T [40]. Overall, superconducting cavities appear to be a promising avenue to increasing Q<sup>0</sup> in high magnetic fields, including the Nb3Sn coatings developed for accelerator applications. The difference in performance between the TESLA and cigar-shaped cavities show the importance of selecting an appropriate geometry that takes into account flux losses in the superconducting material.\n\nAnother recent result of a novel cavity developed to achieve high Q<sup>0</sup> in high magnetic fields is the 10.3 GHz dielectric resonator from di Vora et al. [7], which has a Q<sup>0</sup> of 9 × 10<sup>6</sup> at 4.2 K in a 8 T magnetic field. The use of cylindrical dielectrics to screen the field from the copper walls, meaning that there is a significant volume of the cavity with low RF field amplitude and therefore weak axion sensitivity. However, the high Q<sup>0</sup> may have a stronger impact, particularly at high frequencies ∼ 10 GHz and above.\n\nAxion search scan rate scales with the fourth power of magnetic field, and fields significantly higher than 6 T are readily achievable, though not in the measurement system used in this paper. The Q<sup>0</sup> of the Nb3Sn cigar shaped cavity was decreasing relatively slowly with field at 6 T, and it may remain quite high up to higher magnetic fields. For example, between 4 T and 6 T, the Q<sup>0</sup> decreased from 6.6 × 10<sup>5</sup> to 5.3 × 10<sup>5</sup> . If this continued linearly, it would result in a Q<sup>0</sup> of 4.3 × 10<sup>5</sup> at 8 T. The upper critical field of Nb3Sn is substantially higher, ∼ 30 T for near-optimal stoichiometry [41].\n\nThere are some simple next steps for this experimental program. The first will be to test a new NbTi cavity with the cigar shape and compare its performance to the Nb3Sn cavities. The second will be to install a pump in the cryogenic system, which will allow future measurements to be performed also below 4 K, where pinning strength may be improved, and possibly also Q0.\n\nFor longer-term next steps, work is underway to develop a tunable superconducting cavity geometry with surface currents highly parallel to the applied field, as they are in the cigar shape. In addition, studies will be performed to modify the Nb3Sn coating process to try to increase pinning strength. Finally, procurement is underway for a millikelvin high magnetic field test stand, where studies can be performed under temperature and magnetic field conditions as close as possible to a dark matter search.\n\n## VIII. SUMMARY\n\nNb3Sn SRF cavity technology developed for particle accelerators was studied at multi-tesla DC magnetic fields as a means to increase Q<sup>0</sup> in dark matter search applications and thereby improve the scan rate. A Nb3Sn coated cavity with a cigar-shaped geometry chosen to reduce flux dissipation had a Q<sup>0</sup> of (5.3 ± 0.3) × 10<sup>5</sup> at 6 T and 4.2 K. A Nb3Sn coated cavity with a geometry typical of accelerator applications had a Q<sup>0</sup> of (4.3±0.2)×10<sup>4</sup> at 6 T and 4.2 K. Results were compared to a theoretical model developed for SRF cavities in high magnetic fields. The model includes a figure of merit to guide geometry optimization and an estimate of frequency scaling.\n\n## IX. ACKNOWLEDGEMENTS\n\nThe authors would like to thank the many people who contributed to the results presented in this paper. Thanks to Vadim Kashikin for extremely useful discussions of flux behavior in superconducting materials under multi-tesla fields, including important safety aspects of this experiment. Thanks to Vito Lombardo for sharing a model of the field inside the solenoid. Thanks to Eddie Pieszchala, Mike Foley, and the Fermilab machine shop for cavity fabrication. Thanks to Daniele Turrioni, Allen Rusy, and Simone Johnson, who run the lab with the 6 T magnet, and carried out the installation of the cavity insert to the solenoid and operation of the magnet and cryo system. Thanks to the ADMX collaboration, especially Andrew Sonnenschien and Daniel Bowring, who partially supported the fabrication of the cavity insert and who contributed to the investigations of the effects of putting large masses of superconducting material in the magnet. Thanks to Scott Adams and Tedd Ill for assembly of the cavities to the insert. Thanks to Brad Tennis for carrying out coating of the Nb3Sn cavities and initial setup of the cavity insert. Thanks to Anna Grassellino, Alex Romanenko, Raphael Cervantes, and Roni Harnik of Fermilab, Jim Sauls, Venkat Chandrasekhar, and Bill Halperin of Northwestern University and Phil O'Larey and Miles Naughton of ATI Metals for useful discussions. This work was supported by the United States Department of Energy, Office of High Energy Physics under Contracts DE-AC05-06OR23177 Fermilab. This material is based upon work supported by the U.S. Department of Energy, Office of Science, National Quantum Information Science Research Centers, Superconducting Quantum Materials and Systems Center (SQMS) under contract number DE-AC02-07CH11359.\n\n## Appendix A: Measurement with 100 µT applied field\n\nAs an initial evaluation of Q<sup>0</sup> of an SRF cavity in a magnetic field, a 1.3 GHz Nb3Sn coated TESLA cavity was tested after cooldown with an applied magnetic field of 100 µT, generated by Helmholtz coils around the cavity (Helmholtz coils can be seen in Figure A.1). The cavity was cooled slowly and uniformly to try to fully trap the applied field [42] and avoid thermocurrents [43]. Other instrumentation around the cavity included a temperature map (or T-map), an array of 540 thermometers placed over the surface of the cavity (see [44] for more information about T-mapping of SRF cavities). Figure A.2 shows an azimuthal cross section of the cavity with the approximate location of the temperature sensors along its surface. The cavity and RF fields are axisymmetric about R = 0. There are 36 boards, each with 15 sensors, located 10 degrees apart azimuthally. The RF magnetic field strength is approximately the same (within ∼ 5%) for the middle 11 sensors, and somewhat lower for the two each at the top and bottom of the cavity (∼ 83% and ∼ 62% of the peak surface magnetic field value).\n\nA temperature map measured at an accelerating gradient of 9.9 MV/m and a temperature of 1.6 K is shown in Figure A.3. The ∆T values are given relative to the ambient bath temperature. The quality factor was measured to be 2.1 × 10<sup>8</sup> , substantially lower than typical values between 10<sup>10</sup> and 10<sup>11</sup> at this temperature, indicating high surface resistance due to trapped flux. The T-map shows where the surface resistance was high and where it was low: surface temperature rise is proportional to the local RF power dissipation. Notice the consistency of the heating pattern with the shape of ˆz · ˆn|BRF| 2 from Fig. 5. As a result of these regions that show high dissipation, the TESLA geometry is expected to have substantial Q<sup>0</sup> degradation cooled in a large magnetic field.\n\n![](0__page_9_Picture_1.jpeg)\n\nFIG. A.1. A 1.3 GHz cavity with Helmholtz coils around it.\n\n![](0__page_9_Figure_3.jpeg)\n\n- [2] P. Sikivie, Physical Review Letters 51, 1415 (1983).\n- [3] R. D. Peccei and H. R. Quinn, Physical Review Letters 38, 1440 (1977).\n- [4] R. D. Peccei and H. R. Quinn, Physical Review D 16, 1791 (1977).\n- [5] S. Weinberg, Physical Review Letters 40, 223 (1978).\n- [6] J. Preskill, M. B. Wise, and F. Wilczek, Physics Letters B 120, 127 (1983).\n- [7] L. Abbott and P. Sikivie, Physics Letters B 120, 133 (1983).\n- [8] M. Dine and W. Fischler, Physics Letters B 120, 137 (1983).\n- [9] P. W. Graham, I. G. Irastorza, S. K. Lamoreaux, A. Lindner, and K. A. Van Bibber, Annual Review of Nuclear and Particle Science 65, 485 (2015), arXiv:1602.00039.\n\n![](0__page_9_Figure_12.jpeg)\n\nFIG. A.2. Temperature map sensor locations around an azimuthal slice of the cavity. There are 36 such slices around the cavity.\n\nIn addition to T-map data, Q<sup>0</sup> vs Eacc data were measured. Measurements were made at high fields using typical SRF power balance methods [45] as well as with low power decays [46]. An example of a decay measurement is plotted in Figure A.4, in which the slope of the transmitted power vs time is used to determine QL. Then the Qext values determined from the power balance measurements are used to convert from Q<sup>L</sup> to Q0. The Q<sup>0</sup> vs Eacc data are plotted in Figure A.5.\n\nThere is a transition that occurs between ∼ 0.01 MV/m and ∼ 1 MV/m, in which the Q<sup>0</sup> decreases from ∼ 2 × 10<sup>9</sup> to ∼ 3 × 10<sup>8</sup> . This may be related to dissipative depinning of flux in the Nb3Sn (see for example measurements in [47]) at higher RF fields. The fields used here (even down to 0.01 MV/m) are significantly higher than would needed for axion applications, and higher than are excited by the network analyzer in the high magnetic field measurements of the 3.9 GHz cavities.\n\n- [10] R. Cervantes, C. Braggio, B. Giaccone, D. Frolov, A. Grassellino, R. Harnik, O. Melnychuk, R. Pilipenko, S. Posen, and A. Romanenko, \"Deepest sensitivity to wavelike dark photon dark matter with srf cavities,\" (2022).\n- [11] T. Braine, R. Cervantes, N. Crisosto, N. Du, S. Kimes, L. J. Rosenberg, G. Rybka, J. Yang, D. Bowring, A. S. Chou, R. Khatiwada, A. Sonnenschein, W. Wester, G. Carosi, N. Woollett, L. D. Duffy, R. Bradley, C. Boutan, M. Jones, B. H. Laroque, N. S. Oblath, M. S. Taubman, J. Clarke, A. Dove, A. Eddins, S. R. O'kelley, S. Nawaz, I. Siddiqi, N. Stevenson, A. Agrawal, A. V. Dixit, J. R. Gleason, S. Jois, P. Sikivie, J. A. Solomon, N. S. Sullivan, D. B. Tanner, E. Lentz, E. J. Daw, J. H. Buckley, P. M. Harrington, E. A. Henriksen, and K. W. Murch, Physical Review Letters 124, 101303 (2020), arXiv:1910.08638.\n\n![](0__page_10_Figure_1.jpeg)\n\nFIG. A.3. Temperature map of the 1.3 GHz Nb3Sn cavity cooled in a 100 µT field, with 9.9 MV/m accelerating gradient at 1.6 K and a Q<sup>0</sup> of 2.1 × 10<sup>8</sup> .\n\n![](0__page_10_Figure_3.jpeg)\n\nFIG. A.4. Example of a low power decay from a known field. The red line shows where the data was fit to extract Q<sup>0</sup> values vs field at low Eacc.\n\n- [12] L. Zhong, S. Al Kenany, K. M. Backes, B. M. Brubaker, S. B. Cahn, G. Carosi, Y. V. Gurevich, W. F. Kindel, S. K. Lamoreaux, K. W. Lehnert, S. M. Lewis, M. Malnou, R. H. Maruyama, D. A. Palken, N. M. Rapidis, J. R. Root, M. Simanovskaia, T. M. Shokair, D. H. Speller, I. Urdinaran, and K. A. Van Bibber, Physical Review D 97, 92001 (2018), arXiv:1803.03690.\n- [13] D. Alesini, C. Braggio, G. Carugno, N. Crescini, D. D'Agostino, D. Di Gioacchino, R. Di Vora, P. Falferi, S. Gallo, U. Gambardella, C. Gatti, G. Iannone, G. Lamanna, C. Ligi, A. Lombardi, R. Mezzena, A. Ortolan, R. Pengo, N. Pompeo, A. Rettaroli, G. Ruoso, E. Silva, C. C. Speake, L. Taffarello, and S. Tocci, Physical Review D 99, 101101 (2019), arXiv:1903.06547.\n- [14] J. Golm, S. A. Cuendis, S. Calatroni, C. Cogollos, B. D¨obrich, J. D. Gallego, J. M. G. Barcel´o, X. Granados, J. Gutierrez, I. G. Irastorza, T. Koettig, N. Lamas, J. Liberadzka-Porret, C. Malbrunot, W. L. Millar, P. Navarro, C. P. Carlos, T. Puig, G. J. Rosaz, M. Siodlaczek, G. Telles, and W. Wuensch, , 3 (2021), arXiv:2110.01296.\n- [15] D. Ahn, O. Kwon, W. Chung, W. Jang, D. Lee, J. Lee, S. W. Youn, D. Youm, and Y. K. Semertzidis, arxiv:2002.08769 (2020), arXiv:2002.08769.\n- [16] R. Di Vora, D. Alesini, C. Braggio, G. Carugno, N. Crescini, D. D. Agostino, D. Di Gioacchino, P. Falferi, U. Gambardella, C. Gatti, G. Iannone, C. Ligi, A. Lom-\n\n![](0__page_10_Figure_10.jpeg)\n\nFIG. A.5. Q<sup>0</sup> vs Eacc data measured using two methods: power balance and low field decays. The observed change in Q<sup>0</sup> may be related to depinning of trapped flux at fields above Eacc ∼ 0.1 MV/m.\n\nbardi, G. Maccarrone, A. Ortolan, R. Pengo, A. Rettaroli, G. Ruoso, L. Taffarello, and S. Tocci, , 1 (2022), arXiv:2201.04223.\n\n- [17] D. Alesini, C. Braggio, G. Carugno, N. Crescini, D. D' Agostino, D. Di Gioacchino, R. Di Vora, P. Falferi, U. Gambardella, C. Gatti, G. Iannone, C. Ligi, A. Lombardi, G. Maccarrone, A. Ortolan, R. Pengo, C. Pira, A. Rettaroli, G. Ruoso, L. Taffarello, and S. Tocci, Nuclear Instruments and Methods in Physics Research, Section A: Accelerators, Spectrometers, Detectors and Associated Equipment 985, 164641 (2021), arXiv:2004.02754.\n- [18] S. Posen and D. L. Hall, Supercond. Sci. Technol. 30, 033004 (2017).\n- [19] D. C. Mattis and J. Bardeen, Physical Review 111, 412 (1958).\n- [20] C. Benvenuti, S. Calatroni, I. E. Campisi, P. Darriulat, C. Durand, R. Russo, and A. Valente, Workshop on RF Superconductivity 1997, Tech. Rep. October 1997 (CERN EST/97-08 (SM), 1997).\n- [21] M. Martinello, M. Checchin, A. Grassellino, O. Melnychuk, S. Posen, A. Romanenko, D. Sergatskov, and J. F. Zasadzinski, Proceedings of the Seventeenth International Conference on RF Superconductivity MOPB015 (2015).\n- [22] M. Checchin and A. Grassellino, Phys. Rev. Applied 14, 0440181 (2020).\n- [23] J. Bardeen and M. J. Stephen, Phys. Rev. 140, A1197 (1965).\n- [24] A. Godeke, Supercond. Sci. Technol. 19, R68 (2006).\n- [25] M. G. T. Mentink, M. M. J. Dhalle, D. R. Dietderich, A. Godeke, F. Hellman, and H. H. J. ten Kate, Supercond. Sci. Technol. 30, 025006 (2017).\n- [26] R. M. Scanlan, W. A. Fietz, and E. F. Koch, J. Appl. Phys. 46, 2244 (1975).\n- [27] B. J. Shaw, J. Appl. Phys. 47, 2143 (1976).\n- [28] \"Comsol,\".\n- [29] J. I. Gittleman and B. Rosenblum, Phys. Rev. Lett. 16, 734 (1966).\n- [30] M. Checchin, M. Martinello, A. Grassellino, S. Aderhold, S. K. Chandrasekaran, O. S. Melnychuk, S. Posen, A. Romanenko, and D. A. Sergatskov, Appl. Phys. Lett. 112, 072601 (2018).\n- [31] B. Aune, R. Bandelmann, D. Bloess, B. Bonin, A. Bosotti, M. Champion, C. Crawford, G. Deppe, B. Dwersteg, D. A. Edwards, H. T. Edwards, M. Ferrario, M. Fouaidy, P.-D. Gall, A. Gamp, A. G¨ossel, J. Graber, D. Hubert, M. H¨uning, M. Juillard, T. Junquera, H. Kaiser, G. Kreps, M. Kuchnir, R. Lange, M. Leenen, M. Liepe, L. Lilje, A. Matheisen, W.-D. M¨oller, A. Mosnier, H. Padamsee, C. Pagani, M. Pekeler, H.- B. Peters, O. Peters, D. Proch, K. Rehlich, D. Reschke, H. Safa, T. Schilcher, P. Schm¨user, J. Sekutowicz, S. Simrock, W. Singer, M. Tigner, D. Trines, K. Twarowski, G. Weichert, J. Weisend, J. Wojtkiewicz, S. Wolff, and K. Zapfe, Physical Review Special Topics - Accelerators and Beams 3, 092001 (2000).\n- [32] R. Brinkmann, B. Faatz, K. Fl¨ottmann, J. Rossbach, J. R. Schneider, H. Schulte-Schrepping, D. Trines, T. Tschentscher, and H. Weise, TESLA XFEL, First Stage of the X-Ray Laser Laboratory, Technical Design Report, Tech. Rep. July (DESY, Hamburg, 2001).\n- [33] J. N. Galayda (ed.), \"LCLS-II Final Design Report, LCLSII-1.1-DR-0251-R0,\" (2015).\n- [34] \"Oxford Instruments,\".\n- [35] C. Bartram, T. Braine, R. Cervantes, N. Du, G. Leum, L. J. Rosenberg, G. Rybka, J. Yang, M. H. Awida, C. Boffo, D. Bowring, M. Checchin, A. S. Chou, M. Hollister, R. Khatiwada, S. Posen, A. Sonnenschein, W. Wester, O. S, N. Woollett, G. Carosi, L. D. Duffy, B. Mcallister, M. Goryachev, C. Boutan, M. Jones, N. S. Oblath, J. Clarke, A. Agrawal, A. V. Dixit, J. R. Gleason, S. Jois, P. Sikivie, N. Sullivan, D. B. Tanner, E. Lentz, E. J. Daw, J. H. Buckley, P. M. Harrington, E. A. Henriksen, K. W. Murch, and M. D. Bird, Snowmass 2021\n\n(2021).\n\n- [36] A. C. Crawford, Nuclear Instruments and Methods in Physics Research, Section A: Accelerators, Spectrometers, Detectors and Associated Equipment 849, 5 (2017).\n- [37] A. A. Abrikosov, Zh. Eksp. Teor. Fiz. 32, 1442 (1957), [A. A. Abrikosov, Soviet Phys.—JETP 5, 1174 (1957)].\n- [38] E. H. Brandt, Rep. Prog. Phys. 58, 1465 (1995).\n- [39] S. Calatroni, CERN-ACC-NOTE-2020-0029 (2020).\n- [40] D. Ahn, in 17th Patras Workshop on Axions, WIMPs and WISPs (2022).\n- [41] A. Godeke, Superconductor Science and Technology 19, R68 (2006).\n- [42] A. Romanenko, A. Grassellino, O. Melnychuk, and D. A. Sergatskov, Journal of Applied Physics 115, 184903 (2014).\n- [43] M. Peiniger, M. Hein, N. Klein, G. M¨uller, H. Piel, and P. Thuns, in Proceedings of The Third Workshop on RF Superconductivity (Argonne National Laboratory, 1988).\n- [44] J. Knobloch, Advanced thermometry studies of superconducting RF cavities, Ph.D. thesis, Cornell University (1997).\n- [45] H. Padamsee, J. Knobloch, and T. Hays, RF superconductivity for accelerators (Wiley-VCH, New York, 2008) p. 521.\n- [46] A. Romanenko and D. I. Schuster, Physical Review Letters 119, 1 (2017), arXiv:1705.05982.\n- [47] A. Alimenti, N. Pompeo, K. Torokhtii, T. Spina, R. Flukiger, L. Muzzi, and E. Silva, IEEE Transactions on Applied Superconductivity 29 (2019), 10.1109/TASC.2019.2892584.",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Measurement of high quality factor superconducting cavities in tesla-scale magnetic\nfields for dark matter searches",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              58.4208984375,
+              52.693603515625
+            ],
+            [
+              554.6732788085938,
+              52.693603515625
+            ],
+            [
+              554.6732788085938,
+              78.5968017578125
+            ],
+            [
+              58.4208984375,
+              78.5968017578125
+            ]
+          ]
+        },
+        {
+          "title": "I. INTRODUCTION",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              123.416015625,
+              246.06341552734375
+            ],
+            [
+              228.70089721679688,
+              246.06341552734375
+            ],
+            [
+              228.70089721679688,
+              255.02978515625
+            ],
+            [
+              123.416015625,
+              255.02978515625
+            ]
+          ]
+        },
+        {
+          "title": "II. MAGNETIC FLUX DISSIPATION IN RF\nSUPERCONDUCTOR",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              327.216796875,
+              622.6744232177734
+            ],
+            [
+              550.740234375,
+              622.6744232177734
+            ],
+            [
+              550.740234375,
+              642.7265625
+            ],
+            [
+              327.216796875,
+              642.7265625
+            ]
+          ]
+        },
+        {
+          "title": "III. CAVITY GEOMETRIES",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              102.9462890625,
+              677.4692916870117
+            ],
+            [
+              248.46954345703125,
+              677.4692916870117
+            ],
+            [
+              248.46954345703125,
+              686.4356918334961
+            ],
+            [
+              102.9462890625,
+              686.4356918334961
+            ]
+          ]
+        },
+        {
+          "title": "IV. EXPERIMENTAL APPARATUS",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              84.26953125,
+              596.4784698486328
+            ],
+            [
+              268.048828125,
+              596.4784698486328
+            ],
+            [
+              268.048828125,
+              605.6015625
+            ],
+            [
+              84.26953125,
+              605.6015625
+            ]
+          ]
+        },
+        {
+          "title": "V. RESULTS",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              404.91302490234375,
+              654.328125
+            ],
+            [
+              474.15155029296875,
+              654.328125
+            ],
+            [
+              474.15155029296875,
+              663.3088684082031
+            ],
+            [
+              404.91302490234375,
+              663.3088684082031
+            ]
+          ]
+        },
+        {
+          "title": "VI. COMPARISON OF RESULTS TO\nTHEORETICAL MODEL",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              81.20654296875,
+              482.7674560546875
+            ],
+            [
+              270.4368896484375,
+              482.7674560546875
+            ],
+            [
+              270.4368896484375,
+              502.1948547363281
+            ],
+            [
+              81.20654296875,
+              502.1948547363281
+            ]
+          ]
+        },
+        {
+          "title": "VII. DISCUSSION",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              391.6809997558594,
+              182.74249267578125
+            ],
+            [
+              487.388671875,
+              182.74249267578125
+            ],
+            [
+              487.388671875,
+              191.7088623046875
+            ],
+            [
+              391.6809997558594,
+              191.7088623046875
+            ]
+          ]
+        },
+        {
+          "title": "VIII. SUMMARY",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              130.4384765625,
+              364.89111328125
+            ],
+            [
+              222.16769409179688,
+              364.89111328125
+            ],
+            [
+              222.16769409179688,
+              373.8575134277344
+            ],
+            [
+              130.4384765625,
+              373.8575134277344
+            ]
+          ]
+        },
+        {
+          "title": "IX. ACKNOWLEDGEMENTS",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              98.912109375,
+              551.2011413574219
+            ],
+            [
+              252.19451904296875,
+              551.2011413574219
+            ],
+            [
+              252.19451904296875,
+              560.1675415039062
+            ],
+            [
+              98.912109375,
+              560.1675415039062
+            ]
+          ]
+        },
+        {
+          "title": "Appendix A: Measurement with 100 µT applied field",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              316.458984375,
+              309.4765625
+            ],
+            [
+              562.051025390625,
+              309.4765625
+            ],
+            [
+              562.051025390625,
+              318.462890625
+            ],
+            [
+              316.458984375,
+              318.462890625
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              432
+            ],
+            [
+              "Line",
+              106
+            ],
+            [
+              "TextInlineMath",
+              6
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "Footnote",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              543
+            ],
+            [
+              "Line",
+              127
+            ],
+            [
+              "TextInlineMath",
+              7
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "Equation",
+              5
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              392
+            ],
+            [
+              "Line",
+              118
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              183
+            ],
+            [
+              "Line",
+              85
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "Figure",
+              3
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "FigureGroup",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              110
+            ],
+            [
+              "Line",
+              42
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PictureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              409
+            ],
+            [
+              "Line",
+              101
+            ],
+            [
+              "Caption",
+              4
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Picture",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "PictureGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              455
+            ],
+            [
+              "Line",
+              150
+            ],
+            [
+              "TextInlineMath",
+              6
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Equation",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              470
+            ],
+            [
+              "Line",
+              139
+            ],
+            [
+              "TableCell",
+              36
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              357
+            ],
+            [
+              "Line",
+              113
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              262
+            ],
+            [
+              "Line",
+              74
+            ],
+            [
+              "ListItem",
+              10
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "PictureGroup",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              335
+            ],
+            [
+              "Line",
+              112
+            ],
+            [
+              "ListItem",
+              19
+            ],
+            [
+              "Figure",
+              3
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "FigureGroup",
+              3
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              196
+            ],
+            [
+              "Line",
+              63
+            ],
+            [
+              "ListItem",
+              17
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 12,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "High-Quality-Factor Superconducting Cavities in Tesla-Scale Magnetic Fields for Dark-Matter Searches",
+    "authors": [
+      {
+        "authors_list": [
+          "Posen, S.",
+          "Checchin, M.",
+          "Melnychuk, O. S.",
+          "Ring, T.",
+          "Gonin, I."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "In dark-matter searches using axion haloscopes, the search sensitivity depends on the quality factors (Q<SUB>0</SUB>) of radio-frequency cavities immersed in multitesla magnetic fields. Increasing Q<SUB>0</SUB> would increase the scan rate through the parameter space of interest. Researchers developing superconducting radio-frequency cavities for particle accelerators have developed methods for obtaining extremely high Q<SUB>0</SUB> of approximately 10<SUP>11</SUP> in microteslascale magnetic fields. In this paper, we describe efforts to develop high-Q cavities made from Nb<SUB>3</SUB>Sn films using a technique developed for particle-accelerator cavities. Geometry optimization for this application is explored, and two cavities are tested: an existing particle-accelerator-style cavity and a geometry developed and fabricated for use in high fields. A quality factor of (5.3 ±0.3 )×10<SUP>5</SUP> is obtained at 3.9 GHz and 6 T at 4.2 K.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Physical Review Applied",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2201.10733"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1103/PhysRevApplied.20.034004",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2023PhRvP..20c4004P"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

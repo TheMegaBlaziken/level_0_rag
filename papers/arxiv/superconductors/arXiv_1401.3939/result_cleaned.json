@@ -1,0 +1,956 @@
+{
+  "id": "f150488516cfa1750e670a6991e82700",
+  "pdf_path": "apl/Superconductors/arXiv:1401.3939.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **MODELING HEAT TRANSFER FROM QUENCH PROTECTION HEATERS TO SUPERCONDUCTING CABLES IN NB3SN MAGNETS**\n\nT. Salmi\\* , D. Arbelaez, S. Caspi, H. Felice, S. Prestemon, LBNL, Berkeley, CA 94720, USA G. Chlachidze, Fermi National Laboratory, IL, USA H. H. J. ten Kate, University of Twente, Enschede, the Netherlands\n\n#### *Abstract*\n\nWe use a recently developed quench protection heater modeling tool for an analysis of heater delays in superconducting high-field Nb3Sn accelerator magnets. The results suggest that the calculated delays are consistent with experimental data, and show how the heater delay depends on the main heater design parameters.\n\n#### **INTRODUCTION**\n\nThe quench protection of the present-day high-field Nb3Sn accelerator magnets is based on resistive protection heaters – typically stainless steel–polyimide laminates on the coil surfaces [1]. They bring large segments of the winding to a resistive state during quench, accelerating the magnet current decay and consequently reducing the hotspot temperature. The goal of the heater design is to provide a short heater delay, i.e. the time delay between heater activation and the heater induced quench, and quench a large fraction of the winding. Physical limitations come from the maximum heater voltage and temperature (typically 400 V and 350 K, respectively). The heater insulation thickness (typically between 0.025 and 0.100 mm) required for electrical integrity has a significant effect on the delay time.\n\nIn the magnets under development for the LHC HiLumi upgrade, whose length is of the order of 10 m, the heater delay should be in the order of 10 ms, and the heaters should cover at least 60-100% of the coil surface [2][3]. This has been obtained in shorter and/or lower energy R&D magnets (LARP LQ and HQ) [3], but now the increased coil surface area and also requirements for thicker heater insulation to guarantee electrical integrity (increase from 0.025 mm to 0.050-0.075 mm) bring new challenges. Also, LQ and HQ, which had heaters on both the coils inner and outer surfaces, showed that only the outer surface heaters are mechanically reliable. Therefore, significant optimization of the present technology is needed. An additional complexity comes from the need of heating stations for long magnets, making the geometry of the heater non-uniform along the magnet length and adding an additional degree of freedom to the heater design problem.\n\nThis paper summarizes a recently developed numerical modeling tool for simulating heat transfer between the heater and coil. The model accounts for the heater geometry and powering, the cable properties, magnetic field and the various insulation materials allowing the evaluation of the heater delay in different conditions. The model is first applied to the LARP HQ magnet [4]. First, the real heater geometry is simulated and the delays are compared with experimental data from [5]. Second, a parametric analysis is used to examine the impact of main heater design parameters on the quench delay. The model is then applied to simulate the protection heaters in the socalled 11 T dipole prototype, built within a CERN and FNAL joint R&D program [6], and the simulated delays are compared with experimental data. Understanding of the impact of the heater design on the quench delay is important for designing the protection for future magnets.\n\n#### **COMPUTATIONAL MODEL**\n\n#### *Thermal model*\n\nThe heat transfer between the heater and the cable is simulated using a numerical two-dimensional heat conduction model, with joule heat generation in the stainless steel component to simulate heater powering. In this approximation the heat propagation between neighboring turns is neglected. At the present stage of development, current sharing between the strands and quench propagation due to Joule heating in the cable is also not simulated.\n\nThe two-dimensional heat equation describing the thermal propagation is\n\n$$\\gamma\\_m c\\_{p,m} \\frac{\\partial T}{\\partial t} = \\frac{\\partial}{\\partial \\mathbf{y}} \\left( k\\_m \\frac{\\partial T}{\\partial \\mathbf{y}} \\right) + \\frac{\\partial}{\\partial \\mathbf{z}} \\left( k\\_m \\frac{\\partial T}{\\partial \\mathbf{z}} \\right) + \\mathbf{f}\\_{\\text{gen,ss}} \\quad , \\qquad (\\text{l})$$\n\nwhere *T = T(z,y,t)* is temperature (K), *cp,m = cp,m(T,B)* is specific heat (J/K/kg), *γ<sup>m</sup>* is mass density (kg/m3 ), *km = km(T,B)* is thermal conductivity (W/K/m) of the material *m* at the location (*z, y)* at time *t* (s) and *fgen,ss* = *fgen,ss(t,T)* is the internal volumetric heat source applied only in stainless steel component. (W/m3 ). It is defined using\n\n$$f\\_{gen,ss} \\text{ (t,T)} = \\rho\\_{ss}(T) f\\_{ss}^2(\\mathbf{t}),\\tag{2}$$\n\nwhere *Jss(t)* is the heater current density (A/m2 ) and *ρss(T)* is the stainless steel electrical resistivity (Ωm), or using\n\n$$f\\_{gen,ss} \\text{ (t)} = P\\_{PH} \\text{(0)} / d\\_{ss} \\, e^{-\\frac{2\\Gamma}{\\pi}} \\,, \\tag{3}$$\n\nwhere *PPH(0)* (W/m2 ) is the heater adiabatic peak power defined by dividing the heater power by the heating surface area [1], *dss* (m) is the stainless steel thickness, and τ is a time constant of an exponential heater current\n\ndecay. \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ \\*T. Salmi is now with Tampere University of Technology, Tampere, Finland.\n\nA heater on the coil straight section typically has a periodical geometry (see Fig. 1). Due to the symmetry, each turn can be represented by modeling only half of the heater period, when adiabatic boundary conditions are assumed at the center and at the end of the period (*z* = 0, and at *z* = *PH period/2*). Figure 2 shows a case with one heating segment at the center of the heater period. The boundaries at the top and bottom of the system, i.e. at *y* = 0, or at *y* = *H*, are at fixed temperature, *Tbath*.\n\n#### *Material properties and magnetic field*\n\nThe various insulation layers as well as the cable and heater dimensions are taken into account using regions of different material properties. The different layers are assumed in perfect thermal contact. The layers dimensions and materials are an input parameter.\n\n![](_page_1_Figure_3.jpeg)\n\nFigure 1: A schematic view showing how generic heater geometry can be expressed in terms of periodical heater coverage at different turns.\n\n![](_page_1_Figure_5.jpeg)\n\nFigure 2: Thermal model for half period of the protection heater geometry, representing the longitudinal and radial (through wide side of the cable) thermal transport in one coil turn.\n\nThe material thermal properties are functions of local temperature and magnetic field. The copper properties and epoxy specific heat are from [7] (with linear extrapolation to 0 J/kg/K at 0 K for epoxy specific heat below 4.4 K), Nb3Sn specific heat is a fit from [8], G10, polyimide (Kapton) and stainless steel properties are from [9] (with extrapolation for Kapton thermal conductivity below 4.3 K [8], and stainless steel specific heat below 5 K [10]). The stainless steel resistivity is based on [11].\n\nThe cable is a homogeneous block with properties averaged over its constituents (copper, Nb3Sn, epoxy and/or G10) volume. Thermal conductivities of Nb3Sn and epoxy are assumed negligible relative to that of copper. By default, the magnetic field in the cable crosssection is uniform, and it is an input parameter. The model allows also simulating variable field profile across the cable. In that case the current sharing temperature, *Tcs*, varies at different cable location, and the material thermal properties are based on the average field.\n\n#### *Quench delay determination*\n\nThe simulation begins with the powering of the heaters and the quench delay is defined once the cable temperature exceeds *Tcs(B,I),* i.e. the temperature at which the current in the cable is equal to the (temperature and magnetic field dependent) critical current. The model offers two possibilities for fitting the critical surface, Godeke [12] [13] and Summers [14].\n\n#### *Numerical solution*\n\nThe numerical solution is based on the thermal network method [15] with explicit finite difference discretization scheme [16] and adaptive time stepping. Several elements in each layer are needed to guarantee numerical stability and accuracy. The segments size is an input parameter. The correct implementation of the equations was verified by comparison with analytical solution of a case in 1-D heat conduction in an insulated slab with steady surface heat flux and constant and uniform material properties.\n\n## **SIMULATION OF THE HQ HEATER IN THE HQ01 QUADRUPOLE**\n\nAs the first study case, the model is applied to the LARP HQ magnet, which is a 1-m-long 120-mm-aperture quadrupole based on cosθ geometry with two layers [4]. The outer layer heater implemented in the coils is modeled, and the simulated heater delays are compared with experimental data from the HQ01e tests [5]. Then, the impact of individual heater design parameters on the quench delay is examined using a parametric analysis. The used coil parameters are shown in Table 1, and the field map in Fig. 3. In the next sections the used parameters for both studies are detailed.\n\n#### *Simulation of the HQ heater geometry*\n\nThe HQ outer layer heater has a wavy shape, providing partial coverage at several turns. One period of the geometry is shown in Fig. 4. It shows that the heater coverage increases from about 2 cm to 7 cm in approximately 1 cm steps in turns 2nd to 7th (counted from the outer layer (OL) pole).\n\n![](_page_2_Figure_0.jpeg)\n\nFigure 3: HQ01 field map and notation of the turn count from outer layer pole.\n\nTable 1: Simulation parameters for the LARP HQ simulation\n\n| Parameter            | HQ01 (Coil 9)       |\n|----------------------|---------------------|\n| SSL@ 1.9 K (kA)      | 19.31               |\n| SSL @ 4.4 K (kA)     | 17.52               |\n| Bpeak, at I [18]     | 0.9505<br>0.00127×I |\n| #strands             | 35                  |\n| Copper RRR           | 190                 |\n| Strand Cu/SC         | 1.05                |\n| Cable voids          | 12% epoxy           |\n| Cable width (mm)     | 15.00               |\n| Cable ins. (mm)      | 0.090 (G10)         |\n| Bottom ins. (mm)     | 0.708 (G10)         |\n| Top ins. (mm)        | 0.30 (G10)          |\n| Stainless steel (mm) | 0.025               |\n| PH ins. Kapton (mm)  | 0.0254              |\n| Strip path (mm)      | 2220.0              |\n| Strip width (mm)     | 11.0                |\n\nAfter the 7th turn, the continuous heater coverage is smaller than 7 cm. As the heater coverage increases while moving away from the pole, the magnetic field decreases (Fig. 3). Higher field and longer coverage are assumed to compete in reducing the delay, so the location of the first heater-induced quench is not obvious. In the experiment the first quench can be located between turns 2 and 14 based on voltage tap signals, but it is not known in more detail. Here it is assumed to occur in one of the turns from 2nd to 7th and the heater delay is simulated at each of these turns. The shortest quench delay among the modelled turns is chosen for the comparison with experimental data.\n\n![](_page_2_Figure_5.jpeg)\n\nFigure 4: One period of the HQ01 heater on the coil outer surface. The *PH coverage* (the length of the cable continuously covered by the heater at each turn) in one *PH period* (periodical heater geometry) is shown for the 2nd and 7th turn.\n\nThe magnetic field strength is calculated at the coil outer surface (using Cobham Vector field Opera-2D [17]), which is the location closest to the protection heater and this value is used for the whole turn. The fields in turns from 2nd to 7th normalized to the magnet peak field at a given current are respectively 0.75, 0.74, 0.72, 0.70, 0.69 and 0.66.\n\nThe Nb3Sn critical surface is calculated using Godeke fit with parameters from HQ coil 9 extracted strand measurements [18]. The calculated *Tcs* varies from 14.2 to 14.4 K at 5 kA and from 9.6 to 10.4 K at 14 kA. The heater power is defined by 230 V over the 2220 mm long strip, giving *Jss* = 210 A/mm2 , which gives a heater power *PPH*(0) about 50 W/cm2 The current decays according to a time constant of 40 ms (defined from the measured current decay profile).\n\n#### *Parametric study*\n\nIn the parametric study, we modeled the outer layer 2nd turn at 1.9 K, and magnet current 80% of the short sample limit (15400 A). The computed conductor field is 9.1 T, and *Tcs* is 8.9 K.\n\nThe varied parameters are the heater power, the Kapton thickness, and the heater coverage. If not otherwise mentioned, in the parametric analysis the heater power *PPH* is 50 W/cm2 and constant (step function), the heater covers the whole turn, and the Kapton thickness is 0.025 mm.\n\n#### **HQ01 SIMULATION RESULTS**\n\n#### *Comparison with experimental data*\n\nThe HQ heater simulation at different turns shows that the delays increase from about 5 to 40 ms when decreasing the magnet current from 80% of short sample limit to 20% (see Fig. 5). The case with infinite heater coverage (1D), at magnet peak field (*B*/*Bpeak* = 1.0) is also shown, and as expected, the delays converge to that when increasing heater coverage or field fraction. The variation between the turns is larger at lower current and the turn that quenches first depends on the current.\n\n![](_page_3_Figure_1.jpeg)\n\nFigure 5: HQ heater delays simulated at several outer layer coil turns. The solid lines represent operation at 1.9 K and dashed lines at 4.4 K.\n\nThe simulation agrees with experimental data within 20%, as shown in Fig. 6, where the shortest delays at each current are plotted together with the experimental data. The impact of the operation temperature on the delays is only a few percent in both the simulation and experiment. Excluding the longest simulated delay times (where the heat diffusion away from the hotspot plays a larger role), this difference is approximately proportional to the difference in the energy margins to quench (i.e., integration of the cable heat capacity from *Tbath* to *Tcs*) at each current.\n\n![](_page_3_Figure_4.jpeg)\n\nFigure 6: Modeled and experimental (Exp.) HQ heater delays at 1.9 and 4.4 K versus normalized magnet current.\n\n### *Heater delay vs. heater power*\n\nAs expected, larger heater power reduces the simulated delays, as shown in Fig. 7. Saturation is visible around 30 W/cm2 . Increasing the power further has only a small effect on the delay. The curve shape is consistent with experiments [1].\n\n![](_page_3_Figure_8.jpeg)\n\nFigure 7: Heater delay time vs. heater peak power. The heater power is a step function in time.\n\n#### *Delay time vs. insulation thickness*\n\nThe increase in the simulated delay when increasing the polyimide thickness is shown in Fig. 8. The delay approximately doubles when the thickness is increased from 0.025 mm to 0.076 mm. Comparison of experimental data from HQ01e (0.025 mm Kapton), and from HQ coil 15 (0.076 mm Kapton), which was tested in the HQM04 mirror structure, shows an increase in the experimental delay approximately 130%, in agreement with the simulated value.\n\n#### *Delay time vs. heater geometry*\n\nThe simulation shows that longer heater coverage leads to shorter delays – up to saturation around 20 mm, when the delay approaches 7 ms indicating a local 1-D heat transfer (fully covered cable) (see Fig. 9). At coverage of 5 mm, the delay is more than doubled. Variation of the period between 50 and 180 mm changed the result less than 5% with respect to the reference case with 120 mm long period.\n\nLonger delay for the same short sample fraction was also found in the LARP LQ magnet, which had shorter heater coverage than HQ [3].\n\n![](_page_4_Figure_0.jpeg)\n\nFigure 8: Heater delay vs. Kapton thickness.\n\n![](_page_4_Figure_2.jpeg)\n\nFigure 9: Heater delay time vs. length of the covered cable segment.\n\n## **SIMULATION OF THE HEATER IN THE 11 T DIPOLE**\n\nContrary to HQ, the heater strips in the 2-m long socalled 11 T dipole model (MBHSP01) are straight strips parallel to the magnet axis. Therefore the problem is essentially in 1-D, when the heat transfer between the coil turns is neglected.\n\nThe heaters have been tested with Kapton thickness of 0.076 mm and 0.203 mm, i.e. much larger than HQ. Therefore the simulation of the 11 T dipole heaters allows applying the model to a quite different regime. The adhesive (0.038 mm) that is used to glue the stainless steel heater to the Kapton has been neglected in the simulation. The 11 T dipole magnet development and test are described in [6] and the protection heater experiments in [19].\n\n#### *Heater power*\n\nOn the outer surface of each coil half, two straight heater strips form a U-shape and are connected in series (see Fig. 10 [19]). The strip closer to the central pole piece (high field region) is 26 mm wide, and the strip closer to the magnetic midplane (low field region) is 21 mm wide. Two U-shapes are connected in parallel and powered by a capacitor discharge in one Heater Firing Unit (HFU). The capacitance is 9.6 mF and the measured cold resistance of the circuit is 2.6 Ω, giving RC-time constant of 25 ms.\n\nThe calculated heater current is 77 A for a voltage of 400 V. Using equation (1) and multiplying by the stainless steel thickness we get a peak power of about 17 W/cm2 in the high field heater and 27 W/cm2 in the low field heater, using the stainless steel 304 resistivity (490 nΩm @ 4.2 K) . The calculated resistance of both heaters together is 3.4 Ω. However, the measured resistance of the U-shaped heater is 20% larger, 4.2 Ω. Partial explanation is that the heaters in the 11 T dipole are based on stainless steel 316 L, which has about 5% higher electrical resistivity. Assuming that the measurement gives the correct resistivity (and for example the connection in between the strips or irregularities in the heater shape do not impact), the heater power is 20 W/cm2 in the high field heater, and 31 W/cm2 in the low field heater. In the simulation we use the average of these: 18.5 W/cm2 in the high field and 29 W/cm2 in the low field region.\n\n![](_page_4_Figure_11.jpeg)\n\nFigure 10: 11 T dipole heater connection scheme. PH-1L and PH-2L refer to heater inslualtion thickness with 1 or 2 layers of Kapton [19].\n\n#### *Magnetic field and cable properties*\n\nUnder each heater, the first quench is expected to initiate at the coil turn that has the highest magnetic field. The high field and low field heater were considered separately, and the delay was simulated in the turns #2 and #19 from the outer layer pole (see Fig. 11 [20]).\n\nThe choice of field value for the turn #2 is not straight forward because the field on the coil outer diameter (OD) is only 78% of the maximum field of that conductor (see Fig. 10). We therefore considered three cases. In Case 1, field was taken at the coil outer surface (65% of the magnet peak field). In Case 2, field was taken as the maximum field in the conductor (82% of the magnet peak field). And, in Case 3, the field profile varies across the conductor (1-D projection of the 2-D field map in the cable cross-section). In the turn #19, the field at the coil surface is the same as the cable maximum field (42% of the magnet peak field), so simulations were done only for this field value.\n\nThe HQ simulation corresponds to the Case 2. The field location in the 11 T simulation is more critical for two reasons: First, in HQ the cable outermost field was 87- 95% of the maximum field. Second, in 11 T the expected delays are longer due to smaller heater power and thicker insulation between the heater and cable. The longer delays increase the impact of all factors, including the field. One should keep in mind that while tuning the field location may be useful for finding the best expectation for the experimental results, it may give a false sense of accuracy because the anisotropic cable internal structure (strands' paths) is still not modelled.\n\nThe critical surface is based on the Summers fit, using Bc20 = 24.8 T, Tc0 = 16.5 K, C = 9.08×10<sup>3</sup> . Other simulation parameters are summarized in Table 2.\n\n![](_page_5_Figure_3.jpeg)\n\nFigure 11: 11 T dipole field map [20].\n\nTable 2. Simulation parameters for CERN-FNAL 11 T dipole simulation\n\n| Parameter            | 11 T               |\n|----------------------|--------------------|\n| SSL@ 1.9 K (kA)      | 15.4               |\n| SSL @ 4.4 K (kA)     | 13.8               |\n| Bpeak, at I [18]     | 0.9062<br>0.0023×I |\n| #strands             | 40                 |\n| Copper RRR           | 100                |\n| Strand Cu/SC         | 1.13               |\n| Cable voids          | 6.5% epoxy,        |\n|                      | 6.5% G10           |\n| Cable width (mm)     | 14.88              |\n| Cable ins. (mm)      | 0.200* (G10)       |\n| Bottom ins. (mm)     | 0.706 (G10)        |\n| Top ins. (mm)        | 0.64 (Kapton)      |\n| Stainless steel (mm) | 0.025              |\n| PH ins. Kapton (mm)  | 0.076 / 0.203      |\n| Strip path (mm)      | 2100.0             |\n| Strip width (mm)     | 26.1               |\n|                      |                    |\n\n\\* This refers to the insulation between the bare cable and the polyimide of the PH insulation. In the 11 T magnet 0.2 mm includes a 0.1 mm glass sheet that is impregnated on the coil surface.\n\n#### **11 T DIPOLE SIMULATION RESULTS**\n\nThe heater delays were measured between 40 and 60% of SSL. Simulations in general show a good agreement with results, giving (i) much longer delays for thicker polyimide and (ii) the correct slope of delay increase at lower currents. At 80% of SSL at 1.9 K the heater delay is expected to be about 55 ms with 0.203 mm Kapton, and 25 ms with 0.076 mm Kapton. The 20% predicted increase in the simulated delays from 1.9 to 4.5 K is not seen in the experiment.\n\nThe simulated delays at 1.9 K agree the best with the experimental data for the high field heater when the utilized field was the maximum in the cable (Case 2). The agreement is within 20% for both thicknesses when above 50% of SSL at 1.9 K. The delays using the realistic field profile (Case 3) are about 10-30% longer than the delays with the maximum field. When the field is taken at the coil OD (Case 1), the delay is at least 60% longer than with the maximum field. The delays under the low field heater were about 50-150% longer than the shortest delays under the high field heater. Figures 12 and 13 show the results in the Cases 2 (Bmax) and 3 (Bprof) of the high field heater.\n\n![](_page_6_Figure_0.jpeg)\n\nFigure 12: Heater delays in the 11 T dipole, simulated and measured, for the 0.076 mm Kapton thickness.\n\n![](_page_6_Figure_2.jpeg)\n\nFigure 13: Heater delays in the 11 T dipole, simulated and measured, for the 0.203 mm Kapton thickness.\n\n#### **CONCLUSION**\n\nA computational tool based on a two-dimensional heat conduction model is developed to calculate the protection heater delay time to induce a quench as a function of a large amount of parameters, which include cable properties, magnet operation conditions, and heater geometry, powering and insulation scheme.\n\nThe modeling tool is applied to simulate heater delays in the LARP Nb3Sn quadrupole magnet called HQ01e and in the FNAL-CERN Nb3Sn dipole magnet called 11 T. The agreement between the simulation, which does not use any free parameters, and experimental data is within 20% in most cases. A parametric analysis using the HQ01e data showed the heater delay dependence on heater power, polyimide thickness and heater geometry.\n\nThis relatively simple modeling approach can be useful in understanding the effect of various parameters on the quench delay time, which is important for optimizing the heater design for future high-field Nb3Sn accelerator magnets.\n\n#### **ACKNOWLEDGMENT**\n\nThis work has been supported by the U. S. Department of Energy, under Contract No. DE-AC02-05CH11231. Finalizing this paper was supported by Stability Analysis of Superconducting Hybrid magnets (Academy of Finland, #250652). The authors wish to thank Hugo Bajas and Jerome Feuvrier (CERN) for the heater delay measurements in HQ01e. We thank Fred Nobrega (FNAL), Bernhard Auchmann (CERN) and Emanuela Barzi (FNAL) for providing information for the 11 T simulation. I also gratefully acknowledge the support and useful advice on the work from Ezio Todesco (CERN) and Antti Stenvall (Tampere University of Technology), who also provided Figure 1. I have also received helpful input from Maxim Marchevsky, and Matthijs Mentink (LBNL). I also thank Ray Hafalia (LBNL) for grammar corrections in an earlier draft of the paper (the new mistakes in the present version are not his fault).\n\n#### **REFERENCES**\n\n- [1] H. Felice et al., Instrumentation and Quench Protection for LARP Nb3Sn Magnets, IEEE Trans Appl Supercond vol.19, no.3, pp. 2458-2462, June 2009.\n- [2] L. Imbasciati, Studies of Quench Protection in Nb3Sn Superconducting Magnets for Future Particle Accelerators, PhD thesis and Fermilab TD-03-028, 2003.\n- [3] T. Salmi et al., Quench Protection Challenges in Long Nb3Sn Accelerator Magnets, Trans. of the Cryogenic Engineering Conference, Vol 57, pp. 656- 663, June 2011.\n- [4] H. Felice et al., Design of HQ A High Field Large Bore Nb3Sn Quadrupole Magnet for LARP, IEEE Trans Appl Supercond vol.19, no.3, pp. 1235–1239, 2009.\n- [5] H. Bajas et al., Test Results of the LARP. HQ01 Nb3Sn Quadrupole Magnet at 1.9 K, presented at ASC2012.\n- [6] A. V. Zlobin et al., Development and Test of a Single Aperture 11 T Nb3Sn Demonstrator Dipole for LHC Upgrades, IEEE Trans Appl Supercond vol. 23, no 3, p 4000904, 2013.\n- [7] CRYOCOMP(©copyright [Eckels](http://www.users.qwest.net/%7Evarp/authors.htm%23PEckels) Engineering Inc.).\n- [8] G. Manfreda, Review of ROXIE's Material Database for Quench Simulations, CERN internal note 2011- 24, EDMS Nr: 1178007.\n- [9] E.D. Marquardt et al., Cryogenic Material Properties Database, in Proc. 11th Int. Cryocooler Conf., Keystone, 2000, available at: http://cryogenics.nist.gov/ MPropsMAY/material%20properties.htm.\n- [10] A. Davies, Material properties data for heat transfer modeling in Nb3Sn magnets. Available at:\n\nhttp://www.illinoisacceleratorinstitute.org/2011%20P rogram/student\\_papers/Andrew\\_Davies.pdf.\n\n- [11] S. Prestemon (LBNL), private communication.\n- [12] A. Godeke et al., General Scaling Relation for the Critical Current Density in Nb3Sn, Supercond. Sci. Technol 2006, 19.\n- [13] D. Arbelaez et al., An Improved Model for the Strain Dependence of the Superconducting Properties of Nb3Sn, Supercond. Sci. Technol 2009, 22.\n- [14] L. T. Summers, et al. A model for the prediction of Nb3Sn critical current as a function of field, temperature, strain and radiation damage, IEEE Trans. Magnetics, 27,1.\n- [15] Y. Ҫengel, Heat Transfer A Practical Approach, McGraw-Hill Education, 2003.\n- [16] T. Blomberg, Heat Conduction in Two and Three Dimensions: Computer Modelling of Building\n\nPhysics Applications, PhD Thesis, Lund University, Department of Building Physics, Sweden, 1996.\n\n- [17] Opera 2D, website: http://www.cobham.com/aboutcobham/aerospace-and-security/about-us/antennasystems/specialist-technical-services-andsoftware/products-and-services/design-simulationsoftware/opera/opera-2d/staticelectromagnetics.aspx.\n- [18] A. Godeke et al., A Review of Conductor Performance for the LARP High-Gradient Quadrupole Magnets, to be published in SUST.\n- [19] G. Chlachidze et al., Quench Protection Study of Single-Aperture Nb3Sn Demonstrator Dipole for LHC Upgrades, IEEE Trans on Appl Supercond vol. 23 no 3, 2013.\n- [20] B. Auchmann (CERN), private communication.",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "MODELING HEAT TRANSFER FROM QUENCH PROTECTION HEATERS \nTO SUPERCONDUCTING CABLES IN NB3SN MAGNETS",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              56.8935546875,
+              107.59356689453125
+            ],
+            [
+              541.6318969726562,
+              107.59356689453125
+            ],
+            [
+              541.6318969726562,
+              137.7093505859375
+            ],
+            [
+              56.8935546875,
+              137.7093505859375
+            ]
+          ]
+        },
+        {
+          "title": "Abstract",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              56.38427734375,
+              197.36993408203125
+            ],
+            [
+              97.85400390625,
+              197.36993408203125
+            ],
+            [
+              97.85400390625,
+              209.36993408203125
+            ],
+            [
+              56.38427734375,
+              209.36993408203125
+            ]
+          ]
+        },
+        {
+          "title": "INTRODUCTION",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              124.263671875,
+              300.9237060546875
+            ],
+            [
+              221.462890625,
+              300.9237060546875
+            ],
+            [
+              221.462890625,
+              312.9237060546875
+            ],
+            [
+              124.263671875,
+              312.9237060546875
+            ]
+          ]
+        },
+        {
+          "title": "COMPUTATIONAL MODEL",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              344.0400085449219,
+              359.1236877441406
+            ],
+            [
+              501.419921875,
+              359.1236877441406
+            ],
+            [
+              501.419921875,
+              371.1236877441406
+            ],
+            [
+              344.0400085449219,
+              371.1236877441406
+            ]
+          ]
+        },
+        {
+          "title": "Thermal model",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              304.40234375,
+              378.6899108886719
+            ],
+            [
+              377.73828125,
+              378.6899108886719
+            ],
+            [
+              377.73828125,
+              390.6899108886719
+            ],
+            [
+              304.40234375,
+              390.6899108886719
+            ]
+          ]
+        },
+        {
+          "title": "Material properties and magnetic field",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              56.23876953125,
+              216.44989013671875
+            ],
+            [
+              245.03515625,
+              216.44989013671875
+            ],
+            [
+              245.03515625,
+              228.58984375
+            ],
+            [
+              56.23876953125,
+              228.58984375
+            ]
+          ]
+        },
+        {
+          "title": "Quench delay determination",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              304.40234375,
+              296.96990966796875
+            ],
+            [
+              441.76171875,
+              296.96990966796875
+            ],
+            [
+              441.76171875,
+              308.96990966796875
+            ],
+            [
+              304.40234375,
+              308.96990966796875
+            ]
+          ]
+        },
+        {
+          "title": "Numerical solution",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              304.79998779296875,
+              400.2899475097656
+            ],
+            [
+              400.1999816894531,
+              400.2899475097656
+            ],
+            [
+              400.1999816894531,
+              412.2899475097656
+            ],
+            [
+              304.79998779296875,
+              412.2899475097656
+            ]
+          ]
+        },
+        {
+          "title": "SIMULATION OF THE HQ HEATER IN\nTHE HQ01 QUADRUPOLE",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              311.96875,
+              532.7637023925781
+            ],
+            [
+              530.23046875,
+              532.7637023925781
+            ],
+            [
+              530.23046875,
+              558.5636901855469
+            ],
+            [
+              311.96875,
+              558.5636901855469
+            ]
+          ]
+        },
+        {
+          "title": "Simulation of the HQ heater geometry",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              304.79998779296875,
+              696.4499206542969
+            ],
+            [
+              488.3280029296875,
+              696.4499206542969
+            ],
+            [
+              488.3280029296875,
+              708.4499206542969
+            ],
+            [
+              304.79998779296875,
+              708.4499206542969
+            ]
+          ]
+        },
+        {
+          "title": "Parametric study",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              304.79998779296875,
+              509.0099182128906
+            ],
+            [
+              390.719970703125,
+              509.0099182128906
+            ],
+            [
+              390.719970703125,
+              521.0099182128906
+            ],
+            [
+              304.79998779296875,
+              521.0099182128906
+            ]
+          ]
+        },
+        {
+          "title": "HQ01 SIMULATION RESULTS",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              334.0859375,
+              653.0036926269531
+            ],
+            [
+              508.67999267578125,
+              653.0036926269531
+            ],
+            [
+              508.67999267578125,
+              665.0036926269531
+            ],
+            [
+              334.0859375,
+              665.0036926269531
+            ]
+          ]
+        },
+        {
+          "title": "Comparison with experimental data",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              303.529296875,
+              672.5699310302734
+            ],
+            [
+              480.84002685546875,
+              672.5699310302734
+            ],
+            [
+              480.84002685546875,
+              684.5699310302734
+            ],
+            [
+              303.529296875,
+              684.5699310302734
+            ]
+          ]
+        },
+        {
+          "title": "Heater delay vs. heater power",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              304.79998779296875,
+              107.0098876953125
+            ],
+            [
+              452.760009765625,
+              107.0098876953125
+            ],
+            [
+              452.760009765625,
+              119.331298828125
+            ],
+            [
+              304.79998779296875,
+              119.331298828125
+            ]
+          ]
+        },
+        {
+          "title": "Delay time vs. insulation thickness",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              304.111328125,
+              464.24993896484375
+            ],
+            [
+              471.736328125,
+              464.24993896484375
+            ],
+            [
+              471.736328125,
+              476.24993896484375
+            ],
+            [
+              304.111328125,
+              476.24993896484375
+            ]
+          ]
+        },
+        {
+          "title": "Delay time vs. heater geometry",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              304.40234375,
+              590.6099243164062
+            ],
+            [
+              454.3668212890625,
+              590.6099243164062
+            ],
+            [
+              454.3668212890625,
+              602.6099243164062
+            ],
+            [
+              304.40234375,
+              602.6099243164062
+            ]
+          ]
+        },
+        {
+          "title": "SIMULATION OF THE HEATER IN THE \n11 T DIPOLE",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              59.94921875,
+              649.1636810302734
+            ],
+            [
+              287.6400146484375,
+              649.1636810302734
+            ],
+            [
+              287.6400146484375,
+              674.9636840820312
+            ],
+            [
+              59.94921875,
+              674.9636840820312
+            ]
+          ]
+        },
+        {
+          "title": "Heater power",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              303.529296875,
+              170.4898681640625
+            ],
+            [
+              371.0279846191406,
+              170.4898681640625
+            ],
+            [
+              371.0279846191406,
+              182.4898681640625
+            ],
+            [
+              303.529296875,
+              182.4898681640625
+            ]
+          ]
+        },
+        {
+          "title": "Magnetic field and cable properties",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              304.79998779296875,
+              714.809928894043
+            ],
+            [
+              477.265625,
+              714.809928894043
+            ],
+            [
+              477.265625,
+              726.809928894043
+            ],
+            [
+              304.79998779296875,
+              726.809928894043
+            ]
+          ]
+        },
+        {
+          "title": "11 T DIPOLE SIMULATION RESULTS",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              317.20703125,
+              384.8037109375
+            ],
+            [
+              525.7919921875,
+              384.8037109375
+            ],
+            [
+              525.7919921875,
+              396.8037109375
+            ],
+            [
+              317.20703125,
+              396.8037109375
+            ]
+          ]
+        },
+        {
+          "title": "CONCLUSION",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              130.375,
+              585.0836791992188
+            ],
+            [
+              214.1875,
+              585.0836791992188
+            ],
+            [
+              214.1875,
+              597.0836791992188
+            ],
+            [
+              130.375,
+              597.0836791992188
+            ]
+          ]
+        },
+        {
+          "title": "ACKNOWLEDGMENT",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              358.20001220703125,
+              153.68365478515625
+            ],
+            [
+              485.4140625,
+              153.68365478515625
+            ],
+            [
+              485.4140625,
+              165.68365478515625
+            ],
+            [
+              358.20001220703125,
+              165.68365478515625
+            ]
+          ]
+        },
+        {
+          "title": "REFERENCES",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              381.2400207519531,
+              377.9637145996094
+            ],
+            [
+              461.841796875,
+              377.9637145996094
+            ],
+            [
+              461.841796875,
+              389.9637145996094
+            ],
+            [
+              381.2400207519531,
+              389.9637145996094
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              357
+            ],
+            [
+              "Line",
+              111
+            ],
+            [
+              "Text",
+              8
+            ],
+            [
+              "SectionHeader",
+              5
+            ],
+            [
+              "Equation",
+              3
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Footnote",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              270
+            ],
+            [
+              "Line",
+              96
+            ],
+            [
+              "Text",
+              9
+            ],
+            [
+              "SectionHeader",
+              5
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              300
+            ],
+            [
+              "Line",
+              76
+            ],
+            [
+              "TableCell",
+              32
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              142
+            ],
+            [
+              "Line",
+              49
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "Figure",
+              3
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "FigureGroup",
+              3
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              289
+            ],
+            [
+              "Line",
+              57
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "Figure",
+              3
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "FigureGroup",
+              3
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              355
+            ],
+            [
+              "Line",
+              79
+            ],
+            [
+              "TableCell",
+              37
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              299
+            ],
+            [
+              "Line",
+              114
+            ],
+            [
+              "ListItem",
+              10
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              80
+            ],
+            [
+              "Line",
+              33
+            ],
+            [
+              "ListItem",
+              10
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "ListGroup",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/5BWVuhUm7lTz8z8aMgGxNQ"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 8,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Modeling heat transfer from quench protection heaters to superconducting cables in Nb3Sn magnets",
+    "authors": [
+      {
+        "authors_list": [
+          "Salmi, T.",
+          "Arbelaez, D.",
+          "Caspi, S.",
+          "Felice, H.",
+          "Prestemon, S."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "We use a recently developed quench protection heater modeling tool for an analysis of heater delays in superconducting high-field Nb3Sn accelerator magnets. The results suggest that the calculated delays are consistent with experimental data, and show how the heater delay depends on the main heater design parameters.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1401.3939"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.1401.3939",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2014arXiv1401.3939S"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

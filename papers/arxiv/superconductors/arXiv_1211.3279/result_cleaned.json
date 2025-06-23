@@ -1,0 +1,360 @@
+{
+  "id": "f662bdccf0b3911d830b730d8625ee90",
+  "pdf_path": "apl/Superconductors/arXiv:1211.3279.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "[We gratefully acknowledge support from](https://confluence.cornell.edu/x/ALlRF) [the Simons Foundation and University of Pennsylvania .](https://confluence.cornell.edu/x/ALlRF) [Cornell University](https://www.cornell.edu/)\n\n## **> [cond-mat.supr-con](file:///list/cond-mat.supr-con/recent) [arxiv logo](file:///)**\n\n| All papers<br>˅ |\n|-----------------|\n\n([Help](https://info.arxiv.org/help) | [Advanced search\\)](file:///find)\n\n## **PDF unavailable for [1211.3279](file:///abs/1211.3279)...**\n\nThe author has provided no source to generate PDF, and no PDF.\n\nLink back to: [arXiv,](http://arXiv.org/) [form interface,](http://arxiv.org/form) [contact](file:///help/contact).\n\n[About](https://arxiv.org/about)\n\n## [Help](https://arxiv.org/help)\n\n![](_page_1_Picture_1.jpeg)\n\n[Contact](https://arxiv.org/help/contact)\n\n![](_page_2_Picture_0.jpeg)\n\n[Subscribe](https://arxiv.org/help/subscribe)\n\n[Copyright](https://arxiv.org/help/license)\n\n[Privacy Policy](https://arxiv.org/help/policies/privacy_policy)\n\n[Web Accessibility Assistance](https://arxiv.org/help/web_accessibility)\n\n[arXiv Operational Status](https://status.arxiv.org)\n\n![](_page_4_Picture_0.jpeg)\n\n## Get status notifications via\n\n![](_page_5_Picture_1.jpeg)\n\n[email](https://subscribe.sorryapp.com/24846f03/email/new) or\n\n![](_page_6_Picture_0.jpeg)\n\n[slack](https://subscribe.sorryapp.com/24846f03/slack/new)",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "> cond-mat.supr-con\narxiv logo",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              61.8408203125,
+              120.66748046875
+            ],
+            [
+              499.7913818359375,
+              120.66748046875
+            ],
+            [
+              499.7913818359375,
+              147.80224609375
+            ],
+            [
+              61.8408203125,
+              147.80224609375
+            ]
+          ]
+        },
+        {
+          "title": "PDF unavailable for 1211.3279...",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              62.1318359375,
+              251.81884765625
+            ],
+            [
+              509.6383361816406,
+              251.81884765625
+            ],
+            [
+              509.6383361816406,
+              281.42041015625
+            ],
+            [
+              62.1318359375,
+              281.42041015625
+            ]
+          ]
+        },
+        {
+          "title": "Help",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              81.9208984375,
+              61.772705078125
+            ],
+            [
+              113.14999389648438,
+              61.772705078125
+            ],
+            [
+              113.14999389648438,
+              75.751220703125
+            ],
+            [
+              81.9208984375,
+              75.751220703125
+            ]
+          ]
+        },
+        {
+          "title": "Get status notifications via",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              82.86669921875,
+              61.05322265625
+            ],
+            [
+              249.59397888183594,
+              61.05322265625
+            ],
+            [
+              249.59397888183594,
+              75.751220703125
+            ],
+            [
+              82.86669921875,
+              75.751220703125
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              34
+            ],
+            [
+              "Line",
+              11
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TableCell",
+              2
+            ],
+            [
+              "Form",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              3
+            ],
+            [
+              "Line",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              7
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Line",
+              4
+            ],
+            [
+              "Picture",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Line",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Picture",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              4
+            ],
+            [
+              "Line",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Picture",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Line",
+              1
+            ],
+            [
+              "Span",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/tmpzo5yd_9t"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 7,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "The critical current density of grain boundary channels in polycrystalline HTS and LTS superconductors in magnetic fields",
+    "authors": [
+      {
+        "authors_list": [
+          "Sunwong, P.",
+          "Higgins, J. S.",
+          "Tsui, Y.",
+          "Raine, M. J.",
+          "Hampshire, D. P."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "We provide evidence that a single mechanism—flux flow along channels—can explain the functional form of the critical current density (J<SUB>c</SUB>) in the low-temperature superconductor Nb<SUB>3</SUB>Sn and in the high-temperature superconductors (HTS) YBa<SUB>2</SUB>Cu<SUB>3</SUB>O<SUB>7-δ</SUB> (YBCO) and (Bi,Pb)<SUB>2</SUB>Sr<SUB>2</SUB>Ca<SUB>n-1</SUB>Cu<SUB>n</SUB>O<SUB>x</SUB> (BiSCCO) in low and high magnetic fields. In this paper, we show that standard flux pinning theories, used for the past four decades to describe J<SUB>c</SUB> in low-temperature superconductors (LTS), cannot explain the strain dependence of J<SUB>c</SUB> in YBCO because J<SUB>c</SUB> is a function of strain but the average superconducting properties are not. We conclude that in the polycrystalline samples presented here, the channels are grain boundaries that are narrow and metallic in Nb<SUB>3</SUB>Sn and YBCO but wide and semiconducting in BiSCCO. In Nb<SUB>3</SUB>Sn, strain alters J<SUB>c</SUB> by changing the superconducting properties of the grains, whereas in YBCO, strain alters J<SUB>c</SUB> by changing the properties of the grain boundaries.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Superconductor Science Technology",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1211.3279"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1088/0953-2048/26/9/095006",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2013SuScT..26i5006S"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

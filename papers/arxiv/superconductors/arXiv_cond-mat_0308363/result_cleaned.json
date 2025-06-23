@@ -1,0 +1,417 @@
+{
+  "id": "06176c9569112b4d297db8ffc3e54f0b",
+  "pdf_path": "apl/Superconductors/arXiv:cond-mat_0308363.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "## **Dependence of Maximum Trappable Field on Superconducting Nb3Sn Cylinder Wall Thickness\\***\n\n**Mario Rabinowitz**  *Electric Power Research Institute, Palo Alto, California 94303* \n\n## **H. W. Arrowsmith and S. D. Dah1gren**\n\n*Battelle-Northwest, Richland, Washington 99352* \n\nInquiries to: *Armor Research 715 Lakemead Way, Redwood City, CA 94062* Mario715@earthlink.net\n\n## **Abstract**\n\nUniform dipole magnetic fields from 1.9 to 22.4 kOe were permanently trapped, with high fidelity to the original field, transversely to the axes of hollow Nb3Sn superconducting cylinders. These cylinders were constructed by helically wrapping multiple layers of superconducting ribbon around a mandrel. This is the highest field yet trapped, the first time trapping has been reported in such helically wound taped cylinders, and the first time the maximum trappable field has been experimentally determined as a function of cylinder wall thickness.\n\nPACS numbers: 74.60.Ge, 74.70.Ps, 41.10.Fs, 85.25.+k\n\nUniform dipole magnetic fields were permanently trapped transversely to the axes of hollow Nb3Sn superconducting cylinders, and the dependence of the maximum trappable field on superconductor thickness was investigated. This is the first time magnetic fields have been trapped in such helically wound taped cylinders, as well as the first time the maximum trappable field has been experimentally determined as a function of wall thickness. The highest field trapped was 22.4 kOe, which is higher than the highest trapped field of 17. 6 kOe reported so far.[1] Rabinowitz [1], and Rabinowitz, Garwin and Frankel [2,3] have studied the trapping of dipole, quadrupole, and sextupole magnetic fields in hollow superconducting cylinders, and Smith [4] has\n\nreported theoretical work on flux trapping. A related study was conducted by Martin and St. Lorant [5], who investigated the shielding of magnetic fields with a superconducting flux exclusion tube.\n\nMagnetic fields were trapped in superconducting tubes by two procedures. [1-3] In procedure I, the external dipole field was turned on and the hollow superconducting cylinder then cooled to below its transition temperature in the external field. Next, the external field was turned off and the field remained trapped in the superconductor with high fidelity to the original field. In procedure II, the superconductor was first cooled below its transition temperature. Then the external field was turned on to drive the magnetic field into the superconducting cylinder by exceeding the shielding limit. Finally the external field was turned off and the field remained stored in the cylinder. A schematic of the field trapped in a cylinder and the experimental arrangement is\n\nreproduced in Fig. 1.\n\n![](_page_1_Figure_3.jpeg)\n\nFIG. 1. Experimental arrangement used and end view schematic of the field trapped in a Nb3Sn superconducting cylinder after the external field has been turned off.\n\nSuperconducting cylinders 7.62 cm long used for the field trapping experiments were helically wound from Nb3Sn ribbon 2.54 cm wide by 75 µm thick on nominally\n\n2.54 cm diameter mandrels. The thickness of the superconductor in the wall of the cylinder was determined by the number of layers of ribbon that were applied; cylinders containing 2, 10, 20, and 44 layers were used for the experiments. Alternate layers were helically wound in the opposite direction so that the short piece of ribbon in one layer diagonally crossed the ribbon piece beneath it. The cylinders could just as well have been constructed by placing pieces of ribbon parallel to the axis of the cylinder, but they were helically wound for convenience in construction. A solenoidal configuration was not created by the helical geometry because alternate pieces of ribbon were wound in opposite directions and there were no superconducting electrical connections at the cylinder ends. The Cu-clad ribbon (purchased from IGC) consisted of a center layer of unreacted Nb, a layer of 10.2 µm thick Nb3Sn on each side of the Nb layer, and a thin outside layer of Sn on the Nb3Sn . The critical current density of the ribbon was 9. 6 x <sup>10</sup>4 A/cm2 at 100 kOe, and we measured Tc to be 16.7 - 17. 0 K. The wound cylinders were heated to 240 oC after wrapping to melt the Sn on the ribbon surface and thus bond the ribbon layers to each other so that they would not move during the field trapping experiments. A movable Hall probe was used to measure the field at the center of the cylinder.\n\n| No. of<br>ribbon<br>layers | Superconductor<br>thickness in<br>cylinder wall<br>(mm) | Test<br>No. | External<br>applied<br>field<br>(kOe) | Trapping<br>procedure | Trapped<br>field<br>(kOe) |\n|----------------------------|---------------------------------------------------------|-------------|---------------------------------------|-----------------------|---------------------------|\n| 2                          | 0.04                                                    | 1           | 3.2                                   | I                     | 1.9                       |\n| 10                         | 0.2                                                     | N           | 30                                    | I                     | 8.8                       |\n| 20                         | 0.4                                                     | 3           | 20                                    | I                     | 14.7                      |\n|                            |                                                         | 4           | 40                                    | II a                  | 15.2                      |\n|                            |                                                         | 5           | 41.5                                  | II                    | 15.3                      |\n| 44                         | 0.9                                                     | 6           | 30                                    | I                     | 22.4                      |\n|                            |                                                         | 7           | 36                                    | 1                     | 22.4                      |\n|                            |                                                         | ಕ           | 51                                    | 11                    | 21.2                      |\n\nThe field that could be trapped increased from 1.9 to 22.4 kOe as the superconductor thickness in the wall of the tube increased from 0.04 mm (2 ribbon layers) to 0.9 mm (44 layers, Table I and Fig. 2). Moreover, the maximum field that could be trapped was rather insensitive to the field applied to the tube or to the procedure used to trap the field (Table I). For example, 22.4 kOe was trapped in the 44 -layer tube with procedure I when the applied field was 30 kOe, which was the same field trapped when 36 kOe was applied (Table 1). Only slightly less field was stored (21.2 kOe) when 51 kOe was applied using procedure II (Table I and Fig. 3). Similarly, approximately 15.2 kOe was trapped in the 20-ribbon-layer cylinder with 40 kOe applied using procedure II, whereas only 0.5 kOe less (14.7 kOe) was trapped in the same cylinder with 30 kOe using procedure I (Table I). We observed, perhaps significantly, that when using procedure II, the applied field (~22 kOe) at which a field first penetrated the cylinder (i. e., the shielding limit) was almost the same as the magnitude of the field that could be trapped (21.2 kOe, Fig. 3).\n\n![](_page_4_Figure_0.jpeg)\n\nFIG. 2. Dependence of maximum trappable field on the Nb3Sn superconductor thickness. The fields were trapped using procedureI.\n\n![](_page_4_Figure_2.jpeg)\n\nFIG. 3. Trapping 21.2 kOe in the 44-ribbon-layer Nb3Sn cylinder using procedure 11. Field penetration and ultimately trapped field versus applied field.\n\nThe applied and subsequently trapped dipole fields were measured similarly to the method previously reported [2, 3]; this showed that the shape of the applied field was faithfully reproduced within the accuracy of the Hall probe measurements. Measurements of the trapped field along the length of the 44-layer tube showed that the field was uniformly trapped at 22.4 kOe over the central 2 cm of the tube and was still within 10% of the maximum field (22.4 - 20.2 kOe) over the central 4 cm of the 7. 62-cm-long tube (Fig. 4). The trapped field decreased rapidly outside the central 4 cm of the tube (Fig. 4).\n\n![](_page_5_Figure_1.jpeg)\n\nFIG. 4. Profile of the trapped dipole field near the cylinder centerline from the center of the cylinder to near one end for the cylinder with 44 wraps of Nb3Sn superconductor.\n\nThe trapped fields were stable and did not decay from the superconducting cylinders over the time available to test the time stability of the trapping. Our limited time at the magnet facility necessitated releasing the trapped field after times on the order of 1 h; nevertheless, Rabinowitz [1] reported that fields were stably stored for 1 1/2 days and predicted they would be stable for much longer periods of time.\n\nInformation on the field trapping mechanism was not obtained in the present experiments, but Rabinowitz [1] discussed two mechanisms to explain the results of previous similar experiments on superconducting field trapping tubes. It was suggested [1] that the fields are maintained either by the circulation of macroscopic currents or by microscopic vortex currents whose vector sum is equivalent to macroscopic currents. The latter view is favored although it is not necessary to rely on the microscopic current\n\nmechanism to explain the trapping of fields in cylinders made up of discontinuous pieces of superconducting ribbon.\n\nThe 22.4 kOe trapped in the 44-ribbon-layer cylinder is the highest field yet trapped in a superconducting tube. It appears that still higher fields can be trapped in cylinders with thicker superconducting walls because the field that can be trapped in the cylinders is clearly dependent upon the wall thickness as shown by these experiments. Moreover, the amount of field that can be trapped is expected to be dependent upon the superconducting properties of the material used. For example, superconductors with higher critical current density (i. e., with high pinning force) are expected to trap higher fields. Thus studies of the relationship between pinning force and field trapping ability are planned for a number of materials. We also plan to determine trapping in a single solid layer of superconductor in the walls of the cylinder relative to a cylinder fabricated from the same thickness of multiple superconducting layers. The former will have much less surface pinning.\n\nThe advantages of storing magnetic fields in superconducting tubes are significant, For example, fields can be reproduced many times from a pattern magnet and used in place of the magnet. Thus only one expensive pattern magnet is required. The stored fields also are expected to be extremely stable and thus should be valuable for many electric utility applications such as in circuit breakers, generators and magnetic refrigerators, for MHD and controlled thermonuclear fusion, as well as for focusing charged particles for accelerators or in electron microscopes.\n\nThe authors acknowledge Steve Faber's contribution to the experimental work. Use of the Brookhaven National Laboratory dipole magnet and the assistance at BNL of Bill Sampson is gratefully acknowledged.\n\n\\*Work supported by the Electric Power Research Institute (EPRI).\n\n## **References:**\n\n- 1. M. Rabinowitz, IEEE Trans. Magn. **MAG-11**, 548 (1975).\n- 2. M. Rabinowitz, E. L. Garwin, and D. J. Frankel, Nuovo Cimento Lett. **7**, 1 (1973).\n- 3. E. L. Garwin, M. Rabinowitz, and D. J. Frankel, Appl. Phys. Lett. **22**, 599 (1973).\n- 4. C.W. Smith, Phys. Lett. A **48**, 349 (1974).\n- 5. F. Martin and S.J. St. Lorant, J. Appl. Phys. **44**, 460 (1973).",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Dependence of Maximum Trappable Field on \nSuperconducting Nb3Sn Cylinder Wall Thickness*",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              35.560546875,
+              55.73583984375
+            ],
+            [
+              407.0858154296875,
+              55.73583984375
+            ],
+            [
+              407.0858154296875,
+              91.93487548828125
+            ],
+            [
+              35.560546875,
+              91.93487548828125
+            ]
+          ]
+        },
+        {
+          "title": "H. W. Arrowsmith and S. D. Dah1gren",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              35.18701171875,
+              151.013671875
+            ],
+            [
+              249.53524780273438,
+              151.013671875
+            ],
+            [
+              249.53524780273438,
+              164.92828369140625
+            ],
+            [
+              35.18701171875,
+              164.92828369140625
+            ]
+          ]
+        },
+        {
+          "title": "Abstract",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              246.3837890625,
+              264.708984375
+            ],
+            [
+              295.3916015625,
+              264.708984375
+            ],
+            [
+              295.3916015625,
+              277.48828125
+            ],
+            [
+              246.3837890625,
+              277.48828125
+            ]
+          ]
+        },
+        {
+          "title": "References:",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              35.93408203125,
+              721.8481521606445
+            ],
+            [
+              101.88240051269531,
+              721.8481521606445
+            ],
+            [
+              101.88240051269531,
+              733.9921875
+            ],
+            [
+              35.93408203125,
+              733.9921875
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              54
+            ],
+            [
+              "Line",
+              27
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "SectionHeader",
+              3
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              36
+            ],
+            [
+              "Line",
+              18
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              37
+            ],
+            [
+              "Line",
+              17
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "TableCell",
+              50
+            ],
+            [
+              "Span",
+              26
+            ],
+            [
+              "Line",
+              14
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              19
+            ],
+            [
+              "Line",
+              10
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              37
+            ],
+            [
+              "Line",
+              19
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              50
+            ],
+            [
+              "Line",
+              26
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              19
+            ],
+            [
+              "ListItem",
+              5
+            ],
+            [
+              "Line",
+              5
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/yKG6EHvIt5L-1UOhIDBXKg"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 8,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Dependence of maximum trappable field on superconducting Nb<SUB>3</SUB>Sn cylinder wall thickness",
+    "authors": [
+      {
+        "authors_list": [
+          "Rabinowitz, M.",
+          "Arrowsmith, H. W.",
+          "Dahlgren, S. D."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Uniform dipole magnetic fields from 1.9 to 22.4 kOe were permanently trapped, with high fidelity to the original field, transversely to the axes of hollow Nb<SUB>3</SUB>Sn superconducting cylinders. These cylinders were constructed by helically wrapping multiple layers of superconducting ribbon around a mandrel. This is the highest field yet trapped, the first time trapping has been reported in such helically wound taped cylinders, and the first time the maximum trappable field has been experimentally determined as a function of cylinder wall thickness.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Applied Physics Letters",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:cond-mat/0308363"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1063/1.89254",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/1977ApPhL..30..607R"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

@@ -1,0 +1,723 @@
+{
+  "id": "be66a4b857bb5d1c4c945fc170cdc4cc",
+  "pdf_path": "apl/Superconductors/arXiv:cond-mat_0106344.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "## E lectron transport properties of M gB 2 in the norm al state\n\nM Putti, E G alleani d'A gliano, D M arre, F N apoli, M .T assisto,\n\nINFM /CNR , D ipartim ento di Fisica, V ia Dodecaneso 33, 16146 G enova, Italy\n\nP M anfrinetti, A Palenzona,\n\nINFM , Dipartim ento di Chim ica e Chim ica Industriale, V ia D odecaneso 31,\n\n16146 Genova, Italy\n\nC Rizzuto,\n\nD ipartim ento di Chim ica e Chim ica Industriale, V ia Dodecaneso 31, 16146 Genova, Sincrotrone di Trieste, Trieste\n\n## S M assidda\n\nINFM Dipartim ento di Fisica, Universita di Cagliari, S.P.\n\nM onserrato-Sestu Km 0.700, I-09042 M O N SE R R A T O (C A ), Italy\n\n(M arch 22, 2022)\n\nTypeset using REV TFX\n\n## A bstract\n\nW e have m easured the resistivity and the Seebeck coe cient of a M gB 2 sintered sam ple. The tem perature dependence of resistivity is tted well by a generalized Bloch Gruneisen equation with a Debye tem perature R of 1050 K . The Seebeck coe cient is given by the sum of a di usive and a phonon drag term and the behavior in the tem perature region To < T < 0:1 R follow s a relationship AT + B T 3 w here the tw o term s are proportional to the electron and to the phonon speci c heat, respectively. The phonon drag term , here em phasized for the rst time, is rather large, indicating a strong electronphonon interaction. The di usive term is positive and increases with Aldoping. The com parison of the experim ental values with calculations including precise electronic structure suggests that - bands give the m ain contribution to the Seebeck e ect.\n\nThe discovery of 40 K superconductivity in M gB2 [1] has stim ulated a large discussion on the nature of the pairing and m any evidences suggest a BC S-type m echanism : the isstope e ect on T . [2], energy gap [3] and speci c heat m easurem ents [4] and a negative pressure coe cient of T . [5] [6].\n\nE lectron transport properties m ay give insight into the norm al state conduction process and on the electronic structure, to understand whether M gB2 can be considered a \"sim ple\" m etal in which elections phonon interactions play the most in portant role, or election correlation has to be taken into account. From this point of view som e m easurem ents indicate that M gB 2 behaves indeed like a m etal: m agnetoresist.irity is large and follow s a generalized K ohler's rule [7], the Seebeck e ect [5] [6] [6] is sm all, positive and nearly linear; on the other hand, some Halle ect measurem ents [9] look very sim ilar to those of cuprates decreasing as 1=T with tem perature. Therefore, for a better understanding of basic properties of M gB ¿ new m easurem ents are required possibly on high quality sam ples because, in sintered sam ples, the presence of grain boundaries can a ect the transport properties. This is not the\n\ncase ofthe Seebeck eect,which,as farasthe scattering processes atthe grain boundaries m ay beconsidered elastic,isnotaected by granularity,aswellproved in cuprates[\\[10\\]](#page-9-0);thus, m easurem entsoftherm oelectricpower(TEP)S can bean usefultoolto provideinform ation on the electronic structure ofM gB2,as shown in ref.[\\[6](#page-9-0)]and [\\[8](#page-9-0)],where a dependence ofS on the pressure and on A ldoping was observed;these authors,however,did not consider the phonon drag contribution,which in the case ofstrong electron-phonon coupling has to be im portant.\n\nIn thispaperwe presentresistivity and Seebeck eectm easurem entson a sintered M gB <sup>2</sup> sam ple. The com pound M gB<sup>2</sup> was prepared by direct synthesis from the elem ents: M g and crystalline B were well m ixed together and closed by arc welding under pure argon into outgassed Ta crucibles which were then sealed in quartz am poulesundervacuum .The sam ples were slowly heated up to 950 C and m aintained at this tem perature for 1 day. X -ray diraction shows values ofthe lattice param eters,a = 3:087(1),c= 3:526(1) A ,and the absence of extra re\nections. The specim en for transport m easurem ents, (2 3 12 m m <sup>3</sup>),hasbeen prepared by pressing the powdersin a stainless-steeldie into a pelletwhich was then sintered by heattreatm ent at1000 C for2 days.\n\nThe resistivity m easurem entswere perform ed using a standard fourprobetechnique and the TEP was m easured using an a.c. technique described elsewhere [\\[11\\]](#page-9-0)with sensitivity of 0.5% and accuracy of1.5% . The gradient applied to the sam ple was varied from 1 to 3 K =cm and the frequency from 0:003 to 0:008 H z;the data were acquired with a slowly rising tem perature (1 m K =sec).\n\nThe resistivity m easurem ents are presented in Fig.1 up to 300 K ;the transition region isenlarged in the inset.The criticaltem perature de\fned athalfofthe transition isT<sup>c</sup> = 38 K with am plitudeT <sup>c</sup> 0:3 K .Theroom tem peratureresistivity hasa valueof130 cm , whereas the resistivity atT = 40 K is40 cm .\n\nW e \ftthe tem perature dependence ofthe norm alstate resistivity to the expression:\n\n$$\\mathbf{\\tilde{v}} = \\mathbf{\\tilde{v}} + \\mathbf{\\tilde{v}} \\quad \\text{ } \\quad + \\quad \\mathbf{\\tilde{v}} = \\mathbf{\\tilde{v}} \\tag{7}$$\n\n3\n\nwhere <sup>0</sup> is the tem perature-independent residual resistivity and ph(T) the phononscattering contribution assum ed ofthe generalized Bloch-G runeisen form :\n\n$$\\mathbf{r}\\_{\\rm ph}(\\mathbf{T}) = \\begin{array}{c} \\langle \\mathfrak{m} & \\mathbf{1} \\rangle \\ ^{0}\\mathbf{e}\\_{\\mathbf{R}} & \\xrightarrow{\\mathbf{T}} \\mathbf{z}^{\\rm m} & \\xrightarrow{\\mathbf{z}^{\\rm m} \\ ^{0}\\mathbf{Z}^{\\rm m}} \\mathbf{z}^{\\rm m} \\langle \\mathbf{z}^{\\rm m} \\rangle \\\\\\\\ & \\mathbf{0} & \\end{array} \\tag{2}$$\n\nwhere - <sup>R</sup> is the D ebye tem perature, <sup>0</sup> is the tem perature coecient ofresistivity for T <sup>R</sup> and m = 3 5.Eq.(2)reducesto (T)= <sup>0</sup>+ const T <sup>m</sup> forT <sup>R</sup> ;indeed wesee thatfrom 40 to 100 K theresistivity iswell\ftted by a powerlaw (T)= <sup>0</sup> + const T <sup>3</sup> [\\[7\\]](#page-9-0). The best \ftto our data is obtained with m = 3, <sup>0</sup> = 39:7 cm ,- <sup>R</sup> = 1050 K , <sup>0</sup> = 0:49 cm =K and is shown in Fig.1 as a continuous line. The - <sup>R</sup> value is in fair agreem ent with - <sup>D</sup> obtained from heat capacity m easurem ents [\\[12](#page-9-0)]although lower values have also been reported [\\[4\\]](#page-9-0). <sup>0</sup> which isproportionalto the dim ensionless tr coupling coecient,has the sam e value that in A 15 [\\[13\\]](#page-9-0),consistent with a m oderately strong coupling. The low tem perature T <sup>3</sup> behavior,com m on in transition m etals [\\[14\\]](#page-9-0)where is related to inter-band scattering processes, suggests that also in M gB<sup>2</sup> the m ain contribution to the electrical conductivity com esfrom a m ore m obileband,whose carriersarescattered into em pty states ofanotherless m obile band.\n\nThe TEP m easurem ents are shown in Fig. 2, where we see the transition around 37 K and a continuous increase from 45 K ,with curvature changing from positive to negative above 150 K .A bove the transition region the TEP appearsin excellentagreem entwith the literature data [\\[5\\]\\[6](#page-9-0)][\\[8](#page-9-0)]both in value and in behavior.Thiscontrastswith the wide spread ofresistivity data available in the literature,which indicates a sm aller in\nuence ofdisorder orgranularity on TEP.\n\nThe observed tem perature behaviorcan be analyzed considering \frstthe diusive contribution to S given by the M ottform ula:\n\n$$\\mathbf{S}\\_{\\mathrm{d}} = \\frac{\\prescript{2}{}{\\mathbf{S}}}{\\prescript{2}{}{\\mathbf{S}}} \\frac{\\prescript{2}{}{\\mathbf{T}}}{\\mathbf{e}} \\prescript{0}{}{\\mathbf{t}} \\tag{3}$$\n\nwhere e is charge ofcarriers, is the electricalconductivity and <sup>0</sup> = @ @\" (\")j\"<sup>F</sup> . N ote that\"<sup>F</sup> m ustbe counted upward forelectronsand downward forholes.In the isotropic case and if the relaxation time is independent of the energy (this is the case for scattering with grain boundaries), becom es:\n\n$$\\mathbf{S}\\_{\\mathrm{d}} = \\frac{\\,^2\\mathrm{K}\\_{\\mathrm{B}}\\,^2\\mathrm{T}}{2\\mathrm{e}\\,^{\\mathrm{\"{o}}}\\mathrm{F}};\\tag{4}$$\n\nSecond, we must consider a phonon drag tem. Sq, arising for tem peratures lower than the D ebye tem perature, when the phonon relaxation time for interaction with other phonons and in purities is much longer than the relaxation time for phonon-elections. For pure isotropic m etals and considering only election-phonon nom al processes, an upper bound for S can be estim ated to be of the order [15]\n\n$$\\mathbf{S}\\_{q} = \\frac{\\mathbf{C}\\_{\\text{ph}}}{\\text{\\textdegree\\text{\\textdegree}}} ; \\tag{5}$$\n\nwhere Cph is the phonon speci c heat per unit volum e. Thus, for T Sq to really reach this upper bound, the totalTEP S will take the form :\n\n$$\\mathbf{S} = \\mathbf{S}\\_{\\mathrm{d}} + \\mathbf{S}\\_{\\mathrm{d}} = \\mathbf{A}\\mathbf{T} + \\mathbf{B}\\mathbf{T}^{\\mathrm{3}};\\tag{6}$$\n\nwhere:\n\n$$\\mathbf{A} = \\frac{\\,^2\\mathrm{K}\\_{\\mathrm{B}}^2}{2\\mathrm{e}} \\frac{1}{\\mathrm{\\prime\\prime}\\_{\\mathrm{F}}} \\tag{7}$$\n\n$$\\mathbf{B} = \\frac{\\mathbf{a}}{3\\text{ne}} = \\frac{\\mathbf{K}\\_{\\text{B}}}{\\mathbf{e}} \\frac{\\mathbf{1}}{\\mathbf{n}\\_{\\text{a}}} \\frac{4}{5} \\frac{4}{\\mathbf{5}} \\frac{1}{\\mathbf{5}} \\tag{8}$$\n\nHere 3 = 2252 is the coe cient of the low temperature phonon speci c heat, N is the num ber of atom s per unit volume, and ng is the number of valence electrons which is 4/3 in M gB2. Equation (6) can be com pared with the experimental TEP of M gB2 in the tem perature range To < T < 0:1 p > 100K which overlaps for a large am ount with our m easurem ents range.\n\nThe inset of Fig. 2 show s the ratio S=T as a finction of T 2 for 40 K < T < 100 K . The data show a linear behavior up to a T 2 value of 8000 (T = 90 K ) and then begin to bend. The best\ftperform ed in the range 2000 K <sup>2</sup> < T<sup>2</sup> < 8000 K <sup>2</sup> isplotted asa continuousline and the \ftparam eters are A = 1:76 10<sup>2</sup> V=K <sup>2</sup> and B = 1:26 10<sup>6</sup> V=K <sup>4</sup>.\n\nIn Fig. 2 eq. (6) with A and B given by the \ft is plotted as a continuous line,while the diusive term S<sup>d</sup> = A T is plotted as a dashed line. The experim ental curve is well \ftted by eq. (6) up to 100 K ,above which the data change curvature and tend to increase linearly,with nearly the sam e slope ofSd. The experim entalphonon drag term de\fned as S Sd,plotted as a dotted line,tends to saturate above 250 K .This is exactly what it is expected forS<sup>g</sup> ;in fact,increasing the tem perature,phonon-im purity and phonon-phonon processes becom e m ore im portant,and the phonon drag falls,causing a peak in the TEP. In m etalsasCu,A g,A u,A l,the phonon drag peak occursatabout- <sup>D</sup> =5 [\\[15\\]](#page-9-0),while in our case the peak isnotyetreached at- <sup>D</sup> =4 giving a furtherevidence ofthe im portance ofthe electron-phonon coupling in M gB2.\n\nW e therefore \fnd thatthe diusive and phonon drag term scontribute nearly equally to the TEP.Thiswasnotrecognized both in ref.[\\[6\\]](#page-9-0)and [\\[8](#page-9-0)]because only a diusive term ,even notvanishing atT = 0,was considered in orderto \ftthe data.\n\nTo furtherverify the consistency ofthe m odel,letustry now to relate the coecientA and B with som em icroscopicparam eters.W e\frststartneglecting them ulti-band character ofM gB<sup>2</sup> and we pursue in ournaive m odelofisotropic free electrons.Its reliability willbe discussed afterwards in the lightofthe band structure eects.\n\nThe coecientsA and B ofour sam ple,and those extrapolated from data in literature forpure [\\[5\\]](#page-9-0)and A ldoped M gB<sup>2</sup> [\\[8\\]](#page-9-0),aresum m arized in tableI.The Ferm ienergy \"<sup>F</sup> and the D ebye tem perature - <sup>D</sup> are obtained directly from A and B (eq.s (7) and (8)): the D ebye tem perature ofabout 1400 K ,is only the 30% higher than - <sup>R</sup> and \"<sup>F</sup> forpure M gB<sup>2</sup> is of the orderof2 eV and becom es 1.2 eV forA ldoped sam ples: since the A ldoping raises the Ferm ilevel,the decreasing of\"<sup>F</sup> with A ldoping is a further evidence (in addition to the positive sign)thatS<sup>d</sup> isdom inated by holes.\n\nLet us now turn to the TEP as resulting from the band structure ofM gB2. Two types bands contribute to the conduction [\\[17](#page-10-0)][\\[18](#page-10-0)]: two bands,deriving from the px;y states of\n\n6\n\nB and two bands deriving from the p2 states. The two sets of bands have very di erent dim ensional character, the bands being of hole type and nearly 2D , and the 3D bands m ainly of electron type. G reat relevance in the discussion of the pairing mechanism has been given to the bands [18], and the positive sign of the H all coe cient and of the TEP, as well as the increasing of the latterwith Aldoping, con m the in portance of these bands in the transport properties. Starting from the precise electronic structure calculations described in Ref. [[7], we have com puted the Seebeck tensor Sg , as a function of the chem ical potential shift, to reproduce within a rigid band scheme the Aldoping. These calculations are perform ed using the the scheme described, e.q., in ref. [17,19]. Because of hexagonal symmetry, the independent components are Sxx = Syy and Sz2 . Brie y, if is the unit cell volum e and vi (k ;n ) are the cartesian com ponents of the Ferm ivelocities for the n th band, we obtain the TEP com ponents Sij as:\n\n$$\\mathbf{G}^{\\mathsf{T}}\\{\\mathsf{T}\\} = \\frac{\\mathbf{g}^{\\mathsf{B}}}{\\mathbf{g}^{\\mathsf{B}}} \\frac{\\mathbf{g}^{\\mathsf{B}} \\mathbf{g}^{\\mathsf{T}} \\mathbf{g}^{\\mathsf{T}} \\mathbf{g}^{\\mathsf{T}} \\mathbf{g}^{\\mathsf{B}}}{\\mathbf{g}^{\\mathsf{B}} \\mathbf{g}^{\\mathsf{T}} \\mathbf{g}^{\\mathsf{B}} \\mathbf{g}^{\\mathsf{B}} \\mathbf{g}^{\\mathsf{B}}} \\tag{9}$$\n\nwhere\n\nIfwe consider to be isotropic and independent of energy, it will not a ect the nalress it. A s pointed out in Ref. [19], Sii vanishes in the approxim ation therefore be appropriate to include the energy dependence of as well. Unfortunately, it is not easy to obtain a consistent (\") approximation, and we therefore use the most conservative, = const, approach .\n\nS a show s the expected linear behavior as a function of tem perature, and we therefore plot in Fig.3 Sg=T , as a finction of the electron doping, in a rigid band scheme. Fig. 3 (a) gives the tensor com ponents, while to compare with experiment we show in F ig. 3 (b) the average of Sy=T over directions, S =T . Since both num exator and denom inator in the de nition of Sy=T contain a band summ ation, there is no clear cut distinction between the and contributions (in fact, when we consider the bands alone, the resulting S ;= T reproduces the free-election results along the x and y directions, and is zero along z, up to the 2D to 3D crossover when crosses the band top at , and S 22 grow s to nally give isstropic results). W ith this waming, in order to better understand our results, we decom pose Sy=T in term sof and bands contributions (i.e. we decom pose the num exator of eq. (9)). W e notice that\n\nfor sm all values of doping the dom inant, positive contribution com es from obands; when the chem ical potential goes beyond the A point maxim um this contribution disappears and the resulting Sy=T is much sm aller and negative, identical to the contribution. The sm allness of the latter relative to the contribution can be easily understood: the num erator of eq. (9) essentially monitors the ii (\") derivative with respect to \", and this quantity is much larger for the bands. As a function of the doping x, Su=T initially grows, and then it bends down, especially when goes beyond the 2D to 3D crossver, but also because of the change the contribution .\n\nThe calculated values are smaller, by a factor of about 1.7-2, than the experimental values of table I. The trend as a finction of doping, however, is sim ilar in experiment and theory; it would be interesting, in this respect, to obtain the experimental values for larger doping. W hile the agreem ent between theory and experim ent is not quantitatively good, it m ay considered to be satisfactory based on the fact that our calculations do not include the energy dependence of , which may result into quantitative di erences [19]. A s a speculation, we may say the following: our understanding of M qB ; indicates a strong electron-phonon coupling for the band top (m ostly with the E 20 phonon mode). Very likely, such a strong coupling will depend on the energy location, relative to the band top, resulting into an energy dependent (\"). We also stress that our calculations do not contain any form of renom alization; it has been a controversial question, in the literature [20], whether renom alization should a ect the bare band-strutture results. If this would be the case, the strong election phonon coupling in M gB 2 would bring the theoretical value into agreem ent with experim ent. W e m ay speculate that the presence of contributions to TEP from di erent bands, having di erent electron-phonon couplings, should prevent a com plete cancellation of renorm alization e ects in the nalresult.\n\n8\n\nIn sum m ary,we analyzed in detailthe resistivity and the therm oelectric power in the norm alstate and we showed that these transport properties can described within an independent electron fram ework,by taking into account the high phonon frequencies and the strong electron-phonon coupling. In particular the TEP is the sum of a diusive and a phonon drag term s which contribute nearly equally to it. The phonon drag term was not previously recognized,in factitspeak isshifted above room tem perature by the high D ebye tem perature and the strong electron-phonon interaction.The diusive term ispositive and increases with A ldoping. The com parison ofthe experim entalvalues with the theoretical ones,calculated starting from theprecise electronic structure suggeststhat bandsgive the m ain contribution to the TEP.Further investigation willbe necessary to verify this result; in particulartransportpropertieson sam pleswith higherlevelofA ldoping willbe a useful toolto betterinvestigate the role ofthe bands,whose relevance in the pairing m echanism hasbeen strongly advocated.\n## REFEREN CES\n\n- <span id=\"page-9-0\"></span>[1]J.N agam atsu, N .N akagawa, T.M uranaka,Y .Zenitani and J.A kim itsu, N ature 410,63 (2001).\n- [2]S.L.Bud'ko,G .Lapertot,C.Petrovic,C.E.Cunningham ,N .A nderson and P.C.Can\feld, Phys.R ev.Lett.86,1877 (2001).\n- [3]G .K arapetrov,M .Iavarone,W .K .K wok,G .W .Crabtree and D .G .H iuks,Phys.R ev.Lett. 86,4374 (2001);A .Sharoni,I.Felnerand O .M illo[,cond-m at/0102325.](http://arxiv.org/abs/cond-mat/0102325)\n- [4]R .K .K rem er,B.J.G ibson,K .A hn[,cond-m at/0102432](http://arxiv.org/abs/cond-mat/0102432)\n- [5]B.Lorenz,R .L.M eng,C.W .Chu[,cond-m at/0102264](http://arxiv.org/abs/cond-mat/0102264).\n- [6]E.S.Choi,W .K ang,J.Y .K im ,M in-Seok Park,C.U .Jung,H eon-Jung K im ,Sung-Ik Li, [cond-m at/0104454](http://arxiv.org/abs/cond-mat/0104454) .\n- [7]D .K .Finnem ore, J.E.O stenson, S.L.Bud'ko, G .Lapertot, P.C.Can\feld, [cond](http://arxiv.org/abs/cond-mat/0102114)[m at/0102114](http://arxiv.org/abs/cond-mat/0102114)\n- [8]B.Lorenz,R .L.M eng,Y .Y .X ue,C.W .Chu,[cond-m at/0104041.](http://arxiv.org/abs/cond-mat/0104041)\n- [9]R .Jin,M .Parantham an,H .Y .Zhai,H .M .Christen and D .M andrus[,cond-m at/0104411](http://arxiv.org/abs/cond-mat/0104411).\n- [10]J.L.Tallon, J.R .Cooper, P.S.I.P.N . de Silva, G .V .M .W illiam s and J.W .Loram , Phys.R ev.Lett.75,4114 (1995).\n- [11]M .Putti,A .Canesi,M .R .Cim berle,C.Foglia,A .S.Siri,Phys.R ev.B 58,12344 (1998).\n- [12]F.Bouquet,R .A .Fisher,N .E.Phillips,D .G .H inks,J.orgensen,[cond-m at/0104206](http://arxiv.org/abs/cond-mat/0104206)\n- [13]F.N ava,O .Bisi,K .N .Tu,Phys.R ev.B 34,6143 (1986).\n- [14]G .T.M eaden Electricalresistance ofm etalsH eywood Books,London,89 (1966)\n- [15]J.M .Zim an, Electrons and phonons, O xford, Clarendon Press (1960); R .D .Barnard, Therm oelectricity in m etals and alloys,Taylor& FrancisLtd,London,136 (1972).\n- [16]V .N .K ang,C.U .Jung,K ijon H .P.K im ,M in-Seok Park,S.Y.Lee,H yeong-Jin K im ,Eun-M iChoi,K yung H ee K im ,M un-Seog K im ,Sung-Ik Lee[,cond-m at/0102313](http://arxiv.org/abs/cond-mat/0102313);V .N .K ang, H yeong-Jin K im ,Eun-M iChoi,K ijon H .P.K im ,Sung-Ik Lee[,cond-m at/0105024](http://arxiv.org/abs/cond-mat/0105024).\n- [17]G .Satta,G .Profeta,F.Bernardini,A .Continenza,S.M assidda,in printon Phys.R ev.B.\n- [18]J.K ortus, I.I.M azin, K .D .Belashenko, V .P.A ntropov, L.L.Boyer, [cond-m at/0101446](http://arxiv.org/abs/cond-mat/0101446); J.M .A n,E.W .Pickett,Phys.R ev.Lett.86,4366 (2001).\n- [19]P.B.A llen,W .E.Pickett,H .K rakauer,Phys.R ev.B 37,7482 (1988).\n- [20]G .G rim vall,The electron-phonon interaction in m etals,Ed.E.P.W ohlfarth,in Selected Topicsin Solid State PhysicsVol.X V I,N orth-H olland,1981;A .B.K aiser,Phys.R ev.B 29,7088 (1984);A .B.K aiser,Phys.R ev.B 35,4677 (1987),and references therein.\n\n## Figure captions\n\nFigure 1: as a function oftem perature;the transition region is enlarged in the inset. The best \ftting curve obtained with <sup>0</sup> = 39:7 cm , - <sup>R</sup> = 1050 K , <sup>0</sup> = 4:95 10<sup>1</sup> cm =K isreported asa continuous line.\n\nFigure 2: S as a function oftem perature;the continuous line is given by eq. (6) with A = 1:76 10<sup>2</sup> V=K <sup>2</sup> and B = 1:26 10<sup>6</sup> V=K <sup>4</sup>;the dashed line is the diusive term S<sup>d</sup> = A T;the dotted line is the experim entalphonon drag term de\fned asS Sd. In the inset it is shown S=T as a function ofT <sup>2</sup>;the continuous line is the best \ft perform ed in the range 2000 K <sup>2</sup> < T<sup>2</sup> < 8000 K 2.\n\nFigure 3: Sd=T as a function of doping, estim ated in a rigid band schem e from the integrated D O S.(a) Tensor com ponents and average;(b) A verage Sd=T and its band decom position,asexplained in the text.\n\n## Table captions\n\nTable 1: The coecienta A and B obtained by \ftting S=T vs. T <sup>2</sup> (eq.(6)); - <sup>D</sup> as obtained by eq.(8);\"<sup>F</sup> asobtained by eq.(7).\n\n| Table I             |           |     |      |     |                |          |\n|---------------------|-----------|-----|------|-----|----------------|----------|\n|                     | A<br>(V=K | 2)B | (V=K | 4)  | (K<br>)\"F<br>D | (eV<br>) |\n| M gB2               | 1.76      | 102 | 1.26 | 106 | 1430           | 2.1      |\n| (a)M gB2            | 1.70      | 102 | 1.30 | 106 | 1430           | 2.2      |\n| (b)M gB2            | 2.00      | 102 | 1.30 | 106 | 1430           | 1.8      |\n| (b)M g0:95A l0:05B2 | 2.88      | 102 | 1.41 | 106 | 1390           | 1.3      |\n| (b)M g0:9A l0:1B2   | 2.99      | 102 | 1.49 | 106 | 1360           | 1.2      |\n\n(a)ref.[\\[5\\]](#page-9-0);(b)ref.[\\[8](#page-9-0)].\n\n![](0__page_12_Figure_0.jpeg)\n\n![](0__page_14_Figure_0.jpeg)\n\n![](0__page_16_Figure_0.jpeg)",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "E lectron transport properties of M gB 2 in the norm al state",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              96.75,
+              72.0
+            ],
+            [
+              513.38671875,
+              72.0
+            ],
+            [
+              513.38671875,
+              84.0146484375
+            ],
+            [
+              96.75,
+              84.0146484375
+            ]
+          ]
+        },
+        {
+          "title": "S M assidda",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              275.25,
+              359.25
+            ],
+            [
+              334.5,
+              359.25
+            ],
+            [
+              334.5,
+              369.509765625
+            ],
+            [
+              275.25,
+              369.509765625
+            ]
+          ]
+        },
+        {
+          "title": "A bstract",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              276.75,
+              72.75
+            ],
+            [
+              334.5,
+              72.75
+            ],
+            [
+              334.5,
+              83.48291015625
+            ],
+            [
+              276.75,
+              83.48291015625
+            ]
+          ]
+        },
+        {
+          "title": "REFEREN CES",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              256.39453125,
+              70.7625732421875
+            ],
+            [
+              354.41015625,
+              70.7625732421875
+            ],
+            [
+              354.41015625,
+              85.1087646484375
+            ],
+            [
+              256.39453125,
+              85.1087646484375
+            ]
+          ]
+        },
+        {
+          "title": "Figure captions",
+          "heading_level": null,
+          "page_id": 10,
+          "polygon": [
+            [
+              259.3828125,
+              407.08819580078125
+            ],
+            [
+              352.4128723144531,
+              407.08819580078125
+            ],
+            [
+              352.4128723144531,
+              419.04339599609375
+            ],
+            [
+              259.3828125,
+              419.04339599609375
+            ]
+          ]
+        },
+        {
+          "title": "Table captions",
+          "heading_level": null,
+          "page_id": 10,
+          "polygon": [
+            [
+              261.0263671875,
+              718.2481231689453
+            ],
+            [
+              350.2265625,
+              718.2481231689453
+            ],
+            [
+              350.2265625,
+              730.2033195495605
+            ],
+            [
+              261.0263671875,
+              730.2033195495605
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              16
+            ],
+            [
+              "Span",
+              16
+            ],
+            [
+              "Text",
+              11
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              28
+            ],
+            [
+              "Span",
+              28
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              162
+            ],
+            [
+              "Line",
+              28
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Equation",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              285
+            ],
+            [
+              "Line",
+              55
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Equation",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              19
+            ],
+            [
+              "Span",
+              19
+            ],
+            [
+              "Equation",
+              5
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              239
+            ],
+            [
+              "Line",
+              35
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "TextInlineMath",
+              3
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              25
+            ],
+            [
+              "Span",
+              25
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Equation",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              29
+            ],
+            [
+              "Span",
+              29
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              36
+            ],
+            [
+              "Line",
+              14
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              71
+            ],
+            [
+              "Line",
+              22
+            ],
+            [
+              "ListItem",
+              14
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              189
+            ],
+            [
+              "Line",
+              31
+            ],
+            [
+              "ListItem",
+              6
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              178
+            ],
+            [
+              "TableCell",
+              43
+            ],
+            [
+              "Line",
+              14
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              88
+            ],
+            [
+              "Line",
+              35
+            ],
+            [
+              "Figure",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 14,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              113
+            ],
+            [
+              "Line",
+              55
+            ],
+            [
+              "Figure",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 15,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 16,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              68
+            ],
+            [
+              "Line",
+              38
+            ],
+            [
+              "Figure",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 17,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Electron transport properties of MgB<SUB>2</SUB> in the normal state",
+    "authors": [
+      {
+        "authors_list": [
+          "Putti, M.",
+          "Galleani d'Agliano, E.",
+          "Marrè, D.",
+          "Napoli, F.",
+          "Tassisto,"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "We report measurements of the resistivity, ρ, and the Seebeck coefficient, S, of a MgB<SUB>2</SUB> sintered sample, and compare S with theoretical calculations based on precise electronic structure calculations. ρ is fitted well by a generalized Bloch-Grüneisen equation with a Debye temperature Θ<SUP></SUP><SUB>R</SUB> of 1050 K. S is given by the sum of a diffusive and a phonon drag term and the behavior in the temperature region T<SUB>c</SUB> < T < 0.1Θ<SUP></SUP><SUB>R</SUB> follows the relationship AT+BT<SUP>3</SUP>. The phonon drag term indicates a strong electron-phonon interaction. The diffusive term, compared with calculations, suggests that σ bands give the main contribution to the Seebeck effect.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "European Physical Journal B",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:cond-mat/0106344"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1140/epjb/e20020050",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2002EPJB...25..439P"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

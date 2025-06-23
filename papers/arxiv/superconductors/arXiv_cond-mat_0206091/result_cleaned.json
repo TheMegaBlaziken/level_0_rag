@@ -1,0 +1,273 @@
+{
+  "id": "5a102c0908376d230602358b2c4e49e7",
+  "pdf_path": "apl/Superconductors/arXiv:cond-mat_0206091.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "## T w o P hase R egim e in the M agnetic Field-Tem perature P hase D iagram of a T yoe-II Superconductor\n\nL . L . A . A dam s , K laus H alterm an , O riol T . V alls, and A . M . G oldm an School of Physics and A stronom y, U niversity of M innesota, 116 C hurch St. SE , M inneapolis, M innesota 55455\n\n(A pril 14, 2024)\n\nThe m agnetic eld and tem perature dependencies of the m agnetic m om ents of superconducting crystals of V ; Sihavebeen studied. In a constant magnetic eld and at tem peratures som ew hat below the superconducting transition tem perature, the m om ents are hysteretic in tem perature. How ever the magnetic m om ent-m agnetic eld isotherm s are reversible and exhibit features that form ally resem ble the pressure volum e isothern s of the liquid-gas transition. This suggests the existence of a rst-order phase transition, a two-phase regime, and a critical point in the superconducting phase diagram . The entropy change, determ ined from the data using the C lausius C lapeyron equation, is consistent with estim ates based on the di erence in the vortex densities of the two phases.\n\n74.25 D w , 74.25 H a , 74.60 G e\n\nThe study of m agnetic eld-tem perature phase diaqram s of type II superconductors has revealed a rich range of behaviors, with the various transitions between vortex con gurations, i.e., from lattice to liquid, glass to liquid, etc., resembling those found in ordinary m atter. A s a consequence, the study of them odynam ic properties of \\vortex m atter\" has en erged as an im portant eld of research [1]. The richness of the physics becam e apparent only after high-quality single-crystal sam ples of high tem perature superconductors becam e available [2]. C onventional superconductors that were subsequently studied, were also found to exhibit related phenom ena, exam ples of which are phase transitions [3] associated with the peak e ect [4] in Nb, and coexistent vortex phases in the peak e ect regime of N bSe2 [5]. The work on N b com bined m agnetic m easurem ents with sm all angle neutron scattering studies, and that on N bSe2 involved a direct m ap of the local ac induction using a variant of scanning H all probe m icroscopy. D om ains of di ering pinning strength rem ained distinct during the transform ation from stronger pinning and higher critical current at high tem perature to weaker pinning and low er critical current at low tem perature. Such behavior is a hallm ark of a rst order transition. In this Letter we report measurem ents of the equilibrium m agnetic m om ents of V 3Si crystals as a function of m agnetic eld and temperature. W e provide an interpretation of the results using an analogy with the phase diagram of the liquid-gas system that further supports the existence of coexistent phases in addition to the existence of a critical point. O ur approach, being based on a them odynam ic analysis of m agnetization data alone, does not reveal the nature of the phases.\n\nThe interm etallic com pound V 3 Si is a type-II superconductor that has been known since the 1950s [6]. Stoichiom etric and near-stoich.iom etric sam ples form in the A 15 crystal structure. The crystals used in the present w ork were prepared using an electron-beam oating zone\n\ntechnique [7]. They were characterized by m etallographic and lattice param eterm easurem ents. A lso their resistivity ratios, superconducting transition tem peratures, and structural transition tem peratures were cataloged. The sam ples were at wafers cut from the V3Si rods produced in the oating zone process, and polished using standard abrasives. Superconducting transition tem peratures ranged from 16.52 K to 16.97 K , and resistivity ratios from 2.6, for the low est transition tem perature sam ple, up to 30 to 40 for samples with transition tem peratures the order of 16.95 K . Lattice param eters ranged from 4.7300 A for disordered samples down to 4.7242 A for the most ordered ones. A lthough som e wafers were single crystals, m ost of them were polycrystalline with large crystallites.\n\nM easurem ents of m agnetization were m ade using a Quantum Design M agnetic P roperties M easurem ent System the maqnetic eld direction, were attached to a stepperm otor controlled platform and driven through a superconducting detection coil, which is a second-order gradiom eter connected to a superconducting quantum interference device (SQ U ID ). Standard software was used to determ ine the magnetic m om ent from the SQU ID output signal. A lthough this is a conventional system for the determ ination of the properties of superconducting and m agnetic m aterials, som e detail is relevant, as the on-axis eld hom ogeneity of the particular system (serial # 1 of the M PM S instrum ents) is only 4 parts in 10,000 over a distance of 3 cm . This means that during a 3 cm scan at a eld of 15 kO e, the sam ple in e ect w ill be subject to a variation ofm agnetic eld of order 6 0 e. M uch has been written about the e ect on the reversibility of m easurem ents of eld inhom ogeneity in this instrum ent [8,9]. W e do not believe that m uch of this is relevant for this particular set of studies with these samples as the m vs. H curves that were obtained were reversible under\n\n<span id=\"page-1-0\"></span>![](_page_1_Figure_0.jpeg)\n\nFIG .1. T hree dim ensionalplot show ing the m agnetic m om entm easured at\fxed tem perature,asa function ofapplied m agnetic \feld and tem perature. T he tem perature ranges from 13.8 K to 15.2 K ,in 0.1 K increm ents.\n\nm ostconditions.Itislikely thatthe variation ofthe \f eld during a scan is too sm alla fraction ofthe total\f eld to introduce any signi\f cantadditionalirreversibility.\n\nStandard plots ofthe m agnetic m om ent vs. m agnetic \f eld,m (H ),for these V3Siwafers were consistent w ith the usualresults for type II superconductors,w ith H <sup>c</sup><sup>1</sup> m easured to be 700 O e. Because the upper lim it on the m agnetic \f eld in this apparatus was 55 kO e, and the upper critical \f eld of V3Si at low tem peratures is 200 kO e,there wasa relatively high lowerbound on the tem perature at w hich a com plete set of data could be obtained. In Fig. 1 we show a three-dim ensional plot of raw data ofm (H ) at di erent \f xed tem peratures,for a tem peratureregim erelatively closeto the zero-\f eld criticaltem perature.T hisparticularsam plewasa waferthat was 0.76 cm x 0.48 cm in area and 0.053 cm thick. Below a characteristic tem perature,\nat sections appear in m (H )isotherm s,and astem peratureisdecreased further these deform into structuresw hich appearto oscillatereversibly (w ithout hysteresis). T he \nat and oscillatory regim es separate regions w hich are distinguished by different values ofthe susceptibility,(@m =@H )<sup>T</sup> . In Fig.2 we show m (T)at \f xed H ,for a range ofm agnetic \f elds spanning the regim e ofT and H in w hich there are nontrivialfeatures in the m (H ) isotherm s. For this m ode of data acquisition, hysteretic behavior in tem perature is clearly observed. T his occurs even though there is no apparenthysteresisin them (H )isotherm soverthe sam e range oftem peratures.\n\nT he above-described behaviorwasobserved in \f ve out ofseven V3Sisam ples.Itwasalwaysseen ifthe sam ples arecooled in zero \f eld to low tem peratures,and the \f eld\n\n![](_page_1_Figure_5.jpeg)\n\nFIG .2. M agnetic m om ent as a function oftem perature at dierentapplied \felds:25 (bottom ),30,35,40,45,50,and 55 x 10<sup>3</sup> O e (top). C losed sym bols represent data taken as the tem perature is increased, w hile open sym bols represent decreasing tem perature data. N oticeable hysteresis is observed as the \feld is increased beyond 35 x 10<sup>3</sup> O e.\n\nand m (H ) curves are obtained w ith increasing tem perature. O n the other hand,reversibility was lost in m ost ofthe sam ples if they were cooled in high \f elds before a m easurem entcycle was initiated. Even in this circum stance curves ofm (H ) in increasing \f eld were the sam e as those obtained on cooling in zero \f eld.\n\nItisapparentfrom them (H )isotherm sshow n in Fig.1 thatthe therm odynam ics ofthe system m ay best be described by consideringthem agneticworkdW doneby the system w hen H is varied at constant m ,dW = m dH [\\[10\\]](#page-3-0). T his also corresponds to the choice in w hich the internalenergy does not include the \f eld energy. T he m agneticm om ent,m ,in thisinstance isanalogousto the pressure P w hereas the m agnetic \f eld,H ,is analogous to the volum eV . T he variablesP and V are used to describe m echanicalwork in liquids.T husm (H )isotherm s areanalogsofP (V )isotherm s.T hedata exhibitfeatures thatresem blethosefound in liquid-gastransitions.T here are isotherm s in w hich there are regim es in w hich m is independent ofH . A s the tem perature is lowered,the \\\nat\" region isreplaced by a regim ein w hich m risesand falls. T his is rem iniscent ofthe behavior ofthe van der W aalsequation fora \nuid,w hich can describem etastable persistence of the low and high density regim es, into w hat is usually a two-phase region, w hen the pressure is constant over a range of volum es. O nly in this instance the m agnetic m om ent appears to m ove sm oothly and reversibly between thephases,w ithoutabruptnucleation phenom ena.Perhapstheappearance,w ith decreasing tem perature,ofa continuoustransform ation between\n\n![](_page_2_Figure_0.jpeg)\n\nFIG .3. Phase diagram in H T space. T he uppersym bols denote H <sup>c</sup><sup>2</sup>(T). T he shaded area denotes the putative two phaseregion bounded by thecoexistencecurve(diam onds).It isnotknow n w hetherthisregion extendsto low tem peratures because of the lim itation of m agnetic \feld in the m easuring instrum ent.\n\nthe two states,has to do w ith the grow th ofbarriers to changing the vortex con\f guration and m oving vortices.\n\nT he existence of\nat isotherm s and the analogy w ith van derW aalsisotherm sfortheoscillatory isotherm ssuggests a two-phase regim e w ith an endpoint [\\[11](#page-3-0)]. T he analogy w ith the\nuid system suggeststhatthereisa \f rst ordertransition line term inating ata criticalpoint. T he two phases associated w ith the \f rst order phase transition would have to have the sam e sym m etry [\\[12](#page-3-0)]. In Fig.3 we show a phase diagram for the behavior ofthis sam ple. T he \f gure includesHc<sup>2</sup>(T),in addition to lines denoting the high and low -\f eld lim its ofthe two-phase regim e,delineated by the shaded region. Because ofthe lim itation to 55 kO e on the highest\f eld achievable w ith thisapparatus,we were notable to explore thisbehavior to lower tem peratures than show n in Fig.[1.](#page-1-0) A s a consequence we do not know w hether the two-phase regim e term inates at a second criticalpoint as the tem perature is reduced,or persists to arbitrarily low tem peratures.\n\nT heresultsdiscussed herearevery di erentfrom those that have been reported previously for V3Si [\\[13,14\\]](#page-3-0). T heir m (H ) isotherm s were always hysteretic, exhibiting peaks and dips w ith decreasing and increasing m agnetic \f eld, respectively. Sim ilar behavior was found in our m ost disordered sam ples,in our thick sam ples,and in ourlessdisordered sam plesw hen their \natpartswere rotated such that they were at an angle w ith respect to the \f eld direction. T he details of m (H ) curves would thusappearto depend critically on the geom etry ofm easurem ent,and the degreeofdisorder,although a detailed m echanism is not know n. (T he fact that the sam ples in w hich these e ects were seen were very thin wafers m ay account for our results as this m ight m inim ize dem agnetizing e ects as wellas the role ofo -axis \f eld inhom ogeneities.) W e m ust em phasize that our sam ples also have dislocations and defects,and are usually not single crystals,so our observationscannot be a consequence of having sam ples of \\superior\" quality. W e believe that som e com bination ofdefects and geom etry allow a twophase equilibrium state to be achieved forsom e,butnot for the fullrange ofparam eters.\n\nT herehavebeen m any discussionsofnonlinearfeatures oftype-IIsuperconductors.In factthere hasbeen som ew hatofa debateasto w hetherin param agneticm aterials such as V3Sithese features are a signature ofa generalized Fulde-Ferrell- Larkin-O vchinnikov (G FFLO ) phase [\\[15\\]](#page-3-0)w hich can appear at high rather than at low tem peratures as originally predicted. In this phase,the superconductivity becom es spatially inhom ogeneous,w ith a wavelength thatdivergesatthetransition to thenorm al state.T he transition to the G FFLO phase w ith increasing tem perature is predicted to be \f rstorder.T here are no obvious features ofthe data that would support this interpretation.\n\nA n alternativeexplanation isthatourobservationsare associated w ith the peak e ect, a phenom enon know n for m any decades in conventional superconductors [\\[4\\]](#page-3-0). In the peak e ect, the critical current, instead of decreasing asthesuperconductor-norm alphaseboundary is approached,increases before falling to zero at the transition. T he reversibility of our m (H ) isotherm s would seem to rule out our observations as being attributable to dynam icale ects associated w ith the criticalcurrent. O ur previous discussion points to two distinct equilibrium vortex phases,possibly glass phases,or disordered lattice phasesseparated by a \f rstordertransition,w hich term inates at a criticalpoint. It is conceivable that in a dynam icalregim e these phases could have di erent pinning currents as reported in R ef.[\\[5\\]](#page-3-0).\n\nA n im portant issue is the question of w hat distinguishes the two phases w hose therm odynam ic signature isinferred in ourinterpretation ofm (H )isotherm s.T he high- and low -\f eld regim es on either side of the \\twophase\" regim e have di erent m agnetic susceptibilities (@m =@H )<sup>T</sup> and theirvortex densitiesare di erent.T hus the two coexisting phaseswould havedi erentdegreesof screening asm is\f xed w ith H changing,so thatB would haveto change.In equilibrium thefreeenergiesofthetwo phases at constant T and M would be the sam e. W ith our choice ofdependent and independent variables,this leads to a C lausius-C lapeyron equation [\\[16](#page-3-0)]ofthe form dm =dT = S= H .\n\nA therm odynam ic consistency check of a picture in w hich the two phases are distinguished by their vortex densities is possible. O ne can determ ine S from m ea-\n\n<span id=\"page-3-0\"></span>sured quantities and com pare this value w ith an estim ate obtained from the change in the num ber of states associated with the change in the vortex density across the transition. To obtain S from the isotherm s, we rst estim ate dm =dT from the data of Fig. 1. (For the oscillatory isotherm s we use the average m om ent.) W e nd dm =dT to be 0.005 em u/K , and relatively constant over the accessible range of tem peratures. The change in eld across the \\ at\" region is about 3000 O e. U sing these values S is found to be approxim ately 1017KB :\n\nThen, the entropy per con guration in the vortex state, S=kg , is given by In N @], where the num ber of con gurations N . N . N . . H ere N . is the num ber of vortives threading the sam ple, and N 。 the num ber of con gurations of a single vortex. The number of vortices N , is given by the ux divided by the ux quantum . Taking the relevant area of the crystal to be 0.05 x 0.5 cm 2, and the average m agnetic eld to be 40,000 O e, we nd N + = 5 x 109 vortices. The number N . can be estim ated as the num ber of vibrational modes of a vortex line. Thus N 。is of the order of the num ber of unit cell layers, which with a sam ple of length 0.7 cm , is 1.4 x 107 unit cell layers. Then the change in entropy associated with the change in eld between values 1 and 2 is given by S2 S1 S1 KB N v2 N v1]N c In (N avN c) : Here N v2 and N v1 are the num bers of vortices associated with the two elds, and Nay is the average num ber of vortices in the two phase regime. W ith an average eld of 40,000 O e, and a eld change of 3,000 O e in the case of the data in question, S2 S1 is found to be 22 x 10-7kB in rem arkable agreem ent with the value estim ated from the data. If the coherence length, (0); estim ated from dH c2=dT to be approxim ately 27A , determ ines the cuto in the num ber ofm odes, this estim ate would be a factor of ve lower. Estim ates of the entropy change taking into account only the entropy of the vortex cores yield a som ew hat sm aller estim ate of the entropy change.\n\nIn summary, magnetic moment -magnetic eld isotherm s of crystals of superconducting V 3Si have been found to resemble the pressure volum e isotherm s of the liquid-gas transition. W e have suggested that this is evidence of a rst-order phase transition and a two-phase regim e, w ith a criticalpoint in the superconducting phase diagram . A s m entioned, in this instance, the tw o phases would have to possess the same symmetry. The precise nature of vortex phases in the presence of weak disorder is quite complicated [17], so that further studies such as measurem ents of speci c heat, ac m agnetic susceptibility, and sm all angle neutron scattering would be needed to resolve this issue. This work was supported in part by the National Science Foundation under grant N SF /D M R - 0138209.\n\n- [1] G . Crabtree and D . Nelson, Physics Today 50, 38 (A pril 1997); D efects and G eom etry in Condensed M atter Physics, by D avid R. Nelson, C am bridge U niversity Press, Cam bridge, (2002) .\n- [2] For a review , see: G . Blatter, M . V . Feigel'm an, V . B . G eshkenbein, A . I. Larkin, and V . M . V inokur, Rev. M od. Phys. 66, 1125 (1994) .\n- [3] X . S. Ling, S.R.Park, B.A.M CClain, S.M. Choi, D.C. Denber, J.W . Lynn, Phys.Rev. Lett. 86, 712 (2001).\n- [4] A . B . P ippard, Phil. M ag. 19, 217 (1969) .\n- [5] M .M archevsky,M .J.H iggins, and S.Bhattacharya, N ature 409, 591 (2001).\n- [6] G . F . Hardy and J.K . Hulm , Phys. Rev. 89, 884 (1953); G .F .H ardy and J.K .Hulm , Phys.Rev. 93, 1004 (1954) .\n- [7] T. C allaghan, J. Schwanebeck, L.E. Toth, M. D ayan and A.M. Goldman, J. Appl. Phys., 49, 2523 (1978); M eichao Hu Chiang, M asters Thesis, University of M innesota, 1978, unpublished.\n- [8] M . Suenaga, D . O . W elch, and R . Budhani, Supercond. Sci. Technol. 5, S1 (1992) .\n- [9] G . Ravikum ar, et al., Physica C 298, 122 (1998) and references cited therein .\n- [10] For a physical discussion of the di erence between M dH and H dM work term s, see: Elem entary StatisticalPhysics, by C .K ittel, John W iley and Sons, Inc, New York (1958) .\n- [11] Jan K ier eld and Valerii V inokur, Phys. Rev. B 61 , R 14928 (2000) .\n- [12] See: Statistical Physics, Part 1, by E . M . Lifshitz and L . P.Pitaevskii, Pergam on Press, Oxford (1980), p. 257.\n- [13] M . Isino, T . K obayashi, N . T oyota, T . Fukase, and Y . M uto Phys Rev.B 38, 4457 (1988).\n- [14] S.Chaudhary, A.K.Rajarajan, K.J. Singh, S.B. Roy, and P.Chaddah, Physica C 353, 29 (2001).\n- [15] M . Tachiki, et al, Z . Phys. B 100, 369-380 (1996); P . Gegenwart, P.et al., Ann. Physik 5, 307 (1996).\n- [16] U .W elp, J.Fendrich,W .K .K wok,G .W .C rabtree, and B.W .Veal, Phys.Rev.Lett. 76, 4809 (1996).\n- [17] T . G iam archiand P . Le Doussal, P hys. Rev. B 52, 1242 (1995) .",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "T w o P hase R egim e in the M agnetic Field-Tem perature P hase D iagram of a T yoe-II\nSuperconductor",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              58.5,
+              52.5
+            ],
+            [
+              557.61328125,
+              52.5
+            ],
+            [
+              557.61328125,
+              75.75
+            ],
+            [
+              58.5,
+              75.75
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              91
+            ],
+            [
+              "Span",
+              91
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              280
+            ],
+            [
+              "Line",
+              74
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              267
+            ],
+            [
+              "Line",
+              93
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              93
+            ],
+            [
+              "Span",
+              93
+            ],
+            [
+              "ListItem",
+              17
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/Rc9MMt1xmkum9XLk0P2PMQ"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 4,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Two-Phase Regime in the Magnetic Field-Temperature Phase Diagram of a Type-II Superconductor",
+    "authors": [
+      {
+        "authors_list": [
+          "Adams, L. L. A.",
+          "Halterman, Klaus",
+          "Valls, Oriol T.",
+          "Goldman, A. M."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "The magnetic field and temperature dependencies of the magnetic moments of superconducting crystals of ${\\rm V_{3}Si}$ have been studied. In a constant magnetic field and at temperatures somewhat below the superconducting transition temperature, the moments are hysteretic in temperature. However the magnetic moment-magnetic field isotherms are reversible and exhibit features that formally resemble the pressure-volume isotherms of the liquid-gas transition. This suggests the existence of a first-order phase transition, a two-phase regime, and a critical point in the superconducting phase diagram. The entropy change, determined from the data using the Clausius-Clapeyron equation, is consistent with estimates based on the difference in the vortex densities of the two phases.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:cond-mat/0206091"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.cond-mat/0206091",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2002cond.mat..6091A"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

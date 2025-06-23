@@ -1,0 +1,337 @@
+{
+  "id": "8ee5144a39b4b55d4d2eb9173cb96b78",
+  "pdf_path": "apl/Superconductors/arXiv:1808.06731.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "## Competing Orders and Ultrafast Energy Transfer at the Quantum Limit in a Nb3Sn Superconductor Probed by Terahertz Electrodynamics\n\nX. Yang<sup>1</sup> , X. Zhao<sup>1</sup> , C. Vaswani<sup>1</sup> , C. Sundahl<sup>2</sup> , Y. Yao<sup>1</sup> , M. Mootz<sup>3</sup> , P. P. Orth<sup>1</sup> ,\n\nJ. H. Kang<sup>2</sup> , I. E. Perakis<sup>3</sup> , C-Z Wang<sup>1</sup> , K-M Ho<sup>1</sup> , C. B. Eom<sup>2</sup> and J. Wang<sup>1</sup>\n\n<sup>1</sup>Department of Physics and Astronomy and Ames Laboratory-U.S. DOE,\n\nIowa State University, Ames, Iowa 50011, USA.\n\n<sup>2</sup>Department of Materials Science and Engineering,\n\nUniversity of Wisconsin-Madison, Madison, WI 53706, USA.\n\n<sup>3</sup>Department of Physics, University of Alabama at Birmingham, Birmingham, AL 35294-1170, USA.\n\n(Dated: August 26, 2024)\n\nWe report the low–energy electrodynamics of a moderately clean A15 superconductor (SC) following ultrafast excitation to understand and manipulate terahertz (THz) quasi–particle (QP) transport from competing orders. Using 35-fs optical pulses, we observe a non-thermal enhancement in the low frequency conductivity, opposite to that observed for THz pump, which persists up to an additional critical temperature, above the SC one, from an electronic order in the Martensitic normal state. In the SC state, the fluence dependence of pair breaking kinetics together with an analytic model provides evidence for a \"one photon–to–one pair\" non-resonant energy transfer during the laser pulse. Such initial transfer of photon energy ~ω to QPs at the quantum limit, set by 2∆SC /~ω=0.33%, is more than one order of magnitude smaller than in previously studied BCS SCs, which we attribute to strong electron–phonon coupling and possible influence of phonon condensation in A15 SCs.\n\nThe competition and interference between SC and other co-existing electronic instabilities appear to be universal in quantum materials. How to exploit the balance of these orders as a control knob to achieve ultrafast manipulation of materials properties is an outstanding challenge. Answering these questions has been proven important not only in the more sophisticated quantum materials [\\[1–](#page-4-0)[3\\]](#page-4-1) but also in some well-established systems such as A15 superconductors [\\[4](#page-4-2)[–9\\]](#page-4-3). Recently, a strikingly long-lived, gapless quantum phase of quasi-particles with coherent transport is demonstrated by THz quench of a Nb3Sn superconducting gap without heating other degrees of freedom [\\[10\\]](#page-4-4). Nb3Sn, as a paradigmatic A15 compound, exhibits a Martensitic normal state transition above the superconducting one, which has been ascribed to optical phonon condensation (\"dimerization\" of Nb atoms) [\\[11\\]](#page-4-5), possibly driven by a Van Hove singularity (VHS)-like electronic density-of-states peaked at ∼E<sup>F</sup> and by strong electron-phonon interaction [\\[5–](#page-4-6) [8,](#page-4-7) [12,](#page-4-8) [13\\]](#page-4-9). The order parameters competing with SC likely exhibit multiple components, both lattice and electronic, e.g., the apparent splitting of the three-fold degenerate Γ<sup>12</sup> band concurrently with an elusive electronic or possibly charge-density-wave(CDW)-like order contribution inferred from tunneling [\\[9,](#page-4-3) [13,](#page-4-9) [14\\]](#page-4-10) and Raman spectroscopy experiments [\\[15\\]](#page-4-11). As a result, the partial Fermi surface gapping, ∆<sup>W</sup> ∆SC associated with the Martensitic anomaly affects the electronic states near E<sup>F</sup> differently from the competing SC order ∆SC [\\[7\\]](#page-4-12). This opens an opportunity for testing a compelling hypothesis of ultrafast non-thermal manipulation of conductivity in A15 compounds via wavelength-selective pumping.\n\nTHz spectroscopy is a powerful tool for quantitative studies of SC states both in– and out–of–equilibrium.\n\nArising from energy scales in the vicinity of SC gaps ∆SC of few meV, terahertz (THz) electrodynamics, characterized by the complex optical conductivity response function ˜σ = σ1(ω) + iσ2(ω), is a direct measure of both dissipation of QPs and inductivity of SC condensate. Such THz measurements allow access to the key properties of the broken symmetry states, including, e.g., the superfluid/QP density and SC coherence. Prior THz studies of SC samples mostly revealed \"conventional\" features consistent with the deep impurity limit, ~/τimp 2∆SC [\\[16–](#page-4-13)[18\\]](#page-4-14). In addition, the spectral-temporal dynamics of the order parameters out-of-equilibrium allow the identification of correlation gaps and co-existing orders. The time resolution can follow Cooper pair breaking dynamics while the time-resolved THz spectra can track possible spectral weight transfer to the Fermi surface from both the condensate peak nsδ(ω) and possible competing correlation gaps ∆<sup>W</sup> ∆SC . These salient features have never been identified in A15 superconductors and the much-needed comparisons are absent in prior THz studies, e.g., in MgB<sup>2</sup> and NbN-based superconductors without competing orders [\\[16](#page-4-13)[–18\\]](#page-4-14).\n\nIn this Letter, we present the fs optically-induced, THz electrodynamics of a moderately clean A15 superconductor Nb3Sn. Our results show that the nonequilibrium THz conductivity after fs optical pump excitation (∼1.55eV) gains an additional spectral weight that, strikingly, persists far above the superconducting T<sup>C</sup> . This is opposite to the case of a THz pump (∼4meV) or increased temperature, which gives rise to a reduced THz conductivity above T<sup>C</sup> . We interpret such pump control of conductivity as non-thermal softening of an electronic correlation gap ∆<sup>W</sup> in the Martensitic phase. Furthermore, we observe a rapid, SC pair breaking process consistent with strong electron-phonon coupling. This, together with an analytic model, provides evidence for a quantum limit, energy transfer during ∼35-fs optical pulses, i.e., one high energy photon breaks only one low energy Cooper pair, with the rest of photon energy exciting phonons rather than creating additional QPs. Such \"single quanta\", initial transfer of photon energy ~ω to QPs, determined by 2∆SC /~ω=0.33%, in the very early quantum regime sets an unusual initial condition that determines subsequently ps pre-bottleneck dynamics and is at least one order of magnitude lower than any previously measured BCS superconductors [\\[16,](#page-4-13) [17\\]](#page-4-15).\n\nA Nb3Sn film 20nm thick was grown by magnetron sputtering on a 1mm Al2O3(R-plane) substrate by cosputtering of Nb and Sn at high temperatures. The optical pump and THz probe spectroscopy technique is implemented by using three pulses [\\[10,](#page-4-4) [19\\]](#page-4-16): optical pump Eop, THz probe ETHz by optical rectification, and optical gating pulse at time tgate for electro-optic sampling. The setup was driven by a 1 kHz Ti:Sapphire regenerative amplifier with 35 fs duration at 800 nm center wavelength.\n\nThe equilibrium time-domain THz transmission field and electrodynamics are shown in Figs. 1(a) and 1(b)- 1(c), respectively, as a function of temperature. The 4.1 K traces exhibit a diverging 1/ω response in σ2, arising from reactive SC condensate, and a dissipationless conductivity, witnessed in σ<sup>1</sup> below 2∆SC =5.1 meV. A finite σ<sup>1</sup> peak at the lowest frequencies <3 meV originates from intraband absorption of the thermally excited Bogoliubons. Such conductivity features of SC diminish when approaching Tc, as seen in the 10-15 K measurements shown in Figs. 2(b)-2(c). As shown in the 16 K and 18 K traces, the normal state exhibits a Drude response: a gapless σ1(ω) and gradually decreasing σ2(ω) at low frequencies. The relatively narrow linewidth of σ1(ω) indicates a much smaller impurity scattering rate, ~/τ ∼7 meV, than in previous THz studies [\\[16–](#page-4-13)[18\\]](#page-4-14). This also leads to more than two orders of magnitude larger l/ξ ratio of mean free path over coherence length in our sample, where l = v<sup>F</sup> τ =32 nm∼4.5-8ξexp indicative of a moderately clean SC (supplementary).\n\nWe now extract the optical self energy Σ(ω, T) using an extended Drude model [\\[20\\]](#page-4-17), which provides information complementary to <sup>σ</sup>e(ω) and more relevant to characterize impurity scattering and correlation. Figs. 1(d) and 1(e) present the complex Σ(ω, T) in terms of the frequencydependent mass renormalization m<sup>∗</sup> (ω)/m<sup>0</sup> and momentum scattering rate 1/τ(ω), which relate to the real and imaginary parts of the Σ(ω, T), respectively. We emphasize three key observations in the SC state. First, the 1/τ(ω) spectra in Fig. 1(e) clearly reveal a SC gap opening and suppresses the scattering rate below 2∆SC and reduces it to zero at 4.1K. Second, sharp impurity peaks, commonly seen in dirty limit SC samples at 2∆SC [\\[20\\]](#page-4-17), are absent in 1/τ(ω) and replaced by a broad cusp in m<sup>∗</sup> (ω)/m<sup>0</sup> above 2∆SC . Third, m<sup>∗</sup> (ω)/m<sup>0</sup> in the SC\n\n![](_page_1_Figure_5.jpeg)\n\nFIG. 1. (Color online). (a) THz probe transmitted field Eprobe as function of gate delay time tgate for the thermal equilibrium state from 4K to 20K. (b), (c) Temperature dependence of imaginary and real parts of the conductivity, σ1(ω) and σ2(ω). Inset to (c): schematic of Cooper pair breaking. (d) Mass renormalization m<sup>∗</sup> /m and (e) momentum scattering rate 1/τ spectra calculated from σ2(ω) and σ1(ω) in (b), (c). Grey solid line denotes 2∆SC gap at 4.1K. Dashed lines mark the asymptotic m<sup>∗</sup> /m and 1/τ towards zero frequency.\n\nstate as ω →0 reflects n/ns, i.e., the ratio between the electron density n and the superfluid density ns. Here, n/ns(4.1K) = m<sup>∗</sup> (ω = 0, 4.1K)/m<sup>0</sup> ∼1.34 indicates that ∼75% of the electrons participate in superfluidity, consistent with the superfluid density ratio (∼70%) obtained from the optical sum rule R <sup>∞</sup> 0+(σ n 1 (ω)−σ s 1 (ω)) dω = π 2 nse 2 <sup>m</sup> . This measured ns/n is ∼6 times larger than in superconducting Pb [\\[20\\]](#page-4-17).\n\nFig.2 demonstrates the ultrafast study of the Martensitic phase in the normal state of Nb3Sn. The measured THz fields are shown in the time domain in Fig. 2(a), including the pump induced change, ∆E(t), at a fixed pump-probe delay ∆τpp=10 ps (red) and the transmitted field through the unexcited sample, E0(t) (gray). In Fig. 2(b) we record the photoinduced THz field peak-to-\n\n3\n\n![](_page_2_Figure_1.jpeg)\n\nFIG. 2. (Color online). (a) Transmitted Eprobe through unpumped Nb3Sn film (gray) and pump induced change ∆Eprobe (red). (b) Temperature dependence of peak-to-peak ∆Eprobe at 4.02µJ/cm<sup>2</sup> . ∆Eprobe above T<sup>c</sup> is magnified in inset to (b) and critical temperature T<sup>M</sup> is marked by blue dashed line. (c) σ1(ω) at 10 ps after 1.55eV (black), 4meV (red) photoexcitation compared to equilibrium (gray circle) at 18K.\n\npeak amplitude as a function of temperature from 4K to 70K. Two transitions are visible. As expected for a SC, the photoinduced signal drops significantly at T<sup>C</sup> ∼16K. Unlike in a conventional SC, however, the signal persists into the normal state and completely vanishes only at a much higher temperature T<sup>M</sup> ∼47 K (inset). Intriguingly, the latter transition in the THz field amplitude coincides with the Martensitic anomaly associated with the structural-electronic instabilities [\\[5](#page-4-6)[–8,](#page-4-7) [11–](#page-4-5)[13\\]](#page-4-9). Fig. 2(b) reveals such additional order parameter with a critical temperature TM.\n\nImportantly, the competing T<sup>M</sup> order above SC allows ultrafast non-thermal control of the low-energy THz conductivity response by tuning the pump between the optical and THz frequency range above or below the correlation gap ∆<sup>W</sup> . We start with the normal state at 18K slightly above T<sup>C</sup> . The non-equilibrium σ1(ω) data is shown in Fig. 2(c) for 1.55eV (optical, black) and 4meV (THz, red) pump photon energy. After 1.55eV pump excitation (black), the low frequency conductivity σ1(ω) gains an additional spectral weight over its equilibrium (no pump) values (gray circles), which is responsible for the non-vanishing, pump-induced signals ∆ETHz in the normal state below T<sup>M</sup> shown in Fig. 2(b). This pump-induced enhancement is consistent with nonthermal softening of the correlation gap that develops at the T<sup>M</sup> transition from Γ<sup>12</sup> phonon condensation (dimerization) and/or electronic VHSs, by optical excitation with ~ωop ∆<sup>W</sup> . Such softening gives rise to spectral weight transfer to the Fermi surface from high energies\n\n![](_page_2_Figure_5.jpeg)\n\nFIG. 3. (color online). (a), (b) Non-equilibrium σ1(ω) and σ2(ω) at pump-probe delay tpp=10ps for optical-pump fluences 0.05-16µJ/cm<sup>2</sup> . Inset to (b) shows effective temperature T<sup>∗</sup> at various fluences. (c), (d) Fluence dependence of superfluid density n<sup>s</sup> and SC gap ∆SC extracted from (a)-(b).\n\nabove ∆<sup>W</sup> . Note that laser-induced heating will decrease the THz spectral weight after the pump in Nb3Sn due to very subtle partial gapping of the Fermi surface, opposite to typical CDW materials (supplementary). Intriguingly, by changing the pump photon energy to 4 meV, i.e., ~ωTHz ∆<sup>W</sup> , we observe pump-reduced instead of pump-enhanced conductivity (red). This opposite behavior indicates that photoexcitation at sufficiently low frequencies fails to strongly quench the ∆<sup>W</sup> gap and, instead, depletes the Fermi sea portion with a non-thermal, threshold behavior (supplementary). In all cases, the observed pump-wavelength-dependent beavior represents a direct evidence for ultrafast non-thermal control of the THz conductivity by tuning pump photoexcitation above (correlation gap melting) and below (Fermi sea partial depletion) ∆<sup>W</sup> . Note that the unusual pump wavelength dependence is absent in previously studied density wave materials [\\[2,](#page-4-18) [3,](#page-4-1) [24\\]](#page-4-19) and BCS SCs without co-existing orders [\\[16–](#page-4-13)[18\\]](#page-4-14). The distinct non-thermal photoexcitation QP control of conductivity provides evidence for an additional electronic instability associated with the Martensitic anomaly beyond the conventional structural one.\n\nNext we turn our attention to the non-equilibrium Cooper pair breaking (CPB) responses in the superconducting state after fs optical excitation. For ~ωop >> 2∆SC , CPB processes can be driven by multiple interactions between the condensate and photoexcited QPs or with high frequency phonons (HFPs). Previous works have shown that the majority of the absorbed photon\n\nenergy subsequently transfers to the phonon reservoir during the fs excitation and then continues to break Cooper pairs [\\[16,](#page-4-13) [17\\]](#page-4-15). Figs. 3(a) and 3(b) plot the nonequilibrium THz conductivity σ1(ω) and σ2(ω) of Nb3Sn, for various fluences of 1.55eV pump photoexcitation at T=4.1 K. We observe very similar spectral shapes to those seen at various temperatures in equilibrium (Fig. 1). Photo-induced QPs gradually close the SC gap 2∆SC . At the same time, the low frequency 1/ω divergence in σ<sup>2</sup> diminishes with increasing pump fluence Ipump. SC features disappear simultaneously above 4µJ/cm<sup>2</sup> . The thermalized gap ∆SC (Ipump) and the superfluid density ns, readily obtained from transient THz spectra shown in Figs. 3(c) and 3(d), quickly diminish as Ipump approaches the same fluence. An elevated elecron/lattice transient temperature T<sup>∗</sup> established after the pump can be extracted by fitting the conductivity data. As shown in the inset of Fig. 3(b), T<sup>∗</sup> →T<sup>c</sup> is clearly visible at the quenching fluence ∼4µJ/cm<sup>2</sup> . Therefore, conductivity at ∆tpp=10 ps for T<T<sup>C</sup> is consistent with previous T <sup>∗</sup> model of non-equilibrium superconductivity [\\[20](#page-4-17)[–22\\]](#page-4-20).\n\nWe track the early time, pair breaking dynamics prior to the establishment of a T<sup>∗</sup> quasi-equilibrium temperature regime due to scattering of condensate with HFPs and hot QPs. The experimentally–observed ultrafast THz signals for various pump fluences, which reflect the photoexcited QP density n(t), are presented in Fig. 4(a). They show faster CPB with increasing pump fluence during the first 4 ps. In order to reveal the microscopic energy transfer among various reservoirs, we model the CPB kinetics based on the widely used, Rothwarf-Taylor (RT) model [\\[23\\]](#page-4-21) that is extensively discussed in [\\[22\\]](#page-4-20). This model is expected to be valid at later ps timescales following the \"initial condition\" created during the very early 10's fs regime of ultrafast dynamics dominated by electron-phonon coherences and by quasi-particle and phonon nonthermal populations created during the laser pulse. The dynamics after this initial regime is characterized by QP and HFP densities, n(t) and N(t), described by two coupled differential equations [\\[16,](#page-4-13) [17,](#page-4-15) [22,](#page-4-20) [23\\]](#page-4-21). The rise of n(t) in time originates from the pre-bottleneck, CPB process preceding the QP relaxation, which can be described by the analytical expression [\\[22\\]](#page-4-20):\n\n$$n(t) = \\frac{\\beta}{R} [-\\frac{1}{4} - \\frac{1}{2\\tau} + \\frac{1}{\\tau} \\frac{1}{1 - K \\exp(-t\\beta/\\tau)}],\\quad \\text{(1)}$$\n\nwhere K and τ are dimensionless parameters determined by the initial conditions: K = ((τ /2)/(4Rn0/β + 1) − 1)/((τ /2)/(4Rn0/β + 1) + 1))and 1 τ = p 1/4 + 2R/β(n<sup>0</sup> + 2N0). Here, β is the CPB probability by absorption of HFP and R is the bare QP bi-molecular decay rate. n<sup>0</sup> and N<sup>0</sup> are the initial QP and HFP densities immediately after fs photoexcitation. β and R are fluence independent parameters under weak excitation limit, when n<sup>0</sup> is much smaller than the\n\n![](_page_3_Figure_5.jpeg)\n\nFIG. 4. (color online). (a) Pump-probe dynamics measured in experiment (dots) and fitted by RT model (black line). (b), (c) Fluence dependence of RT model parameters K and τ /β (black triangle) and fitting curve (red line). (d) Fitting MSE vs. QP energy absorption percentage p. Inset to (c) shows fluence dependence of pump induced ∆E fitted by a saturation curve (1 − exp(−I/Fs)). Inset to (d) shows the schematics of microscopic CPB by 1.55eV photon.\n\nmaterial–dependent value β/R. Fig. 4(a) presents the best fits, which show a very good agreement with the data. The fitting parameters τ /β and K are extracted as the function of fluence and plotted in Figs. 4(b) and (c) respectively.\n\nFurther quantitative information can be obtained by fitting τ /β and K versus the absorbed energy density Ω. Here Ω at Iq=4.02µJ/cm<sup>2</sup> is equal to the SC condensate energy U=4757mJ/mol [\\[24\\]](#page-4-19). Given the lack of direct information about the very early 10's fs quantum regime during the laser pulse, we treat the initial condition phenomenologically, which can be extracted from the measured ps dynamics and a rigorous error analysis. Denoting the portion of the absorbed energy that initially goes into QP excitation as p, we have n0=pΩ/∆ and N0=(1-p)Ω/2∆ created by fs photoexcitation. The best fit to the extracted τ /β and K data, obtained by minimizing the mean-square error (MSE) of the parameter set {p, R, β}, is achieved for p=0.2±0.1%, which gives the values of β <sup>−</sup><sup>1</sup> = 1.0 ± 0.1 ps and R = 105.5 ± 10 ps−<sup>1</sup> unit cell−<sup>1</sup> . We further plot the MSE of the above fitting as function of p in Fig. 4d by only fitting {R, β} for each fixed p (supplementary). Intriguingly, a strong deviation from the minimum error starts at a very small p∼0.33% that coincides with 2∆SC /~ω, as marked (dashed arrow) in Fig. 4(d). The merely 0.33% portion of absorbed photon energy ~ω that excites QPs indicates a quantum limit of the energy transfer process during photoexcitation of the A15 system. This unusually small parameter value obtained from the standard fitting implies that one high energy photon, ~ω=1.55 eV, breaks only one pair, 2∆SC =5.1 meV, with simultaneous excitation of phonon populations during the pulse and initial QP cascading (inset, Fig. 4(d)). The good agreement between data and simulations, seen in Fig. 4, validate this claim, which implies that strong electron-phonon couplings dominate in A15 SCs. Here phonon condensation from Martensitic order already is a part of the SC electronic order which can potentially be much more efficiently excited during the pulse that differentiates the A15 from other SCs. The initial photon energy transfer to QPs in Nb3Sn is at least one order of magnitude smaller than in other SCs: 0.33% here vs. MgB<sup>2</sup> (p∼6%) [\\[16\\]](#page-4-13) and NbN (p∼9%) [\\[17\\]](#page-4-15).\n\nThe applicability of the analytic RT model is well justified by the following condition satisfied by our data:n<sup>0</sup> = pΩ/∆ ' 1 × 10<sup>−</sup><sup>4</sup> β/R = 1 × 10<sup>−</sup><sup>2</sup> , where β/R = N(0)2πω<sup>3</sup> D 18v∆SC [\\[22\\]](#page-4-20). Here ω<sup>D</sup> is the phonon cutoff frequency, N(0) is the electronic density of states per unit cell at the Fermi level and v is the number of atoms per unit cell. We used the values v=8, ∆SC =2.55 meV, N(0)=11.4\n\nstates(spin cell eV)<sup>−</sup><sup>1</sup> and ωD=6.9 THz. In addition, the value of electron-phonon coupling constant λ can be determined from the relation R = 8πvλ∆<sup>2</sup> SC ~N(0)ω 2 D . We obtain λ ≈ 2.0, which agrees very well with previous estimates of λ ≈1.8±0.15 [\\[25\\]](#page-5-0) and is 2 times larger than in the previously studied NbN. In addition, a much higher phonon-pair scattering probability β ∼ 1ps<sup>−</sup><sup>1</sup> is seen in Nb3Sn as compared to MgB<sup>2</sup> (β=1/15 ps<sup>−</sup><sup>1</sup> ) [\\[16\\]](#page-4-13) and NbN (β=1/6 ps<sup>−</sup><sup>1</sup> ) [\\[17\\]](#page-4-15). These are consistent with our observation of much faster CPB dynamics in Fig. 4(a),\n\nand a minimal initial energy transfer to QPs (p) in Fig. 4(d). The enhanced β is due in part to a much larger density of states N(0)/v resulting from the bandstructure in Nb3Sn (1.425) as compared to NbN (0.44) and MgB<sup>2</sup> (0.23) (supplementary).\n\nIn summary, the comprehensive study of THz electrodynamics of Nb3Sn identifies a competing electronic order in the normal state below the Martensitic anomaly. We demonstrate ultrafast non-thermal control of the THz conductivity in the Martensitic normal state by tuning the pump photon energy. In the SC state, we reveal a \"one photon–one pair\" quantum energy transfer during initial 10's of fs timescales, the only known example, which we attribute in part to strong electron–phonon coupling and optical phonon condensation in the ground state. The distinct ultrafast THz electrodynamics of the model A15 compound with electron-phonon complex order and its differences from BCS/density wave systems offer perspectives to manipulate competing orders in other materials [\\[26\\]](#page-5-1) and probe the very early, fs pair breaking dynamics in the quantum nonthermal regime.\n\nWork at Iowa State University was supported by the Army Research office under award W911NF-15-1-0135 (THz study). Work at Wisconsin (sample growth and basic characterizations) was supported by the DOE Office of Basic Energy Sciences under award number DE-FG02-06ER46327. Work at the University of Alabama, Birmingham was supported by startup funds.\n\n- <span id=\"page-4-0\"></span>[1] T, Li et al., Nature 496, 69 (2013).\n- <span id=\"page-4-18\"></span>[2] A. Patz, et al. Nat. Commun. 5, 3229 (2014).\n- <span id=\"page-4-1\"></span>[3] M. Porer et al., Nature Materials 13, 857 (2014).\n- <span id=\"page-4-2\"></span>[4] M. Kataoka, Journal of Physics C: Solid State Physics, 19, 2939-2962 (1986).\n- <span id=\"page-4-6\"></span>[5] R. N. Bhatt, Phys. Rev. B 16, 5, (1977).\n- [6] W. Weber and L. F. Mattheiss, Phys. Rev. B 25, (1982).\n- <span id=\"page-4-12\"></span>[7] G. Bilbro and W. L. McMillan, Phys. Rev. B 14, 1887- 1892 (1976).\n- <span id=\"page-4-7\"></span>[8] B. Sadigh and V. Ozolinˇs, Phys. Rev. B 57, 2793 (1998).\n- <span id=\"page-4-3\"></span>[9] J. K. Freericks, A. Y. Liu, A. Quandt, and J. Geerk, Phys. Rev. B 65, 224510 (2002).\n- <span id=\"page-4-4\"></span>[10] X. Yang et al., Nature Materials, 17, 586 (2018).\n- <span id=\"page-4-5\"></span>[11] G. Shirane, and J. D. Axe, Neutron Scattering Study of the Lattice-Dynamical Phase Transition in Nb3Sn, Phys. Rev. B 4, 2957 (1971).\n- <span id=\"page-4-8\"></span>[12] R. S. Markiewicz, J Phys. Chem. Solids, 58, 1179 (1997)\n- <span id=\"page-4-9\"></span>[13] R. Escudero, F. Morale, Solid State Commun. 150, 715- 719 (2010).\n- <span id=\"page-4-10\"></span>[14] See. e.g., T. Ekino, A. M. Gabovich, A. Sugimoto, Y. Sakai and J. Akimitsu, Superconductors–New Developments (DOI: 10.5772/58655), Chapter 4, 55-72 (2015).\n- <span id=\"page-4-11\"></span>[15] For review, see, e.g., T. P. Devereaux and R. Hackl, Rev. Mod. Phys. 79, 175 (pg. 202-205) (2007)\n- <span id=\"page-4-13\"></span>[16] J. Demsar et al., Phys. Rev. Lett. 91, 267002 (2003).\n- <span id=\"page-4-15\"></span>[17] M. Beck, M. Klammer, S. Lang, P. Leiderer, V. V. Kabanov, G. N. Goltsman, and J. Demsar, Phys. Rev. Lett. 107, 177007 (2011).\n- <span id=\"page-4-14\"></span>[18] R. Matsunaga and R. Shimano, Phys. Rev. Lett. 109, 3 (2012).\n- <span id=\"page-4-16\"></span>[19] L. Luo, I. Chatzakis, A. Patz, J. Wang, Phys. Rev. Lett. 114, 107402 (2015).\n- <span id=\"page-4-17\"></span>[20] T. Mori, E. J. Nicol, S. Shiizuka, K. Kuniyasu, T. Nojima, N. Toyota, and J. P. Carbotte, Phys. Rev. B 77 (2008).\n- [21] C. S. Owen and D. J. Scalapino. Phys. Rev. Lett., 28, 1559 (1972).\n- <span id=\"page-4-20\"></span>[22] V. V. Kabanov, J. Demsar, and D. Mihailovic, Phys. Rev. Lett. 95, 147002 (2005).\n- <span id=\"page-4-21\"></span>[23] A. Rothwarf and B. N. Taylor, Phys. Rev. Lett. 19, 27 (1967).\n- <span id=\"page-4-19\"></span>[24] J. S. Kim, G. N. Tam, and G. R. Stewart, Phys. Rev. B\n\n<span id=\"page-5-1\"></span><span id=\"page-5-0\"></span>, 224509 (2015). [25] E. L. Wolf et al., Phys. Rev. B 22, 1214 (1980). [26] X.Yang et al., arXiv 1804.04987 (2018)",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Competing Orders and Ultrafast Energy Transfer at the Quantum Limit in a Nb3Sn\nSuperconductor Probed by Terahertz Electrodynamics",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              59.765625,
+              52.693603515625
+            ],
+            [
+              556.1739501953125,
+              52.693603515625
+            ],
+            [
+              556.1739501953125,
+              78.5968017578125
+            ],
+            [
+              59.765625,
+              78.5968017578125
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              320
+            ],
+            [
+              "Line",
+              100
+            ],
+            [
+              "Text",
+              10
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              479
+            ],
+            [
+              "Line",
+              98
+            ],
+            [
+              "TextInlineMath",
+              6
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              278
+            ],
+            [
+              "Line",
+              75
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              440
+            ],
+            [
+              "Line",
+              103
+            ],
+            [
+              "TextInlineMath",
+              5
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              514
+            ],
+            [
+              "Line",
+              127
+            ],
+            [
+              "ListItem",
+              24
+            ],
+            [
+              "Reference",
+              22
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              9
+            ],
+            [
+              "Line",
+              3
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/5SauLstwnTeJgblibtlgBw"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 6,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Competing Orders and Ultrafast Energy Transfer at the Quantum Limit in a Nb$_3$Sn Superconductor Probed by Terahertz Electrodynamics",
+    "authors": [
+      {
+        "authors_list": [
+          "Yang, X.",
+          "Zhao, X.",
+          "Vaswani, C.",
+          "Sundahl, C.",
+          "Yao, Y.",
+          "Mootz, M."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "We report the low-energy electrodynamics of a moderately clean A15 superconductor (SC) following ultrafast excitation to understand and manipulate terahertz (THz) quasi--particle (QP) transport by tuning pump photoexcitation of from competing orders. Using 35-fs optical pulses, we observe a non-thermal enhancement in the low frequency conductivity, opposite to that observed for THz pump, which persists up to an additional critical temperature, above the SC one, from an electronic order in the Martensitic normal state. In the SC state, the fluence dependence of pair breaking kinetics together with an analytic model provides evidence for a `one photon-to-one pair' non-resonant energy transfer during the laser pulse. Such initial transfer of photon energy $\\hbar\\omega$ to QPs at the {\\em quantum} limit, set by $2\\Delta_{SC}/\\hbar\\omega$=0.33$\\%$, is more than one order of magnitude smaller than in previously studied BCS SCs, which we attribute to strong electron--phonon coupling and possible influence of phonon condensation in A15 SCs.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1808.06731"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.1808.06731",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2018arXiv180806731Y"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

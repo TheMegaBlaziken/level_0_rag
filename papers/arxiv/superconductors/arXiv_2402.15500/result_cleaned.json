@@ -1,0 +1,811 @@
+{
+  "id": "ac73b319d158f6b44d058ef2ceb59a09",
+  "pdf_path": "apl/Superconductors/arXiv:2402.15500.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **Measurements of the first-flux-penetration field in surface-treated and coated Nb: Distinguishing between near-surface pinning and an interface energy barrier**\n\nMd Asaduzzaman,1, 2, [∗](#page-0-0) Ryan M. L. McFadden,1, 2 Edward Thoeng,2, 3 Robert E. Laxdal,<sup>2</sup> and Tobias Junginger1, 2, [†](#page-0-1)\n\n<sup>1</sup>*Department of Physics and Astronomy, University of Victoria,*\n\n*3800 Finnerty Road, Victoria, BC V8P 5C2, Canada*\n\n<sup>2</sup>*TRIUMF, 4004 Wesbrook Mall, Vancouver, BC V6T 2A3, Canada*\n\n<sup>3</sup>*Department of Physics and Astronomy, University of British Columbia,*\n\n*6224 Agricultural Road, Vancouver, British Columbia V6T 1Z1, Canada*\n\n(Dated: May 27, 2024)\n\nWe report measurements of the first-flux-penetration field in surface-treated and coated Nb samples using muon spin rotation (SR). Using thin Ag foils as energy moderators for the implanted muon spin-probes, we \"profile\" the vortex penetration field 0vp at sub-surface depths on the order of ∼10 µm to ∼100 µm. In a coated sample [Nb3Sn(2 µm)/Nb], we find that 0vp is depth-independent with a value of 234.5(35) mT, consistent with Nb's metastable superheating field and suggestive of surface energy barrier for flux penetration. Conversely, in a surface-treated sample [Nb baked in vacuum at 120 ◦C for 48 h], vortex penetration onsets close to pure Nb's lower critical field 0c1 ≈ 170 mT, but increases with increasing implantation depth, consistent with flux-pinning localized at the surface. The implication of these results for technical applications of superconducting Nb, such as superconducting radio frequency (SRF) cavities, is discussed.\n\n## **I. INTRODUCTION**\n\nA key technical application of the elemental type-II superconductor Nb is its use in superconducting radio frequency (SRF) cavities [\\[1](#page-8-0)[–3\\]](#page-8-1), which are utilized in particle accelerators across the globe. Crucial to their operation is maintaining Nb in its magnetic-flux-free Meissner state (i.e., to prevent dissipation caused by magnetic vortices), which generally restricts their use to surface magnetic fields up to the element's lower critical field 0c1 ≈ 170 mT [\\[4\\]](#page-8-2). Such a limitation ultimately sets a ceiling for a cavity's maximum accelerating gradient acc (i.e., the achievable energy gain per unit length), which impacts design considerations for accelerating structures (e.g., size, operating temperature, etc.). Consequently, there is great interest in pushing SRF cavity operation up to Nb's so-called superheating field 0sh ≈ 240 mT [\\[5,](#page-8-3) [6\\]](#page-8-4), where the Meissner state is preserved in a metastable configuration. Currently, the largest gradients are achieved by so-called lowtemperature baking (LTB) surface treatments, wherein a Nb cavity is baked at temperatures on the order of ∼120 ◦C either in vacuum [\\[7,](#page-8-5) [8\\]](#page-8-6) or in a low-pressure gas atmosphere [\\[9,](#page-8-7) [10\\]](#page-8-8). Indeed, the best performing treatments have enabled cavities to achieve surface magnetic fields beyond 0c1 (with some even approaching sh) [\\[5\\]](#page-8-3); however, the underlying mechanism for this enhancement remains unclear.\n\nConsider the typical LTB treatment, involving vacuum annealing Nb at 120 ◦C for a duration up to 48 h [\\[7\\]](#page-8-5). Early measurements of this treatment's effect on Nb's Meissner response using low-energy muon spin rotation (LE-SR) [\\[11,](#page-8-9) [12\\]](#page-8-10) showed a sharp discontinuity in the screening profile [\\[13\\]](#page-8-11), which led to suggestions that LTB can be used to create an \"effective\" superconductor-superconductor (SS) bilayer [\\[14\\]](#page-8-12). Of particular interest for SRF applications is the case where a\n\nthin \"dirty\" layer resides atop a \"clean\" bulk (e.g., as a result of surface-localized inhomogeneous doping), as it offered several avenues for increasing the vortex penetration field 0vp via a reduced current density at Nb's surface (e.g., following directly from the SS-like structure [\\[14\\]](#page-8-12) or as a consequence of deformations found in the Meissner profile itself [\\[15,](#page-8-13) [16\\]](#page-8-14)). While both theories [\\[14\\]](#page-8-12) and measurements [\\[13\\]](#page-8-11) have been presented that support the interpretation of a surface barrier originating from a \"dirty\" layer, other measurements [\\[17\\]](#page-8-15) and analyses [\\[18\\]](#page-8-16) contradict such views. To resolve this discrepancy, additional measurements using alternative approaches would be highly beneficial.\n\nOne such possibility is instead using techniques capable of identifying 0vp directly. This has been done, for example, using \"bulk\" muon spin rotation (SR) [\\[19,](#page-8-17) [20\\]](#page-8-18), which provides a local measurement of the magnetic field ∼100 µm below Nb's surface. Such studies have found 0vp ≳ 0c1 for both LTB and coated Nb [\\[21\\]](#page-8-19), the latter yielding 0vp ≈ 0sh [\\[6\\]](#page-8-4). While this provided strong evidence that a surface energy barrier [\\[22\\]](#page-8-20) was preventing flux nucleation in SS samples, some ambiguity in interpreting the enhancement from LTB remained. Specifically, subsequent magnetometry measurements on identically prepared samples showed no such enhancement [\\[4\\]](#page-8-2), implying an accumulation of near-surface vortices caused by *pinning*. The discrepancy between SR and magnetometry suggests that any pinning centers must be localized to depths less than ∼100 µm below Nb's surface.\n\nTo test these ideas, here we extend the \"bulk\" SR approach used in related work [\\[6,](#page-8-4) [21,](#page-8-19) [23\\]](#page-8-21) to provide *depth-resolved* measurements of 0vp in both surface-treated and coated Nb. Specifically, we make use of thin Ag foils to moderate the implantation energy of the muon spin probes, providing spatial sensitivity to depths on the order of ∼30 µm to ∼100 µm. In the presence of surface energy barrier [\\[22\\]](#page-8-20), 0vp is expected to be depth-independent, whereas surface-localized pinning is anticipated to produce larger 0vps deeper below the surface (see Figure [1\\)](#page-1-0). Using this approach, we find that 0vp is depth-independent and close to Nb's 0sh for a Nb sample\n\n<span id=\"page-0-0\"></span><sup>∗</sup> E-mail: [asadm@uvic.ca](mailto:asadm@uvic.ca)\n\n<span id=\"page-0-1\"></span><sup>†</sup> E-mail: [junginger@uvic.ca](mailto:junginger@uvic.ca)\n\n![](_page_1_Figure_1.jpeg)\n\n<span id=\"page-1-0\"></span>FIG. 1. Sketch of the present SR experiment on superconducting Nb samples with ellipsoidal shape in an applied magnetic field parallel to the ellipsoid major axis (- - -), with the magnetic flux lines (—) also indicated. (**a**): In the Meissner state, complete flux expulsion from the ellipsoid's interior is achieved. Without any energy moderation for the <sup>+</sup> beam, the magnetic probes stop well-below the sample surface and experience no external contribution to their local field. (**b**): In the vortex state, some magnetic flux penetrates the sample as quantized fluxoids with a field-depended lattice arrangement, leading to a broad local field distribution samples by the <sup>+</sup> beamspot. (**c**): In the presence of strong near-surface pinning in the vortex state, fluxoid penetration is localized to the sample surface, which may go undetected by the implanted + at full beam energy. (**d**): Through the use of thin Ag foils as energy moderators for the <sup>+</sup> beam, the <sup>+</sup> probes stop closer to the surface, allowing for flux that is surfacepinned in the vortex state to be observed.\n\ncoated with the A15 superconductor Nb3Sn [\\[24,](#page-8-22) [25\\]](#page-8-23), consistent with the energy barrier expected for the SS bilayer. Conversely, for Nb that has been surface-treated by LTB at 120 ◦C, the measured 0vps are comparable to Nb's 0c1, but increase deeper below the surface, suggesting the presence of localized pinning near the surface that prevents detection by deeper implanted muons.\n\n## <span id=\"page-1-3\"></span>**II. EXPERIMENT**\n\nSR experiments were performed at TRIUMF's Centre for Molecular and Materials Science (CMMS) facility in Vancouver, Canada. Using the M20C beamline [\\[26\\]](#page-8-24), a ∼100 % spin-polarized ∼4.1 MeV \"surface\" <sup>+</sup> beam was extracted, spin-rotated in flight, and delivered to the high-parallel-field (i.e., \"HodgePodge\") spectrometer equipped with a horizontal gas-flow cryostat and a low-background (i.e., Knight shift) insert [\\[26\\]](#page-8-24). A sketch of cryostat configuration is given in Figure [2.](#page-1-1) This setup is similar to that used in related experiments [\\[6,](#page-8-4) [21,](#page-8-19) [23\\]](#page-8-21), with the external magnetic field parallel to each sample's surface (see Figure [1\\)](#page-1-0) and perpendicular to the implanted + spin direction. Notably, the present work also incorporates thin Ag foils (Goodfellow, 99.95 % purity, 10 µm to 30 µm thick) as part of the cryostat assembly, acting as energy moderators for the <sup>+</sup> beam. By varying the thickness of the foils, the range of implanted + in the Nb samples can\n\n![](_page_1_Figure_6.jpeg)\n\n<span id=\"page-1-1\"></span>FIG. 2. Schematic of the horizontal gas-flow cryostat and lowbackground (i.e., Knight shift) insert used with TRIUMF's high parallel-field (i.e., \"HodgePodge\") spectrometer [\\[26\\]](#page-8-24). The thin Ag foils used as + energy moderators are located between a 8 mm diameter beam collimator (also made of Ag) and the inner + counter.\n\nbe controlled on the µm scale. Simulations of the moderating effect were performed using the Stopping and Range of Ions in Matter (SRIM) Monte Carlo code [\\[27\\]](#page-8-25), which incorporated all major materials along the beam's path (e.g., muon counters, moderator foils, etc. — see Figure [2\\)](#page-1-1), as well as compound corrections [\\[28\\]](#page-8-26) to the stopping powers (where appropriate). Typical + stopping profiles for this setup are shown in Figure [3,](#page-2-0) showing mean stopping ranges ⟨⟩ between ∼36 µm to ∼108 µm for a Nb target, along with the width (i.e., standard deviation) of the stopping distributions [\\[29\\]](#page-8-27). Note that similar simulations for Nb3Sn(2 µm)/Nb samples (not shown) yielded virtually identical results. In cases where a 60 µm Ag foil was used, a small fraction (∼2 %) of the implanted probes stop in the inner + counter, located immediately upstream of the sample (see Figure [2\\)](#page-1-1).\n\nIn SR, the implanted + spin probes (spin = 1/2, gyromagnetic ratio /(2) = 135.54 MHz T−<sup>1</sup> , lifetime = 2.197 µs) are sensitive to the local magnetic field at their stopping sites, with the temporal evolution of the ensemble's spin-polarization monitored via the anisotropic property of radioactive -decay. Specifically, each <sup>+</sup> decay positron's emission direction is statistically correlated with the + spin direction at the moment of decay, providing an easy means of tracking spin-reorientation. Specifically, in a two-detector setup like that used here (see Figure [2\\)](#page-1-1), the recorded histogram of decay events takes the form:\n\n<span id=\"page-1-2\"></span>\n$$N\\_{\\pm}(t) = N\\_{\\pm,0} \\exp\\left(-\\frac{t}{\\tau\\_{\\mu}}\\right) \\left[1 \\pm A\\_0 P\\_{\\mu}(t)\\right] + b\\_{\\pm} \\qquad (1)$$\n\nwhere ± denotes each detector, is the time (in µs) after implantation, ±,<sup>0</sup> and <sup>±</sup> denote the rate of \"good\" and \"background\" decay events, () ∈ [−1, +1] is the muon spinpolarization, and <sup>0</sup> is a proportionality constant (∼0.2 here). The most essential part of Equation [\\(1\\)](#page-1-2) is 0 () and it may be obtained directly by taking the *asymmetry* of two counters:\n\n$$A\\_0 P\\_\\mu(t) = \\frac{[N\\_+(t) - b\\_+] - \\alpha [N\\_-(t) - b\\_-]}{[N\\_+(t) - b\\_+] + \\alpha [N\\_-(t) - b\\_-]},\\qquad(2)$$\n\nwhere ≡ +,0/−,<sup>0</sup> accounts for imperfections in the de-\n\n![](_page_2_Figure_0.jpeg)\n\n<span id=\"page-2-0\"></span>FIG. 3. Simulated stopping profiles for ∼4.1 MeV \"surface\" + implanted in Nb using the SRIM Monte Carlo code [\\[27\\]](#page-8-25). The profiles, represented here as histograms, were generated from 10<sup>6</sup> <sup>+</sup> projectiles and account for all materials in the beam's path prior to implantation (e.g., cryostat windows, + counters, moderating foils, etc. — see Figure [2\\)](#page-1-1). Using Ag foils of different thicknesses (indicated in each plot's inset), mean stopping depths ⟨⟩ in the range of ∼36 µm to ∼108 µm are achieved. The width (i.e., standard deviation) of each stopping distribution is also indicated. Note that a reduced + implantation energy is used for panel (d), yielding a ⟨⟩ comparable to using a thicker moderating foil, as shown in panel (c).\n\ntector pair (e.g., different efficiencies, effective solid angles, etc.). Important for this work is the temporal evolution of (), which contains all information about the local magnetic environment below the sample's surface (i.e., at the + stopping site). Fortunately, () differs in each of Nb's superconducting states, allowing us to quantify their volume fraction for our set of measurement conditions.\n\nFor the simplest case of Nb's normal state, where magnetic flux penetrates the sample's surface freely, the SR signal follows that of a typical transverse-field measurement [\\[19\\]](#page-8-17):\n\n<span id=\"page-2-3\"></span>\n$$P\\_{\\rm GTF}(t) = \\exp\\left[-\\frac{\\left(\\sigma t\\right)^2}{2}\\right] \\cos\\left(\\gamma\\_\\mu \\mu\\_0 H\\_0 t + \\phi\\right),\\qquad(3)$$\n\nwhere is the time after implantation, is the damping rate (from a Gaussian field distribution), 0<sup>0</sup> is magnetic field at the + stopping site (dominated by the external applied field), and is a phase factor. In non-superconducting Nb, the term ≈ 0.5 µs −1 [\\[6,](#page-8-4) [21,](#page-8-19) [23\\]](#page-8-21), causing minimal damping. Conversely, in Nb's vortex state, where fluxoids form a periodic arrangement with a broad distribution [\\[30,](#page-8-28) [31\\]](#page-8-29), is much larger and the signal is damped quickly (i.e., within the first ∼0.3 µs following implantation). In the opposite limit of Nb's Meissner state, where all magnetic flux is expelled from the sample's interior, the signal follows that of a so-called dynamic zero-field Kubo-Toyabe function [\\[32\\]](#page-8-30):\n\n$$\\begin{aligned} P\\_{\\text{DGKT}}(t) &= P\\_{\\text{SGKT}}(t) \\exp\\left[-\\nu t\\right] + \\\\ &\\quad \\nu \\int\\_0^t P\\_{\\text{DGKT}}(t - t') P\\_{\\text{SGKT}}(t') \\exp\\left[-\\nu t'\\right] \\,\\mathrm{d}t', \\quad (4) \\end{aligned}$$\n\nwhich is obtained from a static Kubo-Toyabe function SGKT [\\[33\\]](#page-8-31):\n\n<span id=\"page-2-2\"></span><span id=\"page-2-1\"></span>\n$$P\\_{\\rm SGKT}(t) = \\frac{1}{3} + \\frac{2}{3} \\left[ 1 - \\left( \\sigma t \\right)^2 \\right] \\exp\\left[ -\\frac{\\left( \\sigma t \\right)^2}{2} \\right],\\qquad(5)$$\n\nwhere the local field is fluctuating (e.g., from stochastic siteto-site \"hopping\" of + [\\[34\\]](#page-8-32)) at a rate , typically ∼0.7 µs −1 for SRF Nb [\\[23,](#page-8-21) [35\\]](#page-8-33). Note that both Equations [\\(4\\)](#page-2-1) and [\\(5\\)](#page-2-2) assume the local field distribution at the + stopping site to be Gaussian, in accord with related studies [\\[6,](#page-8-4) [21,](#page-8-19) [23,](#page-8-21) [35\\]](#page-8-33).\n\nFor the present experiments, the SR signal is, in general, described by a superposition of Equations [\\(3\\)](#page-2-3) and [\\(4\\)](#page-2-1), which may be written as:\n\n<span id=\"page-2-5\"></span>\n$$P\\_{\\mu}(t) = f\\_{\\text{ZF}} P\\_{\\text{DGKT}}(t) + (1 - f\\_{\\text{ZF}}) \\sum\\_{i} f\\_{\\text{TF},i} P\\_{\\text{GTF},i}(t), \\quad (6)$$\n\nwhere ZF ∈ [0, 1] denotes the volume fraction of the zero-field component, which for superconducting Nb in an applied field corresponds to its Meissner state, and TF, ∈ [0, 1] represents the individual transverse-field components (e.g., normal state, vortex state, etc.), subject to the constraint that Í TF, ≡ 1. Examples of this type of composite signal are shown in Figure [4.](#page-3-0)\n\nIn order to identify the 0vp in each sample, the evolution of ZF in (monotonically increasing) magnetic fields 0<sup>0</sup> up to ∼260 mT was measured at the cryostat's base temperature ( ≈ 2.7 K) following zero-field cooling. Any depth-dependence was inferred from repeat measurements using different moderator foil thicknesses (and <sup>+</sup> beam energies). Note that, to ensure the accuracy of the applied fields reported for all superconducting states (i.e., due to its geometric enhancement from flux-expulsion), all values were derived from field calibration measurements conducted above <sup>c</sup> (i.e., at ≥ 10.5 K for the LTB Nb and ≥ 20 K for the SS bilayer), where the SR signal simply follows Equation [\\(3\\)](#page-2-3). Specifically, they were corrected using [\\[36\\]](#page-8-34):\n\n$$\n\\mu\\_0 H\\_0 = \\mu\\_0 H\\_0^{\\text{NS}} \\times \\frac{1}{1 - N},\\tag{7}\n$$\n\nwhere 0 NS 0 is the (measured) applied field in the normal state and ≈ 0.13 [\\[6,](#page-8-4) [21\\]](#page-8-19) is the demagnetization factor for our samples (see Section [II A\\)](#page-2-4).\n\n## <span id=\"page-2-4\"></span>**A. Samples**\n\nThe samples used in this study are identical to those employed in previous SR measurements on the first-flux-penetration field [\\[6,](#page-8-4) [21\\]](#page-8-19). For completeness, we briefly restate their preparation details below.\n\nEach Nb sample was cut from fine-grain Nb (Wah Chang Corporation) stock sheets with a residual-resistivity ratio (RRR) >150 and machined into prolate ellipsoids with a semi-major radius 22.9 mm and semi-minor radii 9.0 mm for the other axes. After machining, the samples underwent buffered chemical polishing (BCP) to remove the surface's topmost 100 µm of the material (see, e.g., [\\[37\\]](#page-8-35)). For one of the samples, a typical LTB \"recipe\" was followed where, after degassing in vacuum at 800 ◦C for 4 h, the Nb ellipsoid was baked in vacuum at 120 ◦C for 48 h [\\[7\\]](#page-8-5). A complementary magnetostatic characterization of the LTB sample can also be found elsewhere [\\[4\\]](#page-8-2). Microstructure analysis was conducted on identically prepared flat \"witness\" samples using scanning electron microscope (SEM)/energy dispersive X-ray spectroscopy (EDX) and secondary ion mass spectrometry (SIMS). The SEM/EDX analysis revealed no unexpected features or contaminations beyond typical observations for high-RRR Nb exposed to air [\\[38\\]](#page-9-0). SIMS confirmed the expected increase in near-surface oxygen concentration following LTB for depths <20 nm, in accord with models for oxygen diffusion [\\[39](#page-9-1)[–41\\]](#page-9-2). For another sample, a 2 µm Nb3Sn surface coating was applied using a vapour diffusion [\\[42,](#page-9-3) [43\\]](#page-9-4) procedure developed at Cornell University [\\[44,](#page-9-5) [45\\]](#page-9-6). SEM and atomic force microscopy (AFM) measurements on identically prepared \"witness\" samples revealed that the asgrown Nb3Sn exhibits surface roughness comparable to their grain size, typically in the µm range [\\[25\\]](#page-8-23). Further tests on substrates prepared using different polishing techniques had no effect on the bilayer's surface roughness [\\[46\\]](#page-9-7).\n\n## **III. RESULTS**\n\nFigure [4](#page-3-0) depicts typical time-differential SR data in one of our samples (LTB Nb [\\[7\\]](#page-8-5)), showing the contrast in signals for different material states. In the normal state, where the local field at the + stopping sites is dominated by the (transverse) applied magnetic field 00, coherent spin-precession is observed with minimal damping, consistent with a narrow field distribution. By contrast, in the Meissner state, 0<sup>0</sup> is completely screened [\\[47\\]](#page-9-8) and the local field is dominated, in part, by Nb's 100 % abundant <sup>93</sup>Nb nuclear spins, resulting in the characteristic (dynamic) \"zero-field\" signal [\\[32\\]](#page-8-30). At applied fields just above the vortex penetration field 0vp, a mixed signal with both zero- and transverse-field components is observed, the latter being strongly damped. As the field is further increased beyond 0vp, the sample fully enters a vortex state, where the signal resembles that of the normal state, but the broad field distribution from the vortex lattice causes strong damping of the spin-polarization. Similar behavior is observed at other implantation ranges, as well as in the Nb3Sn(2 µm)/Nb sample (not shown). In line with the experiment's description in Section [II,](#page-1-3) these observations can be quantified through fits to Equation [\\(6\\)](#page-2-5), yielding good agreement with the data in all cases (typical reduced- <sup>2</sup> ≈ 1.07). A subset of the fit results are shown in Figure [4.](#page-3-0)\n\nTo aid in identifying 0vp and its depth-dependence, we plot\n\n![](_page_3_Figure_5.jpeg)\n\n<span id=\"page-3-0\"></span>FIG. 4. Typical SR data in surface-treated Nb, illustrating the evolution with applied magnetic field 00. Both panels **(a)** and **(b)** display the same dataset; however, **(b)** specifically represents the initial 0.5 µs. The temperature and 0<sup>0</sup> for each superconducting state are detailed in the panel's inset. The solid lines are fits to the data points using Equation [\\(6\\)](#page-2-5). In the normal state, coherent spin-precession is observed with minimal damping, consistent with a narrow local field distribution. In the Meissner state, the applied field is completely screened and the local field is dominated by the host's <sup>93</sup>Nb nuclear spin, resulting in the characteristic (dynamic) \"zero-field\" signal. At fields just above the vortex penetration field, a mixed signal with both zero- and transverse-field components is observed, the latter being strongly damped. Finally, in the vortex state, the broad field distribution causes strong damping of the transverse-field response.\n\nthe measured ZFs vs. 0<sup>0</sup> for each Nb sample in Figure [5.](#page-4-0) The resulting \"curves\" all have a sigmoid-like shape, where ZF = 1 for 0<sup>0</sup> < 0vp, with ZF decreasing rapidly towards zero once 0<sup>0</sup> ≥ 0vp. This behavior is phenomenologically captured by a logistic function:\n\n<span id=\"page-3-1\"></span>\n$$f\\_{\\rm ZF}(\\mu\\_0 H\\_0) \\approx \\frac{f\\_0}{\\exp\\left[-k\\left(\\mu\\_0 H\\_0 - \\mu\\_0 H\\_\\text{m}\\right)\\right] + 1},\\qquad(8)$$\n\nwhere <sup>0</sup> is the curve's height, denotes the \"steepness\" of the transition, and 0<sup>m</sup> represents its midpoint. Fits of the measured volume fractions to Equation [\\(8\\)](#page-3-1) are shown in Figure [5](#page-4-0) as guides to the eye.\n\nIt is clear from Figure [5](#page-4-0) that 0vp's depth-dependence is quite different for LTB and coated Nb. In the LTB sample, fluxpenetration is detected just above Nb's 0c1, with the onset pushed to higher 00s for larger + ranges. Similarly, the field span of this \"transition\" (i.e., going from zero- to full-fluxpenetration) also increases slightly deeper below the surface. By contrast, in the Nb3Sn(2 µm)/Nb, first-flux-penetration onsets close to Nb's 0sh, with this value and the transition's width both virtually unaffected by + 's proximity to the sample's surface. Qualitatively, this disparity between the Nb treatments indicates that different mechanisms are likely responsible for determining each sample's 0vp.\n\n![](_page_4_Figure_1.jpeg)\n\n<span id=\"page-4-0\"></span>FIG. 5. Volume fraction of the zero-field SR signal ZF at different applied magnetic field 0<sup>0</sup> and mean + implantation depths ⟨⟩. The ⟨⟩ and measurements temperature are mentioned in the figure's inset. The solid colored lines denotes fits to a logistic function, intended to guide the eye. The 0vp at each ⟨⟩ are shown using colored dotted vertical lines. Vertical dotted-dashed and dashed brown lines are included to mark Nb's lower critical field 0c1 and superheating field 0sh at <sup>2</sup>.7 K. Note that Nb3Sn has a considerably smaller 0c1 = 25.0(14) mT [\\[5\\]](#page-8-3) compared to the fields shown here. **(a)**: In LTB Nb, the vortex penetration field 0vp is comparable to 0c1, but shows a strong ⟨⟩-dependence, increasing with increasing ⟨⟩. **(b)**: In Nb3Sn(2 µm)/Nb, 0vp is ⟨⟩-independent and close to 0sh.\n\nTo quantify these differences explicitly, we use a nonparametric approach to identify 0vp for each \"curve\" in Figure [5.](#page-4-0) Noting that each ZF has a statistical uncertainty of ∼4 % (determined from fitting), we define 0vp to correspond to the applied field where where ZF ≤ 0.96 (i.e., the very onset of flux-penetration). Due to the finite \"sampling\" of our measurements, this field is estimated as midpoint between the pair of ZFs on either side of the threshold criteria [\\[48\\]](#page-9-9). These values are marked graphically in Figure [5](#page-4-0) by vertical dotted colored lines. Similarly, we take the width of the zeroto full-flux-penetration \"transition\" Δvp to be the field range where 4 % ≤ ZF ≤ 96 %. To correct for any influence from the finite span of the + stopping profile we additionally normalize the Δvps by the width of the implantation distribution, which varies for different beam implantation conditions (see Figure [3\\)](#page-2-0). For each of our samples, the dependence of both 0vp and Δvp/ on the implanted + range ⟨⟩ is shown in Figure [6.](#page-4-1) For comparison, measured values for additional surface-treated samples [\\[6,](#page-8-4) [21\\]](#page-8-19) have also been included [\\[49\\]](#page-9-10). Lastly, to facilitate comparison between the measured 0vps, we correct for\n\n![](_page_4_Figure_4.jpeg)\n\n<span id=\"page-4-1\"></span>FIG. 6. Summary of the first-flux penetration measurements at different mean + implantation depths ⟨⟩ for LTB Nb and Nb3Sn(2 µm)/Nb. For comparison, we include re-analyzed results for additional SRF Nb treatments (originally reported elsewhere [\\[6,](#page-8-4) [21\\]](#page-8-19)). **(a)**: Measured vortex penetration fields 0vp. The horizontal dashed and dotted-dashed brown lines denote Nb's superheating field 0sh and lower critical field 0c1, respectively. In Nb3Sn(2 µm)/Nb, 0vp is ⟨⟩-independent and close to 0sh, whereas 0vp ≈ 0c1 in LTB Nb, increasing modestly with increasing ⟨⟩. The other surface-treatments have 0vps that are similarly close to 0c1. The cyan color solid line represents the \"straight line\" fit applied to the LTB data, providing an estimate of the depth where 0vp = 0c1. **(b)**: Measured Meissner-vortex transition \"widths\" Δ0vp, divided by , confirm that the stopping distributions are not significantly different. The dotted and dash-dotted horizontal lines are the average values of Δvp/ , ⟨Δvp/ ⟩ for LTB and Nb3Sn(2 µm)/Nb samples, respectively.\n\nminor temperature differences and extrapolate our values to 0 K using the empirical relation [\\[50\\]](#page-9-11):\n\n$$\n\\mu\\_0 H\\_{\\rm vp}(T) \\approx \\mu\\_0 H\\_{\\rm vp}(0 \\,\\mathrm{K}) \\left[ 1 - \\left( \\frac{T}{T\\_{\\rm c}} \\right)^2 \\right],\\tag{9}\n$$\n\nwhere is the absolute temperature, <sup>c</sup> ≈ 9.25 K is Nb's critical temperature [\\[51\\]](#page-9-12), and 0vp (0 K) is the value at absolute zero.\n\n## **IV. DISCUSSION**\n\nConsistent with our main observations in Figure [5](#page-4-0) for the vortex penetration field, Figure [6\\(](#page-4-1)a) shows that 0vps in Nb3Sn(2 µm)/Nb (extrapolated to 0 K) remain depthindependent with an average value of 234.5(35) mT, in excellent agreement with Nb's 0sh (0 K) ≈ 240 mT [\\[5,](#page-8-3) [6\\]](#page-8-4). That the flux penetration occurs in such close proximity to the superheating field is strong evidence for the presence of an interface barrier at the SS boundary, similar to a Bean-Livingston (BL) surface energy barrier [\\[22\\]](#page-8-20), as anticipated by the theoretical framework for superconducting multilayers [\\[14,](#page-8-12) [52\\]](#page-9-13). Conversely, in LTB Nb the 0vps are much lower, remaining close to (but slightly above) 0c1 for all measurements. In this case, however, a modest depth-dependence is observed, with 0vp increasing gradually with increasing ⟨⟩. That these details coincide is significant, as it sets LTB apart from other surface treatments, where flux-penetration occurs at Nb's lower critical field. We note that, though small, the observation of such a depth-dependence is inconsistent with a surface energy barrier being solely responsible for pushing 0vp > 0c1 [\\[53\\]](#page-9-14). An alternative possibility is the presence of pinnning centers localized near LTB Nb's surface, which has been suggested previously [\\[4,](#page-8-2) [21\\]](#page-8-19). In such a case, 0vp closely approximates 0c1 due to the presence of pinning, which diminishes towards the sample's center, resulting in delayed flux penetration (i.e., the pinning centers act as supplemental flux \"blockades,\" providing resistance to the free motion of the fluxoids, which would otherwise uniformly distribute throughout the sample) [\\[21\\]](#page-8-19). Independent of the mechanistic details, from our data we identify the length scale over which flux-penetration is retarded. Using a simple linear fit to the measured values, we find that 0vp ≈ 0c1 at a mean depth of ∼14 µm, characterizing the distance in which it is delayed for our sample geometry. Note that, there is a significant proportion of muons that stop significantly closer to the surface at this average depth. We shall return the implications of this quantity later on.\n\nFurther insight into the flux-penetration mechanism for the LTB and SS samples can be gleaned from the (normalized) flux-entry \"transition\" widths Δvp/ , which are shown in Figure [6\\(](#page-4-1)b). The span from first- to full-flux penetration provides a measure for the \"haste\" in which vortices nucleate through the probe + stopping depths where, in the presence of near-surface pinning, we expect that the Meissner-vortex transition becomes \"extended\" to a larger range of applied fields (i.e., the presence of pinning centers delays full-flux penetration). Thus, we suggest that Δvp/ serves as a proxy for each treatment's pinning strength. Indeed, we observe that the values for LTB Nb are all similar, which also suggests that the pinning strength appears to be depth-independent and exceeds the values of all other surface preparations shown in Figure [6.](#page-4-1) However, given the relatively large uncertainty in each measurement, drawing firm conclusions about treatment-specific differences is challenging. This is clear from their average values, which turned out to be 0.56(15) mT/µm (for LTB) and 0.37(18) mT/µm (for Nb3Sn(2 µm)/Nb), respectively. Interestingly, both quantities are comparable to that of Nb in the absence of any treatment (0.46(14) mT/µm), which is larger than both the values ob-\n\ntained for 1400 ◦C annealing (0.14(13) mT/µm), as well as 1400 ◦C annealing + 120 ◦C LTB (0.22(14) mT/µm). We note that, in line with our expectations for Δvp/ , its value is minimized for the 1400 ◦C treatment, which is known to release virtually all pinning [\\[21\\]](#page-8-19). Thus, although not as conclusive as the 0vp measurements, the large values for LTB insinuate that pinning is strongest for this treatment. With these results in mind, we will explore their implications in the remaining discussion.\n\nFirst, we consider the SS bilayer Nb3Sn(2 µm)/Nb, whose high 0vp is favorable for technical applications requiring operation in a flux-free state (e.g., SRF cavities). In fact, direct current (DC) measurements of first-flux-penetration using a Hall probe magnetometer on a 1.3 GHz single-cell SRF cavity of similar composition are in good agreement with our result [\\[5\\]](#page-8-3), with similar 0vp values reported for surface coatings other than Nb3Sn, such as hybrid physical chemical vapour deposition (HPCVD) MgB<sup>2</sup> [\\[6\\]](#page-8-4). The combination of our work and related studies [\\[5,](#page-8-3) [6,](#page-8-4) [21\\]](#page-8-19) provides compelling evidence for the use of SS bilayers as an empirical means for increasing 0vp, consistent with earlier observations using SR [\\[6,](#page-8-4) [21\\]](#page-8-19). For further insight into why such a treatment is so effective at enhancing 0vp, we must consider the theory of superconducting multilayers (see, e.g., [\\[14\\]](#page-8-12)), which we shall briefly outline below.\n\nIn bilayer superconductors, by analogy with the BL barrier at the surface of \"bulk\" superconductors [\\[22\\]](#page-8-20), the discontinuity in each material's (coupled) electromagnetic response at the SS interface is responsible for creating a second (sub-surface) barrier that impedes flux penetration [\\[52\\]](#page-9-13). Specifically, electromagnetic continuity across the SS boundary creates a \"coupling\" between the layer's properties, leading to marked deviations from the lone material's native behavior when the surface layer penetration depth is larger than the substrate. Microscopically, this is predicted to manifest in the heterostructure's Meissner screening profile with a distinct bipartite form [\\[52\\]](#page-9-13), which was recently confirmed experimentally for Nb1−xTixN(50 nm to 160 nm)/Nb samples [\\[54\\]](#page-9-15). A weaker Meissner screening current is observed, which, as a corollary, provides enhanced protection against flux nucleation (see, e.g., [\\[14\\]](#page-8-12)). While the 0vp ≈ 0sh we observe is in good agreement with this prediction, the theory also suggests that 0vp can be improved further still through optimizing the Nb3Sn coating's thickness. This enhancement is achievable by ensuring a flux-free surface layer and enabling superheating in both the surface and substrate layers. Achieving this involves precise adjustments to the thickness of the surface layer and the presence of an interface barrier at the SS boundary for the substrate layer. For an SS structure, the optimum thickness of the surface layer opt s is defined by [\\[14\\]](#page-8-12):\n\n$$\\begin{aligned} d\\_{\\rm s}^{\\rm opt} &= \\lambda\\_{\\rm s} \\log \\left[ \\frac{\\lambda\\_{\\rm s} H\\_{\\rm sh}^{\\rm s}}{\\left(\\lambda\\_{\\rm s} + \\lambda\\_{\\rm sub}\\right) H\\_{\\rm sh}^{\\rm sub}} + \\\\ &\\sqrt{\\left[\\frac{\\lambda\\_{\\rm s} H\\_{\\rm sh}^{\\rm s}}{\\left(\\lambda\\_{\\rm s} + \\lambda\\_{\\rm sub}\\right) H\\_{\\rm sh}^{\\rm sub}}\\right]^2 + \\left(\\frac{\\lambda\\_{\\rm s} - \\lambda\\_{\\rm sub}}{\\lambda\\_{\\rm s} + \\lambda\\_{\\rm sub}}\\right)} \\right], \\quad (10) \\end{aligned}$$\n\nwhere and sh denote the magnetic penetration depth and\nsuperheating field for the surface ( = s) and substrate ( = sub) layers. Using literature values for these quantities (Nb3Sn = 173(32) nm [\\[5,](#page-8-0) [55\\]](#page-9-0); Nb3Sn sh <sup>=</sup> <sup>430</sup>(110) mT [\\[5,](#page-8-0) [55\\]](#page-9-0); Nb <sup>=</sup> 29.01(10) nm [\\[17\\]](#page-8-1); and Nb sh = 237(29) mT [\\[5,](#page-8-0) [6\\]](#page-8-2)), Equation [\\(10\\)](#page-5-0) yields opt <sup>s</sup> = 210(60) nm or, equivalently, ∼1.2Nb3Sn. Similar predictions have been made for Nb1−xTixN/Nb [\\[54\\]](#page-9-1). It would be interesting to test these explicitly, for example, using the experimental formalism employed in this work. Investigating this phenomena in closely related superconductor-insulatorsuperconductor (SIS) heterostructures would also be fruitful, as they offer similar means of enhancing 0vp [\\[14\\]](#page-8-3).\n\nAs a close to our discussion of the Nb3Sn/Nb bilayer, it is interesting to consider its synthesis. We note that in our sample, as is common for heterostructures prepared by thermal diffusion, the composition of the Nb3Sn/Nb interface deviates appreciably from each layer's respective \"bulk\" [\\[25,](#page-8-4) [56\\]](#page-9-2). Specifically, within the first few hundred nanometers from the heterojunction, a localized Sn deficiency (enhancement) is present in the Nb3Sn (Nb) layers, with the former known to lower Nb3Sn's c, making the region a poor superconductor [\\[25,](#page-8-4) [56\\]](#page-9-2). The presence of such inhomogeneities, however, do not meaningfully impact 0vp, as indicated by it's agreement with Nb's 0sh. Testing the extent in which this remains true, for example, on samples with extended defect regions, would be interesting. Similarly, these nanoscale inhomogeneities at the SS interface could be examined directly using a depth-resolved technique such as LE- SR [\\[11,](#page-8-5) [12\\]](#page-8-6), with the caveat that the Nb3Sn layer thickness must be compatible with the technique's spatial sensitivity (i.e., subsurface depths typically <150 nm). Finally, given the presence of a secondary energy barrier at the SS interface, we suggest that incorporating SS bilayers into SRF cavity structures holds great promise for surpassing the inherent limitations of current Nb cavity technology (i.e., enabling higher accelerating gradients and enhanced performance in particle accelerators).\n\nWe now turn our attention to the 120 ◦C LTB treatment [\\[7\\]](#page-8-7), which is well-known in SRF applications for its ability to alleviate the so-called high-field slope (HFQS) \"problem\" [\\[2,](#page-8-8) [57\\]](#page-9-3), where a rapid decrease in a cavity's quality factor () occurs as the peak surface magnetic field exceeds ∼100 mT [\\[58\\]](#page-9-4). True to this fashion, our finding of 0vps in excess of Nb's 0c1 underscores its utility in this domain; however, the treatment's depth-dependent 0vp and relatively large Δvp/ make it unique among the comparison treatments reported here. As mentioned above, near-surface pinning of the fluxlines provides the most likely explanation for these facts. The observed delay in flux-penetration would then arise from the pinning centers acting as \"supplementary barriers,\" impeding the movement of vortices from the edges of the sample to the center [\\[21\\]](#page-8-9). The relatively large Meissner-vortex transition \"widths\" observed here also support this interpretation. It has been suggested by others that material inhomogeneities, such as interstitial oxygen or hydrogen precipitates, may dominate the pinning mechanism [\\[59\\]](#page-9-5). For further insight into the matter, it is instructive to consider some of the treatment's finer details, which we do below.\n\nDuring LTB, the heat treatment induces changes to Nb's superfluid density in its outermost nanoscale region through the\n\ndissolution and diffusion of oxygen originating from the metal's native surface oxide [\\[7\\]](#page-8-7). This alteration is believed to result in a \"dirty\" region localized near Nb's surface (i.e., the first ∼50 nm), as explained by an oxygen diffusion model [\\[39\\]](#page-9-6). This length scale aligns well other work, including an experiment that used repeat HF \"rinses\" to remove the topmost ∼50 nm and (essentially) restore the HFQS following LTB [\\[60\\]](#page-9-7). Similarly, an increase of the ratio of the upper and surface critical fields after baking was explained by the presence of an impurity layer of thickness smaller than Nb's coherence length [\\[61\\]](#page-9-8), which is of similar magnitude. Other work on related treatments have also found similar results [\\[41,](#page-9-9) [62\\]](#page-9-10), and the first ∼10 nm may be particularly enriched with interstitial oxygen [\\[63\\]](#page-9-11). It has been suggested that the LTB effect (i.e., HFQS mitigation) is due to the strong suppression of hydride precipitation [\\[64\\]](#page-9-12), as oxygen efficiently traps interstitial (or \"free\") hydrogen that has accumulated during standard chemical treatments, such as BCP or electropolishing (EP) [\\[62,](#page-9-10) [64,](#page-9-12) [65\\]](#page-9-13). Indeed, LTB has been linked to changes in the vacancy structure in Nb's near-surface region [\\[66,](#page-9-14) [67\\]](#page-9-15), supporting the prevailing idea that nanoscale niobium hydrides cause the HFQS [\\[64\\]](#page-9-12). These works all point to the importance of surface defects, especially those closest to the surface.\n\nWithin the ∼50 nm \"dirty\" region, it is expected that quantities sensitive to the density of (nonmagnetic) scattering centers (e.g., the carrier mean-free-path, the magnetic penetration depth, etc.) be altered from their (clean-limit) \"bulk\" values. As the doping is likely inhomogeneous over this length scale, a similar character may be imparted on dependent quantities. Early experimental results seemed to favor this possibility [\\[13\\]](#page-8-10), with other authors suggesting a strong likeness of LTB Nb to an \"effective\" SS bilayer [\\[14\\]](#page-8-3). Subsequent experiments, however, have shown that such a distinction is far from clear, with both a recent a commentary [\\[18\\]](#page-8-11) and a separate LE-SR experiment [\\[17\\]](#page-8-1) showing that the effects are homogeneous over subsurface depths spanning ∼10 nm to ∼160 nm. Such a finding was rather surprising, given the aforementioned related work [\\[39,](#page-9-6) [60,](#page-9-7) [61\\]](#page-9-8) and that doping from the closely related nitrogen infusion treatment [\\[10\\]](#page-8-12) yields inhomogeneous superconducting properties over the same length scale [\\[16\\]](#page-8-13). We point out, however, that the observed electromagnetic response for LTB [\\[17,](#page-8-1) [18\\]](#page-8-11) is consistent with the absence of an interface energy barrier preventing flux-penetration [\\[15,](#page-8-14) [16\\]](#page-8-13), in line with our present findings.\n\nAs alluded above, the \"dirty\" nature of LTB provides an ample environment for pinning centers, which can serve as seeds for flux penetration. While other experiments are clear on their surface proximity, their ∼50 nm localization is quite different from the micrometer depth-dependence we observe for 0vp, which warrants further consideration. As is shown in Figure [6\\(](#page-4-0)a), LTB's 0vp varies approximately linearly in ⟨⟩. From a fit to a function of the form\n\n$$\n\\mu\\_0 H\\_{\\rm vp}(\\langle z \\rangle) \\approx A + B \\langle z \\rangle,\n$$\n\nwe parameterize this trend, but postulate that Nb's 0c1 acts as the floor for 0vp. Upon equating the two relations, we find that 0vp (⟨⟩) ≈ 0c1 when ⟨⟩ ≈ 14 µm. Clearly, this scale is considerably larger than the \"dirty\" region's extent [\\[39,](#page-9-6)\n\n[60,](#page-9-7) [61\\]](#page-9-8). We argue that, despite the LTB effect being confined to the very near surface, this \"layer\" could introduce pinning over a µm length scale in an ellipsoidal geometry. This is a consequence of the fact that, even if flux lines penetrate further into the material, they must both enter and exit through the \"dirty\" region. The pinning strength is directly influenced by the flux line's path length through this volume, which in the case of an ellipsoid is minimized for the straight path along its equator, but maximized for a (curved) trajectory close to the surface (see Figure [1\\)](#page-1-0). Indeed, magnetometry studies demonstrate that LTB can significantly alter the pinning characteristics in this geometry [\\[4\\]](#page-8-15). We emphasize that an ellipsoidal geometry is the ideal means for probing intrinsic pinning effects, as opposed to other sample forms (e.g., rectangular prisms) where additional geometric effects are present [\\[36\\]](#page-8-16). In line with the generally accepted view that LTB changes the concentration of pinning centers (i.e., from the redistribution of near-surface defects) [\\[41,](#page-9-9) [60,](#page-9-7) [68,](#page-9-16) [69\\]](#page-9-17), our identification of a length scale associated with flux pinning may prove useful in further refining their microscopic distribution. In the future, it would be interesting to use this finding as a constraint for simulations of flux-entry in ellipsoidal geometries (see, e.g., Ref. [70\\)](#page-9-18).\n\nIn terms of SRF cavity performance, it is important to highlight that our investigation on the LTB \"dirty\" layer cannot explain situations where cavities in radio frequency (RF) operation exhibit 0vps above 0c1, reaching values as high as ∼190 mT [\\[59,](#page-9-5) [71\\]](#page-10-0), equivalent to accelerating gradients of ∼45 MV m−<sup>1</sup> [\\[2\\]](#page-8-8). Recall that, if the Meissner state of any (type-II) material persists above 0c1, it must do so in a *metastable* state. For DC fields, flux penetration can only be prevented by an energy barrier [\\[22\\]](#page-8-17), generally anticipated for defect-free surfaces. From the delineations above, it is clear that LTB results in surfaces that are anything but defect-free and any prospect for achieving such high 0vp fields during RF operation depends on the interplay between the time needed for the vortex core formation and the RF period. In such cases, maintaining a flux-free state above 0c1 necessitates the time required for vortex penetration to exceed the operating RF period (i.e., the inverse RF frequency) of the cavity [\\[72\\]](#page-10-1). Comparing this study with 0vp ∼ 190 mT [\\[59,](#page-9-5) [71\\]](#page-10-0), we suggest that LTB cavities need a longer flux nucleation time than the RF period to sustain the Meissner state. Alternatively, SS bilayers can maintain that up to its 0vp ∼ 235 mT, even in the DC flux penetration case, offering a more robust approach for achieving higher accelerating gradients than LTB.\n\nConsidering the above details, it is apparent that LTB Nb differs fundamentally from that of an SS bilayer in both its composition and mechanism for impeding flux entry. Concerning the latter, our present findings, in conjunction with related work [\\[4,](#page-8-15) [21\\]](#page-8-9), support the notion that LTB does not create a supplemental energy barrier, but instead postpones vortex penetration above 0c1 due to pinning. While it remains an open question as to if this behavior could be further engineered to benefit SRF applications, it is apparent that careful control over the near-surface doping is crucial. Advances in this area are\n\nalready apparent [\\[41\\]](#page-9-9). In future work, it would be interesting to test these ideas on related LTB treatments [\\[8](#page-8-18)[–10\\]](#page-8-12), as well as the recently discovered \"mid-\" treatments that are known to produce very small surface resistances [\\[73,](#page-10-2) [74\\]](#page-10-3).\n\n### **V. CONCLUSION**\n\nUsing SR, we measured the depth-dependence (on the µm scale) of the vortex penetration field in Nb ellipsoids that received either a LTB surface-treatment or a 2 µm coating of Nb3Sn. In each sample, the measured field of first-flux-entry is greater than Nb's lower critical field of ∼170 mT, suggesting their applicability for SRF cavities. In the coated sample, we find a depth-independent 0vp = 234.5(35) mT, consistent with Nb's superheating field and the presence of interface energy barrier preventing flux penetration. Conversely, in LTB Nb, its 0vp is only moderately larger than Nb's 0c1, increasing slightly with increasing depths below the surface. The latter observation, in conjunction with the increased span of the Meissner-vortex transition, suggests pinning from surfacelocalized defects. Our findings confirm that the introduction of a thin superconducting overlayer on Nb can effectively push the onset of vortex penetration up the superheating field, but rules our LTB as a means of achieving this. We suggest that its success is rather due to effects specific to the operation under RF fields, such as the time required for vortex nucleation. These findings validate the potential of employing superconducting bilayers to achieve a flux-free Meissner state up to the superheating field of the substrate.\n\n### **ACKNOWLEDGMENTS**\n\nWe thank D. L. Hall (Cornell) and B. Waraich (TRIUMF) for providing the coated and surface-treated Nb samples, respectively. Technical support during the SR experiments from R. Abasalti, D. J. Arseneau, B. Hitti, G. D. Morris, and D. Vyas (TRIUMF) is gratefully acknowledged. Financial support was provided by the Natural Sciences and Engineering Research Council of Canada (NSERC) [SAPPJ-2020-00030 and SAPIN-2021-00032].\n\n### **AUTHOR DECLERATIONS**\n\n# **Conflict of Interest**\n\nThe authors have no conflicts to disclose.\n\n## **DATA AVAILABILITY**\n\nRaw data of SR experiments are publicly available for download from: [http://musr.ca.](http://musr.ca/)\n\n- [1] H. Padamsee, J. Knobloch, and T. Hays, *RF Superconductivity for Accelerators*, 2nd ed., Wiley Series in Beam Physics and Accelerator Technology (Wiley, New York, 2008).\n- <span id=\"page-8-8\"></span>[2] H. Padamsee, *[RF Superconductivity: Science, Technology, and](https://doi.org/10.1002/9783527627172) [Applications](https://doi.org/10.1002/9783527627172)* (Wiley, Weinheim, 2009).\n- [3] H. Padamsee, *[Superconducting Radiofrequency Technology for](https://doi.org/10.1002/9783527836314) [Accelerators: State of the Art and Emerging Trends](https://doi.org/10.1002/9783527836314)* (Wiley, Weinheim, 2023).\n- <span id=\"page-8-15\"></span>[4] D. A. Turner, G. Burt, and T. Junginger, No interface energy barrier and increased surface pinning in low temperature baked niobium, Sci. Rep. **12**[, 5522 \\(2022\\).](https://doi.org/10.1038/s41598-022-09023-0)\n- <span id=\"page-8-0\"></span>[5] S. Posen, N. Valles, and M. Liepe, Radio frequency magnetic field limits of Nb and Nb3Sn, [Phys. Rev. Lett.](https://doi.org/10.1103/PhysRevLett.115.047001) **115**, 047001 [\\(2015\\).](https://doi.org/10.1103/PhysRevLett.115.047001)\n- <span id=\"page-8-2\"></span>[6] T. Junginger, W. Wasserman, and R. E. Laxdal, Superheating in coated niobium, [Supercond. Sci. Technol.](https://doi.org/10.1088/1361-6668/aa8e3a) **30**, 125012 (2017).\n- <span id=\"page-8-7\"></span>[7] G. Ciovati, Effect of low-temperature baking on the radiofrequency properties of niobium superconducting cavities for particle accelerators, J. Appl. Phys. **96**[, 1591 \\(2004\\).](https://doi.org/10.1063/1.1767295)\n- <span id=\"page-8-18\"></span>[8] A. Grassellino, A. Romanenko, D. Bice, O. Melnychuk, A. C. Crawford, S. Chandrasekaran, Z. Sung, D. A. Sergatskov, M. Checchin, S. Posen, M. Martinello, and G. Wu, Accelerating fields up to 49 MV m−<sup>1</sup> in TESLA-shape superconducting RF niobium cavities via 75 ◦C vacuum bake, [arXiv:1806.09824](https://arxiv.org/abs/1806.09824) [\\[physics.acc-ph\\].](https://arxiv.org/abs/1806.09824)\n- [9] A. Grassellino, A. Romanenko, D. Sergatskov, O. Melnychuk, Y. Trenikhina, A. Crawford, A. Rowe, M. Wong, T. Khabiboulline, and F. Barkov, Nitrogen and argon doping of niobium for superconducting radio frequency cavities: a pathway to highly efficient accelerating structures, [Supercond. Sci. Technol.](https://doi.org/10.1088/0953-2048/26/10/102001) **26**, [102001 \\(2013\\).](https://doi.org/10.1088/0953-2048/26/10/102001)\n- <span id=\"page-8-12\"></span>[10] A. Grassellino, A. Romanenko, Y. Trenikhina, M. Checchin, M. Martinello, O. S. Melnychuk, S. Chandrasekaran, D. A. Sergatskov, S. Posen, A. C. Crawford, S. Aderhold, and D. Bice, Unprecedented quality factors at accelerating gradients up to 45 MV m−<sup>1</sup> in niobium superconducting resonators via low temperature nitrogen infusion, [Supercond. Sci. Technol.](https://doi.org/10.1088/1361-6668/aa7afe) **30**, [094004 \\(2017\\).](https://doi.org/10.1088/1361-6668/aa7afe)\n- <span id=\"page-8-5\"></span>[11] E. Morenzoni, T. Prokscha, A. Suter, H. Luetkens, and R. Khasanov, Nano-scale thin film investigations with slow polarized muons, [J. Phys.: Condens. Matter](https://doi.org/10.1088/0953-8984/16/40/010) **16**, S4583 (2004).\n- <span id=\"page-8-6\"></span>[12] P. Bakule and E. Morenzoni, Generation and applications of slow polarized muons, [Contemp. Phys.](https://doi.org/10.1080/00107510410001676803) **45**, 203 (2004).\n- <span id=\"page-8-10\"></span>[13] A. Romanenko, A. Grassellino, F. Barkov, A. Suter, Z. Salman, and T. Prokscha, Strong Meissner screening change in superconducting radio frequency cavities due to mild baking, [Appl. Phys.](https://doi.org/10.1063/1.4866013) Lett. **104**[, 072601 \\(2014\\).](https://doi.org/10.1063/1.4866013)\n- <span id=\"page-8-3\"></span>[14] T. Kubo, Multilayer coating for higher accelerating fields in superconducting radio-frequency cavities: a review of theoretical aspects, [Supercond. Sci. Technol.](https://doi.org/10.1088/1361-6668/30/2/023001) **30**, 023001 (2017).\n- <span id=\"page-8-14\"></span>[15] V. Ngampruetikorn and J. A. Sauls, Effect of inhomogeneous surface disorder on the superheating field of superconducting RF cavities, Phys. Rev. Res. **1**[, 012015\\(R\\) \\(2019\\).](https://doi.org/10.1103/PhysRevResearch.1.012015)\n- <span id=\"page-8-13\"></span>[16] M. Checchin and A. Grassellino, High-field Q-slope mitigation due to impurity profile in superconducting radio-frequency cavities, [Appl. Phys. Lett.](https://doi.org/10.1063/5.0013698) **117**, 032601 (2020).\n- <span id=\"page-8-1\"></span>[17] R. M. L. McFadden, M. Asaduzzaman, T. Prokscha, Z. Salman, A. Suter, and T. Junginger, Depth-resolved measurements of the Meissner screening profile in surface-treated Nb, [Phys. Rev.](https://doi.org/10.1103/PhysRevApplied.19.044018) Appl. **19**[, 044018 \\(2023\\).](https://doi.org/10.1103/PhysRevApplied.19.044018)\n- <span id=\"page-8-11\"></span>[18] R. M. L. McFadden, M. Asaduzzaman, and T. Junginger, Comment on \"Strong Meissner screening change in superconducting radio frequency cavities due to mild baking\" [Appl. Phys. Lett. 104, 072601 (2014)], [Appl. Phys. Lett.](https://doi.org/10.1063/5.0157000) **124**, 086101 (2024).\n- [19] A. Yaouanc and P. Dalmas de Réotier, *Muon Spin Rotation, Relaxation, and Resonance: Applications to Condensed Matter*, International Series of Monographs on Physics, Vol. 147 (Oxford University Press, Oxford, 2011).\n- [20] A. D. Hillier, S. J. Blundell, I. McKenzie, I. Umegaki, L. Shu, J. A. Wright, T. Prokscha, F. Bert, K. Shimomura, A. Berlie, H. Alberto, and I. Watanabe, Muon spin spectroscopy, [Nat. Rev.](https://doi.org/10.1038/s43586-021-00089-0) [Methods Primers](https://doi.org/10.1038/s43586-021-00089-0) **2**, 4 (2022).\n- <span id=\"page-8-9\"></span>[21] T. Junginger, S. H. Abidi, R. D. Maffett, T. Buck, M. H. Dehn, S. Gheidi, R. Kiefl, P. Kolb, D. Storey, E. Thoeng, W. Wasserman, and R. E. Laxdal, Field of first magnetic flux entry and pinning strength of superconductors for rf application measured with muon spin rotation, [Phys. Rev. Accel. Beams](https://doi.org/10.1103/PhysRevAccelBeams.21.032002) **21**, 032002 (2018).\n- <span id=\"page-8-17\"></span>[22] C. P. Bean and J. D. Livingston, Surface barrier in type-II superconductors, [Phys. Rev. Lett.](https://doi.org/10.1103/PhysRevLett.12.14) **12**, 14 (1964).\n- [23] A. Grassellino, C. Beard, P. Kolb, R. Laxdal, N. S. Lockyer, D. Longuevergne, and J. E. Sonier, Muon spin rotation studies of niobium for superconducting rf applications, [Phys. Rev. ST](https://doi.org/10.1103/PhysRevSTAB.16.062002) Accel. Beams **16**[, 062002 \\(2013\\).](https://doi.org/10.1103/PhysRevSTAB.16.062002)\n- [24] A. Godeke, A review of the properties of Nb3Sn and their variation with A15 composition, morphology and strain state, [Supercond. Sci. Technol.](https://doi.org/10.1088/0953-2048/19/8/R02) **19**, R68 (2006).\n- <span id=\"page-8-4\"></span>[25] S. Posen and D. L. Hall, Nb3Sn superconducting radiofrequency cavities: fabrication, results, properties, and prospects, [Super](https://doi.org/10.1088/1361-6668/30/3/033004)[cond. Sci. Technol.](https://doi.org/10.1088/1361-6668/30/3/033004) **30**, 033004 (2017).\n- [26] S. R. Kreitzman and G. D. Morris, TRIUMF MuSR and NMR research facilities, JPS Conf. Proc. **21**[, 011056 \\(2018\\).](https://doi.org/10.7566/JPSCP.21.011056)\n- [27] J. F. Ziegler, J. P. Biersack, and M. D. Ziegler, *[SRIM The](http://www.srim.org/) [Stopping and Range of Ions in Matter](http://www.srim.org/)*, 7th ed. (SRIM Co., Chester, 2008).\n- [28] J. F. Ziegler and J. M. Manoyan, The stopping of ions in compounds, [Nucl. Instrum. Methods Phys. Res., Sect. B](https://doi.org/10.1016/0168-583X(88)90273-X) **35**, 215 [\\(1988\\).](https://doi.org/10.1016/0168-583X(88)90273-X)\n- [29] Note that the mean stopping depth ⟨⟩ is often used as a proxy for the full + stopping distribution.\n- [30] E. H. Brandt, The flux-line lattice in superconductors, [Rep. Prog.](https://doi.org/10.1088/0034-4885/58/11/003) Phys. **58**[, 1465 \\(1995\\).](https://doi.org/10.1088/0034-4885/58/11/003)\n- [31] E. H. Brandt, Properties of the ideal Ginzburg-Landau vortex lattice, Phys. Rev. B **68**[, 054506 \\(2003\\).](https://doi.org/10.1103/PhysRevB.68.054506)\n- [32] R. S. Hayano, Y. J. Uemura, J. Imazato, N. Nishida, T. Yamazaki, and R. Kubo, Zero- and low-field spin relaxation studied by positive muons, [Phys. Rev. B](https://doi.org/10.1103/PhysRevB.20.850) **20**, 850 (1979).\n- [33] R. Kubo and T. Toyabe, A stochastic model for low field resonance and relaxation, in *Magnetic Resonance and Relaxation*, edited by R. Blinc (North-Holland, Amsterdam, 1967) pp. 810–823.\n- [34] E. B. Karlsson, The positive muon implanted in metals a story full of surprises, [Eur. Phys. J. H](https://doi.org/10.1140/epjh/e2014-50018-2) **39**, 303 (2014).\n- [35] T. Junginger, S. Calatroni, A. Sublet, G. Terenziani, T. Prokscha, Z. Salman, A. Suter, T. Proslier, and J. Zasadzinski, A low energy muon spin rotation and point contact tunneling study of niobium films prepared for superconducting cavities, [Supercond.](https://doi.org/10.1088/1361-6668/aa8926) Sci. Technol. **30**[, 125013 \\(2017\\).](https://doi.org/10.1088/1361-6668/aa8926)\n- <span id=\"page-8-16\"></span>[36] E. H. Brandt, Superconductors in realistic geometries: geometric edge barrier versus pinning, Physica C **332**[, 99 \\(2000\\).](https://doi.org/10.1016/S0921-4534(99)00651-6)\n- [37] G. Ciovati, H. Tian, and S. G. Corcoran, Buffered electrochemical polishing of niobium, [J. Appl. Electrochem.](https://doi.org/10.1007/s10800-011-0286-z) **41**, 721 (2011).\n- [38] C. Antoine, *[Materials and surface aspects in the development of](https://cds.cern.ch/record/1472363) [SRF Niobium cavities](https://cds.cern.ch/record/1472363)*, EuCARD editorial series on accelerator science, Vol. 12 (2012).\n- <span id=\"page-9-6\"></span>[39] G. Ciovati, Improved oxygen diffusion model to explain the effect of low-temperature baking on high field losses in niobium superconducting cavities, [Appl. Phys. Lett.](https://doi.org/10.1063/1.2220059) **89**, 022507 (2006).\n- [40] E. M. Lechner, J. W. Angle, A. D. Palczewski, F. A. Stevie, M. J. Kelley, and C. E. Reece, Oxide dissolution and oxygen diffusion scenarios in niobium and implications on the Bean-Livingston barrier in superconducting cavities, [J. Appl. Phys.](https://doi.org/10.1063/5.0191234) **135**, 133902 [\\(2024\\).](https://doi.org/10.1063/5.0191234)\n- <span id=\"page-9-9\"></span>[41] E. M. Lechner, J. W. Angle, F. A. Stevie, M. J. Kelley, C. E. Reece, and A. D. Palczewski, RF surface resistance tuning of superconducting niobium via thermal diffusion of native oxide, [Appl. Phys. Lett.](https://doi.org/10.1063/5.0059464) **119**, 082601 (2021).\n- [42] E. Saur and J. Wurm, Präparation und supraleitungseigenschaften von niobdrahtproben mit Nb3Sn-überzug, [Naturwiss.](https://doi.org/10.1007/BF00621122) **49**, 127 [\\(1962\\).](https://doi.org/10.1007/BF00621122)\n- [43] G. Arnolds and D. Proch, Measurement on a Nb3Sn structure for linear accelerator application, [IEEE Trans. Magn.](https://doi.org/10.1109/TMAG.1977.1059387) **13**, 500 [\\(1977\\).](https://doi.org/10.1109/TMAG.1977.1059387)\n- [44] S. Posen and M. Liepe, Advances in development of Nb3Sn superconducting radio-frequency cavities, [Phys. Rev. ST Accel.](https://doi.org/10.1103/PhysRevSTAB.17.112001) Beams **17**[, 112001 \\(2014\\).](https://doi.org/10.1103/PhysRevSTAB.17.112001)\n- [45] S. Posen, M. Liepe, and D. L. Hall, Proof-of-principle demonstration of Nb3Sn superconducting radiofrequency cavities for high applications, [Appl. Phys. Lett.](https://doi.org/10.1063/1.4913247) **106**, 082601 (2015).\n- [46] G. Eremeev, M. Kelley, U. Kelley, M.J.Pudasaini, C. Reece, and J. Tuggle, Progress With Multi-Cell Nb3Sn Cavity Development Linked With Sample Materials Characterization, in *[Proc. of](https://doi.org/10.18429/JACoW-SRF2015-TUBA05) [International Conference on RF Superconductivity \\(SRF2015\\),](https://doi.org/10.18429/JACoW-SRF2015-TUBA05) [Whistler, BC, Canada, Sept. 13-18, 2015](https://doi.org/10.18429/JACoW-SRF2015-TUBA05)*, 17, JACoW (JACoW, Geneva, Switzerland, 2015) pp. 505–511.\n- [47] The range of implanted <sup>+</sup> greatly exceeds Nb's London penetration depth (∼29 nm [\\[17\\]](#page-8-1)), leading to the absence of magnetic flux density for depths greater than ∼100 nm.\n- [48] While simple, this approach introduces an additional systematic uncertainty to the assignment of 0vp. We estimate this quantity as one-sixth the distance between the field points, such that ±3 standard deviations covers the full span of the \"uncertain\" region with ∼100 % probability.\n- [49] To ensure the self-consistency of our 0vp comparison in Figure [6,](#page-4-0) following the approach described in Section [II,](#page-1-1) we reanalyzed the raw SR data for select samples originally reported in Refs. [6,](#page-8-2) [21.](#page-8-9) As anticipated, our updated values are in good agreement with those in the original reports.\n- [50] M. Tinkham, *Introduction to Superconductivity*, 2nd ed., International Series in Pure and Applied Physics (McGraw-Hill, New York, 1996).\n- [51] D. K. Finnemore, T. F. Stromberg, and C. A. Swenson, Superconducting properties of high-purity niobium, [Phys. Rev.](https://doi.org/10.1103/PhysRev.149.231) **149**, [231 \\(1966\\).](https://doi.org/10.1103/PhysRev.149.231)\n- [52] T. Kubo, Y. Iwashita, and T. Saeki, Radio-frequency electromagnetic field and vortex penetration in multilayered superconductors, [Appl. Phys. Lett.](https://doi.org/10.1063/1.4862892) **104**, 032603 (2014).\n- [53] A similar argument can be made for the Nb3Sn(2 µm)/Nb sample (i.e., that flux pinning — particularly from the thin Nb3Sn layer — may contribute to the increased 0vp we observe). We point out, however, that the observed lack of depth-dependence in our data, along with the magnitude in which 0vp exceeds Nb's 0c1, suggest that pinning is not the dominant mechanism for elevating the vortex penetration field in the SS bilayer.\n- <span id=\"page-9-1\"></span>[54] M. Asaduzzaman, R. M. L. McFadden, A.-M. Valente-Feliciano, D. R. Beverstock, A. Suter, Z. Salman, T. Prokscha, and\n\nT. Junginger, Evidence for current suppression in superconductor–superconductor bilayers, [Supercond. Sci. Technol.](https://doi.org/10.1088/1361-6668/ad1462) **37**, [025002 \\(2023\\).](https://doi.org/10.1088/1361-6668/ad1462)\n\n- <span id=\"page-9-0\"></span>[55] S. Keckert, T. Junginger, T. Buck, D. Hall, P. Kolb, O. Kugeler, R. Laxdal, M. Liepe, S. Posen, T. Prokscha, Z. Salman, A. Suter, and J. Knobloch, Critical fields of Nb3Sn prepared for superconducting cavities, [Supercond. Sci. Technol.](https://doi.org/10.1088/1361-6668/ab119e) **32**, 075004 (2019).\n- <span id=\"page-9-2\"></span>[56] Y. Trenikhina, S. Posen, A. Romanenko, M. Sardela, J.-M. Zuo, D. L. Hall, and M. Liepe, Performance-defining properties of Nb3Sn coating in SRF cavities, [Supercond. Sci. Technol.](https://doi.org/10.1088/1361-6668/aa9694) **31**, [015004 \\(2017\\).](https://doi.org/10.1088/1361-6668/aa9694)\n- <span id=\"page-9-3\"></span>[57] H. Padamsee, 50 years of success for SRF accelerators — a review, [Supercond. Sci. Technol.](https://doi.org/10.1088/1361-6668/aa6376) **30**, 053003 (2017).\n- <span id=\"page-9-4\"></span>[58] Note that, in regards to HFQS mitigation, the most effective LTB treatments generally include an EP step in place of the BCP used in this work.\n- <span id=\"page-9-5\"></span>[59] A. S. Dhavale, P. Dhakal, A. A. Polyanskii, and G. Ciovati, Flux pinning characteristics in cylindrical niobium samples used for superconducting radio frequency cavity fabrication, [Supercond.](https://doi.org/10.1088/0953-2048/25/6/065014) Sci. Technol. **25**[, 065014 \\(2012\\).](https://doi.org/10.1088/0953-2048/25/6/065014)\n- <span id=\"page-9-7\"></span>[60] A. Romanenko, A. Grassellino, F. Barkov, and J. P. Ozelis, Effect of mild baking on superconducting niobium cavities investigated by sequential nanoremoval, [Phys. Rev. ST Accel. Beams](https://doi.org/10.1103/PhysRevSTAB.16.012001) **16**, [012001 \\(2013\\).](https://doi.org/10.1103/PhysRevSTAB.16.012001)\n- <span id=\"page-9-8\"></span>[61] S. Casalbuoni, E. A. Knabbe, J. Kötzler, L. Lilje, L. von Sawilski, P. Schmüser, and B. Steffen, Surface superconductivity in niobium for superconducting RF cavities, [Nucl. Instrum. Methods](https://doi.org/10.1016/j.nima.2004.09.003) [Phys. Res., Sect. A](https://doi.org/10.1016/j.nima.2004.09.003) **538**, 45 (2005).\n- <span id=\"page-9-10\"></span>[62] A. Romanenko, D. Bafia, A. Grassellino, M. Martinello, and Y. Trenikhina, First Direct Imaging and Profiling TOF-SIMS Studies on Cutouts from Cavities Prepared by State-of-the-Art Treatments, in *[Proc. SRF'19](https://doi.org/10.18429/JACoW-SRF2019-THP014)*, International Conference on RF Superconductivity No. 19 (JACoW Publishing, Geneva, Switzerland, 2019) pp. 866–870.\n- <span id=\"page-9-11\"></span>[63] M. Delheusy, A. Stierle, N. Kasper, R. P. Kurta, A. Vlad, H. Dosch, C. Antoine, A. Resta, E. Lundgren, and J. Andersen, X-ray investigation of subsurface interstitial oxygen at Nb/oxide interfaces, [Appl. Phys. Lett.](https://doi.org/10.1063/1.2889474) **92**, 101911 (2008).\n- <span id=\"page-9-12\"></span>[64] A. Romanenko, F. Barkov, L. D. Cooley, and A. Grassellino, Proximity breakdown of hydrides in superconducting niobium cavities, [Supercond. Sci. Technol.](https://doi.org/10.1088/0953-2048/26/3/035003) **26**, 035003 (2013).\n- <span id=\"page-9-13\"></span>[65] D. C. Ford, L. D. Cooley, and D. N. Seidman, Suppression of hydride precipitates in niobium superconducting radio-frequency cavities, [Supercond. Sci. Technol.](https://doi.org/10.1088/0953-2048/26/10/105003) **26**, 105003 (2013).\n- <span id=\"page-9-14\"></span>[66] A. Romanenko, C. J. Edwardson, P. G. Coleman, and P. J. Simpson, The effect of vacancies on the microwave surface resistance of niobium revealed by positron annihilation spectroscopy, [Appl.](https://doi.org/10.1063/1.4811090) Phys. Lett. **102**[, 232601 \\(2013\\).](https://doi.org/10.1063/1.4811090)\n- <span id=\"page-9-15\"></span>[67] Y. Trenikhina, A. Romanenko, J. Kwon, J.-M. Zuo, and J. F. Zasadzinski, Nanostructural features degrading the performance of superconducting radio frequency niobium cavities revealed by transmission electron microscopy and electron energy loss spectroscopy, J. Appl. Phys. **117**[, 154507 \\(2015\\).](https://doi.org/10.1063/1.4918272)\n- <span id=\"page-9-16\"></span>[68] G. Ciovati, G. Myneni, F. Stevie, P. Maheshwari, and D. Griffis, High field slope and the baking effect: Review of recent experimental results and new data on nb heat treatments, [Phys.](https://doi.org/10.1103/PhysRevSTAB.13.022002) [Rev. ST Accel. Beams](https://doi.org/10.1103/PhysRevSTAB.13.022002) **13**, 022002 (2010).\n- <span id=\"page-9-17\"></span>[69] M. Wenskat, J. Čižek, M. O. Liedke, M. Butterling, C. Bate, P. Haušild, E. Hirschmann, A. Wagner, and H. Weise, Vacancyhydrogen interaction in niobium during low-temperature baking, Sci. Rep. **10**[, 8300 \\(2020\\).](https://doi.org/10.1038/s41598-020-65083-0)\n- <span id=\"page-9-18\"></span>[70] E. H. Brandt, Computer simulation of vortex pinning in type II superconductors. I. Two-dimensional simulation, [J. Low Temp.](https://doi.org/10.1007/BF00685776) Phys. **53**[, 41 \\(1983\\).](https://doi.org/10.1007/BF00685776)\n- <span id=\"page-10-0\"></span>[71] A. S. Dhavale, G. Ciovati, and G. R. Myneni, Effect of electropolishing and low-temperature baking on the superconducting properties of large-grain niobium, [AIP Conf. Proc.](https://doi.org/10.1063/1.3579230) **1352**, 119 [\\(2011\\).](https://doi.org/10.1063/1.3579230)\n- <span id=\"page-10-1\"></span>[72] A. Gurevich, Tuning microwave losses in superconducting resonators, [Supercond. Sci. Technol.](https://doi.org/10.1088/1361-6668/acc214) **36**, 063002 (2023).\n- <span id=\"page-10-2\"></span>[73] S. Posen, A. Romanenko, A. Grassellino, O. Melnychuk, and D. Sergatskov, Ultralow surface resistance via vacuum heat\n\ntreatment of superconducting radio-frequency cavities, [Phys.](https://doi.org/10.1103/PhysRevApplied.13.014024) Rev. Appl. **13**[, 014024 \\(2020\\).](https://doi.org/10.1103/PhysRevApplied.13.014024)\n\n<span id=\"page-10-3\"></span>[74] H. Ito, H. Araki, K. Takahashi, and K. Umemori, Influence of furnace baking on Q-E behavior of superconducting accelerating cavities, [Prog. Theor. Exp. Phys.](https://doi.org/10.1093/ptep/ptab056) **2021**, 071G01 (2021).",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Measurements of the first-flux-penetration field in surface-treated and coated Nb:\nDistinguishing between near-surface pinning and an interface energy barrier",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              100.2568359375,
+              52.81591796875
+            ],
+            [
+              516.97265625,
+              52.81591796875
+            ],
+            [
+              516.97265625,
+              78.7191162109375
+            ],
+            [
+              100.2568359375,
+              78.7191162109375
+            ]
+          ]
+        },
+        {
+          "title": "I. INTRODUCTION",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              130.88671875,
+              291.1851501464844
+            ],
+            [
+              219.638671875,
+              291.1851501464844
+            ],
+            [
+              219.638671875,
+              300.15155029296875
+            ],
+            [
+              130.88671875,
+              300.15155029296875
+            ]
+          ]
+        },
+        {
+          "title": "II. EXPERIMENT",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              134.82000732421875,
+              516.22021484375
+            ],
+            [
+              216.01971435546875,
+              516.22021484375
+            ],
+            [
+              216.01971435546875,
+              525.1866149902344
+            ],
+            [
+              134.82000732421875,
+              525.1866149902344
+            ]
+          ]
+        },
+        {
+          "title": "A. Samples",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              412.5970153808594,
+              677.5611953735352
+            ],
+            [
+              464.2703552246094,
+              677.5611953735352
+            ],
+            [
+              464.2703552246094,
+              686.8125
+            ],
+            [
+              412.5970153808594,
+              686.8125
+            ]
+          ]
+        },
+        {
+          "title": "III. RESULTS",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              143.36900329589844,
+              424.3312072753906
+            ],
+            [
+              207.46978759765625,
+              424.3312072753906
+            ],
+            [
+              207.46978759765625,
+              433.297607421875
+            ],
+            [
+              143.36900329589844,
+              433.297607421875
+            ]
+          ]
+        },
+        {
+          "title": "IV. DISCUSSION",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              134.24853515625,
+              54.8173828125
+            ],
+            [
+              214.10107421875,
+              54.8173828125
+            ],
+            [
+              214.10107421875,
+              64.087646484375
+            ],
+            [
+              134.24853515625,
+              64.087646484375
+            ]
+          ]
+        },
+        {
+          "title": "V. CONCLUSION",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              398.63671875,
+              122.63018798828125
+            ],
+            [
+              478.0649719238281,
+              122.63018798828125
+            ],
+            [
+              478.0649719238281,
+              131.5965576171875
+            ],
+            [
+              398.63671875,
+              131.5965576171875
+            ]
+          ]
+        },
+        {
+          "title": "ACKNOWLEDGMENTS",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              389.970703125,
+              421.9971923828125
+            ],
+            [
+              488.7215270996094,
+              421.9971923828125
+            ],
+            [
+              488.7215270996094,
+              430.9635925292969
+            ],
+            [
+              389.970703125,
+              430.9635925292969
+            ]
+          ]
+        },
+        {
+          "title": "AUTHOR DECLERATIONS",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              383.396484375,
+              560.9642181396484
+            ],
+            [
+              495.6615295410156,
+              560.9642181396484
+            ],
+            [
+              495.6615295410156,
+              569.9306182861328
+            ],
+            [
+              383.396484375,
+              569.9306182861328
+            ]
+          ]
+        },
+        {
+          "title": "Conflict of Interest",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              403.4909973144531,
+              585.5982208251953
+            ],
+            [
+              475.734375,
+              585.5982208251953
+            ],
+            [
+              475.734375,
+              594.7734375
+            ],
+            [
+              403.4909973144531,
+              594.7734375
+            ]
+          ]
+        },
+        {
+          "title": "DATA AVAILABILITY",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              392.361328125,
+              644.2734375
+            ],
+            [
+              486.193359375,
+              644.2734375
+            ],
+            [
+              486.193359375,
+              653.3326110839844
+            ],
+            [
+              392.361328125,
+              653.3326110839844
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              458
+            ],
+            [
+              "Line",
+              92
+            ],
+            [
+              "Text",
+              9
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Footnote",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              663
+            ],
+            [
+              "Line",
+              157
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Reference",
+              4
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Equation",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              812
+            ],
+            [
+              "Line",
+              184
+            ],
+            [
+              "TextInlineMath",
+              8
+            ],
+            [
+              "Reference",
+              6
+            ],
+            [
+              "Equation",
+              5
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              619
+            ],
+            [
+              "Line",
+              143
+            ],
+            [
+              "TextInlineMath",
+              5
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              783
+            ],
+            [
+              "Line",
+              152
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              613
+            ],
+            [
+              "Line",
+              143
+            ],
+            [
+              "TextInlineMath",
+              5
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              552
+            ],
+            [
+              "Line",
+              121
+            ],
+            [
+              "TextInlineMath",
+              7
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              339
+            ],
+            [
+              "Line",
+              99
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              5
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              507
+            ],
+            [
+              "Line",
+              125
+            ],
+            [
+              "ListItem",
+              37
+            ],
+            [
+              "Reference",
+              19
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              519
+            ],
+            [
+              "Line",
+              130
+            ],
+            [
+              "ListItem",
+              33
+            ],
+            [
+              "Reference",
+              19
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              53
+            ],
+            [
+              "Line",
+              14
+            ],
+            [
+              "ListItem",
+              4
+            ],
+            [
+              "Reference",
+              4
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 11,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Measurements of the first-flux-penetration field in surface-treated and coated Nb: distinguishing between near-surface pinning and an interface energy barrier",
+    "authors": [
+      {
+        "authors_list": [
+          "Asaduzzaman, Md",
+          "McFadden, Ryan M. L.",
+          "Thoeng, Edward",
+          "Laxdal, Robert"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "We report measurements of the first-flux-penetration field in surface-treated and coated Nb samples using . Using thin Ag foils as energy moderators for the implanted muon spin-probes, we 'profile' the vortex penetration field at sub-surface depths on the order of m to m. In a coated sample [Nb<SUB>3</SUB>Sn( )/Nb], we find that is depth-independent with a value of 234.5(35) mT, consistent with Nb's metastable superheating field and suggestive of surface energy barrier for flux penetration. Conversely, in a surface-treated sample [Nb baked in vacuum at 120 <SUP>∘</SUP> for ], vortex penetration onsets close to pure Nb's lower critical field , but increases with increasing implantation depth, consistent with flux-pinning localized at the surface. The implication of these results for technical applications of superconducting Nb, such as superconducting radio frequency cavities, is discussed.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Superconductor Science Technology",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2402.15500"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1088/1361-6668/ad54f3",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2024SuScT..37h5006A"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

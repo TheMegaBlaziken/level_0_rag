@@ -1,0 +1,662 @@
+{
+  "id": "2c0c2f2a9557364b27e1f47f52226cd5",
+  "pdf_path": "apl/Superconductors/arXiv:2302.07825.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# Verification Testing of MQXFA Nb3Sn Wires Procured Under LARP\n\nJeremy Levitan, Jun Lu, Vito Lombardo, and Lance Cooley *Senior Member, IEEE* \n\n*Abstract***— The High-Luminosity LHC Accelerator Upgrade Project (AUP) in the U.S. will construct quadrupole magnets to be delivered to CERN. An initial 3 tons, over 600 km total length, of conductor was procured under the LHC Accelerator R&D Program (LARP) for this project. Programs for quality control (QC) at the supplier and quality verification (QV) at the laboratories were solidified into components of the overall quality plan for strand procurement under AUP. Measurements of the critical current (***Ic***) and residual resistance ratio (RRR), and related probes and techniques, are central to the quality plan. Described below is the verification testing that has taken place at the National High Magnetic Field Laboratory (NHMFL). Testing challenges are presented by the high sensitivity of these wires. In addition, new RRR test software was developed to accommodate challenges presented by meeting international standards with existing configurations of test strands.** \n\n*Index Terms***—critical current, Large Hadron Collider, Nb3Sn, residual resistance ratio** \n\n## I. INTRODUCTION\n\nHE High-Luminosity LHC Accelerator Upgrade Project (AUP) in the U.S. will construct quadrupole magnets to be delivered to CERN [1]. An initial 3 tons, over 600 km total length, of conductor for this project was procured under the LHC Accelerator R&D Program (LARP). These wires must meet challenging critical current (*Ic*) and residual resistivity ratio (RRR) specifications, which are shown in Table I. In addition to quality control tests performed by the manufacturer, verification tests are performed by the National High Magnetic Field Laboratory (NHMFL). The process and results of these tests are presented and compared to the manufacturer's data below. **T**\n\n## II. EXPERIMENTAL\n\n## *A. Heat Treatment*\n\n Strands approximately 1 meter long were cut from verification sample lengths sent from Fermilab for the *Ic* tests. The\n\nThis work is financially supported by DOE through Fermi National Accelerator Laboratory. This work was performed at the National High Magnetic Field Laboratory, which is supported by National Science Foundation Cooperative Agreement No. DMR-1644779 and the State of Florida.\n\nJ. Levitan and J. Lu are with Magnet Science and Technology, National High Magnetic Field Laboratory, Tallahassee, FL 32310 USA, (Corresponding author: Jun Lu, junlu@magnet.fsu.edu.) L. D. Cooley is with the Applied Superconductivity Center, National High Magnetic Field Laboratory, Tallahassee, FL 32310 USA. Vito Lombardo is with Technical Division of the Fermi National Accelerator Laboratory, Batavia, IL 60510 USA.\n\nstrand samples were wound with 1 kg of tension on Ti6Al4V barrels used for heat treating and testing ITER Nb3Sn wires, with no modification of the barrels or mounting procedures from the description in [2]. Straight wires approximately 25 cm long were inserted into 1 mm interior diameter quartz tubes to create RRR samples. The ends of the Nb3Sn wire for both the *Ic* and RRR samples were welded shut using a spot welder to prevent tin leak during the heat treatment [3], [4]. Groups of samples were wrapped in stainless steel foil before being placed in the center of the furnaces.\n\nTABLE I PARAMETERS FROM THE LARP Nb3Sn SPECIFICATIONS [1]\n\n| Description          | Specification |\n|----------------------|---------------|\n| Ic 4.22 K, 12 T (A)  | ≥ 632         |\n| Ic 4.22 K, 15 T (A)  | ≥ 331         |\n| n-value 4.22 K, 15 T | > 30          |\n| RRR                  | ≥ 150         |\n| Diameter (mm)        | 0.85          |\n| Sub-elements         | 108/127       |\n| Nb:Sn ratio          | 3.6:1         |\n\nBoth the *Ic* and RRR samples were heat treated in UHP argon (Ar) gas using following schedule,\n\n|               |  | Ramp at 25 °C/h to 210 °C, soak for 48 h at 210 °C, |\n|---------------|--|-----------------------------------------------------|\n|               |  | Ramp at 50 °C/h to 400 °C, soak for 48 h at 400 °C, |\n|               |  | Ramp at 50 °C/h to 665 °C, soak for 75 h at 665 °C, |\n| Furnace cool. |  |                                                     |\n\nThe cross-section of a heat treated wire is shown in Fig. 1. It should be noted that the heat treatment at the supplier is 50 hours at 665 °C, 25 hours shorter than ours.\n\n![](_page_0_Picture_18.jpeg)\n\nFig. 1. Cross-section of MQXFA Nb3Sn after heat-treatment.\n\n## *B. Verification Tests*\n\n## *1) Critical Current (Ic)*\n\nAfter the heat treatment, each wire was detached at one end and gently loosened from the ITER barrel. It was then tightened by applying downward pressure with a finger, which moved along the helical groove of the ITER barrel. The wire was reattached and soldered to the copper rings. This process removed approximately 3 mm of slack from the wire. The barrel was then mounted on a test probe, with pressure contacts to the copper terminals, as shown in Fig. 2. Two voltage taps with lengths of 25 and 50 cm were soldered across the center turns. The 50 cm length was used for the measurement. *Ic* was determined by measuring voltage in a liquid helium bath as current was increased by 1 A steps in a superconducting magnet. *Ic* was recorded at 12, 13, 14, and 15 T with a criterion of 10 μV/m. The current-voltage curves were also used to determine the transition index *n* by a power law fit for data between 10 μV/m and 100 μV/m.\n\n![](_page_1_Picture_3.jpeg)\n\nFig. 2. A prepared *Ic* sample attached to a probe for testing.\n\n## *2) Residual Resistance Ratio (RRR)*\n\nThe set up used for RRR measurements was the same as previously reported [3], [4]. Unlike for the ITER project, which defined RRR as the ratio of resistances at 273 K and 20 K, the LARP specification called for the use of the IEC standard [5], which is defined as the ratio of resistance at room temperature (295 K) to that determined by the intersection of two straight lines extrapolated from the resistance versus temperature curve, as shown on Fig. 3. A LabVIEW program was developed to measure resistance versus temperature during a slow warm-up from 4.2 K. The temperature was measured by a Cernox temperature sensor, and the typical warm-up rate was 10 mK per second. The resistance was obtained by measuring voltage when -1 and +1 A current was applied using a Keithley 2400 SourceMeter. The resistance vs. temperature curve was then analyzed by a second LabVIEW program, which fitted the two sections near the normal-tosuperconducting transition of the *R* vs. *T* curve with straight lines as shown in Fig. 3. The low temperature resistance used to determine RRR was then defined by the intercept of the two straight lines (point A in Fig. 3) [5]. Since the RRR measured by the manufacturer was defined as R295K/R20K, resistance data at 20 K was also obtained to calculate R295K/R20K and compare with the manufacturer's data.\n\n![](_page_1_Figure_7.jpeg)\n\nFig. 3. A resistance versus temperature curve. RRR is obtained from the ratio of resistance at 295 K (not shown) and point (A) on the curve.\n\n## III. RESULTS\n\n## *A. Critical Current (Ic)*\n\n The final step of the supplier's heat treatment was 665 °C for 50 hours instead of 75 hours as used by the NHMFL. An investigation was performed by Fermilab and the vendor to determine the impact of the extended heat treatment. A comparison was made of the vendor data, using the average of the 187 samples measured for *Ic* at 12, 13, 14, and 15 T. 50 samples were used for 665°C/75h and 137 were used for 665°C/50h. This resulted in a 2.9% difference for *Ic* data obtained at 12 T, and a 4.9% difference for *Ic* data obtained at 15 T. Results of the investigation are shown in Table II.\n\nTABLE II HEAT TREAMENT COMPARISON RESULTS\n\n|                                  | Ic at 12 T | Ic at 15 T | RRR   |\n|----------------------------------|------------|------------|-------|\n| Vendor 665°C/75h average         | 713 A      | 388 A      | 300   |\n| Vendor 665°C/50h average         | 693 A      | 370 A      | 301   |\n| Vendor 665°C/75h : 665°C/50h     | 102.9%     | 104.9%     | 99.7% |\n| Lab 665°C/75h : Vendor 665°C/75h | 100.3%     | 102.1%     | N/A   |\n| Lab 665°C/75h : Vendor 665°C/50h | 103.1%     | 107.1%     | N/A   |\n\nThe average and standard deviation of our results are summarized in Table III. Fig. 4 shows our *Ic* results at 12 and 15 T after they have been corrected for the difference in heat treatments between the NHMFL and the supplier. The corresponding *n*-values at 15 T are shown in Fig. 5. The results measured by the supplier are also plotted in each figure for comparison.\n\nTABLE III SUMMARY OF RESULTS\n\n|            | NHMFL |      | Supplier |      |  |  |  |\n|------------|-------|------|----------|------|--|--|--|\n|            | Mean  | σ    | Mean     | σ    |  |  |  |\n| Ic 12T (A) | 712.7 | 16.5 | 694.9    | 14.3 |  |  |  |\n| Ic 13T (A) | 593.1 | 13.2 | 572.8    | 11.5 |  |  |  |\n| Ic 14T (A) | 488.1 | 9.8  | 465.6    | 9.7  |  |  |  |\n| Ic 15T (A) | 395.5 | 8.5  | 371.2    | 8.5  |  |  |  |\n| n 12T      | 43.8  | 2.8  | 44.3     | 4.4  |  |  |  |\n| n 15T      | 38.4  | 2.6  | 38.3     | 5.8  |  |  |  |\n| RRR-IEC    | 375.1 | 69.8 | N/A      | N/A  |  |  |  |\n| R295K/R20K | 323.7 | 55.0 | 295.8    | 46.2 |  |  |  |\n\n![](_page_2_Figure_0.jpeg)\n\nFig. 4. *Ic* data comparison between the corrected NHMFL and supplier data at (a) 12 T and (b) 15 T. The NHMFL results have been adjusted by 2.8% and 4.7% for 12 and 15 T respectively to correct for the difference in heat treatments.\n\n![](_page_2_Figure_2.jpeg)\n\nFig. 5. *n*-value at 15 T. Comparison between the NHFML and supplier.\n\n## *B. Residual Resistance Ratio (RRR)*\n\nFig. 6 shows RRR defined by the IEC standard [5] and R295K/R20K along with the supplier's R295K/R20K data for comparison. The average and standard deviations of each set of data are presented in Table III. From the results, the average RRR-IEC is about 16% higher than R295K/R20K due to the fact that the IEC definition calls for resistance near the normal-tosuperconducting transition, which is at about 17 K for these samples, about 3 K lower than the 20 K method.\n\n![](_page_2_Figure_7.jpeg)\n\nFig. 6. RRR-IEC and R295K/R20K data measured by the NHMFL and R295K/R20K data measured by the supplier.\n\n## IV. DISCUSSION\n\n## *A. Critical Current (Ic)*\n\nIt was observed that after the heat treatment, the wire was loose on the ITER barrel due to the thermal contraction mismatch between the wire and the barrel during the cool down to room temperature. This looseness under electromagnetic force during the testing made the sample prone to premature quenches. Therefore, it is reasonable to expect that tightening the wire to the ITER barrel after heat treatment would reduce the probability of premature sample quench. Our previous experience on ITER internal-tin Nb3Sn wire, however, indicated that tightening ITER Nb3Sn wire to the barrel causes more frequent premature sample quenches.\n\nIn order to study the effect of the wire tightening process, we experimented with and without the tightening process and the results are shown in Fig. 7. The label 'tightened hot' means that after the 'not tightened' sample was soldered to the copper terminal rings and tested, an attempt was made to tighten the sample on the same barrel while the solder was melted (hot). The label 'tightened' refers to new samples that were tightened before soldered to the copper rings. These were created after the success of the 'tightened hot' samples. From Fig. 7, it is evident that the tightening process produces significantly more consistent and higher *Ic*.\n\nSample 9 was the only sample that did not increase between 'not tightened' and 'tightened hot'. The sample quenched prematurely at 601 A which was most likely caused from damage during the tightening process. The risk of this damage was reduced greatly by tightening the wire before soldering to the barrel in the 'tightened' samples.\n\n![](_page_3_Figure_0.jpeg)\n\nFig. 7. *Ic* at 12 T for samples not tightened, tightened at soldering temperature after initial soldering to Cu terminals, and tightened before soldering.\n\nThere is an obvious difference between the LARP wire and ITER wire in response to the tightening process. While ITER wires are very sensitive to damage by the tightening process, LARP wires can tolerate some handling (slightly bending) such as the tightening process. It is speculated that the ITER wire design of a single diffusion barrier might be responsible for its sensitivity to the tightening process (slightly bending). LARP wires with distributed diffusion barriers for each subelement makes the diameter of the non-copper region much smaller than that of ITER wires. With soft copper between the sub-elements, the LARP samples are more forgiving to some post-heat-treatment handling. The higher *Ic* values from the tightened samples can be explained by strain sensitivity of Nb3Sn where compressive intrinsic thermal strain is reduced as a result of the tightening process.\n\nOur systematically higher *Ic* than that of the supplier can be explained by our 25 hour longer heat treatment time during the 665 °C stage. This could lead to more thorough Nb and Sn reaction or partial reaction of Nb diffusion barriers to form Nb3Sn and, therefore, to higher *Ic* [6].\n\n## *B. Residual Resistance Ratio (RRR)*\n\nDespite the fact that our heat treatment time is 25 hours longer than that of the manufacturer, which could lead to lower RRR as seen in Table II, the R295K/R20K by NHMFL is slightly higher than that of the supplier (Fig. 6). Since a previous benchmarking by the two labs using the same set RRR sample showed very good agreement, this slight but systematic difference might be attributed to slight differences in the heat treatment environment and temperature control between the two labs.\n\n## V. CONCLUSION\n\nThe *Ic* and RRR test results for the verification of the LARP wires are presented. A comparison between the supplier and the NHMFL is shown. Our results are in reasonable agreement with the supplier's quality control data. The reasons for the small but systematically higher *Ic* and RRR values by NHMFL compared with those of the manufacturer are discussed.\n\n## ACKNOWLEDGMENT\n\nWe would like to acknowledge Bruker OST for development and fabrication of the Nb3Sn wire for LARP program and for providing the quality control measurement data.\n\n## REFERENCES\n\n- [1] L. D. Cooley, A. K Ghosh, D. R. Dietderich, and I. Pong, \"Conductor Specification and Validation for High-Luminosity LHC Quadrupole Magnets\" *IEEE Trans. Appl. Supercond.*, VOL. 27, NO. 4, 2017 pp. 6000505\n- [2] I. Pong et al., \"Worldwide benchmarking of ITER internal Tin Nb3Sn and NbTi strands test facilities,\" IEEE Trans. Appl. Supercond., vol. 22, 2012, pp. 4802606.\n- [3] D. McGuire, et al., \"Verification Testing of ITER Nb3Sn strand at the NHMFL\" *IEEE Trans. Appl. Supercond.* Vol. 25, No. 3, 2015 pp. 9500304\n- [4] J. Lu, S. Hill, D. McGuire, K. Dellinger, A. Nijhuis, W. A. J. Wessel, H. J. G. Krooshoop, K. Chan, and N. Martovetsky, \"Comparative Measurements of ITER Nb3Sn Strands Between Two Laboratories\" *IEEE Trans. Appl. Supercond.*, VOL. 27, NO. 5, 2017 pp. 6001004\n- [5] International standard \"Residual resistance ratio measurement Residual resistance ratio of Nb3Sn composite superconductors\" CEI/IEC 61788- 11:2003\n- [6] Jeffrey A. Parrell, Youzhu Zhang, Michael B. Field, and Seung Hong, \"Development of Internal Tin Nb3Sn Conductor for Fusion and Particle Accelerator Applications\" *IEEE Trans. Appl. Supercond.*, VOL. 17, NO. 2, 2007 pp. 2560.",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Verification Testing of MQXFA Nb3Sn Wires \nProcured Under LARP",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              88.5,
+              52.68292236328125
+            ],
+            [
+              529.5216064453125,
+              52.68292236328125
+            ],
+            [
+              529.5216064453125,
+              103.68292236328125
+            ],
+            [
+              88.5,
+              103.68292236328125
+            ]
+          ]
+        },
+        {
+          "title": "I. INTRODUCTION",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              142.46630859375,
+              384.45513916015625
+            ],
+            [
+              218.45152282714844,
+              384.45513916015625
+            ],
+            [
+              218.45152282714844,
+              394.4751281738281
+            ],
+            [
+              142.46630859375,
+              394.4751281738281
+            ]
+          ]
+        },
+        {
+          "title": "II. EXPERIMENTAL",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              133.31944274902344,
+              566.49462890625
+            ],
+            [
+              213.064453125,
+              566.49462890625
+            ],
+            [
+              213.064453125,
+              576.5146331787109
+            ],
+            [
+              133.31944274902344,
+              576.5146331787109
+            ]
+          ]
+        },
+        {
+          "title": "A. Heat Treatment",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              45.982177734375,
+              584.4950561523438
+            ],
+            [
+              128.09608459472656,
+              584.4950561523438
+            ],
+            [
+              128.09608459472656,
+              594.5150604248047
+            ],
+            [
+              45.982177734375,
+              594.5150604248047
+            ]
+          ]
+        },
+        {
+          "title": "B. Verification Tests",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              46.69189453125,
+              51.875
+            ],
+            [
+              135.91587829589844,
+              51.875
+            ],
+            [
+              135.91587829589844,
+              62.50341796875
+            ],
+            [
+              46.69189453125,
+              62.50341796875
+            ]
+          ]
+        },
+        {
+          "title": "1) Critical Current (Ic)",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              46.79999923706055,
+              67.53509521484375
+            ],
+            [
+              145.48460388183594,
+              67.53509521484375
+            ],
+            [
+              145.48460388183594,
+              78.0205078125
+            ],
+            [
+              46.79999923706055,
+              78.0205078125
+            ]
+          ]
+        },
+        {
+          "title": "2) Residual Resistance Ratio (RRR)",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              46.24365234375,
+              392.7352294921875
+            ],
+            [
+              196.76629638671875,
+              392.7352294921875
+            ],
+            [
+              196.76629638671875,
+              402.7552185058594
+            ],
+            [
+              46.24365234375,
+              402.7552185058594
+            ]
+          ]
+        },
+        {
+          "title": "III. RESULTS",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              405.2109375,
+              269.3150634765625
+            ],
+            [
+              466.97625732421875,
+              269.3150634765625
+            ],
+            [
+              466.97625732421875,
+              279.3350830078125
+            ],
+            [
+              405.2109375,
+              279.3350830078125
+            ]
+          ]
+        },
+        {
+          "title": "A. Critical Current (Ic)",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              313.1999206542969,
+              287.37506103515625
+            ],
+            [
+              412.12457275390625,
+              287.37506103515625
+            ],
+            [
+              412.12457275390625,
+              297.7243957519531
+            ],
+            [
+              313.1999206542969,
+              297.7243957519531
+            ]
+          ]
+        },
+        {
+          "title": "B. Residual Resistance Ratio (RRR)",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              46.505126953125,
+              695.6748275756836
+            ],
+            [
+              196.94444274902344,
+              695.6748275756836
+            ],
+            [
+              196.94444274902344,
+              705.6948318481445
+            ],
+            [
+              46.505126953125,
+              705.6948318481445
+            ]
+          ]
+        },
+        {
+          "title": "IV. DISCUSSION",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              404.61328125,
+              343.8948974609375
+            ],
+            [
+              473.5135192871094,
+              343.8948974609375
+            ],
+            [
+              473.5135192871094,
+              353.9148864746094
+            ],
+            [
+              404.61328125,
+              353.9148864746094
+            ]
+          ]
+        },
+        {
+          "title": "A. Critical Current (Ic)",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              312.873046875,
+              361.8950500488281
+            ],
+            [
+              412.12457275390625,
+              361.8950500488281
+            ],
+            [
+              412.12457275390625,
+              372.2444152832031
+            ],
+            [
+              312.873046875,
+              372.2444152832031
+            ]
+          ]
+        },
+        {
+          "title": "B. Residual Resistance Ratio (RRR)",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              46.505126953125,
+              489.3348693847656
+            ],
+            [
+              197.0051727294922,
+              489.3348693847656
+            ],
+            [
+              197.0051727294922,
+              499.3548583984375
+            ],
+            [
+              46.505126953125,
+              499.3548583984375
+            ]
+          ]
+        },
+        {
+          "title": "V. CONCLUSION",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              136.7138671875,
+              635.37451171875
+            ],
+            [
+              207.8349609375,
+              635.37451171875
+            ],
+            [
+              207.8349609375,
+              645.43359375
+            ],
+            [
+              136.7138671875,
+              645.43359375
+            ]
+          ]
+        },
+        {
+          "title": "ACKNOWLEDGMENT",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              398.4595947265625,
+              51.87469482421875
+            ],
+            [
+              479.83746337890625,
+              51.87469482421875
+            ],
+            [
+              479.83746337890625,
+              61.89471435546875
+            ],
+            [
+              398.4595947265625,
+              61.89471435546875
+            ]
+          ]
+        },
+        {
+          "title": "REFERENCES",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              413.3996887207031,
+              125.914794921875
+            ],
+            [
+              465.873046875,
+              125.914794921875
+            ],
+            [
+              465.873046875,
+              135.934814453125
+            ],
+            [
+              413.3996887207031,
+              135.934814453125
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              199
+            ],
+            [
+              "Line",
+              81
+            ],
+            [
+              "TableCell",
+              28
+            ],
+            [
+              "Text",
+              10
+            ],
+            [
+              "SectionHeader",
+              4
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Table",
+              2
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ],
+            [
+              "PictureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              234
+            ],
+            [
+              "Line",
+              99
+            ],
+            [
+              "TableCell",
+              73
+            ],
+            [
+              "SectionHeader",
+              5
+            ],
+            [
+              "Caption",
+              4
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Table",
+              2
+            ],
+            [
+              "TableGroup",
+              2
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "PictureGroup",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              225
+            ],
+            [
+              "Line",
+              116
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "Figure",
+              3
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "FigureGroup",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              196
+            ],
+            [
+              "Line",
+              86
+            ],
+            [
+              "ListItem",
+              6
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              4
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/NckKwtZOnqZb_VITLlzK7Q"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 4,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Verification Testing of MQXFA Nb3Sn Wires Procured Under LARP",
+    "authors": [
+      {
+        "authors_list": [
+          "Levitan, Jeremy",
+          "Lu, Jun",
+          "Lombardo, Vito",
+          "Cooley, Lance"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "The High-Luminosity LHC Accelerator Upgrade Project (AUP) in the U.S. will construct quadrupole magnets to be delivered to CERN. An initial 3 tons, over 600 km total length of conductor was procured under the LHC Accelerator R&D Program (LARP) for this project. Programs for quality control(QC) at the supplier and quality verification (QV) at the laboratories were solidified into components of the overall quality plan for strand procurement under AUP. Measurements of the critical current (Ic) and residual resistance ratio (RRR), and related probes and techniques, are central to the quality plan. Described below is the verification testing that has taken place at the National High Magnetic Field Laboratory (NHMFL). Testing challenges are presented by the high sensitivity of these wires. In addition, new RRR test software was developed to accommodate challenges presented by meeting international standards with existing configurations of test strands.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "IEEE Transactions on Applied Superconductivity",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2302.07825"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1109/TASC.2019.2898556",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2019ITAS...2998556L"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

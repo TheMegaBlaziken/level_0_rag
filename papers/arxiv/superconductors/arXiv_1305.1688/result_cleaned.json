@@ -1,0 +1,722 @@
+{
+  "id": "951ce131eb9e03aa9ecdee185930546c",
+  "pdf_path": "apl/Superconductors/arXiv:1305.1688.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# Comparison and Analysis of Twist Pitch Length Test Methods for ITER Nb3Sn and NbTi Strands<sup>∗</sup>\n\nLIU Fang1) LONG Feng CHEN Chao LIU Bo WU Yu and LIU Huajun\n\nInstitute of Plasma Physics, Chinese Academy of Science (ASIPP), Hefei, 230031, People's Republic of China.\n\n#### **Abstract**\n\nA twisted multifilamentary structure is needed for Nb3Sn and NbTi strands to be used in the International Thermonuclear Experimental Reactor (ITER) magnets. The Cable-In-Conduit Conductor (CICC) for the coils of ITER relies on twisted, multifilament, Nb3Sn and NbTi based composite strands. As important parameters for the superconducting strand's design and production, the twist pitch length and direction of strands must meet the requirements according to ITER Procurement Arrangement (PA) and this must be verified. The technical requirements are 15mm±2mm for twist pitch length and right hand twist for direction. The strand twist pitch and the twist direction can be measured on straight sections of strand, which is recognized by the repetition of filament bundles or by the angle of the filaments. Several test methods and results are described and compared in this paper. The accuracy, uncertainty and feasibility of different methods are analyzed and recommended measurement methods are proposed for ITER strands verification.\n\n**Key words:** superconducting strands, twist pitch, twist direction, filaments\n\n**PACS: 0007** \n\n### **1. Introduction**\n\nITER is designed to be the world's largest experimental fusion facility. The CICC for the Coils of ITER relies on twisted, multifilament, Nb3Sn and NbTi based composite strands [1,2]. Two types of NbTi based composite strands (type 1 and type 2) are used for three different cable layouts/conductor types. Two strand manufacturing routes for Nb3Sn-based composite strands are typically used for ITER: the Bronze route (BR) and the Internal Tin route (IT). Both routes rely on precursors of Nb3Sn, which are assembled and transformed into strands.\n\nThe twist pitch mainly influences the coupling loss of the conductor, which is generated within the matrix metal by inter-filament currents that are induced under a time-varying magnetic field excitation [3]. The technical requirements are 15mm±2mm for twist pitch length *TP* and right hand twist for direction for ITER Nb3Sn and NbTi strand. As important parameters for the superconducting strands design and production, the twist pitch *TP* and twist direction of strands must meet the requirements according to ITER PA and this must be verified.\n\nSeveral test methods can be used for *TP* determination. In this paper, we present three methods (repetition of filament bundles, angle of the filaments and rotation) for *TP* measurement and compare them. Two of them (repetition of filament bundles, angle of the filaments) which are similar to the methods instructed in ITER PA are described in detail. A new method, i.e. rotation method, which is suitable for NbTi strand is also described. Considering the characteristics of NbTi and Nb3Sn strands, different methods will be recommended.\n\n### **2. Strands**\n\nFor NbTi strand, the multifilament composite strand is made up of NbTi filaments embedded in a high purity Cu matrix. The last stage of strand fabrication starts from the assembly of a final composite billet consisting of NbTi rods wrapped with Nb foils in a Cu matrix. The billet is drawn down in multiple passes to the final strand diameter. The drawing passes are interleaved with high temperature heat treatments to favor the production of α-Ti precipitates and achieve high pinning forces. A micrograph of the transverse cross-section of the NbTi type 2 strand, which was fabricated\n\n![](_page_0_Figure_14.jpeg)\n\nby the Western Superconducting Technology Company (WST), is shown in Fig. 1.\n\n## Fig.1. Transverse cross-section micrograph of the WST NbTi (type 2) strand used for ITER conductor. (Images by courtesy of Gao Huixian)\n\nFor Nb3Sn strand, the un-reacted multifilament composite strand is made up of Nb filaments embedded in a high tin bronze matrix (BR route) or in a mixed copper and tin matrix (IT route), surrounded by a barrier which separates the multifilament zones from a stabilizing copper sheath. Ti or Ta sources may be added to or alloyed with the Nb to create a ternary alloy [4]. The last stage of strand fabrication starts from the assembly of a final composite billet, consisting of Nb rods in a bronze or a Cu matrix, Nb or Ta barriers, stabilizing Cu in the form of an outer can and Sn elements in the case of IT strands. The billet is drawn down in multiple passes to the final strand diameter. In the case of the BR route, the drawing passes are interleaved with annealing heat treatments at moderate temperatures to maintain the workability of the bronze. The micrographs of the transverse cross-section of the\n\n∗ Supported by the Equipment Function Developing and Technical Innovation project of the Chinese Academy of Sciences under Grant Y25ZB13291.\n\n<sup>1)</sup> fangliu@ipp.ac.cn\n\nNb3Sn strands, which were fabricated by WST, are shown in Fig. 2.\n\n![](_page_1_Figure_1.jpeg)\n\nFig. 2. Transverse cross-section of Nb3Sn strand. (a) the WST BR Nb3Sn strand; (b) the WST IT Nb3Sn strand used for ITER conductor. (Images by courtesy of Gao Huixian)\n\nThe technical requirements for ITER strands are shown in Table 1.\n\n| Table 1. Technical requirements for ITER strands |  |\n|--------------------------------------------------|--|\n|--------------------------------------------------|--|\n\n| Item                            | Requirement         |                     |                     |  |  |\n|---------------------------------|---------------------|---------------------|---------------------|--|--|\n| Superconductor<br>type          | Nb3Sn               | NbTi type1          | NbTi type2          |  |  |\n| Strand diameter                 | 0.820 ± 0.005<br>mm | 0.730 ±<br>0.003 mm | 0.730 ±<br>0.003 mm |  |  |\n| Twist pitch                     | 15 ± 2 mm           | 15 ± 2 mm           | 15 ± 2 mm           |  |  |\n| Twist direction                 | right hand<br>twist | right hand<br>twist | right hand<br>twist |  |  |\n| plating thickness               | 2.0 +0/-1 µm        | 2.0+0/-1 µm         | 2.0+0/-1 µm         |  |  |\n| Cu-to-non-Cu<br>volume ratio    | 1.0 ± 0.1           | 1.6 ± 0.05          | 2.35± 0.1           |  |  |\n| Filament diameter,<br>Dfil      | --                  | ≤ 8 μm              | ≤ 8 μm              |  |  |\n| Inter-filament<br>spacing, Sfil | --                  | ≥ 1 μm              | ≥ 1 μm              |  |  |\n\n#### **3. Test methods**\n\nThere different methods for *TP* measurement were introduced and analyzed.\n\n#### **3.1 Method A: repetition of filament bundles**\n\nThe twist pitch can be measured on polished longitudinal sections of strand. A short (~25 mm long) section of strand is flat embedded into resin and it is carefully polished to the middle, i.e. the axis, of the strand. The pitch can be estimated looking at the outer layer of filaments emerging from the matrix in the longitudinal section.\n\n![](_page_1_Figure_10.jpeg)\n\nFig. 3. Schematic diagram of *TP* measurement by repetition of filament bundles\n\nThe technique involves counting the number of subbundles around the outer layer of the filament pack (let's say there are n bundles), and then selecting every nth bundle in the longitudinal cross-section. The schematic diagram is shown in Fig. 3. For a wire with 6 filament bundles (see Fig. 3 (b)), the longitudinal cross-section is shown in Fig. 3(a) with twist direction right hand. The twist pitch *TP* is recognized by the repetition of filament bundles [5].\n\n#### **3.2 Method B: angle of the filaments**\n\nBy method B, the twist pitch can be measured from the twist angle of filaments. The sample is prepared by chemically etching away the stabilizing Cu with the two ends of samples fixed before etching to make the sample be straight through the measuring process. The photos can be taken by SEM.\n\nThe schematic diagram is shown in Fig. 4. The angle α is the twist angle of the filament, i.e. the tangent angle. The twist pitch *TP* is calculated by Eq. (1).\n\n$$T\\_P \\, = \\, \\pi \\mathcal{D} \\times \\cot \\,\\, a \\,\\, \\tag{1}$$\n\nwhere *D* is the filamentary diameter.\n\n![](_page_1_Figure_19.jpeg)\n\nFig. 4. Schematic diagram of *TP* measurement by angle of the filaments\n\nThe twist angle can be obtained by image analysis of SEM. Numerous (tens of) angles are obtained and measured. These results are averaged to minimize random error in the final result. The region for angle determination has large effects on measurement results. The angle measured from the photo is not exactly the tangent angle of the filament. Twist angle measurement should be made on the middle (or center) section of the sample for best accuracy. The relationship between the twist angle *α a*nd measured twist angle *β* will be analyzed below.\n\n The accurate twist angle *α* is the tangent angle of the helix (see Fig.5). The helix equation is given in Eq. (2).\n\n$$\\begin{cases} x = d \\cos \\theta \\\\ y = d \\sin \\theta \\\\ z = b\\theta \\end{cases} \\tag{2}$$\n\nWhere, *d* is radius of the cross section, i.e. the filamentary radius, *θ* is the rotation angle, and p 2πb = T . So *b* can be presented by Eq. (3).\n\n$$b \\;= \\; \\pi \\\\ \\mathcal{D} \\; \\times \\; \\text{cot } \\; a \\; / \\; 2\\pi \\;= \\; d \\; \\text{cot } a \\;\\qquad \\text{(3)}$$\n\n![](_page_2_Figure_0.jpeg)\n\n#### Fig.5. Helix\n\nAs shown in Fig.5, two points A and B are located on the helix. The projection of A and B on plane YOZ are A' and B', respectively. When the region from point A to B is used for twist angle determination, the measured twist angle *β* is the angle between Z-axis and line A'B'. And the measured twist pitch *TPm* is presented by Eq. (4).\n\n$$T\\_{P\\text{in}} = \\pi \\mathcal{D} \\times \\text{cot } \\mathcal{J} \\tag{4}$$\n\nAs shown in Fig.5, projection points A' and B' can be presented by Eq. (5), respectively,\n\n$$\\begin{cases} \\overrightarrow{r\\_{A'}} = d\\sin\\theta\\_A \\overrightarrow{j} + b\\theta\\_A \\overrightarrow{k} \\\\ \\overrightarrow{r\\_{B'}} = d\\sin\\theta\\_B \\overrightarrow{j} + b\\theta\\_B \\overrightarrow{k} \\end{cases} \\tag{5}$$\n\nThen the measured twist angle β can be presented by Eq. (6).\n\n$$\\cot \\beta = \\frac{b\\theta\\_B - b\\theta\\_A}{d \\sin \\theta\\_B - d \\sin \\theta\\_A} \\tag{6}$$\n\nPut Eq. (4) into Eq. (6), then the ratio of measured twist pitch *TPm* to *TP* can be presented by Eq. (7)\n\n$$\\frac{T\\_{P\\text{III}}}{T\\_P} = \\frac{\\theta\\_B - \\theta\\_A}{\\sin \\theta\\_B - \\sin \\theta\\_A} \\tag{7}$$\n\n![](_page_2_Figure_10.jpeg)\n\nFig. 6. Relationship between the ratio of *TPm* to *TP* and the rotation angle\n\nThe rotation angles *θ* of the points are from -90 degree to 90 degree. When we set the rotation angle of point A *θA* as a constant, the relationship between the ratio of *TPm* to *TP* and the rotation angle of point B *θB* is shown in Fig. 6.\n\nAs shown in Fig. 6, the deviation of *TP* caused by the angle determination can be less than 2% when we set the rotation angleθ from -10 degree to 10 degree (see Fig.10) as the angle measured region.\n\n#### **3.3 Method C: Rotation**\n\nThe strand twist pitch and the twist direction can be measured on straight sections of strand, stretched on a fixture holding the ends. The Copper stabilizer of an about 200 mm long section of the strand was etched by HNO3 solution to remove the copper and bronze.\n\nThe schematic diagram is shown in Fig. 7. The test procedure was as follows :1), Fix the sample with a holder; 2), etch the middle part of the sample and measure the etching length L; 3), Rotate one end of the sample clockwise till the filaments become untwisted.\n\n![](_page_2_Figure_17.jpeg)\n\nFig.7. The *TP* test process by rotation method\n\nThe untwisting of strand sample will worsen the surface condition since more filaments will pop up and be separated from the bundle. It is impossible to just distinguish if the filaments are twisted or untwisted by picture or eyesight. A thin smooth sheet may be used to select some filaments and divide from others carefully. Make the sheet go from one end to another along the etched section of the sample. Adjust the rotation angle to make the sheet be at same position of the two ends and make the selected filaments have no twist from others, then record the rotating angle *δ* or number of turns *n*.\n\nThe twist pitch *TP* can be calculated by Eq. (8).\n\n$$T\\_P \\, = \\, L \\, / \\, n \\, = \\, L \\, / (\\mathcal{S} \\, / \\, 360) \\tag{8}$$\n\n#### **4. Test Results and discussion**\n\n## **4.1 Nb3Sn strand**\n\nMethods B and C are useful for both IT and BR Nb3Sn strands. Method A is only valid and reliable for strands consisting of highly apparent repeating pattern in outermost layer of filament bundle. So for the Nb3Sn strands in Fig 2, all the three methods could be used to test the *TP*.\n\nBy method A, the longitudinal cross-section of IT Nb3Sn for the 2nd benchmarking strand, whose cross section is shown in reference [6], is shown in Fig. 8. The outside filament bundles are total of 12. The Tin core is quite easily recognized. The length along the 12 outside Tin cores is *TP*.\n\nThe longitudinal cross-section of BR Nb3Sn for the 1st benchmarking strand, whose cross section was shown in\n\nreference [7], is shown in Fig. 9. The outside filament bundles have 4-1-4-1…construction (see Fig.9). The twist pitch is recognized by the 4-1-4-1…repetition of filament bundles [7]. For WST BR Nb3Sn strand, the outside filament bundles have 8-1-1-8-1-1-8… construction. The results of the two rounds of world-wide benchmarking are shown in Table 2.\n\n![](_page_3_Figure_1.jpeg)\n\nFig. 8. Micrograph of a longitudinal cross-section for 2nd benchmarking IT Nb3Sn\n\n![](_page_3_Figure_3.jpeg)\n\n1 filament bundles 4 filament bundles\n\n## Fig. 9. Micrograph of a longitudinal cross-section for 1st benchmarking BR Nb3Sn.\n\nBy method B, after removing the copper matrix, the tangent angle can be measured by image analysis of a digital photomicrograph. The angle is between the filament and strand axial direction, see Fig. 10. The strand axial direction can be determined by an un-etched strand which is parallel to the measuring strand with special holder. The filamentary diameter *D* is determined by the cross section graph. *D* of each sample should be measured for more accurate testing. This value will have a small deviation less than 1%. Numerous angles will be averaged to eliminate the local variability.\n\n![](_page_3_Figure_7.jpeg)\n\nFig. 10. Microphotograph of tangent angles of Nb3Sn strand.\n\nFor test method C, the sample holder should be designed to fix the sample with one end free of rotation. The barrier won't be removed by HNO3 solution. So unlike from NbTi, the etching processes require two stages.\n\nAfter etching the copper matrix, the barrier should be removed. For WST ITER IT strand, Huixian Gao from WST suggested a reliable procedure to remove the Ta barrier just by metallographic sandpaper without significant brokenness of the filaments. Chemical etching with hydrofluoric solution may be another option. But from now on, we failed to remove the Ta barrier using hydrofluoric solution.\n\nThen the bronze or copper in the filament region can be removed by HNO3 solution. From Table 2, the results by rotation method of Nb3Sn sample for the 1st round of world wide benchmarking fit quite well with the average value.\n\n#### **4.2 NbTi strand**\n\nFor NbTi strand, repetition of filament bundles method is not available because the filaments are hard to be divided.\n\nThe other two methods have been compared.\n\nFor test method B, after removing the copper matrix, the NbTi filaments region will have comparatively large distortion. This may be caused by the movement of the filaments after copper removal. Without Cu matrix, some outer filaments will loose from its bundle and the twist angle will be change. To minimize this effect, enough number of measurements should be made.\n\nAnother error source is from the filament diameter determination. The deviation from the largest to smallest part is around 5% for the sample in Fig 1. Unlike from Nb3Sn, there is no barrier existing, and the inner filaments may be chosen for more accurate angle determination during the angle determination.\n\nNbTi strand is comparatively adaptable to use method C: rotation method. Both the accuracy and the efficiency are much higher than using other ways. Sample holder should be designed to fix the sample with one end free of rotation.\n\nFrom Table 2, the results by rotation method of NbTi sample for the 2nd world wide benchmarking fit quite well with the average value.\n\nTable 2 *TP* Test results with different methods\n\n| Sample                                                            |            | Twist Pitch, mm |      |      | Mean     |  |\n|-------------------------------------------------------------------|------------|-----------------|------|------|----------|--|\n|                                                                   |            | A               | B    | C    | Value a) |  |\n| Benchmarking                                                      | BR-Nb3Sn1  | 15.8            | 16.1 | 15.8 | 15.9 mm  |  |\n|                                                                   | IT- Nb3Sn1 | 15.5            | 15.6 | 15.2 | /        |  |\n|                                                                   | NbTi       | /               | 13.5 | 14.7 | 15.1 mm  |  |\n| Verification b)                                                   | IT-Nb3Sn1  | 15.9            | 15.7 | 16.0 | /        |  |\n|                                                                   | NbTi1      | /               | 14.1 | 13.4 | /        |  |\n|                                                                   | NbTi2      | /               | 14.5 | 13.7 | /        |  |\n| a The mean value is from the results of the two rounds world-wide |            |                 |      |      |          |  |\n\nbenchmarking for ITER strands [6, 7]. b Verification samples to be measured by Chinese Domestic Agency (CNDA)\n\n#### **5. Conclusion**\n\nTwist pitch plays a key role for the ITER superconducting strand's performance. Several methods can be used for twist pitch determination. Considering the characteristics of ITER Nb3Sn and NbTi strands, three methods were introduced and analyzed in this paper.\n\n For Nb3Sn strands, all of the three methods were used to measure the twist pitch. Method B is recommended because it is a good compromise between cost and accuracy for strands verification for ITER conductor fabrication. For method A, the sample preparation may cost too much time although it has very high accuracy. In order for method C to be suitable, a reliable Ta barrier removal method must be implemented.\n\nFor NbTi strands, two methods may be useful including the filament angle method and the rotation method. Using method B, the systematic error can be much larger for NbTi strand than for Nb3Sn. Additionally, it is hard to control the error because there is no barrier for the NbTi strands. Considering both cost and accuracy for strands verification, the rotation method is recommended for NbTi strands, and the error can be controlled to be a low level.\n\n#### **Acknowledgment**\n\nWe thank Sander Wessel from Twente University and Huixian Gao from Western Superconducting Technologies company (WST) for many useful discussions.\n\n#### **References**\n\n- [1] Mitchell N., Bessette D., Gallix R., Jong C., Knaster J., Libeyre P., Sborchia C. and Simon F., \"The ITER magnet system,\" *IEEE Trans. Appl. Supercond.*, 2008, 18:435.\n- [2] N. Mitchell, P. Bauera and D. Bessette, \"Status of the ITER magnets\", *Fusion Eng. Des.*, 2009, 84:113.\n- [3] Yukikazu Iwasa, *Case Studies in Superconducting Magnets*, Plenum Press, New York, 1994.261-263.\n- [4] A. Godeke, *Performance Boundaries in Nb3Sn Superconductors*, Ph.D. dissertation [Dissertation], Twente University, The Nertherlands, 2005:48.\n- [5] http://www.utwente.nl/tnw/ems/Research/\n- [6] I. Pong, M. C. Jewell, B. Bordini et al., \"World-wide benchmarking of Internal Tin Nb3Sn strand and NbTi strand Test facilities\", *IEEE Trans. Appl. Supercond.*,2012,22(3):4802606.\n- [7] M. C. Jewell, T. Boutboul, L. R. Oberli, F. Liu, Y. Wu, A. Vostner et al., \"World-wide benchmarking of ITER Nb3Sn strand test facilities\", *IEEE Trans. Appl. Supercond.*, 2010, 20( 3):1500-1503.",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Comparison and Analysis of Twist Pitch Length Test Methods for ITER Nb3Sn and NbTi Strands∗",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              66.93359375,
+              84.707763671875
+            ],
+            [
+              527.8602294921875,
+              84.707763671875
+            ],
+            [
+              527.8602294921875,
+              99.43389892578125
+            ],
+            [
+              66.93359375,
+              99.43389892578125
+            ]
+          ]
+        },
+        {
+          "title": "Abstract",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              59.8037109375,
+              154.79150390625
+            ],
+            [
+              90.91792297363281,
+              154.79150390625
+            ],
+            [
+              90.91792297363281,
+              163.01416015625
+            ],
+            [
+              59.8037109375,
+              163.01416015625
+            ]
+          ]
+        },
+        {
+          "title": "1. Introduction",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              45.540000915527344,
+              296.41650390625
+            ],
+            [
+              109.64013671875,
+              296.41650390625
+            ],
+            [
+              109.64013671875,
+              306.49951171875
+            ],
+            [
+              45.540000915527344,
+              306.49951171875
+            ]
+          ]
+        },
+        {
+          "title": "2. Strands",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              45.03466796875,
+              662.1757965087891
+            ],
+            [
+              90.34114074707031,
+              662.1757965087891
+            ],
+            [
+              90.34114074707031,
+              672.2021484375
+            ],
+            [
+              45.03466796875,
+              672.2021484375
+            ]
+          ]
+        },
+        {
+          "title": "Fig.1. Transverse cross-section micrograph of the WST NbTi \n(type 2) strand used for ITER conductor. (Images by courtesy \nof Gao Huixian)",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              304.40234375,
+              510.9134216308594
+            ],
+            [
+              551.179931640625,
+              510.9134216308594
+            ],
+            [
+              551.179931640625,
+              543.9287109375
+            ],
+            [
+              304.40234375,
+              543.9287109375
+            ]
+          ]
+        },
+        {
+          "title": "3. Test methods",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              44.780029296875,
+              473.83673095703125
+            ],
+            [
+              113.31033325195312,
+              473.83673095703125
+            ],
+            [
+              113.31033325195312,
+              483.58111572265625
+            ],
+            [
+              44.780029296875,
+              483.58111572265625
+            ]
+          ]
+        },
+        {
+          "title": "3.1 Method A: repetition of filament bundles",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              45.2529296875,
+              519.6758117675781
+            ],
+            [
+              233.79730224609375,
+              519.6758117675781
+            ],
+            [
+              233.79730224609375,
+              529.5390625
+            ],
+            [
+              45.2529296875,
+              529.5390625
+            ]
+          ]
+        },
+        {
+          "title": "3.2 Method B: angle of the filaments",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              304.5596923828125,
+              148.93572998046875
+            ],
+            [
+              458.1178283691406,
+              148.93572998046875
+            ],
+            [
+              458.1178283691406,
+              158.68017578125
+            ],
+            [
+              304.5596923828125,
+              158.68017578125
+            ]
+          ]
+        },
+        {
+          "title": "Fig.5. Helix",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              134.9399871826172,
+              213.3765869140625
+            ],
+            [
+              184.26808166503906,
+              213.3765869140625
+            ],
+            [
+              184.26808166503906,
+              223.12103271484375
+            ],
+            [
+              134.9399871826172,
+              223.12103271484375
+            ]
+          ]
+        },
+        {
+          "title": "3.3 Method C: Rotation",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              304.55999755859375,
+              138.8570556640625
+            ],
+            [
+              405.9183349609375,
+              138.8570556640625
+            ],
+            [
+              405.9183349609375,
+              148.727294921875
+            ],
+            [
+              304.55999755859375,
+              148.727294921875
+            ]
+          ]
+        },
+        {
+          "title": "4. Test Results and discussion",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              304.55999755859375,
+              575.7763977050781
+            ],
+            [
+              430.42156982421875,
+              575.7763977050781
+            ],
+            [
+              430.42156982421875,
+              585.5207824707031
+            ],
+            [
+              304.55999755859375,
+              585.5207824707031
+            ]
+          ]
+        },
+        {
+          "title": "4.1 Nb3Sn strand",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              304.55999755859375,
+              598.87646484375
+            ],
+            [
+              377.78948974609375,
+              598.87646484375
+            ],
+            [
+              377.78948974609375,
+              609.3892822265625
+            ],
+            [
+              304.55999755859375,
+              609.3892822265625
+            ]
+          ]
+        },
+        {
+          "title": "Fig. 9. Micrograph of a longitudinal cross-section for 1st\nbenchmarking BR Nb3Sn.",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              58.259490966796875,
+              353.78765869140625
+            ],
+            [
+              277.8707275390625,
+              353.78765869140625
+            ],
+            [
+              277.8707275390625,
+              377.3092956542969
+            ],
+            [
+              58.259490966796875,
+              377.3092956542969
+            ]
+          ]
+        },
+        {
+          "title": "4.2 NbTi strand",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              304.55963134765625,
+              171.67572021484375
+            ],
+            [
+              372.98284912109375,
+              171.67572021484375
+            ],
+            [
+              372.98284912109375,
+              181.51513671875
+            ],
+            [
+              304.55963134765625,
+              181.51513671875
+            ]
+          ]
+        },
+        {
+          "title": "5. Conclusion",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              304.40234375,
+              598.6366424560547
+            ],
+            [
+              363.45123291015625,
+              598.6366424560547
+            ],
+            [
+              363.45123291015625,
+              608.4765625
+            ],
+            [
+              304.40234375,
+              608.4765625
+            ]
+          ]
+        },
+        {
+          "title": "Acknowledgment",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              45.2529296875,
+              183.07525634765625
+            ],
+            [
+              120.5312271118164,
+              183.07525634765625
+            ],
+            [
+              120.5312271118164,
+              192.8197021484375
+            ],
+            [
+              45.2529296875,
+              192.8197021484375
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              45.3984375,
+              240.3148193359375
+            ],
+            [
+              93.3989028930664,
+              240.3148193359375
+            ],
+            [
+              93.3989028930664,
+              250.05926513671875
+            ],
+            [
+              45.3984375,
+              250.05926513671875
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              180
+            ],
+            [
+              "Line",
+              81
+            ],
+            [
+              "Text",
+              13
+            ],
+            [
+              "SectionHeader",
+              5
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Footnote",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              307
+            ],
+            [
+              "Line",
+              138
+            ],
+            [
+              "TableCell",
+              36
+            ],
+            [
+              "Text",
+              12
+            ],
+            [
+              "Figure",
+              3
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "Equation",
+              3
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Table",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              437
+            ],
+            [
+              "Line",
+              240
+            ],
+            [
+              "Text",
+              11
+            ],
+            [
+              "TextInlineMath",
+              5
+            ],
+            [
+              "Equation",
+              5
+            ],
+            [
+              "SectionHeader",
+              4
+            ],
+            [
+              "Figure",
+              3
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              197
+            ],
+            [
+              "Line",
+              92
+            ],
+            [
+              "TableCell",
+              40
+            ],
+            [
+              "Text",
+              17
+            ],
+            [
+              "Figure",
+              3
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              86
+            ],
+            [
+              "Line",
+              31
+            ],
+            [
+              "ListItem",
+              7
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/hS8qImvnhxOzMIbIM0uMJA"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 5,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Comparison and Analysis of Twist Pitch Length Test Methods for ITER Nb3Sn and NbTi Strands",
+    "authors": [
+      {
+        "authors_list": [
+          "Liu, Fang",
+          "Long, Feng",
+          "Chen, Chao",
+          "Liu, Bo",
+          "Wu, Yu",
+          "Liu, Huajun"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "A twisted multifilamentary structure is needed for Nb3Sn and NbTi strands to be used in the International Thermonuclear Experimental Reactor (ITER) magnets. As important parameters for the superconducting strands design and production, the twist pitch length and direction of strands must meet the requirements according to ITER Procurement Arrangement (PA) and this must be verified. The technical requirements are 15mm+/-2mm for twist pitch length and right hand twist for direction. The strand twist pitch and the twist direction can be measured on straight sections of strand, which is recognized by the repetition of filament bundles or by the angle of the filaments. Several test methods and results are described and compared in this paper. The accuracy, uncertainty and feasibility of different methods are analyzed and recommended measurement methods are proposed for ITER strands verification.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1305.1688"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.1305.1688",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2013arXiv1305.1688L"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

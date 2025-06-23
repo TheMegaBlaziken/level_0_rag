@@ -1,0 +1,307 @@
+{
+  "id": "0751303029c4a5dd9d05b93284f772ad",
+  "pdf_path": "apl/Superconductors/arXiv:1711.05871.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "## Evidence for quantized vortex entry in Nb3Sn under the influence of RF fields\n\nDaniel Leslie Hall,1, [a\\)](#page-0-0) Matthias Liepe,1, [b\\)](#page-0-1) and Ryan D. Porter<sup>1</sup>\n\nCornell Laboratory for Accelerator-Based Sciences and Education, Ithaca, New York 14853, USA\n\n(Dated: 2 February 2022)\n\nEvidence for quantised magnetic vortex entry at a defect into a Type-II superconductor operating in the metastable state above Bc<sup>1</sup> while under the influence of RF electromagnetic fields has been observed in a polycrystalline coating of Nb3Sn. The measurement was made using a 1.3 GHz microwave cavity for use in particle accelerator R&D and equipped with a temperature mapping system for precision measurements of local heating. At peak RF fields near the quench field of the cavity, discrete jumps in local heating at the quench origin were observed. A number of these jumps were found to be identical in height within measurement error. This suggests entry of a limited number of vortices at a defect. The behaviour observed appears to be consistent with recent theoretical predictions regarding vortex entry at grain boundaries in the material.\n\nThe expectation that ideal Type-II superconductors should maintain a flux-free Meissner state when subject to AC electromagnetic fields above the lower critical field Hc1, up to the superheating field Hsh (which can be many times higher than Hc1) [1](#page-4-0)[–4](#page-4-1), is crucial for the operation and development of future superconducting microwave particle accelerator cavities capable of generating very high energy beams. In AC superconducting applications the entry of magnetic flux during the cycle, whose frequency can range from MHz to many GHz, will result in heat dissipation far in excess of that experienced due to BCS losses, due to the normal conducting vortex cores experiencing drag[5](#page-4-2)? as they move through the superconductor. These losses will result in a temperature rise in the superconductor that often results in a feedback mechanism that further lowers the barrier for flux entry, inevitably taking the superconductor above its critical temperature and resulting in a loss of the superconducting state and, by extension, loss of function of the superconducting device. In the study of superconducting microwave cavities, and in this paper, such an event is referred to as a quench. Ensuring stability and reliability to operate in this metastable state is therefore crucial to these applications.\n\nAlthough weakly Type-II superconductors such as niobium have been demonstrated to reliably operate in the metastable state[4,](#page-4-1)[6](#page-4-3), the higher κ superconductors such as the A15 compounds and cuprates, made attractive by their comparatively higher values of transition temperature T<sup>c</sup> and superheating field Hsh, often exhibit limitations that prevent operation far into the metastable state. These can largely be attributed to their shorter coherence length ξ rendering them more sensitive to defects. This is exacerbated by the compound nature of these superconductors, which allows for off-stoichiometric regions, and the more complex fabrication methods, which can introduce chemical impurities and structural imperfections. Use of these high-T<sup>c</sup> superconductors in microwave applications therefore demands even more careful attention to avoiding the presence of such defects in spite of a more complicated means of fabrication.\n\nIn this letter we provide experimental evidence for quantised magnetic vortex entry into a thick polycrystalline film of the Type-II superconductor Nb3Sn in a manner consistent with vortex entry at grain boundaries modelled as underdamped Josephson junctions[7](#page-4-4) . This A15 intermetallic alloy is of particular interest to the particle accelerator community[8](#page-4-5) , as its higher transition temperature would allow operation at 4.2 K – as opposed to the 2.0 K commonly used for current ≈1 GHz niobium structures – and therefore increase the efficiency of the cryogenic plant by up to 80% over contemporary designs, with an associated reduction in operational costs. Furthermore, modern accelerator specifications demand accelerating gradients of 16-35 MV/m[9](#page-4-6)[,10](#page-4-7), which in turn requires that the superconducting surface withstand peak surface magnetic fields between 60 and 150 mT, with future demands expected to be even higher. Nb3Sn's superheating field of ≈400 mT[3](#page-4-8)[,11](#page-4-9) suggests operation at gradients up to 90 MV/m, an attractive prospect for future projects. However, although Nb3Sn has demonstrated stable operation at fields above the values of Hc<sup>1</sup> [12](#page-4-10) extrapolated from material parameters, at time of writing these cavities remain limited to peak surface fields of up to 100 mT[8](#page-4-5) , far below Hsh.\n\nThe experiment was carried out using a 1.3 GHz single-cell R&D niobium cavity of the TeSLA design[12](#page-4-10) coated with a layer of Nb3Sn in a custom-built coating furnace[11,](#page-4-9)[13](#page-4-11) using the vapour diffusion method[14](#page-4-12). Although the layer is thin by mechanical standards – the coating is between 2-3 µm thick[15](#page-4-13) – it is many times thicker than the RF penetration depth λ nm[11](#page-4-9), rendering this for all intents and purposes a bulk superconductor. The cavity was operated in a cryostat, immersed in liquid helium, with an antenna mounted to couple in RF power supplied by a solid state amplifier. An RF control system allows operation at a fixed peak RF field in the cavity. This system is used to measure the intrinsic quality factor Q<sup>0</sup> and frequency f of the cavity as a function of peak\n\n<span id=\"page-0-0\"></span>a)[dlh269@cornell.edu](mailto:dlh269@cornell.edu)\n\n<span id=\"page-0-1\"></span>b)[mul2@cornell.edu](mailto:mul2@cornell.edu)\n\n![](_page_1_Figure_1.jpeg)\n\n<span id=\"page-1-0\"></span>FIG. 1. Examples of traces acquired using the sensor at the quench origin, plotted as the temperature rise at the quench origin ∆T against the square of the local peak surface field Bpk. The location of the jumps are indicated by arrows. The shaded region indicates the expected range of the lower critical field Bc<sup>1</sup> as extrapolated from material parameters.\n\n![](_page_1_Figure_3.jpeg)\n\n<span id=\"page-1-1\"></span>FIG. 2. Stacked histogram of the height of the first three jumps observed in the traces taken at a bath temperature of 4.2 K, indicating that the jumps are of identical height to within the precision of the measurement.\n\nRF field Bpk and/or temperature T. Measurements of Q vs T and f vs T were analysed with the SRIMP fitting code[16](#page-4-14)[–18](#page-4-15) to determine the electron mean free path l = (4.7 ± 2.0) nm. Using literature values[19](#page-4-16) of the London penetration depth λ<sup>L</sup> = (89 ± 9) nm and intrinsic coherence length ξ<sup>0</sup> = 7 ± 0.7 nm, we calculate[19,](#page-4-16)[20](#page-4-17) the thermodynamic critical field and lower critical field to be B<sup>c</sup> = (487 ± 3) mT and Bc<sup>1</sup> = (35 ± 8) mT, respectively.\n\nInformation regarding local heating on the inner surface of the cavity during operation is provided by an array of 646 cryogenic temperature sensors affixed to the outside of the cavity, a system dubbed a temperature map or T-map[21](#page-4-18). Use of this temperature mapping system allows for precise local measurements of the heating – and by extension, power dissipation – of the superconducting surface as a function of the applied surface RF field. Since previous experiments indicate that the limitation of the field that can be achieved in the cavity is due to a localised defect[22,](#page-4-19)[23](#page-4-20), as opposed to a global effect, the first stage of the experiment was to use the apparatus to isolate the region at which the superconducting state first broke down when the cavity exceeded its quench field of approximately 75 mT peak surface magnetic field. This was done by quenching the cavity multiple times while using the T-Map to localise the sudden spike in heating (many Kelvin) that accompanies a region being driven into the normal conducting state during quench.\n\nOnce isolated, the quench origin was studied using high-speed, high-resolution operation of a single sensor. The cavity was cycled through Tc, to remove any residual trapped magnetic flux introduced by the quench mapping measurement. With the origin of the quench now isolated to a single sensor, data taking began. This consisted of acquiring a set time interval of temperature data from the chosen sensor, during which time the field in the cavity was cycled from empty up to a desired field and then left to ring down. A pickup probe mounted on the end of the cavity allowed precise measurement of the surface magnetic field during the measurement. The result is a combined measurement of the temperature at the origin of the quench minus the temperature of the helium bath, ∆T, and the peak surface magnetic field at this location, Bpk. This is then recast by equating times and plotting the result as ∆T against B<sup>2</sup> pk. The choice of the squared field is due to the fact that conventionally expected Ohmic losses obeying P ∝ B<sup>2</sup> pk will appear linear when plotted.\n\nAlthough the cavity was operated very close to the known quench field of the cavity during data-taking, great care was taken in not allowing such a quench to occur. The results are therefore not affected by significant amounts of trapped flux at the quench origin. At fields up to and above Bc1, the losses appear Ohmic to first order. However, when approaching (yet not exceeding) the quench field, the heating at the quench origin exhibited sudden, discrete jumps, and a hysteresis during the ramp-up in field and ramp-down. This behaviour was seen even after cycling through T<sup>c</sup> again, and while operating both at 2.0 K and 4.2 K bath temperatures. Examples of measurement traces exhibiting these jumps, obtained at bath temperatures of 2.0 K and 4.2 K, are shown in Figure [1.](#page-1-0)\n\nThese jumps exhibit a number of interesting features. Firstly, during a given cooldown (corresponding to one day of measurements), the field at which any single jump occurs, and the height (in mK) of this jump, is highly repeatable between traces. The second interesting feature is the hysteresis that occurs when these jumps exhibit themselves, with similar sudden drops in temperature visible during the ramp-down measurement. Variations in field and jump height were found to be within the measurement error of extracting these from the trace. In particular, the heights of the first three jumps within any given measurement set were found to be identical within measurement error. This is demonstrated in Figure [2,](#page-1-1) a stacked histogram of the height of the first three jumps in the measurement data taken at 4.2 K over the course of one day. The stacked distribution is, to first order, Gaussian in nature, with a 2-σ interval of 0.9 mK, which is comparable to the precision of the measurement (±1.2) mK for the first three jumps.\n\nBetween cooldown cycles, and at different bath temperatures, the thermal contact between the sensors and the cavity wall varied, changing the absolute (but not relative) measured heights of the jumps day-to-day. This prevented absolute jump height comparison between days; however, normalising all jumps in a cooldown by the mean of the height of the first jump in that cooldown allows for the relative heights to be compared. Rescaling the data from the three separate cooldowns, two at 2.0 K and one at 4.2 K, the jumps are compared in the scatterplot shown in Figure [3.](#page-2-0)\n\nDuring the first cooldown, measured at 2.0 K, four jumps were seen; ∆T = (0.99, 1.08, 1.10, 5.40) mK at Bpk = (68.50, 68.54, 70.21, 70.54) mT, respectively. Rescaling the first mean to 1, this gives the four jumps as (1.00 ± 0.10) (forced), (1.09 ± 0.07), (1.11 ± 0.18), and (5.46 ± 0.36). The second cooldown, a repeat of the measurement at 2.0 K, gave ∆T = (0.32, 0.31, 0.33, 1.94) mK at Bpk = (68.81, 68.95, 70.58, 70.87) mT, respectively. The decrease in the jump height can be attributed to a decrease in the thermal contact between the temperatures sensors and the cavity outer wall. Again, rescaling the first jump to 1 gives (1.00 ± 0.06) (forced),\n\n![](_page_2_Figure_4.jpeg)\n\n<span id=\"page-2-0\"></span>FIG. 3. Scatter plot of the temperature jumps seen during the three cooldowns, normalised to the mean of the first jump in the trace. The means of the jumps are overlaid.\n\n![](_page_2_Figure_6.jpeg)\n\n<span id=\"page-2-1\"></span>FIG. 4. Expected behaviour of a grain boundary modelled as an underdamped Josephson junction, plotted as the normalised power dissipated in the grain boundary against the normalised peak AC current through the grain boundary. This figure is reproduced from Ref.[7](#page-4-4) with permission of the author, and is analogous to Figure [1.](#page-1-0)\n\n(0.99 ± 0.07), (1.05 ± 0.08), and (6.15 ± 0.23). The third cooldown, a measurement performed at 4.2 K, found ∆T = (2.43, 2.47, 2.54, 11.11) mK at Bpk = (66.96, 67.49, 69.41, 69.73) mT, respectively. Rescaling gives (1.00 ± 0.05) (forced), (1.02 ± 0.08), (1.05 ± 0.07), and (4.57 ± 0.13). Within any one cooldown, each independent jump is reproducible in both the magnetic field at which it occurs and the height of the jump, to within the precision of the measurement. However, between cooldowns, drifts in the cable calibration used to extrapolate the surface field result in the introduction of a systematic error. The difference between the fields at which the jumps occur is on the order of this error and therefore differences observed between cooldowns are not deemed significant.\n\nA mechanism that could explain this behaviour is quantised flux entry at grain boundaries modelled as Josephson junctions, as proposed by Sheikhzada and Gurevich[7,](#page-4-4)[24](#page-4-21). In this scenario, a grain boundary whose thickness is on the order of the bulk coherence length acts as a blocking defect for the supercurrent. Above a grain boundary-specific critical field BGB, magnetic flux enters in a quantised manner. These vortices are not expected to be of pure Abrikosov nature, as is usually the case with magnetic flux pinned during the superconducting transition, but of a mixed Abrikosov-Josephson vortex with a phase core of length[24](#page-4-21) l = λ 2 J /λ where λ<sup>J</sup> ∼ p ξλBc/BGB. The speed of a vortex along a grain boundary is expected[25](#page-4-22) to be on the order of 10 km/s, and so the time of passage of a vortex along a grain boundary of 3 µm is on the order of half the RF period of 0.76 ns. As the vortex travels along the grain boundary, it dissipates energy due to a viscous drag η = 1/(ωJRC), where R is the resistance of the grain boundary, C its specific capacitance, and ω<sup>J</sup> is the Josephson frequency[7](#page-4-4) .\n\nAn example of the power dissipated in a grain boundary modelled as an underdamped (η < 1) junction as a function of the current across the boundary is shown in Fig. [4,](#page-2-1) provided by Sheikhzada and Gurevich. This figure is analogous to the measurement shown in Fig. [1,](#page-1-0) and both demonstrate similar features of sudden jumps in temperature/dissipated power and hysteresis with applied current/RF field. Provided the mechanisms are the same, the similar height of the first three temperature jumps shown in Fig. [3](#page-2-0) would then be explained by the quantised entry of three single vortices (one additional vortex per jump) into a grain boundary. Although the power dissipation by a vortex is a function of the applied RF field, the difference in the applied RF field between the four jumps is smaller than the precision of the measurement (±4% against ±6%) and so any difference is expected to be undetectable. The hysteresis is explained by the fact that once vortices begin to enter the grain boundary, they remain inside until the RF field is reduced to a value below that at which they originally entered. They can even remain for longer if pinned or slowed by defects in the grain boundary, transitioning to anti-vortices as the RF completes enters the second half of the cycle. As the applied RF field increases, the behaviour becomes more complicated as more vortices enter, and eventually a phase slip will occur that will drive the entire grain boundary into the normal conducting state. The expectation is that once this occurs, the dissipation at the grain boundary will be so great as to drive the local region into the normal conducting state, and the rest of the cavity follows shortly thereafter.\n\nOnce a grain boundary is in the phase slip state, the power dissipated approaches an ohmic dependence of P ≈ Rµ<sup>2</sup> 0 (B<sup>2</sup> pk − B<sup>2</sup> GB)/(2λ 2 ) [24](#page-4-21). Given that the grain boundary critical field is expected to lie at the centre of the hysteresis seen in Fig. [1,](#page-1-0) then BGB ≈ 65 mT. Assuming a grain boundary thickness of 2 nm, a penetration depth of 140 nm, and a normal conducting resistivity of\n\n1 µΩm, then a grain boundary in the phase slip state 1 micron wide by 1 micron deep dissipates ∼ 50 µW at the quench field of ≈ 75 mT. A larger grain boundary, 3 micron wide and 3 micron deep (extending through the entire thickness of the layer), would dissipate ∼ 400 µW. These surface field values assume no surface field enhancement due to topology, which can be as high as a factor of 2, which would raise these values to 180 µW - 1.6 mW. Taking into consideration a realistic range of values of the penetration depth, grain boundary size, and field enhancement factor, the expected range for the dissipation at the quench field is 30 µW - 3 mW.\n\nBy calibrating the ∆T to the dissipated power in the cavity, we find that the power dissipated at the quench origin just before the quench field is (2.2 ± 0.5) mW, which is qualitatively consistent with the calculation above. Furthermore, numerical simulations such as those shown in Fig. [4](#page-2-1) for an underdamped grain boundary suggest that the increase in power dissipation from a single vortex should be of order 1/10 the phase slip value, which is again consistent with the first three jumps each corresponding to an increase in dissipated power of (130 ± 30) µW.\n\nTo conclude, evidence for quantised vortex entry in Nb3Sn under the influence of an RF field has been presented. The behaviour observed is consistent with that expected from the entry of mixed Abrikosov-Josephson vortices into a grain boundary acting as a stronglycoupled, under-damped Josephson junction with BGB ≈ 0.1Bc. This result would explain the quench observed in Nb3Sn microwave cavities as due to the surface being incapable of sustaining the dramatically increased losses generated by a grain boundary being driven into the phase slip state, and suggests that in order to increase the quench field of these cavities the grain boundaries must be made even more strongly coupled to shift BGB → Bc. This could be achieved by increasing the coherence length ξ by increasing the bulk electron mean free path, \"cleaning\" the superconductor. Although reducing the mean free path in a controlled manner has been well documented in conventional niobium cavities using impurity doping[26](#page-4-23)[,27](#page-4-24), there is not yet an established means of increasing it that is appropriate for Nb3Sn coatings. Future work on Nb3Sn in microwave cavities will focus on altering such material parameters in a controlled manner to tailor the performance of the device. We hope that the outcome of this effort will lead to a better understanding of the behaviour of strongly Type-II, polycrystalline superconductors in microwave applications, and to the development of more efficient and powerful superconducting accelerator cavities for application in science and industry.\n\nThis work was supported by U.S. Department of Energy (DOE) award DE-SC0008431. The authors would like to acknowledge and thank Prof. A.V. Gurevich at Old Dominion University and Prof. J.P. Sethna and Dr. D.B. Liarte at Cornell University for their helpful contributions and discussions.\n\n- <span id=\"page-4-0\"></span><sup>1</sup>J. Matricon and D. Saint-James, \"Superheating Fields in Superconductors,\" [Physics Letters A](http://dx.doi.org/ http://dx.doi.org/10.1016/0375-9601(67)90412-4) 24, 241–242 (1967).\n- <sup>2</sup>J. S. Chapman, \"Superheating Field of Type-II Superconductors,\" SIAM J. Appl. Math. 55, 1233–1258 (1995).\n- <span id=\"page-4-8\"></span><sup>3</sup>M. K. Transtrum, G. Catelani, and J. P. Sethna, \"Superheating field of superconductors within Ginzburg-Landau theory,\" [Phys](http://dx.doi.org/ 10.1103/PhysRevB.83.094505)ical Review B 83[, 094505 \\(2011\\).](http://dx.doi.org/ 10.1103/PhysRevB.83.094505)\n- <span id=\"page-4-1\"></span><sup>4</sup>N. Valles and M. Liepe, \"The Superheating Field of Niobium: Theory and Experiment,\" in Proceedings of SRF 2011 (Chicago, Illinois, 2011) pp. 293 – 301.\n- <span id=\"page-4-2\"></span><sup>5</sup>P. Nozi`eres and W. F. Vinen, \"The motion of flux lines in type II superconductors,\" [Philosophical Magazine](http://dx.doi.org/ 10.1080/14786436608211964) 14, 667–688 (1966).\n- <span id=\"page-4-3\"></span><sup>6</sup>S. Posen, N. Valles, and M. Liepe, \"Radio Frequency Magnetic Field Limits of Nb and Nb3Sn,\" [Phys. Rev. Lett.](http://dx.doi.org/10.1103/PhysRevLett.115.047001) 115, 47001 [\\(2015\\).](http://dx.doi.org/10.1103/PhysRevLett.115.047001)\n- <span id=\"page-4-4\"></span><sup>7</sup>A. Sheikhzada and A. Gurevich, \"Dynamic transition of vortices into phase slips and generation of vortex-antivortex pairs in thin film Josephson junctions under dc and ac currents,\" [Phys. Rev.](http://dx.doi.org/10.1103/PhysRevB.95.214507) B 95[, 214507 \\(2017\\).](http://dx.doi.org/10.1103/PhysRevB.95.214507)\n- <span id=\"page-4-5\"></span><sup>8</sup>S. Posen and D. L. Hall, \"Nb3Sn superconducting radiofrequency cavities: fabrication, results, properties, and prospects,\" [Super](http://stacks.iop.org/0953-2048/30/i=3/a=033004)[conductor Science and Technology](http://stacks.iop.org/0953-2048/30/i=3/a=033004) 30, 33004 (2017).\n- <span id=\"page-4-6\"></span><sup>9</sup>P. Bishop, M. Checchin, H. Conklin, A. Crawford, E. Daly, K. Davis, M. Drury, R. G. Eichhorn, J. Fischer, F. Furuta, M. Ge, D. Gonnella, A. Grassellino, C. Grimm, T. Gruber, D. L. Hall, A. Hocker, G. Hoffstaetter, J. J. Kaufman, G. Kulina, M. Liepe, J. Maniscalco, M. Martinello, O. Melnychuk, T. O'Connell, J. Ozelis, A. Palczewski, P. Quigley, C. Reece, A. Romanenko, M. Ross, A. Rowe, D. Sabol, J. Sears, D. Sergatskov, W. Soyars, R. Stanek, V. Veshcherevich, R. Wang, and G. Wu, \"LCLS-II SRF Cavity Processing Protocol Development and Baseline Cavity Performance Demonstration,\" in [Proceedings of SRF 2015](http://dx.doi.org/ 10.18429/JACoW-SRF2015-MOPB033) (Whistler, BC, 2015) p. MOPB033.\n- <span id=\"page-4-7\"></span><sup>10</sup>T. Behnke, J. E. Brau, B. Foster, J. Fuster, M. Harrison, J. M. Paterson, M. Peskin, M. Stanitzki, N. Walker, and H. Yamamoto, \"The International Linear Collider Technical Design Report - Volume 1: Executive Summary,\" (2013), [arXiv:1306.6327 \\[physics.acc-ph\\].](http://arxiv.org/abs/1306.6327)\n- <span id=\"page-4-9\"></span><sup>11</sup>S. Posen and M. Liepe, \"Advances in development of Nb3Sn superconducting radio-frequency cavities,\" [Physical Review Special](http://dx.doi.org/ 10.1103/PhysRevSTAB.17.112001) [Topics - Accelerators and Beams](http://dx.doi.org/ 10.1103/PhysRevSTAB.17.112001) 17, 112001 (2014).\n- <span id=\"page-4-10\"></span><sup>12</sup>S. Posen, M. Liepe, and D. L. Hall, \"Proof-of-principle demonstration of Nb3Sn superconducting radiofrequency cavities for high Q0 applications,\" [Applied Physics Letters](http://dx.doi.org/10.1063/1.4913247) 106, 082601 [\\(2015\\).](http://dx.doi.org/10.1063/1.4913247)\n- <span id=\"page-4-11\"></span><sup>13</sup>D. L. Hall, T. Gruber, J. J. Kaufman, M. Liepe, J. Maniscalco, S. Posen, B. Yu, and T. Proslier, \"Nb3Sn Cavities: Material Characterisation and Coating Process Optimisation,\" in [Proceed](http://accelconf.web.cern.ch/AccelConf/SRF2015/papers/tuba04.pdf http://accelconf.web.cern.ch/AccelConf/SRF2015/talks/tuba04{_}talk.pdf)[ings of SRF 2015](http://accelconf.web.cern.ch/AccelConf/SRF2015/papers/tuba04.pdf http://accelconf.web.cern.ch/AccelConf/SRF2015/talks/tuba04{_}talk.pdf) (Whistler, 2015).\n- <span id=\"page-4-12\"></span><sup>14</sup>E. Saur and J. Wurm, \"Preparation und Supraleitungseigen-\n\nschaften von Niobdrahtproben mit Nb3Sn-Uberzug,\" [Die Natur](http://dx.doi.org/10.1007/BF00621122)wissenschaften 49[, 127–128 \\(1962\\).](http://dx.doi.org/10.1007/BF00621122)\n\n- <span id=\"page-4-13\"></span><sup>15</sup>D. L. Hall, T. A. Arias, P. Cueva, J. Maniscalco, D. A. Muller, R. D. Porter, and N. Sitaraman, \"Surface Analysis of Features seen on Nb3Sn Sample Coupons Grown by Vapour Diffusion,\" in Proceedings of IPAC 2017 (Copenhagen, 2017).\n- <span id=\"page-4-14\"></span><sup>16</sup>J. Halbritter, \"Comparison between measured and calculated RF losses in the superconducting state,\" Zeitschrift f¨ur Physik 238, 466–476 (1970).\n- <sup>17</sup>N. Valles, Pushing the Frontiers of Superconducting Radio Frequency Science: From the Temperature Dependence of the Superheating Field of Niobium to Higher-Order Mode Damping in Very High Quality Factor Accelerating Structures, Ph.D. thesis, Cornell University (2013).\n- <span id=\"page-4-15\"></span><sup>18</sup>G. Ciovati, \"Effect of low-temperature baking on the radiofrequency properties of niobium superconducting cavities for particle accelerators,\" [Journal of Applied Physics](http://dx.doi.org/ 10.1063/1.1767295) 96, 1591–1600 [\\(2004\\).](http://dx.doi.org/ 10.1063/1.1767295)\n- <span id=\"page-4-16\"></span><sup>19</sup>M. A. Hein, [High-Temperature-Superconductor Thin Films at](https://books.google.co.kr/books?id=5MIDpYI1z20C) [Microwave Frequencies](https://books.google.co.kr/books?id=5MIDpYI1z20C), Springer Tracts in Modern Physics (Springer Berlin Heidelberg, 1999).\n- <span id=\"page-4-17\"></span><sup>20</sup>M. Tinkham, [Introduction to Superconductivity](http://books.google.com/books?id=VpUk3NfwDIkC), 2nd ed., Dover Books on Physics Series (Dover Publications, Incorporated, 2012).\n- <span id=\"page-4-18\"></span><sup>21</sup>J. Knobloch, Advanced Thermometry Studies of Superconducting Radio-Frequency Cavities, Phd, Cornell University (1997).\n- <span id=\"page-4-19\"></span><sup>22</sup>D. L. Hall, P. Cueva, D. Liarte, J. Maniscalco, D. A. Muller, R. D. Porter, and J. P. Sethna, \"Quench Studies in Single-Cell Nb3Sn Cavities Coated using Vapour Diffusion,\" in Proceedings of IPAC 2017 (Copenhagen, 2017).\n- <span id=\"page-4-20\"></span><sup>23</sup>S. Posen, Understanding and Overcoming Limitation Mechanisms in Nb3Sn Superconducting RF Cavities, Ph.D. thesis, Cornell University (2014).\n- <span id=\"page-4-21\"></span><sup>24</sup>A. Gurevich and A. Sheikhzada, \"Current-blocking grain boundaries in SRF cavities and RF dissipation due to nonlinear dynamics of Josephson vortices under strong RF fields,\" in Proceedings of SRF 2017 (Lanzhou, 2017).\n- <span id=\"page-4-22\"></span><sup>25</sup>L. Embon, Y. Anahory, Z. L. Jeli´c, E. O. Lachman, Y. Myasoe- ˇ dov, M. E. Huber, G. P. Mikitik, A. V. Silhanek, M. V. Miloˇsevi´c, A. Gurevich, and E. Zeldov, \"Imaging of super-fast dynamics and flow instabilities of superconducting vortices,\" [Nature Com](http://dx.doi.org/ 10.1038/s41467-017-00089-3)[munications](http://dx.doi.org/ 10.1038/s41467-017-00089-3) 8, 85 (2017).\n- <span id=\"page-4-23\"></span><sup>26</sup>A. Grassellino, A. Romanenko, D. Sergatskov, O. Melnychuk, Y. Trenikhina, A. Crawford, A. Rowe, M. Wong, T. Khabiboulline, and F. Barkov, \"Nitrogen and argon doping of niobium for superconducting radio frequency cavities: a pathway to highly efficient accelerating structures,\" [Superconductor Science](http://stacks.iop.org/0953-2048/26/i=10/a=102001) and Technology 26[, 102001 \\(2013\\).](http://stacks.iop.org/0953-2048/26/i=10/a=102001)\n- <span id=\"page-4-24\"></span><sup>27</sup>J. T. Maniscalco, D. Gonnella, and M. Liepe, \"The importance of the electron mean free path for superconducting radio-frequency cavities,\" [Journal of Applied Physics](http://dx.doi.org/10.1063/1.4974909) 121, 43910 (2017).",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Evidence for quantized vortex entry in Nb3Sn under the influence of RF fields",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              54.0,
+              50.824951171875
+            ],
+            [
+              562.693359375,
+              50.824951171875
+            ],
+            [
+              562.693359375,
+              66.365478515625
+            ],
+            [
+              54.0,
+              66.365478515625
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              308
+            ],
+            [
+              "Line",
+              101
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Footnote",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              228
+            ],
+            [
+              "Line",
+              57
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              394
+            ],
+            [
+              "Line",
+              83
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              406
+            ],
+            [
+              "Line",
+              130
+            ],
+            [
+              "TextInlineMath",
+              6
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              306
+            ],
+            [
+              "Line",
+              102
+            ],
+            [
+              "ListItem",
+              27
+            ],
+            [
+              "Reference",
+              25
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/6nczTn4rTYDIskbVqp2_Vg"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 5,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Evidence for quantized vortex entry in Nb3Sn under the influence of RF fields",
+    "authors": [
+      {
+        "authors_list": [
+          "Hall, Daniel Leslie",
+          "Liepe, Matthias",
+          "Porter, Ryan Douglas"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Evidence for quantized magnetic vortex entry at a defect into a Type-II superconductor operating in the metastable state above Bc1 while under the influence of RF electromagnetic fields has been observed in a polycrystalline coating of Nb3Sn. The measurement was made using a 1.3 GHz microwave cavity for use in particle accelerator R&D and equipped with a temperature mapping system for precision measurements of local heating. At peak RF fields near the quench field of the cavity, discrete jumps in local heating at the quench origin were observed. A number of these jumps were found to be identical in height within measurement error. This suggests entry of a limited number of vortices at a defect. The behavior observed appears to be consistent with recent theoretical predictions regarding vortex entry at grain boundaries in the material.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1711.05871"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.1711.05871",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2017arXiv171105871H"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

@@ -1,0 +1,683 @@
+{
+  "id": "7c9786477f2d731ad26fbe408ff8891a",
+  "pdf_path": "apl/Superconductors/arXiv:1701.00446.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **Comparative measurements of ITER Nb3Sn strands between two laboratories**\n\nJ. Lu, S. Hill, D. McGuire and K. Dellinger (National High Magnetic Field Laboratory, USA),\n\nA. Nijhuis, W.A.J. Wessel and H.J.G. Krooshoop (University of Twente, Netherlands),\n\nK. Chan and N.N. Martovestky (Oak Ridge National Laboratory, USA)\n\n#### **Abstract**\n\nITER Nb3Sn strand quality verification tests require large quantities of precise measurements. Therefore regular cross-checking between testing laboratories is critically important. In this paper, we present results from a cross-checking test of 140 samples between the National High Magnetic Field Laboratory, USA and the University of Twente, the Netherlands. The tests comprise measurements at 4.2 K on critical current, RRR and hysteresis loss, while at room temperature the chromium layer thickness, Cu/nonCu ratio, filament twist pitch, and diameter were determined. Our results show very good agreement between the two labs. The reasons for small random discrepancies are discussed.\n\n**Keywords**: Critical current, Hysteresis loss, Nb3Sn, RRR.\n\n#### **1. Introduction**\n\nLarge superconducting magnets such as those for the ITER International Organization require commercial production of a large quantity of Nb3Sn strands [1]. It demands accurate and cost-effective quality assurance measurements to assure reliable operation of the magnets. While testing superconducting strands is very important for large superconducting magnet projects in general [2-5], it is particularly crucial for ITER Nb3Sn strands, which are supplied by multiple strand manufacturers. Therefore a verification test program is implemented involving a number of labs worldwide [6-17].\n\nHistorically, Nb3Sn wire manufacturers and various research laboratories use slightly different testing protocols. Therefore the ITER international organization organized benchmarking and annual crosschecking tests to be performed at each testing lab, which carries out heat treatment and quality property verification tests of a few samples [6, 17]. These tests are typically performed on samples cut from a single piece length of Nb3Sn wire assuming sufficient quality and homogeneity of the properties along the wire length. Due to the small number of test samples for each participating lab, analysis of the statistical difference between labs is difficult. This paper presents the results of a special set of cross-checking measurements of large number of production samples which is considerably more than number of ITER routine cross-checking samples. In this experiment, samples from 140 billets made by one manufacturer are prepared, heat treated, and tested by both the National High Magnetic Field Laboratory, USA (NHMFL) and the University of Twente (UT) in a production testing mode. We compare the test results of critical current (*Ic*), residual resistance ratio (RRR), hysteresis loss (*Qhyst*), diameter, chromium coating thickness, twist pitch and copper to non-copper ratio between two laboratories. The relatively large number of tests allows us to perform statistical analysis and to identify the significance of the difference or lack thereof between the two sets of data.\n\n#### **2. Experimental methods**\n\nNb3Sn strands used in this experiment are designed for the ITER Toroidal Field (TF) coils and manufactured by the internal-tin process by Luvata (Waterbury, CT, USA). A cross-section of an unreacted strand is shown in figure 1. A 20 m long wire is cut from each of the 140 billets for testing. NHMFL and UT each performed independent heat treatment, liquid helium temperature testing and room temperature testing.\n\nReaction heat treatment at both labs were performed in argon gas following ITER heat treatment schedule B,\n\n210 C for 50 h\n\n340 C for 25 h\n\n450 C for 25 h\n\n575 C for 100 h\n\n650 C for 100 h\n\ncool to 500 C + furnace cool\n\nThe ramp rate = 5 C/h for all ramps.\n\nAt NHMFL, heat treatment of in total 140 samples was done in consecutive 6 batches. While the heat treatment at UT was completed in one batch. Some details of the measurement techniques adopted at the NHMFL are given in [7] and of the UT test techniques in [11, 12]. For the ease of comparison, a brief description of test methods used by each lab is listed in Table I, which also contains the number of samples for each test. The RRR of ITER Nb3Sn strand is defined as its resistance ratio between 273 and 20 K. Both *Ic* and *n* were measured at 11.5, 12.0 and 12.5 T, but only 12.0 T data are presented in this paper. *Ic* self-field corrections were not applied.\n\n#### **3. Results and Discussions**\n\nA comparison of *Ic* measured by NHMFL and UT is shown in figure 2(a). It is evident that these two sets of data are in good agreement with one another. The *Ic* difference between UT and NHFML, *Ic*\\_UT – *Ic*\\_NHMFL (∆*Ic*), is also plotted for each sample in this figure. The ∆*Ic* varies randomly around zero, and the variation of ∆*Ic* from billet to billet is somewhat smaller than the variation of *Ic*. Figure 2(b) shows *Ic* measured by UT against *Ic* measured by NHFML. There is no significant systematic difference between UT and NHMFL *Ic* data. It is noted, however, that a few ∆*Ic* values are as large as 30 A. Since the uncertainty in *Ic* measurement is only about 1 A [18], and there is no evidence of discrepancy in heat treatment which would cause a systematic difference between UT and NHMFL *Ic*, we suspect that the large ∆*Ic* is due to the appreciable property variation within the 20 m sampling length for each billet. This hypothesis is supported by the fact that *Ic* variation within a billet can be as much as 30 A for wires made by multiple manufacturers including Luvata [19].\n\nSimilar plots of *n* value, RRR and *Qhyst* comparisons are shown in figure 3, 4 and 5 respectively. Similar to the case with *Ic*, the agreement between UT and NHMFL is good. The relatively larger variations in ∆*n*, ∆RRR and ∆*Qhyst* cannot be explained by the uncertainty of measurement techniques which is about 1, 1 and 3 kJ/m3 for ∆*n*, ∆RRR and ∆*Qhyst* respectively [20]. Again they might be attributed to the nonuniformity of properties within 20 m of sample for each billet, and are supported by observed variations in ∆*n*, ∆RRR and ∆*Qhyst* within one billet [19]. Finally, a summary of results and statistics for all tests including room temperature test is shown in Table II. The difference in mean values between NHMFL and UT data is small as compared with random data scattering quantified by standard deviation, except for the diameter measurement which requires further investigation.\n\n#### **4. Conclusion**\n\nNHMFL and UT conducted cross-checking measurements of 140 internal-tin Nb3Sn wires. Samples were heat treated and tested in each laboratory separately. Comparison of *Ic, n,* RRR, and *Qhyst* are presented. The results from the two labs are in good agreement. The random difference is attributed to the variation along the sampling wire length. This cross-checking of large number of samples provides a set of interesting and reassuring data which confirms statistically significant agreement between two labs.\n\n### **5. Acknowledgement**\n\nThe authors from NHMFL thank financial supports in part by the U.S. Department of Energy vie US-ITER under subcontract 4000110684, by the National Science Foundation under Grant DMR-0084173, and by the State of Florida.\n\nThe authors from UT wish to acknowledge the support from the ITER International Organization and F4E Barcelona. Disclaimer: The views and opinions expressed herein do not necessarily reflect those of F4E or the ITER International Organization.\n\nThe authors from US-ITER would like to thank the U.S. Department of Energy by Lawrence Livermore National Laboratory under Contract DE-AC52-07NA27344, by UT-Battelle, LLC, under contract DE-AC05-00OR22725 with the U.S. Department of Energy, and by the U.S. Department of Energy, Office of Science, Office of Fusion Energy Sciences.\n\n## **6. Reference**\n\n- [1] Devred A *et al* 2014 *Supercond. Sci. Technol.* **27** 044001\n- [2] Lu J et al 2011 *IEEE Trans. Appl. Supercond.* **21** 2571-2754\n- [3] Verweij A P and Ghosh A K 2007 *IEEE Trans. Appl. Supercond.* **17** 1454-1460\n- [4] Blau B *et al* 2004 *IEEE Trans. Appl. Supercond.* **14** 548-551\n- [5] Godeke A 2009 *IEEE Trans. Appl. Supercond.* **19** 2633-2636\n- [6] Pong I *et al* 2012 *IEEE Trans. Appl. Supercond.* **22** 4802606\n- [7] McGuire D R *et al* 2015 *IEEE Trans. Appl. Supercond.* **25** 9500304\n- [8] Long F *et al* 2012 Plasma Sic. Technol. **14** 847-849\n- [9] Li J F et al 2016 *IEEE Trans. Appl. Supercond.* **26** 6001303\n- [10] Boutboul T *et al* 2016 *IEEE Trans. Appl. Supercond.* **26** 6000604\n- [11] Knoopers H G M *et al* 1997 *Inst. Phys. Conf. Ser. No* **158** 1271-1274\n- [12] Nijhuis A *et al* 2013 *Supercond. Sci. Technol.* **26** 084004\n- [13] Park P et al 2015 *IEEE Trans. Appl. Supercond.* **25** 6000705\n- [14] Nabara Y *et al* 2012 *Teion Kogaku (Journal of the Cryogenic Society of Japan)* **47** 140-6\n- [15] Takahashi Y et al 2012 *IEEE Trans. Appl. Supercond.* **22** 4801904\n- [16] Tronza V I *et al* 2016 *IEEE Trans. Appl. Supercond.* **26** 4200105\n- [17] Mitchell N *et al* 1995 *IEEE Trans. Appl. Supercond.* **5** 905-908\n- [18] Lu J 2012 *ITER IT Nb3Sn benchmarking test report*\n- [19] Lu J and McGuire D 2014 *NHMFL ITER TF Nb3Sn wire verification report*\n- [20] Lu J and McGuire D 2014 *NHMFL Internal report*\n\n# **Table and figure captions**\n\nTable I Test methods used by NHFML and UT\n\nTable II Summary of comparative test results\n\nFigure 1 Cross-section of an unreacted Nb3Sn strand used in this experiment.\n\nFigure 2 *Ic* measured at 4.2 K 12 T, comparison between NHMFL and UT for 140 samples. (a) the left vertical axis is for *Ic* measured by NHMFL and UT, the right vertical axis is for the *Ic* difference between UT and NHMFL. (b) UT *Ic* versus NHMFL *Ic*, the diagonal line indicates an ideal correlation between the two sets of data.\n\nFigure 3 *n* value measured at 4.2 K 12 T, comparison between NHMFL and UT for 140 samples. (a) the left vertical axis is for *n* measured by NHMFL and UT, the right vertical axis is for the *n* difference between UT and NHMFL. (b) UT *n* versus NHMFL *n*, the diagonal line indicates an ideal correlation between the two sets of data.\n\nFigure 4 RRR comparison between NHMFL and UT for 80 samples. (a) the left vertical axis is for RRR measured by NHMFL and UT, the right vertical axis is for the RRR difference between UT and NHMFL. (b) UT RRR versus NHMFL RRR, the diagonal line indicates an ideal correlation between the two sets of data.\n\nFigure 5 *Qhyst* comparison between NHMFL and UT for 40 samples. (a) the left vertical axis is for *Qhyst* measured by NHMFL and UT, the right vertical axis is for the *Qhyst* difference between UT and NHMFL. (b) UT *Qhyst* versus NHMFL *Qhyst*, the diagonal line indicates an ideal correlation between the two sets of data.\n|                | # of tests | NHMFL                             | UT                                |  |\n|----------------|------------|-----------------------------------|-----------------------------------|--|\n| Heat treatment | 140        | In argon,<br>ITER<br>schedule B   | In vacuum, ITER schedule B        |  |\n| Ic             | 140        | ITER barrel, no handling          | ITER barrel, no handling after    |  |\n|                |            | after HT, 25 and<br>50 cm<br>taps | HT,<br>25 and 50 cm<br>taps       |  |\n| RRR            | 80         | 150 mm straight sample,           | 100 mm straight sample,           |  |\n|                |            | natural warming<br>to 20 K        | natural warming<br>to 20 K        |  |\n| Qhyst          | 40         | VSM, 7 turn 4 mm<br>diameter      | Magnetometer, 14 turn, 40 mm      |  |\n|                |            | coil                              | diameter<br>coil, 2 m wire length |  |\n| Cr thickness   | 80         | Light microscopy                  | Etching, weigh                    |  |\n| Cu/non Cu      | 80         | Light microscopy                  | Etching, weigh                    |  |\n| Twist Pitch    | 140        | Etch, incline angle               | Etch, incline angle               |  |\n| Diameter       | 80         | Digital micrometer                | Digital micrometer                |  |\n\nTable I. Test methods used by NHMFL and UT.\n\n| Test                 | NHMFL |           | UT    |           | UT<br>-<br>NHMFL |           |\n|----------------------|-------|-----------|-------|-----------|------------------|-----------|\n|                      | Mean  | Standard  | Mean  | Standard  | Mean             | Standard  |\n|                      |       | deviation |       | deviation |                  | deviation |\n| Ic<br>(12 T) (A)     | 247.4 | 13.2      | 249.7 | 13.6      | 2.3              | 6.9       |\n| n                    | 20.8  | 2.1       | 20.8  | 2.4       | 0.1              | 1.2       |\n| RRR                  | 154.4 | 13        | 154.8 | 11.3      | 0.4              | 9.0       |\n| (kJ/m3<br>Qhyst<br>) | 350.0 | 50.8      | 341.5 | 39.1      | -8.4             | 43.6      |\n| Cr thickness         | 1.3   | 0.3       | 1.3   | 0.3       | 0.0              | 0.2       |\n| (µm)                 |       |           |       |           |                  |           |\n| Cu/non Cu            | 0.916 | 0.012     | 0.902 | 0.014     | -0.013           | 0.016     |\n| Twist Pitch          | 15.4  | 0.8       | 16.8  | 1.2       | 1.5              | 1.5       |\n| (mm)                 |       |           |       |           |                  |           |\n| Diameter(mm)         | 0.819 | 0.001     | 0.821 | 0.001     | 0.003            | 0.001     |\n\nTable II. Summary of test results.\n\n![](0__page_9_Picture_0.jpeg)\n\n![](0__page_10_Figure_0.jpeg)\n\nLu, et al. Fig. 2\n\n![](0__page_11_Figure_0.jpeg)\n\nLu, et al. Fig. 3\n\n![](0__page_12_Figure_0.jpeg)\n\n![](0__page_13_Figure_0.jpeg)\n\nLu, et al. Fig. 5",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Comparative measurements of ITER Nb3Sn strands between two laboratories",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              72.7646484375,
+              74.153564453125
+            ],
+            [
+              538.48828125,
+              74.153564453125
+            ],
+            [
+              538.48828125,
+              88.19354248046875
+            ],
+            [
+              72.7646484375,
+              88.19354248046875
+            ]
+          ]
+        },
+        {
+          "title": "Abstract",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              71.34521484375,
+              175.81396484375
+            ],
+            [
+              113.18115234375,
+              175.81396484375
+            ],
+            [
+              113.18115234375,
+              186.85394287109375
+            ],
+            [
+              71.34521484375,
+              186.85394287109375
+            ]
+          ]
+        },
+        {
+          "title": "1. Introduction",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              90.00956726074219,
+              430.8230895996094
+            ],
+            [
+              168.5390625,
+              430.8230895996094
+            ],
+            [
+              168.5390625,
+              442.01953125
+            ],
+            [
+              90.00956726074219,
+              442.01953125
+            ]
+          ]
+        },
+        {
+          "title": "2. Experimental methods",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              88.154296875,
+              391.21539306640625
+            ],
+            [
+              214.76206970214844,
+              391.21539306640625
+            ],
+            [
+              214.76206970214844,
+              402.2554016113281
+            ],
+            [
+              88.154296875,
+              402.2554016113281
+            ]
+          ]
+        },
+        {
+          "title": "3. Results and Discussions",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              89.7978515625,
+              461.3030700683594
+            ],
+            [
+              219.33050537109375,
+              461.3030700683594
+            ],
+            [
+              219.33050537109375,
+              472.34307861328125
+            ],
+            [
+              89.7978515625,
+              472.34307861328125
+            ]
+          ]
+        },
+        {
+          "title": "4. Conclusion",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              89.349609375,
+              386.5344543457031
+            ],
+            [
+              163.44888305664062,
+              386.5344543457031
+            ],
+            [
+              163.44888305664062,
+              397.574462890625
+            ],
+            [
+              89.349609375,
+              397.574462890625
+            ]
+          ]
+        },
+        {
+          "title": "5. Acknowledgement",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              90.00430297851562,
+              566.4168395996094
+            ],
+            [
+              195.732421875,
+              566.4168395996094
+            ],
+            [
+              195.732421875,
+              577.7578125
+            ],
+            [
+              90.00430297851562,
+              577.7578125
+            ]
+          ]
+        },
+        {
+          "title": "6. Reference",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              72.0,
+              73.5732421875
+            ],
+            [
+              130.1929473876953,
+              73.5732421875
+            ],
+            [
+              130.1929473876953,
+              85.078125
+            ],
+            [
+              72.0,
+              85.078125
+            ]
+          ]
+        },
+        {
+          "title": "Table and figure captions",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              71.49462890625,
+              72.65478515625
+            ],
+            [
+              193.04296875,
+              72.65478515625
+            ],
+            [
+              193.04296875,
+              84.93310546875
+            ],
+            [
+              71.49462890625,
+              84.93310546875
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              149
+            ],
+            [
+              "Line",
+              23
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "SectionHeader",
+              3
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              109
+            ],
+            [
+              "Line",
+              22
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              164
+            ],
+            [
+              "Line",
+              32
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              144
+            ],
+            [
+              "Line",
+              38
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              28
+            ],
+            [
+              "Line",
+              7
+            ],
+            [
+              "Text",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              174
+            ],
+            [
+              "Line",
+              21
+            ],
+            [
+              "ListItem",
+              20
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              110
+            ],
+            [
+              "Line",
+              20
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              107
+            ],
+            [
+              "TableCell",
+              48
+            ],
+            [
+              "Line",
+              19
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              157
+            ],
+            [
+              "TableCell",
+              88
+            ],
+            [
+              "Line",
+              21
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              5
+            ],
+            [
+              "Line",
+              2
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              104
+            ],
+            [
+              "Line",
+              47
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              101
+            ],
+            [
+              "Line",
+              44
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              80
+            ],
+            [
+              "Line",
+              32
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              104
+            ],
+            [
+              "Line",
+              51
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 14,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Comparative Measurements of ITER Nb3Sn Strands Between Two Laboratories",
+    "authors": [
+      {
+        "authors_list": [
+          "Lu, Jun",
+          "Hill, Scott",
+          "McGuire, David",
+          "Dellinger, Keagan",
+          "Nijhuis,"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "ITER Nb3Sn strand quality verification tests require large quantities of precise measurements. Therefore regular cross-checking between testing laboratories is critically important. In this paper, we present results from a cross-checking test of 140 samples between the National High Magnetic Field Laboratory, USA and the University of Twente, the Netherlands. The tests comprise measurements at 4.2 K on critical current, RRR and hysteresis loss, while at room temperature the chromium layer thickness, Cu/nonCu ratio, filament twist pitch, and diameter were determined. Our results show very good agreement between the two labs. The reasons for small random discrepancies are discussed.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "IEEE Transactions on Applied Superconductivity",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1701.00446"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1109/TASC.2017.2685502",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2017ITAS...2785502L"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

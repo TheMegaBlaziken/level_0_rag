@@ -1,0 +1,755 @@
+{
+  "id": "7c77da2e85f447e9721d01e24606f6a9",
+  "pdf_path": "apl/Superconductors/arXiv:2403.07666.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "## Holistic numerical simulation of a quenching process on a real-size multifilamentary superconducting coil\n\nCun Xue,1, [∗](#page-0-0) Han-Xi Ren,<sup>2</sup> Peng Jia,<sup>1</sup> Qing-Yu Wang,<sup>2</sup> Wei Liu,<sup>3</sup>\n\nXian-Jin Ou,<sup>4</sup> Liang-Ting Sun,4, 5 and Alejandro V Silhanek<sup>6</sup>\n\n<sup>1</sup>School of Mechanics, Civil Engineering and Architecture,\n\nNorthwestern Polytechnical University, Xi'an 710072, China\n\n<sup>2</sup>School of Aeronautics, Northwestern Polytechnical University, Xi'an 710072, China\n\n<sup>3</sup>Western Superconducting Technologies Co., Ltd.,\n\nand Xi'an Superconducting Magnet Technology Co., Ltd, Xi'an 710014, China\n\n4 Institute of Modern Physics, Chinese Academy of Sciences, Lanzhou 730000, China\n\n<sup>5</sup>School of Nuclear Science and Technology, University of Chinese Academy of Sciences, Beijing 100049, China\n\n<sup>6</sup>Experimental Physics of Nanostructured Materials,\n\nDepartment of Physics, Universit´e de Li`ege, B-4000 Sart Tilman, Belgium\n\n(Dated: March 13, 2024)\n\nSuperconductors play a crucial role in the advancement of high-field electromagnets. Unfortunately, their performance can be compromised by thermomagnetic instabilities, wherein the interplay of rapid magnetic and slow heat diffusion can result in catastrophic flux jumps eventually leading to irreversible damage. This issue has long plagued high-J<sup>c</sup> Nb3Sn wires at the core of highfield magnets. In this study, we introduce a groundbreaking large-scale GPU-optimized algorithm aimed at tackling the complex intertwined effects of electromagnetism, heating, and strain acting concomitantly during the quenching process of superconducting coils. We validate our model by conducting comparisons with magnetization measurements obtained from short multifilamentary Nb3Sn wires and further experimental tests conducted on solenoid coils while subject to ramping transport currents. Furthermore, leveraging our developed numerical algorithm, we unveil the dynamic propagation mechanisms underlying thermomagnetic instabilities (including flux jumps and quenches) within the coils. Remarkably, our findings reveal that the velocity field of flux jumps and quenches within the coil is correlated with the amount of Joule heating experienced by each wire over a specific time interval, rather than solely being dependent on instantaneous Joule heating or maximum temperature. These insights have the potential to pave the way for optimizing the design of next-generation superconducting magnets, thereby directly influencing a wide array of technologically relevant and multidisciplinary applications.\n\nDue to high current carrying capability with loss-less characteristic, superconductors are essential components for the development of high-field electromagnets. However, their performance can be threatened by thermomagnetic instabilities, a phenomenon in which the interplay between swift flux motion and slow heat diffusion give rise to sudden flux bursts which limit the lifetime of the coil. Indeed, frequent magnetic flux jumps had been identified as a long standing issue [\\[1–](#page-8-0)[9\\]](#page-8-1) at the source of serious problems in high-J<sup>c</sup> Nb3Sn wires/strands used in 10-16 T magnets [\\[10\\]](#page-8-2) and over-20 T hybrid magnets [\\[11\\]](#page-8-3). Previous reports have shown that flux jumps may cause premature quenches at low-fields and currents well below the designed operating regime [\\[12–](#page-8-4)[15\\]](#page-8-5). In this case, a rather lengthy, helium-intensive, and expensive process of magnet training is needed in order to achieve the targeted maximum field and ramp rate [\\[16\\]](#page-8-6). Additionally, the stochastic behavior of magnetic flux jumps significantly affects the field stability in the magnet bore and makes accurate field-correction protocols particularly challenging [\\[17,](#page-8-7) [18\\]](#page-8-8). Furthermore, prevention measures via quench detection systems based on voltage spikes seem to be prone to errors [\\[17,](#page-8-7) [19\\]](#page-8-9).\n\nSoon after magnetic flux jumps were first observed and investigated in 1960s [\\[20\\]](#page-9-0), the underlying physical mechanism were revealed [\\[21–](#page-9-1)[28\\]](#page-9-2) along with the relevant physical parameters (temperature [\\[29\\]](#page-9-3), ramping rate [\\[30\\]](#page-9-4), sample size [\\[31\\]](#page-9-5), border defects [\\[32\\]](#page-9-6)) ruling the nucleation and growth of thermomagnetic instabilities. For composite superconducting wires/strands, early criteria for triggering magnetization flux jumps were proposed by Swartz & Bean [\\[33\\]](#page-9-7) and Wilson [\\[34\\]](#page-9-8). Subsequently, a series of studies were carried out to describe the characteristics of lowfield flux jumps in order to develop a new generation of Nb3Sn high-field magnets [\\[35–](#page-9-9)[39\\]](#page-9-10). It was found that reducing the effective filament size and improving the residual resistivity ratio (RRR) are of paramount importance for suppressing flux jumps [\\[36,](#page-9-11) [40,](#page-9-12) [41\\]](#page-9-13). More recently, Xu et al. investigated the influence of heat treatment temperature and Ti-doping on flux jumps and demonstrated that introducing high specific heat substances can improve the stability of Nb3Sn wires [\\[42,](#page-9-14) [43\\]](#page-9-15). However, thus far, all efforts have been directed to single superconducting wires and most criteria have been established by general electromagnetic analysis in limited cases of adiabatic or isothermal assumptions. Unfortunately, the theoretical development for a single wire falls short to describe complex coils due to distinct characteristics of\n\n<span id=\"page-0-0\"></span><sup>∗</sup> [xuecun@nwpu.edu.cn](mailto:xuecun@nwpu.edu.cn)\n\nthe latter. Namely, (i) Different wires in the coil are generally exposed to different ramping magnetic fields (see Fig. S1 in Section I of Supplementary Information). (ii) Wires in a coil are not isolated but rather represent complex correlated systems. (iii) The stability of each wire strongly depends on its time-dependent electromagnetic penetration as well as the thermal shock from neighboring wires during the occurrence of localized flux jumps. Consequently, a physically-grounded onset criterion for triggering flux jumps which is accurate for an isolated single wire, may no longer be applicable to a cutire coil. To date, there are not powerful-enough tools based on numerical algorithms or available commercial software able to deal with correlated systems such as those of technologically relevant coils typically involving thousands of multifilamentary wires. In this case, an optimal design from filament to global structure is still considered a daunting, if not impossible, task.\n\nAs a matter of fact, numerical simulations of the thermomagnetic instabilities leading to partial flux jumps or complete quenching of a full-sized coil represent a formidably complex quest due to several reasons. Firstly, the relation between electric field E and current density J exhibits a very strong nonlinear dependence caused by the intricate flux dynamics involving enormous amount of nanoscale superconducting vortices. Secondly, the superconducting coils require a multiphysics approach including an interplay of heat diffusion, electromagnetic response and mechanical strain. Thirdly, unlike single phase superconducting samples (either in bulk or film form), the multiscale structures of magnets containing micro filaments, millimetric wires and metric coils, cannot be simulated through homogenization methods. Additionally, the sublements in each wire exhibit uncoupled electromagnetic responses for external magnetic field and coupled for transport current. Last, but not least, the thermal conductivity of cooper is 3-4 orders of magnitude larger than that of the epoxy. Since the dynamics of thermomagnetic instabilities relies on accurate temperature field calculations, it is impossible to obtain a satisfactory result for a composite coil simply by homogenization method with equivalent thermal parameters.\n\nIn this work, we develop an unprecedented large-scale GPU-advanced algorithm to address the aforementioned intractable problems of superconducting coils. We validate the model by comparing it with magnetization measurements of short multifilamentary Nb3Sn wires and experimental tests performed on solenoid coils under a ramping transport current. Moreover, utilizing the developed numerical algorithm, we unveil the dynamic propagating processes of the thermomagnetic instabilities (flux jumps and quenches) in the coils. Surprisingly, we demonstrate that the velocity field of flux jumps and quenches in the coil result from the quantity of Joule heating in each wire within a certain time range rather than the instantaneous Joule heating and the maximum temperature. These results may provide the necessary breakthrough to optimize the design of next-generation\n\n![](_page_1_Figure_3.jpeg)\n\nFIG. 1. (a) Solenoid superconducting magnet fabricated to benchmark against the numerical calculations. The solenoid consists of 1558 densely wound turns of high-J<sup>C</sup> Nb3Sn wire with 84 subelements fabricated by internal-tin process (see details in section II of Supplementary Information). (b) Schematic of a solenoid coil exposed to a ramping transport current I<sup>a</sup> and a ramping external magnetic field Ha. (c-d) Cross-section of the solenoid coil with a zoom on the composite multifilamentary Nb3Sn wire.\n\nsuperconducting magnets, with direct impact on technologically relevant and multidisciplinary applications.\n\n# Methods\n\n#### Experiments\n\nIn order to benchmark the numerical calculation against a real superconducting coil, we fabricated a solenoid consisting of 1558 (38 × 41) turns of internaltin (IT) Nb3Sn wire, as shown in Fig. 1(a). The diameter of the bare Nb3Sn wire is 1.3 mm. Each wire has 84 subelements and the averaged size of subelements is about 110 µm (Fig. 1 d). Each subelement consists of many filaments which are not drawn in the figure since they coalesce into a single mass. Indeed, in each of the internal-tin (IT) Nb3Sn wire, the filaments coalesce to a continuous superconducting region within each subelement during a reactive heat treatment and thus the effective filament size def f equals to the size of the entire subelement (filament is synonymous with subelement in this work). The ratio of copper (Cu) to Nb3Sn is about 1.05. Before cooling down to 4.2 K for experimental test, a pre-stress is induced to the solenoid coil by a preload layer by a thin aluminum strip. The solenoid magnet is then immersed in liquid helium inside a vacuum insulated Dewar permitting to keep the bath temperature at 4.2 K during the experimental test. Subsequently, the solenoid magnet is continuously fed with a transport current of increasing rate 0.5 A/s. The solenoid is only exposed to\n\n![](_page_2_Figure_0.jpeg)\n\nFIG. 2. (a) Modeled system consisting of a superconducting coil with N<sup>x</sup> × N<sup>y</sup> turns. Each wire contains Nsub subelements. (b) Flow chart for key subroutine in the numerical algorithm performed on graphics processing unit (GPU) to simulate the nucleation, growth and damping of thermomagnetic instabilities (flux jumps and quenches) in the superconducting coils. The flow chart for the main program can be seen in section IV of the Supplementary Information. (c) Schematic of the short segment of Nb3Sn wire used to collect experimental measurements and exposed to an applied magnetic field Ha(t). (d) (upper left) Variation of the critical current of the Nb3Sn wire with magnetic field obtained by experimental measurements (red datapoints) and by fitting as described in the main text (blue curve). (upper right) Experimental and simulated magnetization of the Nb3Sn short segment wire exposed to a transverse magnetic field loop with sweeping rate of 0.01 T/s at 4.2 K. The lower panels represents the simulated current density distributions during a flux jump.\n\nself-fields, without an external magnetic field. The maximum ramping rate of self-field in the coil during the test is about 7 mT/s.\n\n#### Numerical Algorithm\n\nIn order to explore the time-evolutions of thermomagnetic instabilities inside the superconducting coil, we develop a parallel numerical algorithm and run it on GPU. As shown in Fig. 1(b), we consider a solenoid coil wound by a multifilamentary superconducting wire, which is exposed to a ramping transport current I<sup>a</sup> and a ramping external magnetic field Ha. Due to the rotational symmetry of the solenoid coil, as shown in Fig. 1(b), it is sufficient to model a cross-section, as shown in Fig. 1(c). Without loss of generality, in the numerical model we have chosen to arrange the superconducting wires in a square array rather than the triangular array used in the\n\nreal coil. Although we were unable to obtain strictly exact solutions for twisting superconducting wires with our numerical algorithm on the basis of the 2D model, our numerical model can capture the main twisting characteristics and provide very good approximate results with quite low error. Detail discussions of the twisting effect can be seen in Section IV of Supplementary Information.\n\nDue to the fact that exists a resistive barrier between contiguous twisted subelements, when a non-current carrying Nb3Sn wire is exposed to an external magnetic field, as shown in Fig. S8(b), negative and positive induced current circulate within each subelement whereas the net current of each subelement is zero (so-called uncoupled subelements). However, for a wire with transport current, the current density distributions in the entire cross-section of the wire is affected by the electromagnetic coupling between subelements, and in this case the transport current is first distributed in the outer subele-\n\n![](_page_3_Figure_1.jpeg)\n\nFIG. 3. (a) Voltage signal of a superconducting coil observed during an experimental test with ramping transport current of 0.5 A/s (upper panel). Simulated time-evolution of Joule heating power density and maximum temperature in the coil (lower two panels). (b) Contour-plot indicating the number of flux jumps for each wire during the ramping process. (c) The simulated current density, magnetic field and temperature during the second flux jump. The lower panels show detailed views for two wires with coordinates (8, 9) and (28, 9).\n\nments (completely coupled subelements). If a coil is fed with a ramping transport current, each wire undergoes a ramping transport current and a concomitant ramping external magnetic field generated by the other wires and coils in its vicinity. The fact that subelements of each wire are simultaneously uncoupled under external magnetic fields whereas they become completely coupled under applied transport current, represents a non-trivial problem to implement in the numerical simulations. Not less complex is the implementation of cross-talk of stray fields among nearby subelements.\n\nFigure 2(a) graphically summarizes the numerical algorithm implemented in the present work. It consists of N<sup>x</sup> × N<sup>y</sup> turns in which each wire is labelled with a pair of coordinates (i, j) with i = 1 . . . N<sup>x</sup> and j = 1 . . . Ny. Each wire has Nsub subelements. Both the turns of the coil and the number of subelements are parameters that\n\ncan be adjusted in the numerical simulations. Fig. 2(b) shows the flow chart for the key subroutine of the numerical algorithm. In order to update the electromagnetic responses of a coil from the time step k to the next time step k+1, the wire (i, j), including subelements therein, is exposed to an initial uniform magnetic field H k+1 ext,wire(i, j) that is generated from the transport current circulating in the other wires in addition to the background magnetic field, i.e., H k+1,1 ext,sub(i, j, l) = H k+1 ext,wire(i, j) with l = 1 . . . Nsub. Then, the component of the current density associated to the magnetic field J k+1,1 <sup>H</sup> is calculated subelement after subelement (one at a time). In addition, the component of current density associated to the transport current J k+1,1 I distributed in the entire region of a wire with coupling subelements is calculated by the electromagnetic A − V formulation. It is worth noting that both J k+1,1 <sup>H</sup> and J k+1,1 I are calculated on the basis of resistivity ρ <sup>k</sup> as a function of total current density J k at k time step. The total current density J <sup>k</sup>+1,<sup>1</sup> = J k+1,1 <sup>H</sup> + J k+1,1 I , resistivity ρ <sup>k</sup>+1,<sup>1</sup> at all grid points and the net current in each subelement Inet(i, j, l) are then updated. After the first iteration (m = 1), the external magnetic field H k+1,2 ext,sub(i, j, l) at each subelement is updated by the net currents of subelements obtained at the first iteration. The second iteration (m = 2) is performed following a similar procedure as for m = 1. Such iteration procedure for updating H k+1,m ext,sub(i, j, l), J k+1,m <sup>H</sup> , J k+1,m I , J <sup>k</sup>+1,m and ρ <sup>k</sup>+1,m is stopped once the maximum error between the external magnetic field of subelements err or the error of the Joule heating is sufficiently small. We use an error threshold of 0.1% for the Joule heating and 2.5 % for the magnetic field of subelements. Eventually, the current density J <sup>k</sup>+1, resistivity ρ k+1 magnetic field Hk+1, and Joule heating distribution over the entire cross-section of the coil is obtained for the time step k + 1. As shown in Fig. S10 of the Supplementary Information, the convergence of the iteration depends on the number of turns of the coil. Two iterations are sufficiently accurate for small coils (less than 10×10 turns) and one iteration is good enough for large coils. In order to avoid divergences induced by the strong nonlinear E −J constitutive relation, the Runge-Kutta method with variable time step is implemented to solve the electromagnetic equations.\n\nThe temperature in the coil at each time step is obtained by the heat diffusion equation c ∂T ∂t = ▽ · (κ ▽ T) + E · J where E · J is the Joule heating source. This equation can be solved by considering the heat exchange boundary conditions at four borders on the cross-section of the coil, −κ (▽T · n) = h (T − T0), where c, κ, h are the specific heat, thermal conductivity and heat transfer coefficient, respectively. The thermal parameters are assumed to be proportional to T 3 , i.e., c = c<sup>0</sup> (T /T0) 3 , κ = κ<sup>0</sup> (T /T0) 3 , h = h<sup>0</sup> (T /T0) 3 . The alternating direction implicit (ADI) method is used to solve the heat diffusion equation in the composite coil consisting of Nb3Sn, copper and epoxy. The above numerical algorithm for the coupled electromagnetic equations and heat diffusion equation is realized by a home-made code on C and CUDA programming language, which is executed on GPUs (GeForce RTX 4090 and 3090). Details concerning the flow chart of the main program, the electromagnetic A − V formulation, the error as a function of iterations, the validation of separate method of calculating current density for a current-carrying wire exposed to Ha, and the parallel processing of the numerical algorithm on GPU, are presented in section IV of the Supplementary Information.\n\nThe constitutive relation between current and electric field for superconductors, E = ρJ, needs to invoke a nonlinear ρ(J) which is mainly determined by the magnetic flux dynamics. In the past decades, various models describing the flux dynamics have been proposed, such as the Bean critical state model [\\[44\\]](#page-9-16), the Anderson-Kim\n\nflux creep model [\\[45,](#page-9-17) [46\\]](#page-9-18), and the flux-flow model [\\[47\\]](#page-9-19). The flux dynamics in regimes spanning from the superconducting state to the normal state remains a subject of intensive study due to its sensitivity to temperature, strain, current, pinning nature, and magnetic field. A detailed discussion concerning the E − J models is beyond the scope of the present work. Here, we adopt a E−J law able to properly describe the electromagnetic response of superconductors including the flux creep (FC) state, the flux flow (FF) state and eventually the normal (N) state. In general, the critical current density J<sup>c</sup> (a parameter entering in the relation ρ(J)) also depends strongly on temperature T, strain ε, and magnetic field H. Fig. 2(d) shows the variation of J<sup>c</sup> with magnetic field obtained experimentally. A fitting curve based on the Kramer scaling law [\\[49\\]](#page-9-20) is used in the numerical simulations. The creep exponent n (another parameter in ρ(J)) also varies with T and H. The complex E − J dependence with ρ, Jc, and n for IT Nb3Sn, and the thermal parameters for Nb3Sn, cooper and epoxy are described in section III of the Supplementary Information.\n\nThe parameters used in the numerical simulations were obtained from experimental measurements. To that end, we prepared a short sample of IT Nb3Sn wire, same as the one used in the solenoid coil, with both ends polished (see Fig. 2(c)). The sample is exposed to a cycling transversal magnetic field with sweeping rate of 0.01 T/s at 4.2 K. Figure 2(d) shows that the simulated magnetization nicely captures the features observed in the experimental loop. This indicates that the chosen electromagnetic and thermal parameters are suitable for the wire used in the solenoid and validates the proposed numerical algorithm. Both experiments and simulations show that the magnetization of the Nb3Sn wire does not decrease to zero during the flux jumps, suggesting that the temperature does not exceed T<sup>c</sup> during partial flux jumps. The simulations reveal that the maximum temperature achieved during the flux jump is about 11 K (see Fig. S6 in Supplementary Information) whereas the current density decreases significantly during this process (see Fig. 2(d)).\n\n## Results and Discussions Flux Jumps Propagation in a Coil\n\nEncouraged by the success of the proposed numerical algorithm, we then explored the flux jumps in a solenoid coil with 1600 (40 × 40) turns of Nb3Sn wires. The upper panel of Fig. 3(a) shows the experimentally observed voltage signal exhibiting frequent flux jumps during a continuously current ramp of 0.5 A/s for the solenoid coil. Due to the fact that J<sup>c</sup> of Nb3Sn is very sensitive to strain, this effect should also be taken into consideration in the numerical simulations. The mechanical response of the solenoid coil includes three parts: thermal strain caused by cooling down to 4.2 K, pre-strain process caused by the aluminum strip and the electromagnetic strain produced by the Lorentz force. Detailed analyses\n\n![](_page_5_Figure_0.jpeg)\n\nFIG. 4. (a) Time-evolutions of maximum temperature Tmax, Joule heating power density P, and maximum normalized critical current density J of wires at different partial locations during the second flux jump. (b) Snapshots of the flux jumping regions at six different moments (columns) and for three different flux jumps (rows). The panels on the last column show the propagation regions of the flux jumps. (c) Velocity field during the second flux jump where the arrows indicate the propagation direction. The right three panels show temperature TF J and power density PF J of each wire at the onset of the second flux jump, along with the quantity of Joule heating QF J generated within the time ranging from occurrence to peak for second flux jump.\n\nof the mechanical deformation and Jc(ε) are shown in Section III and Section V of the Supplementary Information. The lower two panels of Fig. 3(a) indicate that the first flux jump is triggered after 90 s, subsequently the solenoid undergoes a train of jumps until 1100s after which it remains stable without flux jumps. This result agrees well with the one obtained from the experimental test. The difference of number of flux jumps between simulations and experiments may result from the departure of ideal defect-free Nb3Sn wire assumed in the numerical model.\n\nFigure 3(b) shows the number of flux jumps across the entire coil during the ramping process. The statistics of the flux jumps in each wire during this process reveals that the flux jumps are not triggered uniformly in all wires. The thermomagnetic instabilities are statistically less likely to occur in the center of the right region. This is because the ramping rate of the local magnetic field in this region is substantially smaller than elsewhere. Fig. 3(c) shows snapshots of the current density, the magnetic field distributions in subelements, and the temperature distribution in the coil during the second flux jump. The lower panels shows that full flux penetration is achieved in the outer wires while the inner wires are only partially penetrated by the magnetic flux. Furthermore, the temperature is nearly uniform in each wire whereas a large\n\n![](_page_6_Figure_0.jpeg)\n\nFIG. 5. (a) Simulated variations of the maximum temperature Tmax (blue) and terminal voltage (red) of a coil with 20 × 20 turns of Nb3Sn wire for five different cases indicated in each panel. (b) The current density distribution in one of the wires of the coil for cases 2-5 at the time indicated by dashed line in panel (a).\n\ntemperature gradient can be observed at the interface of each wire.\n\nThe most fascinating aspect of the phenomenon under consideration, concerns the nucleation process of flux jumps and the subsequent growth and propagation throughout the coil. In order to address this question, a criterion is needed to discern whether a thermomagnetic instability has been triggered in one particular wire. As shown in Fig. 4(a), the temperature rises in all of six wires chosen at different locations. However, the timeevolution of T does not represent a reliable criterion because the heat conduction from surrounding wires can also lead to a local increase of temperature. As an illustration of this point, in the middle panel of Fig. 4(a) the Joule heating power density for two wires [(23, 19) and (33, 19)] is plotted. One remarks that the dissipated power is very small during the flux jump process, thus indicating that the flux jump does not occur in these two wires, even though the temperature has increased. Alternatively, the rightmost panel shows that J is always less than J<sup>c</sup> in those wires without flux jumps. Based on these considerations, we adopt the criterion |J/Jc| >1 as the threshold indicating the nucleation of a flux jump.\n\nFig. 4(a) further indicates that flux jumps do not occur in different wires at the same time. Fig. 4(b) shows the flux jumping regions (red colored) at six different moments and for three different flux jumps taking place chronologically. One can see that in an early stage (upper row), the flux jumps are triggered on the left side (corresponding to inner radius of the coil), while in a later stage, the flux jumps are firstly observed in inner wires (central and lower row). Interestingly, for the latter, the flux jumps do not propagate towards the outer rim of the coil, instead the region of flux jumps remain spatially confined because J<sup>c</sup> is weakened by the high magnetic field in the outer region. The left panel of Fig. 4(c) shows that the propagation velocity field of the second flux jump is nonuniform over the coil and lies within a range of 0.1-2.8 m/s in agreement with previous experimental measurements [\\[50\\]](#page-9-21). In order to explore what determines the propagation velocity distribution in the coil, we calculated the maximum temperature Tmax, the maximum Joule heating power density Pmax of each wire during the second flux jump, and the quantity of Joule heating within the time-range from occurrence to peak of second flux jump QF J in each wire. It is surprising that the propagation velocity of the flux jump from a wire to its neighbouring wire is mainly determined by the QF J rather than Tmax or Pmax. Moreover, the propagation directions of the flux jump are mainly related to the gradient of QF J , which indicates that the flux jump of a wire preferably propagates to its neighbouring wire with larger QF J . As a consequence,the flux jump cease from propagation to the wire has no sufficient potential energy released. Animations illustrating the propagation of 2nd, 10nd and 17th flux jumps can be seen in the Supplementary Movies 1-3.\n\n#### Quenches Propagation in a Coil\n\nLet us now scale up the problem and explore the timeevolution of quenches in a coil with 20 × 20 turns. To that end, we consider five different cases, each with a progressive increase of complexity. The coil is exposed to a non-uniform self-field generated by a transport current of 2 A/s and a uniform background magnetic field of 0.015 T/s. In case 1, both transport current and strain effect are neglected in the numerical simulation. In case 2, the transport current is taken into consideration, whereas a constant strain ε = 0.5% for each wire, real thermal and electromagnetic strain fields with and without pre-strain are considered in cases 3-5, respectively. As shown in Fig. 5(a), the voltage spikes in cases 2-5 become progressively smaller after the middle stage of the entire current loading phase, and eventually vanish with increasing the transport current, which is consistent with the experi-\n\n![](_page_7_Figure_1.jpeg)\n\nFIG. 6. (a) Resistivity as a function of time during a flux jump at different locations. The criterion of 0.95ρ<sup>n</sup> used to determine the quenching time for each wire of the coil is indicated with dashed red line. (b) Time-evolution of quenched regions (red colored) at six instances for case 2 as described in Fig. 5. (c) Velocity field in the coil during the quench with arrows indicating the propagation directions of the quench. (d-f) The instantaneous temperature T<sup>q</sup> and Joule heating power density P<sup>q</sup> of each wire at quench time, and the quantity of Joule heating Q<sup>q</sup> of each wire generated from the onset of rapid increase of ρ until the quench.\n\nmental results shown in Fig. 3(a). Comparing with cases 1 and 2, one can see that the transport current with low ramping rate has almost no impact on the threshold value of virgin flux jump and the frequency of flux jumps. Cases 2-5 indicate that strain causes a significant premature quench, likely because strain leads to a serious degradation of Jc. Therefore, taking into consideration strain effects is a critical issue for coil design. Indeed, comparing cases 3 and 4, suitable pre-strain by the aluminum strip can significantly improve the quench current. As shown in Fig. 5(b), the current density in all subelements exhibits full current-like state and almost reaches up J<sup>c</sup> at the moment when quench occurs in case 5, while current density in some subelements is still in field-like state and thus these subelements still have capacity for more transport current.\n\nThe next challenge consists in identifying a reliable indicator for the quench propagation in the coil. As shown in Fig. 6(a), the resistivity of each wire increases rapidly to its normal state value ρn. Thus, we choose ρ > 0.95ρ<sup>n</sup> as the quench criterion for each wire. Fig. 6(b) shows that the onset of quench appears at the center of the left border and it propagates towards the right border until all wires of the coil switch to the normal state. From Fig. 6(c), one can see that the velocity of quench propagation is not uniform in the coil and the quench propagate much more rapidly in the left region than elsewhere. Comparing the velocity field of quench propagation with the time-integration of Joule heating Q<sup>q</sup> from the onset of rapid increase of ρ up to the quench (see Fig. 6(d)), instantaneous Joule heating power density P<sup>q</sup> (Fig. 6(e)) and instantaneous temperature T<sup>q</sup> at quench time, we demonstrate that the propagation velocity of the quenching process is undoubtedly related to Q<sup>q</sup> of each wire. The dynamic propagation of a quench can be found in Supplementary Movie 4.\n\n### Summary\n\nIn summary, we have developed a parallel numerical algorithm executed on GPU and permitting to deal with the correlated system of full-sized solenoid coil with thousand turns of multifilamentary superconducting wires. We have carried out experimental tests on a short sample of IT Nb3Sn wire as well as on a solenoid coil. The simulated results reproduce the experimental data to a large extent. Moreover, utilizing the developed GPU algorithm, we were able to unveil the real-time dynamic and reveal detailed propagating velocity fields of magnetic flux jumps and quenches in superconducting coils. The most striking finding is that the velocity field of the thermomagnetic instability front is mainly related to the quantity of Joule heating rather than the Joule heating power or the maximum temperature. Although at present the numerical algorithm is intended for solenoid magnets, it can be easily extended to other structured magnet, such as racetrack coils. The large-scale GPUadvanced algorithm lays the foundation for the nextgeneration of numerical superconducting magnet techniques and provides a powerful tool for optimal design of future high-field magnets.\n\n### Data Availability\n\nThe data that support the findings of this study are available from the corresponding author upon reasonable request.\n\n### Acknowledgement\n\nWe acknowledge support by the National Natural Science Foundation of China (Grant Nos. 12372210 and 11972298, 11427904). We thanks for the helpful discussions with Prof. You-He Zhou at Lanzhou University, and Dr. Peng Ma in Western Superconducting Technologies Co., Ltd.\n\n### Author contributions\n\n- <span id=\"page-8-0\"></span>[1] S. Jeong, J. H. Schultz, M. Takayasu, V. Vysotsky, P. C. Michael, W. Warnes and S. Shen, Voltage spike observation in superconducting cable-in-conduit conductor under ramped magnetic fields: 1. Experiment, Cryogenics 37, 299-304 (1997).\n- [2] M.D. Sumption, E.W. Collings and E. Gregory, Low field flux jumping in high performance multifilamentary Nb3Al and Nb3Sn composite strands, IEEE Trans. Appl. Supercond. 9, 1455-1458 (1999).\n- [3] M. D. Sumption and E. W. Collings, Stability and flux jumping of internal-Sn, Nb3Sn conductors (and a model system MgB2), IEEE Trans. Appl. Supercond. 13, 3394- 3397 (2003).\n- [4] D.R. Dietderich, S.E. Bartlett, S. Caspi, P. Ferracin, S. A. Gourlay, H. C. Higley, A. F. Lietzke, S. Mattafirri, A.D. McInturff, G.L. Sabbi and R.M. Scanlan, Correlation between strand stability and magnet performance, IEEE Trans. Appl. Supercond. 15, 1524-1528 (2005).\n- [5] P. Fabbricatore, M. Greco, C. Ferdeghini, C. Bernini, U. Gambardella, G. Celentano and A. Devred, Supercond. Sci. Technol. 20, L34 (2007).\n- [6] B. Bordini, L. Bottura, L. Oberli, L. Rossi, and E. Takala, Impact of the Residual Resistivity Ratio on the Stability of Nb3Sn Magnets, IEEE Trans. Appl. Supercond. 22, 4705804 (2012).\n- [7] P. Bruzzone, S. March, K. Sedlak, B. Stepanov, R. Wesche, and D. Uglietti, Collective Flux Jumps observed during operation of the EDIPO Magnets, IEEE Trans. Appl. Supercond. 25, 4701104 (2014).\n- [8] J. C. Perez, H. Bajas, M. Bajko, L. Bottura, B. Bordini, A. Chiuchiolo, G. De Rijk, P. Ferracin, J. Feuvrier, P. Grosclaude, M. Juchno, E. Rochepault, J. Rysti and X. Sarasola, 16 T Nb3Sn Racetrack Model Coil Test Result, IEEE Trans. Appl. Supercond. 26, 4004906(2016).\n- <span id=\"page-8-1\"></span>[9] A. V. Zlobin, I. Novitski, E. Barzi, V. V. Kashikhin, J. Carmichael, S. Caspi, G. Chlachidze, S. Krave, C. Orozco, D. Schoerling, S. Stoynev, D. Tommasini and D. Turrioni, Development and First Test of the 15 T Nb3Sn Dipole Demonstrator MDPCT1, IEEE Trans. Appl. Supercond. 30, 4000805 (2020).\n\nC.X. designed the research, formulated the idea of solution, and conceived the main numerical algorithm. H.X.R and P.J. implemented the numerical simulations, algorithm validation schemes, analyzed the results and Q.Y.W. performed the mechanical calculations under the supervision of C.X. W.L. prepared the short samples and P.J. implemented experimental measurements for short wires. L.T.S. X.J.O. and W.L. fabricated the solenoid coil and implemented measurements. C.X., H.X.R. prepared the first draft of the manuscript with contributions from A.V.S. All authors contributed to discussions and revision of the manuscript to its final version.\n\n### Competing interests\n\nThe author declares no competing interests.\n\n- <span id=\"page-8-2\"></span>[10] L. Sun, W. Wu, B. Wu, Y. Chen, L. Zhu, X. Ou, S. Zheng, E. Mei, M. Guan, C. Xin, X. Wang, W. Lu, W. Ren, and H. Zhao, Development of a 1/2-length prototype high field Nb3Sn magnet for the 4th generation ECR ion source, Acta Mech. Sin., 40, 723376 (2024).\n- <span id=\"page-8-3\"></span>[11] J. Liu, L. Wang, L. Qin, Q. Wang and Y. Dai, Design, fabrication, and test of a 12 T REBCO insert for a 27 T all-superconducting magnet, IEEE Trans. Appl. Supercond. 30, 4300807(2020).\n- <span id=\"page-8-4\"></span>[12] A. K. Ghosh, E. A. Sperry, L. D. Cooley, A. M. Moodenbaugh, R. L. Sabatini and J. L. Wright, Dynamic stability threshold in high-performance internal-tin Nb3Sn superconductors for high field magnets, Supercond. Sci. Technol. 18, L5 (2005).\n- [13] A. K. Ghosh, L. D. Cooley, and A. R. Moodenbaugh, Investigation of instability in high J<sup>c</sup> Nb3Sn strands, IEEE Trans. Appl. Supercond. 15, 3360-3363 (2005).\n- [14] G. Ambrosio, N. Andreev, S. E. Bartlett, E. Barzi, C.-H. Denarie, D. Dietderich, A. K. Ghosh, A. P. Verweij, and A. V. Zlobin, Critical current and instability threshold measurement of Nb3Sn cables for high field accelerator magnets, IEEE Trans. Appl. Supercond. 15, NO. 2, 1545- 1549 (2005).\n- <span id=\"page-8-5\"></span>[15] E. Barzi, N. Andreev, B. Bordini, L. Del Frate, V. V. Kashikhin, D. Turrioni, R. Yamada, and A. V. Zlobin, Instabilities in transport current measurements of Nb3Sn strands, IEEE Trans. Appl. Supercond. 15, 3364-3367 (2005).\n- <span id=\"page-8-6\"></span>[16] L. D. Cooley, More time for Nb3Sn magnet conductors, Supercond. Sci. Technol. 31, 100501 (2018).\n- <span id=\"page-8-7\"></span>[17] B. Bordini, D. Richter, P. Alknes, A. Ballarino, L. Bottura, and L. Oberli, Magnetization Measurements of High-J<sup>c</sup> Nb3Sn Strands, IEEE Trans. Appl. Supercond. 23, 7100806 (2013).\n- <span id=\"page-8-8\"></span>[18] A. Ballarino and L. Bottura, Targets for R&D on Nb3Sn conductor for high energy physics, IEEE Trans. Appl. Supercond. 25, 6000906 (2015).\n- <span id=\"page-8-9\"></span>[19] Michele Martino, Pasquale Arpaia1; and Stefano Ierardi, Impact of Flux Jumps on High-Precision Powering of Nb3Sn Superconducting Magnets, J. Phys.: Conf. Ser.\n\n1350, 012180 (2019).\n\n- <span id=\"page-9-0\"></span>[20] Y. B. Kim, C. F. Hempstead and A. R. Strnad, Magnetization and critical supercurrents, Phys. Rev. 129, 528 (1963).\n- <span id=\"page-9-1\"></span>[21] S.L. Wipf and M.S. Lubell, Flux jumping in Nb-25% Zr under nearly adiabatic conditions, Phys. Lett. 16, 103- 105 (1965).\n- [22] S. L. Wipe, Magnetic instabilities in type-II superconductors, Phys. Rev. 161, 404 (1967).\n- [23] P. S. Swartz and C. P. Bean, A model for magnetic instabilities in hard superconductors: The adiabatic critical state, J. Appl. Phys. 39, 4991-4998 (1968).\n- [24] S.L. Wipf, Review of stability in high temperature superconductors with emphasis on flux jumping, Cryogenics 31, 936-948 (1991).\n- [25] V. V. Chabanenko, A. I. D'yachenko, M. V. Zalutskii, V. F. Rusakov, H. Szymczak, S. Piechota and A. Nabialek, Magnetothermal instabilities in type II superconductors: The influence of magnetic irreversibility, J. Appl. Phys. 88, 5875-5883 (2000).\n- [26] R. G. Mints, Flux creep and flux jumping, Phys. Rev. B 53, 12311 (1996).\n- [27] K. H. M˝uller and C. Andrikidis, Flux jumps in melttextured Y-Ba-Cu-O, Phys. Rev. B, 49, 1294-1307 (1994).\n- <span id=\"page-9-2\"></span>[28] Y. H. Zhou and X. Yang, Numerical simulations of thermomagnetic instability in high- T<sup>c</sup> superconductors: Dependence on sweep rate and ambient temperature, Phys. Rev. B 74, 054507 (2006).\n- <span id=\"page-9-3\"></span>[29] A. Nabialek, M. Niewczas, H. Dabkowska, A. Dabkowski, J. P. Castellan, and B. D. Gaulin, Magnetic flux jumps in textured Bi2Si2CaCu2O8+δ, Phys. Rev. B, 67(2003), 024518\n- <span id=\"page-9-4\"></span>[30] N. H. Zebouni, A. Venkataram, G. N. Rao, C. G. Grenier and J. M. Reynolds, Magnetothermal effects in type II superconductors, Phys. Rev. Lett. 13, 606-609 (1964).\n- <span id=\"page-9-5\"></span>[31] M. Guillot, M. Potel, P. Gougeon, H. Noel, J. C. Levet, G. Chouteau and J. L. Tholence, Magnetization jumps and critical current of single crystal, Phys. Lett. A 127, 363-365 (1988).\n- <span id=\"page-9-6\"></span>[32] L. Jiang, Investigations on the effect mechanism of edge defects on thermomagnetic instability in the superconducting film under multi-field environment, Northwestern Polytechnical University (2023).\n- <span id=\"page-9-7\"></span>[33] P. S. Swartz and C. P. Bean, A model for magnetic instabilities in hard superconductors: The adiabatic critical state, J. Appl. Phys. 39 4991-4998 (1968).\n- <span id=\"page-9-8\"></span>[34] M. N. Wilson, Superconducting Magnets (Oxford: Oxford University Press) pp 139-141 (1983).\n- <span id=\"page-9-9\"></span>[35] M. D. Sumption and E. W. Collings, Modeling Current-Field Instabilities in High Performance Nb3Sn Strands in Moderate Field, IEEE Trans. Appl. Supercond. 17, 2714\n\n(2007).\n\n- <span id=\"page-9-11\"></span>[36] Vadim V. Kashikhin and Alexander V. Zlobin, Magnetic instabilities in Nb3Sn strands and cables, IEEE Trans. Appl. Supercond. 15, 1621 (2005).\n- [37] B. Bordini, E. Barzi, S. Feher, L. Rossi and A. V. Zlobin, Self-field effects in magneto-thermal instabilities for Nb-Sn strands, IEEE Trans. Appl. Supercond. 18,1309-1312 (2008).\n- [38] B. Bordini and B. L. Rossi, Self Field Instability in High-J<sup>c</sup> Nb3Sn Strands With High Copper Residual Resistivity Ratio, IEEE Trans. Appl. Supercond. 19, 2470-2476, (2009).\n- <span id=\"page-9-10\"></span>[39] B. Bordini, L. Bottura, L. Oberli, L. Rossi and E. Takala, Impact of the Residual Resistivity Ratio on the Stability of Nb3Sn Magnets, IEEE Trans. Appl. Supercond. 22, 4705804-4705804 (2012).\n- <span id=\"page-9-12\"></span>[40] L. D. Cooley, P. S. Chang and A. K. Ghosh, Magnetization, RRR and Stability of Nb3Sn Strands With High Sub-Element Number, IEEE Trans. Appl. Supercond. 17, 2706-2709, (2007).\n- <span id=\"page-9-13\"></span>[41] A. K. Ghosh, Effect of Copper Resistivity and Filament Size on the Self-Field Instability of High-J<sup>c</sup> Nb3Sn Strands, IEEE Trans. Appl. Supercond. 23, 7100407- 7100407 (2013).\n- <span id=\"page-9-14\"></span>[42] X. Xu, M. D. Sumption and E. W. Collings, Influence of heat treatment temperature and Ti doping on lowfield flux jumping and stability in (Nb-Ta)3Sn strands, Supercond. Sci. Technol. 27, 095009 (2014).\n- <span id=\"page-9-15\"></span>[43] X. Xu, P. Li, A. V. Zlobin and X. Peng, Improvement of stability of Nb3Sn superconductors by introducing high specific heat substances, Supercond. Sci. Technol. 31, 03LT02 (2018).\n- <span id=\"page-9-16\"></span>[44] C. P. Bean, Magnetization of hard superconductors, Phys. Rev. Lett. 8, 250-253 (1962).\n- <span id=\"page-9-17\"></span>[45] Y. B. Kim, C. F. Hempstead and A. R. Strand, Critical persistent currents in hard superconductors, Phys. Rev. lett. 9, 306-309 (1962).\n- <span id=\"page-9-18\"></span>[46] P. W. Anderson, Theory of flux creep in hard superconductors, Phys. Rev. Lett. 9,309-311 (1962).\n- <span id=\"page-9-19\"></span>[47] M. V. Feigelman, V. B. Geshkenbein, A. I. Larkin and V. M. Vinokur, Theory of collective flux creep, Phys. Rev. Lett. 63, 2303-2306 (1989).\n- [48] J. Bardeen and M. J. Stephen, Theory of the motion of vortices in superconductors, Phys. Rev. 140, A1197- A1207 (1965).\n- <span id=\"page-9-20\"></span>[49] E. J. Kramer, Scaling laws for flux pinning in hard superconductors, J. Appl. Phys. 44, 1360-1370 (1973).\n- <span id=\"page-9-21\"></span>[50] H. Bajas, M. Bajko, B. Bordini, L. Bottura, S. Izquierdo Bermudez, J. Feuvrier, A. Chiuchiolo, J. C. Perez, and G. Willering, Quench Analysis of High-Current-Density Nb3Sn Conductors in Racetrack Coil Configuration, IEEE Trans. Appl. Supercond. 25,4004005 (2015).",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Holistic numerical simulation of a quenching process on a\nreal-size multifilamentary superconducting coil",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              137.3115234375,
+              52.693603515625
+            ],
+            [
+              477.52734375,
+              52.693603515625
+            ],
+            [
+              477.52734375,
+              78.5968017578125
+            ],
+            [
+              137.3115234375,
+              78.5968017578125
+            ]
+          ]
+        },
+        {
+          "title": "Methods",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              316.16015625,
+              433.85162353515625
+            ],
+            [
+              368.4571838378906,
+              433.85162353515625
+            ],
+            [
+              368.4571838378906,
+              447.046875
+            ],
+            [
+              316.16015625,
+              447.046875
+            ]
+          ]
+        },
+        {
+          "title": "Experiments",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              316.7578125,
+              448.56591796875
+            ],
+            [
+              380.18682861328125,
+              448.56591796875
+            ],
+            [
+              380.18682861328125,
+              459.421875
+            ],
+            [
+              316.7578125,
+              459.421875
+            ]
+          ]
+        },
+        {
+          "title": "Numerical Algorithm",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              53.3408203125,
+              572.6668548583984
+            ],
+            [
+              161.20755004882812,
+              572.6668548583984
+            ],
+            [
+              161.20755004882812,
+              582.6294555664062
+            ],
+            [
+              53.3408203125,
+              582.6294555664062
+            ]
+          ]
+        },
+        {
+          "title": "Results and Discussions\nFlux Jumps Propagation in a Coil",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              315.861328125,
+              548.6670989990234
+            ],
+            [
+              488.2412414550781,
+              548.6670989990234
+            ],
+            [
+              488.2412414550781,
+              573.2209777832031
+            ],
+            [
+              315.861328125,
+              573.2209777832031
+            ]
+          ]
+        },
+        {
+          "title": "Quenches Propagation in a Coil",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              317.01397705078125,
+              530.19140625
+            ],
+            [
+              476.4056091308594,
+              530.19140625
+            ],
+            [
+              476.4056091308594,
+              540.1689910888672
+            ],
+            [
+              317.01397705078125,
+              540.1689910888672
+            ]
+          ]
+        },
+        {
+          "title": "Summary",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              316.458984375,
+              451.4346923828125
+            ],
+            [
+              373.4665222167969,
+              451.4346923828125
+            ],
+            [
+              373.4665222167969,
+              463.389892578125
+            ],
+            [
+              316.458984375,
+              463.389892578125
+            ]
+          ]
+        },
+        {
+          "title": "Data Availability",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              63.239501953125,
+              52.69366455078125
+            ],
+            [
+              164.6377410888672,
+              52.69366455078125
+            ],
+            [
+              164.6377410888672,
+              64.64886474609375
+            ],
+            [
+              63.239501953125,
+              64.64886474609375
+            ]
+          ]
+        },
+        {
+          "title": "Acknowledgement",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              53.41552734375,
+              130.67962646484375
+            ],
+            [
+              160.20997619628906,
+              130.67962646484375
+            ],
+            [
+              160.20997619628906,
+              142.63482666015625
+            ],
+            [
+              53.41552734375,
+              142.63482666015625
+            ]
+          ]
+        },
+        {
+          "title": "Author contributions",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              53.751708984375,
+              247.32550048828125
+            ],
+            [
+              178.69921875,
+              247.32550048828125
+            ],
+            [
+              178.69921875,
+              259.28070068359375
+            ],
+            [
+              53.751708984375,
+              259.28070068359375
+            ]
+          ]
+        },
+        {
+          "title": "Competing interests",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              317.01397705078125,
+              221.06219482421875
+            ],
+            [
+              435.87255859375,
+              221.06219482421875
+            ],
+            [
+              435.87255859375,
+              233.01739501953125
+            ],
+            [
+              317.01397705078125,
+              233.01739501953125
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              231
+            ],
+            [
+              "Line",
+              82
+            ],
+            [
+              "Text",
+              16
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Footnote",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              235
+            ],
+            [
+              "Line",
+              102
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              151
+            ],
+            [
+              "Line",
+              55
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              211
+            ],
+            [
+              "Line",
+              58
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              608
+            ],
+            [
+              "Line",
+              147
+            ],
+            [
+              "TextInlineMath",
+              5
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              102
+            ],
+            [
+              "Line",
+              36
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              301
+            ],
+            [
+              "Line",
+              102
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              197
+            ],
+            [
+              "Line",
+              68
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              320
+            ],
+            [
+              "Line",
+              107
+            ],
+            [
+              "ListItem",
+              19
+            ],
+            [
+              "Reference",
+              10
+            ],
+            [
+              "SectionHeader",
+              4
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              363
+            ],
+            [
+              "Line",
+              105
+            ],
+            [
+              "ListItem",
+              31
+            ],
+            [
+              "Reference",
+              22
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/AuaWhciQrnZw-4HK7jozGQ"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 10,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Holistic numerical simulation of a quenching process on a real-size multifilamentary superconducting coil",
+    "authors": [
+      {
+        "authors_list": [
+          "Xue, Cun",
+          "Ren, Han-Xi",
+          "Jia, Peng",
+          "Wang, Qing-Yu",
+          "Liu, Wei",
+          "Ou, Xian-"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Superconductors play a crucial role in the advancement of high-field electromagnets. Unfortunately, their performance can be compromised by thermomagnetic instabilities, wherein the interplay of rapid magnetic and slow heat diffusion can result in catastrophic flux jumps, eventually leading to irreversible damage. This issue has long plagued high-J<SUB>c</SUB> Nb<SUB>3</SUB>Sn wires at the core of high-field magnets. In this study, we introduce a large-scale GPU-optimized algorithm aimed at tackling the complex intertwined effects of electromagnetism, heating, and strain acting concomitantly during the quenching process of superconducting coils. We validate our model by conducting comparisons with magnetization measurements obtained from short multifilamentary Nb<SUB>3</SUB>Sn wires and further experimental tests conducted on solenoid coils while subject to ramping transport currents. Furthermore, leveraging our developed numerical algorithm, we unveil the dynamic propagation mechanisms underlying thermomagnetic instabilities (including flux jumps and quenches) within the coils. Remarkably, our findings reveal that the velocity field of flux jumps and quenches within the coil is correlated with the cumulated Joule heating over a time interval rather than solely being dependent on instantaneous Joule heating power or maximum temperature. These insights have the potential to optimize the design of next-generation superconducting magnets, thereby directly influencing a wide array of technologically relevant and multidisciplinary applications.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Nature Communications",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2403.07666"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1038/s41467-024-54406-8",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2024NatCo..1510454X"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

@@ -1,0 +1,607 @@
+{
+  "id": "e09d5d1dc0d8bcfa701097d16835c2c9",
+  "pdf_path": "apl/Superconductors/arXiv:cond-mat_0105212.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **Magnetic characterization of sintered MgB2 samples: effect of the substitution or \"doping\" with Li, Al and Si.**\n\nM. R. Cimberle, M. Novak# , P. Manfrinetti\\*, A. Palenzona\\*\n\n*CNR/INFM and Dipartimento di Fisica, via Dodecaneso 33, 16146 Genova, Italy* \n\n*# Institute of Physics, V Holesovickach, 18000 Prague 8, Czech Republic* \n\n• *INFM and Dipartimento di Chimica, via Dodecaneso 31, 16146 Genova, Italy* \n\n*E-mail: cimberle@fisica.unige.it* \n\n# ABSTRACT\n\nPowdered and sintered MgB2 samples have been characterized through magnetic measurements performed from T = 5 K up to few degrees above the transition temperature of about 39 K. We found that the sintered samples behave as well-connected bodies, showing no trace of granularity. In order to obtain the critical current density value Jc the \"Critical State Model\" has been therefore employed in a straightforward way. With the aim either to decrease the electron mean free path or to increase its Jc we have attempted to introduce defects in the MgB2 structure by different procedures: substitution of Lithium on the Magnesium site and doping of the precursor Boron powders with Aluminum and Silicon. The best result in terms of Jc has been achieved by Silicon doping that, moreover, does not significantly affect the transition temperature.\n\n## 1. INTRODUCTION\n\nThe recent discovery of the MgB2 phase as an intermetallic superconductor with an exceptionally high transition temperature [1] has made this new and relatively \"easy to do\" superconductor attractive not only from a theoretical point of view, but also for technological applications. Since then a very fast and extended characterization of its physical properties has been carried out all over the world [2-10]. For the coherence length ξ0 a value of 5.2 nm has been reported [2]; such a long ξ0 value eliminates problems with weak links, which are instead typically present in \"high-Tc\" materials [11] and suggests the possibility to achieve a remarkably high critical current density if proper technological treatments are adopted. Therefore, the computation of the critical current density Jc, its temperature and field dependence and the possibility to increase it by properly adding pinning centers constitute a crucial problem to solve. We have attempted to introduce defects in the MgB2 structure with two main purposes: firstly to decrease the mean free path of the normal electrons decreasing then the coherence length ξ and increasing the Hc2 values, secondly to introduce pinning centers in order to make the irreversibility line steeper. We prepared different MgB2 samples, with Li substitution on Mg site as well by doping with Si and Al. The results obtained through the standard procedure and the variations therein induced by our modifications are presented and discussed.\n\n#### 2. SAMPLE PREPARATION\n\nThe compounds MgB2 and Mg0.9Li0.1B2 were prepared by direct synthesis from the pure elements: Mg (in form of fine turnings, 99.999 wt.% purity), Li (pieces worked and cut out under dried organic solvent, 99.8 wt.% purity) and crystalline B (325-mesh powder, 99.7 wt.% purity) were well mixed together and closed by arc welding under pure argon into outgassed Ta crucibles, which were then sealed in quartz ampoules under vacuum. The samples were slowly heated up to 950 °C and maintained at this temperature for 1 day.\n\nWith regard to both Al- and Si-doped samples (both Al and Si 99.999 wt.% pure), a pre-reaction of B mixed with 0.5 at.% of the dopant element was carried out in Ta tubes, closed by the same procedure as above, and heat treated at 1000 °C – 4 day. The resulting doped B has been subsequently used for the synthesis with Mg. These two latter samples will be hereafter called MgB2(Al) and MgB2(Si), respectively. The choice of Al and Si as dopant elements for the first doping attempts was suggested by the existence of a terminal solid solubility in B up to few at.%. All the final products were gray-blackish powders, only slightly sintered; no reaction toward the crucible wall has been observed. They have been characterized by X-ray diffraction using a Guinier camera (CuKα radiation and pure Si as an internal standard). Samples, in prismatic shape, have been then prepared by pressing the powders in a stainless-steel die into a pellet, which was then sintered by heat treatment at 1000 °C - 2 days (again in Ta containers, welded under argon and closed in quartz tubes under vacuum). The density of the sintered samples is about 70% of the theoretical one; the sample final dimensions are approximately 2x2x3 mm.\n\nBoth the powders and sintered samples have been observed by SEM microscopy; SEM images have shown that the powders are constituted by agglomerates that show a wide size spread ranging from few µm up to clusters 150 µm large. Grains inside the sintered samples have smaller and more homogeneous size never exceeding 30 µm.\n\nMagnetic measurements have been performed by a commercial SQUID magnetometer (Quantum Design).\n\nThe value of the lattice parameters of MgB2, i.e.: *a*= 3.085(1) Å, *c* = 3.524(1) Å, are in very good agreement with literature [12]; those of Mg0.9Li 0.1B2 and of both doped samples remained practically unchanged (both the *a* and *c* values within ±0.001 Å with respect to that of MgB2). However, while X-ray diffraction patterns of Li-substituted sample and of the doped ones have not shown significant differences neither in the peaks positions nor in extra peaks, in the case of Mg0.9Li 0.1B2 sample a very slight variation in the intensity of some reflections was observed; a calculated X-ray pattern, by means of the Lazy-Pulverix program [13], agreed with the experimental one, confirming the effective substitution on Mg site by Li.\n\n#### 3. EXPERIMENTAL RESULTS AND DISCUSSION\n\nIn Fig.1 susceptibility measurements versus temperature at a constant field of 10 Gauss are shown for different samples: pure powders, pure sintered sample, powders from a reground sintered sample, Al-doped, Si-doped and Li-substituted sintered samples. All the measurements have been normalized to the constant value χ = -1 at low temperatures. The highest transition temperature is observed in the powders and in the pure sintered sample (Tc onset = 38.8 K). As may be seen, substitution and doping change the transition temperature, indicating that the new element effectively entered in the structure. The strongest reduction in Tc is produced by Al (Tc onset = 37.2 K), in accordance with data in literature [14], while Li and Si produce smaller Tc variations (less than 0.6 K and 0.4 K respectively). The transition widths are of about 1degree, the steepest transition being observed in the Si-substituted sample (∆Tc = 0.75 K). Although the powders and the pure sintered sample show the same onset of the transition, in the latter the transition is worsened (χ = -0.5 is reached at T = 37.7 K in the powders and at T = 37.3 K in the sintered sample). We point out that this happens in spite of the potential counter-effect of the penetration depth that can decrease the shielded volume due to the small grain size.\n\nIn Fig.2 the irreversibility line (IL) and Hc2 for both powders and sintered samples are presented, together with IL for YBCO and Nb3Sn reference samples. In the x-axis the reduced temperature is reported. The IL has been measured by observing the deformation of the response function in the SQUID magnetometer while changing from an irreversible to a reversible behavior, as suggested in [15]. By this procedure, the IL for Jc → 0 and therefore the highest Hg irr have been measured (the terminology is that of [16]). The upper critical field Hc2 has been identified by the onset of the superconducting transition (1% of the normal state value) measured at various magnetic fields. No significant variation in the Hc2 behavior has been observed neither in substituted or doped samples. They all exhibit at low fields the upward concavity as observed in the \"clean limit\", indicating that the introduction of disorder has not sufficiently reduced the normal electron mean free path. The IL of MgB2 samples exhibits at low fields an upward curvature followed, at higher fields, by a linear behavior. What it is clear at glance is that, for all the samples, the IL lies well below that of YBCO and, at a greater extent, below that of the Nb3Sn sample. In particular what is distinctly different is the stronger field decrease of Jc (see also the comparison between critical current densities in MgB2 and Nb3Sn sintered samples reported in [2]), which makes clear the need of introducing effective pinning centers in MgB2 samples.\n\nThe IL are similar for all the MgB2 samples, with the exception of the Al substituted one, which stays distinctly lower. This trend could suggest a homogeneous behavior in term of Jc, but this is not true: at low temperature (T = 5 K), different amplitudes of the hysteresis loops indicate different values for the critical current density observed in the various samples. By measuring the hysteresis loops at T = 25 K we have verified that the closing down of the loop happens at lower fields for the Al doped sample, confirming then the IL trend and suggesting a different field dependence for Al-doped MgB2 sample.\n\nIn Fig.3 the hysteresis loops measured at T = 5 K for all the sintered samples are shown together with the hysteresis loops measured both on the powders used to prepare the pure sintered sample and on powders obtained by regrinding a pure sintered sample. This has been done to check if the sintering process could change the intrinsic properties of the MgB2 grains. All the samples show a similar decrease of the hysteresis loops by increasing the field: about one order of magnitude from zero up to 2 Tesla. The substitutions have not changed this general trend: their effect is essentially to enlarge the amplitude of the loops with respect to that observed in the pure sintered sample. At low fields (and for temperatures up to 15 K) many jumps are observed at the highest magnetization values. This is an indication of connected samples in which, due to the high value of Jc and to the sample dimensions, a strong field gradient is established. Also in the starting powders a jump has been observed. We remember that powders exhibit a wide spread in the granulometry with clusters that can reach a dimension of 150 µm. The hysteresis loops on the parent powders are of the same order of magnitude of that on sintered samples. In the light of the great difference between the dimension of powders and sintered samples, this implies that powders present a very high Jc with respect to the sintered samples.\n\nBefore calculating the critical current density from the hysteresis loops, it is necessary to assess if a sample behaves like a connected body or some level of granularity is present. To understand this, it is either possible to measure the remanent magnetization Mrem as a function of the maximum magnetic field [17], or to check the shape of the hysteresis loop. In particular, if the sample is totally connected, the derivative of the virgin curve or of the reverse leg of the magnetization follows a well-defined analytical behavior. The results are well known in the case of a field constant Jc and depend on the sample shape (slab, cylinder etc) [18], but if Jc is strongly field dependent it is impossible to define an analytical solution. Therefore, we have examined the derivative of the reverse leg of the magnetization at high fields, where a constant Jc approximation is better satisfied. This analysis allows moreover to determine the value of the full penetration field µ0Hp at a certain µ0Hmax value, and therein the Jc(H) value.\n\nIn Fig. 4 a) we show Mrem versus µ0Hmax as obtained on the pure sintered sample at T = 5 K. The shape of the curve, that presents a one step transition, clearly indicates absence of granularity. The same was observed at T = 25 K. As a further confirmation of a \"totally connected body\" behavior, in Fig.4 b) the derivative of the reverse leg of magnetisation as observed in the same pure sample at T = 25 K and µ0Hmax = 0.6 T is shown. A fit of the experimental data with the relationship\n\n2 <sup>2</sup> max max (3 ) ( ) 3 <sup>2</sup> ( ) <sup>1</sup> *<sup>p</sup> H <sup>p</sup> H H H H H dH dM* <sup>−</sup> <sup>−</sup> <sup>⋅</sup> <sup>−</sup> <sup>=</sup> <sup>−</sup> <sup>+</sup> (1), valid for a bulk superconductor with a field constant\n\nJc [18], is reported as well. The reliability of the fit confirms the absence of granularity. The Jc calculation may be therefore performed by the classical formulas of the \"Critical State Model\". In particular, to take into account the parallelepiped shape of our samples, we have modeled the magnetization profile inside the sample like an \"inverted roof\" [19] with the same slope in all the directions (that means no anisotropy of the critical current density). In table 1, the Jc values calculated for the various samples at T = 5 K and T = 25 K are shown. We point out that in any case Jc increases by increasing the doping, ranging from 5×10<sup>4</sup> A/cm2 for the pure sintered samples up to 1.5×10<sup>5</sup> A/cm2 for the Si doped sample at T = 5 K and zero field. Going to µ0Hext = 2 T, Jc decreases of about a factor 10. In table 1 the Jc values relative both for the parent powders and for the reground powders are reported. Because of the large spread in the powder sizes, to estimate Jc the highest µ0Hp value, as obtained from the derivative of the reverse leg of magnetization, has been attributed to the largest observed cluster dimension (150 µm for parent powders and 70 µm for the reground ones). The obtained values are much higher than for sintered samples, but the same strong field dependence is observed. This is consistent with the estimation of the activation energy U0 obtained by magnetization decay measurements performed at µ0Hext = 0.2 T and 2 T at T = 10 K and analyzed with the standard Anderson creep theory [20]. The U0 values also decrease of about one order of magnitude: we found out 0.8 and 0.067 eV respectively. A decrease of a factor 2 in Jc in the reground powders may be attributed to a variation of intrinsic properties of MgB2 grains that have been pressed, sintered and reground.\n\nIn the light of the presented data the decrease in Jc of about one order of magnitude observed in the sintered sample with respect to the powder does not appear as a \"weak link effect\", as in high Tc superconductors. The grain boundaries have the same superconducting properties of the grains, and the sintered samples behave, from the magnetic point of view, like well-connected bodies. It appears reasonable due to the small surface contact between the grains that, for their hardness, are difficult to compact. Moreover, the sintering procedure can change the intrinsic superconducting properties of the material.\n\nFinally, the temperature variation of the critical current density has been measured for Al doped samples. The results are presented in Fig. 5 as M (H = 0 T, 0.6 and 1 T) versus temperature. A linear decrease is observed both in the remanent magnetization and in the higher field magnetization.\n\n## 4. CONCLUSIONS\n\nPowdered and sintered samples of MgB2 pure and doped with Li, Si and Al have been characterized by a set of magnetic measurements. Neither Hc2 nor the irreversibility line have shown a significant change in the temperature and field range we have explored. Nevertheless, hysteresis loops measured at low temperature indicate an improvement of the critical current density for all the chemical treatments, the best result being achieved by the Si doping (about a factor 3 in the Jc values). So, also if the mean free path is not significantly reduced, Si or Al act as pinning centers at least at low temperature, suggesting their presence as clusters. The IL analysis makes clear that stronger pinning centers must be introduced to make this material more appealing for technological applications. This may be assessed by comparing the IL with that typical of low Tc superconductors (see Fig.2). In particular, the field dependence of the critical current density appears to be very strong, while, by increasing the temperature from 5 K up to 30 K the critical current decreases only by a factor 6. No trace of magnetic granularity has been found in our sintered samples. Therefore it is reasonable to attribute the strong decrease of the critical current density of the sintered samples with respect to the powder to the low density of the produced samples (small connection area between grains) and also to intrinsic variations due to the sintering procedure (for example relaxation of defects during the 2 days long heat treatment). Anyway, the lack of \"weak links\" suggests that potentially high Jc values are obtainable: with this purpose, both the sample density and the pinning strength must be increased.\n\n#### ACKNOWLEDGEMENTS\n\nTwo of us (A.P. and P.M.) thank the Italian *Ministero della Ricerca Scientifica e Tecnologica*  (*M.U.R.S.T.*) for financial support, this work being part of the National Research Program \"Alloys and Intermetallic Compounds: thermodynamics, physical properties, reactivity\". M.N. is thankful to ESF Vortex Program.\n\n#### REFERENCES\n\n[1] Nagamatsu J., Nakagawa N., Muranaka T., Zenitani Y., Akimitzu J., 2001 *Nature* **410** 63-64\n\n[2] Finnemore D.K., Ostenson J.E., Bud'ko S.L., Lapertot G., Canfield P.C., 2001 Condmat/0102114\n\n[3] Bugoslavsky Y., Perkins G.K., Cohen L.F., Caplin A.D., 2001 Submitted to *Nature*\n\n[4] Kambara M., Hari Babu N., Sadki E.S., Cooper J.R., Minami H., Cardwell D.A., Campbell A.M., Inoue I.H., 2001 *Supercond. Science and Technol.* **14** L5-L7\n\n[5] Lorentz B., Meng L., Xue Y.Y., Chu C.W., 2001 cond-mat/0104041\n\n[6] Kang W.N., Jung C.U., Kijoon H.P., Park Min-Seok, Lee S.Y., Kim Hyeong-Jin, Choi Eun-Mi, Kim Kyung Hee, Kim Mun-Seog, Lee Sung-Ik, 2001 cond-mat/0102313\n\n[7] Larbalestier D.C., Cooley L.D., Rikel M.O., Polyanskii A.A., Jiang J., Patnaik S., Cai X.Y., Feldmann D.M., Gurevich A., Squitieri A.A., Naus M.T., Eom C.B., Hellstrom E.E., Cava R.J., Regan K.A., Rogado N., Hayward M.A., He T., Slusky J.S., Khalifah P., Inumaru K., Haas M., 2001 *Nature* **410** 186-189\n\n[8] Dhalle' M., Toulemonde P., Beneduce C., Musolino N., Decroux M., 2001 submitted to *Physica C* \n\n[9] Bud'ko S.L., Petrovic C., Lapertot G., Cunningham C.E., Canfield P.C., 2001 condmat/0102413\n\n[10] Fuchs G., Müller K.-H., Handstein A., Nenkov K., Narozhnyi V.N., Eckert D., Wolf M., Schultz L. 2001 cond-mat/0104088\n\n[11] Cimberle M. R., Ferdeghini C., Flükiger R., Giannini E., Grasso G., Marré D., Putti M., Siri A.S., 1995 *Physica C* **251** 61-67\n\n[12] Naslain MM.R., Guette A., Barret M., 1973 *J. Solid State Chem.* **8** 68-85\n\n[13] Yvon K., Jeitschko W., Parthé E., 1977 *J. Appl. Crystallogr.* **10** 73-76\n\n[14] Slusky J.S., Rogado N., Regan K.A., Hayward M.A., Khalifah P., He T., Inumaru K., Loureiro S., Haas M.K., Zandbergen H.W., Cava R.J. 2001, cond-mat/0102262\n\n[15] Suenaga M., Welch D.O., Budhani R., 1992 *Supercond. Sci. Technol*. **5** S1-S8\n\n[16] Wen H.H., Li S.L., Zhao Z.W., Ni Y.M., Ren Z.A., Che G.C., Zhao Z.X., 2001 condmat/0103521\n\n[17] Müller K.-H., Andrikidis C., Liu H.K., Dou S.X. 1994 *Phys. Rev B* **50** 10218-10224\n\n[18] Bean C.P. 1964 *Rev. Modern Phys*…..? 31-39\n\n[19] Gyorgy E.M., van Dover R.B., Jackson K.A., Schneemeyer L.F., Waszczk J.V. 1989 *Appl. Phys. Lett.* **55** 283\n\n[20] Anderson P.W. 1962 *Phys. Rev. Lett*. **9** 309\n\n#### FIGURE CAPTIONS:\n\n- Fig.1: Susceptibility versus temperature for powdered and sintered samples in an applied magnetic field of 10 Gauss.\n- Fig.2: Irreversibility Line and Hc2 for powdered and sintered samples. For a comparison the IL for YBCO and Nb3Sn samples are shown. IL is indicated by continuous lines, Hc2 by dotted lines. The same symbol refers to the same sample.\n- Fig.3: Hysteresis loops measured at T =5 K for the various samples as indicated in the legend.\n- Fig.4 a): Mrem versus µ0Hmax at T = 5 K for the pure sintered MgB2 sample.\n- Fig.4 b): Derivative of the reverse leg of the magnetization dM/dH versus µ0 (Hmax –H) as measured at µ0Hmax = 2 T and T = 25 K in the pure sintered sample. (Triangle: experimental data; Circles with continuous line: fit by the \"Critical State Model\" (see text)).\n- Fig.5: Magnetization versus temperature in Al-doped sample.\n\nTable 1: Jc values (in A/cm2 ) valued by magnetic measurements at various fields and temperatures.\n\n![](_page_7_Figure_0.jpeg)\n\n![](_page_7_Figure_1.jpeg)\n\n![](_page_8_Figure_0.jpeg)\n\n![](_page_9_Figure_0.jpeg)\n\n|                    | T=5K<br>µ0H=0T<br>µ0H=2T |         | T=25K<br>µ0H=0T µ0H=0.6T |         |\n|--------------------|--------------------------|---------|--------------------------|---------|\n| Pure<br>sintered   | 5×104                    | 5×103   | 2×104                    | 5×103   |\n| Si-doped           | 1.5×105                  | 1.5×104 | 6×104                    | 1.5×104 |\n| Al-doped           | 1×105                    | 1×104   | 4×104                    | 8×103   |\n| Li<br>substituted  | 7×104                    | 7×103   |                          |         |\n| Powder             | 2×106                    | 2×105   |                          |         |\n| Reground<br>powder | 1×106                    | 1×105   |                          |         |",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Magnetic characterization of sintered MgB2 samples: effect of \nthe substitution or \"doping\" with Li, Al and Si.",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              70.59814453125,
+              72.95428466796875
+            ],
+            [
+              514.3966674804688,
+              72.95428466796875
+            ],
+            [
+              514.3966674804688,
+              107.274658203125
+            ],
+            [
+              70.59814453125,
+              107.274658203125
+            ]
+          ]
+        },
+        {
+          "title": "ABSTRACT",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              261.76513671875,
+              358.19732666015625
+            ],
+            [
+              322.25555419921875,
+              358.19732666015625
+            ],
+            [
+              322.25555419921875,
+              370.22509765625
+            ],
+            [
+              261.76513671875,
+              370.22509765625
+            ]
+          ]
+        },
+        {
+          "title": "1. INTRODUCTION",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              70.70709228515625,
+              71.5885009765625
+            ],
+            [
+              167.56771850585938,
+              71.5885009765625
+            ],
+            [
+              167.56771850585938,
+              83.1002197265625
+            ],
+            [
+              70.70709228515625,
+              83.1002197265625
+            ]
+          ]
+        },
+        {
+          "title": "2. SAMPLE PREPARATION",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              70.3076171875,
+              327.477783203125
+            ],
+            [
+              206.5493927001953,
+              327.477783203125
+            ],
+            [
+              206.5493927001953,
+              338.56787109375
+            ],
+            [
+              70.3076171875,
+              338.56787109375
+            ]
+          ]
+        },
+        {
+          "title": "3. EXPERIMENTAL RESULTS AND DISCUSSION",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              70.2349853515625,
+              122.51751708984375
+            ],
+            [
+              313.2559509277344,
+              122.51751708984375
+            ],
+            [
+              313.2559509277344,
+              133.6181640625
+            ],
+            [
+              70.2349853515625,
+              133.6181640625
+            ]
+          ]
+        },
+        {
+          "title": "4. CONCLUSIONS",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              70.3802490234375,
+              71.5885009765625
+            ],
+            [
+              161.47254943847656,
+              71.5885009765625
+            ],
+            [
+              161.47254943847656,
+              83.1002197265625
+            ],
+            [
+              70.3802490234375,
+              83.1002197265625
+            ]
+          ]
+        },
+        {
+          "title": "ACKNOWLEDGEMENTS",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              69.90814208984375,
+              350.2779235839844
+            ],
+            [
+              196.71502685546875,
+              350.2779235839844
+            ],
+            [
+              196.71502685546875,
+              361.3857421875
+            ],
+            [
+              69.90814208984375,
+              361.3857421875
+            ]
+          ]
+        },
+        {
+          "title": "REFERENCES",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              69.76287841796875,
+              71.9482421875
+            ],
+            [
+              142.71998596191406,
+              71.9482421875
+            ],
+            [
+              142.71998596191406,
+              83.048828125
+            ],
+            [
+              69.76287841796875,
+              83.048828125
+            ]
+          ]
+        },
+        {
+          "title": "FIGURE CAPTIONS:",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              70.41656494140625,
+              71.99737548828125
+            ],
+            [
+              172.7565460205078,
+              71.99737548828125
+            ],
+            [
+              172.7565460205078,
+              83.2030029296875
+            ],
+            [
+              70.41656494140625,
+              83.2030029296875
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              45
+            ],
+            [
+              "Line",
+              22
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              123
+            ],
+            [
+              "Line",
+              50
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              118
+            ],
+            [
+              "Line",
+              54
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              187
+            ],
+            [
+              "Line",
+              66
+            ],
+            [
+              "TextInlineMath",
+              5
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              53
+            ],
+            [
+              "Line",
+              25
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              109
+            ],
+            [
+              "Line",
+              35
+            ],
+            [
+              "Text",
+              20
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              37
+            ],
+            [
+              "Line",
+              16
+            ],
+            [
+              "ListItem",
+              6
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              84
+            ],
+            [
+              "Line",
+              43
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              96
+            ],
+            [
+              "Line",
+              51
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              142
+            ],
+            [
+              "Line",
+              41
+            ],
+            [
+              "TableCell",
+              33
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/5KdEEB0UomTZ_7jekRrp3Q"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 10,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Magnetic characterization of sintered MgB<SUB>2</SUB> samples: effect of substitution or 'doping' with Li, Al and Si",
+    "authors": [
+      {
+        "authors_list": [
+          "Cimberle, M. R.",
+          "Novak, M.",
+          "Manfrinetti, P.",
+          "Palenzona, A."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Powdered and sintered MgB<SUB>2</SUB> samples, both pure and substituted or doped, have been prepared and characterized through magnetic measurements performed from T = 5 K up to a few degrees above the transition temperature of about 39 K. For all the samples, the irreversibility line (IL) appears much lower than the H<SUB>c2</SUB>-T line and very far from that of both high-T<SUB>c</SUB> (YBCO) and low-T<SUB>c</SUB> (Nb<SUB>3</SUB>Sn) materials indicating the need to increase the pinning in this material to make it attractive for technological applications. Moreover, we have verified through different procedures that the sintered samples behave as well-connected bodies, showing no trace of granularity; therefore, the critical current density values J<SUB>c</SUB> may be obtained by applying the 'critical state model' in a straightforward way. The hysteresis loop measurements allowed estimation of J<SUB>c</SUB> both for powders and sintered samples and confirmed the strong field decrease of J<SUB>c</SUB>, implicit in IL behaviour. We attempt to introduce defects in the MgB<SUB>2</SUB> structure by different chemical treatments like substitution of lithium on the magnesium site and doping of the precursor boron powders with aluminium and silicon. J<SUB>c</SUB> always increased in doped or substituted samples (up to a factor 3) and this fact is meaningful, in particular in the light of the small level of substitution or doping we performed. The best result in terms of J<SUB>c</SUB> is achieved by silicon doping that, moreover, does not significantly decrease the transition temperature.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Superconductor Science Technology",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:cond-mat/0105212"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1088/0953-2048/15/1/308",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2002SuScT..15...43C"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

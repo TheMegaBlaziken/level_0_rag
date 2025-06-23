@@ -1,0 +1,958 @@
+{
+  "id": "85752d476d463d787a29392838f98ebd",
+  "pdf_path": "apl/Superconductors/arXiv:cond-mat_0305474.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **Very high upper critical fields in MgB2 produced by selective tuning of impurity scattering.**\n\nA. Gurevich§ , S. Patnaik\\*, V. Braccini§,\\*\\*\\*, K. H. Kim\\*\\*, C. Mielke\\*\\*, X. Song§ , L. D. Cooley# S. D. Bu§ , D. M. Kim§ , J. H. Choi§ , L. J. Belenky§ , J. Giencke§ , M. K. Lee§ , W. Tian&, X.Q. Pan&, A. Siri\\*\\*\\*, E. E. Hellstrom§ , C. B. Eom§ , D.C. Larbalestier§ .\n\n§ University of Wisconsin, Madison WI 53706, USA\n\n\\*Now at School of Physical Sciences, Jawaharlal Nehru University, New Delhi 110067 India \\*\\*National High Magnetic Field Laboratory, Los Alamos National Laboratory, Los Alamos NM\n\n\\*\\*\\* I.N.F.M.-LAMIA, Department of Physics, Via Dodecaneso 33, 16146 Genova, Italy\n\n# Now at Brookhaven National Laboratory, Upton NY, USA.\n\n& Department of Materials Science and Engineering, University of Michigan, Ann Arbor, MI 48109, USA\n\nWe report a significant enhancement of the upper critical field Hc2 of different MgB2 samples alloyed with nonmagnetic impurities. By studying films and bulk polycrystals with different resistivities ρ, we show a clear trend of Hc2 increase as ρ increases. One particular high resistivity film had zero-temperature *Hc2*(0) well above the *Hc2* values of competing non-cuprate superconductors such as Nb3Sn and Nb-Ti. Our high-field transport measurements give record values *Hc2* ⊥ (0) ≈ 34T and *Hc2* ||(0) ≈ 49 T for high resistivity films and Hc2(0) ≈ 29 T for untextured bulk polycrystals. The highest Hc2 film also exhibits a significant upward curvature of Hc2(T), and temperature dependence of the anisotropy parameter γ(*T*) = *Hc2* ||/ *Hc2* ⊥ opposite to that of single crystals: γ(*T*) *decreases* as the temperature decreases, from γ(*Tc*) ≈ 2 to γ(0) ≈ 1.5. This remarkable Hc2 enhancement and its anomalous temperature dependence are a consequence of the two-gap superconductivity in MgB2, which offers special opportunities for further *Hc2* increase by tuning of the impurity scattering by selective alloying on Mg and B sites. Our experimental results can be explained by a theory of two-gap superconductivity in the dirty limit. The very high values of Hc2(T) observed suggest that MgB2 can be made into a versatile, competitive high-field superconductor.\n\n<sup>87545,</sup> USA\n\n# **1. Introduction**\n\nSince the discovery of the \"intermediate-*Tc*\" superconductor MgB2 with critical temperature *Tc* of 39 K 1,2 , many efforts have been made to increase the ability of MgB2 to sustain superconductivity at higher magnetic fields. This problem is of fundamental interest and is vital for applications because MgB2 exhibits high critical current densities *Jc* 3-6, no intrinsic current blockage by grain boundaries <sup>7</sup> , and comparatively weak anisotropy and thermal fluctuations. Yet, clean MgB2 has so far offered no clear advantages as compared to existing practical highfield superconductors because of rather low upper critical fields, *Hc2* ⊥ (0) ≈ 3.5 T and *Hc2* || (0) ≈ 18 T perpendicular and parallel to the *ab* plane of MgB2 single crystals 8-12. Indeed, the key to magnet applications of superconductors lies in the rare combination of low cost and a ready wire fabrication route, which produces conductors with high upper critical fields *Hc2*, and critical current densities *Jc* 13. Modern conductors are made from Nb-Ti (*Tc* = 9 K, *Hc2*(4.2 K) = 10 T), Nb3Sn (*Tc* = 18 K, *Hc2*(4.2 K) = 28 T), and the high-temperature superconductors (HTS), Bi2Sr2CaCu2O8-x (*Tc* ~ 90 K), and (Bi,Pb)2Sr2Ca2Cu3O10-x (*Tc* ~ 110 K). At low temperatures the HTS polycrystals have *Hc2* well above 50 T, but they suffer from strong current relaxation, high anisotropy (*Hc2* || /*Hc2* ⊥ > 20), and weak-linked grain boundaries that obstruct the current except when crystallographically textured. Because of their large *Hc2* anisotropy, HTS conductors must be made in tape form, whereas isotropic Nb-based superconductors are easily fabricated into round wires capable of generating magnetic fields above 20 T, but only at *T* = 2-5 K. However, due to recent advances in cryocoolers, many electric utility, fusion and high-energy physics applications may be best optimized at temperatures of 10 to 35 K, 14 a domain for which MgB2 could provide the cheapest superconducting wires 15. It is the low upper critical field which has mainly limited the potential applications of clean MgB2, for which *Hc2*(4.2 K) is even less than that of Nb-Ti. Here we show how *Hc2*(*T*) of MgB2 can be radically enhanced beyond that of any Nb-based superconductor by introducing strong impurity scattering. The resulting increase of *Hc2* along with the significant decrease of Hc2 anisotropy, from *Hc2* || /*Hc2* <sup>⊥</sup> ≈ 5-6 2 down to *Hc2* ||/*Hc2* ⊥ < 2, can make MgB2 well suited for high-field magnet applications at 20-30 K where HTS conductors presently are without challenge 13.\n\nWe show that a significant portion of the anomalous increase in *Hc2* results from the two-gap superconductivity in MgB2, which has been well established by many *ab initio* calculations 16,17 , STM experiments 18, point contact 19 and Raman 20 spectroscopy, specific heat 21 and neutron diffraction 22 measurements. As a result, there is compelling evidence that MgB2 is the first superconductor with two weakly coupled superconducting gaps ∆σ(4.2 K) ≈ 7.2 meV and ∆π(4.2 K) ≈ 2.3 meV. These gaps reside on different disconnected sheets of the Fermi surface, which is comprised of nearly cylindrical parts formed by *in-plane* σ antibonding pxy orbitals of B, and a more isotropic tubular network formed by *out-of-plane* π bonding and antibonding pz orbitals of B. Such a Fermi surface gives rise to three different impurity scattering channels in MgB2 alloys: intraband scattering within each σ and π sheet and interband scattering between them 23. It is these multiple scattering channels which make it possible to increase *Hc2* of MgB2 to a much greater extent than in one-gap superconductors, not only by the usual increase of the normal state resistivity ρ, as in low-*Tc* superconductors 24-26 , but also by optimizing the relative weight of the σ and π scattering rates by selective substitution of boron or magnesium.\n\nIn low-*Tc* s-wave superconductors, alloying with nonmagnetic impurities does not affect *Tc* much but does increase the slope *Hc2* / = |*dHc2*/*dT*| at *Tc* proportionally to the residual resistivity ρ. This behavior is characteristic of the dirty limit ħvF >> 2π*lkBTc*, where *l* is the electron mean free path,\n\nvF is the Fermi velocity, ħ and kB are the Planck and Boltzmann constants, respectively. The zerotemperature field *Hc2*(0) is then given by <sup>26</sup>\n\n$$H\\_{c2}(0) = 0.69T\\_cH\\_{c2}^/(T\\_c) \\tag{l}$$\n\nBecause *Hc2*(0) increases proportionally to ρ, alloying is a well-established route to *Hc2* enhancement in Nb-Ti 24 and the A15 compounds 25. The same approach has been successfully applied to MgB2 as well, which was demonstrated by alloying of MgB2 films 27, bulk samples 28, and also by proton 29 and neutron 30 irradiation of polycrystalline MgB2. In what follows we show, both experimentally and theoretically, that because of the two-gap superconductivity in MgB2, Equation (1) in fact strongly *underestimates* the actual *Hc2*(0) of dirty MgB2.\n\n# **2. Experimental**\n\nTo show how far *Hc2* can be actually increased by alloying, we performed high-field transport measurements on samples of very different purity: a fiber-textured, high-resistivity (ρ(40K) = 220 µΩ-cm) c-axis-oriented film on (111) SrTiO3 substrate 31, a low-resistivity (ρ(40K) = 7 µΩ-cm), c-axis-oriented, epitaxial MgB2 film on (0001) Al2O3 substrate 32, and 3 untextured polycrystalline bulk MgB2 samples of different resistivities, ρ(40K) = 1-18 µΩ-cm 33. The 220 µΩcm, pulsed laser deposited film was earlier reported to have a macroscopically inhomogeneous resistivity ρ(40K) ≈ 360 - 440 µΩcm 27,31 , but subsequent transmission electron microscopy <sup>34</sup> showed that approximately a half of the measured film thickness was a fully reacted MgB2. The film had *Tc* ~ 31K, and extremely high resistivity compared to the nominal ρ(40K) ≈ 1µΩcm of \"clean\" MgB2 12. The sputtered epitaxial film 32 has 400 nm of MgB2 thickness, *Tc* = 35 K and much lower ρ(40K) ≈ 7µΩcm. The bulk samples have ρ(40K) = 1 µΩcm as made by direct reaction, 18 µΩcm after subsequently heating in Mg vapor followed by slow cooling 33. After aging for two months, the resistivity ρ(40K) for this sample fell from 18 µΩcm down to 5 µΩcm.\n\nMeasurements of *Hc2*(*T*) on thin films were made partly in DC fields up to 14 T in a Quantum Design Physical Property Measurement System (PPMS) and partly in the high-field facility at LANL capable of generating 32 ms asymmetric field pulses up to 50 T. A combination of an ultra fast digitizer and a lock-in amplifier enabled us to take over 32,000 data points of the measured 100 kHz signal during the pulse, from *Tc* to 1.4 K with ~ 10 mK sensitivity. Three data sets taken on the films gave consistent results. The greater cross-section ~ 0.5 × 0.5 mm and lower ρ of the bulk samples made the resistive transitions under pulsed fields so noisy that we had to measure them under dc conditions. Dc measurements up to 14 T were performed in the PPMS while high field resistance *R*(*B*) measurements were made in the 33T resistive magnet at the NHMFL in Tallahassee Florida on the sample annealed in Mg vapor after it was aged for two months.\n\nFigures 1a and 1b show the resistive transitions from 1.5 to 30K of the 220 µΩcm film as a function of pulsed magnetic fields for perpendicular and parallel fields. These transitions agree well with our earlier dc measurements up to 9T of another piece of this same film for which we defined effective irreversibility field *H*\\*(*T*) as *R*(*H*\\* ) = 0.1*R*(*Tc*), and the upper critical field as *R*(*Hc2*) = 0.9*R*(*Tc*) 27. We use here a more conservative criterion for *Hc2* in Figures 1 than the usual definition for *Hc2* as the onset of the resistive transitions, which are much narrower (*H*\\*(*T*) ~ 0.8-0.9*Hc2*(*T*)) as compared to those observed on high-Tc cuprates 35. Although our definition underestimates the actual upper critical field (as seen from Figure 1, the field differences between\n\nthe onset and the 0.9R(Tc) point can be as high as 3-4 Tesla), it makes it less sensitive to the noise on the upper parts of the *R*(*H*) curves.\n\n*Hc2* ||(*T*) and *Hc2* ⊥ (*T*) curves for the 2 films are shown in Figure 2, from which it is immediately clear that the temperature dependence of *Hc2*(*T*) is rather anomalous. Indeed, Equation (1) would predict *Hc2* ⊥ (0) ≈ 10.5 T for the cleaner film, while in fact it exceeds 20 T. In the parallel configuration, Equation (1) gives *Hc2* ||(0) ≈ 20 T versus the measured 30 T. Even more striking is the behavior of the dirtier film. Record high values of *Hc2* ⊥ (0) ≈ 34 T and *Hc2* ||(0) ≈ 49 T are attained, both considerably exceeding the earlier low-field extrapolations of 20 and 39 T based on measurements close to Tc and the use of Equation (1) 27. Both parallel and perpendicular Hc2(T) curves exhibit *upward* curvature and different shapes of *Hc2*(*T*) curves for parallel and perpendicular field orientations, neither being consistent with the one-gap theory 26. We also show the field at which R(H) = 0.1*R*(*Tc*) to emphasize that the extreme high field performance capability of dirtier MgB2 is not very sensitive to the particular definition of *Hc2*. Moreover, for *H* || *ab*, *Hc2* of the dirty MgB2 significantly exceeds Hc2 of the best Nb3Sn at all temperatures. Even for the perpendicular field (*H*⊥*ab*), not only is *Hc2*(*T*) of MgB2 still superior to Nb3Sn, but dirty MgB2 has essentially the same *Hc2* = 12 T at 20 K as the best Nb-Ti at 4.2 K.\n\nFigure 3 collects the data for bulk, untextured MgB2 and again shows the decisive influence of resistivity. The low-resistivity (ρ(40 K) ≈ 1 µΩ-cm) sample has an extrapolated *Hc2*(0) ~ 17 T, close to that of other clean limit samples 12. After exposure to Mg, the resistivity ρ(40K) rose to 18 µΩ-cm and *Hc2* / = 1.2 T/K at 25-30 K became almost as high as *Hc2* / for 220 µΩ-cm film in a perpendicular field. *Hc2* then reached 9 T at 27 K, comparable to the film value in parallel field. After remeasuring this sample about two months later, it had apparently aged, as evidenced by a reduced ρ = 5 µΩ-cm, a decreased *Hc2*(*T*), and an increased *Tc* from 36.9 to 37.7 K. This aging may result from relaxation of stress in the quenched crystalline structure. In any case, the *Hc2*(*T*) data show the same qualitative trends as the film data in Figure 2: as the resistivity increases from 1 to 5 µΩ-cm, *Hc2*(0) approximately doubles, reaching ~ 29 T, close to the best *Hc2*(0) value of Nb3Sn. We do note that the interpretation of resistive transitions for polycrystals may be complicated by the percolative effects due to the anisotropy of *Hc2*, which results in different resistive transitions for crystallites with varying orientations with respect to the applied field.\n\nThe totality of the data presented in Figures 2 and 3 unambiguously indicates that impurity scattering can markedly enhance *Hc2* of MgB2 while only weakly reducing *Tc*. For example, as ρ(40 K) is increased from ~ 1 µΩ-cm to ~ 220 µΩ-cm, the perpendicular field *Hc2* ⊥ (0) rises nearly 10 fold, from the typical single crystal values of ≈ 3-5 T to ~ 35-39 T. However this *Hc2* enhancement is not entirely determined by the resistivity, as in dirty one-gap superconductors. As follows from Figure 2, a significant portion of the *Hc2* increase comes from the anomalous low temperature upward curvature of *Hc2*(*T*).\n\n# **3. Discussion**\n\n# **a) Two-gap, dirty limit theory**\n\nTo address the physics behind the observed anomalous behavior of *Hc2*(*T*), we applied a dirtylimit two-gap superconductivity theory based on the Usadel equations 36,37 to MgB2. In this approach the details of the complex Fermi surface of MgB2 are not essential for the calculation of *Hc2*, while the impurity scattering is accounted for by the normal state electronic diffusivity tensors *D*<sup>σ</sup> αβ and *D*<sup>π</sup> αβ, controlled by their respective intraband scattering rates in the σ and π\n\nbands, and , and interband scattering rates Γπσ and Γσπ. For MgB2, the interband scattering (responsible for *Tc* suppression by nonmagnetic impurities) is weak 23, so we assume for simplicity that Γπσ = Γσπ = 0 (a more general case of finite Γπσ and Γσπ was considered in Ref. 36). In that case the solution of the linearized two-gap Usadel equations for H⊥ab and Γπσ = Γσπ = 0, gives the following equation for *Hc2* ⊥ 36,37\n\n#### **2 [ln ( / )][ln ( / )] [ln ( / )] [ln ( / )] 0** *w t* + *u b t t* + *u* η*b t* + λ**<sup>2</sup>** *t* + *u* η*b t* + λ**<sup>1</sup>** *t* + *u b t* = . (2)\n\nHere *t* = *T*/*Tc*, *u*(*b*) = ψ(1/2 + *b*) - ψ(1/2), ψ(*x*) is the Euler digamma function, *b* = ħ*Hc2D*σ/2φ0*kBTc*, φ0 is the magnetic flux quantum, η = *D*π/*D*σ, *w* = λσσλππ - λσπλπσ, λ1,2 = λ<sup>0</sup> ± λ\\_, λ0 = (λ\\_ 2 + 4λσπλπσ) 1/2, λ\\_ = λσσ - λππ , and the 2 × 2 matrix of the BCS superconducting coupling constants λ*mn* = λ*mn*(ep) - µ*mn* contains both the electron-phonon constants λ*mn*(ep) and the Coulomb pseudopotential µ*mn*. First principles calculations of the intraband (*m* = *n*) and interband (*m* ≠ *n*) matrix elements λ*mn* for MgB2 gave λσσ = 0.81, λππ = 0.28, λσπ = 0.115 and λπσ = 0.09 38.\n\nThe *Hc2*(*T*) curves calculated from Equation (2) evolve from the classic dirty-limit, one-band BCS behavior 26 at *D*π = *D*σ to rather different *Hc2*(*T*) curves which have portions with both upward and downward curvatures for either *D*π << *D*σ and *D*π >> *D*<sup>σ</sup> 36. As a result, *Hc2*(0) can be significantly higher than suggested by the conventional extrapolation (1). To show how this happens, we first obtain *Hc2*(*T*) near *Tc* by expanding Equation (2) using *u*(*b*) ≈ π 2 *b*/2 at *b* << 1:\n\n$$H\\_{c2}^{\\perp}(T) = \\frac{8\\phi\\_0 \\lambda\\_0 k\\_{\\text{B}}(T\\_c - T)}{\\hbar \\pi^2 \\left(\\lambda\\_1 D\\_{\\sigma} + \\lambda\\_2 D\\_{\\pi}\\right)}\\tag{3}$$\n\nFor the characteristic λ*mn* values of MgB2, but very different *D*π and *D*σ, the upper critical field is therefore determined by the maximum intraband diffusivity, for example, by *D*π if disorder mostly causes scattering in the \"strong\" σ band. The zero-temperature value *Hc2*(0) is obtained using the limiting behavior of *u*(*b*/*t*) = ln(4γ*b*/*t*) for *t* << 1 where lnγ = - 0.577. Then Equation (3) reduces to a quadratic equation for ln*Hc2*, whence\n\n$$H\\_{c2} = \\frac{\\phi\\_0 k\\_B T\\_c}{2\\gamma \\hbar \\sqrt{D\\_\\pi D\\_\\sigma}} \\exp(\\mathbf{g} \\cdot \\mathbf{r}),\\tag{4}$$\n\nwhere 2*g* = [(λ0/*w*) 2 + ln<sup>2</sup> η + 2ln(η)λ\\_/*w*] 1/2 - λ0/*w*. For very different diffusivities, Equation (4) yields *Hc2*(0) ≈ φ0*kBTc*exp(-λ2/2*w*)/2γħ*D*σ if *D*σ << *D*π , but *Hc2*(0) ≈ φ0*kBTc*exp(-λ1/2*w*)/2γħ*D*π if *D*π << *D*σ, so *Hc2*(0) diverges as either *D*<sup>σ</sup> or *D*π goes to zero. Thus, unlike the region *T* ≈ *Tc* where *Hc2*(*T*) is determined by the *maximum* diffusivity between *D*<sup>σ</sup> and *D*π, the zero-temperature *Hc2*(0) is controlled by the *minimum* diffusivity. It is this feature of two-gap superconductivity, which causes both the upward curvature of *Hc2*(*T*) and the violation of Equation (1) for *D*<sup>π</sup> ≠ *D*σ. Equation (2) can be generalized to arbitrary field orientation by replacing both intraband diffusivities *Dm* with the angular dependent effective diffusivities 36\n\n$$D\\_m(\\Theta) \\equiv \\left(D\\_m^{\\ \\ \\text{(ab)}2} \\cos^2 \\Theta + D\\_m^{\\ \\ \\text{(c)}} D\\_m^{\\ \\ \\text{(ab)}} \\sin^2 \\Theta\\right)^{1/2},\\tag{5}$$\n\nwhere θ is the angle between **H** and the c-axis, *m* = (σ, π), and the superscripts (ab) and (c) indicate the diffusivities along the ab plane and the c-axis, respectively. Equations (2) and (3) enable us to address the observed anomalous temperature dependence of the anisotropy of *Hc2*(θ) 8-12 , as described in detail elsewhere 36. Here we only use the fact that for the parallel field orientation, *H*||ab, the effective diffusivities in Equations (2)-(4) become *Dm* = [*Dm* (ab)*Dm* (c)] 1/2 .\n\nEquation (2) was used to describe the observations of Figure 2. We focus here on the most resistive film for which the theory describes well all anomalous features of the observed dependence of *Hc2*(*T*), including the upward curvature and the marked increase of *Hc2*(*T*) at low temperatures. The good agreement between the theory and experiment not only gives one more argument for the two-gap scenario in MgB2, but also suggests a new way to increase *Hc2* by manipulation of the diffusivity ratio *D*σ/*D*π using selective atomic substitutions on either Mg or B sites. Both the ratio *D*σ/*D*<sup>π</sup> and the anisotropy parameter *Dm* (ab)/*Dm* (c ) for this dirty film can be extracted from the fit shown in Figure 2, giving *D*<sup>π</sup> (ab) ≈ 0.12*D*<sup>σ</sup> (ab) for **H**⊥ab and [*D*<sup>π</sup> (ab)*D*<sup>π</sup> (c)] 1/2 ≈ 0.2[*D*<sup>σ</sup> (ab)*D*<sup>σ</sup> (c)] 1/2 for **H**||ab. This relation *D*<sup>π</sup> (ab) ∼ 0.1*D*<sup>σ</sup> (ab) indicates that the π-scattering in the dirty film is much stronger than the σ-scattering. Thus, according to Equations (3) and (4), the slope of *Hc2*(*T*) near *Tc* is determined by the σ-scattering most likely is due to impurities or disorder on B sites, whereas the additional increase of *Hc2* at *T* << *Tc* results from the predominantly π-scattering on Mg sites.\n\n# **b)** *Hc2* **anisotropy**\n\nAs follows from Figure 2, the shape of *Hc2*(*T*) curves change as *H* rotates from **H**⊥ab to **H**||ab. This behavior, inconsistent with the one-gap Ginzburg-Landau theory, is also described well by Equations (2) and (5), in which the orientational dependence of *Hc2* is mostly controlled by the highly anisotropic diffusivity *D*σ(θ) for the nearly 2D σ band. For the dirty film, the fit described above gives *D*<sup>π</sup> (ab) ≈ 0.12*D*<sup>σ</sup> (ab) for **H**⊥ab and [*D*<sup>π</sup> (ab)*D*<sup>π</sup> (c)] 1/2 ≈ 0.2[*D*<sup>σ</sup> (ab)*D*<sup>σ</sup> (c)] 1/2 for **H**||ab, whence we obtain *D*<sup>σ</sup> (ab)/*D*<sup>σ</sup> (c) ≈ 3*D*<sup>π</sup> (ab)/*D*<sup>π</sup> (c). Thus, the diffusivity for the nearly 2D σ-band is more anisotropic than the diffusivity for the 3D π-band, in qualitative agreement with *ab-initio* Fermi surface calculations 16,17 and STM measurements 18, which do show weaker tunneling probability to the σ-band along the c-axis. However, our estimate of the ratio *D*<sup>σ</sup> (ab)/*D*<sup>σ</sup> (c) ≈ 3 for the dirty film is smaller than the ratio of the Fermi velocities, vF (ab) ∼ 10<sup>2</sup> vF (c) for the σ band inferred from *abinitio* calculations for clean MgB2 single crystals 16,17. This discrepancy might be due to the significant buckling of the boron planes observed by TEM on our dirty films (see below). Such buckling increases both the out-of-plane electron scattering and the σπ band hybridization, reducing the initial anisotropy of the σ band in the dirty film.\n\nThe temperature dependence of the anisotropy parameter *Hc2* ||/*Hc2* ⊥ extracted from the data of Figure 2 for both the high-resistivity and epitaxial films is shown in Figure 4. As *T* decreases, the ratio *Hc2* ||/*Hc2* ⊥ in both cases *decreases*, from ≈ 2 at *Tc* down to ≈ 1.5 at 0 K. This behavior is opposite to the usual temperature dependence of *Hc2*(T) in MgB2 single crystals for which the anisotropy parameter γ(T) = *Hc2* ||/*Hc2* ⊥ typically *increases* from ≈ 3 at *Tc* up to 5-6 at 0 K 8-12. This unusual dependence of γ(T) for the dirty film is due to the large difference between σ and π electron diffusivities (*D*<sup>π</sup> ∼ 0.1*D*σ). As a result, the anisotropy parameter γ(T) near *Tc* is determined by cleaner, more anisotropic 2D σ band. However, at low temperatures the anisotropy of *Hc2* decreases because γ(T) is mostly determined by the dirtier 3D π band. Thus, the theory based on Equations (2)-(5) does explain the observed decrease of the anisotropy ratio *Hc2* ||/*Hc2* ⊥ as *T* decreases. The anomalous temperature dependence of *Hc2* || /*Hc2* ⊥ is one more manifestation of the two-gap superconductivity in MgB2. Interestingly, the much less resistive epitaxial film also exhibits a qualitatively similar behavior of γ(T).\n\n# **c) Impurity scattering mechanisms**\n\nAt present the mechanisms of impurity scattering in alloyed MgB2 and its complex substitutional chemistry 12,39 are not well understood, though we do know that the previously studied 31 quarter of our dirty 220 µΩ-cm film was oxygen-rich and had a Mg:B:O ratio of 1:0.9:0.7 as measured by wavelength dispersive spectroscopy 34. Both O and C, which substitute for B, can result in strong σ-scattering 23. A further insight can be inferred from the electron micrographs presented in Figures 5a and 5b, which show the \"brick-wall\" grain nanostructure of this film, which stands in stark contrast to the structure of the lower resistivity epitaxial film 32, which has almost perfect layered atomic structure, as shown in Figure 5c. By contrast, the dirty film has a 10-20 nm MgB2 grain size and about 20% of MgO particles of similar size, which produce much distortion of the atomic packing and thus causes significant scattering in both σ and π bands. Another important feature of the dirty film shown in Figure 5b is a pronounced buckling of the Mg planes along the c-axis, which manifests itself both in variations of the Mg-B spacing and in the intensity of Mg spots. The Mg-plane buckling certainly gives rise to strong out-of-plane π scattering, which may explain the relation *D*<sup>π</sup> (ab) ∼ 0.1*D*<sup>σ</sup> (ab) obtained from the fit in Figure 2.\n\nIn the above analysis of the *Hc2* data we assumed that elastic scattering by point defects (nonmagnetic impurities) is the dominant mechanism of the residual resistivity ρ. In this case ρ can be expressed in terms of the diffusivities *D*<sup>σ</sup> and *D*π by\n\n$$1\\text{/p} = e^2(N\\_\\sigma D\\_\\sigma + N\\_\\pi D\\_\\pi),\\tag{6}$$\n\nwhere *N*σ and *N*<sup>π</sup> are partial densities of states in the σ and π bands, respectively, *e* is the electron charge, and the weak interband scattering is neglected. Using Equations (3) and (6), *D*<sup>σ</sup> and *D*<sup>π</sup> can be extracted from the observed ρ and *Hc2* / at *Tc* 36. However, in addition to impurity scattering, the resistivity of real MgB2 samples can also be strongly affected by extrinsic mechanisms, such as scattering on grain boundaries or second phase nanoprecipitates, which effectively reduce the current-carrying cross-section 40. While it is not easy to unambiguously separate extrinsic and intrinsic contributions to ρ, we can nevertheless make qualitative conclusions about the scattering mechanisms by analyzing *both Hc2* and ρ data. Indeed, *Hc2* can be only affected by disorder on the scale shorter than the clean limit GL coherence length, ξσ(0) = [φ0/2π*Hc2*(0)] 1/2 , which is about 8-10 nm for the values of *Hc2*(0) ≈ 3.5 - 5 T characteristic of single crystals 8-12. Therefore, the fact that *Hc2* of the dirty film is increased by almost 10 times as compared to single crystals does indicate strong scattering on the atomic scale << 10 nm, most likely due to impurities, especially O, on the B and Mg planes and quenched crystalline disorder and buckling of Mg planes, as discussed above. In turn, the grain structure on the scale 10-20 nm > ξσ(0) clearly seen in Figure 5a may not be the primary reason for the observed *Hc2* enhancement, although additional scattering on grain boundaries and the MgO precipitates can certainly increase the global resistivity.\n\nOur data clearly show the decisive qualitative effect of resistivity on *Hc2*, however the extrinsic mechanisms 40 may be indeed very important for understanding why *Hc2* even in dirty MgB2 samples does not always scale with ρ and why samples with comparable *Hc2* can have very different ρ. For instance, our dirty 220 µΩcm film has nearly the same slope *Hc2* / at *Tc* as the 18 µΩ-cm Mg-annealed polycrystal. We can therefore conclude that scattering on the nanoscale grain boundary structure shown in Figure 5 could indeed cause a significant extrinsic contribution ρex to the overall resistivity ρ. To account for ρex in the above dirty limit theory, one should substitute only the impurity part, ρ - ρex, instead of ρ in Equation (6) which determines the electron diffusivities *D*<sup>σ</sup> and *D*π. Since the extrinsic mechanisms do not affect *Hc2*, and they do not change results of our analysis based on Equations (2)-(6).\n\nIn principle, the contribution of ρex to the total resistivity ρ could be extracted from the measured ρ(Tc) and Hc2(T) curve with the use of Equations (2) and (6). First, from the fit to Hc2(T) curve, one can evaluate the values of *D*<sup>σ</sup> and *D*π, using the coupling constants λ*mn* and the partial densities of states Nσ and Nπ from *ab-initio* calculations 16,17,38 as input parameters in Equation (2). Next, the impurity contribution ρi can be calculated, upon substitution of the so-obtained *D*<sup>σ</sup> and *D*π into Equation (6), giving the extrinsic contribution, ρex = ρ - ρi.\n\n# **d) MgB2 as an emerging high-field conductor material**\n\nThe observed significant enhancement of *Hc2*(*T*) both for bulk samples and especially for the high-resistivity thin film may provide the missing component to the other essentials needed for a viable MgB2 conductor technology. Low raw material cost, round wire capability, high critical current densities and irreversibility fields are all possessed by MgB2 today 6. Our results show that the two-band physics of dirty MgB2 provides a new way to boost *Hc2* at low temperatures, so that it betters all low-*Tc* superconductors except PbMo6S8, for which *Hc2*(0) = 59 T, as shown in Figure 6. Since no viable wire route has ever been developed for PbMo6S8, the real competitors to MgB2 are only HTS tapes of Bi2Sr2CaCu2O8-x, (Bi,Pb)2Sr2Ca2Cu3O10-x, YBa2Cu3O7-δ or Nb3Sn or Nb-Ti <sup>3</sup> . As follows from Figure 6, MgB2 is already competitive with Nb3Sn at low temperatures and with cuprate HTS at 20-25 K for electric utility applications for which fields up to ~ 5 T are needed 13. Today the majority of superconducting magnet applications use Nb-Ti at 4.2 K and fields below 7 Tesla. This field capability is now open to MgB2 at much higher temperatures 15- 25 K accessible to cryocoolers where the wide stability margin of MgB2 can offer clear advantage over all Nb-based superconductors 14.\n\nOne important path for making suitable MgB2 conductors is based on the powder-in-tube (PIT) route to both round wires and tapes <sup>6</sup> . This process has been validated by the production of highperformance, round PIT Nb3Sn wires, which typically have several hundreds of 20-50 µm filaments with low hysteretic loss 41. Although tape-like HTS conductors are commercially available, they have relatively high ac losses and cannot easily be cabled to make conductors of arbitrary amperage. By contrast, MgB2 offers the advantages of round-wire geometry, low raw materials cost, high strength, capability of being fabricated by a proven wire technology coupled with high *Jc* and moderate *Hc2* anisotropy. As we show in this paper, strong π scattering due to disorder in the Mg sublattice can significantly boost the upper critical field at low temperatures without great penalty to *Tc*. Another important result is that introducing strong scattering in the π band by alloying the Mg sublattice can significantly reduce the *Hc2* anisotropy, as compared to MgB2 single crystals (see Figure 4). We believe that the peculiar high-field behavior of our samples and their good description by a theory of dirty two-gap superconductivity clearly show the general trend for further *Hc2* enhancement in MgB2. Therefore, further systematic studies of the unexplored physics and materials science of MgB2 alloys combined with high-field *Hc2* and *Jc* measurements would be invaluable both for better understanding of high-field superconductivity in MgB2 and for future magnet applications.\n\nThe results of this work also pose a fundamental question: How far can alloying further increase *Hc2* of MgB2? As we have shown both experimentally and theoretically, the two-band physics\n\ndoes remove one essential obstacle for higher *Hc2* at low *T* due to replacing the factor 0.69 in Equation (1) by a function χ(*D*σ, *D*π), which can be *greater than 1*. As a result, much higher *Hc2*(0) values are possible for a given slope *Hc2* / at *Tc*. To properly understand what further improvements in properties can be derived by alloying MgB2, it is vital to measure the whole Hc2(T) curve over a wide range of T and ρ, so that the peculiar alloying potential of this apparently simple material with complex substitutional chemistry 39 can be understood. For instance, for dirty MgB2 with values of *Hc2* / = 1 T/K, *Tc* = 40 K, and χ = 1, the theory predicts *Hc2*(0) = 40 Tesla. Such a high *Hc2*(0) already greatly exceeds *Hc2*(0) of Nb3Sn, even though *Hc2* / is still significantly smaller than the 2 T/K characteristic of other LTS and of HTS, not to mention ~ 2.5 T/K for PbMo6S8 (see Figure 6). For *Hc2* / = 1 T/K, the shortest GL in-plane coherence length ξσ(0) = [φ0/2π*TcHc2* / ] 1/2 ≈ 3 nm for the σ band is still large enough to ensure no significant magnetic granularity and weak link behavior at grain boundaries. Thus, there are no inherent limitations to further increase of *Hc2* / toward the HTS, Nb-Ti and Nb3Sn levels of 2 T/K by proper alloying with nonmagnetic impurities or by quenched-in lattice disorder in MgB2. For *Hc2* / ≈ 2 T/K the field *Hc2*(0) would approach the paramagnetic limit of ≈ ~70 Tesla for MgB2, in which case strong coupling and spin effects should be included in a more general theory based on the Eliashberg equations 17,38.\n\n# **Acknowledgements**:\n\nWe have greatly benefited from discussions and assistance from P. Manfrinetti, A. Palenzona, M. Rzchowski, A. Godeke, B, Senkowicz, P. Voyles, L. Balicas, A. Lacerda, and G. Boebinger. The work was primary supported through the NSF Nanostructured Materials and Interfaces Materials Research Science and Engineering Center at the University of Wisconsin.\n\n# **References**\n\n- 1. Nagamatsu, J., Nakagawa, N., Muranaka, T., Zenitani, Y. & Akimitsu, J. Superconductivity at 39K in Magnesium Diboride. Nature, **410**, 63-64 (2001).\n- 2. Canfield, Paul C. & Crabtree, George W. Magnesium diboride: better late than never. Physics Today, **56**, 34-40 (2003).\n- 3. Dou, S.X., et al. P. Enhancement of the critical current density and flux pinning of MgB2 by nanoparticle SiC doping. Appl. Phys. Lett. **81**, 3419-3421 (2002).\n- 4. Wang, J., et al. High critical current density and improved irreversibility field in bulk MgB2 made by a scalable, nanoparticle addition route. Appl. Phys. Lett. **81**, 2026-2028 (2002).\n- 5. Komori, K, et al. Approach for the fabrication of MgB2 superconducting tape with large in-field transport critical current density Appl. Phys. Letts. **81**, 1047 (2002).\n- 6. Flukiger, R., Suo, H.L., Musolino, N., Beneduce, C., Toulemonde, P. & Lezza, P. Superconducting properties of MgB2 tapes and wires. Physica C **385**, 286-305 (2003).\n- 7. Larbalestier, D.C., et al. Strongly linked current flow in polycrystalline forms of the new superconductor MgB2. Nature **410**, 186-189 (2001).\n- 8. Angst, M., Puzniak, R., Wisniewski, A., Jun, J., Kazakov, S.M., Karpinski, J., Roos, J. & Keller, H. Temperature and field dependence of anisotropy of MgB2. Phys. Rev. Lett. **88**, 1670041-4 (2002).\n- 9. Perkins, G.K, et al., Superconducting Critical fields and anisotropy of a MgB2 single crystal, Supercond. Sci. & Technol. **15**, 1156-1159 (2002).\n- 10. Sologubenko, A.V., Jun, J., Kazakov, S.M., Karpinski, J. & Ott, H.R., Temperature dependence and anisotropy of the upper critical field of MgB2, Phys. Rev. B **65**, 180505-1-4 (2002).\n- 11. Zehetmayer, M., et al. Mixed state properties of superconducting MgB2 single crystals. Phys. Rev. B **66**, 055051-4 (2002).\n- 12. Canfield, P.C., Bud'ko, S.L. & Finnemore, D.K. An overview of the basic physical properties of MgB2. Physica C **385**, 1-7 (2003).\n- 13. Larbalestier, David, Gurevich, Alex, Feldmann, D. Matthew & Polyanskii, Anatolii. High transition temperature superconducting materials for electric power applications. Nature **414**, 368- 377 (2001).\n- 14. Schultz, Joel H. The medium temperature superconductor (MTS) design philosophy. IEEE Trans. Appl. Supercond. **13**, 1604-1607 (2003).\n- 15. Grant, P. Rehearsals for prime time. Nature **411**, 532-533 (2001).\n- 16. Liu, Amy Y., Mazin, I.I. & Kortus, Jens. Beyond Eliashberg superconductivity in MgB2: anharmonicity, two-phonon scattering and multiple gaps. Phys. Rev. Lett. **87**, 0870051-4 (2001).\n- 17. Choi, H.J., Roundy, D., Sun, H., Cohen, M.L. & Loule, S.G. The origin of anomalous superconducting properties of MgB2. Nature **418,** 758-760 (2002).\n- 18. Iavarone, M., et al. Two-band superconductivity in MgB2. Phys. Rev. Lett. **89**, 1870021-4 (2002).\n- 19. Schmidt, H., Zasadzinski, J.E., Gray, K.E. & Hinks, D.G. Evidence for two-band superconductivity from break-junction tunneling in MgB2. Phys. Rev. Lett. **88**, 1270021-4 (2002).\n- 20. Chen, X.K., Kostantinovic, M.J., Irwin, J.C., Lawrie, D.D. & Franck, J.P. Evidence for two gap superconductivity in MgB2. Phys. Rev. Lett. **87**, 1570021-4 (2001).\n- 21. Bouquet, F., Wang, Y., Sheikin, I., Plackowski, T., Junod, A., Lee, S. & Tajima, S. Specific heat of single crystal MgB2: A two-band superconductor with different anisotropies. Phys. Rev. Lett. **89**, 257001-4 (2002).\n- 22. Cubitt, R., Levett, S., Bud'ko, S.L., Anderson, N.E. & Canfield, P.C. Experimental evidence for anisotropic double gap behavior in MgB2. Phys. Rev. Lett. **90**, 1570021-4 (2003).\n- 23. Mazin I.I., et al. Superconductivity in MgB2: Clean or dirty? Phys. Rev. Lett. **89**, 1070021-4 (2002).\n- 24. Fietz, W.A. & Webb, W.W. Magnetic properties of some type II superconductors near the upper critical field, Phys. Rev. **161**, 423-433 (1967).\n- 25. Orlando, T.P., McNiff, E.J., Foner, S. & Beasley, M.R. Critical fields, Pauli paramagnetic limiting, and material parameters of Nb3Sn and V3Si. Phys. Rev. B**19**, 4545-4561 (1979).\n- 26. Ketterson, J.B. & Song, S.N. Superconductivity (Cambridge University Press, Cambridge, 1999).\n- 27. Patnaik, S., et al. Electronic anisotropy, magnetic field-temperature phase diagram and their dependence on resistivity in c-axis oriented MgB2 thin films. Supercond. Sci.& Technol., **14**, 315- 319 (2001).\n- 28. Gumbel, A., et al. Improved superconducting properties in nanocrystalline bulk MgB2. Appl. Phys. Lett. **80**, 2725-2728 (2002).\n- 29. Bugoslavsky, Y., et al. Enhancement of high-field critical current density of superconducting MgB2 by proton irradiation. Nature, **411**, 561-563 (2001).\n- 30. Bouquet, F., et al. Unusual effects of anisotropy on the specific heat of ceramic and single crystal MgB2. Physica C **385**, 192-204 (2003).\n- 31. Eom, C.B., et al. Thin film magnesium boride superconductor with very high critical current density and enhanced irreversibility field. Nature, **411**, 558-560 (2001).\n- 32. Bu, S.D., et al. Synthesis and properties of c-axis oriented MgB2 epitaxial films. Appl. Phys. Lett. **81**, 1851-1853 (2002).\n- 33. Braccini, V., et al. Significant enhancement of irreversibility field in clean-limit bulk MgB2, Appl. Phys. Lett. **81**, 4577-4579 (2002).\n- 34. Song, X., et al. Anisotropic grain morphology, crystallographic texture and their implications for flux pinning in MgB2 pellets, filaments and thin films, Supercond. Sci. & Technol. **15**, 511–518 (2002).\n- 35. Ando, Y et al., Resistive upper critical fields and irreversibility lines of optimally doped high-Tc cuprates, Phys. Rev. B **60**, 12475-12479 (1999).\n- 36. Gurevich, A. Enhancement of Hc2 by nonmagnetic impurities in dirty two-gap superconductors. Phys. Rev. B **67**, 1845151-13 (2003).\n- 37. Koshelev, A.E. & Golubov, A.A. Mixed state in a dirty two-band superconductor: application to MgB2. Phys. Rev. Lett. **90**, 1770021-4 (2003).\n- 38. Golubov, A.A., et al. Specific heat of MgB2 in a one- and a two-band model from first-principle calculations. J. Phys: Condensed Matter. **14**, 1353-1360 (2002).\n- 39. Cava, R. J., Zandbergen, H.W. & Inumaru. K., The substitutional chemistry of MgB2, Physica C **385**, 8-15, (2003).\n- 40. Rowell, John M. The widely variable resistivity of MgB2 samples. Supercond. Sci. & Technol. **16**, R17-R27 (2003).\n- 41. Lindenhovius, J., Hornsveld, E., den Ouden, A., Wessel, W. & ten Kate, H., Powder-in-Tube (PIT) Nb3Sn conductors for high field magnets, IEEE Trans. on Appl. Supercon. **10**, 975-978 (2000).\n\n## **Figure captions:**\n\n**Figure. 1:** Resistive transitions taken in the LANL pulsed field facility on the high resistivity (ρ(40Κ) = 220 µΩcm) film. Data were taken in several runs on more than one occasion. The horizontal dashed lines correspond to 0.1R(Tc) and 0.9R(Tc) defining the irreversibility and the upper critical fields plotted in Figure 2. Figure 1a: data taken at temperatures of 1.43, 2.12, 2.71, 4.06, 4.5, 5.1, 5.95, 8.11, 11.4, 13.95, 17.1, 20.05, 24, 28 and 30.6 K for field applied perpendicular to the film and to the ab plane. Figure 1b: data taken at temperatures of 1.49, 1.99, 2.7, 3.76, 4.41, 7.13, 10.11, 13.33, 15.99, 18.64, 21.8, 24.8, 27.03, 28.85, 29.9 and 30.7 K for field applied parallel to the film and to the ab plane.\n\nFig. 2: The upper critical fields *Hc2*(*T*) (black squares) and irreversibility fields *H*\\* (*T*) (open squares) for high resistivity 220 µΩcm film, and *Hc2*(*T*) for low resistivity 7 µΩcm film (black triangles). Solid curves show *Hc2*(*T*) calculated from Equation (2) with the coupling constants, λσσ = 0.81, λππ = 0.28, λσπ = 0.115 and λπσ = 0.09 38. Figure 2a corresponds to **H**⊥ab, for which the theoretical curve is plotted for *D*π = 0.12*D*σ. Figure 2b corresponds to **H**||ab, for which the theoretical curve is plotted for [*D*<sup>π</sup> (c)*D*<sup>π</sup> (ab) ] 1/2 =0.2[*D*<sup>σ</sup> (c)*D*<sup>σ</sup> (ab)] 1/2. The dashed lines show *Hc2*(*T*) curves for MgB2 single crystals 11.\n\nFig. 3: Dc resistive transitions at a measuring current density ~1 A/cm2 on bulk samples: the clean one (ρ(40 Κ) = 1 µΩcm, black squares), the sample heated in Mg vapor and then slow cooled (ρ(40 Κ) = 18 µΩcm, black diamonds), and the same sample (aged to ρ = 5 µΩcm, black circles) measured at the NHMFL two months later. In the latter case, the low resistivity and short length of the sample significantly decreased the signal to noise ratio at the highest fields and lowest temperatures, as indicated by the error bars. For lower fields, the error bars are not shown because they were smaller than 1T. In any case, *Hc2*(*T*) significantly increases as the resistivity increases, the slope *Hc2*/ = 1.2 T/K at 25-30 K for the 18 µΩcm sample being almost as high as *Hc2*/ for the 220 µΩcm film at **H**⊥ab in Figure 2a. The dashed line shows *Hc2*(*T*) of Nb3Sn.\n\nFig. 4: Temperature dependence of the anisotropy parameter *Hc2*|| /*Hc2*<sup>⊥</sup> for the 220 µΩcm dirty MgB2 film (solid squares) and 7 µΩcm epitaxial film (open triangles) obtained from the data presented in Figure 2. The solid curve is calculated from Equations (2) and (5) for D<sup>π</sup> (ab) = 0.09D<sup>σ</sup> (ab) and D<sup>σ</sup> (ab) = 3D<sup>σ</sup> (c).\n\nFig. 5: Transmission electron micrographs of the two films. a) High resistivity film (ρ(40 Κ) = 220 µΩcm) showing c-axis textured \"brick-wall\" structure with imperfectly distinguished MgB2 and MgO grains with characteristic size of 10-20 nm. b) Atomic resolution image showing the highly strained and buckled Mg structure, especially along the c-axis. Variable intensity of the Mg bright spots indicates buckling of Mg rows in the direction perpendicular to the plane of the figure. c) More perfect structure of the epitaxial film showing much less evidence for distortion in this low resistivity film (ρ(40 Κ) = 7 µΩcm).\n\nFig. 6: Comparison of upper critical fields of low-Tc superconductors. Here we show *Hc2*(*T*) curves for Nb-Ti, high-field Nb3Sn, high resistivity MgB2 film of this work and PbMo6S8 which has the highest Hc2 for non-cuprate superconductors. The high field performance of MgB2 is superior of that of Nb3Sn both for parallel and perpendicular fields. The marked area shows the temperature and field range where the \"medium temperature\" superconducting applications may be most effective 14. The vertical dashed lines show 1 atmosphere boiling points of different cryogenic coolants.\n\n![](0__page_12_Figure_0.jpeg)\n\n![](0__page_13_Figure_0.jpeg)\n\n![](0__page_14_Figure_0.jpeg)\n\n![](0__page_15_Figure_0.jpeg)\n\n![](0__page_16_Figure_0.jpeg)\n\n![](0__page_17_Figure_0.jpeg)\n\n![](0__page_18_Picture_0.jpeg)\n\n![](0__page_19_Figure_0.jpeg)",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Very high upper critical fields in MgB2 produced by selective tuning of \nimpurity scattering.",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              93.83203125,
+              73.8277587890625
+            ],
+            [
+              520.3999633789062,
+              73.8277587890625
+            ],
+            [
+              520.3999633789062,
+              103.88751220703125
+            ],
+            [
+              93.83203125,
+              103.88751220703125
+            ]
+          ]
+        },
+        {
+          "title": "1. Introduction",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              266.853515625,
+              98.6826171875
+            ],
+            [
+              346.9802551269531,
+              98.6826171875
+            ],
+            [
+              346.9802551269531,
+              109.66265869140625
+            ],
+            [
+              266.853515625,
+              109.66265869140625
+            ]
+          ]
+        },
+        {
+          "title": "2. Experimental",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              263.267578125,
+              232.30224609375
+            ],
+            [
+              349.08056640625,
+              232.30224609375
+            ],
+            [
+              349.08056640625,
+              243.439453125
+            ],
+            [
+              263.267578125,
+              243.439453125
+            ]
+          ]
+        },
+        {
+          "title": "3. Discussion",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              278.0595703125,
+              601.9025421142578
+            ],
+            [
+              351.461669921875,
+              601.9025421142578
+            ],
+            [
+              351.461669921875,
+              612.8825378417969
+            ],
+            [
+              278.0595703125,
+              612.8825378417969
+            ]
+          ]
+        },
+        {
+          "title": "a) Two-gap, dirty limit theory",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              241.453125,
+              627.1621398925781
+            ],
+            [
+              390.9254150390625,
+              627.1621398925781
+            ],
+            [
+              390.9254150390625,
+              638.47265625
+            ],
+            [
+              241.453125,
+              638.47265625
+            ]
+          ]
+        },
+        {
+          "title": "2 [ln ( / )][ln ( / )] [ln ( / )] [ln ( / )] 0 w t + u b t t + u \nη\nb t + \nλ\n2 t + u \nη\nb t + \nλ\n1 t + u b t = . (2)",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              90.0,
+              153.35882568359375
+            ],
+            [
+              512.3869018554688,
+              153.35882568359375
+            ],
+            [
+              512.3869018554688,
+              167.564208984375
+            ],
+            [
+              90.0,
+              167.564208984375
+            ]
+          ]
+        },
+        {
+          "title": "b) Hc2 anisotropy",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              270.73828125,
+              294.1622314453125
+            ],
+            [
+              357.9962158203125,
+              294.1622314453125
+            ],
+            [
+              357.9962158203125,
+              305.8697509765625
+            ],
+            [
+              270.73828125,
+              305.8697509765625
+            ]
+          ]
+        },
+        {
+          "title": "c) Impurity scattering mechanisms",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              223.5234375,
+              73.3624267578125
+            ],
+            [
+              390.4350891113281,
+              73.3624267578125
+            ],
+            [
+              390.4350891113281,
+              84.4013671875
+            ],
+            [
+              223.5234375,
+              84.4013671875
+            ]
+          ]
+        },
+        {
+          "title": "d) MgB2 as an emerging high-field conductor material",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              178.400390625,
+              218.26220703125
+            ],
+            [
+              432.404296875,
+              218.26220703125
+            ],
+            [
+              432.404296875,
+              229.9697265625
+            ],
+            [
+              178.400390625,
+              229.9697265625
+            ]
+          ]
+        },
+        {
+          "title": "Acknowledgements:",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              257.58984375,
+              318.58197021484375
+            ],
+            [
+              355.7870178222656,
+              318.58197021484375
+            ],
+            [
+              355.7870178222656,
+              329.56195068359375
+            ],
+            [
+              257.58984375,
+              329.56195068359375
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              280.3799743652344,
+              98.6826171875
+            ],
+            [
+              334.3756103515625,
+              98.6826171875
+            ],
+            [
+              334.3756103515625,
+              109.66265869140625
+            ],
+            [
+              280.3799743652344,
+              109.66265869140625
+            ]
+          ]
+        },
+        {
+          "title": "Figure captions:",
+          "heading_level": null,
+          "page_id": 11,
+          "polygon": [
+            [
+              270.439453125,
+              73.235107421875
+            ],
+            [
+              343.3828430175781,
+              73.235107421875
+            ],
+            [
+              343.3828430175781,
+              83.255126953125
+            ],
+            [
+              270.439453125,
+              83.255126953125
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              141
+            ],
+            [
+              "Line",
+              48
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Footnote",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              282
+            ],
+            [
+              "Line",
+              68
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              262
+            ],
+            [
+              "Line",
+              47
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              273
+            ],
+            [
+              "Line",
+              61
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              664
+            ],
+            [
+              "Line",
+              101
+            ],
+            [
+              "TextInlineMath",
+              6
+            ],
+            [
+              "Equation",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              443
+            ],
+            [
+              "Line",
+              94
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              267
+            ],
+            [
+              "Line",
+              56
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              196
+            ],
+            [
+              "Line",
+              45
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              135
+            ],
+            [
+              "Line",
+              37
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              254
+            ],
+            [
+              "Line",
+              53
+            ],
+            [
+              "ListItem",
+              25
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              147
+            ],
+            [
+              "Line",
+              35
+            ],
+            [
+              "ListItem",
+              16
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              312
+            ],
+            [
+              "Line",
+              56
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              45
+            ],
+            [
+              "Line",
+              25
+            ],
+            [
+              "Figure",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              16
+            ],
+            [
+              "Span",
+              16
+            ],
+            [
+              "Figure",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 14,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              59
+            ],
+            [
+              "Line",
+              26
+            ],
+            [
+              "Figure",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 15,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              57
+            ],
+            [
+              "Line",
+              24
+            ],
+            [
+              "Figure",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 16,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              60
+            ],
+            [
+              "Line",
+              22
+            ],
+            [
+              "Figure",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 17,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              29
+            ],
+            [
+              "Line",
+              12
+            ],
+            [
+              "Figure",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 18,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Picture",
+              1
+            ],
+            [
+              "Line",
+              1
+            ],
+            [
+              "Span",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 19,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              15
+            ],
+            [
+              "Line",
+              4
+            ],
+            [
+              "Figure",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 20,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Very high upper critical fields in MgB<SUB>2</SUB> produced by selective tuning of impurity scattering",
+    "authors": [
+      {
+        "authors_list": [
+          "Gurevich, A.",
+          "Patnaik, S.",
+          "Braccini, V.",
+          "Kim, K. H.",
+          "Mielke, C."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "We report a significant enhancement of the upper critical field H<SUB>c2</SUB> of different MgB<SUB>2</SUB> samples alloyed with nonmagnetic impurities. By studying films and bulk polycrystals with different resistivities rgr, we show a clear trend of an increase in H<SUB>c2</SUB> as rgr increases. One particular high resistivity film had a zero-temperature H<SUB>c2</SUB>(0) well above the H<SUB>c2</SUB> values of competing non-cuprate superconductors such as Nb<SUB>3</SUB>Sn and Nb-Ti. Our high-field transport measurements give record values H_{\\mathrm {c2}}^{ \\bot }(0) \\approx 34 T and H_{\\mathrm {c2}}^{\\vert \\vert }(0) \\approx 49 T for high resistivity films and H_{\\mathrm {c2}}(0) \\approx 29 T for untextured bulk polycrystals. The highest H<SUB>c2</SUB> film also exhibits a significant upward curvature of H<SUB>c2</SUB>(T) and a temperature dependence of the anisotropy parameter \\gamma (T)=H_{\\mathrm {c2}}^{\\vert \\vert }/ H_{\\mathrm {c2}}^{ \\bot } opposite to that of single crystals: ggr(T) decreases as the temperature decreases, from \\gamma (T_{\\mathrm {c}}) \\approx 2 to \\gamma (0) \\approx 1.5 . This remarkable H<SUB>c2</SUB> enhancement and its anomalous temperature dependence are a consequence of the two-gap superconductivity in MgB<SUB>2</SUB>, which offers special opportunities for further H<SUB>c2</SUB> increases by tuning of the impurity scattering by selective alloying on Mg and B sites. Our experimental results can be explained by a theory of two-gap superconductivity in the dirty limit. The very high values of H<SUB>c2</SUB>(T) observed suggest that MgB<SUB>2</SUB> can be made into a versatile, competitive high-field superconductor.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Superconductor Science Technology",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:cond-mat/0305474"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1088/0953-2048/17/2/008",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2004SuScT..17..278G"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

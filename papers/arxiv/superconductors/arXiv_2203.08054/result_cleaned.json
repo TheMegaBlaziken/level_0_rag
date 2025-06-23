@@ -1,0 +1,213 @@
+{
+  "id": "e992e61c21ebe8c8c31967ba46ebc5d9",
+  "pdf_path": "apl/Superconductors/arXiv:2203.08054.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "## **High Field Magnet Development for HEP in Europe – A Proposal from LDG HFM Expert Panel**\n\n- P. Védrine (Chair)<sup>a</sup> , L. García-Tabarés (Co-Chair) <sup>b</sup> , B. Auchmann <sup>c</sup> , A. Ballarino <sup>d</sup> ,\n- B. Baudouy <sup>a</sup> , L. Bottura <sup>d</sup> , P. Fazilleau <sup>a</sup> , M. Noe <sup>e</sup> , S. Prestemon <sup>f</sup> , E. Rochepault <sup>a</sup> , L. Rossi <sup>g</sup> ,\n- C. Senatore <sup>h</sup> , B. Shepherd <sup>i</sup>\n- <sup>a</sup> CEA, Saclay, France\n- <sup>b</sup> CIEMAT, Madrid, Spain\n- <sup>c</sup> PSI, Villigen, Switzerland\n- <sup>d</sup> CERN, Geneva, Switzerland\n- <sup>e</sup> KIT/ITEP, Karlsruhe, Germany\n- f LBNL, Berkeley, California, USA\n\n<sup>g</sup>University of Milan, Physics department and INFN division of Milan, LASA Laboratory, Milan, Italy\n\n<sup>h</sup>University of Geneva, Switzerland\n\ni STFC Rutherford Appleton Laboratory, Harwell Campus, UK\n\nThe European Laboratory Directors Group (LDG) was mandated by CERN Council in 2021 to oversee the development of an Accelerator R&D High Energy Physics Accelerator Roadmap. To this end, a set of expert panels was convened, covering the five broad areas of accelerator R&D highlighted in the ESPPU, drawing upon the international accelerator physics community for their membership, and tasked to consult widely and deeply.\n\nHigh Field Magnets (HFM) is one of this R&D axes and are among the key technologies that will enable the search for new physics at the energy frontier. Approved projects (HL-LHC) and potential future circular machines such as proton-proton Future Circular Collider (FCC-hh) and Super protonproton Collider (SppC) require the development of Superconducting (SC) magnets that produce fields beyond those attained in the LHC.\n\nThe present state of the art in HFM is based on Nb3Sn, with magnets producing fields in the range of 11 T to 14 T. We have tackled in the last years the challenges associated with the brittle nature of this material, but we realize that more work is required and that manufacturing is not robust enough to be considered ready at an industrial scale.\n\nGreat interest has been also stirred in recent years by the progress achieved on HTS, not only in the fabrication of demonstrators for particle physics, but also in the successful test of magnets in other fields of application such as fusion and power generation. This shows that the performance of HTS magnets will exceed that of the Nb3Sn, and also that the two technologies can be complementary to produce fields in the range of 20 T, and possibly higher.\n\nThe programme proposed here will advance beyond the results achieved over the past twenty years in past European and international programmes such as EU FP6 Coordinated Accelerator Research in Europe (CARE), EU FP7 European Coordination for Accelerator Research & Development (EuCARD), EU FP7 Enhanced European Coordination for Accelerator Research & Development (EuCARD2), EU FP7 Accelerator Research and Innovation for European Science and Society (ARIES), and current work such as HL-LHC, EU H2020 Innovation Fostering in Accelerator Science and Technology (I-FAST), CERN-HFM and US Magnet Development Program (US-MDP).\n\nThe proposed R&D programme (see [1] for a full description) has two main objectives. The first is to demonstrate Nb3Sn magnet technology for large-scale deployment. This will involve pushing it to its practical limits in terms of ultimate performance (towards the 16 T target required by FCC-hh), and moving towards production scale through robust design, industrial manufacturing processes and cost reduction, taking as a reference the HL-LHC magnets, i.e. 12 T). The second objective is to demonstrate the suitability of High Temperature Superconductor (HTS) for accelerator magnet applications, providing a proof-of-principle of HTS magnet technology beyond the range of Nb3Sn, with a target in excess of 20 T. The above goals are indicative, since the decision on a cost-effective and practical operating field will be one of the main outcomes of the development work.\n\nThe proposed roadmap (Fig. 1) comprises three focus areas (Nb3Sn and HTS conductors, Nb3Sn magnets, and HTS magnets) enabled by three cross-cutting activities (materials, cryogenics and models, powering and protection, and infrastructure and instruments).\n\n![](_page_1_Figure_3.jpeg)\n\nFig. 1: Overview of proposed roadmap for high-field magnet development and associated technologies.\n\nThe methodology of the proposed programme is based on sequential development happening in steps of increasing complexity and integration, from samples, to small scale magnets, short magnets and long magnets in order to produce a fast-moving technology progression. We are convinced that fast-tracking and innovation are crucial to meeting the declared goals on a reasonable time scale.\n\nThe conductor activities, besides the necessary procurements, will focus on two aspects. Nb3Sn R&D will push beyond the state-of-the-art to consolidate the critical current capability (target non-copper current density of 1500 A/mm2 at 16 T and 4.2 K), establishing robust wire and cable configurations with reduced cost. These will then be the subject of a four-year period of industrialisation, which will be followed by a similar period of industrial optimisation. On the HTS side, the intention is to identify and qualify suitable tapes and cables, and follow up with industrial production to ensure the feasibility of large unit lengths (target 1 km) of HTS tapes with characteristics tailored to accelerator magnet applications. This HTS conductor R&D phase is expected to last for seven years.\n\nThe Nb3Sn magnet development will improve areas of HL-LHC technology that have been found to be sub-optimal, notably the degradation associated with the fragile conductor, targeting the highest practical operating field that can be achieved. The plan is to work jointly with wire and cable development to mitigate degradation associated either with length or electro-thermo-mechanical effects. The R&D will explore design and technology variants to identify robust design options for the field level targeted.\n\nFor Nb3Sn magnets, two objectives have been defined: the development of a 12T demonstrator of proven robustness suitable for industrialization, in parallel to the development of an accelerator demonstrator dipole reaching the ultimate field for this material, towards the target of 16 T.\n\nThe magnet technology R&D will progress in steps over a projected period of seven years, but is intended to provide crucial results through demonstration magnets in time for the next update of the European Strategy for Particle Physics (ESPP). Another five years are expected to be necessary to extrapolate the demonstrator results to full-length units.\n\nR&D plans for HTS magnets focus on manufacturing and testing of sub-scale and insert coils as a vehicle to demonstrate performance and operation beyond the range of Nb3Sn. For HTS magnets, a dual objective is proposed: the development of a hybrid LTS/HTS accelerator magnet demonstrator and a full HTS accelerator magnet demonstrator, with a target of 20 T. Special attention will be devoted to the possibility of operating in an intermediate temperature range (10K to 20 K).\n\nThe projected duration of this phase of test magnets, i.e. not yet accelerator designs, is seven years. By this time the potential of HTS for accelerator operation will be clear. At least five more years will be required to develop HTS demonstrators that include all the necessary accelerator features, surpassing Nb3Sn performance or working at temperatures higher than liquid helium. Nb3Sn is today the natural reference for future accelerator magnets, but HTS represents a real opportunity provided the current trend of production and price reduction is sustainable.\n\nEnergy efficiency efforts in line with societal trends should also be retained as one of the objectives when developing the next generation of magnets. The use of HTS conductors operated at higher temperatures could be a step in the right direction.\n\nThe cross-cutting technology activities will be a key seed for innovation. The scope includes materials and composites development using advanced analytics and diagnostics, new engineering solutions for the thermal management of high-field magnets, and the development of modelling tools within a unified engineering design framework. We propose to explore alternative methods of detection and\n\nprotection against quench (especially important for HTS) including new measurement methods and diagnostics.\n\nFinally, dedicated manufacturing and test infrastructure required for the HFM R&D programme, including instrumentation upgrades, needs to be developed, built and operated through close coordination between the participating laboratories.\n\nThe distribution of effort between the different axes of the nominal scenario described in the HFM programme is presented in Figure 2. The Nb3Sn conductor activities require a significant investment in the procurement of superconductor, about 50% of the total material value of the activities on Nb3Sn conductor. This procurement only marginally contributes to the conductor R&D, but is obviously necessary to feed the magnet development. The case is different for the HTS conductor, where tape and cable R&D dominates the cost of the programme.\n\n![](_page_3_Figure_3.jpeg)\n\nFig. 2: Distribution of the effort between the different axes of the nominal scenario of the HFM programme.\n\nThe proposed programme also highlights to some extent the impact of the development of HFM magnets on the industrial ecosystem and on the training and education of future generations of applied scientists. One of the objectives is to propose actions to support European industry, responding to the ongoing evolution of business models, and fostering the deployment of developments and innovations from research to industry.\n\nThe programme would also like to emphasise the values of collaboration, and the connection to the ongoing programmes worldwide. Realizing the proposed HFM programme will build a broad and resilient basis of competence, a strong community, and the opportunity to educate the future generation on subjects of high-technological content.\n\n[1]: P. Védrine, L. García-Tabarés, B. Auchmann, A. Ballarino, B. Baudouy, L. Bottura, P. Fazilleau, M. Noe, S. Prestemon, E. Rochepault, L. Rossi, C. Senatore and B. Shepherd, High-field Magnets, DOI: 10.23731/CYRM-2021-XXX.11, in: European Strategy for Particle Physics - Accelerator R&D Roadmap, Ed.N. Mounet, CERN Yellow Reports: Monographs, CERN-2021-XXX, DOI: 10.23731/CYRM-2021-XXX, p. 11.© CERN, 2021. Published by CERN under the Creative Commons Attribution 4.0 license.",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "High Field Magnet Development for HEP in Europe – A Proposal from LDG HFM Expert Panel",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              69.9892578125,
+              71.33154296875
+            ],
+            [
+              491.81640625,
+              71.33154296875
+            ],
+            [
+              491.81640625,
+              83.96002197265625
+            ],
+            [
+              69.9892578125,
+              83.96002197265625
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              156
+            ],
+            [
+              "Line",
+              51
+            ],
+            [
+              "ListItem",
+              9
+            ],
+            [
+              "Text",
+              8
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              45
+            ],
+            [
+              "Line",
+              16
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Figure",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              105
+            ],
+            [
+              "Line",
+              43
+            ],
+            [
+              "Text",
+              9
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              73
+            ],
+            [
+              "Line",
+              27
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "Figure",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/yuzc1PRqj5jIsXB7TV6fsQ"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 4,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "High Field Magnet Development for HEP in Europe: A Proposal from LDG HFM Expert Panel",
+    "authors": [
+      {
+        "authors_list": [
+          "Védrine, Pierre",
+          "Garcia-Tabarès, Luis",
+          "Auchmann, Bernhard",
+          "Ballarino,"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "The European Laboratory Directors Group (LDG) was mandated by CERN Council in 2021 to oversee the development of an Accelerator R&D Roadmap. To this end, a set of expert panels was convened, covering the five broad areas of accelerator R&D highlighted in the ESPPU. The High Field Magnet (HFM) Panel is proposing a programme to demonstrate Nb3Sn magnet technology for large-scale deployment and to investigate the suitability of high temperature superconductors (HTS) for accelerator magnet applications. A summary of this programme is presented here.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2203.08054"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.2203.08054",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2022arXiv220308054V"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

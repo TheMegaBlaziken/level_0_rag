@@ -1,0 +1,1171 @@
+{
+  "id": "15a7e0e1e69d53d89de70c248fb6a62a",
+  "pdf_path": "apl/Superconductors/arXiv:1803.09723.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# arXiv:1803.09723v1 [physics.acc-ph] 26 Mar 2018\n\n# Proton Colliders at the Energy Frontier\n\nMichael Benedikt and Frank Zimmermann CERN, CH-1211 Geneva 23, Switzerland\n\nMarch 16, 2022\n\n### Abstract\n\nSince the first proton collisions at the CERN Intersecting Storage Rings (ISR) [\\[1,](#page-15-0) [2\\]](#page-15-1), hadron colliders have defined the energy frontier [\\[3\\]](#page-15-2). Noteworthy are the conversion of the Super Proton Synchrotron (SPS) [\\[4,](#page-15-3) [5\\]](#page-15-4) into a proton-antiproton collider, the Tevatron proton-antiproton collider [\\[6\\]](#page-15-5), as well as the abandoned SSC in the United States [\\[7,](#page-15-6) [8\\]](#page-15-7), and early forward-looking studies of even higher-energy colliders [\\[9,](#page-15-8) [10,](#page-15-9) [11,](#page-15-10) [12\\]](#page-15-11). Hadron colliders are likely to determine the pace of particle-physics progress also during the next hundred years. Discoveries at past hadron colliders were essential for establishing the so-called Standard Model of particle physics. The world's present flagship collider, the Large Hadron Collider (LHC) [\\[13\\]](#page-16-0), including its high-luminosity upgrade (HL-LHC) [\\[14\\]](#page-16-1), is set to operate through the second half of the 2030's. Further increases of the energy reach during the 21st century require another, still more powerful hadron collider. Three options for a next hadron collider are presently under investigation. The Future Circular Collider (FCC) study, hosted by CERN, is designing a 100 TeV collider, to be installed inside a new 100 km tunnel in the Lake Geneva basin. A similar 100-km collider, called Super proton-proton Collider (SppC), is being pursued by CAS-IHEP in China. In either machine, for the first time in hadron storage rings, synchrotron radiation damping will be significant, with a damping time of the order of 1 hour. In parallel, the synchrotron-radiation power emitted inside the cold magnets becomes an important design constraint. One important difference between FCC and SppC is the magnet technology. FCC uses 16 Tesla magnets based on Nb3Sn superconductor, while SppC magnets shall be realized with cables made from iron-based hightemperature superconductor. Initially the SppC magnets are assumed to provide a more moderate dipole field of 12 T, but they can later be pushed to a final ultimate field of 24 T. A third collider presently under study is the High-Energy LHC (HE-LHC), which is a higher energy collider in the existing LHC tunnel, exploiting the FCC magnet technology in order to essentially double the LHC energy at significantly higher luminosity.\n\n### 1 Introduction\n\nCircular hadron colliders are known as discovery machines. Their discovery reach is determined by the beam energy, which depends on only two parameters: the dipole magnetic field and the size of the collider. Therefore, historically new colliders always were larger and used stronger magnets than their predecessors. For example, the Tevatron near Chicago was the first hadron collider based on superconducting magnet technology, with a dipole field of 4.2 T, and it was installed in a 6.3 km ring. The LHC uses 8.3 T dipoles in a 26.7 km tunnel. The 100 TeV Future Circular Collider (hadron version \"FCC-hh\") requires 16 Tesla dipole magnets in a 100 km ring. No other proposed concept, not even a muon collider or a plasma collider, appears technically ready to provide collision energies in the 10's of TeV energy range during the 21st century.\n\nThe collider luminosity ideally increases with the square of the energy since the cross sections decrease as the inverse square of energy. However, due to the nonlinear parton distribution inside the colliding protons also a lower luminosity can produce exciting physics, and the most important parameter of a hadron collider remains its energy. Nevertheless, at a given energy the discovery reach grows with higher luminosity [\\[15\\]](#page-16-2). which is one of the motivations for upgrading the LHC to the HL-LHC. The LHC design has already dramatically increased the luminosity compared with previous machines. This can be seen in Figs. [1](#page-1-0) and [2.](#page-2-0) Much higher luminosities still are expected for the approved HL-LHC, which will lower its peak luminosity by \"levelling\" in order to make it acceptable for the physics experiments, as well as for the proposed HE-LHC and FCC-hh. The luminosity for the latter two machines will profit from significant radiation damping at the associated high beam energies and magnetic fields [\\[16\\]](#page-16-3).\n\n![](_page_1_Figure_3.jpeg)\n\n<span id=\"page-1-0\"></span>Figure 1: Luminosity vs. centre-of-mass energy for past and present [blue], upcoming [red], and longer-term future hadron (pp or pp¯) colliders [green and purple] around the world.\n\n![](_page_2_Figure_0.jpeg)\n\n<span id=\"page-2-0\"></span>Figure 2: Hadron collider peak luminosity as a function of year for past, operating, and proposed facilities including the Future Circular Collider (courtesy W. Fischer).\n\n# 2 Hadron-Collider Beam Dynamics and Limitations\n\nThe hadron-collider luminosity increases linearly with energy due to the shrinking beam sizes, when keeping the beam current, the beta functions at the interaction point (IP), β ∗ x,y, and the beam-beam tune shift constant. Even higher luminosity can be achieved by reducing the IP beta functions. Perhaps surprisingly, until now all hadron colliders, starting from the ISR, have operated with similar beta functions, with minimum values of about 0.3 m; see Table [1.](#page-3-0) With 0.15 m (or even 0.10 m) the HL-LHC will set a new record. An ongoing study aims at pushing the FCC-hh β <sup>∗</sup> down to 5 cm [\\[17\\]](#page-16-4).\n\nFor proton-proton colliders with many bunches, such as HL-LHC and FCChh, a crossing angle is required to avoid or mitigate parasitic beam-beam collisions. Unfortunately, this crossing angle needs to be increased as β ∗ x,y is reduced. Without countermeasures this would dramatically degrade the geometric overlap of the colliding bunches and all but eliminate any benefit from reducing the IP beam size. To avoid this degradation, the HL-LHC, the HE-LHC and FCC-hh phase 2 will all use novel crab cavities [\\[18,](#page-16-5) [19,](#page-16-6) [20,](#page-16-7) [21,](#page-16-8) [22,](#page-16-9) [23\\]](#page-16-10). These are transversely deflecting RF cavities, which impart kicks of opposite sign tothe head and the tail of each bunch, so as to maintain the crossing angle of the bunch centroid motion, while at the same time restoring the full geometric bunch overlap during the collision.\n\nPresent and future hadron colliders are characterized by a large amount of stored beam energy, which render machine protection a paramount concern. A multi-stage collimation system is needed to avoid local beam loss spikes near cold magnets, which would induce magnet quenches. The collimation system of the LHC [\\[25\\]](#page-16-11) works according to specification [\\[26\\]](#page-16-12). For the planned and proposed future colliders — HL-LHC, HE-LHC, SppC, and FCC-hh — collimation\n\n| collider | ∗<br>β<br>[m]<br>x | ∗<br>β<br>[m]<br>y |  |\n|----------|--------------------|--------------------|--|\n| ISR      | 3.0                | 0.3                |  |\n| Spp¯S    | 0.6                | 0.15               |  |\n| HERA-p   | 2.45               | 0.18               |  |\n| RHIC     | 0.50               | 0.50               |  |\n| Tevatron | 0.28               | 0.28               |  |\n| LHC      | 0.3                | 0.3                |  |\n| HL-LC    | 0.15               | 0.15               |  |\n| FCC-hh   | 1.1→ 0.3 (0.05)    | 1.1→ 0.3 (0.05)    |  |\n| SppC     | 0.71               | 0.71               |  |\n| HE-LHC   | 0.25               | 0.25               |  |\n\n<span id=\"page-3-0\"></span>Table 1: Beta\\* at hadron colliders (R. Tomas [\\[24\\]](#page-16-13)).\n\nremains a challenge.\n\nBeam injection and beam extraction are particularly sensitive operations, as the injection or dump kickers belong to the fastest elements in the machine. The collider design must be robust against the sudden asynchronous firing of a kicker unit. The collimators are likely to be the first element to be hit by the beam in case of any fast failure. They must withstand the impact of one or a few bunches. The primary and secondary collimators of the LHC are based on carbon-carbon composite material. For the HL-LHC and farther future machines, even stronger materials are being developed and examined, which, in addition, feature a higher conductivity and, hence, lower \"impedance\". More advanced options include the use of short bent crystals as primary collimators, and the deployment of hollow electron-beam lenses as non-destructible collimators. An acceptable performance of the collimation system along with small IP beta function also requires an excellent optics control.\n\nHadron beam intensity may be limited by conventional instabilities, in particular, due to the very large circumference and low momentum compaction, respectively, by resistive wall instability (low revolution frequency) and transverse mode coupling at injection. Another intensity limit may arise from the build up of an electron cloud, which may drive a different type of instability or create additional significant heat loads on the beam screen inside the cold magnets. Indeed, the electron cloud is a primary source of beam instability already in the LHC, especially with a proton bunch spacing of 25 ns. The beam performance tends to improve in time thanks to beam-induced surface conditioning (\"scrubbing\"). In addition, at the LHC occasional losses of transverse or longitudinal Landau damping arise due to the classical machine impedance with contributions from the resistive vacuum chamber, RF cavities, and chamber transitions. Concerning instability mitigation, the following lessons have been learnt [\\[27,](#page-16-14) [28,](#page-17-0) [29\\]](#page-17-1) in operating the LHC [\\[24\\]](#page-16-13): There exists a narrow range of machine settings for which the beam remains stable all along the cycle; instabilities occur if the transverse betatron coupling exceeds a certain threshold value (different at different stages of operation); chromaticity settings are crucial along the cycle and cannot be relaxed; the octupole-magnet settings have to be adapted according to beam emittance; finally, the transverse damper is indispensable to preserve beam stability all along the cycle.\n\n![](_page_4_Figure_1.jpeg)\n\n<span id=\"page-4-0\"></span>Figure 3: Electron cloud distribution in an LHC dipole magnet for varying proton bunch population (left) and central electron density versus bunch intensity (right) (A. Romano et al.; and G. Rumolo, Valencia, 2017 [\\[24\\]](#page-16-13)).\n\nInterestingly, the electron cloud can drive coherent instabilities even when beams are in collision, with the associated strong Landau damping. Simulations and earlier measurements at the SPS show that, for lower bunch intensities, the electron cloud in the dipoles tends to form a central stripe; at the LHC the central density threshold of the electron-cloud driven single-bunch head-tail instability (∼ 5 × 10<sup>11</sup> m<sup>−</sup><sup>3</sup> at a chromaticity of Q<sup>0</sup> ≈ 15) is crossed when the bunch intensity decreases, as is illustrated in Fig. [3;](#page-4-0) for Q<sup>0</sup> > 20 the threshold becomes much higher. This explanation of the beam instabilities observed towards the end of LHC physics fills also is consistent with the disappearance of the phenomenon after scrubbing.\n\n# 3 Pushing the Energy Frontier in the 21st Century\n\nA very large circular hadron collider with 100 TeV c.m. collision energy will offer access to new particles through direct production in the few-TeV to 30 TeV mass range, far beyond the LHC reach [\\[30\\]](#page-17-2). It would also provide muchincreased rates for phenomena in the sub-TeV mass range and, thereby, a much increased precision compared with the HL-LHC [\\[30\\]](#page-17-2).\n\nThe centre-of-mass energy reach of a hadron collider is directly proportional to the maximum magnetic field B and to the bending radius ρ:\n\n$$E\\_{\\rm c.m.} \\propto \\rho B.\\tag{1}$$\n\nTherefore, an increase in the size of the collider compared with the LHC by a factor of about 4 and an approximate doubling of the magnetic field yields almost an order of magnitude increase in energy.\n\nSuch approach was first suggested during the High-Energy LHC (HE-LHC) workshop in 2010 [\\[31\\]](#page-17-3). Now it is the focus of the Future Circular Collider (FCC) study [\\[32\\]](#page-17-4), which was launched in response to the 2013 Update of the European Strategy for Particle Physics [\\[33\\]](#page-17-5): Dipole magnets with a field of 16 Tesla in a 100 km ring will result in a centre-of-mass energy of 100 TeV. This goal defines the overall infrastructure requirements for the FCC accelerator complex. The FCC study scope also includes the design of a high-luminosity e+e <sup>−</sup> collider (FCC-ee) operating at c.m. energies of 90–365 GeV, as a possible first step with a remarkably rich physics programme [\\[34\\]](#page-17-6) —, as well as a proton-electron collision option (FCC-he) at one interaction point, where a 60 GeV electron beam from an energy recovery linac would be collided with one of the two 50 TeV proton beams circulating in the FCC-hh. The design of a higher-energy hadron collider in the LHC tunnel based on FCC-hh magnet technology — the so-called High-Energy LHC (HE-LHC) — is yet another part of the FCC study.\n\nAs of December 2017, 113 institutes and 25 companies from 32 countries are participating in the FCC study. The near-term goal is to deliver a Conceptual Design Report of all FCC collider options, including technologies, detector design, and physics goals, before the end of 2018, as input to the next European Strategy Update process planned for 2019/20.\n\nFigure [4](#page-5-0) compares the time lines of various past and present circular colliders at CERN with a projected time line for the FCC, indicating a need for fast progress.\n\n![](_page_5_Figure_4.jpeg)\n\n<span id=\"page-5-0\"></span>Figure 4: Time lines of several past, present and future circular colliders at CERN, distinguishing periods of design, prototyping, construction, and physics exploitation.\n\nCEPC and SppC are two colliders similar to FCC-ee/FCC-hh, which are being studied by another international collaboration, centred at IHEP Beijing [\\[35\\]](#page-17-7). These two machines have a similar circumference as FCC, of about 100 km. Several possible locations in China are under study. The e+e <sup>−</sup> collider CEPC is designed with a maximum centre-of-mass energy of 240 GeV, and noticeably lower luminosity than FCC-ee. The SppC hadron collider relies on 12 T (later 24 T) iron-based high-temperature superconducting magnets, which could be installed in the same tunnel as the CEPC.\n\nTable [2](#page-6-0) shows key parameters of FCC-hh, SppC, and HE-LHC, together with the design values of the present LHC and its luminosity upgrade (HL-LHC).\n\n| parameter                       | FCC-hh    |      | SppC | HE-LHC     | (HL-)LHC    |\n|---------------------------------|-----------|------|------|------------|-------------|\n| c.m. energy [TeV]               | 100       |      | 75   | 27         | 14          |\n| dipole field [T]                | 16        |      | 12   | 16         | 8.3         |\n| circumference [km]              | 97.8      |      | 100  | 26.7       | 26.7        |\n| beam current [A]                | 0.5       |      | 0.77 | 1.12       | (1.12) 0.58 |\n| part./bunch [1011]              | 1         |      | 1.5  | 2.2        | (2.2) 1.15  |\n| bunch spacing [ns]              | 25        |      | 25   | 25         | 25          |\n| norm. emittance εN<br>[µm]      | 2.2 (1.1) |      | 3.16 | 2.5 (1.25) | (2.5) 3.75  |\n| IP beta function [m]            | 1.1       | 0.3  | 0.71 | 0.25       | (0.15) 0.55 |\n| lum. [1034 cm−2<br>−1<br>s<br>] | 5         | 30   | 10   | 28         | (5, lev.) 1 |\n| events per crossing             | 170       | 1000 | ∼300 | 800        | (135) 27    |\n| SR power/beam [kW]              | 2400      |      | 1130 | 100        | (7.3) 3.6   |\n| longit. damp. time [h]          | 1.1       |      | 2.4  | 3.6        | 25.8        |\n| init. burn-off time [h]         | 17        | 3.4  | 13   | 3.0        | (15) 40     |\n\n<span id=\"page-6-0\"></span>Table 2: Parameters of future hadron colliders, the LHC and its HL-LHC upgrade. The HL-LHC will level the luminosity at a value of 5 × 10<sup>34</sup> cm<sup>−</sup><sup>2</sup> s −1 , for the particle-physics experiments; its virtual peak luminosity is about 5 times higher.\n\n# 4 Beam Parameter Evolution during a Physics Fill\n\nAt the LHC and HL-LHC radiation damping during a physics fill is almost negligible. The HL-LHC requires luminosity leveling via changes in β <sup>∗</sup> and crossing angle, in order to limit the event pile up to a value acceptable for the physics detectors [\\[36\\]](#page-17-8).\n\nFor future higher-energy hadron colliders radiation damping becomes significant. In such a situation, the longitudinal emittance needs to be kept constant during the physics store, through controlled longitudinal noise excitation, in order to maintain longitudinal Landau damping [\\[37\\]](#page-17-9). At the same time, the transverse emittance shrinks due to the strong radiation damping, while the proton intensity rapidly decreases as the result of the high luminosity.\n\nThe initial proton burn-off time can be computed as\n\n$$\n\\tau\\_{\\rm bu} = \\frac{N\\_b n\\_b}{L\\_0 \\sigma\\_{\\rm tot} n\\_{\\rm IP}} \\ , \\tag{2}\n$$\n\nwhere N<sup>b</sup> denotes the bunch population, L<sup>0</sup> the initial luminosity, σtot the total proton-proton cross section, n<sup>b</sup> the number of bunches per beam, and nIP the number of high-luminosity interaction points (IPs); nIP = 2 for all four colliders under consideration.\n\nFor the FCC-hh the emittance damping time is shorter than the proton burn-off time. As a result the total beam-beam tune shift\n\n$$\n\\Delta Q\\_{\\rm bb} = n\\_{\\rm IP} \\frac{r\\_p N\\_b}{4 \\pi \\varepsilon\\_N} \\tag{3}\n$$\n\nincreases during the store (r<sup>p</sup> designates the \"classical proton radius\"). At some point the beam-beam limit is reached, and the tranverse emittance must then be controlled by transverse noise excitation, so as to keep the beam-beam tuneshift at, or below, the empirical limit. This determines the further luminosity evolution during the store and the optimum run time [\\[16\\]](#page-16-3).\n\nFigure [5](#page-8-0) presents the evolution of instantaneous luminosity, integrated luminosity, bunch population, emittance, pile up and beam-beam tune shift for both phases of FCC-hh over 24 h of running. Here, we assume that the injected beam corresponds to the baseline parameters and a total beam-beam tune shift (sum of two IPs) of ∆Qtot ≈ 0.01. In Phase 2 the emittances are allowed to shrink, the tune shift increases during the fill, until the higher tune-shift limit of ∆Qtot = 0.03 is reached. From this moment onwards the further emittance damping is again counterbalanced by a controlled blow up keeping the beam brightness constant. Only the proton burn-off in collision and the natural, or — after reaching the beam-beam limit — controlled emittance shrinkage due to radiation damping are taken into account. Other additional phenomena like gas scattering, Touschek effect, intrabeam scattering, and space charge are insignificant for the 50 TeV beams, in the scenarios considered.\n\nBy contrast, at the HE-LHC the proton burn off time is slightly shorter than the radiation damping time. This situation is qualitatively different from the FCC-hh. For the HE-LHC there is almost a natural luminosity leveling, while the beam-beam tune shift naturally decreases during the store.\n\nFollowing a derivation similar to those in Ref. [\\[16\\]](#page-16-3), for the HE-LHC the integrated luminosity per interaction point (IP) at time t during the fill is\n\n$$\\int\\_{0}^{t} L(t)dt = \\frac{f\\_{\\text{rev}} N\\_{b,0}^{2} n\\_{b}}{4\\pi\\varepsilon\\_{0}\\beta\\_{x,y}^{\\*}} \\frac{\\tau}{B} \\left(1 - \\frac{1}{1 - B + B\\exp\\left(t/\\tau\\right)}\\right) \\tag{4}$$\n\nThe optimum run time tr,opt then follows from\n\n$$\\left[\\left(1 - B\\right)\\exp\\left(-t\\_r/\\tau\\right) + \\left(2B - 1\\right) - B\\exp\\left(t\\_r/\\tau\\right) + t\\_r/\\tau + t\\_{\\text{ta}}/\\tau\\right]\\_{\\text{t}\\_{\\text{r}} = \\text{t}\\_{\\text{r},\\text{opt}}} \\stackrel{!}{=} 0\\,,\\tag{5}$$\n\n![](_page_8_Figure_0.jpeg)\n\n<span id=\"page-8-0\"></span>Figure 5: Instantaneous luminosity, integrated luminosity, bunch population, emittance, total beam-beam tune shift, and event pile up as a function of time during 24 hours with 25 ns bunch spacing, for FCC-hh Phases 1 (β ∗ x,y = 1.1 m, ∆Qbb = 0.01) and 2 (β ∗ x,y = 0.3 m, ∆Qbb = 0.03) [\\[16\\]](#page-16-3).\n\nwhere tta denotes the average turnaround time, ε<sup>0</sup> the initial geometric rms emittance, Nb,<sup>0</sup> the initial bunch population, frev the revolution frequency, nIP the number of high-luminosity collision points, σtot the total cross section, τ the transverse emittance damping time, and\n\n$$B \\equiv \\frac{\\sigma\\_{\\text{tot}} n\\_{IP} f\\_{\\text{rev}} N\\_{b,0} \\tau}{4\\pi \\beta\\_{x,y}^\\* \\varepsilon\\_0} \\,. \\tag{6}$$\n\nFigure [6](#page-10-0) shows the time evolution of HE-LHC peak luminosity, pile-up, bunch intensity, transverse normalized emittance, total head-on beam-beam tune shift, and integrated luminosity over 24 hours at 100% availability.\n\nThe typical optimum run time of HE-LHC is about 3 hours. The turnaround time should not be much longer than this. Otherwise the integrated luminosity performance significantly decreases, as is illustrated in Fig. [7.](#page-11-0)\n\n### 5 Hadron-Collider Technologies\n\nThe primary technology of future hadron colliders is high-field magnets, both dipoles and quadrupoles. Magnets made from Nb-Ti superconductor were the core technology of the present LHC, Tevatron, RHIC and HERA. Nb-Ti magnets are limited to maximum fields of about 8 T. The HL-LHC will use, for the first time in a collider, some tens of dipole and quadrupole magnets with a peak field of 11-12 T, based on a new high-field magnet technology using Nb3Sn superconductor. This will prepare the ground for the development of 16 Tesla Nb3Sn magnets, and the later production of about 5000 Nb3Sn magnets required by the FCC-hh. The Chinese SppC magnets will utilize cables based on iron-based high-temperature superconductor (IBS), a material discovered at the Tokyo Institute of Technology in the year 2006 [\\[38\\]](#page-17-10). Figure [8](#page-11-1) sketches the respective current densities and field limits. It is clear that Nb3Sn can approximately double the magnetic field reached with Nb-Ti. The R&D target for SppC looks agressive. The SppC goal is to increase the performance ten times while simultaneously reducing the cost by an order of magnitude. If successful, the IBS magnet technology could become a game changer for future hadron colliders.\n\nAnother important technology is the cryo beam vacuum system, which has to cope with unusually high levels of synchrotron radiation in a cold environment, about 5 MW in total for FCC-hh. The design of the beam screen intercepting the radiation inside the cold bore of the magnets and the choice of its operating temperature (at 50 K significantly higher than the 5–20 K chosen for the LHC beam screen) are key ingredients of the hadron-collider design. First hardware prototypes for FCC-hh (see Fig. [9\\)](#page-12-0) have been tested with synchrotron radiation from an electron beam at the KIT ANKA facility at Karlsruhe in 2017. These beam measurements have validated the basic design assumptions.\n\nFurther key technologies of the hadron collider include the collimators, the kicker and septa required for the extremely high beam energy, and the superconducting radiofrequency systems, e.g. for acceleration and for compensation\n![](0__page_10_Figure_0.jpeg)\n\nFigure 6: Instantaneous luminosity, pile-up, bunch population, normalized transverse emittance, total beam-beam tune shift, and integrated luminosity as a function of time during 24 hours, for the HE-LHC at 100% machine availability.\n\n![](0__page_11_Figure_0.jpeg)\n\nFigure 7: Average annual luminosity versus average turnaround time for the HE-LHC, assuming 70% machine availability and 160 days calendar days scheduled for physics operation per year.\n\n![](0__page_11_Figure_2.jpeg)\n\nFigure 8: Field limits for LHC-type Nb-Ti conductor, Nb3Sn conductor as used for HL-LHC, FCC-hh and HE-LHC, and iron-based superconductor (IBS, present and 10-year forecast) for SppC (after P.J. Lee [\\[39\\]](#page-17-0), and private communication J. Gao).\n\n![](0__page_12_Picture_0.jpeg)\n\nFigure 9: Prototypes of the proposed FCC-hh vacuum chamber [\\[40\\]](#page-17-1) (Image credit: CERN).\n\nof synchrotron-radiation energy losses, as well as for the ever more demanding crab cavities.\n\n### 6 Hadron Collider Tunnel and Infrastructure\n\nThe tunnel is a core element of any new collider. The FCC-hh and SppC tunnels are constructed differently, by tunnel boring machine or drill/blast technique, respectively. The tunnel shapes and sizes are also rather different, as is illustrated in Fig. [10.](#page-13-0) The HE-LHC must fit into the existing LHC tunnel with a diameter of 3.8 m. Therefore, the HE-LHC dipole magnets must be made as compact as possible, with a maximum outer diameter of 1.2 m. In addition half-sector cooling is proposed to reduced the diameter of the cryogenics lines and relax the tunnel integration, calling for additional 1.8 K refrigeration units. The new round tunnel for the FCC-hh will have a significantly larger diameter of 5.5 meter, to host the (possibly larger) 16 T magnets and enlarged cryogenics lines, plus allow for additional safety features, such as smoke extraction, ventilation, escape passages etc. This large a tunnel still does not offer enough space to accommodate both a lepton and a hadron machine at the same time. If in a first step the FCC-ee is built, it will need to be disassembled prior to the installation of the FCC-hh hadron collider. The SppC tunnel is even larger, with a transverse width of 8.7 m. It is meant to provide enough space for both lepton and hadron machines, also including a lepton booster ring for top-up injection, which, in principle, could all be operated in parallel.\n\nThe HE-LHC will need eight new cryoplants, each with 28 kW equivalent cooling capacity at 4.5 K, e.g., about 1.5 times the capacity of one of the existing eight LHC plants, and additional plants at 1.8 K for the half sector cooling. In view of their much larger circumference and high synchrotron radiation power the FCC-hh and SppC will both need substantially larger cryogenic facilities still. Specifically. the FCC-hh foresees 10 cryoplants, each with 50–100 kW at 4.5 K including 12 kW at 1.8 K, and requires a helium inventory of 800 tons, about 6 times the helium inventory of the present LHC. The electrical power consumption of the FCC-hh cryoplants is about 200 MW [\\[41\\]](#page-18-0).\n\n![](0__page_13_Figure_1.jpeg)\n\n<span id=\"page-13-0\"></span>Figure 10: Tunnel cross sections for HE-LHC, SppC and FCC-hh.\n\n# 7 Time Lines and Cost\n\nThe time line for FCC is determined by the time required for tunnel construction and by the magnet R&D and production programme, as is illustrated in Figs. [11](#page-13-1) and [12.](#page-14-0) If HL-LHC stops in the Long Shutdown 5, presently scheduled around the year 2034, the HE-LHC could start physics operation in 2040. FCC-hh would begin operation three years later, in 2043. Very similarly, the latest time schedule for SppC foresees first hadron-beam collisions in 2045 [\\[42\\]](#page-18-1).\n\n![](0__page_13_Figure_5.jpeg)\n\n<span id=\"page-13-1\"></span>Figure 11: Time line of FCC-16 T magnet R&D.\n\n![](0__page_14_Figure_0.jpeg)\n\n<span id=\"page-14-0\"></span>Figure 12: Time line of FCC magnet production along with FCC-hh or HE-LHC implementation\n\nConstruction cost for FCC-hh and SppC depends on the magnets, since several thousands of magnets are needed for each of these projects. So far the cost per magnet increases with the magnetic field and it is, in particular, higher for the novel magnet technologies. A milestone R&D target for FCC is to make the price of an FCC 16 Tesla magnet the same as the price of an LHC 8.3 Tesla magnet. For SppC the R&D goal is to increase the performance (current) per price unit of the IBS cable by two orders of magnitude over the coming 10 years.\n\nIn general, the construction cost of future projects can be minimized by [\\[43,](#page-18-2) [44\\]](#page-18-3): (1) reducing the cost of essential components, in particular of the conductor material and the high-field magnets for the hadron colliders; (2) building on a site with an existing infrastructure and injector complex; and (3) staging, e.g., FCC-ee followed by FCC-hh, and, much later, possibly by a muon collider FCCµµ [\\[45\\]](#page-18-4).\n\n### 8 Summary\n\nA future higher energy hadron collider will further push the energy frontier. Three such colliders are presently under study worldwide, with c.m. energies ranging from 27 to 100 TeV, and perhaps even 150 TeV. R&D on cost-effective high-field magnets is the key to their realization. Each of the three proposed colliders could start operation around the years 2040–2045.\n\n### Acknowledgements\n\nThis report summarizes results from the international FCC collaboration and from the CEPC/SPPC team. We are grateful to all collaboration members for their excellent work, and we are happy to acknowledge specific contributions from V. Mertens, G. Rumolo, L. Tavian, and R. Tomas. We most warmly thank W. Barletta for inviting this article, and M. Giovannozzi for a careful reading of the manuscript. This work was supported, in part, by the European Commission under the HORIZON 2020 projects EuroCirCol, grant agreement 654305; EASITrain, grant agreement no. 764879; and ARIES, grant agreement 730871.\n\n# References\n\n- [1] K. Johnsen, CERN Intersecting Storage Rings, Proc. Nat. Acad. Sci. USA 70 (1973) 619–626.\n- [2] S. Myers, Four Decades of Colliders (from the ISR to LEP to the LHC), Proc. IPAC'10, Kyoto (2010) 3663.\n- [3] W. Scandale, Proton-Proton and Proton-Antiproton Colliders, Reviews of Accelerator Science and Technology 7 (2014) 9–33.\n- [4] V. Hatton, Operational History of the SPS Collider, Proc. IEEE PAC 1991, San Francisco (1991).\n- [5] L. Evans, The Proton-Antiproton Collider, Third John Adams Memorial Lecture, 25 November 1987 CERN 88-01 (1988).\n- [6] V. Lebedev and V. Shiltsev (eds.), Accelerator Physics at the Tevatron Collider, Springer Science+Business Media, New York (2014).\n- [7] J.D. Jackson, R.G. Barton, R. Donaldson, D.K. Savage, Conceptual Design of the Superconducting Super Collider, SSC-SR-2020 (1986).\n- [8] H.-U. Wienands (ed.), The SSC Low Energy Booster: Design and Component Prototypes for the First Injector Synchrotron, IEEE Press (1997).\n- [9] E. Keil, Scaling laws and cost optimization for hadron colliders around 100 TeV, Proc. 19th INFN Eloisatron Project Workshop: Maximizing luminosity of hadron colliders at 100 TeV \"Ettore Majorana\", Erice, Italy, 13 - 19 Nov 1991; and CERN-SL-92-45-AP (1992).\n- [10] E. Keil, Synchrotron radiation dominated hadron colliders, Proc. 17th Particle Accelerator Conference, Vancouver, Canada, 12–16 May 1997; and CERN-LHC-Project-Report-102 (1997) 104–106.\n- [11] W.A. Barletta, H. Leutz, Supercolliders and Superdetectors: Proceedings of the 19th and 25th Workshops of the INFN Eloisatron Project, World Scientific (1994).\n- [12] The VLHC Design Study Grup (G. Ambrosio et al.), Design Study for a Staged Very Large Hadron Collider, Fermilab-TM-2149, SLAC-R-591 (2001).\n- [13] O.S. Br¨uning et al. (eds.), LHC Design Report, vol. 1: The LHC Main Rings, CERN-2004-003-V-1 (2004).\n- [14] G. Apollinari et al., High-Luminosity Large Hadron Collider (HL-LHC): Technical Design Report V. 0.1, CERN Yellow Report CERN-2017-007-M (2017).\n- [15] G. Salam and A. Weiler, Collider Reach (web site) (2013).\n- [16] M. Benedikt, D. Schulte, F. Zimmermann, Optimizing integrated luminosity of future hadron colliders, Phys. Rev.'ST Accel. Beams 18 (2015) 101002.\n- [17] R. Martin et al., Interaction region design driven by energy deposition, Phys. Rev. Accel. Beams 20 (1986) 081005.\n- [18] R.B. Palmer, Energy Scaling, Crab Crossing, and the Pair Problem, eConf C8806271 (1988) 613–619.\n- [19] Y.-P. Sun et al., Beam dynamics aspects of crab cavities in the CERN Large Hadron Collider, Phys. Rev. ST Accel. Beams 12 (2009) 101002.\n- [20] R. Calaga, R. Tomas, F. Zimmermann, LHC Crab-Cavity Aspects and Strategy, Proc. IPAC10, Kyoto (2010) 1240.\n- [21] R. Calaga, S. Belomestnykh, I. Ben-Zvi, Q. Wu, A Quarter Wave Design for Crab Crossing in the LHC, Proc. IPAC12, New Orleans (2012) 2260.\n- [22] S. U. De Silva and J.R. Delayen, Cryogenic test of a proof-of-principle superconducting rf-dipole deflecting and crabbing cavity, Phys. Rev. ST Accel. Beams 16 (2013) 082001.\n- [23] S. Verdu-Andres et al., Crab cavities for colliders: Past, present and future, Nuclear and Particle Physics Proceedings 273–275 (2016) 193–197.\n- [24] A. Faus-Golfe, G. Franchetti and F. Zimmermann (organizers), EuCARD-2 XBEAM Strategy Workshop From EuCARD-2 XBEAM to ARIES APEC, Valencia, 13–17 February 2017 (2017).\n- [25] R. Assmann et al., The Final Collimation System for the LHC, Proc. EPAC06, Edinburgh (2006) 986.\n- [26] R. Bruce et al., Simulations and measurements of beam loss patterns at the CERN Large Hadron Collider, Phys. Rev. ST Accel. Beams 17 (2014) 081004.\n- [27] E. M´etral et al., Summary of the 2-day internal review of LHC performance limitations (linked to transverse collective effects) during run I (CERN, 25- 26/09/2013), CERN-ACC-NOTE-2014-0006 (2014).\n- [28] E. M´etral et al., Summary of the half-day internal review of LHC performance limitations (linked to transverse collective effects) during run II (CERN, 29/11/2016), CERN-ACC-NOTE-2017-0005 (2017).\n- [29] E. M´etral, Measurement and Interpretation of Transverse Beam Instabilities in the CERN Large Hadron Collider (LHC) and Extrapolation to HL-LHC, Proc. HB2016, Malmo (2016).\n- [30] M. Mangano (Ed.), Physics at the FCC-hh, a 100 TeV pp Collider, CERN Yellow Reports: Monograph CERN-2017-003-M (2017). Also available as arXiv:1710.06353.\n- [31] E. Todesco and F. Zimmermann (Eds.), Proceedings, EuCARD-AccNet-EuroLumi Workshop: The High-Energy Large Hadron Collider (HE-LHC10): Villa Bighi, Malta, Republic of Malta, October 14-16, 2010, CERN Yellow Report CERN-2011-003 (2011). Also available as arXiv:1111.7188.\n- [32] M. Benedikt, F. Zimmermann, Towards Future Circular Colliders, Journal of the Korean Physical Society 69 (2016) 893.\n- [33] CERN Council, The European Strategy for Particle Physics Update 2013. La strat´egie europ´eenne pour la physique des particules. Mise `a jour 2013. 16th Session of European Strategy Council (2013).\n- [34] The TLEP Design Study Working Group, M. Bicer et al., First Look at the Physics Case of TLEP, J. High Energ. Phys. 01 (2014) 164. Also available as arXiv:1308.6176.\n- [35] J. Gao, CEPC-SPPC Accelerator Status Towards CDR, Int. J. Mod. Phys. A 32, no. 2, 1746003 (2017).\n- [36] Y. Papaphilippou, HL-LHC: Performance Sensitivity to Parameter Change, LHC Performance Workshop, Chamonix 2017 (2017).\n- [37] F. Zimmermann, Luminosity Limitations at Hadron Colliders, Proc. 18th International Conference on High-Energy Accelerators (HEACC01), Tsukuba, 26–30 March, 2001; also published as CERN-SL-2001-009-AP (2001).\n- [38] Y. Kamihara et al., Iron-Based Layered Superconductor: LaOFeP, J. Am. Chem. Soc. 128 (2006) 10012–10013.\n- <span id=\"page-17-0\"></span>[39] P.J. Lee (NHMFL), Engineering Critical Current Density vs. Applied Field, https://nationalmaglab.org/magnet-development/appliedsuperconductivity-center/plots (2017).\n- <span id=\"page-17-1\"></span>[40] R. Kersevan, Research program on the cryogenic beam-vacuum of the FCC-hh, in: Int. Conf. on High Energy Physics (ICHEP16), Chicago.\n- <span id=\"page-18-0\"></span>[41] L. Tavian, Towards a Conceptual Design for FCC Cryogenics, FCC Week 2017, Berlin (2017).\n- <span id=\"page-18-1\"></span>[42] J. Gao, The CEPC/SppC Project: Status and Challenges, 6th International Conference on New Frontiers in Physics (ICNFP 2017), Crete, Greece, 16–29 August 2018 (2017).\n- <span id=\"page-18-2\"></span>[43] V. Shiltsev, A Phenomenological Cost Model for High Energy Particle Accelerators, JINST 9 T07002 (2014).\n- <span id=\"page-18-3\"></span>[44] F. Zimmermann (Ed.), Strategy for Future Extreme Beam Facilities, Institute of Electronic Systems, Warsaw University of Technology, 2017. Editorial Series on Accelerator Science – EuCARD Monograph no. XLIV.\n- <span id=\"page-18-4\"></span>[45] F. Zimmermann, Future Colliders for Particle Physics - \"Big and Small\", Proceedings of the Third European Advanced Accelerator Concepts Workshop \"EAAC2017\", La Biodola, 24-30 September 2017; to be published in NIMA Proceedings (2018).",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "arXiv:1803.09723v1 [physics.acc-ph] 26 Mar 2018",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              18.34000015258789,
+              184.8599853515625
+            ],
+            [
+              36.53173828125,
+              184.8599853515625
+            ],
+            [
+              36.53173828125,
+              604.2599945068359
+            ],
+            [
+              18.34000015258789,
+              604.2599945068359
+            ]
+          ]
+        },
+        {
+          "title": "Proton Colliders at the Energy Frontier",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              165.9990234375,
+              163.168701171875
+            ],
+            [
+              442.15594482421875,
+              163.168701171875
+            ],
+            [
+              442.15594482421875,
+              180.3841552734375
+            ],
+            [
+              165.9990234375,
+              180.3841552734375
+            ]
+          ]
+        },
+        {
+          "title": "Abstract",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              284.185546875,
+              271.75042724609375
+            ],
+            [
+              325.8850402832031,
+              271.75042724609375
+            ],
+            [
+              325.8850402832031,
+              280.7578125
+            ],
+            [
+              284.185546875,
+              280.7578125
+            ]
+          ]
+        },
+        {
+          "title": "1 Introduction",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              132.5302734375,
+              123.55291748046875
+            ],
+            [
+              247.2802734375,
+              123.55291748046875
+            ],
+            [
+              247.2802734375,
+              137.9619140625
+            ],
+            [
+              132.5302734375,
+              137.9619140625
+            ]
+          ]
+        },
+        {
+          "title": "2 Hadron-Collider Beam Dynamics and Limita-\ntions",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              132.2314453125,
+              334.8580017089844
+            ],
+            [
+              477.2303466796875,
+              334.8580017089844
+            ],
+            [
+              477.2303466796875,
+              367.1361999511719
+            ],
+            [
+              132.2314453125,
+              367.1361999511719
+            ]
+          ]
+        },
+        {
+          "title": "3 Pushing the Energy Frontier in the 21st Cen-\ntury",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              133.27734375,
+              516.1378784179688
+            ],
+            [
+              477.2877197265625,
+              516.1378784179688
+            ],
+            [
+              477.2877197265625,
+              548.4170684814453
+            ],
+            [
+              133.27734375,
+              548.4170684814453
+            ]
+          ]
+        },
+        {
+          "title": "4 Beam Parameter Evolution during a Physics\nFill",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              132.08203125,
+              500.2979431152344
+            ],
+            [
+              477.23028564453125,
+              500.2979431152344
+            ],
+            [
+              477.23028564453125,
+              532.5771484375
+            ],
+            [
+              132.08203125,
+              532.5771484375
+            ]
+          ]
+        },
+        {
+          "title": "5 Hadron-Collider Technologies",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              133.76800537109375,
+              304.97003173828125
+            ],
+            [
+              366.5494079589844,
+              304.97003173828125
+            ],
+            [
+              366.5494079589844,
+              319.4296875
+            ],
+            [
+              133.76800537109375,
+              319.4296875
+            ]
+          ]
+        },
+        {
+          "title": "6 Hadron Collider Tunnel and Infrastructure",
+          "heading_level": null,
+          "page_id": 12,
+          "polygon": [
+            [
+              132.8291015625,
+              373.7969665527344
+            ],
+            [
+              462.5859375,
+              373.7969665527344
+            ],
+            [
+              462.5859375,
+              388.1431579589844
+            ],
+            [
+              132.8291015625,
+              388.1431579589844
+            ]
+          ]
+        },
+        {
+          "title": "7 Time Lines and Cost",
+          "heading_level": null,
+          "page_id": 13,
+          "polygon": [
+            [
+              132.90380859375,
+              361.9759826660156
+            ],
+            [
+              305.54937744140625,
+              361.9759826660156
+            ],
+            [
+              305.54937744140625,
+              376.470703125
+            ],
+            [
+              132.90380859375,
+              376.470703125
+            ]
+          ]
+        },
+        {
+          "title": "8 Summary",
+          "heading_level": null,
+          "page_id": 14,
+          "polygon": [
+            [
+              132.8291015625,
+              497.41485595703125
+            ],
+            [
+              225.71278381347656,
+              497.41485595703125
+            ],
+            [
+              225.71278381347656,
+              511.76104736328125
+            ],
+            [
+              132.8291015625,
+              511.76104736328125
+            ]
+          ]
+        },
+        {
+          "title": "Acknowledgements",
+          "heading_level": null,
+          "page_id": 14,
+          "polygon": [
+            [
+              133.1279296875,
+              600.0028686523438
+            ],
+            [
+              267.5750427246094,
+              600.0028686523438
+            ],
+            [
+              267.5750427246094,
+              614.3490600585938
+            ],
+            [
+              133.1279296875,
+              614.3490600585938
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 15,
+          "polygon": [
+            [
+              133.20263671875,
+              204.3189697265625
+            ],
+            [
+              209.2433319091797,
+              204.3189697265625
+            ],
+            [
+              209.2433319091797,
+              218.8828125
+            ],
+            [
+              133.20263671875,
+              218.8828125
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              94
+            ],
+            [
+              "Line",
+              38
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              125
+            ],
+            [
+              "Line",
+              55
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              88
+            ],
+            [
+              "Line",
+              36
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              148
+            ],
+            [
+              "Line",
+              48
+            ],
+            [
+              "TableCell",
+              36
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              104
+            ],
+            [
+              "Line",
+              29
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              76
+            ],
+            [
+              "Line",
+              32
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              252
+            ],
+            [
+              "TableCell",
+              74
+            ],
+            [
+              "Line",
+              47
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              286
+            ],
+            [
+              "Line",
+              61
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "Equation",
+              4
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              223
+            ],
+            [
+              "Line",
+              72
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              156
+            ],
+            [
+              "Line",
+              46
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              189
+            ],
+            [
+              "Line",
+              59
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              50
+            ],
+            [
+              "Line",
+              19
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              58
+            ],
+            [
+              "Line",
+              29
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "PictureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              34
+            ],
+            [
+              "Line",
+              14
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 14,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              57
+            ],
+            [
+              "Line",
+              27
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 15,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              70
+            ],
+            [
+              "Line",
+              36
+            ],
+            [
+              "ListItem",
+              12
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 16,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              70
+            ],
+            [
+              "Line",
+              36
+            ],
+            [
+              "ListItem",
+              15
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 17,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              70
+            ],
+            [
+              "Line",
+              38
+            ],
+            [
+              "ListItem",
+              13
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 18,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              25
+            ],
+            [
+              "Line",
+              15
+            ],
+            [
+              "ListItem",
+              5
+            ],
+            [
+              "Reference",
+              5
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 19,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Proton colliders at the energy frontier",
+    "authors": [
+      {
+        "authors_list": [
+          "Benedikt, Michael",
+          "Zimmermann, Frank"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Since the first proton collisions at the CERN Intersecting Storage Rings (ISR) (Johnsen, 1973; Myers, 2010) [1,2], hadron colliders have defined the energy frontier (Scandale, 2014) [3]. Noteworthy are the conversion of the Super Proton Synchrotron (SPS) (Hatton, 1991; Evans, 1988) [4,5] into a proton-antiproton collider, the Tevatron proton-antiproton collider (Lebedev and Shiltsev, 2014) [6], as well as the abandoned SSC in the United States (Jackson et al., 1986; Wienands, 1997) [7,8], and early forward-looking studies of even higher-energy colliders (Keil, 1992; Keil, 1997; Barletta and Leutz, 1994; The VLHC Design Study Grup (Ambrosio et al.) 2001) [9-12]. Hadron colliders are likely to determine the pace of particle-physics progress also during the next hundred years. Discoveries at past hadron colliders were essential for establishing the so-called Standard Model of particle physics. The world's present flagship collider, the Large Hadron Collider (LHC) (Brüning et al., 2004) [13], including its high-luminosity upgrade (HL-LHC) (Apollinari et al., 2017) [14], is set to operate through the second half of the 2030's. Further increases of the energy reach during the 21st century require another, still more powerful hadron collider. Three options for a next hadron collider are presently under investigation. The Future Circular Collider (FCC) study, hosted by CERN, is designing a 100 TeV collider, to be installed inside a new 100 km tunnel in the Lake Geneva basin. A similar 100-km collider, called Super proton-proton Collider (SppC), is being pursued by CAS-IHEP in China. In either machine, for the first time in hadron storage rings, synchrotron radiation damping will be significant, with a damping time of the order of 1 h. In parallel, the synchrotron-radiation power emitted inside the cold magnets becomes an important design constraint. One important difference between FCC and SppC is the magnet technology. FCC uses 16 T magnets based on Nb<SUB>3</SUB>Sn superconductor, while SppC magnets shall be realized with cables made from iron-based high-temperature superconductor. Initially the SppC magnets are assumed to provide a more moderate dipole field of 12 T, but they can later be pushed to a final ultimate field of 24 T. A third collider presently under study is the High-Energy LHC (HE-LHC), which is a higher energy collider in the existing LHC tunnel, exploiting the FCC magnet technology in order to essentially double the LHC energy at significantly higher luminosity.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Nuclear Instruments and Methods in Physics Research A",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1803.09723"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1016/j.nima.2018.03.021",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2018NIMPA.907..200B"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

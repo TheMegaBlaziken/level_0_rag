@@ -1,0 +1,591 @@
+{
+  "id": "bd6c083dd5cc4512aa33ada75b2d4943",
+  "pdf_path": "apl/Superconductors/arXiv:2104.00694.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# Superconducting V3Si for quantum circuit applications\n\nT.D. Vethaak,1, 2 F. Gustavo,<sup>1</sup> T. Farjot,<sup>2</sup> T. Kubart,<sup>3</sup> P. Gergaud,<sup>2</sup> S-L. Zhang,<sup>3</sup> F. Lefloch,<sup>1</sup> and F. Nemouchi2, [\\\\*\\)](#page-0-0)\n\n1)*Université Grenoble Alpes, CEA, Grenoble INP, IRIG, PHELIQS, 38000 Grenoble, France*\n\n2)*Université Grenoble Alpes, CEA LETI, 38000 Grenoble, France*\n\n3)*Division of Solid-State Electronics, Department of Electrical Engineering, Uppsala University, 75103 Uppsala, Sweden.*\n\n(Dated: 19 September 2024)\n\nV3Si thin films are known to be superconducting with transition temperatures up to 15 K, depending on the annealing temperature and the properties of the substrate underneath. Here we investigate the film structural properties with the prospect of further integration in silicon technology for quantum circuits. Two challenges have been identified: (i) the large difference in thermal expansion rate between V3Si and the Si substrate leads to large thermal strains after thermal processing, and (ii) the undesired silicide phase VSi<sup>2</sup> forms when V3Si is deposited on silicon. The first of these is studied by depositing layers of 200 nm V3Si on wafers of sapphire and oxidized silicon, neither of which react with the silicide. These samples are then heated and cooled between room temperature and 860 °C, during which insitu XRD measurements are performed. Analysis reveals a highly non-linear stress development during heating with contributions from crystallization and subsequent grain growth, as well as the thermal expansion mismatch between silicide and substrate, while the film behaves thermoelastically during cooling. The second challenge is explored by depositing films of 20, 50, 100 and 200 nm of V3Si on bulk silicon. For each thickness, six samples are prepared, which are then annealed at temperatures between 500 and 750 °C, followed by measurements of their resistivity, residual resistance ratio and superconducting critical temperature. A process window is identified for silicide thicknesses of at least 100 nm, within which a trade-off needs to be made between the quality of the V3Si film and its consumption by the formation of VSi2.\n\n## I. INTRODUCTION\n\nQuantum technologies based on solid state matter are now spreading from academic laboratories to the most advanced semiconductor foundries[1,](#page-6-0)[2](#page-6-1) . Among the materials to be integrated, superconducting thin films are of major interest as they are part of many quantum architectures. For instance, such films can be used to manipulate, read and couple superconducting or spin qubits with the use of superconducting resonators[3](#page-6-2)[,4](#page-6-3) , are developed for non-dissipative interconnections or can even be part of the quantum device itself when integrated as source and drain contacts of CMOS transistors. Since silicon technology is by far the most advanced method of nanofabrication, it is important to identify superconducting materials that are fully compatible with such an environment. Among these, silicides appears as the most suitable materials[5](#page-6-4)[,6](#page-6-5) , and as V3Si has the highest known critical temperature of any silicide known so far[7,](#page-6-6)[8](#page-6-7) , it is a prime candidate for these applications. In working towards integration of V3Si, two key problems have been identified: (i) a reduction in the superconducting critical temperature due to increased thermal strain after annealing[9](#page-6-8) , and (ii) the formation of the non-superconducting phase VSi<sup>2</sup> at the interface with a silicon channel or substrate.\n\nIn systems where reservoirs of both Si and V are available, the undesired phase VSi<sup>2</sup> is expected to form, which is both the first phase to nucleate[10](#page-6-9) and is thermodynamically favored[11](#page-6-10). This rules out the self-aligned silicide (SALICIDE) process for the formation of the desired V3Si, in which pure\n\nmetal is deposited on exposed silicon contacts. Instead, it has motivated the adoption of V3Si sputtering from compound targets[12,](#page-6-11)[13](#page-6-12), after which an annealing step is required to trigger the crystallization. This thermal processing leads to the build-up of strain in the final silicide film, which is known to negatively affect its critical temperature[14–](#page-6-13)[19](#page-6-14). Earlier work has shown that this strain depends strongly on the mismatch in thermal expansion coefficient (TEC) between the silicide and the substrate, and can lead to a suppression in superconducting critical temperature *T*<sup>c</sup> by 2 K on silicon[9](#page-6-8) . Section [II](#page-1-0) provides a detailed analysis of the impact of crystallization, grain growth and thermal expansion mismatch on the strongly temperature-dependent development of stress in V3Si thin films.\n\nBesides causing the buildup of large tensile stresses, thermal processing of V3Si on silicon substrates also leads to the formation of VSi2. The presence of VSi<sup>2</sup> at the interface between the superconducting V3Si and the Si substrate may not be a problem per se. It is imperative, however, that a layer of V3Si with a thickness on the order of its superconducting coherence length remains. The simultaneous formation of the two silicide phases after the deposition of amorphous V3Si on bulk silicon wafers is discussed in section [III.](#page-3-0) We find that when 50 nm or less of V3Si is deposited, no superconductivity is observed after crystallization annealing. For layers of 100 or 200 nm, the superconducting critical temperature of the film is found to initially improve with annealing temperature, until at some point superconductivity disappears when all V3Si is consumed by a growing layer of VSi2.\n\n<span id=\"page-0-0\"></span><sup>\\*)</sup>Corresponding author: [Fabrice.Nemouchi@cea.fr](mailto:Fabrice.Nemouchi@cea.fr)\n\n<span id=\"page-1-1\"></span>![](_page_1_Figure_1.jpeg)\n\nFIG. 1: Temperature profile versus annealing time applied during the in-situ XRD experiments. The red line in this and the following graphs in this section indicates the maximum temperature reached, after which cooling starts.\n\n#### <span id=\"page-1-0\"></span>II. IN-SITU XRD ANALYSIS\n\nSputtering a V3Si target leads to the deposition of an amorphous layer of the desired intermetallic compound which presents superconductivity at temperatures of around 1 K, far below that of the crystalline form (measured but not shown). In order to nucleate the crystalline V3Si phase, heat has to be applied. During the experiment described in the present section, the V3Si was isolated from any potential element (V and Si especially) that would affect the crystallization phenomenon. Thus, depositing the intermetallic compound on oxides (silica and sapphire) offers the possibility to study the isolated film by itself, affected by the substrate only mechanically. The evolution of the stresses in the V3Si film as a function of the annealing temperature was monitored by in-situ Xray diffraction (XRD) using a Smartlab Rigaku X-ray diffractometer equipped with a copper (Cu Kα) source, a punctual detector and a DHS 1100 Anton Paar furnace using a nitrogen atmosphere at a pressure slightly above ambient, i.e. 1.25 bar, to avoid atmospheric contamination.\n\nLayers of 200 nm V3Si were deposited on two types of substrates: oxidized silicon with a 20 nm thick surface oxide, and sapphire. Both in-plane and out-of-plane XRD measurements were performed on different samples of each substrate. For both measurements, a parallel slit analyzer with an angular aperture of 0.114 ◦ for out-of-plane measurement and 1 ◦ for in-plane ones, is positioned in front of the detector in order to be insensitive to peak shift due to the radial displacement of the sample induced by thermal expansion of the sample holder. This way, the observed peak shift is only related to a real d-spacing variation. For both measurements, 2θ–ω scans around the V3Si (210) close to 2θ = 43◦ were performed. Profiles were acquired while heating the samples from 50 °C up to 860 °C and then during cooling from 860 °C to room temperature. The temperature profile versus time is given in Fig. [1.](#page-1-1)\n\nPeak fitting was performed with the HighScore Plus software from PANalytical, from which the d-spacing and the integral breadth of the V3Si (210) peak were considered. The\n\n<span id=\"page-1-2\"></span>![](_page_1_Figure_7.jpeg)\n\nFIG. 2: In-situ out-of-plane XRD patterns measured during the V3Si crystallization on (Left) a sapphire substrate and (Right) a silicon substrate.\n\n<span id=\"page-1-3\"></span>![](_page_1_Figure_9.jpeg)\n\nFIG. 3: In-situ in-plane XRD patterns measured during the V3Si crystallization on (Left) a sapphire substrate and (Right) a silicon substrate.\n\nV3Si crystallization followed by in-situ XRD is shown as a contour map for the out-of-plane measurements in Fig. [2](#page-1-2) and the in-plane measurements in Fig. [3.](#page-1-3)\n\nDuring heating, for both substrates, a characteristic peak of (210) V3Si is observed above 500 °C, which marks the crystallization temperature of the as-deposited amorphous V3Si layer. One can thus deduce that the nucleation temperature of V3Si crystalline phase is close to 500 °C. From in-plane and out-of-plane peak positions, one can extract the stress and the temperature-dependent stress-free lattice parameter of the layer. Assuming a bi-axial state of stress in the layer, it can be deduced following the sin2ψ methodology[20](#page-6-15) ,\n\n$$\\varepsilon\\_{\\Psi} = \\frac{(d\\_{\\Psi} - d\\_{0})}{d\\_{0}} = \\frac{1}{2} S\\_{2}(hkl) \\sigma \\sin^{2} \\Psi + 2S\\_{1}(hkl) \\sigma,\\qquad(1)$$\n\nwhere σ is the in-plane bi-axial state of stress, ε<sup>ψ</sup> and *d*<sup>ψ</sup> are the strain and the *d*-spacing along the direction ψ, respectively, *d*<sup>0</sup> is the stress-free *d*-spacing and ψ is the angle between the considered direction and the normal to the surface. <sup>1</sup> 2 *S*2(*hkl*) and *S*1(*hkl*) are the X-ray Elastic Constants\n\n(XEC) for the hkl plane considered. The XEC can be easily calculated[21](#page-6-16) by knowing the single-crystal elastic constants of the V3Si structure[22](#page-6-17). For the (210) plane, using the arithmetic average of the Voigt and Reuss XEC, known as the Neerfeld limit, we found <sup>1</sup> 2 *S*2(210) = 6.69×10−<sup>6</sup> MPa−<sup>1</sup> and *S*1(210) = −1.66×10−<sup>6</sup> MPa−<sup>1</sup> . The in-plane stress is then given by[20](#page-6-15)\n\n$$\n\\sigma = \\frac{2}{S\\_2(hkl)} \\left( \\frac{d\\_{\\parallel} - d\\_{\\perp}}{d\\_0} \\right), \\tag{2}\n$$\n\nand the stress-free *d*-spacing, *d*0, by\n\n$$d\\_0 = \\frac{d\\_\\perp - Ad\\_{\\parallel}}{1 - A}, \\quad \\text{where} \\quad A = \\frac{4S\\_1(hkl)}{S\\_2(hkl) + 4S\\_1(hkl)}.\\tag{3}$$\n\nIn Fig. [4a](#page-2-0), the stress evolution deduced from this analysis is plotted versus the annealing temperature for both types of substrate. In both cases, the initial stress at crystallization is highly tensile, around +1500MPa. This is in agreement with the expected volume shrinkage that occurs during the crystallization, assuming that the density of the amorphous phase is smaller than the density of the crystalline phase. This tensile stress is then partially relaxed.\n\nIn Fig. [4c](#page-2-0),d the integral breadth (IB) evolution of the (210) peak vs annealing temperature is plotted, which can be correlated to the crystallite size through the Scherrer equation[23](#page-6-18)[,24](#page-6-19) . This figure shows that the IB is high at the crystallization temperature and then goes down with increasing temperature, a behavior that is similar for the in-plane and out-of-plane directions, and can be interpreted as a crystallite size increase. However, one should note that the in-plane and and out-ofplane setup was different and can not be compared directly.\n\nIndeed, for the in-plane setup, the IB decreased down to 1° at 650°C and stayed constant during further annealing. This value of 1° is the instrumental width given by a silicon reference powder, which implies that the in-plane crystallite size is very large above 650 °C and can no longer be estimated from IB broadening. As we observe an increase of the crystallite size out of plane up to 860 °C, we may assume that the lateral crystallite size also continues to grow up to this temperature. In the case of the out-of-plane measurements, the setup was more accurate, and the estimated crystallite size is about 30 nm for the highest annealing temperature. It can clearly be concluded that there is a strong anisotropy in grain size on both substrates. On both substrates, the in-plane IB stabilizes at 650 °C due to saturation of the instrument resolution, while the detected out-of-plane crystallite size increases continuously to the maximum temperature of the experiment.\n\nDuring cooling, the stress evolution exhibits a linear behavior, in agreement with a pure thermoelastic stress induced by the TEC mismatch between the film and the substrate. This is confirmed by looking at the in-plane lattice parameter evolution with temperature (Fig [4b](#page-2-0)). The behavior is linear as expected, but more interestingly, the slope of these straight lines is 7.3×10−<sup>6</sup> °C−<sup>1</sup> and 4.2×10−<sup>6</sup> °C−<sup>1</sup> for the sapphire and Si substrate respectively, in good agreement with the in-plane TEC of (0001) sapphire (6.5×10−<sup>6</sup> < α < 7.6×10−<sup>6</sup> °C−<sup>1</sup> in the temperature range 300–800 °C)[25](#page-6-20), and with the TEC\n\n<span id=\"page-2-0\"></span>![](_page_2_Figure_10.jpeg)\n\nFIG. 4: (a) Stress evolution versus annealing temperature for both the sapphire and the silicon substrates. (b) Strain of the V3Si layer versus the annealing temperature during cooling. (c,d) Out-of-plane and in-plane integral breadth of the V3Si\n\n(210) peak versus annealing temperature.\n\nof Si (3.6×10−<sup>6</sup> < α < 4.3×10−<sup>6</sup> °C−<sup>1</sup> in the temperature range 200–800 °C)[26](#page-6-21). From the stress-free lattice parameter extraction, we calculated a TEC of the V3Si phase of 9.2×10−<sup>6</sup> °C−<sup>1</sup> . The TEC mismatch between the film and the substrate should therefore have added a tensile stress to the stress measured at 860 °C, in agreement with the observation in Fig. [4a](#page-2-0). As expected, since the TEC mismatch is larger with the Si substrate than with the sapphire, the tensile stress increases faster on Si than on sapphire. Extrapolating this thermoelastic behavior to the device operating temperature (i.e. a few K), a stress level of 0.87(7) GPa is obtained for V3Si on sapphire and 0.91(3) GPa for V3Si on silicon. Of course these values depend on the initial residual stress before cooling, and thus on the thermal budget applied to the samples. Since the slow cooling occurred entirely thermoelastically and followed the TEC of the substrate, it is not expected that the rate of cooling has any impact on the final stress obtained. The difference in room-temperature strain between this report and those found in earlier experiments where in-situ XRD analysis was performed up to 1000 °C[9](#page-6-8) is thus attributed to differences in the maximum temperature that was reached.\n\n# <span id=\"page-3-0\"></span>III. COMPETITION BETWEEN V3SI AND VSI2 FORMATION\n\nA second set of experiments was performed to study the stability of the superconducting V3Si phase on a silicon substrate. After sputter deposition of V3Si on a silicon substrate, an intermixing layer of Si and V can be expected to form where the atomic concentration of vanadium ranges from zero in the substrate to 3/4 within the deposited layer. Above this mixed zone, the precise matching of the deposited atomic ratio to the stoichiometry of V3Si will prevent the formation of VSi2. Within the mixed zone however, VSi<sup>2</sup> nucleation is likely to occur. Since this mixed zone is interfaced from below by pure silicon, and from above by V3Si, its disappearance or consumption by V3Si formation would require that V move upwards while leaving progressively purified Si behind. Such movement is prevented by the chemical potential, as the thermodynamically stable state in the presence of excess silicon is for the vanadium to be bound in VSi<sup>2</sup> [11](#page-6-10). Furthermore, even if a V reservoir were present in the form of a superstoichiometric vanadium concentration (i.e. above 75%) in the deposited layer, it is unlikely that the mixed zone would be consumed by V3Si formation. Since silicon is the dominant diffusing species in VSi<sup>2</sup> and at the V/Si interface, with diffusion rates of two orders of magnitude higher than that of V in V3Si[27,](#page-6-22)[28](#page-6-23), any part of the intermixing layer with lower vanadium concentration than that of V3Si is expected to quickly extend downward and decrease in V content due to upward Si diffusion, preventing V3Si growth and aiding the formation of VSi2.\n\nOnce VSi<sup>2</sup> and V3Si are both present, competition will arise between the further growth of either silicide. While V3Si (V0.75Si0.25) has a larger effective heat of formation (EHF) from pure V and Si per mole of atoms involved in total[11](#page-6-10), the energy gain *per vanadium atom* is greater for VSi<sup>2</sup>\n\n<span id=\"page-3-1\"></span>![](_page_3_Figure_6.jpeg)\n\nFIG. 5: (Top) A 200 nm layer of V3Si is deposited on a silicon substrate with 20 nm of thermal oxide and is annealed at 600 °C (left) and 650 °C (right). No formation of VSi<sup>2</sup> is observed. (Bottom) When an equal thickness of V3Si is deposited on HF-cleaned silicon and annealed at 600 °C (left) and 650 °C (right), a VSi<sup>2</sup> layer with distinct morphology appears.\n\n(V0.33Si0.67), of which three times as many molecules can be formed for a fixed amount of vanadium. When V3Si interfaces with silicon, it is therefore energetically favorable for the following reaction to occur (EHF indicated below),\n\n$$\\underbrace{\\text{V}\\_{3}\\text{Si}}\\_{\\text{-48.2kJ/mol at}} + \\underbrace{\\text{5Si}}\\_{\\text{0}} \\rightarrow \\underbrace{\\text{3V}\\text{Si}\\_{2}}\\_{\\text{-40.2kJ/mol at}},\\qquad(4)$$\n\nwhere an energy of 181 kJ/mol is gained per mole of V3Si that is transformed. Scanning electron microscope (SEM) images of the growth of the VSi<sup>2</sup> phase during thermal processing are shown in Fig. [5.](#page-3-1)\n\nTo study this interplay, a different set of samples was prepared in addition to those discussed in section [II.](#page-1-0) Layers with thicknesses of 20, 50, 100 and 200 nm of V3Si were deposited onto 200 mm (100)-oriented silicon wafers from a compound V3Si target using RF magnetron sputtering equipment. This target had a measured silicon content of between 22.7±0.2 at.% (WDXRF) and 25.7±0.2 at.% (supplier data), which could further differ from the final Si content in the deposited layer by 1 at.%[13](#page-6-12). These wafers were cleaned with hydrofluoric acid (HF) before entering the sputtering chamber. Smaller pieces of 2 × 2 cm<sup>2</sup> were then annealed during 2 minutes in a Jipelec furnace with a 20 °C/min ramp rate. For each thickness of V3Si, six different samples were thermally processed at temperatures between 500 and 750 °C, as indicated in Fig. [6.](#page-4-0) These samples were then characterized by measuring their room-temperature sheet resistance (corrected for their shape and size by calculating the sheet resistance ratio of multiple unannealed wafer-sized and 2 × 2 cm<sup>2</sup> samples), and by following the resistance of smaller samples during slow cooling to cryogenic temperatures of 2 K in order to extract both the superconducting critical temperature and the residual resistance ratio (RRR).\n\nAt 500 °C, the resistivity of the thinner layers (20, 50 and 100 nm) was found to be comparable to that of as-deposited amorphous V3Si (180(10) µΩcm), while it exceeded this value by multiple orders of magnitude for the thicker layer of 200 nm (out of range for our instruments), as shown in Fig. [6a](#page-4-0). For all thicknesses, the resistivity then decreased with annealing temperature, to values below that measured for a reference sample with 200 nm V3Si on non-reacting sapphire annealed at 900 °C (77.1 µΩcm, indicated as a red dashed line). Since this reference value is the lowest resistivity that we have found for any layer of crystallized V3Si, in a sample where we confirmed by XRD measurements that no other vanadium-rich compound was formed, we take any value lower than this on silicon substrates to indicate the presence of VSi2. The formation of VSi<sup>2</sup> was confirmed by XRD analysis and identified at the Si/V3Si interface by SEM imaging (see Fig. [5,](#page-3-1) bottom).\n\nSmaller samples of 4 × 10mm were then wire bonded for four-point resistance measurements during both cooling and heating between 300 and 2 K in a Physical Properties Measurement System (PPMS). The residual resistance ratio of each sample was calculated as the ratio between the resistances at 260 K and 20 K, shown in Fig. [6b](#page-4-0). This ratio gives insight into the material properties of the silicide layer since the resistance at low temperatures is dominated by impurity and defect scattering[29](#page-6-24). For higher annealing temperatures the RRR is greater for thicker layers (with the exception of the 200 nm sample annealed at 750 °C, which is also an outlier in terms of resistivity), which is consistent with the lower quality of thinner films as reported before[12](#page-6-11). After annealing at 550 °C, however, we find that the RRR is highest in samples where only 20 nm of V3Si was deposited, followed by 50 nm and 100 nm, in that order. This could be an indication that a nearly homogeneous VSi<sup>2</sup> layer has already started to form at the V3Si/Si interface in the thinnest of these films, with inhomogeneity increasing for thicker films of 50 and 100 nm. Complete homogenization of a 20 nm film during two minutes would suggest however that Si, the dominant diffusing species in VSi<sup>2</sup> formation[27](#page-6-22), has diffused with a diffusivity of at least 1.8 nm<sup>2</sup> s −1 , values that have only been reported for annealing temperatures of 650 °C[30](#page-6-25). The higher RRR at 550 °C of the sample with 200 nm deposited V3Si suggests that this layer is too thick for\n\n<span id=\"page-4-0\"></span>![](_page_4_Figure_5.jpeg)\n\nFIG. 6: (a) The resistivity of each annealed sample, the red dashed line indicates the lowest resistivity expected for V3Si (see main text). (b) The residual resistance ratio (RRR). (c) The critical temperature, taken to be the point where 50% of the normal-state resistance is lost, with error bars indicating temperatures at which 10% and 90% of normal-state resistance is observed. Arrows down (↓) indicate that the critical temperature (if any) is below 2 K.\n\ndiffusion to have already caused mixing throughout the entire film, and this relatively high value could be attributed to crystallization of V3Si.\n\nThe appearance of crystalline V3Si at temperatures of around 500 °C is consistent with the in-situ XRD analysis on non-reactive substrates discussed in section [II](#page-1-0) (see especially Fig. [2\\)](#page-1-2). This is further corroborated by the appearance of superconductivity with critical temperatures above 2 K as shown in Fig. [6c](#page-4-0), to be contrasted with the critical temperature of 0.9 K of amorphous 200 nm-thick V3Si layers on silicon substrates prepared under identical conditions[9](#page-6-8) . A critical temperature of 10.62 K (10% and 90% transitions at 10.32 and 11.00 K, respectively) was attained after annealing at 650 °C in a 200 nm deposited film, identical to that obtained on samples where VSi<sup>2</sup> formation was prevented by a 20 nm film of SiO2, with a superconducting transition that is only 12% wider[9](#page-6-8) . This suggests that the nearby formation of VSi<sup>2</sup> does not have a significant impact on the superconducting properties of the remaining V3Si. Meanwhile, the absence of superconductivity above 2 K in samples with 20 or 50 nm deposited V3Si, after annealing at any temperature, confirms that Si diffusion and VSi<sup>2</sup> formation rapidly remove V3Si or even prevent its crystallization altogether in thinner films.\n\n## IV. DISCUSSION\n\nInstead of forming vanadium silicide by reactive diffusion, V3Si was directly sputtered from a compound target at the right stoichiometry, giving the advantages of having a sharp interface between the deposited layer and the substrate, and requiring no solid-state reaction to reach the desired phase. However, the interface must be better controlled in terms of impurities, and the V3Si is amorphous after deposition. First, the crystallization was studied on 2 types of substrate, oxidized silicon with a 20 nm thick SiO<sup>2</sup> surface layer and monocrystalline sapphire (Al2O3). It was clear that no reaction occurred with either of these substrates at any temperature. Earlier work showed that the mismatch in TEC with the substrates strongly impacts the stress built up during the growth of V3Si, which can lower the superconducting critical temperature[9](#page-6-8) .\n\nLayer crystallization started at 500 °C, leading to high tensile stress on either substrate up to 650 °C. This stress then relaxed with increasing temperature, both due to atomic diffusion and the relatively low TEC of the substrates. From 650 °C to around 700 °C, an increase in tensile stress together with a decrease in the out-of-plane IB can be explained by grain growth in fair agreement with the model of P. Chaudari[31](#page-6-26). During cooling, the V3Si stress behavior matches perfectly with TEC of silicon and sapphire substrate, indicating a purely thermoelastic behavior. It is thus clear that the thermomechanical properties of the substrate strongly impact the stress development in the V3Si film, which can be mitigated by proper choice of annealing conditions.\n\nSince V3Si is amorphous after deposition, crystallization by subsequent thermal processing is required to achieve the desired superconducting properties. However, on a silicon substrate this has the undesired side effect of VSi<sup>2</sup> nucleation. In fact, in the thinnest films that were studied, with 20 and 50 nm of deposited silicide, a nearly homogeneous VSi<sup>2</sup> layer had already started to form at the interface with the substrate before any crystallization of V3Si was observed by critical temperature measurements. Full consumption of the deposited V3Si occurred at higher temperatures between 600–650 °C and 650–700 °C for layers of 100 and 200 nm, respectively, allowing for V3Si crystallization, as well as grain growth. The critical temperatures thus obtained on a silicon\n\nsubstrate prior to complete V3Si consumption are identical, within experimental error, to those obtained on SiO<sup>2</sup> [9](#page-6-8) , indicating no detrimental effect of diminished thickness or proximity to growing VSi<sup>2</sup> on the quality of the superconductor. This is in contrast with earlier results obtained by V3Si sputtering from a compound target on heated Si substrates with 800 nm of thermal SiO2, where a strong dependence of film thickness was found below 200 nm[12](#page-6-11). This variation in thickness was at the time attributed to the presence of impurities such as oxygen, while earlier reports had argued that the chemical compo-\n\nsition of the layer was unimportant, and any variations that it causes in *T*<sup>c</sup> are due to a change in lattice parameter[14](#page-6-13). Since no reaction with the substrate occurs on SiO<sup>2</sup> (see Fig. [5\\)](#page-3-1), and the critical temperature is independent of the thickness of crystalline V3Si itself, the reduced *T*<sup>c</sup> reported in this earlier study[12](#page-6-11) could also be attributed to differences in grain growth, or stress development during cooling from 560 °C, at which the layers were deposited, to cryogenic temperatures in the range of 10–15 K.\n\n## V. CONCLUSION\n\nSuperconducting thin films are of increasing interest as solid-state quantum technologies are scaled up. To facilitate large-scale fabrication, as well as co-integration with classical electronics, it is important that the choice of superconducting material is compatible with CMOS technology. This report addresses two challenges for the integration of V3Si, which as a silicide with a superconducting critical temperature of up to 17 K[7](#page-6-6)[,8](#page-6-7) is a natural candidate in this context.\n\nThe first is the reduction in critical temperature due to thermal strain. While V3Si is compatible with the oxides of silicon and aluminum, both currently used in VLSI devices, it is necessary to mitigate the stresses induced by the interplay between crystallization, grain growth and TEC mismatch with the substrate. It is found that the final stress obtained on either substrate depends strongly on the thermal budget that the samples are subjected to, identifying annealing as a key process step to control the critical temperature of the film.\n\nSecond, thermal processing also provides a means of controlling the formation of the undesired phase VSi<sup>2</sup> on HFcleaned silicon substrates. For V3Si films with a thickness of 100 nm or more, there exists a process window where it can be crystallized before consumption by the VSi<sup>2</sup> phase, with a temperature range that depends on the thickness of the film.\n\nDirect applications of V3Si could be in high-frequency resonators on oxides or oxidized substrates, where the impact of a potential stress residual on the quality factor has to be evaluated. A further interest would be to fabricate Josephson junctions, where the weak link could either be an oxide in a vertical geometry, or silicon in a planar junction. In the latter case, a Josephson field effect transistor could be fabricated by forming V3Si in the source and drain contacts of a CMOS transistor, in which case one is faced with a trade-off between improving the V3Si critical temperature and limiting the growth of the VSi<sup>2</sup> phase.\n\n## VI. DATA AVAILABILITY\n\nThe data that support the findings of this study are available from the corresponding author upon reasonable request.\n\n#### VII. ACKNOWLEDGMENTS\n\nT.D.V. acknowledges the European Union's Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 754303. This work was partially supported by the ANR project SUNISiDEUP (ANR-19-CE47-0010). JX Nippon are gratefully acknowledged for providing the V3Si deposition target.\n\n- <span id=\"page-6-0\"></span><sup>1</sup>F. Arute, K. Arya, R. Babbush, D. Bacon, J. C. Bardin, R. Barends, R. Biswas, S. Boixo, F. G. Brandao, D. A. Buell, *et al.*, \"Quantum supremacy using a programmable superconducting processor,\" Nature 574, 505–510 (2019).\n- <span id=\"page-6-1\"></span><sup>2</sup>A. Zwerver, T. Krähenmann, T. Watson, L. Lampert, H. George, R. Pillarisetty, S. Bojarski, P. Amin, S. Amitonov, J. Boter, *et al.*, \"Qubits made by advanced semiconductor manufacturing,\" arXiv preprint arXiv:2101.12650 (2021).\n- <span id=\"page-6-2\"></span>3 J. Majer, J. Chow, J. Gambetta, J. Koch, B. Johnson, J. Schreier, L. Frunzio, D. Schuster, A. A. Houck, A. Wallraff, *et al.*, \"Coupling superconducting qubits via a cavity bus,\" Nature 449, 443–447 (2007).\n- <span id=\"page-6-3\"></span><sup>4</sup>X. Mi, M. Benito, S. Putz, D. M. Zajac, J. M. Taylor, G. Burkard, and J. R. Petta, \"A coherent spin–photon interface in silicon,\" Nature 555, 599–603 (2018).\n- <span id=\"page-6-4\"></span><sup>5</sup>T. Shibata, K. Hieda, M. Sato, M. Konaka, R. Dang, and H. Iizuka, \"An optimally designed process for submicron mosfets,\" in *1981 International Electron Devices Meeting* (IEEE, 1981) pp. 647–650.\n- <span id=\"page-6-5\"></span><sup>6</sup>S.-L. Zhang and Z. Zhang, \"Metal silicides in advanced complementary metal-oxide-semiconductor (cmos) technology,\" in *Metallic Films for Electronic, Optical and Magnetic Applications*, edited by K. Barmak and K. Coffey (Woodhead Publishing, 2014) pp. 244–301.\n- <span id=\"page-6-6\"></span><sup>7</sup>G. F. Hardy and J. K. Hulm, \"Superconducting silicides and germanides,\" Physical Review 89, 884 (1953).\n- <span id=\"page-6-7\"></span><sup>8</sup>W. Blumberg, J. Eisinger, V. Jaccarino, and B. Matthias, \"Correlations between superconductivity and nuclear magnetic resonance properties,\" Physical Review Letters 5, 149 (1960).\n- <span id=\"page-6-8\"></span><sup>9</sup>T. D. Vethaak, F. Gustavo, T. Farjot, T. Kubart, P. Gergaud, S.-L. Zhang, F. Nemouchi, and F. Lefloch, \"Influence of substrate-induced thermal stress on the superconducting properties of v 3 si thin films,\" Journal of Applied Physics 129, 105104 (2021).\n- <span id=\"page-6-9\"></span><sup>10</sup>H. Kräutle, M.-A. Nicolet, and J. Mayer, \"Kinetics of silicide formation by thin films of v on si and SiO<sup>2</sup> substrates,\" Journal of Applied Physics 45, 3304–3308 (1974).\n- <span id=\"page-6-10\"></span><sup>11</sup>R. Pretorius, T. Marais, and C. Theron, \"Thin film compound phase formation sequence: An effective heat of formation model,\" Materials Science Reports 10, 1–83 (1993).\n- <span id=\"page-6-11\"></span><sup>12</sup>O. Michikami and H. Takenaka, \"V3Si thin-film synthesis by magnetron sputtering,\" Japanese Journal of Applied Physics 21, L149 (1982).\n- <span id=\"page-6-12\"></span><sup>13</sup>H. C. Theuerer and J. Hauser, \"Getter sputtering for the preparation of thin films of superconducting elements and compounds,\" Journal of Applied Physics 35, 554–555 (1964).\n- <span id=\"page-6-13\"></span><sup>14</sup>L. Testardi, J. Kunzler, H. Levinstein, and J. Wernick, \"Unusual strain dependence of tc and related effects in a-15 superconductors,\" Solid State Communications 8, 907–911 (1970).\n- <sup>15</sup>L. Testardi, \"Unusual strain dependence of t c and related effects for hightemperature (a- 15-structure) superconductors: Sound velocity at the superconducting phase transition,\" Physical Review B 3, 95 (1971).\n- <sup>16</sup>L. Testardi, J. Kunzler, H. Levinstein, J. Maita, and J. Wernick, \"Unusual strain dependence of tc and related effects for high-temperature (a-15 structure) superconductors: Elastic, thermal, and alloy behavior,\" Physical Review B 3, 107 (1971).\n- <sup>17</sup>L. Testardi, \"Structural instability, anharmonicity, and high-temperature superconductivity in a- 15-structure compounds,\" Physical Review B 5, 4342 (1972).\n- <sup>18</sup>B. Batterman and C. Barrett, \"Crystal structure of superconducting V3Si,\" Physical Review Letters 13, 390 (1964).\n- <span id=\"page-6-14\"></span><sup>19</sup>B. Batterman and C. Barrett, \"Low-temperature structural transformation in V3Si,\" Physical Review 145, 296 (1966).\n- <span id=\"page-6-15\"></span><sup>20</sup>I. C. Noyan and J. B. Cohen, *Residual stress: measurement by diffraction and interpretation* (Springer, 2013).\n- <span id=\"page-6-16\"></span><sup>21</sup>C. E. Murray, \"Equivalence of kröner and weighted voigt-reuss models for x-ray stress determination,\" Journal of Applied Physics 113, 153509 (2013).\n- <span id=\"page-6-17\"></span><sup>22</sup>R. Gaillac, P. Pullumbi, and F.-X. Coudert, \"Elate: an open-source online application for analysis and visualization of elastic tensors,\" Journal of Physics: Condensed Matter 28, 275201 (2016), [http://progs.coudert.](http://progs.coudert.name/elate/mp?query=mp-2567) [name/elate/mp?query=mp-2567](http://progs.coudert.name/elate/mp?query=mp-2567).\n- <span id=\"page-6-18\"></span><sup>23</sup>P. Scherrer, \"Nachrichten von der gesellschaft der wissenschaften zu göttingen,\" Mathematisch-Physikalische Klasse 2, 98–100 (1918).\n- <span id=\"page-6-19\"></span><sup>24</sup>B. Cullity and S. Stock, *Elements of x-ray diffraction* (Pearson Education Limited, 2013).\n- <span id=\"page-6-20\"></span><sup>25</sup>T. Vodenitcharova, L. Zhang, I. Zarudi, Y. Yin, H. Domyo, and T. Ho, \"The effect of thermal shocks on the stresses in a sapphire wafer,\" IEEE transactions on semiconductor manufacturing 19, 449–454 (2006).\n- <span id=\"page-6-21\"></span><sup>26</sup>H. Watanabe, N. Yamada, and M. Okaji, \"Linear thermal expansion coefficient of silicon from 293 to 1000 k,\" International journal of thermophysics 25, 221–236 (2004).\n- <span id=\"page-6-22\"></span><sup>27</sup>W. Chu, H. Kraütle, J. Mayer, H. Müller, M.-A. Nicolet, and K. Tu, \"Identification of the dominant diffusing species in silicide formation,\" Applied Physics Letters 25, 454–457 (1974).\n- <span id=\"page-6-23\"></span><sup>28</sup>R. Schutz and L. Testardi, \"The formation of vanadium silicides at thin-film interfaces,\" Journal of Applied Physics 50, 5773–5781 (1979).\n- <span id=\"page-6-24\"></span><sup>29</sup>L. Testardi, J. Poate, and H. Levinstein, \"Anomalous electrical resistivity and defects in a-15 compounds,\" Physical Review B 15, 2570 (1977).\n- <span id=\"page-6-25\"></span><sup>30</sup>K. Tu, J. Ziegler, and C. Kircher, \"Formation of vanadium silicides by the interactions of v with bare and oxidized si wafers,\" Applied Physics Letters 23, 493–495 (1973).\n- <span id=\"page-6-26\"></span><sup>31</sup>P. Chaudhari, \"Grain growth and stress relief in thin films,\" Journal of Vacuum Science and technology 9, 520–522 (1972).",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Superconducting V3Si for quantum circuit applications",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              54.0,
+              50.9779052734375
+            ],
+            [
+              428.811767578125,
+              50.9779052734375
+            ],
+            [
+              428.811767578125,
+              66.67755126953125
+            ],
+            [
+              54.0,
+              66.67755126953125
+            ]
+          ]
+        },
+        {
+          "title": "I. INTRODUCTION",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              53.99994659423828,
+              346.5580749511719
+            ],
+            [
+              140.2998046875,
+              346.5580749511719
+            ],
+            [
+              140.2998046875,
+              355.78125
+            ],
+            [
+              53.99994659423828,
+              355.78125
+            ]
+          ]
+        },
+        {
+          "title": "II. IN-SITU XRD ANALYSIS",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              53.86376953125,
+              287.6192626953125
+            ],
+            [
+              175.412109375,
+              287.6192626953125
+            ],
+            [
+              175.412109375,
+              296.61328125
+            ],
+            [
+              53.86376953125,
+              296.61328125
+            ]
+          ]
+        },
+        {
+          "title": "III. COMPETITION BETWEEN V3SI AND VSI2\nFORMATION",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              53.490234375,
+              321.61688232421875
+            ],
+            [
+              256.693359375,
+              321.61688232421875
+            ],
+            [
+              256.693359375,
+              341.279296875
+            ],
+            [
+              53.490234375,
+              341.279296875
+            ]
+          ]
+        },
+        {
+          "title": "IV. DISCUSSION",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              53.7890625,
+              228.799072265625
+            ],
+            [
+              129.71229553222656,
+              228.799072265625
+            ],
+            [
+              129.71229553222656,
+              238.025390625
+            ],
+            [
+              53.7890625,
+              238.025390625
+            ]
+          ]
+        },
+        {
+          "title": "V. CONCLUSION",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              317.0140075683594,
+              303.83453369140625
+            ],
+            [
+              394.5375061035156,
+              303.83453369140625
+            ],
+            [
+              394.5375061035156,
+              313.435546875
+            ],
+            [
+              317.0140075683594,
+              313.435546875
+            ]
+          ]
+        },
+        {
+          "title": "VI. DATA AVAILABILITY",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              53.3408203125,
+              54.9464111328125
+            ],
+            [
+              163.7578125,
+              54.9464111328125
+            ],
+            [
+              163.7578125,
+              64.388671875
+            ],
+            [
+              53.3408203125,
+              64.388671875
+            ]
+          ]
+        },
+        {
+          "title": "VII. ACKNOWLEDGMENTS",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              53.378173828125,
+              125.17236328125
+            ],
+            [
+              175.41400146484375,
+              125.17236328125
+            ],
+            [
+              175.41400146484375,
+              134.1387939453125
+            ],
+            [
+              53.378173828125,
+              134.1387939453125
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              277
+            ],
+            [
+              "Line",
+              90
+            ],
+            [
+              "Text",
+              9
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Footnote",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              427
+            ],
+            [
+              "Line",
+              131
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "Reference",
+              4
+            ],
+            [
+              "Figure",
+              3
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "FigureGroup",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              1073
+            ],
+            [
+              "Line",
+              366
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Equation",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              389
+            ],
+            [
+              "Line",
+              106
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              536
+            ],
+            [
+              "Line",
+              183
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              322
+            ],
+            [
+              "Line",
+              116
+            ],
+            [
+              "Text",
+              9
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              327
+            ],
+            [
+              "Line",
+              100
+            ],
+            [
+              "ListItem",
+              31
+            ],
+            [
+              "Reference",
+              27
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "ListGroup",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/er8e7T4KSQMg6yXpKYr3zg"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 7,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Superconducting V$_3$Si for quantum circuit applications",
+    "authors": [
+      {
+        "authors_list": [
+          "Doekle Vethaak, Tom",
+          "Gustavo, Frederic",
+          "Farjot, Thierry",
+          "Kubart,"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "V$_3$Si thin films are known to be superconducting with transition temperatures up to 15 K, depending on the annealing temperature and the properties of the substrate underneath. Here we investigate the film structural properties with the prospect of further integration in silicon technology for quantum circuits. Two challenges have been identified: (i) the large difference in thermal expansion rate between V$_3$Si and the Si substrate leads to large thermal strains after thermal processing, and (ii) the undesired silicide phase VSi$_2$ forms when V$_3$Si is deposited on silicon. The first of these is studied by depositing layers of 200 nm V$_3$Si on wafers of sapphire and oxidized silicon, neither of which react with the silicide. These samples are then heated and cooled between room temperature and 860°C, during which in-situ XRD measurements are performed. Analysis reveals a highly non-linear stress development during heating with contributions from crystallization and subsequent grain growth, as well as the thermal expansion mismatch between silicide and substrate, while the film behaves thermoelastically during cooling. The second challenge is explored by depositing films of 20, 50, 100 and 200 nm of V$_3$Si on bulk silicon. For each thickness, six samples are prepared, which are then annealed at temperatures between 500 and 750°C, followed by measurements of their resistivity, residual resistance ratio and superconducting critical temperature. A process window is identified for silicide thicknesses of at least 100 nm, within which a trade-off needs to be made between the quality of the V$_3$Si film and its consumption by the formation of VSi$_2$.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2104.00694"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.2104.00694",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2021arXiv210400694D"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

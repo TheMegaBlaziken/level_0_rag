@@ -1,0 +1,450 @@
+{
+  "id": "fd0651f570b790f7228e3e84dd44c6e0",
+  "pdf_path": "apl/Superconductors/arXiv:cond-mat_0301491.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# G inzburg-Landau theory and eects ofpressure on a tw o-band superconductor : application to M gB <sup>2</sup>\n\nJ.J.Betouras,V .A .Ivano[v](#page-4-0) ,F.M .Peeters\n\nD epartm ent ofPhysics,U niversity ofA ntwerpen (U IA ),U niversiteitsplein 1,B -2610 A ntwerpen,B elgium\n\n(M arch 22,2024)\n\nW epresenta m odelofpressureeectsofa two-band superconductorbased on a G inzburg-Landau free energy w ith two order param eters. T he param eters ofthe theory are pressure as wellas tem perature dependent. N ew pressure eects em erge as a result of the com petition between the two bands. T he theory then is applied to M gB2. W e identify two possible scenaria regarding the fate ofthe two subbands under pressure,depending on w hether or not both subbands are above the Ferm ienergy at am bient pressure. T he splitting ofthe two subbandsis probably caused by the E <sup>2</sup><sup>g</sup> distortion. Ifonly one subband is above the Ferm ienergy at am bient pressure (scenario I),application ofpressure dim inishesthe splitting and itispossible thatthe lower subband participates in the superconductivity. T he corresponding crossover pressure and G runeisen param eter are estim ated. In the second scenario both bands start above the Ferm i energy and they m ove below it, either by pressure or via the substitution of M g by A l. In both scenaria, the possibility of electronical topological transition is em phasized. Experim entalsignatures of both scenaria are presented and existing experim ents are discussed in the light ofthe dierent physicalpictures.\n\nPA C S num bers: 74.20.D e,74.25.D w ,74.62.Fj,74.70.A d\n\nI. IN T R O D U C T IO N\n\nT he discovery of superconductivity in the m aterial M gB<sup>2</sup> [\\[1](#page-4-0)] initiated intensive recent theoretical and experim ental interest. T he possibility of a high critical tem perature in a class of m aterials w hich are chem ically m uch sim pler than the high-T<sup>c</sup> cuprates and the occurence oflarge criticalcurrentdensitiespose som e interesting new questions in the research ofsuperconductivity.M gB<sup>2</sup> isa typeIIsuperconductorin theclean lim it [\\[2\\]](#page-4-0).T he crystalbelongsto the space group P 6=m m m or A lB <sup>2</sup>-structure w here borons are packed in honeycom b layers alternating w ith hexagonal layers of m agnesium ions. T he ions M g2+ are positioned above the centersof hexagons form ed by boron sites and donate their electronsto the boron planes.T he electronic structure isorganized by the narrow energy bands w ith near two-fold degenerate( -electrons)and thew ide-band ( -electrons) [\\[3{5\\]](#page-4-0).W ithoutany ofthe lattice strain,the dispersion relationsare slightly splitted due to the two boron atom s per unit cell(the electronic analog ofD avydov splitting for phonons). T he portions ofthe Ferm isurface (FS) consistofcoaxialcylindersalong the -A sym m etry direction ofthe Brillouin zone (BZ),w hereasthe -bands are strongly dispersive.\n\nT he excited phonon m odes in M gB2 present a sharp cut-o at about100 m eV .T he opticalm odes (B <sup>1</sup>g,E2g, A2<sup>u</sup> and E1<sup>u</sup> ) are practically non-dispersive, along the\n\nA direction.VariousR am an data [\\[6{8\\]](#page-4-0)show a sm all spread ofthe E<sup>2</sup><sup>g</sup> frequency around 74.5 m eV in dierent ceram ic sam ples ofM gB2. T he strong deform ation potential ofthe in-planeE <sup>2</sup><sup>g</sup> m ode [\\[9,10\\]](#page-4-0)causesa signi\fcant energy splitting of the band around 1.5 eV , lifting its two-fold degeneracy at the -point ofthe BZ. In general,m easurem entsofthe eectofpressure on the electronic structure are based on the R am an technique, therefore only the in\nuence on the E <sup>2</sup><sup>g</sup> m ode can be traced.H igh pressure experim entsup to 15 G Pa [\\[6\\]](#page-4-0)have revealed a large increase ofthe outofphase E<sup>2</sup><sup>g</sup> phonon m ode. T his leads to a suppression of the displacem ent ofthe boron atom s as wellas ofthe deform ation potential = B <sup>2</sup>u <sup>2</sup> + B <sup>4</sup>u <sup>4</sup> w here u is the displacem ent [\\[10](#page-4-0)] w hich w illbe used below . M oreover,experim ents under pressure up to 40 G Pa do notshow any structuralphase transition [\\[6,11{13](#page-4-0)]. D ue to the anisotropy the hydrostatic pressure decreases the inter-plane distance m ore than the in-plane distance between adjacentborons.\n\nT he interpretation ofexperim entaldata from dierent spectroscopic m ethods [\\[14{16\\]](#page-4-0),suggests the presence of two dierent superconducting gaps. T he speci\fc heat behavior[\\[17\\]](#page-4-0),the low isotope eect [\\[18\\]](#page-4-0),pressure eects [\\[19\\]](#page-4-0) and penetration depth data [\\[20\\]](#page-5-0) provide evidence for a com plicated superconducting order param eter in M gB2. R ecent N M R m easurem ents [\\[21\\]](#page-5-0)of11B as well as H allm easurem ents [\\[22](#page-5-0)]are consistent w ith a -band driven superconductivity in M gB2 w herethe band participatesdue to interband scattering.T he use oftwo orderparam etersisjusti\fed by recentexperim entalresults on scanning tunneling m icroscopy [\\[23](#page-5-0)].\n\nSom e m icroscopic theories [\\[9](#page-4-0)[,24\\]](#page-5-0)are based on band or band scenaria for superconductivity w hereas others [\\[25\\]](#page-5-0)are concentrated on a band superconductivity. A consensus is form ed though, that the driving band for the superconductivity is the one. T he calculated spectral functions [\\[26\\]](#page-5-0) and the analysis of the re\nectance m easurem ents[\\[27\\]](#page-5-0)show the possibility ofdifferent superconducting m echanism s beyond the conventionalelectron-phonon Bardeen-C ooper-Schrieer(BC S) pairing. T he com plicated nature of superconductivity in M gB<sup>2</sup> does not allow at present to accept the conventionalsuperconducting m echanism . T herefore, it is appropriate to constructa phenom enologicaltheory.\n\nSince M gB<sup>2</sup> presentsan exam ple ofa two-band superconductor [\\[28\\]](#page-5-0) m ay serve as a paradigm to investigate new eects. T he purpose of this article is to present a phenom enologicalG inzburg-Landau (G L) theory for a two-band superconductorappropriate to M gB<sup>2</sup> based on two orderparam etersand,in thatfram ework,to provide a physicalpictureofpressureeectson M gB <sup>2</sup>.T hestudy ofpressure eectsisone way to investigate (i)the dierent topology of the two bands and (ii) the question of the participation ofthe two subbandsin the superconductivity.A briefaccountofa partofthiswork waspresented elsew here[\\[29\\]](#page-5-0).In thepresentarticlem issing term s in the G L functionalare restored,non-adiabatic eects Z\n\nare explained using a dierent approach and the eects of pressure are discussed in m ore detail and com pared w ith very recent experim ents. T he work is organized as follow s. In section IIthe G L description is presented,in Section IIIthe pressure eects,in connection w ith the band,are discussed and a generaldiscussion w ith som e concluding rem arksare given in Section IV .\n\n#### II. G IN Z B U R G -LA N D A U D E SC R IP T IO N\n\nW e introduce the G L free energy functionalw ith two order param eters,appropriate for M gB2,assum ing that both the order param eters belong to the <sup>1</sup> representation ofthe point group ofM gB<sup>2</sup> crystal. T he two order param etersare labeled by the corresponding band ( or ) ofM gB2,w ithout loss ofgenerality :\n\n$$\\mathbf{F} = \\mathbf{\\hat{d}}^T \\mathbf{r} \\mathbf{f} \\frac{1}{2\\mathbf{m}} \\mathbf{\\hat{j}}^T \\mathbf{\\hat{j}} + \\mathbf{\\hat{j}} \\mathbf{\\hat{j}} + \\mathbf{\\hat{j}} \\mathbf{\\hat{j}} + \\mathbf{\\hat{j}} \\mathbf{\\hat{j}} + \\frac{1}{2\\mathbf{m}} \\mathbf{\\hat{j}}^T \\mathbf{\\hat{j}} + \\mathbf{\\hat{j}} \\mathbf{\\hat{j}} + \\mathbf{\\hat{j}} \\mathbf{\\hat{j}} + \\mathbf{\\hat{j}} \\mathbf{\\hat{j}} + \\mathbf{\\hat{r}} \\mathbf{\\hat{r}} \\mathbf{\\hat{r}} \\mathbf{\\hat{r}} + \\mathbf{\\hat{r}} \\mathbf{\\hat{r}} \\mathbf{\\hat{r}} \\mathbf{\\hat{r}} \\tag{2}$$\n\n$$+ \\mathbf{F}\\_1 \\left( \\mathbf{r}\\_x \\mathbf{\\hat{r}}\\_x + \\mathbf{\\hat{r}}\\_y \\mathbf{\\hat{r}}\\_y + \\mathbf{\\hat{r}}\\_z \\mathbf{\\hat{r}}\\_y \\mathbf{\\hat{r}} + \\mathbf{\\hat{r}} \\mathbf{\\hat{r}} \\mathbf{\\hat{r}} \\right) + \\mathbf{\\hat{j}} \\mathbf{\\hat{j}} \\mathbf{\\hat{j}} \\mathbf{\\hat{j}} + \\frac{1}{8} \\mathbf{\\hat{r}} \\mathbf{\\hat{r}} \\mathbf{\\hat{r}} \\mathbf{\\hat{r}} \\mathbf{\\hat{r}} \\tag{3}$$\n\nw here =~ i~ r ~ 2e=cA~ is the m om entum operator,A~ is the vector potentialand ; = 0 ; (T T 0 c; ). It is possible to take into account the large anisotropy ofthe two order param eters (the is alm ost two-dim ensional) by rescaling ofthe axisaccording to the eective m asses (directionaldependence eective m ass). In the present work, since we are focusing exclusively on pressure effects,the derivative term s are notim portant.\n\nIn Eq. (1) we have used the fact that the m ixing rterm favorsthe coupling oflinearcom bination ofthe two order param eters w ith phase dierence 0 ifr < 0 or if r > 0 between them [\\[30](#page-5-0)],therefore a term <sup>2</sup> <sup>2</sup> + c:c: is incorporated into the -term of the free energy [\\[31\\]](#page-5-0). Ifr = 0 then Eq. (1) is the free energy for two bands w ithout Josephson coupling between them . T he quartic -term is the only one w hich m ixes the two gaps and is unim portant in this case. T he onset ofthe superconducting state in one band does not im ply the onset in the other.T hiscorrespondsto the case ofVsd = 0 in the two-band BC S treatm ent[\\[32\\]](#page-5-0).Ifr 6= 0,w hich isthe case ofM gB2,then the pairtransfering term ispresentin the G L functionaland it m eans that the onset ofsuperconductivity in one band im plies autom atically the appearance ofsuperconductivity in the other.T here is a single observed T<sup>c</sup> w hich is a function ofthe bare ones T<sup>0</sup> c; . In M gB2 the com pression due to pressure is anisotropic [\\[6](#page-4-0)[,33,34](#page-5-0)].A ccording to R ef.[\\[6\\]](#page-4-0)the com pressibility along the c-axis is alm ost tw ice larger than that ofthe plane com pressibility. T herefore application of uniaxialpressureon singlecrystalsw illaectdierently the two gaps. Follow ing O zaki'sform ulation [\\[35,36\\]](#page-5-0),we m ay add to the\n\nG L functional,Eq.(1),the term w hich couplesthe order param eters,in second order,w ith the strain tensor to \frstorder,having already speci\fed the sym m etry ofthe orderparam eters:\n\n$$\\begin{array}{rcl} \\mathbf{F\\_{strain}} &=& \\mathbf{C\\_{1}} \\begin{pmatrix} \\mathbf{1} \\end{pmatrix} \\begin{bmatrix} \\mathbf{1} \\end{bmatrix} \\begin{pmatrix} \\mathbf{1} \\end{pmatrix} \\begin{pmatrix} \\mathbf{1} \\end{pmatrix} + \\begin{bmatrix} \\mathbf{1} \\end{bmatrix} \\begin{bmatrix} \\mathbf{1} \\end{bmatrix} \\\\\\\\ \\mathbf{C\\_{2}} \\begin{pmatrix} \\mathbf{1} \\end{pmatrix} \\begin{pmatrix} \\mathbf{1} \\end{pmatrix} \\begin{pmatrix} \\mathbf{1} \\end{pmatrix} \\begin{pmatrix} \\mathbf{1} \\end{pmatrix} + \\begin{bmatrix} \\mathbf{1} \\end{bmatrix} \\begin{pmatrix} \\mathbf{1} \\end{pmatrix} \\\\\\\\ \\mathbf{C\\_{3}} \\begin{pmatrix} \\mathbf{1} \\end{pmatrix} \\begin{pmatrix} \\mathbf{1} \\end{pmatrix} \\begin{pmatrix} \\mathbf{1} \\end{pmatrix} \\begin{pmatrix} \\mathbf{1} \\end{pmatrix} \\begin{pmatrix} \\mathbf{1} \\end{pmatrix} + \\begin{bmatrix} \\mathbf{1} \\end{bmatrix} \\begin{pmatrix} \\mathbf{1} \\end{pmatrix} \\begin{pmatrix} \\mathbf{1} \\end{pmatrix} \\end{array}$$\n\nw here C<sup>1</sup>;2;<sup>3</sup>(1) are coupling constants and , <sup>0</sup> are given in term s of the elastic constants of the m aterial. T his w illlead to a change ofthe bare criticaltem peratures T 0 c; and consequently ofthe actualcriticaltem perature Tc. T he physicalreasoning behind this is that the m aterialw illchange in such a way as to gain condensation energy by enhancing the density of states in the direction w here the superconducting gap is larger. T he term proportionalto + c:c:in the Fstrain w ill renorm alize the m ixing coupling r to ~r. W e m odelthe corresponding dierences by taking a linear dependence ofthe two bareTc'sw ith pressureTc; = T 0 c; ; p , w here ; = j@T<sup>0</sup> c; (p = 0)=@pjand we w illdiscuss the validity ofthe assum ption for the M gB2 later.\n\nA nalyzing the equations w hich result from the m inim ization ofthe G L free energy we get :\n\n$$=\\ \\mathbb{z}^2 \\colon \\tag{3}$$\n\nT hisgivesthe pressure dependence ofthe superconducting criticaltem perature:\n\nwhere a2 = 4x2=( 0 0). Deviations from a straight line at m oderate values of pressure can be attributed to the two bands. From the above form ula the inequality dT == 0 is always true as long as the renorm alized m ixing param eter r is real, as a consequence of the initial assum ption on the pressure dependence of the bare criticaltem peratures. In the case of M gB2 we can safely consider that >\n\n#### III. NONAD IABATIC EFFECTS\n\nW e now wish to address an issue speci c to M gB 2 which can be also realized in other multiband superconductors. The physical situation we would like to question is the splitting of the tw o subbands at am bient pressure and their participation in superconductivity with the increase of pressure. Due to contradictory experim ental as well as theoretical results we proceed by distinguishing two di erent scenaria. The rst one addresses the splitting of the two sigm a subbands at am bient pressure as shown by rst princible calculations [9,10,37]when one of the subbands is below the Ferm ienergy E p . The second scenario addresses the opposite situation where both the\n\nsubbands are above Ep at am bient pressure.\n\nA . Scenario I : one sub-band above EF at am bient p ressure.\n\nIn particular in [37] the splitting of the two subbands w as studied in detailand com pared with sim ilar situation in A B2. The conclusion is that due to the E2q phonon m ode, the two bands split nearby point and the low er band completely sinks below the Ferm i energy. This is the case for M gB 2 and also for the heavily hole doped graphite. M oreover, experim ental results [33,38] show ed a kink in the superconducting critical tem perature as a function of pressure at approxim ately 6-8 G P a and also a kink in the volume dependence of To for M g10B2 at around 20 G P a and M g 1 B 2 at around 15 G P a [7].\n\nThe physics we discuss here, is the change in the electronic properties of the m aterial under pressure and its in uence on the superconducting state. The band which is below the Ferm i level at am bient pressure [9] is possible to overcom e the energy di erence and to get above the Ferm i levelat a certain value of pressure (term ed as crossover pressure), restoring the degeneracy of the two\n\nbands at point . This is a non-adiabatic e ect as discussed in [37]. To understand and illustrate this e ect on the superconducting state we need to consider the pressure dependence of the coe cient as usual [39] w ith\n\nthe m odi cation due to the particular physical situation by w riting:\n\n$$\\begin{array}{ccccccccc} & & & & \\mathbf{(}\\_{\\odot}\\mathbf{q} & \\mathbf{\\not\\in p} & \\mathbf{(}\\_{\\odot}\\mathbf{q} & \\mathbf{\\not\\in q} & + & \\mathbf{\\not\\in p} & \\mathbf{T} & \\mathbf{T} & \\mathbf{D} & \\mathbf{0} \\\\ & & & & & & \\mathbf{(}\\_{\\odot}\\mathbf{q} & + & \\mathbf{D} & \\mathbf{T} & \\mathbf{D} & \\mathbf{0} \\\\ \\end{array} \\tag{5}$$\n\nwhere (x) is the H eaviside step function, and 1 are positive constants. This choice re ects the fact that at a certain crossover pressure pc the second band starts to participate in superconductivity as well and that initially it is an increasing function of pressure. We obtained the above form ula by requiring the continuity of the coe cient at pc .\n\nAfter the energy di erence between the two bands alm ost disappears, then they both follow the sam e reduction of the bare T 。's with pressure. The approxim ate value of the crossover pressure can be estim ated as follow s. The energy di exence between the two subbands is\napproxim ated by E. ' (1 m) of superconducting electrons is 1 carrier density per boron atom in M gB 2. The approxim ate value of p 。 is half the value of the pressure which suppresses the deform ation potential . The deform ation potential in turn, can be estim ated by the expression (1 \nof M gB 2 and == 0:04eV 2 is the deform ation potential for a boron displacem ent u 0:03A [10]. U sing these param eters, we get a crossover pressure of p. 15G P a. This estim ate show s, that a realistic applied pressure inuences drastically the electronic structure and the FS topology, restoring the degeneracy of the two subbands at the point which are initially splitted. Superconductivity in the second subband may occur at lower values of the estim ated p due to the fact that both subbands are a ected. The elim ination of the energy di erence around the Ferm i energy will also occur at lower values due to the corrugation of the portions of the F S, the already existing strains in the m aterial and the an isotropic com pressibility. These considerations m ake the above estim ate an upper lim it of the crossover pressure pc. The degree to which shear stresses of the sam ple and the surrounding uid under pressure a ect the data of pressure m easurem ents is still under investigation [19].\n\nThe m icroscopic nature of this crossover is caused by the change of the FS. If the topology of the F'S changes under pressure (this subsection) or due to substitutions in the com position (next subsection), a van Hove singularity at critical energy E c in the electronic density of states (E ) is m anifested in an electronic topological transition of the 5/2 kind [40]. Since dT 。= dp is essentially proportional to the derivative d (Er )=dEF , it develops singularities / 1= Ep E c, provided that the strength of carrier attraction varies slightly w ith pressure [41].\n\nIn Fig. 1 using a model calculation, we illustrate the expected behavior ofTc and the form of the order param eter as a finction of pressure at xed tem perature and,\n\nschem atically,thekink ofT<sup>c</sup> atp<sup>c</sup> dueto thechangeofthe slopefrom Eq.(5).T hepredicted kink closeto p<sup>c</sup> can be detected directly in a penetration depth experim ent under pressure. T he chosen param eters are such that they respectthe relation > ,the factthat the superconducting density com ing from the band is higher than the one com ing from the band ( > )and thatthe driving band for superconductivity is (T <sup>0</sup> > T<sup>0</sup>).\n\nT he contribution on the G runeisen param eter:\n\n$$\\mathbf{G} = \\mathbf{B} \\frac{\\mathbf{d} \\mathbf{h} \\mathbf{l}}{\\mathbf{d} \\mathbf{p}} = \\frac{\\mathbf{B}}{\\mathbf{l}} \\frac{\\mathbf{d} \\mathbf{l}}{\\mathbf{d} \\mathbf{p}} ; \\tag{6}$$\n\nw here B is the bulk m odulus and ! is the phonon frequency, can be approxim ately obtained if we observe that E ' ~!<sup>E</sup> <sup>2</sup><sup>g</sup> then G ' B =2pc. T he bulk m odulusism easured to be B' 114 G Pa [\\[42\\]](#page-5-0)and ourestim ate for the G runeisen param eter is G ' 3.8. Experim entally G = 2:9 0:3 as reported in [\\[6](#page-4-0)]for the m easured R am an active E<sup>2</sup><sup>g</sup> phonon m ode. H owever,as indicated in R ef. [\\[6\\]](#page-4-0),foranisotropic crystalsitwould be m ore appropriate to scale the frequency shift in the G runeisen param eter w ith the variation of the lattice constant a such as G = dln!=3dlna [\\[43\\]](#page-5-0). T hen, the G runeisen param eter for the M gB<sup>2</sup> takes the value 3.9 0.4. T here is an excellentagreem entw ith the aboveestim ate and itjusti\fes our approach.\n\n![](_page_3_Figure_4.jpeg)\n\nFIG .1. T he form ofthe order param eter as a function of pressure,w here the kink at p<sup>c</sup> is show n. Inset: the behavior of the critical tem perature Tc(p). T he chosen param eters are (in reduced units): T = 0.8 T<sup>0</sup> c , T<sup>0</sup> c = 0.7 T<sup>0</sup> c , = 0.2 T 0 c /pc, = 0.5 T<sup>0</sup> c /pc, <sup>0</sup> = 2, <sup>0</sup> = 1, <sup>1</sup> = 0.1.\n\n## B . Scenario II : both sub-bands above E <sup>F</sup> at am bient pressure.\n\nSom e recent experim entaland theoreticalstudies [\\[44](#page-5-0)] lend supportto a second scenario.M ore speci\fcally,the\n\nsubstitution ofM g by the higher valent A lwas used to providethenecessary changeoftheFerm ienergy via electron concentration and thelatticeparam etersin thecom pound M g<sup>1</sup> <sup>x</sup> A lxB2. T his is in essence equivalent to a change ofFerm isurface topology as in the pressure experim ents. A s it was show n in [\\[44](#page-5-0)]by increasing the A l content(equivalently by increasing the pressure),a topologicalcrossover occurs at som e point and the negative slopeofT<sup>c</sup> asa function ofA lcontentx decreasesfurther giving a dierentpicture from that ofFig.1.\n\nTo m odelthisin thelanguageoftheG L m odel,onebasically hasto substitute the pressure p and the crossover pressure p<sup>c</sup> w ith the A l concentration x and and the crossover concentration x<sup>c</sup> respectively, requiring again continuity atxc:\n\n= 0 ;x(T T 0 c <sup>+</sup> ;xx)+ <sup>1</sup> ;x(x xc)-(x x <sup>c</sup>) (7)\n\nw here the extra substrciptx denotes that the num erical coecients are dierent from Eq. (5). T he criticaltem perature as a function ofthe A lcontent is illustrated in Fig.2.T hephysicsissim ilarto thetopologicaltransition described in scenario Iw herenow instead ofpressure,the changing param eteristhe com position.Itisa m ore controlled way to change the topology ofthe FS.In fact,an abrupt topologicalchange in the -band Ferm isurface wasfound atx = 0:3 in R ef.[\\[44](#page-5-0)].W hen the bandsare \flled in M g<sup>1</sup> <sup>x</sup> A lxB<sup>2</sup> atx 0:6,superconductivity dissapears. It is worth noticing that in this com pound,the im purity scattering broadens the van H ove singularities atthe saddle pointsE<sup>c</sup> ofthe FS and sm earsthe change ofslope ofT<sup>c</sup> at Ec. T herefore the kink ofT<sup>c</sup> in Fig. 2 w illbe less pronounced (see also the experim ent in R ef. [\\[44\\]](#page-5-0)).\n\nW e em phasize here the need of de H aas-van A lphen (dH vA )data forM g<sup>1</sup> <sup>x</sup> A lxB2,especially close to x= 0.3. T he pressure derivative of the superconducting critical tem peratureasa function oftheconcentration dTc(x)=dp can be also conclusive since it can clarify the correlation between pressure,A lconcentration and the kink atxc.\n\n![](_page_3_Figure_13.jpeg)\n\nFIG .2. Schem atically the form of the superconducting critical tem perature Tc(x) in the second scenario. x is the concentration ofA lin a M g<sup>1</sup> <sup>x</sup> A l<sup>x</sup> B2-like system .\n\n### IV . D ISC U SSIO N\n\n<span id=\"page-4-0\"></span>Interestingly enough,there is an obvious discrepancy from the two picturesofthe previoussection,w hich calls for m ore experim ental data. O bservation of quantum oscillations in dH vA experim ents provides the inform ation about the bands,the eective m ass ofthe carriers and the shape of the Ferm i surface in M gB2. In R ef. [\\[45\\]](#page-5-0),only the sm allercylindricalFerm isurface along the c-axis was observed (w ith a hole band m ass -0.251 m <sup>e</sup>, w here m <sup>e</sup> is the electron m ass). T he sam e authors reported the observation ofonly the larger of the two tube-like Ferm isurfaces (w ith a band m ass -0.553 m <sup>e</sup>) in R ef.[\\[46\\]](#page-5-0). A lthough the estim ated param eters ofthe M gB<sup>2</sup> are in agreem entw ith the LD A band calculations [\\[47\\]](#page-5-0)future dH vA experim entsshould clarify the detailed observation ofthe portions ofthe FS.A lso note that angle resolved photoem ission spectroscopy experim ents [\\[48\\]](#page-5-0)detected one band along the K sym m etry line of the BZ.\n\nT here are a few pointsin orderto discussfurtherw ith respect to applicability of the theory developed here. Early pressure experim ents [13]dem onstrated the overalldecrease ofT<sup>c</sup> w ith a pressure increase w hich was attributed to the loss of holes. In two of the sam ples of [13]there isa lineardependence ofT<sup>c</sup> on pressure and in two othersa weak quadratic dependence. W e stressthat the sam ples were polycrystalline and the experim ent is eectively under hydrostatic pressure. A lso the degree ofnonstoichiom etry was not know n. T he alm ost linear dependence fora w ide range ofpressures,m akesthe G L functionalas presented,valid for M gB2.\n\nExperim ents on single crystals w illbe able to clarify the eects w hich are described. W e do not attem pt at the m om ent any actualdetailed \ftting ofexperim ental data, except from the illustrative \ftting in section III, because there isno experim entalconsensuson the dierentvaluesofkey param etersofthetheory (e.g.,thereisa w iderangeofpublished data on thevalueofdTc=dp [19]). M ore detailed R am an data w ith opticalre\nectivity,speci\fc heatand therm alconductivity m easurem entsunder pressurein the superconducting phase are needed aswell as a penetration depth experim ent w hich can revealthe pressure dependence ofthe super\nuid density. A lso the experim ents suggested in scenaria I and II w illbe crucialin the question regarding the topologicaltransition, w here E<sup>F</sup> can be varied experim entally either by externalpressure(Sec.IIIA )orby alloying (Sec.IIIB).R ecent R am an spectra athigh pressure[\\[38](#page-5-0)]reveala reduction of theslopeofthepressure-induced frequency shiftby about a factoroftwo,atabout18 G Pa w hich supportsthe suggestion thatM gB<sup>2</sup> m ay undergo a pressure-induced topologicalelectronic transition. In connection w ith the appearance ofsuperconductivity under pressure,we stress the high pressure superconducting phase ofC aSi<sup>2</sup> w hich\n\nsuperconductsabove an applied pressure of12 G Pa w ith T<sup>c</sup> 14K [\\[49](#page-5-0)].\n\nO ne proposed experim ent w hich can potentially show the dierent role ofthe two bands ( and ) is the detection of the Leggett m ode or the internal Josephson current [\\[50\\]](#page-5-0). M oreover an upward curvature in Hc<sup>2</sup> is also know n to be a signature ofm ulticom ponent superconductivity.\n\nIn sum m ary,we presentan analysisofpressure eects, w ithin the G L theory,ofa two-band superconductorand apply itto M gB2.W em akepredictionsfornon-adiabatic eectsand discussdierentexperim entsfrom w hich crucialinform ation can be extracted on the physics ofthe two participating bands and aswellasthe m ore delicate questions on the two subbands.\n\nW e are grateful to D aniel A gterberg, C hristos Panagopoulos, R obert Joynt, M anfred Sigrist, Stefan-Ludw ig D rechsler and the anonym ous referee for very useful com m ents and constructive criticism s. T his work was supported by the Flem ish Science Foundation (FW O -V l), the Inter-U niversity A ttraction Poles Program m e(IU A P)and theU niversity ofA ntwerpen (U IA ).\n\n- O n leave from N .S.K urnakov Institute ofG eneraland Inorganic C hem istry oftheR ussian A cadem y ofSciences, 31 Leninskiiprospekt,117907,M oscow ,R ussia.\n- [1] J.N agam atsu et al.,N ature 410,63 (2001).\n- [2] D .K .Finnem oreetal.,Phys.R ev.Lett.86,2420 (2001).\n- [3] A .R .A rm strong,and P.G .Perkins,J.C hem .Soc.Faraday II15,12 (1979).\n- [4] N .I.M edvedeva et al.,JET P Lett.73,336 (2001).\n- [5] J.K ortuset al.Phys.R ev.Lett.86,4656 (2001).\n- [6] A . F. G oncharov et al., Phys. R ev. B 64, 100509(R ) (2001).\n- [7] V .V .Struzhkin etal.,[cond-m at/0106576](http://arxiv.org/abs/cond-mat/0106576).\n- [8] J.H linka etal.,Phys.R ev.B 64,140503 (2001).\n- [9] J.M .A n and W .E.Pickett,Phys.R ev.Lett.86,4366 (2001).\n- [10] T .Y ildirim etal.,Phys.R ev.Lett.87,037001 (2001).\n- [11] K .Prassides et al.,Phys.R ev.B 64,012509 (2001).\n- [12] P.B ordetet al.,Phys.R ev.B 64,172502 (2001).\n- [13] M .M onteverde etal.,Science 292,75 (2001).\n- [14] P.Seneoretal.,Phys.R ev.B 65,012505 (2002).\n- [15] S.T suda etal.,Phys.R ev.Lett.87,177006 (2001).\n- [16] P.Szabo etal.,Phys.R ev.Lett.87,137005 (2001).\n- [17] A . Junod, Y . W ang, F. B ouquet, and P. Toulem onde, to appear in:Studies ofH igh-Tem perature Superconductors (ed.A .N arlikar),vol.38,N ova Science,N Y ;[cond](http://arxiv.org/abs/cond-mat/0106394)[m at/0106394.](http://arxiv.org/abs/cond-mat/0106394)\n- [18] S. L. B ud'ko et al., Phys. R ev. Lett.86, 1877 (2001); D .G .H inksetal.,N ature 411,457 (2001).\n- [19] J. S. Schilling et al., to appear in: Studies of H igh-Tem perature Superconductors (ed.A .N arlikar),Vol.38,\n\n(N ova Science,N Y ,2002);[cond-m at/0110268](http://arxiv.org/abs/cond-mat/0110268).\n\n- <span id=\"page-5-0\"></span>[20] C .Panagopoulos etal.,Phys.R ev.B 64,4514 (2001).\n- [21] M .Pissas et al.,[cond-m at/0111351](http://arxiv.org/abs/cond-mat/0111351);G .Papavassiliou et al.,Phys.R ev.B 65,012510 (2001).\n- [22] R .Jin etal.,Phys.R ev.B 64,220506(R ) (2001).\n- [23] F.G iubileo etal.,Europhys.Lett.58,764 (2002)\n- [24] J.E.H irsch,Phys.Lett.A 282,392 (2001);J.E.H irsch and F.M arsiglio,Phys.R ev.B 64,144523 (2001);K .D . B elashchenko,M .van Schilfguarde,and V .P.A ntropov, Phys. R ev. B 64 132506 (2001); C . Joas, I. Erem in, D . M anske, and K . H . B ennem ann, Phys. R ev. B 65 132518 (2002); V . A . Ivanov, M . van den B roek, and F.M .Peeters,Solid State C om m un.120,53 (2001);A .I. Posazhennikova,T .D ahm ,K .M aki,Europhys.Lett.60, 134 (2002).\n- [25] G . B askaran, [cond-m at/0103308;](http://arxiv.org/abs/cond-mat/0103308) K . Yam aji, J. Phys. Soc.Jap.70,1476 (2001).\n- [26] A .K nigavko and F.M arsiglio,Phys.R ev.B 64,172513 (2001).\n- [27] F.M arsiglio, Phys.R ev.Lett.87, 247001 (2001); J. J. Tu etal.,Phys.R ev.Lett.87,277001 (2001).\n- [28] A .Y .Liu,I.I.M azin and J.K ortus,Phys.R ev.Lett.87, 087005 (2001);S.V .Shulga etal.[,cond-m at/0103154;](http://arxiv.org/abs/cond-mat/0103154)M . Im ada,J.Phys.Soc.Jpn.70,1218 (2001);E.B ascones and F.G uinea,Phys.R ev.B 64,214508 (2001).\n- [29] V . A . Ivanov, J. J. B etouras and F. M . Peeters, [cond](http://arxiv.org/abs/cond-mat/0204085)[m at/0204085.](http://arxiv.org/abs/cond-mat/0204085)\n- [30] J. B etouras and R . Joynt, Europhys. Lett., 31, 119 (1995); J. J. B etouras and R .Joynt, Phys.R ev.B 57, 11752 (1998).\n- [31] T he dierence in the form ofthe free energy w ith a form derived fora possiblesand d m ixing in high-T<sup>c</sup> superconductorsisin the m ixed derivative term <sup>1</sup>,w here we add the contributions from the two directions instead ofsubtracting them .T his re\nects the fact that a d-wave order param eter under 90<sup>0</sup> rotation changes sign w hereas here the assum ed sym m etry is <sup>1</sup> for both order param eters.\n- [32] V . A . M oskalenko, Fiz. M etal. i M etalloved. 8, 503 (1959) (in R ussian); Phys. M et. M etallogr. (U SSR ),8, 25 (1959); H .Suhl, B . T . M atthias, and L. R . W alker, Phys.R ev.Lett.12,552 (1959).\n- [33] V .G .T issen etal.,Physica C 363,194 (2001).\n- [34] T .Vogtetal.,Phys.R ev.B 63,220505(R ) (2001).\n- [35] M .O zakiet al.,Prog.T heor.Phys.75,442 (1986); M . Sigrist,R .Joynt,and T .M .R ice,Phys.R ev.B 36,5186 (1987).\n- [36] M .Sigristand K .U eda,R ev.M od.Phys.63,239 (1991).\n- [37] L.B oeriet al.,Phys.R ev.B 65,214501 (2002).\n- [38] K .P.M eletov etal.,JET P Letters75,406-409 (2002).\n- [39] R .Joynt,Phys.R ev.Lett.71,3015 (1993).\n- [40] I.M .Lifshitz, Sov.Phys.JET P 11,1130 (1960); I.M . Lifshitz,M .Ya.A sbeland M .I.K aganov Electron T heory ofM etals,C onsultant B ureau,N ew York (1973).\n- [41] V . I. M akarov and V . G . B ar'yakhtar, JET P 21, 1151 (1965).\n- [42] F.Y .Lietal.,Phys.R ev.B 55,132517 (2002).\n- [43] M .H am \nand,H .B eiser, and K .Syassen,Phys.R ev.B 39,12598 (1989).\n- [44] P.Postorino et al.,Phys.R ev.B 65,020507 (2002);O . de la Pena,A .A guayo,and R .de C ross Phys.R ev.B 66 012511 (2002).\n- [45] E.A .Yelland etal.,Phys.R ev.Lett.88,217002 (2002).\n- [46] A .C arrington et al.,Proccedings LT -23,Physica B (to be published).\n- [47] I. I. M azin and J. K ortus, Phys. R ev. B 65, 180510 (2002);H .R osneretal.Phys.R ev.B 66,024521 (2002); S.-L.D rechsler et al.,Proccedings LT -23,Physica B (to be published).\n- [48] H .U chiyam a et al.,Phys.R ev.Lett.88,157002 (2002).\n- [49] S.San\flipo etal.,Phys.R ev.B 61,R 3800 (2000).\n- [50] D . F. A gterberg, E. D em ler, and B . Janko, [cond](http://arxiv.org/abs/cond-mat/0201376)[m at/0201376;](http://arxiv.org/abs/cond-mat/0201376) A . G urevich and V .M . V inokur, [cond](http://arxiv.org/abs/cond-mat/0207559)[m at/0207559.](http://arxiv.org/abs/cond-mat/0207559)",
+    "html": null,
+    "images": {
+      "_page_3_Figure_4.jpeg": "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",
+      "_page_3_Figure_13.jpeg": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAEvATIDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1nSfH/h7W7qC30+4uZXnJEbGzmVDjP8RUDse9dKzKilmYKqjJJOABXH/Cv/kmeif9cn/9GNUvxHuZYfB01vE5Rr6eGzLg8qsjhW/8dJH40AdFp2oQapp8N9almt513Rsyldy9jg9j1HsaTUtSttJsXvbxiluhUO4UkICQMnHQDPJ7Dmua8aX134WsLLXbKfbYaeyx3VhkBZoWwo256OuQQM89KseF4rvXPC8t5rVytyusIZPs6EGOCFxgRqR1+U8n1z6UAdR1orl/h1ezX/gLS5Lhy8saPbs56t5btGD+SiumjkSVS0bq6hipKnPIOCPqCCPwoAdRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAciIm8A+C9O0qwIvLjz47K2af5VZ5JDgtjsMk8elRa5pHiLXPDuq6Vf/AGJ5xHHPYXdqpjDSq24KUZmKkFRznBDe1dFrejwa5pxtJpJImWRJopoiA8UiMGVlyCMgjvUOk6LPY3lxfXupz395Mixb3VY0RFJICovA5JJPJNAFCPTovFjaHrV3JKtvbL5409kwBcdMvnnKHIA7Hmov7P8A+EK0LWJNOklmhkdpLGxCZ8qZ+BGn+yXIOO2TXV0UAYvhrRZNA8JWOlJIpuIIMNIRkGU5Zj7jcSaxvhtpV7pOi38V1qRvg2o3O1mj2sGWV0Y9TwxXd7Fj1rs6w/Cn/IKuv+wnff8ApVLQBuUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFYfhT/kFXX/YTvv8A0qlrcrD8Kf8AIKuv+wnff+lUtAG5RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVh+FP8AkFXX/YTvv/SqWtysPwp/yCrr/sJ33/pVLQBuUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFYfhT/kFXX/AGE77/0qlrcrmvCGoWc1vqFlHcxNdQ6lemSEON6g3MhBI64560AdLRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVyujaNp+raROL22WR49TvzHKCVkjP2qXlHGGU/QiuqrD8Kf8gq6/7Cd9/6VS0AM+za9pPNpcLq9qP+WF0wjnUf7MgG1vowB9WqzY+IrC9uRZuZLO+xn7Jdr5ch9do6OPdSR71rVWvtOstTtjb31rFcQk52yKGAPqPQ+4oAs0Vgf2Vq2lc6Rf8A2mAf8uWouWwPRJuXX/gW/wDCpLfxNaidLXU4ZdLu3O1Y7vASQ/7EgyjfQHPqBQBt0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABWH4U/5BV1/wBhO+/9Kpa3Kw/Cn/IKuv8AsJ33/pVLQBuUUUUAFR3FvBdwPBcwxzQuMPHIoZWHoQetSUUAYH9gXOm/NoOoNbIP+XK5zNbn2UE7o/8AgJwP7ppV8S/YmEevWb6Y2cfaC3mWzH2lAG3/AIGFrepGUMpVgCCMEHvQAI6yIrowZWGQynIIpawn8MpaO02h3UmlSE5MUa77dz/tRHgfVdp96b/bt7pny67p7Rxj/l9swZYfqwxvT8QVH96gDfoqG1ure9tkuLSeKeBxlJInDKw9iKmoAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigArD8Kf8gq6/7Cd9/6VS1uVh+FP+QVdf8AYTvv/SqWgDcooooAKKKKACiiigAooooAxrrw1aPcPd2EkumXrnLT2hCiQ/7aEFH+pBPoRUP9pazpXGqWIvrcf8vmnISwHq8JJb/vgt9BW/RQBU0/U7HVbfz7C6iuIwcEo2Sp9COoPseat1l6h4fsNQuPtRR7a+Awt3auY5QPQsPvD2bI9qqed4g0n/XxLrNqP+WkAWK5Ue6HCP8AVSvspoA36Kz9N1vT9W3raXAM0f8ArYHUpLH/ALyNhl/EVoUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFYfhT/kFXX/YTvv/AEqlrcrD8Kf8gq6/7Cd9/wClUtAG5RRRQAUUUUAFFFFABRRRQAUUUUAFFFFAFDUtF0/Vthu7cNLH/qpkJSWM+quuGX8DWf5Gv6T/AMe8y6xaj/llcERXCj2cDa/0YKfVjW/RQBlWHiGwv7j7Juktb4DJtLpPLl+oB+8PdSR71q1Vv9NstUt/IvrWK4izkLIudp9Qex9xzWV/ZmsaVzpV/wDbLcf8ueouSQPRJhlh/wADD/UUAb9FYtt4ltGuEtNQil0y9c7VhuwFEh/2HBKP9Ac+oFbVABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVh+FP+QVdf9hO+/8ASqWtysPwp/yCrr/sJ33/AKVS0AblFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQBFc2tveW7291BHPA4w8cqBlYe4PBrF/sG80z5tC1BoYx/y5XeZoPopzvj/AlR/drfooAwV8SpZuItdtH0uQnAmdt9sx9pRwPo4U+1bqsrqGUhlIyCDkEUMquhR1DKwwQRkEVhN4aWzYy6Ddvpbk5MCrvtmPvEThf+AFT70Ab1FYH9vXem/Lr2ntAg/5fbXM0B9243R/8CGB/eNbVvcwXdulxbTRzQuMpJGwZWHqCODQBLRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFYfhT/kFXX/YTvv/AEqlrcrD8Kf8gq6/7Cd9/wClUtAG5RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVzeoW6eG7463ZwrHYycanFGuBjtOAO6/xeq8/wiukpGUMpVgCpGCD0NAArBlDKQVIyCDwRS1z2ksdC1IaDMT9kkBfTXPZRy0BPqvVfVf8AdNdDQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFYfhT/kFXX/YTvv8A0qlrcrD8Kf8AIKuv+wnff+lUtAG5RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAUNX0xNW09rdpGilVhJBOg+aGReVcfQ9u4yDwaj0TVH1G1kjuo1h1C1fybuEdFcDOR6qwwwPofUGtOsLW7eaxuo9fsY2kmgTZdwoMm4gzkgDu65LL/wIfxUAbtFRW1xDd20VzbyLLDKgeN1OQykZBFS0AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFYfhT/AJBV1/2E77/0qlrcrD8Kf8gq6/7Cd9/6VS0AblFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAc7bf8U5rIsjxpWoSFrU9oJzktF7K3LL77h3UV0VVdR0+31XT5rK5UmKUYJU4ZT1DKexBAIPYgVR0LULiUTabqLD+07LCysBgTIfuSqPRgDkdmDDtQBsUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVh+FP+QVdf8AYTvv/SqWtysPwp/yCrr/ALCd9/6VS0AblFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFY2u2Fw5h1TTlB1KyyUTOPPjP34iffAIPZgp6ZrZooAraff2+qWEN7asWhmXcuRgj1BHYg5BHYg1ZrnZv+Kc1o3Q40rUZQJx2t7g8B/ZX4B9Gwf4ia6KgAooooAKKKKACiiigAooooAKKKKACsPwp/yCrr/sJ33/AKVS1uVh+FP+QVdf9hO+/wDSqWgDcooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAiurWC9tJrW5iWWCZCkiMOGUjBFY+h3U9pcyaDfytJc2yb7edzzcQZwGJ7svCt74P8AFW7WXrmmSX9tHNaOsWo2j+bayt0DYwVb/ZYZU+xz1AoA1KKo6RqceraelyiNE+Sk0L/ehkU4ZG9wfz69DV6gAooooAKKKKACiiigAooooAKw/Cn/ACCrr/sJ33/pVLW5WH4U/wCQVdf9hO+/9KpaANyiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA53VAdA1M67ED9hm2pqSD+EDhZ/+A9G/2cH+GuhBBAIIIPQih0WRGR1DKwwVIyCPSmxRRwxJFEipGihURRgKBwAB6UAPooooAKKKKACiiigAooooAKw/Cn/IKuv+wnff+lUtblczY2fiTS1uYLaDSpoHu7idHkuJFbEkrSAEBCMjdjr2oA6aisPzfFX/AD5aN/4Fy/8AxujzfFX/AD5aN/4Fy/8AxugDcorD83xV/wA+Wjf+Bcv/AMbo83xV/wA+Wjf+Bcv/AMboA3KKw/N8Vf8APlo3/gXL/wDG6PN8Vf8APlo3/gXL/wDG6ANyisPzfFX/AD5aN/4Fy/8AxujzfFX/AD5aN/4Fy/8AxugDcorD83xV/wA+Wjf+Bcv/AMbo83xV/wA+Wjf+Bcv/AMboA3KKw/N8Vf8APlo3/gXL/wDG6PN8Vf8APlo3/gXL/wDG6ANyisPzfFX/AD5aN/4Fy/8AxujzfFX/AD5aN/4Fy/8AxugDcorD83xV/wA+Wjf+Bcv/AMbo83xV/wA+Wjf+Bcv/AMboA3KKw/N8Vf8APlo3/gXL/wDG6PN8Vf8APlo3/gXL/wDG6ANyisPzfFX/AD5aN/4Fy/8AxujzfFX/AD5aN/4Fy/8AxugDcqG6u4LKETXEgjjLpHuIJ+Z2CqOPVmA/GsnzfFX/AD5aN/4Fy/8AxuqOrWninVLEWxttHjAnhm3C6lP+rkWTH+r77cfjQB1VFYfm+Kv+fLRv/AuX/wCN0eb4q/58tG/8C5f/AI3QBuUVh+b4q/58tG/8C5f/AI3R5vir/ny0b/wLl/8AjdAG5RWH5vir/ny0b/wLl/8AjdHm+Kv+fLRv/AuX/wCN0AblFYfm+Kv+fLRv/AuX/wCN0eb4q/58tG/8C5f/AI3QBuUVh+b4q/58tG/8C5f/AI3R5vir/ny0b/wLl/8AjdAG5RXj/wDaHxo/5Z6ZZsn8LOYQSOxPzDn8B9KKAPYKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiq8d/aS3s1nHdQvdQBWlhVwXQHoSOoBoAsUVXs7601G2FzZXMNzAxIEkLhlJBweRx1qxQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAV5d8Sopr7XIYPDyXDa1DZyNftbOFJsj1jJwfnY/dHUcmvUahitLaC4muIreGOacgyyIgDSYGBuPU4HrQBQ8NXGl3XhvT5dFCrpphUQKoxtUcYPuOh981pRzRTAmKRHCnB2sDg+lcv42gj0zwBq/9nxJaJs3y/Z1EZ2Fx5pGO5Xdz1p2mWvhvTfFEFtpNkLa7m04ykWyeXE0IZQC44y2TwcE4znFAHU0UUUAFFFFABRRRQAUUUUAFFFFAH//Z"
+    },
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "G inzburg-Landau theory and eects ofpressure on a tw o-band superconductor :\napplication to M gB 2",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              69.626953125,
+              52.84820556640625
+            ],
+            [
+              548.1334838867188,
+              52.84820556640625
+            ],
+            [
+              548.1334838867188,
+              78.72369384765625
+            ],
+            [
+              69.626953125,
+              78.72369384765625
+            ]
+          ]
+        },
+        {
+          "title": "II. G IN Z B U R G -LA N D A U D E SC R IP T IO N",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              338.2798156738281,
+              165.50347900390625
+            ],
+            [
+              538.48828125,
+              165.50347900390625
+            ],
+            [
+              538.48828125,
+              174.46990966796875
+            ],
+            [
+              338.2798156738281,
+              174.46990966796875
+            ]
+          ]
+        },
+        {
+          "title": "III. NONAD IABATIC EFFECTS",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              95.40087890625,
+              222.75
+            ],
+            [
+              254.6015625,
+              222.75
+            ],
+            [
+              254.6015625,
+              231.64453125
+            ],
+            [
+              95.40087890625,
+              231.64453125
+            ]
+          ]
+        },
+        {
+          "title": "B . Scenario II : both sub-bands above E F at\nam bient pressure.",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              67.75927734375,
+              663.8634185791016
+            ],
+            [
+              285.4601135253906,
+              663.8634185791016
+            ],
+            [
+              285.4601135253906,
+              683.7496948242188
+            ],
+            [
+              67.75927734375,
+              683.7496948242188
+            ]
+          ]
+        },
+        {
+          "title": "IV . D ISC U SSIO N",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              132.5302734375,
+              55.103271484375
+            ],
+            [
+              215.73995971679688,
+              55.103271484375
+            ],
+            [
+              215.73995971679688,
+              64.24365234375
+            ],
+            [
+              132.5302734375,
+              64.24365234375
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              343
+            ],
+            [
+              "Line",
+              89
+            ],
+            [
+              "Text",
+              9
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              579
+            ],
+            [
+              "Line",
+              128
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "Equation",
+              3
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              100
+            ],
+            [
+              "Span",
+              100
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "TextInlineMath",
+              5
+            ],
+            [
+              "Equation",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              473
+            ],
+            [
+              "Line",
+              98
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Equation",
+              2
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              383
+            ],
+            [
+              "Line",
+              107
+            ],
+            [
+              "ListItem",
+              20
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              336
+            ],
+            [
+              "Line",
+              74
+            ],
+            [
+              "ListItem",
+              31
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/7TBYthZZUvdU6Px92wLuDg"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 6,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Ginzburg-Landau theory and effects of pressure on a two-band superconductor: application to MgB <SUB>2</SUB>",
+    "authors": [
+      {
+        "authors_list": [
+          "Betouras, J. J.",
+          "Ivanov, V. A.",
+          "Peeters, F. M."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "We present a model of pressure effects of a two-band superconductor based on a Ginzburg-Landau free energy with two order parameters. The parameters of the theory are pressure as well as temperature dependent. New pressure effects emerge as a result of the competition between the two bands. The theory then is applied to MgB<SUB>2</SUB>. We identify two possible scenaria regarding the fate of the two σ subbands under pressure, depending on whether or not both subbands are above the Fermi energy at ambient pressure. The splitting of the two subbands is probably caused by the E<SUB>2g</SUB> distortion. If only one subband is above the Fermi energy at ambient pressure (scenario I), application of pressure diminishes the splitting and it is possible that the lower subband participates in the superconductivity. The corresponding crossover pressure and Gr neisen parameter are estimated. In the second scenario both bands start above the Fermi energy and they move below it, either by pressure or via the substitution of Mg by Al. In both scenaria, the possibility of electronical topological transition is emphasized. Experimental signatures of both scenaria are presented and existing experiments are discussed in the light of the different physical pictures.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "European Physical Journal B",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:cond-mat/0301491"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1140/epjb/e2003-00041-7",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2003EPJB...31..349B"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}
