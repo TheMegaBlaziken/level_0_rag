@@ -1,0 +1,263 @@
+{
+  "id": "880b0425ae62dd10d472135afae182e4",
+  "pdf_path": "apl/Superconductors/arXiv:1204.0253.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "## Electronic correlations stabilize the antiferromagnetic Mott state in Cs3C<sup>60</sup>\n\nG. Giovannetti1, 2 and M. Capone<sup>1</sup>\n\n<sup>1</sup>CNR-IOM-Democritos National Simulation Centre and International School\n\nfor Advanced Studies (SISSA), Via Bonomea 265, I-34136, Trieste, Italy\n\nInstitute for Theoretical Solid State Physics, IFW-Dresden, PF 270116, 01171 Dresden, Germany\n\n(Dated: February 20, 2022)\n\nCs3C<sup>60</sup> in the A15 structure is an antiferromagnet at ambient pressure in contrast with other superconducting trivalent fullerides. Superconductivity is recovered under pressure and reaches the highest critical temperature of the family. Comparing density-functional calculations with generalized gradient approximation to the hybrid functional HSE, which includes a suitable component of exchange, we establish that the antiferromagnetic state of Cs3C<sup>60</sup> is not due to a Slater mechanism, and it is stabilized by electron correlation. HSE also reproduces the pressure-driven metalization. Our findings corroborate previous analyses suggesting that the properties of this compound can be understood as the result of the interplay between electron correlations and Jahn-Teller electronphonon interaction.\n\nPACS numbers: 71.20.Tx,74.20.Pq,74.70.Wz\n\n2\n\nSuperconductivity in light-element materials entered in a new era after the recent observation of a critical temperature as high as 38K in Cs3C60[\\[1\\]](#page-3-0) and the birth of a new family of organic superconductors based on aromatic molecules, as doped picene[\\[2](#page-3-1)], phenanthrene[\\[3\\]](#page-3-2), coronene[\\[4\\]](#page-3-3) and dibenzopentacene[\\[5](#page-3-4)]. The unavoidable question about the \"pairing glue\" in the fullerides seems to have an answer at least for the standard members of the family, like K3C<sup>60</sup> or Rb3C60. For these compounds there is convincing evidence of an electronphonon driven superconductivity, in which Jahn-Tellercoupled intramolecular vibrations play the main role[\\[6\\]](#page-3-5). Nonetheless, the anomalous properties of \"expanded\" fullerides with large intermolecular distance, like ammoniated compounds[\\[7](#page-3-6)] and most notably Cs3C<sup>60</sup> suggest that labeling these materials as standard superconductors described by the Bardeen-Cooper-Schrieffer (BCS) theory is at least hazardous.\n\nThe anomalies are particularly clear in Cs3C60, in which the large Cs ions increase the lattice spacing in comparison with K- and Rb-doping. This compound is synthesized in two different crystal structure, the fcc which is common to most doped fullerides and a A15 structure, with a bipartite lattice[\\[8\\]](#page-3-7). A15 Cs3C<sup>60</sup> at ambient pressure is an antiferromagnetic (AFM) insulator with T<sup>N</sup> = 46K and a spin-1/2 moment at each molecule[\\[9](#page-3-8)], as opposed to K3C<sup>60</sup> and Rb3C60, which are superconductors in the same conditions. A superconducting state is recovered under external pressure of around 4Kbar. Even more interestingly, the critical temperature has a bell-shaped behavior as a function of pressure, with a maximum of 38K at P = 7KBar. The proximity between superconductivity and antiferromagnetism and the existence of a maximum remind of the phase diagram of several exotic superconductors, ranging from the high-temperature copper-oxides to heavy fermion materials, even if in the present case the bell-shaped curve is a function of lattice spacing instead of doping. However, since the phase diagrams of these latter materials are believed to be dominated by strong electron-electron correlations and by the proximity to a Mott insulator, this similarity suggests that also the physics of Cs3C<sup>60</sup> can be understood in the same framework.\n\nThe role of electron-electron correlations has been underlined well before Cs3C<sup>60</sup> was known on the basis of estimates of the Coulomb interaction and the bandwidth[\\[10](#page-3-9), [11\\]](#page-3-10) In this light, the synthesis of Cs3C<sup>60</sup> provides a system in which the correlation effects, already present in the standard fullerides, become predominant due to the reduced bandwidth associated to the larger distance between fullerene molecules. Once the role of correlations is realized, the AFM state of Cs3C<sup>60</sup> can be interpreted as a Mott insulator with subsequent ordering of the Mott-localized electron spins. This picture has indeed been drawn using Dynamical Mean-Field Theory (DMFT)[\\[12](#page-3-11)] for a three-band Hubbard model including the realistic electron-phonon interaction and the electron-electron correlation. These calculations have indeed predicted the phase diagram as a function of volume (or equivalently of the ratio U/W, where U is the screened Coulomb repulsion and W is the width of the conduction band), including the first-oder transition between a spin-1/2 AFM and the superconductor[\\[13\\]](#page-3-12). Within the same scenario, the correlation effects also influence the superconducting phase enhancing the order parameter, despite its s-wave nature[\\[13,](#page-3-12) [14\\]](#page-3-13). The low-spin character of the insulator (the three electrons per molecule could also form a spin-3/2) is understood in terms of the Jahn-Teller interaction which favors the low-spin configuration[\\[14,](#page-3-13) [15\\]](#page-3-14).\n\nHowever, given the bipartite character of the A15 lattice, we can not rule out a Slater character of the AFM state. In the Slater picture the AFM ordering does not involve localized magnetic moment, but it arises as a Fermi-surface instability of an underlying metallic state. A further confirmation of the correlated nature of the AFM state would also corroborate the idea that the same correlation effects are crucial to understand the superconducting state, while a Slater AFM would be more compatible with a standard BCS mechanism for the superconducting state. In order to further investigate the role of electron-electron interactions in the insulating state and to discriminate between a Mott and a Slater AFM state, in this work we tackle the physics of Cs3C<sup>60</sup> in the A15 structure from a complementary perspective, using density-functional theory (DFT) to investigate the material specific properties and its bandstructure.\n\nWe anticipate that our main conclusion will be that local and semilocal functionals (Local density approximation, LDA and generalized gradient approximation, GGA) are not able to properly describe the compound as an antiferromagnet, while using the hybrid functional introduced by Heyd, Scuseria and Ernzerhof (HSE)[\\[16](#page-3-15)] an AFM state is obtained, as well as the pressure-driven metalization. These findings confirm that a pure Slater picture does not hold for the AFM state, and that the inclusion of correlation effects is a necessary ingredient to properly describe the properties of expanded fullerides.\n\nBefore entering the details of our calculations, we briefly recall the main features of the electronic structure. The bandstructure of doped fullerides reflects the molecular nature of the compound. The electronic bands correspond indeed to the molecular orbitals of an isolated C<sup>60</sup> molecule. The most relevant bands for the physics of doped fullerides are those originating from the three t1<sup>u</sup> LUMOs of each C<sup>60</sup> molecule, which are expected to be populated by the three electrons donated by the alkali-metal atoms. The molecular nature of the solid reflects into narrow bands, which lead to major influence of the sizeable intramolecular Coulomb repulsion[\\[10](#page-3-9), [17](#page-3-16)] and also to a relevance of non-adiabatic effects[\\[18](#page-3-17)] in the Jahn-Teller electron-phonon coupling which leads to the formation of Cooper pairs.\n\nThe significant ratio U/W ≃ 1.5 is a serious threat for density-functional calculations based on LDA and GGA approximations for the exchange-correlation potential. Therefore most studies devoted to the role of correlations in fullerides have resorted to many-body approaches to solve model Hamiltonians, ranging from Quantum Monte Carlo[\\[19\\]](#page-3-18) to Dynamical Mean-Field Theory[\\[13](#page-3-12), [14](#page-3-13), [20,](#page-3-19) [21\\]](#page-3-20). On the other hand, the development of hybrid functionals including correlation effects is extending the realm of materials which can be handled within DFT providing us with a powerful tool which can be used to assess the relevance of correlations in a material. In this work we follow this route and we compare the results of GGA with the Heyd-Scuseria-Ernzerhof functional (HSE)[\\[16](#page-3-15)] as implemented in VASP[\\[22](#page-3-21)] in order to establish the role of electronic correlations in A15 Cs3C60.\n\n![](_page_1_Figure_5.jpeg)\n\n<span id=\"page-1-0\"></span>FIG. 1. (Color online) Schematic view of Cs3C<sup>60</sup> unit cell with A15 structure showing the different orientation of the fulleride anions at the body center (B) and the origin of the coordinate system (A) and the position of the Cs cations\n\nThe electronic structure of Cs3C<sup>60</sup> has been already investigated within LDA[\\[17,](#page-3-16) [23\\]](#page-3-22). As a first step we complement the previous analyses using GGA in the Perdew-Burke-Ernzerhof (PBE)[\\[24\\]](#page-3-23) scheme. We use the projector augmented wave scheme[\\[25\\]](#page-3-24) and the cut-off for the plane-wave basis set was chosen as 400 eV and a 5×5×5 mesh was used for the Brillouin-zone sampling. Calculations are performed on the A15 structure of Cs3C<sup>60</sup> with Pm3n symmetry based on b.c.c. anion packing and refined at ambient pressure[\\[1\\]](#page-3-0). In this molecular packing the fulleride anion at the body center is rotated of 90 degrees around the [100] direction with respect to the anion at the origin as schematically shown in Fig. [1.](#page-1-0)\n\nIn Fig. [2](#page-2-0) we report the density of states for the t1<sup>u</sup> bands in the A15 structure obtained within PBE, which compare well with previous LDA calculations [\\[17](#page-3-16), [23\\]](#page-3-22). The three bands arising from the t1<sup>u</sup> LUMO are well separated from the rest of the bandstructure. The bandwidth is around 0.55 eV, confirming the expectation of a narrow-band solid. The crystal field preserves the degeneracy of the t1<sup>u</sup> orbitals and three electrons per fullerene molecule are donated by the Cs atoms leading to a halffilled manifold which can, at least in principle, be unstable toward antiferromagnetic (AFM) ordering with the two inequivalent sublattices associated to the two inequivalent fullerene molecule.\n\nHowever, allowing for AFM ordering in the PBE scheme does not lead to the opening of an AFM gap. Imposing an AFM magnetic structure with opposite spins in the two sublattices A and B (shown in Fig. [1\\)](#page-1-0), only a metallic AFM solution can be stabilized. Moreover this state does not lower the energy with respect to the nonmagnetic solution which remains the groundstate in this\n\n![](_page_2_Figure_0.jpeg)\n\n<span id=\"page-2-0\"></span>FIG. 2. (Color online) Density of states obtained in PBE for A15 Cs3C<sup>60</sup> in a wide range of energies. The different bands arising from molecular orbitals are well visible and the t1<sup>u</sup> bands are emphasized. The blue dashed line is the nonmagnetic solution, while the red solid line is a metallic AFM solution\n\napproximation. Therefore, despite the bipartite nature of the A15 structure, nesting is not sufficient to stabilize the AFM insulator which is experimentally observed and a pure Slater scenario can be ruled out.\n\nIn light of the significant value of the intramolecular Coulomb interaction, electron correlations can be invoked to explain the discrepancy between PBE calculations and experiments. In order to overcome this limitation, we resort to the HSE functional which introduces interaction effects through a suitable fraction of the exact exchange term. The nonmagnetic solution does not introduce substantial differences with respect to PBE and only quantitative effects modify the bandstructure (see the blue dashed line in Fig. [3,](#page-2-1) where we focus only on the t1<sup>u</sup> bands). The situation changes dramatically for the AFM solution, whose density of states is plotted as a solid line in Fig. [3.](#page-2-1) As opposed to PBE, an antiferromagnetic state is instead stabilized within HSE. The AFM state is an insulator with a finite gap ∆ of around 0.25 eV and an energy gain with respect to the metal of around 0.3 eV per unit cell. The ordered state has a magnetic moment of ∼ 1.4 µ<sup>B</sup> per molecule, which is not far from the experimental value of ∼ 1 µ<sup>B</sup> [\\[9\\]](#page-3-8) which corresponds to a spin 1/2 state. The discrepancy can be understood within the scenario of Refs. [\\[13](#page-3-12)[–15\\]](#page-3-14), where the low-spin state has been attributed to the Jahn-Teller interaction which favors low-spin configurations in the Mott state. In our HSE calculations we did not relax the ionic position because this is computationally too demanding, and we expect this would lead to a Jahn-Teller energy gain and consequently to a reduction of the molecular spin.\n\nAs the AFM state at ambient pressure is well reproduced we also performed a series of calculations aiming at describing the experimental pressure-driven metallization. Of course our DFT calculations do not allow for\n\n![](_page_2_Figure_5.jpeg)\n\n3\n\n<span id=\"page-2-1\"></span>FIG. 3. (Color online) Density of states of the t1<sup>u</sup> valence bands obtained with HSE functional in the nonmagnetic (dashed blue line) and antiferromagnetic (solid red line). The arrow pinpoints the AFM gap ∆\n\nsuperconductivity and describe the experimental superconductor as a metal. The pressure-induced transition to bulk superconductivity takes place without change in crystal structure or symmetry [\\[1](#page-3-0)]. The effect of pressure is therefore essentially a reduction of the lattice parameter, which can be easily taken into account within DFT. We performed calculations for the lattice parameters corresponding to 0, 5 and 10 kbar as determined in Ref. [\\[1](#page-3-0)] without relaxing ionic positions. The reduced lattice spacing leads to a larger overlap between the t1<sup>u</sup> orbitals of different molecules and consequently to a larger bandwidth, which becomes 0.645 at 5 kbar and 0.685 at 10 kbar. The increased bandwidth leads to a reduced effect of correlations, which in turn modifies the energetic balance between the nonmagnetic and AFM states. At 5kbar the two solutions have the same energy within our accuracy, while at 10 kbar the metal is stable with an energetic gain of more than 0.3 eV per unit cell. This evolution remarkably mirrors the experimental findings and it strikingly confirms how a significant degree of correlation is necessary to stabilize the AFM insulator. Interestingly, at 5 kbar the magnetic moment of the magnetic solution is still 1.34 µB, only slightly below the ambient pressure value, despite the system is at the boundary between the two phases. This points towards a strongly first-order transition between an AFM with a finite magnetic moment and a metal which is expected to become superconducting.\n\nHSE is thus able to reproduce both the insulating behavior at ambient pressure and the metallic phase at finite pressure. Moreover, it provides an estimate of the transition which is close to the experimental result. Again, the discrepancy between our calculations and experiments can be attributed to the lack of ionic relaxation and the consequent underestimate of the Jahn-Teller energy gain. Including the Jahn-Teller interaction is indeed expected to reduce the magnetic moment and to slightly increases the energy of the AFM state. As a consequence, a calculation including the full Jahn-Teller distortion would provide a smaller critical pressure for the metalization. The ability of HSE to essentially reproduce the evolution of Cs3C<sup>60</sup> under pressure is a strong evidence of the accuracy of this approach to address strongly correlated molecular solids. This opens the path for a number of extensions which can bridge the gap between DFT calculations and, for example, DMFT solutions of a three-band Hubbard model.\n\nThe success of HSE for Cs3C<sup>60</sup> can be used as an indirect indication of the accuracy of the same approach also for picene and for other organic superconductors, which all share similar values of U/W[\\[17\\]](#page-3-16). A HSE calculation for potassium-doped picene indeed confirms the relevance of correlations[\\[26\\]](#page-3-25). HSE has also been used to propose a positive role of electron correlations in determining the critical temperature of Ba1<sup>x</sup> K<sup>x</sup> BiO<sup>3</sup> and -HfNCl[\\[27\\]](#page-3-26).\n\nIn this paper we have demonstrated that HSE hybrid functional is able to reproduce the evolution of the properties of A15 Cs3C<sup>60</sup> as a function of pressure, while PBE is not. In particular, HSE finds an AFM state at ambient pressure and an insulator-to-metal transition under external pressure, while PBE always gives a metallic solution. The calculations give a magnetic moment which is slightly larger than the experimental value, a difference which can be ascribed to the lack of ionic relaxation in our calculations. Only the full distortion of the molecule would allow for a full Jahn-Teller energy gain and a spin-1/2 local moment. Our results strengthen the idea that electronic correlations are at the basis of the properties of Cs3C60. This provides an indirect confirmation of the strongly correlated superconductivy scenario[\\[13,](#page-3-12) [14\\]](#page-3-13). The similarity between the present results and previous calculations for potassium-doped picene suggest that the aromatic superconductors may share many similarities with doped fullerides. A further experimental test of the Mott nature of the AFM state can be provided by spectroscopic methods. It has indeed been shown theoretically that a three-dimensional Mott antiferromagnet should display a peculiar series of spin-polaron satellites both in the photoemission spectra[\\[28\\]](#page-3-27) and in the optical conductivity, in which equally spaced spin-polaron peaks are predicted to appear above the optical gap[\\[29\\]](#page-3-28).\n\nWe acknowledge useful discussions with M. Fabrizio and E. Tosatti and financial support by European Research Council under FP7/ERC Starting Independent Research Grant \"SUPERBAD\" (Grant Agreement n. 240524). Computational support from CINECA and CASPUR is gratefully acknowledged.\n\n- <span id=\"page-3-1\"></span>[2] R. Mitsuhashi et al., Nature 464, 76 (2010)\n- <span id=\"page-3-2\"></span>[3] X.F. Wang, R.H. Liu, Z. Gui, Y.L. Xie, Y.J. Yan, J.J. Ying, X.G. Luo, and X.H. Chen, Nat. Comm. 2, 507 (2011)\n- <span id=\"page-3-3\"></span>[4] Y. Kubozono et al., Phys. Chem. Chem. Phys. 13, 16476 (2011)\n- <span id=\"page-3-4\"></span>[5] M. Xu, T. Cao, D, Wang, Y. Wu, H. Yang, X. Dong, J. He, F. Li, and G. F. Chen, [arXiv:1111.0820](http://arxiv.org/abs/1111.0820)\n- <span id=\"page-3-5\"></span>[6] O. Gunnarsson, Rev. Mod. Phys. 69, 575 (1997)\n- <span id=\"page-3-6\"></span>[7] M. Ricc`o, G. Fumera, T. Shiroka, O. Ligabue, C. Bucci, and F. Bolzoni, Phys. Rev. B 68, 035102 (2003)\n- <span id=\"page-3-7\"></span>[8] A.Y. Ganin et al., Nature 466, 221 (2010); , Y. Ihara, H. Alloul, P. Wzietek, D. Pontiroli, M. Mazzani, and M. Ricc`o, Phys. Rev. Lett. 104, 256402 (2010)\n- <span id=\"page-3-8\"></span>[9] Y. Takabayashi et al., Science 323, 1585 (2009)\n- <span id=\"page-3-9\"></span>[10] V.P. Antropov, O. Gunnarsson and O. Jepsen, Phys. Rev. B 46, 13647 (1992)\n- <span id=\"page-3-10\"></span>[11] M. Fabrizio and E. Tosatti, Phys. Rev. B 55, 13465 (1997)\n- <span id=\"page-3-11\"></span>[12] A. Georges, G. Kotliar, W. Krauth, and M.J. Rozenberg, Rev. Mod. Phys. 68, 13 (1996)\n- <span id=\"page-3-12\"></span>[13] M. Capone, M. Fabrizio, C. Castellani, and E. Tosatti, Rev. Mod. Phys. 81, 943 (2009)\n- <span id=\"page-3-13\"></span>[14] M. Capone, M. Fabrizio, C. Castellani, and E. Tosatti, Science 296, 2364 (2002).\n- <span id=\"page-3-14\"></span>[15] M. Capone, M. Fabrizio, P. Giannozzi, and E. Tosatti, Phys. Rev. B 62, 7619 (2000)\n- <span id=\"page-3-15\"></span>[16] J.Heyd, G. E. Scuseria, and M. Ernzerhof, J. Chem. Phys. 118, 8207 (2003); J. Heyd and G. E. Scuseria, J. Chem. Phys. 124, 219906 (2006)\n- <span id=\"page-3-16\"></span>[17] Y. Nomura, K. Nakamura, and R. Arita, [arXiv:1112.3483](http://arxiv.org/abs/1112.3483)\n- <span id=\"page-3-17\"></span>[18] L. Pietronero and S. Str¨assler, Europhys. Lett. 18, 627 (1992); L. Pietronero and E. Cappelluti, Low Temperature Physics 32, 340 (2006)\n- <span id=\"page-3-18\"></span>[19] O. Gunnarsson, E. Koch, and R. M. Martin, Phys. Rev. B 54, R11026 (1996); E. Koch, O. Gunnarsson, and R. M. Martin, Phys. Rev. Lett. 83, 620 (1999)\n- <span id=\"page-3-19\"></span>[20] J. E. Han, E. Koch, and O. Gunnarsson, Phys. Rev. Lett. 84, 1276 (2000)\n- <span id=\"page-3-20\"></span>[21] M. Capone, M. Fabrizio, C. Castellani, and E. Tosatti, Phys. Rev. Lett. 93, 047001 (2004); M. Schir`o, M. Capone, M. Fabrizio, and C. Castellani, Phys. Rev. B 77, 104522 (2008)\n- <span id=\"page-3-21\"></span>[22] G. Kresse and J. Furthmuller, Phys. Rev. B 54, 11 169 (1996); G. Kresse and J. Furthmuller, Comput. Mater. Sci. 6, 15 (1996)\n- <span id=\"page-3-22\"></span>[23] G.R. Darling, A.Y. Ganin, M.J. Rosseinsky, Y. Takabayashi, and K. Prassides, Phys. Rev. Lett. 101, 136404 (2008)\n- <span id=\"page-3-23\"></span>[24] J.P. Perdew, K. Burke, and M. Ernzerhof, Phys. Rev. Lett. 77, 3865 (1996)\n- <span id=\"page-3-24\"></span>[25] G. Kresse and D. Joubert, Phys. Rev. B 59, 1758 (1999).\n- <span id=\"page-3-25\"></span>[26] G. Giovannetti and M. Capone, Phys. Rev. B 83, 134508 (2011)\n- <span id=\"page-3-26\"></span>[27] Z. P. Yin, A. Kutepov, G. Kotliar, [arXiv:1110.5751](http://arxiv.org/abs/1110.5751)\n- <span id=\"page-3-27\"></span>[28] G. Sangiovanni et al., Phys. Rev. B 73, 205121 (2006)\n- <span id=\"page-3-28\"></span>[29] C. Taranto, G. Sangiovanni, K. Held, M. Capone, A. Georges, and A. Toschi, Phys. Rev. B 85, 085124 (2012)\n\n<span id=\"page-3-0\"></span>[1] A.Y. Ganin et al., Nature Mater. 7, 367 (2008)",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Electronic correlations stabilize the antiferromagnetic Mott state in Cs3C60",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              83.8212890625,
+              52.7518310546875
+            ],
+            [
+              530.12109375,
+              52.7518310546875
+            ],
+            [
+              530.12109375,
+              65.5428466796875
+            ],
+            [
+              83.8212890625,
+              65.5428466796875
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              285
+            ],
+            [
+              "Line",
+              92
+            ],
+            [
+              "Text",
+              9
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              270
+            ],
+            [
+              "Line",
+              97
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              245
+            ],
+            [
+              "Line",
+              106
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              359
+            ],
+            [
+              "Line",
+              110
+            ],
+            [
+              "Reference",
+              29
+            ],
+            [
+              "ListItem",
+              28
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/mcn8Ebzqz-c_nsWjEobi8w"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 4,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Electronic Correlations Stabilize the Antiferromagnetic Mott State in Cs<SUB>3</SUB>C<SUB>60</SUB>",
+    "authors": [
+      {
+        "authors_list": [
+          "Giovannetti, G.",
+          "Capone, M."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Cs<SUB>3</SUB>C<SUB>60</SUB> in the A15 structure is an antiferromagnet at ambient pressure in contrast with other superconducting trivalent fullerides. Superconductivity is recovered under pressure and reaches the highest critical temperature of the family. Comparing density-functional calculations with generalized gradient approximation to the hybrid functional of Heyd, Scuseria, and Ernzerhof, which includes a suitable component of exchange, we establish that the antiferromagnetic state of Cs<SUB>3</SUB>C<SUB>60</SUB> is not due to a Slater mechanism, and it is stabilized by electron correlation. Pressure reduces the stability of the antiferromagnetic state. Our findings corroborate previous analyses suggesting that the properties of this compound can be understood as the result of the interplay between electron correlations and Jahn-Teller electron-phonon interaction.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Physical Review Letters",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1204.0253"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1103/PhysRevLett.109.166404",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2012PhRvL.109p6404G"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

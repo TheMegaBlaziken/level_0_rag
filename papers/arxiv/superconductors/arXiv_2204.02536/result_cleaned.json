@@ -1,0 +1,1987 @@
+{
+  "id": "fda139d3cf5185a27441f123db61e822",
+  "pdf_path": "apl/Superconductors/arXiv:2204.02536.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# Next-Generation Superconducting RF Technology based on Advanced Thin Film Technologies and Innovative Materials for Accelerator Enhanced Performance & Energy Reach\n\nA.- M. Valente-Feliciano1 1 , C. Antoine <sup>2</sup> , S. Anlage <sup>9</sup> , G. Ciovati <sup>1</sup> , J. Delayen 1, 11 , F. Gerigk<sup>3</sup> , A. Gurevich11, T. Junginger15, 16, S. Keckert<sup>6</sup> , G. Keppel<sup>7</sup> , J. Knobloch6, 12, T. Kubo<sup>8</sup> , O. Kugeler <sup>5</sup> , D. Manos17,C. Pira<sup>7</sup> , T. Proslier<sup>2</sup> , U. Pudasaini<sup>1</sup> , C.E. Reece<sup>1</sup> , R.A. Rimmer<sup>1</sup> , G.J. Rosaz<sup>3</sup> ,T. Saeki<sup>8</sup> , R. Vaglio10, R. Valizadeh14, H. Vennekate <sup>1</sup> , W. Venturini Delsolaro<sup>3</sup> , M. Vogel <sup>12</sup>, P. B. Welander13, M. Wenskat4, 5\n\n<sup>1</sup>Thomas Jefferson National Accelerator Facility, Newport News, VA 23602 USA\n\n<sup>2</sup>CEA Saclay DRF/IRFU/DACM, 91191 Gif-sur-Yvette France\n\n<sup>3</sup>European Organization for Nuclear Research (CERN), CH-1211 Geneva 23 Switzerland\n\n<sup>4</sup>Deutsches Elektronen-Synchrotron, 22607 Hamburg, Germany\n\n5 Institute of Experimental Physics, University of Hamburg, 22761 Hamburg, Germany\n\n<sup>6</sup>Helmholtz-Zentrum Berlin, Albert-Einstein-Str. 15, 12489 Berlin, Germany\n\n7 Istituto Nazionale di Fisica Nucleare, Legnaro National Labs (INFN-LNL), 35020 Legnaro PD, Italy\n\n<sup>8</sup>High Energy Accelerator Research Organization (KEK), Tsukuba, Ibaraki 305-0801, Japan\n\n<sup>9</sup>University of Maryland, College Park, MD 20742 USA\n\n<sup>10</sup>University of Napoli Federico II, 80125 Napoli Italy\n\n<sup>11</sup>Old Dominion University, Norfolk, VA 23529 USA\n\n<sup>12</sup>Universit¨at Siegen, Walter-Flex-Str. 3, 57068 Siegen, Germany\n\n<sup>13</sup>SLAC National Accelerator Laboratory, Menlo Park, CA 94025, USA\n\n<sup>14</sup>STFC Accelerator Science and Technology Centre (ASTeC), Warrington, WA4 4AD United Kingdom\n\n<sup>15</sup>TRIUMF, Vancouver BC V6T 2A3 Canada\n\n<sup>16</sup>University of Victoria, Victoria BC V8P 5C2 CANADA\n\n<sup>17</sup>College of William and Mary, Williamsburg, VA 23185 USA\n\nSubmitted to the Proceedings of the US Community Study on the Future of Particle Physics (Snowmass 2021)\n\n#### Executive Summary\n\nSuperconducting radio frequency (SRF) systems, essentially based on bulk niobium (Nb), are the workhorse of most particle accelerators and achieve high levels of performance and reliability. Today's exceptional performance of bulk Nb SRF cavities is the fruit of more than five decades of intensive research, essentially aimed at optimizing the material for thermal stabilization of defects, and significant funding efforts. Last incremental advances with several novel surface treatments are allowing Nb cavities to exceed previous record Q factors and avoiding degradation with increasing gradients. These include nitrogen infusion and doping, oxygen alloying with a two-step baking process. The next generation of particle accelerators will require operational parameters beyond the state-of-the-art Nb capabilities. Superconducting RF has then to rely on superior materials and advanced surfaces beyond bulk Nb for a leap in performance and efficiency. The SRF thin film development strategy aims at transforming the current SRF technology into a technology using highly functional materials, where all the necessary functions are addressed. The community is deploying efforts in three research thrusts to develop the next-generation thin-film based cavities. The first line of developments aims at investigating Nb/Cu coated cavities that perform as good as or better than bulk niobium at reduced cost and with better thermal stability. Recent results with greatly improved accelerating field and dramatically reduced Q-slope show the potential of this technology for many applications. In particular high current storage ring colliders such as FCC, EIC and CEPC, where the frequency is typically lower and the gradients are modest, could benefit greatly from the cost savings and operational advantages of this technology. The second research thrust is to develop cavities coated with materials that can operate at higher temperatures or sustain higher fields. Proof-of-principle has been established for the merit of Nb3Sn for SRF applications. Research is now needed to further exploit the material and reach its full potential with novel deposition techniques. The third line of research is to push SRF performance beyond the capabilities of the superconductors alone with multi-layer coatings. In parallel, developments are needed to provide quality substrates, innovative cooling schemes and cryomodule design tailored to SRF thin film cavities.\n\nRecent results in these three research thrusts suggest that SRF thin film technologies are at the eve of a technological revolution. However, in order for them to mature, active community support and sustained funding are needed and should address fundamental developments supporting material deposition techniques, surface and RF research, and technical challenges associated with scaling, automation and industrialization. With dedicated and sustained investment in SRF thin film R&D, next-generation thin-film based cavities will become a reality with high performance and efficiency, facilitating energy sustainable science while enabling higher luminosity, and higher energy.\n\n## 1 Introduction\n\nSuperconducting RF Technology has been the building block for many high-energy physics accelerators, essentially based on bulk niobium (Nb). Over the pastn five decades, the RF performance of bulk Nb cavities has continuously improved with incremental material and surface developments [\\[1\\]](#page-22-0). With nitrogen surface doping [\\[2\\]](#page-22-1) as of late, 1.3 GHz cavities reliably achieve Q<sup>0</sup> around 4x10<sup>10</sup> at 35 MV/m and 2 K. Nibbling at last improvements in cavity performance to reproducibly reach the intrinsic limits of niobium is becoming increasingly difficult and exponentially expensive. Longterm solutions for superconducting radio-frequency (SRF) surfaces efficiency enhancement need to be pursued and require a technological leap to produce the next generation of SRF cavities with cost-effective and reliable production methods scalable to mass industrialization. The greatest potential for dramatic new performance capabilities lies with methods and materials, which deliberately produce the sub-micron thick critical surface layer in a controlled way. The development of SRF surfaces with thin films of Nb and other superconducting materials has the potential to improve further SRF cavity performance beyond the Nb sheet material intrinsic limits. This development combined with higher efficiency and quality control is most relevant for next-generation structures required for future SRF accelerators. The potential of fully engineered,functional, and truly application-tailored SRF surface strategies would dramatically reduce capital and operating costs for future accelerators, lowering the cost-of-entry of SRF technology, both for large scale facilities and compact accelerators. Although it is beyond the focus of this White Paper, SRF thin films produced by Advanced coing techniques have also upcoming applications beyond the realm of accelerators, in superconducting electronics,sensing, and quantum information systems.\n\n# 2 Next Generation SRF Cavities Based on Advanced Coating Technology for CW Accelerators\n\nElectron-ion colliders, electron coolers, energy recovery linacs (ERL), X-ray light sources and free electron lasers (FELs) require continuous wave (CW) operation. Minimal cavity residual losses and minimized cryogenic consumption, i.e. high quality factors, Q, at medium gradients are then more essential than high gradients. Furthermore, reducing overall power consumption is of primary importance for high current CW facilities thus pursuing superconducting acceleration at liquid He (LHe) temperature, 4.2 K present a considerable advantage and is a must.\n\nCW electron accelerators find other high energy physics applications such as in dark matter research [\\[3,](#page-22-2)[4\\]](#page-22-3) and high duty factor linear accelerators (proposed driver for future multi-MW neutrino experiments at Fermilab for LBNF/DUNE [\\[5\\]](#page-22-4) as well as a driver for a muon collider).\n\nHistorically, superconducting accelerators for HEP in the United States have been based on bulk Nb technology. However, over the years, niobium film on copper (Nb/Cu) technology has positioned itself as an alternative route for the future of superconducting structures used in accelerators. Superconducting Nb/Cu cavities produced by the magnetron sputtering technology have been successfully deployed in Europe at CERN with LEP-II II (352 MHz, 4.2 K) and LHC (400 MHz, 4.2 K). This technology is also employed in other accelerator facilities, such as ALPI (INFN -LNL [\\[6\\]](#page-22-5)) or HIE-ISOLDE (CERN). It is the technology of choice for the proposed circular electron positron e +e <sup>−</sup>) collider FCC-ee [\\[19\\]](#page-23-0), which deploys hundreds of multi-cell SRF cavities at 400 MHz for a total RF voltage of multiple GeV at 4.2 K. The subsequent tt machine foresees operation above 10 GeV with a combination of 400 and 800 MHz multi-cell cavities [\\[20\\]](#page-23-1).\n\nHowever, although exhibiting very high Q at low field, Nb/Cu cavities have been plagued with steep RF losses (Q-slope) at medium to high gradients. Recently, R&D efforts, jointly at JLab and CERN, to develop advanced coating technologies (energetic condensation) have produced encouraging results alluding to the promise of superior performing SRF films [\\[10,](#page-22-6) [14,](#page-23-2) [16,](#page-23-3) [17,](#page-23-4) [94\\]](#page-27-0). These techniques, along with careful engineering of surfaces [\\[18\\]](#page-23-5) and Nb thick film approach at LNL [\\[88\\]](#page-27-1), have produced Nb/Cu films with bulk-like material properties, greatly improved accelerating field and dramatically reduced Q-slope, demonstrating that the early sputtered Nb/Cu cavity performance is not a fundamental limitation. Further effort is needed to scale up these processes and develop protocols and procedures that can be industrialized.\n\nThe past decade has seen, regain interest for the development of Nb3Sn on niobium. With its critical temperature of about 18 K, the A15 Nb3Sn can achieve high Q<sup>0</sup> > 10<sup>10</sup> at 4.2 K . Maintaining intrinsic quality factors in the 10<sup>10</sup> to 10<sup>11</sup> range would reduce energy consumption and thus cryogenic operating costs by as much as an order of magnitude and would substantially decrease infrastructure costs for the cryogenic plant. It has been demonstrated that Nb3Sn coated single-cell cavities can reach > 18MV /m with Q above 10<sup>10</sup> at 4.2 K.\n\nSuccessful SRF thin film cavity development will lead to significant savings in cavities and cryomodule costs. It is in line with the demands of the future generation of particle physics machines such as the electron – ion collider (EIC), FCC-ee [\\[19,](#page-23-0) [21\\]](#page-23-6) which require R&D pushing the state of the art and enabling technological breakthroughs to provide the required reliability and keep costs within acceptable levels. Accelerators relying on operation at 4 K and/or on low frequency (large) cavities for which the cost of bulk Nb material becomes prohibitive (precision muon generation) or high-power compact proton and CW ion linear accelerators for isotope production facilities (FRIB) would also benefit.\n\n# 3 Higher Gradients & High Q with Advanced Materials & Structures\n\nTo fulfill the need for ever higher particle energies for HEP experiments, increasing the accelerating gradient is an absolute necessity so facilities are kept to a reasonable size. Another primary objective is to frame both construction and operating costs. Thus, making progress towards more affordable accelerating RF systems at an industrial scale is also mandatory. Engineering programs aiming at optimizing the fabrication cost of such systems will then have increased priority in the coming years.\n\nSome key factors may see their importance growing with the size of HEP facilities or with\n\nthe required beam parameters becoming more and more difficult to achieve. Energy efficiency is definitively a key parameter for future HEP facilities, which will likely need to limit their electricity consumption.\n\nAlternative materials with higher critical temperature and critical field are prime candidates to surpass the established bulk Nb technology [\\[22\\]](#page-23-7). Materials such as Nb3Sn offer order of magnitude improvements in operating efficiency, and a theoretical pathway to 100 MV/m gradient [\\[23\\]](#page-23-8). Recent R&D efforts [\\[24–](#page-23-9)[27\\]](#page-23-10) have demonstrated that the persistent Q-slope and gradient limitation observed in the past [\\[28\\]](#page-24-0) are not fundamental but process induced and therefore amenable to improvement. Alternative deposition approaches such as sputtering, energetic condensation and atomic layer deposition (ALD) should be fully explored for enhanced properties and conformality. Early results with sequential and stoichiometric deposition both on Nb and on Cu are promising [\\[29,](#page-24-1) [30\\]](#page-24-2) and could prove to push the Nb3Sn technology further. Other materials such as NbTiN, NbN, V3Si, etc. should also be re-evaluated with advanced coating techniques. Newly discovered high temperature superconducting (HTS) materials (pnictides [\\[31\\]](#page-24-3) . . . ) would be particularly interesting if any of them turns out to have favorable microwave properties [\\[22\\]](#page-23-7).\n\nPushing the performance limits further, the combination of such materials with adequate dielectric material in multi-layered structures have been conceived as a performance enhancer for bulk Nb and Nb/Cu film cavities. Theoretical models [\\[35,](#page-24-4) [36\\]](#page-24-5) predict that appropriately fabricated nanometric superconductor-insulator-superconductor (SIS) multilayer films can delay vortex penetration in Nb surfaces allowing them to sustain higher surface fields than any pure material.\n\n## 4 Compact SRF Accelerators for Societal Applications\n\nThe vast majority of particle accelerators in operation today are for industrial and medical applications. Many of them operate in continuous wave (CW) mode, all of them are based on conventional i.e. normal conducting technology. As SRF accelerator technology has replaced the normal conducting approach for high power machines in science due to its dramatically superior efficiency, it offers the same advantage for such applications. Even beyond that, the ability to generate high power CW beams enables completely new applications for industry and societal applications. Examples include environmental remediation (water and waste treatment/ sterilization); cancer therapy, sterilization of medical instruments, medical isotopes production; radiation crosslinking of plastics and rubbers; engineering of material and surfaces with altered properties; radiation driven chemistry; food preservation. Other applications include accelerator-driven systems (ADS) for nuclear waste transmutation or power generation, and high-intensity proton accelerators for homeland security (nuclear weapons and materials detection).\n\nThese applications need a new class of compact, mobile, high-power electron accelerators, small and light enough to be located on a mobile platform or in a university or hospital room and with a drastically reduced cryogenic refrigeration requirement. For such compact-sized SRF machines, energy efficiency is one of the most critical areas of development. The use of superconducting thin films, enabling high-Q operation of cavities at significantly higher temperatures, is key as they do not require the installation and operation of complex, subatmospheric cryoplants.\n\nFirst proof-of-principle experiments have demonstrated successful operation of Nb3Sn coated cavities cooled with commercial, off-the-shelf cryocoolers, paving the way for completely cryogenfree operation for SRF based accelerator technology for applications beyond science [\\[32,](#page-24-6) [33,](#page-24-7) [38\\]](#page-24-8).\n\n![](_page_5_Figure_0.jpeg)\n\n<span id=\"page-5-0\"></span>Figure 1: Path toward more efficient functional SRF materials (courtesy C.Z. Antoine)\n\nThe emergence of reliable, energy efficient high Q systems, based on highly performing filmbased SRF cavities along with transformative development with cryocoolers would combine into cost effective compact superconducting accelerators with reduced footprint and capital investment, transformational for societal applications.\n\n## 5 SRF Thin Film Technology Research Thrusts\n\nDue to the very shallow penetration depth of RF fields (only about 40 nm for Nb), SRF properties are inherently a surface phenomenon, involving a material thickness of less than 1 µm. Instead of using bulk Nb, there is then merits of depositing a superconducting film on the inner surface of a castable cavity structure made of copper (Cu) or aluminum (Al). At the system design level, this would allow one to decouple the active SRF surface from the accelerating support structure and its cooling, bringing dramatic change to the cost framework of SRF accelerators. Thin film technology provides then the framework for developing functional SRF surfaces and materials (see figure [1](#page-5-0) for illustration) that address the necessary functions:\n\n- Mechanical support structure and thermal conduction: high purity niobium, copper\n- Optimized superconducting layer: high quality Nb film, higher-T<sup>c</sup> and Hsh material, SIS multilayers\n- Capping layer (protection against atmosphere, reduction of multipacting. . . )\n- In a later step, other functionalization like e.g. an external layer optimized to reduce thermal interface resistance with Helium (Kapitza resistance) can be considered.\n\nThe development of functional materials offers the opportunity to tailor the final performance of the SRF system to the machine specifications. For instance doping treatment optimize the superconducting surface of Nb by modifying the surface m.f.p. without affecting the highly thermally conductive pure Nb deeper in the material. It increases Q<sup>0</sup> at medium field but is detrimental at high field. One could progress further with more functional materials. Combining the different aspects that are already under study, one has the potential to increase the Q<sup>0</sup> by a factor of 10 and the accelerating field by a factor of 2 or 3, for the materials currently explored. The reduction on both investment and operation costs of SRF machines would be tremendous. Several of these techniques (e.g. multilayers) can be used to upgrade existing facilities as they can be directly applied on bulk Nb. For instance depositing multilayers inside ILC cavities has the potential to upgrade the facility to its final energy without –in principle- the need to expand tunnels.\n\nThe community is working on three parallel research thrusts: Nb/Cu, alternate materials on Nb or Cu substrates, composite materials based on nanometric SIS multilayers.\n\n### 5.1 Nb/Cu Technolgy\n\nNb films present a clear advantage compared to bulk Nb for defined accelerator parameter sets, in particular for low cavity frequencies and/or for operation at 4.2 K. The BCS surface resistance for thin films is lower than for bulk Nb, due to a normal state electrical resistivity close to the theoretical optimum.\n\nDecoupling the SRF surface from the cryogenic system by depositing a thin layer of Nb on the inner surface of a Cu cavity offers several advantages:\n\n- Increased temperature stability due to the Cu substrate higher thermal conductivity\n- Operation at 4.2 K, generating capital and operational cost savings\n- Material cost saving, particularly for low frequency structures\n- Easily machinable and castable structures, opening perspectives for significant cryomodule simplification.\n\nHowever, although exhibiting very high Q at low field, Nb/Cu cavities have been plagued with steep RF losses (Q-slope) at medium to high gradients. Recently, R&D efforts, jointly at JLab and CERN, to develop advanced coating technologies (energetic condensation) have produced encouraging results alluding to the promise of superior performing SRF films [\\[10,](#page-22-6) [14,](#page-23-2) [16,](#page-23-3) [17,](#page-23-4) [94\\]](#page-27-0). These techniques, along with careful engineering of surfaces [\\[18\\]](#page-23-5) and Nb thick film approach at LNL [\\[88\\]](#page-27-1), have produced Nb/Cu films with bulk-like material properties, greatly improved accelerating field and dramatically reduced Q-slope, demonstrating that the early sputtered Nb/Cu cavity performance is not a fundamental limitation. Further effort is needed to scale up these processes and develop protocols and procedures that can be industrialized.\n\n### 5.2 Alternate superconducting materials on Nb or Cu substrates\n\nAmong the thousands superconductors available, only a limited number of compounds with a T<sup>c</sup> higher than Nb (9.27 K) have a true potential for SRF cavity applications. For a superconducting material to be a good candidate for SRF applications, it needs not only a high T<sup>c</sup> but also a low resistivity in the normal state to minimize RF losses. Additionally, high thermodynamic critical, Hc, superheating, Hsh, and lower critical, Hc1, fields are necessary to maximize accelerating gradients. Many compounds such as NbTiN, NbN, Nb3Sn, MgB<sup>2</sup> have higher critical temperatures and critical magnetic fields than Nb. However, their Hc<sup>1</sup> is generally lower than Nb and, at present, none of these materials match Nb in terms of its RF performance or ease of use for accelerator applications. Some of the compounds such as NbN and NbTiN, have been evaluated for SRF applications in de 80-90s.\n\n#### 5.2.1 Nb3Sn and other A15 compounds\n\nThe class of inter-metallic A15 materials has been the object of interests for SRF applications for a certain number of years, due to their transition temperature typically a factor of 2 higher than Nb. The use of such materials for accelerating structures necessarily relies on the elaboration of thin films as the brittle nature of these compounds prevents their use as bulk material.\n\nThe most widely developed technique to form the A15 Nb3Sn phase on Nb is Sn vapor diffusion in bulk Nb, initially developed by Siemens in the 90s and rekindled in 2010s by Cornell, Fermi Lab and Jefferson Lab. Improvements in understanding the materials science and refinement of the coating process have led to resolving the precipitous Q-slope, increasing the maximum attainable accelerating gradient by a factor of 5 with Q<sup>0</sup> > 10<sup>10</sup> at 4.2 K [\\[39–](#page-24-9)[42\\]](#page-24-10). However, Nb3Sn cavity performance has yet to reach its full potential.\n\nThe applications of Nb3Sn to SRF cavities faces several challenges particularly due to the brittle nature of the material which demands novel tuning methods for cavity operation. A detailed description of the status and objectives of the research on Nb3Sn/Nb is found in the dedicated White Paper submitted to Snowmass 2021 [\\[92\\]](#page-27-2).\n\nThe recent progress in material understanding and RF performance of Nb3Sn films on Nb has stimulated widened interest and alternative techniques are emerging, specifically for deposition in Cu cavities. The attraction is for A15 materials deposited onto Cu substrates is to improve the quality factor of coated Cu cavities by a factor of 10 at an operating temperature of 4.2 K. Alternate Nb3Sn R&D developments with novel deposition techniques have started at CERN, IMP, ULVAC/KEK, NHMFL/Florida State University/University of Texas–Arlington, Peking University, STFC, ODU, and Ultramet [\\[43–](#page-24-11)[50\\]](#page-25-0).\n\nBeyond Nb3Sn, other A15 materials of interests are V3Si, Nb3Al, and Mo3Re. They have similar Tcs, some of these compound may be easier to deposit with PVD. Thus far, the exploration of these materials has been marginal for SRF applications.\n\n#### 5.2.2 MgB<sup>2</sup>\n\nWith a T<sup>c</sup> of 40 K, MgB<sup>2</sup> has raised interest since its discovery in 2001. This compound has the particularity of having 2 superconducting gaps [124, 125] (with ∆<sup>p</sup> = 2.7meV and ∆<sup>p</sup> = 6.7meV ). The RF response has shown lower energy gap behavior. This lower gap is still about twice the gap of Nb (1.5 meV). The normal resistivity can also be made quite low (best values are ≤ 1µΩcm). With a higher T<sup>c</sup> than Nb, a low resistivity, a larger gap, a higher critical field, there appears to be room for better performance than Nb and for operation beyond 4.2 K. In the last few years,consistent efforts have led Temple University to develop high quality MgB<sup>2</sup> films with potential for SRF applications. In collaboration with ANL, they recently started to deploy this material on 3D structures at 3 GHz. One of the challenges with using MgB<sup>2</sup> for SRF application is the degradation of the film properties with exposure to moisture (the surface resistance R<sup>s</sup> increases and T<sup>c</sup> degrades). One way to overcome such degradation during the common cavity surface cleaning procedures may be to use a cap layer to protect the MgB<sup>2</sup> film. With potential operation at 20 K, MgB2, especially when used in the form of multilayers, is attractive for SRF cavity operation in cryocoolers [\\[52\\]](#page-25-1).\n\n### 5.3 superconductor-insulator-superconductor (SIS) nanometric layers\n\nDespite higher T<sup>c</sup> and the potential for a higher superheating field Hsh, most good SRF material candidates do not outperform the properties and ease of use of Nb. So, in pursuit of increased maximum operation gradients (Emax), a nanometric superconductor/insulator/superconductor (SIS) structure concept has been proposed for its potential capability of supporting otherwise inaccessible surface magnetic fields in SRF cavities [\\[53\\]](#page-25-2). The idea is to coat an SRF cavity (bulk Nb or thick Nb film) with a nanometric multilayer structure (SIS structures) composed of alternating superconducting (S) and insulating (I) layers with a thickness d<sup>S</sup> smaller than the penetration depth λS. If the superconducting film S is deposited with a thickness d<sup>S</sup> << λ, the Meissner state can be retained at magnetic field much higher than bulk Hc<sup>1</sup> as for d<sup>S</sup> << λ. The strong increase of first flux penetration field Hf p in films allows the surface to support RF magnetic fields higher than the lower critical field Hc<sup>1</sup> of bulk Nb (figure 2). The thin insulating layer I inhibits vortex oscillations and prevents global vortex penetration in the cavity. Its thickness, d<sup>I</sup> , needs to be big enough to avoid Josephson junction effects. The BCS resistance is also strongly reduced because of the use of superconductors with a higher gap ∆ (Nb3Sn, NbTiN). The effect can be furthered by adding SI layer sequences. The optimum number of SI layers is determined by a compromise between vortex dissipation reduction, superconductivity suppression at the S–I interfaces, and thermal conductivity. With such optimized SIS structures, Q-values at 4.2 K two orders of magnitude above Nb values are predicted, and the sustainable external magnetic field could be more than doubled. The multilayered approach composed of nanometric superconducting (50–200 nm) and insulating (5–10 nm) thin film stacks has the potential to significantly increase Emax by 20 to 100 % as compared to Nb. This solution can be applied to any optimized thin film mentioned in the previous section. The major challenge is to demonstrate the feasibility of this solution for higher gradients i.e. > 50MV /m. A 50 % increase in the maximum accelerating gradient implies a construction cost saving for an XFEL-scale accelerator of about 100 M\\$ and a 50 % lower cryomodule operational cost.\n\nRefinements have been introduced [\\[75,](#page-26-0)[77,](#page-26-1)[82\\]](#page-27-3) in order to accurately understand the field limit in the multilayered SIS structure and taking into account surface roughness, and layer thickness nonuniformity, but further theoretical understanding are yet necessary. The technological challenges involved in adequate SIS multilayered structures include creation of high quality superconductors and dielectric materials with sharp, clean, transitions, and careful thickness control.\n\n## 6 Technology Development Paths\n\nThin film based SRF technology is a multiplexed field and fast-tracked success requires a strategy with multiple areas of development to be pursued in parallel.\n\nAll three research thrusts presented in the previous section have commonalities in their respective required development paths: fundamental studies, advanced coating techniques tailored to the materials, quality substrates, SRF properties assessment, scalability studies.\n\n### 6.1 Fundamental studies\n\n#### 6.1.1 Theoretical and material studies\n\nTo gain in-depth understanding of the fundamental limitations of thin film superconductors under radio-frequency fields. Superconducting and RF properties are inherent to the material, so there is a clear need to develop a detailed understanding of the precise microscopic causal links between surface coatings/treatments and ultimate RF performance at cryogenic temperatures. An understanding of these links would provide a clear roadmap for improvement of SRF cavity performance. Materials studies include advanced material analysis techniques to characterize local defects and nanostructure, both laterally and as a function of depth, to characterize the electrodynamic properties of the near-surface region (where RF interacts) of superconductors. Such studies, coupled with theory, can efficiently guide the development of new thin film materials and processes for SRF applications.\n\n#### 6.1.2 Theoretical studies for multilayered structures\n\nRevealing the true SRF performance potential of SIS multilayers and optimizing their geometry requires addressing the following outstanding theoretical issues:\n\nCalculations of the dynamic superheating field and maximum accelerating gradient for the cavity SIS multilayer coatings. One of the important questions is how far the maximum breakdown field can be increased by tuning the SIS geometry. This question can be addressed by solving rather complicated equations of non-equilibrium superconductivity [\\[74\\]](#page-26-2) to calculate the dynamic superheating field Hsh(ω, T, d) as function of frequency ω, temperature T and thicknesses d of S and I layers which would give the optimum layer thicknesses which maximize Hsh(ω, T, d). It was shown recently that the dynamic superheating field Hsh(T) near the transition temperature T<sup>c</sup> can exceed the static superheating field Hsh(T) by factor 2 [\\[79\\]](#page-26-3).\n\nThe effect of multilayer geometry on the surface resistance. Because of the scattering of electrons on S-I interfaces, the surface resistance Rs(l, d) in multilayers depends not only on the bulk mean free path l but also on the layer thickness d and the mechanism of interface scattering. Other factors which can strongly affect the residual surface resistance include broadening of the density of states by subgap states [\\[82,](#page-27-3) [83,](#page-27-4) [86\\]](#page-27-5) and blocking the RF currents by grain boundaries [\\[84,](#page-27-6) [85\\]](#page-27-7). Optimization of Rs(l, d) in multilayers will require solving kinetic equations for the distribution function of quasiparticles in RF field [\\[74\\]](#page-26-2) to find the values of l and d which minimize the surface resistance.\n\nHigh-field surface resistance and nonequilibrium superconductivity in multilayers. Strong RF field in cavities causes oscillations in the density of states of quasiparticles and drive them out of equilibrium, making Rs(l, d, Ha) dependent on the field amplitude H<sup>a</sup> and changing the frequency dependence of Rs(l, d, Ha) as compared to the low-field Mattis-Bardeen theory. These mechanisms, as well as two-level atomic systems likely associated with amorphous niobium oxide at the surface [81,](#page-27-8) can produce the Q rise [\\[80\\]](#page-27-9) observed on alloyed Nb cavities. Theoretical account of these phenomena requires solving kinetic equations for quasi-particles along with temporal\noscillation of superfluid density, superconducting gap and caused by the RF current pair breaking [\\[76,](#page-26-0)[77,](#page-26-1)[80,](#page-27-0)[86\\]](#page-27-1). The outcome of this challenging project is the calculation of the field-dependent quality factor and determination of the conditions under which the extended Q(H) rise can reverse the medium and high-field Q slope up to the breakdown field. This theory can be applicable to new SRF materials like Nb3Sn [\\[87\\]](#page-27-2) and pnictides, as well as to alloyed Nb multilayers.\n\nReduction of the RF dissipation caused by penetration of vortices is one of the key advantages of SIS multilayers. Small vortex semi-loops can penetrate from materials surface defects and then be intercepted by I layers, which stop further propagation of vortices in the bulk [\\[75–](#page-26-2)[78\\]](#page-26-3). The power dissipated by vortices in this process is an important characteristic that quantifies a tolerable level of vortex losses which do not appreciably deteriorate the cavity performance and does not trigger thermal runaway. The vortex losses can be calculated by numerical simulation of the time-dependent Ginzburg-Landau equations.\n\nAddressing these issues would allow to establish the fundamental theoretical performance limits of multilayers to raise the maximum accelerating gradient and quality factors by using SRF materials other than Nb. Another opportunity would be to use N-doped \"dirty\" Nb multilayers to reverse the reduction of the breakdown field and the high-field Q slope, producing an extended Q-rise effect in the field range exceeding the superheating field of Nb [\\[75–](#page-26-2)[77,](#page-26-1) [86\\]](#page-27-1). Here the theory would guide the ongoing materials optimization of thin film coated SRF cavities.\n\n## 6.2 Advanced coating technologies and SRF film structure developments\n\nIn praticality, achieving fully engineered functional SRF thin film material involves:\n\n- Developing and mastering advanced thin film deposition techniques in terms of final composition and structure.\n- Transferring known deposition techniques to the internal complex shape of the cavities.\n- Mastering quality of interfaces (substrate preparation, interlayers).\n- Establishing the proper compromise between optimum superconducting quality and fabrication cost (choice of the superconducting material).\n\n#### 6.2.1 Energetic condensation\n\nThe persistently recurrent Q-slope for Nb/Cu cavities has been shown to be partially due to porosities present in the films elaborated by Direct Current Magnetron Sputtering (DCMS). This issue is related to the low ionization ratio of the sputtered material (about 3%) combined to a low energy distribution function of the sputtered species. The use of energetic condensation techniques such as Electron Cyclotron Resonance (ECR) [\\[8\\]](#page-22-0) or High Power Impulse Magnetron Sputtering (HiP-IMS) [\\[9,](#page-22-1) [10\\]](#page-22-2) has proven to be the path to be used in order to elaborate dense films with improved characteristics thanks to the combination of:\n\n- High ionization ratio of the deposit material (> 70%)\n\n- Higher ion energy\n- Energy control of the film species with substrate biasing. Recent development of positive short kick (40 µs) in HIPIMS [\\[17\\]](#page-23-0) further simplify the target-substrate arrangement.\n\nThese techniques are characterized by a number of surface and sub-surface processes that are activated or enabled by the added energy of the ions arriving at the surface [\\[54–](#page-25-0)[57\\]](#page-25-1). Among them are desorption of residual gases from the substrate surface, chemical bonds breaking, increased surface mobility, sub-implantation, creation and annihilation of defects. Such competing processes induce changes in film growth affecting nucleation processes, film adhesion, morphology, microstructure and intrinsic stress. This allows approaching film growth in sequential steps : engineered interface (intermixing, interlayer), nucleation, adaptive template, subsequent growth and final RF surface. Each step can be energetically optimized or tuned depending on the substrate nature, the film material, or the desired film structure and properties (density, crystal orientation, low-temperature epitaxy...). The conformality of deposition is also greatly improved compared to DCMS and other conventional PVD techniques.\n\nRecent results using both techniques have proven that the Q-slope problem can be efficiently addressed and resolved [\\[14,](#page-23-1) [16\\]](#page-23-2). A strong effort is now required to push the performance of the 1.3 GHz test cavities with the aim of reaching quality factor of 10<sup>10</sup> at 20 MV/m of accelerating gradients. Such performance would place the Nb/Cu technology as a strong competitor to bulk Nb.\n\nEnergetic condensation techniques can also benefit alternative SRF material developments for cavity applications by lowering the deposition temperature necessary to form the superconducting phase of choice (A15 for Nb3Sn, δ-phase for Nb B1-compounds) thus increasing compatibility with low-temperature melting substrates such as Cu or Al.\n\n#### 6.2.2 Atomic Layer Deposition (ALD)\n\nAchieving conformal deposition is a prime objective for complex SRF cavity geometries, particularly when considering composite materials such as SIS structures. Within the last decade, Atomic layer deposition (ALD) has developed from a pure R&D technology to industry applications. Specifically, the semiconductor and the solar cell industry have implemented ALD in their production lines. ALD belongs to the class of chemical vapor deposition methods. It is inherently a self-limiting process with near perfect thickness control at the atomic level, and thus does not require a line of sight to the substrate. In principle, complex structures can then be coated without the difficulties typically encountered with sputtering, albeit the coating rates are very low. Preliminary demonstration has been provided with the deposition in 1.3 GHz cavities of insulating layers synthesized via ALD [\\[58\\]](#page-25-2). As the surface chemistry and not the absolute mass flux of deposition species determines the film growth, ALD presents an undeniable advantage over all other physical vapor deposition methods with respect to coating conformality on nano- and micro-structured substrates because.\n\nUnfortunately, ALD synthetization of metallic superconducting materials is proven difficult and is still a niche field. Thus far, ALD is not compatible with state-of-the-art Nb or Nb3Sn films due to the need of precursors typically based on elements incompatible with preserving the material purity required for high performance thin films. However, ALD deposition of superconducting materials such as NbN, NbTiN, MoN [\\[67\\]](#page-26-4) and MgB<sup>2</sup> [\\[68\\]](#page-26-5) is making good progress. Its long-term potential for high performance 4.2 K (and above) systems may yet be greater than that of both the vapor-infusion and sputtering techniques.\n\nAs a unique tool for surface engineering, ALD can find other applications in particle accelerators besides the synthesis of superconducting alloys and multilayers as the main SRF material:\n\n- Secondary electron yield mitigation by the controlled deposition of very thin films ( 1 nm) on RF exposed surfaces in vacuum [\\[58\\]](#page-25-2).\n- ALD can also be used to grow diffusion barriers to study the role of various alloys (Oxides, nitrides) on SRF cavity performances.\n- ALD deposited thin films with post annealing treatment can serve as dopant sources for Nb technology.\n- Adhesion and passivation layers deposited on copper by ALD can help maintaining long term stability in air exposed Cu surfaces and improving superconducting films adhesion reproducibility.\n- Difference between substrate and film thermal expansion could also be addressed by ALD engineering an intermediate layer with tuned thermal expansion coefficient.\n\n#### 6.2.3 Hybrid deposition techniques\n\nSuperconducting alloy materials such as NbN, NbTiN and some A15 compounds (Nb3Sn, Nb3Ge, V3Si, Mo3Re) have been successfully deposited on various flat substrates either directly with sputtering of a stoichiometric target or by co-sputtering (silmutaneous sputtering of two constituents). In co-sputtering, the achieved composition is dependent on the relative positions of the target and the substrate. The perfect stoichiometry can then be obtained by manipulating these positions. However, the control of the stoichiometry may be difficult over the large areas of accelerating cavities, especially if the stoichiometry range for the B1 or A15 phase is narrow. In this case, combining cylindrical sputtering with plasma enhancement by ECR allows to circonvent some of these issues and improve on deposition conformality.\n\nChemical vapor deposition (CVD) and plasma enhanced CVD (PECVD) of either single (Nb) or alloy superconducting material (NbTiN and NbN) has also been used to deposit mainly on flat substrates. In this process, one or more precursors, present in vapor phase, chemically react and form a solid film on a substrate at the appropriate temperature. The deposition rate and the structure of the film depend on the temperature and the reagent concentration. The control of the temperature and gas flow uniformity over the entire cavity surface may be difficult with complex geometries. As for ALD, the use of precursor may affect the purity and final properties of the films deposited.\n\nCombination of the two-deposition process of PVD and CVD can overcome the shortfall of each individual process. Extensivley developed at Temple University, the hybrid physical chemical vapor deposition (HPCVD) which combines physical and CVD has been shown to produce high quality MgB<sup>2</sup> thin films [\\[59,](#page-25-3) [60\\]](#page-25-4). The high temperature used in HPCVD favors excellent epitaxy and crystallinity, yielding RRR values in excess of 80. This technique is now being deployed on 3D structures such as a 3 GHz single-cell cavity [\\[61\\]](#page-25-5). another two-step process is being developed at ANL with a B layer deposited by CVD and post-reacted with Mg vapor to form MgB<sup>2</sup> [\\[62\\]](#page-25-6).\n\nRecently, the HPCVD process was modified to synthesize thin films of superconducting alloys on 3D geometry substrates by using magnetron sputtering with a single element target as the source for one of the elements of the compound and providing the other element in vapor form through a precursor. The plasma generated by magnetron sputtering facilitates the decomposition of the precursor and hence allows the needed chemical reaction to take place at a much lower temperature, compatible with a copper cavity.\n\nIn the pursuit of inexpensive and low temperature methods to form the A15 phase of Nb3Sn, another hybrid technique of interest as of late is Nb/CuSn with post diffusion [\\[93\\]](#page-27-3), based on the bronze method. The principle is to deposit a Nb thin film on a bronze (CuSn) substrate and post-anneal it to favor the diffusion of Sn into the Nb and form the A15 phase. One of the major attraction of the method is that CuSn can be easily and inexpensively cast into a wide range of geometries. A dedicated White Paper has been submitted to Snowmass 21 [\\[93\\]](#page-27-3).\n\n# 6.2.4 Development of superconductor-insulator-superconductor (SIS) nanometric layers and associated cavity deposition methods to further enhance the performance of bulk Nb and Nb/Cu\n\nThe SIS multilayered structure concept offers perspectives of great RF performance enhancement but its implementation increases exponentially in complexity. The required superconducting layers are much thinner than typical stand-alone superconducting films for cavity applications. So methods to achieve rapidly relaxed and high quality materials with nominal properties are required for optimized SIS performance. The introduction of dielectric layers complicates things further. Layers need to be well defined with sharp interfaces. Methods need to be optimized to deposit the superconductor on the insulator and the insulator on the superconductor maintaining the quality and properties of each layer and of the base substrate. Material choices and deposition methods have to be tailored to address material (inter-diffusion), environment (need of precursors, pressure), temperature (process versus substrate melting temperatures, inter-diffusion... ) compatibility. For example, bulk-like properties are achieved at 600◦C both for NbTiN (Tc) and AlN (dielectric properties). However, at this temperature, Al diffuses into Nb and NbTiN, resulting in amorphous structures and diffuse interfaces when combining these materials in SIS structures [\\[94\\]](#page-27-4). Optimization for SRF performance requires then a compromise by lowering the deposition temperature to maintain the desired properties for both material layers and sharp interfaces.\n\nThe choice of techniques needs to remain mindful of the materials at play and the final SRF properties pursued. For example, ALD and CVD processes rely on the use of precursors, which are compounds often water based, or rich in H or C. This induces challenges in achieving the adequate purity and quality of the films while preserving the base materials. The final deposition scheme for optimal SIS multilayered structures may very well be a combination of deposition techniques depending on the chosen materials (energetic condensation for superconducting layers, ALD for insulators...). In this case, complex and integrated deposition systems need to be developed to allow in-situ processing and deposition of the functional SRF structures.\n\nWhen transferring, deposition processes to 3D cavity structures, coating conditions can vary greatly at different locations (equator versus iris or beam tubes). In this context, the use of a sample host cavity, so-called \"coupon cavity\" that has detachable coupon samples at equivalent positions in elliptical cavities [\\[96\\]](#page-28-0) can prove to be a useful tool to test the thin film creation and assess the properties variation along the cavity profile. The coupon samples produced can then be evaluated by various characterization techniques.\n\nAcross all materials and deposition techniques, the final surface created needs to be stabilized in order to be impervious to all necessary procedures in the lifetime of an SRF cavity and preserve the RF layer responsible for the performance in operation. This can be achieved through controlled dry oxidation, deposition of a protective thin and RF transparent cap layer. The methods need once again be tailored to the material of interest.\n\n## 6.3 Improved cavity fabrication & preparation techniques\n\n#### 6.3.1 Development of quality substrates\n\nIt is well recognized in thin film technology that the surface and material quality of the underlying substrate is of critical importance for the final properties of the deposited film [\\[63\\]](#page-26-6). Recent studies have shed light on the extreme importance of the substrate quality to ensure the good SRF film properties. HIE-ISOLDE experience [\\[11\\]](#page-22-3), CERN campaign on 1.5 GHz spun and hydroformed [\\[12\\]](#page-23-3) and the most recent studies at CERN on electroformed [\\[64\\]](#page-23-4)and bulk elliptical cavities have very clearly proven the superior performance of the superconductive films coated on a seamless substrate [\\[14\\]](#page-23-1). Cavity structures cut in the bulk are a good research vehicle to establish the performance boundaries on films when deposited on ideal metallic substrates. They could also be considered for machines that require only a small number of cavities, such as for Hie-Isolde [\\[11\\]](#page-22-3). However, this path is not sustainable for accelerator machines requiring a large number of cavities. It is thus fundamental to continue the technology development of classical fabrication methods (spinning, hydroforming, electroforming) and investigate the potential of new production techniques such as electro-hydro forming and 3D additive manufacturing.\n\nThe substrate surface preparation is equally important, and new environmentally-friendly polishing techniques should be explored. Examples in this direction, even if some of them have been tested at the moment only on small surfaces, are mechanical polishing (Centrifugal Barrel Polishing, Diamond Turning), Laser Polishing [\\[90\\]](#page-27-5), Plasma Electrolytic Polishing. For any machine project requiring large numbers of cavities, it is imperative to find methods to reliably produce a substrate surface that is chemically stable. For instance, methods to efficiently and reproducibly passivate the surface of Cu cavities need developing as the native Cu oxide is highly unstable with temperature and environmental conditions.\n\n#### 6.3.2 Important considerations for substrates intended for alternative materials\n\nThe synthesis of A15 materials onto Cu substrates aims at improving the quality factor of coated Cu cavities by a factor of 10 at an operating temperature of 4.2 K. Several challenges arise when using copper as the substrate for these compounds:\n\n- Thermal expansion coefficient difference between the substrate and the thin film may lead to a critical temperature depression due to residual stress build up\n- A high process temperature (> 300◦C) is needed in order to form the proper A15 crystalline structure that is the only superconducting phase for those materials. The need of such high temperature may have a significant impact onto the design of the accelerating cavities that will have to be stiffened in view of compatibility with a tuning system during machine operation.\n\n- Interdiffusion of Cu into the A15 layer can spoil the superconducting layer and a strategy has to be developed to prevent such contamination.\n\n#### 6.3.3 Novel Cooling Techniques\n\nAs they enable higher SRF cavity operation temperature (≥ 4.2K), high-T<sup>c</sup> superconducting thin films will open the way for new conduction cooled accelerating structures using new cooling techniques (cavity wall with integrated liquid He cooling circuit or pulsating heat pipes, etc.) and cooling channels instead of helium tanks. Indeed, one of the major problems is the evacuation of the energy in-homogeneously deposited inside the cavity towards the cold source. Regardless of the superconducting film or structure used, improved heat transfer is essential. It is therefore necessary to provide innovative solutions that use existing and available technologies to ensure optimal heat transfer. Additive manufacturing of metals (Cu and Al elemental or alloys) then rises as an option for designing optimized thermal links and structures cooled by cryo-coolers. To fulfill this objective, several conditions need to be met. The materials chosen need to have optimized thermal conductivity, higher than for the SRF material. Exchange links and surfaces have to be optimized to increase heat transfers and minimize helium consumption. Other conditions are optimized mechanical properties for both material and cavity geometry along with compatibility with ultra-high vacuum and low surface roughness.\n\n## 6.4 Measurement platforms for relevant SRF film properties\n\nTo investigate fundamental questions such as SRF loss mechanisms or material limitations, a form of RF measurement is a necessity in order to assess early SRF performance in the material process development, identify potential pitfalls and validate processes. One of the prominent challenges in novel SRF thin film development is the parameter space to be explored. A development phase on samples with the implementation of specific material and RF performance diagnostics is then required before implementation on actual cavities. RF evaluation systems tailored to samples are of high interest and of high value, especially to perform AC measurements. Throughout the SRF community several systems exist, differing in geometry and sample size as well in the accessible parameter space of frequency, temperature and RF field range. For a review of available sample test cavities, the reader is referred to [\\[65\\]](#page-26-7). A versatile sample-test platform is the quadrupole resonator (QPR). It provides high resolution measurements (< 10nΩ) in a wide parameter space of temperature (1.5-20 K) and RF field up to 120 mT at three different frequencies (typically n x 433 MHz), covering the typical operational parameters of existing accelerators. Recent studies improved the resolution of such systems and solved a systematic operational problem, enabling QPR setups to reach their full potential for SRF R&D [\\[66\\]](#page-26-8).\n\nQPR samples are relatively complex samples, much larger (about 75 mm in diameter, welded on a Nb tube) than the sample size (< 10mm) typically employed to develop new films and deposition techniques. In order to optimize resources and time at the sample stage, it is important to find DC characterization techniques that can give indication of the sought-after RF properties (jc,Hc,. . . ) and to establish the potential of the techniques early in the development process. This is specifically important for the assessment of complex materials and SIS structures.\n\nA common characterization method for superconducting small flat samples is DC magnetometry. However in most setups, the sample is immersed in a DC field with some orientation and edge effects due to the demagnetization parameter. In order to overcome this issue, a local magnetometer based on the 3rd harmonic method was developed at Saclay [\\[69](#page-26-9)[–71\\]](#page-26-10), where the parallel magnetic field is applied with a coil which size is much smaller than the sample size. As the field decays quickly away from the coil, the sample can be considered as an infinite plane and no demagnetization effects occur. The applied parallel magnetic field also mimics the magnetic field configuration at the equator of SRF cavities. The good results achieved at CEA Saclay stimulated collaborations with other institutions to develop similar platforms (Kyoto University, KEK, JLab) and extend the capability.\n\nIt is important to investigate SRF and superconducting properties beyond surface resistance, to include structure/property relations that impact electrodynamic and thermal performance at the extreme limits present in SRF cavities. Local probes that produce quantitative measurements of critical RF properties of coatings and films are of great utility and interest. Examples include cryogenic scanning electron and force microscopies to reveal the presence of surface hydrides, scanning tunneling microscopy to identify states in the gap and defects/adatoms that create zero-bias conductance peaks, and scanning microwave microscopy to measure local sources of nonlinear response and correlate them with specific defects and near-surface features.\n\nTunneling spectroscopy (TS) is a 50 years old DC technique that enable the mapping of the fundamental surface superconducting properties at cryogenic temperature and under external magnetic field. From these measurments, parameters extracted and fits (Tc, superconducting gap ∆) provide in-depth understanding of microscopic dissipation phenomena. TS has been successfully applied to numerous SRF cavity cut-outs or samples treated in a similar manner as cavities and data analysis has shown predictive capability of SRF performance (Q0, Emax) on Nb and Nb3Sn [\\[72,](#page-26-11)[73\\]](#page-26-12).\n\nAs mentioned before,superconducting and RF properties are inherent to the material. Thus characterization cannot be only limited to superconducting and RF properties, it needs to include surface and material. In depth material and surface studies require multiple characterization techniques (STEM, TEM, FIB, EDS, EBSD, XRD, XPS, SIMS...). These are often very specialized and require expensive major instrumentation and operator expertise.\n\n## 6.5 Cryomodule design optimization\n\nOnce thin-film coated cavities attain performance specifications for accelerator application, the integration of these cavities into an operational cryomodule may encounter several technical challenges depending on the mechanical and material properties of thin-film materials and the substrates. Accordingly, it may demand modification in the design of current cryomodules and their operations to preserve the performance of such cavities. Many technical limitations may not be recognized until we progress toward the cryomodule phase. Still, the R&D efforts should be started early to identify them in advance and develop mitigation strategies. Recent experience with Nb3Sn-coated cavities indicates that they are mechanically vulnerable because of the brittle nature of the material. So that the tuning scheme in the cryomodule should be adjusted or modified to preserve the coating, most thin-film coated cavities require slow cool-down for optimal performance. They should be accommodated during cryomodule cool down. Focused scientific and technical efforts should be started sooner instead of later to identify and mitigate such issues to optimize cryomodule design to integrate thin-film coated cavities. On the other hand, the strategy of decoupling the SRF surface from the mechanical support structure can open the way to overal cryomodule design simplification.\n\n# 6.6 Improvement of accelerator ancillaries with advanced deposition techniques (HiPIMS Cu coated bellows, power couplers. . . )\n\nNovel thin film deposition techniques as described above also have a strong potential for the development of accelerator ancillary components. For example, many SRF systems design call for the use of Cu plated bellows and power couplers. Traditionally these components are fabricated with Cu electroplating on stainless steel. This technique produces layers with a large variation of thickness across the part profile, typically 200 %. The detailed process is often considered a trade secret and the performance is strongly tied to the operator. This generally has led to the need of re-developing the process time and time again over the years for the need of various accelerator projects. Recent developments in HiPIMS deposition of Cu on stainless steel, specifically with added Kick technology [\\[97\\]](#page-28-1) are showing improved thickness uniformity and adhesion to the substrate without the need for a seed or interlayer (typically Ni, a magnetic material). It is expected that the technique development with well defined parameters is highly reproducible and can easily be transferred from one provider to another.\n\n## 6.7 Preparation for industrialization\n\nLarge scale projects require high reproducibility in performance. Technology transfer to industry also requires robust processes. With well defined process steps in highly controlled conditions, thin film technology offers strong levels of reliabiltiy and reproducibility. Thus, early development of automation is key for results reliability with SRF thin film technology deployment: As a high quality surface preparation is key for the success of all subsequent process steps, as frequently observed in industrial coatings, automation of surface treatment processes and substrate handling can remove factors of variability.\n\nThe path to consistently high gradients, small form factors and, ultimately, industrialization of the whole concept will require a high grade of automation of the coating process.\n\n# 7 R&D Roadmap for Next Generation SRF Thin Film Cavities\n\nEfforts in the United States for SRF thin films research and development should pursue the three main research thrusts, in synergy with other regions, Europe and Asia with the roadmap and milestones described therafter (See Fig. [2\\)](#page-19-0). This roadmap is coherent with the European Strategy for particle physics document published January 2022 [\\[51\\]](#page-25-7).\n\n## 7.1 Nb/Cu Technology\n\nThe demonstration of Nb/Cu performance is paramount since it remains the simplest system after bulk Nb and other materials/structures development imply increasing difficulty and complexity. The milestones accomplished in the next five years should:\n\n- Establish the Nb/Cu baseline at 1.3 GH with demonstration of quality factors at 2 K of 2x10<sup>10</sup> at 25 MV/m and then at 35 MV/m.\n\nScale-up Nb/Cu technology to lower frequency cavities (800 - 400 MHz) and establish baseline\n\nThe objectives for the following five years should be to:\n\n- Develop Nb/Cu film deposition on multi-cell accelerator cavities Integrate graded doping/alloying on Nb/Cu film cavities\n\n## 7.2 Alternate superconductors\n\nThe degree of advancement in research for alternative materials to Nb varies drastically depending on the material at play. The following milestones only concern the Nb3Sn development by alternative techniques and other A15 compounds, MgB2. The roadmap for Nb3Sn by the now standard method of Sn diffusion is captured in the dedicated white paper [\\[92\\]](#page-27-6).\n\nIn order to fully explore the potential of alternative materials for 4.2 K operational cost saving, it is essential to pursue their development specifically with novel coating methods, compatible with low temperature substrate materials.\n\nThe development of an alternate material, Nb3Sn or other, for SRF applications requires in the next decade:\n\n- The development of novel coating techniques for Nb3Sn, other selected A15 compounds (Nb3Al, V3Si, Mo3Re) and MgB2.\n- The parameter optimization for the technique(s) of choice\n- The transfer of the deposition technique(s) to 3D coating of 1.3 GHz Nb or Cu single-cell cavity\n- The demonstration of performance at 4.2 K and 2 K similar to Nb3Sn cavities produced by Sn vapor diffusion.\n- The identification of issues and elaboration of solutions\n- The deployment of cavity deposition to multi-cell cavities\n\n## 7.3 Multilayered SIS structures\n\nThe envisionned exponential benefit in SRF performance from multilayered SIS structures is met by exponential complexity in developments, requiring a coordinated long-range research plan.\n\nExplore SIS structures potential with Nb based B1 compounds and Nb3Sn .\n\n- Develop deposition schemes in function of chosen materials, keeping in mind compatibilities of materials and deposition methods.\n- Optimize deposition parameters to maximize interface refinements and combined properties\n- Evaluate the RF potential of such structures on large samples with RF measurements by QPR and DC characterization (magnetometry, ...).\n- Transfer to 3D geometries\n\n![](0__page_19_Figure_0.jpeg)\n\n<span id=\"page-19-0\"></span>Figure 2: HEP Roadmap for STF Thin Film Technology development, adapted from 2017 US SRF Roadmap [\\[98\\]](#page-28-2)\n\n- Demonstrate the elaboration and performance of simple SIS structures on Nb cavities.\n- Identify potential issues and develop solutions\n- Demonstrate maximum field enhancement with the fore-mentioned SIS structures first on Nb bulk cavities, then on Nb/Cu cavities.\n- For industrial applications, demonstrate SRF performance for cavities operated in cryocoolers.\n\n## 7.4 Supporting Developments\n\nAs substrates are critical, simultaneously with SRF films and structure development, research needs to be pursued to produce cavity support structures which are mechanically and chemically stable, offering the best possible template for the SRF thin film structures.\n\nAs challenges are identified, they need to be fully addressed during the R&D. Novel tuning methods are required to preserve delicate materials such as the A15 compounds. The use of MgB<sup>2</sup> will most likely require the development of capping layers to preserve the material.\n## 8 Synergies and Community Needs\n\nSuperconducting RF is a key technology for future HEP and NP accelerators, now relying on advanced surfaces beyond bulk Nb for a leap in performance and efficiency. With dedicated and sustained investment in SRF thin film R&D, next-generation thin-film based cavities will become a reality with high performance and efficiency, facilitating energy sustainable science while enabling higher luminosity, and higher energy.\n\nCollaboration & synergies As discussed in the previous section, the field of needed developments for SRF thin film technologies to reach their full potential is vast and diverse. Close collaborations within the United States and with institutions worldwide and synergies between their dedicated R&D programs are of decisive importance. There exist already well-established and fruitful international R&D collaborations involving JLab, FNAL, SLAC, ODU, UMD, CERN, INFN-LNL, CEA Saclay, STFC, HZB, DESY, KEK, and other institutions. The number of contributing institutions to the field is growing, bringing in additional expertise. This has led to the establishment of a workshop series dedicated to SRF thin films with its first edition organized in 2005 as a spin-off of the bi-annual SRF Conference. Since then, the \"International Workshop on Thin Films and New Ideas for SRF\",organized typically bi-annually, has seen its participation grow over the years. It aims at providing a forum for new initiatives in innovative thin films and related technology to advance future generations of SRF accelerators, infused by expertise of specialists from related disciplines. The TTC collaboration has also mandated a dedicated SRF Thin Film working group to facilitate dialogue and problem solving across the community.\n\nScientific tools As mentioned before, SRF is a multidisciplinary field which requires correlation between surface, material properties and RF performance. Access to major material research and characterization instruments along with the associated expertise is mandatory for fundamental and detailed studies and should be facilitated through funding and strong collaborations with institutions both in the US and internationally that already own the capabilities.\n\nSustained progress in the development of engineered functional superconducting thin films and structures with enhanced RF performance (Nb/Cu, Nb3Sn, other A15, other superconductors (B1 compounds, MgB2...), multi-layers, integrated doping or alloying, peak fields...) requires a high throughput of samples and cavities testing. Thus it demands availabilty of multiple RF test platforms such as the QPR, . . . ).\n\nDedicated and sustained funding In order for SRF thing film technologies to mature and enable efficient and highly performing SRF systems for future accelerators, dedicated funding streams need to support both fundamental R&D and engineering developments. Significant levels of funding are typically tied to specific machine projects which in turn are assuming mature, industry and large-scale ready technologies.\n\nThe promised strides in the developments described here will only come to realization with adequate labor resources, state-of-the-art production and test facilities (cleanrooms, chemistry setups, RF testing, major characterization instruments), including existing facility upgrades and new facilities in step with technology advances.\n\nDevelopment of tomorrow SRF workforce The development of SRF thin film technologies offers extensive training opportunities to shape the next generation of SRF experts. The future of HEP in the United States and beyond relies on the development of young scientists and engineers who will take on the implementation of future accelerator facilities and industrialization of SRF technology. Among them will rise future leaders that will think, conceive, develop and build the accelerator machines that will enable over the next decades future research programs for HEP and other sciences beyond.\n\nFostering industrial partners in US Industrialization of SRF systems has been up to now limited. The past decade has seen US cavity industrial providers walking away from this activity due to the necessary infrastructure investments too significant relative to the size of the available market. Most of the SRF cavities for US DOE large projects such as LCLS-II, SNS PPU, are now produced outside the United States. On the other hand, small US companies have contributing profusely to SRF related R&D projects funded through the DOE SBIR program. One could foresee with the application of SRF thin films to accelerators for societal needs that the US and international markets could grow significantly. It is thus important to engage industrial partners early in the developments linked to SRF thin film technology.\n\n## 9 Conclusion and Recommendations\n\nSRF thin film technology based on advanced coating techniques offers many opportunities to fully engineer functional SRF surfaces with the deliberate creation of the most favorable interface or interlayer, tailoring of the most favorable film(s) structure, properties enhancement with doping/alloying, and control over the final RF surface with dry oxidation or cap layer protection. Highest performing Nb films, alternative material films and SIS multilayered structures open the possibility of enhanced performance beyond bulk Nb and major system simplifications. Such developments would be transformative not only for future high energy physics machines but will also bring forth the opportunity to upgrade existing machines to higher performance in achievable energies and cryogenic & power consumption, within the same footprint.\n\nThe already well-established and fruitful international R&D collaborations involving US institutions and their international counterparts should be fully supported and expanded in the following areas of R&D:\n\n- Theoretical and material studies to gain in-depth understanding of the fundamental limitations of thin film superconductors under radio-frequency fields\n- Advanced coating technology via energetic condensation (electron cyclotron resonance (ECR), HiPIMS, kick positive pulse. . . ), via Atomic Layer Deposition (ALD) and other hybrid techniques depending on the material requirements, Nb/Cu, alternative materials: Nb3Sn, V3Si, NbTiN . . .\n- Development of superconductor-insulator-superconductor (SIS) nanometric layers to further enhance the performance of bulk Nb and Nb/Cu cavities\n- Improved cavity fabrication & preparation techniques (electroforming, spinning, hydroforming, electro-hydro forming, 3D additive manufacturing, environmentally friendly electropolishing, nano-polishing, plasma etching . . . )\n- Cryomodule design optimization tailored to the SRF material of choice\n- Improvement of accelerator ancillaries with advanced deposition techniques (HiPIMS Cu coated bellows, power couplers. . . )\n\nThe progress achieved thus far in SRF thin film research constitutes a reasonable stepping stone to truly \"engineered SRF surfaces\", with all the benefits of high Q, high field, low cost, high reliability systems. As resources drive the timeline,continued investment is required so this fundamental R&D can mature and become project ready for the next generation accelerators and we ask for the Snowmass community affirmative support in this endeavor.\n\n## References\n\n- [1] Padamsee, H., \"History of gradient advances in SRF.\" arXiv: Accelerator Physics (2020)\n- [2] Bafia, D., et al. \"Understanding and Pushing the Limits of Nitrogen Doping.\" Proceedings of 10th International Particle Accelerator Conference (2019), doi:10.18429/JACoW-IPAC2019- WEPRB114.\n- [3] P. Achenbach, et al., \"Beam Dump eXperiments with electron beams,\"Snowmass 2021 LoI, Rare Processes and Precision Measurements Frontier n.<sup>c</sup> irc76.\n- [4] Y. Nosochkov, et al., \"Dark sector experiments at LCLS-II (DASEL) accelerator design,\" Proceedings of the 8th International Particle Accelerator Conference (IPAC 2017), Copenhagen, Denmark, May 14 – 19 (2017).\n- [5] B. Abi et al., \"Deep Underground Neutrino Experiment (DUNE) Far Detector Technical Design Report,\" arXiv:2002.03005 (2020).\n- [6] Sladen, J. \"STATUS OF SUPERCONDUCTING CAVITIES IN LEP\" , Part.Accel. 60 (1998) 15-25, In \\*Padua 1997, RF superconductivity, vol. 1, pp. 116-121.\n- [7] Abada, A., Abbrescia, M., AbdusSalam, S.S. et al., FCC Physics Opportunities, Eur. Phys. J. C 79, 474 (2019).\n- [8] Valente-Feliciano, A.-M., Aull S., Eremeev G., Proslier T., Reece C.E. and Spradlin J.K. \"Material Quality & SRF Performance of Nb Films Grown on Cu via ECR Plasma Energetic Condensation.\" (2015).\n- [9] Valente-Feliciano, Anne-Marie, HIPIMS: A new generation of film deposition techniques for SRF applications. No. JLAB-ACC-13-1808; DOE/OR/23177-3238. Thomas Jefferson National Accelerator Facility (TJNAF), Newport News, VA (United States), 2013.\n- [10] Rosaz, G., M. Taborelli, D. Sonato, A. Ehiasarian, S. Calatroni, T. Junginger and G. Terenziani. \"Biased HiPIMS technology for superconducting rf accelerating cavities coating.\" (2015).\n- [11] Miyazaki, A., and W. Venturini Delsolaro. \"Two different origins of the Q-slope problem in superconducting niobium film cavities for a heavy ion accelerator at CERN.\" Physical Review Accelerators and Beams 22.7 (2019): 073101.\n- [12] Calatroni, S. \"20 Years of experience with the Nb/Cu technology for superconducting cavities and perspectives for future developments.\" Physica C: Superconductivity 441.1-2 (2006): 95- 101.\n- [13] Amador, L. Lain, et al. \"Electrodeposition of copper applied to the manufacture of seamless superconducting rf cavities.\" Physical Review Accelerators and Beams 24.8 (2021): 082002.\n- [14] Arzeo, Marco, et al. \"Enhanced radio-frequency performance of niobium films on copper substrates deposited by high power impulse magnetron sputtering.\" Superconductor Science and Technology (2022).\n- [15] Rosaz, Guillaume, et al. \"Niobium thin film thickness profile tailoring on complex shape substrates using unbalanced biased High Power Impulse Magnetron Sputtering.\" Surface and Coatings Technology (2022): 128306.\n- [16] Burton, Matthew, Rosa Alejandra Lukaszew, Ari Deibert Palczewski, Larry Phillips, Charles Reece and Valente-Feliciano Anne-Marie. \"RF Results of Nb Coated SRF Accelerator Cavities via HiPIMS.\" (2019).\n- [17] Avino, F., A. Sublet and M. Taborelli. \"Evidence of ion energy distribution shift in HiPIMS plasmas with positive pulse.\" Plasma Sources Sci. Technol.28 (2019) 01LT03.\n- [18] Delsolaro, W. V. and A. Miyazaki. \"SEAMLESS QUARTER WAVE RESONATORS FOR HIE ISOLDE.\" (2019) Proceedings, 29th Linear Accelerator Conference, LINAC2018, doi:10.18429/JACoW-LINAC2018-TU1A05.\n- [19] A. Abada et al. \"FCC-ee: The Lepton Collider: Future Circular Collider Conceptual Design Report,\" Eur. Phys. J. Special Topics 228, 261–623 (2019).\n- [20] Abada, A., Abbrescia, M., AbdusSalam, S.S. et al., FCC-hh: The Hadron Collider, Eur. Phys. J. Spec. Top. 228, 755–1107 (2019).\n- [21] Aull, Sarah, Nikolai Schwerg, O. Brunner and Andy Butterworth. \"Material options for the superconducting rf system of the Future Circular Collider.\" (2018).\n- [22] Valente-Feliciano, Anne-Marie. \"Superconducting RF materials other than bulk niobium: a review.\" Superconductor Science and Technology 29 (2016): 113002.\n- [23] R.A. Rimmer et al. \"Next Generation SRF accelerators based on Nb3Sn\", LOI SNOW-MASS 2021 [https://www.snowmass21.org/docs/files/summaries/AF/SNOWMASS21-AF7\\\\_](https://www.snowmass21.org/docs/files/summaries/AF/SNOWMASS21-AF7_AF3_Rimmer-172.pdf) [AF3\\\\_Rimmer-172.pdf](https://www.snowmass21.org/docs/files/summaries/AF/SNOWMASS21-AF7_AF3_Rimmer-172.pdf).\n- [24] S. Posen et al., \"Nb3Sn at Fermilab: Exploring Performance\", presented at the 19th Int. Conf. RF Superconductivity (SRF'19), Dresden, Germany, Jun.-Jul. 2019, paper THFUB1.\n- [25] G. Eremeev et al. \"Nb3Sn multicell cavity coating system at Jefferson Lab.\" Review of Scientific Instruments 91.7 (2020): 073911.\n- [26] U. Pudasaini et al. \"Growth of N b3Sn coating in tin vapor-diffusion process.\" Journal of Vacuum Science & Technology A: Vacuum, Surfaces, and Films 37.5 (2019): 051509.\n- [27] D.L. Hall, et al. \"First results from new single-cell Nb3Sn cavities coated at Cornell University.\" Proceedings of IPAC 2017 (2017).\n- [28] P. Kneisel et al, \"Nb3Sn Layers on High-Purity Nb Cavities with Very High Quality Factors and Accelerating Gradients\", in Proc. 5th European Particle Accelerator Conf. (EPAC'96), Sitges, Spain, Jun. 1996, paper WEP002L.\n- [29] Sayeed, Md. Nizam, U Pudasaini, Hani E. Elsayed-Ali, Michael J. Kelley, C E Reece and G. Eremeev. \"MAGNETRON SPUTTERING OF Nb 3 Sn FOR SRF CAVITIES.\" (2018).\n- [30] Rosaz, G., S. Calatroni, F. L´eaux, F. Motschmann, Zuzanna Mydlarz, M. Taborelli and W. Vollenberg. \"Development of Nb3Sn Coatings by Magnetron Sputtering for SRF Cavities.\" (2015).\n- [31] Si, Q., Yu, R. and Abrahams, E. High-temperature superconductivity in iron pnictides and chalcogenides\". Nat Rev Mater 1, 16017 (2016).\n- [32] R. Dhuley et al. \"Demonstration of CW accelerating gradients on a cryogen-free, cryocooler conduction-cooled SRF cavity\", 2020.\n- [33] G. Ciovati et al. \"Multi-metallic conduction cooled superconducting radio-frequency cavity with high thermal stability\", 2020.\n- [34] N. Stilin et al. \"Stable CW Operation of Nb3Sn SRF Cavity at 10 MV/m using Conduction Cooling\", 2020.\n- [35] Gurevich, A. \"Maximum screening fields of superconducting multilayer structures\". AIP Advances, 5, (2015) 017112.\n- [36] Kubo, Takayuki. \"Superheating fields of semi-infinite superconductors and layered superconductors in the diffusive limit: structural optimization based on the microscopic theory\" Superconductor Science and Technology 34 (2021): 045006.\n- [37] Ciovati, G., Jiquan Guo, R. Rimmer, F. Hannon, F. Marhauser, Vashek Vylet, J. Rathke, T. Schultheiss, B. Coriton, M. LeSher, J. Anderson and L. Holland. \"Design of a low-cost, compact SRF accelerator for flue gas and wastewater treatment.\" (2017).\n- [38] Stilin, Neil, A. Holic, M. Liepe, R. Porter and J. Sears. \"Stable CW Operation of Nb3Sn SRF Cavity at 10 MV/m using Conduction Cooling.\" arXiv: 2002.11755: Accelerator Physics (2020).\n- [39] G. M¨uller, et al. \"Status and Prospects of Nb3Sn cavities for superconducting linacs\" Proc. Workshop on Thin Film Coating Methods for Superconducting Accelerating Cavities TESLA Report 2000-15 (2000).\n- [40] S. Posen and M. Liepe, \"Advances in development of Nb3Sn superconducting radio-frequency cavities,\" Phys. Rev. ST Accel. Beams 17, 112001 (2014).\n- [41] S. Posen, D.L. Hall, and M. Liepe, \"Proof-of-principle demonstration of Nb3Sn superconducting radiofrequency cavities for high Q0 applications,\" Appl. Phys. Lett. 106, 082601 (2015).\n- [42] S. Posen et al., \"Advances in Nb3Sn superconducting radiofrequency cavities towards first practical accelerator applications,\" Supercond. Sci. Technol. 34 025007 (2021).\n- [43] E.A. Ilyina et al., \"Development of sputtered Nb3Sn films on copper substrates for superconducting radiofrequency applications,\" 2019 Supercond. Sci. Technol. 32 035002 (2019).\n- [44] Z. Yang et al., \"Development of Nb3Sn Cavity Coating at IMP,\" Proc. of SRF'19, Dresden, Germany (2019).\n- [45] R. Ito et al., Nb3Sn Thin Film Coating Method for Superconducting Multilayered Structure,\" Proc. of SRF'19, Dresden, Germany (2019).\n- [46] C-U. Kim et al., \"Exploration of Electrochemical Processes for Creating Nb3Sn Thin Films via Bronze Route,\" CAARI 2018 Dallas, Texas, United States August 12- August 17 (2018).\n- [47] L. Ziao et al., \"The Study of Deposition Method of Nb3Sn Film on Cu Substrate,\" Proc. of SRF'19, Dresden, Germany (2019).\n- [48] R. Valizadeh at al., \"PCD Deposition of Nb3Sn Thin Film of Copper Substrate from an Alloy Nb3Sn Target,\" Proc. of IPAC'19, Melbourne, Australia (2019).\n- [49] N. Sayeed et al., \"Deposition of Nb3Sn Films by Multilayer Sequential Sputtering for SRF Cavity Application,\" Proc. of SRF'19, Dresden, Germany (2019).\n- [50] M. Ge at al., \"CVD Coated Copper Substrate SRF Cavity Research at Cornell University,\" Proc. of SRF'19, Dresden, Germany (2019).\n- [51] Adolphsen, C., et al. \"European Strategy for Particle Physics–Accelerator R&D Roadmap.\" arXiv preprint arXiv:2201.07895 (2022).\n- [52] Teng Tan, et al., \"Magnesium diboride coated bulk niobium: a new approach to higher accelerating gradient,\" Scientific Reports 6 (2016) 35879.\n- [53] Gurevich A 2006 Appl. Phys. Lett. 88 012511\n- [54] J.S. Colligon 1995 J. Vac. Sci. Technol. A 13.3 1649.\n- [55] K. Sarakinos, J. Alami, S. Konstantinidis 2010 Surf. & Coat. Technol. 204 1661-84.\n- [56] O. R. Monteiro 2001 Annual Rev. Mat. Sci. 31 111-37.\n- [57] A. Anders 2010 Thin Solid Films 518 4087–90.\n- [58] Kalboussi Y. et al, Material Engineering of ALD-deposited Multilayer to improve the superconducting performances of RF cavities under intense Fields, SRF Conference 2021\n- [59] M.A. Wolak et al., \"Superconducting magnesium diboride coatings for radio frequency cavities fabricated by hybrid physical-chemical vapor deposition,\" Phys. Rev. ST-AB 17 (2014) 012001. http://dx.doi.org/10.1103/PhysRevSTAB.17.012001\n- [60] Wenura K. Withanage et al., \"Magnesium diboride on inner wall of copper tube: A test case for superconducting radio frequency cavities,\" Phys. Rev. ST-AB 20 (2017) 102002. https://doi.org/10.1103/PhysRevAccelBeams.20.102002\n- [61] Xin Guo et al., \"Fabrication and radio frequency properties of 3-GHz superconducting radio frequency cavities coated with MgB2\" unpublished, 2020.\n- [62] T. Tajima, L. Civale, R.K. Schulze, \"Research on MgB2 at LANL for the Application to SRF Structures,\" Proc. SRF2015, Whistler, BC, Canada, p. 700. http://accelconf.web.cern.ch/AccelConf/SRF2015/papers/tupb053.pdf\n- [63] Valente-Feliciano, A. M. \"Nb films: substrates, nucleation & crystal growth.\" Proc. 15th Int. Conf. RF Supercond.\n- [64] Amador, L. Lain, et al. \"Electrodeposition of copper applied to the manufacture of seamless superconducting rf cavities.\" Physical Review Accelerators and Beams 24.8 (2021): 082002.\n- [65] Goudket, Philippe, T. Junginger, and B. P. Xiao. \"Devices for SRF material characterization.\" Superconductor Science and Technology 30.1 (2016): 013001.\n- [66] Keckert, S., et al. \"Mitigation of parasitic losses in the quadrupole resonator enabling direct measurements of low residual resistances of SRF samples.\" AIP Advances 11.12 (2021): 125326.\n- [67] C. Cao et al. \"Tunneling Spectroscopy of MoN and NbTiN Thin Films Grown by Atomic Layer Deposition\". APL 104 (9), 092602 (2014).\n- [68] D.J. Mandia et al. US Patent Application for \"METHODS FOR LOW-TEMPERATURE PE-CVD AND THERMAL ALD OF MAGNESIUM DIBORIDE\" Patent Application (Application #20200378003)\n- [69] Antoine, C. Z., et al. \"Characterization of superconducting nanometric multilayer samples for superconducting rf applications: First evidence of magnetic screening effect.\" Physical Review Special Topics-Accelerators and Beams 13.12 (2010): 121001.\n- [70] Antoine, Claire Z., et al. \"Optimization of tailored multilayer superconductors for RF application and protection against premature vortex penetration.\" Superconductor Science and Technology 32.8 (2019): 085005.\n- [71] M. Aburas, C. Antoine, A. Four, \"Local Magnetometer: First Critical Field Measurement of Multilayer Superconductors\", 18th International Conference on RF Superconductivity, Jul 2017, Lanzhou, China. pp.THPB038.\n- [72] N.R. Groll et al. \"Insight into bulk niobium superconducting RF cavities performances by tunneling spectroscopy\". Submitted to Phys. Rev. Applied. arXiv preprint arXiv:1805.06359.\n- [73] C. Becker et al. \"Analysis of Nb3Sn surface layers for superconducting radio frequency cavity applications\". APL 106, 8, 082602 (2015).\n- [74] N.B. Kopnin, Theory of nonequilibrium superconductivity (Oxford Univ. Press, 2001).\n- [75] A. Gurevich. \"Maximum screening fields of superconducting multilayer structures\". AIP Advances 5, 017112 (2015).\n- [76] A. Gurevich. \"Theory of RF superconductivity for resonant cavities\". Supercond. Sci. Technol., 30, 034004 (2017).\n- [77] T. Kubo, \"Multilayer coating for higher accelerating fields in superconducting radio-frequency cavities: a review of theoretical aspects\", Supercond. Sci. Technol. 30, 023001 (2017).\n- [78] D.B Liarte, S. Posen, M.K Transtrum, G. Catelani, M. Liepe, and J.P Sethna, \"Theoretical estimates of maximum fields in superconducting resonant radio frequency cavities: stability theory, disorder, and laminates\" Supercond. Sci. Technol. 30 033002 (2017).\n- [79] A. Sheikhzada and A. Gurevich. \"Maximum dynamic pair-breaking current and superfluid velocity in nonequilibrium superconductors.\" Phys. Rev. B 102, 104507 (2020).\n- [80] A. Gurevich, \"Reduction of dissipative nonlinear conductivity of superconductors by static and microwave magnetic fields.\" Phys. Rev. Lett. 113, 087001 (2014).\n- [81] A. Romanenko and D.I. Schuster, \"Understanding quality factor degradation in superconducting niobium cavities at low microwave field amplitudes\", Phys. Rev. Lett. 119, 264801 (2017).\n- [82] A. Gurevich and T. Kubo. \"Surface impedance and optimum surface resistance of a superconductor with an imperfect surface\" Phys. Rev. B 96, 184515 (2017).\n- [83] T. Kubo and A. Gurevich. \"Field-dependent nonlinear surface resistance and its optimization by surface nano-structuring in superconductors.\" Phys. Rev. B 100, 064522 (2019).\n- [84] A. Sheikhzada and A. Gurevich. \"Dynamic transition of vortices into phase slips and generation of vortex-antivortex pairs in thin film Josephson junctions under dc and ac currents\". Phys. Rev. B 95, 214507 (2017).\n- [85] J. Makita, C. Sundahl, G. Ciovati, C.B. Eom, and A. Gurevich. \"Nonlinear Meissner effect in Nb3Sn coplanar resonators\". Phys. Rev. Research 4, 013156 (2022).\n- [86] T. Kubo \"Effects of nonmagnetic impurities and subgap states on the kinetic inductance, complex conductivity, quality factor, and depairing current density\" Phys. Rev. Applied 17, 014018 (2022).\n- [87] C. Sundahl, J. Makita, P.B. Welander, Y-F. Su, F. Kametani, L. Xie, H. Zhang, L. Li, A. Gurevich, and C.B. Eom. \"Development and characterization of Nb3Sn/Al2O3 superconducting multilayers for particle accelerators.\" Scientific Reports 11, 7770 (2021).\n- [88] V. Palmieri, et al. \"The Way of Thick Films toward a Flat Q-curve in Sputtered Cavities\", Proceedings 18th Int. Conf. on RF Superconductivity (SRF'17), doi.org/10.18429/JACoW-SRF2017-TUYBA03.\n- [89] E. Chyhyrynets, et al. \"Application of Plasma Electrolytic Polishing onto SRF Substrates\" Proceedings 20th Int. Conf. on RF Superconductivity (SRF'21)\n- [90] R Ries et al, Improvement of the first flux entry field by laser post-treatment of the thin Nb film on Cu\", Supercond. Sci. Technol. 34 065001 (2021)\n- [91] B. Giaccone et al., \"Field emission mitigation studies in the SLAC Linac Coherent Light Source II superconducting rf cavities via in situ plasma processing\" Phys. Rev. Accel. Beams 24, 022002 (2021)\n- [92] S. Posen et al., \"Nb3Sn Superconducting Radiofrequency Cavities: a Maturing Technology for Particle Accelerators and Detectors\" -White Paper for Snowmass 2021.\n- [93] Emanuela Barzi et al., \"An Impartial Perspective for Superconducting Nb3Sn coated Copper RF Cavities for Future Linear Accelerators\", FERMILAB-CONF-22-134-TD, March 12, 2022\n- [94] Valente-Feliciano, Anne-Marie, et al. Growth and characterization of multi-layer NbTiN films. No. JLAB-ACC-15-2324; DOE/OR/23177-3945; TUBA08. Thomas Jefferson National Accelerator Facility (TJNAF), Newport News, VA (United States), 2015.\n- [95] A-M. Valente-Feliciano et al., \"Material and Superconducting Properties of NbTiN/AlN Multilayer Films\", presented at the 19th Int. Conf. on RF Superconductivity (SRF'19), Dresden, Germany, Jun.-Jul. 2019,()THFUA3).\n- [96] T. Saeki et al. (KEK), SRF2019, Dresden, Germany, ISBN: 978-3-95450-211-0 doi:10.18429/JACoW-SRF2019-MOP054.\n- [97] Baohua Wu, et al., \"Cu films prepared by bipolar pulsed high power impulse magnetron sputtering\", Vacuum,Vol. 150,2018, pp. 216-221.\n- [98] S. Belomestnykh, \"Update on the US decadal roadmap on SRF technology for HEP accelerators\", FCC Week 2017.",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Next-Generation Superconducting RF Technology based on\nAdvanced Thin Film Technologies and Innovative Materials for\nAccelerator Enhanced Performance & Energy Reach",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              85.9130859375,
+              117.3607177734375
+            ],
+            [
+              523.6456298828125,
+              117.3607177734375
+            ],
+            [
+              523.6456298828125,
+              167.1761474609375
+            ],
+            [
+              85.9130859375,
+              167.1761474609375
+            ]
+          ]
+        },
+        {
+          "title": "Executive Summary",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              265.359375,
+              307.4491882324219
+            ],
+            [
+              362.0484619140625,
+              307.4491882324219
+            ],
+            [
+              362.0484619140625,
+              318.3583068847656
+            ],
+            [
+              265.359375,
+              318.3583068847656
+            ]
+          ]
+        },
+        {
+          "title": "1 Introduction",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              71.19580078125,
+              208.1640625
+            ],
+            [
+              185.2734375,
+              208.1640625
+            ],
+            [
+              185.2734375,
+              222.51031494140625
+            ],
+            [
+              71.19580078125,
+              222.51031494140625
+            ]
+          ]
+        },
+        {
+          "title": "2 Next Generation SRF Cavities Based on Advanced Coating\nTechnology for CW Accelerators",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              71.2705078125,
+              538.7242126464844
+            ],
+            [
+              539.700439453125,
+              538.7242126464844
+            ],
+            [
+              539.700439453125,
+              571.0024108886719
+            ],
+            [
+              71.2705078125,
+              571.0024108886719
+            ]
+          ]
+        },
+        {
+          "title": "3 Higher Gradients & High Q with Advanced Materials & Struc-\ntures",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              71.12109375,
+              568.4951629638672
+            ],
+            [
+              539.7290649414062,
+              568.4951629638672
+            ],
+            [
+              539.7290649414062,
+              600.7743530273438
+            ],
+            [
+              71.12109375,
+              600.7743530273438
+            ]
+          ]
+        },
+        {
+          "title": "4 Compact SRF Accelerators for Societal Applications",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              71.2705078125,
+              385.1551818847656
+            ],
+            [
+              467.96484375,
+              385.1551818847656
+            ],
+            [
+              467.96484375,
+              399.5013732910156
+            ],
+            [
+              71.2705078125,
+              399.5013732910156
+            ]
+          ]
+        },
+        {
+          "title": "5 SRF Thin Film Technology Research Thrusts",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              71.419921875,
+              365.2649841308594
+            ],
+            [
+              418.060546875,
+              365.2649841308594
+            ],
+            [
+              418.060546875,
+              379.6111755371094
+            ],
+            [
+              71.419921875,
+              379.6111755371094
+            ]
+          ]
+        },
+        {
+          "title": "5.1 Nb/Cu Technolgy",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              71.382568359375,
+              211.85772705078125
+            ],
+            [
+              208.1458282470703,
+              211.85772705078125
+            ],
+            [
+              208.1458282470703,
+              223.91015625
+            ],
+            [
+              71.382568359375,
+              223.91015625
+            ]
+          ]
+        },
+        {
+          "title": "5.2 Alternate superconducting materials on Nb or Cu substrates",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              71.12109375,
+              601.5668182373047
+            ],
+            [
+              461.39276123046875,
+              601.5668182373047
+            ],
+            [
+              461.39276123046875,
+              613.5220184326172
+            ],
+            [
+              71.12109375,
+              613.5220184326172
+            ]
+          ]
+        },
+        {
+          "title": "5.2.1 Nb3Sn and other A15 compounds",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              71.94287109375,
+              137.5462646484375
+            ],
+            [
+              295.26043701171875,
+              137.5462646484375
+            ],
+            [
+              295.26043701171875,
+              149.44927978515625
+            ],
+            [
+              71.94287109375,
+              149.44927978515625
+            ]
+          ]
+        },
+        {
+          "title": "5.2.2 MgB2",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              71.71875,
+              541.7894287109375
+            ],
+            [
+              141.67111206054688,
+              541.7894287109375
+            ],
+            [
+              141.67111206054688,
+              553.6924438476562
+            ],
+            [
+              71.71875,
+              553.6924438476562
+            ]
+          ]
+        },
+        {
+          "title": "5.3 superconductor-insulator-superconductor (SIS) nanometric layers",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              72.0,
+              123.57769775390625
+            ],
+            [
+              488.8828125,
+              123.57769775390625
+            ],
+            [
+              488.8828125,
+              135.53289794921875
+            ],
+            [
+              72.0,
+              135.53289794921875
+            ]
+          ]
+        },
+        {
+          "title": "6 Technology Development Paths",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              70.89697265625,
+              591.2042236328125
+            ],
+            [
+              318.2525634765625,
+              591.2042236328125
+            ],
+            [
+              318.2525634765625,
+              605.5504150390625
+            ],
+            [
+              70.89697265625,
+              605.5504150390625
+            ]
+          ]
+        },
+        {
+          "title": "6.1 Fundamental studies",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              71.49462890625,
+              73.5732421875
+            ],
+            [
+              225.31640625,
+              73.5732421875
+            ],
+            [
+              225.31640625,
+              85.658203125
+            ],
+            [
+              71.49462890625,
+              85.658203125
+            ]
+          ]
+        },
+        {
+          "title": "6.1.1 Theoretical and material studies",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              71.2705078125,
+              101.900390625
+            ],
+            [
+              289.1162109375,
+              101.900390625
+            ],
+            [
+              289.1162109375,
+              113.30859375
+            ],
+            [
+              71.2705078125,
+              113.30859375
+            ]
+          ]
+        },
+        {
+          "title": "6.1.2 Theoretical studies for multilayered structures",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              71.79345703125,
+              287.138671875
+            ],
+            [
+              366.662109375,
+              287.138671875
+            ],
+            [
+              366.662109375,
+              298.8893737792969
+            ],
+            [
+              71.79345703125,
+              298.8893737792969
+            ]
+          ]
+        },
+        {
+          "title": "6.2 Advanced coating technologies and SRF film structure developments",
+          "heading_level": null,
+          "page_id": 10,
+          "polygon": [
+            [
+              70.9716796875,
+              370.03076171875
+            ],
+            [
+              509.203125,
+              370.03076171875
+            ],
+            [
+              509.203125,
+              381.9859619140625
+            ],
+            [
+              70.9716796875,
+              381.9859619140625
+            ]
+          ]
+        },
+        {
+          "title": "6.2.1 Energetic condensation",
+          "heading_level": null,
+          "page_id": 10,
+          "polygon": [
+            [
+              71.19580078125,
+              562.0083618164062
+            ],
+            [
+              237.8671875,
+              562.0083618164062
+            ],
+            [
+              237.8671875,
+              573.1171875
+            ],
+            [
+              71.19580078125,
+              573.1171875
+            ]
+          ]
+        },
+        {
+          "title": "6.2.2 Atomic Layer Deposition (ALD)",
+          "heading_level": null,
+          "page_id": 11,
+          "polygon": [
+            [
+              71.34521484375,
+              451.05328369140625
+            ],
+            [
+              288.4474792480469,
+              451.05328369140625
+            ],
+            [
+              288.4474792480469,
+              462.515625
+            ],
+            [
+              71.34521484375,
+              462.515625
+            ]
+          ]
+        },
+        {
+          "title": "6.2.3 Hybrid deposition techniques",
+          "heading_level": null,
+          "page_id": 12,
+          "polygon": [
+            [
+              71.2705078125,
+              357.6473083496094
+            ],
+            [
+              271.4947204589844,
+              357.6473083496094
+            ],
+            [
+              271.4947204589844,
+              368.5564270019531
+            ],
+            [
+              71.2705078125,
+              368.5564270019531
+            ]
+          ]
+        },
+        {
+          "title": "6.2.4 Development of superconductor-insulator-superconductor (SIS) nanometric lay-\ners and associated cavity deposition methods to further enhance the perfor-\nmance of bulk Nb and Nb/Cu",
+          "heading_level": null,
+          "page_id": 13,
+          "polygon": [
+            [
+              71.419921875,
+              266.6893310546875
+            ],
+            [
+              542.2147827148438,
+              266.6893310546875
+            ],
+            [
+              542.2147827148438,
+              304.927734375
+            ],
+            [
+              71.419921875,
+              304.927734375
+            ]
+          ]
+        },
+        {
+          "title": "6.3 Improved cavity fabrication & preparation techniques",
+          "heading_level": null,
+          "page_id": 14,
+          "polygon": [
+            [
+              70.9716796875,
+              184.1727294921875
+            ],
+            [
+              419.5546875,
+              184.1727294921875
+            ],
+            [
+              419.5546875,
+              196.1279296875
+            ],
+            [
+              70.9716796875,
+              196.1279296875
+            ]
+          ]
+        },
+        {
+          "title": "6.3.1 Development of quality substrates",
+          "heading_level": null,
+          "page_id": 14,
+          "polygon": [
+            [
+              71.04638671875,
+              212.7852783203125
+            ],
+            [
+              299.126953125,
+              212.7852783203125
+            ],
+            [
+              299.126953125,
+              223.69439697265625
+            ],
+            [
+              71.04638671875,
+              223.69439697265625
+            ]
+          ]
+        },
+        {
+          "title": "6.3.2 Important considerations for substrates intended for alternative materials",
+          "heading_level": null,
+          "page_id": 14,
+          "polygon": [
+            [
+              71.2705078125,
+              553.9764251708984
+            ],
+            [
+              516.97265625,
+              553.9764251708984
+            ],
+            [
+              516.97265625,
+              564.8855285644531
+            ],
+            [
+              71.2705078125,
+              564.8855285644531
+            ]
+          ]
+        },
+        {
+          "title": "6.3.3 Novel Cooling Techniques",
+          "heading_level": null,
+          "page_id": 15,
+          "polygon": [
+            [
+              71.79345703125,
+              123.99725341796875
+            ],
+            [
+              254.302734375,
+              123.99725341796875
+            ],
+            [
+              254.302734375,
+              135.0615234375
+            ],
+            [
+              71.79345703125,
+              135.0615234375
+            ]
+          ]
+        },
+        {
+          "title": "6.4 Measurement platforms for relevant SRF film properties",
+          "heading_level": null,
+          "page_id": 15,
+          "polygon": [
+            [
+              71.5693359375,
+              363.5278015136719
+            ],
+            [
+              436.2890625,
+              363.5278015136719
+            ],
+            [
+              436.2890625,
+              375.4830017089844
+            ],
+            [
+              71.5693359375,
+              375.4830017089844
+            ]
+          ]
+        },
+        {
+          "title": "6.5 Cryomodule design optimization",
+          "heading_level": null,
+          "page_id": 16,
+          "polygon": [
+            [
+              70.9716796875,
+              483.9088439941406
+            ],
+            [
+              293.8646240234375,
+              483.9088439941406
+            ],
+            [
+              293.8646240234375,
+              496.16015625
+            ],
+            [
+              70.9716796875,
+              496.16015625
+            ]
+          ]
+        },
+        {
+          "title": "6.6 Improvement of accelerator ancillaries with advanced deposition techniques\n(HiPIMS Cu coated bellows, power couplers. . . )",
+          "heading_level": null,
+          "page_id": 17,
+          "polygon": [
+            [
+              71.2705078125,
+              73.61566162109375
+            ],
+            [
+              540.28125,
+              73.61566162109375
+            ],
+            [
+              540.28125,
+              99.51885986328125
+            ],
+            [
+              71.2705078125,
+              99.51885986328125
+            ]
+          ]
+        },
+        {
+          "title": "6.7 Preparation for industrialization",
+          "heading_level": null,
+          "page_id": 17,
+          "polygon": [
+            [
+              71.49462890625,
+              300.812744140625
+            ],
+            [
+              293.44921875,
+              300.812744140625
+            ],
+            [
+              293.44921875,
+              312.7679443359375
+            ],
+            [
+              71.49462890625,
+              312.7679443359375
+            ]
+          ]
+        },
+        {
+          "title": "7 R&D Roadmap for Next Generation SRF Thin Film Cavities",
+          "heading_level": null,
+          "page_id": 17,
+          "polygon": [
+            [
+              71.12109375,
+              483.78515625
+            ],
+            [
+              530.12109375,
+              483.78515625
+            ],
+            [
+              530.12109375,
+              498.2523498535156
+            ],
+            [
+              71.12109375,
+              498.2523498535156
+            ]
+          ]
+        },
+        {
+          "title": "7.1 Nb/Cu Technology",
+          "heading_level": null,
+          "page_id": 17,
+          "polygon": [
+            [
+              71.382568359375,
+              594.3877868652344
+            ],
+            [
+              214.86465454101562,
+              594.3877868652344
+            ],
+            [
+              214.86465454101562,
+              606.375
+            ],
+            [
+              71.382568359375,
+              606.375
+            ]
+          ]
+        },
+        {
+          "title": "7.2 Alternate superconductors",
+          "heading_level": null,
+          "page_id": 18,
+          "polygon": [
+            [
+              71.19580078125,
+              153.10064697265625
+            ],
+            [
+              260.876953125,
+              153.10064697265625
+            ],
+            [
+              260.876953125,
+              165.05584716796875
+            ],
+            [
+              71.19580078125,
+              165.05584716796875
+            ]
+          ]
+        },
+        {
+          "title": "7.3 Multilayered SIS structures",
+          "heading_level": null,
+          "page_id": 18,
+          "polygon": [
+            [
+              70.74755859375,
+              521.9997863769531
+            ],
+            [
+              265.3513488769531,
+              521.9997863769531
+            ],
+            [
+              265.3513488769531,
+              533.9549865722656
+            ],
+            [
+              70.74755859375,
+              533.9549865722656
+            ]
+          ]
+        },
+        {
+          "title": "7.4 Supporting Developments",
+          "heading_level": null,
+          "page_id": 19,
+          "polygon": [
+            [
+              71.34521484375,
+              556.48828125
+            ],
+            [
+              255.796875,
+              556.48828125
+            ],
+            [
+              255.796875,
+              568.86328125
+            ],
+            [
+              71.34521484375,
+              568.86328125
+            ]
+          ]
+        },
+        {
+          "title": "8 Synergies and Community Needs",
+          "heading_level": null,
+          "page_id": 20,
+          "polygon": [
+            [
+              71.94287109375,
+              71.74700927734375
+            ],
+            [
+              331.400390625,
+              71.74700927734375
+            ],
+            [
+              331.400390625,
+              86.38330078125
+            ],
+            [
+              71.94287109375,
+              86.38330078125
+            ]
+          ]
+        },
+        {
+          "title": "9 Conclusion and Recommendations",
+          "heading_level": null,
+          "page_id": 21,
+          "polygon": [
+            [
+              71.5693359375,
+              337.24017333984375
+            ],
+            [
+              340.06640625,
+              337.24017333984375
+            ],
+            [
+              340.06640625,
+              351.9140625
+            ],
+            [
+              71.5693359375,
+              351.9140625
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 22,
+          "polygon": [
+            [
+              70.710205078125,
+              236.2860107421875
+            ],
+            [
+              147.47532653808594,
+              236.2860107421875
+            ],
+            [
+              147.47532653808594,
+              250.63226318359375
+            ],
+            [
+              70.710205078125,
+              250.63226318359375
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              151
+            ],
+            [
+              "Line",
+              48
+            ],
+            [
+              "Text",
+              15
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              76
+            ],
+            [
+              "Line",
+              36
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              98
+            ],
+            [
+              "Line",
+              41
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              163
+            ],
+            [
+              "Line",
+              45
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              114
+            ],
+            [
+              "Line",
+              43
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              82
+            ],
+            [
+              "Line",
+              26
+            ],
+            [
+              "ListItem",
+              4
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              138
+            ],
+            [
+              "Line",
+              38
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "ListItem",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              176
+            ],
+            [
+              "Line",
+              41
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              155
+            ],
+            [
+              "Line",
+              40
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              185
+            ],
+            [
+              "Line",
+              39
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              118
+            ],
+            [
+              "Line",
+              36
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "ListItem",
+              5
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              120
+            ],
+            [
+              "Line",
+              42
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "ListItem",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              111
+            ],
+            [
+              "Line",
+              41
+            ],
+            [
+              "ListItem",
+              5
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              97
+            ],
+            [
+              "Line",
+              44
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 14,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              99
+            ],
+            [
+              "Line",
+              40
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "ListItem",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 15,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              113
+            ],
+            [
+              "Line",
+              42
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "ListItem",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 16,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              102
+            ],
+            [
+              "Line",
+              44
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 17,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              83
+            ],
+            [
+              "Line",
+              37
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "SectionHeader",
+              4
+            ],
+            [
+              "ListItem",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 18,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              110
+            ],
+            [
+              "Line",
+              33
+            ],
+            [
+              "ListItem",
+              11
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 19,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              40
+            ],
+            [
+              "Line",
+              16
+            ],
+            [
+              "ListItem",
+              4
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 20,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              87
+            ],
+            [
+              "Line",
+              40
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 21,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              90
+            ],
+            [
+              "Line",
+              41
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "ListItem",
+              4
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 22,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              101
+            ],
+            [
+              "Line",
+              37
+            ],
+            [
+              "ListItem",
+              13
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 23,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              123
+            ],
+            [
+              "Line",
+              39
+            ],
+            [
+              "ListItem",
+              16
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 24,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              112
+            ],
+            [
+              "Line",
+              39
+            ],
+            [
+              "ListItem",
+              16
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 25,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              131
+            ],
+            [
+              "Line",
+              37
+            ],
+            [
+              "ListItem",
+              19
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 26,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              110
+            ],
+            [
+              "Line",
+              39
+            ],
+            [
+              "ListItem",
+              17
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 27,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              108
+            ],
+            [
+              "Line",
+              38
+            ],
+            [
+              "ListItem",
+              15
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 28,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              25
+            ],
+            [
+              "Line",
+              10
+            ],
+            [
+              "ListItem",
+              4
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 29,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Next-Generation Superconducting RF Technology based on Advanced Thin Film Technologies and Innovative Materials for Accelerator Enhanced Performance and Energy Reach",
+    "authors": [
+      {
+        "authors_list": [
+          "Valente-Feliciano, A. -M.",
+          "Antoine, C.",
+          "Anlage, S.",
+          "Ciovati, G."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Superconducting RF is a key technology for future particle accelerators, now relying on advanced surfaces beyond bulk Nb for a leap in performance and efficiency. The SRF thin film strategy aims at transforming the current SRF technology by using highly functional materials, addressing all the necessary functions. The community is deploying efforts in three research thrusts to develop next-generation thin-film based cavities. Nb on Cu cavities are developed to perform as good as or better than bulk Nb at reduced cost and with better thermal stability. Recent results showing improved accelerating field and dramatically reduced Q slope show their potential for many applications. The second research thrust is to develop cavities coated with materials that can operate at higher temperatures or sustain higher fields. Proof of principle has been established for the merit of Nb3Sn for SRF application. Research is now needed to further exploit the material and reach its full potential with novel deposition techniques. The third line of research is to push SRF performance beyond the capabilities of the superconductors alone with multilayered coatings. In parallel, developments are needed to provide quality substrates, cooling schemes and cryomodule design tailored to thin film cavities. Recent results in these three research thrusts suggest that SRF thin film technologies are at the eve of a technological revolution. For them to mature, active community support and sustained funding are needed to address fundamental developments supporting material deposition techniques, surface and RF research, technical challenges associated with scaling and industrialization. With dedicated and sustained investment, next-generation thin-film based cavities will become a reality with high performance and efficiency, facilitating energy sustainable science while enabling higher luminosity, and higher energy.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2204.02536"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.2204.02536",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2022arXiv220402536V"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

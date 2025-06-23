@@ -1,0 +1,463 @@
+{
+  "id": "93d358edbf1ec1867e7fe7346ecafa4c",
+  "pdf_path": "apl/Superconductors/arXiv:cond-mat_0403755.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "## **Correlation of microwave surface impedance of MgB2 thin film with material parameters and a temperature niche for microwave applications**\n\n**B. B. Jin1), T. Dahm2), C. Iniotakis2), A.I. Gubin3), Eun-Mi Choi4), Hyun Jung Kim4), Sung-IK Lee4), W.N.Kang5), S.F.Wang6), Y.L.Zhou6), A. V. Pogrebnyakov7,8), J. M. Redwing 8), X.X.Xi7,8), N. Klein 1)** \n\n1) Institut für Schichten und Grenzflächen (ISG) and cni - Center of Nanoelectronic\n\nSystems for Information Technology, Forschungszentrum Jülich, 52425 Jülich, Germany\n\n2) Universität Tübingen, Institut für Theoretische Physik, Auf der Morgenstelle 14,\n\n72076 Tübingen, Germany\n\n3) Usikov Institute of Radiophysics and Electronics, NAS of Ukraine, 12 Acad. Proskura Str., 61085 Kharkov, Ukraine\n\n4) National Creative Research Initiative Center for Superconductivity, Department of Physics, Pohang University of Science and Technology, Pohang, 790-784, Korea\n\n5) Department of Physics, Pukyong National University, Pusan, 608-737, Korea\n\n6) Laboratory of Optical Physics, Institute of Physics, Chinese Academy of Sciences, Beijing, 100080, P. R. China\n\n7) Department of Physics, The Pennsylvania State University, University Park,\n\nPennsylvania 16802, USA\n\n8) Department of Material Science and Engineering, The Pennsylvania State University, University Park, Pennsylvania 16802, USA\n\n**PACS: 74.70.Ad, 74.25.Nf, 74.78.-w, 84.90.+a** \n\n## **Abstract**\n\n**Two issues related to the microwave surface impedance** *Zs* **of MgB2 thin film are discussed in this Letter, both being significant for potential microwave applications. At first, a correlation between** *Zs* **and** α **=** ξ**0/**A **was found, where** ξ*<sup>0</sup>* **is the coherence length, and** A **is the mean free path. The surface resistance** *Rs* **decreases with** α **at moderate and large values of** α **and saturates when** α **approaches one. The values of the penetration depth at zero temperature** λ**(0) for different films could be well fitted by** λ*L* **(1+**α**) 1/2, yielding a London penetration**  **depth** λ*<sup>L</sup>* **of 33.6 nm. The second issue is to find a temperature niche for possible microwave applications. Between 10K and 15K, our best MgB2 films possess the lowest** *Rs* **values compared with other superconductors such as NbN, Nb3Sn and the high-temperature superconductor YBa2Cu3O7-**δ**.** \n\nThe superconductor MgB2 has generated a great deal of interest because of its simple structure, its relatively high critical temperature (*Tc*) and a pronounced two-gap nature [1]-[4]. One of the potential applications of MgB2 are high-frequency devices. To some extend, the relevance of MgB2 can be elucidated by a systematic study of the microwave surface impedance [5]. In our previous work a sapphire resonator technique has been successfully employed to measure *Zs*=*Rs+j*ωµ*0*λ of MgB2 thin films at a frequency *f =*ω */*2 π = 18 GHz [6][7]. Here *Rs* is the microwave surface resistance, ω is the angular frequency, µ*0* is the free-space permeability, and λ is the penetration depth. In our present work we use the same method to investigate eight different MgB2 thin films of different quality prepared by chemical vapor deposition (CVD) with post-deposition annealing [8], pulsed laser deposition (PLD) with in - situ annealing [9], and in situ hybrid physical-chemical vapor deposition (HPCVD) [10] methods. The three films deposited on MgO substrates by the CVD method are randomly oriented with a thickness of about 600 nm. The three films deposited on Al2O3 by PLD are c-axis oriented with a thickness of about 400nm. The remaining two films are epitaxial films deposited by HPCVD on Al2O3 and SiC, respectively, with thickness values of about 100 nm (on Al2O3) and 300 nm (on SiC), respectively. *Tc* measurements show that all samples exhibit sharp transitions of the dc resistivity with a width of less than 0.3 K. For the sample on SiC, the highest *Tc* of 41.3 K was observed.\n\nFrom the measured temperature dependence of *Zs*, the quantities *Rs(T)*, λ*(0)*, ∆π*(0)* and ρ*0* were extracted according to a procedure described in Ref. [7] Here, ∆π*(0)* is the value of π-band energy gap at zero temperature. ρ*<sup>0</sup>*represents the dc resistivity right above *Tc* as being determined from the *Rs* according to skin effect theory. Since the residual surface resistance *Rres* (*Rres* = *Rs(T*→*0*) *)* of the MgB2 thin film is less than the resolution of *Rs* for our setup (about 50µΩ [6]), the measured *Rs(T)* represents just the change of *Rs* with temperature.\n\nFig.1 shows the ∆π*(0)* dependence on ρ*0*. It should be noticed that ∆π(0) roughly increases monotonically with ρ*<sup>0</sup>*. Qualitatively, this observation is likely to reflect the two-gap nature of *MgB2*: The increase of ρ*<sup>0</sup>*is accompanied by an increase of interband impurity scattering between the two bands, which results in a tendency to equalize the size of the two gaps. Thus, the small gap will increase with ρ*<sup>0</sup>*. In the inset of Fig. 1 we show ∆π*(0)/Tc0* as a function of *Tc/Tc0.* Here, *Tc0* is the *Tc* of the film on SiC, which is close to the clean limit.. The solid line shows the change of the small gap with *Tc* based on interband impurity scattering theory [11] assuming ∆π(0)/∆*σ*(0) = 0.28 (∆*<sup>σ</sup>*(0) is the value of the energy gap of the σ-band at zero temperature). Details of this analysis will be discussed in a later contribution.\n\nThe dependence of *Zs* on the material parameters λ*L, vF*, ∆π*(0)* and A or the two dimensionless quantities α *=* ξ*0/*A and γ*(*A*=*∞*) =* λ*L/*ξ*<sup>0</sup>* can be described within BCStheory[12]. Here, λ*<sup>L</sup>* is the London penetration depth, *vF* is the Fermi velocity, and A is the mean free path. Because our study is restricted to MgB2 samples only, γ is a constant, and only the *Zs* dependence on α is presented. Here we only consider the π-band coherence length. There is another coherence length corresponding to the σ band. However, we have found in our previous work the conductivity is dominated by the π band [7]. According to BCS theory ξ*0=*=*vF/*π∆π*(0)* [13], where = is Planck´s constant, *vF*  = 5.35×105 m/s is the Fermi velocity of the electrons in the π band [14]. The mean free path can be calculated from ρ*0* by *l* = *vF /* ρ*0*ω*p 2* ε*0*, where =ω*<sup>p</sup>*= 5.9 eV is the plasma energy [3] and ε*<sup>0</sup>* is free-space permittivity. From this analysis we found that the coherence length ξ*<sup>0</sup>* scatters between 43 and 53 nm, which agrees with the value of 49.6 nm determined by vortex imaging of single crystals [15]. Fig. 2 shows the *Rs* dependence on α at *T* = 15 K (solid) and 20 K (open). A monotonic increase can be found for large α values, which tends to saturate as α decreases. The 100 nm-thick epitaxial film on a sapphire substrate prepared by HPCVD deviates strongly from the general trend of the other samples. TEM analysis has demonstrated that there is a 30 - 40 nm thick nonsuperconducting layer between the Al2O3 substrate and MgB2 thin film [10], which is expected to have a large influence on the properties of very thin films.\n\nFig.3 shows the measured λ(0) as a function of α. According to the BCS model, λ*(0)* can be described by λ*L*(1+α) 1/2 [13]. The solid line represents the fit yielding λ*<sup>L</sup>* of 33.6 nm. The inset shows the λ(0) dependence on (1+α) 1/2, indicating a high level of confidence for the BCS model. The value of λ*<sup>L</sup>* determined by this analysis was found to be in excellent agreement with the plasma frequency used for band structure calculations [3]. This value also agrees roughly with the one obtained from microscopic calculations (=39.5 nm) in the clean limit[16].\n\nIn contrast to the observed λ(0) dependence on α, the observed *Rs* dependence on α is still not fully understood. In particular, the effect of the anomalous coherence peak [7] requires further studies.\n\nFor conventional s-wave superconductors such as Nb (*Tc* = 9.2K), NbN (*Tc* = 16K) and Nb3Sn (*Tc* = 18K) very low *Rs* values can be achieved at working temperatures much lower than *Tc*, because *Rs* is proportional to exp(-∆(*0*)/*kT*) for *T < Tc*/2. Above *Tc*/2, *Rs* increases even more rapidly. On the other hand, the high-temperature superconductor YBCO has a finite *Rs* value below a certain temperature and does not exhibit any exponential temperature dependence due to its d-wave nature [5]. Fig. 4 shows the temperature dependence of *Rs* below 20 K for the samples with the lowest *Rs* of each type of orientation. For comparison, the *Rs* values of high-quality epitaxial YBCO films deposited on LaAlO3 and r-cut sapphire, NbN and Nb3Sn films are also depicted [17][18][19]. One can easily see that MgB2 has the lowest *Rs* between 10 K and 15 K. From cryogenic cooling point of view, 10 to 15 K can make a big difference to 4 K, in particular with regard to cost and power efficiency of closed-cycle refrigerators.\n\nApart from very low *Rs*, the epitaxial film made by HPCVD on SiC has the highest *Tc*, the longest ξ*0* and the lowest λ(0). These parameters are of great importance for electronic application. The high *Tc* allows for high working temperatures, the large value of ξ*<sup>0</sup>* should make MgB2 favorable with regard to the possible realization of tunnel junctions. On the other hand, the low values of λ(0) indicate that a small layer thickness is sufficient for multilayer circuits and that kinetic inductance effects are rather small. Structural analysis has demonstrated that this particular film is composed of wellconnected grains and has a smooth surface. Hence, this technique offers great promise for MgB2 integrated circuits in the future with some potential to replace niobium.\n\nIn summary, our study clearly demonstrates a correlation between *Zs* and α in MgB2 films, if material parameters describing the π-band are used. A temperature niche for microwave applications was found to exist between about 10 K and 15 K, where MgB2 becomes competitive with other superconducting materials.\n\nThe authors thank Dr. R. Wördenweber for providing the *Rs* data of YBCO thin film. One of the authors (A.I. Gubin) is funded in part within the INTAS program by the European Union, which supports his research stay in Jülich. The work at Postech is supported by the Ministry of Science and Technology of Korea through the Creative Research Initiative Program. The work at Penn State is supported in part by ONR under grant Nos. N00014-00-1-0294 (Xi) and N0014-01-1-0006 (Redwing).\n\n## **References:**\n\n- [1] J. Nagamatsu, N.Nakagawa, T. Muranaka, Y.Zenitani and J.Akimitsu, *Nature* **410,** 63 (2001).\n- [2] J.Kortus, I.I.Mazin, K.D.Belashchenko, V.P.Antropov, and L.L.Boyer, *Phys. Rev. Lett.* 86, 4656 (2001)\n- [3] I. I. Mazin et al., *Phys. Rev. Lett.* 89, 107002(2002).\n- [4] T. Dahm and N. Schopohl, *Phys. Rev. Lett.* **91**, 017001 (2003)\n- [5] N. Klein, *Rep. Prog. Phys.* **65**, 1387(2002)\n- [6] N. Klein, N. Tellmann, H. Schulz, K. Urban, S.A.Wolf, and V.Z.Kresin, *Phys. Rev. Lett.,* **71**, 3355(1993).\n- [7] B. B. Jin et. al., *Phys. Rev. B* **66**, 104521 (2002), B.B. Jin et.al., *Phys. Rev. Lett.* **91**, 127006 (2003).\n- [8] S. F. Wang et.al., *Thin Solid Film* **443***,* 120(2003)\n- [9] W.N.Kang, Kim, H.-J., Choi,E.-M., Jung, C. U., Lee, S.-I. *Science* **292,** 1521- 1523(2001)\n- [10] Zeng, X.H. et al. *Nature Mater*. **1**,35-38(2002)\n- [11] Schopohl, N. and Scharnberg, K. *Solid State Commun*. **22**, 371 (1977); N. Schopohl, Diploma thesis, University of Hamburg (1977).\n- [12] J. Halbritter, *Z. Physik* **243**, 201(1971), *Z. Physik* **266**, 209(1974)\n- [13] Tinkham, M. \"*Introduction to superconductivity*\", 2nd ed. (McGraw-Hill, New York, 1996).\n- [14] Brinkman A et.al., *Phys. Rev. B*. **65,** 180517R(2002)\n- [15] Eskildsen et.al., *Phys. Rev. Lett.,* **89**, 187003(2002)\n- [16] A. A. Golubov, A. Brinkman, O. V. Dolgov, J. Kortus, and O. Jepsen, *Phys. Rev. B*. **66,** 054524(2002)\n- [17] B. Komiyama, Z. Wang and M.Tonouchi, *Appl. Phys. Lett.* **68,** 562(1996)\n- [18] M.A.Hein, \"*High-Temperature Superconductor Thin Films at Microwave Frequency*\" Springer Tracts of Modern Physics, vol. 155(Springer, Heidelberg 1999)\n- [19] J. Einfeld, P. Lahl, R. Kutzner, R. Wördenweber, G. Kästner, *Physica C*, **103**(2001)\n\n## **Figure Captions:**\n\nFig.1: The dependence of the π-band energy gap on resistivity of MgB2 thin films determined from Zs measurements. The inset shows the π-band energy gap ∆π*(0)/Tc0* as a function of *Tc/Tc0.* The solid line shows the dependence expected from interband impurity scattering in a two-gap superconductor.\n\nFig.2: The measured dependence of *Rs* on α = ξ0/A at 15 K (solid) and 20 K (open ).\n\nFig.3: Experimental dependence of λ(0) on α and a BCS fit yielding a London penetration depth λL of 33.6 nm. The inset clearly shows the linear relation between λ(0) and (1+ α) 1/2 .\n\nFig.4: Comparison of surface resistance of MgB2 with YBCO, NbN and Nb3Sn films. The *Rs* curves of MgB2 thin films represent the best *Rs* values for films of different crystalline orientations.\n\n![](_page_7_Figure_0.jpeg)\n\n**Fig.1** \n\n![](_page_7_Figure_2.jpeg)\n\n![](_page_7_Figure_3.jpeg)\n\n![](_page_8_Figure_0.jpeg)\n\n**Fig.3** \n\n![](_page_8_Figure_2.jpeg)\n\n**Fig.4**",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Correlation of microwave surface impedance of MgB2 thin film with \nmaterial parameters and a temperature niche for microwave \napplications",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              86.28662109375,
+              107.55706787109375
+            ],
+            [
+              511.07928466796875,
+              107.55706787109375
+            ],
+            [
+              511.07928466796875,
+              152.47357177734375
+            ],
+            [
+              86.28662109375,
+              152.47357177734375
+            ]
+          ]
+        },
+        {
+          "title": "Abstract",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              87.2308349609375,
+              549.6845703125
+            ],
+            [
+              133.8348846435547,
+              549.6845703125
+            ],
+            [
+              133.8348846435547,
+              562.0185546875
+            ],
+            [
+              87.2308349609375,
+              562.0185546875
+            ]
+          ]
+        },
+        {
+          "title": "References:",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              86.28662109375,
+              107.55706787109375
+            ],
+            [
+              158.9335174560547,
+              107.55706787109375
+            ],
+            [
+              158.9335174560547,
+              121.1524658203125
+            ],
+            [
+              86.28662109375,
+              121.1524658203125
+            ]
+          ]
+        },
+        {
+          "title": "Figure Captions:",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              86.86767578125,
+              107.55706787109375
+            ],
+            [
+              189.67408752441406,
+              107.55706787109375
+            ],
+            [
+              189.67408752441406,
+              121.1524658203125
+            ],
+            [
+              86.86767578125,
+              121.1524658203125
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              94
+            ],
+            [
+              "Line",
+              41
+            ],
+            [
+              "Text",
+              12
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              134
+            ],
+            [
+              "Line",
+              57
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              212
+            ],
+            [
+              "Line",
+              111
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              144
+            ],
+            [
+              "Line",
+              66
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              38
+            ],
+            [
+              "Line",
+              17
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              169
+            ],
+            [
+              "Line",
+              31
+            ],
+            [
+              "ListItem",
+              19
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              64
+            ],
+            [
+              "Line",
+              21
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              102
+            ],
+            [
+              "Line",
+              48
+            ],
+            [
+              "Figure",
+              3
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              97
+            ],
+            [
+              "Line",
+              46
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/gi-pMIlcIZCd1yZjFiY--A"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 9,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Correlation of microwave surface impedance of MgB_2 thin film with material parameters and a temperature niche for microwave applications",
+    "authors": [
+      {
+        "authors_list": [
+          "Jin, B. B.",
+          "Dahm, T.",
+          "Iniotakis, C.",
+          "Gubin, A. I.",
+          "Choi, Eun-Mi",
+          "Kim,"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Two issues related to the microwave surface impedance Z_s of MgB_2 thin film are discussed in this Letter, both being significant for potential microwave applications. At first, a correlation between Zs and Alpha = Xi/l was found, where Xi is the coherence length, and l is the mean free path. The surface resistance Rs decreases with Alpha at moderate and large values of Alpha and saturates when Alpha approaches one. The values of the penetration depth at zero temperature Lamda(0) for different films could be well fitted by Lamda_L (1+Alpha)^(1/2), yielding a London penetration depth Lamda_L of 33.6 nm. The second issue is to find a temperature niche for possible microwave applications. Between 10K and 15K, our best MgB_2 films possess the lowest Rs values compared with other superconductors such as NbN, Nb3Sn and the high-temperature superconductor YBCO.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:cond-mat/0403755"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.cond-mat/0403755",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2004cond.mat..3755J"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

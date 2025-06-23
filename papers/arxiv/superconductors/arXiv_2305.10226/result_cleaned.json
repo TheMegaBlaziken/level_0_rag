@@ -1,0 +1,677 @@
+{
+  "id": "f32288db049f1b0445ebd41947679f7e",
+  "pdf_path": "apl/Superconductors/arXiv:2305.10226.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **Improving Nb3Sn Cavity Performance Using Centrifugal Barrel Polishing**\n\nEric Viklund\n\n*Department of Materials Science and Engineering, Northwestern University and Fermi National Accelerator Laboratory*\n\nDavid N. Seidman *Department of Materials Science and Engineering, Northwestern University*\n\n> David Burk and Sam Posen *Fermi National Accelerator Laboratory*  (Dated: April 18, 2023)\n\nIn this study we will show a new method of polishing for Nb3Sn cavities known as centrifugal barrel polishing (CBP). Using this method, Nb3Sn coated samples are polished to a surface roughness comparable to a traditional Nb cavity after electropolishing (EP). We also investigate different methods of cleaning the Nb3Sn surface after CBP to remove residual abrasive particles. The polished Nb3Sn surface is analyzed using confocal laser microscopy, and scanning electron microscopy (SEM) is used to image the surface and measure the surface roughness after polishing. Transmission electron microscopy (TEM) is also used for high resolution analysis of the surface after polishing. Finally, we show that centrifugal barrel polishing can improve the performance of a Nb3Sn SRF cavity.\n\n## **I. INTRODUCTION**\n\nSuperconducting radiofrequency (SRF) cavities are an essential component of particle accelerators used in various fields of science and industry, including highenergy physics, material science, and medical applications. These cavities accelerate charged particles to very high energies and can achieve higher accelerating gradients than normal conducting cavities.\n\nThe performance of superconducting radio-frequency cavities is determined by the superconducting properties of the surface layer of the cavity. The low-temperature superconductor Nb3Sn has a higher superconducting transition temperature (Tc), 18 K compared to 9 K, and a higher super-heating magnetic field (Hsh), around 440 mT compared to 250 mT for the more commonly used niobium[1]. SRF cavities coated with a layer of Nb3Sn can, therefore, achieve a much higher accelerating field, up to 100 MV/m in theory, and have a lower surface resistance than niobium SRF cavities at higher temperatures allowing for cavity operation at 4 K instead of the standard 2 K operating temperature. These properties make Nb3Sn SRF cavities a promising research topic for future accelerators such as high-energy linacs or smallscale industrial accelerators.\n\nNb3Sn cavities are typically manufactured by coating a Nb cavity with a thin film of Nb3Sn using Sn vapor-diffusion, exposing a niobium cavity to tin vapor at 1,100 °C to create Nb3Sn. The reaction forms a 2-3 µm thick Nb3Sn film with grains approximately 1 µm large. The grains are faceted, and the grain boundaries are thermally etched, resulting in approximately 100-150 nm of surface roughness.\n\nUsing the Sn vapor-diffusion coating technique, Nb3Sn cavities have only been able to reach a maximum accelerating gradient of 24 MV/m[2], a result that was achieved\n\nusing a thinner Nb3Sn coating which is smoother than the typical coating. However, this result has not been reproducible and the performance is lower than the theoretical maximum of Nb3Sn cavities.\n\nSurface roughness is thought to be one of the limiting factors of Nb3Sn SRF cavity performance. Simulations of the magnetic field near a typical Nb3Sn surface show that the magnetic field is increased by up to 60 percent in some areas compared to a smooth surface[3] and could be higher for particularly rough areas. By reducing the field enhancement caused by surface roughness, a corresponding increase in the cavity accelerating gradient can be expected.\n\nOne method to achieve smoother Nb3Sn surfaces is polishing. Nb3Sn polishing has been a topic of study for some time. Chemical methods such as electropolishing (EP)[4–6], buffered chemical polishing (BCP)[5, 6], and oxy-polishing[4, 5] have been studied, but have failed to produce any meaningful improvement in surface roughness. The expected reason for this is that a large amount of material removal is required to produce a substantial smoothing effect when utilizing chemical methods. Electropolishing treatments for Nb typically remove between 5 µm and 10 µm of material to achieve a smooth surface depending on its initial roughness. This amount of material removal is infeasible for Nb3Sn films, since their thickness is only 2-3 µm. Additionally, niobium and Sn react differently to the chemicals used, which can lead to different removal rates for each element, thus changing the surface stoichiometry. Even a small change in the stoichiometry away from Nb3Sn can cause a decrease in Tc[7].\n\nCentrifugal barrel polishing (CBP) is another method used to polish SRF cavities, which utilizes an abrasive material to mechanically smooth the surface. This method has been used to repair surface damage and to attain a very smooth surface in Nb SRF cavities[8]. As\n\nof yet, only very limited attempts to apply this technique to Nb3Sn cavities have been made.\n\nIn this paper, we show a procedure for mechanically polishing Nb3Sn cavities using CBP. First, Nb3Sn coated samples are polished to determine the effectiveness of the CBP method and to determine the optimum polishing parameters such as tumbling duration and the abrasive material. The results of the sample experiments are used to decide the polishing parameters for a Nb3Sn coated, 1.3 GHz, TESLA geometry SRF cavity. The RF performance of the cavity is tested before and after the CBP treatment. Finally, the cavity is treated with a low temperature Sn coating process to repair the surface and the RF performance is once again tested.\n\n## **II. SAMPLE STUDY**\n\nSince Nb3Sn is a relatively unexplored material, there are no established polishing parameters or abrasive materials to achieve a good surface finish. To allow for rapid iteration and microscopy surface analysis, we first perform polishing experiments on Nb3Sn samples. To evaluate the performance of CBP, the surface roughness of the polished samples is measured using confocal laser microscopy and the surface is analyzed using scanning and transmission electron microscopy (SEM and TEM). The material removal rate is measured using focused ionbeam tomography.\n\n## **A. Centrifugal Barrel Polishing**\n\nCentrifugal Barrel Polishing (CBP) is a technique that was developed by Cooper and Cooley[8] as a method of polishing Nb cavities without using toxic chemicals such as HF. The technique uses a custom built tumbling machine that can fit up to 9-cell size 1.3 GHz cavities. When a cavity is mounted in the tumbling machine and filled with abrasive slurry, the rotating motion of the cavity accelerates the polishing media against the cavity surface with up to 6 g of force.\n\nThe abrasive material determines the removal rate and minimum surface roughness attainable using CBP. Largegrit material is used to remove material quickly and smooth out large defects like pits and scratches while fine-grit material is used to microscopically smooth the surface. The removal rate of different abrasive materials has been studied by Palczewski, et. al.[9]\n\nSince the roughness of as-coated Nb3Sn cavities is on the order of 100-200 nm, our experiments focus on using fine-grit materials. In this experiment, we use a colloidal nano-particle suspension as our abrasive material. 50 nm diameter alumina and 40 nm diameter silica nanoparticles suspended in water were tested, but we found no discernible difference between the two materials.\n\nThe nano-particle suspension was mixed with a large, soft material to act as a carrier. The purpose of the carrier material is to carry the nano-particles and to apply a force between them and the cavity surface. Two carrier materials were tested, 13 mm diameter wooden balls and 25 mm felt cubes.\n\n## **B. Coupon Cavity**\n\nTo test the centrifugal barrel polishing method on Nb3Sn samples in a realistic environment, we use a coupon cavity. This cavity has multiple ports where samples are mounted. The samples sit flush with the inside surface of the coupon cavity, as is shown in Fig. 1, where they experience identical polishing conditions to a real cavity surface. This allows for sample experiments that are representative of the final cavity polishing process. Using this method we inspect the Nb3Sn surface after polishing under a microscope to determine the best polishing parameters.\n\n![](_page_1_Figure_12.jpeg)\n\nFIG. 1. (A) A schematic of the coupon cavity and the sample holder used to polish the Nb3Sn coated samples. The sample holder can hold 1 cm diameter disks by clamping the sides of the sample with set screws. (B) Pictures of the sample holder sitting outside the coupon cavity with a sample mounted and as seen from the inside of the coupon cavity.\n\n## **C. Nb**3**Sn Coating Using Sn Vapor-Diffusion**\n\nThe Nb3Sn samples and Nb3Sn cavity used in this study were coated at Fermilab in a high-vacuum furnace. The coatings were created at 1,100 °C with a Sn crucible acting as the Sn source as well as SnCl<sup>2</sup> acting as a nucleating agent. A detailed review of the coating system at Fermilab shows the specific operating details of the coating system[10].\n\n#### **D. Surface Analysis of Mechanically Polished Nb**3**Sn Coated Samples**\n\nThe Nb3Sn samples were polished for different lengths of time ranging from 2 to 8 hours using the wooden spheres or the felt cubes as the carrier material. A height map of the polished samples is shown in Fig. 2. The smoothness of the samples clearly improves as longer polishing is applied.\n\nBy comparing the surface optical micrographs over time, it is clear that material is preferentially removed from the highest point on the surface, causing the sharp peaks on the surface to be removed quickly while valleys in the surface are left untouched. This is different from EP, which preferentially smooths areas with high curvature including both peaks and valleys. Due to this different smoothing mechanism, surface roughness is minimized when the thickness of materialremoved is equal to the height difference between the highest and lowest point on the surface, which is around 1 µm. This is confirmed by the sample experiments, after 8 hours of polishing only the deepest valleys of the initial coating remain.\n\nThe surface height maps are used to calculate the root mean square (RMS) surface roughness of the samples and is shown in Fig. 3. After 6 hours of polishing the surface roughness is comparable to the surface roughness of the well performing, thinly coated Nb3Sn coatings created at FNAL[2]. After 8 hours of polishing, the surface roughness is comparable to a typical Nb surface after EP. This level of smoothness has never been achieved for Nb3Sn cavities until now. At this level of surface roughness, the performance degradation caused by field enhancement due to surface roughness should be greatly reduced.\n\nThe thickness of the film is measured after polishing using FIB/SEM. Our measurements show that only a small amount of material is removed even after 8 hours of polishing. Samples polished using the felt media show an average removal rate of 170 nm/hour whereas the wooden media shows an average of 95 nm/hour removal rate. The starting thickness of the samples is between 3-3.5 µm. After 8 hours of polishing there is still over 1.5 µm of Nb3Sn left on the surface. To completely shield the Nb substrate from the RF fields only a few hundred nanometers of material are required, since the London penetration depth of Nb3Sn is approximately 100 nm[1].\n\nThe surface of the polished samples was analyzed using SEM and TEM to look for surface damage or chemical changes on the surface caused by the tumbling or cleaning process. As seen in Fig. 6 and Fig. 7, the Nb3Sn samples polished using wooden spheres were damaged resulting in microscopic scratches on the surface and a damaged layer consisting of a nanometer-scale disordered Nb3Sn layer. No surface damage was detected on samples polished using the felt cubes. Since the surface damage may negatively affect the cavity performance, the felt cubes are best to use for polishing Nb3Sn.\n\n![](_page_2_Figure_6.jpeg)\n\nFIG. 2. Surface height maps of Nb3Sn samples mechanically polished for different lengths of time ranging from 2 to 8 hours compared to the initial state of the Nb3Sn coating.\n\n## **III. POLISHING A NB**3**SN CAVITY USING CBP**\n\nGiven that CBP was able to produce a smooth surface on Nb3Sn samples, the next step is to apply the polishing to a Nb3Sn cavity. A Nb3Sn-coated cavity was polished using the felt cube polishing media with a 50 nm alumina abrasive particle suspension, chosen to avoid the risk of Si contamination in the coating furnace. The cav-\n\n![](_page_3_Figure_1.jpeg)\n\nFIG. 3. Surface roughness of Nb3Sn samples mechanically polished for different lengths of time calculated from the surface height maps (top). The power spectral density (PSD) of the surface profile after different amounts of tumbling as well as the PSD of electropolished Nb and a thinly coated Nb3Sn film (bottom).\n\nity was polished for 4 hours followed by high-pressure water rinsing and ultrasonic cleaning for 30 minutes to remove any residual abrasive material left by the polishing process. These parameters were chosen as a conservative estimate to minimize the possibility of removing the Nb3Sn film and allow for more material removal in the future while still providing a considerable improvement in surface roughness.\n\nVisual inspection of the cavity shows that the surface roughness was improved by the polishing procedure. The as-coated surface of the cavity has a matte finish, which is common on Nb3Sn-coated surfaces, and after the polishing the cavity has a shiny surface finish. This is indicative of the removal of microscopic surface roughness on the surface of the cavity.\n\n![](_page_3_Figure_5.jpeg)\n\nFIG. 4. The thickness of the Nb3Sn film after mechanically polished for different lengths of time using felt cubes or wooden spheres as the polishing media.\n\n![](_page_3_Figure_7.jpeg)\n\nFIG. 5. SEM micrographs of a Nb3Sn a thin coated sample (A), standard coated sample (B), a sample after polishing for 2 hours (C), and a sample after polishing for 6 hours (D).\n\n## **A. Low Temperature Recoating Procedure**\n\nAfter the Nb3Sn-coated cavity was polished using CBP, a secondary coating was applied, which we refer to as the recoating procedure. The purpose of this coating is to repair any surface damage caused by CBP or any subsurface defects, such as tin-deficient regions, that may have been exposed.\n\nThe recoating procedure was performed at 1,000 °C. This lower temperature was chosen to minimize any thermal etching of the surface, which could increase the surface roughness. No SnCl<sup>2</sup> was used as it is unnecessary to nucleate any Nb3Sn grains. One third of the normal amount of Sn was used during the coating, since no additional film growth is needed. The coating was performed at Fermilab using the coating furnace mentioned in Section II C.\n\n![](_page_4_Figure_0.jpeg)\n\nFIG. 6. SEM micrograph showing a Nb3Sn sample polished for 30 hours using wooden spheres and a colloidal abrasive suspension. Nb3Sn films polished using wooden spheres show microscopic scratches and cracks on the surface. A square hole is cut into the surface, visible in the top micrograph to expose a cross section of a crack. The cross section shows that the cracks penetrate deep into the film.\n\n## **B. SRF Cavity RF-Performance Testing**\n\nThe RF performance of the Nb3Sn-coated cavity was tested three times; first, in the as-coated state with no polishing applied; second, after the CBP treatment; lastly, after the recoating procedure. The performance was tested using the vertical test stand (VTS) at FNAL[11].\n\n## **C. Testing the Polished Nb**3**Sn SRF Cavity**\n\nThe as-coated performance of the cavity was poor compared to most other Nb3Sn cavities reaching an accelerating gradient of around 10 MV/m with a Q of 10<sup>10</sup> at 4.4 K. After the polishing is applied, the cavity exhibits Q-slope (the quality factor decreases with increasing accelerating field), and the maximum gradient was only 5 MV/m.\n\nAfter the cavity was treated with the recoating treatment, detailed in SectionIII A, the Q-slope is ameliorated and the maximum accelerating gradient increases to 15 MV/m. The quality factor of the cavity was also improved over the as-coated state at 2.0 K, but not at\n\n![](_page_4_Figure_7.jpeg)\n\nFIG. 7. TEM images of a Nb3Sn sample polished using wooden spheres (A) and felt cubes (B). The polishing procedure creates a 10 nm thick layer of disordered Nb3Sn on the sample polished with wooden spheres which is not present on the sample polished by felt cubes.\n\n4.4 K. Fig. 8 shows the performance of the cavity after each step.\n\n## **IV. DISCUSSION**\n\nUsing mechanical polishing, we are able to produce smooth Nb3Sn films with surface roughness less than 20 nm. This level of surface roughness has thus far been impossible to achieve using existing methods.[2, 4–6] We have also shown that this smoothing can be achieved with only a few hundred nanometers of material removal, much less than what would be required for chemical polishing methods.\n\nThis study also shows that mechanical polishing can be used to improve the performance of Nb3Sn cavities when\n\n![](_page_5_Figure_0.jpeg)\n\nFIG. 8. The RF performance of the Nb3Sn-coated SRF cavity before and after mechanically polished and after a recoating treatment. The residual resistance of the cavity is calculated from the 2.0 K measurements under the assumption that the BCS resistance is negligible at this temperature. We assume that the additional resistance measured at 4.4 K is entirely BCS resistance. These assumptions may be false if there are multiple Nb3Sn phases on the surface.\n\nused in conjunction with a recoating procedure. The immediate effect of polishing reduces the quality factor and accelerating gradient of the cavity. The cause of this performance degradation is not known, but could be due to subsurface defects exposed to the surface such as tindepleted regions[12]. In a previous study, we have shown that tin-depleted regions and regions where the film becomes very thin are common in tin vapor-diffusion coated samples[13].\n\nAnother possible cause for performance degradation is surface damage or contamination caused by the polishing process. Residual abrasive particles can be seen in the\n\nSEM images of the polished samples. Cleaning the surface removes most of the contamination, but there may still be some abrasive particles left on the surface, which could cause performance degradation. Surface damage such as cracks or scratches on the film could also degrade performance, although this seems unlikely as no surface damage was detected on the Nb3Sn samples polished with felt cubes. It is possible that the oxide that forms on the Nb3Sn surface after polishing is unfavorable for performance compared to the oxide that forms in the furnace after the coating process. More work is required to determine the cause of the performance degradation. After the recoating process was applied, the cavity performance was improved over the unpolished state. We theorize that the re-coating procedure eliminates the performance degradation by repairing any defects exposed to the surface by the polishing step. A short, lowtemperature coating is sufficient to diffuse more Sn into any exposed tin-depleted regions,repair small cracks, and return the surface oxide of the film to its as-coated state. However, it is difficult to determine the exact effects of the recoating without performing a thorough cutout analysis on the cavity. We plan to conduct studies in the future to determine the cause of the performance degradation after mechanical polishing and the effects of the recoating procedure on the Nb3Sn surface.\n\nDespite the improvement to surface roughness, the accelerating gradient of the mechanically polished cavity is still below that of the current record holding cavity.[2] This suggests that there are multiple mechanisms that contribute towards cavity quench with surface roughness being one of them. By using mechanical polishing to eliminate the effects of surface roughness on the cavity performance, we can isolate these other causes and study them individually. We plan to apply mechanical polishing to Nb3Sn cavities with better as-coated performance so that the differences between these cavities can be determined. Applying the polishing procedure to a well-performing cavity could potentially lead to a drastic increase in the maximum accelerating gradient of Nb3Sn cavities if the performance improvement shown in this paper can be applied to well performing as-coated cavities.\n\nThe ability to smooth the surface of the Nb3Sn cavities also opens opportunities to experiment with thicker coatings, which can then be polished for a longer duration to achieve a smoother surface. Future research will include a study on polishing thicker Nb3Sn coatings and analyzing the prevalence of defects in these films.\n\n## **V. CONCLUSION**\n\nThe work presented in this paper shows that centrifugal barrel polishing is a promising treatment for Nb3Sn cavities. Through a series of sample studies, we were able to develop a mechanical polishing procedure that can produce surface roughness that was previously unobtainable. We have found that it is possible to attain films with a surface roughness of 20 nm or lower.\n\nFurthermore, we have shown that this surface polishing technique can be used to improve the performance of Nb3Sn coated cavities when it is paired with a recoating step, which consists of a short, low-temperature Sn coating.\n\n- [1] D. B. Liarte, S. Posen, M. K. Transtrum, G. Catelani, M. Liepe, and J. P. Sethna, Theoretical estimates of maximum fields in superconducting resonant radio frequency cavities: stability theory, disorder, and laminates, Superconductor Science and Technology **30**, 033002 (2017).\n- [2] S. Posen, J. Lee, D. N. Seidman, A. Romanenko, B. Tennis, O. Melnychuk, and D. Sergatskov, Advances in nb3sn superconducting radiofrequency cavities towards first practical accelerator applications, Superconductor Science and Technology **34**, 025007 (2021).\n- [3] R. Porter, D. L. Hall, M. Liepe, J. Maniscalco, *et al.*, Surface roughness effect on the performance of nb3sn cavities, Proc. of LINAC 2016 (2016).\n- [4] U. Pudasaini, G. Eremeev, C. Reece, J. Tuggle, and M. Kelley, Studies of electropolishing and oxypolishing treated diffusion coated nb3sn surfaces, in *Proc. 9th Int. Particle Accelerator Conf.(IPAC'18), Vancouver, Canada* (2018) pp. 3954–3957.\n- [5] U. Pudasaini, G. Eremeev, C. E. Reece, J. Tuggle, and M. Kelley, Post-processing of nb3sn coated niobium, (2017).\n- [6] H. Hu, Reducing surface roughness of nb3sn through chemical polishing treatments, in *Conference on RF Superconductivity* (2019).\n- [7] N. S. Sitaraman, M. M. Kelley, R. D. Porter, M. U. Liepe, T. A. Arias, J. Carlson, A. R. Pack, M. K. Transtrum, and R. Sundararaman, Effect of the density of states at the fermi level on defect free energies and superconductivity: A case study of nb 3 sn, Physical Review B **103**,\n\n## **VI. ACKNOWLEDGEMENTS**\n\nThis manuscript has been authored by Fermi Research Alliance, LLC under Contract No. DE-AC02-07CH11359 with the U.S. Department of Energy, Office of Science, Office of High Energy Physics.\n\nThis work made use of the EPIC facility of Northwestern University's NUANCE Center, which has received support from the SHyNE Resource (NSF ECCS-2025633), the IIN, and Northwestern's MRSEC program (NSF DMR-1720139).\n\n115106 (2021).\n\n- [8] C. Cooper and L. Cooley, Mirror-smooth surfaces and repair of defects in superconducting rf cavities by mechanical polishing, Superconductor Science and Technology **26**, 015011 (2012).\n- [9] A. Palczewski, G. Ciovati, Y. Li, and R. Geng, *Exploration of material removal rate of SRF elliptical cavities as a function of media type and cavity shape on niobium and copper using centrifugal barrel polishing (CBP)*, Tech. Rep. (Thomas Jefferson National Accelerator Facility (TJNAF), Newport News, VA …, 2013).\n- [10] S. Posen and D. L. Hall, Nb3sn superconducting radiofrequency cavities: fabrication, results, properties, and prospects, Superconductor Science and Technology **30**, 033004 (2017).\n- [11] Y. Pischalnikov, R. Carcagno, F. Lewis, R. Nehring, R. Pilipenko, W. Schappert, *et al.*, Rf control and daq systems for the upgraded vertical test facility at fnal, (2014).\n- [12] J. Lee, S. Posen, Z. Mao, Y. Trenikhina, K. He, D. L. Hall, M. Liepe, and D. N. Seidman, Atomic-scale analyses of nb3sn on nb prepared by vapor diffusion for superconducting radiofrequency cavity applications: a correlative study, Superconductor Science and Technology **32**, 024001 (2018).\n- [13] E. Viklund, J. Lee, D. N. Seidman, and S. Posen, Threedimensional reconstruction of nb3sn films by focused ion beam cross sectional microscopy, IEEE Transactions on Applied Superconductivity , 1 (2023).",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Improving Nb3Sn Cavity Performance Using Centrifugal Barrel Polishing",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              90.84375,
+              52.958251953125
+            ],
+            [
+              524.7421875,
+              52.958251953125
+            ],
+            [
+              524.7421875,
+              65.480224609375
+            ],
+            [
+              90.84375,
+              65.480224609375
+            ]
+          ]
+        },
+        {
+          "title": "I. INTRODUCTION",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              124.013671875,
+              300.0541076660156
+            ],
+            [
+              227.71685791015625,
+              300.0541076660156
+            ],
+            [
+              227.71685791015625,
+              310.74969482421875
+            ],
+            [
+              124.013671875,
+              310.74969482421875
+            ]
+          ]
+        },
+        {
+          "title": "II. SAMPLE STUDY",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              122.3701171875,
+              237.714111328125
+            ],
+            [
+              228.12255859375,
+              237.714111328125
+            ],
+            [
+              228.12255859375,
+              248.40966796875
+            ],
+            [
+              122.3701171875,
+              248.40966796875
+            ]
+          ]
+        },
+        {
+          "title": "A. Centrifugal Barrel Polishing",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              101.0999984741211,
+              412.4881286621094
+            ],
+            [
+              251.7626953125,
+              412.4881286621094
+            ],
+            [
+              251.7626953125,
+              423.0532531738281
+            ],
+            [
+              101.0999984741211,
+              423.0532531738281
+            ]
+          ]
+        },
+        {
+          "title": "B. Coupon Cavity",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              392.958984375,
+              121.26812744140625
+            ],
+            [
+              482.8950500488281,
+              121.26812744140625
+            ],
+            [
+              482.8950500488281,
+              131.833251953125
+            ],
+            [
+              392.958984375,
+              131.833251953125
+            ]
+          ]
+        },
+        {
+          "title": "C. Nb3Sn Coating Using Sn Vapor-Diffusion",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              333.4599914550781,
+              619.4881439208984
+            ],
+            [
+              544.1537475585938,
+              619.4881439208984
+            ],
+            [
+              544.1537475585938,
+              630.0532379150391
+            ],
+            [
+              333.4599914550781,
+              630.0532379150391
+            ]
+          ]
+        },
+        {
+          "title": "D. Surface Analysis of Mechanically Polished \nNb3Sn Coated Samples",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              65.81689453125,
+              54.4281005859375
+            ],
+            [
+              284.51165771484375,
+              54.4281005859375
+            ],
+            [
+              284.51165771484375,
+              75.3134765625
+            ],
+            [
+              65.81689453125,
+              75.3134765625
+            ]
+          ]
+        },
+        {
+          "title": "III. POLISHING A NB3SN CAVITY USING CBP",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              316.7578125,
+              628.0941162109375
+            ],
+            [
+              559.40625,
+              628.0941162109375
+            ],
+            [
+              559.40625,
+              638.7897186279297
+            ],
+            [
+              316.7578125,
+              638.7897186279297
+            ]
+          ]
+        },
+        {
+          "title": "A. Low Temperature Recoating Procedure",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              337.376953125,
+              517.0681457519531
+            ],
+            [
+              539.863037109375,
+              517.0681457519531
+            ],
+            [
+              539.863037109375,
+              527.6332702636719
+            ],
+            [
+              337.376953125,
+              527.6332702636719
+            ]
+          ]
+        },
+        {
+          "title": "B. SRF Cavity RF-Performance Testing",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              80.60888671875,
+              439.6681213378906
+            ],
+            [
+              273.1133117675781,
+              439.6681213378906
+            ],
+            [
+              273.1133117675781,
+              450.2332458496094
+            ],
+            [
+              80.60888671875,
+              450.2332458496094
+            ]
+          ]
+        },
+        {
+          "title": "C. Testing the Polished Nb3Sn SRF Cavity",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              72.615234375,
+              560.6281433105469
+            ],
+            [
+              278.5078125,
+              560.6281433105469
+            ],
+            [
+              278.5078125,
+              571.1932373046875
+            ],
+            [
+              72.615234375,
+              571.1932373046875
+            ]
+          ]
+        },
+        {
+          "title": "IV. DISCUSSION",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              394.154296875,
+              583.214111328125
+            ],
+            [
+              483.02105712890625,
+              583.214111328125
+            ],
+            [
+              483.02105712890625,
+              593.9097137451172
+            ],
+            [
+              394.154296875,
+              593.9097137451172
+            ]
+          ]
+        },
+        {
+          "title": "V. CONCLUSION",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              391.166015625,
+              641.8341217041016
+            ],
+            [
+              483.802734375,
+              641.8341217041016
+            ],
+            [
+              483.802734375,
+              652.5297241210938
+            ],
+            [
+              391.166015625,
+              652.5297241210938
+            ]
+          ]
+        },
+        {
+          "title": "VI. ACKNOWLEDGEMENTS",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              362.1796875,
+              54.27410888671875
+            ],
+            [
+              513.38671875,
+              54.27410888671875
+            ],
+            [
+              513.38671875,
+              65.11376953125
+            ],
+            [
+              362.1796875,
+              65.11376953125
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              993
+            ],
+            [
+              "Line",
+              89
+            ],
+            [
+              "Text",
+              13
+            ],
+            [
+              "SectionHeader",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              886
+            ],
+            [
+              "Line",
+              83
+            ],
+            [
+              "Text",
+              10
+            ],
+            [
+              "SectionHeader",
+              4
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              708
+            ],
+            [
+              "Line",
+              67
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              459
+            ],
+            [
+              "Line",
+              44
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Figure",
+              3
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "FigureGroup",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              407
+            ],
+            [
+              "Line",
+              46
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              875
+            ],
+            [
+              "Line",
+              76
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              550
+            ],
+            [
+              "Line",
+              76
+            ],
+            [
+              "ListItem",
+              13
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/21UgsBjrAS9_LLDsO2hgJw"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 7,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Improving Nb<SUB>3</SUB>Sn cavity performance using centrifugal barrel polishing",
+    "authors": [
+      {
+        "authors_list": [
+          "Viklund, Eric",
+          "Seidman, David N.",
+          "Burk, David",
+          "Posen, Sam"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "In this study we will show a new method of polishing for Nb<SUB>3</SUB>Sn cavities known as centrifugal barrel polishing (CBP). Using this method, Nb<SUB>3</SUB>Sn coated samples are polished to a surface roughness comparable to a traditional Nb cavity after electropolishing. We also investigate different methods of cleaning the Nb<SUB>3</SUB>Sn surface after CBP to remove residual abrasive particles. The polished Nb<SUB>3</SUB>Sn surface is analyzed using confocal laser microscopy, and scanning electron microscopy is used to image the surface and measure the surface roughness after polishing. Transmission electron microscopy is also used for high resolution analysis of the surface after polishing. Finally, we show that CBP can improve the performance of a Nb<SUB>3</SUB>Sn superconducting radiofrequency cavity.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Superconductor Science Technology",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2305.10226"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1088/1361-6668/ad0b2d",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2024SuScT..37b5009V"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

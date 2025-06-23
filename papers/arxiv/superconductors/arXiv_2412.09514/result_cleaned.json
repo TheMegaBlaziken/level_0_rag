@@ -1,0 +1,1188 @@
+{
+  "id": "a4559ad6878513fe57db7644cbb3b7a7",
+  "pdf_path": "apl/Superconductors/arXiv:2412.09514.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **Influence of Nb Alloying on Nb Recrystallization and the Upper Critical Field of Nb3Sn**\n\nNawaraj Paudel<sup>1</sup> , Chiara Tarantini<sup>1</sup> , Shreyas Balachandran1,†, William L. Starch<sup>1</sup> ,\n\n> Peter J. Lee<sup>1</sup> , David C. Larbalestier1,\\*\n\n<sup>1</sup>*Applied Superconductivity Center, National High Magnetic Laboratory, Florida State University, Tallahassee, FL 32310, USA* †Now at Jefferson Laboratory, Newport News, VA 23606, USA\n\n(Received XXX; revised manuscript received xxx; accepted XXX; published xxx)\n\nNb3Sn conductors are important candidates for high-field magnets for particle accelerators, and they continue to be widely used for many laboratory and NMR magnets. However, the critical current density, *Jc*, of present Nb3Sn conductors declines swiftly above 12-15 T. Stateof-the-art Ta- and Ti-doped strands exhibit upper critical field, *Hc2*, values of ~ 24-26.5 T (4.2 K) and do not reach the FCC target *Jc*, which serves as the present stretch target for Nb3Sn development. As recently demonstrated, to meet this goal requires enhanced vortex pinning but an independent and supplementary approach is to significantly enhance *Hc2*. In this study, we have arc-melted multiple Nb alloys with added Hf, Zr, Ta and Ti and drawn them successfully into monofilament wires to investigate the possibilities of *Hc2* enhancement through alloying. *Hc2*(T) was measured for all samples in fields up to 16 T and some up to 31 T. We have found that all alloys show good agreement with the standard Werthamer, Helfand, and Hohenberg (WHH) fitting procedure without the need to adjust the paramagnetic limitation parameter (α) and spin-orbit scattering parameter (λso). The evaluation of *dHc2*/*d*T near *Tc*, which is proportional to the electronic specific heat coefficient γ and the normal state resistivity ρn, allows a better understanding of the induced disorder introduced by alloying in the A15 phase. So far, we have observed that Hf alloying of pure Nb can enhance *Hc2*(0) by 3-4 T to ~28 T, while adding just 1 at. %Hf or Zr into a Nb4Ta base alloy can raise *Hc2* (0) to ~31 T. Very importantly we find that Hf and Zr raise the alloy recrystallization temperature above the usual A15 reaction temperature range of 650°C – 750°C, thus ensuring denser A15 phase nucleation in the Nb alloy grain boundaries, possibly leading to a more homogeneous A15 phase Sn content and refined A15 grain size. The potential for further advancements in Nb3Sn properties is explored in relation to the recrystallization of the Nb alloy and the factors controlling the upper critical field.\n\nDOI: xxx\n\n#### **I. INTRODUCTION**\n\nAt present, most large superconducting magnet applications like the Large Hadron Collider (LHC) at CERN and Magnetic Resonance Imaging (MRI) systems use Nb-Ti, whose practical field limit is about 12 T. Another low temperature superconductor (LTS), long used for higher field laboratory solenoid magnets, is Nb3Sn. It is now being applied to accelerator dipoles, but such magnets demand the highest possible current density because their magnetic efficiency is approximately half that of solenoid magnets [1], a real challenge now that future accelerator goals for dipole magnets are well beyond 10 T (12-16 T). A recent four-layer Nb3Sn dipole magnet achieved 14 T [2] but getting to a 16 T dipole is quite impossible even with the latest generation of Internal-Tin (IT) RRP (Rod Re-stacked Process) wires manufactured by Bruker Energy & SuperconTechnologies Inc. (BEST) [3]. Nuclear magnetic resonance (NMR) requires solenoid magnets up to 23 T that require sub-2 K operation for maximum field. Significant efforts have been made to optimize the non-Cu critical current density (*Jc*) which is a key parameter for such Nb3Sn applications [4– 6], reaching *J<sup>c</sup>* (4.2 K, 16 T) values up to ~ 1,375 A/mm<sup>2</sup> , still below the FCC target *J<sup>c</sup>* of 1,500 A/mm<sup>2</sup> (4.2 K, 16 T). In Nb3Sn conductors, there exists a continuous tradeoff between maximizing the upper critical field (*Hc2*) and vortex pinning, which decides the critical current density (*Jc*) [7]. In Nb3Sn conductors, the reaction temperature increase results in larger grain sizes that lower vortex\n\n<sup>\\*</sup> Corresponding author[: larbalestier@asc.magnet.fsu.edu](mailto:larbalestier@asc.magnet.fsu.edu)\n\nfrequency) [14]. The presently used Ta- and Ti-doped high *J<sup>c</sup>* Nb3Sn conductors have *Tc, Hc2* values that appear to\n\npinning and current density (*Jc*) [8], but it does increase *Hc2*, reduce the transition breadth and raise the irreversibility field *Hirr* [9], which is beneficial for practical applications. To utilize Nb3Sn in the HiLumi Large Hadron Collider (LHC) upgrade, striking a good balance between maximizing the upper critical field and maximizing vortex pinning was necessary. To attain the best *Jc*(16 T) for the Future Circular Collider (FCC) will require a multifaceted improvement that will include maximizing *Hc2*, compositional uniformity, and enhancing GB pinning and/or \"artificial pinning\" (*i.e*. by oxide particles). Independently, the highest possible conversion to A15 phase formation from the so-called non-Cu package is needed too: the Nb alloy, the Sn source, any oxygen source for APC, and the diffusion barrier (DB) needed to protect the residual resistance ratio (RRR) of the stabilizing and protective copper of the conductor [6,7] must be optimized so that the highest possible crosssectional fraction of high *J<sup>c</sup>* A15 is formed. In short, the further development of Nb3Sn conductor technology is a complex optimization of often conflicting variables.\n\nAn underlying component of achieving the FCC goal is by maximizing *Hc2*. Orlando *et al.* observed that moderately increasing in Sn-deficient, binary Nb-Sn films raised 2 (0) to ~ 30 T, while also degrading *T<sup>c</sup>* to below 17 K, in strong contrast to 2 (0)~ 21 T for cleanlimit, stoichiometric Nb3Sn. Their study showed that \"dirty\", i.e. disordered, samples could possess higher *Hc2* even though being off-stoichiometric [10]. The inevitability of some Sn (and thus superconducting property) gradients in the A15 Nb3Sn layer of present conductors results from a Sn activity drop as the reaction nears completion. To optimize the amount of A15 in the non-Cu package the diffusion reaction of Sn into Nb alloy to form doped Nb3Sn effectively becomes an exhaustion reaction with low-Sn A15 compositions developing at the A15 reaction front during later stages of the reaction. An extensive study of these trade-offs for many reactions of binary and Nb4at.%Ta high-tin Powder-In-Tube (PIT) conductor was published by Godeke, Fischer *et al.* [9,11], which showed the way in which the compositional gradients produced by restricted reactions causes a marked lowering of the irreversibility field (*Hirr*) (defined by the bottom of the resistive field transition) without much affecting the top of the superconducting transition which defines *Hc2* [9]. This transition breadth is tied to the Sn gradient across the A15 layer. Earlier experiments showed that *Hc2*(0) varied almost linearly ~ 5 T per at% between 19.5 – 24 at% Sn while the critical transition temperature *T<sup>c</sup>* [12] also exhibited a linear dependence throughout the A15 phase (from 6 K at 18 at.%Sn to 18 K at stoichiometry) [13]. Beyond 24 at% Sn, *T*<sup>c</sup> and *Hc2* no longer follow a linear composition dependence due to the cubic-tetragonal phase transformation of the A15 lattice (lattice softening produces a lower phonon show a linear dependence on at.%Sn over the whole composition range [15] because the dopants suppress the martensitic transformation, shorten the electron mean free path and raise *Hc2*. To better understand these alloying effects, Suenaga *et al.* [16] doped Nb with Ta, Ti, Hf, Zr and demonstrated that *Hc2* was raised by ~3 T for additions of 4 at% Ta and 0.8 at% Ti. The alloying dependence of the residual resistivity shows that Ti is at least twice as effective as an A15 disordering agent as Ta [16], the increase in *Hc2* correlating well to increased normal state resistivity. In contrast to Ti and Ta, Zr by itself lowered *T*<sup>c</sup> [17]. Later, both Ta and Ti emerged into PIT and RRP wire technology and Ti-doping by insertion of occasional Nb47Ti filaments into RRP conductors, which then became the standard method of doping RRP conductors. Heald *et al.* and Tarantini *et al*. made an extended X-ray Absorption Fine Structure (EXAFS) study on Ta, Ti, Ta + Ti RRP standard wires and showed that Ta substitutes on both Nb and Sn sites, whereas Ti substitutes only on Nb sites [18,19]. The implication is that Ti, sitting only on Nb A15 lattice sites, is a more effective disordering agent than Ta sitting on both Sn and Nb sites. Commercially, Ta, Ti, and combined Ta + Ti dopants have been explored to improve the upper critical field *Hc2*, but a complication is that even the best state-of-the-art modern conductors show compositional gradients across the A15 layer that cause a separation between the onset of dissipation at the irreversibility field *H*irr (where *J<sup>c</sup>* becomes zero) and the full restoration of the normal state at *Hc2* [15]. Longer and higher temperatures, thus more complete, reactions move *H*irr closer to *Hc2*, which tends to be more insensitive to A15 reaction conditions [9]. We must therefore be concerned more about *H*irr than *Hc2* for conductor optimization [9,19]. Complications due to strain either due to the tetragonal phase transition or operational stresses are considered to be second order effects when the conductor architecture is kept constant, and minimization of strain is practiced as is the case in all the experiments reported here.\n\nTime of reaction may be of interest too for magnet builders and various studies have shown that different alloying element additions have effects on the A15 reaction rates, Ti for example producing faster reaction than Ta additions [20,21]. It has also been observed that Zn, Al, or Mg additions increase the rate of Nb3Sn formation, even if they do not dissolve into the Nb3Sn layer [22]. However, Ta, Hf, and Ga do dissolve into the A15 layer and thus can influence the intrinsic superconducting properties [17,22–25]. For instance, Ga and Hf additions to Nb3Sn have been reported to improve *Jc*(16 T) by one order of magnitude, *T*<sup>c</sup> by 1 K and upper critical field by 5 T with respect to binary Nb3Sn [26–28], though few studies showed good quality high field *Hc2* transitions, making it uncertain for a long time whether\n\n![](_page_2_Figure_2.jpeg)\n\nFIG. 1 (a) Light microscope image of a cross-section of an unreacted monofilament wire. In-house melted custom alloy rods were placed in the center of a Cu+Sn powder mixture fitted inside a commercial seam welded Ta-tube which was sheathed in a Cu-tube. (b) and (c) Typical FESEM-BSE cross-sections of reacted monofilament wires. The light contrast at the perimeter of the central alloy rods reveals the reacted layers.\n\nstudies of new alloys were justified or not. Only with the issuance of the FCC specification has the issue become so important that the optimum alloying of Nb3Sn deserves revisiting [29–32]. The precursor to this study was recent work in ASC-NHMFL and some other groups which shows that the addition of group IV (Hf, Zr) elements to Nb4at%Ta enhances *H*irr, although the addition of O<sup>2</sup> might slightly degrade it [29,30,32,33]. The best present\n\n![](_page_2_Figure_5.jpeg)\n\nFIG. 2 Vickers hardness as a function of EDS-determined alloy compositions. The Vickers hardness increases in all cases as the dopant addition increases.\n\nstate-of-the-art Ta- and Ti-doped RRP conductors show *Hc2*(4.2 K) values in the range 24 – 26.5 T. But, as noted above, the overall goal must always be to develop a high field conductor with the finest possible A15 grain size and minimum *H*irr – *Hc2* transition breadth. To this end, this paper focuses on the following issues:\n\n- 1) Developing a thorough understanding of how the upper critical field of Nb3Sn evolves as it is doped with elements such as Ta, Hf, Zr, Ti and Ga that enter the A15 phase. We used our arc-melter to make Nb alloys of many compositions and then reacted them by diffusion reaction with Cu-Sn and Cu-Ga-Sn mixtures.\n- 2) Sekine *et al*. reported that additions of Hf, and Ga and Hf together significantly enhanced the *Hc2* of Nb3Sn conductors [27]. Accordingly, we restudied the effect of adding Hf to Nb (with Ga added to the Cu-Sn mixture), but also investigated the Hf-Ga effectiveness when combined with the NbTa alloy, which by itself leads to a higher Nb3Sn *Hc2* with respect to the use of pure Nb. This more complex alloy (NbTaHf) is in fact a candidate for the realization of new high field conductors.\n- 3) With present Ti and Ta-doped Nb, *Hc2*(0) can be increased from 25–27 T to less than 30 T [9,15,18]. Because these enhancements are relatively small, we made careful measurements of *Hc2*(T) for all our alloys and investigated whether the *Hc2* enhancement requires consideration of paramagnetic limiting or spinorbit scattering effects, finding that they do not. We show that our optimum addition of both Ta\n\n![](_page_3_Figure_1.jpeg)\n\nFIG. 3 Vicker hardness after 3 hour anneals at the stated heat treatment (HT) temperatures used to study the recrystallization\n\nbehavior of Nb4Ta and Nb4Hf. It is clear that Hf significantly delays recrystallization as compared to the equivalent Nb-Ta alloy.\n\nand Hf increases *Hc2*(0) to over 30 T.\n\n4) Because A15 grain refinement is critical to enhancing vortex pinning, we studied the effect of alloying on the stability of the cold-worked alloy grain structures, finding that both Zr and Hf are effective in inhibiting recovery and recrystallization of the Nb-alloy to above the normal A15 reaction temperature range [30,32,33].\n\n#### **II. EXPERIMENTAL METHODS**\n\nWe arc-melted custom alloys by using commercial Nb*x*Ta (*x*=0,2,4at.%) base alloys and adding Hf, Zr, Ti by themselves or in combination. All Nb alloys are referred to by the commonly used notation specifying the at% of their dopant(s) (e.g. Nb2Ta2Hf is the alloy made with 96 at% Nb, 2 at% Ta and 2 at% Hf) unless otherwise specified. Our in-house, arc-melter was used to produce batches of ~35 g ingots. Loss of material during the melting process was negligible (< 0.2 g).\n\nVickers hardness tests, SQUID magnetometer characterizations, and SEM analyses were conducted on the as-cast Nb-alloys to evaluate their quality before they were drawn into wires. All alloys had a high *T<sup>c</sup>* onset ( 9 K) and sharp transitions ( 0.25 K). Our wire design, consisted in surrounding a Nb-alloy core rod with Cu+Sn(+Ga) powder, and then further cladding with a composite Ta/Cu tube as in [32], as depicted in Figure 1. The central alloy rod was swaged from the irregular arcmelted billet to a 3 mm diameter, 400 mm long rod. The Cu-Sn powders used had an initial mesh size of 320\n\n![](_page_3_Figure_10.jpeg)\n\nFIG. 4 Microstructural evolution of Nb4Hf from (a) 700 °C for 3 h, (b) 750 °C for 3 h, (c) 800 °C for 3 h, and (d) 1000 °C for 3 h (FESEM-BSE images). The annealing of Nb4Hf have little effect on grain size even up to 800 °C and grain growth is only visible at an annealing temperature of 1000 °C.\n\n(~50 µm) and were mixed in a 6:5 atomic ratio. The initial package was drawn to a final wire diameter of 2 mm. The total true strain () is determined by the cross-sectional area reduction, = ln(A0/Af), where A<sup>0</sup> is the initial area, and A<sup>f</sup> is the final area.\n\nTo determine the Vickers hardness of the as-cast alloy and its correlation with the true drawing strain, all arcmelted ingots were swaged using a 20% reduction in area and samples were taken every 2-3 passes. The Vickers hardness was measured on metallographically polished transverse sections using a 300 g load. The SQUID magnetometer measurements from 4.0 K − 12.0 K were taken on the alloys showing transition width of typically less than 0.3 K. The monofilament testbeds were made with Cu+Sn and Cu+Sn+Ga powders. The starting composition of Cu+Sn powder was Cu45at%Sn (Cu6Sn<sup>5</sup> equivalent), whereas the used Cu+Sn+Ga powder mixes were Cu25at%Sn20at%Ga and Cu30at%Sn2at%Ga. The monofilament testbeds were drawn to a filament diameter of 2 mm followed by a two-step heat treatment. A 550 °C hold was previously chosen to decompose SnO<sup>2</sup> in wires containing it, however it is also used in this paper for direct comparison to the results obtained earlier on Hf/Zr/Ta doped samples using the same heat treatment schedule [32,34]. A second step ranging between 650 °C and 850 °C was used for the A15 reactions. Prior to transport measurements the external Cu was etched away, and the Ta tube cut open to extract the central alloyed-Nb rod surrounded by the A15 layer on which the contacts were made. Resistive transport characterizations to determine *Hc2*(T) were performed in our 16 T Quantum\n\n![](_page_4_Figure_2.jpeg)\n\nFIG. 5 Representative FESEM-BSE images of the Nb-alloy core/Nb3Sn interface after the monofilaments were reacted at 550 °C/50h + 750 °C/50 h. The darker Nb-alloy cores are on the right and the lighter A15 diffusion layers are on the left of the interface (sample IDs are indicated in the top right corner of each image). Electron channeling contrast in the corresponding images reveals recrystallized microstructures in the unreacted Nb*x*Ta(*x*=2,4), Nb0.8Ti, and Nb4Ta0.8Ti alloys. In contrast, the Nb2Ta2Hf and Nb2Ta2Zr alloys retain a deformed, coldworked grain structure.\n\nDesign PPMS and some wires were measured up to 31 T at the National High Magnetic Field Laboratory (NHMFL). A Zeiss 1540 EsB field-emission scanning electron microscope (FESEM) was used to evaluate the microstructures on transverse wire cross-sections prepared by metallographic polishing. The samples were imaged with a solid-state back-scattered electron (BSE) detector, and energy dispersive X-ray spectroscopy (EDS) was used to study the elemental compositions of the as-cast alloys and their A15 layers. In the following we will identify the doped Nb3Sn samples according to their at.% doping content only (e.g. 4Ta1Hf is the doped Nb3Sn wire made with the Nb4Ta1Hf alloy).\n\n![](_page_4_Figure_5.jpeg)\n\nFIG. 6 (a) The traces of resistance against temperature using temperature sweeps at constant field from 0 – 16 T in our 16 T PPMS for Nb4Ta1Hf reacted at 550 °C/50h + 650 °C/200 h; (b) At bottom we show the experimental *Hc2*(T) values and their WHH fits in PPMS-16T and NHMFL 31T.\n\n#### **III. RESULTS**\n\n# **A. Recrystallization and microstructural characterizations**\n\nThe Vickers hardness H<sup>V</sup> was used to evaluate the potential wire fabricability and its response to heat treatment in the A15 reaction window. H<sup>v</sup> versus alloy content and type is shown in Figure 2. All alloys in both the as-cast and worked states were hardened by additions of Ta, Zr and Hf. Consistent with their size difference, the larger Hf and Zr atoms hardened the Nb more strongly than Ta, but this did not make the alloys challenging to draw. The increase in hardness with increasing Hf, Zr and Ta solute in the binary/ternary alloys is linear with the total percentage of addition in all cases. A comparison of the recrystallization behaviour of Nb4Hf and Nb4Ta after 3 hour anneals at different temperatures is presented in Figure 3, which clearly shows that H<sup>V</sup> starts to decline above about 400 °C for Nb4Ta but also that this is delayed to 650-700 °C for the Nb4Hf alloy. The initial recovery processes occurring within the grains shown in Figure 4 have little effect on grain size even up to 800 °C and real grain growth for the Nb4Hf alloy is only visible in the sample annealed at 1000 °C, which is consistent with the hardness change behaviour shown in Figure 3. We also see some high atomic number (light) precipitates in the recrystallized structure (Fig. 4(d)), which the SEM-EDS analysis shows to be Hf-rich; those are more evident after the high-temperature heat treatment. FESEM-BSE imaging revealed both the Nb3Sn A15 layer and the partly annealed alloy structure in the unreacted cores in Figure 5. The evident recrystallization of the Nb2Ta, Nb4Ta, Nb0.8Ti, and Nb4Ta0.8Ti alloy cores is highlighted by channelling contrast in the BSE images. In contrast, the Hf and Zr alloyed (Nb2Ta2Hf, Nb2Ta2Zr) core rods retain their worked structure, even after A15 reactions at 550 °C/50h + 750 °C/50 h.\n\n## **B.** *Hc2***(T) and its analysis**\n\nSmall current (~10 mA), resistive transport characterizations, R(T,H), to determine *Hc2*(T) were performed with contacts on the bare Nb3Sn layers on all the reacted wires in the 16 T PPMS using temperature sweeps over the range 1.9 K- 22 K. Some wires were also measured in higher fields in the 31 T resistive magnet at the NHMFL using constant-temperature field sweeps in the range 0 – 31 T. Typical resistive transition traces using temperature sweeps at constant field are shown in Figure 6a for a 4Ta1Hf wire (the normal state magnetoresistance originates in the residual unreacted Nb alloy, not the A15 layer). *Hc2*(T) was evaluated at 90% of the normal state resistance for both PPMS-16 T and 31 T data sets (two pieces of the same wire were used). The data in Figure 6b is fitted by the full WHH relation [35]:\n\n$$\\begin{split} \\ln \\frac{1}{t} &= \\left(\\frac{1}{2} + \\frac{i\\lambda\\_{so}}{4\\chi}\\right) \\psi \\left(\\frac{1}{2} + \\frac{\\bar{h} + \\frac{1}{2}\\lambda\\_{so} + i\\chi}{2t}\\right) + \\\\ &+ \\left(\\frac{1}{2} - \\frac{i\\lambda\\_{so}}{4\\chi}\\right) \\psi \\left(\\frac{1}{2} + \\frac{\\bar{h} + \\frac{1}{2}\\lambda\\_{so} - i\\chi}{2t}\\right) - \\psi \\left(\\frac{1}{2}\\right) \\\\ \\text{(where} \\quad \\chi = \\left[\\left(a\\bar{h}\\right)^2 - \\left(\\frac{1}{2}\\lambda\\_{so}\\right)^2\\right], \\quad t = \\frac{r}{r\\_c}, \\quad \\bar{h} = 1 \\end{split}$$\n\n4 2() 2 | 2 <sup>|</sup> and being the digamma functions) and they\n\nare well reproduced with the paramagnetic limitation parameter () and a spin-orbit scattering parameter *so*) both set to 0. This implies that the Nb3Sn data can be fitted with the reduced <sup>1</sup> = ( 1 2 + ℎ̅ 2 ) − ( 1 2 ) relation. In the following data discussions, the parameters derived from the WHH fits are marked with \"WHH\" superscript (e.g. ). The WHH theory predicts that for a=0 and *so* =0, the 0 K limit is given by the relation 2 (0)~0.693 | 2 <sup>|</sup> . This simpler expression instead of the full WHH fit has been widely used to estimate *Hc2*(0) values of many superconductors since all it requires\n\nTABLE I. A15 superconducting parameters for samples reacted at 550 °C/100h + 670 °C/100h and 550 °C/50h + 750 °C/50h (experimental and fitting parameter errors are typically defined by the last indicated digit).\n\n| Sample ID     | 𝑇𝑐,𝑒𝑥𝑝.<br>[𝐾] |          | 𝑊𝐻𝐻[𝐾]<br>𝑇𝑐 |        | 𝑊𝐻𝐻(0)[𝑇]<br>𝜇0𝐻𝑐2 |          | 𝑊𝐻𝐻(0)<br>𝑑𝐻𝑐2<br>𝑇<br>𝜇0<br> <br> <br>[<br>]<br>𝑑𝑇<br>𝐾<br>𝑇𝑐 |          |\n|---------------|----------------|----------|--------------|--------|--------------------|----------|----------------------------------------------------------------|----------|\n|               | 670 °C         | 750 °C / | 670 °C /     | 750 °C | 670 °C /           | 750 °C / | 670 °C /                                                       | 750 °C / |\n|               | / 100h         | 50h      | 100h         | / 50h  | 100h               | 50h      | 100h                                                           | 50h      |\n| 4Ta           | 17.31          | 17.72    | 17.24        | 17.40  | 29.0               | 28.9     | 2.43                                                           | 2.40     |\n| 2Ta           | 17.61          | 18.15    | 17.49        | 17.86  | 28.2               | 28.5     | 2.33                                                           | 2.31     |\n| 4Ta1Hf        | 17.18          | 17.77    | 17.19        | 17.59  | 30.2               | 29.2     | 2.54                                                           | 2.40     |\n| 4Ta2Hf        | 17.57          | ----     | 17.46        | ----   | 29.7               | ----     | 2.46                                                           | ----     |\n| 2Ta1Hf        | 16.96          | 17.87    | 16.99        | 17.69  | 28.3               | 28.8     | 2.40                                                           | 2.35     |\n| 2Ta2Hf        | 17.32          | 18.08    | 17.30        | 17.81  | 29.4               | 28.9     | 2.45                                                           | 2.34     |\n| 4Ta1Zr        | 17.44          | ----     | 17.36        | ----   | 30.0               | ----     | 2.49                                                           | ----     |\n| 2Ta1Zr        | 16.99          | 17.72    | 16.98        | 17.53  | 27.9               | 27.9     | 2.37                                                           | 2.30     |\n| 2Ta2Zr        | 17.35          | 17.85    | 17.35        | 17.69  | 29.3               | 28.7     | 2.44                                                           | 2.34     |\n| 2Ta0.5Hf0.5Zr | 17.24          | 17.81    | 17.23        | 17.62  | 29.2               | 28.7     | 2.45                                                           | 2.35     |\n| 2Ta1Hf1Zr     | 17.20          | 17.94    | 17.27        | 17.73  | 29.0               | 28.6     | 2.42                                                           | 2.33     |\n| 1Hf           | 17.17          | 17.75    | 17.11        | 17.52  | 27.9               | 27.2     | 2.35                                                           | 2.24     |\n| 3Hf           | 17.38          | 18.03    | 17.34        | 17.66  | 27.4               | 26.9     | 2.28                                                           | 2.20     |\n| 5Hf           | 17.49          | 17.85    | 17.41        | 17.51  | 28.0               | 26.1     | 2.32                                                           | 2.15     |\n| 0.8Ti         | 17.67          | ----     | 17.52        | ----   | 26.8               | ----     | 2.21                                                           | ----     |\n| 0.8Ti4Ta      | 17.34          | ----     | 17.22        | ----   | 27.7               | ----     | 2.32                                                           | ----     |\n| 0.8Ti1Hf      | 17.10          | ----     | 17.03        | ----   | 26.8               | ----     | 2.27                                                           | -----    |\n\n![](_page_6_Figure_1.jpeg)\n\nFIG. 7 *T<sup>c</sup>* evaluated by the WHH fits for alloyed A15 samples reacted at 550 °C/100 h + 670 °C/100 h (top row) and at 550 °C/50 h + 750 °C/50 h (bottom row) as a function of the amount of dopant(s). For clarity the data has been organized into 3 columns (a-b, cd, and e-f) of alloy sets with relevant fixed versus variable element concentrations. As explained in the text the labels refer to the total at.% of dopant(s) in the unreacted Nb alloys. It is immediately obvious that the trends are not the same at the two reaction temperatures.\n\nis to measure the *Hc2* slope in the higher-temperature, lower-field limit. There are, however, some experimental concerns when numerically accurate predictions are needed. Many samples have compositional variations for various reasons, as is the present case, because Nb3Sn is not a line compound and, when made by diffusion, as here, composition gradients are always present. Because of the different dependences of *T<sup>c</sup>* and *Hc2* on composition, this may lead to non-WHH *Hc2* behaviour near *Tc*. Since we have to take this into account to analyse our data, we explain in detail what causes these possible anomalies and the method we used to analyse our *Hc2* data within the WHH framework.\n\nIn inhomogeneous, varying composition samples both a *T<sup>c</sup>* and an *Hc2* distribution result. Since typically the sample fraction with the highest *T<sup>c</sup>* is closer to stoichiometry, it does not necessarily produce the highest *Hc2* at the lowest temperature. The result is thus a crossover in the *Hc2*(T) trends of different portions of the A15 layer, which may produce a mild upward curvature near *Tc*, instead of a completely linear *Hc2*(T). An *Hc2* slope determined in this upturn region would inevitably underestimate the *Hc2* slope of the sample fraction that generates the highest lowtemperature *Hc2*, so we did not use this approach. Moreover, properly evaluating the *Hc2* slope near *T<sup>c</sup>* is also difficult for homogeneous sample. In fact, according to the WHH relation, a linear fit of a range above *t=*0.9 causes an underestimation of the slope of ~2%, which increases at ~4% if fitted above *t=*0.8. For these reasons, to exclude a possible effect of an upward curvature near *Tc*, we prefer to analyse our *Hc2*(T) results with the WHH fits but only on data at 0H 2 T. The correctness of this approach is confirmed by both the quality of the fits and the closeness of the fitting parameter to the experimentally evaluated *Tc*,exp, reported in Table 1. As expected, is within the experimental error of *Tc*,exp or only slightly smaller, indicating minor inhomogeneity in only a few samples. As presented below, from the WHH fits we determine the essential parameters and |2 ⁄| (or equivalently 2 (0)). The value of determining and comparing the *Hc2* slopes, which is a convolution of and *<sup>n</sup>*, will be discussed in section 4.\n\n![](_page_7_Figure_2.jpeg)\n\nFIG. 8 *Hc2* slope evaluated by the WHH fits for alloyed A15 samples reacted at 550 °C/100 h + 670 °C/100 h (top row) and at 550 °C/50 h + 750 °C/50 h (bottom row) as a function of the amount of dopant(s). The same alloy sets as used for the a-b, c-d and de columns in Fig. 7 are used for the column sets here. As explained in the text the labels refer to the at.% of dopant(s) in the unreacted Nb alloys.\n\n## *1. Effects of alloy dopants*\n\nTo better understand how the dopants affect the different properties, we plotted in Figure 7 the *T<sup>c</sup>* data as a function of the total percentage of dopants in the unreacted alloys and for clarity we separated the different trends into multiple panels: the data in the top panels are for an A15 reaction at 670 °C, whereas those in the bottom row are obtained after a 750 °C reaction. The left panels show the effect of Hf by itself or with fixed Ti, and the effect of Ti at fixed Ta. The middle panels report the effect of Ta by itself or when added to a fixed amount of Hf or Zr. The right panels represent the effect of Hf, Zr or a combination of the two when added to a fixed amount of Ta. Equivalent data for the slope of 2 and 2 (0), described in the following are reported similarly in Figures 8 and 9. The effects of dopants on are quite complex and not always monotonic, but a general feature is that increase with increasing the reaction temperature; the maximum difference (0.7 K) is observed in the 2Ta1Hf case.\n\nAdding Hf to Ti is clearly detrimental (Fig. 7a), whereas adding Hf by itself has a peculiar effect. With only 1%Hf\n\n8\n\n is clearly depressed from the typical ~18 K of the binary Nb3Sn, but it recovers at higher Hf level for the 670 °C heat treatment (Fig.7a); is higher and nonmonotonic at 750 °C (Fig. 7b). In our sample we also observed a decrease of with increasing the Ta content by itself from 2 to 4 % (Figs.7c-d), whereas increasing Ta in combination with a fixed amount of Hf or Zr is beneficial to or causes small suppression (Figs.7c-d); none of these double-doped wires have however a better *T<sup>c</sup>* of the 2Ta wire. A very interesting trend is observed when increasing the Hf, Zr or Hf-Zr content in the presence of a fixed amount of Ta (Figs.7ef). In almost all cases (with the exception of 4Ta/4Ta1Hf at 750 °C) the trends show a V-shape: in fact, the good observed for *x*Ta is reduced by adding 1% of other dopants to Ta (i.e. 2Ta1Hf, 4Ta1Hf at 670 °C only, 2Ta1Zr or 2Ta0.5Hf05Zr), whereas adding 2% of other dopants increases again.\n\nIncreasing the reaction temperature causes a decrease of the *Hc2* slope in all cases, so an opposite behaviour with respect to (Fig. 8). Hf addition to Nb0.8Ti increases the *Hc2* slope, whereas the Ti addition to the Nb4Ta decreases it (Figs. 8a). Increasing the amount of Hf by\n![](0__page_8_Figure_1.jpeg)\n\nFIG. 9 *Hc2*(0) evaluated by the WHH fits for alloyed A15 samples reacted at 550 °C/100 h + 670 °C/100 h (top row) and at 550 °C/50 h + 750 °C/50 h (bottom row) as a function of the amount of dopant(s). The same alloy sets as used for the a-b, c-d and de columns in Fig. 7 are used for the column sets here. As explained in the text the labels refer to the at.% of dopant(s) in the unreacted Nb alloys.\n\nitself has a small non-systematic variation on the 2 slope at 670 °C, but it is clearly detrimental at 750 °C. Significantly higher values of |2 ⁄| are obtained for various combinations of Ta, Hf and/or Zr at 670 °C. Fig. 8c reveals that increasing the Ta content by itself or in the presence of Hf or Zr increases the slope: in fact, it increases from 2.33 to 2.43 T/K going from 2Ta to 4 Ta. In the presence of 1Zr, the Ta trend at 670 °C is similar to that induced by the Ta only, reaching 2.49 T/K in the 4Ta1Zr case. Better is the trend found for Ta in combination of Hf, with a slope that increases from 2.40 to 2.54 T/K going from 2Ta1Hf to 4Ta1Hf, with the latter being the highest value of all. In the presence of 2Hf, increasing Ta has no significant impact. At 750 °C (Fig. 8d), the behaviour is different and the presence of Hf or Zr has limited or no effect in increasing |2 ⁄| with respect to the only Ta trend. Looking at the trends with fixed Ta amount (Fig. 8e-f), adding an increasing amount of Hf or Zr to the 2Ta-base alloy is beneficial for the 2 slope at 670 °C (with Hf being the more effective, Fig. 8e), whereas adding Hf and Zr together to the 2Ta-base has a non-monotonic behaviour (inverted V-shape) with the 2Ta0.5Hf0.5Zr (2.45 T/K) being better than 2Ta (2.33 T/K) and 2Ta1Hf1Zr (2.42 T/K). A similar nonmonotonic trend is also observed for the 4Ta*y*Hf series at 670 °C. Smaller and non-monotonic variations are found at 750 °C (Fig. 8f).\n\nSince we are ultimately interested in the low temperature performance, it is important to also verify the trends in 2 (0), which is proportional to and |2 ⁄| . Figure 9 shows that, except for 2Ta1Hf (+0.5 T), 2Ta1Zr (no difference) and the *x*Ta series (small variations), all other samples reacted at 750 °C have a lower 2 (0) than those at 670 °C. At the lower reaction temperature (Fig.9a), Hf by itself or in combination with Ti do not generate high 2 (0) (28 T maximum) and 5Hf at 750 °C causes the strongest *Hc2* suppression (26.1 T in Fig.9b). 4Ta leads to an 2 (0) of 29 T, compared to 28.2 T for 2Ta (Figs. 9c). In the presence of 1%Hf (Fig. 9c), *Hc2* is enhanced much more markedly, going from 2Ta1Hf (28.3 T) to 4Ta1Hf (30.2 T); adding 1%Zr to *x*Ta produces a similar trend but with slightly lower 2 (0) than with the Hf (27.9 and 30.0 T in 2Ta1Zr and 4Ta1Zr, respectively). The *x*Ta2Hf series is clearly better than the *x*Ta one (Fig. 9c), but it does not reach the performance of 4Ta1Hf or 4Ta1Zr. At\n\n![](0__page_9_Figure_1.jpeg)\n\nFIG. 10 Variation of |2 ⁄| and in the (a) 2Ta and (b) 4Ta wires as a function of A15 reaction temperature. (c) Variation of 2 (0) for both sample series.\n\n750 °C (Fig. 9d) the trends are closer and mostly determined by the total dopant content, with the exception on 2Ta1Zr that has a lower 2 (0) with respect to all other samples.\n\nChanging the Hf, Zr or Hf+Zr content in the 2Ta- and 4Ta-bases (Figs. 9e-f) produced non-monotonic behaviours in all 670 °C cases, although with different trends depending on whether *T<sup>c</sup>* or the 2 slope dominates. The best 2 (0) is reached in 4Ta1Hf, and a further increase of Hf is not beneficial. A total of 4% of dopants (4Ta, 2Ta2Hf, 2Ta2Zr or 2Ta1Hf1Zr) produces a relatively small variation in 2 (0) in both reactions\n\n![](0__page_9_Figure_6.jpeg)\n\nFigure 11. FESEM-BSE images of the Ga+4Ta1Hf wires made with Nb4Ta1Hf + Cu-Ga-Sn and reacted at (a) 800 °C, (b) 850 °C and (c) WHH fit of upper critical field for the and Ga+4Ta1Hf reacted at 550 °C/50h + 850 °C/96h. SEM-EDS analysis shows up to 1.7 at% Ga in A15 layer at 850 °C. The *Hc2*(0) of Ga+4Ta1Hf reacted at 850 °C are 2 T lower than for 4Ta1Hf without Ga reacted at much lower temperature 670 °C.\n\n(29-29.4 T at 670 °C and 28.6-28.9 T at 750 °C). Overall, despite the spreading on the data, Figure 9 shows that (excluding Ti and single Hf additions) there is an almost monotonic increase in 2 (0) with increasing overall dopant content up to 5 at.%, whether by Ta alone or by Ta+Hf, Ta+Zr or Ta+Hf+Zr combinations.\n\n### *2. Effects of reaction temperature on Ta-base samples*\n\nTo better understand the effect of the reaction temperature on *Hc2*, we varied the A15 reaction temperature from 650 °C to 750 °C and determined the resulting *T<sup>c</sup>* values and 2 slope for the *x*Ta (*x*=2,4) base samples as summarized in Figure 10. In both cases, *T<sup>c</sup>* monotonically increases with increasing reaction temperature, whereas the 2 slopes either have a small variation or they decrease. These substantially opposite trends lead to a 2 (0) that is always better for the 4Ta case but with an almost constant value at 670 and 750 °C reaction temperatures for both 2 at% and 4 at% Ta doping levels.\n\n### *3. Effects of Ga addition*\n\nOur experiments on the effect of including Ga in the Cu-Sn mixture did not reproduce earlier high claims and in fact revealed a significantly negative impact on both the A15 reaction temperature and *T<sup>c</sup>* values. By incorporating 20at% Ga into Cu-Sn powder mixture, we observed an onset *T<sup>c</sup>* of only 13 K, which also required the unreasonable reaction temperature of 1100 °C; *T<sup>c</sup>* values below 9.5 K were obtained for all heat treatments below 1100°C. To improve these results, we decreased the amount of Ga in the Cu-Sn powder mixture to 2at%, resulting in a lower A15 reaction temperature of 800- 850 °C. The microstructures of the A15 reaction layer are shown in Figures 11a-b, clearly revealing the formation of Hf-rich precipitates at these high temperatures with an increase in their size and density as the A15 reaction temperature is increased. Our observations also revealed that the A15 grains in Ga-Ta-*z*Hf wires coarsened immediately after the onset of A15 formation, while in Ta-Hf wires, the grain size was refined to as small as 70 nm [32]. These reaction temperatures are significantly higher than typically employed for magnets (650 °C – 670 °C), but they were necessary to obtain relatively homogeneous samples with good *Tc*. In Fig. 11c we compare *Hc2*(T) for the 4Ta1Hf wires made the with and without Ga and reacted at the same temperature of 850 °C. The two samples have comparable 2 (0) of 28.5-28.6 T. This is, however, 2 T below the maximum 2 (0) obtained on 4Ta1Hf without Ga at the much lower reaction temperature of 670°C.\n\n### **IV. Discussion**\n\n### **A. Overview and value of a new** *Hc2* **study**\n\nIn the production of Nb3Sn conductors, the addition of Ta and Ti has been a common practice since the 1980s [16,25,36]. The choice between using titanium or tantalum was originally the practical one of whether the commercial Nb0.8wt%Ti or Nb7.5wt.%Ta alloy was cheaper or more available. After it was found that replacing a few of the more widely available pure Nb filaments with standard Nb47wt.%Ti filaments enabled effective Ti doping throughout the wire [37,38], Ti doping largely replaced Ta as dopant in rod-based conductors like RRP, although Nb7.5wt.%Ta (Nb4Ta) was still favoured for powder in tube (PIT) conductors [9,39,40]. According to Suenaga both elements have a similar effect on raising *Hc*<sup>2</sup> [16].\n\nHowever, the new FCC target specification [41] explicitly links the need for the highest possible critical current density (*Jc*), which is encouraged by the smallest possible A15 grain size, to the need for the highest possible *H*irr and *Hc*2. This new perspective forces alloying strategy to consider both demands in addition to the internal oxidation approach [30,32,33].\n\nThis paper focuses on two aspects of the effect of alloying Nb with Ti, Ta, Zr and/or Hf, and the use of Ga: 1) the recrystallization behaviour of the Nb-alloy, which, if delayed above the normal A15 reaction temperature, sets up a denser nucleation of the growing A15 phase and 2) the upper critical field of the resulting Nb3Sn A15 layers. We note at the outset that *Hc2* alloying has been studied by many others, but generally only a few alloys at a time and often with limited access to high fields. This leads to difficulties in making reliable comparisons between studies and in understanding what properties are controlling changes in *Hc2* as we discuss in the next section. The specific challenges of meeting the FCC specification are what prompted this systematic comparative study of alloys from one single source [32]. A common observation is that small alloy additions cause *Hc2* to increase, likely because the alloying element creates disorder in the A15 compound [13,26]. The relationship between increased alloying and higher *Hc2* may depend on whether the dopant enters the A15 lattice and which site it then occupies.\n\nAn essential study for explaining alloying effects in binary alloys is the thin film *Hc2* study of Orlando *et al.* [10]. One view is that binary Nb3Sn is always ordered [13,42], meaning that Sn-deficient A15 has the Nb chain sites always occupied by Nb atoms with vacant Sn sites as appropriate to the Sn content which can vary from 18-25at. %Sn. More recent calculations of the energetics of disorder in the A15 lattice by Besson *et al*. disagree with this view [43], concluding that anti-site disorder in substoichiometric compositions is preferred. We do note that the Sn-deficient binary thin film made by Orlando *et al*. [10] with the highest *Hc2*(0) of 29 T had a high resistivity of 36 Ω and suppressed *T<sup>c</sup>* of 16.1 K, both suggestive of strong disorder.\n\nIn the alloyed A15 compositions of today's Ti and Taoptimized wires, disorder is complicated because we must consider where Ta and Ti sit. To address the common finding that optimum, high-*J<sup>c</sup>* Ti-doped wires generally always had Sn-deficient A15 compositions (a maximum of ~23at. %Sn), EXAFS studies on commercial Ta, Ti, Ta + Ti RRP standard wires showed that Ta substitutes on both Nb and Sn sites but with a dependence on the heat treatment temperature, whereas Ti substitutes only on Nb sites independent of the reaction temperature [18,19]. However, this rather unexpected result is consistent with the result that Ti is about twice more effective (< 2 at. % Ti versus 4 at%. Ta) per at.% in raising *Hc2*. This implies that Ti preferentially produces disorder on the Nb A15 lattice sites, while Ta sitting on both Sn and Nb sites is a less potent disordering agent. Future EXAFS studies with bulk samples are planned to address this speculation in greater detail.\n\n# **B. Hardness, drawability, recrystallization of Nballoys and effect of alloying on A15 grain refinement**\n\nIt was previously reported that Nb5Hf and Nb5Zr were sufficiently ductile for wire fabrication [27], a result which is confirmed here: in fact, we saw that all the Nb dopants work-hardened the alloy but not as much as is the case for the world's most heavily produced superconductor, Nb47wt.%Ti [44]. We have separately evaluated the ductility of the Nb4Ta1Hf alloy in commercially produced tubes, finding that it remains ductile for true drawing strains as high as 15 that enabled 22 mm diameter tubular filaments [44,45]. Work-hardening is generally most strongly affected by the size differential between the added solute and the matrix, Nb, which has a metallic atomic radius of 0.142 nm. The largest dopant was Hf (radius 0.160 nm) followed by Zr (0.160 nm), Ta (0.143 nm), and Ti (0.142 nm) respectively. In this respect the greater work-hardening exhibited by Zr and Hf is entirely expected.\n\nOur observations indicate that the introduction of larger atoms like Hf and Zr and an increase in their concentration results in significant hardening of the Nb alloy, which is consistent with standard solid solution strengthening mechanisms. The hardness exhibits a near-linear increase with alloy content, as shown in Figure 2. Our Vickers hardness study revealed that the initial rate of increase in hardness is greater than that observed after a true-strain = 3.5. To evaluate the drawability and recrystallization temperature of the commercial Nb4Ta alloy and arcmelted Nb4Hf custom-alloy, both alloys were annealed at up to 1000°C for 3 hours after true strains of 7.0 and 8.1. The study shows that Nb4Hf increases the recrystallization temperature to ~800°C, in contrast to the Nb4Ta base alloy which was already recrystallized at 650°C, as is shown in Figure 3. The significance of adding Hf to increase the recrystallization temperature is emphasized by these findings.\n\nSince unreacted Nb-alloy remained in the core following the A15 monofilament reaction, the FESEM-BSE image analysis showed that recrystallization of the Nb*x*Hf (*x*=1,3), Nb2Ta*x*Hf (Zr) (*x*=1,2), Nb2Ta*(x*Hf*x*Zr) (*x* = 0.5,1) alloys is always delayed until 750°C. On the other hand, Figure 5 shows that Nb*x*Ta (*x*=2,4), Nb4Ta0.8Ti, and Nb0.8Ti fully recrystallize at 750 °C. Incorporating the larger atoms of Hf or Zr, or a combination of both, into Ta does refine the A15 grain size during standard reactions [32,33]. It should be noted that the Nb-alloy recrystallization temperature increases with larger dopant atom sizes. Achieving this is extremely beneficial for A15 grain refinement, as the core alloy's grain structure directly affects the A15 nucleation. The higher recrystallization temperature enables more effective refinement of the A15 grain structure, resulting in better high-field performance of the Nb3Sn conductor [32,33]. Qualitative analysis of FESEM-BSE images demonstrated that the addition of Hf (Zr) to Nb-*x*Ta (*x*= 2,4) alloys refines the grain size of the A15 phase (Figure 5).\n\n### **C. WHH fit to estimate** *Hc2***(T)**\n\nFigure 6 shows a good agreement between the experimental data and the WHH fits for data taken both up to 31 T and in our 16 T system. This agreement has a very important practical implication: Since measurements performed in fields up to 16 T (about 0.5 *Hc2*(0)) are sufficient to provide a good estimate of *Hc2*(0) without need for characterizations in high field facilities of limited access, a wide-range study of many alloys can be performed with limited field as here, where measurements in the NHMFL 31 T magnet was possible only for few samples. Moreover, similarly to what found by Orlando *et al.* for binary samples, we verified that *Hc2* curves can be fitted without taking into account the Pauli paramagnetic limitation also for our ternary and quaternary A15 wires [46], as expected, considering that in all cases *Hc2*(0) does not exceed the zero-temperature BCS Pauli limit 0,(0) = 1.86 . For instance, the range of *Hp,BCS*(0) for the alloyed samples listed in Table 1 (considering the values) is ~31.6-33.2 T, with *Hp,BCS* up to 6.5 T larger than *Hc2*. The sample whose *Hc2*(0) most closely approaches *Hp,BCS* (0) is the 4Ta1Hf wire heat treated at 670 °C, where the difference is reduced to only ~1.8 T. Moreover, in Nb3Sn the effect of strongcoupling should probably be taken into account leading to an *H<sup>p</sup>* enhanced by a factor (1 + ) 1/2 with respect to the BCS value (from Orlando *et al.* [46]).\n\n## **D. Optimizing Hc2 by increasing disorder**\n\nThe *Hc2*(0) of clean A15 wires is typically 25-26 T [47]: however, it is possible to reach values of up to 30 T in binary alloys using a variety of methods [48]. This suggests that disorder, likely in the Nb chain sites, is the main mechanism controlling *Hc2*. Earlier studies on bulk Nb-Sn samples have revealed that a normal state resistivity () value between 25 and 30 ·cm can result in *Hc2* values up to 30.0 T [10,48]. These values correspond to a *Hc2* slope of 2.40 – 2.50 T/K and a *T<sup>c</sup>* range of 17.0 – 17.3 K. It is important to note that *T<sup>c</sup>* remains constant up to 20 ·cm but drops rapidly above 30 ·cm, which significantly degrades *Hc2* [10]. Since the *Hc2* slope is proportional to , increasing disorder without losing too much *T<sup>c</sup>* is key to optimizing the *Hc2* performance. Typically, the slope increases with up to 2.5 T/K, then decreases [10,46] and in Ta+Ti doped samples, the maximum *Hc2* was obtained for a value of around 35 ·cm [13]. Unfortunately, like almost all wires whether made in a laboratory as here or commercially, it is not possible to separately measure γ and . Therefore, here we focused on the influence of doping on the *Hc2* slope and *Tc*, knowing that the optimal low-temperature performance is achievable by maximizing the first without losing too much *Tc*.\n\nIn our samples, we found that *T<sup>c</sup>* usually slightly increases with increasing reaction temperature, likely due to increased diffusivity of Sn into the growing A15 layer which becomes more homogeneous. However, this increased temperature is not beneficial for the disorder, as the *Hc2* slope systematically decreases in all samples after increasing the reaction temperature to 750 °C. This is also true for the Nb4Ta alloy, which was investigated in a wide reaction temperature range. The combined opposite effects of the reaction temperature on *T<sup>c</sup>* and *Hc2* slope leads to a mostly detrimental or negligible effect on *Hc2*(0). We notice that this trend is different from that found in Tadoped RRP [7,19] where increasing reaction temperature increases both *Hc2* and the Kramer field (although with some weakening of the pinning performance). The different behaviours could be caused by the different wire designs, which could affect both the reaction path and the Sn diffusivity into the Nb alloy, affecting in turn the Ta occupancy. As verified by EXAFS studies, in RRP Ta occupies more Sn sites after a low temperature reaction, when the Sn supply is low, limiting the disorder on the Nb chains, whereas, when the Sn diffusivity is enhanced, Ta occupies mostly the Nb sites. Since in the present wires the Sn source is outside diffusing inward into the Nb alloy, the Sn supply in late stages of the reaction could be better than in RRP (where Sn diffuses outward), so leading to more Ta occupying the Nb sites already at a low reaction temperature.\n\nLooking instead at the effect of the dopant concentration, we found that *T<sup>c</sup>* is suppressed with increasing Ta content in Ta-only alloyed wires, but with a corresponding increase of the low temperature *Hc2*: this is consistent with the behaviour previously observed by Suenaga [16], which also found the maximum *T<sup>c</sup>* at 2%Ta and the maximum *Hc2* at ~4%Ta.\n\nAdditions of Ti or Hf by themself or together is instead not beneficial for the low-temperature *Hc2* performance, indeed producing the worst *Hc2*(0) values of our sample set. For Ti, this behaviour is different from earlier reports showing that 0.8Ti optimizes *Hc2* [16]. The depressed *Hc2* of our Ti-doped samples could be caused by the absence of Ti in the A15 structure. In fact, although in other Tidoped Nb3Sn samples Ti substitutes into the A15 structure, in our case the FESEM analysis reveals some darkcontrast areas (Figure 5c): Although they were too small to perform FESEM-EDS chemical characterization, the low BSE intensity is consistent with low atomic number Ti-rich precipitates. The worsening effect of Hf on *Hc2* as the atomic% of Hf increases at 750 °C may be due to Hf precipitating out of the alloy (Figure 4) and not entering the A15 phase. Suenaga observed Hf-Sn precipitates in bronze-process wire and suggested this to be the primary reason for the relatively small benefit of Hf on *Hc2* in comparison with Ta, Ti [16].\n\nMore interesting are the effects of combining different elements, like Ta, Hf and/or Zr. Although adding Hf or Zr to the Ta-base alloy is not beneficial for *T<sup>c</sup>* for the 2Ta, the double doping has a clear benefit in increasing the disorder as emphasized by the increase of the *Hc2* slope. This leads to better *Hc2*(0) in wires with a total doping percentage (Ta+Hf, or Ta+Zr), between 4 and 6% at 670 °C with the best performance observed in the 4Ta1Hf wire, followed closely by 4Ta1Zr, 4Ta2Hf and 2Ta2Hf. Figure 8c shows that the *Hc2* slopes of *x*Ta and *x*Ta1Zr follow the same trend suggesting that the two elements similarly introduce disorder, possibly with similar occupancy, and only the total amount of dopants is relevant. On the other end the *Hc2* slope trend for *x*Ta1Hf is clearly above that of *x*Ta and *x*Ta1Zr, suggesting that Hf and Ta synergistically increase disorder in the A15 phase. Interestingly, Ta has the same size as Nb, while Hf and Zr are larger, leaving it open for discussion whether, like their Group IVB sibling Ti, they also only occupy the Nb site.\n\nFurthermore, the reaction temperature may also play a significant role in determining *Hc2*. In standard Ta- or Tidoped RRP wires, higher *Hc2* is always associated with higher reaction temperatures which make the A15 layer more Sn-rich [7]. However, in some of these new alloys, a lower temperature reaction yields higher *Hc2*, indicating that the relation between disorder and reaction temperature can also differ because of other factors. The lowering of *Hc2*(0) by about 1 T for the highest *Hc2* Hf and Zr alloys for reactions at 750 °C rather than 670 °C leads us to speculate that, like Ti, their group IVB siblings, Zr and Hf, also sit on the Nb sites but may be vulnerable to being pushed off this site by Ta switching from Sn to Nb sites with increasing reaction temperature. Despite the *Hc2*(0) suppression observed for the reaction temperature of 750 °C with respect to 670 °C, also at high temperature the 4Ta1Hf wire produces a larger *Hc2* slope than the other alloys.\n\nWe note that, despite the different efficiency, all these alloys introduce a significant amount of disorder as evidenced by the *Hc2* slope reaching 2.54 T/K, compared to only 1.85 T/K for the binary system [47]. However, this increase in slope does not translate to a corresponding increase in *Hc2*, primarily due to the suppression of *Tc*.\n\nWe also re-examined the effect of Ga addition to the Cu-Sn powder mixture but together with the Nb4Ta1Hf alloy. However, introducing 2 at% Ga meant that a high A15 reaction temperature of 800 °C was required to form even a small amount of A15 (Figure 11). At a temperature of 850°C, the Ga-Hf samples underwent a full reaction, resulting in a complete annulus of A15 surrounding the core alloy but the high temperatures produced very large grains already at the onset of A15 formation as well as the formation of Hf precipitates. Comparable but depressed *Hc2* values of 28.5-28.6 T are obtained in these conditions for the Ga-Ta-Hf and Ta-Hf wires, almost identical to those previously estimated for the Nb-Hf/Cu-Ga-Sn system [27,36]. It is worth noting that the addition of Ta to Hf resulted in an enhanced *Hc2*(0), while the addition of Ta to Ga-Hf had minimal to no impact on *Hc2*(0) values [27]. Previous studies by Bormann *et al*. [26] reported that *Hc2*(0) could reach up to 33-35 T for 1.5-2.0 at% Ga addition to the binary A15 layer in co-evaporated thin film samples (no Ta or Hf). In our samples, even though FESEM-EDS analysis revealed the presence of 1.7 at% Ga in the A15 layer, the *Hc2* value was low, consistent with its decreased *Hc2* slope. In short no evidence was found in this study to support earlier reports of a positive influence of Ga addition on *Hc2* [27].\n\n*Hc2* is only one of the propertiesthat determined the high field performance of Nb3Sn wires. Other superconducting characterizations (e.g. transport *Jc*) require the fabrication of multifilamentary, long and longitudinally uniform wires with a more suitable design and they will be studied in the future.\n\n### **V. CONCLUSIONS**\n\nIn conclusion, we showed that the addition of up to 5 at% of Ta, Ti, Hf, Zr or a combination of these elements to Nb does not negatively impact their drawability. Using Hf or Zr by themselves or in combination with Ta or Ti can help to delay the recrystallization temperature and refine the grain size of the A15 phase. The optimization of *Hc2* is temperature-sensitive and likely influenced by changes in site occupancy and disorder. The best approach to maximize *Hc2* was to use a Nb4Ta base and add Hf or Zr, reaching a maximum *Hc2*(0) of 30.2 T by using the Nb4Ta1Hf alloy and reacting the wire at 670 °C, closely followed by Nb4Ta1Zr leading to an *Hc2*(0) of 30.0 T. Despite the *Hc2*(0) enhancement, the WHH model without Pauli paramagnetic limiting can fit all our *Hc2*(T) data, allowing us to characterize a variety of Nb alloys without need for high field measurements at 31 T. Unfortunately, the trend of the *Hc2* slope and against A15 reaction temperature shows that it was not possible to simultaneously optimize these two parameters that determine *Hc2*(0), producing almost constant *Hc2*(0) in samples prepared with Nb*x*Ta (*x*=2,4 at%). Moreover, increasing the reaction temperature rapidly degrades the *Hc2* performance of the Hf/Zr-doped samples. Our findings confirm the performance enhancing properties of Hf when combined to Nb4Ta, as recently reported by Balachandran *et al.,* without however providing further improvements. Contrary to earlier reports on Ga reaching *Hc2*(0) ~ 33- 35 T, we observed a strong depression of *Hc2*(0) with as little as 2 at% Ga in Cu-Sn powder mixture. Despite Nb3Sn being the first high field superconductor and remarkably still in wide use even 60 years after the first demonstration of its high field properties, it is clear that there is still much to learn about the limits of its high field properties.\n\n### **ACKNOWLEDGEMENTS**\n\nThe authors extend their gratitude to Benjamin Walker (ASC-NHMFL) for early assistance with arc-melting, James Gillman (ASC-NHMFL) for his aid in wire fabrication, Van S Griffin (ASC-NHMFL) for his support during PPMS-16T measurements, and Eun Sang Choi (NHMFL) for his valuable contribution to the high field transport characterization. The research work was primarily funded by the grant number DE-SC0012083 from the US Department of Energy, Office of High Energy Physics. The study was conducted at the National High Magnetic Field Laboratory, which is sustained by the National Science Foundation's Cooperative Agreement No. DMR-2128556, as well as the State of Florida.\n\n### **AUTHOR ORCID ID**\n\nNawaraj Paudel[, 0000-0002-5482-5732](https://orcid.org/0000-0002-5482-5732) Chiara Tarantini, [0000-0002-3314-5906](https://orcid.org/0000-0002-3314-5906) Shreyas Balachandran[, 0000-0002-0077-8504](https://orcid.org/0000-0002-0077-8504) Peter J. Lee, [0000-0002-8849-8995](https://orcid.org/0000-0002-8849-8995) David C. Larbalestier, [0000-0001-7098-7208](https://orcid.org/0000-0001-7098-7208)\n\n- [1] E. Todesco, M. Annarella, G. Ambrosio, G. Apollinari, A. Ballarino, H. Bajas, M. Bajko, B. Bordini, R. Bossert, L. Bottura, E. Cavanna, D. Cheng, G. Chlachidze, G. De Rijk, J. DiMarco, P. Ferracin, J. Fleiter, M. Guinchard, A. Hafalia, E. Holik, S. Izquierdo Bermudez, F. Lackner, M. Marchevsky, C. Loeffler, A. Nobrega, J. C. Perez, S. Prestemon, E. Ravaioli, L. Rossi, G. Sabbi, T. Salmi, F. Savary, J. Schmalzle, S. Stoynev, T. Strauss, M. Tartaglia, G. Vallone, G. Velev, P. Wanderer, X. Wang, G. Willering, and M. Yu, Progress on HL-LHC Nb3Sn Magnets, IEEE Trans. Appl. Supercond. **28**, 4008809 (2018).\n- [2] L. D. Cooley, A. K. Ghosh, D. R. Dietderich, and I. Pong, Conductor Specification and Validation for High-Luminosity LHC Quadrupole Magnets, IEEE Transactions on Applied Superconductivity **27**, 1 (2017).\n- [3] J. A. Parrell, Nb3Sn Conductor Development for Fusion and Particle Accelerator Applications, in *AIP Conference Proceedings*, Vol. 711 (AIP, Anchorage, Alaska (USA), 2004), pp. 369–375.\n- [4] C. B. Segal, Performance Limits of Powder in Tube Processed Nb3Sn Superconducting Wires, 2018.\n- [5] C. Sanabria, M. Field, P. J. Lee, H. Miao, J. Parrell, and D. C. Larbalestier, Controlling Cu–Sn mixing so as to enable higher critical current densities in RRP® Nb3Sn wires, Supercond. Sci. Technol. **31**, 064001 (2018).\n- [6] D. Schoerling and A. V. Zlobin, editors , *Nb3Sn Accelerator Magnets: Designs, Technologies and Performance* (Springer International Publishing, Cham, 2019).\n- [7] C. Tarantini, P. J. Lee, N. Craig, A. Ghosh, and D. C. Larbalestier, Examination of the trade-off between intrinsic and extrinsic properties in the optimization of a modern internal tin Nb3Sn conductor, Supercond. Sci. Technol. **27**, 065013 (2014).\n- [8] R. M. Scanlan, W. A. Fietz, and E. F. Koch, Flux pinning centers in superconducting Nb3Sn, Journal of Applied Physics **46**, 2244 (1975).\n- [9] A. Godeke, M. C. Jewell, C. M. Fischer, A. A. Squitieri, P. J. Lee, and D. C. Larbalestier, The upper critical field of filamentary Nb3Sn conductors, Journal of Applied Physics **97**, 093909 (2005).\n- [10] T. Orlando, J. Alexander, S. Bending, J. Kwo, S. Poon, R. Hammond, M. Beasley, E. McNiff, and S. Foner, The role of disorder in maximizing the upper critical field in the Nb-Sn system, IEEE Trans. Magn. **17**, 368 (1981).\n- [11] C. M. Fischer, Investigation of the Relationships between Superconducting Properties and Nb3Sn Reaction Conditions in Powder-in-Tube Nb3Sn Conductors, University of Wisconsin-Madison, 2002.\n- [12] H. Devantay, J. L. Jorda, M. Decroux, J. Muller, and R. Flükiger, The physical and structural properties of superconducting A15-type Nb-Sn alloys, J Mater Sci **16**, 2145 (1981).\n- [13] R. Flükiger, D. Uglietti, C. Senatore, and F. Buta, Microstructure, composition and critical current density of superconducting Nb3Sn wires, Cryogenics **48**, 293 (2008).\n- [14] L. J. Vieland, R. W. Cohen, and W. Rehwald, Evidence for a First-Order Structural Transformation in Nb3Sn, Phys. Rev. Lett. **26**, 373 (1971).\n- [15] C. Tarantini, Z.-H. Sung, P. J. Lee, A. K. Ghosh, and D. C. Larbalestier, Significant enhancement of compositional and superconducting homogeneity in Ti rather than Ta-doped Nb3Sn, Appl. Phys. Lett. **108**, 042603 (2016).\n- [16] M. Suenaga, Optimization of Nb3Sn, IEEE Transactions on Magnetics **21**, 1122 (1985).\n- [17] M. Suenaga, T. S. Luhman, and W. B. Sampson, Effects of heat treatment and doping with Zr on the superconducting critical current densities of\n\nmultifilamentary Nb3Sn wires, Journal of Applied Physics **45**, 4049 (1974).\n\n- [18] S. M. Heald, C. Tarantini, P. J. Lee, M. D. Brown, Z. Sung, A. K. Ghosh, and D. C. Larbalestier, Evidence from EXAFS for Different Ta/Ti Site Occupancy in High Critical Current Density Nb3Sn Superconductor Wires, Sci. Rep. **8**, 4798 (2018).\n- [19] C. Tarantini, S. Balachandran, S. M. Heald, P. J. Lee, N. Paudel, E. S. Choi, W. L. Starch, and D. C. Larbalestier, Ta, Ti and Hf effects on Nb3Sn highfield performance: temperature-dependent dopant occupancy and failure of Kramer extrapolation, Supercond. Sci. Technol. **32**, 124003 (2019).\n- [20] V. Abächerli, D. Uglietti, B. Seeber, and R. Flükiger, (Nb,Ta,Ti)3Sn multifilamentary wires using Osprey bronze with high tin content and NbTa/NbTi composite filaments, Physica C: Superconductivity **372–376**, 1325 (2002).\n- [21] V. Abacherli, D. Uglietti, P. Lezza, B. Seeber, R. Flukiger, M. Cantoni, and P.-A. Buffat, The influence of Ti doping methods on the high field performance of (Nb,Ta,Ti)3Sn multifilamentary wires using Osprey bronze, IEEE Transactions on Applied Superconductivity **15**, 3482 (2005).\n- [22] D. Dew-Hughes, Effect of third element additions on the properties of bronze processed Nb3Sn, IEEE Transactions on Magnetics **13**, 651 (1977).\n- [23] M. K. Rudziak and T. Wong, Development of a Nb3Sn conductor containing Ga and Mg dopants, IEEE Trans. Appl. Supercond. **11**, 3580 (2001).\n- [24] T. Takeuchi, T. Asano, Y. Iijima, and K. Tachikawa, Effects of the IVa element addition on the composite-processed superconducting Nb3Sn, Cryogenics **21**, 585 (1981).\n- [25] W. Goldacker and R. Flükiger, Phase transitions and superconducting properties of binary and Ti, Ta, Ga and H alloyed Nb3Sn, Physica B+C **135**, 359 (1985).\n- [26] R. Bormann, D.-Y. Yu, R. Hammond, T. Geballe, S. Foner, and E. McNiff, Origin of the Bc2 enhancement in ternary Nb-Sn phases, IEEE Transactions on Magnetics **21**, 1140 (1985).\n- [27] H. Sekine, T. Takeuchi, and K. Tachikawa, Studies on the composite processed Nb-Hf/Cu-Sn-Ga highfield superconductors, IEEE Trans. Magn. **17**, 383 (1981).\n- [28] O. Horigami, T. Luhman, C. S. Pande, and M. Suenaga, Superconducting properties of Nb3(Sn1−*<sup>x</sup>* Ga*x*) by a solid-state diffusion process, Applied Physics Letters **28**, 738 (1976).\n- [29] L. R. Motowidlo, P. J. Lee, C. Tarantini, S. Balachandran, A. K. Ghosh, and D. C. Larbalestier, An intermetallic powder-in-tube approach to increased flux-pinning in Nb3Sn by internal\n\noxidation of Zr, Supercond. Sci. Technol. **31**, 014002 (2018).\n\n- [30] X. Xu, J. Rochester, X. Peng, M. Sumption, and M. Tomsic, Ternary Nb3Sn superconductors with artificial pinning centers and high upper critical fields, Supercond. Sci. Technol. **32**, 02LT01 (2019).\n- [31] M. B. Field, Youzhu Zhang, Hanping Miao, M. Gerace, and J. A. Parrell, Optimizing Nb3Sn Conductors for High Field Applications, IEEE Trans. Appl. Supercond. **24**, 6001105 (2014).\n- [32] S. Balachandran, C. Tarantini, P. J. Lee, F. Kametani, Y.-F. Su, B. Walker, W. L. Starch, and D. C. Larbalestier, Beneficial influence of Hf and Zr additions to Nb4at%Ta on the vortex pinning of Nb3Sn with and without an O source, Supercond. Sci. Technol. **32**, 044006 (2019).\n- [33] N. Banno, T. Morita, T. Yagai, and S. Nimori, Influence of parent Nb-alloy grain morphology on the layer formation of Nb3Sn and its flux pinning characteristics, Scripta Materialia **199**, 113822 (2021).\n- [34] C. Tarantini, F. Kametani, S. Balachandran, S. M. Heald, L. Wheatley, C. R. M. Grovenor, M. P. Moody, Y.-F. Su, P. J. Lee, and D. C. Larbalestier, Origin of the enhanced Nb3Sn performance by combined Hf and Ta doping, Sci. Rep. **11**, 17845 (2021).\n- [35] N. R. Werthamer, E. Helfard, and P. C. Hohenberg, Temperature and purity dependence of the superconducting critical field, *Hc2*. III. Electron spin and spin-orbit effects, Phys. Rev. **147**, 295 (1966).\n- [36] H. Sekine, K. Tachikawa, and Y. Iwasa, Improvements of current-carrying capacities of the composite-processed Nb3Sn in high magnetic fields, Applied Physics Letters **35**, 472 (1979).\n- [37] S. Hong, J. Parrell, and M. Field, Method for producing (Nb,Ti)3Sn wire by use of Ti source rods, US patent 6981309 (2004).\n- [38] J. A. Parrell, Youzhu Zhang, M. B. Field, P. Cisek, and Seung Hong, High field Nb3Sn conductor development at Oxford Superconducting Technology, IEEE Trans. Appl. Supercond. **13**, 3470 (2003).\n- [39] C. Segal, C. Tarantini, Z. H. Sung, P. J. Lee, B. Sailer, M. Thoener, K. Schlenga, A. Ballarino, L. Bottura, B. Bordini, C. Scheuerlein, and D. C. Larbalestier, Evaluation of critical current density and residual resistance ratio limits in powder in tube Nb3Sn conductors, Supercond. Sci. Technol. **29**, 085003 (2016).\n- [40] B. Bordini, L. Bottura, G. Mondonico, L. Oberli, D. Richter, B. Seeber, C. Senatore, E. Takala, and D. Valentinis, Extensive characterization of the 1 mm\n\nPIT Nb3Sn strand for the 13-T FRESCA2 magnet, IEEE Transactions on Applied Superconductivity **22**, 6000304 (2012).\n\n- [41] A. Ballarino, S. C. Hopkins, B. Bordini, D. Richter, D. Tommasini, L. Bottura, M. Benedikt, M. Sugano, T. Ogitsu, S. Kawashima, K. Saito, Y. Fukumoto, H. Sakamoto, H. Shimizu, V. Pantsyrny, I. Abdyukhanov, M. Shlyakov, S. Zernov, F. Buta, C. Senatore, I. Shin, J. Kim, J. Lachmann, A. Leineweber, S. Pfeiffer, T. Baumgartner, M. Eisterer, J. Bernardi, A. Malagoli, V. Braccini, M. Vignolo, M. Putti, and C. Ferdeghini, The CERN FCC Conductor Development Program: A Worldwide Effort for the Future Generation of High-Field Magnets, IEEE Transactions on Applied Superconductivity **29**, 6000709 (2019).\n- [42] R. Flükiger, Martensitic transformations and their effects on superconductivity in A15 superconductors, J. Phys. Colloques **43**, C4 (1982).\n- [43] R. Besson, S. Guyot, and A. Legris, Atomic-scale study of diffusion in A15 Nb3Sn, Phys. Rev. B **75**, 054105 (2007).\n- [44] S. Balachandran, B. Walker, P. J. Lee, W. L. Starch, C. Tarantini, and D. C. Larbalestier, Comparative drawability and recrystallization evaluation of Nb4Ta and Nb4Ta1Hf alloys, and the beneficial influence of Hf on developing finer Nb3Sn grain size, Journal of Alloys and Compounds **984**, 173985 (2024).\n- [45] S. Balachandran, P. J. Lee, C. Tarantini, N. Paudel, C. B. Segal, M. Small, J. Tietsworth, W. L. Starch, and D. C. Larbalestier, *Developments and Progress in R&D Nb3Sn Wires Made with Commercial Nb4Ta1Hf Alloy*, Applied Superconductivity Conference (2022).\n- [46] T. P. Orlando, E. J. McNiff, S. Foner, and M. R. Beasley, Critical fields, Pauli paramagnetic limiting, and material parameters of Nb3Sn and V3Si, Phys. Rev. B **19**, 4545 (1979).\n- [47] W. Goldacker, R. Ahrens, M. Nindel, B. Obst, and C. Meingast, HIP synthesized Nb3Sn bulk materials with extraordinary homogeneity, IEEE Transactions on Applied Superconductivity **3**, 1322 (1993).\n- [48] J. Zhou, Y. Jo, Z. Hawn Sung, H. Zhou, P. J. Lee, and D. C. Larbalestier, Evidence that the upper critical field of Nb3Sn is independent of whether it is cubic or tetragonal, Appl. Phys. Lett. **99**, 122507 (2011).",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Influence of Nb Alloying on Nb Recrystallization and the Upper \nCritical Field of Nb3Sn",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              124.611328125,
+              79.97509765625
+            ],
+            [
+              467.7952575683594,
+              79.97509765625
+            ],
+            [
+              467.7952575683594,
+              106.8551025390625
+            ],
+            [
+              124.611328125,
+              106.8551025390625
+            ]
+          ]
+        },
+        {
+          "title": "I. INTRODUCTION",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              124.4619140625,
+              510.57049560546875
+            ],
+            [
+              219.7880859375,
+              510.57049560546875
+            ],
+            [
+              219.7880859375,
+              521.1304931640625
+            ],
+            [
+              124.4619140625,
+              521.1304931640625
+            ]
+          ]
+        },
+        {
+          "title": "II. EXPERIMENTAL METHODS",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              90.84375,
+              451.5304870605469
+            ],
+            [
+              248.3258819580078,
+              451.5304870605469
+            ],
+            [
+              248.3258819580078,
+              462.0904846191406
+            ],
+            [
+              90.84375,
+              462.0904846191406
+            ]
+          ]
+        },
+        {
+          "title": "III. RESULTS",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              395.05078125,
+              534.8104858398438
+            ],
+            [
+              461.98828125,
+              534.8104858398438
+            ],
+            [
+              461.98828125,
+              545.3704833984375
+            ],
+            [
+              395.05078125,
+              545.3704833984375
+            ]
+          ]
+        },
+        {
+          "title": "A. Recrystallization and microstructural \ncharacterizations",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              342.30999755859375,
+              552.8104858398438
+            ],
+            [
+              532.3163452148438,
+              552.8104858398438
+            ],
+            [
+              532.3163452148438,
+              576.3304901123047
+            ],
+            [
+              342.30999755859375,
+              576.3304901123047
+            ]
+          ]
+        },
+        {
+          "title": "B. Hc2(T) and its analysis",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              116.54296875,
+              332.95050048828125
+            ],
+            [
+              235.177734375,
+              332.95050048828125
+            ],
+            [
+              235.177734375,
+              343.76806640625
+            ],
+            [
+              116.54296875,
+              343.76806640625
+            ]
+          ]
+        },
+        {
+          "title": "1. Effects of alloy dopants",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              119.77999877929688,
+              451.6505126953125
+            ],
+            [
+              232.25454711914062,
+              451.6505126953125
+            ],
+            [
+              232.25454711914062,
+              462.515625
+            ],
+            [
+              119.77999877929688,
+              462.515625
+            ]
+          ]
+        },
+        {
+          "title": "2. Effects of reaction temperature on Ta-base samples",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              317.953125,
+              549.5704956054688
+            ],
+            [
+              552.8565063476562,
+              549.5704956054688
+            ],
+            [
+              552.8565063476562,
+              560.35546875
+            ],
+            [
+              317.953125,
+              560.35546875
+            ]
+          ]
+        },
+        {
+          "title": "3. Effects of Ga addition",
+          "heading_level": null,
+          "page_id": 10,
+          "polygon": [
+            [
+              122.818359375,
+              69.46435546875
+            ],
+            [
+              229.201171875,
+              69.46435546875
+            ],
+            [
+              229.201171875,
+              80.06048583984375
+            ],
+            [
+              122.818359375,
+              80.06048583984375
+            ]
+          ]
+        },
+        {
+          "title": "IV. Discussion",
+          "heading_level": null,
+          "page_id": 10,
+          "polygon": [
+            [
+              134.9208984375,
+              445.7704772949219
+            ],
+            [
+              201.8583984375,
+              445.7704772949219
+            ],
+            [
+              201.8583984375,
+              456.3304748535156
+            ],
+            [
+              134.9208984375,
+              456.3304748535156
+            ]
+          ]
+        },
+        {
+          "title": "A. Overview and value of a new Hc2 study",
+          "heading_level": null,
+          "page_id": 10,
+          "polygon": [
+            [
+              77.6953125,
+              463.5304870605469
+            ],
+            [
+              272.830078125,
+              463.5304870605469
+            ],
+            [
+              272.830078125,
+              474.3480529785156
+            ],
+            [
+              77.6953125,
+              474.3480529785156
+            ]
+          ]
+        },
+        {
+          "title": "B. Hardness, drawability, recrystallization of Nb-\nalloys and effect of alloying on A15 grain \nrefinement",
+          "heading_level": null,
+          "page_id": 11,
+          "polygon": [
+            [
+              59.9150390625,
+              66.9990234375
+            ],
+            [
+              290.6103515625,
+              66.9990234375
+            ],
+            [
+              290.6103515625,
+              105.2841796875
+            ],
+            [
+              59.9150390625,
+              105.2841796875
+            ]
+          ]
+        },
+        {
+          "title": "C. WHH fit to estimate Hc2(T)",
+          "heading_level": null,
+          "page_id": 11,
+          "polygon": [
+            [
+              365.16796875,
+              126.650390625
+            ],
+            [
+              508.0078125,
+              126.650390625
+            ],
+            [
+              508.0078125,
+              138.53802490234375
+            ],
+            [
+              365.16796875,
+              138.53802490234375
+            ]
+          ]
+        },
+        {
+          "title": "D. Optimizing Hc2 by increasing disorder",
+          "heading_level": null,
+          "page_id": 11,
+          "polygon": [
+            [
+              340.6640625,
+              477.59765625
+            ],
+            [
+              530.71875,
+              477.59765625
+            ],
+            [
+              530.71875,
+              490.06805419921875
+            ],
+            [
+              340.6640625,
+              490.06805419921875
+            ]
+          ]
+        },
+        {
+          "title": "V. CONCLUSIONS",
+          "heading_level": null,
+          "page_id": 13,
+          "polygon": [
+            [
+              124.91015625,
+              356.95050048828125
+            ],
+            [
+              215.8385467529297,
+              356.95050048828125
+            ],
+            [
+              215.8385467529297,
+              367.576171875
+            ],
+            [
+              124.91015625,
+              367.576171875
+            ]
+          ]
+        },
+        {
+          "title": "ACKNOWLEDGEMENTS",
+          "heading_level": null,
+          "page_id": 13,
+          "polygon": [
+            [
+              374.1100158691406,
+              139.6004638671875
+            ],
+            [
+              497.8485107421875,
+              139.6004638671875
+            ],
+            [
+              497.8485107421875,
+              150.16046142578125
+            ],
+            [
+              374.1100158691406,
+              150.16046142578125
+            ]
+          ]
+        },
+        {
+          "title": "AUTHOR ORCID ID",
+          "heading_level": null,
+          "page_id": 13,
+          "polygon": [
+            [
+              386.9499816894531,
+              326.23046875
+            ],
+            [
+              485.0418701171875,
+              326.23046875
+            ],
+            [
+              485.0418701171875,
+              336.79046630859375
+            ],
+            [
+              386.9499816894531,
+              336.79046630859375
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              301
+            ],
+            [
+              "Line",
+              69
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Footnote",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              459
+            ],
+            [
+              "Line",
+              114
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              226
+            ],
+            [
+              "Line",
+              53
+            ],
+            [
+              "ListItem",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              276
+            ],
+            [
+              "Line",
+              73
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "ListItem",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              151
+            ],
+            [
+              "Line",
+              44
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              782
+            ],
+            [
+              "Line",
+              183
+            ],
+            [
+              "TableCell",
+              176
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              254
+            ],
+            [
+              "Line",
+              59
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              209
+            ],
+            [
+              "Line",
+              62
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              254
+            ],
+            [
+              "Line",
+              65
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              208
+            ],
+            [
+              "Line",
+              56
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              379
+            ],
+            [
+              "Line",
+              110
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              437
+            ],
+            [
+              "Line",
+              111
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              404
+            ],
+            [
+              "Line",
+              112
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              372
+            ],
+            [
+              "Line",
+              105
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "ListItem",
+              4
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 14,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              376
+            ],
+            [
+              "Line",
+              111
+            ],
+            [
+              "ListItem",
+              25
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 15,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              347
+            ],
+            [
+              "Line",
+              107
+            ],
+            [
+              "ListItem",
+              19
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 16,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Influence of Nb alloying on Nb recrystallization and the upper critical field of Nb<SUB>3</SUB>Sn",
+    "authors": [
+      {
+        "authors_list": [
+          "Paudel, Nawaraj",
+          "Tarantini, Chiara",
+          "Balachandran, Shreyas",
+          "Starch,"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Nb<SUB>3</SUB>Sn conductors are important candidates for high-field magnets for particle accelerators, and they continue to be widely used for many laboratory and nuclear magnetic resonance magnets. However, the critical current density, J<SUB>c</SUB>, of present Nb<SUB>3</SUB>Sn conductors declines swiftly above 12-15 T. State-of-the-art Ta- and Ti-doped strands exhibit upper critical field, H<SUB>c 2</SUB>, values of ∼24-26.5 T (4.2 K) and do not reach the Future Circular Collider target J<SUB>c</SUB>, which serves as the present stretch target for Nb<SUB>3</SUB>Sn development. As recently demonstrated, to meet this goal requires enhanced vortex pinning but an independent and supplementary approach is to significantly enhance H<SUB>c 2</SUB>. In this study, we have arc melted multiple Nb alloys with added Hf, Zr, Ta, and Ti and drawn them successfully into monofilament wires to investigate the possibilities of H<SUB>c 2</SUB> enhancement through alloying. H<SUB>c 2</SUB>(T ) was measured for all samples in fields up to 16 T and some up to 31 T. We have found that all alloys show good agreement with the standard Werthamer, Helfand, and Hohenberg fitting procedure without the need to adjust the paramagnetic limitation parameter (α) and spin-orbit scattering parameter (λ<SUB>so</SUB>). The evaluation of d H<SUB>c 2</SUB>/d T near T<SUB>c</SUB>, which is proportional to the electronic specific heat coefficient γ and the normal state resistivity ρ<SUB>n</SUB>, allows a better understanding of the induced disorder introduced by alloying in the A15 phase. So far, we have observed that Hf alloying of pure Nb can enhance H<SUB>c 2</SUB>(0 ) by 3-4 T to ∼28 T, while adding just 1 at.% Hf or Zr into a Nb-4 at. % Ta base alloy can raise H<SUB>c 2</SUB>(0 ) to ∼31 T. Very importantly we find that Hf and Zr raise the alloy recrystallization temperature above the usual A15 reaction temperature range of 650 °C-750 °C , thus ensuring denser A15 phase nucleation in the Nb alloy grain boundaries, possibly leading to a more homogeneous A15 phase Sn content and refined A15 grain size. The potential for further advancements in Nb<SUB>3</SUB>Sn properties is explored in relation to the recrystallization of the Nb alloy and the factors controlling the upper critical field.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Physical Review Materials",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2412.09514"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1103/PhysRevMaterials.8.084801",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2024PhRvM...8h4801P"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

@@ -1,0 +1,638 @@
+{
+  "id": "04406a6ae26296c2972d24ec8b836bf0",
+  "pdf_path": "apl/Superconductors/arXiv:2001.07821.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# First demonstration of a cryocooler conduction cooled superconducting radiofrequency cavity operating at practical cw accelerating gradients\n\nR.C. Dhuley, S. Posen, M.I. Geelhoed, O. Prokofiev, and J.C.T. Thangaraj\n\nFermi National Accelerator Laboratory, Batavia, Illinois 60510, USA E-mail: rdhuley@fnal.gov\n\nAbstract. We demonstrate practical accelerating gradients on a superconducting radiofrequency (SRF) accelerator cavity with cryocooler conduction cooling, a cooling technique that does not involve the complexities of the conventional liquid helium bath. A design is first presented that enables conduction cooling an elliptical-cell SRF cavity. Implementing this design, a single cell 650 MHz Nb3Sn cavity coupled using high purity aluminum thermal links to a 4 K pulse tube cryocooler generated accelerating gradients up to 6.6 MV/m at 100% duty cycle. The experiments were carried out with the cavity-cryocooler assembly in a simple vacuum vessel, completely free of circulating liquid cryogens. We anticipate that this cryocooling technique will make the SRF technology accessible to interested accelerator researchers who lack access to full-stack helium cryogenic systems. Furthermore, the technique can lead to SRF based compact sources of high average power electron beams for environmental protection and industrial applications. A concept of such an SRF compact accelerator is presented.\n\n## 1. Introduction\n\nElectron irradiation is a proven technique for environmental protection applications such as the treatment of industrial/municipal wastewater, flue gases, sewage sludge, etc. and has been demonstrated on several pilot scale projects [\\[1\\]](#page-8-0). For electron irradiation to be competitive on the large scale with existing treatment methods, electron beam (ebeam) sources capable of providing beam energy of 1−10 MeV, very high average beam power, and high wall-plug efficiency (>50%) are needed [\\[2\\]](#page-8-1). The sources must also be robust, reliable, and have turn-key operation to be viable in the harsh environment expected around these applications [\\[2\\]](#page-8-1). Compact sources with smaller footprints and lower infrastructure cost are also preferred.\n\nE-beam sources using superconducting radiofrequency (SRF) cavities as the beam accelerator can meet several of the above requirements. A meter-long or even a shorter structure of standard niobium cavities [\\[3\\]](#page-8-2) or of low-dissipation Nb3Sn cavities [\\[4\\]](#page-8-3), both of which easily generate accelerating gradients >10 MV/m, can be an electron source with the desired beam energy. The low surface resistance of SRF cavities reduces their surface losses and provides high efficiency transfer of the input RF power to the beam, which can help to achieve the wall-plug efficiency target. The low surface resistance also facilitates constructing cavities with a larger aperture and allows RF operation with 100% duty cycle (continuous wave or cw mode), both of which are favorable for generating and efficiently transporting beams of very high average power. SRF cavities, however, need operation at cryogenic temperatures and are conventionally cooled by immersion in baths of liquid helium held near 2−4.5 K. The cryogenic infrastructure [\\[5\\]](#page-8-4) needed for compressing, liquefying, distributing, recovering, and storing helium as well as expert cryogenic operators [\\[6\\]](#page-8-5) needed for oversight run counter to the robustness, high reliability, compactness, and turn-key operation desired in industrial settings.\n\nAn approach to simplify the helium cryogenic infrastructure and reduce its footprint is to integrate a closed-cycle 4 K cryocooler into an SRF cryomodule and recondense in-situ the boil-off helium gas produced by the cavity dynamic heat dissipation. Although this compact and operationally simpler cooling scheme, as implemented at the JAERI FEL [\\[7\\]](#page-8-6), was shown to work reliably over year-long periods, it still relies on a liquid helium bath, leading to some undesirable requirements: (1) a separate helium cryosystem/liquid inventory for initially filling the cryomodule, (2) rigorous pressure vessel and relief design of the cryomodule as it contains a bath of liquid helium, and (3) large helium gas compressors and a storage system to recover the helium during warm-up.\n\nConduction cooling an SRF cavity by directly connecting to a closed-cycle cryocooler with a thermally conductive link will eliminate the need for the conventional helium bath. This elimination leads to dramatic simplification of the accelerator: (1) a liquid helium inventory, a helium recovery/storage system, and a helium pressure vessel and relief design is no longer needed, (2) the cryogenics becomes very reliable (commercial 4 K cryocoolers have mean time between maintenance of >20000 hrs (2.3 years) [\\[8\\]](#page-8-7)), safe (no liquid helium safety and oxygen deficiency hazards), and simple to operate (cryocoolers turn on/off with push of a button), and (3) significantly reduced footprint as well as added option of portability because all of the cryogenics is integrated into the cryomodule. Following its conceptualization [\\[9\\]](#page-8-8) in 2015, conduction cooling of SRF cavities has been studied albeit only by means of computer simulations. Previous work is limited to understanding its feasibility based on multiphysics (electromagnetic and thermal) simulations [\\[10,](#page-9-0) [11\\]](#page-9-1) and a design of an e-beam accelerator using a conduction cooled SRF cavity [\\[12\\]](#page-9-2). A program to demonstrate practical accelerating gradients on conduction cooled SRF cavities began at Fermilab in 2016. In this letter we present experimental results from this program, demonstrating cw accelerating gradients up to 6.6 MV/m on a single cell SRF cavity.\n\n![](_page_2_Figure_1.jpeg)\n\n<span id=\"page-2-0\"></span>Figure 1. Design of a single cell 650 MHz niobium cavity for conduction-cooling: niobium rings electron-beam welded to the cavity near its equator (left) and a 5N aluminum thermal link [\\[14\\]](#page-9-3) connecting the cavity to the 4 K stage of a cryocooler (right). The bolted thermal contacts were prepared as described in our prior report [\\[15\\]](#page-9-4). The cavity was coated internally with a ∼2 µm thick Nb3Sn layer before cryogenic testing.\n\n## 2. Development of conduction cooling for elliptical SRF cavities\n\nThe elliptical single-cell niobium cavity used for the this work has the following parameters: resonance frequency 650 MHz, accelerating length, Lacc = 0.23 m, shape factor, G = 265 Ω, and normalized shunt impedance, r/Q = 152 Ω. For conduction cooling, niobium rings (SRF grade, RRR>300) were e-beam welded to the two elliptical half-cells as illustrated in Figure [1.](#page-2-0) The cavity surface was prepared by removing 120 µm via electropolishing (EP), 3 hour 800 ◦C vacuum furnace treatment, 20 µm light EP, and high pressure rinse with water. After initial performance evaluation, the cavity inner surface was coated with a ∼2 µm thick layer of Nb3Sn, grown via vapor diffusion [\\[13\\]](#page-9-5), to enable low dissipation operation [\\[4\\]](#page-8-3) near 4.5 K. The cavity was then cooled in 4.4 K liquid helium in the Fermilab Vertical Test Stand (VTS) to obtain a baseline of quality factor, Q<sup>0</sup> vs. cw accelerating gradient, Eacc. The cavity was then warmed, removed from the VTS, and prepared for conduction cooling without disturbing the inner vacuum.\n\nA thermal conduction link [\\[14\\]](#page-9-3) of 5N aluminum (purity >99.999%) was machined out of stock plates, cleaned to remove surface oxide, and bolted to the cavity niobium rings. The bolting procedure [\\[15\\]](#page-9-4) involves interposing a 4 mil thick foil of indium between the niobium and aluminum plates and pressing the contact with 2 kN force applied by a silicon bronze screw, a brass nut, and stainless steel Belleville disc springs. The other termination of the thermal link was bolted to the 4 K stage of a pulse tube cryocooler. The cavity-thermal link assembly was then installed on a test setup [\\[16\\]](#page-9-6) (conduction-cooled test setup or CCTS) recently developed at Fermilab. This setup is comprised of a vacuum vessel, a magnetic shield (an enclosure with ∼10 mG background), a thermal radiation shield, and a Cryomech PT420 two-stage pulse tube cryocooler (rated to provide cooling of 2 W @ 4.2 K with 55 W @ 45 K). A new RF power source was also developed that can supply 10 W @ 650 MHz of cw power to the cavity, measuring the forward, reflected and transmitted powers, and locking the source frequency to the instantaneous resonance frequency of the cavity. For recording temperature of the cavity-cryocooler assembly, the cavity carried four cryogenic thermometers affixed to the niobium rings and the cryocooler carried one cryogenic thermometer on its 4 K stage. The cavity temperature referred to in this letter is the average of the four cavity thermometer readings.\n\n## 3. Cavity performance\n\nThree RF tests were performed including one with liquid helium (baseline) and two with cryocooler conduction cooling. Figure [2](#page-4-0) shows the cavity quality factor, Q<sup>0</sup> vs. cw accelerating gradient, Eacc (both accurate to within 10%), determined using standard cavity measurement procedure [\\[17\\]](#page-9-7). Test 1 was carried out in the Fermilab VTS with liquid helium and witnessed carefully controlled conditions viz. a background magnetic field of ∼2 mG and slow/uniform cooldown with rate of 0.1 K/min through the Nb3Sn superconducting transition temperature [\\[18\\]](#page-9-8) of 18 K. Both these factors reduce the residual surface resistance of Nb3Sn, which enhances the Q<sup>0</sup> of the cavity [\\[13\\]](#page-9-5). During the RF measurements, the cooling power of the helium bath was regulated using a vapor pumping system so that the cavity remained isothermal at ∼4.4 K over the range of Eacc. Test 1 recorded Q<sup>0</sup> of 3x10<sup>10</sup> at Eacc of 1 MV/m and Q<sup>0</sup> of 4x10<sup>9</sup> at Eacc of 10 MV/m. The highest gradient of ∼12 MV/m recorded in Test 1 was limited by RF power.\n\nFor Test 2, the cavity was cooled conductively using the cryocooler to below 4 K, with a slow cooldown rate of 0.03 K/min through the Nb3Sn transition temperature. Although the magnetic shield of the CCTS provided a background of ∼10 mG, we later found that some stainless-steel disc springs on the thermal link had residual field as high as 30 G. The slow cooldown in such high magnetic field is expected to trap the flux in the Nb3Sn layer, causing the cavity Q<sup>0</sup> to degrade significantly. A Q<sup>0</sup> of 6x10<sup>9</sup> at Eacc of 1 MV/m was recorded in Test 2, which is five times smaller than in Test 1. Limited by the power output of the RF source, the cavity produced maximum Eacc of ∼5.5 MV/m during Test 2. For Test 3, magnetically cleaner disc springs with residual of <1 G were installed on the thermal link. The cavity showed noticeable improvement: Q<sup>0</sup> of 10<sup>10</sup> was measured at Eacc of 1 MV/m and the cavity sustained maximum Eacc of ∼6.6 MV/m, limited again by input RF power.\n\nWe note in Figure [2,](#page-4-0) a distinction between the Q<sup>0</sup> vs. Eacc data measured with liquid helium and cryocooler conduction cooling. As previously mentioned, the helium bath temperature control system in the VTS (Test 1) held the cavity isothermal over the range of Eacc, yielding a Q<sup>0</sup> vs. Eacc curve at the near-constant temperature of ∼4.4 K.\n\n![](_page_4_Figure_1.jpeg)\n\n<span id=\"page-4-0\"></span>Figure 2. Cavity quality factor, Q<sup>0</sup> vs. accelerating gradient, Eacc measured on a single cell, Nb3Sn coated, 650 MHz niobium SRF cavity. The data uncertainty is <10%. Test 1 used a helium bath cooled cavity at 4.4 K, in Fermilab Vertical Test Stand with background magnetic field of 2 mG. In Tests 2 and 3, the cavity was conduction-cooled with a 2 W @ 4.2 K pulse tube cryocooler. The improvement in Test 3 resulted from the reduction of magnetic field around the cavity when magnetic disc springs (residual ∼30 G) were replaced with cleaner disc springs (residual <1 G).\n\nIn the CCTS, however, there was no temperature regulation system on the cryocooler. So as heat dissipation in the cavity increased with the increase in Eacc, the steady state temperature of the cavity increased as well. The color gradient in the data for Test 2 and Test 3 reflects this effect. Thus, unlike Test 1, the Q<sup>0</sup> vs. Eacc data from Test 2 and Test 3 do not correspond to a fixed cavity temperature but rather have the cavity temperature vary from ∼4 K to ∼7 K depending on the Eacc.\n\nTo understand the effectiveness of conductive heat extraction from locally near the equator, we plot in Figure [3](#page-5-0) the simulated surface temperature of the cavity during operation at 6.6 MV/m Eacc. The simulation uses the following boundary conditions: (a) temperature of 7.2 K at the inner faces of the conduction rings and (b) 4 W of RF heat applied on the cavity inner surface. Both of these were measured/determined from the experiments. Due to its small thickness and strong adhesion, the Nb3Sn layer is assumed to be in local thermal equilibrium with the niobium substrate. The temperature dependent thermal conductivity of niobium is estimated using the procedure given in [\\[19\\]](#page-9-9), using RRR=300 for the niobium. The temperature difference between the ring and the cavity iris is ∼0.15 K, indicating good thermal uniformity over the cavity surface. The overall temperature remains much below the superconducting transition temperature of Nb3Sn. The cooling technique can therefore be considered effective, especially because it is demonstrated on a 650 MHz cavity, which is large in size compared to other common elliptical SRF cavities (1.3 GHz, 3.9 GHz).\n\nFigure [4](#page-5-1) presents a summary of the present findings in terms of the cavity\n\n![](_page_5_Figure_1.jpeg)\n\n<span id=\"page-5-0\"></span>Figure 3. Simulated cavity surface temperature during operation at 6.6 MV/m Eacc. The conduction ring inner faces are held at the measured temperature of 7.2 K and 4 W of RF heat is applied on the inner surface of the cavity. The temperature difference between the ring and the cavity iris is ∼0.15 K.\n\n![](_page_5_Figure_3.jpeg)\n\n<span id=\"page-5-1\"></span>Figure 4. Dissipated power vs. temperature for the 650 MHz Nb3Sn single cell cavity under study compared with the PT420 cryocooler load curve. The load curve accounts for the 0.8 W heat leak prevailing during measurements. Observed notable cw gradients with conduction cooling (with their current limits) marked on the graph are: 3.4 MV/m at ∼4.4 K (cooling capacity) and 6.6 MV/m at ∼7.2 K (RF power). A Q<sup>0</sup> of ∼3x10<sup>10</sup> at 4.4 K is needed to achieve 10 MV/m with conduction cooling. An improved Nb3Sn coating has already attained this Q<sup>0</sup> in a recent test [\\[20\\]](#page-9-10) in the Fermilab VTS. For comparison, we show representative gradients measured in the VTS on the cavity before Nb3Sn coating.\n\ntemperature, dissipated power, and the corresponding Eacc. The plot is divided into two regions by the cryocooler load curve, accounted for the 0.8 W heat leak prevailing during the measurements. cw operation is not possible with the cryocooler in the shaded region because here the dissipated power exceeds the cryocooler capacity at a given temperature. For instance, the operation at 10 MV/m cw at 4.4 K with ∼7.2 W of dissipation lies in this region. The unshaded region allows cw operation with the cryocooler. At 4.4 K, conduction cooling produced a modest Eacc of ∼3.4 MV/m, limited by the cryocooling capacity at this temperature as well as due to the degraded Q<sup>0</sup> from flux trapping. However, with the increase in the cryocooling capacity with temperature, the cavity at ∼7.2 K generated an Eacc of ∼6.6 MV/m. This suggests that the attainable Eacc is not limited by the cryocooler cooling capacity at ∼4.4 K and significantly larger Eacc can be generated by letting the system operate warmer than ∼4.4 K.\n\nFigure [4](#page-5-1) also highlights that reaching practical cw gradients with a niobium cavity may not be feasible with the cryocooler. We show representative gradients obtained in the VTS on the cavity before coating with Nb3Sn. Eacc only upto 2 MV/m lay within the range of the cryocooler capacity at 4.4 K. Achieving higher gradients either needed more cooling capacity (∼6 W at 4.4 K to reach 4 MV/m) or higher Q<sup>0</sup> operation at colder temperature (2 K to produce 10 MV/m cw), both of which are out of the cryocooler cooling range.\n\nThe Eacc of ∼6.6 MV/m over Lacc = 0.23 m equals a calculated energy gain of ∼1.5 MeV. This clearly makes our existing configuration of one-cell cavity with onecryocooler practicable for treatment of industrial flue gas [\\[12\\]](#page-9-2). The attainable Eacc with one cryocooler can be pushed up by improving the Q<sup>0</sup> of our cavity. The ongoing efforts for Nb3Sn coating optimization have already produced a Q<sup>0</sup> of ∼3x10<sup>10</sup> at 10 MV/m cw on a similar 650 MHz single-cell cavity [\\[20\\]](#page-9-10) in the Fermilab VTS. The corresponding dissipation of ∼1.1 W at 4.4 K is now in the regime of cryocooler conduction cooling as marked in Figure [4.](#page-5-1) Replicating this performance with conduction cooling requires improvements to the magnetic hygiene of our CCTS. These improvements are underway including complete replacement of stainless-steel disc springs with those made of nonmagnetic beryllium-copper.\n\n## 4. Outlook and future work\n\nLarge accelerators (example, LCLS-II [\\[23\\]](#page-9-11)) using hundreds of cavities require kilowattlevel refrigeration at liquid helium temperatures. We emphasize that cryocoolers are not economical for such large-scale cooling demand due to their lower efficiency: a large helium cryoplant requires ∼0.4–0.8 kW(electrical)/W(cooling) while a cryocooler requires >10 kW(electrical)/W(cooling). However, it can be an enabler for a new class of compact, small-scale SRF accelerators, a concept of which is illustrated in Figure [5.](#page-7-0) Here we envision a 10 MeV e-beam source comprising of a meter-long 5-cell 650 MHz SRF cavity generating 10 MV/m cw [‡](#page-7-1). With ∼6–7 W of dissipation at 4.4 K, the cavity can be conduction-cooled using four 2 W cryocoolers. The design for components suitable for such a machine viz. a low heat leak input RF power coupler [\\[21\\]](#page-9-12) and an cavity-integrated electron source [\\[22\\]](#page-9-13) is currently underway.\n\nWe introduced a new method to cool an SRF cavity to cryogenic temperatures by conductively coupling to a closed-cycle 4 K cryocooler. The method when adopted in an SRF accelerator will eliminate the conventional liquid helium bath and offer robustness, reliability, and turn-key cryogenic operation, potentially making the SRF accelerator attractive for industrial settings. A 650 MHz Nb3Sn single-cell cavity generated cw gradient of ∼6.6 MV/m (calculated electron energy gain of 1.5 MeV) with Q<sup>0</sup> of 4x10<sup>9</sup> when cooled using a 2 W @ 4.2 K pulse tube cryocooler. Continued work targets to improve Q<sup>0</sup> to push the Eacc to 10 MV/m, develop conduction-cooling for multi-cell SRF cavities, study potential cavity microphonics resulting from cryocooler vibration,\n\n<span id=\"page-7-1\"></span>‡ The Nb3Sn SRF program at Fermilab has produced a 9-cell 1.3 GHz Nb3Sn cavity that generated >10 MV/m cw in the Fermilab VTS [\\[20\\]](#page-9-10). This is a critical step towards producing multi-cell SRF cavities needed for industrial SRF accelerators described in this letter.\n\n![](_page_7_Figure_4.jpeg)\n\n<span id=\"page-7-0\"></span>Figure 5. CAD rendering of a compact, meter-long e-beam SRF accelerator. The accelerator has a 4.5-cell 650 MHz cavity conductively coupled to the 4 K stage of four 2 W cryocoolers. Intermediate cooling for the thermal radiation shield is provided by the 50 K stage of the cryocoolers. The accelerator also has a low heat leak input RF power coupler [\\[21\\]](#page-9-12) and a cavity-integreated electron gun [\\[22\\]](#page-9-13).\n\nand develop a compact SRF accelerator as a source for 1−10 MeV energy, high average power e-beams for industrial and environmental applications.\n\nIn parallel to our efforts, it is encouraging to witness the growing interest in conduction-cooling of SRF cavities as demonstrated on a smaller 1.5 GHz cavity by the Jefferson Lab SRF group [\\[24\\]](#page-9-14).\n\n## 5. Acknowledgement\n\nThis manuscript has been authored by Fermi Research Alliance, LLC under Contract No. DE-AC02-07CH11359 with the U.S. Department of Energy, Office of Science, Office of High Energy Physics. The work was supported by Fermilab Laboratory Directed Research and Development (LDRD). We sincerely thank Dr. Robert D. Kephart, scientist emeritus at Fermilab, for his foundational work on this concept. We also thank the staff of Illinois Accelerator Research Center, Fermilab Accelerator Division Mechanical Support, and Fermilab SRF group for several technical contributions to this work. The Nb3Sn coating infrastructure was supported by Fermilab LDRD and S. Posen DOE Early Career Award. We thank Dr. Roman Kostin and Yubin Zhao of Euclid Techlabs, LLC for their assistance with the cavity simulations and the design of the RF system used in the present work.\n\n## <span id=\"page-8-0\"></span>6. References\n\n- <span id=\"page-8-1\"></span>[1] Chmielewski A G 2011 Reviews of Accelerator Science and Technology 4 149–161 DOI:10.1142/S1793626811000501\n- <span id=\"page-8-2\"></span>[2] Henderson S and Waite T 2015 Report of Workshop on Energy and Environmental Applications of Accelerators, Argonne, IL US Department of Energy\n- [3] Grassellino A, Romanenko A, Trenikhina Y, Checchin M, Martinello M, Melnychuk O S, Chandrasekaran S, Sergatskov D, Posen S, Crawford A C, Aderhold S and Bice D 2017 Superconductor Science and Technology 30(9) 094004 DOI:10.1088/1361-6668/aa7afe\n- <span id=\"page-8-4\"></span><span id=\"page-8-3\"></span>[4] Posen S, Liepe M and Hall D L 2015 Applied Physics Letters 106(8) 082601 DOI:10.1063/1.4913247\n- [5] White M, Martinez A, Bossert R, Dalesandro A, Geynisman M, Hansen B, Klebaner A, Makara J, Pei L, Richardson D, Soyars W and Theilacker J 2014 AIP Conference Proceedings 1573 179–186\n- <span id=\"page-8-5\"></span>[6] Nagimov R, Bylinsky I, Kishi D, Koscielniak S, Koveshnikov A, Laxdal R and Yosifov D 2018 The operational experience of e-linac cryogenic system at TRIUMF Proceedings of IPAC2018 (Vancouver BC, Canada) pp 3928–3930 dOI: 10.18429/JACoW-IPAC2018-THPAL121\n- <span id=\"page-8-6\"></span>[7] Kikuzawa N, Nagai R, Sawamura M, Nishimori N, Minehara E and Suzuki Y 1997 Performance of compact refrigerators system for SRF cavities in JAERI FEL Proceedings of the 1997 Workshop on RF Superconductivity (Abano Terme (Padova), Italy) pp 769–773\n- <span id=\"page-8-8\"></span><span id=\"page-8-7\"></span>[8] Information on pulse tube cryocooler reliability available from Cryomech, Inc (https://www.cryomech.com/cryocoolers/)\n- [9] Kephart R, Chase B, Gonin I, Grassellino A, Kazakov S, Khabiboulline T, Nagaitsev S, Pasquinelli R, Posen S, Pronitchev O, Romanenko A, Yakovlev V, Biedron S, Milton S, Sipahi N, Chattopadhyay S and Piot P 2015 SRF, compact accelerators for industry & society Proceedings of SRF2015 (Whistler BC, Canada) pp 1467–1473\n- <span id=\"page-9-1\"></span><span id=\"page-9-0\"></span>[10] Holzbauer J P and Nassiri A 2014 Nuclear Instruments and Methods in Physics Research A 767 407–414 DOI:10.1016/j.nima.2014.08.041\n- [11] Kostin R, Kanareykin A, Kephart R D, J C T Thangaraj, Dhuley R C, Geelhoed M I, Kroc T K and Prokofiev O 2018 Operation regime analysis of conduction cooled cavities through multiphysics simulation Proceedings of IPAC2018 (Vancouver BC, Canada) DOI:10.18429/JACoW-IPAC2018-WEPML010\n- <span id=\"page-9-2\"></span>[12] Ciovati G, Anderson J, Coriton B, Guo J, Hannon F, Holland L, LeSher M, Marhauser F, Rathke J, Rimmer R, Schultheiss T and Vylet V 2018 Physical Review Accelerators and Beams 21 091601 DOI:10.1103/PhysRevAccelBeams.21.091601\n- <span id=\"page-9-5\"></span><span id=\"page-9-3\"></span>[13] Posen S and Hall D L 2017 Superconductor Science and Technology 30(3) 033004 DOI:10.1088/1361-6668/30/3/033004\n- [14] Dhuley R, Kostin R, Prokofiev O, Geelhoed M, Nicol T H, Posen S, JCT Thangaraj, Kroc T and Kephart R 2019 IEEE Transactions on Applied Superconductivity 29(5) 0500205 DOI:10.1109/TASC.2019.2901252\n- <span id=\"page-9-6\"></span><span id=\"page-9-4\"></span>[15] Dhuley R C, Geelhoed M I and J C T Thangaraj 2018 Cryogenics 93 86–93 DOI:10.1016/j.cryogenics.2018.06.003\n- <span id=\"page-9-7\"></span>[16] Dhuley R C, Terechkine I, Prokofiev O, Zhao Y, Geelhoed M I, J C T Thangaraj and Alvarez M IOP Conference Series: Materials Science and Engineering (to appear)\n- <span id=\"page-9-8\"></span>[17] Melnychuk O, Grassellino A and Romanenko A 2014 Review of Scientific Instruments 85 124705 DOI:10.1063/1.4903868\n- [18] Peiniger M, Hein M, Klein N, Mueller G, Piel H and Thuenus P 1988 Work on Nb3Sn cavities at Wuppertal Proceedings of the 3rd workshop on RF (radiofrequency) superconductivity (Argonne IL, USA) pp 503–531\n- <span id=\"page-9-10\"></span><span id=\"page-9-9\"></span>[19] Koechlin F and Bonin B 1996 Superconductor Science and Technology 9(6) 453 DOI:10.1088/0953- 2048/9/6/003\n- [20] Posen S, Lee J, Melnychuk O, Pischalnikov Y, Seidman D, Sergatskov D and Tennis B 2019 Nb3Sn at Fermilab: Exploring Performance Proceedings of 19th International Conference on RF Superconductivity (Dresden, Germany) pp 820–824 dOI:10.18429/JACoW-SRF2019-THFUB1\n- <span id=\"page-9-13\"></span><span id=\"page-9-12\"></span>[21] Kazakov S 15 Oct 2019 U.S. Patent No. 10448496B2\n- [22] Mohsen O, McKeown A, Mihalcea D, Dhuley R C, Geelhoed M I, Korampally V, Piot P, Salehinia I and J C T Thangaraj 2019 Simulations and experimental plans for a high-repetitionrate field-enhanced conduction-cooled superconducting RF electron source Proceedings of 10th International Particle Accelerator Conference (Melbourne, Australia) pp 2113–2116 dOI:10.18429/JACoW-IPAC2019-TUPTS083\n- <span id=\"page-9-11\"></span>[23] Ravindranath V, Bai H, Heloin V, Fauve E, Pflueckhahn D, Peterson T, Arenius D, Bevins M, Scanlon C and Than R 2017 IOP Conference Series: Materials Science and Engineering 278 012106 DOI:10.1088/1757-899X/278/1/012106\n- <span id=\"page-9-14\"></span>[24] Ciovati G, Cheng G, Pudasaini U and Rimmer R arXiv:2001.10924 [physics.ins-det]",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "First demonstration of a cryocooler conduction\ncooled superconducting radiofrequency cavity\noperating at practical cw accelerating gradients",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              68.431640625,
+              144.30511474609375
+            ],
+            [
+              475.2651672363281,
+              144.30511474609375
+            ],
+            [
+              475.2651672363281,
+              206.5078125
+            ],
+            [
+              68.431640625,
+              206.5078125
+            ]
+          ]
+        },
+        {
+          "title": "1. Introduction",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              71.19580078125,
+              535.0322570800781
+            ],
+            [
+              162.51199340820312,
+              535.0322570800781
+            ],
+            [
+              162.51199340820312,
+              546.9874725341797
+            ],
+            [
+              71.19580078125,
+              546.9874725341797
+            ]
+          ]
+        },
+        {
+          "title": "2. Development of conduction cooling for elliptical SRF cavities",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              70.822265625,
+              411.552001953125
+            ],
+            [
+              450.03515625,
+              411.552001953125
+            ],
+            [
+              450.03515625,
+              423.5072021484375
+            ],
+            [
+              70.822265625,
+              423.5072021484375
+            ]
+          ]
+        },
+        {
+          "title": "3. Cavity performance",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              71.34521484375,
+              268.0322265625
+            ],
+            [
+              204.697265625,
+              268.0322265625
+            ],
+            [
+              204.697265625,
+              279.9874267578125
+            ],
+            [
+              71.34521484375,
+              279.9874267578125
+            ]
+          ]
+        },
+        {
+          "title": "4. Outlook and future work",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              71.12109375,
+              602.7129364013672
+            ],
+            [
+              235.775390625,
+              602.7129364013672
+            ],
+            [
+              235.775390625,
+              614.6681365966797
+            ],
+            [
+              71.12109375,
+              614.6681365966797
+            ]
+          ]
+        },
+        {
+          "title": "5. Acknowledgement",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              71.04638671875,
+              188.35205078125
+            ],
+            [
+              194.58450317382812,
+              188.35205078125
+            ],
+            [
+              194.58450317382812,
+              200.3072509765625
+            ],
+            [
+              71.04638671875,
+              200.3072509765625
+            ]
+          ]
+        },
+        {
+          "title": "6. References",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              71.79345703125,
+              409.5125427246094
+            ],
+            [
+              151.87939453125,
+              409.5125427246094
+            ],
+            [
+              151.87939453125,
+              421.4677429199219
+            ],
+            [
+              71.79345703125,
+              421.4677429199219
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              97
+            ],
+            [
+              "Line",
+              35
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              115
+            ],
+            [
+              "Line",
+              40
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              163
+            ],
+            [
+              "Line",
+              39
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              244
+            ],
+            [
+              "Line",
+              41
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              160
+            ],
+            [
+              "Line",
+              51
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              143
+            ],
+            [
+              "Line",
+              53
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              198
+            ],
+            [
+              "Line",
+              40
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              117
+            ],
+            [
+              "Line",
+              32
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              131
+            ],
+            [
+              "Line",
+              43
+            ],
+            [
+              "ListItem",
+              9
+            ],
+            [
+              "Reference",
+              9
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              146
+            ],
+            [
+              "Line",
+              39
+            ],
+            [
+              "ListItem",
+              15
+            ],
+            [
+              "Reference",
+              15
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/SqwOe3c4maaWzOI6-LMiaQ"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 10,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "First demonstration of a cryocooler conduction cooled superconducting radiofrequency cavity operating at practical cw accelerating gradients",
+    "authors": [
+      {
+        "authors_list": [
+          "Dhuley, R. C.",
+          "Posen, S.",
+          "Geelhoed, M. I.",
+          "Prokofiev, O.",
+          "Thangaraj,"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "We demonstrate practical accelerating gradients on a superconducting radiofrequency (SRF) accelerator cavity with cryocooler conduction cooling, a cooling technique that does not involve the complexities of the conventional liquid helium bath. A design is first presented that enables conduction cooling an elliptical-cell SRF cavity. Implementing this design, a single cell 650 MHz Nb<SUB>3</SUB>Sn cavity coupled using high purity aluminum thermal links to a 4 K pulse tube cryocooler generated accelerating gradients up to 6.6 MV m<SUP>-1</SUP> at 100% duty cycle. The experiments were carried out with the cavity-cryocooler assembly in a simple vacuum vessel, completely free of circulating liquid cryogens. We anticipate that this cryocooling technique will make the SRF technology accessible to interested accelerator researchers who lack access to full-stack helium cryogenic systems. Furthermore, the technique can lead to SRF based compact sources of high average power electron beams for environmental protection and industrial applications. A concept of such an SRF compact accelerator is presented.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Superconductor Science Technology",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2001.07821"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1088/1361-6668/ab82f0",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2020SuScT..33fLT01D"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

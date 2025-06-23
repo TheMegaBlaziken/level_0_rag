@@ -1,0 +1,826 @@
+{
+  "id": "b4e471bdf8826683768e24a6e0091abd",
+  "pdf_path": "apl/Superconductors/arXiv:2004.10921.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **Effect of layer thickness on structural, morphological and superconducting properties of Nb3Sn films fabricated by multilayer sequential sputtering**\n\nM N Sayeed1,2, U Pudasaini<sup>3</sup> , C E Reece<sup>4</sup> , G V Eremeev<sup>4</sup> , H E Elsayed-Ali1,2\n\nDepartment of Electrical and Computer Engineering, Old Dominion University, Norfolk, VA 23529, USA Applied Research Center, 12050 Jefferson Avenue, Newport News, VA 23606, USA Applied Science Department, The College of William and Mary, Williamsburg, VA 23185, USA Thomas Jefferson National Accelerator Facility, Newport News, VA 23606, USA E-mail: [msaye004@odu.edu](mailto:msaye004@odu.edu)\n\n# **Abstract**.\n\nSuperconducting Nb3Sn films can be synthesized by controlling the atomic concentration of Sn. Multilayer sequential sputtering of Nb and Sn thin films followed by high temperature annealing is considered as a method to fabricate Nb3Sn films, where the Sn composition of the deposited films can be controlled by the thickness of alternating Nb and Sn layers. We report on the structural, morphological and superconducting properties of Nb3Sn films fabricated by multilayer sequential sputtering of Nb and Sn films on sapphire substrates followed by annealing at 950 °C for 3 h. We have investigated the effect of Nb and Sn layer thickness and Nb:Sn ratio on the properties of the Nb3Sn films. The crystal structure, surface morphology, surface topography, and film composition were characterized by X-ray diffraction (XRD), scanning electron microscopy (SEM), atomic force microscopy (AFM), and energy dispersive X-ray spectroscopy (EDS). The results showed Sn loss from the surface due to evaporation during annealing. Superconducting Nb3Sn films of critical temperature up to 17.93 K were fabricated.\n\n# **1. Introduction**\n\nNb3Sn is one of the type II superconductors that has wide applications from DC high-field magnets to radiofrequency cavities [1‒5]. Magnetron sputtering is considered as one of the fabrication methods used to synthesize Nb3Sn films. Nb3Sn can be fabricated either from a stoichiometric Nb3Sn single target [6, 7], or from sputtering of Nb and Sn followed by annealing [8]. Deposited films should maintain a controlled Sn composition range with atomic composition of 17‒26% to obtain superconducting Nb3Sn films [3]. For multilayer growth, the atomic Sn concentration of the films can be controlled by varying the thickness of the Nb and Sn layers.\n\nWe report on the structural, morphological and electrical properties of Nb3Sn films fabricated by multilayer sequential sputtering of Nb and Sn films on sapphire substrates followed by annealing at 950 °C for 3 h. The temperature and time were selected based on previously reported work on Nb3Sn fabrication [8]. The film properties were characterized for different layer thicknesses of Nb and Sn multilayers. The role of layer thickness was studied by varying the thickness of the Nb layers while keeping the Sn layer thickness constant, which adjusts the stoichiometry and by varying the thickness of both Nb and Sn layers while keeping the Nb:Sn thickness ratio constant.\n\n# **2. Experimental details**\n\n#### *2.1.Fabrication*\n\nNb3Sn films were grown by annealing sequentially-sputtered multilayers of Nb and Sn. Some details on the deposition chamber, substrate, and target materials were described elsewhere [8]. Multiple layers of Nb and Sn with different thicknesses were deposited sequentially with the first layer Sn and the final layer Nb. The final Nb layer minimizes Sn loss during post-deposition annealing. Films were deposited in a high vacuum chamber at 4 × 10-3 mbar Ar sputtering gas (99.999% purity) with a flow rate of 20 SCCM. The substrate holder was rotated at 30 rpm throughout the sputtering process to maintain a homogenous deposition. Information about the film thickness is shown in Table 1. In the study of film stoichiometry, we chose a constant thickness of 10 nm of Sn and four thicknesses (10, 20, 30 and 40 nm) of Nb layers. These four conditions are referred to as conditions 1‒4 in our results. The total thickness for all four conditions was kept constant (~900 nm) by varying the number of layers. In another set of films, we kept the Nb-to-Sn thickness ratio 2:1. For all films on these conditions, the total thickness was ~1.2 µm. These four conditions will be referred as conditions 5‒8 in our results. All films were annealed in a separate vacuum furnace at 950 °C for 3 h with a temperature ramp rate of 12 °C/min.\n\n|                      | Condition | Nb layer<br>thickness<br>(nm) | Sn layer<br>thickness<br>(nm) | Nb:Sn | Total<br>thickness<br>(nm) |\n|----------------------|-----------|-------------------------------|-------------------------------|-------|----------------------------|\n| Films with different | 1         | 10                            | 10                            | 1     | 900                        |\n| stoichiometry        | 2         | 20                            | 10                            | 2     | 900                        |\n|                      | 3         | 30                            | 10                            | 3     | 900                        |\n|                      | 4         | 40                            | 10                            | 4     | 900                        |\n| Films with fixed     | 5         | 10                            | 5                             | 2     | 1200                       |\n| stoichiometry        | 6         | 20                            | 10                            | 2     | 1200                       |\n|                      | 7         | 50                            | 25                            | 2     | 1200                       |\n|                      | 8         | 200                           | 100                           | 2     | 1200                       |\n\n**Table 1.** Deposition conditions of the films.\n\n#### *2.2.Characterization*\n\nX-ray diffraction (XRD) patterns of the films were obtained from Rigaku Miniflex II X-ray diffractometer with Cu-Kα radiation. The crystallite sizes of the films were measured from the peak broadening using Scherrer's equation [9]. The film microstructure was observed by field-emission scanning electron microscopic (SEM) images (FESEM S-4700, Hitachi, Japan). A Noran 6 energy dispersive X-ray spectroscopy (EDS) detector connected to a Jeol JSM 6060 LV scanning electron microscope system was used to quantitatively measure the surface composition. EDS was performed using 15 kV accelerating voltage on a surface covering 1.2 mm<sup>2</sup> area from each condition and the composition was measured on 5 different areas. The surface roughness of the samples were measured from the AFM images obtained by a Digital Instrument Dimension 3100 Atomic Force Microscope (AFM) in tapping mode. Root mean square (RMS) roughness was obtained over 5 × 5 µm scan area. Superconducting *Tc*'s were measured by fourpoint probe resistance measurement down to cryogenic temperature. *T<sup>c</sup>* was calculated from the mean value of *T <sup>90</sup>* and *T <sup>10</sup>* (temperature when the resistance is 90% and 10% of the final resistance before transition respectively) and the superconducting transition width *ΔT<sup>c</sup>* was calculated from the difference of *T <sup>90</sup>* and *T 10* .\n\n# **3. Results**\n\n# *3.1. Film with different stoichiometry 3.1.1. Structural properties.*\n\nThe Sn composition of as-deposited and annealed films are shown in Table 2. The Sn composition was reduced with increasing Nb layer thickness on as-deposited films. About 43.6% Sn was observed on films with condition 1, where both Nb and Sn layer thickness was maintained at 10 nm. All annealed films showed Sn loss after annealing. Large amount of Sn loss was observed on films with condition 1. The Sn composition changed from ~43.6% to ~23.8%. This large amount of Sn loss occurred due to sublimation of Sn during annealing. All annealed films showed Sn composition ~20*‒*23%. The composition of the asdeposited films was ~16% in condition 4, however, the annealed film had ~20% Sn. Annealed film showed more Sn due to the uniform distribution of Sn throughout the film after annealing.\n\n| Condition | At. % Sn<br>as-deposited | At. % Sn<br>annealed | RMS Roughness<br>(nm) | Tc<br>(K) | ∆Tc<br>(K) |\n|-----------|--------------------------|----------------------|-----------------------|-----------|------------|\n| 1         | 43.6                     | 23.8                 | 66.2±24.3             | 17.93     | 0.02       |\n| 2         | 28.4                     | 23.0                 | 31.8±3.2              | 17.84     | 0.03       |\n| 3         | 20.3                     | 21.4                 | 31.6±0.9              | 17.56     | 0.09       |\n| 4         | 16.0                     | 20.2                 | 26.8±1.2              | 17.54     | 0.11       |\n| 5         | 29.5                     | 23.1                 | 28.2±2.9              | 17.82     | 0.02       |\n| 6         | 28.9                     | 21.7                 | 31.5±1.2              | 17.83     | 0.01       |\n| 7         | 27.2                     | 22.4                 | 41.0±5.5              | 17.83     | 0.02       |\n| 8         | 20.0                     | 21.4                 | 64.7±3.2              | 17.84     | 0.03       |\n\n**Table 2.** Summary of structural, morphological, and superconducting data.\n\nFigure 1 shows the SEM and AFM images of the films. For condition 1, where the Nb and Sn layer thicknesses were 10 nm, several clusters separated by large voids were observed. The grains were not visible on the surface of this film. However, for the other three conditions, the films had surfaces with uniformly distributed grains showing some voids. The film grown with condition 4, where the Nb:Sn thickness ratio was 4:1, showed smaller grains than that for other conditions. The surface roughness for condition 1 was higher due to the film having clusters of larger heights and deeper voids. The RMS roughness for this condition is 66.2±24.3 nm. The large standard deviation originated from the irregular distribution of the clusters and voids. Films with the other three conditions had smoother surfaces. The average roughness was measured to be 31.8±3.2, 31.6±0.9, and 26.8±1.2 nm for conditions 2, 3, and 4, respectively.\n\nThe XRD patterns of the films with different Nb thicknesses (10, 20, 30, 40 nm) and constant Sn thickness of 10 nm after annealing at 950 °C for 3 h are compared in Figure 2 (a). All annealed films were polycrystalline Nb3Sn films showing (200), (210), (222), (320), (321), (400), (420), (421) diffraction orders. The crystallite size and lattice parameter corresponding to Nb3Sn (210) diffraction peak of the films as a function of Nb:Sn thickness ratio are shown in Figure 1 (b). The crystallite size decreased with increasing Nb layer thickness, which is in agreement with the grain size observed in SEM and AFM. Lattice parameters calculated from the *d* value of XRD peak are less than lattice parameter of bulk Nb3Sn (5.290 Å). This is because the Sn composition in the film is less than ideal condition of 25%.\n\n![](_page_4_Figure_0.jpeg)\n\n**Figure 1.** SEM and AFM images of the films: (a) and (e) condition 1, (b) and (f) condition 2, (c) and (g) condition 3, (d) and (h) condition 4.\n\n#### *3.1.2. Superconducting properties.*\n\nThe resistivity versus temperature is shown in Figure 2 (c). The calculated Tc, and ∆T<sup>c</sup> from the graph are shown in Table 2 and Figure 2 (d). All films exhibited good superconducting properties. The highest critical temperature is observed on the film fabricated with condition 1, where the Nb and Sn thicknesses were the same. Better T<sup>c</sup> at this condition was obtained due to higher Sn composition on the annealed films. It has been reported that T<sup>c</sup> of Nb3Sn is dependent on the Sn composition of the films [1]. The transition width also became wider with increasing Nb:Sn.\n\n![](_page_5_Figure_0.jpeg)\n\n**Figure 2.** (a) X-ray diffraction patterns of the films with conditions 1‒4, (b) crystallite size and lattice parameters of the films as a function of Nb:Sn film thickness, (c) resistivity versus temperature of the films, (d) corresponding *T<sup>c</sup>* and *∆T<sup>c</sup>* for different Nb:Sn layer thicknesses.\n\n### *3.2.Films with similar stoichiometry*\n\n#### *3.2.1. Structural properties.*\n\nAll annealed films (conditions 4*‒*8) had Sn composition in the range of 21*‒*23%. Figure 3 shows the SEM and AFM images of annealed films of different thicknesses. These films showed uniformly distributed grains with some voids, similar to those fabricated under conditions 1‒4. However, for films fabricated under condition 8 (Figure 3 (d) and (h)), the presence of deep voids was not observed. Surface of the film for this condition shows small grains aggregating into clusters. The color pattern on the AFM image of the surface in Figure 3 (h) confirmed that the clusters have different heights, which caused a relatively rough surface. RMS roughness of the films are shown in Table 2. The surface became increasingly rough with increased layer thickness. The lowest roughness of 28.2±2.9 nm was observed for films of condition 5 (Sn\nlayer thickness 5 nm), whereas films of condition 8 (Sn layer thickness 100 nm) had the highest surface roughness of 64.7±3.2 nm.\n\n![](0__page_6_Figure_1.jpeg)\n\n**Figure 3.** SEM and AFM images of the films: (a) and (e) condition 5, (b) and (f) condition 6, (c) and (g) condition 7, (d) and (h) condition 8.\n\nFigure 4 (a) shows the XRD patterns of annealed films with condition 5‒8. Similar to the films fabricated under condition 1‒4, these films also exhibit diffraction peaks corresponding to Nb3Sn (200), (210), (222), (320), (321), (400), (420), (421) orders. The lattice parameter and crystallite size of (210) reflection is shown in Figure 4 (b). The lattice parameter and crystallite size correspond to the film fabricated under condition 2 is also plotted. The lattice parameter of the films showed little variation due to the almost similar Sn composition of the films. The crystallite size of the films also did not vary significantly with increased layer thickness. Films for condition 5 had crystallites with an average size of 72.1±5.2 nm, whereas the films for condition 8 had crystallites with an average size of 68.5±2.5 nm.\n\n## *3.2.2. Superconducting properties.*\n\nThe surface resistivity of the films for different Sn layer thicknesses is shown in Figure 4 (c) and the corresponding *T<sup>c</sup>* and ∆*T<sup>c</sup>* data are shown in Table 2 and Figure 4 (d), respectively. The *T<sup>c</sup>* and ∆*T<sup>c</sup>* of all films are close. Slight increased *T<sup>c</sup>* is observed on the film for condition 8, however, the ∆*T<sup>c</sup>* also increased.\n\n![](0__page_7_Figure_0.jpeg)\n\n**Figure 4.** (a) X-ray diffraction patterns of the films with condition 5‒8, (b) crystallite size and lattice parameters of the films as a function of Sn film thickness, (c) resistivity vs temperature curve of the films, (d) corresponding *T<sup>c</sup>* and *∆T<sup>c</sup>* as a function of Sn layer thickness with condition 5‒8.\n\n## **4. Discussion**\n\nSn composition plays an important role on the superconducting properties of Nb3Sn. In SRF cavities, Nb3Sn films coated by conventional Sn vapor diffusion method resulted to Sn deficient patchy regions which degraded the performance of SRF cavities [10, 11]. Therefore, it is important to maintain the stoichiometry of the films after annealing. We have experienced Sn loss for almost all deposition conditions after annealing. This Sn loss resulted from the Sn diffusion and evaporation from the surface. The Sn composition for annealed films obtained from EDS in conditions 3, 4 and 8 are higher than that of asdeposited films. This is due to the limitation of the spatial resolution of EDS. For 15 keV electron, the Anderson-Hasler equation [12] gives the X-ray transmission fraction of 0.68 µm for Nb-Lα lines and 0.76 µm for Sn-Lα lines, which is shorter than the thicknesses of the deposited films. Because of the short Xray escape depth, layer ordering and the individual layer thickness affects the apparent EDS composition. Films, where the top layer is thick Nb, such as films with condition 3, 4, and 8, appear Nb-rich in EDS measurements. The annealed film showed more Sn due to the uniform distribution of Sn throughout the film after annealing.\n\nThe critical temperature of Nb3Sn varies from 6 to 18.3 K when the Sn composition varies from 17 to 26% [1]. According to the critical temperature versus atomic Sn content plot reported by Godeke [1], the *T<sup>c</sup>* of films with 22% Sn should be ~10‒12 K whereas our fabricated films had *T<sup>c</sup>* of ~17.83 K. One possible explanation of higher *T<sup>c</sup>* on our fabricated films is Sn content variation in Nb3Sn. Depth profile of the films can provide the distribution of Sn content throughout the films. Though we reported ToF-SIMS depth profile of the films coated on Nb substrates before [13], we have not observed it for films on sapphire substrates. Off-stoichiometric Nb3Sn films with high *T<sup>c</sup>* were observed previously on the films grown on sapphire substrate by magnetron sputtering from a single target. Kampwirth *et al.* reported Nb3Sn film on sapphire substrate with superconducting transition range of 17‒17.5 K where atomic Sn composition was ~22% [14]. Recently, Ilyina *et al.* reported Nb3Sn films with a *Tc* of 17.5 K on Al2O<sup>3</sup> substrate whereas films of same condition on copper substrates resulted to reduced *T<sup>c</sup>* of 14.7 K [7].\n\nThe surface morphology of the films is affected by the coating parameters. It is possible to change the surface roughness varying the thickness of Nb and Sn layers. The grain sizes of the films were also varied when Nb:Sn ratio was varied. The cross-section image of these films could give more detailed idea about the grain structure near the surface as well as the interface. The technique has been used on vapor-diffused samples [15], but not yet on the present films.\n\n#### **5. Conclusion**\n\nNb3Sn films were fabricated by sputtering multilayers of Nb and Sn with varied layer thicknesses followed by annealing. Throughout annealing, evaporation of Sn from the surface and growth of Nb3Sn by diffusion of Sn into Nb surface occur simultaneously. Sn loss is the outcome of the competition of these two processes. Sn loss depends on annealing parameters (annealing temperature and annealing time). For annealing at 950 °C for 3 h, Sn composition were 20‒23% for all coating conditions. The surface morphology and the roughness of the films varied with the thickness of the layers. For different Nb:Sn thicknesses, the grain size and surface roughness decreased with increasing thickness ratio. For different layer thicknesses with constant thickness ratio, the surface roughness increased with increasing thickness of the layers, whereas the grain size did not vary significantly. All films showed good superconducting properties with a superconducting critical temperature *Tc* up to 17.93 K.\n\n## **Acknowledgments**\n\nThis material is based upon work supported by the U.S. Department of Energy, Office of Science, Office of Nuclear Physics under Contract No. DE-AC05-06OR23177. The authors acknowledge Michael J. Kelley, Gianluigi Ciovati for their suggestions and Joshua Spradlin for his help with *T<sup>c</sup>* measurement.\n\n# **References**\n\n- [1] A Godeke, \"A review of the properties of Nb3Sn and their variation with A15 composition, morphology and strain state,\" *Superconductor Science and Technology*, vol. 19, no. 8, pp. R68- R80, 2006.\n- [2] X. Xu, \"A review and prospects for Nb3Sn superconductor development,\" *Superconductor Science and Technology*, vol. 30, no. 9, p. 093001, 2017.\n- [3] S. Posen and D. L. Hall, \"Nb3Sn superconducting radiofrequency cavities: fabrication, results, properties, and prospects,\" *Superconductor Science and Technology*, vol. 30, no. 3, p. 033004, 2017.\n- [4] A.-M. Valente-Feliciano, \"Superconducting RF materials other than bulk niobium: a review,\" *Superconductor Science and Technology*, vol. 29, no. 11, p. 113002, 2016.\n- [5] U. Pudasaini et al., \"Recent Results from Nb3Sn Single Cell Cavities Coated at Jefferson Lab\", in *Proc. 19th International Conference on RF Superconductivity, (SRF'19)*, Dresden, Germany, doi: 10.18429/JACoW-SRF2019-MOP018.\n- [6] C. Wu, R. Kampwirth, and J. Hafstrom, \"High‐rate magnetron sputtering of high T<sup>c</sup> Nb3Sn films,\" *Journal of Vacuum Science and Technology*, vol. 14, no. 1, pp. 134-137, 1977.\n- [7] E. Ilyina et al., \"Development of sputtered Nb3Sn films on copper substrates for superconducting radiofrequency applications,\" *Superconductor Science and Technology*, vol. 32, no. 3, p. 035002, 2019.\n- [8] M. N. Sayeed, U. Pudasaini, C. E. Reece, G. Eremeev, and H. E. Elsayed-Ali, \"Structural and superconducting properties of Nb3Sn films grown by multilayer sequential magnetron sputtering,\" *Journal of Alloys and Compounds*, vol. 800, pp. 272-278, 2019.\n- [9] B. Cullity, *Elements of X-Ray Diffraction 2nd edition*, Addision-Wesley Pub. Co, Inc., CA USA, vol. 197, p. 356, 1978.\n- [10] J. Lee, S. Posen, Z. Mao, Y. Trenikhina, K. He, D.L. Hall, M. Liepe, and D.N. Seidman, \"Atomicscale analyses of Nb3Sn on Nb prepared by vapor diffusion for superconducting radiofrequency cavity applications: a correlative study\", *Superconductor Science and Technology*, 32(2), p.024001, 2018.\n- [11] Y. Trenikhina, S. Posen, A. Romanenko, M. Sardela, J.M. Zuo, D.L. Hall, and M. Liepe, \"Performance-defining properties of Nb3Sn coating in SRF cavities\", *Superconductor Science and Technology*, 31(1), p.015004, 2017.\n- [12] C.A. Anderson, M.F. Hasler, in X-ray Optics and Microanalysis, *Fourth International Congress on X-ray Optics and Microanalysis, Orsay*, 1965, eds. by R. Castaing, P. Deschamps, K. Philibert (Herman, Paris, 1966), p. 310.\n- [13] M.N. Sayeed, H. Elsayed-Ali, G.V. Eremeev, M.J. Kelley, U. Pudasaini, and C.E. Reece, \"Magnetron Sputtering of Nb3Sn for SRF Cavities\", in *Proc. 9th Int. Particle Accelerator Conf. (IPAC'18)*, Vancouver, BC, Canada, Apr. 4,, pp. 3946-3949, doi:10.18429/JACoW-IPAC2018- THPAL129.\n- [14] R. Kampwirth, J. Hafstrom, and C. Wu. \"Application of high rate magnetron sputtering to the fabrication of A-15 compounds.\" *IEEE Transactions on Magnetics* 13.1: 315-318, 1977.\n- [15] J. Tuggle, U. Pudasaini, J. Angle, G. Eremeev, C.E. Reece, F.A. Stevie, and M.J. Kelley, \"Electron backscatter diffraction of Nb3Sn coated niobium: Revealing structure as a function of depth\", *Journal of Vacuum Science & Technology B*, 37(5), 052901, 2019.",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Effect of layer thickness on structural, morphological and \nsuperconducting properties of Nb3Sn films fabricated by multilayer \nsequential sputtering",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              74.70703125,
+              74.05419921875
+            ],
+            [
+              540.2507934570312,
+              74.05419921875
+            ],
+            [
+              540.2507934570312,
+              126.8541259765625
+            ],
+            [
+              74.70703125,
+              126.8541259765625
+            ]
+          ]
+        },
+        {
+          "title": "Abstract.",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              282.1700134277344,
+              274.43145751953125
+            ],
+            [
+              329.69000244140625,
+              274.43145751953125
+            ],
+            [
+              329.69000244140625,
+              286.43145751953125
+            ],
+            [
+              282.1700134277344,
+              286.43145751953125
+            ]
+          ]
+        },
+        {
+          "title": "1. Introduction",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              71.04638671875,
+              546.7314605712891
+            ],
+            [
+              155.35198974609375,
+              546.7314605712891
+            ],
+            [
+              155.35198974609375,
+              559.1953125
+            ],
+            [
+              71.04638671875,
+              559.1953125
+            ]
+          ]
+        },
+        {
+          "title": "2. Experimental details",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              71.457275390625,
+              241.281494140625
+            ],
+            [
+              196.37998962402344,
+              241.281494140625
+            ],
+            [
+              196.37998962402344,
+              253.880859375
+            ],
+            [
+              71.457275390625,
+              253.880859375
+            ]
+          ]
+        },
+        {
+          "title": "2.1.Fabrication",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              87.7060546875,
+              262.004150390625
+            ],
+            [
+              161.96484375,
+              262.004150390625
+            ],
+            [
+              161.96484375,
+              273.044189453125
+            ],
+            [
+              87.7060546875,
+              273.044189453125
+            ]
+          ]
+        },
+        {
+          "title": "2.2.Characterization",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              86.2119140625,
+              127.45416259765625
+            ],
+            [
+              184.57135009765625,
+              127.45416259765625
+            ],
+            [
+              184.57135009765625,
+              138.5419921875
+            ],
+            [
+              86.2119140625,
+              138.5419921875
+            ]
+          ]
+        },
+        {
+          "title": "3. Results",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              71.12109375,
+              455.05145263671875
+            ],
+            [
+              127.32799530029297,
+              455.05145263671875
+            ],
+            [
+              127.32799530029297,
+              467.15625
+            ],
+            [
+              71.12109375,
+              467.15625
+            ]
+          ]
+        },
+        {
+          "title": "3.1. Film with different stoichiometry\n3.1.1. Structural properties.",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              90.02399444580078,
+              475.744140625
+            ],
+            [
+              262.7895202636719,
+              475.744140625
+            ],
+            [
+              262.7895202636719,
+              505.744140625
+            ],
+            [
+              90.02399444580078,
+              505.744140625
+            ]
+          ]
+        },
+        {
+          "title": "3.1.2. Superconducting properties.",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              89.72314453125,
+              373.1241455078125
+            ],
+            [
+              257.2099914550781,
+              373.1241455078125
+            ],
+            [
+              257.2099914550781,
+              384.3984375
+            ],
+            [
+              89.72314453125,
+              384.3984375
+            ]
+          ]
+        },
+        {
+          "title": "3.2.Films with similar stoichiometry",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              89.57373046875,
+              502.3841247558594
+            ],
+            [
+              255.19921875,
+              502.3841247558594
+            ],
+            [
+              255.19921875,
+              513.94921875
+            ],
+            [
+              89.57373046875,
+              513.94921875
+            ]
+          ]
+        },
+        {
+          "title": "3.2.1. Structural properties.",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              88.37841796875,
+              521.3441162109375
+            ],
+            [
+              226.12998962402344,
+              521.3441162109375
+            ],
+            [
+              226.12998962402344,
+              532.51171875
+            ],
+            [
+              88.37841796875,
+              532.51171875
+            ]
+          ]
+        },
+        {
+          "title": "3.2.2. Superconducting properties.",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              89.7978515625,
+              625.0541534423828
+            ],
+            [
+              257.2099914550781,
+              625.0541534423828
+            ],
+            [
+              257.2099914550781,
+              636.5390625
+            ],
+            [
+              89.7978515625,
+              636.5390625
+            ]
+          ]
+        },
+        {
+          "title": "4. Discussion",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              71.419921875,
+              548.3441467285156
+            ],
+            [
+              139.69296264648438,
+              548.3441467285156
+            ],
+            [
+              139.69296264648438,
+              559.58203125
+            ],
+            [
+              71.419921875,
+              559.58203125
+            ]
+          ]
+        },
+        {
+          "title": "5. Conclusion",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              71.681396484375,
+              522.9041137695312
+            ],
+            [
+              142.83984375,
+              522.9041137695312
+            ],
+            [
+              142.83984375,
+              533.9441223144531
+            ],
+            [
+              71.681396484375,
+              533.9441223144531
+            ]
+          ]
+        },
+        {
+          "title": "Acknowledgments",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              71.419921875,
+              146.41412353515625
+            ],
+            [
+              158.25054931640625,
+              146.41412353515625
+            ],
+            [
+              158.25054931640625,
+              157.6845703125
+            ],
+            [
+              71.419921875,
+              157.6845703125
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              71.419921875,
+              265.244140625
+            ],
+            [
+              123.44831848144531,
+              265.244140625
+            ],
+            [
+              123.44831848144531,
+              276.890625
+            ],
+            [
+              71.419921875,
+              276.890625
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              129
+            ],
+            [
+              "Line",
+              32
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              3
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              256
+            ],
+            [
+              "TableCell",
+              54
+            ],
+            [
+              "Line",
+              44
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              124
+            ],
+            [
+              "Line",
+              32
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "Text",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              197
+            ],
+            [
+              "TableCell",
+              54
+            ],
+            [
+              "Line",
+              36
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              36
+            ],
+            [
+              "Line",
+              9
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              73
+            ],
+            [
+              "Line",
+              13
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              79
+            ],
+            [
+              "Line",
+              16
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              52
+            ],
+            [
+              "Line",
+              12
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              172
+            ],
+            [
+              "Line",
+              30
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              115
+            ],
+            [
+              "Line",
+              28
+            ],
+            [
+              "ListItem",
+              8
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              89
+            ],
+            [
+              "Line",
+              21
+            ],
+            [
+              "ListItem",
+              7
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 11,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Effect of layer thickness on structural, morphological and superconducting properties of Nb$_3$Sn films fabricated by multilayer sequential sputtering",
+    "authors": [
+      {
+        "authors_list": [
+          "Nizam Sayeed, Md",
+          "Pudasaini, Uttar",
+          "Reece, Charles E",
+          "Eremeev,"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Superconducting Nb3Sn films can be synthesized by controlling the atomic concentration of Sn. Multilayer sequential sputtering of Nb and Sn thin films followed by high temperature annealing is considered as a method to fabricate Nb3Sn films, where the Sn composition of the deposited films can be controlled by the thickness of alternating Nb and Sn layers. We report on the structural, morphological and superconducting properties of Nb3Sn films fabricated by multilayer sequential sputtering of Nb and Sn films on sapphire substrates followed by annealing at 950 °C for 3 h. We have investigated the effect of Nb and Sn layer thickness and Nb:Sn ratio on the properties of the Nb3Sn films. The crystal structure, surface morphology, surface topography, and film composition were characterized by X-ray diffraction (XRD), scanning electron microscopy (SEM), atomic force microscopy (AFM), and energy dispersive X-ray spectroscopy (EDS). The results showed Sn loss from the surface due to evaporation during annealing. Superconducting Nb3Sn films of critical temperature up to 17.93 K were fabricated.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2004.10921"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.2004.10921",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2020arXiv200410921N"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

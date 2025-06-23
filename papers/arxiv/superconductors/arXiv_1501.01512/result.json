@@ -1,0 +1,401 @@
+{
+  "id": "8c0a418a8ca39a34c8b5fbc03c374890",
+  "pdf_path": "apl/Superconductors/arXiv:1501.01512.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# Maximum screening fields of superconducting multilayer structures.\n\nAlex Gurevich\n\nDepartment of Physics and Center for Accelerator Science, Old Dominion University, Norfolk, Virginia 23529, USA<sup>∗</sup> (Dated: August 31, 2024)\n\nIt is shown that a multilayer comprised of alternating thin superconducting and insulating layers on a thick substrate can fully screen the applied magnetic field exceeding the superheating fields H<sup>s</sup> of both the superconducting layers and the substrate, the maximum Meissner field is achieved at an optimum multilayer thickness. For instance, a dirty layer of thickness ∼ 0.1 µm at the Nb surface could increase H<sup>s</sup> ≃ 240 mT of a clean Nb up to H<sup>s</sup> ≃ 290 mT. Optimized multilayers of Nb3Sn, NbN, some of the iron pnictides, or alloyed Nb deposited onto the surface of the Nb resonator cavities could potentially double the rf breakdown field, pushing the peak accelerating electric fields above 100 MV/m while protecting the cavity from dendritic thermomagnetic avalanches caused by local penetration of vortices.\n\n### I. INTRODUCTION\n\nThe maximum magnetic field H which can be screened by a superconductor in the vortex-free Meissner state has attracted much attention, both from the fundamental and applied perspectives1–16. This problem is particularly important for the Nb resonator cavities<sup>2</sup> which have extremely high quality factors <sup>Q</sup>(2K) <sup>∼</sup> <sup>10</sup><sup>10</sup>−10<sup>11</sup> up to the breakdown fields H<sup>b</sup> ≃ 200 mT at which the screening current density J approaches the depairing limit<sup>1</sup> , J<sup>d</sup> ≃ Hc/λ0, where H<sup>c</sup> ≃ 200 mT is the thermodynamic critical field of Nb and λ<sup>0</sup> ≃ 40 nm is the London penetration depth. The lack of radiation losses and vortex dissipation in the Nb cavities (clean Nb has the highest lower critical field Hc<sup>1</sup> ≃ 180 mT among type-II superconductors) enables one to probe the high-field nonlinear quasiparticle conductivity<sup>17</sup> which can be tuned by alloying the surface with impurities18–20 .\n\nThe screening field limit of Nb could be exceeded by using s-wave superconductors with higher H<sup>c</sup> and the critical temperature Tc, but such materials are prone to the dissipative penetration of vortices at <sup>H</sup> <sup>≃</sup> <sup>H</sup>c<sup>1</sup> < HN b c1 . To address this problem it was proposed to coat the Nb cavities with multilayers of thin superconductors (S) with high H<sup>c</sup> > HN b c separated by dielectric (I) layers<sup>11</sup> (see Fig. 1). This approach is based on the lack of thermodynamically stable parallel vortices in decoupled S screens of thickness d<sup>s</sup> < λ, which also manifests itself in a strongly enhanced Hc<sup>1</sup> in thin films predicted by Abrikosov5,6 and observed in Refs. 7–10.\n\nThe maximum field H<sup>m</sup> screened by N superconducting layers of thickness d = N d<sup>s</sup> ≫ λ is limited by the superheating field H<sup>s</sup> of S-layers<sup>11</sup>, for example, H<sup>s</sup> ≃ 0.84H<sup>c</sup> = 454 mT for Nb3Sn at T ≪ Tc. Here the Meissner screening currents at H = H<sup>s</sup> become unstable with respect to infinitesimal perturbations of electromagnetic field and the order parameter, while the magnetic barrier for penetration of vortices vanishes12–14. This paper addresses the limits to which the maximum screening field can be increased by S layers with given ds, λ and H<sup>s</sup> deposited onto a thick Nb substrate with given λ<sup>0</sup> and Hs0. It is shown that: 1. The maximum H<sup>m</sup> can\n\n0 1 2 3 4 5 6 0 0.2 0.4 0.6 0.8 1 x/λ 0 h(x)/H bulk Nb d i d s d\n\nFIG. 1: Distribution of the magnetic field h(x) in a multilayer of thickness d. The dashed lines show thin dielectric layers (d<sup>i</sup> ≪ ds) separating the superconducting layers.\n\nbe reached at an optimum multilayer thickness d<sup>m</sup> which depends on the materials parameters of S layers and the substrate; 2. The optimized S-I-S multilayer can screen the field exceeding both superheating fields, H<sup>s</sup> and Hs<sup>0</sup>; 3. S-I-S multilayers arrest thermomagnetic avalanches caused by local penetration of vortices at defects and do not let them develop into global flux jumps, which otherwise quench the cavity at fields well below Hm.\n\n## II. SUPERHEATING FIELD, DEPAIRING CURRENT DENSITY AND INSTABILITY OF MEISSNER STATE\n\nDistribution of a low-frequency (~<sup>ω</sup> <sup>≪</sup> <sup>k</sup>BTc) rf magnetic field h(x) in a multilayer can be described by the London equations λ 2h ′′ <sup>1</sup> = h<sup>1</sup> at 0 < x < d and λ 2 0h ′′ <sup>2</sup> = h<sup>2</sup> at x > d, where the prime denotes differentiation with respect to x. Given that h(x) in a multilayer calculated numerically from the Eilenberger equations is close to the result of the London theory13, I first disregard the nonlinear Meissner effect<sup>21</sup> which makes λ dependent on J at J ∼ Jd. Solutions of the London equations are (see also Refs. 15,16):\n\n$$h\\_1(x) = H[(1 - c)e^{-x/\\lambda} + ce^{x/\\lambda}], \\quad 0 < x < d,\\tag{1}$$\n\n$$h\\_2(x) = bHe^{(d-x)/\\lambda\\_0}, \\qquad x > d,\\tag{2}$$\n\n$$c = \\frac{k}{k + g^2}, \\qquad \\qquad b = \\frac{(1 + k)g}{k + g^2}. \\tag{3}$$\n\nHere <sup>h</sup>(x) and the rf electric field <sup>E</sup> <sup>=</sup> <sup>−</sup>µ0ωλ<sup>2</sup><sup>h</sup> ′ are continuous at x = d, k = (λ − λ0)/(λ + λ0), and g = exp(d/λ), both for a single S film and for a stack of S-I layers with d<sup>i</sup> ≪ ds.\n\nFor a S-I bilayer, the low-field surface resistance R˜ s is determined by the total Joule rf power, H<sup>2</sup>R˜ <sup>s</sup>/2 = (σ/2) R <sup>d</sup> <sup>0</sup> E<sup>2</sup> 1 (x)dx+ (σ0/2) <sup>R</sup> <sup>∞</sup> <sup>d</sup> E<sup>2</sup> 2 (x)dx+q<sup>i</sup> , where σ and σ<sup>0</sup> are the quasiparticle conductivities in S layers and the substrate, respectively, and q<sup>i</sup> accounts for dielectric losses. Using Eqs. (1)-(3), and R<sup>s</sup> = µ 2 0ω <sup>2</sup>σλ<sup>3</sup>/2 in the local dirty limit<sup>3</sup> yields<sup>22</sup>\n\n$$\\begin{split} \\tilde{R}\\_s &= \\frac{R\\_s}{(k+g^2)^2} \\left[ (g^2+k^2)(g^2-1) - 4dk g^2/\\lambda \\right] \\\\ &+ \\frac{R\\_{s0}g^2(1+k)^2}{(k+g^2)^2} + \\frac{4\\mu\\_0^2 d\\_i \\omega^3 \\epsilon'' \\lambda^2 \\lambda\\_0^2 g^2}{(\\lambda+\\lambda\\_0)^2 (k+g^2)^2}, \\end{split} \\tag{4}$$\n\nwhere R<sup>s</sup> and Rs<sup>0</sup> include the residual resistances<sup>3</sup> , and ǫ = ǫ ′ <sup>−</sup> iǫ′′ is the complex dielectric permeability of a low-loss I layer with ǫ ′′ <sup>≪</sup> <sup>ǫ</sup> ′ .\n\nFor λ > λ0, the constant c in Eqs. (1)-(3) is positive so the current density J(0) = h ′ 1 (0) = (1 − 2c)H/λ at the surface is lowered by the counterflow induced by the substrate<sup>16</sup>. The Meissner state in S layers and the substrate is stable with respect to infinitesimal perturbations12–14 if the current densities are smaller than the respective depairing limits, J(0) = h ′ 1 (0) ≤ Hs/λ and J(d) = h ′ 2 (d) ≤ Hs<sup>0</sup>/λ0. These conditions define the field region of the vortex-free state:\n\n$$H\\_s \\ge \\frac{H(g^2 - k)}{g^2 + k}, \\qquad H\\_{s0} \\ge \\frac{Hg(1+k)}{g^2 + k}.\\tag{5}$$\n\nShown in Fig. 2 is the H −d diagram where the Meissner region is stable below both curves defined by Eqs. (5). If H<sup>s</sup> > Hs<sup>0</sup>λ0/λ, thin S layers with d ≪ λ are stable but do not screen the magnetic field which is thus limited by Hs<sup>0</sup> of the substrate. As d increases, H(d) increases until d reaches the crossing point m at which the maximum field H<sup>m</sup> exceeds both H<sup>s</sup> and Hs<sup>0</sup>. The latter results from the stabilizing effect of counterflow on J(0) = (1 − 2c)H/λ, where c(d) given by Eq. (3) decreases as d increases. As a result, H(d) decreases with d at d > dm, approaching the superheating field of the S layer at d ≫ λ. The optimal thickness d<sup>m</sup> is defined by the equalities in Eq. (5) which give a quadratic equation for g = exp(dm/λ). Hence,\n\n$$d\\_m = \\lambda \\ln\\left(\\mu + \\sqrt{\\mu^2 + k}\\right),\\tag{6}$$\n\nwhere µ = Hsλ/(λ + λ0)Hs0. Substituting d<sup>m</sup> back to one of Eqs. (5) yields the maximum screening field\n\n$$H\\_m = \\left[ H\\_s^2 + \\left( 1 - \\frac{\\lambda\\_0^2}{\\lambda^2} \\right) H\\_{s0}^2 \\right]^{1/2}. \\tag{7}$$\n\n![](_page_1_Figure_14.jpeg)\n\nFIG. 2: Magnetic phase diagram of a multilayer. Meissner state is stable below both solid lines calculated from Eqs. (5) for k = 1/2 and H<sup>s</sup><sup>0</sup> = 0.5Hs. Here H(d) > H<sup>s</sup> at d > d<sup>c</sup> = ln(µ + p µ<sup>2</sup> − k), and the crossing point m defines the optimum thickness d<sup>m</sup> at which H(d) is maximum.\n\nAt H = H<sup>m</sup> and d = dm, both current densities at x = 0 and x = d reach the depairing limits for the respective materials, but H<sup>m</sup> in Eq. (7) exceeds both H<sup>s</sup> and Hs<sup>0</sup> if λ > λ0, because it is the current density J ≃ J<sup>d</sup> but not the magnetic field which makes the Meissner state unstable1,12–14. The Meissner region lying below both curves in Fig. 2 is similar to that was calculated numerically in the London model assuming that the energy barrier for the vortex parallel to the surface vanishes15,16 . The London approach5,6 used in Refs. 15,16 has the wellknown limitations, particularly at the fields H ≈ H<sup>s</sup> for which the Bean-Livingston barrier is only a few vortex core diameters away from the surface. As a result, the London model cannot be used for the calculations of the superheating field, so the calculations of Refs. 15,16 only give the right order of magnitude for H<sup>m</sup> but can hardly be used for quantitative evaluation of Hm.\n\nEquations (5) obtained from the condition of instability of Meissner currents have no ambiguity resulting from the evaluation of the surface barrier in the London model with the rigid core cutoff15,16 which fails at <sup>H</sup> <sup>≈</sup> <sup>H</sup><sup>s</sup> because of strong deformation of the vortex core at the surface<sup>23</sup>. Calculations based on the Ginzburg-Landau (GL) theory have shown that the instability at H = H<sup>s</sup> is caused by lateral perturbations with the wavelength ∼ ξ <sup>3</sup>/<sup>4</sup>λ <sup>1</sup>/<sup>4</sup> decaying over the length <sup>∼</sup> √ λξ perpendicular to the surface, where ξ is the coherence length<sup>12</sup>. At T ≈ Tc, the theory gives H<sup>s</sup> = f(κ)H<sup>c</sup> where f(κ) decreases as the GL parameter κ = λ/ξ increases<sup>12</sup>, so that H<sup>s</sup> ≈ 1.2H<sup>c</sup> at κ ≈ 1 and H<sup>s</sup> = (1 + 1/ √ 2κ) √ 5Hc/3 at κ ≫ 1. At T ≪ Tc, only the limiting value f(κ) → 0.84 for <sup>κ</sup> <sup>≫</sup> 1 has been calculated13,14 .\n\nTaking λ = 120 nm and H<sup>s</sup> = 0.84H<sup>c</sup> ≃ 454 mT in Eq. (7) for a dirty Nb3Sn (Ref. 26) on Nb with Hs<sup>0</sup> = 240 mT and λ<sup>0</sup> = 40 nm, yields H<sup>m</sup> = 507 mT at d<sup>m</sup> = 1.1λ = 132 nm. Here the Meissner state persists up to the field ≃ 12% higher than H<sup>s</sup> of Nb3Sn, consistent with the London model of Ref. 15. For NbN films<sup>28</sup> with ξ = 9 nm and λ = 180 nm, we obtain d<sup>m</sup> ≃ 79 nm and H<sup>m</sup> ≃ 288 mT, while for pnictides24,25 with <sup>λ</sup> <sup>≃</sup> 200 nm and H<sup>c</sup> ≃ 1 T, Eqs. (6)-(7) give H<sup>s</sup> = 0.84H<sup>s</sup> ≃ 840 mT and H<sup>m</sup> ≃ 872 mT at d<sup>m</sup> = 1.78λ = 356 nm. The case of the two-band superconductor MgB<sup>2</sup> with H<sup>c</sup> ≃ 230 mT is more complicated as the rf dissipation can occur at a smaller field H<sup>d</sup> ≃ Hcξσ/ξ<sup>π</sup> at which the screening current decouples two weakly coupled σ and π bands<sup>27</sup> . For the typical ratio of coherence lengths, ξσ/ξ<sup>π</sup> ≃ 0.2 − 0.3, the band decoupling field H<sup>d</sup> ∼ 50 mT is consistent with the rf breakdown field of 42 mT at 4 K observed on MgB2/Al2O<sup>3</sup> bilayers on the Nb substrate<sup>8</sup> .\n\nThe enhancement of H<sup>m</sup> does not necessarily require I layers because Eqs. (6)-(7) also describe a dirty layer at the surface where λ is increased due to a shorter mean free path ℓ. For instance, a dirty Nb layer with ℓ ≃ 2 nm has λ ≃ λ0(ξ0/ℓ) <sup>1</sup>/<sup>2</sup> <sup>≃</sup> 180 nm and <sup>ξ</sup> = (ℓξ0) <sup>1</sup>/<sup>2</sup> <sup>≃</sup> <sup>9</sup> nm. Using H<sup>s</sup> ≈ 0.84H<sup>c</sup> for κ = λ0/ℓ = 20, yields d<sup>m</sup> = 0.44λ = 79 nm and H<sup>m</sup> = 1.44H<sup>c</sup> = 288 mT, the same as for the above case of NbN and some 20% higher than Hs<sup>0</sup> = 240 mT of pure Nb. In the limit of (λ0/λ) <sup>2</sup> <sup>→</sup> 0, Eq. (7) gives H<sup>m</sup> = p H<sup>2</sup> <sup>s</sup> + H<sup>2</sup> <sup>s</sup><sup>0</sup> = 1.465H<sup>c</sup> = 293 mT.\n\nTo see how the nonlinear Meissner effect can change Eq. (7), H<sup>m</sup> is also calculated from the GL theory at κ ≫ 1 for which the y component of the magnetic vector potential A(x) satisfies the equation12–14\n\n$$\n\\lambda^2 A'''' - A + \\xi^2 A^3 = 0. \\tag{8}\n$$\n\nConsider a dirty layer with constant λ and ξ at 0 < x < d, a substrate with constant λ<sup>0</sup> and ξ0, and the same T<sup>c</sup> in both regions. The first integrals of Eq. (8) are: λ <sup>2</sup>A′<sup>2</sup> <sup>−</sup> <sup>A</sup><sup>2</sup> <sup>+</sup> <sup>ξ</sup> <sup>2</sup>A<sup>4</sup>/2 = C at 0 < x < d and λ 2 <sup>0</sup>A′<sup>2</sup> <sup>−</sup> A<sup>2</sup> +ξ 2 <sup>0</sup>A<sup>4</sup>/2 = 0 at x > d. Continuity of <sup>A</sup>(x) and <sup>A</sup>′ (x) at x = d, the boundary condition A′ (0) = −Hm, and the GL pairbreaking conditions A(0) = φ0/2π √ 3ξ and A(d) = φ0/2π √ 3ξ<sup>0</sup> under which the Meissner superflow becomes unstable12–14 yield (2πλHm/φ0) <sup>2</sup>−5/18<sup>ξ</sup> <sup>2</sup> = C<sup>1</sup> at x = 0, and [2πh(d)λ/φ0] <sup>2</sup> <sup>−</sup> <sup>1</sup>/3<sup>ξ</sup> 2 <sup>0</sup> + ξ <sup>2</sup>/18ξ 4 <sup>0</sup> = C<sup>1</sup> and [2πh(d)λ0/φ0] <sup>2</sup> = 5/18ξ 2 0 at x = d. Here C<sup>1</sup> = (2π/φ0) <sup>2</sup>C, and φ<sup>0</sup> is the magnetic flux quantum. Excluding C<sup>1</sup> and h(d) and solving for H<sup>m</sup> reproduces Eq. (7) in which <sup>H</sup><sup>s</sup> <sup>→</sup> <sup>H</sup>˜ <sup>s</sup>, and\n\n$$\n\\tilde{H}\\_s^2 = \\left(1 - \\frac{\\xi^2}{5\\xi\\_0^2} + \\frac{\\xi^4}{5\\xi\\_0^4}\\right) H\\_s^2. \\tag{9}\n$$\n\nHere H<sup>s</sup> = √ 5Hc/3, and both T<sup>c</sup> and H<sup>c</sup> = φ0/2 <sup>3</sup>/2πλξ = φ0/2 <sup>3</sup>/2πλ0ξ<sup>0</sup> are independent of the mean free path, according to the Anderson theorem14. Two last terms in the parenthesis of Eq. (9) resulting from the nonlinear Meissner effect give a negligible contribution to H<sup>m</sup> for a dirty layer with ξ < ξ0.\n\n## III. PENETRATION OF VORTICES AT DEFECTS AND THERMOMAGNETIC STABILITY OF MULTILAYERS.\n\nThe maximum screening field H<sup>m</sup> at which the Messier state becomes absolutely unstable with respect to infinitesimal perturbations can hardly be reached under realistic operating conditions which require that the accelerating resonator cavities remain stable with respect to penetration of vortices, strong transient electromagnetic perturbations of charged beams, and local field enhancement at surface defects. In the multilayer approach<sup>11</sup> I layers are instrumental to assure the necessary stability margin with respect to local penetration of vortices at surface defects, which can otherwise trigger thermomagnetic flux jumps29,30 particularly at low temperatures T ≪ T<sup>c</sup> and extremely high screening currents J ∼ J<sup>d</sup> at which the cavities operate. Misinterpretation of this issue has lead to speculations that neither I layers nor the enhancement of Bc<sup>1</sup> is necessary, so a few µm thick Nb3Sn film coating of the Nb cavities could just be protected against penetration of vortices by the Bean-Livingstron surface barrier<sup>15</sup>. This assumption contradicts a vast body of experimental data on magnetization of high-κ type-II superconductors for which inevitable materials or topographic defects at the surface cause premature local penetration of vortices at Hc<sup>1</sup> < H < Hs, or even H < Hc<sup>1</sup> due to grain boundary weak links<sup>31</sup> .\n\nThe maximum screening field H<sup>m</sup> at which the Meissner state is stable with respect to penetration of vortices can be evaluated from Eqs. (6)-(7) with effective H<sup>s</sup> and Hs<sup>0</sup> depending on the operating conditions. For instance, in a multilayer with h(d) < Hc<sup>10</sup> ≃ 180 mT at H = Hm, a vortex entering through a defect in the S layer cannot penetrate further into the bulk Nb. Let a surface defect cause local penetration of vortices as the current density, J(0) = H′ (0) = βHs/λ reaches a fraction β . 1 of J<sup>d</sup> in S layer with d<sup>s</sup> < λ and ξ ≪ ds. If J(0) is not too close to Jd, the London theory shows6,11 that the energy barrier U = ǫ<sup>0</sup> ln(1/β) per unit length of a vortex in the S layer at J = βJ<sup>d</sup> coincides with the bulk Bean-Livingston surface barrier5,6 at <sup>H</sup> <sup>=</sup> βHsh <sup>≫</sup> <sup>H</sup>c<sup>1</sup> and (ξ/ds) <sup>2</sup> <sup>≪</sup> 1, where ǫ<sup>0</sup> = φ 2 0 /4πµ0λ 2 . The criterion J(0) < Jd/2 assures a reasonable protection against penetration of vortices caused by low-angle grain boundaries in polycrystalline Nb3Sn or pnictides<sup>31</sup>, or local field enhancement at typical topographic defects in the Nb cavities<sup>2</sup> .\n\nAt H<sup>s</sup> → Hs/2 and Hs<sup>0</sup> → 170 mT, Eqs. (6)-(7) give H<sup>m</sup> = 278 mT at d<sup>m</sup> = 0.8λ = 96 nm for Nb3Sn. If Nb can withstand the field Hs<sup>0</sup> → 200 mT observed on the best cavities2,3, the maximum screening field could reach H<sup>m</sup> = 295 mT at d<sup>m</sup> = 0.67λ = 80 nm. Increasing β by the materials refinements of Nb3Sn could push the peak fields over 300 mT. Pnictides with H<sup>c</sup> ≃ 0.9 T, such as Ba0.6K0.4Fe2As<sup>2</sup> (Ref. 24) could provide H<sup>m</sup> = 426 mT at d<sup>m</sup> = 1.21λ = 242 nm, β = 1/2, and Hs<sup>0</sup> → 200 mT.\n\nTo inhibit dissipative penetration of vortices, S film can be subdivided by I layers into N thinner S layers\n\n![](_page_3_Figure_0.jpeg)\n\nFIG. 3: Propagating vortex loop (a) turning into the vortexantivortex pair (b) in S layer with a surface defect (black dot) which lowers the field threshold of vortex penetration.\n\nwith d<sup>s</sup> = dm/N. At h(d) < Hc<sup>10</sup>, even if a vortex penetrates at a defect in the first S layer, it could not propagate into the next S layer and further in the bulk Nb where it can cause a thermomagnetic avalanche<sup>30</sup>. As H(t) reaches the critical value βH<sup>s</sup> at a week spot, a vortex line cannot penetrate parallel to the surface but first originates at a defect as a small semi-loop as depicted in Fig. 3. The vortex semi-loop expands under the action of the perpendicular Meissner current until it hits the I layer where most part of the dissipative vortex core disappears in a loss-free flux channel connecting two short vortices of opposite polarity. Because of the magnetic flux compression in the I layer and the substrate, the energy of a perpendicular vortex ≃ ds˜ǫ<sup>0</sup> ln(L/ξ) diverges with the lateral film size L, while the energy of the vortex-antivortex pair ≃ dsǫ˜<sup>0</sup> ln(u/ξ) grows with the distance u, where ˜ǫ<sup>0</sup> ∼ ǫ<sup>0</sup> (Ref. 33). This vortex-antivortex pair expands during the positive rf cycle and contracts and annihilates as H(t) changes sign. The upper limit of the pair size u<sup>m</sup> can be estimated neglecting the long-range vortex-antivortex attraction described by the last term in the dynamic equation, ηu/˙ 2 = φ0J(t) − ˜ǫ0/u, where η = φ 2 0 /2πξ<sup>2</sup>ρ<sup>n</sup> is the viscous drag coefficient, and ρ<sup>n</sup> is the normal state resistivity. Hence, u<sup>m</sup> ∼ 2φ0H/ληω ∼ βf ρn/ √ 2πκµ0λν at H = βH<sup>s</sup> and ω = 2πν, giving u<sup>m</sup> ≃ 4 µm and the rf power<sup>32</sup> <sup>q</sup> <sup>∼</sup> dJ<sup>2</sup><sup>φ</sup> 2 0 /η ∼ β 2f <sup>2</sup>dφ0Bcρn/κµ<sup>2</sup> 0λ <sup>2</sup> <sup>∼</sup> <sup>2</sup> <sup>µ</sup><sup>W</sup> for Nb3Sn at ρ<sup>n</sup> = 0.2 µΩm, λ = 100 nm, β = 1/2, f = 0.84, κ = 20, ν = 2 GHz and ds/λ = 0.2. Taking into account attraction of antiparallel vortices in S layer reduces u<sup>m</sup> and q. Penetration of vortex semi-loops at a defect appears more realistic than the model of a long vortex parallel to the surface for which the ill-defined notion of Hc<sup>1</sup> = 0 associated with the magnetic flux trapped in I layer<sup>15</sup> is irrelevant to the rf dissipation<sup>29</sup> .\n\n### IV. DISCUSSION\n\nLocalization of the rf power in a thin S layer inhibits expansion of multiple vortex loops in the bulk and stops dendritic thermomagnetic avalanches<sup>30</sup> that are particularly pronounced at the extremely high screening current densities J ∼ J<sup>d</sup> and low temperatures T ≪ T<sup>c</sup> in the materials like Nb3Sn, NbN or pnictides with low ρ −1 <sup>n</sup> and thermal conductivity k. The multilayer thus significantly reduces vortex dissipation as compared to the bulk Nb3Sn, yet a thin Nb3Sn layer with d ∼ 100 nm may only slightly increase the thermal impedance of the cavity wall, G = α −1 <sup>K</sup> + ds/k<sup>s</sup> + di/k<sup>i</sup> + dN b/kN b, where α<sup>K</sup> is the Kapitza thermal resistance. For dN b = 3 mm, <sup>k</sup>N b <sup>≃</sup> 20 W/mK, <sup>α</sup><sup>K</sup> = 2 kW/m<sup>2</sup>K, the Nb3Sn multilayer with <sup>d</sup><sup>s</sup> = 100 nm, <sup>k</sup><sup>s</sup> <sup>≃</sup> <sup>10</sup><sup>−</sup><sup>2</sup> W/mK, and Al2O<sup>3</sup> dielectric layers with d<sup>i</sup> = 4 nm and k<sup>i</sup> = 0.3 W/mK (Ref. 34) increases G by only ≃ 5%. A thicker Nb3Sn film with d ≃ 2 − 3µm doubles G and reduces the field of thermal quench<sup>3</sup> , in addition to the smaller Hc<sup>1</sup> = (φ0/4πλ<sup>2</sup> )(ln κ + 0.5) < 130 mT of bulk Nb3Sn with λ > 65 nm (Ref. 26) as compared to HN b <sup>c</sup><sup>1</sup> ≃ 180 mT. Theoretically, I layers provide the strongest pinning of propagating vortices and stop them more efficiently than holes in thin films which have been used to terminate dendritic flux avalanches<sup>35</sup> .\n\nThe optimum number of S layers for particular materials is determined by a balance between reduced vortex dissipation and suppression of superconductivity at the S-I interfaces. Here H<sup>s</sup> of ideal S layers with d<sup>s</sup> > (ξλ) 1/2 remains the same as in the bulk<sup>12</sup>, contrary to the assertion<sup>15</sup> that H<sup>s</sup> is reduced at small ds. This claim was based on the artifacts of the London model discussed above and on taking into account only one right vortex image in Fig. 4 of Ref. 15 instead of summing up an infinite chain of vortex-antivortex image dipoles which ensure that vortex currents do not cross the film surface. If this effect is properly taken into account6,11 H<sup>s</sup> in a thin film (d < λ) is the same as in a thick film (d > λ). Moreover, the GL simulations of Ref. 15 for a Nb3Sn film on Nb show that Hm(d) reaches the maximum Hm(dm) ≃ 1.08H<sup>s</sup> at d<sup>m</sup> ≃ 1.15λ but remains larger than H<sup>s</sup> in the whole region λ < d < 2λ for which the numerical results were presented.\n\nHigh-field rf performance of the Nb cavities can be boosted by depositing not only materials with higher H<sup>s</sup> but also alloyed Nb-I-Nb multilayers which can increase H<sup>m</sup> and benefit from a significant raise of Q(H) with H in a wide field region17–20. A polycrystalline Nb multilayer may be tuned by alloying and heat treatment to reduce the residual resistance3,17,18, and is also less prone to the current-blocking grain boundaries than the A-15 or pnictide compounds<sup>31</sup>. Enhancement of the vortex penetration field by a dirty Nb/Al2O<sup>3</sup> bilayer deposited onto the Nb cavity was observed in Ref. 36.\n\nIn conclusion, optimized multilayers can significantly increase the Meissner screening field while inhibiting dissipative penetration of vortices. Implementation of such multilayer coatings could potentially double the accelerating field gradients of superconducting resonators as compared to the existent high-performance Nb cavities.\n\nThis work was supported by DOE HEP under Grant No. DE-SC0010081.\n\n- <sup>∗</sup> Electronic address: gurevich@odu.edu\n- 1 J. Bardeen, Rev. Mod. Phys. 34, 667 (1962).\n- <sup>2</sup> H. Padamsee, J. Knobloch, and T. Hays, RF Superconductivity for Accelerators. (Wiley-VCH Verlag GmbH and Co. KGaA, Weinheim, Second Ed., 2008).\n- <sup>3</sup> A. Gurevich, Rev. Accel. Sci. Technol. 5, 119 (2012).\n- <sup>4</sup> M. Reagor, H. Paik, G. Catelani, L. Sun, C. Axline, E. Holland, I.M. Pop, N.A. Masluk, T. Brecht, L. Frunzio, M.H. Devoret, L. Glazman, and R.J. Schoelkopf, Appl. Phys. Lett. 102, 192604 (2013).\n- <sup>5</sup> A.A. Abrikosov, Zh. Eksp. Teor. Fiz. 46, 1464 (1964) [Sov. Phys. JETP 19, 988 (1964)].\n- <sup>6</sup> G. Stejic, A. Gurevich, E. Kadyrov, D. Christen, R. Joynt, and D.C. Larbalestier, Phys. Rev. B 49, 1247 (1994)\n- <sup>7</sup> L. Civale, T.K. Worthington, and A. Gupta, Phys. Rev. B 48, 7576 (1993).\n- <sup>8</sup> T. Tajima, N.F. Haberkorn, L. Civale, R.K. Schulze, H. Inoue, J. Guo, V.A. Dolgashev, D. Martin, S. Tantawi, C. Yoneda, B. Moeckly, C. Yung, T. Proslier, M. Pellin, A. Matsumoto, and E. Watanabe, AIP Conf. Proc. 1435, 297 (2012).\n- <sup>9</sup> C.Z. Antoine, J.-C. Villegier, and G. Martinet, Appl. Phys. Lett. 102, 102603 (2013).\n- <sup>10</sup> D.B. Beringer, C. Clavero, T. Tan, X.X. Xi, W.M. Roach, and R.A. Lukaszew, IEEE Trans. Appl. Supercond. 23, 75006 (2013); W.M. Roach, D.B. Beringer, Z. Li, C. Clavero, and R.A Lukaszew, IEEE Trans. Appl. Supercond. 23, 86002 (2013).\n- <sup>11</sup> A. Gurevich, Appl. Phys. Lett. 88, 012511 (2006).\n- <sup>12</sup> J. Matricon and D. Saint-James, Phys. Lett. A 24, 241 (1967); J. Chapman, SIAM J. Appl. Math. 55, 1233 (1995); A.J. Dolgert, S.J. Di Bartolo, and A.T. Dorsey, Phys. Rev. B 53, 5650 (1996); 56, 2883 (1997); M.K. Transtrum, G. Catelani, and J.P. Sethna, Phys. Rev. B 83, 094505 (2011).\n- <sup>13</sup> V.P. Galaiko, Zh. Eksp. Teor. Fiz. 50, 717 (1966) [Engl. Transl. Sov. Phys. JETP 23, 475 (1966)]; G. Catelani and J.P. Sethna, Phys. Rev. B 78, 224509 (2008).\n- <sup>14</sup> F. Pei-Jen Lin and A. Gurevich, Phys. Rev. B 85, 054513 (2012).\n- <sup>15</sup> S. Posen, M.U Liepe, G. Catelani, J.P. Sethna, and M.K Transtrum, Proceedings of SRF 2013, Paris, France, WEIOC04, p. 788; arXiv:1309.3239.\n- <sup>16</sup> T. Kubo, Y. Iwashita, and T. Saeki, Appl. Phys. Lett. 104, 032603 (2014).\n- <sup>17</sup> A. Gurevich, Phys. Rev. Lett. 113, 087001 (2014).\n- <sup>18</sup> P. Dhakal, G. Ciovati, G. R. Myneni, K. E. Gray, N. Groll, P. Maheshwari, D.M. McRae, R. Pike, T. Proslier, F. Stevie, R. P. Walsh, Q. Yang, and J. Zasadzinzki, Phys. Rev. ST-AB 16, 042001 (2013).\n- <sup>19</sup> A. Grassellino, A. Romanenko, D. Sergatskov, O. Melnychuk, Y. Trenikhina, A. Crawford, A. Rowe, M. Wong, T. Khabiboulline, and F. Barkov, Supercond. Sci. Technol. 26, 102001 (2013).\n- <sup>20</sup> G. Ciovati, P. Dhakal, and A. Gurevich, Appl. Phys. Lett. 104, 092601 (2014).\n- <sup>21</sup> S.K. Yip and J.A. Sauls, Phys. Rev. Lett. 69, 2264 (1992); D. Xu, S.K. Yip, and J.A. Sauls, Phys. Rev. B 51, 16233 (1995); M.-R. Li, P.J. Hirschfeld, and P. W¨olfle, Phys. Rev. Lett. 81, 5640 (1998); Phys. Rev. B 61, 648 (2000);\n\nN. Groll, A. Gurevich, and I. Chiorescu, Phys.Rev. B 81, 020504(R) (2010).\n\n- <sup>22</sup> R˜<sup>s</sup> of Ref. 11 reduces to Eq. (3) at ǫ ′′ = 0 and λ = λ0, but is invalid at λ 6= λ<sup>0</sup> as the boundary condition of the continuity of λ 2h ′ at x = d was not taken into account<sup>16</sup> .\n- <sup>23</sup> D.Y. Vodolazov, Phys. Rev. B 85, 174507 (2012).\n- <sup>24</sup> U. Welp, C. Chaparro, A.E. Koshelev, W.K. Kwok, A. Rydh, N.D. Zhigadlo, J. Karpinski, and S. Weyeneth, Phys. Rev. B 83, 100513(R) (2011); S.L. Bud'ko, M. Sturza, D.Y. Chung, M.G. Kanatzidis, and P.C. Canfield, Phys. Rev. B 87, 100509(R) (2013).\n- <sup>25</sup> C. Martin, R. T. Gordon, M.A. Tanatar, H. Kim, N. Ni, S.L. Bud'ko, P.C. Canfield, H. Luo, H.H. Wen, Z. Wang, A.B. Vorontsov, V.G. Kogan, and R. Prozorov, Phys. Rev. B 80, 020501(R) (2009); Y.M. Dai, B. Xu, B. Shen, H.H. Wen, X.G. Qiu, and R.P.S.M. Lobo, Europhys. Lett. 104, 47006 (2013).\n- <sup>26</sup> M. Perpeet, M.A. Hein, G.M¨uller, H. Piel, J. Pouryamout, and W. Diete. J. Appl. Phys. 82, 5021 (1997); A. Andreone, A. Cassinese, A. Di Chiara, M. Iavarone, F. Palomba, A. Ruosi, J. Apple. Phys. 82, 1736 (1997); and R. Vaglio.M. Deambrosis, G. Keppel, V. Ramazzo, C. Roncolato, R.G. Sharma, and V. Palmieri, Physica C 441, 108 (2006).\n- <sup>27</sup> A. Gurevich and V.M. Vinokur, Phys. Rev. Lett. 90, 047004 (2003); Phys. Rev. Lett. 97, 137003 (2006).\n- <sup>28</sup> D.E. Oates, A.C. Anderson, C.C. Chin, J.S. Derov, G. Dresselhaus, and M.S. Dresselhaus, Phys. Rev. B 43, 7655 (1991); M. S. Pambianchi, S. M. Anlage, E. S. Hellman, E. H. Hartford, Jr., M. Bruns, and S. Y. Lee, Appl. Phys. Lett. 64, 244 (1994); B. Komiyama, Z. Wang, and M. Tonouchi, Appl. Phys. Lett. 68, 562 (1996).\n- <sup>29</sup> A. Gurevich, arXiv:1309.5626\n- <sup>30</sup> I. Aranson, A. Gurevich, and V. Vinokur, Phys. Rev. Lett. 87, 0670031 (2001); I.S. Aranson, A. Gurevich, M.S. Welling, R.J. Wijngaarden, V.K. Vlasko-Vlasov, V.M. Vinokur, and U. Welp, Phys. Rev. Lett. 94, 0370021 (2005); J. I. Vestgarden, D. Shantsev, Y. Galperin, and T.H. Johansen, Phys. Rev. B. 84, 054537 (2011); P. Mikheenko, A.J. Qviller, J.I. Vestgarden, S. Chaudhuri, I.J. Maasilta, Y.M. Galperin, and T.H. Johansen, Appl. Phys. Lett. 102, 022601 (2013);\n- <sup>31</sup> J.H. Durrell, C.-B. Eom, A. Gurevich, E.E. Hellstrom, C. Tarantini, A. Yamamoto, and D.C. Larbalestier, Rep. Prog. Phys. 74 124511 (2011).\n- <sup>32</sup> A. Gurevich and G. Ciovati, Phys. Rev. B 77, 104501 (2008); Phys. Rev. B 87, 054502 (2013).\n- <sup>33</sup> J.R. Clem, Phys. Rev. B 43, 7837 (1991); H. Fangohr, A.E. Koshelev, and M.J.W. Dodgson, Phys. Rev. B 67, 174508 (2003); V.G. Kogan, Phys. Rev. B 75, 064514 (2007).\n- <sup>34</sup> T. Nemoto, S. Sasaki, and Y. Hakuraku, Cryogenics, 25, 531 (1985).\n- <sup>35</sup> F. Colauto, J. Vestgarden, A.M.H. de Andrade, A.A.M. Oliveira, W.A. Ortiz, and T.H. Johansen, Appl. Phys. Lett. 103, 032604 (2013).\n- <sup>36</sup> R. Russo, L. Catani, A. Cianchi, D. DiGiovenale, J. Lorkiewicz, S. Tazzari, C. Granata, P. Ventrella, G. Lamura, and A. Andreone. IEEE Trans. Appl. Supercond. 19, 1394 (2009).",
+    "html": null,
+    "images": {
+      "_page_1_Figure_14.jpeg": "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",
+      "_page_3_Figure_0.jpeg": "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x3HuMiuk2KP4R+Vcd4T+GuieF5vtxjW81Uks108SoEJ6+Wi/Kg+nPvXZ0AJtX0FG1fQUtFACbV9BRtX0FLRQAm1fQUbV9BS0UAJtX0FG1fQUtFACbV9BRtX0FLRQAm1fQUbV9BS0UAJtHoKKWigAooooAKKKKACiiigAqOeUQwSSkZCKWx9BUlIyhlKsMgjBFAHksFjrHiP4f3/iifxHqMV1cQzyLao4NssQ3DyzHjngdetd34G/5ETQ/wDryi/9BFYMfw91K30260S18TywaFMXKWy2y+agbJKeZn7uT6ZxxkV12haZ/Yug2Omed532WBYvM27d2BjOMnFAGhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVyHijV9WfxJpXhvRbqOyuLyOSea7eISGKNP7qngkn1rr65TxN4f1S513TPEGhS2o1CyV4mhuiwjmjbqMqCQR24oAwvD0OrW3xcvIdYu4bydNJUJcRReWZE8zgsvQN1HHFekVx2ieHdeh8a3HiHWbqxkM9kLfybYMBEQ+QBkfMMdzzk9K7GgAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/Z"
+    },
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Maximum screening fields of superconducting multilayer structures.",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              107.75999450683594,
+              52.7518310546875
+            ],
+            [
+              509.80078125,
+              52.7518310546875
+            ],
+            [
+              509.80078125,
+              64.70703125
+            ],
+            [
+              107.75999450683594,
+              64.70703125
+            ]
+          ]
+        },
+        {
+          "title": "I. INTRODUCTION",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              121.99658203125,
+              242.0992431640625
+            ],
+            [
+              228.72613525390625,
+              242.0992431640625
+            ],
+            [
+              228.72613525390625,
+              251.06561279296875
+            ],
+            [
+              121.99658203125,
+              251.06561279296875
+            ]
+          ]
+        },
+        {
+          "title": "II. SUPERHEATING FIELD, DEPAIRING\nCURRENT DENSITY AND INSTABILITY OF\nMEISSNER STATE",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              325.125,
+              575.5791320800781
+            ],
+            [
+              552.54248046875,
+              575.5791320800781
+            ],
+            [
+              552.54248046875,
+              605.4255218505859
+            ],
+            [
+              325.125,
+              605.4255218505859
+            ]
+          ]
+        },
+        {
+          "title": "III. PENETRATION OF VORTICES AT\nDEFECTS AND THERMOMAGNETIC\nSTABILITY OF MULTILAYERS.",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              338.2734375,
+              55.0191650390625
+            ],
+            [
+              540.28125,
+              55.0191650390625
+            ],
+            [
+              540.28125,
+              85.7548828125
+            ],
+            [
+              338.2734375,
+              85.7548828125
+            ]
+          ]
+        },
+        {
+          "title": "IV. DISCUSSION",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              130.2890625,
+              642.6595306396484
+            ],
+            [
+              222.12506103515625,
+              642.6595306396484
+            ],
+            [
+              222.12506103515625,
+              651.6259155273438
+            ],
+            [
+              130.2890625,
+              651.6259155273438
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              547
+            ],
+            [
+              "Line",
+              109
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              1277
+            ],
+            [
+              "Line",
+              215
+            ],
+            [
+              "TextInlineMath",
+              9
+            ],
+            [
+              "Equation",
+              7
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              1223
+            ],
+            [
+              "Line",
+              178
+            ],
+            [
+              "TextInlineMath",
+              8
+            ],
+            [
+              "Equation",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              789
+            ],
+            [
+              "Line",
+              128
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              519
+            ],
+            [
+              "Line",
+              126
+            ],
+            [
+              "ListItem",
+              37
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/uLOK7RjkbkZraNVTK8luRA"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 5,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Maximum screening fields of superconducting multilayer structures",
+    "authors": [
+      {
+        "authors_list": [
+          "Gurevich, Alex"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "It is shown that a multilayer comprised of alternating thin superconducting and insulating layers on a thick substrate can fully screen the applied magnetic field exceeding the superheating fields H<SUB>s</SUB> of both the superconducting layers and the substrate, the maximum Meissner field is achieved at an optimum multilayer thickness. For instance, a dirty layer of thickness ∼0.1 μm at the Nb surface could increase H<SUB>s</SUB> ≃ 240 mT of a clean Nb up to H<SUB>s</SUB> ≃ 290 mT. Optimized multilayers of Nb<SUB>3</SUB>Sn, NbN, some of the iron pnictides, or alloyed Nb deposited onto the surface of the Nb resonator cavities could potentially double the rf breakdown field, pushing the peak accelerating electric fields above 100 MV/m while protecting the cavity from dendritic thermomagnetic avalanches caused by local penetration of vortices.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "AIP Advances",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1501.01512"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1063/1.4905711",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2015AIPA....5a7112G"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

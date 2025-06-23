@@ -1,0 +1,817 @@
+{
+  "id": "ce200ac56b035749179ac106698e277b",
+  "pdf_path": "apl/Superconductors/arXiv:2012.02905.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "A15 Nb3Si: A \"high\" Tc superconductor synthesized at a pressure of one megabar and metastable at ambient conditions\n\nJinhyuk Lim, J. S. Kim, Ajinkya C. Hire, Yundi Quan, R. G. Hennig, P. J. Hirschfeld, J. J. Hamlin, and G. R. Stewart\n\nDepartment of Physics, University of Florida, Gainesville, FL 32611\n\nBart Olinger\n\nLos Alamos National Laboratory, Los Alamos, NM 87545\n\n**Abstract:** A15 Nb3Si is, until now, the only \"high\" temperature superconductor produced at high pressure (~110 GPa) that has been successfully brought back to room pressure conditions in a metastable condition. Based on the current great interest in trying to create metastable-atroom-pressure high temperature superconductors produced at high pressure, we have restudied explosively compressed A15 Nb3Si and its production from tetragonal Nb3Si. First, diamond anvil cell pressure measurements up to 88 GPa were performed on explosively compressed A15 Nb3Si material to trace Tc as a function of pressure. Tc is suppressed to ~ 5.2 K at 88 GPa. Then, using these Tc (P) data for A15 Nb3Si, pressures up to 92 GPa were applied at room temperature (which increased to 120 GPa at 5 K) on tetragonal Nb3Si. Measurements of the resistivity gave no indication of any A15 structure production, i. e. no indications of the superconductivity characteristic of A15 Nb3Si. This is in contrast to the explosive compression (up to P~110 GPa) of tetragonal Nb3Si, which produced 50-70 % A15 material, Tc = 18 K at ambient pressure, in a 1981 Los Alamos National Laboratory experiment. This implies that the accompanying high temperature (1000 o C) caused by explosive compression is necessary to successfully drive the reaction kinetics of the tetragonal A15 Nb3Si structural transformation. Our theoretical calculations show that A15 Nb3Si has an enthalpy vs the tetragonal structure that is 70 meV/atom *smaller* at 100 GPa, while at ambient pressure the tetragonal phase enthalpy is lower than that of the A15 phase by 90 meV/atom. The fact that \"annealing\" the A15 explosively compressed material at room temperature for 39 years has no effect shows that slow kinetics can stabilize high pressure metastable phases at ambient conditions over long times even for large driving forces of 90 meV/atom.\n\n## **I. Introduction**\n\nIn the past several years, the discoveries1-4 of superconductivity in various hydrides at temperatures above 200K and pressures above 1 megabar have underscored the lack of fundamental limits on electron-phonon superconducting critical temperatures. Further, these breakthrough experiments have raised the question: can a way be found to stabilize these high temperature superconductors back down to ambient pressure in order to achieve roomtemperature applications?\n\nOne possible approach would be the creation of new metastable superconducting structures at high pressures which survive decompression due to a thermodynamic barrier blocking transition back to the ground state. The present work studies an outstanding example of metastable superconductivity in Nb3Si, focusing on the structures before and after compression, and the thermal stability of the metastable high pressure A15 phase at ambient pressure.\n\nThe A15 superconductors of general form Nb3X, with X=Al, Ga, Sn, and Ge were the highest temperature superconductors known5 starting in the 1950s until the discovery of the cuprate superconductors in 1986. The highest Tc in this family occurs at ambient pressure in Nb3Ge, discovered in 1973.\n\nIn 1981 Olinger and Newkirk6 succeeded in converting tetragonal Nb3Si into the (3% smaller unit cell) cubic A15 structure via explosive compression using plastic explosive (RDX plus other minor ingredients). Characterization via x-ray diffraction6 and bulk low temperature specific heat measurements7 indicated a 50-70% conversion of the tetragonal phase into the superconducting A15 phase, with a Tc onset of 18.0 K. Hydrodynamic calculations6 indicated that the tetragonal phase sample experienced a pressure ~90-110 GPa, with a peak temperature of ~1000 o C, a residual temperature of ~ 500 o C, and a time8 at peak pressure of ~1 sec.\n\nAs part of our program of producing new superconductors under high pressures using diamond anvil techniques, we used some of the same tetragonal starting Nb3Si material as used at Los Alamos National Laboratory. This tetragonal material was subjected in the present work to pressures up to 120 GPa in a diamond anvil cell to search for superconductivity from any converted A15 phase. Based on explosive compression treatment of another A15 material, V3Si, a sample of A15 Nb3Si converted more 'gradually' from the tetragonal structure could have significantly improved superconducting properties, e. g. Tc of explosively compressed A15 V3Si is suppressed9 vs material that was arc-melted followed by annealing by ~10%.\n\nAccording to our enthalpy calculations of various Nb3Si structures, the A15 structure becomes more stable than the tetragonal structure above 50 GPa, with the enthalpy difference growing to about 70 meV/atom (or approximately 550 o C of thermal energy) by 100 GPa. Of course, the elevated temperatures (~ 1000 <sup>o</sup> C) during the explosive compression preparation technique is likely to have added a necessary ingredient for the observed tetragonal A15 structure conversion at high pressure. For example, in another case of a compound (Nb3Bi) converted to the A15 structure under an applied pressure (only 3 GPa in this instance), the kinetics of formation for the A15 structure10 required the application of 1000 o C.\n\nAt ambient pressure, we calculate that the tetragonal structure of Nb3Si is more stable than the A15 structure by 90 meV/atom. Since the sample of A15 Nb3Si produced by explosive compression at Los Alamos in 1981 that was studied in the present work was unchanged after storage at room temperature for 39 years, it is thus clear that slow kinetics can stabilize high-pressure metastable phases at ambient conditions even for large driving forces of 90 meV/atom.\n\nThe only Tc vs P data of A15 Nb3Si are from Lim et al.11 up to 2 GPa (dTc/dP = - 0.267 K/GPa). In order to know what Tc to search for in our up-to-120 GPa attempt at conversion, we further characterized some of the original explosively compressed material (\"recovery 20\") from the 1981 Los Alamos experiments<sup>6</sup> . This characterization has two goals. The first is to determine the Tc of the A15 Nb3Si structure at these high pressures. In the tetragonal phase starting material, the presence of the minority Nb second phase introduces a Tc ~8-9 K (relatively12 pressure independent, Tc ~ -2 K at 100 GPa.) If the P≤2 GPa data of Lim et al.<sup>11</sup> are linearly extrapolated, this would give Tc (A15 Nb3Si) crossing with Tc of the Nb second phase at around 40 GPa. This would imply that the second phase Nb Tc would need to be separated from any converted A15 signal at higher pressures. The second reason to further characterize the existing A15 Nb3Si was to conduct annealing experiments to determine the temperature and rate for back conversion (A15 tetragonal). This will give, as a rough approximation, an estimate of whether pressurizing tetragonal Nb3Si material up to 92 GPa at only room temperature (which increased to 120 GPa at 5 K) can overcome the inherent sluggishness of the thermodynamic transformation involved.\n\nIn Section II we present characterizations of the unusual, explosively compressed A15 Nb3Si as well as of tetragonal Nb3Si. We then present results in Section III for the resistive transition of the A15 samples under pressure up to 88 GPa. We give details of theoretical structure relaxation calculations suggesting that a transition from tetragonal to A15 phase might take place at pressures of the order of 50 GPa. However, no such transition is observed in our measurements on tetragonal Nb3Si at pressures up to 120 GPa. To investigate the size of the possible thermal barrier preventing the structural transition, we perform annealing studies of the A15 sample, and find that temperatures of order 600 <sup>o</sup> C on timescales of days are sufficient to convert large fractions of the A15 phase to the tetragonal phase, consistent with theoretical enthalpy difference estimates. We characterize the A15 sample at ambient pressure with specific heat and diamagnetic susceptibility measurements before and after annealing. Finally, in Section IV we discuss the relationship of our measurements to the general program of creating useful metastable high-Tc materials.\n\n### **II. Experimental**\n\n### **a. Samples**\n\nTwo samples were used in the current study. The first was Nb3Si (from the original work1 at Los Alamos National Laboratory) prepared by arc-melting and annealed at approximately 1780 o C for four hours. As evident from the binary phase diagram13 for Nb-Si, the desired tetragonal\n\nphase of Nb3Si is stable between 1673 and 1977 o C. According to x-ray diffraction, the annealed sample used in the present work was >80% tetragonal Nb3Si, with bcc Nb and Nb5Si3 as minority second phases. In order to better quantitatively compare the amount of second phase Nb in this starting material with the explosively compressed Recovery 20 sample discussed below, specific heat at low temperatures was performed.\n\nThe second sample used in this study was a piece of the original Recovery 20, explosively compressed Nb3Si from the work6 by Olinger and Newkirk which had been stored at room temperature for 39 years. The specific heat of this original, approximately 50-70 % A15, sample was measured for the present work. Then the sample was annealed at increasing temperatures, 1 day at each temperature, starting at 220 o C, with the decreasing amount of A15 material being estimated by dc susceptibility. Upon annealing at one day at 600 o C, the rate of decrease of A15 content was judged to have become large enough to switch to increasing the annealing time (for a total of 5 days) and keeping the annealing temperature fixed at 600 o C. The specific heat of the annealed sample was then measured (Section IIId).\n\n### **b. Experimental Measurements**\n\nIn addition to performing x-ray diffraction on the starting tetragonal and explosively compressed, A15 majority phase, samples, the following measurements were done. Both these samples were measured resistively in a diamond anvil cell apparatus described below, the tetragonal sample up to 120 GPa to search for possible conversion to the A15 phase and the Recovery 20 sample up to 88 GPa to determine the Tc vs pressure behavior of A15 Nb3Si. The specific heat was measured of 1.) the tetragonal Nb3Si sample, of 2.) the explosively compressed Recovery 20 A15 Nb3Si sample, and of 3.) the annealed (for a total of 5 days at 600 <sup>o</sup> C, in addition to 1 day at 220, 300, 400 and 500 o C) Recovery 20 sample to determine the amount of the A15 phase remaining after annealing.\n\nThe low temperature measurement of specific heat utilized the time constant method, and followed the techniques described in ref. 14.\n\nFor the high-pressure resistivity measurements, a micron-sized Nb3Si (either tetragonal or majority A15) polycrystal sample (∼30 × 40 × 10 *µ*m3 ) was cut from a larger piece of bulk sample and placed in a gas-membrane-driven diamond anvil cell (OmniDAC from Almax-EasyLab) along with a ruby (∼10 *µ*m in diameter) for pressure calibration15. Two opposing diamond anvils (∼0.14 carat, type Ia) were used, which have 0.35 mm diameter culets beveled at 8° to 0.18 mm central flats. A Re metal gasket (∼3 × 4 × 0.25 mm3 ) was pre-indented to ∼25 *µ*m in thickness and electrospark-drilled to have a hole (∼170 *µ*m in diameter) at the center. The hole was then filled with 4:1 cBN-epoxy mixture to insulate the gasket and mechanically drilled to have a hole (∼80 *µ*m in diameter) at the center, which was filled with soapstone (steatite) for electrically insulating the sample from the gasket and also serving as the pressure-transmitting medium. The thin Nb3Si sample was then placed on top of four thin (4 *µ*m) Pt leads embedded in the insulation layer for a four-point dc electrical resistivity measurement. Further details of the nonhydrostatic high-pressure resistivity technique are given in a paper by Shimizu *et al*. 16\n\nThe diamond cell was placed inside a customized continuous-flow cryostat (Oxford Instruments). A homebuilt optical system attached to the bottom of the cryostat was used for the visual observation of the sample and for the measurement of the ruby manometer. Pressure was applied (or unloaded) at room temperature (∼297 K) to the desired pressure which then increased upon cooling, e. g. from 92 GPa at room temperature to 120 GPa at 5 K. Then the sample was cooled down to ∼3 K and warmed up again to room temperature at a rate of ∼0.5 K/min at each pressure for the temperature-dependent resistivity measurement. Pressures used in the Tc vs pressure phase diagram (Fig. 1 below) were measured at around 5 to 20 K, in which range pressure is constant to within 1 GPa, and the estimated accuracy is ±5%. To estimate the electrical resistivity from the resistance, we used the van der Pauw method, (assuming an isotropic sample in the measurement plane), *ρ* = *πtR/*ln2, where *t* is the sample thickness (∼10 *µ*m) with a current of 1 mA. The accuracy of the estimated resistivity is roughly a factor of two considering uncertainties in the initial thickness of the sample. No attempt was made to take into account the changes in the sample thickness under high pressures.\n\n### **III. Results and Discussion**\n\n### **a.) High pressure determination of Tc vs pressure in A15 Nb3Si.**\n\n In order to better understand the results of our high pressure search for A15 conversion of tetragonal Nb3Si up to 120 GPa, we discuss our Tc vs pressure results on Recovery 20, A15 Nb3Si first. As shown in Fig. 1, starting at 2 GPa Tc of A15 Nb3Si falls monotonically at a rate of about 0.2 K/GPa, consistent with the earlier work of Lim et al.11 Above about 40 GPa two things happen in the Tc vs pressure data on A15 Nb3Si in Fig. 1. First, the rate of decrease in Tc with increasing pressure starts to level off. Second, the presence of ~15 % second phase of Nb in the explosively compressed material (see specific heat data discussed below) shows up at 55 GPa as a second resistive transition (red squares) *above* the A15 transition. Since the weak pressure dependence of this upper transition above 40GPa is consistent with that<sup>12</sup> of pure Nb under pressure, we conclude that the ~15% Nb volume fraction determines the onset Tc in this pressure range. Within this interpretation, the A15 Tc continues to be suppressed above 40 GPa, appearing as a second, lower T, resistive anomaly as seen in Fig. 1.\n\n Representative resistance data at low temperature (during the loading condition) from which the Tc values in Fig. 1 are derived are shown in Fig. 2. The higher temperature transition for P55 GPa, as discussed, is identified as being that of the Nb impurity phase. This is consistent with several features of the data. 1.) It is known that Tc of Nb vs pressure is relatively flat12, which argues for the upper transition at 55 – 88 GPa being that of Nb. 2.) The drop in resistance at the upper transition for 55-88 GPa is only partial, whereas the resistance at the lower transition goes all the way to zero. This implies that the lower transition is the Tc of the majority, 50-70%, A15 phase in the Recovery 20 sample, while the upper, partial resistive transition is the superconducting transition of the minority, 15% (see specific heat data below) Nb impurity phase.\n\n![](_page_5_Figure_0.jpeg)\n\nFig. 1 Tc versus pressure for two experimental runs, one beginning with tetragonal Nb3Si (blue symbols) and the other with A15 Nb3Si (red symbols). Unloading Tc values are the open symbols. Unloading the applied pressure on the A15 sample, where the highest pressure applied was only 88 GPa, was successful down to low pressures, as shown by the open red circles. Upon unloading the pressure applied to the tetragonal sample from the highest pressure of 120 GPa (blue circles), below 70 GPa the gasket failed resulting in a sudden release of pressure. In our experimental set up, this is not an unusual occurrence while unloading the pressure from such a high value.\n\n![](_page_6_Figure_0.jpeg)\n\nFig. 2 As can be seen in Fig. 1, where there are two transitions starting at 55 GPa, the resistivity data (while loading) displayed here show how a second transition appears for P55 GPa. See text for discussion.\n\n# **b.) High pressure resistivity measurement to search for possible tetragonal A15 conversion up to 120 GPa**\n\n Now that we have established the behavior of Tc vs pressure for A15 Nb3Si, let us consider our high pressure resistance measurements of the tetragonal Nb3Si sample. Is there any evidence of a Tc from a partial conversion to the A15 structure from applying pressure *at room temperature* to the tetragonal Nb3Si structure? Tc as determined from resistance measurements on the tetragonal Nb3Si sample are shown as blue circles in Fig. 1. Due to the ~ 10% second phase of Nb in this tetragonal sample (as determined by specific heat of the starting material as discussed below), there is the constant presence of a partial superconducting transition from Nb starting at around 8.8 K at 2 GPa and going down to ~ 7 K (Tc onset ) at 120 GPa. Again, this is consistent12 with measurements on pure Nb with some trace impurities (in our case dissolved Si). In order to settle this question, we present high pressure unloading data on the tetragonal Nb3Si sample in Fig. 3, where the inserted\n![](0__page_7_Figure_0.jpeg)\n\nFig. 3 Resistivity of the tetragonal Nb3Si sample upon unloading the pressure from 120 GPa (measured at low temperature as discussed in the text). As discussed below, the percentage of Nb second phase in this sample is 10%. Arrows show Tc for A15 extrapolated from data in Fig. 1, and do not correspond to any observable feature in the data shown here.\n\narrows correspond to the measured data up to 88 GPa (and extrapolated thereafter) for Tc on the explosively compressed (\"Recovery 20\") Nb3Si shown in Fig. 1. As can be clearly seen, no apparent anomaly corresponding to the A15 Nb3Si Tc is observed in our results for high pressure applied to tetragonal Nb3Si at room temperature. This leaves us with the surmise that the temperatures reached6 in the explosive compression production (~1000 o C) of A15 Nb3Si are necessary to overcome thermodynamic sluggishness from the kinetics of the phase transformation.\n\nWe now address this issue by performing enthalpy calculations on various possible Nb3Si structures. We follow these theoretical calculations with annealing experiments on a piece of Recovery 20 A15 majority phase Nb3Si, with the assumption that the thermal conversion A15non-superconducting tetragonal Nb3Si gives an approximation of the required thermal energy for the reverse process.\n\n## **c.) Enthalpy calculations on Nb3Si**\n\n![](0__page_8_Figure_1.jpeg)\n\nFig. 4: Enthalpy vs pressure for possible Nb3Si structures. Blue data are for the tetragonal Nb3Si, Materials Project code mp17848 – the starting material where the tetragonal structure is stable between 1673 and 1977 <sup>o</sup> C - used in the production by explosive compression of the A15 phase in the 1981 Los Alamos National Laboratory experiments. This same material was the one taken to 120 GPa (measured at low temperature) in a diamond anvil apparatus in the present work, Figs. 1 and 3. The orange data represent the enthalpy vs pressure for A15 Nb3Si. The green data represent calculations for the cubic perovskite phase of Nb3Si.\n\nFigure 4 shows our calculation of the enthalpy of Nb3Si as a function of pressure for the three experimentally known crystal structures - 4 (tetragonal), 3 (A15), and ▁3 (cubic perovskite)<sup>17</sup> using density functional theory as implemented in VASP 18-19. The plane wave cutoff was set to 520 eV and a k-point density of 60 points per Å-1 was used for the density functional theory relaxations at varying pressure. We used the Perdew-Burke-Ernzerhof generalized gradient approximation20 for the exchange-correlation energy and the projector augmented wave pseudopotentials21. As shown in Fig. 4, the A15 phase becomes stable above 50 GPa, and at 100 GPa displays an approximately 0.07 eV/atom lower enthalpy than the tetragonal 4 phase.\n\n## **d.) Annealing experiments on explosively compressed A15 Nb3Si**\n\nWithout any knowledge of annealing effects on explosively compressed A15 Nb3Si (other than the fact that it had not reconverted to tetragonal Nb3Si after being stored at room temperature for 39 years), we began this investigation with a rather low annealing temperature (220 o C) for one day. We discovered that the amount of A15 material present in the 11 mg piece of Recovery 20 which we committed to this annealing was fairly robust against annealing. We successively annealed the sample at ever increasing temperatures (320, 405, 500, and 600 o C) for one day at each temperature, followed by a 4 day anneal at 600 o C. We measured the diamagnetic susceptibility using a dc magnetometer after each anneal to approximate the decrease in the quantity of A15 superconductor present. To avoid interference from the diamagnetic susceptibility contribution from the 15 % Nb second phase (see specific heat determination below), we focused on the magnitude of the diamagnetic signal at 9.5 K, i. e. above the Tc of the second phase Nb.\n\nAfter 4 day annealing at 600 o C, we stopped the annealing procedure and measured the specific heat of the annealed 11 mg of the explosively compressed, 50-70% A15 sample (\"Recovery 20\"), and compared these annealed data with the specific heat of the unannealed Recovery 20 sample. These data are shown in Fig. 5, and indicate that 35% of the A15 portion of the sample remains after annealing. The thermal energy needed to aid the reaction kinetics of the conversion of the tetragonal structure of Nb3Si into the (3% denser) A15 structure is not the same as for the reverse (A15 tetragonal). However, at least the rather long time at 600 o C needed to partially reconvert the A15 Nb3Si into the tetragonal structure is clearly consistent with the result that our attempt to convert the tetragonal Nb3Si to the A15 structure at pressures up to 92 GPa at room temperature (120 GPa at low temperature) did not achieve the required reaction kinetics.\n\nThe specific heat data around 9 K are expanded in Fig. 6 to indicate the Nb fraction in the starting, unannealed sample of Recovery 20 (16%) and in the annealed sample (5 %). The specific heat of the starting sample of tetragonal ( 80 %) Nb3Si (see Fig. 1, blue points, and Fig. 3 for resistivity data thereon), not shown, indicates that 10% of that sample is Nb.\n\n![](0__page_10_Figure_0.jpeg)\n\nFig. 5 Shown are data for unannealed and annealed samples of Recovery 20, 50-70 % A15 phase present after explosive compression6 converted the tetragonal starting material into primarily A15 superconducting phase, Tc=18 K. The unannealed piece had a mass of 32.85 mg, the mass of the piece broken off of this starting piece for annealing was 11.18 mg. The specific heat of the smaller piece used for annealing showed the same specific heat, normalized per mole, as the larger starting piece, within our error bar of 5 %. The annealed piece was subjected successively to one day each at 220, 320, 405, and 500 o C under vacuum, followed by 5 days at 600 o C. The size of the anomaly in the C/T data at Tc, C/Tc, in the annealed sample (blue triangles) is 35 % of the anomaly in the unannealed sample (red circles), both normalized per mole of material.\n\n![](0__page_11_Figure_0.jpeg)\n\nFig. 6. Low temperature C/T vs T data for annealed and unannealed A15 Nb3Si, Recovery 20, expanded around 9 K to show the bcc Nb superconducting transition. The straight lines are guides to the eye to accentuate the transitions, marked by vertical lines. Based on published specific heat data for pure Nb22 , which give C/Tc of 14 mJ/molK2 , the fraction of Nb in the Recovery 20 explosively compressed sample with 50-70 % A15 Nb3Si is 16%, while in the annealed sample the fraction of Nb has decreased to 5%. After the specific heat of the annealed sample was performed, it was ground and characterized by x-ray diffraction. Strong tetragonal Nb3Si diffraction lines were present.\n\n## **e.) Summary and Conclusions**\n\nA sample of A15 Nb3Si produced6 by explosive compression (approximate peak pressure 90 – 110 GPa, peak temperature 1000 o C, residual temperature 500 o C) in 1981 at Los Alamos National Laboratory was subjected to pressures up to 88 GPa in order to determine the superconducting transition temperature Tc as a function of pressure, with Tc mid falling to 5.2 K at the highest pressure. This sample was then annealed to approximately determine the temperature and time needed to transform A15 Nb3Si back into the tetragonal structure. Then, in order to determine if tetragonal Nb3Si can be transformed to the A15 structure at room temperature by applied pressures up to 92 GPa at room temperature (120 GPa at low temperatures), a sample of\n\nthe original, before implosion LANL starting material (Nb3Si annealed at 1780 o C for four hours, with 80% tetragonal structure) was measured.\n\nTheoretical calculations of the enthalpies vs pressure of three possible Nb3Si structures were carried out to help guide the pressure measurements. The result is that the A15 structure becomes the lowest enthalpy lattice arrangement above 50 GPa, with approximately 70 meV/atom lower enthalpy than the tetragonal structure at 100 GPa.\n\nAlthough a second phase of Nb was present in all the samples, it was straightforward to distinguish which resistive transition corresponded to the A15 phase. No evidence of the A15 transition was detected in unloading data on the starting tetragonal material at 120, 105, and 83 GPa. Thus, we conclude that the original explosive compression conversion of tetragonal A15 Nb3Si at pressures up to 110 GPa indeed required the high temperatures (~1000 o C) associated with the rapid compression to assist the reaction kinetics. This is consistent with our annealing data on the A15, where temperatures of 600 o C for 5 days, as well as 4 days of lower temperature annealing, were required to convert 65% of the A15 phase (as determined by bulk specific heat measurements) back to normal Nb3Si material.\n\nBased on these experiments, and the original estimate6 of the 1 sec time-at-temperature (~1000 o C) and pressure (110 GPa) of the explosively compressed A15 Nb3Si, the present work indicates that combined conditions of high pressure *and* high temperature are necessary to convert tetragonal Nb3Si to the A15 structure. The long-lived nature of metastable A15 Nb3Si (annealing for 39 years at room temperature failed to result in any sizable back transformation) points to the presence of a significant kinetic barrier. In that sense, it is not surprising that high temperatures are necessary to overcome this barrier. The present work highlights that high pressure phases formed with the addition of high temperatures are more likely to survive at ambient conditions than those formed via room temperature compression alone, since for the phase to form at room temperature the kinetic barrier must necessarily be small.\n\nThe barrier to atomic rearrangement raised by slow kinetics is the key to metastability at ambient conditions. The present work, where annealing at room temperature for 39 years did not transform the metastable A15 Nb3Si structure back to the tetragonal (with its 90 meV/atom *lower* enthalpy) serves as a clear example of this. While computational methods now allow reliable prediction of thermodynamically stable phases, the prediction of such barriers and the associated kinetics are out of reach in most cases. Whether high temperature superconducting hydride phases can be retrieved to ambient conditions following ultra-high pressure synthesis thus remains an open question for experiments, though the high mobility of hydrogen may make this particularly challenging.\n\nGiven the current interest in the high-Tc hydrides, the present work serves as a prototypical example of a superconducting structure that forms under very high (megabar) pressures but survives to ambient conditions.\n\n**Acknowledgments**: Work at the University of Florida performed under the auspices of US Department of Energy Basic Energy Sciences under Contract No. DE-SC-0020385. Work at Los Alamos National Laboratory performed under the auspices of the U.S. Department of Energy under contract DE-AC52-06NA25396.\n\n## **References**\n\n- 1.) A. P. Drozdov, M. I. Eremets, I. A. Troyan, V. Ksenofontov, and S. I. Shylin, S. I., Nature 525, 73 (2015).\n- 2.) M. Somayazulu, M. Ahart, A. K. Mishra, Z. M. Geballe, M. Baldini, Y. Meng, V. V. Struzhkin, and R. J. Hemley, Phys. Rev. Lett. 122, 027001 (2019).\n- 3.) A. P. Drozdov, P. P. Kong, V. S. Minkov, S. P. Besedin, M. A. Kuzovnikov, S. Mozaffari, L. Balicas, F. Balakirev, D. Graf, V. B. Prakapenka, E. Greenberg, D. A. Knyazev, M. Tkacz, and M. I. Eremets, Nature 569, 528 (2019).\n- 4.) E. Snider, N. Dasenbrock-Gammon, R. McBride, M. Debessai, H. Vindana, K. Vencatasamy, K. V. Lawler, A. Salamat and R. P. Dias Nature 586, 373 (2020).\n- 5.) G. R. Stewart, Physica C 514, 28 (2015).\n- 6.) Bart Olinger and L. R. Newkirk, Solid State Comm. 37, 613 (1981).\n- 7.) G.R. Stewart, Bart Olinger, and L.R. Newkirk, Solid State Comm. 39, 5 (1981).\n- 8.) B. W. Olinger, L. R. Newkirk, and J. C. King, Acta Cryst. A38, 151 (1982).\n- 9.) G.R. Stewart, B. Olinger, and L.R. Newkirk, Phys. Rev. B31, 2704 (1985).\n- 10.) D. H. Killpatrick, J. Phys. Chem. Solids 25, 1213 (1964).\n- 11.) K. C. Lim, J. D. Thompson, Bart Olinger, and L. R. Newkir, J. Low Temp. Phys. 45, 575 (1981).\n- 12.) V. V. Struzhkin, Y. A. Timofeev, R. J. Hemley, and H.-k. Mao, Phys. Rev. Lett. 79, 4262 (1997).\n- 13.) T. Geng, C. Li, X. Zhao, H. Xu, Z. Du and C. Guo, Calphad 34, 363 (2010).\n- 14.) G. R. Stewart, Rev. Sci. Instrum. 54, 1 (1983).\n- 15.) A. D. Chijioke, W. J. Nellis, A. Soldatov, and I. F. Silvera, J. Applied Physics 98, 114905 (2005).\n- 16.) K. Shimizu, K. Amaya, and N. Suzuki, Journal of the Physical Society of Japan 74, 1345 (2005).\n- 17.) F. Galasso, J. Pyle, Acta Crystallographica 16, 228 (1963).\n- 18.) G. Kresse and J. Furthmueller, Computational Materials Science 6, 15 (1996).\n- 19.) G. Kresse and J. Furthmueller, Phys. Rev. B 54, 11169 (1996).\n- 20.) J. P. Perdew, K. Burke, and M. Ernzerhof, Phys. Rev. Lett. 77, 3865 (1996).\n- 21.) P. E. Blochl, Phys. Rev. B 50, 17953 (1994).\n\n. OLINGER, L. R. NEWKIRK AND J. C. KING\n\n22.) H. A. Leupold and H. A. Boorse, Phys. Rev. 134, A1322 (1964).",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "I. Introduction",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              88.3037109375,
+              699.9609375
+            ],
+            [
+              191.3994140625,
+              699.9609375
+            ],
+            [
+              191.3994140625,
+              712.2203216552734
+            ],
+            [
+              88.3037109375,
+              712.2203216552734
+            ]
+          ]
+        },
+        {
+          "title": "II. Experimental",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              88.6025390625,
+              612.1073303222656
+            ],
+            [
+              200.0654296875,
+              612.1073303222656
+            ],
+            [
+              200.0654296875,
+              624.1403350830078
+            ],
+            [
+              88.6025390625,
+              624.1403350830078
+            ]
+          ]
+        },
+        {
+          "title": "a. Samples",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              89.7978515625,
+              641.8673248291016
+            ],
+            [
+              151.8046875,
+              641.8673248291016
+            ],
+            [
+              151.8046875,
+              653.94140625
+            ],
+            [
+              89.7978515625,
+              653.94140625
+            ]
+          ]
+        },
+        {
+          "title": "b. Experimental Measurements",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              88.37841796875,
+              297.3473205566406
+            ],
+            [
+              259.3828125,
+              297.3473205566406
+            ],
+            [
+              259.3828125,
+              309.38031005859375
+            ],
+            [
+              88.37841796875,
+              309.38031005859375
+            ]
+          ]
+        },
+        {
+          "title": "III. Results and Discussion",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              88.0048828125,
+              295.307373046875
+            ],
+            [
+              245.82997131347656,
+              295.307373046875
+            ],
+            [
+              245.82997131347656,
+              307.3403625488281
+            ],
+            [
+              88.0048828125,
+              307.3403625488281
+            ]
+          ]
+        },
+        {
+          "title": "a.) High pressure determination of Tc vs pressure in A15 Nb3Si.",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              88.6025390625,
+              325.1873474121094
+            ],
+            [
+              416.3958435058594,
+              325.1873474121094
+            ],
+            [
+              416.3958435058594,
+              337.2203369140625
+            ],
+            [
+              88.6025390625,
+              337.2203369140625
+            ]
+          ]
+        },
+        {
+          "title": "b.) High pressure resistivity measurement to search for possible tetragonal  A15 \nconversion up to 120 GPa",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              89.2001953125,
+              397.1873474121094
+            ],
+            [
+              513.1431274414062,
+              397.1873474121094
+            ],
+            [
+              513.1431274414062,
+              424.2203369140625
+            ],
+            [
+              89.2001953125,
+              424.2203369140625
+            ]
+          ]
+        },
+        {
+          "title": "c.) Enthalpy calculations on Nb3Si",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              89.87255859375,
+              88.9073486328125
+            ],
+            [
+              267.0724182128906,
+              88.9073486328125
+            ],
+            [
+              267.0724182128906,
+              100.94036865234375
+            ],
+            [
+              89.87255859375,
+              100.94036865234375
+            ]
+          ]
+        },
+        {
+          "title": "d.) Annealing experiments on explosively compressed A15 Nb3Si",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              89.99480438232422,
+              705.3473281860352
+            ],
+            [
+              420.072021484375,
+              705.3473281860352
+            ],
+            [
+              420.072021484375,
+              717.3803253173828
+            ],
+            [
+              89.99480438232422,
+              717.3803253173828
+            ]
+          ]
+        },
+        {
+          "title": "e.) Summary and Conclusions",
+          "heading_level": null,
+          "page_id": 11,
+          "polygon": [
+            [
+              88.751953125,
+              549.2273406982422
+            ],
+            [
+              246.1040496826172,
+              549.2273406982422
+            ],
+            [
+              246.1040496826172,
+              561.2603454589844
+            ],
+            [
+              88.751953125,
+              561.2603454589844
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 13,
+          "polygon": [
+            [
+              71.419921875,
+              140.185546875
+            ],
+            [
+              128.0478515625,
+              140.185546875
+            ],
+            [
+              128.0478515625,
+              153.26031494140625
+            ],
+            [
+              71.419921875,
+              153.26031494140625
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              104
+            ],
+            [
+              "Line",
+              31
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              147
+            ],
+            [
+              "Line",
+              47
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              146
+            ],
+            [
+              "Line",
+              42
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              176
+            ],
+            [
+              "Line",
+              49
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              152
+            ],
+            [
+              "Line",
+              39
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              23
+            ],
+            [
+              "Line",
+              9
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              77
+            ],
+            [
+              "Line",
+              25
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              56
+            ],
+            [
+              "Line",
+              18
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              88
+            ],
+            [
+              "Line",
+              20
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              111
+            ],
+            [
+              "Line",
+              33
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              36
+            ],
+            [
+              "Line",
+              13
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              64
+            ],
+            [
+              "Line",
+              23
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              126
+            ],
+            [
+              "Line",
+              42
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              136
+            ],
+            [
+              "Line",
+              38
+            ],
+            [
+              "ListItem",
+              22
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 14,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "A15 Nb<SUB>3</SUB>Si: a 'high' T<SUB>c</SUB> superconductor synthesized at a pressure of one megabar and metastable at ambient conditions",
+    "authors": [
+      {
+        "authors_list": [
+          "Lim, Jinhyuk",
+          "Kim, J. S.",
+          "Hire, Ajinkya C.",
+          "Quan, Yundi",
+          "Hennig, R."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "A15 Nb<SUB>3</SUB>Si is, until now, the only 'high' temperature superconductor produced at high pressure (∼110 GPa) that has been successfully brought back to room pressure conditions in a metastable condition. Based on the current great interest in trying to create metastable-at-room-pressure high temperature superconductors produced at high pressure, we have restudied explosively compressed A15 Nb<SUB>3</SUB>Si and its production from tetragonal Nb<SUB>3</SUB>Si. First, diamond anvil cell pressure measurements up to 88 GPa were performed on explosively compressed A15 Nb<SUB>3</SUB>Si material to trace T<SUB>c</SUB> as a function of pressure. T<SUB>c</SUB> is suppressed to ∼5.2 K at 88 GPa. Then, using these T<SUB>c</SUB> (P) data for A15 Nb<SUB>3</SUB>Si, pressures up to 92 GPa were applied at room temperature (which increased to 120 GPa at 5 K) on tetragonal Nb<SUB>3</SUB>Si. Measurements of the resistivity gave no indication of any A15 structure production, i.e. no indications of the superconductivity characteristic of A15 Nb<SUB>3</SUB>Si. This is in contrast to the explosive compression (up to P ∼ 110 GPa) of tetragonal Nb<SUB>3</SUB>Si, which produced 50%-70% A15 material, T<SUB>c</SUB> = 18 K at ambient pressure, in a 1981 Los Alamos National Laboratory experiment. This implies that the accompanying high temperature (1000 °C) caused by explosive compression is necessary to successfully drive the reaction kinetics of the tetragonal → A15 Nb<SUB>3</SUB>Si structural transformation. Our theoretical calculations show that A15 Nb<SUB>3</SUB>Si has an enthalpy vs the tetragonal structure that is 70 meV atom<SUP>-1</SUP> smaller at 100 GPa, while at ambient pressure the tetragonal phase enthalpy is lower than that of the A15 phase by 90 meV atom<SUP>-1</SUP>. The fact that 'annealing' the A15 explosively compressed material at room temperature for 39 years has no effect shows that slow kinetics can stabilize high pressure metastable phases at ambient conditions over long times even for large driving forces of 90 meV atom<SUP>-1</SUP>.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Journal of Physics Condensed Matter",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2012.02905"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1088/1361-648X/abeace",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2021JPCM...33B5705L"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

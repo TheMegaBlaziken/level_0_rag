@@ -1,0 +1,2388 @@
+{
+  "id": "6b10e497e58c47d1fda85bd38c96fd5f",
+  "pdf_path": "apl/Superconductors/arXiv:2012.04787.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "## **Superconductivity at 253 K in lanthanum-yttrium ternary hydrides**\n\nDmitrii V. Semenok, 1,&,\\* Ivan A. Troyan, 2,& Аlexander G. Kvashnin, 1,&,\\* Anna G. Ivanova, <sup>2</sup> Michael Hanfland, 3 Andrey V. Sadakov, <sup>4</sup> Oleg A. Sobolevskiy, <sup>4</sup> Kirill S. Pervakov, <sup>4</sup> Alexander G. Gavriliuk, 2,6 Igor S. Lyubutin, 2 Konstantin Glazyrin<sup>9</sup> , Nico Giordano<sup>9</sup> , Denis Karimov, <sup>2</sup> Alexander Vasiliev, 2,5 Ryosuke Akashi, <sup>7</sup> Vladimir M.\n\nPudalov4,8 and Artem R. Oganov1,\\*\n\n<sup>1</sup>Skolkovo Institute of Science and Technology, Skolkovo Innovation Center, 3 Nobel Street, Moscow 121205, Russia\n\n<sup>2</sup>Shubnikov Institute of Crystallography, Federal Scientific Research Center Crystallography and Photonics,\n\nRussian Academy of Sciences, 59 Leninsky Prospekt, Moscow 119333, Russia\n\n3 ID15B High Pressure Diffraction Beamline, ESRF, BP220, Grenoble 38043, France\n\n<sup>4</sup>P. N. Lebedev Physical Institute, Russian Academy of Sciences, Moscow 119991, Russia\n\n<sup>5</sup>National Research Center Kurchatov Institute, Moscow, Russia\n\n6 Institute for Nuclear Research, Russian Academy of Sciences, Moscow 117312, Russia\n\n<sup>7</sup> University of Tokyo, 7-3-1 Hongo, Bunkyo, Tokyo 113-8654, Japan\n\n<sup>8</sup> National Research University Higher School of Economics, Moscow 101000, Russia\n\n<sup>9</sup> Deutsches Elektronen-Synchrotron, D-22607 Hamburg, Germany\n\n## **Abstract**\n\nPolyhydrides offer intriguing perspectives as high-temperature superconductors. Here we report the highpressure synthesis of a series of lanthanum–yttrium ternary hydrides: cubic hexahydride (La,Y)H<sup>6</sup> with a critical temperature *T*<sup>C</sup> = 237 ± 5 K and decahydrides (La,Y)H<sup>10</sup> with a maximum *T*<sup>C</sup> ~ 253 K and an extrapolated upper critical magnetic field *B*C2(0) up to 135 T at 183 GPa. This is one of the first examples of ternary high-*T*<sup>C</sup> superconducting hydrides. Our experiments show that a part of the atoms in the structures of recently discovered 3̅-YH<sup>6</sup> and 3̅-LaH<sup>10</sup> can be replaced with lanthanum (~70%) and yttrium (~25%), respectively, with a formation of unique ternary superhydrides containing incorporated La@H<sup>24</sup> and Y@H<sup>32</sup> which are specific for 3̅-LaH<sup>6</sup> and 3̅-YH10. Ternary La–Y hydrides were obtained at pressures of 170–196 GPa via the laser heating of *P*63*/mmc* lanthanum–yttrium alloys in the ammonia borane medium at temperatures above 2000 K. A novel tetragonal (La,Y)H<sup>4</sup> was discovered as an impurity phase in synthesized cubic (La,Y)H6. The current–voltage measurements show that the critical current density *J*<sup>C</sup> in (La,Y)H<sup>10</sup> may exceed 2500 A/mm<sup>2</sup> at 4.2 K, which is comparable with that for commercial superconducting wires such as NbTi, Nb3Sn. Hydrides that are unstable in a pure form may nevertheless be stabilized at relatively low pressures in solid solutions with superhydrides having the same structure.\n\n**Keywords:** superconductivity, hydrides, USPEX, SCDFT, high pressure\n\n#### **Highlights**\n\n- Stabilization of \"impossible\" LaH<sup>6</sup> and YH<sup>10</sup> in solid solutions with 3̅-YH<sup>6</sup> and 3̅-LaH<sup>10</sup>\n- Superconductivity in cubic (La,Y)H<sup>10</sup> at 253 K and 183 GPa\n- Extrapolated upper critical magnetic field for (La,Y)H<sup>10</sup> is up to 135 Т\n- Extrapolated critical current density in (La,Y)H<sup>10</sup> is above 2500 A/mm<sup>2</sup> at 4.2 K.\n\n## **Introduction**\n\nMetallic hydrogen is expected to display remarkable superconducting properties stemming from its high Debye temperature and strong electron-phonon coupling 1–4 . Recent series of successful experimental syntheses of high-temperature superconductors LaH10, YH<sup>6</sup> and YH<sup>9</sup> 5–9 containing the metallic H sublattice motivated us to attempt to raise the critical temperature of the La–H and Y–H systems by combining the elements into ternary La–Y hydrides.\n\nSeveral binary hydrides of yttrium and lanthanum have been discovered in the last few years. In the work of Li et al. (2015), <sup>10</sup> 3̅-YH<sup>6</sup> was predicted to be stable at pressures over 110 GPa, with the superconducting transition temperature, found via the numerical solution of the Migdal–Eliashberg equations, in the range from 251 to 264 K at 120 GPa. Recently, we have synthesized YH<sup>6</sup> and shown<sup>8</sup> that it has a much lower critical temperature, about 224 K at 166 GPa, which contradicts the theoretical results mentioned above. In 2017, in a detailed theoretical study of yttrium and lanthanum hydrides, Liu et al.<sup>11</sup> have found that lanthanum hexahydride 3̅-LaH6, isostructural to YH6, less symmetrical 3̅-LaH6, and 3̅-YH<sup>10</sup> are thermodynamically unstable and lie above the convex hull, which is a surface of the formation energy as a function of the chemical composition, at pressures below 250 GPa. We wondered whether these unstable compounds could be stabilized in ternary alloys with a similar structure.\n\nTernary La–Y hydrides have been theoretically studied by our group<sup>12</sup> and by [Kostrzewa](https://www.nature.com/articles/s41598-020-58065-9#auth-1) et al.<sup>13</sup> Using the neural network, we have predicted that the combination of elements from the \"lability belt\", <sup>14</sup> such us Mg, Ca, Ba, Sc, Y, La, and Th, forms the main group of high-*T*<sup>C</sup> ternary hydride superconductors, and the La–Y–H is one of the most prospective systems. [Kostrzewa](https://www.nature.com/articles/s41598-020-58065-9#auth-1) et al., analyzing the dependence of the logarithmically averaged frequency ωlog on the mass of atoms, have found that the La–Y–H compounds may have *T*<sup>C</sup> up to 274 K at 190 GPa. Thus, the theoretical analysis shows that the La–Y–H system is very attractive for achieving high critical temperatures of superconductivity.\n\nIn this work, we experimentally studied the superconducting properties of cubic hexahydrides La*x*Y1–*x*H<sup>6</sup> and decahydrides La*x*Y1–*x*H<sup>10</sup> obtained via the laser heating of yttrium–lanthanum alloys with ammonia borane (AB, NH3BH3). Samples were compressed to 165–196 GPa in symmetrical diamond anvil cells and heated by a series of laser pulses of millisecond duration. The superconducting properties of the yttrium–lanthanum polyhydrides were investigated using the electrical transport measurements in different current modes and external magnetic fields.\n\n## **Results and Discussion**\n\n### *Structural search*\n\nThe study of yttrium hexahydride, synthesized at moderate pressures, 8 has demonstrated that its critical temperature of superconductivity is significantly lower than has been theoretically predicted. <sup>15</sup> Is it possible to improve the parameters of the superconducting state by introducing another metal into the Y–H system? We noticed that lanthanum could form 3̅-LaH6, which lies only slightly above the area of thermodynamic stability (i.e. convex hull, Figure 1) at 150–200 GPa. <sup>11</sup> This cubic LaH<sup>6</sup> can be, at least kinetically, stabilized by an isostructural environment of YH6, which is of great interest in terms of hightemperature superconductivity because of the structural analogy with yttrium hexahydride.\n\n![](_page_2_Figure_0.jpeg)\n\n<span id=\"page-2-0\"></span>Figure 1. Ternary convex hulls of the La–Y–H system at pressure 200 GPa and temperatures (a) 0 K, (b) 1000 K, (c) 1500 K, and (d) 2000 K, calculated with a contribution of the configurational entropy (TSconf) and the zero-point energy (ZPE). Invisible Z-axis corresponds to the enthalpy of formation and directed perpendicular to the plane of the figure. Stable and metastable phases are shown in red and blue, respectively.\n\nAn evolutionary search using USPEX16–18 for thermodynamically stable phases in the La–Y–H system [\\(Figure](#page-2-0) 1) shows that at 200 GPa and 0 K none of the ternary hydrides lies on the 3D convex hull except LaYH20. Below in this paragraph we denote the symmetry of compounds without distinguishing Y and La. Surprisingly, *P*63*/mmc*-LaYH<sup>20</sup> is stable at 0 K [\\(Figure](#page-2-0) 1a), whereas the cubic modification 3̅*-*LaYH<sup>20</sup> is 50 meV/atom above the convex hull. An increase in the temperature to 1000 K leads to the stabilization of tetragonal *I*4/*mmm*-La2YH<sup>12</sup> and cubic hexahydrides La4YH<sup>30</sup> and LaYH12. These phases are metastable at 0 K, with the distances from the convex hull equal to 82, 38, and 53 meV/atom, respectively. Moreover, La4YH50, which belongs to the La1–*x*Y*x*H<sup>10</sup> structural type (*x* = 0.2), becomes stable at 1000 K. These structures can be considered as solid solutions of the La and Y atoms in the metallic sublattice of 3̅-LaH10. Other phases that belong to the La1–*x*Y*x*H<sup>10</sup> group (La3YH40, La2YH30, and LaY4H50) are 5, 8, and 13 meV/atom above the convex hull at 1000 K [\\(Figure](#page-2-0) 1b). Further increase in the temperature to 1500 K leads to the stabilization of LaY4H<sup>50</sup> and La2YH<sup>18</sup> [\\(Figure](#page-2-0) 1c), whereas an even higher temperature of 2000 K stabilizes the La2YH<sup>30</sup> phase [\\(Figure](#page-2-0) 1d). Above 1800 K, 3̅*-*LaYH<sup>20</sup> also becomes stable (at 2000 K, *P*63*/mmc*-LaYH<sup>20</sup> is 5 meV/atom above the convex hull). Under all the studied pressuretemperature conditions, pure 3̅-LaH<sup>6</sup> and 3̅-YH<sup>10</sup> were unstable. Thus, high-temperature laser synthesis may lead to stabilization and \"freezing\" of a wide range of ternary La–Y polyhydrides.\n\n#### *High-pressure synthesis*\n\nTo synthesize promising superconducting ternary yttrium–lanthanum hydrides, we prepared a series of La–Y alloys: La4Y, La3Y, La2Y, LaY, and LaY4. The yttrium (>99.99%) and lanthanum (>99.99%) metal pieces were mixed with the selected molar ratio and a total weight of 1g, pressurized and several times melted in an argon arc with sample rotation for homogenization of the melt. Subsequent X-ray and electron diffraction, X-ray fluorescence (XRF) and energy-dispersive X-ray (EDX) analyses showed that the hexagonal phases *P*63*/mmc*-La*x*Y1–*<sup>x</sup>* are the main product of the sintering (Supporting Information Figure S10-S11, S14-S15).\n\nFor loading high-pressure diamond anvil cells (DACs), we took the material from the homogeneous region of the alloy surface with the desired La:Y ratio determined by the EDX and XRF. To measure the synchrotron X-ray diffraction (XRD) and the critical temperature of superconductivity of synthesized lanthanum–yttrium hydrides, we used seven DACs M1-2, M2\\_S, SL1, SL1\\_S, SL3 and SL3\\_S, with a 50 µm culet beveled to 300 µm at 8.5°, equipped with four ~200 nm thick Ta electrodes with ~80 nm gold plating (Figure 3c) that were sputtered onto the piston diamond. Composite gaskets consisting of a tungsten ring and a CaF2/epoxy mixture were used to isolate the electrical leads. Lanthanum–yttrium pieces with a thickness of ~1–2 µm were sandwiched between the electrodes and ammonia borane NH3BH<sup>3</sup> (AB) in the gasket hole with a diameter of 20 µm and a thickness of 10–12 µm. Laser heating of samples above 2000 K at pressures of 170–196 GPa by several 100 μs pulses led to the formation of ternary lanthanum–yttrium hydrides whose structure was analyzed using the X-ray diffraction. Because each laser heating and cooling cycle resulted in some pressure change in the DACs, the pressure in each experiment was determined separately. The detailed description of the DACs is presented in Supporting Information.\n\n![](_page_3_Figure_2.jpeg)\n\n<span id=\"page-3-0\"></span>Figure 2. X-ray diffraction study of La-Y hydrides. Experimental diffraction patterns and Le Bail refinements of the cell parameters of (a) 3̅-(La,Y)H<sup>10</sup> (DAC SL1**)** and (b) *Imm*2-YH<sup>7</sup> and *Cmcm*-LaH<sup>3</sup> (DAC M1**)**. The experimental data, fit and residues are shown by red, black and green lines, respectively. (c) Fragment of crystal structure of (La,Y)H<sup>10</sup> where Y and La are neighbors (for illustrative purposes). (d) Pressure–unit cell volume diagram for *fcc* LaH10: circles, squares, rhombuses, triangles, and crosses show the experimental data, lines depict the theoretical calculations. (e) Estimates of the Y content in (La,Y)H10 and (La,Y)H<sup>6</sup> obtained using the experimental unit cell volumes.\n\nIn five out of seven diamond anvil cells prepared for the XRD studies, the main observed phase was 3̅-(La,Y)H<sup>10</sup> [\\(Figure](#page-3-0) *2*a,b, Supporting Information Figures S17–S20) with a cell volume of ~31.8 Å 3 at 180 GPa, which is about 0.5–0.83 Å 3 /f.u. lower than the volume of 3̅-LaH<sup>10</sup> found by Geballe et al.<sup>5</sup> [\\(Figure](#page-3-0) *2*d, Supporting Information Table S4). The decrease in the unit cell volume is due to the replacement of large La atoms with Y, which has a smaller size. In the discovered ternary cubic La–Y polyhydride, the substitution of the La atoms with Y resulted in the formation of the Y@H<sup>32</sup> inclusion with a locally distorted H-cage specific for 3̅-YH<sup>10</sup> [\\(Figure](#page-3-0) *2*c). 11\n\nThere are large differences in the parameters of the unit cell of LaH<sup>10</sup> reported by different research groups. 11,5–7,19 In the first experiment by Geballe et al., 5 the unit cell volume of LaH<sup>10</sup> at about 170 GPa exceeds 33 Å 3 , which is significantly larger than 31.2 Å 3 calculated theoretically using VASP (Figure 1d, red circles). This prompted the authors of Ref. <sup>5</sup> to attribute the undefined stoichiometry LaH9–12 to the discovered compound. 5\n\nIn the subsequent studies by Drozdov et al.<sup>6</sup> and Dan Sun et al.<sup>20</sup> , the experimental cell volume values of the synthesized LaH<sup>10</sup> (*V* = 33.2 Å 3 at 150 GPa) are smaller by about 1.2 Å 3 /f.u. than those observed by Geballe et al.<sup>5</sup> [\\(Figure](#page-3-0) *2*d). However, they are larger than those predicted using VASP, 21–24 and are in close agreement with the equations of state (EoS) calculated using the Quantum ESPRESSO25,26 pseudopotentials [\\(Figure](#page-3-0) *2*d, \"QE\", blue line). In both cases the Perdew–Burke–Ernzerhof functional<sup>27</sup> in the generalized gradient approximation was used. The experimental data of Dan Sun et al.<sup>20</sup> were obtained in the low pressure range of 120–150 GPa, where distortion of the ideal cubic structure of 3̅-LaH<sup>10</sup> (→*C*2/*m*) occurs<sup>20</sup> and, at the same time, there is a possibility of losing some hydrogen from the crystal lattice.\n\nGiven the substantial uncertainty in both theoretical and experimental equations of states, and taking into account that substitution of La with Y in LaH<sup>10</sup> should lead to a decrease in the unit cell volume, we performed additional experiment with pure La squeezed with AB in DAC SL3\\_S at 171 GPa. After laser heating of the sample, we detected formation of 3̅-LaH<sup>10</sup> with the unit cell volume 32.82 Å<sup>3</sup> (Supporting Figure S21) and an impurity of hexagonal (*P*63*mc*) LaH<sup>10</sup> (cell volume 33.05 Å<sup>3</sup> , Supporting Figure S22) which was also detected in previous experiments. <sup>6</sup> Thus, taking into account that our experimental result for V(LaH10) is close to the data of Ref. <sup>5</sup> we chose the 3rd order Birch–Murnaghan interpolation28,29 of the experimental EoS found by Geballe et al.<sup>5</sup> as a reference [\\(Figure](#page-3-0) *2*d, red dotted line). Using this EoS, we determined the composition of synthesized (La,Y)H<sup>10</sup> as La3YH<sup>40</sup> or La0.75Y0.25H<sup>10</sup> (Figure 2e), in which the La:Y ratio is close to that of the loaded sample in DACs M2, SL1 and SL1\\_S. Indeed, the results of the X-ray structural analysis show that the cleanest samples of (La,Y)H<sup>10</sup> were obtained in DACs SL1, SL1\\_S and M2, whereas in DACs M1 (loaded with LaY) and SL3 (loaded with LaY4) we detected a notable amount of previously described<sup>8</sup> impurities: pseudocubic *Imm*2-YH7 and, probably, *Cmcm*-LaH<sup>3</sup> (Supporting Information Figures S18-S19).\n\nFor DAC M2\\_S, loaded with La2Y/AB, the X-ray diffraction patterns [\\(Figure](#page-5-0) *3*a,b) were identical to the one previously observed for 3̅-YH6. <sup>8</sup> However, the obtained unit cell volumes 48.5-48.3 Å 3 (Z = 2, 175-180 GPa) are in sharp contrast with that of YH<sup>6</sup> (< 46 Å 3 , Figure 3e) in the same pressure interval. Given that the volume of the hypothetical 3̅-LaH<sup>6</sup> is above 50 Å 3 (Z=2), the resulting product (La,Y)H<sup>6</sup> can be described as La2YH<sup>18</sup> (more accurately, La0.7Y0.3H6, Figures 3d, 2e) with a structure of 3̅-Y3H<sup>18</sup> where approximately every two out of three yttrium atoms are replaced by lanthanum. At the center of DAC M2\\_S, at 180 GPa we also detected a tetragonal phase impurity similar to previously detected *I*4*/mmm*-YH<sup>4</sup> 8 , but with a unit cell volume larger by 1.4 Å<sup>3</sup> /f.u. at this pressure. This enables to assign this compound the composition La2YH<sup>12</sup> [\\(Figure 3e](#page-5-0)). The significant difference between the results of synthesis in DACs M1-2, Sl1, SL3 and M2\\_S is probably due to the lack of hydrogen in the DAC M2\\_S, which is indicated by the presence of impurities of lower tetrahydrides (Figure 3).\n\n![](_page_5_Figure_0.jpeg)\n\n<span id=\"page-5-0\"></span>Figure 3. X-ray diffraction study of La-Y hydrides in DAC M2\\_S. (a, b) Experimental diffraction patterns and the Le Bail refinements of the cell parameters of 3̅-(La,Y)H<sup>6</sup> and tetragonal *I*4*/mmm*-(La,Y)H<sup>4</sup> at 175 and 180 GPa. Experimental data, fit, and residues are shown in red, black, and green, respectively. (c) Optical microscopy of the loaded DAC: sample, NH3BH<sup>3</sup> medium, and four Ta/Au electrodes. (d) Fragment of crystal structures of (La,Y)H<sup>6</sup> where Y and La are neighbors (for illustrative purposes). (e) Pressure–unit cell volume diagram of the studied La–Y–H phases.\n\n#### *Superconductivity*\n\nThe superconducting properties of the obtained lanthanum–yttrium hydrides were studied by measuring temperature dependence of the electrical resistance of the samples in various current modes using the fourprobe method, with and without an external magnetic field [\\(Figure](#page-6-0) 4). The 3̅-(La,Y)H<sup>10</sup> polyhydrides, synthesized from La2Y and La4Y, have similar properties and exhibit relatively wide (15–17 K) superconducting transition with *T*<sup>C</sup> = 245–253 K at 183–199 GPa, with the resistance drop to 0.1 mΩ [\\(Figure 4a](#page-6-0),b). In several cells we detected an additional shelf in the *R*(*T*) dependence at ~237 ± 5 K, possibly due to the presence of 3̅-(La,Y)H<sup>6</sup> formed with the lack of hydrogen. The admixture YH6, which forms sometimes, corresponds to the transition at 224–226 K (Supporting Information Figures S26 and S28).\n\nMeasurements in external magnetic fields of 0–16 Т [\\(Figure 4c](#page-6-0),d, Supporting Information Figures S26- S27) show an almost linear dependence of *T*C(*B*) with the slope *dB*C2*/dT* ≈ –0.76 T/K near 230–250 K [\\(Figure](#page-6-0) [4](#page-6-0)f). The extrapolated upper critical magnetic field µ0*H*с2(0) is 90–135 T, which is lower than that of YH6, even though *T*C, the density of electronic states *N*(*E*F), and *N*H(*E*F) for (La,Y)H<sup>10</sup> are notably higher (see below) than similar parameters for YH6. This additionally indicates a possible anomaly in the mechanism of superconductivity in 3̅-YH6. 8\n\n![](_page_6_Figure_0.jpeg)\n\n<span id=\"page-6-0\"></span>Figure 4. Superconducting transitions in 3̅-(La,Y)H10: (a) temperature dependence of the electrical resistance for the sample obtained from La4Y. Inset: residual resistance after cooling below *Т*C. (b) Temperature dependence of the resistance for the sample obtained from La2Y. Insets: residual resistance after cooling below *Т*<sup>C</sup> and a photo of the DAC culet with electrodes. (c) Dependence of the electrical resistance of (La,Y)H<sup>10</sup> on the external magnetic field (0–16 T) at 186 GPa and 0.1 mA current. The critical temperatures were determined at the onset of the resistance drop. (d) Dependence of the critical current on temperature and external magnetic field (0–16 T). The critical currents were measured near *T*C. Inset: current-voltage characteristic near a SC transition. (e) Extrapolation of the upper critical magnetic field using the Werthamer–Helfand–Hohenberg theory<sup>30</sup> (WHH) and the Ginzburg–Landau<sup>31</sup> theory (GL). (f) Dependence of the critical temperature *T*<sup>C</sup> on the applied magnetic field.\n\nWe also investigated the pressure dependence of *T*<sup>C</sup> for the (La,Y)H<sup>10</sup> samples obtained from La2Y and La4Y alloys (Supporting Information Figure S27). For the first sample, when the pressure in the DAC decreases from 196 to 183 GPa, the critical temperature of the corresponding superhydride increases from 244.5 K to 253 K with a gradient *dT*C*/dP* = –0.65 K/GPa, whereas for the second sample, the measured gradient was –0.13 K/GPa (Supporting Information Figure S27a). The observed increase in the critical temperature is probably due to the loss of dynamic stability of the 3̅-LaH<sup>10</sup> superlattice and growth of the electron–phonon coupling (EPC) coefficient.\n\nOne of the distinguishing features of superconductors is the existence of an upper limit of current density *J*<sup>C</sup> at which superconductivity disappears and the material acquires nonzero electrical resistance. The critical currents and voltage–current (*U*–*I*) characteristics for the (La,Y)H<sup>10</sup> sample obtained from La4Y alloy were investigated in the range from 10–5 to 10–2 A in external magnetic fields at 186 GPa (Figure 4d). The critical current density was estimated on the basis of the fact that the sample size cannot exceed the size of the culet (50 µm), and the thickness of the sample is smaller than that of the gasket before the cell is loaded (~10 µm). Zero-field cooling (ZFC) shows that the critical current density in (La,Y)H<sup>10</sup> is over 2 × 10<sup>6</sup> A/m<sup>2</sup> at 230 K.\n\nAnalysis of the pinning force (*F<sup>p</sup>* = B·*IC*) dependence on magnetic field (Supporting Figure S28a) shows that according to Dew-Hughes <sup>32</sup> the pinning in (La,Y)H<sup>10</sup> in the first approximation can be described as \"dlpinning\". This allows us to extrapolate *IC*(T) data to low temperatures within the single vortex model *J*<sup>C</sup> = *J*c0(1 – *T/T*C) 5/2(1 + *T/T*C) -1/2 . The extrapolation shows that at 4.2 K the critical current *I*<sup>C</sup> in the sample may reach 6 Ampers and the critical current density *J*<sup>C</sup> may exceed 12 kA/mm<sup>2</sup> . The extrapolation using the Ginzburg–Landau model<sup>31</sup> (*J*<sup>C</sup> = *J*C0(1 – *T/T*C) 3/2) gives much lower values at 4.2 K: the critical current *I*<sup>C</sup> in\n\nthe sample can reach 1.25 A and the critical current density *J*<sup>C</sup> can exceed 2500 A/mm<sup>2</sup> . This is comparable to the parameters of NbTi and YBCO, <sup>33</sup> and slightly higher than those in recently studied 3̅-YH6. 8\n\nThe first-principles analysis of the superconducting properties of the La–Y–H phases was performed within the harmonic approximation for phonons. We calculated the parameters of the electron–phonon coupling and the superconducting state for a series of hexahydrides (3̅-LaH6, cubic La4YH30, La2YH18, 3̅-LaYH12) and for a decahydride — pseudocubic 3̅-LaYH<sup>20</sup> (obtained from 3̅-La2H<sup>20</sup> by the La→Y replacement) at 180 GPa using the tetrahedron method of integration over the Brillouin zone<sup>34</sup> (Supporting Information Tables S5-6). To simplify the analysis, here we discuss in detail only the results of the calculations for high-symmetry decahydride 3̅-LaYH<sup>20</sup> with a regular arrangement of the lanthanum and yttrium atoms.\n\nAt 180 GPa, the EPC coefficient λ of 3̅-LaYH<sup>12</sup> reaches 2.82, ωlog is 847 K, and the critical temperature *T*<sup>C</sup> calculated using the Migdal–Eliashberg approach35,36 is 223–241 K within the common range of the Coulomb pseudopotential µ\\* = 0.15–0.1. A decrease in the concentration of yttrium in (La,Y)H<sup>6</sup> leads to an increase in *T*<sup>C</sup> of La2YH<sup>18</sup> and La4YH<sup>30</sup> to 265–270 K (µ\\* = 0.1). Keeping in mind that the H sublattice in (La,Y)H<sup>6</sup> has almost the same structure as in YH6, we can expect a negative anharmonic contribution Δ*T*<sup>C</sup> ~ 25–30 K, as in pure yttrium hexahydride. <sup>8</sup> These estimates are in satisfactory agreement with the experimentally observed critical temperature of 237 ± 5 K. Calculations within the Migdal–Eliashberg (ME) theory show that the expected upper critical magnetic field μ0*H*C2(0) of (La,Y)H<sup>6</sup> is ~70–80 T and the superconducting gap is around 60 meV (Supporting Information Table S6). We believe that the enhanced superconducting properties of (La,Y)H<sup>6</sup> compared to pure YH<sup>6</sup> are related to the presence of distorted 3̅-LaH<sup>6</sup> in the crystal structure, which results in an increase in the electron–phonon interaction coefficient from 2.24 in YH<sup>6</sup> (harmonic approach<sup>8</sup> ) to 2.41–2.82 in (La,Y)H6.\n\nA recent study<sup>8</sup> has shown that the density functional theory for superconductors (SCDFT), which incorporates the pair-breaking Coulomb repulsion and the retardation effect without empirical parameters such as µ\\*, revealed an anomaly of YH6: its *T*<sup>C</sup> SCDFT = 160 K significantly deviates from the experimental value of 224 K at 166 GPa. A similar phenomenon is also observed for LaH<sup>6</sup> and LaYH12. Solving the SCDFT gap equation with the harmonic α <sup>2</sup>*F*(ω) (Supporting Information eq S1, Figure S29) at 180 GPa yields *T*<sup>С</sup> = 176 K for LaH<sup>6</sup> and 191 K for LaYH<sup>12</sup> with a standard error bar of ~2.5% originating from the random sampling step in solving the equation.37,38 These absolute values of *T*<sup>C</sup> are substantially lower than the experimental data (~237 K), nevertheless the yttrium concentration dependence was reproduced: α <sup>2</sup>*F*(ω) for LaH<sup>6</sup> has a strong contribution in the 10–30 THz frequency interval (Supporting Information Figure S29f), which leads to λ(LaH6) > λ(YH6) and *T*С(LaH6) > *T*С(YH6). Moreover, in a surprising synergy, the superconducting properties of ternary (La,Y)H<sup>6</sup> are more pronounced both in theory and experiment than those of LaH<sup>6</sup> and YH6: *T*С(LaYH12) > *T*С(LaH6) > *T*С(YH6). Apart from the qualitative trend, underestimation of *T*<sup>C</sup> of (La,Y)H<sup>6</sup> when using the SCDFT indicates an anomalously large impact of the Coulomb repulsion and implies something beyond the conventional phonon-mediated superconductivity that boosts the critical temperature to the experimentally observed value. This possible anomaly would be worth future revisiting with improvement of the pairing interaction in the SCDFT <sup>39</sup> .\n\nOur calculations within the Migdal–Eliashberg (ME)35,36 and the Bardeen–Cooper–Schrieffer40,41 theories show that decahydride 3̅-LaYH<sup>20</sup> has the EPC coefficient of 3.87 and ωlog = 868 K, which are comparable with parameters of LaH10, <sup>42</sup> and expected *T*<sup>C</sup> ME = 281–300 K within the common range of the Coulomb pseudopotential µ\\* = 0.15–0.1. Because the structure of 3̅-LaYH<sup>20</sup> is similar to that of LaH10, we can expect the negative anharmonic contribution Δ*T*<sup>C</sup> of ~25–35 K <sup>19</sup> to reduce *T*<sup>C</sup> to about 265 K. The calculations within the Migdal–Eliashberg theory show that for (La,Y)H<sup>10</sup> the expected upper critical magnetic field μ0*H*C2(0) is 100 T, the superconducting gap is around 70 meV, and the coherence length BCS = 0.5√ℎ/πC2 is close to 16 Å (Supporting Information Table S6). In contrast to the 3̅-XH<sup>6</sup> (X = La, Y) structures, the SCDFT calculations yield *T*<sup>C</sup> = 252 K for 3̅-LaYH<sup>20</sup> at 180 GPa, which is close to both the ME and experimental results. Experimentally found *T*<sup>C</sup> = 253 K and extrapolated μ0*H*C2(0) = 100–135 T of (La,Y)H<sup>10</sup> are in close agreement with the theoretically calculated values, which means that superconductivity in La–Y–H ternary decahydrides may be described well in the framework of the classical Bardeen–Cooper–Schrieffer and Migdal–Eliashberg theories.\n\nIt is interesting to trace changes in the density of the electronic states of the La–Y–H phases that may shed light on their superconducting properties (Supporting Information Figures S30–S34). At 180 GPa, pure 3̅-YH<sup>6</sup> has a total density of electronic states at the Fermi level *N*(*E*F) *=* 0.69 states/eV/f.u., where 0.22 states/eV/f.u. come from hydrogen, which is much lower than in 3̅-LaH<sup>10</sup> (0.36 states/eV/f.u.). The substitution of yttrium by lanthanum in YH<sup>6</sup> leads to a shift of the Fermi level and a significant increase in the density of electronic states. At La:Y ratio of 1:1, *N*(*E*F) reaches 0.81 states/eV/metal atom, where 0.25 states/eV/metal atom come from the H sublattice. For pure 3̅-LaH6, the density of states at *E*<sup>F</sup> is 1.56 states/eV/f.u. (0.61 states/eV/f.u. come from H), which is much higher than for YH6. The relative density *N*H(*E*F)*/N*(*E*F) on the H sublattice increases in the series YH<sup>6</sup> (32%) < LaH<sup>6</sup> (39%) < LaH<sup>10</sup> (43%). Thus, the introduction of the La atoms into the 3̅ structure of yttrium hexahydride may lead to a notable improvement of *T*<sup>C</sup> by increasing the electron density of states on the hydrogen sublattice.\n\n## **Conclusions**\n\nIn this research, the novel high-*T*<sup>C</sup> ternary superconducting hydrides 3̅-(La,Y)H<sup>6</sup> and 3̅-(La,Y)H<sup>10</sup> were experimentally discovered together with *I*4*/mmm*-(La,Y)H<sup>4</sup> at pressures of 170– 196 GPa. Using the La–Y alloys (in ratio 1:1, 2:1, 3:1, 4:1, and 1:4) as a source for high-pressure synthesis, we replaced about 25% of the lanthanum atoms in the structure of LaH<sup>10</sup> with yttrium. Moreover, we found that about 70% of the yttrium atoms in YH<sup>6</sup> can be replaced by La without decomposition of the 3̅ sodalite-like structure of the hexahydride. In other words, superhydrides that do not exist at 180 GPa can nevertheless be stabilized as a solid solution: inclusions of Y@H<sup>32</sup> with the local H environment specific for 3̅-YH<sup>10</sup> can be synthesized in the 3̅-LaH<sup>10</sup> superlattice, whereas 3̅-LaH<sup>6</sup> can be stabilized by introducing only 30% of yttrium.\n\nAt 183 GPa, the obtained 3̅-(La,Y)H<sup>10</sup> decahydrides demonstrate outstanding *T*<sup>C</sup> of up to 253 K, the superconducting gap of ~70 meV, and the extrapolated upper critical magnetic field of 100–135 T in close agreement with the calculations within the BCS and ME theories. The estimated critical current density (≥2500 A/mm<sup>2</sup> ) at 4.2 K in lanthanum–yttrium decahydride may exceed that of YBCO, NbTi, and YH6.\n\nThe measured critical temperature of 3̅-(La,Y)H<sup>6</sup> is 237 ± 5 K, which is higher than *T*<sup>C</sup> of pure YH6. Calculations show that the improvement in *T*<sup>C</sup> is due to pseudocubic LaH6, stabilized by the superlattice of 3̅-YH6. An anomalously large impact of the Coulomb repulsion was found in the lanthanum and lanthanum–yttrium hexahydrides within the SCDFT approach. The parameter-free SCDFT calculations for cubic LaH<sup>6</sup> and LaYH<sup>12</sup> yield substantially underestimated *T*<sup>C</sup> of 176 and 191 K, respectively, which implies the importance of effects missing in the conventional Migdal–Eliashberg theory.\n\nWe believe, the performed experiments will have a strong impact on subsequent studies of ternary metal– hydrogen systems, opening promising ways to stabilize \"impossible\" compounds in the form of a solid solution with known superhydrides at relatively low pressures.\n\n## **Author Contributions**\n\n& These authors contributed equally to this work.\n\nI.A.T, D.V.S., M.H., K.G., N.G., A.G.I. and A.G.I. performed the experiments. I.A.T., A.V.S. and O.A.S. performed the superconductivity measurements. D.V.S., A.G.K. R.A. and A.R.O. prepared the theoretical analysis. D.V.S., A.G.K., and A.G.I. contributed to the interpretation of the results. D.V.S., A.G.K., and A.R.O. wrote the manuscript. A.V.S., O.A.S., and V.M.P. performed the magnetotransport experiments in high magnetic fields and participated in the data processing and discussions. D.K., A.V. and K.S.P. prepared the La-Y alloys. R. A. performed SCDFT calculations. All the authors provided critical feedback and helped shape the research, analysis, and manuscript.\n\n## **Acknowledgments**\n\nThe work was performed on the ESRF (Grenoble, France) station ID15B, on SPring-8 (Sayo, Japan) station BL10XU (project No. 2019B1476), and at P02.2 station of PETRA III, DESY (Hamburg, Germany). The high-pressure experiments were supported by the Ministry of Science and Higher Education of the Russian Federation within the state assignment of the FSRC Crystallography and Photonics of RAS and by the Russian Science Foundation (Project No. 19-12-00414). A.G.K. thanks the RFBR foundation, № 19-03-00100, and F.A.C.I.E. foundation, grant UMNIK № 13408GU/2018, for the financial support of this work. A.R.O. thanks the Russian Science Foundation (grant 19-72-30043). The reported study was funded by the RFBR, project 20-32-90099. A.R.O and D.V.S. thank the Ministry of Science and Higher Education agreement No. 075-15- 2020-808. The authors express their gratitude to the staff of the station BL10XU of SPring-8 synchrotron research facility, especially to Dr. Saori Kawaguchi (JASRI), for the tremendous assistance in the use of the station's equipment before and after the experiment. A.G.G. acknowledges the use of the facilities of the Center for Collective Use \"Accelerator Center for Neutron Research of the Structure of Substance and Nuclear Medicine\" of the INR RAS for high-pressure cell preparation. The research used resources of the LPI Shared Facility Center. A.V.S., O.A.S., K.S.P. and V.M.P. acknowledge support of the state assignment of the Ministry of Science and Higher Education of the Russian Federation (Project No. 0023-2019-0005). K.S.P. thanks the Russian Foundation for Basic Research (project 19-02-00888). We thank Igor Grishin (Skoltech) for proofreading of the manuscript.\n\n# **References**\n\n- 1. Ashcroft, N. W. Hydrogen Dominant Metallic Alloys: High Temperature Superconductors? *Phys. Rev. Lett.* **92**, 187002 (2004).\n- 2. Cudazzo, P. *et al.* Electron-phonon interaction and superconductivity in metallic molecular hydrogen. I. Electronic and dynamical properties under pressure. *Phys. Rev. B* **81**, 134505 (2010).\n- 3. Cudazzo, P. *et al.* Electron-phonon interaction and superconductivity in metallic molecular hydrogen. II. Superconductivity under pressure. *Phys. Rev. B* **81**, 134506 (2010).\n- 4. Dias, R. P. & Silvera, I. F. Observation of the Wigner-Huntington transition to metallic hydrogen. *Science* **355**, 715–718 (2017).\n- 5. Geballe, Z. M. *et al.* Synthesis and Stability of Lanthanum Superhydrides. *Angew. Chem. Int. Ed.* **57**, 688– 692 (2017).\n- 6. Drozdov, A. P. *et al.* Superconductivity at 250 K in lanthanum hydride under high pressures. *Nature* **569**, 528 (2019).\n- 7. Somayazulu, M. *et al.* Evidence for Superconductivity above 260 K in Lanthanum Superhydride at Megabar Pressures. *Phys. Rev. Lett.* **122**, 027001 (2019).\n- 8. Troyan, I. A. *et al.* Anomalous high-temperature superconductivity in YH\\$\\_6\\$. *arXiv:1908.01534 [condmat]* (2020).\n- 9. Kong, P. P. *et al.* Superconductivity up to 243 K in yttrium hydrides under high pressure. *arXiv:1909.10482 [cond-mat]* (2019).\n- 10. Li, Y. *et al.* Pressure-stabilized superconductive yttrium hydrides. *Scientific Reports* **5**, 09948 (2015).\n- 11. Liu, H., Naumov, I. I., Hoffmann, R., Ashcroft, N. W. & Hemley, R. J. Potential high-Tc superconducting lanthanum and yttrium hydrides at high pressure. *PNAS* **114**, 6990–6995 (2017).\n- 12. Semenok, D. V., Kvashnin, A. G., Troyan, I. A., Ivanova, A. G. & Oganov, A. R. Synthesis and highpressure chemistry of novel thorium polyhydrides: ThH4, ThH6, ThH9 and ThH10. A route to roomtemperature superconductivity. in *Book of abstracts of AIRAPT 27* (2019).\n- 13. Kostrzewa, M., Szczęśniak, K. M., Durajski, A. P. & Szczęśniak, R. From LaH 10 to room–temperature superconductors. *Scientific Reports* **10**, 1–8 (2020).\n- 14. Semenok, D. V., Kruglov, I. A., Kvashnin, A. G. & Oganov, A. R. On Distribution of Superconductivity in Metal Hydrides. *Curr. Opin. Solid State Mater. Sci.* **7**, 100808 (2020).\n- 15. Heil, C., di Cataldo, S., Bachelet, G. B. & Boeri, L. Superconductivity in sodalite-like yttrium hydride clathrates. *Phys. Rev. B* **99**, 220502 (2019).\n- 16. Glass, C. W., Oganov, A. R. & Hansen, N. USPEX—Evolutionary crystal structure prediction. *Computer Physics Communications* **175**, 713–720 (2006).\n- 17. Oganov, A. R., Ma, Y., Lyakhov, A. O., Valle, M. & Gatti, C. Evolutionary crystal structure prediction as a method for the discovery of minerals and materials. *Rev. Mineral Geochem* 271–298 (2010).\n- 18. Oganov, A. R., Lyakhov, A. O. & Valle, M. How Evolutionary Crystal Structure Prediction Works—and Why. *Acc. Chem. Res.* **44**, 227–237 (2011).\n- 19. Errea, I. *et al.* Quantum crystal structure in the 250-kelvin superconducting lanthanum hydride. *Nature* **578**, 66–69 (2020).\n- 20. Sun, D. *et al.* High-temperature superconductivity on the verge of a structural instability in lanthanum superhydride. *arXiv:2010.00160 [cond-mat]* (2020).\n- 21. Kresse, G. & Hafner, J. Ab initio molecular dynamics for liquid metals. *Phys. Rev. B* **47**, 558–561 (1993).\n- 22. Kresse, G. & Furthmüller, J. Efficiency of Ab-Initio Total Energy Calculations for Metals and Semiconductors Using a Plane-Wave Basis Set. *Comp. Mat. Sci.* **6**, 15–50 (1996).\n- 23. Kresse, G. & Furthmüller, J. Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set. *Phys. Rev. B* **54**, 11169–11186 (1996).\n- 24. Kresse, G. & Joubert, D. From ultrasoft pseudopotentials to the projector augmented-wave method. *Phys. Rev. B* **59**, 1758–1775 (1999).\n- 25. Giannozzi, P. *et al.* QUANTUM ESPRESSO: a Modular and Open-Source Software Project for Quantum Simulations of Materials. *Journal of Physics: Condensed Matter* **21**, 395502 (2009).\n- 26. Giannozzi, P. *et al.* Advanced capabilities for materials modelling with Quantum ESPRESSO. *J. Phys.: Condens. Matter* **29**, 465901 (2017).\n- 27. Perdew, J. P., Burke, K. & Ernzerhof, M. Generalized gradient approximation made simple. *Physical review letters* **77**, 3865–3868 (1996).\n- 28. Birch, F. Finite Elastic Strain of Cubic Crystals. *Phys. Rev.* **71**, 809–824 (1947).\n- 29. Murnaghan, F. D. The Compressibility of Media under Extreme Pressures. *Proc Natl Acad Sci U S A* **30**, 244–247 (1944).\n- 30. Werthamer, N. R., Helfand, E. & Hohenberg, P. C. Temperature and Purity Dependence of the Superconducting Critical Field, \\${H}\\_{c2}\\$. III. Electron Spin and Spin-Orbit Effects. *Phys. Rev.* **147**, 295–302 (1966).\n- 31. Ginzburg, V. L. & Landau, L. D. On the Theory of superconductivity. *Zh.Eksp.Teor.Fiz.* **20**, 1064–1082 (1950).\n- 32. Dew-Hughes, D. Flux pinning mechanisms in type II superconductors. *The Philosophical Magazine: A Journal of Theoretical Experimental and Applied Physics* **30**, 293–305 (1974).\n- 33. Schwartz, J. *et al.* Status of high temperature superconductor based magnets and the conductors they depend upon. *arXiv:1108.1634 [physics]* (2011).\n- 34. Kawamura, M., Gohda, Y. & Tsuneyuki, S. Improved tetrahedron method for the Brillouin-zone integration applicable to response functions. *Phys. Rev. B* **89**, 094515 (2014).\n- 35. Migdal, A. B. Interaction between electrons and lattice vibrations in a normal metal. *JETP* **34**, 996–1001 (1958).\n- 36. Eliashberg, G. M. Interactions between Electrons and Lattice Vibrations in a Superconductor. *JETP* **11**, 696–702 (1959).\n- 37. Marques, M. A. L. *et al.* Ab initio theory of superconductivity. II. Application to elemental metals. *Phys. Rev. B* **72**, 024546 (2005).\n- 38. Akashi, R., Nakamura, K., Arita, R. & Imada, M. High-temperature superconductivity in layered nitrides beta-LixMNCl (M = Ti, Zr, Hf): Insights from density functional theory for superconductors. *Phys. Rev. B* **86**, 054513 (2012).\n- 39. Sanna, A., Pellegrini, C. & Gross, E. K. U. Combining Eliashberg Theory with Density Functional Theory for the Accurate Prediction of Superconducting Transition Temperatures and Gap Functions. *Phys. Rev. Lett.* **125**, 057001 (2020).\n- 40. Bardeen, J., Cooper, L. N. & Schrieffer, J. R. Microscopic Theory of Superconductivity. *Phys. Rev.* **106**, 162–164 (1957).\n- 41. Bardeen, J., Cooper, L. N. & Schrieffer, J. R. Theory of Superconductivity. *Phys. Rev.* **108**, 1175–1204 (1957).\n- 42. Kruglov, I. A. *et al.* Superconductivity of LaH10 and LaH16 polyhydrides. *Phys. Rev. B.* **101**, 024508 (2020).\n\n## SUPPORTING INFORMATION\n\n### **Superconductivity at 253 K in lanthanum-yttrium ternary hydrides**\n\nDmitrii V. Semenok, 1,&,\\* Ivan A. Troyan, 2,& Аlexander G. Kvashnin, 1,&,\\* Anna G. Ivanova, <sup>2</sup> Michael Hanfland, 3 Andrey V. Sadakov, <sup>4</sup> Oleg A. Sobolevskiy, <sup>4</sup> Kirill S. Pervakov, <sup>4</sup> Alexander G. Gavriliuk, 2,6 Igor S. Lyubutin, 2 Konstantin Glazyrin, <sup>9</sup> Nico Giordano, <sup>9</sup> Denis Karimov, <sup>2</sup> Alexander Vasiliev, 2,5 Ryosuke Akashi, <sup>7</sup> Vladimir M.\n\nPudalov4,8 and Artem R. Oganov1,\\*\n\n<sup>1</sup>Skolkovo Institute of Science and Technology, Skolkovo Innovation Center, 3 Nobel Street, Moscow 121205, Russia <sup>2</sup>Shubnikov Institute of Crystallography, Federal Scientific Research Center Crystallography and Photonics, Russian Academy of Sciences, 59 Leninsky Prospekt, Moscow 119333, Russia 3 ID15B High Pressure Diffraction Beamline, ESRF, BP220, Grenoble 38043, France <sup>4</sup>P. N. Lebedev Physical Institute, Russian Academy of Sciences, Moscow 119991, Russia <sup>5</sup>National Research Center Kurchatov Institute, Moscow, Russia 6 Institute for Nuclear Research, Russian Academy of Sciences, Moscow 117312, Russia <sup>7</sup> University of Tokyo, 7-3-1 Hongo, Bunkyo, Tokyo 113-8654, Japan <sup>8</sup> National Research University Higher School of Economics, Moscow 101000, Russia\n\n<sup>9</sup> Deutsches Elektronen-Synchrotron, D-22607 Hamburg, Germany\n\n# **Contents**\n\n| Methods2                                                 |  |\n|----------------------------------------------------------|--|\n| Experiment2                                              |  |\n| Theory4                                                  |  |\n| Cell parameters6                                         |  |\n| Structural characterization of the initial La–Y alloys8  |  |\n| X-ray diffraction data<br>17                             |  |\n| Raman spectra<br>22                                      |  |\n| Transport measurements in magnetic fields24              |  |\n| Eliashberg functions of La–Y–H phases26                  |  |\n| Equations for calculating TC<br>and related parameters28 |  |\n| Electronic properties30                                  |  |\n| References<br>33                                         |  |\n\n### <span id=\"page-13-0\"></span>**Methods**\n\n#### <span id=\"page-13-1\"></span>*Experiment*\n\nTo perform the X-ray diffraction study, seven diamond anvil cells (DACs M1, M2, M2\\_S, SL1, SL1\\_S, SL3 and SL3\\_S) were loaded. The diameter of the working surface of the diamond anvils was 280 m beveled at an angle of 8.5° to a culet of 50 m. The X-ray diffraction patterns of samples in the DACs M1-2, SL1 and SL3 were recorded at the ID15B synchrotron beamline at the European Synchrotron Radiation Facility (Grenoble, France) using a focused (5 × 5 μm) monochromatic X-ray beam with a wavelength of 0.4111 Å and Mar555 detector. The exposure time was 60 s. CeO<sup>2</sup> standard was used for the distance calibration. The X-ray diffraction data were analyzed and integrated using Dioptas software package (version 0.5). <sup>1</sup> The full profile analysis of the diffraction patterns and the calculation of the unit cell parameters were performed in JANA2006 program<sup>2</sup> using the Le Bail method. <sup>3</sup> The pressure in the DACs was determined via the Raman signal of diamond. 4\n\nThe X-ray diffraction patterns of the La*x*Y1–*x*H<sup>6</sup> sample (DAC M2\\_S) were recorded at the BL10XU beamline (SPring-8, Japan) using monochromatic synchrotron radiation and an imaging plate detector at room temperature. 5,6 The X-ray beam with a wavelength of 0.413 Å was focused in a 3 × 8 µm spot with a polymer refractive lens (SU-8, produced by ANKA).\n\nThe powder XRD experiments with DACs SL1\\_S and SL3\\_S were carried out at beamline P02.2 of PETRA III, DESY (Hamburg) <sup>7</sup> . The X-ray wavelength was λ=0.2906 Å, and the beam size was 2×2 µm<sup>2</sup> at full width at half maximum (FWHM). The calibration was performed using CeO<sup>2</sup> standard. For data collection, a fast flat panel detector XRD1621 from Perkin Elmer (2048 pixels × 2048 pixels with 200×200 µm<sup>2</sup> pixel size) was used.\n\n| #cell | Pressure, GPa | Sample size, μm | Composition |\n|-------|---------------|-----------------|-------------|\n| M1    | 180           | 30              | LaY/BH3NH3  |\n| M2    | 180           | 32              | La2Y/BH3NH3 |\n| M2_S  | 175-180       | 32              | La2Y/BH3NH3 |\n| SL1   | 180           | 29              | La4Y/BH3NH3 |\n| SL1_S | 171           | 30              | La3Y/BH3NH3 |\n| SL3   | 170           | 29              | Y4La/BH3NH3 |\n| SL3_S | 171           | 35              | La/BH3NH3   |\n\n**Table S1.** Experimental parameters of the DACs used for the X-ray diffraction studies. Data in the second column corresponds to the pressure of the laser-assisted synthesis.\n\nThe initial La–Y alloys used as the precursors for the high-pressure synthesis of ternary hydrides were fused and then characterized by XRD, energy-dispersive X-ray Fluorescence (EDXRF) analysis, and scanning/transmission electron microscopy (SEM/TEM). To prepare La2Y alloy, pure metals of La and Y (99.9%, CHEMCRAFT Ltd.) were crushed, washed in dilute HCl and acetone to remove impurities, and dried in a glove box. The components were weighed and mixed in a specified ratio. Heating was carried out resistively. The melt was kept in tantalum crucibles at a temperature of 1900 K in an inert atmosphere (helium) for one hour and quenched at an initial rate of 200 K/min.\n\nThe XRD patterns of the La-Y alloys were recorded using powder X-ray diffractometer Rigaku MiniFlex 600 (Rigaku, Japan) with CuK radiation (40 kV, 15 mA, Ni–Kβ-filter) in the 2 angle range from 20 to 115 with a scanning step of 0.02º and a rate of 0.7º/min. The phases were identified in the PXDRL program (Rigaku, Japan) using ICDD PDF-2 datasets (release 2017). The unit cell parameters were refined in JANA2006 program<sup>2</sup> using the Le Bail method. <sup>3</sup> Elemental analysis of the initial La-Y alloys was performed using energy-dispersive EDXRF in μ-XRF system ORBIS PC (EDAX, USA). EDXRF spectra were collected under vacuum from 2 mm areas of the samples irradiated Rh x-ray tube at 30 kV and 100 μA during 30 sec.\n\nThe morphology and composition of the initial LaY alloy, used as a precursor for La2YH<sup>x</sup> hydride (DAC M2\\_S), were studied in a scanning electron microscope (SEM) Scios (ThermoFisher Scientific, USA) equipped with an energy-dispersive X-ray (EDX) spectrometer equipped with an Octane Elite silicon drift detector (SDD) with Si3N<sup>4</sup> window (EDAХ, USA). The acceleration voltage was 30 kV. For SEM and EDS studies, the chunk of the alloy was polished on one side by diamond powder with sequentially reduced particle sizes. The specimen for scanning/transmission electron microscopy (S/TEM) was prepared in a focus ion beam (FIB)/SEM microscope Scios (ThermoFisher Scientific, USA) by a standard lift-out FIB technique at an accelerating voltage of Ga<sup>+</sup> ions of 30 kV at initial and 5 kV at final step. Microstructural and elemental analyses were performed in an Osiris TEM/STEM (ThermoFisher Scientific, USA) equipped with an EDX Super-X SDD spectrometer (Bruker, USA), a high-angle annular dark field (HAADF) electron detector (Fischione, USA) and a 2048х2018 Gatan ССD (Gatan, USA). Image processing was performed using a Digital Micrograph (Gatan, USA) and TIA (ThermoFisher Scientific, USA) software. Simulations of the ED patterns and images were produced using Stadelmann's EMS software package <sup>8</sup> .\n\nMagnetotransport measurements were performed on samples with at least two hydride phases, therefore the voltage contacts in the Van der Pauw method might have been connected to a low-*T*<sup>C</sup> phase. As a result, the superconducting transition in the main phase (La,Y)H<sup>10</sup> can be observed as an upward feature of the resistance–temperature curves because of the shunting effect in fine-grained samples.\n\nIn Figure S24, the plot of the normalized volume pinning force Fp/F<sup>p</sup> max versus the reduced field h=H/Hc2 is drawn on the basis of interpolation of the *Jc*(T,B) data. Experimental data is fitted by Dew-Hughes (DH) model <sup>9</sup> for surface type normal pinning centers f ~ h p (1-h)<sup>q</sup> . For this model parameters are p=0.5, q=2, hmax=0.2, which is close to our fit. Depinning critical current for this type of pinning can be described within the single vortices model, where vortices are pinned on randomly distributed weak pinning centers via spatial fluctuations of the charge carrier mean free path, or in other words \"dlpinning\".\n\n#### <span id=\"page-15-0\"></span>*Theory*\n\n.\n\nComputational predictions of thermodynamic stability of the La–Y–H phases at 200 GPa were carried out using the variable-composition evolutionary algorithm USPEX. 10–12 The first generation consisting of 120 structures was produced using the random symmetric<sup>12</sup> and random topology<sup>13</sup> generators, whereas all subsequent generations contained 20% of random structures and 80% of those created using heredity, softmutation, and transmutation operators. The evolutionary searches were combined with structure relaxations using the density functional theory (DFT)14,15 within the Perdew–Burke–Ernzerhof functional (generalized gradient approximation)<sup>16</sup> and the projector augmented wave method17,18 as implemented in the VASP code.19–21 The kinetic energy cutoff for plane waves was 600 eV. The Brillouin zone was sampled using Γ-centered *k*-points meshes with a resolution of 2π × 0.05 Å −1 . This methodology is similar to those used in our previous works.22,23\n\nThe equations of state of the discovered phases were calculated using the density functional theory (DFT)14,15 within the generalized gradient approximation (the Perdew–Burke–Ernzerhof functional)<sup>16</sup> and the projector augmented wave method17,18 as implemented in the VASP code. 19–21 The plane wave kinetic energy cutoff was set to 600 eV and the Brillouin zone was sampled using Γ-centered *k*-points meshes with a resolution of 2π × 0.05 Å −1 . We also calculated the phonon densities of states of the studied materials using the finite displacements method (VASP and PHONOPY24,25).\n\nThe calculations of the critical temperature of superconductivity *T*<sup>C</sup> were carried out using Quantum ESPRESSO (QE) package. 26,27 The phonon frequencies and electron–phonon coupling (EPC) coefficients were computed using the density functional perturbation theory, <sup>28</sup> employing the plane-wave pseudopotential method and the Perdew–Burke–Ernzerhof exchange–correlation functional. <sup>16</sup> In our ab initio calculations of the electron–phonon coupling (EPC) coefficient λ, the first Brillouin zone was sampled using a 3×3×3 or 4×4×4 *q*-points mesh and a denser 16×16×16 *k*-points mesh for the La–Y–H phases. *T*<sup>C</sup> was calculated by solving the Eliashberg equations<sup>29</sup> using the iterative self-consistent method for the imaginary part of the order parameter Δ(*T*, ω) (superconducting gap) and the renormalization wave function *Z*(*T*, ω). <sup>30</sup> More approximate estimates of *T*<sup>C</sup> were made using the Allen–Dynes formula. 31\n\nFinally, we also solved the gap equation in the density functional theory for superconductors (SCDFT)32,33 for evaluating *T*<sup>C</sup> of 3̅-LaH6, LaYH<sup>12</sup> and 3̅-LaYH<sup>20</sup> nonempirically\n\n$$\n\\Delta\\_{nk}(T) = -Z\\_{nk}(T)\\Delta\\_{nk}(T) - \\frac{1}{2}\\Sigma K\\_{nk n' k'}(T) \\frac{\\tanh \\mathfrak{F}\\_{n'k'}}{\\xi\\_{n'k'}} \\Delta\\_{n'k'}(T) \\tag{S1}\n$$\n\nThe temperature (as = 1/*T*) dependence of the order parameter Δ indicates *T*C. Labels *n*, *n'*, *k*, and *k'* denote the Kohn–Sham band and crystal wave number indexes, respectively. ξ is the energy eigenvalue of state *nk* measured from the Fermi level, as calculated using the standard Kohn–Sham equation for the normal state. () and ′ ′ () represent the electron–phonon and electron– electron Coulomb interaction effects, the formulas for which have been constructed so that the self energy corrections, almost the same as those in the Eliashberg equations with the Migdal approximation,29,34–36 are included (see Supplemental materials of Kruglov et al.<sup>37</sup> for details, which is based on Refs. 32,33,38,39). We calculated the screened electron-electron Coulomb interaction within the random phase approximation<sup>40</sup>, electronic density of states (DOS) of the normal state was used for solving Eq. (S1). We generated dense ξ data points entering Eq. (S1) around E<sup>F</sup> by a linear interpolation from the values on a dense k-point mesh.\n\n| Crystal structure setting |                                          | LaH6                                                           | LaYH12     | LaYH20     |\n|---------------------------|------------------------------------------|----------------------------------------------------------------|------------|------------|\n| Unit cell                 |                                          | La2H12<br>(cubic)                                              | La2Y2H24   | LaYH20     |\n|                           | k                                        | 12×12×12                                                       | 8×8×8      | 6×12×12    |\n| Charge density            |                                          | equal mesh                                                     | equal mesh | equal mesh |\n|                           | Interpolation                            | order Hermite Gaussian40 with width<br>1st<br>=<br>0.020<br>Ry |            |            |\n|                           | k for bands crossing EF                  | 15×15×15                                                       | 9×9×9      | 9×15×15    |\n|                           |                                          | equal mesh                                                     | equal mesh | equal mesh |\n|                           |                                          | 5×5×5                                                          | 3×3×3      | 3×5×5      |\n| Dielectric matrix        | k for other bands                        | equal mesh                                                     | equal mesh | equal mesh |\n|                           | Number of unoccupied<br>bands†           | 98                                                             | 184        | 103        |\n|                           | Interpolation                            | Tetrahedron with the Rath–Freeman treatment41                  |            |            |\n| DOS for phononic          |                                          | 19×19×19                                                       | 11×11×11   | 9×19×19    |\n|                           | k                                        | equal mesh                                                     | equal mesh | equal mesh |\n| kernels                   | Interpolation                            | Tetrahedron with the Blöchl correction17                       |            |            |\n|                           | Number of unoccupied<br>bands†           | 57                                                             | 99         | 58         |\n|                           | k for the electronic                     | 5×5×5                                                          | 3×3×3      | 3×5×5      |\n| SCDFT gap function        | kernel                                   | equal mesh                                                     | equal mesh | equal mesh |\n|                           | k for the KS energies                    | 19×19×19                                                       | 11×11×11   | 9×19×19    |\n|                           |                                          | equal mesh                                                     | equal mesh | equal mesh |\n|                           | Sampling points for<br>bands crossing EF | 6000                                                           |            |            |\n|                           | Sampling points for<br>the other bands   | 150                                                            |            |            |\n|                           | Sampling error in TC<br>(%)              | ~3.1                                                           | ~2.4       | ~2.8       |\n\n| Table S2.                              | of YH6                     |\n|----------------------------------------|----------------------------|\n| Detailed conditions for calculating TC | within the SCDFT approach. |\n\n†States up to *E*<sup>F</sup> + 70 eV were taken into account.\n\n# <span id=\"page-17-0\"></span>**Cell parameters**\n\nTable S3. Crystal data of the constructed pseudocubic and pseudotetragonal lanthanum–yttrium hydrides at 180 GPa (relaxation was performed in VASP).\n\n| Phase                             | Volume,<br>3 | Lattice                                                                                                                    | Coordinates<br>(x/a; y/b; z/c)                                        |\n|-----------------------------------|--------------|----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|\n|                                   | Å<br>/atom   | parameters                                                                                                                 | La1 La 0.00000 0.00000 0.00000                                        |\n| 𝑃𝑚3̅𝑚-LaYH12                      | 3.36         | a<br>= 3.612<br>Å                                                                                                          | Y1 Y<br>0.50000 0.50000 0.50000                                       |\n|                                   |              |                                                                                                                            | H1 H<br>0.24305 0.50000 0.00000                                       |\n|                                   |              |                                                                                                                            | La1 La -0.42465 0.24845 -0.16863                                      |\n|                                   |              |                                                                                                                            | La2 La -0.25375 -0.24640 0.49572                                      |\n|                                   |              |                                                                                                                            | Y1 Y -0.07610 0.25504 0.16479                                         |\n| P-1-La2YH12<br>(pseudotetragonal) |              | a<br>= 3.435 Å<br>b<br>= 5.111 Å<br>c<br>= 7.451 Å<br>= 80.687o<br>α<br>o<br>β<br>= 92.133<br>o<br>γ<br>= 74.543           | H1 H<br>0.16533 0.07090 -0.04767                                      |\n|                                   |              |                                                                                                                            | H2 H -0.32758 -0.42804 -0.04862                                       |\n|                                   |              |                                                                                                                            | H3 H -0.15160 0.06545 -0.37662                                        |\n|                                   |              |                                                                                                                            | H4 H<br>0.33730 -0.41983 -0.37902                                     |\n|                                   | 4.133        |                                                                                                                            | H5 H -0.48523 0.08474 0.27809                                         |\n|                                   |              |                                                                                                                            | H6 H<br>0.01538 -0.43181 0.28108                                      |\n|                                   |              |                                                                                                                            | H7 H -0.46465 -0.13052 -0.08381                                       |\n|                                   |              |                                                                                                                            | H8 H<br>0.03337 0.37466 -0.07958                                      |\n|                                   |              |                                                                                                                            | H9 H<br>0.20744 -0.13170 -0.40758                                     |\n|                                   |              |                                                                                                                            | H10 H -0.29244 0.37867 -0.41536                                       |\n|                                   |              |                                                                                                                            | H11 H -0.12415 -0.11314 0.24587                                       |\n|                                   |              |                                                                                                                            | H12 H 0.37927 0.37296 0.24863                                         |\n|                                   |              |                                                                                                                            | La1 La 0.25000 0.25000 0.00000                                        |\n|                                   |              |                                                                                                                            | La2 La 0.41700 0.41700 -0.33300                                       |\n|                                   |              |                                                                                                                            | Y1 Y -0.08300 -0.08300 -0.33300                                       |\n|                                   |              |                                                                                                                            | H1 H<br>0.16700 -0.08300 -0.08300                                     |\n|                                   |              |                                                                                                                            | H2 H -0.33300 0.41700 -0.08300<br>H3 H -0.16700 -0.41700 -0.41700     |\n|                                   | 3.42         | a<br>= 3.146<br>Å<br>b<br>= 6.024<br>Å<br>c<br>= 7.916<br>Å<br>= 101.981o<br>α<br>o<br>β<br>= 97.620<br>o<br>γ<br>= 79.960 | H4 H<br>0.33300 0.08300 -0.41700                                      |\n|                                   |              |                                                                                                                            | H5 H<br>0.50000 0.25000 0.25000                                       |\n|                                   |              |                                                                                                                            | H6 H<br>0.00000 -0.25000 0.25000                                      |\n|                                   |              |                                                                                                                            | H7 H -0.20800 0.04200 -0.08300                                        |\n| P-1-La2YH18                       |              |                                                                                                                            | H8 H<br>0.29200 -0.45800 -0.08300                                     |\n| (pseudocubic)                     |              |                                                                                                                            | H9 H<br>0.45800 -0.29200 -0.41700                                     |\n|                                   |              |                                                                                                                            | H10 H -0.04200 0.20800 -0.41700                                       |\n|                                   |              |                                                                                                                            | H11 H 0.12500 0.37500 0.25000                                         |\n|                                   |              |                                                                                                                            | H12 H -0.37500 -0.12500 0.25000                                       |\n|                                   |              |                                                                                                                            | H13 H 0.45800 -0.04200 -0.16700                                       |\n|                                   |              |                                                                                                                            | H14 H -0.04200 0.45800 -0.16700                                       |\n|                                   |              |                                                                                                                            | H15 H 0.12500 -0.37500 0.50000                                        |\n|                                   |              |                                                                                                                            | H16 H -0.37500 0.12500 0.50000                                        |\n|                                   |              |                                                                                                                            | H17 H -0.20800 0.29200 0.16700                                        |\n| Fmmm-La4YH30<br>(pseudocubic)     |              |                                                                                                                            | H18 H 0.29200 -0.20800 0.16700                                        |\n|                                   | 3.34         |                                                                                                                            | La1 La 0.00000 0.00000 0.40000                                        |\n|                                   |              | a<br>= 3.602 Å<br>b<br>= 5.093 Å<br>c<br>= 25.47 Å<br>= 90 o<br>α<br>o<br>β<br>= 90<br>o<br>γ<br>= 90                      | La2 La 0.00000 0.00000 -0.20000                                       |\n|                                   |              |                                                                                                                            | Y1 Y<br>0.00000 0.00000 0.00000                                       |\n|                                   |              |                                                                                                                            | H1 H<br>0.00000 -0.12500 -0.12500<br>H2 H<br>0.00000 0.37500 -0.22500 |\n|                                   |              |                                                                                                                            | H3 H<br>0.00000 -0.12500 -0.32500                                     |\n|                                   |              |                                                                                                                            | H4 H<br>0.00000 0.37500 -0.42500                                      |\n|                                   |              |                                                                                                                            | H5 H<br>0.00000 0.37500 -0.02500                                      |\n|                                   |              |                                                                                                                            | H6 H<br>0.25000 0.25000 0.35000                                       |\n|                                   |              |                                                                                                                            | H7 H<br>0.25000 0.25000 0.25000                                       |\n|                                   |              |                                                                                                                            | H8 H<br>0.25000 0.25000 -0.45000                                      |\n\n| 𝑅3̅𝑚-LaYH20<br>(pseudocubic)   | 2.68 | a<br>= b<br>= 3.4800 Å<br>c<br>= 16.874<br>Å<br>α = 90 o<br>o<br>β = 90<br>o<br>γ = 120                        | La1 La 0.00000 0.00000 0.50000<br>Y1 Y<br>0.00000 0.00000 0.00000<br>H1 H -0.16147 0.16147 0.23081<br>H2 H -0.49432 0.49432 0.06083<br>H3 H<br>0.00000 0.00000 0.19121<br>H4 H<br>0.00000 0.00000 0.31037<br>H5 H<br>0.00000 0.00000 0.12520<br>H6 H<br>0.00000 0.00000 -0.37618                                                                                                                                                                                                                                                                                                                                                     |\n|--------------------------------|------|----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| 𝑃3̅𝑚1-La2YH30<br>(pseudocubic) | 2.72 | a<br>= b<br>= 3.4974 Å<br>c<br>= 8.5006 Å<br>α = 90 o<br>o<br>β = 90<br>o<br>γ = 120                           | La1 La 0.33333 0.66667 -0.16957<br>Y1 Y<br>0.00000 0.00000 0.50000<br>H1 H -0.16073 0.16073 -0.03807<br>H2 H -0.49354 0.49354 -0.38311<br>H3 H<br>0.17105 -0.17105 0.29759<br>H4 H<br>0.00000 0.00000 0.12642<br>H5 H<br>0.33333 0.66667 0.22024<br>H6 H<br>0.33333 0.66667 0.45284<br>H7 H<br>0.33333 0.66667 0.08853<br>H8 H<br>0.33333 0.66667 -0.41170<br>H9 H<br>0.00000 0.00000 0.25079                                                                                                                                                                                                                                        |\n| Cmmm-La3YH40<br>(pseudocubic)  | 2.74 | a<br>= 7.034<br>Å<br>b<br>= 9.879<br>Å<br>c<br>= 3.469<br>Å<br>= 90 o<br>α<br>o<br>β<br>= 90<br>o<br>γ<br>= 90 | La1 La 0.00000 0.00000 0.00000<br>La2 La 0.25000 0.25000 0.50000<br>Y1 Y<br>0.50000 0.00000 0.00000<br>H1 H -0.37770 0.31165 0.00000<br>H2 H<br>0.37338 0.06336 0.50000<br>H3 H -0.13146 0.06280 0.50000<br>H4 H<br>0.12029 0.31526 0.00000<br>H5 H -0.24496 0.44300 -0.26036<br>H6 H<br>0.00000 -0.30994 0.23903<br>H7 H<br>0.00000 0.19260 0.24256<br>H8 H -0.25420 0.37167 0.00000<br>H9 H<br>0.00000 -0.37421 0.50000<br>H10 H 0.00000 0.12471 0.50000                                                                                                                                                                           |\n| 𝑅3̅𝑚-La4YH50<br>(pseudocubic)  | 2.75 | a<br>= b<br>= 3.5165<br>Å<br>c<br>= 42.51186 Å<br>α = 90 o<br>o<br>β = 90<br>o<br>γ = 120                      | La1 La 0.00000 0.00000 -0.39887<br>La2 La 0.00000 0.00000 0.20046<br>Y1 Y<br>0.00000 0.00000 0.00000<br>H1 H -0.49388 0.49388 0.22636<br>H2 H<br>0.17218 -0.17218 0.15887<br>H3 H -0.16154 0.16154 0.09087<br>H4 H -0.49449 0.49449 0.02278<br>H5 H -0.16175 0.16175 0.29276<br>H6 H<br>0.00000 0.00000 -0.07435<br>H7 H<br>0.00000 0.00000 -0.47498<br>H8 H<br>0.00000 0.00000 0.12377<br>H9 H<br>0.00000 0.00000 -0.27921<br>H10 H 0.00000 0.00000 0.32344<br>H11 H 0.00000 0.00000 -0.45008<br>H12 H 0.00000 0.00000 0.14921<br>H13 H 0.00000 0.00000 -0.25067<br>H14 H 0.00000 0.00000 0.35082<br>H15 H 0.00000 0.00000 -0.04985 |\n\n### <span id=\"page-19-0\"></span>**Structural characterization of the initial La–Y alloys**\n\nThe SEM images and the EDX analysis results of the La-Y alloy obtained from several areas within the mechanically polished area of the specimen are shown in Figs. S1(c,d) and Figs. S2(a,e). SEM image (Fig. S1(c)) demonstrates the presence of laths, which are associated with the features found in light microscopy (LM) images (see Fig. S1(a,b)). The EDX spectra from the area highlighted by the red rectangle in Fig. S1(c) is presented in Fig. S4(d). It turned out that gross La:Y elemental ratio in this area is 57:43 at%. The SEM image and the EDS elemental map acquired at higher magnification are shown in Figs. S2(a,c). It can be concluded unambiguously that the laths observed in LM images are Y-dendrites. These dendrites could be formed as a result of the peritectic reaction during La-Y alloy solidification.\n\nThe EDX microanalysis results of the dendrite and matrix (see points 1&2 in Fig. S2(a,c)) demonstrate the absence of La in the dendrite crystal and 35:65 at% Y:La elemental ratio in the alloy.\n\n![](0__page_19_Figure_3.jpeg)\n\n**Figure S1**. Light microscopy images of the initial La2Y alloy (a,c) at 0 GPa, SEM image (d), and EDX spectra from the area highlighted by the red rectangle in the SEM image.\n![](1__page_20_Figure_0.jpeg)\n\n**Figure S2**. SEM image of the initial La2Y alloy at 0 GPa (a), elemental distribution maps of Y (b) and La (c), and analysis of EDX spectra collected from point 1 (d) and point 2 (e).\n\n![](1__page_20_Figure_2.jpeg)\n\n**Figure S3.** The selected area electron diffraction (SAED) from the transparent part of the La2Y alloy specimen (а, c) and the corresponding simulated selected area diffraction patterns (SADP) (b, c).\n\nThe electron diffraction (ED) study of the sample was performed on the next step. The selected area ED (SAED) pattern from the transparent area of the specimen (Fig. S3(a)) exhibited nearly uniform orientation with the distinct six-fold symmetry. That kind of symmetry pointed to hexagonal crystal lattice, and there are two choices between LaY compounds with *hcp* crystal structure: 1) La0.5Y0.5 <sup>42</sup> with unit cell dimensions as *a* = 0.369(5) nm, *c* = 1.185(2) nm, and 2) La0.307Y0.693 <sup>43</sup> with unit cell *a* = 0.3702 nm and *c* = 0.5844 nm. In both cases space group (S.G.) is *P*63/*mmc*. The lattice parameter *a*, obtained from our experiment, was slightly larger: *a* = 0.375 nm. In order to resolve between two crystal lattices, the tilting experiment was performed. The SADP of one of the closest low index diffraction patterns to the zone axis shown in Fig. S3(a) was approximately 16° away. After comparison of simulated SADP for two crystals with different unit cell parameters, we found that the best match between the observed and simulated diffraction patterns is for the crystal with the unit cell parameter *c* = 1.18 nm, which is slightly smaller than of LaY alloy described above. The results of SADP simulations are presented in Figs. S3(b, d). The estimation of angles between reflections and distances indicated that zone axis shown in Fig. 3(a, c) are [0001] and [11-23], respectively. Thus, the investigated LaY compound adopted *hcp* crystal structure with a parameter slightly larger than described in Ref. <sup>42</sup> .\n\nHigh-resolution TEM image of the alloy in [0001] zone axis is presented in Fig. S4. The bright and dark long period contrast variations looking as moiré fringes observed in different areas could arise from defects like dislocations in the specimen. The HAADF STEM mages of the sample demonstrate uniform contrast and we assume uniform distribution of the elements within the specimen.\n\n![](1__page_21_Picture_2.jpeg)\n\n**Figure S4.** High resolution TEM image of the initial La2Y alloy in [0001] zone axis.\n\n![](1__page_22_Figure_0.jpeg)\n\n**Figure S5.** Powder X-ray diffraction analysis of the initial La2Y alloy at 0 GPa. The experimental data are shown in red; peak deconvolution of the fitted XRD profile — in blue (La0.65Y0.35), green (Y), and azure (Ta); residues are in gray. Tantalum is an impurity from the crucible material on the rim of the La-Y ingot.\n\n![](1__page_22_Figure_2.jpeg)\n\n**Figure S6.** SEM image and EDX analysis of the whole shown area of the initial La4Y alloy at 0 GPa. The sample is uniform.\n\n![](1__page_23_Figure_0.jpeg)\n\n**Figure S7.** SEM image and EDX analysis of the whole shown area of the initial LaY<sup>4</sup> alloy at 0 GPa. The sample is uniform (see below).\n\n![](1__page_23_Figure_2.jpeg)\n\n**Figure S8.** SEM image and elemental distribution maps in the initial LaY<sup>4</sup> alloy in a region with nonuniform distribution of Y and La. The size of regions with the nonstoichiometric La–Y composition is about 15 μm.\n\n![](1__page_24_Figure_0.jpeg)\n\n**Figure S9.** SEM image of LaY<sup>4</sup> alloy in a region with non-uniform distribution of Y and La (а), EDX spectra were recorded at the areas and points indicated on the SEM image (b-f).\n\n![](1__page_25_Figure_0.jpeg)\n\n**Figure S10.** Powder X-ray diffraction analysis of the initial La4Y alloy at 0 GPa. The experimental data are shown in red. The positions of the Bragg reflections for the α-La phase with refined parameters (space group *P*63/*mmc*, *a* = 3.744 Å, *c* = 12.062 Å) are marked in blue.\n\n![](1__page_25_Figure_2.jpeg)\n\n**Figure S11.** Powder X-ray diffraction analysis of the initial LaY<sup>4</sup> alloy at 0 GPa. The experimental data are shown in red. The positions of the Bragg reflections for the α-Y phase with refined parameters (space group *P*63/*mmc*, *a* = 3.6902 Å, *c* = 5.8197 Å) are marked in green. Asterisks indicate unidentified reflections.\n\n![](1__page_25_Figure_4.jpeg)\n\n**Figure S12**. XRF analysis of the initial LaY (1:1) alloy at 0 GPa.\n\n![](1__page_26_Figure_0.jpeg)\n\n**Figure S13.** XRF analysis at a different sample (compare Figure S12) of the initial LaY (1:1) alloy at 0 GPa.\n\n![](1__page_26_Figure_2.jpeg)\n\n**Figure S14.** Powder X-ray diffraction analysis of the initial LaY alloy at 0 GPa. The positions of the Bragg reflections for *hcp*-Y, *hcp*-La, and *R*3̅*m-*LaY (more matching phase ICSD# 642079 <sup>44</sup>) are shown in red, blue, and green, respectively.\n\n![](1__page_27_Figure_0.jpeg)\n\n**Figure S15**. Dependencies of the unit cell parameters of La–Y alloys with the α-La structure on the lanthanum concentration (atom %). The dashed line indicates the linear fit of the experimental data. 42,45– <sup>47</sup> Blue circles mark the data obtained in this work.\n\n## **X-ray diffraction data**\n\n**Table S4.** Experimental and predicted lattice parameters and unit cell volumes of 3̅-LaH<sup>10</sup> (Z=4), *P*63*mc*-LaH<sup>10</sup> (Z=2), 3̅-(La,Y)H<sup>10</sup> (*Z* = 4), *Imm*2-YH<sup>7</sup> (*Z* = 2), and *Cmcm*-LaH<sup>3</sup> (*Z* = 4). For 3̅- (La,Y)H6 and *I*4*/mmm*-(La,Y)H4 the calculated unit cell volumes VDFT corresponds to La2YH<sup>18</sup> and La2YH12, respectively.\n\n| V, Å3<br>DAC<br>Pressure,<br>GPa<br>a, Å<br>SL3_S<br>171<br>5.08(1)<br>131.3(1)<br>171<br>5.07(1)<br>130.8(1)<br>𝑷𝟔𝟑𝒎𝒄-LaH10<br>V, Å3<br>DAC<br>Pressure, GPa<br>a, Å<br>c, Å<br>SL3_S<br>171<br>3.60(1)<br>5.88(1)<br>66.1(1)<br>𝑭𝒎𝟑̅𝒎-(La,Y)H10<br>V, Å3<br>DAC<br>Pressure,<br>GPa<br>a, Å<br>M1<br>180<br>5.038(1)<br>127.86(2)<br>M2<br>180<br>5.026(1)<br>126.98(2)<br>SL1<br>180<br>5.031(1)<br>127.32(1)<br>SL1_S*<br>171<br>a=5.10(1)<br>Å, b=5.05(3)<br>Å,<br>130.7(9)<br>Å, α = 89.9(2)o<br>c=5.08(1)<br>,<br>β = 89.6(1)o<br>, γ =89.6(4)o<br>SL3<br>170<br>5.071(1)<br>130.40(1)<br>𝑰𝒎𝒎𝟐-YH7<br>V, Å3<br>VDFT, Å3<br>DAC<br>Pressure,<br>GPa<br>a, Å<br>b, Å<br>c, Å<br>M1**<br>166<br>3.29(4)<br>3.33(6)<br>4.68(7)<br>51.50<br>50.85<br>SL3<br>170<br>3.303(1)<br>3.322(2)<br>4.672(2)<br>51.25(2)<br>50.40<br>M1<br>180<br>3.279(2)<br>3.305(2)<br>4.641(2)<br>50.30(1)<br>49.58 |\n|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n| 𝑪𝒎𝒄𝒎-LaH3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |\n| V, Å3<br>VDFT, Å3<br>DAC<br>Pressure,<br>GPa<br>a, Å<br>b, Å<br>c, Å                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |\n| M1<br>180<br>2.791(4)<br>10.492(5)<br>2.657(3)<br>77.83(2)<br>77.64                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |\n| SL3<br>170<br>2.737(2)<br>10.507(3)<br>2.727(2)<br>78.44(3)<br>78.96                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |\n| 𝑰𝒎𝟑̅𝒎-(La,Y)H6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |\n| V, Å3<br>VDFT, Å3<br>DAC<br>Pressure,<br>GPa<br>a, Å                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |\n| M2_S<br>175<br>3.65(1)<br>24.26<br>24.15                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |\n| M2_S<br>180<br>3.64(1)<br>24.16<br>23.96                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |\n| I4/mmm-(La,Y)H4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |\n| V, Å3<br>VDFT, Å3<br>DAC<br>Pressure,<br>GPa<br>a, Å<br>c, Å                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |\n| M2_S<br>180<br>2.74(1)<br>5.56(1)<br>20.90<br>21.11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |\n\n\\* Refined as *P*1 (pseudocubic)\n\n\\*\\* Data from Ref. <sup>48</sup>\n\n![](1__page_29_Figure_0.jpeg)\n\n**Figure S16.** Diamond anvil culets of DACs M1, M2, SL1, SL1\\_S, SL3 and SL3\\_S, loaded with La–Y alloys and AB, after the laser heating.\n![](2__page_30_Figure_0.jpeg)\n\n**Figure S17**. Le Bail refinement of *Fm*3̅*m-*(La,Y)H<sup>10</sup> and the experimental XRD pattern at 180 GPa (DAC M2, La2Y). The experimental data, model fit for the structure, and residues are shown in red, black, and green, respectively.\n\n![](2__page_30_Figure_2.jpeg)\n\n**Figure S18.** Le Bail refinement of *Fm*3̅*m-*(La,Y)H10, *Imm*2-YH7, and *Cmcm*-LaH3, and the experimental XRD pattern at 180 GPa (DAC M1, LaY). The experimental data, model fit for the structure, and residues are shown in red, black, and green, respectively.\n\n![](2__page_31_Figure_0.jpeg)\n\n**Figure S19.** Le Bail refinement of *Fm*3̅*m-*(La,Y)H10, *Imm*2-YH7, and *Cmcm*-LaH3, and the experimental XRD pattern at 170 GPa (DAC SL3, LaY4). The experimental data, model fit for the structure, and residues are shown in red, black, and green, respectively.\n\n![](2__page_31_Figure_2.jpeg)\n\n**Figure S20.** Le Bail refinement of pseudocubic *P*1 (distorted *Fm*3̅*m)-*(La,Y)H10, and the experimental XRD pattern at 171 GPa (DAC SL1\\_S, La3Y). The experimental data, model fit for the structure, and residues are shown in red, black, and green, respectively. Reflections are marked as usual for cubic crystals.\n\n![](2__page_32_Figure_0.jpeg)\n\n**Figure S21.** Le Bail refinement of *Fm*3̅*m-*LaH<sup>10</sup> and the experimental XRD pattern at 171 GPa (DAC SL3\\_S, pure La). The experimental data, model fit for the structure, and residues are shown in red, black, and green, respectively.\n\n![](2__page_32_Figure_2.jpeg)\n\n**Figure S22.** Le Bail refinement of *Fm*3̅*m-*LaH10, *P*6*3mc-*LaH10, and the experimental XRD pattern at 171 GPa (DAC SL3\\_S, pure La). The experimental data, model fit for the structure, and residues are shown in red, black, and green, respectively.\n\n![](2__page_33_Figure_0.jpeg)\n\n**Figure S23.** Raman spectra of the 3̅-(La,Y)H<sup>10</sup> samples in DACs (a) M1-2, SL1,3; (b) SL1 and SL3 at 170–180 GPa after the laser heating.\n\n![](2__page_33_Figure_2.jpeg)\n\n**Figure S24.** Raman spectra of the (La,Y)H<sup>10</sup> samples obtained from La2Y alloy for the electric transport measurements at 194 GPa. The absence of the H<sup>2</sup> vibron may be due to complete absorption of hydrogen by the sample.\n\n![](2__page_34_Figure_0.jpeg)\n\n**Figure S25.** Raman spectra of the (La,Y)H<sup>10</sup> sample obtained from La2Y alloy for the electric transport measurements at 196 GPa after the laser heating.\n\n## **Transport measurements in magnetic fields**\n\n![](2__page_35_Figure_1.jpeg)\n\n**Figure S26.** Electrical resistance and critical temperature *T*<sup>C</sup> of the (La, Y)H<sup>10</sup> sample, obtained from La2Y alloy, in an external magnetic field (0–16 T) at 183 GPa. (a) Temperature dependence of the electrical resistance at different external magnetic fields, *T* = 210–250 K. Arrows indicate the onsets of the resistance drop where the critical temperatures were determined. (b) Same dependence at *T* = 160– 300 K. (c) Upper critical magnetic field extrapolated to 0 K. (d) Dependence of *T*<sup>C</sup> on the applied magnetic field.\n\n![](2__page_35_Figure_3.jpeg)\n\n**Figure S27.** Electrical resistance and critical temperature *T*<sup>C</sup> of the (La, Y)H<sup>10</sup> sample in an external magnetic field (0–16 T): (a) at 182 and 186 GPa, for the sample obtained from La4Y; (b) at 183, 188, and 196 GPa, with zero-field cooling, for the sample obtained from La2Y. Inset: pressure dependence of *T*C. The critical temperatures were determined at the onset of the resistance drop, *dT*C*/dP* = –0.43 K/GPa.\n\n![](2__page_36_Figure_0.jpeg)\n\n**Figure S28.** (a) Scaling of the normalized volume pinning forces (Fp/F<sup>p</sup> max) of the (La,Y)H<sup>10</sup> sample, obtained from La4Y alloy, at 186 GPa for several different temperatures versus the reduced field h = H/Hc2. Experimental data is fitted by the Dew-Hughes <sup>9</sup> model for surface type normal pinning centers: f<sup>p</sup> = h p (1-h)<sup>q</sup> . (b) Temperature dependence of the electrical resistance of the (La,Y)H*<sup>x</sup>* sample, obtained from LaY<sup>4</sup> alloy, at 176 GPa. The complex structure of the transition is probably due to the presence of impurities: 3̅-YH<sup>6</sup> (~226 K), *Imm*2*-*YH7, and, possibly, La*x*Y1–*x*H6.\n\n**Eliashberg functions of La–Y–H phases**\n\n![](2__page_37_Figure_1.jpeg)\n\n**Figure S29.** Ab initio calculated harmonic Eliashberg functions α <sup>2</sup>*F*(ω) and electron–phonon coupling (EPC) parameters at 180 GPa for (a) 3̅-LaYH20, (b) cubic La4YH30, (c) 3̅-LaYH12, (d) cubic La2YH18, (e) 3̅-YH6, and (f) 3̅-LaH6. The Eliashberg functions calculated within the tetrahedron method<sup>49</sup> and the interpolation method<sup>50</sup> (with σ = 0.01 Ry) are shown in black and blue, respectively. *T*<sup>C</sup> (AD) is the critical temperature obtained using the Allen–Dynes formula.<sup>31</sup>\n\n**Table S5.** Electron–phonon coupling (EPC) parameters for various La–Y hydrides calculated in Quantum ESPRESSO within different methods and *q, k*-meshes at 180 GPa. *T*<sup>C</sup> (E) corresponds to the solution of the isotropic ME equations, *T*<sup>C</sup> (AD) is obtained using the Allen–Dynes formula.<sup>31</sup>\n\n| Compound          | Cell     | Method* | q, k-meshes                        | λ    | ωlog, K | TC<br>(AD), K<br>µ*<br>=<br>0.1 | TC<br>(E),<br>K<br>µ*<br>=<br>0.1 |\n|-------------------|----------|---------|------------------------------------|------|---------|---------------------------------|-----------------------------------|\n| 𝐼𝑚3̅𝑚-YH6         | 14 atoms | T       | q: 4×4×4,<br>k: 12×12×12, 16×16×16 | 2.02 | 1190    | 208                             | 250                               |\n|                   |          | S       | q: 2×2×2,<br>k: 12×12×12, 16×16×16 | 2.24 | 929     | 184                             | -                                 |\n| 𝑃𝑚3̅𝑚-LaYH12      | 14 atoms | T       | q: 4×4×4,<br>k: 16×16×16, 24×24×24 | 2.82 | 847     | 203                             | 241                               |\n|                   |          | S       | q: 3×3×3,<br>k: 18×18×18, 24×24×24 | 2.47 | 875     | 192                             | -                                 |\n| 𝑃𝑚3̅𝑚-<br>La2YH18 | 42 atoms | T       | q: 2×2×2,<br>k: 6×6×6, 8×8×8       | 1.84 | 1257    | 199                             | 223                               |\n|                   |          | S       | q: 1×2×4,<br>k: 2×4×8, 4×8×16      | 2.74 | 964     | 229                             | 270                               |\n| 𝑃𝑚3̅𝑚-<br>La4YH30 | 35 atoms | T       | q: 1×2×2,<br>k: 2×8×8, 4×12×12     | 3.21 | 910     | 241                             | -                                 |\n|                   |          | S       | q: 1×2×2,<br>k: 2×8×8, 4×12×12     | 2.68 | 1046    | 237                             | 265                               |\n| 𝐼𝑚3̅𝑚-LaH6        | 14 atoms | T       | q: 4×4×4,<br>k: 12×12×12, 16×16×16 | 2.41 | 1011    | 207                             | 235                               |\n|                   |          | S       | q: 4×4×4,<br>k: 12×12×12, 12×12×12 | 2.47 | 803     | 175                             | -                                 |\n| 𝑅3̅𝑚-LaYH20       | 22 atoms | T       | q: 4×4×4,<br>k: 12×12×12, 16×16×16 | 3.87 | 868     | 266                             | 300                               |\n\n\\* Methods: T – the tetrahedron integration,<sup>49</sup> S – the interpolation method<sup>50</sup> (0.01–0.015 Ry).\n\n**Table S6.** Parameters of the superconducting state of 3̅-LaYH20, 3̅-LaYH12, 3̅-LaH6, cubic La2YH18, and La4YH<sup>30</sup> at 180 GPa calculated using the isotropic Migdal–Eliashberg equations (E)<sup>29</sup> and the Allen–Dynes formula (AD)<sup>31</sup> with μ\\* = 0.15–0.1.\n\n| Parameter             | 𝑅3̅𝑚-LaYH20 | 𝑃𝑚3̅𝑚-LaYH12 | La2YH18   | La4YH30   | 𝐼𝑚3̅𝑚-LaH6 |\n|-----------------------|-------------|--------------|-----------|-----------|------------|\n| λ                     | 3.87        | 2.82         | 2.74      | 2.68      | 2.41       |\n| ωlog, K               | 868         | 847          | 964       | 1046      | 1011       |\n| ω2, K                 | 1208        | 1251         | 1525      | 1437      | 1312       |\n| β                     | 0.48-0.49   | 0.48-0.49    | 0.47-0.49 | 0.48-0.49 | 0.47-0.49  |\n| TC<br>(AD), K         | 232-266     | 176-203      | 197-229   | 206-237   | 180-207    |\n| TC<br>(E), K          | 281-300*    | 223-241      | 248-270   | 245-265   | 217-235    |\n| TC<br>(SCDFT), K      | 252         | 191          | -         | -         | 176        |\n| N(EF), states/eV/f.u. | 0.87        | 0.8          | 0.66      | 0.79      | 1.62       |\n| TC<br>(La–YDx), K     | 213         | 160-173      | 178-193   | 175-190   | 155-168    |\n| Δ(0), meV             | 67-71       | 53-57.5      | 58-64.4   | 57-62     | 49-54      |\n| μ0HC(0), T            | 99-101      | 73-77        | 73-78     | 80-85     | 98-106     |\n| ΔC/TC, mJ/mol·K2      | 33.6-22.7   | 38-35        | 32-29     | 39-38     | 77-75.6    |\n| γ, mJ/mol·K2          | 19.9        | 14.3         | 11.6      | 13.7      | 26         |\n| RΔ<br>=<br>2Δ(0)/kBTC | 5.48-5.54   | 5.5          | 5.5       | 5.36-5.45 | 5.23-5.35  |\n\n\\* *T*<sup>C</sup> (E) = 266 K at μ\\* = 0.2.\n\n## **Equations for calculating** *T***<sup>C</sup> and related parameters**\n\nTo calculate the isotopic coefficient β, the Allen–Dynes interpolation formulas were used:\n\n$$\\begin{aligned} \\beta\\_{\\text{McfM}} &= -\\frac{d\\ln T\\_{\\text{C}}}{d\\ln M} = \\frac{1}{2} \\left[ 1 - \\frac{1.04(1+\\lambda)(1+0.62\\lambda)}{[\\lambda - \\mu^\\*(1+0.62\\lambda)]^2} \\mu^{\\*2} \\right] \\\\ \\beta\\_{\\text{AD}} &= \\beta\\_{\\text{McfM}} - \\frac{2.34\\mu^{\\*2}\\lambda^{32}}{3.44\\mu^{\\*2}\\lambda^{\\*4} + 0.34\\mu^{\\*2}\\lambda^{\\*32}\\lambda^{\\*432}} - 1} \\end{aligned} \\tag{S2}$$\n\n$$\\begin{split} \\rho\\_{\\text{AD}} &= \\rho\\_{\\text{McM}} - \\frac{(2.46 + 9.25\\mu^{\\circ}) \\cdot ((2.46 + 9.25\\mu^{\\circ})^{3/2} + \\lambda^{3/2})}{(130.4 \\cdot \\mu^{\\circ}\\lambda^{2} (1 + 6.3\\mu^{\\circ})) \\left(1 - \\frac{\\alpha\\_{\\text{bg}}}{\\alpha\\_{2}}\\right) \\frac{\\alpha\\_{\\text{bg}}}{\\alpha\\_{2}}} \\\\ &- \\frac{130.4 \\cdot \\mu^{\\circ}\\lambda^{2} (1 + 6.3\\mu^{\\circ}) \\left(1 - \\frac{\\alpha\\_{\\text{bg}}}{\\alpha\\_{2}}\\right) \\frac{\\alpha\\_{\\text{bg}}}{\\alpha\\_{2}}}{\\left(8.28 + 104\\mu^{\\circ} + 329\\mu^{\\circ 2} + 2.5 \\cdot \\lambda^{2} \\frac{\\alpha\\_{\\text{bg}}}{\\alpha\\_{2}}\\right) \\cdot \\left(8.28 + 104\\mu^{\\circ} + 329\\mu^{\\circ 2} + 2.5 \\cdot \\lambda^{2} \\left|\\frac{\\alpha\\_{\\text{bg}}}{\\alpha\\_{2}}\\right|^{2}\\right)} \\end{split} \\tag{S3}$$\n\n2 2 \n\nwhere the last two correction terms are usually small (~0.01).\n\nThe Sommerfeld constant was found as\n\n$$\\gamma = \\frac{2}{3}\\pi^2 k\\_B^2 N(0)(1+\\lambda) \\tag{S4}$$\n\n \n\nand was applied to estimate the upper critical magnetic field and the superconductive gap in yttrium hydrides using well-known semiempirical equations of the BCS theory (Ref. <sup>51</sup> , eq 4.1 and 5.11), which works for *T*C/ωlog < 0.25:\n\n$$\\frac{\\gamma T\\_{\\text{C}}^2}{B\\_{\\text{C2}}^2(0)} = 0.168 \\left[ 1 - 12.2 \\left( \\frac{T\\_{\\text{C}}}{\\omega\\_{\\text{log}}} \\right)^2 \\ln \\left( \\frac{\\omega\\_{\\text{log}}}{3T\\_{\\text{C}}} \\right) \\right] \\tag{S5}$$\n\n$$\\frac{2\\Delta\\text{(O)}}{k\\_\\text{B}T\\_\\text{C}} = 3.53 \\left[ 1 + 12.5 \\left( \\frac{T\\_\\text{C}}{\\omega\\_\\text{log}} \\right)^2 \\ln \\left( \\frac{\\omega\\_\\text{log}}{2T\\_\\text{C}} \\right) \\right] \\tag{S6}$$\n\nThe lower critical magnetic field was calculated according to the Ginzburg–Landau theory: 52\n\n$$\\frac{H\\_{\\rm C1}}{H\\_{\\rm C2}} = \\frac{\\ln k}{2\\sqrt{2}k^2}, \\qquad k = \\,^{\\lambda\\_{\\rm L}}\\!/\\_{\\xi} \\tag{S7}$$\n\nwhere λL is the London penetration depth, found as\n\n$$\n\\lambda\\_{\\rm L} = 1.0541 \\cdot 10^{-5} \\sqrt{\\frac{m\\_e c^2}{4 \\pi m\\_e e^2}} \\tag{S8}\n$$\n\nwhere *c* is the speed of light, *e* is the electron charge, *m<sup>e</sup>* is the electron mass, and *n<sup>e</sup>* is the effective concentration of charge carriers, evaluated from the average Fermi velocity *V*<sup>F</sup> in the Fermi gas model:\n\n$$m\\_e = \\frac{1}{e\\pi^2} \\underbrace{\\left(\\frac{m\\_eV\\_F}{\\hbar}\\right)^3}\\_{\\left(\\frac{1}{\\sqrt{1-\\frac{1}{\\hbar}}\\right)}}\\tag{S9}$$\n\nThe coherence length ξ was found as ξ = √ℏ 2(μ0C2 ⁄ ) and was used to estimate the average Fermi velocity\n\n$$V\\_{\\rm F} = \\frac{\\pi \\Delta \\!\\!/\\!\\!/\\!\\!/} \\tag{S10}$$\n\nThe critical temperature of superconducting transition was calculated using the Matsubara-type linearized Eliashberg equations:<sup>29</sup>\n\n$$\n\\hbar \\omega\\_j = \\pi (2j+1) k\\_{\\rm B} T, \\qquad j = 0, \\pm 1, \\pm 2, \\dots \\tag{S11}\n$$\n\n$$2\\left\\{\\omega\\_l - \\omega\\_l\\right\\} = 2\\int\\_0^\\infty \\frac{\\omega \\cdot \\alpha^2 F(\\omega)}{\\omega^2 + \\left(\\omega\\_l - \\omega\\_l\\right)^2} d\\omega \\tag{S12}$$\n$$\\begin{split} \\Delta(\\omega = \\omega\\_l, T) &= \\Delta\\_l(T) \\\\ &= \\pi k\\_\\text{B} T \\sum\\_j \\frac{\\left[\\lambda \\{\\omega\\_l - \\omega\\_j\\} - \\mu^\\*\\right]}{\\rho + \\left|\\hbar \\omega\\_j + \\pi k\\_\\text{B} T \\sum\\_k (\\text{sign } \\omega\\_k) \\cdot \\lambda \\{\\omega\\_l - \\omega\\_j\\} \\right|} \\cdot \\Delta\\_l(T) \\end{split} \\tag{S13}$$\n\nwhere *T* is the temperature in kelvins, μ *\\** is the Coulomb pseudopotential, ω is the frequency in Hz, ρ(*T*) is a pair-breaking parameter, the function λ(ω − ω) is related to an effective electron–electron interaction via the exchange of phonons.<sup>53</sup> The transition temperature can be found as the solution of the equation ρ(*T*C) = 0, where ρ(*T*) is defined as max(ρ), provided that Δ(ω) is not a zero function of ω at a fixed temperature.\n\nThese equations can be rewritten in a matrix form as<sup>30</sup>\n\n$$\n\\rho(T)\\Psi\\_m = \\Sigma\\_{n=0}^N K\\_{mn}\\psi\\_n \\Leftrightarrow \\rho(T) \\begin{pmatrix} \\Psi\\_1\\\\ \\dots\\\\ \\Psi\\_N \\end{pmatrix} = \\begin{pmatrix} K\\_{11} & \\dots & K\\_{1N} \\\\ \\dots & K\\_{ii} & \\dots \\\\ K\\_{N1} & \\dots & K\\_{NN} \\end{pmatrix} \\times \\begin{pmatrix} \\Psi\\_1\\\\ \\dots\\\\ \\Psi\\_N \\end{pmatrix},\\tag{S14}$$\n\nwhere ψ*<sup>n</sup>* relates to Δ(ω, *T*), and\n\n$$\\begin{aligned} K\\_{mn} &= F(m-n) + F(m+n+1) - 2\\mu \\\\ &\\quad \\ast - \\delta\\_{mn} \\left[ 2m + 1 + F(0) + 2 \\sum\\_{l=1}^{m} F(l) \\right] \\end{aligned} \\tag{S15}$$\n\n$$F(\\mathbf{x}) = F(\\mathbf{x}, T) = 2 \\int\\_0^{\\omega \\text{max}} \\frac{a^2 F(\\omega)}{(\\hbar \\omega)^2 + (2 \\pi k\\_B T \\omega)^2} \\hbar \\omega d\\omega,\\tag{S16}$$\n\nwhere δ*nn* = 1 and δ*nm* = 0 (*n* ≠ *m*) is a unit matrix. Now we can replace the equation ρ(*T*C) = 0 with the vanishing of the maximum eigenvalue of the matrix *Knm*: {ρ = max\\_eigenvalue(*Knm*) = *f*(*T*), *f*(*T*C) = 0}.\n\n## **Electronic properties**\n\n![](3__page_41_Figure_1.jpeg)\n\n**Figure S30.** Electronic band structure of proposed 3̅-LaH<sup>6</sup> at 180 GPa.\n\n![](3__page_41_Figure_3.jpeg)\n\n**Figure S31.** Electronic band structure of 3̅-LaYH<sup>12</sup> at 180 GPa.\n\n![](3__page_42_Figure_0.jpeg)\n\n**Figure S33.** Electronic density of states of (a) proposed 3̅-LaH6, (b) cubic La4YH30, (c) 3̅-LaYH12, and (d) 3̅-YH<sup>6</sup> at 180 GPa.\n\n![](3__page_43_Figure_0.jpeg)\n\n**Figure S34.** Electronic density of states of (a) 3̅-LaH10, (b) 3̅-YH6, (c) 3̅-LaYH20, and (d) cubic La4YH<sup>50</sup> at 180 GPa.\n\n## **References**\n\n- 1. Prescher, C. & Prakapenka, V. B. DIOPTAS: a program for reduction of two-dimensional X-ray diffraction data and data exploration. *High Press. Res.* **35**, 223–230 (2015).\n- 2. Petříček, V., Dušek, M. & Palatinus, L. Crystallographic Computing System JANA2006: General features. *Z. Für Krist. - Cryst. Mater.* **229**, 345–352 (2014).\n- 3. Bail, A. L. Whole powder pattern decomposition methods and applications: A retrospection. *Powder Diffr.* **20**, 316–326 (2005).\n- 4. Eremets, M. I. Megabar high-pressure cells for Raman measurements. *J. Raman Spectrosc.* **34**, 515–518 (2003).\n- 5. Ohishi, Y., Hirao, N., Sata, N., Hirose, K. & Takata, M. Highly intense monochromatic X-ray diffraction facility for high-pressure research at SPring-8. *High Press. Res.* **28**, 163–173 (2008).\n- 6. Hirao, N. *et al.* New developments in high-pressure X-ray diffraction beamline for diamond anvil cell at SPring-8. *Matter Radiat. Extrem.* **5**, 018403 (2020).\n- 7. Liermann, H.-P. *et al.* The Extreme Conditions Beamline P02.2 and the Extreme Conditions Science Infrastructure at PETRA III. *J. Synchrotron Radiat.* **22**, 908–924 (2015).\n- 8. *Handbook of Nanoscopy*. (Wiley).\n- 9. Dew-Hughes, D. Flux pinning mechanisms in type II superconductors. *Philos. Mag. J. Theor. Exp. Appl. Phys.* **30**, 293–305 (1974).\n- 10. Oganov, A. R. & Glass, C. W. Crystal structure prediction using ab initio evolutionary techniques: Principles and applications. *J Chem Phys* **124**, 244704 (2006).\n- 11. Oganov, A. R., Lyakhov, A. O. & Valle, M. How Evolutionary Crystal Structure Prediction Works and Why. *Acc. Chem. Res.* **44**, 227–237 (2011).\n- 12. Lyakhov, A. O., Oganov, A. R., Stokes, H. T. & Zhu, Q. New developments in evolutionary structure prediction algorithm USPEX. *Comput. Phys. Commun.* **184**, 1172–1182 (2013).\n- 13. Bushlanov, P. V., Blatov, V. A. & Oganov, A. R. Topology-based crystal structure generator. *Comput. Phys. Commun.* **236**, 1–7 (2019).\n- 14. Hohenberg, P. & Kohn, W. Inhomogeneous electron gas. *Phys Rev* **136**, B864–B871 (1964).\n- 15. Kohn, W. & Sham, L. J. Self-consistent equations including exchange and correlation effects. *Phys Rev* **140**, A1133–A1138 (1965).\n- 16. Perdew, J. P., Burke, K. & Ernzerhof, M. Generalized gradient approximation made simple. *Phys. Rev. Lett.* **77**, 3865–3868 (1996).\n- 17. Blöchl, P. E. Projector augmented-wave method. *Phys. Rev. B* **50**, 17953–17979 (1994).\n- 18. Kresse, G. & Joubert, D. From ultrasoft pseudopotentials to the projector augmented-wave method. *Phys. Rev. B* **59**, 1758–1775 (1999).\n- 19. Kresse, G. & Furthmüller, J. Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set. *Phys. Rev. B* **54**, 11169–11186 (1996).\n- 20. Kresse, G. & Hafner, J. Ab initio molecular dynamics for liquid metals. *Phys. Rev. B* **47**, 558–561 (1993).\n- 21. Kresse, G. & Hafner, J. Ab initio molecular-dynamics simulation of the liquid-metal amorphoussemiconductor transition in germanium. *Phys. Rev. B* **49**, 14251–14269 (1994).\n- 22. Semenok, D. V., Kvashnin, A. G., Kruglov, I. A. & Oganov, A. R. Actinium Hydrides AcH10, AcH12, and AcH16 as High-Temperature Conventional Superconductors. *J. Phys. Chem. Lett.* **9**, 1920– 1926 (2018).\n- 23. Kvashnin, A. G., Semenok, D. V., Kruglov, I. A., Wrona, I. A. & Oganov, A. R. High-Temperature Superconductivity in Th-H System at Pressure Conditions. *ACS Appl. Mater. Interfaces* **10**, 43809–43816 (2018).\n- 24. Togo, A. & Tanaka, I. First principles phonon calculations in materials science. *Scr. Mater.* **108**, 1– 5 (2015).\n- 25. Togo, A., Oba, F. & Tanaka, I. First-principles calculations of the ferroelastic transition between rutile-type and CaCl2-type SiO2 at high pressures. *Phys. Rev. B* **78**, 134106 (2008).\n- 26. Giannozzi, P. *et al.* QUANTUM ESPRESSO: a Modular and Open-Source Software Project for Quantum Simulations of Materials. *J. Phys. Condens. Matter* **21**, 395502 (2009).\n- 27. Giannozzi, P. *et al.* Advanced capabilities for materials modelling with Quantum ESPRESSO. *J. Phys. Condens. Matter* **29**, 465901 (2017).\n- 28. Baroni, S., de Gironcoli, S., Dal Corso, A. & Giannozzi, P. Phonons and Related Crystal Properties from Density-Functional Perturbation Theory. *Rev. Mod. Phys.* **73**, 515–562 (2001).\n- 29. Eliashberg, G. M. Interactions between Electrons and Lattice Vibrations in a Superconductor. *JETP* **11**, 696–702 (1959).\n- 30. Allen, P. B. & Dynes, R. C. A computer program for numerical solution of the Eliashberg equation to find Tc. *Tech. Rep. 7 TCM41974* (1974).\n- 31. Allen, P. B. & Dynes, R. C. Transition temperature of strong-coupled superconductors reanalyzed. *Phys. Rev. B* **12**, 905–922 (1975).\n- 32. Lüders, M. *et al.* Ab initio theory of superconductivity. I. Density functional formalism and approximate functionals. *Phys. Rev. B* **72**, 024545 (2005).\n- 33. Marques, M. A. L. *et al.* Ab initio theory of superconductivity. II. Application to elemental metals. *Phys. Rev. B* **72**, 024546 (2005).\n- 34. Migdal, A. B. Interaction between electrons and lattice vibrations in a normal metal. *JETP* **34**, 996– 1001 (1958).\n- 35. Scalapino, D. J. The Electron Phonon Interaction and Strong Coupling. in *Superconductivity: Part 1 (In Two Parts)* (ed. Parks, R. D.) vol. 1 (Dekker, New York, 1969).\n- 36. Schrieffer, J. R. *Theory Of Superconductivity*. vol. 1 (Perseus Books, 1999).\n- 37. Kruglov, I. A. *et al.* Superconductivity of LaH10 and LaH16 polyhydrides. *Phys Rev B* **101**, 024508 (2020).\n- 38. Akashi, R. & Arita, R. Density functional theory for superconductors with particle-hole asymmetric electronic structure. *Phys. Rev. B* **88**, 014514 (2013).\n- 39. Akashi, R., Kawamura, M., Tsuneyuki, S., Nomura, Y. & Arita, R. First-principles study of the pressure and crystal-structure dependences of the superconducting transition temperature in compressed sulfur hydrides. *Phys. Rev. B* **91**, 224513 (2015).\n- 40. Pines, D. *Elementary Excitations in Solids : Lectures on Phonons, Electrons, and Plasmons*. (Perseus, 1999).\n- 41. Rath, J. & Freeman, A. J. Generalized magnetic susceptibilities in metals: Application of the analytic tetrahedron linear energy method to Sc. *Phys. Rev. B* **11**, 2109–2117 (1975).\n- 42. Jayaraman, A., Sherwood, R. C., Williams, H. J. & Corenzwit, E. Pressure-Induced Phase Transformations and Magnetic Ordering in Some Intra-Rare-Earth Alloys and Samarium. *Phys. Rev.* **148**, 502–508 (1966).\n- 43. Harris, I. R. & Raynor, G. V. The constitution of yttrium-cerium and yttrium-lanthanum alloys, with special reference to lattice spacings. *J. Common Met.* **7**, 1–10 (1964).\n- 44. Spedding, F. H., Valletta, R. M. & Daane, A. H. SOME RARE-EARTH ALLOY SYSTEMS. I. La-Gd, La-Y, Gd-Y. *Trans Am Soc Met.* **Vol: 55**, (1962).\n- 45. Anderson, G. Superconductivity of lanthanum and some lanthanum alloys. *Retrosp. Theses Diss.* (1957) doi:https://doi.org/10.31274/rtd-180813-14543.\n- 46. Anderson, G. S., Legvold, S. & Spedding, F. H. Superconductivity of Lanthanum and Some Lanthanum Alloys. *Phys. Rev.* **109**, 243–247 (1958).\n- 47. Alloy Phase Diagrams Provisional. *Bull. Alloy Phase Diagr.* **3**, 222–276 (1982).\n- 48. Troyan, I. A. *et al.* Anomalous high-temperature superconductivity in YH\\$\\_6\\$. *ArXiv190801534 Cond-Mat* (2020).\n- 49. Kawamura, M., Gohda, Y. & Tsuneyuki, S. Improved tetrahedron method for the Brillouin-zone integration applicable to response functions. *Phys. Rev. B* **89**, 094515 (2014).\n- 50. Wierzbowska, M., de Gironcoli, S. & Giannozzi, P. Origins of low- and high-pressure discontinuities of \\$T\\_{c}\\$ in niobium. *ArXivcond-Mat0504077* (2006).\n- 51. Carbotte, J. P. Properties of boson-exchange superconductors. *Rev. Mod. Phys.* **62**, 1027–1157 (1990).\n- 52. Ginzburg, V. L. & Landau, L. D. On the Theory of superconductivity. *Zh.Eksp.Teor.Fiz.* **20**, 1064– 1082 (1950).\n- 53. Bergmann, G. & Rainer, D. The sensitivity of the transition temperature to changes in α2F(ω). *Z. Für Phys.* **263**, 59–68 (1973).",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Superconductivity at 253 K in lanthanum-yttrium ternary hydrides",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              66.4970703125,
+              37.001953125
+            ],
+            [
+              529.6484375,
+              37.001953125
+            ],
+            [
+              529.6484375,
+              54.07415771484375
+            ],
+            [
+              66.4970703125,
+              54.07415771484375
+            ]
+          ]
+        },
+        {
+          "title": "Abstract",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              36.0,
+              268.68414306640625
+            ],
+            [
+              95.453125,
+              268.68414306640625
+            ],
+            [
+              95.453125,
+              284.9150390625
+            ],
+            [
+              36.0,
+              284.9150390625
+            ]
+          ]
+        },
+        {
+          "title": "Highlights",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              35.2310791015625,
+              560.3740234375
+            ],
+            [
+              89.3759994506836,
+              560.3740234375
+            ],
+            [
+              89.3759994506836,
+              573.6914672851562
+            ],
+            [
+              35.2310791015625,
+              573.6914672851562
+            ]
+          ]
+        },
+        {
+          "title": "Introduction",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              35.031005859375,
+              38.11419677734375
+            ],
+            [
+              123.099609375,
+              38.11419677734375
+            ],
+            [
+              123.099609375,
+              54.07415771484375
+            ],
+            [
+              35.031005859375,
+              54.07415771484375
+            ]
+          ]
+        },
+        {
+          "title": "Results and Discussion",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              34.99462890625,
+              526.2241516113281
+            ],
+            [
+              191.5994110107422,
+              526.2241516113281
+            ],
+            [
+              191.5994110107422,
+              542.2841796875
+            ],
+            [
+              34.99462890625,
+              542.2841796875
+            ]
+          ]
+        },
+        {
+          "title": "Structural search",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              49.47265625,
+              556.0895080566406
+            ],
+            [
+              147.7239532470703,
+              556.0895080566406
+            ],
+            [
+              147.7239532470703,
+              570.65234375
+            ],
+            [
+              49.47265625,
+              570.65234375
+            ]
+          ]
+        },
+        {
+          "title": "High-pressure synthesis",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              49.363525390625,
+              708.99951171875
+            ],
+            [
+              185.10572814941406,
+              708.99951171875
+            ],
+            [
+              185.10572814941406,
+              723.1826171875
+            ],
+            [
+              49.363525390625,
+              723.1826171875
+            ]
+          ]
+        },
+        {
+          "title": "Superconductivity",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              49.3271484375,
+              517.9295043945312
+            ],
+            [
+              152.6376953125,
+              517.9295043945312
+            ],
+            [
+              152.6376953125,
+              532.005859375
+            ],
+            [
+              49.3271484375,
+              532.005859375
+            ]
+          ]
+        },
+        {
+          "title": "Conclusions",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              50.15999984741211,
+              290.8841552734375
+            ],
+            [
+              133.64892578125,
+              290.8841552734375
+            ],
+            [
+              133.64892578125,
+              306.8441162109375
+            ],
+            [
+              50.15999984741211,
+              306.8441162109375
+            ]
+          ]
+        },
+        {
+          "title": "Author Contributions",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              35.3583984375,
+              687.1741485595703
+            ],
+            [
+              185.7993621826172,
+              687.1741485595703
+            ],
+            [
+              185.7993621826172,
+              703.4482421875
+            ],
+            [
+              35.3583984375,
+              703.4482421875
+            ]
+          ]
+        },
+        {
+          "title": "Acknowledgments",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              35.613037109375,
+              96.1536865234375
+            ],
+            [
+              162.38671875,
+              96.1536865234375
+            ],
+            [
+              162.38671875,
+              113.781005859375
+            ],
+            [
+              35.613037109375,
+              113.781005859375
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              35.212890625,
+              408.46044921875
+            ],
+            [
+              112.33203125,
+              408.46044921875
+            ],
+            [
+              112.33203125,
+              426.755859375
+            ],
+            [
+              35.212890625,
+              426.755859375
+            ]
+          ]
+        },
+        {
+          "title": "SUPPORTING INFORMATION",
+          "heading_level": null,
+          "page_id": 12,
+          "polygon": [
+            [
+              166.82000732421875,
+              37.69573974609375
+            ],
+            [
+              409.16796875,
+              37.69573974609375
+            ],
+            [
+              409.16796875,
+              56.03216552734375
+            ],
+            [
+              166.82000732421875,
+              56.03216552734375
+            ]
+          ]
+        },
+        {
+          "title": "Superconductivity at 253 K in lanthanum-yttrium ternary hydrides",
+          "heading_level": null,
+          "page_id": 12,
+          "polygon": [
+            [
+              55.583984375,
+              68.45361328125
+            ],
+            [
+              518.880859375,
+              68.45361328125
+            ],
+            [
+              518.880859375,
+              85.207275390625
+            ],
+            [
+              55.583984375,
+              85.207275390625
+            ]
+          ]
+        },
+        {
+          "title": "Contents",
+          "heading_level": null,
+          "page_id": 12,
+          "polygon": [
+            [
+              35.9586181640625,
+              417.1622314453125
+            ],
+            [
+              105.9296875,
+              417.1622314453125
+            ],
+            [
+              105.9296875,
+              436.2119140625
+            ],
+            [
+              35.9586181640625,
+              436.2119140625
+            ]
+          ]
+        },
+        {
+          "title": "Methods",
+          "heading_level": null,
+          "page_id": 13,
+          "polygon": [
+            [
+              49.872802734375,
+              38.11419677734375
+            ],
+            [
+              109.59503936767578,
+              38.11419677734375
+            ],
+            [
+              109.59503936767578,
+              54.07415771484375
+            ],
+            [
+              49.872802734375,
+              54.07415771484375
+            ]
+          ]
+        },
+        {
+          "title": "Experiment",
+          "heading_level": null,
+          "page_id": 13,
+          "polygon": [
+            [
+              49.3271484375,
+              67.8887939453125
+            ],
+            [
+              110.1494140625,
+              67.8887939453125
+            ],
+            [
+              110.1494140625,
+              80.9417724609375
+            ],
+            [
+              49.3271484375,
+              80.9417724609375
+            ]
+          ]
+        },
+        {
+          "title": "Theory",
+          "heading_level": null,
+          "page_id": 15,
+          "polygon": [
+            [
+              49.25439453125,
+              37.52880859375
+            ],
+            [
+              90.11568450927734,
+              37.52880859375
+            ],
+            [
+              90.11568450927734,
+              50.48883056640625
+            ],
+            [
+              49.25439453125,
+              50.48883056640625
+            ]
+          ]
+        },
+        {
+          "title": "Cell parameters",
+          "heading_level": null,
+          "page_id": 17,
+          "polygon": [
+            [
+              35.831298828125,
+              36.3338623046875
+            ],
+            [
+              146.5263671875,
+              36.3338623046875
+            ],
+            [
+              146.5263671875,
+              55.4515380859375
+            ],
+            [
+              35.831298828125,
+              55.4515380859375
+            ]
+          ]
+        },
+        {
+          "title": "Structural characterization of the initial La–Y alloys",
+          "heading_level": null,
+          "page_id": 19,
+          "polygon": [
+            [
+              35.6494140625,
+              37.2589111328125
+            ],
+            [
+              396.36328125,
+              37.2589111328125
+            ],
+            [
+              396.36328125,
+              54.5264892578125
+            ],
+            [
+              35.6494140625,
+              54.5264892578125
+            ]
+          ]
+        },
+        {
+          "title": "X-ray diffraction data",
+          "heading_level": null,
+          "page_id": 28,
+          "polygon": [
+            [
+              36.0,
+              37.02764892578125
+            ],
+            [
+              189.16015625,
+              37.02764892578125
+            ],
+            [
+              189.16015625,
+              55.605712890625
+            ],
+            [
+              36.0,
+              55.605712890625
+            ]
+          ]
+        },
+        {
+          "title": "Transport measurements in magnetic fields",
+          "heading_level": null,
+          "page_id": 35,
+          "polygon": [
+            [
+              34.7763671875,
+              38.11419677734375
+            ],
+            [
+              334.66796875,
+              38.11419677734375
+            ],
+            [
+              334.66796875,
+              54.07415771484375
+            ],
+            [
+              34.7763671875,
+              54.07415771484375
+            ]
+          ]
+        },
+        {
+          "title": "Equations for calculating TC and related parameters",
+          "heading_level": null,
+          "page_id": 39,
+          "polygon": [
+            [
+              35.6494140625,
+              38.11419677734375
+            ],
+            [
+              394.03515625,
+              38.11419677734375
+            ],
+            [
+              394.03515625,
+              54.4237060546875
+            ],
+            [
+              35.6494140625,
+              54.4237060546875
+            ]
+          ]
+        },
+        {
+          "title": "Electronic properties",
+          "heading_level": null,
+          "page_id": 41,
+          "polygon": [
+            [
+              35.50390625,
+              37.38739013671875
+            ],
+            [
+              180.35610961914062,
+              37.38739013671875
+            ],
+            [
+              180.35610961914062,
+              54.5264892578125
+            ],
+            [
+              35.50390625,
+              54.5264892578125
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 44,
+          "polygon": [
+            [
+              35.6494140625,
+              36.51373291015625
+            ],
+            [
+              102.07373046875,
+              36.51373291015625
+            ],
+            [
+              102.07373046875,
+              52.08538818359375
+            ],
+            [
+              35.6494140625,
+              52.08538818359375
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              351
+            ],
+            [
+              "Line",
+              56
+            ],
+            [
+              "Text",
+              14
+            ],
+            [
+              "ListItem",
+              5
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              276
+            ],
+            [
+              "Line",
+              49
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              289
+            ],
+            [
+              "Line",
+              26
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              185
+            ],
+            [
+              "Line",
+              24
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              516
+            ],
+            [
+              "Line",
+              83
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              217
+            ],
+            [
+              "Line",
+              24
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              347
+            ],
+            [
+              "Line",
+              37
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              568
+            ],
+            [
+              "Line",
+              61
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              394
+            ],
+            [
+              "Line",
+              46
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              219
+            ],
+            [
+              "Line",
+              44
+            ],
+            [
+              "ListItem",
+              11
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              250
+            ],
+            [
+              "Line",
+              49
+            ],
+            [
+              "ListItem",
+              24
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              81
+            ],
+            [
+              "Line",
+              17
+            ],
+            [
+              "ListItem",
+              7
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              175
+            ],
+            [
+              "Line",
+              47
+            ],
+            [
+              "TableCell",
+              24
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "TableOfContents",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              336
+            ],
+            [
+              "Line",
+              54
+            ],
+            [
+              "TableCell",
+              32
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 14,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              164
+            ],
+            [
+              "Line",
+              35
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 15,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              368
+            ],
+            [
+              "Line",
+              67
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 16,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              232
+            ],
+            [
+              "TableCell",
+              96
+            ],
+            [
+              "Line",
+              64
+            ],
+            [
+              "Table",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 17,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              278
+            ],
+            [
+              "TableCell",
+              129
+            ],
+            [
+              "Line",
+              85
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 18,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              244
+            ],
+            [
+              "Line",
+              84
+            ],
+            [
+              "TableCell",
+              16
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 19,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              58
+            ],
+            [
+              "Line",
+              14
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 20,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              108
+            ],
+            [
+              "Line",
+              15
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 21,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              65
+            ],
+            [
+              "Line",
+              14
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 22,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              50
+            ],
+            [
+              "Line",
+              7
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 23,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              36
+            ],
+            [
+              "Line",
+              6
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 24,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              10
+            ],
+            [
+              "Line",
+              3
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 25,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              77
+            ],
+            [
+              "Line",
+              9
+            ],
+            [
+              "Figure",
+              3
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "FigureGroup",
+              3
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 26,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              46
+            ],
+            [
+              "Line",
+              6
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 27,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              16
+            ],
+            [
+              "Line",
+              5
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 28,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              433
+            ],
+            [
+              "Line",
+              43
+            ],
+            [
+              "TableCell",
+              32
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 29,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              17
+            ],
+            [
+              "Line",
+              3
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 30,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              47
+            ],
+            [
+              "Line",
+              7
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 31,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              59
+            ],
+            [
+              "Line",
+              8
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 32,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              47
+            ],
+            [
+              "Line",
+              7
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 33,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              44
+            ],
+            [
+              "Line",
+              7
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 34,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              18
+            ],
+            [
+              "Line",
+              3
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 35,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              120
+            ],
+            [
+              "Line",
+              12
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 36,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              83
+            ],
+            [
+              "Line",
+              11
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 37,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              89
+            ],
+            [
+              "Line",
+              8
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 38,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              650
+            ],
+            [
+              "TableCell",
+              176
+            ],
+            [
+              "Line",
+              72
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Table",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "TableGroup",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 39,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              482
+            ],
+            [
+              "Line",
+              168
+            ],
+            [
+              "Equation",
+              11
+            ],
+            [
+              "Text",
+              8
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 40,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              347
+            ],
+            [
+              "Line",
+              54
+            ],
+            [
+              "Equation",
+              4
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 41,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              25
+            ],
+            [
+              "Line",
+              4
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 42,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              46
+            ],
+            [
+              "Line",
+              4
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 43,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              29
+            ],
+            [
+              "Line",
+              3
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 44,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              235
+            ],
+            [
+              "Line",
+              47
+            ],
+            [
+              "ListItem",
+              23
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 45,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              246
+            ],
+            [
+              "Line",
+              49
+            ],
+            [
+              "ListItem",
+              24
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 46,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              64
+            ],
+            [
+              "Line",
+              13
+            ],
+            [
+              "ListItem",
+              6
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 47,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Superconductivity at 253 K in lanthanum-yttrium ternary hydrides",
+    "authors": [
+      {
+        "authors_list": [
+          "Semenok, Dmitrii V.",
+          "Troyan, Ivan A.",
+          "Kvashnin, Alexander G."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Polyhydrides offer intriguing perspectives as high-temperature superconductors. Here we report the high-pressure synthesis of a series of lanthanum-yttrium ternary hydrides: cubic hexahydride $(La,Y)H_{6}$ with a critical temperature $T_{C}$ = 237 +/- 5 K and decahydrides $(La,Y)H_{10}$ with a maximum $T_{C}$ ~${253 K}$ and an extrapolated upper critical magnetic field $B_{C2(0)}$ up to ${135 T}$ at 183 GPa. This is one of the first examples of ternary high-$T_{C}$ superconducting hydrides. Our experiments show that a part of the atoms in the structures of recently discovered ${Im3m}$-$YH_{6}$ and ${Fm3m}$-$LaH_{10}$ can be replaced with lanthanum (~70 %) and yttrium (~25 %), respectively, with a formation of unique ternary superhydrides containing incorporated $La@H_{24}$ and $Y@H_{32}$ which are specific for ${Im3m}$-$LaH_{6}$ and ${Fm3m}$-$YH_{10}$. Ternary La-Y hydrides were obtained at pressures of 170-196 GPa via the laser heating of $P6_{3}$${/mmc}$ lanthanum-yttrium alloys in the ammonia borane medium at temperatures above 2000 K. A novel tetragonal $(La,Y)H_{4}$ was discovered as an impurity phase in synthesized cubic $(La,Y)H_{6}$. The current-voltage measurements show that the critical current density $J_{C}$ in $(La,Y)H_{10}$ may exceed $2500 A/mm^{2}$ at 4.2 K, which is comparable with that for commercial superconducting wires such as ${NbTi}$, $Nb_{3}$${Sn}$. Hydrides that are unstable in a pure form may nevertheless be stabilized at relatively low pressures in solid solutions with superhydrides having the same structure.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2012.04787"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.2012.04787",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2020arXiv201204787S"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

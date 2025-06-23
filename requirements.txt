@@ -1,0 +1,10 @@
+arxiv
+requests
+tqdm
+pdfminer.six
+markdownify
+Pillow
+openai
+weaviate-client
+python-dotenv
+PyYAML

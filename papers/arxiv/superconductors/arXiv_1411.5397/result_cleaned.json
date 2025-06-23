@@ -1,0 +1,579 @@
+{
+  "id": "d23d4ebbda28a2c040bc2adb8d7efc7c",
+  "pdf_path": "apl/Superconductors/arXiv:1411.5397.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "## **Internally Oxidized Nb3Sn Strands with Fine Grain Size and High Critical Current Density**\n\n*Xingchen Xu, Michael D. Sumption\\*, and Xuan Peng*\n\nX. Xu, Prof. M. D. Sumption Department of Materials Science and Engineering, the Ohio State University, Columbus, OH 43210, USA E-mail: [sumption.3@osu.edu](mailto:sumption.3@osu.edu) Dr. X. Peng Hyper Tech Research Incorporated, 539 Industrial Mile Road, Columbus, OH 43228, USA\n\nKeywords: Nb3Sn superconductor, critical current density, grain size refinement, internal oxidation\n\nNb3Sn superconducting strands are the most practical conductors to generate high magnetic fields (12-16 T), and thus have significant applications in nuclear magnetic resonance (NMR), and great potential for fusion reactors and particle accelerator magnets. High critical current density (*Jc*) is a key parameter for such applications. Significant efforts towards optimization of various factors led to an 80% improvement in *J<sup>c</sup>* from the early 1990s to 2003, when the 4.2 K, 12 T non-matrix *J<sup>c</sup>* reached 3000 A/mm<sup>2</sup> (corresponding to 5000 A/mm<sup>2</sup> in Nb3Sn layer *Jc*).[1,2] However, further efforts over the past decade have failed to bring about further increase beyond this level, [3,4] leading some researchers to conclude that the *J<sup>c</sup>* of conventional Nb3Sn strands had reached its maximum. Here, however, by applying an internal oxidation method, we reduce the grain size by a factor of three and nearly double the 12 T *Jc*. In this method, a Nb3Sn strand is fabricated with Nb-Zr alloy as starting material; with oxygen supplied properly via an oxide powder, the Zr atoms in the Nb-Zr alloy are internally oxidized, forming fine intra-granular and inter-granular ZrO<sup>2</sup> particles in Nb3Sn layer, which effectively refine Nb3Sn grain size. At a reaction temperature of 625 °C, grain size down to 20-50 nm (36 nm on average) has been achieved. For this sample the 4.2 K, 12 T Nb3Sn layer *J<sup>c</sup>* reached 9600 A/mm<sup>2</sup> .\n\nFor Nb3Sn, improvement in critical current density *J<sup>c</sup>* can be realized by refining grain size.[5,6] Present-day Nb3Sn strands have average grain sizes typically of 100-200 nm. [6] Previous work on Nb3Sn thin films fabricated by electron-beam co-evaporation deposition showed that by refining the grain size down to 15-30 nm, the high-field *J<sup>c</sup>* of Nb3Sn will be markedly enhanced. [7] At present the only practical method to refine grain size in Nb3Sn strands is to decrease the reaction temperature (a heat treatment above 600 °C is required for Nb3Sn phase formation in a Nb3Sn strand, which is composed of Nb or Nb-Ta, Sn, and Cu precursors in the green state). However, even reducing the temperature down to 615 °C can only refine the grain size to about 90 nm,[6] far from the goal of sub-30 nm. In this communication we show that an internal oxidation method can be the key to realize this goal. For a solid solution with the solute less noble than the solvent, oxygen can be supplied such that the oxygen partial pressure is high enough to oxidize the solute but not high enough to oxidize the solvent, in which case the solute will be selectively oxidized (internally oxidized).[8] The oxide product of the solute may precipitate out in the matrix (solvent) in the form of fine particles, which may be used for dispersion strengthening or grain refinement.[8,9] To apply this method to a Nb3Sn strand, commercially available Nb-1wt.%Zr alloy (in place of the usual Nb or Nb-Ta alloy) could be used because Zr, according to the Ellingham diagram,[10] has much stronger affinity to oxygen than Nb does, making internal oxidation of the alloy possible.[9,11] Oxygen supply, on the other hand, needs special attention. Oxygen cannot be delivered to a Nb3Sn strand externally, because the outer Cu sheath will block oxygen transport to the Nb-Zr alloy (this is clear from a kinetics calculation, and is verified by our experiments). Pre-dissolving oxygen in the Nb-1Zr alloy is not feasible either, because the precursor Nb-Sn composite is processed down from a large billet to a small diameter (typically tens of μm) filament, and the relatively high hardness of oxygen-containing Nb-Zr makes processing difficult. [11] In this work, oxide powder is added into the composite to supply oxygen within the strand.[11,12] Selection of the oxide (here denoted MOn) is critical.\n\n2\n\nOn one hand, M should be more noble than Nb, so that during heat treatment the Nb-1Zr can reduce MO<sup>n</sup> and take up the oxygen. On the other hand, M should not be too noble, because the oxygen supply rate by such oxides could be high enough to oxidize both Nb and Zr nonselectively, in which case surface oxidation occurs instead of internal oxidation – this has been observed in our experiments. We have determined from our studies that SnO2, ZnO, and Nb2O<sup>5</sup> are workable choices. To prevent Cu (the Cu itself is needed to promote Nb3Sn formation) [13] blocking the oxygen transfer path from the oxide to the Nb-1Zr, [12] the oxide powder is located adjacent to the Nb-1Zr alloy, and to guarantee the flowability during wire drawing, nano-metric powder was used. **Figure 1 (a) and (b)** show back-scatter electron (BSE)/scanning electron microscopy (SEM) images of the polished surfaces of a strand fabricated with SnO<sup>2</sup> powder located between the Cu/Sn core and Nb-1Zr tube wall, in the green state and after a reaction at 650 °C for 400 hours, respectively. A similar strand which used NbO<sup>2</sup> powder instead of SnO<sup>2</sup> was also fabricated. Because NbO<sup>2</sup> supplies little oxygen (<0.3 at.%) to the Nb-1Zr alloy (note that Nb2O<sup>5</sup> is the only Nb-O compound that can supply considerable amount of oxygen to Nb alloy), while SnO<sup>2</sup> can supply >2 at.% O to fully oxidize the Zr atoms, [12] the strand with NbO<sup>2</sup> powder can be used a control. **Figure 1 (c) and (d)** show high-magnification secondary electron (SE)/SEM images of the fracture surfaces of the strands with NbO<sup>2</sup> and SnO2, both reacted at 625 °C for 800 hours. The grain size distribution of the strand with SnO<sup>2</sup> (calculated from Figure 1d) is mainly within 20-50 nm, with an average of 36 nm, while that of the strand with NbO<sup>2</sup> (Figure 1c) is mainly within 30- 160 nm, averaging out at 81 nm, which is slightly smaller than conventional Nb3Sn strands reacted at 625 °C (100-110 nm), [14] perhaps because the small amount of oxygen released by the NbO<sup>2</sup> contributed to the refinement of grain size. The above data show that internal oxidation in the strand with SnO<sup>2</sup> not only markedly refined the grain size, but also made the span of grain size distribution relatively smaller.\n\nThe grain size refinement is due to formation of ZrO<sup>2</sup> particles: as oxygen diffuses into the Nb-Zr alloy, O atoms are trapped by Zr atoms, forming Zr-2O clusters,[9] which subsequently precipitate out in the form of fine ZrO<sup>2</sup> particles as the Nb reacts with Sn to form Nb3Sn. A transmission electron microscopy (TEM) image displaying both intra-granular and intergranular ZrO<sup>2</sup> particles in an internally oxidized sample is shown in **Figure 2**. The particle size is about 5-20 nm, perhaps even smaller in samples reacted at lower temperatures. There are two possible mechanisms for grain refinement by ZrO<sup>2</sup> particles. First, these ZrO<sup>2</sup> particles may serve as nucleation centers for the grains during Nb3Sn layer growth, which would increase the number of grains and decrease their average size. Second, fine ZrO<sup>2</sup> particles may pin the Nb3Sn grain boundaries, preventing their migration and associated grain coarsening. Since grain coarsening is a process in which larger grains grow at the expense of their neighboring smaller grains, the grain-boundary-pinning effect of the ZrO<sup>2</sup> particles may also explain the more uniform distribution of grain size in such samples. However, we also notice that in the internally oxidized samples grain coarsening may occur for long reaction times. SEM images of the strand with SnO<sup>2</sup> reacted at 650 °C for 150 h and 400 h are shown in **Figure 1 (e) and (f)**, respectively. After a 150-hour reaction, all the grains were very fine; however, when the reaction time was prolonged to 400 hours, some grains (denoted \"unrefined\" in Figure 1f) grew to sizes similar to those of conventional Nb3Sn strands. This perhaps indicates that the refined grains associated with ZrO<sup>2</sup> pinning are in fact in a metastable state. This may be due to the coarsening of the ZrO<sup>2</sup> particles themselves for long reaction times, and a corresponding local coarsening of the grain size. More TEM studies are needed to verify this. Fortunately, practical Nb3Sn filaments are much smaller and thus do not require such long reaction times.\n\nMagnetic moment vs field (*m*-*B*) loops were then measured for these samples at 4.2 K, and the Nb3Sn layer *Jc*s were calculated based on the expression for a hollow cylinder in a perpendicular field, *Jc*=3Δ*m*/{*L*\\*(*d<sup>o</sup>* 3 -*di* 3 )}, where Δ*m* is the height of the *m*-*B* loop, *L* is the\n\n4\n\nsample length, *d<sup>o</sup>* and *d<sup>i</sup>* are the outer and inner diameters of the current-carrying Nb3Sn layer, respectively. [6] The *d<sup>o</sup>* was measured from the whole-strand BSE image (e.g., Figure 1b); but the inner boundary cannot be easily discerned due to the presence of a layer of ill-connected Nb3Sn coarse grains, which are transformed from an intermediate Nb-Sn phase and do not carry transport current. [13] Thus, we measured Nb3Sn layer thickness *t* from the SE images of fracture surfaces (e.g., Figure 1f), and extracted *d<sup>i</sup>* , since *di*=*do*-2*t*. To minimize error, several images were taken from various positions of the cross section, and on each image at least 6 line measurements were performed; *t* was calculated by averaging these measurements, with the error estimated to be smaller than 5%. The calculated layer *Jc*s are shown in **Figure 3**, along with the *Fp-B* curves calculated from them (*Fp*=*Jc*×*B*). The 4.2 K, 12 T layer *Jc*s of the strand with NbO<sup>2</sup> reacted at 625 °C for 800 h is 4400 A/mm<sup>2</sup> , close to those of the presentday Nb3Sn strands. On the other hand, the values of the strand with SnO<sup>2</sup> reacted at 650 °C for 400 h and at 625 °C for 800 h are 8500, and 9600 A/mm<sup>2</sup> , respectively, with the latter one almost doubling that of the best present-day Nb3Sn strands. We also measured the transport *J<sup>c</sup>* using the four-point method in liquid helium, but because the Nb3Sn layer is too large (*d<sup>o</sup>* >170 μm) the measurement quenched before the critical current was reached. [15] The measured 10 T layer current density at quench for the strand with SnO<sup>2</sup> (650 °C / 400 h) was 10,600 A/mm<sup>2</sup> .\n\nThe *Fp,max* (the peak values of the *Fp*-*B* curves shown in Figure 3b) vs the reciprocal of grain size, 1/*d*, of the internally oxidized samples are plotted in **Figure 4 (a)**, along with data for conventional Nb3Sn.[6,16] It is interesting to note that *Fp,max* increases linearly with 1/*d* when grain size is large, but the curve bends over as the grain size goes below ≈100 nm. Subsequently, the *Fp-B* curves in Figure 3 (b) were fitted to a universal scaling law to obtain the *Birr* values (*Birr* is the magnetic field at which *J<sup>c</sup>* drops to zero). [12,17] The *Birr* value for the strand with NbO<sup>2</sup> (625 °C/800 h) is 20.9 T, while those of the strand with SnO<sup>2</sup> are 23 T (for 650 °C/400 h) and 19.4 T (for 625 °C/800 h). Using these, normalized *Fp-B* curves were generated and are shown in **Figure 4 (b)**, from which we see that the strand with NbO<sup>2</sup> peaks at ≈0.2*Birr*, following the common characteristic of conventional Nb3Sn strands.[18] For the strand with SnO<sup>2</sup> (650 °C/400h), the average grain size of which is 43 nm, we see a peak at 0.26*Birr*, indicating a slight shift to higher field. The shift for the strand with SnO<sup>2</sup> (625 °C/800 h) is, however, quite clear, at 0.34*Birr*. Herein, we conclude that when grain size is above ≈50 nm, a decrease of the grain size only shifts the *Fp-B* curve upward (while the peak remains at 0.2*Birr*). However, as grain size goes below a threshold of 30-50 nm, not only does *Fp,max* increase, but also the *Fp-B* curve peak shifts to higher fields. Some possible explanations for such an effect were discussed elsewhere. [19,20] Using the above fitting, we estimate the 4.2 K, 15 T layer *J<sup>c</sup>* of the strand with SnO<sup>2</sup> (650 °C / 400 h) to be 3900 A/mm<sup>2</sup> , about 50% higher than that of the best present-day Nb3Sn strands.[4]\n\nIn addition, we find that the internal oxidation also influences the chemical reaction rate. Looking to the SEM images of the internally oxidized and control samples reacted at 750 °C and 850 °C shown in **Figure 5**, we see that the internally oxidized sample reacted at 750 °C had a smaller Nb3Sn layer thickness than the control sample (similar phenomena were also observed at 650 °C and 625 °C), while at 850 °C the opposite was observed, suggesting that internal oxidation decreased the layer growth rate at low reaction temperatures, but enhanced it at high temperatures. One possible explanation for this phenomenon is as follows. The growth of the Nb3Sn layer is a process of Sn diffusion through the Nb3Sn layer and reaction of Sn with Nb at Nb3Sn/Nb interface. Since internal oxidation refines the Nb3Sn grain size, it should enhance the diffusion rate, given that Sn mainly diffuses along Nb3Sn grain boundaries. [21] On the other hand, we expect the reaction rate to be reduced due to the process associated with the re-organization of the dispersed Zr-O clusters into ZrO<sup>2</sup> particles during the Nb-Sn reaction (more TEM studies are required to confirm this speculation). Previous experiments suggested that the Nb3Sn layer growth shifts from reaction-rate limited to diffusion-rate limited as the reaction temperature is increased. [22] Therefore, internal oxidation\n\n6\n\nshould decrease the layer growth rate at low reaction temperatures but enhance it at high temperatures. In addition, it is expected that the dispersed fine ZrO<sup>2</sup> particles also influence other properties (e.g., mechanical properties) of these strands.\n\nThe internal-oxidation-driven improvements in Nb3Sn properties demonstrated above are compelling. Nevertheless, performance can still be pushed much higher. First, grain size can be further reduced with the use of even lower reaction temperatures (e.g., 605 °C, see [24]), or higher Zr content (e.g., 1.5%) to produce a greater density of ZrO<sup>2</sup> particles. Second, we can explore the addition of Ta or Ti dopant, which is well known to increase *Birr* in Nb3Sn.[25] In this way we anticipate that we can attain the goal of refining grain size down to 15-30 nm while keeping *Birr* above 22 T.[24] Based on this, it is estimated that the 20 T whole-strand *J<sup>c</sup>* might surpass that of the recently-developed, record-*J<sup>c</sup>* Bi:2212 strands reacted at high overpressures. [26]\n\nIn addition to the structure we show in Figure 1, this internal oxidation method can be easily transferred to other Nb3Sn strand architectures. For example, the oxide powder can be blended with other Sn-source powders in the core of powder-in-tube strands. Strands can also be fabricated by restacking Cu-sheathed Nb alloy rods (as in the rod-restack process) instead of using a Nb alloy tube:[1,23] in such a structure, oxygen can be supplied by distributing CuO powder-containing Cu tubes among Nb-1Zr rods, a structure similar to the one in which Nb-47Ti was introduced.[23] We have demonstrated the feasibility of supplying oxygen to Nb-1Zr through thin-layer Cu using CuO powder.\n\nIn summary, we show that for Nb3Sn strands we can reduce the grain size by a factor of three (down to 36 nm), shift the *Fp*-*B* curve peak to higher fields (0.34*Birr*), and nearly double the 12 T *J<sup>c</sup>* (up to 9600 A/mm<sup>2</sup> at 4.2 K) by using an internal oxidation method, in which Zr atoms in Nb-Zr alloy are internally oxidized to form ZrO<sup>2</sup> particles. Further reduction of grain size and inclusion of ternary alloying would increase this further still, perhaps allowing Nb3Sn to compete with high-temperature superconductors at magnetic fields up to 20 T.\n## **Experimental Section**\n\nFor all the strands used in this work straight segments of about 25 cm in length were reacted in a furnace under flowing Ar. Samples for characterizations were cut from the centers of the reacted strands. A Sirion field emission SEM was used to obtain BSE images on sample surfaces polished to 0.05 μm and SE images on fractured surfaces, the latter used to determine Nb3Sn grain size. Specimens for TEM studies were prepared via focused ion beam (FIB) using an FEI Helios NanoLab 600. TEM images were taken on an FEI/Philips CM-200T TEM. Measurements of m*-B* loops were performed in perpendicular magnetic fields with a ramp rate of 13 mT/s using the vibrating sample magnetometer (VSM) function of a Quantum Design Model 6000 \"physical property measuring system\" (PPMS).\n\n## **Supporting Information**\n\nSupporting Information is available from the Wiley Online Library or from the author.\n\n## **Acknowledgements**\n\nThis work was funded by the US Department of Energy, Division of High Energy Physics, Grant No. DE-FG02-95ER40900, and a DOE Contract Numbers DE-SC0010312.\n\n> Received: ((will be filled in by the editorial staff)) Revised: ((will be filled in by the editorial staff)) Published online: ((will be filled in by the editorial staff))\n\n[1] J. A. Parrell, M. B. Field, Y. Zhang, and S. Hong, *Adv. Cryo. Eng. (Materials)* **2004**,\n\n*50B*, 369.\n\n[2] A. Godeke, M. C. Jewell, C. M. Fischer, A. A. Squitieri, P. J. Lee, and D. C.\n\nLarbalestier, *J. Appl. Phys.* **2005**, *97*, 093909.\n\n[3] X. Xu, M. D. Sumption, S. Bhartiya, X. Peng, and E. W. Collings, *Supercond. Sci. Technol.* **2013**, *26*, 075015.\n\n[4] M. B. Field, Y. Zhang, H. Miao, M. Gerace, and J. A. Parrell, *IEEE Trans. Appl. Supercond.* **2014**, *24*, 6001105.\n\n[5] R. M. Scanlan, W. A. Fietz, E. F. Koch, *J. Appl. Phys.* **1975**, *46*, 2244.\n\n[6] X. Xu, M. D. Sumption, and E. W. Collings, *Supercond. Sci. Technol.* **2014**, *27*, 095009.\n\n[7] D. R. Dietderich, and A. Godeke, *Cryogenics* **2008**, *48*, 331.\n\n[8] I. Anzel, A. C. Kneissl, L. Kosec, R. Rudolf, and L. Gusel, *Z. Metallkd.* **2003**, *94*, 993.\n\n[9] L. E. Rumaner and M. G. Benz, *Metall. Mater. Trans. A* **1994**, *25*, 213.\n\n- [10] R. DeHoff, *Thermodynamics in Materials Science*, CRC press, Boca Raton, FL, USA **2006**.\n- [11] B. A. Zeitlin, E. Gregory, J. Marte, M. Benz, T. Pyon, R. Scanlan and D. Dietderich, *IEEE Trans. Appl. Supercond.* **2005**, *15*, 3393.\n\n[12] X. Xu, M. D. Sumption, X. Peng, and E. W. Collings, *Appl. Phys. Lett.* **2014**, *104*, 082602.\n\n[13] X. Xu, M. D. Sumption, and E. W. Collings, *Supercond. Sci. Technol.* **2013**, *26*, 125006.\n\n[14] X. Xu, E. W. Collings, M. D. Sumption, C. Kovacs, and X. Peng, *IEEE Trans. Appl. Supercond.* **2014**, *24*, 6000904.\n\n[15] B. Bordini, E. Barzi, S. Feher, L. Rossi, and A. V. Zlobin, *IEEE Trans. Appl. Supercond.* **2008**, *18*, 1309.\n\n[16] C. M. Fischer, *M.S. dissertation*, University of Wisconsin-Madison, **2002**.\n\n[17] W. A. Fietz**,** and W. W.Webb, *Phys. Rev.* **1969**, *178*, 657.\n\n[18] E. J. Kramer, *J. Appl. Phys.* **1973**, *44*, 1360.\n\n[19] D. Dew-Hughes, *Philos. Mag.* **1974**, *30*, 293.\n\n[20] L. D. Cooley, X. Song, and D. C. Larbalestier*, IEEE Trans. Appl. Supercond.* **2003**, *13*, 3280.\n\n- [21] H. Müller, and Th. Schneider, *Cryogenics* **2008**, *48*, 323.\n- [22] V. R. Nazareth, *M.S. dissertation*, the Ohio State University, **2008**.\n- [23] J. A. Parrell, M. B. Field, Y. Zhang, and S. Hong, *IEEE Trans. Appl. Supercond.* **2005**, *15*, 1200.\n- [24] A. K. Ghosh, E. A. Sperry, J. D'Ambra, and L. D. Cooley, *IEEE Trans. Appl. Supercond.* **2009**, *19*, 2580.\n- [25] M. Suenaga, D. O. Welch, R. L. Sabatini, O. F. Kammerer, and S. Okuda, *J. Appl. Phys.* **1986**, *59*, 840.\n- [26] D. C. Larbalestier, J. Jiang, U. P. Trociewitz, F. Kametani, C. Scheuerlein, M. Dalban-\n- Canassy, M. Matras, P. Chen, N. C. Craig, P. J. Lee, and E. E. Hellstrom, *Nature Materials* **2014**, *13*, 375.\n\n![](0__page_10_Figure_0.jpeg)\n\n**Figure 1.** BSE/SEM images for the strand with SnO<sup>2</sup> powder, a) before reaction and b) after a reaction at 650 °C for 400 hours; SE images of fracture surfaces for c) the strand with NbO<sup>2</sup> reacted at 625 °C for 800 hours, and the strand with SnO<sup>2</sup> reacted at d) 625 °C for 800 hours, e) 650 °C for 150 hours, and f) 650 °C for 400 hours.\n\n![](0__page_11_Picture_0.jpeg)\n\n**Figure 2.** TEM image of an internally oxidized sample reacted at 700 °C for 55 hours, showing the intra-granular and inter-granular ZrO<sup>2</sup> particles.\n\n![](0__page_11_Figure_2.jpeg)\n\n**Figure 3.** a) Layer *Jc*-*B* curves and b) *Fp*-*B* curves (4.2 K) for the strands with NbO<sup>2</sup> and SnO<sup>2</sup> given the specified reactions.\n\n![](0__page_11_Figure_4.jpeg)\n\n**Figure 4.** a) *Fp,max* vs reciprocal grain size for the internally oxidized samples and some conventional Nb3Sn,[6,16] and b) normalized *Fp*-*B* curves (4.2 K) for the strands with NbO<sup>2</sup> and SnO<sup>2</sup> given the specified reactions.\n\n![](0__page_12_Figure_0.jpeg)\n\n**Figure 5.** The a) control sample and b) internally oxidized sample, reacted at 750 °C for 8 hours, as well as the c) control sample and d) internally oxidized sample, reacted at 850 °C for 40 minutes.",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Internally Oxidized Nb3Sn Strands with Fine Grain Size and High Critical Current \nDensity",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              69.6982421875,
+              72.281494140625
+            ],
+            [
+              499.2979736328125,
+              72.281494140625
+            ],
+            [
+              499.2979736328125,
+              98.774658203125
+            ],
+            [
+              69.6982421875,
+              98.774658203125
+            ]
+          ]
+        },
+        {
+          "title": "Experimental Section",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              69.589111328125,
+              99.28857421875
+            ],
+            [
+              183.048828125,
+              99.28857421875
+            ],
+            [
+              183.048828125,
+              112.00152587890625
+            ],
+            [
+              69.589111328125,
+              112.00152587890625
+            ]
+          ]
+        },
+        {
+          "title": "Supporting Information",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              70.316650390625,
+              396.67144775390625
+            ],
+            [
+              195.9990234375,
+              396.67144775390625
+            ],
+            [
+              195.9990234375,
+              409.0771484375
+            ],
+            [
+              70.316650390625,
+              409.0771484375
+            ]
+          ]
+        },
+        {
+          "title": "Acknowledgements",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              70.35302734375,
+              437.4453125
+            ],
+            [
+              171.990234375,
+              437.4453125
+            ],
+            [
+              171.990234375,
+              450.0914611816406
+            ],
+            [
+              70.35302734375,
+              450.0914611816406
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              154
+            ],
+            [
+              "Line",
+              32
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              178
+            ],
+            [
+              "Line",
+              35
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              200
+            ],
+            [
+              "Line",
+              33
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              218
+            ],
+            [
+              "Line",
+              31
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              288
+            ],
+            [
+              "Line",
+              40
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              210
+            ],
+            [
+              "Line",
+              32
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              159
+            ],
+            [
+              "Line",
+              30
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              111
+            ],
+            [
+              "Line",
+              25
+            ],
+            [
+              "Text",
+              9
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              189
+            ],
+            [
+              "Line",
+              27
+            ],
+            [
+              "Text",
+              14
+            ],
+            [
+              "ListItem",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              65
+            ],
+            [
+              "Line",
+              12
+            ],
+            [
+              "ListItem",
+              7
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              20
+            ],
+            [
+              "Line",
+              5
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              71
+            ],
+            [
+              "Line",
+              9
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "PictureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              15
+            ],
+            [
+              "Line",
+              4
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 13,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Internally Oxidized Nb3Sn Strands with Fine Grain Size and High Critical Current Density",
+    "authors": [
+      {
+        "authors_list": [
+          "Xu, Xingchen",
+          "Sumption, Michael D.",
+          "Peng, Xuan"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Nb3Sn superconducting strands are the most practical conductors to generate high magnetic fields (12-16 T), and thus have significant applications in nuclear magnetic resonance (NMR), and great potential for fusion reactors and particle accelerator magnets. High critical current density (Jc) is a key parameter for such applications. Significant efforts towards optimization of various factors led to an 80% improvement in Jc from the early 1990s to 2003, when the 4.2 K, 12 T non-matrix Jc reached 3000 A/mm2 (corresponding to 5000 A/mm2 in Nb3Sn layer Jc). However, further efforts over the past decade have failed to bring about further increase beyond this level, leading some researchers to conclude that the Jc of conventional Nb3Sn strands had reached its maximum. Here, however, by applying an internal oxidation method, we reduce the grain size by a factor of three and nearly double the 12 T Jc. In this method, a Nb3Sn strand is fabricated with Nb-Zr alloy as starting material; with oxygen supplied properly via an oxide powder, the Zr atoms in the Nb-Zr alloy are internally oxidized, forming fine intra-granular and inter-granular ZrO2 particles in Nb3Sn layer, which effectively refine Nb3Sn grain size. At a reaction temperature of 625 °C, grain size down to 20-50 nm (36 nm on average) has been achieved. For this sample the 4.2 K, 12 T Nb3Sn layer Jc reached 9600 A/mm2.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Advanced Materials",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1411.5397"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1002/adma.201404335",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2015AdM....27.1346X"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

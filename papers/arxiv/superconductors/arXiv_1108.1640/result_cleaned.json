@@ -1,0 +1,533 @@
+{
+  "id": "bcb769ce7226a82fde2a5c064ec4c5ee",
+  "pdf_path": "apl/Superconductors/arXiv:1108.1640.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "## **20 T DIPOLES AND BI-2212: THE PATH TO LHC ENERGY UPGRADE\\***\n\nP.M. McIntyre, K. Damborsky, E.F. Holik, F. Lu, A.D. McInturff, N. Pogue, A. Sattarov, E. Sooby Texas A&M University, College Station, TX 60439, U.S.A.\n\n## *Abstract*\n\nIncreasing the energy of the LHC would require a ring of ~20 T magnets using the superconductors Nb3Sn and Bi-2212/Ag. The technology for Bi-2212/Ag wire, cable, and coil has advanced significantly but is still far short of the performance needed for such magnets. New technology for both wire and cable is under development, which if successful would yield the needed performance.\n\n## **INTRODUCTION**\n\nThe possibility of tripling the energy of the Large Hadron Collider was proposed in 2004 [1]. That proposal for the Tripler was motivated by its potential for new physics and by recent advances in technology that offered a path to its feasibility. An LHC Tripler would access the entire range of masses predicted for the particles of supersymmetry. The pacing technology for the Tripler was a ~24 T arc dipole. Developments at that time were encouraging: model dipoles using the low-temperature superconductor Nb3Sn [2] attained near-short-sample performance to >16 T; wire [3] and cable [4,5] using Bi-2212/Ag appeared to offer promise that 20 T might be attainable.\n\n<span id=\"page-0-6\"></span><span id=\"page-0-2\"></span><span id=\"page-0-1\"></span>Today LHC is operating to produce hadron collisions at 7 TeV collision energy and is moving forward with a program to increase collision energy and luminosity to its design parameters. It is an appropriate time to revisit the potential for an LHC energy upgrade.\n\n# **BI-2212 WIRE: STALLED AT 200 A/mm<sup>2</sup>**\n\n[Figure 1](#page-0-0) shows the present-day performance of conductors using NbTi, Nb3Sn, Bi-2212, and YBCO, and Bi-2223. The high-temperature superconductor Bi-2212 is the only round-wire superconductor that can operate at magnetic fields beyond 18 T for dipoles. Since round wire is generally considered to be essential for a transposed high-current cable, only Bi-2212 would seem to offer the possible basis for the inner coils of a >20 T dipole. Shown are in red on [Figure 1](#page-0-0) are the working lines for the LHC dipole (using NbTi), the working line for HD1 (using Nb3Sn) [\\[2\\]](#page-0-1), and a working line that would be required for an LHC Tripler dipole using Bi-2212/Ag inner windings. We need an engineering current density (averaged over wire cross section) of *je*~600 /mm<sup>2</sup> at 24 T, 4.2 K.\n\nIn 2004 Miao [\\[3\\]](#page-0-2) presented encouraging results in the development of Bi-2212/Ag round wire: *j<sup>e</sup>* = 400 A/mm<sup>2</sup> for 1 m long sample coils in 24 T, 4.2 K. The intrinsic performance in Bi-2212/Ag can be estimated from thin film studies, in which a layer current density of 7 10<sup>4</sup>A/mm<sup>2</sup> was attained [6], so there is ample room for improvement in a practical wire.\n\n<span id=\"page-0-5\"></span>Yet six years later the state-of-art short-sample performance of Bi-2212/Ag wire is *je*~320 A/mm<sup>2</sup> [7], and\n\n![](_page_0_Figure_11.jpeg)\n\n<span id=\"page-0-0\"></span>Figure 1: Recent performance of superconductors: only Bi-2212 has the potential for 20 T inner windings [8].\n\nthe state-of-art performance of this same wire in coils is *je*~200 A/mm 2 in both solenoids [\\[7\\]](#page-0-3) and dipoles [9]. It might seem that we are going in the wrong direction!\n\nThe earlier wire results were obtained before serious efforts had been made to make long cables and long coils from wire. Coil fabrication must be done using a windand-react technique, in which a high-temperature heat treatment is required to melt and re-crystallize Bi-2212 grains in the final-form coil. It was found that the earlier wire had a tendency to leak its core material during the melt phase of heat treatment so that the stoichiometry was altered and the density of the core material was depleted. These problems were helped by adding additional Ag to the wire cross-section, but this reduced the average current density accordingly. To date it has not been possible to recover the earlier *j<sup>e</sup>* performance. This remains a key challenge if an LHC energy upgrade is to be feasible.\n\n## **UNDERSTANDING THE LIMITS TO J<sup>E</sup>**\n\nCurrent transport in the cores of a multi-filament Bi-2212/Ag wire is hindered by porosity and poor connectivity, both of which are largely inherent to the oxidepower-in-tube (OPIT) process used in its fabrication. In this process a fine powder of Bi-2212 is loaded and sealed into an Ag tube; the tube is drawn, restacked, and redrawn to form the multi-filament composite shown in [Figure 2.](#page-1-0) Hellstrom and co-workers [10] have studied the development of the microstructure in the cores of this wire during the heat treatment process, and from their studies a new understanding of the limitations to current transport is arising.\n\n<span id=\"page-0-4\"></span><span id=\"page-0-3\"></span>The wire starts life with significant porosity from the void space between randomly oriented powder particles.\n\n![](_page_1_Picture_0.jpeg)\n\nFigure 2: Cross section of OPIT Bi-2212/Ag strand [\\[7\\]](#page-0-3).\n\n<span id=\"page-1-0\"></span>![](_page_1_Figure_2.jpeg)\n\n<span id=\"page-1-1\"></span>Figure 3: Scanning electron micrograph (SEM) images of core cross sections in OPIT Bi-2212/Ag wire, quenched during heat treatment: a) bubbles in melt before solidification; b) bridging, voids, and parasitic phases after annealing is complete [\\[10\\]](#page-0-4).\n\nWhen the powder is melted that void space becomes bubbles in the melt. The bubbles coalesce under surface tension to form large voids that span the cross section of each core. [Figure](#page-1-1) 3a shows the coalesced bubbles and also the etching at Ag grain boundaries by the corrosive liquid melt. [Figure](#page-1-1) 3b shows the Bi-2212 grains that have re-grown during the final anneal of the wire. Grain growth orients along the Ag interface, and the growth is fastest in the ab plane (which is the plane in which maximum current can be transported in the superconducting state). Many re-grown Bi-2212 grains now bridge between cores, and there are many high-angle grain boundaries that are problematic for supercurrent transfer from grain to grain. And so it is that the transport current density attained in OPIT wires [\\[7\\]](#page-0-3) is only ~5% of that seen in thin films [\\[6\\]](#page-0-5).\n\n![](_page_1_Figure_5.jpeg)\n\n<span id=\"page-1-2\"></span>Figure 4: Study of pressed tablets of Bi-2212 fine powder: a) SEM micrograph of textured powder; b) detail showing micaceous particle morphology in loose powder; c) XRD analysis of texturing in fine powder and in pressed tablets.\n\n## **TEXTURED POWDER JELLY ROLL: HOPE FOR NEW PERFORMANCE?**\n\nThe above properties of OPIT-process Bi-2212/Ag wire led us to explore an alternative process for wire fabrication that directly addresses the issues of porosity and connectivity. It begins by preparing a cold-sintered flat ribbon of Bi-2212 fine powder in which most of the grains are oriented so that their ab plane is parallel to the ribbon face. This *texturing* of the powder has two important benefits: it minimizes the porosity in the final cores of a wire, and it may eliminate the necessity to fully melt the powder during processing.\n\nThe easiest way to texture Bi-2212 powder is to press a tablet using a hydraulic press [11]. The mechanical agitation among the powder particles during compression is remarkably effective in re-arranging them into a planar texture. [Figure 4a](#page-1-2) shows an SEM micrograph of the pressed powder in such a tablet. [Figure 4b](#page-1-2) shows a detail of the flake-like (micaceous) Bi-2212 particles. [Figure 4c](#page-1-2) shows the XRD spectra for the loose powder and for tablets pressed with 70 MPa compression. A texture parameter (fraction of particles aligned with ab planes parallel to tablet face) has been extracted from the XRD spectra of loose powder, the powder cores in green-state OPIT wire, and tablets pressed with various degrees of compression. The data are presented in [Figure 5.](#page-2-0)\n\n![](_page_2_Figure_0.jpeg)\n\n<span id=\"page-2-0\"></span>Figure 5: Texture parameter measured for fine-powder Bi-2212: a) loose powder, OPIT cores, and pressed tablets; b) dependence of on the amount of compression.\n\nIn a pellet 80% of the Bi-2212 particles are aligned with the tape face; the texture is the same in the interior of the pellet (fractured through its thickness) as on the surface; and it is largely independent of the compression (beyond 70 MPa) used to form the pellet. By contrast =13% for loose powder and =32% for the powder cores within conventional OPIT wire before heat treatment.\n\nThis development led us to conceive of an alternative method for wire fabrication in which Bi-2212 fine powder is roll-compacted to form a continuous ribbon, and the ribbon is compounded into a textured-powder 'jelly-roll' (TPJR) wire. The process begins by passing the powder though a roll-compaction system such as the Chilsonator [12], as shown in [Figure 6a](#page-2-1). The ribbons of cold-sintered Bi-2212 powder are assembled side-by-side on a ribbed Ag foil and a cover Ag foil is welded on to make a wide hermetic tape [\\(Figure 6b](#page-2-1)). The tape is then rolled transversely, sleeved into a Cu tube, and drawn to final wire size [\\(Figure 6c](#page-2-1)). Then the Cu is etched off to expose the final wire.\n\nThe textured micaceous powder within the laminar cores facilitates drawing of the wire. As the billet is drawn the particles in the textured powder should slide upon one another on their parallel faces and re-arrange to accommodate the area reduction.\n\n![](_page_2_Figure_5.jpeg)\n\n<span id=\"page-2-1\"></span>Figure 6: a) Chilsonator apparatus used to roll-compact Bi-2212 fine powder into continuous ribbons; b) incorporation of powder tape into Bi-2212/Ag tape; c) final jellyroll round wire formed by rolling and drawing the tape.\n\n![](_page_3_Picture_0.jpeg)\n\nFigure 7. Illustration of the effect of texturing upon porosity in a core channel: the same channel holds 20 flakes of untextured powder, 30 flakes of textured powder.\n\n![](_page_3_Figure_2.jpeg)\n\n<span id=\"page-3-0\"></span>Figure 8: Illustration of bubble coalescence during fullmelt heat treatment: a) full-diameter bubble forms and occludes round channel; bubbles form on the flanking edges of flat channel, leaving center free for grain growth.\n\nWe plan to evaluate possible heat treatment strategies for the TPJR wire: diffusion bonding of grains without melting, partial-melt processing, and full-melt processing. The first two methods would avoid the full-melt that is required for the OPIT process to develop texture and connectivity in its initially untextured cores. Avoiding melt would greatly reduce the issues of core leakage, cation migration, subelement bridging, and bubble coalescence that cause problems for the OPIT process. It is reasonable to hope that such non-melt treatment work well since the particles should be in face contact under compression, an ideal basis for bonding and connectivity by diffusion or partial melt.\n\nIf we find that full melt is nevertheless required, the TPJR process retains two important benefits compared with OPIT. The first benefit is improved packing. Figure 7 illustrates that there is less porosity when the flakelike particles are aligned.\n\nThe second benefit concerns the coalescence of bubbles. [Figure](#page-3-0) 8a illustrates how the minimum-energy configuration of bubbles in a round channel is a large bubble that locally occludes the whole channel. Figure 8b shows the minimum-energy configuration for a highly aspected channel in the TPJR strand: bubbles coalesce on the two flanking edges of the channel, but leave the center of the channel clear for growth of textured grains of Bi-2212.\n\nWe will soon receive delivery of the roll-forming apparatus and begin development of the flat tape and jelly-roll wire. Much work is ahead to find optimum parameters for ribbon compression, tape fabrication, jelly-roll processing, and final heat treatment. The above analysis shows why we are hopeful that this approach may make possible higher *j<sup>e</sup>* current transport in TPJR wire.\n\n![](_page_3_Picture_8.jpeg)\n\nFigure 9: Cross section of dual dipole for LHC energy upgrade.\n\n<span id=\"page-3-2\"></span><span id=\"page-3-1\"></span>\n\n| bore field (short sample)     | 21  | T    |\n|-------------------------------|-----|------|\n| coil current                  | 15  | kA   |\n| aperture                      | 50  | mm   |\n| stored energy/bore            | 3.3 | MJ/m |\n| max. stress in Nb3Sn windings | 170 | MPa  |\n| strand cross-section/bore in  |     |      |\n| coil:                         | 52  | cm2  |\n| Nb3Sn                         | 55  | cm2  |\n| Bi-2212                       |     |      |\n\n## **STRUCTURED CABLE AND 20 T DIPOLE**\n\nFigure 9 shows a conceptual design for a dual dipole that would have sufficient aperture (50 mm) for an LHC energy upgrade. The design assumes the use of Bi-2212 windings (green) in the coil region where the field strength exceeds ~16 T. It assumes that a strand performance *je*~800 A/mm<sup>2</sup> (20 T, 4.2 K) can be achieved in the windings, and *jc*=2500 A/mm<sup>2</sup> (non-Cu, 12 T, 4.2K) in Nb3Sn windings The Nb3Sn windings are graded in wire diameter for the same *je(B)* (magenta inner, red outer).\n\nEven with the necessary current density in long-length wire and cable, it will still be necessary to protect the Bi-2212/Ag winding from strain degradation of the wires under the immense Lorentz stress produced on the windings in a 20 T dipole [13]. For this purpose we developed a structured cable [14] in which coil stress is by-passed around the fragile round wires so that no strain degradation should result. The cable is shown in Figure 10.\n\nThe Bi-2212/Ag inner winding in the coil of the dipole in Fig. 9 is a rectangular-cross-section (Fig. 11a) wound using a 16-strand structured cable (Fig. 11b) [Table 1](#page-3-2) gives the main parameters of the dual dipole. With the above assumptions of short-sample wire performance, the short-sample limit of the dipole is 21 T.\n\n![](_page_4_Picture_0.jpeg)\n\nFigure 10: Structured cable of Bi-2212 round strands: a) micrograph of cross section; b) von Mises strain in structured cable when 100 MPa external load is applied [\\[5\\]](#page-0-6).\n\n![](_page_4_Figure_2.jpeg)\n\nFigure 11: Cross-section of Bi-2212 inner winding, wound with 16-strand structured cable using TPJR round strands.\n\n## **CONCLUSIONS**\n\nIn the examination of the many challenging elements of an LHC energy upgrade that were presented at this Eu-CARD workshop, the high-field arc dipoles appear to present the biggest challenge at present. The critical technology for these dipoles is the current density in Bi-2212/Ag round wire and the degradation of that wire when made into thick windings and loaded with high Lorentz stress.\n\nAn alternative method for Bi-2212/Ag wire fabrication is described, which holds the potential for enabling a further improvement in current density. A design for structured cable is presented that manages stress within the coils of the Bi-2212/Ag inner windings so that it cannot accumulate to levels that would degrade performance.\n\nThe viability of an LHC energy upgrade will depend upon the success of these developments and similar ones by other authors. It is to be hoped that a successful outcome can be matured in time for consideration of an energy upgrade of LHC after its first decade of highluminosity physics running.\n\nThis work is supported in part by the US Dept. of Energy, grant DE-FG03-95ER40924, and by an endowment from the Cynthia and George Mitchell Family Foundation.\n\n## **REFERENCES**\n\n- [1] P. McIntyre and A. Sattarov, 'Tripling the LHC: the path from technology to discovery', Proc. Int'l. Conf. on Dark Matter (DARK2004), College Station, TX, Oct. 3-9, 2004, eds. H.V. Klapdor-Kleingrothaus and R. Arnowitt, Springer, Heidelberg, p. 348 (2005).\n- [2] A. Lietzke *et al*., 'Test Results for HD1, a 16 T Nb3Sn dipole magnet', IEEE Trans. Appl. Supercond. **14**, 2, p. 345 (2004).\n- [3] H. Miao *et al*., 'Development of Bi-2212 conductors for magnet applications', Adv. in Cryo. Eng.: Trans. Int'l Cryo. Mat. Conf. – ICMC **50**, p. 603 (2004).\n- [4] T. Hasegawa *et al., '*12 kA HTS Rutherford cable', IEEE Trans. Appl. Supercond. **14**, 2, p. 1066 (2004).\n- [5] N. Diaczenko *et al*., 'Strain-tolerant cable using Bi-2212 superconductor', Physica **C341**, 4, 2551 (2000).\n- [6] N.T. Mua *et al*., 'High critical current density in Agdoped Bi-2212 thin films', Supercond. Sci Tech. **21**, p. 105002 (2008).\n- [7] C. Friend *et al*., 'Development of high field magnets utilizing Bi-2212 wind & react insert coils', IEEE Trans. Appl. Supercond. **20**, 3, p. 583 (2010).\n- [8] P. Lee, Compilation of current *j<sup>e</sup>* data, [http://www.magnet.fsu.edu/magnettechnology/resear](http://www.magnet.fsu.edu/magnettechnology/research/asc/plots.html) [ch/asc/plots.html.](http://www.magnet.fsu.edu/magnettechnology/research/asc/plots.html)\n- [9] A. Godeke *et al*., 'Wind-and-react Bi-2212 coil development for accelerator magnets', Supercond. Sci. Tech. **23**, p. 034022 (2010).\n- [10] T. Shen *et al*., 'Development of high critical current density in multifilamentary round-wire Bi-2212 by strong overdoping', Appl. Phys. Lett. **95**, 152516 (2009).\n\n T. Shen *et al.,* 'Filament-to-filament bridging and its influence on developing high critical current density in multifilamentary Bi2Sr2CaCu2O*<sup>x</sup>* round wires', Supercond. Sci. Technol. **23**, p. 025009 (2010).\n\n- [11] K. Damborsky *et al*., 'Texturing of micaceous superconductor powder and fabrication of wire to preserve the texture', Proc. Appl. Supercond. Conf., Washington, Aug. 1-6, 2010.\n- [12] Fitzpatrick Co.,<http://www.fitzmill.com/>\n- [13]N. Cheggour *et al*., 'Critical-current measurements on an ITER Nb3Sn strand: effect of axial tensile strain', **17**, 2, p. 1366 (2007).\n- [14]P. McIntyre, A. Sattarov, and R. Soika, 'Armored spring-core superconducting cable and method of construction', U.S. Patent 6,448,501 (2002).",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "20 T DIPOLES AND BI-2212: THE PATH TO LHC ENERGY UPGRADE*",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              66.7880859375,
+              107.51953125
+            ],
+            [
+              526.73828125,
+              107.51953125
+            ],
+            [
+              526.73828125,
+              121.55950927734375
+            ],
+            [
+              66.7880859375,
+              121.55950927734375
+            ]
+          ]
+        },
+        {
+          "title": "Abstract",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              55.4384765625,
+              171.6815185546875
+            ],
+            [
+              98.2177734375,
+              171.6815185546875
+            ],
+            [
+              98.2177734375,
+              183.8917236328125
+            ],
+            [
+              55.4384765625,
+              183.8917236328125
+            ]
+          ]
+        },
+        {
+          "title": "INTRODUCTION",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              125.50048828125,
+              275.271484375
+            ],
+            [
+              223.5,
+              275.271484375
+            ],
+            [
+              223.5,
+              287.271484375
+            ],
+            [
+              125.50048828125,
+              287.271484375
+            ]
+          ]
+        },
+        {
+          "title": "BI-2212 WIRE: STALLED AT 200 A/mm2",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              64.60546875,
+              494.23876953125
+            ],
+            [
+              281.5099792480469,
+              494.23876953125
+            ],
+            [
+              281.5099792480469,
+              508.5714416503906
+            ],
+            [
+              64.60546875,
+              508.5714416503906
+            ]
+          ]
+        },
+        {
+          "title": "UNDERSTANDING THE LIMITS TO JE",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              314.587890625,
+              612.3714599609375
+            ],
+            [
+              529.939453125,
+              612.3714599609375
+            ],
+            [
+              529.939453125,
+              625.1587982177734
+            ],
+            [
+              314.587890625,
+              625.1587982177734
+            ]
+          ]
+        },
+        {
+          "title": "TEXTURED POWDER JELLY ROLL: \nHOPE FOR NEW PERFORMANCE?",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              316.04296875,
+              477.011474609375
+            ],
+            [
+              527.27197265625,
+              477.011474609375
+            ],
+            [
+              527.27197265625,
+              502.81146240234375
+            ],
+            [
+              316.04296875,
+              502.81146240234375
+            ]
+          ]
+        },
+        {
+          "title": "STRUCTURED CABLE AND 20 T DIPOLE",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              305.275390625,
+              491.4114685058594
+            ],
+            [
+              538.087890625,
+              491.4114685058594
+            ],
+            [
+              538.087890625,
+              503.4114685058594
+            ],
+            [
+              305.275390625,
+              503.4114685058594
+            ]
+          ]
+        },
+        {
+          "title": "CONCLUSIONS",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              129.2109375,
+              543.1314392089844
+            ],
+            [
+              217.6796875,
+              543.1314392089844
+            ],
+            [
+              217.6796875,
+              555.1314392089844
+            ],
+            [
+              129.2109375,
+              555.1314392089844
+            ]
+          ]
+        },
+        {
+          "title": "REFERENCES",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              380.06640625,
+              153.801513671875
+            ],
+            [
+              462.71484375,
+              153.801513671875
+            ],
+            [
+              462.71484375,
+              165.801513671875
+            ],
+            [
+              380.06640625,
+              165.801513671875
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              338
+            ],
+            [
+              "Line",
+              93
+            ],
+            [
+              "Text",
+              11
+            ],
+            [
+              "Reference",
+              7
+            ],
+            [
+              "SectionHeader",
+              5
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              199
+            ],
+            [
+              "Line",
+              62
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Reference",
+              3
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PictureGroup",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              93
+            ],
+            [
+              "Line",
+              42
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              256
+            ],
+            [
+              "Line",
+              83
+            ],
+            [
+              "TableCell",
+              30
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "Reference",
+              3
+            ],
+            [
+              "Picture",
+              2
+            ],
+            [
+              "Table",
+              2
+            ],
+            [
+              "PictureGroup",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              250
+            ],
+            [
+              "Line",
+              77
+            ],
+            [
+              "ListItem",
+              14
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "PictureGroup",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/wCdCD-MsACN38_bL7bUwCw"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 5,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "20 T dipoles and Bi-2212: the path to LHC energy upgrade",
+    "authors": [
+      {
+        "authors_list": [
+          "McIntyre, P. M.",
+          "Damborsky, K.",
+          "Holik, E. F.",
+          "Lu, F.",
+          "McInturff, A."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Increasing the energy of the LHC would require a ring of \\sim20 T magnets using the superconductors Nb3Sn and Bi-2212/Ag. The technology for Bi-2212/Ag wire, cable, and coil has advanced significantly but is still far short of the performance needed for such magnets. New technol-ogy for both wire and cable is under development, which if successful would yield the needed performance.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1108.1640"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.1108.1640",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2011arXiv1108.1640M"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

@@ -1,0 +1,538 @@
+{
+  "id": "629cc6696f3f0f5ca89bb9afe2c3ef93",
+  "pdf_path": "apl/Superconductors/arXiv:1311.3420.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# Testing V3Si for two-band superconductivity\n\nM. Zehetmayer<sup>1</sup> and J. Hecher<sup>1</sup>\n\n<sup>1</sup>Atominstitut, Vienna University of Technology, 1020 Vienna, Austria\n\nIs V3Si a two-band or a single-band superconductor? Everyone who searches the literature for this question will find conflicting answers, for V3Si was claimed to be a perfect example of two-band and claimed to be a perfect example of single-band superconductivity. In this article we intend to clarify the situation by presenting new experimental facts acquired from the magnetic properties of a V3Si single crystal. We probe for field dependent two-band effects by analyzing the reversible magnetization at different temperatures, and we probe for temperature dependent two-band effects by analyzing the superfluid density obtained by two different methods at different magnetic fields. All our results are reliably described within the single-band models and thus support the single-band scenario for V3Si but do not completely rule out the presence of a very small second gap.\n\nPACS numbers: 74.25.Ha,74.25.Op,74.70.Ad\n\n## INTRODUCTION\n\nSuperconductivity in V3Si has been studied since 1953[\\[1\\]](#page-5-0) and was considered to be of conventional s-wave, single-band nature for most of the time. It was only recently that, in the wake of MgB2, V3Si was placed on the list of potential two-band superconductors to explain unconventional experimental results. In particular, its superfluid density was reported [\\[2,](#page-5-1) [3](#page-5-2)] not only to deviate strongly from the single-band BCS behavior but to match a two-band model, whose interband coupling strength is all but negligible. These conclusions were backed by infrared spectroscopy results and by calculations of the Fermi surface, which was reported to be crossed by several electronic bands [\\[4](#page-6-0)]. In contrast, a single-band description worked well for the field dependence of the specific-heat and the thermal conductivity [\\[5\\]](#page-6-1). Furthermore, the field dependence of the magnetic penetration depth and of the vortex core size, determined by muon-spin rotation, were regarded as single-band behavior [\\[6](#page-6-2)], and in [\\[7](#page-6-3)] the temperature dependence of the specific heat was reported to be conventional. We conclude that we face a confusing situation, which we wished to clarify by further experiments.\n\nV3Si is a member of the A15 superconductors, whose crystal structure changes from cubic at room temperature to tetragonal in the superconducting state [\\[8](#page-6-4)]. It is a type II superconductor with a Ginzburg-Landau parameter of about 20, a transition temperature of 16 - 17 K, and an upper critical field of around 20 T at 0 K [\\[9\\]](#page-6-5); the anisotropy of the superconducting properties is marginal [\\[10](#page-6-6)]. The vortex distribution may change from a hexagonal to a cubic lattice as the magnetic field increases [\\[11](#page-6-7)].\n\nIn this article we will present new experimental results capable of probing a possible two-band state of V3Si. In the next section, the experimental details and the evaluation methods will be introduced. We will start with the basic characterization of the sample, go on with the measurements of the magnetic moment, and will then show how the reversible magnetization was obtained and fitted using the Ginzburg-Landau model. Finally, the direct determination of the lower critical field will be explained. In the third section, we will present the results. First, we will summarize how two-band effects show up in MgB<sup>2</sup> and will then compare this with our findings on V3Si. Potential modifications [\\[12\\]](#page-6-8) of the field dependencies will be discussed by analyzing the reversible magnetization, those of the temperature dependencies by analyzing the superfluid density and the lower critical field. We will report differences between literature data and our results and present possible reasons. In the final section, we will summarize and once again explain why we believe that V3Si is a single-band superconductor.\n\n## <span id=\"page-0-0\"></span>EXPERIMENT AND EVALUATION\n\nA V3Si single crystal was cut into two pieces of equal sizes of about 3×0.55×0.55 mm<sup>3</sup> . Both samples, named VA and VB, became superconducting below 16.7 K with a transition width of 0.2 K and had a residual resistance ratio of 33.\n\nUsing a SQUID magnetometer, we measured the magnetic moment of sample VB at temperatures from 2 to 16 K in 1 K steps as a function of applied magnetic field from 0 to 7 T. Sample VA was analyzed with a noncommercial rotating sample magnetometer, where the sample is glued on the rim of a circular plate, which rotates at a frequency of 15 Hz. During one rotation the sample passes four pick-up coils, where it induces electrical voltages proportional to its magnetic moment. For details about the instrument and how the magnetic moment is determined, the reader is referred to [\\[13\\]](#page-6-9). The main advantage of the rotating sample magnetometer is its fitting into a cryostat with a 15 T magnet. Accordingly, magnetization loops up to 15 T were recorded at temperatures of 5.2, 7, 9, 11, 13, and 15 K.\n\nThe resulting magnetization loops, either measured in the SQUID or in the rotating sample magnetometer, revealed reversible behavior over most of the field range. Irreversible effects, caused by flux-pinning, emerged merely at low fields and became dominant near 0 T. For instance, the critical current density at 5.2 K, evaluated using the methods presented in [\\[14](#page-6-10)], decreased with field from some 10<sup>9</sup> Am−<sup>2</sup> at 0.1 T to 5×10<sup>7</sup> Am−<sup>2</sup> at 1 T and to a negligible value at and above 2 T. Accordingly, more than 85 per cent of the loop fell into the reversible regime. The irreversible effects became slightly larger at lower temperatures but considerably smaller at higher temperatures. The critical currents, which are proportional to the hysteresis width of the magnetization loops, were found to be somewhat larger in the SQUID than in the rotating sample magnetometer, yet the reversible parts agreed well.\n\nAs already mentioned, irreversibility appeared merely at low fields, but even there, knowing the magnetization as a function of increasing, M(H<sup>+</sup> a ), and decreasing applied field, M(H<sup>−</sup> a ), allowed us to determine the reversible part via Mr(Ha) ≃ 0.5[M(H<sup>+</sup> a ) + M(H<sup>−</sup> a )], where H<sup>+</sup> <sup>a</sup> and H<sup>−</sup> a refer to the same applied field Ha. This procedure gives reliable results as long as the hysteresis width is not much larger than the corresponding reversible signal. To get Mr(B) from Mr(Ha), we calculated the magnetic induction via B = µ0(H−DMr+Mr), with µ<sup>0</sup> = 4π×10<sup>−</sup><sup>7</sup> NA<sup>−</sup><sup>2</sup> , H the applied field corrected by the field induced by the macroscopic currents [\\[14\\]](#page-6-10), and D the numerically calculated demagnetization factor of the sample in the Meissner state.\n\nThe next step was to compare the reversible magnetization, acquired from experiment, with theory. The theoretical magnetization curves of a single-band superconductor were taken from approximate equations of the Ginzburg-Landau theory, provided by Brandt [\\[15\\]](#page-6-11). According to this paper [\\[15\\]](#page-6-11) the approximation errors should be less than two per cent, for the Ginzburg-Landau parameter of V3Si is large. The Ginzburg-Landau curves depend on just two parameters, namely the upper critical field, at which the magnetization becomes zero, and the Ginzburg-Landau parameter, which determines the shape of the curve. The well-known Ginzburg-Landau relations [\\[16\\]](#page-6-12) allowed us to calculate further quantities, such as the lower and the thermodynamic critical field, the coherence length, the magnetic penetration depth, and the superfluid density.\n\nThe lower critical field was additionally determined by measuring the field at which vortices start to penetrate the sample. After having minimized the stray fields in the SQUID cryostat, we cooled the sample below its transition temperature in zero field. Then we enhanced the applied field stepwise but interrupted each step by measuring the corresponding remanent magnetic moment in zero field. The remanent moment should vanish at low fields and start to increase above the lower critical field, where vortices are created and pinned in the sample.\n\n![](_page_1_Figure_4.jpeg)\n\nmagnetic induction (T)\n\n<span id=\"page-1-0\"></span>FIG. 1. The reversible magnetization of MgB<sup>2</sup> as a function of the magnetic induction. The open circles show the experimental data for the applied field oriented parallel (H k c) or perpendicular (H k ab) to the uniaxial sample axis at 10, 20, and 30 K (the reduced temperatures are 0.26, 0.51, and 0.77). The solid lines are fits of the single-band Ginzburg-Landau model to the experimental data over the whole field range, while the broken lines are such fits either to the low or to the high field part of the experimental data, reflecting the two-band nature of MgB2. For details see [\\[17](#page-6-13)].\n\n#### RESULTS AND DISCUSSION\n\nIn this section we will analyze whether superconductivity in V3Si is more reliably described by a single or a twoband model. If V3Si is a two-band superconductor, we expect some properties to deviate from the single-band BCS behavior [\\[12](#page-6-8)]. Possible effects on the field dependence will be discussed via the reversible magnetization and possible effects on the temperature dependence via the superfluid density. The results will be compared with the behavior of MgB2, a well-known two-band material. We will see that the single-band models provide a fair description of our results in V3Si.\n\nWe start by summarizing some two-band effects of MgB2 [\\[18\\]](#page-6-14). This material consists of the near-isotropic π-band and the anisotropic σ-band, having similar electronic densities of states. Due to interband coupling, the gaps are expected to close at the same field. Yet the superconducting properties of the π-band are heavily suppressed above a particular field, which is commonly called the upper critical field of the π-band and whose value is about a third of that of the σ-band. Accordingly, the field dependence of several superconducting properties deviates significantly from the single-band behavior. This is illustrated in figure [1,](#page-1-0) where the reversible mag-\n\n![](_page_2_Figure_0.jpeg)\n\n<span id=\"page-2-0\"></span>FIG. 2. The magnetization of V3Si as a function of magnetic induction. The open circles show the reversible data at 15, 13, 11, 9, 7, and 5.2 K (the reduced temperatures are 0.90, 0.78, 0.66, 0.54, 0.42, and 0.31) and the solid lines the corresponding Ginzburg-Landau model fits. The solid lines of the insets show the irreversible data.\n\nnetization of an MgB<sup>2</sup> single crystal, indicated by open circles, is shown as a function of the magnetic induction. The solid lines present the single-band Ginzburg-Landau fits. Barring the 30 K results, the agreement between theory and experiment is poor and the differences are not merely of quantitative but also of qualitative nature. In contrast, the curves can be nicely fitted by two singleband Ginzburg-Landau curves, as shown by the broken lines in the diagrams. One is adjusted to the low and the other to the high field region of the experiment, thus reflecting the two bands with their different upper critical fields [\\[17](#page-6-13)]. Applying the methods to different field orientations reveals the different anisotropies of the two bands. Similar effects were observed in NbSe2 [\\[19](#page-6-15)].\n\nWe are now prepared to shift our focus to V3Si. Figure [2](#page-2-0) shows the magnetization as a function of the magnetic induction at temperatures of about 15, 13, 11, 9, 7, and 5 K. The open circles indicate the reversible magnetization acquired from the rotating sample magnetometer measurements of a V3Si single crystal and the solid lines 3\n\nthe experimental data. In the insets, the solid lines indicate the irreversible magnetization, though only at low fields, where a significant hysteresis shows up. At not too low temperatures, say about 9 - 15 K, we consider the agreement between experiment and single-band theory very good. As the temperature is reduced, the differences between theory and experiment get larger, becoming apparent at low fields, for we adjusted the fits mainly to the high field regions, where the experiments reveal the reversible data directly.\n\nNext, we will analyze the quality of the fits in more detail. First, we determined the areas under the reversible magnetization curves, which are proportional to the condensation energies. The ratio of the condensation energy obtained from the Ginzburg-Landau fit to that from the experimental curves is considered a sensible measure for the fit quality. In MgB2, the differences in the condensation energies of the high-field fit and the experimental data were some 18 per cent at 30 K and 30 per cent at 10 and 20 K. In V3Si, we found much smaller deviations, namely 3 - 8 per cent at 9 - 15 K and 10 - 12 per cent at 7 and 5.2 K. So, even the low-temperature fits of V3Si agree with the experimental data better than any single-band fit of MgB2.\n\nThere are several possible reasons for the larger deviations between theory and experiment in V3Si at low temperatures. To begin with, as shown in figure [2,](#page-2-0) the low-field irreversible magnetization becomes large at low temperatures, thus enhancing possible errors in the corresponding reversible data. The insets of figure [2,](#page-2-0) however, illustrate that the irreversible magnetization does not become much larger than the reversible data even at low temperatures and small fields, and hence the errors in calculating the reversible magnetization are not serious. On the other hand, we are faced with the shortcomings of the Ginzburg-Landau theory. As this theory is derived from BCS theory in the vicinity of the transition temperature, the potential errors grow when we go to lower temperatures. Yet the theory has been successfully applied to evaluating and describing experimental data at high and low temperatures, as a function of temperature and as a function of field in a large number of publications. In particular, using adjustable parameters instead of the microscopic BCS ones apparently extends the applicability to much lower temperatures (e.g. [\\[20\\]](#page-6-16)). Watanabe et al. [\\[21\\]](#page-6-17) calculated the field dependence of the reversible magnetization of an s-wave system using the Eilenberger equations, which hold at arbitrary temperatures. We verified that the Ginzburg-Landau model with a Ginzburg-Landau parameter of 49 reproduces the Eilenberger curve of [\\[21\\]](#page-6-17) close to the transition temperature (see also [\\[22\\]](#page-6-18)). Reducing the temperature makes the Eilenberger curves slightly steeper at low fields and slightly flatter at high fields. This is basically what we find for the experimental curves in figure [2,](#page-2-0) namely reducing the temperature makes the experimental curves slightly steeper at low fields and slightly flatter at high fields compared with the Ginzburg-Landau fit. Accordingly, the qualitative deviations between our experiments and the fits are just as expected when we assume that the Eilenberger model describes experiment at all temperatures. The deviations from the Ginzburg-Landau model, assessed via the condensation energies, agree even quantitatively, i.e., we found some 12 per cent for the experimental data and 14 per cent for the Eilenberger curves at a reduced temperature of about 0.3. Granted, the Eilenberger calculations and our experimental data refer to systems with different Ginzburg-Landau parameters (κ), but both systems belong to the high-κ regime and hence should behave similarly. To conclude, the changes of the Eilenberger curves are not substantial when the temperature is lowered, which affirms the usefulness of our approach. Still, we do not expect an exact description at the lowest temperatures of figure [2.](#page-2-0)\n\nIn contrast to V3Si, presented in figure [2,](#page-2-0) the experimental data of MgB2, presented in figure [1,](#page-1-0) also qualitatively disagree with the single-band models. In particular, we found the high-field fit to lead to a much smaller lower critical field, i.e. the magnetization value at B = 0 T, than obtained from experiment via extrapolation of the low-field data, while in V3Si the two curves result in almost the same lower critical fields.\n\nSummarizing, we consider the agreement between single-band theory and experiment in V3Si as good as can be expected in view of the uncertainties within both the theoretical and the experimental data. Accordingly, we conclude that the reversible magnetization of V3Si supports the single-band scenario.\n\nFigure [3](#page-3-0) presents the upper critical field and the Ginzburg-Landau parameter of V3Si. The open circles indicate results from the rotating sample and the full circles those from the SQUID magnetometry. The upper critical field has been evaluated by adjusting the Ginzburg-Landau model merely to the high-field regime of the reversible magnetization and may thus slightly deviate from the results obtained from full range fits. The solid line presents the clean-limit single-band BCS behavior [\\[23\\]](#page-6-19), is in excellent agreement with our experimental data, and leads to 22.7 T at 0 K, which matches literature data well [\\[9](#page-6-5)]. In contrast to many two-band materials, no clear upward curvature near the transition temperature appears [\\[24](#page-6-20)[–26\\]](#page-6-21). The Ginzburg-Landau parameter, taken from fits over the whole field range and presented in the right panel, decreases quite linearly from about 24 at 0 K to 19 at the transition temperature, a behavior that is also close to the single-band BCS prediction [\\[23\\]](#page-6-19). Calculating further properties employing the Ginzburg-Landau relations [\\[16](#page-6-12)] resulted in about 90 nm for the magnetic penetration depth, 4 nm for the coherence length, 0.6 T for the thermodynamic critical field, and 0.07 T for the lower critical field at 0 K. The critical lengths are close\n\n![](_page_3_Figure_4.jpeg)\n\n<span id=\"page-3-0\"></span>FIG. 3. The upper critical field, presented in the left panel, and the Ginzburg-Landau parameter, presented in the right panel, of V3Si as a function of temperature. The open circles show experimental data acquired from the rotating sample magnetometer and the full circles experimental data from the SQUID measurements. The upper critical field follows the clean-limit BCS behavior, depicted by the solid line, leading to 22.7 T at 0 K. The Ginzburg-Landau parameter decreases roughly linearly from about 24 to 19 as the temperature increases from 0 K to the transition temperature.\n\nto literature data [\\[6](#page-6-2), [27\\]](#page-6-22).\n\nWe proceed by analyzing the temperature dependent effects by means of the superfluid density. Having evaluated the upper critical field, Bc2, and the Ginzburg-Landau parameter, κ, via the above fit procedure, we acquired the magnetic penetration depth, λ, by using the Ginzburg-Landau relations, and the superfluid density, ρs, via ρs(T) = [λ(0 K) / λ(T)]<sup>2</sup> , with λ = κξ, ξ <sup>2</sup> = Φ0/(2πBc2), and Φ<sup>0</sup> ≃ 2.07 ×10<sup>−</sup><sup>15</sup> Vs. To assess the penetration depth at 0 K, we used the SQUID measurements, where the temperature could be reduced to 2 K, but the magnetic fields were limited to 7 T. We therefore took the inter- and extrapolated upper critical fields from the rotating sample magnetometer results for fitting the SQUID data, so that only the Ginzburg-Landau parameter remained to be determined. To justify the use of these data, we verified that the reversible curves from SQUID and rotating sample magnetometer agree in the overlapping field and temperature range.\n\nThe left panel of figure [4](#page-4-0) presents the superfluid density of V3Si, indicated by open circles, as a function of reduced temperature. The solid line shows the expected behavior of a single-band BCS superconductor, which is close to our experimental data. Figure [4](#page-4-0) shows also the superfluid density of MgB2, indicated by full symbols, as an example for two-band superconductivity. In comparison with V3Si, the MgB<sup>2</sup> curve decreases much faster at low temperatures and then becomes almost linear as the temperature increases. To explain this behavior, we need to consider that a two-band superconductor has two dis-\n\n![](_page_4_Figure_0.jpeg)\n\n<span id=\"page-4-0\"></span>FIG. 4. The superfluid density as a function of reduced temperature (left panel) and the reduced lower critical field as a function of temperature (right panel). In the left panel, the open circles show our experimental result on V3Si, obtained from the reversible magnetization, which is in good agreement with the single-band BCS behavior, indicated by the solid line. The broken and the dot-dashed lines show the two-band-like superfluid density of V3Si reported in Refs. [\\[2](#page-5-1)] and [\\[3](#page-5-2)] schematically; the full diamonds illustrate the twoband behavior of MgB<sup>2</sup> [\\[17](#page-6-13)]. In the right panel, the open circles show the reduced lower critical field of our V3Si single crystal, evaluated from the reversible magnetization, which is all but identical to the superfluid density of the left panel. The open diamonds and the full squares are obtained from direct measurements of the first vortex-penetration field as indicated by the arrows in the inset. The symbols in the inset present the square root of the remanent magnetic moment as a function of applied field at 7 K; the solid line is a linear fit to the high-field data.\n\ntinct energy gaps. The smaller gap reduces the excitation energy on the corresponding part of the Fermi surface and hence makes the superfluid density decrease more rapidly at small temperatures. This may lead to a near-linear behavior at intermediate temperatures, as found in several two-band materials, such as MgB2, NbSe2, and the ironbased superconductors [\\[28](#page-6-23)[–30\\]](#page-6-24). We conclude that also the superfluid density of V3Si supports the single-band scenario.\n\nWe now come back to the two-band scenario of V3Si proposed in Refs. [\\[2](#page-5-1)] and [\\[3\\]](#page-5-2), based on measurements of the superfluid density. The broken line in figure [4](#page-4-0) shows the result presented in [\\[2\\]](#page-5-1), which was obtained by measuring the microwave surface impedance of a single crystal. There is no doubt that this curve is totally different from our result, that is, it decreases more rapidly at low temperatures and has a sharp kink at about 0.6 Tc. Analyzing their data with a two-band model, the authors found distinctly different energy gaps, though similar intraband coupling strengths for the two bands and, as indicated by the sharp kink at intermediate temperatures, almost negligible interband coupling. The superfluid density published by Kogan et al. [\\[3](#page-5-2)], shown schematically in figure [4](#page-4-0) by the dot-dashed line, was measured by a tunnel diode resonator technique and is quite different from that of [\\[2\\]](#page-5-1), yet it also reflects a two-band scenario with similar intraband and near-negligible interband coupling strengths.\n\nWhat are the possible reasons for the differences between those literature [\\[2,](#page-5-1) [3\\]](#page-5-2) and our data? Two points are obvious. First, while we evaluated the penetration depth from fits to the reversible magnetization over the whole field range, save for very small fields, where the experimental data are not available or not reliable, the authors of Refs. [\\[2](#page-5-1)] and [\\[3](#page-5-2)] evaluated their data solely at very low fields. Thus, a second band, but one with a very small upper critical field, would resolve the contradictions. The second point is that while our method probes the bulk, the methods of Refs. [\\[2\\]](#page-5-1) and [\\[3](#page-5-2)] probe the sample surface. Thus, surface irregularities or inhomogeneities that may change the properties on the surface would also resolve the contradictions. Such a statement, however, remains a speculation, for we know nothing about the surfaces of the samples used in the studies. Diener et al. [\\[31](#page-6-25)] faced that problem in MgCNi3. Acquiring data with the same method as used in [\\[3](#page-5-2)] resulted in a penetration depth behavior similar to the broken curves of figure [4,](#page-4-0) while acquiring the results from measurements of the lower critical field resulted in a BCS-like behavior. The authors suggested that those differences might be caused by inhomogeneities at the sample surface and hence considered the BCS-like behavior correct.\n\nWe also determined the superfluid density at very low magnetic fields, namely by measuring the lower critical field directly. But measuring the lower critical field directly is anything but trivial. To begin with, we can merely determine the field at which flux lines start to penetrate into the sample. This is accomplished by recording the remanent magnetic moment of the sample in zero field as a function of the maximum applied field, as described at the end of Sec. [.](#page-0-0) Unfortunately, this first penetration field is usually not simply connected with the lower critical field via a single-valued demagnetization factor. First, sample edges give rise to very high stray fields, which may surpass the lower critical field and hence enforce the creation of vortices at very low applied fields, but we do not know well how the local induction is related to the applied field in such a configuration. Second, surface irregularities would affect the creation of vortices, while clean surfaces may induce additional barriers.\n\nSo, how can we acquire useful results from that procedure? To begin with, we are mainly interested in the relative temperature dependence of the lower critical field and not so much in its absolute value. Second, we aligned the longest length of our sample, the size of which is 3 × 0.55 × 0.55 mm<sup>3</sup> , parallel to the applied field, so that the geometry effects were as small as possible and assumed those geometry effects to be temperature independent. As expected, when we increased the applied field, the remanent magnetic moment remained zero at the beginning, then started to rise at a slope that became gradually steeper, indicating that first vortices had been formed and pinned in the sample, and eventually increased quadratically with field (see inset of figure [4\\)](#page-4-0). Assuming a constant current density parallel to the sample borders and ignoring the stray fields revealed this quadratic behavior also in calculations (cf. with [\\[32\\]](#page-6-26)). We thus consider the extrapolated onset of the quadratic behavior (cf. with inset of figure [4\\)](#page-4-0) as a reliable assessment of the lowest field where vortices parallel to the applied field were in the sample.\n\nWe determined both the smallest field at which we observed a slope in the remanent magnetic moment and the field obtained from extrapolating the quadratic part to zero (see inset of figure [4\\)](#page-4-0). The temperature dependence of both was found in good agreement with the superfluid density acquired from the Ginzburg-Landau fits, as shown in the right panel of figure [4.](#page-4-0) Note that Ginzburg-Landau theory predicts the same temperature dependence for the superfluid density and the lower critical field when the changes in the logarithm of the Ginzburg-Landau parameter can be ignored, as is the case in our sample. To assess the absolute lower critical field values, we multiplied the penetration fields with the factor (1 − D) <sup>−</sup><sup>1</sup> ≃ 1.15, where D ≃ 0.13 is the averaged demagnetization factor. In comparison to the lower critical fields from the Ginzburg-Landau fits, leading to 68 mT at 0 K, this led to lower values by some 10 per cent, namely 60 mT at 0 K, from evaluating the onset fields, and to larger values by 40 per cent, namely 95 mT at 0 K, from evaluating the fields where the quadratic behavior started. We consider these differences to be reliable. Finally, we conclude that also at very low magnetic fields, the temperature dependence shows no indication of a two-band behavior.\n\nHaving presented clear support for the single-band behavior, we may ask if our results rule out the two-band scenario completely. This is not the case, for our experiments would not detect a second band if its contribution to the measured quantities were marginal or if its superconducting properties were all but identical to the first band. These scenarios, however, would be different from those proposed in literature [\\[2,](#page-5-1) [3](#page-5-2)]. Which properties would a hypothetical second band have in our sample? Above, we have discussed the fit quality of the reversible magnetization data in terms of the ratio of the condensation energies from the fit and from experiment. In MgB2 the differences, which are some 30 per cent at low temperatures, are ascribed to the two-band scenario. Accordingly, 70 per cent of the condensation energy are induced by the σ-band, which is the band probed by the high-field fits [\\[17\\]](#page-6-13), and 30 per cent by the second band, the π-band, and interband coupling effects, in rough agreement with [\\[33\\]](#page-6-27). In V3Si, the deviations are much smaller and we have shown that they can qualitatively and quantitatively be explained by the imperfections of the Ginzburg-Landau model. Nevertheless, we analyzed the results assuming the deviations to be caused by a hypothetical second band. For example, at 9 K the fit error was 5 per cent and hence the second band would contribute to the condensation energy (Ec) by less than 5 per cent, for these 5 per cent include the interband contributions. Employing BCS theory, where Ec = 0.5N∆<sup>2</sup> , and assuming both bands to have the same density of states (N) would result in a gap (∆) ratio larger than 4.4 : 1 (1 : p 5/95), which would be quite large and much larger than the ratios proposed in Refs. [\\[2,](#page-5-1) [3\\]](#page-5-2), namely 1.4 - 1.8 : 1.\n\nStrong interband effects would also mask two-band effects [\\[34\\]](#page-6-28), though it should be noticed that the two-band scenario for V3Si [\\[2,](#page-5-1) [3\\]](#page-5-2) came along with a negligible interband coupling strength and the high purity of our single crystals makes strong interband impurity-scattering unlikely.\n\n#### SUMMARY AND CONCLUSION\n\nLet us sum up what we have learned from testing V3Si for two-band superconductivity. We have shown that the field dependence of the reversible magnetization matches the single-band Ginzburg-Landau theory reliably well. The differences between the experimental data and the theoretical fits grow as the temperature is reduced but remain small and can qualitatively and quantitatively be explained by the imperfections of the Ginzburg-Landau model. We have also found that the temperature dependence of the superfluid density, determined with different methods at different magnetic fields, follows single-band BCS behavior. Accordingly, all our results support a single-band scenario for V3Si.\n\n#### ACKNOWLEDGMENTS\n\nThis work was supported by the Austrian Science Fund under Contract No. 21194 and 23996.\n\n# REFERENCES\n\n- <span id=\"page-5-0\"></span>[1] Hardy G F and Hulm J K 1953 Phys. Rev. 89 884–884\n- <span id=\"page-5-1\"></span>[2] Nefyodov Y A, Shuvaev A M and Trunin M R 2005 Europhys. Lett. 72 638\n- <span id=\"page-5-2\"></span>[3] Kogan V G, Martin C and Prozorov R 2009 Phys. Rev. B 80 014507\n- <span id=\"page-6-0\"></span>[4] Perucchi A, Nicoletti D, Ortolani M, Marini C, Sopracase R, Lupi S, Schade U, Putti M, Pallecchi I, Tarantini C, Ferretti M, Ferdeghini C, Monni M, Bernardini F, Massidda S and Dore P 2010 Phys. Rev. B 81 092509\n- <span id=\"page-6-1\"></span>[5] Boaknin E, Tanatar M A, Paglione J, Hawthorn D, Ronning F, Hill R W, Sutherland M, Taillefer L, Sonier J, Hayden S M and Brill J W 2003 Phys. Rev. Lett. 90 117003\n- <span id=\"page-6-2\"></span>[6] Sonier J E, Callaghan F D, Miller R I, Boaknin E, Taillefer L, Kiefl R F, Brewer J H, Poon K F and Brewer J D 2004 Phys. Rev. Lett. 93 017002\n- <span id=\"page-6-3\"></span>[7] Guritanu V, Goldacker W, Bouquet F, Wang Y, Lortz R, Goll G and Junod A 2004 Phys. Rev. B 70 184526\n- <span id=\"page-6-4\"></span>[8] Batterman B W and Barrett C S 1964 Phys. Rev. Lett. 13 390–392\n- <span id=\"page-6-5\"></span>[9] Orlando T P, McNiff E J, Foner S and Beasley M R 1979 Phys. Rev. B 19 4545–4561\n- <span id=\"page-6-6\"></span>[10] Khlopkin M 1999 JETP Letters 69 26–30\n- <span id=\"page-6-7\"></span>[11] Yethiraj M, Christen D K, Paul D M, Miranovic P and Thompson J R Jun 1999 Phys. Rev. Lett. 82 5112–5115\n- <span id=\"page-6-8\"></span>[12] Zehetmayer M 2013 Supercond. Sci. Technol. 26 043001\n- <span id=\"page-6-9\"></span>[13] Eisterer M, Hengstberger F, Voutsinas C S, Horhager N, Sorta S, Hecher J and Weber H W 2011 Rev. Sci. Instrum. 82 063902\n- <span id=\"page-6-10\"></span>[14] Zehetmayer M 2009 Phys. Rev. B 80 104512\n- <span id=\"page-6-11\"></span>[15] Brandt E H 2003 Phys. Rev. B 68 054506\n- <span id=\"page-6-12\"></span>[16] Tinkham M 1975 Introduction to superconductivity (McGraw-Hill: New York)\n- <span id=\"page-6-13\"></span>[17] Zehetmayer M, Eisterer M, Jun J, Kazakov S M, Karpinski J and Weber H W 2004 Phys. Rev. B 70 214516\n- <span id=\"page-6-14\"></span>[18] Eisterer M 2007 Supercond. Sci. Technol. 20 R47\n- <span id=\"page-6-15\"></span>[19] Zehetmayer M and Weber H W 2010 Phys. Rev. B 82 014524\n- <span id=\"page-6-16\"></span>[20] Silaev M and Babaev E 2012 Phys. Rev. B 85 134514\n- <span id=\"page-6-17\"></span>[21] Watanabe K Kita T and Arai M Apr 2005 Phys. Rev. B 71 144515\n- <span id=\"page-6-18\"></span>[22] Belova P, Zakharchuk I, Safonchik M, Traito K and L¨ahderanta E 2012 Physica C 476 1 – 9\n- <span id=\"page-6-19\"></span>[23] Helfand E and Werthamer N R 1966 Phys. Rev. 147 288– 294\n- <span id=\"page-6-20\"></span>[24] Shulga S V, Drechsler S-L, Fuchs G, M¨uller, K-H Winzer, K Heinecke M and Krug K 1998 Phys. Rev. Lett. 80 1730– 1733\n- [25] Zehetmayer M, Eisterer M, Jun J, Kazakov S M, Karpinski J, Wisniewski A and Weber H W 2002 Phys. Rev. B 66 052505\n- <span id=\"page-6-21\"></span>[26] Mun E, Ni N, Allred J M, Cava R J, Ayala O, McDonald R D, Harrison N and Zapf V S 2012 Phys. Rev. B 85 100502\n- <span id=\"page-6-22\"></span>[27] Yethiraj M, Christen D K, Gapud A A, McK. Paul D, Crowe S J, Dewhurst C D, Cubitt R, Porcar L and Gurevich A 2005 Phys. Rev. B 72 060504\n- <span id=\"page-6-23\"></span>[28] Manzano F, Carrington A, Hussey N E, Lee S, Yamamoto A and Tajima S 2002 Phys. Rev. Lett. 88 047002\n- [29] Fletcher J D, Carrington A, Diener P, Rodi`ere P, Brison J P, Prozorov R, Olheiser T and Giannetta R W 2007 Phys. Rev. Lett. 98 057003\n- <span id=\"page-6-24\"></span>[30] Martin C, Tillman M E, Kim H, Tanatar M A, Kim S K, Kreyssig A, Gordon R T, Vannette M D, Nandi S, Kogan V G, Bud'ko S L, Canfield P C, Goldman A I and Prozorov R 2009 Phys. Rev. Lett. 102 247002\n- <span id=\"page-6-25\"></span>[31] Diener P, Rodi`ere P, Klein T, Marcenat C, Kacmarcik J, Pribulova Z, Jang D J, Lee H S, Lee H G and Lee S I 2009 Phys. Rev. B 79 220508\n- <span id=\"page-6-26\"></span>[32] Moshchalkov V, Henry J, Marin C, Rossat-Mignod J and Jacquot J 1991 Physica C 175 407 – 418\n- <span id=\"page-6-27\"></span>[33] Eisterer M, Zehetmayer M, Weber H W and Wisniewski 2005 Phys. Rev. B 72 134525\n- <span id=\"page-6-28\"></span>[34] Nicol E J and Carbotte J P 2005 Phys. Rev. B 71 054501",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Testing V3Si for two-band superconductivity",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              176.75999450683594,
+              52.7518310546875
+            ],
+            [
+              439.32977294921875,
+              52.7518310546875
+            ],
+            [
+              439.32977294921875,
+              65.5428466796875
+            ],
+            [
+              176.75999450683594,
+              65.5428466796875
+            ]
+          ]
+        },
+        {
+          "title": "INTRODUCTION",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              132.978515625,
+              244.50457763671875
+            ],
+            [
+              219.9634246826172,
+              244.50457763671875
+            ],
+            [
+              219.9634246826172,
+              255.234375
+            ],
+            [
+              132.978515625,
+              255.234375
+            ]
+          ]
+        },
+        {
+          "title": "EXPERIMENT AND EVALUATION",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              348.43359375,
+              435.905517578125
+            ],
+            [
+              526.0838623046875,
+              435.905517578125
+            ],
+            [
+              526.0838623046875,
+              446.66015625
+            ],
+            [
+              348.43359375,
+              446.66015625
+            ]
+          ]
+        },
+        {
+          "title": "RESULTS AND DISCUSSION",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              366.9605712890625,
+              419.2236328125
+            ],
+            [
+              512.490234375,
+              419.2236328125
+            ],
+            [
+              512.490234375,
+              429.64453125
+            ],
+            [
+              366.9605712890625,
+              429.64453125
+            ]
+          ]
+        },
+        {
+          "title": "SUMMARY AND CONCLUSION",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              358.59375,
+              318.18505859375
+            ],
+            [
+              519.9646606445312,
+              318.18505859375
+            ],
+            [
+              519.9646606445312,
+              328.517578125
+            ],
+            [
+              358.59375,
+              328.517578125
+            ]
+          ]
+        },
+        {
+          "title": "ACKNOWLEDGMENTS",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              379.51171875,
+              525.5445556640625
+            ],
+            [
+              499.640625,
+              525.5445556640625
+            ],
+            [
+              499.640625,
+              535.9921875
+            ],
+            [
+              379.51171875,
+              535.9921875
+            ]
+          ]
+        },
+        {
+          "title": "REFERENCES",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              403.119140625,
+              601.3848419189453
+            ],
+            [
+              475.6907958984375,
+              601.3848419189453
+            ],
+            [
+              475.6907958984375,
+              612.5625
+            ],
+            [
+              403.119140625,
+              612.5625
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              231
+            ],
+            [
+              "Line",
+              91
+            ],
+            [
+              "Text",
+              10
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              401
+            ],
+            [
+              "Line",
+              129
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              296
+            ],
+            [
+              "Line",
+              131
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              320
+            ],
+            [
+              "Line",
+              112
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              294
+            ],
+            [
+              "Line",
+              117
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              282
+            ],
+            [
+              "Line",
+              103
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "ListItem",
+              3
+            ],
+            [
+              "Reference",
+              3
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              328
+            ],
+            [
+              "Line",
+              70
+            ],
+            [
+              "ListItem",
+              31
+            ],
+            [
+              "Reference",
+              29
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/GBbufwibzHAaSTF0D2V4Lg"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 7,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Testing V<SUB>3</SUB>Si for two-band superconductivity",
+    "authors": [
+      {
+        "authors_list": [
+          "Zehetmayer, M.",
+          "Hecher, J."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Is V<SUB>3</SUB>Si a two-band or a single-band superconductor? Everyone who searches the literature for this question will find conflicting answers, for V<SUB>3</SUB>Si was claimed to be a perfect example of two-band and claimed to be a perfect example of single-band superconductivity. In this paper we intend to clarify the situation by presenting new experimental facts acquired from the magnetic properties of a V<SUB>3</SUB>Si single crystal. We probe for field-dependent two-band effects by analyzing the reversible magnetization at different temperatures, and we probe for temperature-dependent two-band effects by analyzing the superfluid density obtained by two different methods at different magnetic fields. All our results are reliably described within the single-band models and thus support the single-band scenario for V<SUB>3</SUB>Si but do not completely rule out the presence of a very small second gap.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Superconductor Science Technology",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1311.3420"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1088/0953-2048/27/4/044006",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2014SuScT..27d4006Z"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

@@ -1,0 +1,848 @@
+{
+  "id": "2d6d208cae8584ce8e38ee01308db801",
+  "pdf_path": "apl/Superconductors/arXiv:2109.12446.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# Multi-band s++ superconductivity in V3Si determined from the response to a controlled disorder\n\nKyuil Cho,1, 2 M. Ko´nczykowski,<sup>3</sup> S. Ghimire,1, 2 M. A.\n\nTanatar,1, 2 Lin-Lin Wang,<sup>1</sup> V. G. Kogan,<sup>1</sup> and R. Prozorov1, 2, [∗](#page-0-0)\n\n<sup>1</sup>Ames Laboratory, Ames, IA 50011, USA\n\n<sup>2</sup>Department of Physics & Astronomy, Iowa State University, Ames, IA 50011, USA\n\n<sup>3</sup>Laboratoire des Solides Irradi´es, CNRS UMR 7642 & CEA-DSM-IRAMIS,\n\nEcole Polytechnique, F-91128 Palaiseau cedex, France ´\n\n(Dated: December 7, 2021)\n\nThe London penetration depth, λ(T), was measured in a single crystal V3Si. The superfluid density obtained from this measurement shows a distinct signature of two almost decoupled superconducting gaps. This alone is insufficient to distinguish between s<sup>±</sup> and s++ pairing states, but it can be achieved by studying the effect of a controlled non-magnetic disorder on the superconducting transition temperature, Tc. For this purpose, the same V3Si crystal was sequentially irradiated by 2.5 MeV electrons three times, repeating the measurement between the irradiation runs. A total dose of 10 C/cm<sup>2</sup> (6.24 × 10<sup>19</sup> electrons/cm<sup>2</sup> ) was accumulated, for which T<sup>c</sup> has changed from 16.4 K in a pristine state to 14.7 K (9.3 %). This substantial suppression is impossible for a single isotropic gap, but also it is not large enough for a sign-changing s<sup>±</sup> pairing state. Our electronic band-structure calculations show how five bands crossing the Fermi energy can be naturally grouped to support two effective gaps, not dissimilar from the iron pnictides physics. We analyze the results using two-gap models for both, λ(T) and Tc, which describe the data very well. Thus, the experimental results and theoretical analysis provide strong support for an s++ superconductivity with two unequal gaps, ∆<sup>1</sup> (0) ≈ 2.53 meV and ∆<sup>2</sup> (0) ≈ 1.42 meV, and a very weak inter-band coupling in V3Si superconductor.\n\n#### I. INTRODUCTION\n\nAt the time of its discovery in 1953 [\\[1\\]](#page-8-0), a cubic (A15 structure) V3Si compound had the highest superconducting transition temperature, around 17 K. Despite showing a clear exponential attenuation of all thermodynamic quantities upon cooling towards T = 0, which signaled a fully gapped Fermi surface, most of spectroscopic [\\[2,](#page-8-1) [3\\]](#page-8-2), transport [\\[4,](#page-8-3) [5\\]](#page-8-4) and thermodynamic measurements [\\[3,](#page-8-2) [6–](#page-8-5) [8\\]](#page-8-6) showed unconventional behavior or at least some unusual features. Such behavior can be associated with a peculiar electronic band-structure showing Van Hove singularities in the density of states (DOS) close to the Fermi level [\\[3,](#page-8-2) [9–](#page-8-7)[11\\]](#page-9-0). While this certainly plays an important role, now we know that a multi-gap superconductivity is needed as well to understand the measurements. Here we focus on a multi-band, multi-gap nature of superconductivity in this fascinating material.\n\nWhile MgB<sup>2</sup> [\\[12\\]](#page-9-1) is commonly accepted as the first confirmed two-gap superconductor [\\[13](#page-9-2)[–15\\]](#page-9-3), the multi-band superconductivity was studied much earlier, albeit only theoretically. Soon after the development of the microscopic model of superconductivity [\\[16\\]](#page-9-4) the possibility of \"overlapping bands\" was studied [\\[17–](#page-9-5)[19\\]](#page-9-6), eventually leading to a general description of multi-band superconductivity [\\[20–](#page-9-7)[23\\]](#page-9-8), in particular the effects of disorder [\\[23\\]](#page-9-8). Nevertheless, before MgB<sup>2</sup> , there was no attempt to interpret the unusual properties of V3Si through the prism of multi-band effects. The observations of the unconventional London penetration depth [\\[2,](#page-8-1) [3\\]](#page-8-2), anisotropic upper critical field, Hc<sup>2</sup> [\\[6\\]](#page-8-5), an unexpectedly large decrease of T<sup>c</sup> with nonmagnetic disorder, either after neutron irradiation [\\[5,](#page-8-4) [24\\]](#page-9-9) or naturally present in real material [\\[25\\]](#page-9-10), a large Tc/T<sup>F</sup> ∼ 0.01 ratio (T<sup>F</sup> is Fermi temperature) [\\[3\\]](#page-8-2) and a variety of vortex lattice configurations [\\[26\\]](#page-9-11) all pointed to an unconventional behavior of a confirmed s−wave superconductor. Surely, modern reinterpretation of many of these results is consistent with, if not fully explained, by multi-gap superconductivity. Therefore, retrospectively, V3Si is a much earlier than MgB<sup>2</sup> , \"the first\" two-band superconductor.\n\nExperimental observation of a two-gap superconducting state relies on a substantial decoupling between the two bands and a substantial difference between them either in terms of dimensionality, electronic properties, pairing mechanism and/or scattering rates [\\[7,](#page-8-8) [27–](#page-9-12)[29\\]](#page-9-13). In terms of more recent measurements, when multi-band superconductivity became widely accepted and discussed, circa 2001, while some reports support single-gap conventional s−wave BCS superconductivity in V3Si [\\[28\\]](#page-9-14), many more experimental and theoretical studies point to two distinct energy gaps in this material [\\[7,](#page-8-8) [30–](#page-9-15)[32\\]](#page-9-16). There is a complication, though. Perhaps due to a variation of stoichiometry, atomic disorder or extremely strainsensitive structure of Van Hove singularities in the vicinity of the Fermi level, V3Si samples show a spread of behaviors, especially in the properties related to a twogap superconductivity [\\[4,](#page-8-3) [8,](#page-8-6) [10,](#page-9-17) [11,](#page-9-0) [24,](#page-9-9) [30,](#page-9-15) [33\\]](#page-9-18). Furthermore, establishing a multi-band nature from thermodynamic measurements is necessary but insufficient for\n\n<span id=\"page-0-0\"></span><sup>∗</sup> [prozorov@ameslab.gov](mailto:prozorov@ameslab.gov)\n\nthe microscopic understanding of superconductivity, because the order parameter enters thermodynamic quantities in the even powers, therefore the gaps of the same or opposite signs on different bands contribute similarly [\\[7,](#page-8-8) [27,](#page-9-12) [34,](#page-9-19) [35\\]](#page-9-20). In this situation, phase-sensitive experiments are needed, but it is often difficult to implement experimentally [\\[22,](#page-9-21) [36,](#page-9-22) [37\\]](#page-9-23). While in high−T<sup>c</sup> cuprates direct measurements that depend on the phase variation along the Fermi surface have provided a definitive proof of a sign-changing d−wave order parameter [\\[36\\]](#page-9-22), in multi-band iron-based superconductors, a similar simple arrangement in real space is not possible, and more complicated approaches are needed [\\[37\\]](#page-9-23). The interpretations of more complex phase-sensitive experiments, such as quasiparticles interference, are not straightforward either [\\[38,](#page-9-24) [39\\]](#page-9-25).\n\nScattering off non-magnetic impurities is a phasesensitive method, albeit indirect, that was successfully used in iron-based superconductors to probe the signchanging multi-band s<sup>±</sup> order parameter [\\[40](#page-9-26)[–42\\]](#page-9-27). As we discuss in Section III.E, the suppression of T<sup>c</sup> formally depends on the Fermi surface averaging of the order parameter in the first power, h∆ (k)iF S, which is sign-sensitive. For example, isotropic s−wave angular part averages to 1, but d−wave averages to 0. Of course, more than one measurement is needed for different levels of scattering in the system. In our approach, simultaneous measurements of normal state resistivity (to characterize the amount of introduced disorder), the superconducting transition temperature, T<sup>c</sup> (phase-sensitive measurement), and low-temperature variation of the London penetration depth, λ (T) (to estimate the anisotropy of the order parameter amplitude), provide enough information to make that conclusion. Here we show that this scheme can be applied to prove the existence of two distinct gaps of the same sign, or s++ order parameter, in the title material, V3Si. The utility of such an approach was extended significantly by recent theoretical analysis of the impurity scattering in superconductors with non-trivial multi-band structure [\\[43,](#page-9-28) [44\\]](#page-9-29). For example, it is possible to have a singlet unconventional pairing with a sign-changing superconducting order parameter, yet fully gapped Fermi surface, similar to what we uncover here. However, the electronic band-structure should support such an unconventional scenario in a first place. We note that nodeless unconventional superconductivity has been studied in a context of triplet pairing, such as p−wave, which shows a variety of nodal and nodeless behaviors depending on the material and experimental conditions, for example, in some heavy-fermion superconductors [\\[45,](#page-9-30) [46\\]](#page-9-31). However, most superconductors have singlet pairing states and the studies of the effects of a controlled disorder is a powerful tool to study unconventional and exotic states, including multi-gap superconductivity [\\[42\\]](#page-9-27). For example, a similar combination of London penetration depth measurements of electronirradiated samples was used to study disorder-driven transitions of the superconducting gap [\\[47\\]](#page-9-32), the interplay\n\nof ferromagnetism and superconductivity [\\[48\\]](#page-9-33), proving fully-gapped superconductivity in a heavy-fermion superconductor [\\[49\\]](#page-9-34), and following the doping evolution of the order parameter [\\[50\\]](#page-9-35). If we include other types of irradiation, many studies employed neutrons and protons to induce non-magnetic disorder. Such disorder was used to induce a two-gap to a single-gap crossover in MgB<sup>2</sup> [\\[51\\]](#page-9-36), trace the evolution of s<sup>±</sup> symmetry in iron-pnictides [\\[52\\]](#page-9-37) and studying its cross-over to s++ state [\\[41\\]](#page-9-38), or significantly suppress the superfluid density [\\[53\\]](#page-9-39). Evidently, a controlled disorder in conjunction with thermodynamic measurements is a well-established approach to tune and probe the superconducting state.\n\n#### II. EXPERIMENTAL\n\nOur V3Si crystals with T<sup>c</sup> ≈ 16.4 K were cut out of a \"master boule\" single crystal studied previously, for example in Refs.[\\[54,](#page-9-40) [55\\]](#page-9-41) and references therein. The resistivity above T<sup>c</sup> of pristine samples was in range of 5 − 10 µΩ · cm, consistent with the previous reports [\\[25,](#page-9-10) [54,](#page-9-40) [55\\]](#page-9-41). The samples were of sub-mm size. In particular, the crystal used in electron irradiation study was 0.73 × 0.62 × 0.2 mm<sup>3</sup> .\n\nThe variation of the in-plane London penetration depth, ∆λ(T), was measured using a self-oscillating tunnel-diode resonator (TDR) technique [\\[27,](#page-9-12) [34,](#page-9-19) [56\\]](#page-9-42). The TDR circuit resonates approximately at 14 MHz, and the frequency shift is measured with a precision better than one part per billion (ppb). Its inductor coil generates ac magnetic field, Hac < 20 mOe, so that the sample is always in the Meissner state at temperatures of interest. Details of the technique and its principles are given in Ref.[\\[57](#page-9-43)[–59\\]](#page-10-0) and the detailed calibration procedure is described in Refs.[\\[58,](#page-9-44) [60\\]](#page-10-1). The sample was mounted on a 1 mm diameter sapphire rod and inserted into a 2 mm diameter inductor coil. The coil and the sample were mounted in a vacuum inside a <sup>3</sup>He cryostat. The TDR circuit was actively stabilized at 5 K, and the sample was controlled from 0.4 K and up by independent LakeShore controllers. It is straightforward to show that the change of the resonant frequency when a sample is inserted into the coil is proportional to the sample magnetic susceptibility as long as the change of the total inductance is small and one can expand, ∆f /f<sup>0</sup> ≈ ∆L/2L<sup>0</sup> where 2πf<sup>0</sup> = 1/ √ CL<sup>0</sup> with sub-index \"0\" referring to an empty resonator. The coefficient of proportionality that includes the demagnetization correction is measured directly by pulling the sample out of the resonator at the base temperature [\\[60\\]](#page-10-1).\n\nThe low-temperature 2.5 MeV electron irradiation was performed at the SIRIUS Pelletron facility of the Laboratoire des Solides Irradi´es (LSI) at the Ecole Polytech- ´ nique in Palaiseau, France. The acquired irradiation dose is conveniently expressed in C/cm<sup>2</sup> and measured directly as a total charge accumulated behind the sample by a Faraday cage. Therefore, 1 C/cm<sup>2</sup> ≈ 6.24×10<sup>18</sup>\n\n![](_page_2_Figure_1.jpeg)\n\n<span id=\"page-2-0\"></span>FIG. 1. (a) V3Si unit cell with two formula units, Z = 2. (b) Brillouin zone (BZ) and Fermi surfaces (FS) of the five different bands crossing the Fermi level (E<sup>F</sup> ) for V3Si. The band numbers correspond to the numbers in the text. (The small FS of Band 5 is circled for clarity.) (c) Energy band dispersion along the high symmetry directions of BZ and (d) Partial density of states as function of energy for the five bands crossing E<sup>F</sup> .\n\nelectrons/cm<sup>2</sup> . In the experiment, the London penetration depth was measured, then the sample was irradiated, and the cycle repeated. The irradiation was carried out with the sample immersed in liquid hydrogen at about 20 K. Low-temperature irradiation is needed to slow down recombination and migration of defects. Upon warming up to room temperature, a quasi-equilibrium population of atomic vacancies remains due to a substantial difference in the migration barriers between vacancies and interstitials. An example of such incremental irradiation/measurement sequence showing the resistivity change measured in-situ, as well as the annealing after warming up, is given elsewhere [\\[61\\]](#page-10-2). In the present case, the sample was dispatched between the lab and the irradiation facility for the measurements and irradiation, and then the sequence was repeated until the sample had accumulated a substantial dose of 10 C/cm<sup>2</sup> ≈ 6.24×10<sup>19</sup> electrons/cm<sup>2</sup> . Further information on the physics of electron irradiation can be found elsewhere [\\[62,](#page-10-3) [63\\]](#page-10-4).\n\nDensity functional theory (DFT) with Perdew-Burke-Ernzerhof (PBE) exchange-correlation functional [\\[64\\]](#page-10-5) has been used to calculate the band structure of V3Si at the experimental lattice constant of a = 4.741 ˚A [\\[65\\]](#page-10-6). The DFT calculations have been done in VASP [\\[66\\]](#page-10-7) using projected augmented wave method and a plane-wave basis set with a kinetic energy cutoff of 246 eV. The charge density is converged on a (8×8×8) Monkhorst-Pack k−point mesh, including the Γ−point. For the Fermi surface (FS) calculations, a much denser (30 ×30×30) k−point mesh is used. The Fermi velocity for each band has been calculated by the derivative of the DFT band dispersion, i.e., group velocity, and then averaged over the Fermi surface of each band in the Brillouin zone (BZ), the same method as employed previously [\\[67,](#page-10-8) [68\\]](#page-10-9).\n\n## III. RESULTS AND DISCUSSION\n\n#### <span id=\"page-2-1\"></span>A. Electronic band-structure\n\nTABLE I. Electronic band structure parameters relevant to the γ−model fitting. The bands are naturally grouped in two effective bands I and II. The calculated parameter γ = n1v 2 <sup>1</sup> + n2v 2 2 / P<sup>5</sup> <sup>i</sup>=1 niv 2 <sup>i</sup> = n<sup>I</sup> v 2 I / n<sup>I</sup> v 2 <sup>I</sup> + nII v 2 II = 0.109, to be compared with the experimental best fit, γ = 0.175. The effective quantities remapped on two effective bands are shown in the last two columns.\n\n| band v | F × 1015<br>2 | DOS                  | Two | F × 1015<br>2<br>v | DOS         |\n|--------|---------------|----------------------|-----|--------------------|-------------|\n|        | (cm/s)2       | states/eV/cell bands |     | (cm/s)2            | st./eV/cell |\n| 1      | 2.22          | 1.22                 | I   | 3.69               | 1.74        |\n| 2      | 4.48          | 2.26                 |     |                    |             |\n| 3      | 7.11          | 6.11                 | II  | 7.70               | 6.80        |\n| 4      | 8.18          | 7.48                 |     |                    |             |\n| 5      | 0.00315       | 0.11                 | ×   |                    |             |\n\nV3Si has a primitive cubic crystal structure in space group 223 (Pm3m) with V sitting at 6c and Si at 2a positions as shown in Fig[.1\\(](#page-2-0)a). The band structure of V3Si, Fig[.1\\(](#page-2-0)c) has flat pieces along Γ-X, Γ-M and Γ-R directions, which is similar to Nb3Sn, another A15 superconductor with the same group of elements. There are five bands crossing the E<sup>F</sup> as highlighted in different colors in Fig[.1\\(](#page-2-0)c). The corresponding partial densities of state (DOS) of these bands are plotted in Fig[.1\\(](#page-2-0)d) and summarized in Table [I.](#page-2-1) Among them, bands 1 and 2 are hole bands with states gathering along the M-R direction, the edges of the cubic Brillouin zone (BZ) (see Fig[.1\\(](#page-2-0)b)((1) and (2)). On the other hand, band 5 has a very small electron pocket around the R point, and the contribution to DOS is negligibly small. In contrast, bands 3 and 4 are dominant in DOS at E<sup>F</sup> , which corresponds to most of the flat band contributions around the Γ point as seen in Fig[.1\\(](#page-2-0)c). The three-dimensional (3D) Fermi surfaces (FS) in Fig[.1\\(](#page-2-0)b)((3) and (4)) show complex FS for both bands 3 and 4, which have multiple sheets at E<sup>F</sup> . Analysis of Fig[.1\\(](#page-2-0)b) suggests that the five bands can be naturally grouped in two effective ones. Specifically, bands 1 and 2 are well separated in energy from bands 3 and 4 at intermediate k−values inside the BZ, making the inter-band transitions improbable. Furthermore, bands 1 and 2 are much closer in energy, and this is also true for bands 3 and 4, but at different k. This suggests grouping bands 1 and 2 into an effective band I, bands 3 and 4 into another effective band II, and discarding negligible-DOS band 5. Electronic parameters of all five bands are reported in Table[.I.](#page-2-1) The \"effective\" parameters of two effective bands, I and II, are given in the last two columns. The multi-band average for band I is v 2 F,I = (n1v 2 F,<sup>1</sup> +n2v 2 F,2 )/(n<sup>1</sup> +n2), and similar for the effective band II. As we explain in the two-band γ−model Section III.C, the relative contribution of each band to the superfluid density, ρ<sup>s</sup> = γρ<sup>I</sup> + (1 − γ) ρII ,is given\n\n![](_page_3_Figure_0.jpeg)\n\n<span id=\"page-3-0\"></span>FIG. 2. Temperature dependent London penetration depth measured in a V3Si single crystal in pristine state and after three doses of electron irradiation. The inset zooms at the low temperature region showing a clear signature of a second gap developing at around 10 K.\n\nby the parameter, γ = n<sup>I</sup> v 2 I / n<sup>I</sup> v 2 <sup>I</sup> + nII v 2 II (hence, γ−model). As shown in Table [I,](#page-2-1) we estimate γ = 0.109, which is quite close to the experimental γ = 0.109, discussed in the next Section III.C.\n\nThe high DOS at E<sup>F</sup> in V3Si indicates electronic instability, consistent with literature reports [\\[3,](#page-8-2) [10,](#page-9-17) [11\\]](#page-9-0). Although one way to reduce such instability is to promote an exchange splitting, giving a magnetic solution at the DFT level, experimentally V3Si is not magnetic. Another way to lift the electronic instability is through the electron-phonon coupling. Similar band structure with flat bands in Nb3Sn is susceptible to lattice distortion by a phonon mode [\\[69\\]](#page-10-10), indicating a strong electron-phonon coupling in such compounds, hence obvious connection to superconductivity. Thus, the non-magnetic electronic band structure of V3Si provides important microscopic details for superconductivity models, such as DOS at E<sup>F</sup> and Fermi velocity, which have been used successfully for MgB2, the first proven two-band superconductor. In fact, we calculated the electronic band structure of MgB<sup>2</sup> as a benchmark to compare with with the original γ−model [\\[7,](#page-8-8) [29\\]](#page-9-13) and one of the first DFT calculations of a two-gap system [\\[67\\]](#page-10-8), and obtained similar results.\n\n## B. London penetration depth and superfluid density\n\nWe begin by examining the superfluid density obtained from the measured London penetration depth. Figure [2](#page-3-0) shows temperature dependent variation of London penetration depth, ∆λ ≡ λ (T)−λ (Tmin), with the increasing dose of electron irradiation. Considering the exponential low-temperature behavior, we can safely assume that\n\nλ (Tmin = 0.4 K) ≈ λ (0) and then the normalized superfluid density is calculated as ρ<sup>s</sup> = (∆λ (0) /∆λ (T))<sup>2</sup> = (1 + ∆λ/λ (0))−<sup>2</sup> . The inset in Fig[.2](#page-3-0) zooms at the lowtemperature region. There is a clear, almost knee-like feature in ∆λ (T) around 10 K, which we now know is expected for a two-gap superconductor with different and weakly-coupled gaps [\\[27\\]](#page-9-12). Similar features were reported in high quality V3Si crystals before and not surprisingly was interpreted as a definitive evidence of a two-gap superconductivity [\\[7,](#page-8-8) [30\\]](#page-9-15). The temperature of this kink-like feature is suppressed upon irradiation approximately at the same rate as Tc, signaling that both gaps change at a similar rate. Furthermore, in Fig[.2,](#page-3-0) normal state values above T<sup>c</sup> are determined by the skin depth. They increase upon irradiation due to the increase of residual resistivity following the Matthiessen's rule [\\[70\\]](#page-10-11). Importantly, the superconducting transition temperature, Tc, is monotonically and noticeably suppressed from 16.4 K to 14.7 K (9.3%). The upper cut-off at T<sup>c</sup> is determined by the normal-metal skin depth, which allows us to estimate the resistivity in a contact-less way using ρ = µ0πfδ<sup>2</sup> where δ (T<sup>c</sup> ← T) ≈ 2λ (T → Tc) and λ (T) = ∆λ (T) + λ (0), where λ(0) = 130 nm from Ref.[\\[3,](#page-8-2) [4\\]](#page-8-3). The extracted resistivity values are 8.6, 11, 13.6, and 15.4 µΩcm for 0, 2.1, 5.7 and 10 C/cm<sup>2</sup> electron irradiation doses, respectively. These values appear to be quite comparable with the literature [\\[4,](#page-8-3) [5,](#page-8-4) [25\\]](#page-9-10). We note that in a large body of work on V3Si, a spread of λ(0) values ranging from 83 nm to 230 nm can be found. They were obtained using different methods, and in samples of different forms (crystal vs. polycrystalline) and purity [\\[71](#page-10-12)[–73\\]](#page-10-13). The value we use is within the statistical maximum of the current literature values. Importantly, our results and conclusions are independent of the particular value of λ(0).\n\nFigure [3](#page-4-0) (a) shows the normalized superfluid density of a V3Si crystal in pristine state. A similar curve for a different crystal, cut from the same master boule, showing the same two-gap structure, was published in our earlier paper where a self-consistent γ−model based on Eilenberger formalism was introduced [\\[7\\]](#page-8-8). In the original γ−model, two isotropic s−wave gaps are obtained from the solution of the self-consistency equation, and then all thermodynamic quantities, including the superfluid density, can be calculated. The model was further generalized to include anisotropic or even nodal gaps [\\[74\\]](#page-10-14). Here, it is sufficient to consider the original isotropic approach.\n\n#### C. The isotropic γ−model\n\nThe γ−model considers two bands with Fermi velocities, v<sup>i</sup> , and the partial densities of states, n<sup>i</sup> = N<sup>i</sup> (0) /N (0), where N (0) is the total density of states at Fermi level, so that n1+n<sup>2</sup> = 1. The dimensionless effective interaction constants are defined as νik = N(0)Vik, where Vik is the electron-electron interaction matrix. Note that in the original paper we used λ for the interaction matrix. To avoid confusion with the London\n\n![](_page_4_Figure_0.jpeg)\n\n<span id=\"page-4-0\"></span>FIG. 3. (a) Symbols show the superfluid density in pristine sample calculated from the data shown in Fig[.2.](#page-3-0) Blue and green solid lines show labeled partial superfluid densities, ρ<sup>1</sup> and ρ2, obtained in the least squares fitting. The thick orange line behind the data shows an excellent agreement of the data with the fitted total superfluid density, ρ<sup>s</sup> = γρ<sup>1</sup> + (1 − γ) ρ2. Best fit parameters are: ν<sup>11</sup> = 0.700, ν<sup>22</sup> = 0.578, ν<sup>12</sup> = 0.005, and γ = 0.175. (b) Best fit solutions of the self-consistency gap equations, Eq[.2.](#page-4-1) The T = 0 gap ratios are, ∆1/T<sup>c</sup> = 1.787 and ∆2/T<sup>c</sup> = 1.005.\n\npenetration depth, here we use νik. Also note that this definition differs from that used in the literature, gik = nkνik. Our notation has an advantage of being symmetric, νik = νki. Therefore, for two bands, we have three coefficients of the interaction matrix, two in-band, ν<sup>11</sup> and ν22, and an inter-band coupling, ν12. In the analysis, we perform a least-squares fit of the experimental superfluid density shown in [3](#page-4-0) (a) in Matlab. If all normal-state parameters of a material are known, νik are the three fitting parameters. They are reduced to two free parameters by the equation for T<sup>c</sup> (νik),\n\n<span id=\"page-4-2\"></span>\n$$1.7638k\\_B T\\_c = 2\\hbar\\omega\\_D \\exp(-1/\\widehat{\\nu})\\tag{1}$$\n\nwhere we assume conventional electron-phonon mechanism of superconductivity with ω<sup>D</sup> being the Debye frequency. In general, if energy of bosonic pairing \"glue\" is known, it should be substituted instead of ~ω<sup>D</sup> in Eq[.1.](#page-4-2) The pre-factor comes from the weak-coupling approximation used in the γ−model. The effective interaction constant, <sup>ν</sup><sup>e</sup> (νik), is obtained from the solution of algebraic equations containing all coefficients, νik, see Section II.A of Ref. [\\[7\\]](#page-8-8). To fit the superfluid density, first the selfconsistent gap equation is solved at each temperature. Introducing dimensionless quantities, δ<sup>i</sup> = (∆i/T)/(2πt), where t = T /Tc, the gaps equations are given by\n\n<span id=\"page-4-1\"></span>\n$$\\begin{aligned} \\delta\\_i &= \\sum\\_{k=1,2} n\\_k \\nu\\_{ik} \\delta\\_k \\left( \\widetilde{\\nu}^{-1} - \\ln t - A\\_k \\right), \\\\ A\\_k &= \\sum\\_{n=0}^{\\infty} \\left[ \\left( n + 1/2 \\right)^{-1} - \\left( \\delta\\_k^2 + \\left( n + 1/2 \\right)^2 \\right)^{-1/2} \\right] \\quad (2) \\end{aligned}$$\n\nNote that we often set Boltzmann constant, k<sup>B</sup> = 1, where it is obvious, and use it explicitly to emphasize the numerical values or proper dimensions, e.g., Eq[.1.](#page-4-2) For a given set of the coupling constants, νik, and partial densities of states, n<sup>i</sup> , this system can be solved numerically for δ<sup>i</sup> (t) and therefore provide the energy gaps, ∆<sup>i</sup> (t) = 2πT δi(t). This is a crucial step missing in the so-called α−model description of the two-band superconductivity [\\[13\\]](#page-9-2). While it was useful early on to explain experimental signatures of two-gap superconductivity in MgB<sup>2</sup> , the fitting parameters of α−model have little physical meaning. A follow-up study used two-gap functions pre-calculated from the microscopic theory and showed an excellent agreement between experimental and theoretical superfluid density, ρ<sup>s</sup> (t) [\\[75\\]](#page-10-15). Indeed, the s−wave MgB<sup>2</sup> for which all normal-state parameters are known is a perfect demonstration of the γ−model where different quantities are calculated from νik obtained from the fit of ρ<sup>s</sup> (t) [\\[7,](#page-8-8) [29\\]](#page-9-13).\n\nFigure [3\\(](#page-4-0)b) shows two gaps calculated self-consistently from Eq[.2.](#page-4-1) The individual gap ratios are, ∆1/T<sup>c</sup> = 1.787 and ∆2/T<sup>c</sup> = 1.005. This should be compared with the results of microwave surface impedance measurements where similar apparent two-gap behavior was observed in the superfluid density and the values of ∆1/T<sup>c</sup> = 1.8 and ∆2/T<sup>c</sup> = 0.95, quite close to ours, were derived [\\[30\\]](#page-9-15). In the absolute units we obtain, ∆<sup>1</sup> (0) ≈ 2.53 meV and ∆<sup>2</sup> (0) ≈ 1.42 meV. After the gaps are calculated, the total superfluid density, ρ<sup>s</sup> = γρ1+(1 − γ) ρ<sup>2</sup> can be evaluated and fitted to the experimental data. The partial contributions to the superfluid density are given by [\\[7\\]](#page-8-8),\n\n$$\\rho\\_i = \\delta\\_i^2 \\sum\\_{n=0}^{\\infty} \\left[ \\delta\\_i^2 + \\left( n + 1/2 \\right)^2 \\right]^{-3/2},$$\n\n$$\\gamma = \\frac{n\\_1 v\\_1^2}{n\\_1 v\\_1^2 + n\\_2 v\\_2^2} \\tag{3}$$\n\nwhere v<sup>i</sup> are the Fermi velocities (not to be confused with Greek ν<sup>i</sup> of the interaction matrix). Analyzing Fig[.1,](#page-2-0) we group bands 1 and 2 into one effective band I, and bands\n\n![](_page_5_Figure_0.jpeg)\n\n<span id=\"page-5-0\"></span>FIG. 4. Knock-out defects creation cross-sections for vanadium and silicon ions in V3Si as function of electron energy assuming the displacement energy threshold, E<sup>d</sup> = 25 eV. At the operating energy of 2.5 MeV, the total cross-section is σ = 72 barn, which leads to the estimate of 4.4 × 10<sup>−</sup><sup>4</sup> displacements-per-atom (dpa) per 1 C/cm<sup>2</sup> of the irradiation.\n\n3 and 4 into another band II, and we can safely neglect band 5. (Here we use Roman numerals I and II to index these \"effective\" bands). For the first effective band, we find γ = n1v 2 <sup>1</sup> + n2v 2 2 / P<sup>5</sup> <sup>i</sup>=1 niv 2 <sup>i</sup> = 0.109. If we included band 5, it'd make the difference only in 6th decimal digit. Using γ as another fitting parameter, the best fit of this model to the data gave ν<sup>11</sup> = 0.700 (fixed by Tc, Eq[.1\\)](#page-4-2), ν<sup>22</sup> = 0.578, ν<sup>12</sup> = 0.005, and γ = 0.175, with the effective <sup>ν</sup><sup>e</sup> = 0.350 (see Eq[.1\\)](#page-4-2). Remarkably, the best-fit value of γ is quite close to the estimate from the electronic band-structure calculations, see Table [I](#page-2-1) where we find γ = 0.109, . This gives confidence in the model and shows its applicability to describe the superconductivity in V3Si. Naturally, overall, smaller partial density of states on band I, somewhat counter-intuitively, leads to a larger gap, which is the property of the self-consistent two-band model [\\[7,](#page-8-8) [35\\]](#page-9-20). We note that the possible uncertainty in the experimental value of λ (0) leads to some uncertainty in the fitting parameters, but not large enough to alter the general conclusion of the relative amplitudes of the obtained interaction matrix.\n\n#### D. Effect of electron irradiation\n\nIn the last three decades, many studies involving particle irradiation were performed on various conventional and unconventional superconductors and there is a vast literature on this topic [\\[42,](#page-9-27) [76–](#page-10-16)[78\\]](#page-10-17) Due to the differences in the rest mass and irradiation temperature, the number and the morphology of the created defects varies significantly between different projectile particles. It appears that MeV electrons, thanks to a small rest mass, transfer just enough energy upon collision with ions, of the order of tens of eV, to produce well-defined point-like scattering centers [\\[48\\]](#page-9-33). Much larger energy transfer, for example from protons, produce many secondary collisions and less localized damage. A more detailed discussion of electron irradiation and created defects in solids can be found elsewhere [\\[62,](#page-10-3) [63\\]](#page-10-4).\n\nFigure [4](#page-5-0) shows the ion-type-resolved cross-sections of the defects creation calculated using SECTE (\"Sections Efficaces Calcul Transport d'Electrons\") software, devel- ´ oped at Ecole Polytechnique (Palaiseau, France) by mem- ´ bers of the \"Laboratoire des Solides Irradi´es\", specifically for the interpretation of MeV-range electron irradiation using their Pelletron-type linear accelerator, SIRIUS [\\[79\\]](#page-10-18). Basically, this is a computer-assisted atomic-weightsaveraged interpolation of the ion knock-out cross-sections tabulated by O. S. Oen [\\[80\\]](#page-10-19). In the absence of microscopic calculations, we used the commonly assumed value of the ion displacement energy upon a head-on collision, E<sup>d</sup> = 25 eV. The partial cross-sections are very similar, and we expect a roughly equal number of defects on vanadium and silicon sites. At the operational energy of 2.5 MeV, the total cross-section is estimated as σ = 72 barn, which means that roughly 1.8 defects are produced per 1000 unit formulas per 1 C/cm<sup>2</sup> . This is a small number of defects that cannot change the electronic structure in any appreciable way, and a significant reduction of T<sup>c</sup> observed in our experiments must have a different explanation, such as its pair-breaking nature.\n\nFirst, let us examine the effect of electron irradiation on superfluid density. While we do not know how much λ (0) changes, we attempted to adjust its value to scale all curves onto a pristine one. As shown in Fig[.5](#page-6-0) this worked rather well with a small increase of λ (0) values shown in the legend. This indicates that scattering does not alter the gap values themselves and, due to very small inter-band coupling, has practically no effect on the total superfluid density. Each isotropic band follows the Anderson theorem [\\[81\\]](#page-10-20) and the change in T<sup>c</sup> comes mostly from the inter-band scattering between order parameters of different magnitude. We note that the relative change of λ (0) can be estimated from Tinkham's widelyused approach [\\[82\\]](#page-10-21) that gives for moderate scattering, λ ≈ λcleanp 1 − ξ0/` , where ξ<sup>0</sup> ≈ 60 nm is the BCS coherence length, and ` ≈ 30 nm is the electronic mean free path in the pristine state. Both numbers are estimated for V3Si from Tc, Fermi velocity and resistivity, see Table [I](#page-2-1) and Fig[.2.](#page-3-0) As shown in Fig[.2,](#page-3-0) at the maximum irradiation dose, the resistivity doubles. Therefore, we expect the increase of λ (0) by a factor of about 1.3, which is not large and does not alter our conclusions, especially considering an apparent scaling shown in Fig[.5](#page-6-0) .\n\n## E. Suppression of T<sup>c</sup> by disorder in a two-band superconductor\n\nWhile it is clear that the superfluid density shows a convincing two-distinct-gaps features implying small\n![](0__page_6_Figure_0.jpeg)\n\n<span id=\"page-6-3\"></span>FIG. 5. Evolution of superfluid density (ρs) upon irradiation. For the pristine case, we used λ(0) = 130 nm from Ref. [\\[3\\]](#page-8-0). The curves representing irradiated state were calculated with the penetration depth λ(0) values shown in the legend. They were chosen to collapse the curves on the pristine one.\n\ninter-band coupling, this still leaves an unanswered important question of the relative sign of the order parameter on each band. This is because superfluid density, as well as any other thermodynamic quantity includes even powers of the gap function, so that an s<sup>±</sup> state cannot be distinguished from an s++ state if the gaps are the same, see, for example, Eq[.3.](#page-4-0) The suppression of T<sup>c</sup> on the other hand is very sensitive to the overall anisotropy of the order parameter, including a generalized view when two bands are considered side by side along the common path on the entire Fermi surface [\\[83\\]](#page-10-0). This situation can be analyzed employing a very useful ansatz that temperature and angular parts of the order parameter can be separated, ∆ (T, k<sup>F</sup> ) = Ψ (T) Ω (k<sup>F</sup> ), where k<sup>F</sup> is Fermi wave vector and the angular part obeys the normalization condition for the Fermi surface average, Ω 2 F S = 1 [\\[83,](#page-10-0) [84\\]](#page-10-1). For example, for a single band s−wave, Ω = 1 and for a <sup>d</sup>−wave, Ω = <sup>√</sup> 2 cos (2ϕ). For a two-gap superconductor Kogan introduced two gaps each described by its own angular part Ω<sup>i</sup> [\\[83\\]](#page-10-0). In this case, the normalization reads,\n\n<span id=\"page-6-1\"></span>\n$$\n\\left\\langle \\Omega^2 \\right\\rangle = n\\_1 \\left\\langle \\Omega\\_1^2 \\right\\rangle + n\\_2 \\left\\langle \\Omega\\_2^2 \\right\\rangle = 1 \\tag{4}\n$$\n\nIn the case of an anisotropic gap, even non-magnetic (no spin-flip) scatterers suppress superconducting transition temperature, Tc. With spin-flip scattering both channels reduce Tc. Openov gives a generalized Abrikosov-Gor'kov [\\[85\\]](#page-10-2) type expression where gap anisotropy is explicitly taken into account [\\[86,](#page-10-3) [87\\]](#page-10-4). We note that a more general theory of the T<sup>c</sup> suppression by disorder scattering, extended to topologically non-trivial superconductors, is discussed elsewhere [\\[43,](#page-9-0) [44\\]](#page-9-1). Here it suffice to consider the Ω− approach, which gives,\n\n$$\\begin{split} \\ln t\\_c &= \\psi \\left( \\frac{g + g\\_m}{2t\\_c} + \\frac{1}{2} \\right) - \\psi \\left( \\frac{1}{2} \\right) \\\\ &- \\left< \\Omega \\right>^2 \\left[ \\psi \\left( \\frac{g + g\\_m}{2t\\_c} + \\frac{1}{2} \\right) - \\psi \\left( \\frac{g\\_m}{t\\_c} + \\frac{1}{2} \\right) \\right] \\quad (5) \\end{split}$$\n\nwhere t<sup>c</sup> = Tc/Tc<sup>0</sup> with Tc<sup>0</sup> being the transition temperature in a pristine state, and ψ is the digamma function. Dimensionless magnetic and non-magnetic scattering rates are given by\n\n<span id=\"page-6-2\"></span><span id=\"page-6-0\"></span>\n$$g\\_{(m)} = \\frac{\\hbar}{2\\pi k\\_B T\\_{c0}} \\frac{1}{\\tau\\_{(m)}} \\tag{6}$$\n\nwhere τ and τ<sup>m</sup> are non-magnetic and magnetic (spin flip) scattering times, respectively. (Note that original Abrikosov-Gor'kov theory uses a different definition of the scattering rate, ρ = ~/ (πkBTcτ ), with the actual (suppressed) Tc). The effect of gap anisotropy can be immediately seen from Eq[.5](#page-6-0) - it contains Ω in the first power. For a single-band s−wave, hΩi = 1 and we obtain t<sup>c</sup> = 1, recovering the Anderson theorem [\\[81\\]](#page-10-5). For a d−wave, hΩi = 0 and we obtain an expression where both magnetic and non-magnetic impurities suppress Tc. It is interesting to note that the critical value for the complete T<sup>c</sup> suppression of an s−wave order parameter by magnetic impurities, g<sup>m</sup> = 0.14, is exactly half of the value for a d−wave order parameter suppression by nonmagnetic impurities, g = 0.28.\n\nWe can now use Eq[.5](#page-6-0) with the two-gaps Ω−approach, Eq[.4](#page-6-1) and that hΩi = n<sup>1</sup> hΩ1i + n<sup>2</sup> hΩ2i. Specifically, we consider two isotropic gaps described by constant values Ω<sup>1</sup> and Ω1. In other words, two bands are represented in a generalized single angular coordinate, - band 1 from 0 to 2π, and band 2 from 2π to 4π, each with its own density of states N<sup>i</sup> , so that the partial densities of states are n<sup>i</sup> = Ni/ (N<sup>1</sup> + N2). Introducing the gap ratio, r = Ω2/Ω<sup>1</sup> and the ratio of the partial densities of state, n = n2/n1=N1/N2, we obtain for the total average in this two-gap model:\n\n<span id=\"page-6-4\"></span>\n$$\n\\left<\\Omega\\right>^2 = \\frac{(nr+1)^2}{\\left(n+1\\right)\\left(nr^2+1\\right)}\\tag{7}\n$$\n\nWithout magnetic scattering (g<sup>m</sup> = 0), the transition temperature of a two-band superconductor is,\n\n$$\\begin{split} \\ln t\\_c &= \\psi \\left( \\frac{g}{2t\\_c} + \\frac{1}{2} \\right) - \\psi \\left( \\frac{1}{2} \\right) \\\\ &- \\frac{(nr+1)^2}{(n+1)\\left(nr^2+1\\right)} \\left[ \\psi \\left( \\frac{g}{2t\\_c} + \\frac{1}{2} \\right) - \\psi \\left( \\frac{1}{2} \\right) \\right] \\end{split} \\tag{8}$$\n\nIt is important to emphasize that the superfluid density as a function of (reduced) temperature and T<sup>c</sup> are two independent measurements, which makes the analysis better defined and constrained.\n\n![](0__page_7_Figure_0.jpeg)\n\n<span id=\"page-7-0\"></span>FIG. 6. Suppression of T<sup>c</sup> upon different types of particle irradiation. Normalized T<sup>c</sup> suppression upon electron irradiation (current study) is compared with two different previous studies by proton and neutron irradiations. It is clearly shown that the electron irradiation is most effective in suppressing Tc.\n\nTo compare the experimentally observed decrease of T<sup>c</sup> with our model, we need a proper parameter characterizing the scattering rate. The problem is that different sources of disorder produce somewhat different effects. Figure [6](#page-7-0) compares the relative change of the transition temperature, ∆t<sup>c</sup> ≡ (T<sup>c</sup> − Tc0) /Tc0, in V3Si per 1 µΩ · cm of resistivity increase caused by electron irradiation in the current study with two previous studies where defects were induced by proton [\\[88\\]](#page-10-6) and neutron [\\[5\\]](#page-8-1) irradiation. The rates of the relative change are, d∆tc/dρ = −0.013 (µΩ · cm)<sup>−</sup><sup>1</sup> (electron irradiation), -0.008 (µΩ · cm)<sup>−</sup><sup>1</sup> (neutron), and -0.006 (µΩ · cm)<sup>−</sup><sup>1</sup> (proton). Due to their small rest mass and matching range of the energy transfer (1-100 eV), electrons produce the most efficient point-like defects and have the largest suppression rate. A similar trend is observed in other materials, for example, well-studied iron-based superconductors [\\[42,](#page-9-2) [48\\]](#page-9-3). On the other hand, the observed rates are not too different, roughly 0.01 (µΩ · cm)<sup>−</sup><sup>1</sup> , and we can put it in a perspective by comparing with other superconductors. For that, we need to calculate the dimensionless scattering rate, Eq[.6.](#page-6-2) In our case of measured λ (T) and ρ (T) the simplest estimate of the scattering time, τ , is via the London and Drude electrodynamics, τ (Tc) = µ0λ 2 clean (0) /ρ (Tc). Note that clean-limit value, λclean (0), needed for the density of states in the normal metal, enters this estimate, whereas (normal metal) scattering time comes from resistivity. This approach is well justified in isotropic s−wave superconductors and s++ compounds assuming that the gap smearing caused by the modest amounts of non-magnetic disorder is much smaller than the gap amplitudes.\n\nIn our case, we can use Tinkham's widely-used ap-\n\nproach [\\[82\\]](#page-10-7) that gives for moderate scattering, λ ≈ λcleanp 1 − ξ0/` , where ξ<sup>0</sup> ≈ 60 nm is the BCS coherence length, and ` ≈ 30 nm is the electronic mean free path in the pristine state. Both numbers are estimated for V3Si from Tc, Fermi velocity and resistivity, see Table [I](#page-2-0) and Fig[.2.](#page-3-0) As shown in Fig[.2,](#page-3-0) at the maximum irradiation dose, the resistivity doubles. Therefore, we expect the increase of λ (0) by a factor of about 1.3. This is an insignificant change to alter the main features reported here - the exponential attenuation at low temperatures and a higher temperature kink signaling of two barelycoupled gaps of different magnitude. This is further confirmed by the apparent scaling of the superfluid density for all doses of electron irradiation, Fig[.5.](#page-6-3)\n\nThe experimental dimensionless scattering rate can be estimated as,\n\n$$g \\approx \\frac{\\hbar}{2\\pi k\\_B \\mu\\_0} \\frac{\\rho(T\\_c)}{T\\_{c0} \\lambda\\_{clean}(0)^2} \\tag{9}$$\n\nNote that we measure resistivity change with respect to the pristine sample to subtract inelastic scattering, but this also removes background impurity scattering in samples before irradiation. Fortunately, judging by very low pinning, this correction is negligible [\\[26\\]](#page-9-4). Also, note that this dimensionless rate contains unmodified Tc0, which is different from the original Abrikosov-Gor'kov definition [\\[85\\]](#page-10-2).\n\nFigure [7](#page-8-2) shows the normalized change of superconducting transition temperature, ∆t<sup>c</sup> ≡ (T<sup>c</sup> − Tc0) /Tc0, as function of the dimensionless scattering rate, g. Figure [7\\(](#page-8-2)a) compares V3Si single crystal with known nodeless and nodal s<sup>±</sup> superconductors, isovalently substituted Ba(Fe0.76Ru0.24)2As<sup>2</sup> and BaFe2(As0.7P0.3)2, and holedoped underdoped Ba0.81K0.19Fe2As<sup>2</sup> and optimallydoped Ba0.66K0.34Fe2As<sup>2</sup> (BaK122) [\\[42\\]](#page-9-2). The theoretical curves from Eq[.8](#page-6-4) are shown by different lines. Clearly, all sign-changing s<sup>±</sup> superconductors show suppression rate significantly higher than in two-gap V3Si, which is consistent with s++ theoretical curve for gap ratio, r = +0.4, while the same gap ratio, but of opposite signs, r = −0.4, is close to BaK122 data. Interestingly, a nodal multi-band s<sup>±</sup> superconductor, BaFe2(As0.7P0.3)2, shows even greater rate of T<sup>c</sup> suppression, most likely because in this case the inter-band and in-band scattering channels are both pair-breaking. Figure [7\\(](#page-8-2)b) compares V3Si with another s++ two-band superconductor, NbSe<sup>2</sup> [\\[89\\]](#page-10-8), and unconventional Dirac semi-metal compound, PdTe<sup>2</sup> [\\[43,](#page-9-0) [90\\]](#page-10-9). In NbSe2, the situation is complicated by the charge-density wave (CDW), whose competition with superconductivity (SC) leads to the initial increase of Tc. However, as soon as CDW is destroyed by disorder, further suppression of T<sup>c</sup> is quite similar to our subject compound, V3Si [\\[89\\]](#page-10-8). The second compound, unconventional PdTe<sup>2</sup> shows the rate of suppression quite similar to V3Si. Moreover, it also has a fully-gapped Fermi surface leading to exponential attenuation of the penetration depth. However, peculiarities of the elec-\n\n![](0__page_8_Figure_0.jpeg)\n\n<span id=\"page-8-2\"></span>FIG. 7. Normalized change of superconducting transition temperature, ∆t<sup>c</sup> ≡ (T<sup>c</sup> − Tc0) /Tc<sup>0</sup> as function of the dimensionless scattering rate, g. (a) comparison of V3Si single crystal with known nodeless and nodal s<sup>±</sup> superconductors shown in the legend. The theoretical curves from Eq[.8](#page-6-4) are shown by lines. Clearly, all sign-changing s<sup>±</sup> superconductors show suppression rate larger than in V3Si. (b) similar comparison with another s++ two-band superconductor, NbSe<sup>2</sup> [\\[89\\]](#page-10-8) and unconventional Dirac semi-metal compound, PdTe<sup>2</sup> [\\[43,](#page-9-0) [90\\]](#page-10-9). As soon as CDW is suppressed, NbSe<sup>2</sup> shows a similar suppression rate as V3Si.\n\ntronic band structure of PdTe<sup>2</sup> support unconventional pairing mechanism [\\[43,](#page-9-0) [90\\]](#page-10-9), whereas V3Si does not have such topological features and is consistent with BCS-type two-gap superconductivity. This is a good example show-\n\n## IV. CONCLUSIONS\n\ning that measurements alone cannot answer objectively.\n\nThey must be supported by theoretical analysis.\n\nWe used controlled point-like disorder induced by 2.5 MeV electron irradiation at different doses to study superconducting order parameter in a V3Si single crystal. Simultaneous measurements of London penetration depth and superconducting transition temperature, Tc, set stringent experimental boundaries on possible superconducting states. Specifically, we observe: (1) exponentially attenuated low-temperature behavior of λ (T) (which means a fully gapped Fermi surface); (2) a kink at higher reduced temperatures (signaling of two barelycoupled gaps); (3) a significant shift of T<sup>c</sup> (gaps of different amplitude). The discussed analysis is applicable for any choice of λ (0). Using a two-band analysis for both quantities, ρ<sup>s</sup> (T) and ∆Tc, we conclude that s++ pairing with two barely-coupled gaps of different amplitudes, ∆<sup>1</sup> (0) ≈ 2.53 meV and ∆<sup>1</sup> (0) ≈ 1.42 meV, provide an excellent fit and overall self-consistent description of the experiment. This makes V3Si the earliest (superconductivity discovered in 1953) proven s++ superconductor, preceding MgB<sup>2</sup> (superconductivity discovered in 2001) by half a century.\n\n## ACKNOWLEDGMENTS\n\nWe thank David Christen for providing excellent single crystals well-characterized in his earlier papers. This work was supported by the US Department of Energy (DOE), Office of Science, Basic Energy Sciences, Materials Science and Engineering Division. Ames Laboratory is operated for the US DOE by Iowa State University under contract DE-AC02-07CH11358. The authors acknowledge support from the EMIR&A French network (FR CNRS 3618) on the \"SIRIUS\" platform under proposal # 18-5155. We thank the whole SIRIUS team, O. Cavani, B. Boizot, V. Metayer, and J. Losco, for operating electron irradiation facility.\n\n- [1] G. F. Hardy and J. K. Hulm, Phys. Rev. 89[, 884 \\(1953\\).](https://doi.org/10.1103/physrev.89.884)\n- [2] J. W. Blezius and J. P. Carbotte, [Phys Rev B](https://doi.org/10.1103/physrevb.33.3509) 33, 3509 [\\(1986\\).](https://doi.org/10.1103/physrevb.33.3509)\n- <span id=\"page-8-0\"></span>[3] W. D. Wu, A. Keren, L. P. Le, G. M. Luke, B. J. Sternlieb, Y. J. Uemura, D. C. Johnston, B. K. Cho, and P. Gehring, [Hyperfine Interact.](https://doi.org/10.1007/BF02068956) 86, 615 (1994).\n- [4] L. R. Testardi, J. M. Poate, and H. J. Levinstein, [Phys.](https://doi.org/10.1103/PhysRevB.15.2570) Rev. B 15[, 2570 \\(1977\\).](https://doi.org/10.1103/PhysRevB.15.2570)\n- <span id=\"page-8-1\"></span>[5] R. Viswanathan and R. Caton, [Phys. Rev. B](https://doi.org/10.1103/PhysRevB.18.15) 18, 15 [\\(1978\\).](https://doi.org/10.1103/PhysRevB.18.15)\n- [6] M. N. Khlopkin, [Journal of Experimental and Theoreti](https://doi.org/10.1134/1.567979)[cal Physics Letters](https://doi.org/10.1134/1.567979) 69, 26 (1999).\n- [7] V. G. Kogan, C. Martin, and R. Prozorov, Phys. Rev. B 80, 014507 (2009).\n- [8] S. Tanaka, A. Miyake, T. Kagayama, K. Shimizu, B. Salce, and D. Braithwaite, J. Phys. Conf. Ser. (Online) 200, 3 (2010).\n- [9] I. B. Goldberg and M. Weger, [Le Journal de Physique](https://doi.org/10.1051/jphyscol:1972333) Colloques 33[, C3 \\(1972\\).](https://doi.org/10.1051/jphyscol:1972333)\n- [10] B. M. Klein, L. L. Boyer, D. A. Papaconstantopoulos, and L. F. Mattheiss, [Phys. Rev. B](https://doi.org/10.1103/physrevb.18.6411) 18, 6411 (1978).\n- [11] J. Bok and J. Bouvier, [J. Supercond. Novel Magn.](https://doi.org/10.1007/s10948-012-1434-3) 25, [657 \\(2012\\).](https://doi.org/10.1007/s10948-012-1434-3)\n- [12] J. Nagamatsu, N. Nakagawa, T. Muranaka, Y. Zenitani, and J. Akimitsu, Nature 410, 63 (2001).\n- [13] F. Bouquet, Y. Wang, R. A. Fisher, D. G. Hinks, J. D. Jorgensen, A. Junod, and N. E. Phillips, Europhys. Lett. 56, 856 (2001).\n- [14] J. Kortus, I. I. Mazin, K. D. Belashchenko, V. P. Antropov, and L. L. Boyer, [Phys. Rev. Lett.](https://doi.org/10.1103/physrevlett.86.4656) 86, 4656 [\\(2001\\).](https://doi.org/10.1103/physrevlett.86.4656)\n- [15] S. L. Bud'ko, G. Lapertot, C. Petrovic, C. E. Cunningham, N. Anderson, and P. C. Canfield, [Phys. Rev. Lett.](https://doi.org/10.1103/physrevlett.86.1877) 86[, 1877 \\(2001\\).](https://doi.org/10.1103/physrevlett.86.1877)\n- [16] J. Bardeen, L. N. Cooper, and J. R. Schrieffer, [Phys. Rev.](https://doi.org/10.1103/physrev.106.162) 106[, 162 \\(1957\\).](https://doi.org/10.1103/physrev.106.162)\n- [17] V. A. Moskalenko, Fiz. Met. Metalloved. (USSR); [Phys. Met. Metallogr. 8, 25 (1959)] 8:4 (1959).\n- [18] H. Suhl, B. T. Matthias, and L. R. Walker, [Phys. Rev.](https://doi.org/10.1103/physrevlett.3.552) Lett. 3[, 552 \\(1959\\).](https://doi.org/10.1103/physrevlett.3.552)\n- [19] B. T. Geilikman, R. O. Zaitsev, and V. Z. Kresin, Sov. Phys.- Solid State (Engl. Transl.), 9: 642-7(Sept. 1967). (1967).\n- [20] I. Mazin, A. Liechtenstein, C. Rodriguez, O. Jepsen, and O. Andersen, [Physica C: Superconductivity](https://doi.org/10.1016/0921-4534(93)90886-u) 209, 125 [\\(1993\\).](https://doi.org/10.1016/0921-4534(93)90886-u)\n- [21] A. Golubov, O. Dolgov, E. Maksimov, I. Mazin, and S. Shulga, [Physica C: Superconductivity](https://doi.org/10.1016/0921-4534(94)92412-0) 235-240, 2383 [\\(1994\\).](https://doi.org/10.1016/0921-4534(94)92412-0)\n- [22] A. Golubov and I. Mazin, [Physica C: Superconductivity](https://doi.org/10.1016/0921-4534(94)02445-6) 243[, 153 \\(1995\\).](https://doi.org/10.1016/0921-4534(94)02445-6)\n- [23] A. A. Golubov and I. I. Mazin, [Phys. Rev. B](https://doi.org/10.1103/physrevb.55.15146) 55, 15146 [\\(1997\\).](https://doi.org/10.1103/physrevb.55.15146)\n- [24] R. Viswanathan, R. Caton, and C. S. Pande, [Phys. Rev.](https://doi.org/10.1103/physrevlett.41.906) Lett. 41[, 906 \\(1978\\).](https://doi.org/10.1103/physrevlett.41.906)\n- [25] T. P. Orlando, E. J. McNiff, S. Foner, and M. R. Beasley, Phys. Rev. B 19[, 4545 \\(1979\\).](https://doi.org/10.1103/physrevb.19.4545)\n- <span id=\"page-9-4\"></span>[26] V. G. Kogan, P. Miranovi´c, L. Dobrosavljevi´c-Gruji´c, W. E. Pickett, and D. K. Christen, [Phys. Rev. Lett.](https://doi.org/10.1103/physrevlett.79.741) 79, [741 \\(1997\\).](https://doi.org/10.1103/physrevlett.79.741)\n- [27] R. Prozorov and V. G. Kogan, Rep. Prog. Phys. 74, 124505 (2011).\n- [28] M. Zehetmayer and J. Hecher, [Supercon. Sci. Tech.](https://doi.org/10.1088/0953-2048/27/4/044006) 27, [044006 \\(2014\\).](https://doi.org/10.1088/0953-2048/27/4/044006)\n- [29] H. Kim, K. Cho, M. A. Tanatar, V. Taufour, S. K. Kim, S. L. Bud'ko, P. C. Canfield, V. G. Kogan, and R. Prozorov, Symmetry 11[, 1012 \\(2019\\).](https://doi.org/10.3390/sym11081012)\n- [30] Nefyodov, Yu. A., Shuvaev, A. M., and Trunin, M. R., [Europhys. Lett.](https://doi.org/10.1209/epl/i2005-10269-9) 72, 638 (2005).\n- [31] A. Perucchi, D. Nicoletti, M. Ortolani, C. Marini, R. Sopracase, S. Lupi, U. Schade, M. Putti, I. Pallecchi, C. Tarantini, M. Ferretti, C. Ferdeghini, M. Monni, F. Bernardini, S. Massidda, and P. Dore, [Phys. Rev. B](https://doi.org/10.1103/PhysRevB.81.092509) 81[, 092509 \\(2010\\).](https://doi.org/10.1103/PhysRevB.81.092509)\n- [32] S. Tanaka, Handoko, A. Miyake, T. Kagayama, K. Shimizu, A. Bohmer, P. Burger, F. Hardy, C. Meingast, T. Tsutsami, and Y. Onuki, [J. Phys. Soc. Jpn.](https://doi.org/10.1143/JPSJS.81SB.SB026) 81, [SB026 \\(2012\\).](https://doi.org/10.1143/JPSJS.81SB.SB026)\n- [33] L. R. Testardi and T. B. Bateman, [Phys. Rev.](https://doi.org/10.1103/physrev.154.402) 154, 402 [\\(1967\\).](https://doi.org/10.1103/physrev.154.402)\n- [34] A. Carrington, C. R. Phys. 12[, 502 \\(2011\\).](https://doi.org/10.1016/j.crhy.2011.03.001)\n- [35] V. G. Kogan and R. Prozorov, [Phys. Rev. B](https://doi.org/10.1103/PhysRevB.93.224515) 93, 224515 [\\(2016\\).](https://doi.org/10.1103/PhysRevB.93.224515)\n- [36] D. J. van Harlingen, [Rev. Mod. Phys.](https://doi.org/10.1103/RevModPhys.67.515) 67, 515 (1995).\n- [37] A. A. Golubov and I. I. Mazin, [Appl. Phys. Lett.](https://doi.org/10.1063/1.4788720) 102, [032601 \\(2013\\).](https://doi.org/10.1063/1.4788720)\n- [38] S. Sykora and P. Coleman, [Phys. Rev. B](https://doi.org/10.1103/physrevb.84.054501) 84, 054501 [\\(2011\\).](https://doi.org/10.1103/physrevb.84.054501)\n- [39] T. Hanaguri, S. Niitaka, K. Kuroki, and H. Takagi, [Sci](https://doi.org/10.1126/science.1187399)ence 328[, 474 \\(2010\\).](https://doi.org/10.1126/science.1187399)\n- [40] D. V. Efremov, M. M. Korshunov, O. V. Dolgov, A. A. Golubov, and P. J. Hirschfeld, [Phys. Rev. B](https://doi.org/10.1103/physrevb.84.180512) 84, 180512 [\\(2011\\).](https://doi.org/10.1103/physrevb.84.180512)\n- [41] G. Ghigo, D. Torsello, G. A. Ummarino, L. Gozzelino, M. A. Tanatar, R. Prozorov, and P. C. Canfield, [Phys.](https://doi.org/10.1103/PhysRevLett.121.107001) Rev. Lett. 121[, 107001 \\(2018\\).](https://doi.org/10.1103/PhysRevLett.121.107001)\n- <span id=\"page-9-2\"></span>[42] K. Cho, M. Ko´nczykowski, S. Teknowijoyo, M. A. Tanatar, and R. Prozorov, Supercon. Sci. Tech. 31, 064002 (2018).\n- <span id=\"page-9-0\"></span>[43] S. Teknowijoyo, N. H. Jo, M. S. Scheurer, M. A. Tanatar, K. Cho, S. L. Bud'ko, P. P. Orth, P. C. Canfield, and R. Prozorov, Phys. Rev. B 98[, 024508 \\(2018\\).](https://doi.org/10.1103/physrevb.98.024508)\n- <span id=\"page-9-1\"></span>[44] E. H. Krenkel, arxiv:AAA.BBB (2021).\n- [45] F. Gross, B. S. Chandrasekhar, D. Einzel, K. Andres, P. J. Hirschfeld, H. R. Ott, J. Beuers, Z. Fisk, and J. L. Smith, [Zeitschrift f¨ur Physik B Condensed Matter](https://doi.org/10.1007/bf01303700) 64, [175 \\(1986\\).](https://doi.org/10.1007/bf01303700)\n- [46] F. Gross-Alltag, B. S. Chandrasekhar, D. Einzel, P. J. Hirschfeld, and K. Andres, [Zeitschrift f¨ur Physik B Con](https://doi.org/10.1007/bf01324334)[densed Matter](https://doi.org/10.1007/bf01324334) 82, 243 (1991).\n- [47] Y. Mizukami, M. Konczykowski, Y. Kawamoto, S. Kurata, S. Kasahara, K. Hashimoto, V. Mishra, A. Kreisel, Y. Wang, P. J. Hirschfeld, Y. Matsuda, and T. Shibauchi, Nat Commun 5, [10.1038/ncomms6657](https://doi.org/10.1038/ncomms6657) (2014).\n- <span id=\"page-9-3\"></span>[48] S. Ghimire, M. Ko´nczykowski, K. Cho, M. A. Tanatar, D. Torsello, I. S. Veshchunov, T. Tamegai, G. Ghigo, and R. Prozorov, Materials 14[, 3267 \\(2021\\).](https://doi.org/10.3390/ma14123267)\n- [49] T. Takenaka, Y. Mizukami, J. Wilcox, M. Konczykowski, S. Seiro, C. Geibel, Y. Tokiwa, Y. Kasahara, C. Putzke, Y. Matsuda, A. Carrington, and T. Shibauchi, [Phys. Rev.](https://doi.org/10.1103/physrevlett.119.077001) Lett. 119[, 077001 \\(2017\\).](https://doi.org/10.1103/physrevlett.119.077001)\n- [50] K. Cho, M. Ko´nczykowski, S. Teknowijoyo, M. A. Tanatar, Y. Liu, T. A. Lograsso, W. E. Straszheim, V. Mishra, S. Maiti, P. J. Hirschfeld, and R. Prozorov, Sci. Adv. 2[, e1600807 \\(2016\\).](https://doi.org/10.1126/sciadv.1600807)\n- [51] M. Putti, M. Affronte, C. Ferdeghini, P. Manfrinetti, C. Tarantini, and E. Lehmann, [Phys. Rev. Lett.](https://doi.org/10.1103/physrevlett.96.077003) 96, [077003 \\(2006\\).](https://doi.org/10.1103/physrevlett.96.077003)\n- [52] M. B. Schilling, A. Baumgartner, B. Gorshunov, E. S. Zhukova, V. A. Dravin, K. V. Mitsen, D. V. Efremov, O. V. Dolgov, K. Iida, M. Dressel, and S. Zapf, [Phys.](https://doi.org/10.1103/physrevb.93.174515) Rev. B 93[, 174515 \\(2016\\).](https://doi.org/10.1103/physrevb.93.174515)\n- [53] J. Kim, N. Haberkorn, M. J. Graf, I. Usov, F. Ronning, L. Civale, E. Nazaretski, G. F. Chen, W. Yu, J. D. Thompson, and R. Movshovich, [Phys. Rev. B](https://doi.org/10.1103/physrevb.86.144509) 86, 144509 [\\(2012\\).](https://doi.org/10.1103/physrevb.86.144509)\n- [54] M. Yethiraj, D. K. Christen, D. M. Paul, P. Miranovic, and J. R. Thompson, [Phys. Rev. Lett.](https://doi.org/10.1103/PhysRevLett.82.5112) 82, 5112 (1999).\n- [55] M. Yethiraj, D. K. Christen, A. A. Gapud, D. M. Paul, S. J. Crowe, C. D. Dewhurst, R. Cubitt, L. Porcar, and A. Gurevich, Phys. Rev. B 72, [10.1103/Phys-](https://doi.org/10.1103/PhysRevB.72.060504)[RevB.72.060504](https://doi.org/10.1103/PhysRevB.72.060504) (2005).\n- [56] R. Prozorov and R. W. Giannetta, Supercon. Sci. Tech. 19, R41 (2006).\n- [57] C. T. Van Degrift, [Rev. Sci. Instrum.](https://doi.org/10.1063/1.1134272) 46, 599 (1975).\n- [58] R. Prozorov, R. W. Giannetta, A. Carrington, and F. M. Araujo-Moreira, [Phys. Rev. B](https://doi.org/10.1103/PhysRevB.62.115) 62, 115 (2000).\n- [59] R. Prozorov, R. W. Giannetta, A. Carrington, P. Fournier, R. L. Greene, P. Guptasarma, D. G. Hinks, and A. R. Banks, Appl. Phys. Lett. 77, 4202 (2000).\n- [60] R. Prozorov, [Phys. Rev. Applied](https://doi.org/10.1103/physrevapplied.16.024014) 16, 024014 (2021).\n- [61] R. Prozorov, M. Ko´nczykowski, M. A. Tanatar, A. Thaler, S. L. Bud'ko, P. C. Canfield, V. Mishra, and P. J. Hirschfeld, Phys. Rev. X 4[, 041032 \\(2014\\).](https://doi.org/10.1103/PhysRevX.4.041032)\n- [62] A. C. Damask and G. J. Dienes, Point Defects in Metals (Gordon & Breach Science Publishers Ltd, 1963).\n- [63] M. W. Thompson, Defects and Radiation Damage in Metals, September 27, 1974 ed., Cambridge Monographs on Physics (Cambridge University Press, 1969).\n- [64] J. P. Perdew, K. Burke, and M. Ernzerhof, [Phys. Rev.](https://doi.org/10.1103/physrevlett.77.3865) Lett. 77[, 3865 \\(1996\\).](https://doi.org/10.1103/physrevlett.77.3865)\n- [65] S. Tanaka, A. Miyake, T. Kagayama, and K. Shimizu, [J.](https://doi.org/10.1088/1742-6596/273/1/012105) [Phys.: Conf. Ser.](https://doi.org/10.1088/1742-6596/273/1/012105) 273, 012105 (2011).\n- [66] G. Kresse and J. Furthm¨uller, [Phys. Rev. B](https://doi.org/10.1103/physrevb.54.11169) 54, 11169 [\\(1996\\).](https://doi.org/10.1103/physrevb.54.11169)\n- [67] K. D. Belashchenko, M. van Schilfgaarde, and V. P. Antropov, Phys. Rev. B 64[, 092503 \\(2001\\).](https://doi.org/10.1103/physrevb.64.092503)\n- [68] D. Torsello, G. Ummarino, J. Bekaert, L. Gozzelino, R. Gerbaldo, M. Tanatar, P. Canfield, R. Prozorov, and G. Ghigo, [Phys. Rev. Applied](https://doi.org/10.1103/physrevapplied.13.064046) 13, 064046 (2020).\n- [69] B. Sadigh and V. Ozoli¸nˇs, Phys. Rev. B 57[, 2793 \\(1998\\).](https://doi.org/10.1103/physrevb.57.2793)\n- [70] A. Matthiessen and C. Vogt, [Philos. Trans. R. Soc. Lond.](https://doi.org/10.1098/rstl.1864.0004) 154[, 167 \\(1864\\).](https://doi.org/10.1098/rstl.1864.0004)\n- [71] T. Hanaguri, Y. Iino, A. Maeda, and T. Fukase, [Phys. C](https://doi.org/10.1016/0921-4534(95)00166-2) [Supercond. its Appl.](https://doi.org/10.1016/0921-4534(95)00166-2) 246, 223 (1995).\n- [72] T. J. Greytak and J. H. Wernick, [J. Phys. Chem. Solids](https://doi.org/10.1016/0022-3697(64)90141-6) 25[, 535 \\(1964\\).](https://doi.org/10.1016/0022-3697(64)90141-6)\n- [73] Y. Muto, N. Toyota, K. Noto, K. Akutsu, M. Isino, and T. Fukase, [J. Low Temp. Phys.](https://doi.org/10.1007/bf00114946) 34, 617 (1979).\n- [74] M. Li, N. R. Lee-Hone, S. Chi, R. Liang, W. N. Hardy, D. A. Bonn, E. Girt, and D. M. Broun, [New J. Phys.](https://doi.org/10.1088/1367-2630/18/8/082001) 18, [082001 \\(2016\\).](https://doi.org/10.1088/1367-2630/18/8/082001)\n- [75] J. D. Fletcher, A. Carrington, O. J. Taylor, S. M. Kazakov, and J. Karpinski, [Phys. Rev. Lett.](https://doi.org/10.1103/PhysRevLett.95.097005) 95, 097005 [\\(2005\\).](https://doi.org/10.1103/PhysRevLett.95.097005)\n- [76] R. D. Brown and J. R. Cost, JOM 42[, 39 \\(1990\\).](https://doi.org/10.1007/bf03220872)\n- [77] H. W. Weber, in [Advances in Cryogenic Engineering Ma](https://doi.org/10.1007/978-1-4613-9871-4_102)[terials](https://doi.org/10.1007/978-1-4613-9871-4_102) (Springer US, 1986) pp. 853–864.\n- [78] T. Tamegai, T. Taen, H. Yagyuda, Y. Tsuchiya, S. Mohan, T. Taniguchi, Y. Nakajima, S. Okayasu, M. Sasase, H. Kitamura, T. Murakami, T. Kambara, and Y. Kanai, [Supercon. Sci. Tech.](https://doi.org/10.1088/0953-2048/25/8/084008) 25, 084008 (2012).\n- [79] [The SIRIUS linear accelerator:](https://portail.polytechnique.edu/lsi/en/facilities/sirius-installation) [https://portail.polytechnique.edu/lsi/en/facilities/sirius](https://portail.polytechnique.edu/lsi/en/facilities/sirius-installation)[installation.](https://portail.polytechnique.edu/lsi/en/facilities/sirius-installation)\n- [80] O. S. Oen, [Cross sections for atomic displacements in](https://doi.org/10.2172/4457758) [solids by fast electrons](https://doi.org/10.2172/4457758), Tech. Rep. (Office of Scientific and Technical Information (OSTI), ID: 4457758, Report Num.: ORNL-4897, 1973).\n- <span id=\"page-10-5\"></span>[81] P. Anderson, [J. Phys. Chem. Solids](https://doi.org/DOI: 10.1016/0022-3697(59)90036-8) 11, 26 (1959).\n- <span id=\"page-10-7\"></span>[82] M. Tinkham, [Introduction to Superconductivity](http://books.google.com/books?id=k6AO9nRYbioC), 2nd ed., Dover Books on Physics (Dover Publications, 2004).\n- <span id=\"page-10-0\"></span>[83] V. G. Kogan, Phys. Rev. B 66[, 020509 \\(2002\\).](https://doi.org/10.1103/physrevb.66.020509)\n- <span id=\"page-10-1\"></span>[84] V. G. Kogan, R. Prozorov, and A. E. Koshelev, [Phys.](https://doi.org/10.1103/PhysRevB.100.014518) Rev. B 100[, 014518 \\(2019\\).](https://doi.org/10.1103/PhysRevB.100.014518)\n- <span id=\"page-10-2\"></span>[85] A. A. Abrikosov and L. P. Gor'kov, Zh. Eksp. Teor. Fiz. (Sov. Phys. JETP 12, 1243 (1961)) 39, 1781 (1960).\n- <span id=\"page-10-3\"></span>[86] L. A. Openov, [Journal of Experimental and Theoretical](https://doi.org/10.1134/1.567576) [Physics Letters](https://doi.org/10.1134/1.567576) 66, 661 (1997).\n- <span id=\"page-10-4\"></span>[87] L. A. Openov, Phys. Rev. B 69[, 224516 \\(2004\\).](https://doi.org/10.1103/physrevb.69.224516)\n- <span id=\"page-10-6\"></span>[88] S. A. Alterovitz, D. E. Farrell, B. S. Chandrasekhar, E. J. Haugland, J. W. Blue, and D. C. Liu, [Phys. Rev. B](https://doi.org/10.1103/PhysRevB.24.90) 24, [90 \\(1981\\).](https://doi.org/10.1103/PhysRevB.24.90)\n- <span id=\"page-10-8\"></span>[89] K. Cho, M. Ko´nczykowski, S. Teknowijoyo, M. A. Tanatar, J. Guss, P. B. Gartin, J. M. Wilde, A. Kreyssig, R. J. McQueeney, A. I. Goldman, V. Mishra, P. J. Hirschfeld, and R. Prozorov, [Nat Commun](https://doi.org/10.1038/s41467-018-05153-0) 9, 2796 [\\(2018\\).](https://doi.org/10.1038/s41467-018-05153-0)\n- <span id=\"page-10-9\"></span>[90] E. I. Timmons, S. Teknowijoyo, M. Ko´nczykowski, O. Cavani, M. A. Tanatar, S. Ghimire, K. Cho, Y. Lee, L. Ke, N. H. Jo, S. L. Bud'ko, P. C. Canfield, P. P. Orth, M. S. Scheurer, and R. Prozorov, [Phys. Rev. Research](https://doi.org/10.1103/physrevresearch.2.023140) 2[, 023140 \\(2020\\).](https://doi.org/10.1103/physrevresearch.2.023140)",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Multi-band s++ superconductivity in V3Si determined\nfrom the response to a controlled disorder",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              147.919921875,
+              52.693603515625
+            ],
+            [
+              466.44317626953125,
+              52.693603515625
+            ],
+            [
+              466.44317626953125,
+              78.5968017578125
+            ],
+            [
+              147.919921875,
+              78.5968017578125
+            ]
+          ]
+        },
+        {
+          "title": "I. INTRODUCTION",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              123.19189453125,
+              355.65252685546875
+            ],
+            [
+              228.70094299316406,
+              355.65252685546875
+            ],
+            [
+              228.70094299316406,
+              364.6189270019531
+            ],
+            [
+              123.19189453125,
+              364.6189270019531
+            ]
+          ]
+        },
+        {
+          "title": "II. EXPERIMENTAL",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              384.29296875,
+              228.84075927734375
+            ],
+            [
+              495.45703125,
+              228.84075927734375
+            ],
+            [
+              495.45703125,
+              237.80712890625
+            ],
+            [
+              384.29296875,
+              237.80712890625
+            ]
+          ]
+        },
+        {
+          "title": "III. RESULTS AND DISCUSSION",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              348.134765625,
+              55.02947998046875
+            ],
+            [
+              525.069580078125,
+              55.02947998046875
+            ],
+            [
+              525.069580078125,
+              65.21044921875
+            ],
+            [
+              348.134765625,
+              65.21044921875
+            ]
+          ]
+        },
+        {
+          "title": "A. Electronic band-structure",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              363.375,
+              80.07550048828125
+            ],
+            [
+              509.90325927734375,
+              80.07550048828125
+            ],
+            [
+              509.90325927734375,
+              89.138671875
+            ],
+            [
+              363.375,
+              89.138671875
+            ]
+          ]
+        },
+        {
+          "title": "B. London penetration depth and superfluid\ndensity",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              69.7763671875,
+              620.1104736328125
+            ],
+            [
+              283.1257629394531,
+              620.1104736328125
+            ],
+            [
+              283.1257629394531,
+              639.6328125
+            ],
+            [
+              69.7763671875,
+              639.6328125
+            ]
+          ]
+        },
+        {
+          "title": "C. The isotropic γ−model",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              376.1387939453125,
+              608.3468322753906
+            ],
+            [
+              502.954345703125,
+              608.3468322753906
+            ],
+            [
+              502.954345703125,
+              617.58984375
+            ],
+            [
+              376.1387939453125,
+              617.58984375
+            ]
+          ]
+        },
+        {
+          "title": "D. Effect of electron irradiation",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              97.34326171875,
+              596.70703125
+            ],
+            [
+              253.40756225585938,
+              596.70703125
+            ],
+            [
+              253.40756225585938,
+              606.0598907470703
+            ],
+            [
+              97.34326171875,
+              606.0598907470703
+            ]
+          ]
+        },
+        {
+          "title": "E. Suppression of Tc by disorder in a two-band\nsuperconductor",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              327.3990173339844,
+              666.8024749755859
+            ],
+            [
+              551.6303100585938,
+              666.8024749755859
+            ],
+            [
+              551.6303100585938,
+              686.42578125
+            ],
+            [
+              327.3990173339844,
+              686.42578125
+            ]
+          ]
+        },
+        {
+          "title": "IV. CONCLUSIONS",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              386.0859375,
+              121.9130859375
+            ],
+            [
+              492.46875,
+              121.9130859375
+            ],
+            [
+              492.46875,
+              131.50579833984375
+            ],
+            [
+              386.0859375,
+              131.50579833984375
+            ]
+          ]
+        },
+        {
+          "title": "ACKNOWLEDGMENTS",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              379.212890625,
+              410.4481201171875
+            ],
+            [
+              498.96044921875,
+              410.4481201171875
+            ],
+            [
+              498.96044921875,
+              419.4145202636719
+            ],
+            [
+              379.212890625,
+              419.4145202636719
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              375
+            ],
+            [
+              "Line",
+              90
+            ],
+            [
+              "Text",
+              8
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Footnote",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              412
+            ],
+            [
+              "Line",
+              117
+            ],
+            [
+              "TextInlineMath",
+              6
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              572
+            ],
+            [
+              "Line",
+              130
+            ],
+            [
+              "TableCell",
+              36
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              500
+            ],
+            [
+              "Line",
+              105
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              646
+            ],
+            [
+              "Line",
+              115
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Equation",
+              3
+            ],
+            [
+              "Reference",
+              3
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              422
+            ],
+            [
+              "Line",
+              108
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              693
+            ],
+            [
+              "Line",
+              172
+            ],
+            [
+              "TextInlineMath",
+              6
+            ],
+            [
+              "Equation",
+              5
+            ],
+            [
+              "Reference",
+              5
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              566
+            ],
+            [
+              "Line",
+              106
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              303
+            ],
+            [
+              "Line",
+              73
+            ],
+            [
+              "ListItem",
+              10
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "Reference",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              513
+            ],
+            [
+              "Line",
+              129
+            ],
+            [
+              "ListItem",
+              49
+            ],
+            [
+              "Reference",
+              5
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              318
+            ],
+            [
+              "Line",
+              77
+            ],
+            [
+              "ListItem",
+              32
+            ],
+            [
+              "Reference",
+              10
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 11,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Multiband superconductivity in V<SUB>3</SUB>Si determined from studying the response to controlled disorder",
+    "authors": [
+      {
+        "authors_list": [
+          "Cho, Kyuil",
+          "Kończykowski, M.",
+          "Ghimire, S.",
+          "Tanatar, M. A.",
+          "Wang, Lin-"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "The London penetration depth λ (T ) was measured in a single crystal of V<SUB>3</SUB>Si . The superfluid density obtained from this measurement shows a distinct signature of two almost decoupled superconducting gaps. This alone is insufficient to distinguish between s<SUB>±</SUB> and s<SUB>++</SUB> pairing states, but it can be achieved by studying the effect of controlled nonmagnetic disorder on the superconducting transition temperature T<SUB>c</SUB>. For this purpose, the same V<SUB>3</SUB>Si crystal was sequentially irradiated by 2.5-MeV electrons three times, repeating the measurement between the irradiation runs. A total dose of 10 C /cm<SUP>2</SUP> (6.24 ×10<SUP>19</SUP> electrons/cm<SUP>2</SUP>) was accumulated, for which T<SUB>c</SUB> changed from 16.4 K in a pristine state to 14.7 K (9.3 %). Not only is this substantial suppression impossible for a single isotropic gap, but also it is not large enough for a sign-changing s<SUB>±</SUB> pairing state. Our electronic band structure calculations show how five bands crossing the Fermi energy can be naturally grouped to support two effective gaps, not dissimilar from the physics of iron pnictides. We analyze the results using two-gap models for both λ (T ) and T<SUB>c</SUB> which describe the data very well. Thus the experimental results and theoretical analysis provide strong support for an s<SUB>++</SUB> superconductivity with two unequal gaps, Δ<SUB>1</SUB>(0 ) ≈2.53 meV and Δ<SUB>2</SUB>(0 ) ≈1.42 meV , and a very weak interband coupling in the V<SUB>3</SUB>Si superconductor.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Physical Review B",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2109.12446"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1103/PhysRevB.105.024506",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2022PhRvB.105b4506C"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

@@ -1,0 +1,962 @@
+{
+  "id": "981f2e2b25482783a3fcec28fe14ede2",
+  "pdf_path": "apl/Superconductors/arXiv:2204.03729.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **Martensitic transformation in V3Si single crystal: 51V NMR evidence for coexistence of cubic and tetragonal phases**\n\nA. A. Gapud\\*,1, S. K. Ramakrishna2 , E. L. Green<sup>2</sup> , and A. P. Reyes<sup>2</sup>\n\n*1 University of South Alabama, Department of Physics, 411 N. University Blvd. MPSB 115, Mobile, AL 36688*\n\n*2 The National High Magnetic Field Laboratory, 1800 E. Paul Dirac Drive, Tallahassee, FL 32310*\n\n## **Abstract**\n\nThe Martensitic transformation (MT) in A15 binary-alloy superconductor V3Si, though studied extensively, has not yet been conclusively linked with a transition to superconductivity. Previous NMR studies have mainly been on powder samples and with little emphasis on temperature dependence during the transformation. Here we study a high-quality single crystal, where quadrupolar splitting of NMR spectra for 51V allowed us to distinguish between spectra from transverse chains of V as a function of temperature. Our data revealed that (1) the MT is not abrupt, but rather there is a microscopic coexistence of pre-transformed cubic phase and transformed tetragonal phase over a few K below and above *T*m, while (2) no pre-transformed phase can be found at *Tc*, and (3) the Martensitic lengthening of one axis occurs predominantly in a plane perpendicular to the crystal growth axis, as twinned domains.\n\nKeywords: Martensitic transformation, V3Si, NMR, A15 superconductors *\\*Corresponding author. Email: gapud@southalabama.edu*\n\n## **1. Introduction**\n\nThe Martensitic transformation (MT) is a second-order displacive structural transformation from cubic to tetragonal symmetry that has long been observed in A15 superconductors Nb3Sn and V3Si, at a temperature *T*<sup>m</sup> a few Kelvins above the superconducting critical temperature *T*c. Though known since the 1960s [1-7], its connection to the transition to the superconducting phase continues to be an open question of great interest today [8-12] – as is the connection between superconductivity and structural transformations in general, e.g., the charge-densitywave phase transition in the normal state of NbSe2 and the orthorhombic-tetragonal transition in YBCO, and more recently, its potential application in quantum information technology [13]. V3Si in its normal, non-superconducting and pre-transformed state is cubic with a lattice constant a = 4.718 Å, where the unit cell consists of a body-centered arrangement of Si atoms, plus a pair of V atoms on each face so that the V atoms form orthogonal \"chains\" along all three principal axes, as shown in Figure 1. The transformation to tetragonal phase is characterized by a 0.15% lengthening along one of the three orthogonal directions – to lattice constant c = 4.725 Å – while the other two axes shrink by 0.06% to lattice constant a' = 4.715, such that c/a' = 1.0025.\n\nThe MT is so subtle that the effects can be discerned only in single-crystal samples of high purity, where the effects can be significant. The sample in this study is a single crystal grown by floating-zone method, as described by Christen *et al* [14] and designated as \"MP3\". In this sample, the MT has manifested as a second-order discontinuity in the temperature dependence of specific heat, a \"kink\" in temperature dependence of susceptibility, and an inflection \"bump\" in resistivity at temperature *T*<sup>m</sup> – the latter of which is shown in Figure 2. MP3 has a high residual resistivity (RRR) of 47, shown in 2(a). The field dependence of *T*<sup>c</sup> and that of *T*<sup>m</sup> are shown in 2(b). The same measurements performed on a sample of less purity, with RRR of 7, revealed none of these features; see Fig. 2(c). The virtual non-existence of impurity phases in MP3 and in the ingot from which it had been sliced has also been confirmed by XRD [14]. This prompted several studies on this and other samples from the same ingot from 1983 to the present that would have otherwise been impossible – e.g., observation of free flux flow using transport measurements [15] and a square-triangular phase transformation in the vortex lattice as observed by small-angle neutron scattering [16], as well as a study of crystal lattice dynamics through inelastic x-ray scattering [17]. The current study subjects this same sample to the sensitive probe\n\nafforded by pulsed Nuclear Magnetic Resonance (NMR) using 51V nuclei. The 51V isotope is an ideal probe for studying structural transformations in this material because its non-spherical nucleus interacts with the electric field in the crystal lattice, modifying the nuclear energy levels resulting in a quadrupolar-split NMR spectrum.\n\nWhile V3Si has been studied by NMR in the past, previous work has either not prioritized the MT, utilized lower fields[18-22], and/or been conducted on powder samples [9,11]. Consequently, we were able to monitor the MT in unprecedented detail, affording clear evidence of the co-existence of transformed and pre-transformed phases over a finite range of temperatures above *T*c, and the non-existence of pre-transformed phase below *T*c. We also find that the lengthening of axes seems to occur only perpendicular to the crystal growth axis, likely due to strain.\n\nUnder high magnetic fields, if the *local* symmetry of the nuclear probe of spin *I* >1/2 is lower than cubic, the nuclear quadrupole moment interacts with the electric field gradient (EFG) of the surrounding charges. This perturbs the otherwise equally spaced nuclear Zeeman levels, which, up to the first order [23], are given by:\n\n$$E\\_m = \\left[ -\\gamma \\hbar H m + \\frac{1}{6} h \\nu\\_Q \\left( \\frac{3 \\cos^2 \\theta - 1}{2} \\right) [3m^2 - I(l+1)] \\right]$$\n\nwhere *m* is the magnetic quantum number and *θ* is the angle between the principal axis of largest EFG and the applied field *H.* The quadrupole splitting parameter is related to the EFG, as\n\n$$\\nu\\_Q = \\frac{3e^2 qQ}{2hI(2I-1)}$$\n\nheretofore called *quadrupole frequency*. A typical NMR spectrum consists of equally spaced 2*I* transitions whose spacing is dependent only on and *θ*. The quadrupole frequency is conveniently measured as the largest spacing between these transitions which occurs when *θ = 0, i.e,* when the principal axis of symmetry of the EFG is aligned parallel to *H*. It is this sensitivity of the NMR spectra to crystal EFG and thus to the position and symmetry of atoms in the unit cell that makes this technique a powerful tool to study the MT. The 51V nuclei have spin *I* = 7/2, gyromagnetic ratio γ/2π = 11.193 MHz/T and quadrupole moment = −0.052 barns. Due to the chain configuration, the local symmetry of the vanadium atoms in V3Si is tetragonal (both in\n\nnormal and martensitic phases), with the largest EFG pointing along the V chains. The hightemperature *θ =0* spectrum for a single V site consists of seven lines corresponding to Δ = ±1 transitions, each separated by . However, the NMR spectra in V3Si is further complicated by signals from two other orthogonal sets of V chains running perpendicular to *H*, *θ =* 90<sup>o</sup> , producing another set of seven lines, but separated instead by /2. The spectra measured at *T* = 90 K was confirmed to show all these features, as are shown in Figure 3, where arrows identify *θ =* 0 and 90o spectral lines. Note that the greater intensity of the spectrum for V chains along *θ =*  90o is consistent with the fact that there are two chains along that direction for every chain along *θ =* 0.[24] This level of detail, not possible in a powder sample, is what allows for a direct and more accurate measurement of quadrupole splitting – which in turn would be sensitive to any changes in the crystal structure, as the temperature is changed across *Tm* . While this splitting is known as in the pre-transformed cubic phase, it is unknown in the transformed, tetragonal phase: it is this post-MT splitting, later designated as , that we investigate in this study.\n\nThe NMR experiments were performed at the National High Magnetic Field Laboratory using the home-made MAGRes2000 spectrometer with quadrature phase-sensitive detection. Spectra were obtained by fast fourier-transform of the spin-echo following a (π/2− π) pulsed sequence while varying the temperature in a magnetic field that is uniform to within 10 ppm/cm DSV, in a superconducting magnet with a range of up to 11 T. The sample is an 8-mm-long cubic prism of width ~1 mm, mounted in a copper pickup coil customized for optimal resonance signal – i.e., with long axis [010] coinciding with the rotational axis and parallel to the coil axis– as also shown in the inset of Figure 3. Sample alignment was made possible by a goniometer stage with a resolution of 0.10<sup>o</sup> , and optimized such that maximal spacing between spectral lines is achieved. The field of *H* = 6.67 T was chosen so as to minimize any overlap with the resonance frequency of 63Cu (from the NMR coil used as a reference, also shown), which placed the resonance frequency *ν<sup>o</sup>* at 75.45 MHz. At this field, MP3 has *T*<sup>c</sup> (6.67 T) = 12.8 K and *T*<sup>m</sup> (6.67 T) = 21.1 K, also shown in Figure 2(b). Above this field, the spectra start to broaden substantially which limits our ability to resolve the NMR peaks at low temperatures.\n\n## **2. Results**\n\nIdentifying and tracking the spacing of peaks in Figure 3 through temperature and phase change was critical at lower temperatures. Peak fittings are further complicated by the spectral overlap due to broadening and Knight shift due to superconductivity. On the other hand, the fact that each set of quadrupolar spectra is collectively defined puts constraints on the fit parameters and also allows identification of any peaks that may be hidden and/or unresolved. The challenge of monitoring the temperature dependence of the spectra was found to be mitigated by visualizing them as a three-dimensional contour plot in lieu of the customary \"waterfall\" plot, with decreasing temperature along the y axis and signal intensity along the z. Examples of this are shown in Figure 4. Figure 4(a) shows spectra in the cubic, pre-transformed phase, at *T* = 90 K, where vertical dashed lines mark the peaks for *θ* = 0 (||H), while the black triangles at the bottom indicate peaks for *θ* = 90<sup>o</sup> (┴H). Here, we confirm that the peak spacings are constant as a function of temperature for both orientations, and the spacing for ┴H is half of , the spacing for ||H. (Note, by contrast, the temperature independence of the spectral line for Cu, marked by the red arrow.) Also apparent here is the behavior of the Knight shift K. As *T* drops, the shift for ┴H spectra is significantly more pronounced than that for ||H. This data is consistent with the isotropic Knight shift, Kiso = (2K┴ + K||)/3, previously measured by Clogston *et al.*[7] in powder samples. Figure 4(b) shows contours at temperatures in the vicinity of the MT, where dramatic changes are readily seen. As temperature crosses *Tm*, one can discern cubic-phase spectral lines ceasing to exist (shown by blue arrows) while tetragonal-phase lines appear (red arrows). For the latter, there is also a drastic frequency shift below *T*c, which is expected from the formation of Cooper pairs in the superconducting phase.\n\nTo account for the quadrupole splitting for all sites, especially in the transformed, tetragonal phase, a more detailed modeling of the EFG was necessary. We performed pointcharge calculations in order to help find consistency in assigning the sites to their respective spectra. As detailed in the Appendix, the EFG tensor was recast into a quadrupolar splitting tensor, , = , , , yielding values that were found to be consistent with observed spectra. From this analysis, we have considered three possible domains for the tetragonal phase; an exaggerated depiction is shown in Figure 5(a), with each unit cell of domains labelled P, Q, and R relative to the direction of the magnetic field. Each \"dumbbell\" represents the V chain on each face of the unit cell and the label indicates the relevant splitting parameter expected to result from these sites if the magnetic field is oriented in the vertical direction as shown. We designate\n\n5\n\nthose atoms along elongated chains as \"*c*\" and those atoms along contracted chains as \"*a*\". We use the subscripts || and ⊥ to refer to the orientation of the associated chain parallel or perpendicular, respectively, with respect to the applied field.\n\nFigure 6 summarizes the main results of this study. Here, plotted is the temperature dependence of the quadrupole splitting for *each set of seven lines* extracted from the spectra. There are at most five sets that were unambiguously resolved, three of which survives below 17K. The horizontal axis is logarithmic to magnify the MT region between *T*<sup>c</sup> (H=6.7 T) = 12.8 K (green line) and *T*m(H=6.7T) = 21.1 K (purple line). Data for the cubic phase are marked by light-blue bars, one each for ||H and ⊥H , where = 206 kHz. For the transformed, tetragonal phases, the ⊥H data are marked by magenta bars, and ||H data by yellow bars. Note that each of these sets confirms that the values of quadrupole splittings changes upon undergoing structural transition but remain independent of temperature at each phase nonetheless. These plots reveal the following noteworthy features:\n\nFirst, spectra for the cubic, pre-transformation phase were found to *persist* below *T*m, while spectra for the transformed, tetragonal phases were found *above T*m. In Fig. 6, we see that the cubic (blue) phase extends down to 4 K below *T*<sup>m</sup> , and the tetragonal (yellow and magenta) phase extends up to at least 4 K above *T*m, highlighting a zone of co-existence 4 K above and below *T*<sup>m</sup> , marked by the green bar.\n\nSecond, no conclusive evidence of spectra for cubic phase could be discerned below the zero-field *T*c of 17 K. This is consistent with the notion that the transformation is completed by the time superconductivity is reached, implying a close connection between MT and the superconducting transition.\n\nThird, our calculations (see Appendix) revealed an absence of spectra in our data corresponding to the P domain, which would have been characterized by splittings corresponding to c|| and ay in Figure 5(a) (i.e., splittings for sites corresponding to *α* = z for the c-site and *α* = y for the a-site). This strongly implies that the tetragonal lengthening of V chains occurs predominantly along the plane (Q and R domains). This is consistent with a proposition by Buttet *et al.*[19], that the tetragonal lengthening (\"*c*\") occurs predominantly within the plane perpendicular to the crystal's growth axis. We confirmed that the growth axis of our sample is\n\n6\n\nperpendicular to the long axis and therefore parallel to the field *H.* To test this consistency, it would be interesting to repeat a similar experiment on single crystals with various levels of strain, as set up by different post-annealing conditions.\n\n## **3. Conclusions**\n\nThis study has shown that single-crystal NMR spectroscopy allows us to see manifestations of the Martensitic transformation (MT) in unprecedented detail, by distinguishing microscopically between orthogonal domains. This afforded strong evidence that: (1) the MT lengthening occurs predominantly in one plane, perpendicular to direction of strain from crystal growth; (2) all transformation to tetragonal phase is essentially completed by the time the sample has transitioned into superconducting state; and (3) the MT occurs more gradually in the crystal, with a phase of coexistence of both transformed tetragonal phase and pre-transformed cubic phase over a significant range of temperatures, at least 4 K above and below the MT temperature *T*<sup>m</sup> detected by resistivity and susceptibility measurements.\n\n## **4. Acknowledgments**\n\nAAG is grateful to D. K. Christen (retired, Oak Ridge National Laboratory [ORNL]) and J. R. Thompson (retired, University of Tennessee Knoxville), for insightful discussions and for archival data and information on V3Si samples, especially MP3; and S. Moraes and O. Gafarov, who assisted in the original transport resistivity measurements and analysis of NMR data while undergraduate researchers at the University of South Alabama. Past work on this project was funded by the University of South Alabama, the National Science Foundation (NSF), and the Research Corporation. Past work at ORNL was funded by the US Department of Energy. AAG is grateful to the National High Magnetic Field Laboratory for hosting him during his Sabbatical from the University of South Alabama. Work at the National High Magnetic Field Laboratory is supported by NSF Cooperative Agreement Numbers DMR-115749 and DMR-1644779, and by the State of Florida.\n## **5. Appendix: EFG calculations and site assignment**\n\nThe EFG is calculated according to:\n\n$$q\\_{a\\beta}^{i} = \\frac{\\partial^2 V(i)}{\\partial r^a \\partial r^\\beta} = \\sum\\_{j \\neq i} e\\_j \\frac{3r\\_{ij}^\\alpha r\\_{ij}^\\beta - r\\_{ij}^2 \\delta\\_{a\\beta}}{r\\_{ij}^5}$$\n\nwhere () is the potential at the ℎ atom; , = , , ; is the ℎcomponent of the vector distance from ℎ to ℎ atom; is the charge of the ℎ atom; = � � and is the Kronecker delta function. The sum is over all the lattice coordinates . Since the matrix is diagonal in the principal axes of symmetry which coincide with the V3Si crystal axes, then = . Generally, we can recast the principal components of the EFG tensor in terms of quadrupole splitting tensor. In frequency units\n\n$$\\nu\\_{aa} = \\frac{3eq\\_{aa}Q}{2hI(2I-1)}$$\n\nChoosing ≥ ≥ we take the quadrupole frequency as the largest component of the EFG, = ||, as described in the main text, and define the asymmetry parameter = − . Also, from Laplace equation: + + = 0. In the cubic phase, all the V sites are equivalent. In contrast, the tetragonal phase has two site-differentiated V atoms: (1) the *c*-sites form the chain along the elongated axis (designated as tetragonal crystal *c*-axis), and (2) the *a*sites, form the chains that run along the \"squeezed\" *a*- and *b*-crystal axes. Note that in both *normal cubic* and *tetragonal* phases, the *local* symmetry of the V atoms is (or close to) tetragonal, ≅ 0. The above lattice sum is performed over the radius of 50 Å using charges +1.8 for Si and -0.6 for V [25] consistent with the best estimate electron transfer from Si to V according to x-ray data [25]. The calculated EFG is corrected by a factor of (1 – γ∞) = 8 from the antishielding term [26]. In Table 1 we show the calculated quadrupolar splittings (in *kHz*) for different sites/phases in V3Si. There is a very good agreement between the calculated and experimental values. Small discrepancies are likely due to uncertainties in the antishielding term which maybe different at different sites. Irrespective of the actual magnitudes, calculations show that as the system undergoes MT there is a *decrease* in the EFG in the elongated chains (site *c*) and an *increase* in the squeezed chains (site *a*). As will be argued later, we note on the table that\n\n for the *a-* and for *c-* tetragonal sites were not directly observed in the experiment. Their tabular values were calculated based on other parameters on the table and using the Laplace equation.\n\n| Phase-site   | 𝜈𝜈𝑥𝑥𝑥𝑥 |        | 𝜈𝜈𝑦𝑦𝑦𝑦 |       | 𝜈𝜈𝑧𝑧𝑧𝑧 |        | η      |       |\n|--------------|--------|--------|--------|-------|--------|--------|--------|-------|\n|              | Calc.  | Expt.  | Calc.  | Expt. | Calc.  | Expt.  | Calc.  | Expt. |\n| Cubic-c      | 99.35  | 103    | 99.35  | 103   | -198.7 | 206    | 0      | 0     |\n| tetragonal-a | 100.8  | 121(1) | 98.56  | *118  | -199.3 | 216(3) | 0.0113 | *     |\n| tetragonal-c | 98.68  | 93(2)  | 98.68  | 93(2) | -196.7 | *186   | 0      | 0     |\n\nTable 1. Result of Lattice sum calculation of EFG on the 51V sites in V3Si.\n\n\\* not directly observed.\n\n## *Arguments for the absence of P domain:*\n\nIs there a preferential direction for which the MT occurs? We attempt to answer this question by determining the origin of spectral lines in the tetragonal phase. In Fig. 5(b) we show the eigenvectors of the EFG calculated for each V site in the tetragonal unit cell, which corresponds to the principal axes of . In order to simplify notation we denote for the *a*-sites: || = and = , for = , . Correspondingly, for the *c*-sites: || = and ⊥ = , for = , , since = 0 for this site. As a consequence, if the crystal is oriented such that the elongated axis is parallel to the magnetic field direction, the NMR signals would originate from sites containing the || and two splittings. If the magnetic field is applied perpendicular to the elongated axis (either *x* or *y* in Fig. 5(b)), NMR will pick up ⊥, || and corresponding sites. For the cubic phase, there is only a single site which has the same symmetry as the *c* site.\n\nWe start with the assumption that there is an equal probability of unit cell elongation along all three crystal axis directions, as described in Figure 5(a) (see main text). Referring back to Fig. 6, there are five sets of quadrupolar splittings, extracted from the spectra: 216, 206, 121, 103 and 93 kHz. In identifying the site and phase to which of each these belongs, we argue the following:\n\n1. The 206-kHz set unambiguously belong to the cubic (||) phase as it is the only phase that exists at high temperatures. The signals from the 103-kHz set originate from the same cubic site but with chains perpendicular to the field and are thus assigned to cubic ⊥. These two sets are consistent with having asymmetry parameter = 0, as expected from Table 1.\n\n2. We assign the 216 kHz set to || below *T*<sup>m</sup> in the tetragonal phase. These are the sites on the contracted chain where the chain is parallel with the field. This assignment is consistent with the calculations (Table 1) that show that the EFG of the tetragonal *a* sites is larger than its cubic value.\n\n3. The assignments for the two remaining splittings, 121 kHz and 93 kHz, need careful consideration. There are four lines that are still unaccounted for, all in tetragonal phase: ||, ⊥, and . There is also a possibility that some of these lines overlap. However, considering the relative intensities of these seven-line sets, which we found to be equal to within 10-15% using Gaussian fits, we can confidently conclude that each of these sets are defined by unique sites and there was no significant overlap. With this in mind, it is only reasonable that some of the four lines are unobservable. Using the process of elimination and guided by the theoretical calculation, we conclude the following:\n\na. Both *a* and *c* sites must be represented in the spectrum. Thus, one of the *c* sites, || or ⊥, and one of the *a* sites, or , must be accounted for.\n\nb. The 121-kHz and 93-kHz splittings, because their values are ≲ 50% of the cubic value, are more likely to originate from chains that are perpendicular to the field, i.e. = 90°. This eliminates ||. In addition, referring to Table 1, the 121-kHz splitting would be already too low compared to the cubic value had this been assigned to ||. *We therefore conclude that* || *is not observed.*\n\nc. From calculations, the value of || must be less than the cubic value of 216 kHz. This limits the value of ⊥< 108 kHz. Thus, this cannot be 121 kHz and the only option is to take the 93-kHz splitting for ⊥.\n\nd. Using a similar argument, the smaller of the perpendicular components of the *a* site, namely , must be less than ||/2 = 108kHz. Thus, the remaining 121-kHz splitting is assigned to . *We conclude that was not observed.*\n\nAll of the above assignments are mutually consistent and fit seamlessly to theoretical calculations. Using the calculated , the *a* site would have ~ 118 kHz and based on our assigned value for ⊥, || ~186 kHz, as we indicated in Table 1. It is worth to note that our site assignments differ with that proposed by Buttet *et al.*[19], who have also identified three sets of splittings in the tetragonal phase whose values are in very close agreement to ours. They\n\n10\n\nassigned, in the order of EFG strength, || ~ 212.5 kHz, ⊥ ~115.7 kHz, and ⊥ = , ~ 92.6 kHz, *i.e.* their assignments for ⊥ and are reversed from ours. They assumed that || is greater than the cubic value and chose ⊥ to be the higher of the two frequencies. The consequence of their assignment is that the resulting asymmetry parameter for the *a* site is an order of magnitude larger than what the calculations suggest. Our site assignment is more consistent with theory in terms of the relative magnitude of change in EFG during the transition for both sites *c* and *a* and is also more amenable to the value of . Nevertheless, this difference in site assignments does not change the conclusions we reached in this work.\n\nAfter all these considerations, we conclude that the sets of lines corresponding to || and are absent in our spectra. This means that the P domain (Fig. 5(a)) may not exist and narrows the possibilities of chain elongation to the direction perpendicular to the field, *i.e.* domains Q and R. Our NMR data cannot distinguish between these twin domains.\n\n![](0__page_11_Figure_0.jpeg)\n\n![](0__page_11_Figure_1.jpeg)\n\nFigure 1\n\n![](0__page_12_Figure_0.jpeg)\n\nFigure 2\n\n![](0__page_13_Figure_0.jpeg)\n![](1__page_14_Figure_0.jpeg)\n\nFigure 4\n\n![](1__page_15_Figure_0.jpeg)\n\n![](1__page_16_Figure_0.jpeg)\n\n## **Figure Captions:**\n\n**Figure 1: (a)** Cubic structure of V3Si in the non-superconducting state, showing a body-centered arrangement of Si (blue), with chains of V (red) arranged along the faces in all three orthogonal directions. **(b)** Original plot in the paper by Batterman and Barrett, Ref. 1, illustrating the MT as first observed in 1961 by x-ray diffractometry.\n\n**Figure 2: (a)** Resistivity vs. temperature plot at magnetic fields up to 9 T, for sample \"MP3\" with a high residual resistivity ratio (RRR) of 47 (as shown over more temperatures in the inset), showing the drop in *T*c and the near-field-independence of the inflection \"bump\" marking the MT at temperature *T*m . **(b)** summarizes these field dependences, also indicating *T*c and *T*<sup>m</sup> at the field 6.7 T chosen for the study (see text). **(c)** shows a sample with RRR ~ 7 showing no sign of the MT bump at *T*m, as contrasted with MP3. -\n\n**Figure 3:** Quadrupole spectra at T = 90 K for chains perpendicular to H (green arrows, green chains in the cartoon) and parallel to H (black arrows, black chain in the cartoon), showing the expected spacings of 2 and . The peak for 63Cu is marked in light blue, with minimal overlap at field, H = 6.7 T. Inset shows the sample coil set on a goniometer stagewith the long axis of the sample along the rotation axis and perpendicular to H.\n\n**Figure 4:** Three-dimensional contour plots of V spectra, with temperature on the ordinate and colored contours indicating intensity **(a)** In the pre-transformed, cubic phase, spectral peaks are marked by vertical dashed lines for chains parallel to field H, and by triangles at bottom for chains perpendicular to H. The temperature-invariant peak for copper is also marked. **(b)** Spectra as temperature decreases in the vicinity of MT: Between temperatures *T*m (21 K) and *T*c (13 K) are examples of the discontinuation of cubic phase, blue arrows, and the emergence of tetragonal phase, red arrows.\n\n**Figure 5:** Results from the determination of observed quadrupolar splittings (from Appendix): **(a)** Cartoon of the possible domains, P, Q, R of tetragonal phase, with V chains lengthening in one of three possible orthogonal directions relative to *H*, see text. **(b)** Calculated principal axes (eigenvectors) of the local EFG tensor in the tetragonal phase, with elongation direction along\n\nthe z-axis. The largest EFG component has its eigenvector shown in red, then green, and blue the smallest. See Appendix for notation.\n\n**Figure 6:** Summary of spectral line spacings for all designated V chains discerned in the study, see text and Figure 5 for designations. In the tetragonal phase, yellow bars indicate the temperature extent at which spectra for ||H chains were found, with pink bars marking the temperature extent for ┴H chains. The light blue bars show the extent for chains associated with the cubic phase (both ||H and ┴H). The green bar shows the regime of co-existence of transformed and pre-transformed phases.\n\n## **References**\n\n- [1] B. W. Batterman and C. S. Barrett, Physical Review **145**, 296 (1966).\n- [2] L. R. Testardi, Reviews of Modern Physics **47**, 637 (1975).\n- [3] A. C. Gossard, Physical Review **149**, 246 (1966).\n- [4] J. Muller, Reports on Progress in Physics **43**, 641 (1980).\n- [5] X. Zotos, O. Laborde, and J. P. Sénateur, Solid State Communications **50**, 453 (1984).\n- [6] A. V. Skripov, A. P. Stepanov, V. M. Pan, A. D. Shevchenko, and I. G. Michailov,\n\nPhysica Status Solidi B **102**, 671 (1980).\n\n[7] A. M. Clogston, A. C. Gossard, V. Jaccarino, and Y. Yafet, Reviews of Modern Physics **36**, 170 (1964).\n\n[8] G. R. Stewart, Physica C **514**, 28 (2015).\n\n[9] A. Nojirino *et al.*, in *Proceedings of the International Conference on Strongly Correlated Electron Systems (SCES2019)* (Journal of the Physical Society of Japan, 2020).\n\n[10] C. Paduani and C. A. Kuhnen, The European Physical Journal B **66**, 353 (2008).\n\n[11] Y. Kishimoto, T. Ohno, and T. Kanashiro, Journal of the Physical Society of Japan **64**, 1275 (1995).\n\n[12] H. M. Tütüncü, H. Y. Uzunok, G. P. Srivastava, V. Özdemir, and G. Uǧur, Intermetallics **96**, 25 (2018).\n\n[13] T. D. Vethaak, F. Gustavo, T. Farjot, T. Kubart, P. Gergaud, S. L. Zhang, F. Lefloch, and F. Nemouchi, Microelectronic Engineering **244-246**, 111570 (2021).\n\n[14] D. Christen, H. Kerchner, J. Narayan, Y. Chang, B. Larson, and S. Sekula, IEEE Transactions on Magnetics **19**, 884 (1983).\n\n[15] A. A. Gapud *et al.*, Physical Review B **80**, 134524 (2009).\n\n[16] M. Yethiraj, D. K. Christen, A. A. Gapud, D. M. Paul, S. J. Crowe, C. D. Dewhurst, R.\n\nCubitt, L. Porcar, and A. Gurevich, Physical Review B **72**, 060504 (2005).\n\n[17] A. Sauer, D. A. Zocco, A. H. Said, R. Heid, A. Bohmer, and F. Weber, Physical Review B **99** (2019).\n\n[18] A. Guha, M. P. Sarachik, F. W. Smith, and L. R. Testardi, Physical Review B **18**, 9 (1978).\n\n[19] J. Buttet and K. Läuger, Solid State Communications **13**, 877 (1973).\n\n[20] B. N. Tret'yakov, V. A. Marchenko, V. B. Kuritsin, and B. N. Kodess, Soviet Journal of Experimental and Theoretical Physics **38**, 772 (1974).\n\n[21] A. Skripov, A. Stepanov, V. Marchenko, V. Pan, and A. Shevchenko, Journal of Experimental and Theoretical Physics **50** (1979).\n\n[22] A. V. Skripov and A. P. Stepanov, Physica Status Solidi (b) **126**, 557 (1984).\n\n[23] The second order correction ~ (ν<sup>Q</sup> 2 )/γ*H* at the field of interest would be less than 1%.\n\n[24] Note that the intensities of the lines were not corrected for T2, which could vary across the spectrum. However, this effect does not change the conclusion of this paper. Analysis of this phenomena will be deferred to a later work.\n\n[25] J. L. Staudenmann, P. Coppens, and J. Muller, Solid State Communications **19**, 29 (1976).\n\n[26] R. E. Watson, A. C. Gossard, and Y. Yafet, Physical Review **140**, A375 (1965).",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Martensitic transformation in V3Si single crystal: 51V NMR evidence for coexistence of \ncubic and tetragonal phases",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              83.671875,
+              68.62542724609375
+            ],
+            [
+              530.3988037109375,
+              68.62542724609375
+            ],
+            [
+              530.3988037109375,
+              102.20391845703125
+            ],
+            [
+              83.671875,
+              102.20391845703125
+            ]
+          ]
+        },
+        {
+          "title": "Abstract",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              282.990234375,
+              315.8039245605469
+            ],
+            [
+              328.2359924316406,
+              315.8039245605469
+            ],
+            [
+              328.2359924316406,
+              327.8039245605469
+            ],
+            [
+              282.990234375,
+              327.8039245605469
+            ]
+          ]
+        },
+        {
+          "title": "1. Introduction",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              71.531982421875,
+              69.56390380859375
+            ],
+            [
+              155.3520050048828,
+              69.56390380859375
+            ],
+            [
+              155.3520050048828,
+              81.56390380859375
+            ],
+            [
+              71.531982421875,
+              81.56390380859375
+            ]
+          ]
+        },
+        {
+          "title": "2. Results",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              70.89697265625,
+              686.3639221191406
+            ],
+            [
+              127.30793762207031,
+              686.3639221191406
+            ],
+            [
+              127.30793762207031,
+              698.3639221191406
+            ],
+            [
+              70.89697265625,
+              698.3639221191406
+            ]
+          ]
+        },
+        {
+          "title": "3. Conclusions",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              71.009033203125,
+              141.56390380859375
+            ],
+            [
+              152.14797973632812,
+              141.56390380859375
+            ],
+            [
+              152.14797973632812,
+              153.56390380859375
+            ],
+            [
+              71.009033203125,
+              153.56390380859375
+            ]
+          ]
+        },
+        {
+          "title": "4. Acknowledgments",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              71.457275390625,
+              399.8671875
+            ],
+            [
+              184.06800842285156,
+              399.8671875
+            ],
+            [
+              184.06800842285156,
+              411.9239501953125
+            ],
+            [
+              71.457275390625,
+              411.9239501953125
+            ]
+          ]
+        },
+        {
+          "title": "5. Appendix: EFG calculations and site assignment",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              71.5693359375,
+              69.56390380859375
+            ],
+            [
+              341.4000244140625,
+              69.56390380859375
+            ],
+            [
+              341.4000244140625,
+              81.56390380859375
+            ],
+            [
+              71.5693359375,
+              81.56390380859375
+            ]
+          ]
+        },
+        {
+          "title": "Arguments for the absence of P domain:",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              71.19580078125,
+              268.791259765625
+            ],
+            [
+              272.6759948730469,
+              268.791259765625
+            ],
+            [
+              272.6759948730469,
+              280.7912902832031
+            ],
+            [
+              71.19580078125,
+              280.7912902832031
+            ]
+          ]
+        },
+        {
+          "title": "Figure Captions:",
+          "heading_level": null,
+          "page_id": 17,
+          "polygon": [
+            [
+              71.5693359375,
+              95.326171875
+            ],
+            [
+              159.7236328125,
+              95.326171875
+            ],
+            [
+              159.7236328125,
+              107.3638916015625
+            ],
+            [
+              71.5693359375,
+              107.3638916015625
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 19,
+          "polygon": [
+            [
+              71.2705078125,
+              69.56390380859375
+            ],
+            [
+              127.78800201416016,
+              69.56390380859375
+            ],
+            [
+              127.78800201416016,
+              81.56390380859375
+            ],
+            [
+              71.2705078125,
+              81.56390380859375
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              61
+            ],
+            [
+              "Line",
+              24
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              197
+            ],
+            [
+              "Line",
+              31
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              214
+            ],
+            [
+              "Line",
+              33
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Equation",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              195
+            ],
+            [
+              "Line",
+              30
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              207
+            ],
+            [
+              "Line",
+              32
+            ],
+            [
+              "TextInlineMath",
+              3
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              192
+            ],
+            [
+              "Line",
+              30
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "TextInlineMath",
+              3
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              87
+            ],
+            [
+              "Line",
+              26
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              213
+            ],
+            [
+              "Line",
+              42
+            ],
+            [
+              "Equation",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              265
+            ],
+            [
+              "TableCell",
+              41
+            ],
+            [
+              "Line",
+              33
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              194
+            ],
+            [
+              "Line",
+              31
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "TextInlineMath",
+              4
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              99
+            ],
+            [
+              "Line",
+              13
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              26
+            ],
+            [
+              "Span",
+              26
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              64
+            ],
+            [
+              "Span",
+              64
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              14
+            ],
+            [
+              "Span",
+              14
+            ],
+            [
+              "PageFooter",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 14,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              40
+            ],
+            [
+              "Span",
+              38
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 15,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              28
+            ],
+            [
+              "Span",
+              28
+            ],
+            [
+              "PageFooter",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 16,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              39
+            ],
+            [
+              "Span",
+              39
+            ],
+            [
+              "PageFooter",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 17,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              116
+            ],
+            [
+              "Line",
+              30
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 18,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              38
+            ],
+            [
+              "Line",
+              9
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 19,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              143
+            ],
+            [
+              "Line",
+              31
+            ],
+            [
+              "Text",
+              15
+            ],
+            [
+              "ListItem",
+              6
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 20,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              58
+            ],
+            [
+              "Line",
+              15
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 21,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Martensitic transformation in V<SUB>3</SUB>Si single crystal: <SUP>51</SUP>V NMR evidence for coexistence of cubic and tetragonal phases",
+    "authors": [
+      {
+        "authors_list": [
+          "Gapud, A. A.",
+          "Ramakrishna, S. K.",
+          "Green, E. L.",
+          "Reyes, A. P."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "The Martensitic transformation (MT) in A15 binary-alloy superconductor V<SUB>3</SUB>Si, though studied extensively, has not yet been conclusively linked with a transition to superconductivity. Previous NMR studies have mainly been on powder samples and with little emphasis on temperature dependence during the transformation. Here we study a high-quality single crystal, where quadrupolar splitting of NMR spectra for <SUP>51</SUP>V allowed us to distinguish between spectra from transverse chains of V as a function of temperature. Our data revealed that (1) the MT is not abrupt, but rather there is a microscopic coexistence of pre-transformed cubic phase and transformed tetragonal phase over a few K below and above T<SUB>m</SUB>, while (2) no pre-transformed phase can be found at T<SUB>c</SUB>, and (3) the Martensitic lengthening of one axis occurs predominantly in a plane perpendicular to the crystal growth axis, as twinned domains.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Physica C Superconductivity",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2204.03729"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1016/j.physc.2022.1354137",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2022PhyC..60254137G"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

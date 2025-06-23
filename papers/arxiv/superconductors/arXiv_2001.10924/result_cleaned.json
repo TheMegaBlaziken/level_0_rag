@@ -1,0 +1,390 @@
+{
+  "id": "475a8f5528769d97cf8c08442499d705",
+  "pdf_path": "apl/Superconductors/arXiv:2001.10924.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "## Multi-metallic conduction cooled superconducting radio-frequency cavity with high thermal stability\n\nG. Ciovati,1, 2, [∗](#page-0-0) G. Cheng,<sup>1</sup> U. Pudasaini,<sup>3</sup> and R. Rimmer<sup>1</sup>\n\n<sup>1</sup>Thomas Jefferson National Accelerator Facility, Newport News, VA 23606, USA\n\n<sup>2</sup>Center for Accelerator Science, Department of Physics, Old Dominion University,\n\nNorfolk, Virginia 23529, USA\n\n<sup>3</sup>The College of William & Mary, Williamsburg, VA 23185, USA\n\n(Dated: August 31, 2024)\n\nSuperconducting radio-frequency cavities are commonly used in modern particle accelerators for applied and fundamental research. Such cavities are typically made of high-purity, bulk Nb and are cooled by a liquid helium bath at a temperature of ∼ 2 K. The size, cost and complexity of operating a particle accelerator with a liquid helium refrigerator makes the current cavity technology not favorable for use in industrial-type accelerators. We developed a multi-metallic 1.495 GHz elliptical cavity conductively cooled by a cryocooler. The cavity has a ∼ 2 µm thick layer of Nb3Sn on the inner surface, exposed to the rf field, deposited on a ∼ 3 mm thick bulk Nb shell and a bulk Cu shell, of thickness > 5 mm deposited on the outer surface by electroplating. A bolt-on Cu plate 1.27 cm thick was used to thermally connect the cavity equator to the second stage of a Gifford-McMahon cryocooler with a nominal capacity of 2 W at 4.2 K. The cavity was tested initially in liquid helium at 4.3 K and reached a peak surface magnetic field of ∼ 36 mT with a quality factor of 2 × 10<sup>9</sup> . The cavity cooled by the crycooler achieved a peak surface magnetic field of ∼ 29 mT, equivalent to an accelerating gradient of 6.5 MV/m, and it was able to operate in continuous-wave with as high as 5 W dissipation in the cavity for 1 h without any thermal breakdown. This result represents a paradigm shift in the technology of superconducting accelerator cavities.\n\nSuperconducting radio-frequency (SRF) cavities made of high-purity (residual resistivity ratio, RRR, > 250) bulk Nb are one of the building blocks of modern particle accelerator facilities for applied and fundamental research throughout the world [\\[1\\]](#page-4-0). Such cavities have different geometries, depending on the speed and type of particle they are designed to accelerate, the operating frequency is in the gigahertz range and they are surrounded by vessels containing liquid He (LHe) which cools and maintains the cavity surface at ∼ 2 K during operation in a so-called cryomodule [\\[2,](#page-4-1) [3\\]](#page-4-2). The size, cost and complexity of a sub-cooled liquid He cryoplant has limited a more widespread application of SRF technology so far. To the authors' knowledge, out of the estimated ∼ 30, 000 industrial particle accelerators worldwide, the only one using the SRF technology is a 9 MeV electron linac for medical isotope production which uses a commercial liquid He refrigerator with a capacity of 100 W at 4.3 K [\\[4\\]](#page-4-3).\n\nThe first application of cryocoolers for SRF cryomodules was done in two cryomodules for the Japan Atomic Energy Research Institute Free Electron Laser in 1993, in which they used Gifford-McMahon (GM) cryocoolers to cool two heat shields to 80 K and 40 K, respectively, and to cool down and recondense the boiled-off liquid in the helium tank surrounding a 499.8 MHz cavity [\\[5,](#page-4-4) [6\\]](#page-4-5). Cryocoolers are reliable, compact, closed-cycle refrigerators which are less expensive and easier to operate than LHe ones. An example of a cryocooler application is cooling of superconducting magnets in magnetic resonance imaging machines at hospitals. The power capacity of cryocoolers has been increasing in the last few years and models with a capacity of 2 W at 4.2 K are now available.\n\nRecent progress in the development of thin-film Nb3Sn SRF cavities has resulted in moderate accelerating gradients (Eacc ∼ 10−15 MV/m) but a much higher quality factor (Q<sup>0</sup> ∼ 1010) compared to bulk Nb in elliptical cavities cooled in liquid He at 4.3 K [\\[7\\]](#page-4-6). Such improvements in both cryocooler and Nb3Sn SRF cavities may enable the design of compact, low-energy (1 − 25 MeV) electron accelerators for industrial and medical applications or for compact light sources [\\[8,](#page-4-7) [9\\]](#page-4-8). An example of such industrial applications is the environmental remediation of flue gases and/or wastewater [\\[10\\]](#page-5-0). Recent work on the development of SRF cavities conduction cooled by a cryocooler has resulted in a 650 MHz single-cell elliptical cavity made of bulk Nb operating up to an accelerating gradient of 1.5 MV/m [\\[11\\]](#page-5-1), corresponding to a peak surface magnetic field, Bp, of 5.5 mT [\\[12\\]](#page-5-2).\n\nHere we describe the preparation and test results of a single-cell elliptical cavity conduction cooled by a two stage commercial GM cryocooler. Our approach was to deposit a thick, high-purity Cu layer on the outer cavity surface and to minimize the number of joints between the cavity and the 4 K stage of the cryocooler, to maximize the thermal stability of the cavity against quenching of the superconducting state.\n\nThe single-cell cavity used for this study was made of large-grain Nb (RRR ∼ 280) from CBMM, Brazil. The cell shape is that of the end-cell of a High-Gradient cavity (geometry factor, G = 269 Ω, R/Q = 100.3 Ω, ratio of peak surface electric field over the accelerating field, Ep/Eacc = 1.77, ratio of peak surface magnetic field\n\n<span id=\"page-0-0\"></span><sup>∗</sup> [gciovati@jlab.org](mailto:gciovati@jlab.org)\n\nover the accelerating field Bp/Eacc = 4.47 mT/(MV/m)), proposed for the 12 GeV Upgrade of the CEBAF accelerator at Jefferson Lab [\\[13\\]](#page-5-3). The resonant frequency of the TM<sup>010</sup> accelerating mode is 1.495 GHz. The cavity wall thickness is ∼ 2.9 mm and the end flanges are made of pure Nb. The cavity fabrication used standard techniques of SRF technology such as deep-drawing, milling and electron-beam welding of cavity parts.\n\nThe coating of the inner surface of the cavity with Nb3Sn was done together with another single-cell cavity, stacked vertically inside a high-temperature vacuum furnace. The cavity used for this study was at the bottom position. A crucible with 6 g of Sn (99.999% purity from Sigma Aldrich) and 3 g of SnCl<sup>2</sup> (99.99% purity from Sigma Aldrich), packaged inside two pieces of Nb foils, was placed at the bottom flange of the bottom cavity. The top flange of the top cavity was closed with a Nb cover. The setup was assembled inside an ISO 4 clean room and then installed onto the furnace insert [\\[14\\]](#page-5-4). Once the pressure reached 2.7 × 10<sup>−</sup><sup>3</sup> Pa, the furnace was heated by ramping up the temperature at a rate of 6 ◦C/min until it reached ∼ 500 ◦C. This temperature was then kept constant for one hour and subsequently ramped up at a rate of 12 ◦C/min up to the coating temperature of ∼ 1200 ◦C. The temperature was monitored with sheathed type C thermocouples attached to the cavities at different locations. After maintaining the coating temperature for 3 h, heating ceased, and the furnace was allowed to cooldown gradually. When the furnace temperature reached below 45 ◦C, the insert was backfilled to 101.3 kPa with nitrogen, and the coated cavities were removed from the deposition system. The cavity was then degreased in an ultrasonic tank, high-pressure rinsed with ultrapure water, assembled with stainless steel flanges with pump-out port and rf feedthroughs and sealed to the cavity with In wire. The cavity was evacuated on a vertical test stand to a pressure of ∼ 1 × 10<sup>−</sup><sup>6</sup> Pa before inserting in a vertical cryostat in the Vertical Test Area (VTA) at Jefferson Lab. Cryogenic flux-gate magnetometer (FGM) probes (Mag F, Bartington Instruments) and calibrated Cernox (CX-1010-SD, Lakeshore Cryotronics) resistance-temperature devices (RTDs) were attached to the cavity to monitor the temperature gradient along the cavity and the local magnetic flux during cooldown close to the critical temperature of Nb3Sn, T<sup>c</sup> ∼ 18 K. The rf performance of the Nb3Sn cavity in liquid He at 4.3 K was limited by anomalous heating at 4.3 K starting at B<sup>p</sup> ∼ 36 mT and by thermal quench at B<sup>p</sup> ∼ 54 mT at 2.0 K.\n\nOxygen-free high-conductivity (OFHC) copper is one of the metals which has a higher thermal conductivity than high-purity Nb below 10 K and it has been used as a substrate for the deposition of Nb thin-films on the inner surface of cavities for particle accelerators [\\[15\\]](#page-5-5). The higher thermal conductivity allows for a better thermal stabilization of the cavity, even when cooling with LHe, particularly against the presence of defects in the superconducting thin-film. However, at present there is no technique which allows depositing a thin film of Nb3Sn directly onto copper with similar performance as achieved by forming the Nb3Sn layer onto bulk Nb by vapor diffusion.\n\nNb/Cu bi-metallic samples were produced by electroplating Cu directly onto a Nb and thermal conductivity measurements showed that values of ∼ 1 kW/(m·K) could be achieved at 4.3 K, compared to ∼ 75 W/(m·K) obtained on Nb only [\\[16\\]](#page-5-6). However, achieving such high thermal conductivity depended on obtaining a good adhesion of the Cu on the Nb, which we were not able to achieve reliably and consistently by electroplating Cu directly onto the Nb. A recent collaboration between Jefferson Lab, Euclid Techlabs and Concurrent Technologies Corporation (CTC) produced Nb/Cu samples obtained by cold-spraying Cu onto Nb with excellent bonding: a pressure of ∼ 40 MPa was required to detach the Cu from the Nb in a pull-adhesion test [\\[17\\]](#page-5-7). However, the thermal conductivity of the \"as deposited\" cold-sprayed copper was not as high as that obtained by electroplating. While R&D efforts are ongoing towards increasing the thermal conductivity of cold-sprayed copper, we pursued cold-spraying as a method to grow a thin seed layer onto the Nb and then electroplate the copper to full thickness on such layer. An iterative finite element thermal analysis of the cavity-cryocooler system was carried out with ANSYS [\\[18\\]](#page-5-8) estimating that a minimum Cu-layer thickness of 5 mm would be necessary in order to achieve a Bp-value of ∼ 36 mT. The analysis included the heat capacity map of the cryocooler, the temperature- and fielddependent surface resistance of the Nb3Sn cavity and a contact thermal conductance of 0.7 W/K [\\[19\\]](#page-5-9).\n\nA copper layer ∼ 76 µm thick was deposited on the cavity outer surface by cold-spray at CTC, in Johnstown, PA. Copper powder of 99.9 % purity and ∼ 40 µm size was used along with He as gas carrier. Oxygen-free copper was then electroplated onto the cold-sprayed layer at AJ Tuck Co., in Brookfield, CT. The electroplating was done in several steps to control the uniformity of the thickness and finally to grow a ring ∼ 25 cm in diameter, ∼ 1.3 cm thick at the cavity equator. The cavity was finally machined at Jefferson Lab to remove excess Cu and to make eighteen holes evenly spaced along the Cu ring at the cavity equator. Gore-Tex gaskets were used to seal the cavity ends during both cold-spraying and electroplating, however it was found that some of the copper sulfate plating solution had leaked inside the cavity. The cavity was filled with nitric acid at room temperature for 1 h to dissolve any possible CuSO<sup>4</sup> residue. Figure [1](#page-2-0) shows a picture of the completed multi-metallic cavity. The cavity was prepared for the cryogenic rf test as decribed earlier and the performance measured in liquid He was limited by \"Q-switches\" at B<sup>p</sup> ∼ 35 mT at 4.3 K, whereas it quenched at B<sup>p</sup> ∼ 52 mT at 2.0 K. However, the quality factor degraded more rapidly with increasing field above ∼ 14 mT, compared to the test prior to Cu-coating.\n\nA vertical test stand was designed and built to allow\n\n![](_page_2_Figure_1.jpeg)\n\n<span id=\"page-2-0\"></span>FIG. 1. Pictures of the multi-metallic SRF cavity. The length of the cavity from flange to flange is 31.8 cm and the electroplated Cu ring at the equator is 25.4 cm in diameter and 1.27 cm thick.\n\ntesting the cavity with a cryocooler. The GM cryocooler (RDE-418D4, Sumitomo) is bolted to the test stand top plate. The cavity is kept under static vacuum and sits on a G10 plate held by two stainless steel threaded rods attached to the top plate. A plate ∼ 1.27 cm thick machined from OFHC copper is bolted to the crycoooler 4 K stage on one side and to the cavity equator ring on the other side. The contact surfaces were cleaned with Brasso metal polish and wiped with acetone and isopropanol. Apiezon N thermal grease was spreaded on the contact surfaces. The bolts connecting the Cu plate to the cryocooler were torqued to 3 N·m, as recommended by the cryocooler manufacturer. The cavity Cu ring and the Cu plate were sandwiched between four 304 stainless steel rings, each 0.64 cm thick, on each side and pressed together with 1.27 cm diameter 316 stainless steel threaded rods and silicon-bronze nuts, torqued to 115 N·m. Such combination of number of rings and torque value allowed achieving a uniform pressure along the ring, estimated to be ∼ 46 MPa. A high, uniform pressure allows minimizing the thermal resistance of the joint. Figure [2](#page-2-1) shows a 3D rendering of the test stand and of the cavity connected to the cryocooler. All of the stainless steel hardware had been properly degaussed prior to installation onto the cavity.\n\nThe cavity and cryocooler 4 K stage were wrapped with ten layers of multi-layer insulation (MLI) and they are inside an inner magnetic shield. Such inner shield is inside a copper cylinder thermal shield attached to the cryocooler 50 K stage and wrapped with ten layers of MLI. Finally, an outer magnetic shield surrounds the thermal shield. Two rf cables connect the input and pick-up antennae mounted on the cavity to rf feedthroughs on the top plate. Sixteen calibrated Cernox RTDs were distributed on the cavity, Cu plate and the thermal shield. Three cryogenic flux-gate magnetometer probes were placed at locations on the cavity ring with different orientations.\n\nThe test stand was inserted in a VTA vertical cryostat, which was used only as a vacuum vessel for this test. The\n\n![](_page_2_Figure_6.jpeg)\n\n<span id=\"page-2-1\"></span>FIG. 2. Cross-section of the 3D model of the cavitycryocooler the test stand (a) and detail of the cavity connection to the cryocooler 4 K stage (b). The test stand has a 61 cm diameter top plate and it is 93 cm in height.\n\nmagnitude of the ambient magnetic flux density at the cavity was less than 3 mG. The cooldown lasted about three days and the average steady state temperature of sensors along the Cu plate attached to the cavity equator ring and on top and bottom of the cavity was 3.8±0.4 K. In order to achieve a good thermalization of the cavity in the vicinity of 18 K, which is required in order to minimize rf losses due to trapped magnetic flux generated by thermoelectric currents [\\[20\\]](#page-5-10), the cryocooler was cycled on and off twice close to this temperature. The maximum magnetic flux density measured by the FGM probes close to T<sup>c</sup> was ∼ 14 mG and the temperature gradient along the cavity was ∼ 0.09 K/cm. The Q0 value at B<sup>p</sup> = 2.4 mT was 1×10<sup>10</sup> and the Q0(Bp) curve is shown in Fig. [3](#page-3-0) along with the data measured in LHe at 4.3 K before and after Cu coating. The cavity reached a maximum Bp-value of 29 mT above which a Q-switch occur, reducing both B<sup>p</sup> and Q<sup>0</sup> to 22 mT and 5 × 10<sup>8</sup> , respectively. It was verified that the Q<sup>0</sup> vs. B<sup>p</sup> curve is reversible when lowering the forward power. The test was stopped at Ploss = 5 W, limited by the power handling capability of the input power cable. The cavity was held at this level of dissipated power, corresponding to\n\nQ<sup>0</sup> = 5 × 10<sup>8</sup> at 22 mT, for 1 h after which the rf power was turned off. The average cavity temperature, Tavg, showed a modest increase from 6.9 K to 7.1 K , as shown in Fig. [4.](#page-3-1) There was no indication of thermal instability, such as sudden temperature jumps or dT /dt increasing over time during this extended cavity operation test. All rf tests were done in continuous-wave (cw) mode (100% duty factor) and there were no detectable X-rays from field-emitted electrons in any of the tests. The amplitude of the cavity microphonics was measured using the digital low-level rf control system used for the cavity rf test [\\[21\\]](#page-5-11) and the peak-to-peak value was 13.8 Hz. The frequency of the microphonics was 1.2 Hz, which is the frequency of the displacer in the 4 K stage of the cryocooler.\n\n![](_page_3_Figure_1.jpeg)\n\n<span id=\"page-3-0\"></span>FIG. 3. Quality factor of the SRF cavity as a function of the peak surface magnetic field or of the accelerating gradient, in cw mode. The temperature of the outer cavity surface was constant at 4.3 K for the tests in LHe, whereas it increased with increasing rf field in the test with cryocooler. The inset shows the average cavity temperature as a function of the dissipated power, compared with the temperature of a Cu block with a heater mounted to the 4 K stage of the cryocooler as a function of the heater power.\n\nA thermal breakdown of the superconducting state is a common limitation in the operation of SRF cavities in particle accelerators, even when cooled in superfluid He. Except for few exceptions, such thermal breakdown occurs well below the superheating field of the superconductor and it is caused by the presence of defects on the inner cavity surface [\\[22\\]](#page-5-12). An example of such defects are normal conducting inclusions which are heated by the rf field and when the local temperature exceeds T<sup>c</sup> the surrounding superconductor quenches. Such quenches can occur even at a relatively low power density. The\n\n![](_page_3_Figure_4.jpeg)\n\n<span id=\"page-3-1\"></span>FIG. 4. Average temperature of the cavity outer surface while operating the conduction cooled cavity in cw mode with a constant dissipated power of 5 W for 1 h with no indication of thermal instability. The width of the shaded area corresponds to the standard deviation.\n\nQ-switch which limits the maximum achievable surface field in this cavity is attributed to defective regions in poor thermal contact with the surrounding superconductor. At the onset of the Q-switch, these regions may become normal conducting and dissipate more and more of the cavity's stored energy as more power is transmitted into the cavity. One possibility, is the presence of a large number of µm-size defects distributed uniformely over the cavity surface, given the uniformity of the temperature distribution on the cavity outer surface even with a dissipated power of 5 W. Such case was evaluated with a steady-state thermal analysis with ANSYS and the temperature distribution is shown in Fig. [5.](#page-4-9) A power dissipation of 5 W was applied at the inner surface and an estimated static heat leak of 0.58 W was applied to the bottom of the Cu plate. The contact thermal conductance was set to 0.7 W/K and the temperature at the cryocooler location was set to 7.5 K, based on the heat capacity map. Figure [5](#page-4-9) indeed shows that the temperature is quite uniform over the whole cavity surface and close to that of the cryocooler, because of the high-conductivity Cu layer.\n\nThe change in the Q0(Bp) curve above ∼ 20 mT indicates an onset of ohmic-type losses as Ploss ∝ H<sup>2</sup> <sup>p</sup> at higher rf field. If such dependence would have continued, without the occurrence of a Q-switch, a Ploss = 5 W would have been reached at B<sup>p</sup> = 41 mT. Such value of B<sup>p</sup> would have met the requirement for a single-cell cavity designed for a 1 MeV electron linear accelerator for environmental remediation [\\[10\\]](#page-5-0). The origin, size and location of the defective regions are unclear at this stage. One possibility is the contamination of the Nb3Sn film by the plating solution. Another possibility is related to strain of the Nb3Sn film given by the differential ther-\n\n![](_page_4_Figure_0.jpeg)\n\n<span id=\"page-4-9\"></span>FIG. 5. Temperature distribution on the cavity surface and Cu plate with 5 W rf heat load and 0.58 W static heat load, calculated with ANSYS.\n\nmal expansion coefficient between the Cu layer and the Nb layer, since it is well known that the superconducting properties of Nb3Sn are very sensitive to strain [\\[23\\]](#page-5-13). A finite element mechanical analysis with ANSYS showed that stresses as high as ∼ 275 MPa at the irises and ∼ 185 MPa elsewhere on the cell may be applied to the Nb3Sn-coated Nb, due to the larger thermal contraction of Cu. This aspect and possible mitigations will require further studies.\n\nIn summary, we were able to operate a multi-metallic SRF cavity with conduction cooling, using a commercial GM cryocooler, in cw mode up to 29 mT peak surface magnetic field and up to 5 W of power dissipation. In spite of the rigid connection between the cryocooler's 4 K stage and the cavity, the amplitude of the microphonics does not represent an issue, as it was well within what is typically achieved and controlled in SRF accelerator cavities [\\[24,](#page-5-14) [25\\]](#page-5-15), particularly considering the low loadedQ values (10<sup>4</sup> − 10<sup>5</sup> ) typically required for a low-energy, high-power accelerator. To the author's knwoledge, the maximum B<sup>p</sup> and Ploss values we have reported are the highest ever achieved by a conduction cooled SRF cavity and represent a fundamental stepping stone towards the demonstration of compact, low-cost accelerators for applications in industry, medicine or for university-scale research.\n\nAfter this work was completed, we became aware of a new report from Fermilab in which B<sup>p</sup> ∼ 24 mT and a Ploss of 4 W were achieved in a cryocooler conduction cooled 650 MHz single-cell cavity [\\[26\\]](#page-5-16)\n\n## ACKNOWLEDGMENTS\n\nThe authors woud like to acknowledge B. Golesich at CTC, A. Tuck at AJ Tuck Co. and D. Combs of JLab's machine shop for their expert craftsmanship to produce the cavity's thick Cu shell. We would like to thank our colleagues K. Harding and J. Henry for the design of the cryocooler test stand, E. Daly for helpful discussions on the test setup, JLab's Cavity Production Group for helping with cleaning of the parts and the cavity and D. Tucker for helping with the assembly of the test stand. We would like to thank I. Parajuli of Old Dominion University for helping with the cavity assembly and sensors installation. We would also like to acknowledge Dr. G. Eremeev of Fermilab, formerly at JLab, for allowing access to the Nb3Sn coating furnace and M. Dale of Sumitomo Cryogenics of America for lending the cryocooler used for this study. This work is authored by Jefferson Science Associates, LLC under U.S. DOE Contract No. DE-AC05-06OR23177 and it is partly supported by the Presidential Early Career Award of G. Ciovati. The work of U. Pudasaini was supported by the DOE Early Career Award of G. Eremeev.\n\n- <span id=\"page-4-0\"></span>[1] H. Padamsee, \"Applications and operations,\" in [RF](http://dx.doi.org/10.1002/9783527627172.ch11) [Superconductivity](http://dx.doi.org/10.1002/9783527627172.ch11) (John Wiley & Sons, Ltd, 2009) Chap. 11, pp. 333–387.\n- <span id=\"page-4-1\"></span>[2] S. Belomestnykh, in [Reviews of Accelerator Science and](http://dx.doi.org/10.1142/S1793626812300006X) [Technology](http://dx.doi.org/10.1142/S1793626812300006X), Vol. 5, edited by A. W. Chao and W. Chou (WORLD SCIENTIFIC, Singapore, 2013) pp. 147–184.\n- <span id=\"page-4-2\"></span>[3] M. Kelly, in [Reviews of Accelerator Science and Technol](http://dx.doi.org/10.1142/S1793626812300071)[ogy](http://dx.doi.org/10.1142/S1793626812300071), Vol. 5, edited by A. W. Chao and W. Chou (WORLD SCIENTIFIC, Singapore, 2013) pp. 185–203.\n- <span id=\"page-4-3\"></span>[4] C. Boulware, \"4 K superconducting linacs for commercial applications,\" presented at 2016 North American Particle Accelerator Conference, Chicago, IL, October 2016.\n- <span id=\"page-4-4\"></span>[5] E. J. Minehara, N. Kikuzawa, R. Nagai, R. Kato, M. Sawamura, M. Takao, M. Sugimoto, M. Ohkubo, J. Sasabe, Y. Suzuki, and Y. Kawarasaki, in Proc. 6th Int. Conf. RF Superconductivity (SRF93), Newport News, VA, USA, Oct. 1993, paper SRF93I34 (JACoW Publishing, Geneva, Switzerland) pp. 886–894.\n- <span id=\"page-4-5\"></span>[6] N. Kikuzawa, R. Nagai, M. Sawamura, N. Nishimori, E. Minehara, and Y. Suzuki, in Proc. 8th Int. Conf. RF Superconductivity (SRF97), Padova, Italy, Oct. 1997, paper SRF97C40 (JACoW Publishing, Geneva, Switzerland) pp. 769–773.\n- <span id=\"page-4-6\"></span>[7] S. Posen and D. L. Hall, [Superconductor Science and](http://dx.doi.org/10.1088/1361-6668/30/3/033004) Technology 30[, 033004 \\(2017\\).](http://dx.doi.org/10.1088/1361-6668/30/3/033004)\n- <span id=\"page-4-7\"></span>[8] R. Kephart, B. Chase, I. Gonin, A. Grassellino, S. Kazakov, T. Khabiboulline, S. Nagaitsev, R. Pasquinelli, S. Posen, O. Pronitchev, A. Romanenko, V. Yakovlev, S. Biedron, S. Milton, N. Sipahi, S. Chattopadhyay, and P. Piot, in Proc. 17th Int. Conf. RF Superconductivity (SRF15), Whistler, Canada, Sep. 2015, paper FRBA03 (JACoW Publishing, Geneva, Switzerland) pp. 1467– 1473.\n- <span id=\"page-4-8\"></span>[9] W. Barletta and M. Borland, Report of the Basic Energy Sciences Workshop on Compact Light Sources, Rockville, MD, Tech. Rep. (U.S. Department of Energy, 2010).\n- <span id=\"page-5-0\"></span>[10] G. Ciovati, J. Anderson, B. Coriton, J. Guo, F. Hannon, L. Holland, M. LeSher, F. Marhauser, J. Rathke, R. Rimmer, T. Schultheiss, and V. Vylet, [Phys. Rev.](http://dx.doi.org/ 10.1103/PhysRevAccelBeams.21.091601) Accel. Beams 21[, 091601 \\(2018\\).](http://dx.doi.org/ 10.1103/PhysRevAccelBeams.21.091601)\n- <span id=\"page-5-1\"></span>[11] R. C. Dhuley, M. I. Geelhoed, Y. Zhao, I. Terechkine, M. Alvarez, O. Prokofiev, and J. C. T. Thangaraj, in [IOP](https://lss.fnal.gov/archive/2019/conf/fermilab-conf-19-351-di-ldrd-td.pdf) [Conference Series: Materials Science and Engineering](https://lss.fnal.gov/archive/2019/conf/fermilab-conf-19-351-di-ldrd-td.pdf) (to be published).\n- <span id=\"page-5-2\"></span>[12] R. Duhley, personal communication.\n- <span id=\"page-5-3\"></span>[13] J. Sekutowicz, in Proc. 20th Particle Accelerator Conf. (PAC03), Portland, OR, USA, May 2003, paper TPAB085 (JACoW Publishing, Geneva, Switzerland) pp. 1395–1397.\n- <span id=\"page-5-4\"></span>[14] G. V. Eremeev, W. A. Clemens, K. Macha, H. Park, and R. S. Williams, in [Proc. 6th Int. Particle Accelerator](http://dx.doi.org/10.18429/JACoW-IPAC2015-WEPWI011) [Conf. \\(IPAC15\\), Richmond, VA, USA, May 2015](http://dx.doi.org/10.18429/JACoW-IPAC2015-WEPWI011) (JA-CoW Publishing, Geneva, Switzerland) pp. 3512–3514.\n- <span id=\"page-5-5\"></span>[15] C. Benvenuti, P. Bernard, D. Bloess, G. Cavallari, E. Chiaveri, E. Haebel, N. Hilleret, J. Tckmantel, and W. Weingarten, in [Proc. 14th Particle Accelerator Conf.](http://dx.doi.org/ 10.1109/PAC.1991.164525) [\\(PAC91\\), San Francisco, CA, USA, May 1991](http://dx.doi.org/ 10.1109/PAC.1991.164525) (JACoW Publishing, Geneva, Switzerland) pp. 1023–1026.\n- <span id=\"page-5-6\"></span>[16] G. Ciovati, G. Cheng, E. Daly, G. Eremeev, J. Henry, , U. Pudasaini, I. Parajuli, and R. Rimmer, in [Proc.](http://dx.doi.org/ 10.18429/JACoW-SRF2019-TUP050) [19th Int. Conf. RF Superconductivity \\(SRF19\\), Dresden,](http://dx.doi.org/ 10.18429/JACoW-SRF2019-TUP050) [Germany, Jun.-Jul. 2019, paper TUP050](http://dx.doi.org/ 10.18429/JACoW-SRF2019-TUP050) (JACoW Publishing, Geneva, Switzerland) pp. 540–544.\n- <span id=\"page-5-7\"></span>[17] A. Kanareykin, personal communication.\n- <span id=\"page-5-8\"></span>[18] ANSYS, [\"3D engineering and designing software,\"](ansys.com) (2019).\n- <span id=\"page-5-9\"></span>[19] A. Dillon, K. McCusker, J. V. Dyke, B. Isler, and M. Christiansen, [IOP Conference Series: Materials Sci-](http://dx.doi.org/ 10.1088/1757-899x/278/1/012054)\n\n[ence and Engineering](http://dx.doi.org/ 10.1088/1757-899x/278/1/012054) 278, 012054 (2017).\n\n- <span id=\"page-5-10\"></span>[20] D. Hall, M. Liepe, D. Liarte, and J. P. Sethna, in [Proc. 8th Int. Particle Accelerator Conf. \\(IPAC17\\),](http://dx.doi.org/10.18429/JACoW-IPAC2017-MOPVA118) [Copenhagen, Denmark, May 2017](http://dx.doi.org/10.18429/JACoW-IPAC2017-MOPVA118) (JACoW Publishing, Geneva, Switzerland) pp. 1127–1129.\n- <span id=\"page-5-11\"></span>[21] C. Hovater, T. Allison, R. Bachimanchi, G. Lahti, J. Musson, T. E. Plawski, C. Seaton, and D. Seidman, in Proc. 25th Linear Accelerator Conf. (LINAC10), Tsukuba, Japan, Sep. 2010, paper MOP095 (JACoW Publishing, Geneva, Switzerland) pp. 280–282.\n- <span id=\"page-5-12\"></span>[22] H. Padamsee, \"High-field Q-slope and quench field,\" in [RF Superconductivity](http://dx.doi.org/10.1002/9783527627172.ch11) (John Wiley & Sons, Ltd, 2009) Chap. 5, pp. 192–200.\n- <span id=\"page-5-13\"></span>[23] A. Godeke, F. Hellman, H. H. J. ten Kate, and M. G. T. Mentink, [Superconductor Science and Technology](http://dx.doi.org/10.1088/1361-6668/aad980) 31, [105011 \\(2018\\).](http://dx.doi.org/10.1088/1361-6668/aad980)\n- <span id=\"page-5-14\"></span>[24] T. Powers, N. Brock, and G. Davis, in [Proc.](http://dx.doi.org/doi:10.18429/JACoW-SRF2019-TUP034) [SRF'19](http://dx.doi.org/doi:10.18429/JACoW-SRF2019-TUP034) , International Conference on RF Superconductivity No. 19 (JACoW Publishing, Geneva, Switzerland, 2019) pp. 493–498, https://doi.org/10.18429/JACoW-SRF2019-TUP034.\n- <span id=\"page-5-15\"></span>[25] M. Liepe and S. Belomestnykh, in Proc. 20th Particle Accelerator Conf. (PAC03), Portland, OR, USA, May 2003, paper TPAB055 (JACoW Publishing, Geneva, Switzerland) pp. 1326–1328.\n- <span id=\"page-5-16\"></span>[26] R. C. Dhuley, S. Posen, M. I. Geelhoed, O. Prokofiev, and J. C. T. Thangaraj, \"Demonstration of a cryocooler conduction-cooled superconducting radiofrequency cavity operating at practical cw accelerating gradients,\" [arXiv:2001.0782 \\[physics.ins-det\\].](http://arxiv.org/abs/2001.0782)",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Multi-metallic conduction cooled superconducting radio-frequency cavity with high\nthermal stability",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              61.857421875,
+              52.693603515625
+            ],
+            [
+              553.2293090820312,
+              52.693603515625
+            ],
+            [
+              553.2293090820312,
+              78.5968017578125
+            ],
+            [
+              61.857421875,
+              78.5968017578125
+            ]
+          ]
+        },
+        {
+          "title": "ACKNOWLEDGMENTS",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              378.9140625,
+              217.1263427734375
+            ],
+            [
+              499.04296875,
+              217.1263427734375
+            ],
+            [
+              499.04296875,
+              226.09271240234375
+            ],
+            [
+              378.9140625,
+              226.09271240234375
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              308
+            ],
+            [
+              "Line",
+              89
+            ],
+            [
+              "Text",
+              8
+            ],
+            [
+              "TextInlineMath",
+              5
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Footnote",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              380
+            ],
+            [
+              "Line",
+              117
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              232
+            ],
+            [
+              "Line",
+              72
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              219
+            ],
+            [
+              "Line",
+              76
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              247
+            ],
+            [
+              "Line",
+              93
+            ],
+            [
+              "Reference",
+              10
+            ],
+            [
+              "ListItem",
+              9
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              166
+            ],
+            [
+              "Line",
+              63
+            ],
+            [
+              "ListItem",
+              17
+            ],
+            [
+              "Reference",
+              17
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/6PN5gd9QaKvTRIyOGTp4kg"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 6,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Multi-metallic conduction cooled superconducting radio-frequency cavity with high thermal stability",
+    "authors": [
+      {
+        "authors_list": [
+          "Ciovati, Gianluigi",
+          "Cheng, Gary",
+          "Pudasaini, Uttar",
+          "Rimmer, Robert A."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Superconducting radio-frequency cavities are commonly used in modern particle accelerators for applied and fundamental research. Such cavities are typically made of high-purity, bulk Nb and with cooling by a liquid helium bath at a temperature of ∼2 K. The size, cost and complexity of operating a particle accelerator with a liquid helium refrigerator make the current cavity technology not favorable for use in industrial-type accelerators. We have developed a multi-metallic 1.495 GHz elliptical cavity conductively cooled by a cryocooler. The cavity has a ∼2 µm thick layer of Nb<SUB>3</SUB>Sn on the inner surface, exposed to the rf field, deposited on a ∼3 mm thick bulk Nb shell and a bulk Cu shell, of thickness $\\geqslant\\! 5$?--> mm deposited on the outer surface by electroplating. A bolt-on Cu plate 1.27 cm thick was used to thermally connect the cavity equator to the second stage of a Gifford-McMahon cryocooler with a nominal capacity of 2 W at 4.2 K. The cavity was tested initially in liquid helium at 4.3 K and reached a peak surface magnetic field of ∼36 mT with a quality factor of 2 × 10<SUP>9</SUP>. The cavity cooled by the cryocooler achieved a peak surface magnetic field of ∼29 mT, equivalent to an accelerating gradient of 6.5 MV m<SUP>-1</SUP>. The conduction-cooled cavity could be operated in continuous-wave with as high as 5 W dissipation in the cavity for 1 h without any thermal breakdown, because of the Cu outer layer with high thermal conductivity. This result represents a paradigm shift in the technology of superconducting accelerator cavities.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Superconductor Science Technology",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2001.10924"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1088/1361-6668/ab8d98",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2020SuScT..33gLT01C"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

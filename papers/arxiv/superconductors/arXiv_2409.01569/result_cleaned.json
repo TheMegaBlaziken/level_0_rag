@@ -1,0 +1,741 @@
+{
+  "id": "d7a7642f857a4639f8207526e066fb8b",
+  "pdf_path": "apl/Superconductors/arXiv:2409.01569.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "## Analysis of Thermal Grooving Effects on Vortex Penetration in Vapor-Diffused Nb3Sn\n\nEric M. Lechner<sup>1</sup> , Olga Trofimova<sup>1</sup> , Jonathan W. Angle<sup>2</sup> , Madison C. DiGuilio<sup>3</sup> , Uttar Pudasaini<sup>1</sup>\n\n<sup>1</sup>Thomas Jefferson National Accelerator Facility, Newport News, Virginia 23606 <sup>2</sup>Pacific Northwest National Laboratory, Richland, Washington 99354 <sup>3</sup>Tidewater Community College, Norfolk, Virginia 23510\n\nE-mail: lechner@jlab.org, uttar@jlab.org\n\nNovember 27, 2024\n\nAbstract. While Nb3Sn theoretically offers better superconducting radio-frequency cavity performance (Q<sup>0</sup> and Eacc) to Nb at any given temperature, peak RF magnetic fields consistently fall short of the ∼400 mT prediction. The relatively rough topography of vapor-diffused Nb3Sn is widely conjectured to be one of the factors that limit the attainable performance of Nb3Sn-coated Nb cavities prepared via Sn vapor diffusion. Here we investigate the effect of coating duration on the topography of vapor-diffused Nb3Sn on Nb and calculate the associated magnetic field enhancement and superheating field suppression factors using atomic force microscopy topographies. It is shown that the thermally grooved grain boundaries are major defects which may contribute to a substantial decrease in the achievable accelerating field. The severity of these grooves increases with total coating duration due to the deepening of thermal grooves during the coating process.\n\nRadio-frequency (RF) cavities are electromagnetic resonators capable of storing electromagnetic energy to accelerate charged particle beams in modern accelerators. Compared with normal conducting RF cavities, superconducting RF (SRF) cavities possess much smaller surface resistance, Rs, reducing the RF power dissipation in the cavity walls by 5-6 orders of magnitude compared to normal conducting materials. This low surface resistance allows SRF cavities to operate at high fields in continuous wave mode. Bulk niobium (T<sup>c</sup> ≈ 9.2 K, B<sup>c</sup> ≈ 200 mT, Bsh ≈ 240 mT, and ∆ ≈ 1.5 meV [\\[1,](#page-9-0) [2,](#page-9-1) [3,](#page-9-2) [4\\]](#page-9-3)) is currently the material of choice to fabricate SRF cavities due to its superior superconducting properties among the pure elements and suitable mechanical properties to form complex structures. Over the past five decades, continual research and development has advanced Nb SRF cavity technology, determining performance limiting mechanisms, and developing adequate processes to mitigate them.\n\nNiobium cavities often require operating at ∼ 2 K for optimal performance, which demands complicated cryogenic facilities, and is a major cost driver for SRF-based accelerators. Nb3Sn is an alternative material with potential to surpass the state-of-art Nb cavity performance. Nb3Sn possesses superior superconducting properties: T<sup>c</sup> ≈\n\n## Analysis of Thermal Grooving Effects on Vortex Penetration in Vapor-Diffused Nb3Sn2\n\n18.3 K, B<sup>c</sup> ≈ 470 mT, Bsh ≈ 400 mT, and ∆ ≈ 3.4 meV [\\[5,](#page-9-4) [6,](#page-9-5) [7,](#page-10-0) [8\\]](#page-10-1), all almost twice that of Nb. Theoretically, it promises higher accelerating gradient, quality factor, and operating temperature than bulk Nb. Nb3Sn SRF cavities at 4.3 K can deliver similar performance to Nb cavities at 2 K. This would enable enormous cost savings for future SRF accelerators by simplifying cryogenic facilities and reducing their operating cost. Successful deployment of Nb3Sn technology would usher in an era of high efficiency, conduction-cooled accelerators for basic science, medicinal and industrial applications [\\[9,](#page-10-2) [10\\]](#page-10-3).\n\nNb3Sn cavities routinely operate at peak magnetic fields between Bc<sup>1</sup> and Bsh, indicating Bc<sup>1</sup> is not a limiting parameter for the operation in the metastable Meissner state. It has been shown using both DC and short high power pulses that a major limitation may be related to flux penetration at defects in the RF layer [\\[11\\]](#page-10-4). While Nb3Sn theoretically offers superior peak accelerating fields, they are typically limited below 20 MV/m (85 mT)[\\[12\\]](#page-10-5). To date, the highest accelerating gradient at 4.2 K in vapor-diffused Nb3Sn 1.3 GHz single cell cavities is 24 MV/m (100 mT)[\\[13\\]](#page-10-6). An interesting observation from witness sample studies of that cavity showed unusually small surface roughness.\n\nThe smoothness of the RF surface is one of the important aspects to achieve highfield cavity performance. Smoother is better. As such, an ideal surface is perfectly flat. Surface roughness on a superconductor exposed to an applied magnetic field introduces two vulnerabilities to the preservation of the Meissner state: magnetic field enhancement (MFE) and superheating field suppression (SFS). Magnetic field enhancement arises from the supercurrent screening of applied magnetic fields by rough surfaces where the magnetic field is locally increased. The most severely affected regions are marked by sharp edge/small radius of curvature topographic defects [\\[14,](#page-10-7) [15,](#page-10-8) [16,](#page-10-9) [17,](#page-10-10) [18\\]](#page-11-0). The local field due to MFE can exceed the critical magnetic field of the material and cause regions of the defect to transit into the normal conducting state. These normal conducting regions expand and lead to thermal instability [\\[14,](#page-10-7) [15,](#page-10-8) [19,](#page-11-1) [20\\]](#page-11-2). Localized superheating field suppression, a weakened stability of the metastable Meissner state, arises due to nanoscale roughness [\\[21,](#page-11-3) [22,](#page-11-4) [23\\]](#page-11-5). This weakened stability results from the competition between the external magnetic field pushing a vortex into the superconductor and the image force from the surface expelling it. Topographic defects facilitate premature breakdown of the metastable Meissner state by enhancing the force from the external magnetic field pushing a vortex into the surface due to current crowding, a concept familiar to optimization of superconducting nanocircuits [\\[24,](#page-11-6) [25\\]](#page-11-7), and reducing the force from the surface expelling it [\\[22\\]](#page-11-4). At Bsh the surface is absolutely unstable to nucleation of highly dissipative vortices that may contribute to thermal instability [\\[26,](#page-11-8) [27,](#page-11-9) [28\\]](#page-11-10). Recent analysis of N-doped and low temperature baked Nb showed that the preservation of Bsh may play a role in experimentally attainable peak field [\\[29,](#page-11-11) [30\\]](#page-12-0).\n\nIn this work the effect of coating duration on the topography of Sn vapor-diffused Nb3Sn samples and its implications on SFS and MFE is investigated. Nb3Sn coatings were prepared using a similar Sn vapor diffusion process used to coat Nb3Sn on Nb\n\n<span id=\"page-2-0\"></span>![](_page_2_Figure_1.jpeg)\n\nFigure 1: (a) Representative TMAFM topography of a Nb3Sn surface after 6 hours of coating time at T = 1200 °C. The scale bar is 5 µm. (b) SE-SEM image of a crosssection through a grain. The scale bar is 1 µm. (c) Topographic line profile through the area marked by the red line in (a). Grains are marked by different colors beneath the topographic line profile. The scale bar is 500 nm. (d) HAADF-STEM image of a grain boundary groove cross-section. The scale bar is 200 nm.\n\ncavities. The samples were prepared during a study to elucidate the growth mechanism of Nb3Sn coating during the vapor diffusion process [\\[31\\]](#page-12-1). This coating consists of two steps: nucleation and growth. Tin chloride is first evaporated at ∼500 °C, depositing a Sn film and particles onto the Nb surface to mitigate non-uniformity in the coating by improving nucleation [\\[32\\]](#page-12-2). The Nb3Sn growth temperature was 1200 °C, well above the temperature of 930 °C needed to exclusively form the Nb3Sn phase. Topographic measurements were acquired using a Dimension Icon Atomic Force Microscope, Bruker, at the Applied Research Center Core Labs of College of William and Mary. All measurements were made in tapping mode (TMAFM), using scanasyst-air probes (Bruker) [\\[33\\]](#page-12-3) at 512 × 512 pixels. As grown vapor-diffused Nb3Sn surfaces are topographically imperfect. A representative Nb3Sn surface is shown in Fig. [1](#page-2-0) (a). Grain boundaries host high slope angle grooves as highlighted by the secondary electron scanning electron microscopy (SE-SEM) image, line profile through the topography in (a) and high angle annular dark field scanning transmission electron microscopy (HAADF-STEM) shown in Fig. [1](#page-2-0) (b-d). The surface is characterized by an undulating intragranular topography separated by V-shaped, grooved grain boundaries. The grooved grain boundaries are qualitatively consistent with the shape of thermal grooving via surface diffusion [\\[34,](#page-12-4) [35\\]](#page-12-5). The groove root, which should retain a selfsimilar shape during growth[\\[34\\]](#page-12-4), is sharp as shown in Fig. [1](#page-2-0) (d). These topographic defects give rise to local MFE and SFS. The MFE and SFS factors, β(r) and η(r), are defined by B(r) = β(r)B<sup>0</sup> and B<sup>∗</sup> sh(r) = η(r)Bsh, respectively. Here B<sup>0</sup> is the magnetic field far from the surface, B(r) is the local magnetic field, Bsh is the superheating field of a perfectly flat surface and B<sup>∗</sup> sh(r) is the geometrically modified superheating field. The MFE and SFS factors were calculated using the perfect electrical conductor model [\\[29\\]](#page-11-11) and considering a triangular groove geometry similar to the one proposed by Kubo [\\[22\\]](#page-11-4) to calculate SFS, as shown in Fig. [2](#page-4-0) (a). In this simple model, we consider the competition between the force of the external magnetic field, FM, driving a vortex into the surface and the image vortex force, FS, expelling it from the surface. The force from the external magnetic field is given by\n\n$$\\mathbf{F\\_M} = \\mathbf{J\\_M} \\times \\phi\\_0 \\hat{\\mathbf{z}} \\tag{1}$$\n\nand the force from the surface is determined by the interaction with the image vortex given by\n\n$$\\mathbf{F\\_S = J\\_I \\times \\phi\\_0 \\hat{\\mathbf{z}}.} \\tag{2}$$\n\nwhere J<sup>M</sup> = ∇×B/µ<sup>0</sup> is determined by solution of the London equation of an infinitely long triangular groove defect aligned in the z direction. In this case the solution, B(x, y), lies only in the z direction leading to the governing equation\n\n$$\n\\nabla^2 B\\_z = \\frac{1}{\\lambda^2} \\, B\\_z. \\tag{3}\n$$\n\nwhere λ is the London penetration depth with the boundary conditions B(x, y = h(x)) = B0zˆ, B(x, y = ∞) = 0 and ∇B<sup>z</sup> · ˆx = 0. Where h(x) defines the surface contour. J<sup>I</sup> = −∇Φ<sup>I</sup> , where Φ<sup>I</sup> is the current density scalar potential of the image vortex calculated via conformal mapping\n\n$$\\frac{2\\pi\\mu\\_0\\lambda^2}{\\phi\\_0}\\Phi\\_I(x,y) = \\tilde{\\Phi}\\_I(x,y) = \\text{Re}\\left(-i\\ln(w - w\\_0^\\*)\\right)|\\_{w = F^{-1}(x,y)}.\\tag{4}$$\n\nw is the complex coordinate, w ∗ 0 is the complex conjugate of the vortex nucleation position in the w-plane which preserves the boundary condition of zero normal current density to the surface, and F −1 is the inverse map between w and real coordinate calculated numerically and described in detail elsewhere[\\[22\\]](#page-11-4). Here the coherence length, ξ, is used as the cutoff length scale in the London theory [\\[36,](#page-12-6) [22\\]](#page-11-4). When the sum of the forces on the vortex vanishes, F<sup>S</sup> + F<sup>M</sup> = 0, the Bean-Livingston barrier becomes unstable to vortex penetration [\\[22\\]](#page-11-4) which leads to the following expression\n\n$$B\\_{sh}^{\\*} = \\frac{2\\xi|-\\nabla\\tilde{\\Phi}\\_{I}(\\mathbf{r}\\_{\\mathbf{v}})|}{\\epsilon(\\mathbf{r}\\_{\\mathbf{v}})}B\\_{sh}.\\tag{5}$$\n\n<span id=\"page-4-0\"></span>![](_page_4_Figure_1.jpeg)\n\nFigure 2: (a) Triangular groove geometry used in the SFS model. (b) Color plot of η(δ, θ) via Eq. [6.](#page-5-0) (c) η(θ) in the deep-groove limit. ξ = 3 nm and λ = 120 nm were used to represent Nb3Sn.\n\nwhere Bsh = ϕ0/4πλξ is the superheating field of a perfectly flat surface in the London theory, ϵ(r) = |J(r)|/J<sup>0</sup> is the local current density enhancement factor, and r<sup>v</sup> is the vortex nucleation position given by r<sup>v</sup> = (δ + ξ)ˆy for this geometry. This defines the\n\nAnalysis of Thermal Grooving Effects on Vortex Penetration in Vapor-Diffused Nb3Sn6\n\n<span id=\"page-5-1\"></span>![](_page_5_Figure_1.jpeg)\n\nFigure 3: Representative TMAFM topographies (upper panels) and slope angles (lower panels) showing the evolution of Nb3Sn topography with coating duration. The scale bars are 5 µm.\n\nSFS factor\n\n<span id=\"page-5-0\"></span>\n$$\\eta(\\xi,\\lambda,\\delta,\\theta) = \\frac{2\\xi|-\\nabla\\tilde{\\Phi}\\_I(\\mathbf{r\\_v})|}{\\epsilon(\\mathbf{r\\_v})}.\\tag{6}$$\n\nwhich is computed numerically. This model predicts a superheating field suppression factor based on the slope angle of the groove, θ, the depth of the groove, δ, the superconductor's coherence length, ξ, and the London penetration depth, λ. This model spans from the nanoscale limit considered by Kubo [\\[22\\]](#page-11-4) to the deep groove geometry considered by Buzdin and Daumens [\\[37\\]](#page-12-7) and can be used between the two limits where many of the defects in the Nb3Sn system find themselves. Using Eq. [6](#page-5-0) and estimating ξ ≈ 3 nm and λ ≈ 120 nm for Nb3Sn[\\[38,](#page-12-8) [39,](#page-12-9) [40\\]](#page-12-10), η(δ, θ) is plotted in Fig. [2](#page-4-0) (b). The superconducting coherence length and penetration depth values used are qualitatively useful for evaluating the effect of surface roughness on the superheating field for other materials[\\[41\\]](#page-12-11). The surface in Fig. [2](#page-4-0) (b) shows that the SFS factor can be quickly degraded by defects of only a few 10's of nanometers deep and slope angles exceeding 10°. In the limit of deep grooving, the SFS factor ceases to change with increasing depth of the groove, which is consistent with the deep groove limit [\\[37\\]](#page-12-7). The slope angle dependent deep-groove limit SFS factors for this model are plotted in Fig. [2](#page-4-0) (c).\n\nThe topographic evolution of Nb3Sn with coating durations between 1 to 78 hours was examined. Ten topographic measurements sampled randomly across the surface of each sample were made at 20 µm × 20 µm for samples coated up to 18 h and at 25 µm × 25 µm for 60 h and 78 h. Representative TMAFM images are shown in Fig. [3.](#page-5-1) Extended coatings develop on average larger grains and increased peak-to-\n\n<span id=\"page-6-0\"></span>![](_page_6_Figure_1.jpeg)\n\nFigure 4: (a) Representative topography of a Nb3Sn sample coated at 1200 °C for 3 hours. (b) MFE factor map of the topography used in (a). (c) SFS factor map of the topography used in (a). Dashed circles indicate some of the regions on the surface where SFS and MFE coincide. The scale bars are 5 µm.\n\nvalley distance as indicated by the z color scale in Fig. [3.](#page-5-1) Local slope angles can be very large, exceeding 60° in some cases. As shown in Fig. [3,](#page-5-1) the largest slope angles form exclusively between particularly tall grains and much shorter ones. As measured by TMAFM, large slope angles tend to form a slope-angled step geometry but could have more complex geometry not apparent to AFM [\\[42\\]](#page-13-0). Magnetic field enhancement factor maps are calculated using the methods outlined in previous work [\\[29\\]](#page-11-11). The SFS factor maps are calculated similar to that in [\\[29\\]](#page-11-11) by determining δ(r) and θ(r) as inputs to Eq. [6.](#page-5-0) We estimate δ(r) by taking the difference between the topography and a plane formed by a first order, 11-pixel frame, Savitzky-Golay type[\\[43,](#page-13-1) [44\\]](#page-13-2) smoothing of the topography. This serviceable estimate of δ(r) tends to underestimate δ due to the nature of the smoothing procedure on the complex topography of Nb3Sn. MFE and SFS factor maps derived from the topography in Fig. [4](#page-6-0) (a) are shown in Fig. [4](#page-6-0) (b) and (c). As shown in Fig. [4](#page-6-0) (c), the grain boundary grooves host the most severely degraded superheating field suppression factors. Considering the combined effect of SFS and MFE on maximum supportable field, B<sup>∗</sup> max(r) = (η/β)Bmax, the SFS factors are at least ∼ 2× more severe than the MFE factors observed in Fig. [4](#page-6-0) (b) which may account for a substantial reduction in peak supportable magnetic field in Nb3Sn films since only a small fraction of vortex-active grain boundaries are required to increase surface resistance substantially[\\[28\\]](#page-11-10).\n\nThe relative frequencies of parameters extracted from the AFM topographies are shown in Fig. [5.](#page-8-0) The distribution of θ(r) and δ(r) is shown in Fig. [5](#page-8-0) (a) and (b). No discernible trend with coating duration is observed in the distribution of θ(r), while the depth of the grooves, represented by the high-δ branch, tends to increase with increasing coating duration, as shown in Fig. [5](#page-8-0) (b). These observations are qualitatively consistent with the thermal grooving of grain boundaries where the dihedral angle is often assumed not to change [\\[34\\]](#page-12-4) or expected to change very little [\\[45\\]](#page-13-3) during high temperature annealing. The distribution of peak local MFE factors, shown in Fig. [5](#page-8-0) (c), also does not show any discernible trend as coating duration increases, which is likely due to the self-similar growth of thermal grooves. Peak MFE factors fall between 1.5 and 2 in agreement with previous estimates of MFE factors on Nb3Sn [\\[46\\]](#page-13-4). It is worth reiterating that the MFE factors obtained here were calculated in the framework of the perfect electrical conductor model, which assumes the limit λ → 0, however the length scale of the defects is in fact comparable to the London penetration depth of Nb3Sn of ∼ 120 nm. The comparative length scale effectively reduces the severity of MFE near sharp edges which would otherwise diverge in the perfect electrical conductor model. The SFS factors distributions shown in Fig. [5](#page-8-0) (d) presents a merged bimodal distribution that bifurcates as coating duration increases. This bifurcation is also reflected in the δ distribution in Fig. [5](#page-8-0) (b). The low-η branch, related to the grain boundary grooving process, widens and extends toward lower-η values and lower relative frequency. The extension to lower-η values is due to the increasing depth of grain boundary grooves, while its decrease in relative frequency is due to the reduced sampling of grain boundaries in the scan areas caused by grain growth during extended coating duration. A zoom-in on low-η values is presented in Fig. [5](#page-8-0) (e), which shows that the low-η distribution reaches from η ∼0.3 for short coating times to η ∼0.25 for longer coating times. Despite the deepening of grooves in Fig. [5](#page-8-0) (b), the SFS factors stabilize and do not further decrease. This is due to the invariance of superheating field suppression factors on groove depth in the deep-groove limit as shown in Fig. [2](#page-4-0) (b). Considering a theoretical superheating field of ≈ 400 mT for Nb3Sn and the value of superheating field suppression factors alone, this would correspond to accelerating fields from ∼25-30 MV/m (107-128 mT) in TESLA-shaped cavities [\\[47\\]](#page-13-5). Additional loss in peak field may be observed if MFE and SFS coincide. Such locations, some of which are circled in Fig. [4](#page-6-0) (a-c), may further reduce the peak accelerating field by a factor of ∼ 1.7, yielding ∼ 12-18 MV/m (51-77 mT). While this is in qualitative agreement with the field limitation observed in Nb3Sn cavities, we expect that the London model estimation of the SFS factors represents a lower bound of η due to non-locality of the BCS current-field relation. Additional causes of performance degradation are likely concurrent. Performance limiting mechanisms may take the form of Sn droplets [\\[48\\]](#page-13-6), thin patchy regions [\\[49\\]](#page-13-7), reduced thermal conductivity [\\[50\\]](#page-13-8) or weak links caused by nonstoichiometry at grain boundaries[\\[51,](#page-13-9) [52,](#page-13-10) [28\\]](#page-11-10). Recent calculations suggest that thermal conductivity is not currently a limiting factor in typically grown, few-µm thick films [\\[53\\]](#page-14-0). Based on this, these topographic defects may account for a substantial degradation of peak-field in dense and stoichiometric Nb3Sn thin films grown via Sn vapor diffusion. If possible, groove slope angles and groove depths should be minimized to preserve the superheating field as shown in Fig. [2](#page-4-0) (b). Coating duration should be optimized to minimize further degradation of SFS and MFE factors via thermal grooving. However, the coating must satisfy other conditions, like a minimum film thickness and uniformity which may not necessarily coincide with shortened coating duration.\n\nIn summary, we have investigated the effects of coating growth duration on the topography of vapor-diffused Nb3Sn grown at 1200 °C. Within the perfect electrical conductor model and superheating field suppression model based on the London theory,\nAnalysis of Thermal Grooving Effects on Vortex Penetration in Vapor-Diffused Nb3Sn9\n\n![](0__page_8_Figure_1.jpeg)\n\nFigure 5: (a) Relative frequencies of local slope angle, θ, (b) deviation between topography and background plane, δ, (c) local MFE factors, β, (d) local SFS factors, η, and a tilted view showcasing the low-η bifurcation, and (e) a zoom-in of the low-η SFS factors highlighting the effect of deepening thermal grooves with coating duration. The relative frequency cutoff of 10<sup>−</sup><sup>4</sup> corresponds to the significance of a 630 × 630 nm<sup>2</sup> patch for the 20 µm × 20 µm data sets.\n\nwe have shown that thermal grooves are particularly severe for SFS, and the effects of MFE are non-negligible but comparatively smaller. We expect improved estimations of SFS to be obtained from the Ginzburg-Landau theory using realistic superconducting properties, but this method quickly becomes computationally expensive for high λ/ξ material [\\[23\\]](#page-11-0). These thermal grooves should act as gates for vortices to enter the superconductor and limit achievable fields. It is imperative to seek processes that reduce groove slope angles and groove depths to mitigate performance degradation due to geometrical superheating field suppression. It may be possible to modify or inhibit the thermal grooving process via surface energy anisotropy [\\[54\\]](#page-14-0) or introducing impurities [\\[55\\]](#page-14-1), however, care must be taken not to reduce the coherence length substantially, making the film even more susceptible to superheating field suppression [\\[22,](#page-11-1) [37\\]](#page-12-0). In contrast to our present investigation, previous work showed that Nb3Sn grown at different temperatures presented different distributions of MFE [\\[56\\]](#page-14-2). This suggests that growth temperature may have a sizable effect on the surface morphology. Exploring the effect of growth temperature as well as comparing RF performance with topography of witness samples is a natural next step. Additional post processing may be possible. Electropolishing [\\[57\\]](#page-14-3), oxypolishing [\\[58,](#page-14-4) [59\\]](#page-14-5), and centrifugal barrel polishing [\\[60\\]](#page-14-6) may offer avenues to reduce the effects of surface roughness.\n\n## 1. Acknowledgments\n\nThis material is based upon work supported by the U.S. Department of Energy, Office of Science, Office of Nuclear Physics under contract DE-AC05-06OR23177. This work was supported in part by the U.S. Department of Energy, Office of Science, Office of Workforce Development for Teachers and Scientists (WDTS) under the Science Undergraduate Laboratory Internships (SULI) program as well as the U.S. National Science Foundation Research Experience for Undergraduates at Old Dominion University Grant No. 2348822. We gratefully acknowledge G. Eremeev and M. Kelley for their support to fabricate samples used in this work. We are grateful to C. Reece for insightful discussions.\n\n## 2. Data Availability\n\nThe data that support the findings of this study are available from the corresponding author upon reasonable request.\n\n## References\n\n- [1] W. DeSorbo. \"Effect of Dissolved Gases on Some Superconducting Properties of Niobium\". In: Phys. Rev. 132 (1 Oct. 1963), pp. 107–121. doi: [10.1103/PhysRev.](https://doi.org/10.1103/PhysRev.132.107) [132.107](https://doi.org/10.1103/PhysRev.132.107). url: <https://link.aps.org/doi/10.1103/PhysRev.132.107>.\n- [2] C. Ciovati. \"Where Next with SRF?\" In: Proc. IPAC2013 (2013), pp. 3124–3128.\n- [3] J. Matricon and D. Saint-James. \"Superheating fields in superconductors\". In: Physics Letters A 24.5 (1967), pp. 241–242. issn: 0375-9601. doi: [https://doi.](https://doi.org/https://doi.org/10.1016/0375-9601(67)90412-4) [org/10.1016/0375- 9601\\(67\\)90412- 4](https://doi.org/https://doi.org/10.1016/0375-9601(67)90412-4). url: [https://www.sciencedirect.](https://www.sciencedirect.com/science/article/pii/0375960167904124) [com/science/article/pii/0375960167904124](https://www.sciencedirect.com/science/article/pii/0375960167904124).\n- [4] E. M. Lechner et al. \"Electron Tunneling and X-Ray Photoelectron Spectroscopy Studies of the Superconducting Properties of Nitrogen-Doped Niobium Resonator Cavities\". In: Phys. Rev. Appl. 13 (4 Apr. 2020), p. 044044. doi: [10 . 1103 /](https://doi.org/10.1103/PhysRevApplied.13.044044) [PhysRevApplied . 13 . 044044](https://doi.org/10.1103/PhysRevApplied.13.044044). url: [https : / / link . aps . org / doi / 10 . 1103 /](https://link.aps.org/doi/10.1103/PhysRevApplied.13.044044) [PhysRevApplied.13.044044](https://link.aps.org/doi/10.1103/PhysRevApplied.13.044044).\n- [5] A. Godeke. \"A review of the properties of Nb3Sn and their variation with A15 composition, morphology and strain state\". In: Superconductor Science and Technology 19.8 (June 2006), R68. doi: [10.1088/0953- 2048/19/8/R02](https://doi.org/10.1088/0953-2048/19/8/R02). url: <https://dx.doi.org/10.1088/0953-2048/19/8/R02>.\n- [6] S. Posen and M. Liepe. \"Advances in development of Nb3Sn superconducting radiofrequency cavities\". In: Phys. Rev. ST Accel. Beams 17 (11 Nov. 2014), p. 112001. doi: [10.1103/PhysRevSTAB.17.112001](https://doi.org/10.1103/PhysRevSTAB.17.112001). url: [https://link.aps.org/doi/10.](https://link.aps.org/doi/10.1103/PhysRevSTAB.17.112001) [1103/PhysRevSTAB.17.112001](https://link.aps.org/doi/10.1103/PhysRevSTAB.17.112001).\n- [7] S. Keckert et al. \"Critical fields of Nb3Sn prepared for superconducting cavities\". In: Superconductor Science and Technology 32.7 (May 2019), p. 075004. doi: [10 . 1088 / 1361 - 6668 / ab119e](https://doi.org/10.1088/1361-6668/ab119e). url: [https : / / dx . doi . org / 10 . 1088 / 1361 -](https://dx.doi.org/10.1088/1361-6668/ab119e) [6668/ab119e](https://dx.doi.org/10.1088/1361-6668/ab119e).\n- [8] D. F. Moore et al. \"Energy gaps of the A − 15 superconductors Nb3Sn, V3Si, and Nb3Ge measured by tunneling\". In: Phys. Rev. B 20 (7 Oct. 1979), pp. 2721–2738. doi: [10.1103/PhysRevB.20.2721](https://doi.org/10.1103/PhysRevB.20.2721). url: [https://link.aps.org/doi/10.1103/](https://link.aps.org/doi/10.1103/PhysRevB.20.2721) [PhysRevB.20.2721](https://link.aps.org/doi/10.1103/PhysRevB.20.2721).\n- [9] R. Kephart et al. \"SRF, Compact Accelerators for Industry & Society\". In: Proc. of International Conference on RF Superconductivity (SRF2015), Whistler, BC, Canada, Sept. 13-18, 2015 (Whistler, BC, Canada). International Conference on RF Superconductivity 17. JACoW. Geneva, Switzerland: JACoW, Dec. 2015, pp. 1467–1473. isbn: 978-3-95450-178-6. doi: [10.18429/JACoW-SRF2015-FRBA03](https://doi.org/10.18429/JACoW-SRF2015-FRBA03). url: <http://srf2015.vrws.de/papers/frba03.pdf>.\n- [10] W. A. Barletta and M. Borland. Report of the Basic Energy Sciences Workshop on Compact Light Sources. Tech. rep. May 2010. doi: [10.2172/1291139](https://doi.org/10.2172/1291139). url: <https://www.osti.gov/biblio/1291139>.\n- [11] S. Posen, N. Valles, and M. Liepe. \"Radio Frequency Magnetic Field Limits of Nb and Nb3Sn\". In: Phys. Rev. Lett. 115 (4 July 2015), p. 047001. doi: [10 .](https://doi.org/10.1103/PhysRevLett.115.047001) [1103/PhysRevLett.115.047001](https://doi.org/10.1103/PhysRevLett.115.047001). url: [https://link.aps.org/doi/10.1103/](https://link.aps.org/doi/10.1103/PhysRevLett.115.047001) [PhysRevLett.115.047001](https://link.aps.org/doi/10.1103/PhysRevLett.115.047001).\n- [12] S. Posen and D. L. Hall. \"Nb3Sn superconducting radiofrequency cavities: fabrication, results, properties, and prospects\". In: Superconductor Science and Technology 30.3 (Jan. 2017), p. 033004. doi: [10.1088/1361-6668/30/3/033004](https://doi.org/10.1088/1361-6668/30/3/033004). url: <https://dx.doi.org/10.1088/1361-6668/30/3/033004>.\n- [13] S. Posen et al. \"Advances in Nb3Sn superconducting radiofrequency cavities towards first practical accelerator applications\". In: Superconductor Science and Technology 34.2 (Jan. 2021), p. 025007. doi: [10.1088/1361-6668/abc7f7](https://doi.org/10.1088/1361-6668/abc7f7). url: <https://dx.doi.org/10.1088/1361-6668/abc7f7>.\n- [14] J. Knobloch et al. \"High-field Q slope in superconducting cavities due to magnetic field enhancement at grain boundaries\". In: Proceedings of the 9th Workshop on RF Superconductivity. Citeseer. 1999, pp. 77–91.\n- [15] C. Xu, C. E. Reece, and M. J. Kelley. \"Simulation of nonlinear superconducting rf losses derived from characteristic topography of etched and electropolished niobium surfaces\". In: Physical Review Accelerators and Beams 19.3 (2016), p. 033501.\n- [16] A. Gurevich. \"Multiscale mechanisms of SRF breakdown\". In: Physica C: Superconductivity 441.1-2 (2006), pp. 38–43.\n- [17] T. Kubo. \"Magnetic field enhancement at a pit on the surface of a superconducting accelerating cavity\". In: Progress of Theoretical and Experimental Physics 2015.7 (2015).\n- [18] V. Shemelin and H. Padamsee. \"Magnetic field enhancement at pits and bumps on the surface of superconducting cavities\". In: TTC-Report 7 (2008), p. 2008.\n- [19] Y. Xie, M. Liepe, and H. Padamsee. \"Quench Simulation Using a Ring-Type Defect Model\". In: Proc. SRF'11 (2011), pp. 687–690.\n- [20] Y. Xie and M. Liepe. \"Quench and Field Dependent Surface Resistance Studies Using a Single Cell Cavity With Artificial Pits\". In: Proc. SRF'13 (2013), pp. 378– 391.\n- [21] A. Y. Aladyshkin et al. \"What is the best gate for vortex entry into type-II superconductor?\" In: Physica C: Superconductivity 361.1 (2001), pp. 67–72.\n- <span id=\"page-11-1\"></span>[22] T. Kubo. \"Field limit and nano-scale surface topography of superconducting radio-frequency cavity made of extreme type II superconductor\". In: Progress of Theoretical and Experimental Physics 2015.6 (2015).\n- <span id=\"page-11-0\"></span>[23] A. R. Pack et al. \"Vortex nucleation in superconductors within time-dependent Ginzburg-Landau theory in two and three dimensions: role of surface defects and material inhomogeneities\". In: Physical Review B 101.14 (2020), p. 144504.\n- [24] J. R. Clem and K. K. Berggren. \"Geometry-dependent critical currents in superconducting nanocircuits\". In: Phys. Rev. B 84 (17 Nov. 2011), p. 174510. doi: [10.1103/PhysRevB.84.174510](https://doi.org/10.1103/PhysRevB.84.174510). url: [https://link.aps.org/doi/10.](https://link.aps.org/doi/10.1103/PhysRevB.84.174510) [1103/PhysRevB.84.174510](https://link.aps.org/doi/10.1103/PhysRevB.84.174510).\n- [25] H. L. Hortensius et al. \"Critical-current reduction in thin superconducting wires due to current crowding\". In: Applied Physics Letters 100.18 (May 2012), p. 182602. issn: 0003-6951. doi: [10.1063/1.4711217](https://doi.org/10.1063/1.4711217). url: [https://doi.org/](https://doi.org/10.1063/1.4711217) [10.1063/1.4711217](https://doi.org/10.1063/1.4711217).\n- [26] A. Gurevich and G. Ciovati. \"Dynamics of vortex penetration, jumpwise instabilities, and nonlinear surface resistance of type-II superconductors in strong rf fields\". In: Physical Review B 77.10 (2008), p. 104501.\n- [27] A. Gurevich. \"Superconducting radio-frequency fundamentals for particle accelerators\". In: Reviews of Accelerator Science and Technology 5 (2012), pp. 119– 146.\n- [28] J. Carlson et al. \"Analysis of magnetic vortex dissipation in Sn-segregated boundaries in Nb3Sn superconducting RF cavities\". In: Phys. Rev. B 103 (2 Jan. 2021), p. 024516. doi: [10.1103/PhysRevB.103.024516](https://doi.org/10.1103/PhysRevB.103.024516). url: [https://link.](https://link.aps.org/doi/10.1103/PhysRevB.103.024516) [aps.org/doi/10.1103/PhysRevB.103.024516](https://link.aps.org/doi/10.1103/PhysRevB.103.024516).\n- [29] E. M. Lechner et al. \"Topographic evolution of heat-treated Nb upon electropolishing for superconducting rf applications\". In: Phys. Rev. Accel. Beams 26 (10 Oct. 2023), p. 103101. doi: [10.1103/PhysRevAccelBeams.26.103101](https://doi.org/10.1103/PhysRevAccelBeams.26.103101). url: <https://link.aps.org/doi/10.1103/PhysRevAccelBeams.26.103101>.\n- [30] E. M. Lechner et al. \"Oxide dissolution and oxygen diffusion scenarios in niobium and implications on the Bean–Livingston barrier in superconducting cavities\". In: Journal of Applied Physics 135.13 (Apr. 2024), p. 133902. issn: 0021-8979. doi: [10.1063/5.0191234](https://doi.org/10.1063/5.0191234). url: <https://doi.org/10.1063/5.0191234>.\n- [31] U. Pudasaini et al. \"Growth of Nb3Sn coating in tin vapor-diffusion process\". In: Journal of Vacuum Science & Technology A: Vacuum, Surfaces, and Films 37.5 (2019), p. 051509.\n- [32] U. Pudasaini et al. \"Initial growth of tin on niobium for vapor diffusion coating of Nb3Sn\". In: Superconductor Science and Technology 32.4 (Mar. 2019), p. 045008. doi: [10.1088/1361-6668/aafa88](https://doi.org/10.1088/1361-6668/aafa88). url: [https://dx.doi.org/10.1088/1361-](https://dx.doi.org/10.1088/1361-6668/aafa88) [6668/aafa88](https://dx.doi.org/10.1088/1361-6668/aafa88).\n- [33] This silicon nitride probe features a single V-shaped, Al reflex coated cantilever with low spring constant (nominal 0.4 N/m). Nominal tip radius of 2 nm, with front, back and side nominal angles of 15°, 25° and 17.5° degrees, respectively.\n- [34] W. W. Mullins. \"Theory of Thermal Grooving\". In: Journal of Applied Physics 28.3 (Mar. 1957), pp. 333–339. issn: 0021-8979. doi: [10.1063/1.1722742](https://doi.org/10.1063/1.1722742).\n- [35] O. Akyildiz and T. O. Ogurtani. \"Thermal Grooving by Surface Diffusion: a Review of Classical Thermo-Kinetics Approach\". In: Hittite Journal of Science and Engineering 4.1 (2017), pp. 7–16. doi: [10.17350/HJSE19030000042](https://doi.org/10.17350/HJSE19030000042).\n- [36] C. P. Bean and J. D. Livingston. \"Surface Barrier in Type-II Superconductors\". In: Phys. Rev. Lett. 12 (1 Jan. 1964), pp. 14–16. doi: [10.1103/PhysRevLett.12.14](https://doi.org/10.1103/PhysRevLett.12.14). url: <https://link.aps.org/doi/10.1103/PhysRevLett.12.14>.\n- <span id=\"page-12-0\"></span>[37] A. Buzdin and M. Daumens. \"Electromagnetic pinning of vortices on different types of defects\". In: Physica C: Superconductivity 294.3 (1998), pp. 257–269. issn: 0921-4534. doi: [https : / / doi . org / 10 . 1016 / S0921 - 4534\\(97 \\)](https://doi.org/https://doi.org/10.1016/S0921-4534(97)01729-2) [01729 - 2](https://doi.org/https://doi.org/10.1016/S0921-4534(97)01729-2). url: [https : / / www . sciencedirect . com / science / article / pii /](https://www.sciencedirect.com/science/article/pii/S0921453497017292) [S0921453497017292](https://www.sciencedirect.com/science/article/pii/S0921453497017292).\n- [38] S. Posen. \"Understanding and overcoming limitation mechanisms in Nb3Sn superconducting RF cavities\". PhD thesis. Cornell University, 2015.\n- [39] D. B. Liarte et al. \"Theoretical estimates of maximum fields in superconducting resonant radio frequency cavities: stability theory, disorder, and laminates\". In: Superconductor Science and Technology 30.3 (Jan. 2017), p. 033002. doi: [10 .](https://doi.org/10.1088/1361-6668/30/3/033002) [1088/1361- 6668/30/3/033002](https://doi.org/10.1088/1361-6668/30/3/033002). url: [https://dx.doi.org/10.1088/1361-](https://dx.doi.org/10.1088/1361-6668/30/3/033002) [6668/30/3/033002](https://dx.doi.org/10.1088/1361-6668/30/3/033002).\n- [40] D. L. Hall. \"New insights into the limitations on the efficiency and achievable gradients in Nb3Sn SRF cavities\". PhD thesis. Cornell University, 2017.\n- [41] A.-M. Valente-Feliciano. \"Superconducting RF materials other than bulk niobium: a review\". In: Superconductor Science and Technology 29.11 (2016), p. 113002.\n- [42] J. Lee et al. \"Atomic-scale analyses of Nb3Sn on Nb prepared by vapor diffusion for superconducting radiofrequency cavity applications: a correlative study\". In: Superconductor Science and Technology 32.2 (Dec. 2018), p. 024001. doi: [10 .](https://doi.org/10.1088/1361-6668/aaf268) [1088/1361- 6668/aaf268](https://doi.org/10.1088/1361-6668/aaf268). url: [https://dx.doi.org/10.1088/1361- 6668/](https://dx.doi.org/10.1088/1361-6668/aaf268) [aaf268](https://dx.doi.org/10.1088/1361-6668/aaf268).\n- [43] J. E. Kuo, H. Wang, and S. Pickup. \"Multidimensional least-squares smoothing using orthogonal polynomials\". In: Analytical chemistry 63.6 (1991), pp. 630–635.\n- [44] A. Savitzky and M. J. Golay. \"Smoothing and differentiation of data by simplified least squares procedures.\" In: Analytical chemistry 36.8 (1964), pp. 1627–1639.\n- [45] W. Zhang, P. Sachenko, and J. H. Schneibel. \"Kinetics of Thermal Grain Boundary Grooving for Changing Dihedral Angles\". In: Journal of Materials Research 17.6 (2002), pp. 1495–1501. doi: [10.1557/JMR.2002.0222](https://doi.org/10.1557/JMR.2002.0222).\n- [46] R. Porter et al. \"Surface Roughness Effect on the Performance of Nb3Sn Cavities\". In: (East Lansing, MI, USA). Linear Accelerator Conference 28. Geneva, Switzerland: JACoW, May 2017, pp. 129–132. isbn: 978-3-95450-169-4. doi: [https://doi.org/10.18429/JACoW-LINAC2016-MOPRC027](https://doi.org/https://doi.org/10.18429/JACoW-LINAC2016-MOPRC027).\n- [47] B. Aune et al. \"Superconducting TESLA cavities\". In: Phys. Rev. ST Accel. Beams 3 (9 Sept. 2000), p. 092001. doi: [10.1103/PhysRevSTAB.3.092001](https://doi.org/10.1103/PhysRevSTAB.3.092001). url: [https:](https://link.aps.org/doi/10.1103/PhysRevSTAB.3.092001) [//link.aps.org/doi/10.1103/PhysRevSTAB.3.092001](https://link.aps.org/doi/10.1103/PhysRevSTAB.3.092001).\n- [48] G. Jiang et al. \"Understanding and optimization of the coating process of the radio-frequency Nb3Sn thin film superconducting cavities using tin vapor diffusion method\". In: Applied Surface Science 643 (2024), p. 158708. issn: 0169-4332. doi: [https : / / doi . org / 10 . 1016 / j . apsusc . 2023 . 158708](https://doi.org/https://doi.org/10.1016/j.apsusc.2023.158708). url: [https : / / www .](https://www.sciencedirect.com/science/article/pii/S0169433223023887) [sciencedirect.com/science/article/pii/S0169433223023887](https://www.sciencedirect.com/science/article/pii/S0169433223023887).\n- [49] U. Pudasaini et al. \"Surface Studies of Nb3Sn Coated Samples Prepared under Different Coating Conditions\". In: 18th International Conference on RF Superconductivity. 2017, pp. 894–899. doi: [10.18429/JACoW-SRF2017-THPB069](https://doi.org/10.18429/JACoW-SRF2017-THPB069).\n- [50] G. D. Cody and R. W. Cohen. \"Thermal Conductivity of Nb3Sn\". In: Rev. Mod. Phys. 36 (1 Jan. 1964), pp. 121–123. doi: [10.1103/RevModPhys.36.121](https://doi.org/10.1103/RevModPhys.36.121). url: <https://link.aps.org/doi/10.1103/RevModPhys.36.121>.\n- [51] M. J. R. Sandim et al. \"Grain boundary segregation in a bronze-route Nb3Sn superconducting wire studied by atom probe tomography\". In: Superconductor Science and Technology 26.5 (Mar. 2013), p. 055008. doi: [10.1088/0953-2048/](https://doi.org/10.1088/0953-2048/26/5/055008) [26/5/055008](https://doi.org/10.1088/0953-2048/26/5/055008). url: <https://dx.doi.org/10.1088/0953-2048/26/5/055008>.\n- [52] J. Lee et al. \"Grain-boundary structure and segregation in Nb3Sn coatings on Nb for high-performance superconducting radiofrequency cavity applications\". In: Acta Materialia 188 (2020), pp. 155–165. issn: 1359-6454. doi: [https://doi.](https://doi.org/https://doi.org/10.1016/j.actamat.2020.01.055) [org/10.1016/j.actamat.2020.01.055](https://doi.org/https://doi.org/10.1016/j.actamat.2020.01.055). url: [https://www.sciencedirect.](https://www.sciencedirect.com/science/article/pii/S135964542030080X) [com/science/article/pii/S135964542030080X](https://www.sciencedirect.com/science/article/pii/S135964542030080X).\n- [53] P. Kulyavtsev, G. Eremeev, and S. Posen. Simulations of N b3Sn Layer RF Field Limits Due to Thermal Impedance. 2021. arXiv: [2104 . 01267](https://arxiv.org/abs/2104.01267) [\\[cond-mat.supr-con\\]](https://arxiv.org/abs/2104.01267).\n- <span id=\"page-14-0\"></span>[54] E. Rabkin et al. \"Grain boundary grooving in molybdenum bicrystals\". In: Journal of materials science 41 (2006), pp. 5151–5160.\n- <span id=\"page-14-1\"></span>[55] T. Iwasaki et al. \"Molecular Dynamics Study of Impurity Effects on Grain Boundary Grooving\". In: JSME international journal. Ser. A, Mechanics and material engineering 40.1 (1997), pp. 15–22. doi: [10.1299/jsmea1993.40.1\\\\_15](https://doi.org/10.1299/jsmea1993.40.1_15).\n- <span id=\"page-14-2\"></span>[56] U. Pudasaini et al. \"Surface Roughness Reduction and Performance of Vapor-Diffusion Coating of Nb3SN Film for SRF Application\". In: (Grand Rapids, MI, USA). International Conference on RF Superconductivity 21. JACoW Publishing, Geneva, Switzerland, Sept. 2023, pp. 593–599. isbn: 978-3-95450-234-9. doi: [10.](https://doi.org/10.18429/JACoW-SRF2023-WEIAA03) [18429/JACoW-SRF2023-WEIAA03](https://doi.org/10.18429/JACoW-SRF2023-WEIAA03).\n- <span id=\"page-14-3\"></span>[57] U. Pudasaini et al. \"Electrochemical Finishing Treatment of Nb3Sn Diffusioncoated Niobium\". In: Proc. of International Conference on RF Superconductivity (SRF'17), Lanzhou, China, July 17-21, 2017 (Lanzhou, China). International Conference on RF Superconductivity 18. Geneva, Switzerland: JACoW, Jan. 2018, pp. 900–905. isbn: 978-3-95450-191-5. doi: [https://doi.org/10.18429/JACoW-](https://doi.org/https://doi.org/10.18429/JACoW-SRF2017-THPB070)[SRF2017-THPB070](https://doi.org/https://doi.org/10.18429/JACoW-SRF2017-THPB070).\n- <span id=\"page-14-4\"></span>[58] U. Pudasaini et al. \"Post-Processing of Nb3Nn Coated Nb\". In: Proc. of International Particle Accelerator Conference (IPAC'17), Copenhagen, Denmark, May, 2017 (Copenhagen, Denmark). International Particle Accelerator Conference 8. Geneva, Switzerland: JACoW, May 2017, pp. 1190–1193. isbn: 978- 3-95450-182-3. doi: [https://doi.org/10.18429/JACoW-IPAC2017-MOPVA144](https://doi.org/https://doi.org/10.18429/JACoW-IPAC2017-MOPVA144). url: <http://jacow.org/ipac2017/papers/mopva144.pdf>.\n- <span id=\"page-14-5\"></span>[59] R. Porter et al. \"Effectiveness of Chemical Treatments for Reducing the Surface Roughness of Nb3Sn\". In: (Copenhagen, Denmark). International Particle Accelerator Conference 8. Geneva, Switzerland: JACoW, May 2017, pp. 1145– 1148. isbn: 978-3-95450-182-3. doi: [https : / / doi . org / 10 . 18429 / JACoW -](https://doi.org/https://doi.org/10.18429/JACoW-IPAC2017-MOPVA124) [IPAC2017-MOPVA124](https://doi.org/https://doi.org/10.18429/JACoW-IPAC2017-MOPVA124).\n- <span id=\"page-14-6\"></span>[60] E. Viklund et al. \"Improving Nb3Sn cavity performance using centrifugal barrel polishing\". In: Superconductor Science and Technology 37.2 (Jan. 2024), p. 025009. doi: [10.1088/1361-6668/ad0b2d](https://doi.org/10.1088/1361-6668/ad0b2d). url: [https://dx.doi.org/10.1088/1361-](https://dx.doi.org/10.1088/1361-6668/ad0b2d) [6668/ad0b2d](https://dx.doi.org/10.1088/1361-6668/ad0b2d).",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Analysis of Thermal Grooving Effects on Vortex\nPenetration in Vapor-Diffused Nb3Sn",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              70.822265625,
+              144.24163818359375
+            ],
+            [
+              465.275390625,
+              144.24163818359375
+            ],
+            [
+              465.275390625,
+              184.79083251953125
+            ],
+            [
+              70.822265625,
+              184.79083251953125
+            ]
+          ]
+        },
+        {
+          "title": "Analysis of Thermal Grooving Effects on Vortex Penetration in Vapor-Diffused Nb3Sn2",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              71.5693359375,
+              64.6644287109375
+            ],
+            [
+              516.97265625,
+              64.6644287109375
+            ],
+            [
+              516.97265625,
+              77.5272216796875
+            ],
+            [
+              71.5693359375,
+              77.5272216796875
+            ]
+          ]
+        },
+        {
+          "title": "1. Acknowledgments",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              71.681396484375,
+              90.56341552734375
+            ],
+            [
+              193.3811492919922,
+              90.56341552734375
+            ],
+            [
+              193.3811492919922,
+              102.51861572265625
+            ],
+            [
+              71.681396484375,
+              102.51861572265625
+            ]
+          ]
+        },
+        {
+          "title": "2. Data Availability",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              71.382568359375,
+              279.8133544921875
+            ],
+            [
+              188.7099609375,
+              279.8133544921875
+            ],
+            [
+              188.7099609375,
+              292.166015625
+            ],
+            [
+              71.382568359375,
+              292.166015625
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              71.531982421875,
+              357.48138427734375
+            ],
+            [
+              134.86045837402344,
+              357.48138427734375
+            ],
+            [
+              134.86045837402344,
+              369.43658447265625
+            ],
+            [
+              71.531982421875,
+              369.43658447265625
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              165
+            ],
+            [
+              "Line",
+              42
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              196
+            ],
+            [
+              "Line",
+              43
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              90
+            ],
+            [
+              "Line",
+              21
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              425
+            ],
+            [
+              "Line",
+              62
+            ],
+            [
+              "Equation",
+              5
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              88
+            ],
+            [
+              "Line",
+              7
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              160
+            ],
+            [
+              "Line",
+              28
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              192
+            ],
+            [
+              "Line",
+              34
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              193
+            ],
+            [
+              "Line",
+              43
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              108
+            ],
+            [
+              "Line",
+              26
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              159
+            ],
+            [
+              "Line",
+              36
+            ],
+            [
+              "ListItem",
+              6
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              225
+            ],
+            [
+              "Line",
+              42
+            ],
+            [
+              "ListItem",
+              11
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              176
+            ],
+            [
+              "Line",
+              38
+            ],
+            [
+              "ListItem",
+              12
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              182
+            ],
+            [
+              "Line",
+              39
+            ],
+            [
+              "ListItem",
+              12
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "ListGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              209
+            ],
+            [
+              "Line",
+              40
+            ],
+            [
+              "ListItem",
+              11
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 14,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              156
+            ],
+            [
+              "Line",
+              35
+            ],
+            [
+              "ListItem",
+              8
+            ],
+            [
+              "Reference",
+              7
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 15,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Analysis of thermal grooving effects on vortex penetration in vapor-diffused Nb<SUB>3</SUB>Sn",
+    "authors": [
+      {
+        "authors_list": [
+          "Lechner, Eric M.",
+          "Trofimova, Olga",
+          "Angle, Jonathan W.",
+          "DiGuilio,"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "While Nb<SUB>3</SUB>Sn theoretically offers better superconducting radio-frequency (RF) cavity performance (Q<SUB>0</SUB> and [ image ]) to Nb at any given temperature, peak RF magnetic fields consistently fall short of the ∼400 mT prediction. The relatively rough topography of vapor-diffused Nb<SUB>3</SUB>Sn is widely conjectured to be one of the factors that limit the attainable performance of Nb<SUB>3</SUB>Sn-coated Nb cavities prepared via Sn vapor diffusion. Here we investigate the effect of coating duration on the topography of vapor-diffused Nb<SUB>3</SUB>Sn on Nb and calculate the associated magnetic field enhancement and superheating field suppression factors using atomic force microscopy topographies. It is shown that the thermally grooved grain boundaries are major defects which may contribute to a substantial decrease in the achievable accelerating field. The severity of these grooves increases with total coating duration due to the deepening of thermal grooves during the coating process.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Superconductor Science Technology",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2409.01569"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1088/1361-6668/ad9416",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2025SuScT..38L.T01L"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

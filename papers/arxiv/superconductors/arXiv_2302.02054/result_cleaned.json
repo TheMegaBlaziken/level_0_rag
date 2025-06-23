@@ -1,0 +1,1275 @@
+{
+  "id": "1ba6af0953a5240c87c9062333263bc7",
+  "pdf_path": "apl/Superconductors/arXiv:2302.02054.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **Smooth, homogeneous, high-purity Nb**3**Sn superconducting RF resonant cavity by seed-free electrochemical synthesis**\n\n**Zeming Sun**1,2,†,<sup>⋆</sup> **, Zhaslan Baraissov**3,†**, Ryan D. Porter**1,2**, Liana Shpani**1,2**, Yu-Tsun Shao**<sup>3</sup> **, Thomas Oseroff**1,2**, Michael O. Thompson**<sup>4</sup> **, David A. Muller**<sup>3</sup> **, and Matthias U. Liepe**1,2\n\n<sup>1</sup>Cornell Laboratory for Accelerator-Based Sciences and Education, Cornell University, Ithaca, NY, 14853, United States of America\n\n<sup>2</sup>Department of Physics, Cornell University, Ithaca, NY, 14853, United States of America\n\n<sup>3</sup>School of Applied and Engineering Physics, Cornell University, Ithaca, NY, 14853, United States of America\n\n<sup>4</sup>Department of Materials Science and Engineering, Cornell University, Ithaca, NY, 14853, United States of America †contributed equally\n\n<sup>⋆</sup>e-mail: zs253@cornell.edu\n\n## **ABSTRACT**\n\nWorkbench-size particle accelerators, enabled by Nb3Sn-based superconducting radio-frequency (SRF) cavities, hold the potential of driving scientific discovery by offering a widely accessible and affordable source of high-energy electrons and X-rays. Thin-film Nb3Sn RF superconductors with high quality factors, high operation temperatures, and high-field potentials are critical for these devices. However, surface roughness, non-stoichiometry, and impurities in Nb3Sn deposited by conventional Sn-vapor diffusion prevent them from reaching their theoretical capabilities. Here we demonstrate a seed-free electrochemical synthesis that pushes the limit of chemical and physical properties in Nb3Sn. Utilization of electrochemical Sn pre-deposits reduces the roughness of converted Nb3Sn by five times compared to typical vapor-diffused Nb3Sn. Quantitative mappings using chemical and atomic probes confirm improved stoichiometry and minimized impurity concentrations in electrochemically synthesized Nb3Sn. We have successfully applied this Nb3Sn to the large-scale 1.3 GHz SRF cavity and demonstrated ultra-low BCS surface resistances at multiple operation temperatures, notably lower than vapor-diffused cavities. Our smooth, homogeneous, high-purity Nb3Sn provides the route toward high efficiency and high fields for SRF applications under helium-free cryogenic operations.\n\n## **1 Introduction**\n\nRF (or microwave) superconductors[1–](#page-12-0)[3](#page-12-1) find use in a wide range of modern technologies, including particle accelerator components (*e.g.*, superconducting radio-frequency (SRF) resonant cavities and photocathodes using SRF guns)[3–](#page-12-1)[10](#page-12-2), superconducting quantum circuits[11,](#page-12-3) [12](#page-12-4) and superconducting parametric readout amplifiers[13](#page-12-5), superconducting quantum photonics[14](#page-12-6), and ultrasensitive detectors and filters (*e.g.*, superconducting transition-edge sensors[15](#page-12-7) and kinetic inductance detectors[16](#page-12-8)). An immediate family of these applications spans equally a broad range of disciplines in materials science (*e.g.*, structural characterization, atomic analysis, and thermodynamic/kinetic studies)[6,](#page-12-9) [8,](#page-12-10) [9,](#page-12-11) [15](#page-12-7), photon science (synchrotrons and free-electron lasers[4](#page-12-12)[–6,](#page-12-9) [8,](#page-12-10) [9](#page-12-11) ) and ultrafast MeV electron microscopes[10](#page-12-2), physics (high-energy physics[7](#page-12-13) , particle and nuclear physics[15,](#page-12-7) [17](#page-12-14), isotope technology[18](#page-12-15) , quantum technology[11,](#page-12-3) [12,](#page-12-4) [19](#page-13-0), and astrophysics and dark matter detection[15,](#page-12-7) [16,](#page-12-8) [20](#page-13-1)), chemistry and biology (*e.g.*, molecular vibration, chemical bonding, elemental analysis, reaction and kinetics, live-cell imaging, and biological material analysis)[4,](#page-12-12) [6,](#page-12-9) [8,](#page-12-10) [9,](#page-12-11) [15](#page-12-7) , and medical and biopharmaceutical applications (*e.g.*, cancer therapy)[21](#page-13-2) .\n\nCurrently, applications of modern accelerators, such as high-energy electrons and X-rays, are limited to kilometer-scale large facilities, with around 50 sites worldwide, including SLAC LCLS, SHINE, European XFEL, among others. The transition of accelerators from low-gradient normal-conducting RF to high-gradient superconducting RF has made bulk Nb the dominant cavity technology. Recently, efforts have been focused on scaling down large accelerator facilities and exploring lab-scale dimensions[22](#page-13-3)[–25](#page-13-4). To achieve a compact, turn-key, and cost-effective SRF accelerator, it will require the development of ultra-high-quality Nb3Sn as a replacement for Nb[26,](#page-13-5) [27](#page-13-6). The reasons include Nb3Sn's high critical temperature (*T*c), reduced surface resistance, enhanced quality factors, avoidance of complex cooling requirements, and the potential for large accelerating gradients. Besides small-scale applications, these properties of Nb3Sn also significantly contribute to large-scale accelerators by\n\n<span id=\"page-1-1\"></span>![](_page_1_Figure_0.jpeg)\n\n**Figure 1.** (a) Comparison of RF performance between experimental results (vapor-diffused cavities measured at 4.2 K)[28](#page-13-7) and theoretical predictions[29](#page-13-8) in Nb3Sn SRF resonant cavities. The insert shows the schematic of a cavity. (b) Schematics showing multiple issues induced by surface roughness, *e.g.*, field enhancement and vortex nucleation. (c) *T*<sup>c</sup> variation induced by non-stoichiometry in Nb3Sn (adapted from measured[30,](#page-13-9) [31](#page-13-10) and calculated[32,](#page-13-11) [33](#page-13-12) data).\n\nsavings in size, cost, and energy consumption while offering new capabilities to meet high demands from cutting-edge research. Additionally, improving Nb3Sn material properties may enable its use in the emerging SRF cavity-based quantum computing that has shown ultra-high coherence time (∼ 2 s for Nb[11,](#page-12-3) [12,](#page-12-4) [19](#page-13-0)).\n\nNb3Sn is expected to support large accelerating gradients (*E*acc) of up to 100 MV/m, owing to the high predicted superheating field (∼ 400 mT[29](#page-13-8)) that doubles Nb's value (∼ 200 mT). The *T*<sup>c</sup> of Nb3Sn (18 K) is notably higher than that of Nb (9 K), which reduces surface resistance (*R*s) and thus boosts quality factors (*Q*0) following *Q*<sup>0</sup> ∝ 1/*R*<sup>s</sup> . *R*<sup>s</sup> is the sum of residual resistance (*R*0) and temperature-dependent BCS resistance (*R*BCS) that exponentially depends on *T*<sup>c</sup> (*R*BCS ∝ 1/*T* × exp(−*T*<sup>c</sup> /*T*)). Table [1](#page-1-0) shows the reduction of BCS resistances by replacing Nb with Nb3Sn, especially at high operation temperatures (4.2 K). Also, the higher *T*<sup>c</sup> allows for the replacement of cooling sources from costly, specialized, complex helium cryogenics (2 K operation) and cryomodules to commercial cryocoolers (4 K operation)[22–](#page-13-3)[25](#page-13-4) .\n\nHowever, surface roughness[26,](#page-13-5) [28,](#page-13-7) [35–](#page-13-13)[40](#page-13-14), non-stoichiometry[26,](#page-13-5) [28,](#page-13-7) [30](#page-13-9)[–33,](#page-13-12) [35,](#page-13-13) [36,](#page-13-15) [38,](#page-13-16) [39,](#page-13-17) [41,](#page-13-18) [42](#page-14-0), and impurities[26,](#page-13-5) [28,](#page-13-7) [33,](#page-13-12) [35,](#page-13-13) [36,](#page-13-15) [42](#page-14-0) are the three top-priority issues in Nb3Sn. Surface roughness excessively enhances local magnetic fields[37](#page-13-19) and causes premature quenches, *i.e.*, the loss of superconductivity at elevated fields[39](#page-13-17) (Fig. [1a](#page-1-1),b). Also, roughness and local variations enable early magnetic vortex nucleation (Fig. [1b](#page-1-1))[35](#page-13-13). Prior to this work, vapor diffusion was the only successful process to make Nb3Sn SRF cavities[26,](#page-13-5) [28](#page-13-7). Vapor-diffused Nb3Sn films *typically* exhibit an average surface roughness (*R*a) of above 300 nm (*e.g.*, over 20 × 20 µm<sup>2</sup> areas) and maximum peak-to-valley heights above 2 µm, highlighting the importance of achieving smoother film surfaces[26,](#page-13-5) [28,](#page-13-7) [34,](#page-13-20) [38–](#page-13-16)[40,](#page-13-14) [42](#page-14-0). The adoption of thinner films suggests a roughness reduction; nevertheless, the reproducibility of their RF performance has been an issue, probably due to their excessive thinness (versus the field penetration depth) and subsequent\n\n<span id=\"page-1-0\"></span>**Table 1.** Comparison of measured BCS resistances at multiple operation temperatures at the 1.3 GHz frequency and low RF fields for typical Nb, nitrogen-processed Nb, vapor-diffused Nb3Sn, and electrochemically synthesized Nb3Sn. The values for 2 K Nb3Sn only reflect consistent comparisons, with uncertainties.\n\n| Operation | tempera | Typical Nb | Typical<br>nitrogen | Typical<br>vapor | Electrochemically    |\n|-----------|---------|------------|---------------------|------------------|----------------------|\n| ture      |         |            | processed Nb        | diffused Nb3Sn   | synthesized<br>Nb3Sn |\n|           |         |            |                     |                  | (this work)          |\n| 10 K      |         | -          | -                   | 500 – 700 nΩ34   | 300 – 400 nΩ         |\n| 4.2 K     |         | 900 nΩ     | 450 nΩ              | 6 – 10 nΩ28, 34  | ∼ 3 nΩ               |\n| 2 K       |         | 15 nΩ      | 8 nΩ                | ∼ 1 nΩ28, 34     | < 1 nΩ               |\n\ninterface issues[27](#page-13-6). Furthermore, stochiometric variations dramatically degrade *T*<sup>c</sup> and induce local heating; for example, a 3 at.% variation reduces *T*<sup>c</sup> by 50% (Fig. [1c](#page-1-1))[30–](#page-13-9)[33,](#page-13-12) [41](#page-13-18). Also, impurities strongly affect the electron mean free path and hence surface resistance. In vapor-diffused Nb3Sn, Sn-deficient grains and impurities have been observed at the local surface regions with larger dimensions than the ∼ 3 nm coherence length[38,](#page-13-16) [42,](#page-14-0) [43](#page-14-1). These crystal defects limit the minimization of BCS resistance and the enhancement of quality factors (Table [1\\)](#page-1-0). It is thus essential to investigate methods for reducing roughness, attaining stoichiometry, and controlling impurities in Nb3Sn, along with surface engineering at the scale of hundreds of nanometers dictated by the field penetration depth.\n\nStudies on vapor-diffused Nb3Sn[32,](#page-13-11) [38,](#page-13-16) [42](#page-14-0) suggest that these material issues arise from insufficient and non-uniform Sn-vapor supply. Local variations in Sn flux during vapor diffusion result in an uneven spatial distribution of growth rates, attributing to roughness. Likewise, inadequate Sn sources and slow supply rates produce initially Sn-deficient grains (\"bad\" Nb3Sn) following the 18 at.%-Sn boundary in the phase diagram; subsequently, slow Sn diffusion within these grains kinetically limits their conversion into stoichiometric \"good\" Nb3Sn[32,](#page-13-11) [38,](#page-13-16) [44,](#page-14-2) [45](#page-14-3). Thus, we intend to design a deposition process that ensures a sufficient amount and rate of Sn supply during nucleation.\n\nAs illustrated in Fig. [2,](#page-2-0) we deposit a prerequisite Sn source on the Nb surface using our electrochemical recipe and subsequently convert the film to Nb3Sn through thermal annealing. This process yields smooth and stoichiometric Nb3Sn films (*R*<sup>a</sup> = 54 ± 4 nm over 20 × 20 µm<sup>2</sup> areas) on the industry-standard Nb substrate (initial roughness > 100 nm), along with minimal impurity concentrations of hydrogen (H), carbon (C), oxygen (O), and nitrogen (N). Here, we present a detailed investigation of Sn-surfactant electrochemistries on Nb and the design principles of how initial electrochemical pre-deposits affect the material properties of resulting Nb3Sn films. We provide the atomic, chemical, structural, surface, and superconducting properties of electrochemically synthesized Nb3Sn, and compare them with vapor-diffused films. We demonstrate excellent RF performance, *e.g.*, ultra-low BCS resistances and high quality-factors, of the first electrochemically synthesized Nb3Sn cavity as a proof of concept for use in SRF cavities and other superconducting devices.\n\n## **2 Method**\n\n#### **2.1 Electrochemical synthesis and characterization**\n\nThe industry-standard Nb substrates with superconducting Residual Resistivity Ratios (RRR) greater than 300 were mechanically polished and electropolished using a mixture of 9 parts 98% sulfuric acid (H2SO4) and 1 part 48% hydrofluoric acid (HF), resulting in surface roughness values of *R*<sup>a</sup> = ∼ 100 nm and absolute-maximum *R*<sup>z</sup> = ∼ 2.3 µm (Table S4). Nominal substrate oxides may persist after HF cleaning before Sn pre-deposition.\n\nSn electrochemical deposition was performed using a Princeton Applied Research VersaSTAT 3-500 potentiostat system. As illustrated in Fig. [2,](#page-2-0) a three-electrode setup was employed with the Pt wire counter and saturated calomel (SCE) electrodes. A deionized water bath achieved uniform heating of reaction mixtures for sample-scale studies, and digital feedback control monitored the temperature.\n\nSnCl<sup>2</sup> and ammonium citrate tribasic surfactant were purchased from Sigma-Aldrich and used as received. The pH of the as-prepared 0.2 M SnCl<sup>2</sup> / 0.3 M citrate was 4.14, while changing the SnCl<sup>2</sup> / surfactant ratio altered pH values as monitored by pH meters (Fig. S2). pH values were also adjusted by adding HCl or NaOH in the optimum baths, covering the range of 0 to 14. Solutions were stirred for 5 min after dissolving the chemicals and let stand for another 5 min. (White clouds were observed\n\n<span id=\"page-2-0\"></span>![](_page_2_Figure_8.jpeg)\n\n**Figure 2.** Process flow combines electrochemistry and post-annealing to achieve smoothness, stoichiometry, and purity in Nb3Sn. The inserts show pictures of (a) electrochemically synthesized and (b) vapor-diffused Nb3Sn.\n\non mixing, likely due to low-solubility SnCl<sup>2</sup> that later dissolved on standing to obtain clear reaction solutions or Sn(OH)Cl produced from the reaction between SnCl<sup>2</sup> and H2O in low-pH baths.)\n\nCyclic voltammetry (CV) measurements were performed to determine Sn electrochemistries on Nb at varied scan rates (20 – 100 mV/s). Effects of temperature (30 – 90 °C), pH (0 – 14), surfactant (0.2 – 3.7 M) and precursor (0.2 – 0.7 M) concentrations, redox potentials, substrate oxide thicknesses, and stirring conditions along with surfactant- and precursor-only control studies were systematically investigated.\n\nA potentiostat controlled the deposition. The deposition time was altered from 2.5 to 20 min. After deposition, samples were cleaned with methanol, dried, and sealed in plastic bags. The deposition processes were repeated in 22 batches with multiple samples in each set.\n\n#### **2.2 Post thermal annealing**\n\nThe electrochemical pre-deposits were annealed in a high-vacuum (10−<sup>6</sup> Torr) furnace for conversion to Nb3Sn. As shown in Fig. [2,](#page-2-0) samples were heated at 500 °C for 5 h for nucleation and subsequently at 1100 °C for 3 h for alloying, followed by slow cooling in the furnace without additional control. For comparison, vapor-diffused samples were prepared using the same heating profile[28](#page-13-7) .\n\n#### **2.3 Surface, chemical, atomic, and structural characterizations**\n\nThe electrochemical pre-deposits and converted Nb3Sn films were imaged by a Zeiss Gemini scanning electron microscope (SEM) equipped with an in-lens detector under the low voltages (1 – 5 kV) to evaluate the film uniformity, surface morphology, grain information, and dendrite formation. Films cross-sections were polished and scanned using Thermo Fisher Helios G4 UX focused ion beam (FIB) to determine the film thicknesses and prepare the scanning transmission electron microscopy (STEM) specimens. Surface profiles were examined and quantified using Asylum MFP-3D atomic force microscopy (AFM), with an analysis area of 20 × 20 µm<sup>2</sup> . Cross-sectional microscopy images provided supporting evidence of surface smoothness.\n\nA combination of techniques, including energy-dispersive X-ray spectroscopy (EDS) under SEM and STEM microscopies, X-ray photoelectron spectroscopy (XPS), and secondary ion mass spectrometry (SIMS), were utilized to determine the chemical composition, stoichiometry, and impurity information. Cross-sectional EDS/STEM provided composition mappings, and stoichiometry depth profilings were achieved by XPS combined with ion etching, with the etching rate calibrated using actual film thicknesses. For the XPS survey scans, we used the SSX-100 XPS instrument, and the stoichiometry values obtained from high-intensity survey scans are reliable. Monochromatic Al K<sup>α</sup> X-ray (1486.6 eV) photoelectrons were collected under a 10−<sup>9</sup> Torr vacuum from an 800 µm analysis spot with a 55° emission angle. The scan parameters were set to 150 eV pass energy, 1 eV step size, and 100 s/step. For depth profiles, a 4 kV Ar<sup>+</sup> beam with a spot size of ∼ 5 mm was rastered over a 2 × 4 mm<sup>2</sup> area. For the high-resolution XPS spectra, we used the PHI Versaprobe XPS instrument with a 100 µm monochromatic Al K<sup>α</sup> X-ray (1486.6 eV) beam. The scan parameters were set to a 45° emission angle, 26 eV pass energy, 50 ms/step, and up to 60 sweeps with the dual-neutralization on. For depth profiles, a 3 keV Ar<sup>+</sup> beam was rastered over 2 × 2 mm<sup>2</sup> area with Zalar rotation. The SIMS data was provided by Eurofins EAG Laboratories.\n\nCross-sectional phase and grain mappings that resolve high contrasts were obtained by FEI F20 4D-STEM equipped with a high dynamic range EMPAD (electron microscope pixel array detector) and analyzed by the EWPC (exit-wave power cepstrum) transform[46](#page-14-4). High-resolution Rigaku SmartLab X-ray diffraction (XRD) was measured to support the determination of phase and grain orientations. The X-ray generated by a Cu target was converted into a parallel, monochromatic beam and directed onto the sample surface after passing through a 5 mm divergence slit. The K<sup>α</sup> signal with a wavelength of 0.154 nm was collected by filtering the diffracted beam. The parallel slit analyzer and 5° Soller slits were used to resolve high-resolution signals. The 2θ scan was performed with a step size of 0.05°. Atomic imaging was obtained using FEI/Thermo Fisher Titan Themis STEM. Additionally, tape tests were performed to confirm the adhesion strength for electrochemical pre-deposits on Nb.\n\n#### **2.4 Superconducting property and RF performance**\n\n*T*<sup>c</sup> values were determined by (1) temperature-dependent resistivity measurements under different DC fields using a Quantum Design Physical Property Measurement System (PPMS) under the AC transport mode and (2) flux expulsion tests while warming up the cryostat from liquid-helium temperature. For the resistivity measurements, the sample surface was wedgebonded to the sample puck using four 25 µm aluminum wires (West Bond 747630E); the fields (0 T and 0.5 T) were applied perpendicular to the sample surface. During the flux expulsion tests, we utilized two flux gate magnetometers positioned at different locations on the electrochemically synthesized cavity, oriented parallel to its axis. As the superconductor undergoes warming up, it transitions from the superconducting state to the normal conducting state, causing previously expelled magnetic flux to re-enter the superconductor. This results in an abrupt change in the magnetic fields in the vicinity of the cavity. The cryostat is magnetically shielded such that the dominant component of the magnetic fields in the cryostat aligns along the\n\ncavity's central axis with a magnitude < 10 mG. We recorded either an increase or a decrease in the magnetic fields depending on the orientation to indicate the *T*<sup>c</sup> (For more information about this measurement setup, see Ref. [[47,](#page-14-5) [48](#page-14-6)]).\n\nTo evaluate the RF performance, we scaled up the electrochemical and annealing process to the large sizes at the inner surface of a 1.3 GHz SRF cavity. The cavity was electropolished with a nominal 100 µm removal. The deposition was performed in an inert gas glovebox with O<sup>2</sup> and H2O levels below 0.5 ppm. To enhance large-scale deposition and streamline glovebox operation, we improved the heating system by replacing the water bath with wrapped fiberglass heating tape. We positioned two thermocouples at different locations on the cavity to monitor the plating temperature. The electrochemical and annealing parameters were set the same as with sample-scale depositions; nevertheless, the plating current density was low, likely due to thin electrodes used for deposition on a large surface area (∼ 0.2 m<sup>2</sup> ). *R*s's were measured at 1.6 – 10 K temperatures under increasing RF fields. Temperature-dependent *R*BCS's were determined by the difference between total *R*<sup>s</sup> and an estimate of *R*<sup>0</sup> (the average of *R*s's at 2.4 – 2.6 K temperatures).\n\n## **3 Sn electrochemistry on Nb: effects of surfactant, temperature, pH, concentration, and substrate surface oxide**\n\nA central prerequisite for achieving stoichiometry and low roughness in converted Nb3Sn is to ensure the high quality of Sn pre-deposits, *i.e.*, uniform, smooth, dendrite-free, and adhesive. We have developed an electrochemical recipe for Sn pre-deposition, featuring a manufacturing solution (low-cost, scalable, selective, and reactive) for versatile depositions on intricate, curved structures, including large-sized (several centimeters to meters) accelerating cavities and small-sized (several nanometers to micrometers) quantum devices.\n\nTo date, direct Sn electrodeposition on Nb is missing. The challenges include unwanted dendrite formation (abnormal Sn vertical growth due to low lateral surface diffusion) and peel-off issues (poor adhesion at the Sn/Nb interface). Dendrites disrupt film uniformity and increase the resulting roughness of Nb3Sn. The low adhesion impacts any required handling or\n\n<span id=\"page-4-0\"></span>![](_page_4_Figure_5.jpeg)\n\n**Figure 3.** Electrochemical analysis of Sn plating on the Nb surface. (a) CVs of Sn and Sn-surfactant electrochemistries on Nb scanned at a rate of 40 mV/s. (b) Effect of surfactant on adsorption and desorption half-cell free energies (∆*G*). (c,d) Effects of bath (c) temperature and (d) pH on redox potentials for surface adsorption/desorption on (c,d) thin and (d) thick native Nb oxides.\n\npost-treatment processes, *e.g.*, high-pressure (up to 140 bar) water rinsing used for SRF cavity preparation. Poor adhesion could also pose issues with thermal transport, *i.e.*, RF dissipation to cooling on the cavity outside.\n\nCu, Au, Pt, and Ti seed layers[49](#page-14-7)[–51](#page-14-8), as well as bronze (Sn-Cu alloy) / Nb extraction[52](#page-14-9), can improve adhesion and uniformity. However, these indirect methods inevitably introduce normal-conducting contaminations (*e.g.*, Cu inclusions and bronze byproducts), causing severe thermal runaway and immediate quench for RF use. Attempts at electrodeposition approaches using Cu[49,](#page-14-7) [53](#page-14-10) or bronze[52,](#page-14-9) [54](#page-14-11) seed layers have been explored for SRF cavities. In the Sn/Cu/Nb approach[49,](#page-14-7) [53](#page-14-10), Cu seeds are first electroplated on Nb, followed by Sn films electroplated on Cu, and the film stack is annealed to generate a bronze/Nb3Sn structure. Etching is required to remove the surface bronze, but controlling this etching process is undesirable. Another issue is the presence of performance-degrading Cu inclusions appearing inside Nb3Sn, which hinders further development of this process for SRF use[53](#page-14-10). Similarly, in the bronze/Nb approach, a bronze layer is directly electroplated on Nb, followed by annealing, resulting in similar challenges, *i.e.*, bronze residues and Cu inclusions[52,](#page-14-9) [54](#page-14-11) .\n\nHere, we consider an alternative electrochemistry that leverages surfactants to enable a seed-free process. The addition of surfactants, such as citrate[50,](#page-14-12) [51,](#page-14-8) [55](#page-14-13), gluconate[56](#page-14-14)[–58](#page-14-15), tartrate[59](#page-14-16), pyrophosphate[60](#page-14-17), and other surface-active additives[61,](#page-14-18) [62](#page-14-19), has been investigated on Cu, Au, and steel surfaces. However, the Sn-unfriendly Nb substrate and substrate oxides, associated with solution chemistries, temperature, and pH, significantly alter the Sn growth mechanism and deposit quality. For example, reported surface morphologies[56,](#page-14-14) [58,](#page-14-15) [60,](#page-14-17) [61](#page-14-18) showed incomplete films with large surface roughness. Due to the nanoscale sensitivity to multiple surface effects for SRF use, we should best optimize the Sn electroplating conditions on the Nb surface.\n\nThe best deposits were determined from a 0.2 M SnCl<sup>2</sup> aqueous bath containing 0.3 M ammonium citrate tribasic surfactant at temperatures above 50 °C, plated at a potential of - 0.7 to - 0.8 V versus the saturated calomel electrode (SCE), without additional acid/base and stirring. Fig. [3a](#page-4-0) illustrates cyclic voltammetries (CV) of Sn-surfactant versus Sn2<sup>+</sup> on Nb at different bath temperatures. The presence of surfactants alters the chemistry of the plating solution. In the absence of surfactants, regardless of the plating temperature, the CV curves behave similarly, with white Sn(OH)Cl clouds forming before plating due to reactions between SnCl<sup>2</sup> and water. At a potential of - 0.5 V, the Sn2<sup>+</sup> reduction onset occurs as a crossover during the negative-to-positive scan, inferring Sn nucleation[63,](#page-14-20) [64](#page-15-0). Representative crossover behavior is depicted in Fig. S1, indicating nucleation-induced overpotential, where rapid nucleation limits mass transport and discourages ion diffusion during inverted potential scanning. An oxidation peak assigned to Sn desorption emerges at - 0.3 V, with hydrogen generation occurring at - 0.24 V. The deposits are observed as SnCl*<sup>x</sup>* particles under SEM/EDS (Fig. S4).\n\nIn contrast, the addition of surfactants stabilizes the dissolution of Sn2<sup>+</sup> in deionized water, ending with a clear solution that generates Sn-surfactant complexes (examples shown in Fig. [2\\)](#page-2-0). The nearly zero current at 30 °C indicates a deceleration of adsorption of complexes toward the cathode, while nucleation crossovers vanish. Inactive complexes likely provoke this inhibiting behavior of reduction, *e.g.*, [Sn2(*C*6*H*5*O*7)2H−2] <sup>4</sup>−. Upon heating to 60 °C, in contrast to surfactant-free baths, a new reducing reaction begins around the potential of - 0.8 V, consistent with metal complex reduction. An oxidation peak exists at - 0.6 V potential, where mass transport of the desorbed surfactant maximizes.\n\nExisting complexation chemistry[65](#page-15-1) suggests that the main species in our solution, as indicated by pH, is [Sn2(*C*6*H*5*O*7)2H−1] <sup>3</sup>−, along with a small amount of [Sn2(*C*6*H*5*O*7)2] <sup>2</sup><sup>−</sup> and [Sn2(*C*6*H*5*O*7)2H−2] <sup>4</sup>−. The main pathways for our electrochemical synthesis involve the adsorption of Sn-citrate complexes and subsequent desorption of citrate ions ([(*C*6*H*5*O*7)H2] <sup>−</sup>), generating acetoacetate ((*C*4*H*5*O*3)H)[66](#page-15-2), which later decomposes to acetone ((C*H*3)2CO) under heat.\n\nAdsorption: [Sn2(*C*6*H*5*O*7)2H−1] <sup>3</sup><sup>−</sup> + 5H<sup>+</sup> + 4e−→2Sn + 2[(*C*6*H*5*O*7)H2] −;\n\nDesorption: [(*C*6*H*5*O*7)H2] <sup>−</sup>→(*C*4*H*5*O*3)H + H<sup>+</sup> + 2CO<sup>2</sup> + 2e−, (*C*4*H*5*O*3)H Heat −−→ (C*H*3)2CO + CO2.\n\nUsing Nernst's equation (free energy ∆*G* ∝ *E*<sup>0</sup> versus hydrogen electrode potential), we calculated half-cell free energies for adsorption and desorption to understand the effect of surfactant (Fig. [3b](#page-4-0)). The system favors adsorption in the presence of surfactant, which is activated by increasing temperature, whereas similar free energies for surfactant-free baths do not permit effective Sn deposition.\n\nFig. [3c](#page-4-0) compares the redox potentials of different processes at increasing bath temperatures. The Sn2<sup>+</sup> adsorption and desorption (Sn2<sup>+</sup> + 2e<sup>−</sup> <–> Sn) are both active at low redox potentials and independent of bath temperature. Increasing temperature facilitates Sn-surfactant adsorption and surfactant desorption. The complex reactions involve multiple intermediate steps catalyzed by heat, *e.g.*, acetoacetate decomposition. The desorption shifting is steered by the removal of products following the relation, *E*des ∝ *T*\\*ln(*a*pro / *a*rea), where *a*pro and *a*rea are activities of oxidizing products and reagents, respectively. Thus, we have chosen higher bath temperatures (*e.g.*, 80 °C) to compensate for any heat loss in the large-scale deposition for SRF cavities.\n\nIndependent pH studies (pH = 0 – 14) were conducted by adding HCl or NaOH to the optimum bath. In acidic baths, pH shifts the redox potentials as protons are involved in both adsorption and desorption reactions (Fig. [3d](#page-4-0)). The plating results varied (Table S2), likely due to aggressive vertical growth occurring with the significantly high reduction current at pH = 1 (Fig. S11). The data suggests that a balance of rates between multiple processes (adsorption, desorption, lateral growth, vertical growth) is needed to ensure a layer growth mode. (The basic baths react with SnCl<sup>2</sup> and produce a cloudy white solution; CVs\n\nonly show water reduction.)\n\nNative oxides on the Nb substrate affect the plating results. Successful depositions were achieved by removing the native oxides using HF before initiating any plating process (although thin oxides may nominally exist when using regular chemical hoods). CVs (Fig. [3d](#page-4-0)) revealed that thick native oxides (∼ 7 nm) shift the redox potentials, and film formation was not observed on the thick oxides regardless of the pH conditions. After controlling the oxides to zero nominal thinness through HF pre-soaking, we obtained high-quality deposits in both regular chemical hoods and the inert-gas glovebox. However, the glovebox is preferred for achieving stable results. Therefore, we performed the 1.3 GHz SRF cavity deposition in the glovebox.\n\nThe Supplementary Information details the optimization of synthesis and characterization of pre-deposits.\n\n## **4 Characterization of optimized electrochemical pre-deposits**\n\nFig. [4](#page-6-0) shows the surface, chemical, and structural properties of 10 min pre-deposits made from the optimized electrochemical condition. SEM confirms a uniform and smooth film with no dendrites formed. AFM mapping in Fig. [4b](#page-6-0) determines *R*<sup>a</sup> as low as 50 nm. Some embedded \"island\" crystals with a size of ∼ 5 µm exist. (This behavior is not further investigated since the converted Nb3Sn did not exhibit any particular feature on these \"island\" sites.) After FIB polishing on the film edge, the cross-sectional SEM reveals a 3.3 µm thickness over 10 min deposition, corresponding to a growth rate of 0.3 µm/min. The optimized electroplating conditions have been reproducibly demonstrated. Moreover, tape tests showed excellent adhesion, and the peel-off issue has been resolved, with plated films on the SRF cavity surviving the high-pressure water rinse.\n\nBy quantifying the atomic concentrations of Sn, Nb, and O using XPS (Fig. [4c](#page-6-0)) and analyzing their peak positions and FWHM (full width at half maximum) values (Fig. S14) as a function of depth, we find that the film consists of two distinctive regions. The top region (0 – 150 nm) comprises metallic Sn and SnO*x*. The large FWHM values of O and Sn indicate the convolution of multiple motifs, with the Sn peak shifting from 487.5 eV to ∼ 485 eV and oxygen shifting from 530.6 eV to 530 eV. The base region (∼ 150 nm – 1.6 µm) shows a gradient of Nb/Sn ratios. FWHM values remain nearly constant for all elements, with Sn and Nb peaks shifting by ∼ 0.5 eV and O persisting at 530 eV. These low binding energies align with the positions of metallic Nb and Sn.\n\n<span id=\"page-6-0\"></span>![](_page_6_Figure_6.jpeg)\n\n**Figure 4.** Characterization of Sn pre-deposits plated for 10 min. (a) SEM and (b) AFM images showing smooth films with embedded crystals (see inserts). (c) XPS depth profiling of Sn, Nb, and O. (d) XRD pattern showing a strong β-Sn preference and some Nb3Sn diffractions.\n\nXRD diffractions (Fig. [4d](#page-6-0)) exhibit prominent peaks consistent with body-centered tetragonal β-Sn and cubic substrate Nb. There may exist some low-crystallinity Nb3Sn. Despite the high-resolution capability of Rigaku XRD (able to resolve <0.01◦ resolution), the identification of certain peaks is challenging due to their low intensity. Using an empirical method, we collected data at a small step size of 0.05◦ and a low scan rate of 1.44 ◦ /min, treating the global noise across the entire 2θ scan as the background. This method, with caution, identifies nearly all diffractions from A15 Nb3Sn, along with additional diffractions from β-Sn and bcc Nb (as referenced in Table S3). Notably, strong diffractions at 27.5◦ and 29.2◦ remain unindexed with any possible phases for Sn, Nb, Nb3Sn, and SnO2. Further investigations are needed to identify local phases after the electrochemical synthesis. This material system is fully converted to A15 Nb3Sn after thermal annealing.\n\n## **5 Correlation between Sn pre-deposition and Nb**3**Sn surface roughness**\n\nBy employing chronoamperometry at a 0.3 µm/min plating rate, we controlled the pre-deposit thickness, ranging from 800 nm to 6.6 µm, as determined by cross-sectional SEM following FIB polishing. Subsequently, the films were subjected to vacuum annealing using the heating profile depicted in Fig. [2](#page-2-0) to convert them into Nb3Sn. The AFM scan in Fig. [5a](#page-7-0) illustrates the Nb3Sn surface topography, exhibiting ∼ 1 µm grain-like structures converted from the 2.5 min pre-deposition (AFM data for all conditions in Fig. S15). Unlike vapor-diffused films characterized by surface variations, ranging from thin to abnormally large grains[38](#page-13-16), the electrochemically synthesized Nb3Sn shows uniformly distributed small grains (SEM images in Fig. S17).\n\nA visual comparison in Fig. [2](#page-2-0) between electrochemically synthesized and vapor-diffused Nb3Sn undoubtedly demonstrates the smooth surface converted from electrochemical pre-deposits, with empirical statistical significance. In Fig. [5b](#page-7-0), we compare AFM quantifications of electrochemically synthesized and vapor-diffused Nb3Sn using 20 × 20 µm<sup>2</sup> areas with Nb substrates and pre-deposits as references. The *R*<sup>a</sup> of pre-deposits increases with longer plating time. Dendrites appear at 20 min of plating\n\n<span id=\"page-7-0\"></span>![](_page_7_Figure_4.jpeg)\n\n**Figure 5.** Effect of Sn pre-deposition on resulting Nb3Sn roughness. (a) AFM surface morphology of electrochemically synthesized Nb3Sn converted from 2.5 min pre-deposition. (b) *R*<sup>a</sup> roughnesses of converted Nb3Sn versus their film thicknesses, compared with the corresponding pre-deposits, typical ∼ 3 µm thick vapor-diffused Nb3Sn[28,](#page-13-7) [34,](#page-13-20) [39,](#page-13-17) [40](#page-13-14), and Nb substrates. (c) PSD obtained through FFT algorithms for electrochemically synthesized Nb3Sn and pre-deposits with varying plating times (2.5 – 20 min), compared with vapor-diffused Nb3Sn. The labels, for example, Sn\\_2.5 min and Nb3Sn\\_2.5 min, refer to the Sn pre-deposit and converted Nb3Sn samples obtained after a 2.5 min electrochemical deposition of Sn, respectively.\n\nand jeopardize the surface profile of pre-deposits (Fig. S15g). The converted Nb3Sn exhibits *R*<sup>a</sup> values that are essentially minimized to below 100 nm, unless dendrites were formed during pre-deposition. These values are approximately equivalent to the starting Nb *R*<sup>a</sup> (∼ 100 nm). In contrast, the typical roughness of ∼ 3 µm thick vapor-diffused Nb3Sn is observed to be 5 × higher[28,](#page-13-7) [34,](#page-13-20) [38–](#page-13-16)[40](#page-13-14) compared to electrochemically synthesized Nb3Sn. The smallest *R*<sup>a</sup> value for electrochemically synthesized Nb3Sn is 54 nm, achieved during 2.5 – 10 min of dendrite-free plating, with variations (< 10 nm) between baths. Dendrite formation during pre-deposition causes large roughnesses of converted Nb3Sn (∼ 150 nm), approaching the ∼ 300 nm value found in vapor-diffused Nb3Sn. Indeed, electrochemical pre-deposits, if smooth and dendrite-free, can improve the surface profile of the converted Nb3Sn. Root-mean-squared (*R*q) and *R*<sup>z</sup> roughnesses find similar trends (Table S4 and Fig. S16).\n\nLocal inspections using cross-sectional STEM confirm a smooth surface on electrochemically synthesized Nb3Sn (Fig. [6d](#page-9-0)), whereas vapor-diffused Nb3Sn comprises both smooth and uneven regions. The smooth regions of both vapor-diffused and electrochemically synthesized Nb3Sn look similar. However, the rough regions on vapor-diffused Nb3Sn, *e.g.*, an extreme example in Fig. [6e](#page-9-0), exhibit surface variations of 1 – 2 µm, along with regions devoid of the Nb3Sn film. The rationale for choosing an extreme example stems from the consequence that any nano-scale defects exceeding the coherence length would completely degrade the meter-size cavity's performance. This rough surface is likely improved in vapor diffusion by a \"correct\" Sn-vapor flux and thinner films[27](#page-13-6), but additional performance issues emerge, *e.g.*, poor interfaces and reproducibility. Our electrochemical Sn pre-deposition remains a feasible and promising approach to collectively resolve these issues.\n\nTo effectively evaluate surface profiles, we utilized fast Fourier transform (FFT) algorithms using AFM surface height data to quantify the power spectral densities (PSD) of surface features at different spatial frequencies (Fig. [5c](#page-7-0))[67](#page-15-3). Our focus was on frequencies ranging from 0.5 – 3 µm−<sup>1</sup> , where sharp features significantly enhance local fields. Nb3Sn films derived from dendrite-free pre-deposits, regardless of their plating times (2.5 – 10 min), exhibit PSDs approximately 5 × lower than those of vapor-diffused Nb3Sn, *e.g.*, at the 2 µm−<sup>1</sup> frequency. The highest PSDs for electrochemically synthesized Nb3Sn are observed when dendrites form during the 20 min plating, resembling the values found in vapor-diffused Nb3Sn. Furthermore, the dendrite-free pre-deposits demonstrate even lower densities than their converted Nb3Sn counterparts, suggesting that optimization of thermal annealing may further improve the surface conditions.\n\nOur findings emphasize the significance of smooth Sn pre-deposits in overcoming spatial variations in nucleation rates and reducing the kinetic demands for Sn diffusion by offering adequate Sn sources in close proximity to the nuclei during alloying. In contrast, studies on vapor diffusion[32,](#page-13-11) [38](#page-13-16) revealed that an insufficient and spatially varying Sn supply resulted in erratic nucleation; the presence of long-range obstructed lateral Sn diffusion on Nb surfaces or low Sn bulk diffusion within Nb and Nb3Sn grains[32,](#page-13-11) [38](#page-13-16) further exacerbated these problems. Here, the use of Sn pre-deposits avoids high surface and chemical barriers for Sn diffusion and ensures a uniform distribution of nucleation sites, thereby ameliorating the surface profile.\n\n## **6 Improved stoichiometry in electrochemically synthesized Nb**3**Sn and comparison with vapor diffusion**\n\nStoichiometry within the first few hundreds of nanometers of the surface, where RF fields penetrate, is critical for sustaining the superconductivity of Nb3Sn and ensuring a low surface resistance under extreme conditions, *e.g.*, high fields and high operating temperatures. We evaluate the Nb/Sn atomic ratios as a function of film depth using XPS combined with ion etching. Additionally, we map the Sn compositions on cutout cross-sections using EDS under STEM after FIB polishing. We compare the results of electrochemically synthesized and vapor-diffused samples.\n\nFor electrochemically synthesized Nb3Sn, XPS depth profiling reveals a constant 3:1 ratio at the surface within the 600 nm region, with the first a few nanometers being affected by oxides, as shown in the representative 60 nm data in Fig. [6a](#page-9-0), and up to 2 µm data in Fig. S18. For example, XPS spectra of the film after sputtering away surface oxides (Fig. [6b](#page-9-0)) confirm a homogeneous Nb3Sn stoichiometry of 75 at.% Nb and 25 at.% Sn. Surface EDS spectra (Fig. S19) taken at different spots on the film verify this ratio.\n\nMoreover, cross-sectional EDS mapping under STEM, *e.g.*, Fig. [6d](#page-9-0), provides a more refined spatial resolution than the XPS probe and confirms the homogeneity of Nb3Sn stochiometry at the surface within hundreds of nanometers. The collective quantification of the distribution of Sn composition over the entire cutout regions of multiple specimens (Fig. [6c](#page-9-0)) shows a main peak at 25 at.% reflecting the prevalence of a homogeneous surface with the desired stoichiometry. A side peak at 18 at.% exists and corresponds to the Sn deficiency region appearing at the film base (Fig. [6d](#page-9-0)). Nevertheless, we observed one 10-nm-sized Sn-deficient part at the surface after examining > 100 grains, which could matter. However, our quantifications confidently prove the predominance of stoichiometric surfaces in the electrochemically synthesized samples. These chemical analyses are consistent with the diffraction and *T*<sup>c</sup> results (Fig. [7\\)](#page-10-0), indicating an ideal stoichiometry.\n\nIn contrast, vapor-diffused Nb3Sn, grown on either pre-anodized or non-anodized Nb surfaces, shows non-homogeneity within the film, with regions containing 25 at.% Sn, Sn-rich, and Sn-poor areas (Fig. [6a](#page-9-0)). Despite the presence of a majority of 25 at.%-Sn grains, we observed a three-dimensional non-uniformity of Sn composition and even regions with no film, *e.g.*, as\n<span id=\"page-9-0\"></span>![](0__page_9_Figure_0.jpeg)\n\n**Figure 6.** Comparison of stoichiometry between electrochemically synthesized and vapor-diffused Nb3Sn. (a) XPS depth profiling of Nb3Sn produced by electrochemical synthesis (es) versus vapor diffusion (vd) with/without pre-anodization (an). (b) Typical XPS spectrum for electrochemically synthesized Nb3Sn taken after etching surface oxides. (c) Probability of Sn concentration over the entire cutout region (*e.g.*, as shown in (d,e)) analyzed by cross-sectional 4D-STEM/EDS. (d,e) Cross-sectional composition maps of (d) electrochemically synthesized Nb3Sn and (e) vapor-diffused Nb3Sn (an extreme example).\n\nmapped by the cross-sectional STEM/EDS in Fig. [6e](#page-9-0). This behavior is further confirmed by a prominent 18 at.% peak in the probability distribution of Sn concentration in vapor-diffused samples (Fig. [6c](#page-9-0)).\n\nPhase and *T*<sup>c</sup> calculations[30](#page-13-0)[–33](#page-13-1) have indicated that tin-poor and tin-rich stoichiometries deteriorate the superconducting properties. For example, Sn concentrations below 20 at.% or above 30 at.% result in *T*<sup>c</sup> values below 9 K (plain Nb). Vapordiffused Nb3Sn commonly exhibits tin-poor problems owing to (1) an insufficient Sn supply, causing alloying nucleation to follow the 18 at.%-Sn boundary (see phase diagram), and (2) slow Sn diffusion within the 18 at.%-Sn grains, making rectification difficult. In contrast, electrochemically synthesized Nb3Sn benefits from a sufficient supply of Sn, which promotes nucleation following the 25 at.% Sn boundary.\n\n# **7 Structural characterizations and superconducting properties**\n\nWe further characterize electrochemically synthesized Nb3Sn to study the surface morphology, film thickness, structural phase, grain size and orientation, and superconducting properties (Fig. [7\\)](#page-10-0).\n\nSurface and cross-sectional images, taken by SEM and STEM, show a uniform, smooth 2.4 µm-thick Nb3Sn film converted from the 10 min platings (Fig. [7a](#page-10-0),b). Regardless of pre-deposit thicknesses, the surface morphology of converted Nb3Sn barely changes (Fig. S17) with grain sizes ranging from 200 nm to 1 µm, which are smaller than typical vapor-diffused grains[38](#page-13-2). Small grains facilitate coordination between orientations and reduce surface roughness.\n\nElectron diffractions under 4D-STEM, combined with the EWPC transform[46](#page-14-0), accurately determine the Nb3Sn grains marked by false colors in Fig. [7b](#page-10-0). Unlike the predominance of columnar grains extending to the film-substrate interface[38](#page-13-2) , electrochemically synthesized Nb3Sn accommodates multiple grains in the film depth direction. This behavior implies that nucleations, in the presence of pre-deposits wetting on the Nb surface during annealing, likely originate at multiple sites, and the growth develops without being directed to a specific growth direction. In contrast, the heterogeneous nucleation during vapor diffusion strongly relies on the Nb surface conditions, the Sn-vapor adsorption preference, and the Sn diffusion limitations, generating vertically abnormal grains[32,](#page-13-3) [38,](#page-13-2) [44,](#page-14-1) [45](#page-14-2). This difference in nucleation mechanism may deserve further *in situ* investigations.\n\nSTEM atomic images (*e.g.*, Fig. [7c](#page-10-0) taken from the [111] zone axis) and XRD patterns indexed[68](#page-15-0) (Fig. [7d](#page-10-0)) confirm an A15 structure following the Pm3n space group for electrochemically synthesized Nb3Sn. Besides surface oxides, we did not observe foreign phases.\n\nWe determine a *T*<sup>c</sup> of 18 K by the resistivity drop (Fig. [7e](#page-10-0)) and flux expulsion (Fig. [7f](#page-10-0)) measurements, matching the limit for stoichiometric Nb3Sn. At increasing DC fields, *T*<sup>c</sup> is sustained at 17 K at 0.5 T. Nb3Sn bears critical superheating at 0.4 T\n\n<span id=\"page-10-0\"></span>![](0__page_10_Figure_0.jpeg)\n\n**Figure 7.** Physical and structural analysis of Nb3Sn converted from 10 min electrochemical synthesis. (a) Surface SEM. (b) Cross-sectional 4D-STEM revealing EWPC-resolved grain contrasts. (c) Atomic resolution STEM. (d) XRD pattern. (e,f) *T*<sup>c</sup> determined by (e) temperature-dependent resistivity at 0 T and 0.5 T fields and (f) flux expulsion measurements. The flux gate magnetometers record an increase or a decrease in the magnetic fields, depending on the orientation of the two magnetometers positioned.\n\nunder RF fields, so the slight *T*<sup>c</sup> degradation at 0.5 T under DC fields is a positive indicator.\n\n### **8 Outlook: performance demonstration on SRF cavities**\n\nWe have successfully scaled up the electrochemical process tailored to a large-scale (∼ 0.2 m<sup>2</sup> surface area), intricate-structured 1.3 GHz SRF cavity, as shown in Fig. [8a](#page-11-0). Fig. [8b](#page-11-0) demonstrates smooth pre-deposits and a resulting shiny Nb3Sn surface observed on one side of the cavity. During the examination, some small areas on the other side of the cavity displayed a different color[69](#page-15-1). This suggests the need for further engineering considerations when operating large-volume plating solutions over an extended period. Flipping over the cavity during the deposition process may be a possible solution. Flux expulsion tests on two locations of the cavity (Fig. [7f](#page-10-0)) confirm the 18 K *T*<sup>c</sup> of converted Nb3Sn, suggesting 3:1 stoichiometry.\n\nProof-of-concept results demonstrate *R*BCS minimization in the electrochemically synthesized cavity at multiple operating temperatures, approximately two times lower than vapor-diffused cavities (Fig. [8c](#page-11-0) and Table [1\\)](#page-1-0). *R*BCS reductions at different temperature regimes reveal the underlying meanings of their corresponding material improvements. At high temperatures (*e.g.*, 10 K), the reduction is linked to the purification in \"good\" Nb3Sn (Fig. [8e](#page-11-0)), improving the mean free path. At 4 K, the lower *R*BCS is strong evidence of the stoichiometric conformity for the absence of Sn-deficient \"bad\" Nb3Sn, consistent with our chemical analysis. Below 4 K, the ultra-low *R*BCS's below 1 nΩ reflect consistent reductions extrapolated from 4 K and 10 K results.\n\nBenefiting from the low *R*BCS, the quality factors at low RF fields are as high as 5.6 × 10<sup>10</sup> measured at 1.8 K and 2.6 × 10<sup>10</sup> at 4.2 K (Fig. [8d](#page-11-0)). Note that the cooldown dynamics can influence the *Q*<sup>0</sup> for Nb3Sn cavities. The slight difference in 4.2 K quality factors shown in green and magenta are attributed to small variations in the spatial thermal gradients during cavity cool-down. Nb3Sn cavities require small thermal gradients during cool-down to minimize thermoelectric currents in the bi-metal (Nb3Sn on Nb) cavity wall, which can lead to trapped flux and additional dissipation in RF fields, resulting in lower *Q*<sup>0</sup> values. The yellow data points represent measurements taken at a helium bath temperature of 1.8 K, up to quench (maximum field), following the 4.2 K test shown in green. The quench fields occur at ∼ 13 MV/m, falling within the typical quenching range for vapor-diffused cavities[27,](#page-13-4) [28,](#page-13-5) [39,](#page-13-6) [40,](#page-13-7) [70](#page-15-2). Further studies are needed to understand the source(s) of quench mechanisms in electrochemically synthesized Nb3Sn and fully realize the benefits of reduced surface roughness. The observed small spots\n\n<span id=\"page-11-0\"></span>![](0__page_11_Figure_0.jpeg)\n\n**Figure 8.** RF performance of the electrochemically synthesized Nb3Sn 1.3 GHz SRF cavity, and quantitative analysis of impurities. (a) Electrochemical deposition setup for the 1.3 GHz SRF cavity. (b) Pictures of the Sn pre-deposits and converted Nb3Sn on the inner surface of the cavity. The displayed side appears well-deposited, while the other sides show some small areas with a different color[69](#page-15-1). (c) *R*BCS (total *R*<sup>s</sup> minus the average of *R*s's at 2.4 – 2.6 K) measured at 2 MV/m as a function of temperature (1/*T*) for electrochemically synthesized versus vapor-diffused Nb3Sn. (d) *Q*<sup>0</sup> versus *E*acc at 1.8 K and 4.2 K temperatures. The magenta 4.2 K data were measured prior to quenching, while the 1.8 K data were measured until quenching occurred. The green 4.2 K data were measured under a different cooling dynamic, and the cavity remained unquenched. Measurement uncertainties are 10% in the field and 10% in the quality factor. (e) SIMS depth profiling of H, C, O, and N, and (f) XPS depth profiling of O, for Nb3Sn made by electrochemical synthesis (es) versus vapor diffusion (vd) with/without pre-anodization (an).\n\nwith a different color, likely indicating roughness, may serve as potential candidates for causing quenching in this cavity at fields similar to those achieved in vapor-diffused Nb3Sn cavities. This hypothesis requires further validation due to the difficulty in characterizing films grown on the inner surface of SRF cavities. Collaborative efforts by SRF labs worldwide to test more electrochemically synthesized cavities would be the most effective way to reveal the actual quench mechanisms. Other hypotheses involve Nb3Sn's small coherence length (∼ 3 nm), making it sensitive to defects like grain boundaries[71](#page-15-3), as well as the impact of surface oxides[72–](#page-15-4)[75](#page-15-5). We are exploring alternative materials like ZrNb(CO) with a suitable coherence length and low-dielectric-loss ZrO<sup>2</sup> [48](#page-14-3) .\n\nTo understand the refinement of Nb3Sn achieved, we probed impurities by SIMS (Fig. [8e](#page-11-0) and Fig. S20) and XPS (Fig. [8f](#page-11-0)) depth profiling. H, C, and O concentrations remain essentially low in electrochemically synthesized Nb3Sn, while oxides exist at the surface. The trivial amount of monolayer H and C might be induced by residue from cleaning protocols using methanol or contamination in the air. In contrast, detrimental H and C prevail in vapor-diffused films with high concentrations at considerable depths, significantly affecting the RF penetration region. XPS oxygen profiles show thinner oxides on the electrochemically synthesized Nb3Sn in contrast to vapor-diffused films. Further deconvolution of oxide structures is detailed elsewhere[73](#page-15-6) .\n\n# **9 Conclusion**\n\nIn summary, we have developed methods to form Nb3Sn for high-performance SRF cavities. We have demonstrated high-quality Nb3Sn with (i) *R*<sup>a</sup> below 60 nm on industrial-standard Nb (∼ 100 nm *R*a) which is 5 × better than conventional vapor-diffused Nb3Sn; (ii) optimized stoichiometry at the surface 600 nm region that is larger than the RF field penetration depth (100 nm); (iii) *T*<sup>c</sup> and phase confirmed to be stochiometric Nb3Sn; (iv) ultra-low H, C, O, and N impurity concentrations; (v) BCS resistance reduction by approximately 2 × at multiple operating temperatures at low fields as compared to vapor-diffused cavities; and (vi) high quality factors at multiple operating temperatures at low fields. The advancements in chemical and surface properties of Nb3Sn are translated to minimizing BCS surface resistances and enhancing quality factors in the SRF cavity. These developments will enable workbench-scale sources of high-energy electrons and X-rays, and will also benefit large particle accelerators to significantly reduce size and cost.\n\n# **Data availability**\n\nAll data generated or analyzed during this study are included in this manuscript and Supplementary Information.\n\n# **References**\n\n- 1. Anlage, S. M. Microwave superconductivity. *IEEE J. Microwaves* 1, 389 (2021). DOI: [10.1109/JMW.2020.3033156.](10.1109/JMW.2020.3033156)\n- 2. Zmuidzinas, J. Superconducting microresonators: physics and applications. *Annu. Rev. Condens. Matter Phys.* 3, 169 (2012). DOI: [10.1146/annurev-conmatphys-020911-125022.](10.1146/annurev-conmatphys-020911-125022)\n- 3. Padamsee, H. S. Superconducting radio-frequency cavities. *Annu. Rev. Nucl. Part. Sci.* 64, 175 (2014). DOI: [10.1146/](10.1146/annurev-nucl-102313-025612) [annurev-nucl-102313-025612.](10.1146/annurev-nucl-102313-025612)\n- 4. McNeil, B. W. J. & Thompson, N. R. X-ray free-electron lasers. *Nat. Photonics* 4, 814 (2010). DOI: [10.1038/nphoton.](10.1038/nphoton.2010.239) [2010.239.](10.1038/nphoton.2010.239)\n- 5. Huang, N. *et al.* Features and futures of X-ray free-electron lasers. *The Innov.* 2, 100097 (2021). DOI: [10.1016/j.xinn.](10.1016/j.xinn.2021.100097) [2021.100097.](10.1016/j.xinn.2021.100097)\n- 6. O'Shea, P. G. & Freund, H. P. Free-electron lasers: Status and applications. *Science* 292, 1853 (2001). DOI: [10.1126/](10.1126/science.1055718) [science.1055718.](10.1126/science.1055718)\n- 7. Shiltsev, V. & Zimmermann, F. Modern and future colliders. *Rev. Mod. Phys.* 93, 015006 (2021). DOI: [10.1103/](10.1103/RevModPhys.93.015006) [RevModPhys.93.015006.](10.1103/RevModPhys.93.015006)\n- 8. Decking, W. *et al.* A MHz-repetition-rate hard X-ray free-electron laser driven by a superconducting linear accelerator. *Nat. Photonics* 14, 391–397 (2020). DOI: [10.1038/s41566-020-0607-z.](10.1038/s41566-020-0607-z)\n- 9. Prat, E. *et al.* A compact and cost-effective hard X-ray free-electron laser driven by a high-brightness and low-energy electron beam. *Nat. Photonics* 14, 748–754 (2020). DOI: [10.1038/s41566-020-00712-8.](10.1038/s41566-020-00712-8)\n- 10. King, W. E. *et al.* Ultrafast electron microscopy in materials science, biology, and chemistry. *J. Appl. Phys.* 97, 111101 (2005). DOI: [10.1063/1.1927699.](10.1063/1.1927699)\n- 11. Blais, A. *et al.* Circuit quantum electrodynamics. *Rev. Mod. Phys.* 93, 025005 (2021). DOI: [10.1103/RevModPhys.93.](10.1103/RevModPhys.93.025005) [025005.](10.1103/RevModPhys.93.025005)\n- 12. Devoret, M. H. & Schoelkopf, R. J. Superconducting circuits for quantum information: an outlook. *Science* 339, 1169 (2013). DOI: [10.1126/science.1231930.](10.1126/science.1231930)\n- 13. Eom, B. H. *et al.* A wideband, low-noise superconducting amplifier with high dynamic range. *Nat. Phys.* 8, 623 (2012). DOI: [10.1038/NPHYS2356.](10.1038/NPHYS2356)\n- 14. Elshaari, A. W. *et al.* Hybrid integrated quantum photonic circuits. *Nat. photonics* 14, 285 (2020). DOI: [10.1038/](10.1038/s41566-020-0609-x) [s41566-020-0609-x.](10.1038/s41566-020-0609-x)\n- 15. Ullom, J. N. & Bennett, D. A. Review of superconducting transition-edge sensors for X-ray and gamma-ray spectroscopy. *Supercond. Sci. Technol.* 28, 084003 (2015). DOI: [10.1088/0953-2048/28/8/084003.](10.1088/0953-2048/28/8/084003)\n- 16. Doyle, S. *et al.* Lumped element kinetic inductance detectors. *J. Low Temp. Phys.* 151, 530 (2008). DOI: [10.1007/](10.1007/s10909-007-9685-2) [s10909-007-9685-2.](10.1007/s10909-007-9685-2)\n- 17. Reece, C. E. Continuous wave superconducting radio frequency electron linac for nuclear physics research. *Phys. Rev. Accel. Beams* 19, 124801 (2016). DOI: [10.1103/PhysRevAccelBeams.19.124801.](10.1103/PhysRevAccelBeams.19.124801)\n- 18. Bollen, G. FRIB facility for rare isotope beams. *AIP Conf. Proc.* 1224, 432 (2010). DOI: [10.1063/1.3431449.](10.1063/1.3431449)\n- 19. Romanenko, A. *et al.* Three-dimensional superconducting resonators at T < 20 mK with photon lifetimes up to τ = 2 s. *Phys. Rev. Appl.* 13, 034032 (2020). DOI: [10.1103/PhysRevApplied.13.034032.](10.1103/PhysRevApplied.13.034032)\n- 20. de Water, R. V. Accelerator searches for axions and dark matter (Presented at the 2022 North American Particle Accelerator Conference, Albuquerque, New Mexico, 2022).\n- 21. Owen, H. *et al.* Current and future accelerator technologies for charged particle therapy. *Nucl. Instruments Methods Phys. Res. Sect. A: Accel. Spectrometers, Detect. Assoc. Equip.* 809, 96 (2016). DOI: [10.1016/j.nima.2015.08.038.](10.1016/j.nima.2015.08.038)\n- 22. Stilin, N. A. *et al.* RF and thermal studies on conduction cooled Nb3Sn SRF cavity. *Eng. Res. Express* 5, 025078 (2023). DOI: [10.1088/2631-8695/acdd51.](10.1088/2631-8695/acdd51)\n- 23. Stilin, N. A. *et al.* Conduction cooling methods for Nb3Sn SRF cavities and cryomodules (Presented at the 12th International Particle Accelerator Conference (IPAC'21), Virtual, 2021). DOI: [10.18429/JACoW-IPAC2021-MOPAB391.](10.18429/JACoW-IPAC2021-MOPAB391)\n- 24. Dhuley, R. C. *et al.* First demonstration of a cryocooler conduction cooled superconducting radiofrequency cavity operating at practical CW accelerating gradients. *Supercond. Sci. Technol.* 33, 06LT01 (2020). DOI: [10.1088/1361-6668/ab82f0.](10.1088/1361-6668/ab82f0)\n- 25. Ciovati, G. *et al.* Multi-metallic conduction cooled superconducting radio-frequency cavity with high thermal stability. *Supercond. Sci. Technol.* 33, 07LT01 (2020). DOI: [10.1088/1361-6668/ab8d98.](10.1088/1361-6668/ab8d98)\n- 26. Posen, S. *et al.* Nb3Sn superconducting radiofrequency cavities: fabrication, results, properties, and prospects. *Supercond. Sci. Technol.* 30, 033004 (2017). DOI: [10.1088/1361-6668/30/3/033004.](10.1088/1361-6668/30/3/033004)\n- <span id=\"page-13-4\"></span>27. Posen, S. *et al.* Advances in Nb3Sn superconducting radiofrequency cavities towards first practical accelerator applications. *Supercond. Sci. Technol.* 34, 025007 (2021). DOI: [10.1088/1361-6668/abc7f7.](10.1088/1361-6668/abc7f7)\n- <span id=\"page-13-5\"></span>28. Porter, R. *Advancing the maximum accelerating gradient of niobium-3 tin superconducting radiofrequency accelerator cavities: RF measurements, dynamic temperature mapping, and material growth*. Ph.D. thesis, Cornell University (2021).\n- 29. Transtrum, M. K. *et al.* Superheating field of superconductors within Ginzburg-Landau theory. *Phys. Rev. B* 83, 094505 (2011). DOI: [10.1103/PhysRevB.83.094505.](10.1103/PhysRevB.83.094505)\n- <span id=\"page-13-0\"></span>30. Devanta, H. *et al.* The physical and structural properties of superconducting A15-type Nb-Sn alloys. *J. Mater. Sci.* 16, 2145 (1981). DOI: [10.1007/BF00542375.](10.1007/BF00542375)\n- 31. Moore, D. F. *et al.* Energy gaps of the A-15 superconductors Nb3Sn, V3Si, and Nb3Ge measured by tunneling. *Phys. Rev. B.* 20, 2721 (1979). DOI: [10.1103/PhysRevB.20.2721.](10.1103/PhysRevB.20.2721)\n- <span id=\"page-13-3\"></span>32. Sitaraman, N. S. *et al.* Effect of the density of states at the Fermi level on defect free energies and superconductivity: A case study of Nb3Sn. *Phys. Rev. B* 103, 115106 (2021). DOI: [10.1103/PhysRevB.103.115106.](10.1103/PhysRevB.103.115106)\n- <span id=\"page-13-1\"></span>33. Li, Y. & Gao, Y. GLAG theory for superconducting property variations with A15 composition in Nb3Sn wires. *Sci. Reports* 7, 1133 (2017). DOI: [10.1038/s41598-017-01292-4.](10.1038/s41598-017-01292-4)\n- 34. Hall, D. *New insights into the limitations on the efficiency and achievable gradients in Nb*3*Sn SRF cavities*. Ph.D. thesis, Cornell University (2017).\n- 35. Pack, A. R. *et al.* Vortex nucleation in superconductors within time-dependent ginzburg-landau theory in two and three dimensions: Role of surface defects and material inhomogeneities. *Phys. Rev. B* 101, 144504 (2020). DOI: [10.1103/PhysRevB.101.144504.](10.1103/PhysRevB.101.144504)\n- 36. Wu, Z. & Davis, L. E. Surface roughness effect on surface impedance of superconductors. *J. Appl. Phys.* 76, 3669 (1994). DOI: [10.1063/1.357430.](10.1063/1.357430)\n- 37. Zhang, P. *et al.* Analysis of radio-frequency absorption and electric and magnetic field enhancements due to surface roughness. *J. Appl. Phys.* 105, 114908 (2009). DOI: [10.1063/1.3131844.](10.1063/1.3131844)\n- <span id=\"page-13-2\"></span>38. Lee, J. *et al.* Atomic-scale analyses of Nb3Sn on Nb prepared by vapor diffusion for superconducting radiofrequency cavity applications: a correlative study. *Supercond. Sci. Technol.* 32, 024001 (2018). DOI: [10.1088/1361-6668/aaf268.](10.1088/1361-6668/aaf268)\n- <span id=\"page-13-6\"></span>39. Porter, R. *et al.* Progress in Nb3Sn cavities at Cornell University (North American Particle Acc. Conf., Lansing, MI, USA, 2019). DOI: [10.18429/JACoW-NAPAC2019-MOYBB3.](10.18429/JACoW-NAPAC2019-MOYBB3)\n- <span id=\"page-13-7\"></span>40. Pudasaini, U. *et al.* Analysis of RF losses and material characterization of samples removed from a Nb3Sn-coated superconducting RF cavity. *Supercond. Sci. Technol.* 33, 045012 (2020). DOI: [10.1088/1361-6668/ab75a8.](10.1088/1361-6668/ab75a8)\n- 41. Godeke, A. A review of the properties of Nb3Sn and their variation with A15 composition, morphology and strain state. *Supercond. Sci. Technol.* 19, R68 (2006). DOI: [10.1088/0953-2048/19/8/R02.](10.1088/0953-2048/19/8/R02)\n- 42. Becker, C. *et al.* Analysis of Nb3Sn surface layers for superconducting radio frequency cavity applications. *Appl. Phys. Lett.* 106, 082602 (2015). DOI: [10.1063/1.4913617.](10.1063/1.4913617)\n- 43. Sun, Z. *et al.* Thermodynamic route of Nb3Sn nucleation: Role of oxygen. *APL Mater.* 11, 071118 (2023). DOI: [10.1063/5.0157659.](10.1063/5.0157659)\n- <span id=\"page-14-1\"></span>44. Oh, S.-H. *et al.* Diffusion in A15 Nb3Sn: An atomistic study. *Acta Materialia* 234, 118050 (2022). DOI: [10.1016/j.actamat.](10.1016/j.actamat.2022.118050) [2022.118050.](10.1016/j.actamat.2022.118050)\n- <span id=\"page-14-2\"></span>45. Besson, R. *et al.* Atomic-scale study of diffusion in A15 Nb3Sn. *Phys. Rev. B* 75, 054105 (2007). DOI: [10.1103/PhysRevB.](10.1103/PhysRevB.75.054105) [75.054105.](10.1103/PhysRevB.75.054105)\n- <span id=\"page-14-0\"></span>46. Padgett, E. *et al.* The exit-wave power-cepstrum transform for scanning nanobeam electron diffraction: robust strain mapping at subnanometer resolution and subpicometer precision. *Ultramicroscopy* 214, 112994 (2020). DOI: [10.1016/j.](10.1016/j.ultramic.2020.112994) [ultramic.2020.112994.](10.1016/j.ultramic.2020.112994)\n- 47. Oseroff, T. *Advancing a superconducting sample host cavity and its application for studying proximity-coupled normal layers in strong microwave fields*. Ph.D. thesis, Cornell University (2022).\n- <span id=\"page-14-3\"></span>48. Sun, Z. *et al.* ZrNb(CO) RF superconducting thin film with high critical temperature in the theoretical limit. *Adv. Electron. Mater.* 9, 2300151 (2023). DOI: [10.1002/aelm.202300151.](10.1002/aelm.202300151)\n- 49. Barzi, E. *et al.* Synthesis of superconducting Nb3Sn coatings on Nb substrates. *Supercond. Sci. Technol.* 29, 015009 (2017). DOI: [10.1088/0953-2048/29/1/015009.](10.1088/0953-2048/29/1/015009)\n- 50. Han, C. *et al.* Kinetics of Sn electrodeposition from Sn(II)-citrate solutions. *Electrochim. Acta* 53, 8332 (2008). DOI: [10.1016/j.electacta.2008.06.037.](10.1016/j.electacta.2008.06.037)\n- 51. Han, C. *et al.* Nucleation of Sn and Sn-Cu alloys on Pt during electrodeposition from Sn-citrate and Sn-Cu-citrate solutions. *Electrochim. Acta* 54, 3419 (2009). DOI: [10.1016/j.electacta.2008.12.064.](10.1016/j.electacta.2008.12.064)\n- 52. Lu, M. *et al.* Electrochemical deposition of Nb3Sn on the surface of copper substrates (Presented at the 19th International Conference on Radio-Frequency Superconductivity (SRF'19), Dresden, Germany, 2019). DOI: [10.18429/](10.18429/JACoW-SRF2019-TUP076) [JACoW-SRF2019-TUP076.](10.18429/JACoW-SRF2019-TUP076)\n- 53. Ito, H. *et al.* Nb3Sn formation using electroplating method for SRF cavity (Presented at the International Workshop on Nb3Sn SRF Science, Technology, and Applications (Nb3SnSRF'20), Virtual, 2020). [https://indico.classe.cornell.edu/event/](https://indico.classe.cornell.edu/event/1806/contributions/1468/attachments/1183/1563/Hayato_Nb3SnSRF20.pdf) [1806/contributions/1468/attachments/1183/1563/Hayato\\\\_Nb3SnSRF20.pdf.](https://indico.classe.cornell.edu/event/1806/contributions/1468/attachments/1183/1563/Hayato_Nb3SnSRF20.pdf)\n- 54. Kim, C.-U. *et al.* Electrochemical bronze route for SRF cavities (Presented at the International Workshop on Nb3Sn SRF Science, Technology, and Applications (Nb3SnSRF'20), Virtual, 2020). [https://indico.classe.cornell.edu/event/1806/](https://indico.classe.cornell.edu/event/1806/contributions/1485/attachments/1186/1567/Nb3SnSRF-2020-Kim.pdf) [contributions/1485/attachments/1186/1567/Nb3SnSRF-2020-Kim.pdf.](https://indico.classe.cornell.edu/event/1806/contributions/1485/attachments/1186/1567/Nb3SnSRF-2020-Kim.pdf)\n- 55. He, A. *et al.* Electrodeposition of tin: a simple approach. *J. Mater. Sci.: Mater. Electron.* 19, 553 (2008). DOI: [10.1007/s10854-007-9385-3.](10.1007/s10854-007-9385-3)\n- 56. Rudnik, E. *et al.* Studies on the electrodeposition of tin from acidic chloride-gluconate solutions. *Appl. Surf. Sci.* 265, 839 (2013). DOI: [10.1016/j.apsusc.2012.11.130.](10.1016/j.apsusc.2012.11.130)\n- 57. Survila, A. *et al.* Kinetics of Sn(II) reduction in acid sulphate solutions containing gluconic acid. *J. Electroanal. Chem.* 667, 59 (2012). DOI: [10.1016/j.jelechem.2011.12.009.](10.1016/j.jelechem.2011.12.009)\n- 58. Torrent-Burgues, J. *et al.* Initial stages of tin electrodeposition from sulfate baths in the presence of gluconate. *J. Appl. Electrochem.* 32, 225 (2002). DOI: [10.1023/A:1014710500122.](10.1023/A:1014710500122)\n- 59. Guaus, E. & Torrent-Burgues, J. Voltammetric study of Sn(II) reduction on a glassy-carbon electrode from sulfate-tartrate baths. *Russ. J. Electrochem.* 42, 141 (2006). DOI: [10.1134/S1023193506020054.](10.1134/S1023193506020054)\n- 60. Lacnjevac, U. *et al.* Electrodeposition of Ni, Sn and Ni-Sn alloy coatings from pyrophosphate-glycine bath. *J. Electrochem. Soc.* 159, D310 (2012). DOI: [10.1149/2.042205JES.](10.1149/2.042205JES)\n- 61. Wen, S. & Szpunar, J. A. Nucleation and growth of tin on low carbon steel. *Electrochim. Acta* 50, 2393 (2005). DOI: [10.1016/j.electacta.2004.10.053.](10.1016/j.electacta.2004.10.053)\n- 62. Barry, F. J. & Cunnane, V. J. Synergistic effects of organic additives on the discharge, nucleation and growth mechanisms of tin at polycrystalline copper electrodes. *J. Electroanal. Chem.* 537, 151 (2002). DOI: [10.1016/S0022-0728\\(02\\)01266-4.](10.1016/S0022-0728(02)01266-4)\n- 63. Fletcher, S. *et al.* The response of some nucleation/growth processes to triangular scans of potential. *J. Electroanal. Chem. Interfacial. Electrochem.* 23, 267 (1983). DOI: [10.1016/S0022-0728\\(83\\)80627-5.](10.1016/S0022-0728(83)80627-5)\n- 64. Gomes, A. *et al.* Zn electrodeposition in the presence of surfactants: Part I. Voltammetric and structural studies. *Electrochim. Acta* 52, 863 (2006). DOI: [10.1016/j.electacta.2006.06.025.](10.1016/j.electacta.2006.06.025)\n- 65. Rode, S. *et al.* Complexation chemistry in copper plating from citrate baths. *J. The Electrochem. Soc.* 151, C405–C411 (2004). DOI: [10.1149/1.1715092.](10.1149/1.1715092)\n- 66. Xue, C. *et al.* Mechanistic study of photomediated triangular silver nanoprism growth. *J. Am. Chem. Soc.* 130, 8337 (2008). DOI: [10.1021/ja8005258.](10.1021/ja8005258)\n- 67. Porter, R. *et al.* Effectiveness of chemical treatments for reducing the surface roughness of Nb3Sn (Presented at the International Particle Accelerator Conference (IPAC'17), Copenhagen, Denmark, 2017). [https://accelconf.web.cern.ch/](https://accelconf.web.cern.ch/ipac2017/papers/mopva124.pdf) [ipac2017/papers/mopva124.pdf.](https://accelconf.web.cern.ch/ipac2017/papers/mopva124.pdf)\n- <span id=\"page-15-0\"></span>68. Jain, A. *et al.* The materials project: A materials genome approach to accelerating materials innovation. *APL Mater.* 1, 011002 (2013). DOI: [10.1063/1.4812323.](10.1063/1.4812323)\n- <span id=\"page-15-1\"></span>69. Sun, Z. *et al.* Materials design for superconducting RF cavities: electroplating Sn, Zr, and Au onto Nb and chemical vapor deposition (Presented at the 21st International Conference on Radio-Frequency Superconductivity (SRF'23), Grand Rapids, MI, USA, 2023).\n- <span id=\"page-15-2\"></span>70. Eremeev, G. *et al.* Nb3Sn multicell cavity coating system at Jefferson Lab. *Rev. Sci. Instruments* 91, 073911 (2020). DOI: [10.1063/1.5144490.](10.1063/1.5144490)\n- <span id=\"page-15-3\"></span>71. Lee, J. *et al.* Grain-boundary structure and segregation in Nb3Sn coatings on Nb for high-performance superconducting radiofrequency cavity applications. *Acta Materialia* 188 (2020). DOI: [10.1016/j.actamat.2020.01.055.](10.1016/j.actamat.2020.01.055)\n- <span id=\"page-15-4\"></span>72. Oseroff, T., Sun, Z. & Liepe, M. U. Measurements of the amplitude-dependent microwave surface resistance of a proximity-coupled Au/Nb bilayer (2023). DOI: [10.48550/arXiv.2305.12035.](10.48550/arXiv.2305.12035)\n- <span id=\"page-15-6\"></span>73. Sun, Z. *et al.* Surface oxides, carbides, and impurities on RF superconducting Nb and Nb3Sn: A comprehensive analysis (2023). DOI: [10.48550/arXiv.2305.02467.](10.48550/arXiv.2305.02467)\n- 74. Kubo, T. & Gurevich, A. Field-dependent nonlinear surface resistance and its optimization by surface nanostructuring in superconductors. *Phys. Rev. B* 100, 064522 (2019). 10.1103/PhysRevB.100.064522.\n- <span id=\"page-15-5\"></span>75. Gurevich, A. & Kubo, T. Surface impedance and optimum surface resistance of a superconductor with an imperfect surface. *Phys. Rev. B* 96, 184515 (2017). 10.1103/PhysRevB.96.184515.\n\n### Acknowledgements\n\nThis work was supported by the U.S. National Science Foundation under Award PHY-1549132, the Center for Bright Beams. This work is supported in part by U.S. DOE award DE-SC0008431. This work made use of the Cornell Center for Materials Research Shared Facilities which are supported through the NSF MRSEC program (DMR-1719875) and was performed in part at the Cornell NanoScale Facility, an NNCI member supported by NSF Grant NNCI-2025233. The authors thank Dr. N. Sitaraman, A. C. Hire, Prof. R. Hennig, Prof. T. Arias, and Prof. J. Sethna for valuable discussions through the Center for Bright Beams collaboration. Z.S. acknowledges Dr. K. Dobson for valuable advice on electroplating; T. M. Gruber, H. G. Conklin, P. D. Bishop, Dr. M. Ge, A. Holic, J. Sears, G. Kulina for helping with sample preparation and electrochemical system installation; M. Salim for assisting XPS measurements; and M. Thomas for FIB advice.\n\n#### Author contributions\n\nZ.S. independently developed the methodology; conducted experiments on material growth, processing, optimization, characterization, and superconductivity measurements on sample-scale and cavity studies; and wrote the manuscript. Z.B. performed STEM/EDS experiments and analyses on cross-sectional phase/grain/composition imaging. R.D.P. assisted with the thermal annealing of samples and FFT analysis. L.S. assisted with the annealing and measurement of one cavity. Y.T.S. assisted with STEM imaging. T.O. assisted with RF data analysis. M.O.T., D.A.M., and M.U.L. provided valuable advice to design experiments and understand results mainly through collaboration within the Center for Bright Beams. Z.B., M.O.T., and M.U.L. further revised the manuscript. M.U.L. and D.A.M. acquired funding for the work and supervised this work.\n\n### Competing interests\n\nThe authors have no known competing financial interests.\n\n### Supplementary information\n\nThe Supplementary Information has been submitted as a separate file, including discussions on material challenges in conventional vapor-diffused Nb3Sn, detailed optimization of electrochemical synthesis (surfactant- and precursor-only control studies; <span id=\"page-16-0\"></span>CV analyses on the effects of bath temperature, pH, surfactant/precursor ratios, redox potentials, substrate oxide thicknesses, and stirring conditions), SEM and EDS characterization of Sn pre-deposits, and complete datasets of AFM, SEM, XPS, EDS, and SIMS data of electrochemically synthesized Nb3Sn.",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Smooth, homogeneous, high-purity Nb3Sn\nsuperconducting RF resonant cavity by seed-free\nelectrochemical synthesis",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              54.2373046875,
+              62.1650390625
+            ],
+            [
+              525.33984375,
+              62.1650390625
+            ],
+            [
+              525.33984375,
+              132.732666015625
+            ],
+            [
+              54.2373046875,
+              132.732666015625
+            ]
+          ]
+        },
+        {
+          "title": "ABSTRACT",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              55.95556640625,
+              291.779296875
+            ],
+            [
+              121.52644348144531,
+              291.779296875
+            ],
+            [
+              121.52644348144531,
+              304.541015625
+            ],
+            [
+              55.95556640625,
+              304.541015625
+            ]
+          ]
+        },
+        {
+          "title": "1 Introduction",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              56.69300079345703,
+              493.06640625
+            ],
+            [
+              138.81326293945312,
+              493.06640625
+            ],
+            [
+              138.81326293945312,
+              505.2528076171875
+            ],
+            [
+              56.69300079345703,
+              505.2528076171875
+            ]
+          ]
+        },
+        {
+          "title": "2 Method",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              55.65673828125,
+              344.759765625
+            ],
+            [
+              112.13525390625,
+              344.759765625
+            ],
+            [
+              112.13525390625,
+              357.3458251953125
+            ],
+            [
+              55.65673828125,
+              357.3458251953125
+            ]
+          ]
+        },
+        {
+          "title": "2.1 Electrochemical synthesis and characterization",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              55.58203125,
+              365.642578125
+            ],
+            [
+              299.9198913574219,
+              365.642578125
+            ],
+            [
+              299.9198913574219,
+              375.7563171386719
+            ],
+            [
+              55.58203125,
+              375.7563171386719
+            ]
+          ]
+        },
+        {
+          "title": "2.2 Post thermal annealing",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              55.992919921875,
+              187.2685546875
+            ],
+            [
+              184.74229431152344,
+              187.2685546875
+            ],
+            [
+              184.74229431152344,
+              198.0
+            ],
+            [
+              55.992919921875,
+              198.0
+            ]
+          ]
+        },
+        {
+          "title": "2.3 Surface, chemical, atomic, and structural characterizations",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              56.10498046875,
+              262.775390625
+            ],
+            [
+              354.47509765625,
+              262.775390625
+            ],
+            [
+              354.47509765625,
+              272.830078125
+            ],
+            [
+              56.10498046875,
+              272.830078125
+            ]
+          ]
+        },
+        {
+          "title": "2.4 Superconducting property and RF performance",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              55.95556640625,
+              612.17578125
+            ],
+            [
+              299.8700866699219,
+              612.17578125
+            ],
+            [
+              299.8700866699219,
+              622.4073181152344
+            ],
+            [
+              55.95556640625,
+              622.4073181152344
+            ]
+          ]
+        },
+        {
+          "title": "3 Sn electrochemistry on Nb: effects of surfactant, temperature, pH, concentration, and\nsubstrate surface oxide",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              56.1796875,
+              215.5673828125
+            ],
+            [
+              555.30322265625,
+              215.5673828125
+            ],
+            [
+              555.30322265625,
+              241.505859375
+            ],
+            [
+              56.1796875,
+              241.505859375
+            ]
+          ]
+        },
+        {
+          "title": "4 Characterization of optimized electrochemical pre-deposits",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              55.58203125,
+              180.404296875
+            ],
+            [
+              405.2349548339844,
+              180.404296875
+            ],
+            [
+              405.2349548339844,
+              192.684814453125
+            ],
+            [
+              55.58203125,
+              192.684814453125
+            ]
+          ]
+        },
+        {
+          "title": "5 Correlation between Sn pre-deposition and Nb3Sn surface roughness",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              55.1337890625,
+              179.630859375
+            ],
+            [
+              463.78125,
+              179.630859375
+            ],
+            [
+              463.78125,
+              193.4593505859375
+            ],
+            [
+              55.1337890625,
+              193.4593505859375
+            ]
+          ]
+        },
+        {
+          "title": "6 Improved stoichiometry in electrochemically synthesized Nb3Sn and comparison with\nvapor diffusion",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              55.58203125,
+              445.5
+            ],
+            [
+              555.3172607421875,
+              445.5
+            ],
+            [
+              555.3172607421875,
+              471.47882080078125
+            ],
+            [
+              55.58203125,
+              471.47882080078125
+            ]
+          ]
+        },
+        {
+          "title": "7 Structural characterizations and superconducting properties",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              56.0302734375,
+              486.4921875
+            ],
+            [
+              413.7470397949219,
+              486.4921875
+            ],
+            [
+              413.7470397949219,
+              498.85382080078125
+            ],
+            [
+              56.0302734375,
+              498.85382080078125
+            ]
+          ]
+        },
+        {
+          "title": "8 Outlook: performance demonstration on SRF cavities",
+          "heading_level": null,
+          "page_id": 10,
+          "polygon": [
+            [
+              55.7314453125,
+              448.98046875
+            ],
+            [
+              373.2786865234375,
+              448.98046875
+            ],
+            [
+              373.2786865234375,
+              461.21484375
+            ],
+            [
+              55.7314453125,
+              461.21484375
+            ]
+          ]
+        },
+        {
+          "title": "9 Conclusion",
+          "heading_level": null,
+          "page_id": 12,
+          "polygon": [
+            [
+              55.469970703125,
+              62.6484375
+            ],
+            [
+              134.47265625,
+              62.6484375
+            ],
+            [
+              134.47265625,
+              76.50482177734375
+            ],
+            [
+              55.469970703125,
+              76.50482177734375
+            ]
+          ]
+        },
+        {
+          "title": "Data availability",
+          "heading_level": null,
+          "page_id": 12,
+          "polygon": [
+            [
+              56.10498046875,
+              199.353515625
+            ],
+            [
+              131.65159606933594,
+              199.353515625
+            ],
+            [
+              131.65159606933594,
+              211.80535888671875
+            ],
+            [
+              56.10498046875,
+              211.80535888671875
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 12,
+          "polygon": [
+            [
+              56.6279296875,
+              238.798828125
+            ],
+            [
+              121.32421875,
+              238.798828125
+            ],
+            [
+              121.32421875,
+              251.641845703125
+            ],
+            [
+              56.6279296875,
+              251.641845703125
+            ]
+          ]
+        },
+        {
+          "title": "Acknowledgements",
+          "heading_level": null,
+          "page_id": 15,
+          "polygon": [
+            [
+              55.4326171875,
+              432.3515625
+            ],
+            [
+              139.552734375,
+              432.3515625
+            ],
+            [
+              139.552734375,
+              443.31011962890625
+            ],
+            [
+              55.4326171875,
+              443.31011962890625
+            ]
+          ]
+        },
+        {
+          "title": "Author contributions",
+          "heading_level": null,
+          "page_id": 15,
+          "polygon": [
+            [
+              55.95556640625,
+              553.0005187988281
+            ],
+            [
+              147.69580078125,
+              553.0005187988281
+            ],
+            [
+              147.69580078125,
+              563.0625
+            ],
+            [
+              55.95556640625,
+              563.0625
+            ]
+          ]
+        },
+        {
+          "title": "Competing interests",
+          "heading_level": null,
+          "page_id": 15,
+          "polygon": [
+            [
+              55.7314453125,
+              660.12890625
+            ],
+            [
+              142.01271057128906,
+              660.12890625
+            ],
+            [
+              142.01271057128906,
+              670.6601028442383
+            ],
+            [
+              55.7314453125,
+              670.6601028442383
+            ]
+          ]
+        },
+        {
+          "title": "Supplementary information",
+          "heading_level": null,
+          "page_id": 15,
+          "polygon": [
+            [
+              55.992919921875,
+              696.09375
+            ],
+            [
+              176.30859375,
+              696.09375
+            ],
+            [
+              176.30859375,
+              706.921875
+            ],
+            [
+              55.992919921875,
+              706.921875
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              237
+            ],
+            [
+              "Line",
+              54
+            ],
+            [
+              "Text",
+              8
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              364
+            ],
+            [
+              "Line",
+              42
+            ],
+            [
+              "TableCell",
+              36
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              390
+            ],
+            [
+              "Line",
+              102
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              209
+            ],
+            [
+              "Line",
+              57
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              115
+            ],
+            [
+              "Line",
+              27
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              469
+            ],
+            [
+              "Line",
+              66
+            ],
+            [
+              "TextInlineMath",
+              9
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              269
+            ],
+            [
+              "Line",
+              116
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              361
+            ],
+            [
+              "Line",
+              115
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              306
+            ],
+            [
+              "Line",
+              56
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              202
+            ],
+            [
+              "Line",
+              39
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              236
+            ],
+            [
+              "Line",
+              45
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              310
+            ],
+            [
+              "Line",
+              106
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              323
+            ],
+            [
+              "Line",
+              48
+            ],
+            [
+              "ListItem",
+              18
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              366
+            ],
+            [
+              "Line",
+              48
+            ],
+            [
+              "ListItem",
+              23
+            ],
+            [
+              "Reference",
+              8
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 14,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              358
+            ],
+            [
+              "Line",
+              49
+            ],
+            [
+              "ListItem",
+              22
+            ],
+            [
+              "Reference",
+              4
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 15,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              221
+            ],
+            [
+              "Line",
+              49
+            ],
+            [
+              "ListItem",
+              12
+            ],
+            [
+              "Reference",
+              7
+            ],
+            [
+              "SectionHeader",
+              4
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 16,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              10
+            ],
+            [
+              "Line",
+              4
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 17,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Smooth, homogeneous, high-purity Nb<SUB>3</SUB>Sn superconducting RF resonant cavity by seed-free electrochemical synthesis",
+    "authors": [
+      {
+        "authors_list": [
+          "Sun, Zeming",
+          "Baraissov, Zhaslan",
+          "Porter, Ryan D.",
+          "Shpani, Liana"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Workbench-size particle accelerators, enabled by Nb<SUB>3</SUB>Sn-based superconducting radio-frequency (SRF) cavities, hold the potential of driving scientific discovery by offering a widely accessible and affordable source of high-energy electrons and x-rays. Thin-film Nb<SUB>3</SUB>Sn RF superconductors with high quality factors, high operation temperatures, and high-field potentials are critical for these devices. However, surface roughness, non-stoichiometry, and impurities in Nb<SUB>3</SUB>Sn deposited by conventional Sn-vapor diffusion prevent them from reaching their theoretical capabilities. Here we demonstrate a seed-free electrochemical synthesis that pushes the limit of chemical and physical properties in Nb<SUB>3</SUB>Sn. Utilization of electrochemical Sn pre-deposits reduces the roughness of converted Nb<SUB>3</SUB>Sn by five times compared to typical vapor-diffused Nb<SUB>3</SUB>Sn. Quantitative mappings using chemical and atomic probes confirm improved stoichiometry and minimized impurity concentrations in electrochemically synthesized Nb<SUB>3</SUB>Sn. We have successfully applied this Nb<SUB>3</SUB>Sn to the large-scale 1.3 GHz SRF cavity and demonstrated ultra-low BCS surface resistances at multiple operation temperatures, notably lower than vapor-diffused cavities. Our smooth, homogeneous, high-purity Nb<SUB>3</SUB>Sn provides the route toward high efficiency and high fields for SRF applications under helium-free cryogenic operations.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Superconductor Science Technology",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2302.02054"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1088/1361-6668/acf5ab",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2023SuScT..36k5003S"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

@@ -1,0 +1,593 @@
+{
+  "id": "b1fd77d54d863ad2f4be18a19370d201",
+  "pdf_path": "apl/Superconductors/arXiv:2001.05193.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# Polymorphism and superconductivity in the V-Nb-Mo-Al-Ga high-entropy alloys\n\nJifeng Wu1,<sup>2</sup> , Bin Liu1,<sup>2</sup> , Yanwei Cui2,<sup>3</sup> , Qinqing Zhu1,<sup>2</sup> , Guorui\n\nXiao2,<sup>3</sup> , Hangdong Wang<sup>4</sup> , Siqi Wu<sup>3</sup> , Guang-han Cao<sup>3</sup> , and Zhi Ren2[∗](#page-0-0)\n\n<sup>1</sup>Department of Physics, Fudan University, Shanghai 200433, P. R. China\n\n<sup>2</sup>School of Science, Westlake Institute for Advanced Study,\n\nWestlake University, Hangzhou 310064, P. R. China\n\n<sup>3</sup>Department of Physics, Zhejiang University, Hangzhou 310027, P. R. China and\n\n<sup>4</sup>Department of Physics, Hangzhou Normal University, Hangzhou 310036, P. R. China\n\n(Dated: September 19, 2024)\n\nHigh-entropy alloys (HEAs) are at the focus of current research for their diverse properties, including superconductivity and structural polymorphism. However, the polymorphic transition has been observed only in nonsuperconducting HEAs and mostly under high pressure. Here we report the discovery of superconductivity and temperature-driven polymorphism in the (V0.5Nb0.5)3−xMoxAl0.5Ga0.<sup>5</sup> (0.2 ≤ x ≤ 1.4) HEAs. It is found that the as-cast HEA is of a single body-centered cubic (bcc) structure for x = 0.2 and a mixture of the bcc and A15 structures for higher x values. Upon annealing, the bcc structure undergoes a polymorphic transformation to the A15 one and all HEAs exhibits bulk superconductivity. For x = 0.2, whereas the bcc polymorph is not superconducting down to 1.8 K, the A15 polymorph has a superconducting transition temperature T<sup>c</sup> of 10.2 K and and estimated zero-temperature upper critical field Bc2(0) of 20.1 T, both of which are the highest among HEA superconductors. With increasing Mo content x, both T<sup>c</sup> and Bc2(0) of the A15-type HEAs decrease, yet the large ratio of Bc2(0)/T<sup>c</sup> signifies a disorder-induced enhancement of the upper critical field over a wide x range. The decrease in T<sup>c</sup> is attributed to the decrease in both the electronic specific-heat coefficient and electron-phonon coupling strength. Furthermore, the valence electron count dependence of Tc, which is different from both the binary A15 and other structurally different HEA superconductors, suggests that T<sup>c</sup> may be increased further by reducing the number of valence electrons. Our results not only uncover HEA superconductors of a new structural type, but also provide the first example of polymorphism dependent superconductivity in HEAs.\n\nPACS numbers:\n\n#### I. INTRODUCTION\n\nIn materials science, polymorphism refers to the property of a solid material to crystallize in at least two distinct structures. For superconductors, the presence of polymorphs is of considerable interest since it offers a unique opportunity to study how the spatial atomic arrangement affects the superconducting properties without changing the chemical composition, which may provide useful clues to the superconducting mechanism [\\[1\\]](#page-6-0). So far, the concurrence of structural polymorphism and superconductivity at ambient pressure has been observed in pure elements [\\[2](#page-6-1)], binary alloys [\\[3](#page-6-2), [4\\]](#page-6-3), ternary rare/alkali-earth intermetallics [\\[5,](#page-6-4) [6\\]](#page-6-5), perovskite oxides [\\[7\\]](#page-6-6), doped fullerides [\\[1](#page-6-0)], transition metal dichalcogenides [\\[8\\]](#page-6-7), and organic charge-transfer salts [\\[9,](#page-6-8) [10\\]](#page-7-0), all of which are ordered materials.\n\nRecently, HEAs have received much attention due to their fascinating mechanical, thermal and physical properties [\\[11](#page-7-1)[–15](#page-7-2)]. These alloys are single solid-solution phases made up of five or more metal elements, whose concentrations are restricted to between 5% and 35% atomic percent. Due to the extremely high chemical disorder, HEAs can be viewed as a metallic glass on an ordered lattice, and have been found mostly in high symmetry crystal structures, such as bcc, face-centered cubic (fcc), and hexagonal close packing (hcp). Among the large number of HEAs studied, a few members have been reported to show bulk type-II superconductivity [\\[16\\]](#page-7-3). These HEA superconductors are based on d transition metal elements, and can be categorized into four different structural types: bcc type [\\[17\\]](#page-7-4), α-Mn type [\\[18\\]](#page-7-5), CsCl type [\\[19\\]](#page-7-6), and hcp type [\\[20](#page-7-7)]. In particular, CsCl-type (ScZrNb)<sup>0</sup>.<sup>65</sup>(RhPd)<sup>0</sup>.<sup>35</sup> HEA has the highest T<sup>c</sup> of ∼9.3 K [\\[19\\]](#page-7-6), and the highest Bc2(0) of ∼11.7 T is achieved in the (TaNb)0.5(ZrHfTi)0.<sup>5</sup> HEA with a simple bcc structure [\\[21](#page-7-8)]. Moreover, the bcctype (TaNb)0.67(HfZrTi)0.<sup>33</sup> HEA shows robust zeroresistance superconductivity without structural transition at pressures up to 190 GPa, demonstrating the potential of HEAs for application under extreme conditions [\\[22\\]](#page-7-9). However, no polymorphs of these HEA superconductors have been reported so far. As a matter of fact, the polymorphic transitions are observed only in nonsuperconducting HEAs and mostly at very high pressures, though the different polymorphs can still exist after the pressure is relieved [\\[23](#page-7-10)[–25\\]](#page-7-11).\n\nIt is known that the formation energies of the bcc and A15 phases are very similar in some A3B-type compounds, where A is a group VB or VIB transition metal\n\n<span id=\"page-0-0\"></span><sup>∗</sup>Electronic address: [zhi.ren@wias.org.cn](mailto:zhi.ren@wias.org.cn)\n\nelement such as V, Nb, Mo and B is usually a IIIA main group element such as Al, Ga [\\[3](#page-6-2), [26,](#page-7-12) [27](#page-7-13)]. Consequently, a bcc-to-A15 polymorphic phase transition can be induced by thermal annealing. It is therefore of interest to study the HEAs based on the V-Nb-Mo-Al-Ga system, which, however, have not been explored to date. In this paper, we present a systematic study on the structural and physical properties of the (V0.5Nb0.5)3−xMoxAl0.5Ga0.<sup>5</sup> HEAs for 0.2 ≤ x ≤ 1.4. It is shown that, the arc-melted (as-cast) HEA with x = 0.2 possesses a disordered bcc structure, which transforms to the A15 structure after annealing at 1600 ◦C. Whereas the bcc polymorph remains normal down to 1.8 K, the A15 one turns out to be a bulk superconductor with a T<sup>c</sup> of 10.2 K and an orbitally-limited Bc2(0) of 20.1 T. For x ≥ 0.4, the as-cast HEAs contain a mixture of bcc and A15 polymorphs, and a similar bcc-to-A15 polymorphic transition is observed upon annealing. With increasing Mo content x, both T<sup>c</sup> and Bc2(0) of the A15-type HEAs decrease, while the ratio of Bc2(0)/T<sup>c</sup> for 0.2 ≤ x ≤ 1.2 is larger than or comparable to that of Nb3Sn. The decrease in T<sup>c</sup> is concomitant with a decrease in both the density of states at the Fermi level [N(EF)] and electron-phonon coupling strength, as expected from the Bardeen-Cooper-Schreiffer (BCS) theory. In addition, the valence electron account (VEC) dependence of T<sup>c</sup> for these A15-type HEAs is compared with those for the binary A15 and other structurally different HEA superconductors. The implication of these results is discussed.\n\n### II. EXPERIMENTAL\n\nThe V-Nb-Mo-Al-Ga HEAs were prepared by arc melting high purity V (99.9%), Nb (99.9%), Mo (99.9%), Al (99.9%) powders and Ga shots (99.9%) according to the stoichiometric ratio of V:Nb:Mo:Al:Ga = (1.5-x/2):(1.5 x/2):x:0.5:0.5 with x = 0.2, 0.4, 0.6, 0.8, 1.0, 1.2 and 1.4. In order to minimize the volatilization of Al and Ga during the arc melting process, the mixture was prereacted at 1000 ◦C for one week, and then melted in an arc furnace under high-purity argon atmosphere. The melts were turned over and remelted several times to ensure homogeneity, followed by rapid cooling on a water-chilled copper plate. For annealing experiments, the as-cast ingots were thoroughly grounded and pressed into pellets, which were loaded in alumina crucibles in an argon-filled glove box. The crucibles were then placed in Ta tubes, sealed in evacuated quartz tubes and heated at 1600 ◦C under argon atmosphere in a muffle furnace for 12 h. After furnace cooling to 900 ◦C, the quartz tubes were quenched into the cold water.\n\nThe phase purity of as-cast and annealed HEAs was checked by power x-ray diffraction using a Bruker D8 Advance x-ray diffractometer with Cu Kα radiation at room temperature. The structural refinements were performed using the JANA2006 program [\\[28\\]](#page-7-14). The chemical composition was measured with an energy-dispersive\n\n![](_page_1_Figure_5.jpeg)\n\nFIG. 1: (Color online) (a), (b) Powder x-ray diffraction patterns at room temperature for the as-cast and annealed (V0.5Nb0.5)3−xMoxAl0.5Ga0.<sup>5</sup> HEAs. The major diffraction peaks for the as cast HEAs with x ≤ 0.4 are indexed to the bcc structure. While for x ≥ 0.6, the major peaks are indexed to the A15 structure. For annealed HEAs, the major peaks are indexed to the A15 structure, and the small impurity peaks for x ≤ 0.6 are marked by the asterisks. The inset between (a) and (b) shows the lattice parameter of the A15 phase for the as-cast and annealed HEAs plotted as a function of the Mo content x.\n\nx-ray spectrometer (Model Octane Plus) affiliated to a Zeiss field emission scanning electron microscope. The spectra were collected on different locations of each sample for averaging. The electron diffraction was taken in a JEM-2100F transmission electron microscope operated at an accelerating voltage of 200 kV. The electrical resistivity and specific heat were measured by the standard four-probe and the relaxation methods, respectively. Resisvity and specific heat measurements down to 1.8 K and up to 9 T were carried out in a Quantum Design PPMS-9 Dynacool. The dc magnetization measurements down to 1.8 K were performed in a commercial SQUID magnetometer (MPMS3).\n\n### III. RESULTS AND DISCUSSION\n\nThe powder x-ray diffraction (XRD) patterns at room temperature for the series of as-cast and annealed\n\n![](_page_2_Figure_1.jpeg)\n\nFIG. 2: (Color online) (a),(b) The structural refinement profiles for the as-cast and annealed (V0.5Nb0.5)3−xMoxAl0.5Ga0.<sup>5</sup> HEAs with x = 0.2. The small impurity peak in (b) is marked by the arrow. (c),(d) Electron diffraction patterns for the bcc and A15 polymorphs, respectively. (e) Temperature dependence of resistivity for the two different polymorphs. The inset shows the corresponding low-temperature specific heat data plotted as Cp/T versus T 2 .\n\nTABLE I: Refined crystallographic data of the as-cast and annealed (V0.5Nb0.5)3−xMoxAl0.5Ga0.<sup>5</sup> HEA with x = 0.2.\n\n|                    |                      | As-cast |   | Annealed                   |      |     |     |                            |  |  |\n|--------------------|----------------------|---------|---|----------------------------|------|-----|-----|----------------------------|--|--|\n| Structural type    |                      | bcc     |   |                            |      | A15 |     |                            |  |  |\n| Space group        |                      | I m¯3m  |   | Pm¯3n                      |      |     |     |                            |  |  |\n| Lattice parameter  | 3.163 ˚A<br>5.014 ˚A |         |   |                            |      |     |     |                            |  |  |\n| Rwp factor         | 6.8%<br>9.3%         |         |   |                            |      |     |     |                            |  |  |\n| Rp factor          | 5.3%<br>6.6%         |         |   |                            |      |     |     |                            |  |  |\n| Atoms              | x                    | y       | z | Occ.                       | x    | y   | z   | Occ.                       |  |  |\n| V1/Nb1/Mo1/Al1/Ga1 | 0                    | 0       | 0 | 0.35/0.35/0.05/0.125/0.125 | 0    | 0   | 0   | 0.35/0.35/0.05/0.125/0.125 |  |  |\n| V2/Nb2/Mo2/Al2/Ga2 |                      |         |   |                            | 0.25 | 0   | 0.5 | 0.35/0.35/0.05/0.125/0.125 |  |  |\n\n(V0.5Nb0.5)3−xMoxAl0.5Ga0.<sup>5</sup> HEAs are shown in Figure 1(a) and (b), respectively. As can be seen from Fig. 1(a), for the as-cast HEA with x = 0.2, only several diffraction peaks are observed and can be well indexed to the bcc structure with a lattice constant of 3.163 ˚A. At higher x values, however, a number of additional peaks start to appear at 2θ angles corresponding to the A15-type structure, whose strongest peak overlaps with that of the bcc one. The peak intensity of the A15 structure tends to grow with increasing x, yet the coexistence of two phases persists up to x = 1.4, the highest Mo content investigated. Upon annealing at 1600 ◦C, the peaks from the bcc structure disappears but those from the A15 structure remain. This reveals that the thermal treatment results in a bcc-to-A15 structural transformation. For x ≤ 0.6, a small impurity peak is observed at 2θ ≈ 42◦ , probably coming from the Nb2Al-type sigma phase. By using a least-squares method, the lattice constant of the A15 structure for both the as-cast and annealed HEAs is determined and plotted as a function of the Mo content x in the inset of Fig. 1. One can see that, for x = 0.2, the a-axis is ∼5 ˚A, and the corresponding unitcell volume (∼125 ˚A<sup>3</sup> ) is nearly four times that of the bcc polymorph (∼31.6 ˚A<sup>3</sup> ). At higher x values, the\n\n![](_page_3_Figure_1.jpeg)\n\nFIG. 3: (Color online) (a)-(c) Temperature dependence of resistivity, magnetic susceptibility and specific heat below 12 K for the series of A15-type (V0.5Nb0.5)3−xMoxAl0.5Ga0.<sup>5</sup> HEAs. The left-handed arrow indicates the direction of increasing x, and the vertical dashed line is a guide to the eyes. In panel (a), the horizontal line denotes the midpoint of the resistive transition. In panel (c), the red solid lines are the fits by the Debye model to the normal-state data (see text for details). (d) Temperature dependence of resistivity for x = 0.2 under magnetic fields up to 9 T in increments of 1 T. The dashed line marks the midpoint of the resistive transition. (e) Temperature dependence of the upper critical fields determined for the series of HEAs. The solid lines are fits from the WHH model to the data. (f) Tc/Θ<sup>D</sup> plotted as a function of γ. The solid line is a guide to the eyes, and the arrow marks the γ value for the bcc polymorph with x = 0.2. (g) Logarithm of T<sup>c</sup> plotted a function of −1/λep for the HEAs, together with the data of Nb3Sn. The solid lines are a guide to the eyes. (h) Mo content x dependence of Bc2(0)/Tc. The dashed and dashed-dotted lines denote the values for the Pauli limiting field BP(0)/T<sup>c</sup> = 1.86 T/K and Nb3Sn, respectively.\n\na-axis is 0.1-0.2% larger in annealed HEAs than in ascast HEAs. Nevertheless, in both cases, the a-axis decreases monotonically with increasing x, which means that the unit-cell volume shrinks as more Mo atoms are incorporated. On the other hand, energy dispersive x-ray analyses show that the chemical compositions of annealed (V0.5Nb0.5)3−xMoxAl0.5Ga0.<sup>5</sup> HEAs are essentially in agreement with the nominal ones, and more importantly, no composition change is observed before and after the annealing process for x = 0.2 (see Table S1, Supporting Information).\n\nFrom the above results, one can see that the (V0.5Nb0.5)3−xMoxAl0.5Ga0.<sup>5</sup> HEAs have two polymorphs at ambient pressure: one with the bcc structure and the other with the A15 structure. To gain more insight, we focus on the HEA with x = 0.2, where the two polymorphs are isolated from each other. Figure 2(a) and (b) show the structural refinement profiles for the ac-cast and annealed HEAs at this composition based on the I m¯3m and Pm¯3n space groups, respectively, and the refined results are listed in Table 1. In both cases, there is a good agreement between the observed and calculated XRD patterns, as indicated by the low Rwp and R<sup>p</sup> values. In the bcc structure, there is only one crystallographic site for the five different type of atoms, whose occupancies are set by the respective atomic fraction. For the A15 structure, there are two distinct sites (0.25, 0, 0.5) and (0, 0, 0), while the atomic occupancies at each site remains unchanged. As a consequence, the one-dimensional chains consist of both transition metal and main group element atoms, in contrast to the binary A15 superconductors [\\[29\\]](#page-7-15). Figure 2(c) and (d) show the electron diffraction patterns for the bcc and A15 polymorphs, respectively. In the former case, the pattern consists of a series of concentric rings, which match well the crystal planes of the bcc structure and is indicative of a small grain size. By contrast, for the A15 one, well defined spots from (100) planes can be observed, which\n\n|                          | x = 0.2 | x = 0.4 | x = 0.6 | x = 0.8 | x = 1.0 | x = 1.2 | x = 1.4 |\n|--------------------------|---------|---------|---------|---------|---------|---------|---------|\n| Tc (K)                   | 10.2    | 9.2     | 8.9     | 7.9     | 6.1     | 4.8     | 3.2     |\n| γ (mJ mol−1 K<br>−2<br>) | 30.9    | 26.0    | 25      | 24      | 22.8    | 18.7    | 16.5    |\n| ∆Cp/γTc                  | 2.01    | 1.61    | 1.60    | 1.54    | 1.31    | 1.33    | 1.33    |\n| ΘD (K)                   | 317     | 342     | 355     | 374     | 383     | 377     | 424     |\n| λph                      | 0.81    | 0.75    | 0.73    | 0.69    | 0.63    | 0.59    | 0.52    |\n| Bc2(0) (T)               | 20.1    | 17.7    | 17.0    | 14.2    | 9.9     | 7.6     | 4.8     |\n| ξGL (nm)                 | 4.0     | 4.3     | 4.4     | 4.8     | 5.8     | 6.6     | 8.3     |\n\nTABLE II: Normal-state and superconducting parameters of A15-type (V0.5Nb0.5)3−xMoxAl0.5Ga0.<sup>5</sup> HEAs.\n\nalso provides evidence for the growth in grain size during the annealing process. Overall, these results are very similar to those observed in binary A3B-type compounds with the bcc and A15 polymorphs [\\[26\\]](#page-7-12). Nevertheless, it is noted that, for example, annealing Nb3Al at 800 ◦C for several hours is sufficient to transform the bcc polymorph to the A15 one completely. This heat-treatment temperature is only half that employed for the present HEAs. Actually, we have also performed annealing experiments at 1000 ◦C, but found that the transformation is still not complete after more than one week. Hence it appears that, compared with binary compounds, the HEAs indeed have higher thermal stability. Furthermore, since the A15 polymorph can be regarded as a low-temperature phase and remains stable up to 1600 ◦C, the polymorphic transition from the A15 to bcc structure should occur at a temperature much higher than 1600 ◦C.\n\nRecently, the effect of Al alloying on the bcc-type (TaNb)<sup>0</sup>.<sup>67</sup>(ZrHfTi)<sup>0</sup>.<sup>33</sup> HEA superconductor has been investigated by von Rohr et al. [\\[30\\]](#page-7-16). The results show that the [(TaNb)<sup>0</sup>.<sup>67</sup>(ZrHfTi)<sup>0</sup>.<sup>33</sup>]1−xAl<sup>x</sup> remains in a bcc structure up to x = 0.3, but changes to a sigma phase structure with increasing x to 0.4, suggesting that the system is in the vicinity a structural instability. In this respect, a polymorphic transition may occur for some x value upon proper thermal treatment. It is worth noting that, even for the Al-free Ta-Nb-Zr-Hf-Ti HEAs, the bcc structure can be unstable against annealing, though no other polymorph has been observed [\\[31\\]](#page-7-17). This suggests that the occurrence of structure polymorphism in HEAs is closely related to their constituent elements.\n\nFigure 2(e) shows the temperature dependence of normalized resistivity below 50 K for the bcc and A15 polymorphs of the (V0.5Nb0.5)3−xMoxAl0.5Ga0.<sup>5</sup> HEA with x = 0.2. A weak temperature dependence is observed in both cases, which is typical for HEAs [\\[17,](#page-7-4) [21\\]](#page-7-8). On cooling below 10.3 K, the resistivity of the A15 polymoprh drops sharply to zero, evidencing a superconducting transition. While a similar resistivity drop is seen at a slightly lower temperature for the bcc polymoprh, no zero resistance is achieved down to 1.8 K. On the other hand, a large specific heat (Cp) jump is seen for the A15 polymoprh [see Fig. 2(e)], confirming the bulk nature of its superconductivity. Nevertheless, there is no anomaly in the C<sup>p</sup> data of the bcc counterpart. This suggests that the bulk bcc phase does not superconduct above 1.8 K and the observed resistive transition originates from a tiny amount of superconducting impurities. In addition, the C<sup>p</sup> data indicates that the electronic specific heat coefficient (γ) for the bcc polymoprh is much smaller than that of the A15 one, which will be discussed further below. In the remaining of the paper, we restrict our attention to the superconducting properties of the A15 polymorph in annealed (V<sup>0</sup>.<sup>5</sup>Nb<sup>0</sup>.<sup>5</sup>)3−xMoxAl<sup>0</sup>.<sup>5</sup>Ga<sup>0</sup>.<sup>5</sup> HEAs.\n\nFigure 3(a)-(c) show the temperature dependence of resisitivity (ρ), magnetic susceptibility (χ) and C<sup>p</sup> of these HEAs below 12 K, respectively. For each x value, the superconducting transition is characterized by a sharp drop in ρ, a strong diamagnetic response and a clear C<sup>p</sup> jump. Here Tc, determined as the midpoint of the resistive transition, is found to decrease monotonically from 10.2 K to 3.2 K with increasing x to x = 1.4. The onset temperature of the diamagnetic signal in the zero-field cooling χZFC agrees well with the T<sup>c</sup> determined from the ρ measurements. Moreover, the χZFC data at 1.8 K for all HEAs corresponds to a shielding fraction of more than 130 % without correcting the demagnetization factor. This, together with the C<sup>p</sup> jump, clearly demonstrates bulk superconductivity in these HEAs. In the normal state, the C<sup>p</sup> data are well fitted by the Debye model Cp/T = γT + βT <sup>2</sup> , where β is the phononic specific heat coefficient. Once β is known, the Debye temperature Θ<sup>D</sup> can be calculated by the formula Θ<sup>D</sup> = (12πNR/5β) 1/3 , where N is the number of atoms per unit cell and R = 8.314 Jmol<sup>−</sup>1K<sup>−</sup><sup>1</sup> is the molar gas constant. The analysis results are summarized in Table 2. For x = 0.2, γ has a value of 30.9 mJmol<sup>−</sup>1K<sup>−</sup><sup>2</sup> and the normalized specific heat jumps ∆Cp/γT<sup>c</sup> is estimated to be 2.01, which is significantly larger than the BCS value of 1.43 [\\[32](#page-7-18)]. Nevertheless, the jump can be reasonably reproduced by a modified BCS model [\\[33](#page-7-19)] with ∆0/T<sup>c</sup> = 2.07, where ∆<sup>0</sup> is the fully isotropic gap at 0 K (see Fig. S1, supporting information). This suggests that the superconducting state is still BCS-like. With increasing x, the two quantities decrease and reduce to 16.5 mJmol<sup>−</sup><sup>1</sup>K<sup>−</sup><sup>2</sup> and 1.33 at x = 1.4, respectively. On the other hand, with the knowledge of T<sup>c</sup> and ΘD, the electron-phonon coupling constant λep can be calculated by the inverted McMillan formula, [\\[34](#page-7-20)]\n\n$$\\lambda\\_{\\rm ph} = \\frac{1.04 + \\mu^\\* \\ln(\\Theta\\_{\\rm D}/1.45 \\, T\\_{\\rm c})}{(1 - 0.62 \\mu^\\*) \\ln(\\Theta\\_{\\rm D}/1.45 \\, T\\_{\\rm c}) - 1.04}, \\quad (1)$$\n\nwhere µ ∗ is the Coulomb repulsion pseudopotential. Assuming that µ <sup>∗</sup> = 0.13, λep values are also found to decreases from 0.81 to 0.52 with increasing x from 0.2 to 1.4. Taken together, these results suggest that annealed (V0.5Nb0.5)3−xMoxAl0.5Ga0.<sup>5</sup> HEAs are moderately coupled superconductors for 0.2 ≤ x ≤ 0.8 and weakly coupled superconductors for 1 ≤ x ≤ 1.4.\n\nTo obtain the Bc2(0) values for these HEAs, temperature dependent ρ(T ) was measured under various magnetic fields up to 9 T, an example of which for x = 0.2 is shown in Fig. 3(d) (for other x values see Figure S2, Supporting Information). With increasing magnetic field, the resistive transition is slightly broadened and shifts toward lower temperatures as expected. The T<sup>c</sup> value at different fields is determined based on the same criterion as that under zero field, and the resulting Bc2(T ) phase diagrams are displayed in Fig. 3(e). By using the Wathamer-Helfand-Hohenberg theory [\\[35](#page-7-21)], Bc2 can be extrapolated to zero temperature, yielding Bc2(0) = 20.1 T, 17.7 T, 16.5 T, 14.2 T, 9.9 T, 7.6 T, and 4.8 T for x = 0.2, 0.4, 0.6, 0.8, 1.0, 1.2, and 1.4, respectively. From Bc2(0), the Ginzburg-Landau (GL) coherence length ξGL can be calculated as ξGL = p Φ0/2πBc2(0) , where Φ<sup>0</sup> = 2.07 × 10<sup>−</sup><sup>15</sup> Wb is the flux quantum. This gives a relatively short ξGL varying between 4.0 to 8.3 nm for these HEAs.\n\nThe examination of the correlation between the physical properties for these HEAs reveals the following salient features. First, as shown in Fig.3(f), the ratio of Tc/Θ<sup>D</sup> increase as the increase of γ and hence N(EF),which is consistent with the BCS theory [\\[32\\]](#page-7-18). In this respect, the absence of superconductivity for the bcc polymorph of x = 0.2 is likely due to the low N(EF) since its γ value (12.9 mJmol<sup>−</sup><sup>1</sup>K<sup>−</sup><sup>2</sup> ) is only ∼40% of that of the A15 one. Nevertheless, the possibility of a weakening of the electron-phonon coupling strength cannot be excluded. Second, when plotting the logarithm of T<sup>c</sup> as a function of the inverted electron-phonon coupling constant −1/λep [see Fig. 3(g)], two different slopes are discernible, which contrasts with the case of Heusler superconductors [\\[36\\]](#page-7-22). Note that these two slopes correspond well to the weak (1 ≤ x ≤ 1.4) and moderate (0.2 ≤ x ≤ 0.8) electronphonon coupling regimes found above, respectively. In addition, the data of the A15 superconductor Nb3Sn falls on the extrapolation of the data in the moderate coupling regime. Nevertheless, the slope appears to be more steep for small λep, pointing to a more significant role of electron-phonon coupling on T<sup>c</sup> in this regime. Third, as can be seen from Fig. 3(h), Bc2(0)/T<sup>c</sup> ratio of these HEAs is larger than or comparable to that of Nb3Sn [\\[37\\]](#page-7-23), despite their much lower Tc. Especially, the Bc2(0) value for x ≤ 0.6 slightly exceeds the Pauli paramag-\n\n![](_page_5_Figure_5.jpeg)\n\n6\n\n![](_page_5_Figure_6.jpeg)\n\nFIG. 4: (Color online) Dependence of T<sup>c</sup> on the average number of valence electrons per atom ratio for A15-type (V0.5Nb0.5)3−xMoxAl0.5Ga0.<sup>5</sup> HEAs. The data for binary A15 [\\[41](#page-7-24)] and other structurally different HEA [\\[17](#page-7-4)[–20](#page-7-7)] superconductors are also included for comparison. The solid lines are a guide to the eyes, and the two T<sup>c</sup> maxima for binary A15 compounds are marked by the arrows.\n\nnetic limit, BP(0) = 1.86Tc. While this Bc2 behavior has been observed in bcc-type (TaNb)<sup>0</sup>.<sup>16</sup>(HfZrTi)<sup>0</sup>.<sup>84</sup> HEA [\\[21\\]](#page-7-8), its T<sup>c</sup> and Bc2(0) values are only about half of those in the present case. In the dirty limit, we have Bc2(0) = −0.693(dBc2/dT )<sup>T</sup> <sup>=</sup>T<sup>c</sup> T<sup>c</sup> [\\[35](#page-7-21)] and (dBc2/dT )<sup>T</sup> <sup>=</sup>T<sup>c</sup> ∝ γρ<sup>c</sup> [\\[38](#page-7-25)], where ρ<sup>c</sup> is the normal-state resistivity value just above Tc. Hence one can see that Bc2(0)/T<sup>c</sup> ∝ γρc. Since the γ values of A15-type HEAs are smaller than that of Nb3Sn [\\[39\\]](#page-7-26), their larger Bc2(0)/T<sup>c</sup> is apparently attributed to an enhancement of ρ<sup>c</sup> resulting from the strong disorder, similar to ball-milled Nb3Sn [\\[40](#page-7-27)]. Also, it is worth noting that the Bc2(0)/T<sup>c</sup> ratio tends to increase with the increase of Tc, and that a Bc2(0) value of ∼20 T is attainable for a T<sup>c</sup> of 10.2 K. Provided the T<sup>c</sup> can be enhanced to ∼15 K, the Bc2(0) of the A15 type HEAs might be above 30 T, which is higher than that of Nb3Sn [\\[37\\]](#page-7-23) and may have application in high field superconducting magnets.\n\nTo provide hints for the T<sup>c</sup> enhancement, we plot the T<sup>c</sup> against the average number of valence electrons per atom ratio (e/a) for A15-type (V0.5Nb0.5)3−xMoxAl0.5Ga0.<sup>5</sup> HEAs, together with the data of all known binary A15 and other prototype HEAs superconductors for comparison [\\[41](#page-7-24)]. As expected from the Matthias rule [\\[42](#page-7-28)], T<sup>c</sup> of the binary A15 superconductors exhibits two maxima around e/a = 4.75 and 6.5, respectively. For the A15 HEAs, the e/a values fall between 4.55 and 4.85, suggesting that they still obey the the Matthias rule. Nevertheless, their T<sup>c</sup> shows a monotonic decrease with increasing e/a. This contrast is not so surprising since the strong disorder inherent to A15 HEAs will smear out N(EF) and wipe out its structure that would be in the binary A15 superconductors [\\[43](#page-7-29)]. Hence the band filling dependence of T<sup>c</sup> is naturally expected to be different between these two families of materials. In any case, this result suggests that the T<sup>c</sup> of A15 HEAs could be further enhanced by reducing e/a to below 4.55. In this regard, replacing Mo with Ta or group IVB elements (Ti, Zr, Hf) will be of interest for future studies. On the other hand, it is worth noting that, among all HEA superconductors, only the A15- and bcc-type ones exhibit an overlap of the e/a ranges, which is consistent with the observation of a polymorphic transition between these two structural types. Nevertheless, the T<sup>c</sup> dependence on e/a is quite different for two cases. Hence it appears that, in addition to valence electron count, crystal structure and constituent elements also play a nontrivial role in determining the T<sup>c</sup> of HEA superconductors.\n\nFinally, we briefly discuss the implication of our results. First, these results clearly indicate that HEA superconductors are not limited to transition metal elements, which open more possibilities of combinations of elements to compose superconducting HEAs. Second, the A15-type HEAs represent an alternative way of introducing strong disorder to study the effect of atomic ordering on the physical properties of A15 compounds. Previously, such disorder can be introduced by ball milling [\\[44\\]](#page-7-30), rapid quenching [\\[45\\]](#page-7-31) and high-energy particle radiation [\\[46\\]](#page-7-32), all of which have no influence on the chemical composition. In this regard, the chemical complexity in HEAs is expected to provide a fresh insight into the effect of compositional disorder. For example, a natural question to ask is how this disorder affects normal state resistivity and magnetoresistance, which requires high magnetic fields to suppress superconductivity completely. Third, it is prudent to note that the (V<sup>0</sup>.<sup>5</sup>Nb<sup>0</sup>.<sup>5</sup>)3−xMoxAl<sup>0</sup>.<sup>5</sup>Ga<sup>0</sup>.<sup>5</sup> HEAs exhibit the same polymorphism as the binary combinations of their constituent elements, such as Nb3Al, Mo3Al and V3Ga. Further studies are called for to assess the generality of this observation in other polymorphic HEAs.\n\n## (V0.5Nb0.5)3−xMoxAl0.5Ga0.<sup>5</sup> HEAs with x in the range 0.2 and 1.4. The results show that as-cast HEA has a single bcc structure for x = 0.2 and a mixture of the bcc and A15 structures for higher x values. Upon annealing, a bcc-to-A15 polymorphic transition takes place and all HEAs are found to exhibit bulk superconductivity. In particular, for x = 0.2, while the bcc polymorph is not superconducting down to 1.8 K, the A15 one has a T<sup>c</sup> of 10.2 K and an estimated Bc2(0) of 20.1 T, both of which are the highest among HEA superconductors. With increasing Mo content x, T<sup>c</sup> of these A15-type HEAs decrease monotonically, which is ascribed to the reduction in both electron phonon coupling strength and N(EF). Furthermore, the T<sup>c</sup> also decreases with increasing e/a from 4.55 to 4.85. This is different from the binary A15 as well as other structurally different HEA superconductors, and suggests that T<sup>c</sup> may be enhanced by reducing the number of valence electrons. On the other hand, the Bc2(0)/T<sup>c</sup> ratio of the A15-type HEAs, which is larger than that of Nb3Sn over a broad x range, provides evidence for a disorder-induced enhancement of the upper critical field. Our results not only present a new type of HEA superconductors, but also provide the first example of polymorphism dependent superconductivity in HEAs, which help to understand the interplay between chemical disorder, crystal structure and superconducting properties in these materials.\n\n#### ACKNOWLEGEMENT\n\nThe work at Zhejiang University is financially supported by the National Key Research Development Program of China (No.2017YFA0303002).\n\n### IV. CONCLUSION\n\nIn summary, we have discovered both superconductivity and temperature-driven polymorphism in the\n\n- <span id=\"page-6-0\"></span>[1] Ganin, A. Y.; Takabayashi, Y.; Jeglic, P.; Arcon, D.; Potocnik, A.; Baker, P. J.; Ohishi, Y.; McDonald, M. T.; Tziraki, M. D.; McLennan, A.; Darling, G. R.; Takata, M.; Rosseinsky, M. J.; Prassides, K. Nature 2010, 466, 221.\n- <span id=\"page-6-1\"></span>[2] Petch, N. J. Nature 1944, 154, 337.\n- <span id=\"page-6-2\"></span>[3] Giorgi, A. L.; Matthias, B. T. Phys. Rev. B 1978, 17, 2160.\n- <span id=\"page-6-3\"></span>[4] Wire, M. S.; Webb, G. W. J. Phys. Chem. Solids 1981, 42, 233.\n- <span id=\"page-6-4\"></span>[5] Braun, H. F.; Engel, N.; Parthe, E. Phys. Rev. B 1983,\n\n28, 1389.\n\n- <span id=\"page-6-5\"></span>[6] Xie, W. W.; Seibel, E. M.; Cava, R. J. Inorg. Chem. 2016, 55, 3203.\n- <span id=\"page-6-6\"></span>[7] Climent-Pascual, E.; Ni, N.; Jia, S.; Cava, R. J. Phys. Rev. B 2011, 83, 174512.\n- <span id=\"page-6-7\"></span>[8] Luo, H. X.; Xie, W. W.; Tao, J.; Inoue, H.; Gyenis, A.; Krizan, J. W.; Yazdani, A.; Zhu, Y. M.; Cava, R. J. Proc. Natl. Acad. Sci. USA 2015, 112, E1174.\n- <span id=\"page-6-8\"></span>[9] Kikuchi, K.; Honda, Y.; Ishikawa, Y.; Saito, K.; Ikemoto, I.; Murata, K.; Anzai, H.; Ishiguro, T.; Kobayashi, K. Solid State Commun. 1988, 66, 405.\n- <span id=\"page-7-0\"></span>[10] Rabaca, S.; Oliveira, S.; Santos, I. C.; Gama, V.; Belo, D.; Lopez, E. B.; Canadell, E.; Almeida, M. Inorg. Chem. 2006, 55, 10343.\n- <span id=\"page-7-1\"></span>[11] Yeh, J. W.; Chen, S. K.; Lin, S. J.; Gan, J. Y.; Chin, S. T.; Shun, T. T.; Tsau, S. H.; Chang, S. Y. Adv. Eng. Mater. 2004, 6, 299.\n- [12] Ye, Y. F.; Wang, Q.; Lu, J.; Liu, C. T.; Yang, Y. Mater. Today 2016, 19, 349.\n- [13] Miracle D. B.; Senkov, O. N. Acta Mater. 2017, 122, 448.\n- [14] Zhang, W. R.; Liaw, P. K.; Zhang, Y. Sci. China Mater. 2018, 61, 2.\n- <span id=\"page-7-2\"></span>[15] George, E. P..; Rabbe, D.; Ritchie, R. O. Nat. Rev. Mater. 2019, 4, 515.\n- <span id=\"page-7-3\"></span>[16] Sun, L. L.; Cava, R. J. Phys. Rev. Mater. 2019, 3, 090301.\n- <span id=\"page-7-4\"></span>[17] Kozelj, K.; Vrtnik, S.; Jelen, A.; Jazbec, S.; Jaglicic, Z.; Maiti, S.; Feuerbacher, M.; Steurer, W.; Dolinsek, J. Phys. Rev. Lett. 2014, 113, 107001.\n- <span id=\"page-7-5\"></span>[18] Stolze, K.; Cevallos, F. A.; Kong, T.; Cava, R. J. J. Mater. Chem. C 2018, 6, 10441.\n- <span id=\"page-7-6\"></span>[19] Stolze, K.; Tao, J.; von Rohr, F. O.; Kong, T.; Cava, R. J. Chem. Mater. 2018, 30, 906.\n- <span id=\"page-7-7\"></span>[20] Marik, S.; Molta, K.; Varghese, M.; Sajilesh, K. P.; Singh, D.; Breard, Y.; Boullay, P.; Singh, R. P. Phys. Rev. Mater. 2019, 3, 060602(R).\n- <span id=\"page-7-8\"></span>[21] von Rohr, F.; Winiarski, M. J.; Tao, J.; Klimczuk, T.; Cava, R. J. Proc. Natl. Acad. Sci. USA 2016, 113, E7144.\n- <span id=\"page-7-9\"></span>[22] Guo, J.; Wang, H.; von Rohr, F.; Wang, Z.; Cai, S.; Zhou, Y.; Yang, K.; Li, A.; Jiang, S.; Wu, Q.; Cava, R. J. Proc. Natl. Acad. Sci. USA 2017, 114, 13144.\n- <span id=\"page-7-10\"></span>[23] Zhang, F.; Wu, Y.; Lou, H. B.; Zeng, Z. D.; Prakapenka, V. B.; Greenberg, E.; Ren, Y.; Yan, J. Y.; Okasinski, J. S.; Liu, X. J.; Liu, Y.; Zeng, Q. S.; Lu, Z. P. Nat. Commun. 2017, 8, 15687.\n- [24] Huang, E. W.; Lin, C. M.; Jain, J.; Shieh, S. R.; Wang, C. P.; Chuang, Y. C.; Liao, Y. F.; Zhang, Z. D.; Huang, T.; Lam. T. N.; Woo, W. C.; Lee, S. Y. Mater. Today Commun. 2018, 14, 10.\n- <span id=\"page-7-11\"></span>[25] Wang, L.; Zhang, F.; Nie, Z.; Wang, L. Wang, F.; Wang, B.; Zhou, S.; Xue, Y.; Cheng, B.; Lou, X.; Chen, X.; Ren, Y.; Brown, D. E.; Prakapenka, V.; Greenberg, E.; Zeng, Z.; Zeng, Q. S. Mater. Today Phys. 2019, 8, 1.\n- <span id=\"page-7-12\"></span>[26] Wang, R.; Dahlgren, S. D. Metall. Trans. A 1977, 8, 1763.\n- <span id=\"page-7-13\"></span>[27] Harada, N.; Nakano, T.; Tsuda, M.; Hamajima, T.; Buta, F.; Lee, M.; Sumption, M. D.; Collings, E. W.; Tagawa, K.; Moriai, H.; Takeuchi, T.; Wada, H.; Watanabe, K.; IEEE Trans. Appl. Superconduct. 2001, 11, 3611.\n- <span id=\"page-7-14\"></span>[28] Petricek, V.; Dusek, M.; Palatinus, L.; Z. Kristallogr 2014, 346, 602.\n- <span id=\"page-7-15\"></span>[29] Yao, W. R.; Guang, L. Q. Phys. Stat. Sol.(a) 1986, 96, 397.\n- <span id=\"page-7-16\"></span>[30] von Rhor, F. O.; Cava, R. J. Phy. Rev. Mater. 2018, 2, 034801.\n- <span id=\"page-7-17\"></span>[31] Vrtnik, S.; Kozelj, P.; Meden, A.; Maiti, S.; Steurer, W.; Feuerbacher, M.; Dolinsek, J.. J. Alloys. Compd. 2017, 695, 3530.\n- <span id=\"page-7-18\"></span>[32] Bardeen, J.; Cooper, L. N.; Schreiffer, J. R. Phys. Rev. 1957, 108, 1175.\n- <span id=\"page-7-19\"></span>[33] Johnston, D. C. Supercond. Sci. Technol. 2013, 26, 115011.\n- <span id=\"page-7-20\"></span>[34] McMillan, W. L. Phys. Rev. 1968, 167, 331.\n- <span id=\"page-7-21\"></span>[35] Werthamer, N. R.; Helfand, E.; Hohenberg, P. C. Phys. Rev. 1966, 147, 295.\n- <span id=\"page-7-22\"></span>[36] Klimczuk, T.; Wang, C. H.; Gofryk, K.; Ronning, F.; Winterlik, J.; Fecher, G. H.; Griveau, J. C.; Colineau, E.; Felser, C.; Thompson, J. D.; Safarik, D. J.; Cava, R. J. Phys. Rev. B 2012, 85, 174505.\n- <span id=\"page-7-23\"></span>[37] Foner, S.; McNiff, Jr., E. J. Solid State Commun. 1981, 39, 959.\n- <span id=\"page-7-25\"></span>[38] Orlando, T. P.; McNiff, Jr., E. J.; Foner, S.; Beasley, M. R. Phys. Rev. B 1979, 19, 4545.\n- <span id=\"page-7-26\"></span>[39] Jo, Y. J.; Zhou, J.; Sung, Z. H.; Lee, P. J.; Larbalestier, D. C. APL Mater. 2014, 2, 106101.\n- <span id=\"page-7-27\"></span>[40] Cooley, L. D.; Hu, Y. F.; Moodenbaugh, A. R. Appl. Phys. Lett. 2006, 88, 142506.\n- <span id=\"page-7-24\"></span>[41] Dew-Hughes, D. Cryogenics 1975, 15, 435.\n- <span id=\"page-7-28\"></span>[42] Mathias, B. T. Phys. Rev. 1955, 97, 74.\n- <span id=\"page-7-29\"></span>[43] Labbe, J. Phys. Rev. 1967, 158, 647.\n- <span id=\"page-7-30\"></span>[44] Di, L. M.; Loeff, P. L.; Bakker, H. J. Less-Common Metals 1991, 168, 183.\n- <span id=\"page-7-31\"></span>[45] Blaugher, R. D.; Hein, R. E.; Cox, J. E.; Waterstrat, R. W. J. Low Temp. Phys. 1969, 1, 539.\n- <span id=\"page-7-32\"></span>[46] Sweedler, A. R.; Cox, D. E.; Moehlecke, S. J. Nucl. Mater. 1978, 72, 50.",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Polymorphism and superconductivity in the V-Nb-Mo-Al-Ga high-entropy alloys",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              69.4801025390625,
+              52.7518310546875
+            ],
+            [
+              546.556640625,
+              52.7518310546875
+            ],
+            [
+              546.556640625,
+              64.70703125
+            ],
+            [
+              69.4801025390625,
+              64.70703125
+            ]
+          ]
+        },
+        {
+          "title": "I. INTRODUCTION",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              122.51953125,
+              406.86444091796875
+            ],
+            [
+              228.72341918945312,
+              406.86444091796875
+            ],
+            [
+              228.72341918945312,
+              416.8828125
+            ],
+            [
+              122.51953125,
+              416.8828125
+            ]
+          ]
+        },
+        {
+          "title": "II. EXPERIMENTAL",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              120.12890625,
+              410.82476806640625
+            ],
+            [
+              231.29296875,
+              410.82476806640625
+            ],
+            [
+              231.29296875,
+              421.5234375
+            ],
+            [
+              120.12890625,
+              421.5234375
+            ]
+          ]
+        },
+        {
+          "title": "III. RESULTS AND DISCUSSION",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              353.21484375,
+              674.8232574462891
+            ],
+            [
+              525.0054931640625,
+              674.8232574462891
+            ],
+            [
+              525.0054931640625,
+              686.0390625
+            ],
+            [
+              353.21484375,
+              686.0390625
+            ]
+          ]
+        },
+        {
+          "title": "(V0.5Nb0.5)3−xMoxAl0.5Ga0.5 HEAs with x in the range\n0.2 and 1.4. The results show that as-cast HEA has a\nsingle bcc structure for x = 0.2 and a mixture of the bcc\nand A15 structures for higher x values. Upon annealing,\na bcc-to-A15 polymorphic transition takes place and\nall HEAs are found to exhibit bulk superconductivity.\nIn particular, for x = 0.2, while the bcc polymorph is\nnot superconducting down to 1.8 K, the A15 one has a\nTc of 10.2 K and an estimated Bc2(0) of 20.1 T, both\nof which are the highest among HEA superconductors.\nWith increasing Mo content x, Tc of these A15-type\nHEAs decrease monotonically, which is ascribed to the\nreduction in both electron phonon coupling strength\nand N(EF). Furthermore, the Tc also decreases with\nincreasing e/a from 4.55 to 4.85. This is different from\nthe binary A15 as well as other structurally different\nHEA superconductors, and suggests that Tc may be\nenhanced by reducing the number of valence electrons.\nOn the other hand, the Bc2(0)/Tc ratio of the A15-type\nHEAs, which is larger than that of Nb3Sn over a\nbroad x range, provides evidence for a disorder-induced\nenhancement of the upper critical field. Our results\nnot only present a new type of HEA superconductors,\nbut also provide the first example of polymorphism\ndependent superconductivity in HEAs, which help to\nunderstand the interplay between chemical disorder,\ncrystal structure and superconducting properties in\nthese materials.",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              313.76953125,
+              52.20703125
+            ],
+            [
+              562.330078125,
+              52.20703125
+            ],
+            [
+              562.330078125,
+              373.8904724121094
+            ],
+            [
+              313.76953125,
+              373.8904724121094
+            ]
+          ]
+        },
+        {
+          "title": "ACKNOWLEGEMENT",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              379.51171875,
+              484.2645568847656
+            ],
+            [
+              495.5409240722656,
+              484.2645568847656
+            ],
+            [
+              495.5409240722656,
+              494.2265625
+            ],
+            [
+              379.51171875,
+              494.2265625
+            ]
+          ]
+        },
+        {
+          "title": "IV. CONCLUSION",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              127.6800537109375,
+              510.3050231933594
+            ],
+            [
+              227.8564453125,
+              510.3050231933594
+            ],
+            [
+              227.8564453125,
+              520.5234375
+            ],
+            [
+              127.6800537109375,
+              520.5234375
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              364
+            ],
+            [
+              "Line",
+              88
+            ],
+            [
+              "Text",
+              11
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Footnote",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              463
+            ],
+            [
+              "Line",
+              178
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              373
+            ],
+            [
+              "Line",
+              107
+            ],
+            [
+              "TableCell",
+              65
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              466
+            ],
+            [
+              "Line",
+              161
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              548
+            ],
+            [
+              "Line",
+              102
+            ],
+            [
+              "TableCell",
+              72
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              770
+            ],
+            [
+              "Line",
+              121
+            ],
+            [
+              "TextInlineMath",
+              5
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              382
+            ],
+            [
+              "Line",
+              96
+            ],
+            [
+              "ListItem",
+              9
+            ],
+            [
+              "Reference",
+              9
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              346
+            ],
+            [
+              "Line",
+              87
+            ],
+            [
+              "ListItem",
+              37
+            ],
+            [
+              "Reference",
+              33
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/KRe-XG2dl20AkNFQjV-uQg"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 8,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Polymorphism and superconductivity in the V-Nb-Mo-Al-Ga high-entropy alloys",
+    "authors": [
+      {
+        "authors_list": [
+          "Wu, Jifeng",
+          "Liu, Bin",
+          "Cui, Yanwei",
+          "Zhu, Qinqing",
+          "Xiao, Guorui",
+          "Wang,"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "High-entropy alloys (HEAs) are at the focus of current research for their diverse properties, including superconductivity and structural polymorphism. However, the polymorphic transition has been observed only in nonsuperconducting HEAs and mostly under high pressure. Here we report the discovery of superconductivity and temperature-driven polymorphism in the (V$_{0.5}$Nb$_{0.5}$)$_{3-x}$Mo$_{x}$Al$_{0.5}$Ga$_{0.5}$ (0.2 $\\leq$ $x$ $\\leq$ 1.4) HEAs. It is found that the as-cast HEA is of a single body-centered cubic (bcc) structure for $x$ = 0.2 and a mixture of the bcc and A15 structures for higher $x$ values. Upon annealing, the bcc structure undergoes a polymorphic transformation to the A15 one and all HEAs exhibits bulk superconductivity. For $x$ = 0.2, whereas the bcc polymorph is not superconducting down to 1.8 K, the A15 polymorph has a superconducting transition temperature $T_{\\rm c}$ of 10.2 K and an estimated zero-temperature upper critical field $B_{\\rm c2}$(0) of 20.1 T, both of which are the highest among HEA superconductors. With increasing Mo content $x$, both $T_{\\rm c}$ and $B_{\\rm c2}$(0) of the A15-type HEAs decrease, yet the large ratio of $B_{\\rm c2}$(0)/$T_{\\rm c}$ signifies a disorder-induced enhancement of the upper critical field over a wide $x$ range. The decrease in $T_{\\rm c}$ is attributed to the decrease in both the electronic specific-heat coefficient and electron-phonon coupling strength. Furthermore, the valence electron count dependence of $T_{\\rm c}$, which is different from both the binary A15 and other structurally different HEA superconductors, suggests that $T_{\\rm c}$ may be increased further by reducing the number of valence electrons. Our results not only uncover HEA superconductors of a new structural type, but also provide the first example of polymorphism dependent superconductivity in HEAs.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2001.05193"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.2001.05193",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2020arXiv200105193W"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

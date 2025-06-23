@@ -1,0 +1,681 @@
+{
+  "id": "bfc8cbb9e9066040f8ab595d1f0400e2",
+  "pdf_path": "apl/Superconductors/arXiv:1305.1269.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **A transformative superconducting magnet technology for fields well above 30 T using isotropic round wire multifilament Bi2Sr2CaCu2O8-***<sup>x</sup>* **conductor**\n\n**D. C. Larbalestier<sup>1</sup> , J. Jiang<sup>1</sup> , U. P. Trociewitz<sup>1</sup> , F. Kametani<sup>1</sup> , C. Scheuerlein2 , M. Dalban-Canassy<sup>1</sup> , M. Matras<sup>1</sup> , P. Chen1 , N. C. Craig<sup>1</sup> , P. J. Lee1 and E. E. Hellstrom<sup>1</sup>**\n\n**1 Applied Superconductivity Center, National High Magnetic Field Laboratory, Florida State University, 2031 East Paul Dirac Drive, Tallahassee, FL 32310 USA**\n\n**<sup>2</sup> European Organization for Nuclear Research, CH-1211 Geneva, Switzerland**\n\n#### **April 9, 2013**\n\nWe report here that magnetic fields of almost 34 T, far above the upper 24 T limit of Nb3Sn, can be generated using a multifilament round wire conductor made of the high temperature cuprate superconductor Bi2Sr2CaCu2O8-*<sup>x</sup>* (Bi-2212). A remarkable attribute of this Bi-2212 conductor is that it does not exhibit macroscopic texture and contains many high angle grain boundaries but nevertheless attains very high superconducting critical current densities *Jc* of 2500 A/mm<sup>2</sup> at 20 T and 4.2 K. This Bi-2212 conductor does not possess the extreme texture that high *Jc* coated conductors of REBa2Cu3O7-x (REBCO) require, avoiding also its high aspect ratio, large superconducting anisotropy and the inherent sensitivity to defects of a single filament conductor. Bi-2212 wires can be wound or cabled into almost any type of superconducting magnet and will be especially valuable for very high field NMR magnets beyond the present 1 GHz proton resonance limit of Nb3Sn technology. This demonstration that grain boundary limits to high *Jc* can be practically overcome suggests the huge value of a renewed focus on grain boundary properties in non-ideal geometries, especially with the goal of translating the lessons of this Bi-2212 conductor into fabrication of multifilament round wire REBCO or Fe-based superconductors. <span id=\"page-1-3\"></span><span id=\"page-1-2\"></span><span id=\"page-1-1\"></span>Any conductor for superconducting applications must develop high critical current density, *Jc*, in long length form. The difficulty of achieving the huge application dreams of the early 1990s for the cuprate high temperature superconductors (HTS) has very largely revolved around the complexity of making high *Jc* in polycrystalline conductor forms, because of the huge current blocking effects of randomly oriented grain boundaries[1,](#page-12-0)[2](#page-12-1) . The principal solution pursued up until now has been to try to evade grain boundaries. Early on it was seen that a passage through the melt phase, first of YBCO[3](#page-12-2) , later of Bi-2212[4](#page-12-3) could produce a self-organized, local grain alignment with much higher *Jc* than was possible in randomly oriented polycrystals. There was particular interest in Bi-2212 because it could be conveniently melted inside an Ag-alloy sheath and for a time it seemed that Bi-2212 might develop into a viable conductor technology[5](#page-12-4) . But its critical temperature (*Tc*) of only 90-95 K and its large superconducting anisotropy restricted its *Jc* at 77 K and it was soon superseded by its sibling (Bi,Pb)2Sr2Ca2Cu3O10-x (Bi-2223), which, with a *Tc* of ~110 K, did allow operation at 77 K[6](#page-12-5) . High *Jc* in Bi-2223 requires a complex reaction and deformation-induced texture process, many details of which still remain proprietary, whose goal is to minimize the density of high angle grain boundaries (HAGBs)[7](#page-12-6) . After 10-15 years of development and the addition of a hydrostatic pressure step to close voids left behind during the Bi-2223 formation reaction (Bi-2212 + mixed oxides = Bi-2223), a uniaxial texture of ~15° FWHM has been achieved which allows a *Jc* of order 500 A/mm<sup>2</sup> at 77K, self-field[8](#page-12-7),[9](#page-12-8) . Although many aspects of a superconducting electrotechnology have been demonstrated successfully with Bi-2223, the real threshold for compelling, cost-effective applications typically occurs when *Jc* exceeds 1000 A/mm<sup>2</sup> in strong fields, which explains why attention has increasingly turned to so called coated conductors (CC) based on YBa2Cu3O7-x (YBCO or now more generally REBCO RE = rare earth) in which a much better biaxial texture of 2-5° FWHM and much higher *Jc(77 K , sf)* ~3 x10<sup>4</sup> A/mm<sup>2</sup> can be obtained[10](#page-12-9). The great process complexity of the CC fabrication processes, however, is expensive and Bi-2223 still finds a market. A complication for both conductors is that their high costs, restricted lengths and large superconducting and shape anisotropies are all less than ideal for a versatile conductor, which should more ideally be round and multifilament, as is the case for the low temperature superconducting (LTS) wires, Nb-Ti and Nb3Sn. In this respect therefore it is not surprising that HTS conductors have had great difficulty in displacing LTS conductors from applications such as MRI and NMR magnets, particle accelerators like the Tevatron and the Large Hadron Collider (LHC), or fusion devices like ITER. This may appear surprising since these applications all occur at liquid helium temperatures where the 5 or even 10 times higher *Tc* values of HTS materials should allow their 4.2 K *Jc* values to greatly exceed those of LTS conductors. Figure 1 compares the superconducting layer critical current densities *Jc* of HTS and LTS conductors at standard operating temperatures of 4.2 or 1.9 K. Indeed REBCO has the highest *Jc* by over an order of magnitude and an apparent advantage over both Bi-2212 and Bi-2223. The relatively poor *Jc(H)* characteristics of Nb-Ti and Nb3Sn are clear: although their *Jc* values start off high, they fall below 1000 A/mm<sup>2</sup> at 11 T (at 1.9 K) for Nb-Ti, while Nb3Sn crosses this threshold at about 17-18 T at 4.2 K or ~20 T at 1.9 K. This rapid *Jc* drop occurs because of their low upper critical fields *Hc2* of 15 and 30 T, respectively, while the flat *Jc(H)* characteristics of the HTS conductors are due to their *Hc2* exceeding 100 T[11.](#page-12-10) Clearly high values of *Jc(H)* do not by themselves make a competitive conductor technology.\n\n<span id=\"page-1-0\"></span>Figure 1 shows thumbnail cross-sections of these state-of-the-art conductors. It is very noticeable that two of the HTS conductors, REBCO and Bi-2223 have highly aspected rectangular tape geometry, while <span id=\"page-2-1\"></span><span id=\"page-2-0\"></span>all others are round wires. Figure 2 contrasts the strikingly different architectures of Nb-Ti and REBCO coated conductors (CC). The Nb-Ti Large Hadron Collider conductor contains more than 6000 filaments, each 6 µm in diameter and in intimate contact with high purity Cu that provides both electromagnetic stabilization against flux jumps and magnet quench protection[12](#page-13-0). The internal structure of the REBCO CC cannot be clearly seen at this scale: the support is a high strength, highly resistive Hastelloy substrate on which an oxide template and REBCO is deposited, the whole being surrounded by a 2 µm thick protective Ag layer on which a 20-50 µm thick high purity Cu layer is electroplate[d10.](#page-1-0) The advantages of this architecture for solenoid winding are considerable[13](#page-13-1),[14](#page-13-2) because the dominant tensile hoop stresses are well supported by the very strong Hastelloy. But the disadvantages of the geometry are considerable too. Large magnets typically demand operation at many kA that require cables assembled from multiple strands. Due to their geometrical anisotropy, rectangular conductors are hard to cable except in special configurations[15](#page-13-3),[16,](#page-13-4)[17.](#page-13-5) The large superconducting anisotropy of strongly textured tape conductors (the *c*-axis is oriented perpendicular to the tape plane and the *a* and *b*-axes lie in the plane of the tape) is also a significant complication, as is the fact that the superconducting layer of REBCO coated conductor acts as one filament which makes it vulnerable to any defect that locally interrupts current flow, especially in a magnet, where its large stored energy can dissipate locally at any defect during quench. For all of these reasons a round wire, multifilament geometry with multiple independent current paths in which each superconducting filament is directly bonded to high conductivity normal metal is greatly preferred. Nb-Ti possesses all of these advantages, which is certainly an important reason why it is still by far the most widely produced superconductor, in spite of its *Tc* being only 9 K and full use of its capabilities often, as in the LHC, requires operation at 1.9 K, not even 4.2 K[18.](#page-13-6) Thus some of the great challenges that any HTS conductor should address are the need to be round, to be multifilamentary, to possess high *Jc* and have high conductivity normal metal intimately bonded to the superconducting filaments. It is precisely the achievement of all these goals in Bi-2212 that we describe in this letter.\n\nFigure 3a shows a cross-section of Bi-2212 round wire conductor in its as-drawn state, here embodied as a 0.8 mm diameter, with 666 ~15 µm diameter filaments embedded in a high purity Ag matrix with a strengthened Ag0.2%Mg outer sheath. The filaments are composed of Bi-2212 powder, which must be melted to establish continuous superconducting paths along each filament. During this melt and Bi-2212 regrowth Heat Treatment (HT), large grains of Bi-2212 form on cooling, making the plate-like filament structure shown in Figure 3b. A key characteristic of any powder-in-tube (PIT) process is that the powder cannot be 100% dense, because deformation of the conductor by wire drawing requires particle sliding inside the metal tubes. The key to our breakthrough to high *Jc* was to understand that the crucial current limiting mechanism is not due to supercurrent blockage at high angle grain boundaries (HAGBs), as seemed entirely plausible given the need for high texture in Bi-2223 and REBC[O1](#page-1-1), [2](#page-1-2) but blockage by the agglomeration of the residual 30-40% uniformly distributed void or gas space into filament-diameter bubbles on melting the Bi-2212 powder[19](#page-13-7). These bubbles are seen very clearly in Figure 3c in samples quenched from the melt step of the HT. After full HT these bubbles are not generally visible, because 10-40 µm long Bi-2212 grains grow across the bubbles, providing a longrange but strongly compromised connectivity that greatly reduces the long range *Jc*. Figures 3d and 3e show two 45° rotated topographic views that clearly expose this highly aspected Bi-2212 growth. Figure 3f provides crystallographic detail of a reacted filament in which some local texture is evident but where the presence of [001], [100], and [110] oriented grains and many HAGBs is clear. The key point of this paper is that such HAGBs do not prevent high *Jc*.\n\nThe effective solution to the problem of bubbles is to apply sufficient overpressure (OP) during HT to prevent their formation and the deleterious creep dedensification[20](#page-13-8),[21](#page-13-9) that the internal gas pressure drives. Figure 4 shows that reaction under pressures up to 100 bar can raise the whole-conductor (or engineering) current density *JE* by up to 8 times. Although these samples were all short (~8 cm), they were reacted with closed ends so that gas generated internally was trapped in the wire as it would be in long lengths. Wire densities higher than 95% were obtained for >50 bar reactions. The effect of overpressure can be most effectively seen by x-ray tomography as shown in Figures 4b and c, where the extensive porosity and tendency for a wire processed at 1 bar to dedensify and leak contrasts (Fig. 4b) strongly with the rather uniform full density of a wire OP processed at 100 bar (Fig. 4c). Figure 4a shows that although the Bi-2212 occupies only 25% of the cross-section of the wire, *JE* reaches almost 1000 A/mm<sup>2</sup> at 4.2 K, 5 T (*Jc* is ~ 4000 A/mm<sup>2</sup> , higher even than the *Jc* of optimized Nb-Ti at 4.2 K, 5 T).\n\nEarlier experiments had showed us that high *Jc* was possible in this system if we took very special care to allow gas to escape from short wire lengths [22](#page-13-10), but the challenge of how to control the dedensification caused by internal gas pressure in long length wires remained. Developing a short length model of the long coil length wires was essential. Our supposition was that closing the wire ends would make the properties independent of length, but to prove that long samples performed as well as short samples, we made a test coil from 30 m of 1.4 mm dia. Bi-2212 wire, as shown in Figure 5. Here we were constrained to only 10 bar by our larger diameter OP furnace. Nevertheless the coil behaved excellently. In 31.2 T background field it generated 2.6 T, more than twice the field of an earlier similar sized coil reacted at 1 ba[r13.](#page-2-0) It was quenched multiple times without any damage and generated a total field of 33.8 T.\n\nWe also tested sections from the 8 cm long closed-end samples shown in Figure 4 at fields up to 31 T and multiple samples with properties corresponding to the data in Figure 1 and Figure 6 were obtained. What is now clear is that fully dense Bi-2212 wires for which dedensification has been prevented by overpressure processing have higher *Jc* than the very best Bi-2223 tape sample[s](#page-1-3)<sup>9</sup> with considerable uniaxial texture, though *Jc*(Bi-2212) is still almost an order of magnitude lower than for REBCO tape with strong biaxial texture. However, this *Jc* advantage of REBCO disappears when the whole-conductor current density *JE* is considered because the REBCO layer is only 1% of the whole conductor crosssection. Figure 6 shows that now 100 bar processed Bi-2212 (25% superconductor) has significantly higher *JE* than either Bi-2223 (40% superconductor) or REBCO coated conductor (1% superconductor). The *JE* values attained by Bi-2212 (*JE* 700, 630 and 500 A/mm<sup>2</sup> at 15T, 20T and 30T) after OP HT are all high enough for winding very high field solenoids for very high field NMR or for 20 T upgrades for the LHC[23](#page-13-11) or other high field magnet uses.\n\nThere are multiple broad implications of this work. First is that overpressure processing for Bi-2212 generates a conductor with very broad applications for high field magnet use well beyond the capabilities of Nb3Sn and Nb-Ti. The round wire, multifilament architecture of Bi-2212 is highly advantageous compared to the essentially single architecture, wide-tape forms in which Bi-2223 and REBCO CC are manufactured. Moreover, multiple filament architectures of Bi-2212 are easily possible because optimization of the superconducting properties occurs after working it to final size, not during manufacture as is the case for Bi-2223 and REBCO. The round wire architecture means that winding high homogeneity coils such as those needed for NMR is much easier and the magnetization induced in low field regions of the windings is much less troublesome than is the case for tape conductors[24,](#page-13-12)[25](#page-13-13). Accelerator use is likely to be much more feasible than for tape conductors since the standard form of transposed flat cable, the Rutherford cable, can be made as easily from Bi-2212 round wire as from Nb3Sn wire [26](#page-13-14),[27](#page-13-15). In the short run it would appear that the present world record for magnetic field generated by a superconducting coil (35.4 T in 31.2 T background, made with C[C14\\)](#page-2-1) should be exceeded using a Bi-2212 coil processed at 100 bar. However, the long term implications of Figure 3f are even more powerful. The grain structure visible in this dense filament clearly contains many high angle grain boundaries, as well as residual liquid that has transformed largely to Bi-2201. Some of these defects and grain boundaries must be blocking current, reducing the long-range *Jc* well below that within grains of Bi-2212 and also reducing *Jc* well below that of biaxially textured REBCO where almost no high angle grain boundaries are present (Figure 1). But as Figure 6 emphasizes, Bi-2212 filaments are well enough connected that their 25% cross-section makes their overall current density *JE* the best of any available conductor above about 17 T. The really striking opportunity offered by Figure 3f appears when the inset of Figure 6 is considered. At present all of superconducting magnet technology is confined to the small arcs at lower left corresponding to the *Hc2(T)* phase space of isotropic Nb-Ti and Nb3Sn. Because of the huge electronic anisotropy of both Bi compounds, their irreversibility field *Hirr(T)* has a quite different shape (see the inset of Figure 6), making neither conductor particularly valuable for magnets of more than 10 T above 10 K (2212) or 20 K (Bi-2223). But the much lower anisotropy REBCO shows an irreversibility field of 30 T at ~55 K. As present helium shortages[28](#page-13-16) and recent price rises show, there would be great interest in a helium-free, cryocooler-driven superconducting magnet technology capable of 3-15 T operating in the 20-60 K temperature range. To access this range, we need to understand how to engineer the key properties of the Bi-2212 grain boundaries of Figure 3f into REBCO. Recent studies of *ex situ* YBa2Cu3O7-x [29](#page-13-17) and (Ba0.6K0.4)Fe2As2 [30](#page-13-18) show that curved, \"real\" grain boundaries can often show much better transparency than more idealized, planar grain boundarie[s](#page-1-2)<sup>2</sup> and it is precisely these that appear to enable high *Jc* with much less texture and the desirable round wire multifilament architecture presented here. A REBCO equivalent of the multifilamentary Bi-2212 round wire described here would be truly transformational for superconducting magnet technology.\n\n## **Methods**\n\nWires were fabricated by Oxford Superconducting Technology. Wire ends were sealed by dipping in molten silver followed by either a standard heat treatment (HT) at 1 bar or an OP HT 20, using pure O2 for 1 bar HT and O2-Ar mixtures for OP HT. Field emission scanning electron microscope (FESEM) imaging and Orientation Image Analysis were performed in a Carl Zeiss 1540 XBCrossbeam® instrument using a high speed Hikari camera. X-ray tomograms were acquired using a monochromatic 70.0 keV x-ray beam with a bandwidth of 0.7 keV at the High Energy Scattering Beamline ID15A at the European Synchrotron Radiation Facility (ESRF), Grenoble using a high resolution imaging detector with a 15 μm-thick LuAG:Ce2+ scintillator that converts the x-ray absorption signal into visible light, which is then magnified and recorded by a high speed CCD camera with an image pixel area of 1.194 ×1.194 μm<sup>2</sup> .\n\nTransport critical currents (*Ic*) were measured on 45 mm long Bi-2212 wires at 4.2 K and fields up to 31 T applied perpendicular to current flow. *Ic* was determined at 1µV/cm. The coil of Figure 5 was wound using 30 m of 1.4 mm diameter Bi-2212 wire with a ~13 µm thick TiO2 (nGimat LLC) insulation layer, which is 10 times thinner than earlier ceramic braid insulations 15. The coil was heat-treated in an OP furnace with a slightly too small homogeneous hot zone. The body of the coil was heat treated in a ±0.5ºC temperature zone, but coil performance was slightly degraded because the terminals extended into a ±4.5ºC temperature zone. Reaction of subsequent coils in more homogeneous furnaces with full 100 bar OP HT capability should allow generation of a new record high field for a superconducting coil significantly above 35 T.\n\n#### **Acknowledgements**\n\nThis work was carried out within the Very High Field Magnet Collaboration (VHFSMC) which was supported by an ARRA grant of the US Department of Energy, Office of High Energy Physics, amplified by the National High Magnetic Field Laboratory, which is supported by the National Science Foundation under NSF/DMR-1157490 and by the State of Florida. We are grateful to many discussions from partners within the VHFSMC collaboration, especially Arup Ghosh (BNL), Arno Godeke (LBNL), Andrea Malagoli (Now CNR-SPIN, Genoa Italy), and Tengming Shen (Fermilab). We acknowledge the ESRF for beam time at ID15A.\n\n## **Author contributions**\n\nJJ and MM reacted the samples, NCC, MD-C and UPT performed the transport critical current measurements, FK and JJ performed the metallography and EBSD, CS performed the x-ray tomography, MD-C, PC and UPT constructed and tested the coil and DCL, EEH and PJL led the work and took the lead in preparing the paper.\n\n![](_page_6_Figure_0.jpeg)\n\n**Figure 1. Critical current densities for representative state-of-the-art conductors used for superconducting magnet construction: Nb3Sn (Rod Restack Process RRP made by Oxford Superconducting Technology (OST)), round wire Bi-2212 (OST) reacted under total pressure of 1 and 100 bar at a fixed O2 partial pressure of 1 bar, Bi-2223 (Sumitomo DI-BSCCO) and REBCO (SuperPower) coated conductor. All evaluations are at 4.2 K except for the LHC Nb-Ti strand which is used at 1.9 K and all were measured at the NHMFL except for the LHC Nb-Ti (courtesy T. Boutboul, CERN) and the Bi-2223 [courtesy K. Hayashi, Sumitomo). In virtually all HTS magnet applications the coil performance is limited by the lower** *Jc* **values of the anisotropic conductor, thus making the relevant** *Jc* **curve that for H normal to the tape plane. Nb3Sn** *Jc* **falls off rapidly above 20 T because its zero temperature upper critical field** *Hc2***(0) is only 30 T, compared to over 100 T for Bi-2212 , Bi-2223 and YBCO. The relevant metric for conductor use must also consider the amount of superconductor that can be inserted into the conductor: this is at present only 1-2% for YBCO coated conductors, while it is 25-40% for Bi-2212 and Bi-2223 and up to 50% for Nb-Ti and Nb3Sn. Figure 6 reflects these different superconductor fill factors in presenting the whole conductor, engineering current densities** *JE.*\n\n7\n![](0__page_7_Figure_0.jpeg)\n\n**Figure 2: The extremes of present conductor technology: a.) CERN/LHC 0.825 mm diameter superconducting strand containing 6426 Nb-Ti filaments each 6 µm in diameter and each surrounded by pure Cu needed to confer electromagnetic stability against flux jumps and magnet quench protection when superconductivity is lost. b.) state-ofthe-art REBCO coated conductor grown on a 50 µm thick strong Hastelloy substrate on which a 3 layer oxide seed and buffer layer with a strong [001] oriented biaxial texture (FWHM 2-3°) is developed by ion beam assisted deposition (IBAD). The ~1 µm thick REBCO layer was in this case deposited by MOCVD and protected by a 2 µm Ag layer. Finally Cu is electroplated onto the whole stack in thicknesses of 20-50 µm. A typical conductor is 4 mm wide and 0.1 µm thick, thus having an aspect ratio of 40. The right hand side of each image shows a magnified view of the conductors shown in full section at left. In this case the REBCO coated conductor has 50** µ**m thick Cu to provide full magnet quench protection rather than the standard 20** µ**m thickness that is used to calculate** *JE* **in Figure 6.**\n\n![](0__page_8_Figure_0.jpeg)\n\n**Figure 3: Macro- and microscopic images of the Bi-2212 conductor architecture: a.) Transverse section of an as-drawn 0.8 mm diameter wire composed of 18 x 37 15** µ**m diameter Bi-2212 powder filaments embedded in a Ag matrix before the melt process HT needed to establish long-range superconducting connectivity; b.) Transverse section centered on one 37 filament bundle showing the large aspected grains of 2212 that form after the HT; c.) Large agglomerated bubbles (B) are present in the filaments when the powder in a.) is melted; d.) and e.) Longitudinal views (rotated by 45**°**) of one fullyprocessed filament showing the highly-aspected 2212 grains formed during the HT. The yellow dot shows the same point on the filament in the two views; f.) Electron backscatter diffraction (EBSD) image of a polished dense filament section. The colors correspond to the orientation of the grains (shown below in f.). The EBSD image confirms both local grain-tograin texture, and also shows multiple high angle GBs and residual liquid that has largely transformed to Bi-2201. These features do not however prevent development of high** *Jc***. The filaments shown in c.) – e.) were exposed by etching away the surrounding Ag matrix.**\n\n![](0__page_9_Figure_0.jpeg)\n\n**Figure 4: a). Overall conductor current density** *JE***(4.2K, 5T) as a function of the overpressure applied during HT to wires shown in Figure 3. The origin for the large increase in** *JE* **is evident by comparing Figures 4b) and 4c) where X-ray tomograms of 1 bar and 100 bar OP processed wires are shown. The extensive porosity of the final wire processed under 1 bar is clear as is the high density of the 100 bar processed wire. The 8 fold increase in** *JE* **is due to the elimination of leakage and suppression of the void porosity seen in Figure 4b by the 100 bar OP applied during HT. X-ray tomography was performed at the ID15A beamline in collaboration with M. Di Michiel, European Synchrotron Radiation Facility, Grenoble.**\n\n![](0__page_10_Figure_0.jpeg)\n\n**Figure 5: High field demonstration coil wound with 30 m of 1.4 mm diameter Bi-2212 wire. This coil was heat treated at 10 bar in an OP furnace. It operated in 31.2 T background field, generating a 2.6 T field increment for a total field of 33.8T at 6.7 mT/A. For comparison the previous coil heat treated in 1 bar only generated an additional field of 1.1 [T13.](#page-2-0) The coil was quenched multiple times without damage. It achieved a maximum quench current of 388 A (***JE* **= 252 A/mm2 at 33.8 T).**\n\n![](0__page_11_Figure_0.jpeg)\n\n**Figure 6: Overall conductor current densities** *JE* **possible for conductors made of REBCO, Bi-2223, Bi-2212 and Nb3Sn used for constructing high field magnets generating up to 24 T (Nb3Sn) and up to 35 T (REBCO). It is now seen that OP processed Bi-2212 has the highest conductor current density** *JE* **of any available conductor above 17 T and moreover that this is achieved in the most desired round-wire, multi-filament form. The inset shows upper critical field or irreversibility field data for the conductors. The great opportunities offered by REBCO at temperatures well above 4 K are clear.**\n\n## **References**\n\n1 Larbalestier, D., Gurevich, A., Feldmann, D. M., Polyanskii, A. High-T-c superconducting materials for electric\n\n*Phys. Lett.* **<sup>55</sup>**, 2442-2443 (1989). <sup>5</sup> Tenbrink, J., Wilhelm, M., Heine, K., Krauth, H. Development of high-Tc superconductor wires for magnet\n\napplications. *IEEE Transactions on Magnetics* **<sup>27</sup>**, 1239-1246 (1991). <sup>6</sup> Sato, K. *et al.* High-Jc silver-sheathed Bi-based superconducting wires. *IEEE Transactions on Magnetics* **<sup>27</sup>**, 1231- 1238 (1991).\n\n<sup>7</sup> Rupich, M.W. & Hellstrom, E.E. (2012). Bi-Sr-Ca-Cu-O HTS Wire. In Rogalla, H. & Kes, P. P. H. (Eds.), *One Hundred* \n\n*Years of Superconductivity*. (pp. 671-689). CRC Press/Taylor & Francis Group. <sup>8</sup> Yuan, Y. *et al.* Significantly enhanced critical current density in Ag-sheathed (Bi,Pb)2Sr2Ca2Cu3Ox composite conductors prepared by overpressure processing in final heat treatment. *Appl. Phys. Lett.* **<sup>84</sup>**, 2127-2129 (2004). <sup>9</sup> Kobayashi, S. *et al.* Controlled over pressure processing of Bi2223 long length wires., *IEEE Transactions on Applied* \n\n*Superconductivity* **<sup>15</sup>**, 2534-2537 (2005). <sup>10</sup> Malozemoff, A.P. and Yamada, Y. (2012). Coated Conductor: Second Generation HTS Wire. In Rogalla, H. & Kes,\n\nP. P. H. (Eds.), *One Hundred Years of Superconductivity*. (pp. 689-702). CRC Press/Taylor & Francis Group. <sup>11</sup> Sekitani T., Miura N., Ikeda S., Matsuda Y.H., Shiohara Y., Upper critical field for optimally-doped YBa2Cu3O7-x,\n\n*Physica* B **346-347**, 319-324 (2004). <sup>12</sup> M N Wilson, Superconducting Magnets. Clarendon Press, Oxford 1987. <sup>13</sup> Weijers, H.W. *et al.* High Field Magnets with HTS Conductors. *IEEE Transactions on Applied Superconductivity*, **20**,\n\n576-582 (2010). <sup>14</sup> Trociewitz, U. P. *et al.* 35.4 T field generated using a layer-wound superconducting coil made of (RE)Ba2Cu3O7-x\n\n(RE = rare earth) coated conductor. *Appl. Phys. Lett.* **<sup>99</sup>**, 202506 (2011). <sup>15</sup> Goldacker, W. *et al.*, Status of high transport current ROEBEL assembled coated conductor cables. *Supercond.* \n\n*Sci. Technol.* 22, 034003 (2009). <sup>16</sup> Laan, D. C. van der, Lu, X. F. & Goodrich, L. F. Compact GdBa2Cu3O7–<sup>δ</sup> coated conductor cables for electric power\n\ntransmission and magnet applications. *Supercond. Sci. Technol.* **24,** 042001 (2011). <sup>17</sup> Takayasu, M., Chiesa, L., Bromberg, L. & Minervini, J. V. HTS twisted stacked-tape cable conductor. *Supercond.* \n\n*Sci. Technol.* **<sup>25</sup>**, 014011 (2012). <sup>18</sup> Rossi, L., Bottura, L., Superconducting Magnets for Particle Accelerators. *Reviews of Accelerator Science and* \n\n*Technology* **<sup>5</sup>**, 51-89 (2012) <sup>19</sup> Kametani, F. *et al*., Bubble formation within filaments of melt-processed Bi2212 wires and its strongly negative\n\neffect on the critical current density. *Supercond. Sci. Technol*. **24**, 075009 (2011). <sup>20</sup> Malagoli A. *et al.,* Evidence for length-dependent wire expansion, filament dedensification and consequent degradation of critical current density in Ag-alloy sheathed Bi-2212 wires, to appear in *Supercond. Sci. Technol.*  (2013).\n\n<sup>21</sup> Shen T., Ghosh, A., Cooley, L., Jiang, J., Role of internal gases and creep of Ag in controlling the critical current\n\ndensity of Ag-sheathed Bi2Sr2CaCu2Ox wires, submitted to *J. of Applied Physics*. <sup>22</sup> Jiang, J. *et al.* Doubled Critical Current Density in Bi-2212 Round Wires by Reduction of the Residual Bubble\n\nDensity. *Supercond. Sci. Technol.* **<sup>24</sup>**, 082001 (2011). <sup>23</sup> Bottura, L., De Rijk, G., Rossi, L. & Todesco, E. Advanced Accelerator Magnets for Upgrading the LHC. *IEEE* \n\n*Transactions on Applied Superconductivity* **<sup>22</sup>**, 4002008–4002008 (2012). <sup>24</sup> Ahn, M. C. et al. Spatial and Temporal Variations of a Screening Current Induced Magnetic Field in a Double-Pancake HTS Insert of an LTS/HTS NMR Magnet. *IEEE Transactions on Applied Superconductivity* **19**, 2269 –2272 (2009).\n\npower applications. *Nature* **<sup>414</sup>**, 368-377 (2001). <sup>2</sup> Hilgenkamp H., Mannhart J., Grain boundaries in high-Tc superconductors, *Rev. Mod. Phys*. **74**, 485-549 (2002) <sup>3</sup> Jin, S., Tiefel, T. H., Sherwood, R. C., Kammlott, G. W., Zahurak, S. M. Fabrication of dense Ba2YCu3O7-<sup>δ</sup>\n\nsuperconductor wire by molten oxide processing. *Appl. Phys. Lett.* **<sup>51</sup>**, 943-945 (1987). <sup>4</sup> Heine, K., Tenbrink, J. and Thöner, M. High-field critical current densities in Bi2Sr2Ca1Cu2O8+x/Ag wires. *Appl.* \n\n25 Yanagisawa, Y. et al. Magnitude of the Screening Field for YBCO Coils. *IEEE Transactions on Applied* \n\n*Superconductivity* **<sup>21</sup>**, 1640 –1643 (2011). <sup>26</sup> Godeke, A. *et al.* Wind-and-react Bi-2212 coil development for accelerator magnets. *Supercond. Sci. Technol.* **<sup>23</sup>**, 034022 (2010)\n\n<sup>27</sup> Barzi, E., Lombardo, V., Turrioni, D., Baca, F. J., Holesinger, T. G. BSCCO-2212 Wire and Cable Studies. *IEEE* \n\n*Transactions on Applied Superconductivity* **<sup>21</sup>**, 2335-2339 (2011). <sup>28</sup> Cho A., NRC Urges U.S. to Rethink Sale of Helium Reserve. *Science* **<sup>327</sup>**, 511 (2010). <sup>29</sup> Feldmann, D. M., Holesinger, T.G., Feenstra, R., Larbalestier, D. C. A review of the influence of grain boundary geometry on the electromagnetic properties of polycrystalline YBa2Cu3O7-x films. *Journal of the American Ceramic Society* **<sup>91</sup>**, 1869-1882 (2008). <sup>30</sup> Weiss, J. D, *et al.* High intergrain critical current density in fine-grain (Ba0.6K0.4)Fe2As2 wires and bulks. *Nature* \n\n*Materials* **11**, 682-685 (2012).",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "A transformative superconducting magnet technology for fields well above 30 T \nusing isotropic round wire multifilament Bi2Sr2CaCu2O8-x conductor",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              73.9599609375,
+              74.64434814453125
+            ],
+            [
+              540.2845458984375,
+              74.64434814453125
+            ],
+            [
+              540.2845458984375,
+              109.32342529296875
+            ],
+            [
+              73.9599609375,
+              109.32342529296875
+            ]
+          ]
+        },
+        {
+          "title": "April 9, 2013",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              277.013671875,
+              230.5216064453125
+            ],
+            [
+              334.86676025390625,
+              230.5216064453125
+            ],
+            [
+              334.86676025390625,
+              241.69921875
+            ],
+            [
+              277.013671875,
+              241.69921875
+            ]
+          ]
+        },
+        {
+          "title": "Methods",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              71.71875,
+              578.8843383789062
+            ],
+            [
+              124.38323974609375,
+              578.8843383789062
+            ],
+            [
+              124.38323974609375,
+              592.9243316650391
+            ],
+            [
+              71.71875,
+              592.9243316650391
+            ]
+          ]
+        },
+        {
+          "title": "Acknowledgements",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              71.419921875,
+              263.7421875
+            ],
+            [
+              171.3779296875,
+              263.7421875
+            ],
+            [
+              171.3779296875,
+              277.31549072265625
+            ],
+            [
+              71.419921875,
+              277.31549072265625
+            ]
+          ]
+        },
+        {
+          "title": "Author contributions",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              71.382568359375,
+              408.375
+            ],
+            [
+              178.5498046875,
+              408.375
+            ],
+            [
+              178.5498046875,
+              422.296875
+            ],
+            [
+              71.382568359375,
+              422.296875
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 12,
+          "polygon": [
+            [
+              71.2705078125,
+              73.13818359375
+            ],
+            [
+              123.8642578125,
+              73.13818359375
+            ],
+            [
+              123.8642578125,
+              85.08831787109375
+            ],
+            [
+              71.2705078125,
+              85.08831787109375
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              102
+            ],
+            [
+              "Line",
+              32
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              267
+            ],
+            [
+              "Line",
+              48
+            ],
+            [
+              "Reference",
+              4
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              162
+            ],
+            [
+              "Line",
+              43
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              161
+            ],
+            [
+              "Line",
+              41
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              172
+            ],
+            [
+              "Line",
+              43
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              97
+            ],
+            [
+              "Line",
+              26
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              48
+            ],
+            [
+              "Line",
+              13
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              43
+            ],
+            [
+              "Line",
+              11
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              53
+            ],
+            [
+              "Line",
+              12
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              35
+            ],
+            [
+              "Line",
+              8
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              32
+            ],
+            [
+              "Line",
+              13
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              23
+            ],
+            [
+              "Line",
+              6
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              275
+            ],
+            [
+              "Line",
+              29
+            ],
+            [
+              "Text",
+              21
+            ],
+            [
+              "Footnote",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "ListItem",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              73
+            ],
+            [
+              "Line",
+              9
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 14,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "A transformative superconducting magnet technology for fields well above 30 T using isotropic round wire multifilament Bi2Sr2CaCu2O8-x conductor",
+    "authors": [
+      {
+        "authors_list": [
+          "Larbalestier, D. C.",
+          "Jiang, J.",
+          "Trociewitz, U. P.",
+          "Kametani, F."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "We report here that magnetic fields of almost 34 T, far above the upper 24 T limit of Nb3Sn, can be generated using a multifilament round wire conductor made of the high temperature cuprate superconductor Bi2Sr2CaCu2O8-x (Bi-2212). A remarkable attribute of this Bi-2212 conductor is that it does not exhibit macroscopic texture and contains many high angle grain boundaries but nevertheless attains very high superconducting critical current densities Jc of 2500 A/mm2 at 20 T and 4.2 K. This Bi-2212 conductor does not possess the extreme texture that high Jc coated conductors of REBa2Cu3O7-x (REBCO) require, avoiding also its high aspect ratio, large superconducting anisotropy and the inherent sensitivity to defects of a single filament conductor. Bi-2212 wires can be wound or cabled into almost any type of superconducting magnet and will be especially valuable for very high field NMR magnets beyond the present 1 GHz proton resonance limit of Nb3Sn technology. This demonstration that grain boundary limits to high Jc can be practically overcome suggests the huge value of a renewed focus on grain boundary properties in non-ideal geometries, especially with the goal of translating the lessons of this Bi-2212 conductor into fabrication of multifilament round wire REBCO or Fe-based superconductors.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1305.1269"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.1305.1269",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2013arXiv1305.1269L"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

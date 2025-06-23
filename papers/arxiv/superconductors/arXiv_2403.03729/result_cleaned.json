@@ -1,0 +1,1191 @@
+{
+  "id": "44f5e5b112bc897e62daefe382d515ad",
+  "pdf_path": "apl/Superconductors/arXiv:2403.03729.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# Review\n\n# Case studies on time-dependent Ginzburg-Landau simulations for superconducting applications\n\nCun Xue <sup>1</sup> , Qing-Yu Wang <sup>2</sup> , Han-Xi Ren <sup>3</sup> , An He <sup>4</sup> , and A V Silhanek <sup>5</sup>\n\n1*. School of Mechanics, Civil Engineering and Architecture, Northwestern Polytechnical University, Xi'an 710072, China*\n\n2*. School of Aeronautics, Northwestern Polytechnical University, Xi'an 710072, China*\n\n3*. School of Aeronautics, Northwestern Polytechnical University, Xi'an 710072, China*\n\n4*. College of science, Chang'an University, Xi'an 710064, China*\n\n5*. Experimental Physics of Nanostructured Materials, Department of Physics, Universite de Li ´ ege, B-4000 Sart Tilman, Belgium `*\n\nCorresponding author: An He; Email: hean@chd.edu.cn.\n\nReceived June 5, 2024; Accepted June 5, 2024; Published June 5, 2024.\n\nCopyright © 2022 The Author(s) This is a gold open access article under a Creative Commons Attribution License (CC BY 4.0).\n\n**Abstract**— The macroscopic electromagnetic properties of type II superconductors are primarily influenced by the behavior of microscopic superconducting flux quantum units. Time-dependent Ginzburg-Landau (TDGL) theory is a well-known tool for describing and examining both the statics and dynamics of these superconducting entities. They have been instrumental in replicating and elucidating numerous experimental results over the past decades. This paper provides a comprehensive overview of the progress in TDGL simulations, focusing on three key aspects of superconductor applications. The initial section delves into vortex rectification in superconductors described within the TDGL framework. We specifically highlight the superconducting diode effect achieved through asymmetric pinning landscapes and the reversible manipulation of vortex ratchets with dynamic pinning landscapes. The subsequent section reviews the achievements of TDGL simulations concerning the critical current density of superconductors, emphasizing the optimization of pinning sites, particularly vortex pinning and dynamics in polycrystalline Nb3Sn with grain boundaries. The third part concentrates on numerical modeling of vortex penetration and dynamics in superconducting radio-frequency (SRF) cavities, including a discussion of superconductor–insulator–superconductor multilayer structures. In the last section, we present key findings, insights, and perspectives derived from the discussed simulations.\n\n**Keywords**— TDGL, Vortex rectification, Critical current density, Superconducting Radio-frequency (SRF) cavities.\n\n#### I. Introduction\n\nThe hallmark of type-II superconductors is the magnetic flux penetration in the form of quantized vortices accompanied by circulating superconducting currents. The behavior of vortices determines to a large extent the macroscopic electromagnetic properties of this type of superconductors [\\[1,](#page-15-0) [2\\]](#page-15-1), which in turn has a direct impact on technological applications based on these materials. From an academic standpoint, this subject has captivated the research community due to the emergence of intriguing phenomena, including complex dynamic phases and transitions. The study of vortex matter entails investigating the long-range vortex-vortex and vortex-pinning interactions, on finite size samples and involving many vortices.\n\nThe size of an individual vortex depends on whether the magnetic profile or the Cooper pair density is probed. On the one hand, probes addressing the magnetic field profile, such as scanning Hall microscopy, magnetic force microscopy, scanning squid microscopy, and many others, will reveal a vortex size on the other of the magnetic penetration depth λ or, in case of films with thickness t < λ, the Pearl length Λ = λ <sup>2</sup>/t. On the other hand, if the sensor is sensitive to the Cooper-pair density, such as in scanning tunneling microscopy, the size of the vortex will reflect the coherence length ξ, i.e. substantially smaller than λ. In technologically relevant superconductors, ξ is on the order of few nm which implies that the macroscopic electromagnetic response of typical superconducting devices results from the interplay of millions of vortices.\n\nA rich diversity of phenomena associated with vortex matter have been extensively explored in the past decades. A non-exhaustive list includes the annihilation of vortices and antivortices [\\[3](#page-15-2)[–7\\]](#page-15-3), giant vortices [\\[8–](#page-15-4)[10\\]](#page-15-5), the nucleation of vortices through edge barriers [\\[11–](#page-15-6)[13\\]](#page-15-7), the interaction with artificial pinning such as antidots [\\[14](#page-15-8)[–18\\]](#page-15-9) and magnetic dots [\\[19–](#page-15-10)[21\\]](#page-15-11), as well as with grain boundaries [\\[22](#page-15-12)[–26\\]](#page-15-13). In addition, a high degree of control and manipulation of individual or clusters of vortices has been experimentally demonstrated via a localized magnetic field [\\[27–](#page-15-14)[30\\]](#page-16-0), mechanical stress [\\[31\\]](#page-16-1), optically [\\[32\\]](#page-16-2), local heating effect [\\[33,](#page-16-3) [34\\]](#page-16-4), to name a few. The diversity of approached to interact with vortices illustrates the complex multiple physical properties of these superconducting entities.\n\nVortices have very low mass, permitting to neglect inertial effects and consider them as moving in an overdamped medium [\\[35\\]](#page-16-5). In other words, if the force acting on them is suddenly turned off, vortices stop their motion immediately without coasting down along the direction of the force. If a local oscillatory disturbance was to act on a single vortex of the lattice, no propagating vortex-lattice wave but rather a diffusing perturbation will be created. This results from the high dissipation associated to vortex motion and the associated Joule heating [\\[36,](#page-16-6) [37\\]](#page-16-7). The consequent local temperature rise may spread about and weaken the effective vortex pinning strength thus favoring further vortex motion. Under certain conditions, the rapid motion of magnetic flux coupled to the associated heating effect can lead to catastrophic flux jumps and thermomagnetic instabilities responsible of unwanted magnet quenching [\\[38](#page-16-8)[–42\\]](#page-16-9).\n\nExploring the behaviour of superconducting vortices at the microscopic scale is essential not only for revealing and understanding the underlying physical mechanisms behind their collective response, but also for mastering, tuning, and optimizing specific superconducting properties. The experimental tools implemented for investigating superconducting vortices comprise both indirect measurements and direct visualization. The latter benefits from the uncontested and persuasive power of an image, and frequently dodges the cumbersome layer of interpretation. Various scanning probe techniques were developed to investigate the magnetic field profile and the superconducting condensate in superconductor samples [\\[43,](#page-16-10) [44\\]](#page-16-11). Field-sensitive techniques such as scanning Hall probe microscopy [\\[45\\]](#page-16-12), scanning SQUID microscopy [\\[46](#page-16-13)[–48\\]](#page-16-14), magneto-optical imaging [\\[49\\]](#page-16-15), and Bitter decoration [\\[50\\]](#page-16-16) can be used to directly observe the magnetic field profile of vortices. Alternatively, one can also probe the superconducting density of the states and the supercurrents directly by scanning tunneling spectroscopy (STS) [\\[51,](#page-16-17) [52\\]](#page-16-18). Unfortunately, these techniques are typically limited to planar surfaces and rarely scalable to be adapted for the investigation of real superconducting devices such as coils or cavities. Indirect measurements, such electro-transport properties of superconducting bridges, magnetometry, ac-susceptibility, etc. typically require less sophisticated equipment although data interpretation is only possible through modeling of the sample response. In these global measurements, the details of the vortex distribution is lost and statistical averaged quantities are addressed. In other words, many microscopic states could account for the same macroscopic response.\n\nThere are two successful approaches concerning numerical simulations of the superconducting vortex matter. One is molecular dynamics simulations based on the overdamped equation of motion, where the vortices are assumed to behave as particles, partially justified by the rigidity imposed by the flux quantum conservation of these topologically protected entities [\\[53\\]](#page-16-19). This method relies strongly on the expressions of the vortex-vortex interaction force, pinning potential caused by defects and Lorentz driving force from an external applied current. Some of the weaknesses of this approach are (i) the ignorance of possible deformations of the vortices particularly when moving at high speeds [\\[54\\]](#page-16-20), or during nucleation and trapping in the vicinity of a boundary, (ii) the difficulty to implement heating effects associated to vortex motion, (iii) accounting for inhomogeneous current distributions caused by the coexistence of moving and static vortices. Despite these limitations, it has been proven to be a powerful tool able to explain matching features in superconductors with periodic pinning arrays, dynamic phases, ratchets, etc [\\[55–](#page-16-21)[57\\]](#page-16-22). An alternative, and arguably more accurate method, is based on time-dependent Ginzburg-Landau (TDGL) theory. The TDGL equations describe the variations of order parameter with both time and space in superconductors [\\[58–](#page-16-23)[62\\]](#page-16-24). Although it can only be derived from the BCS theory near T<sup>c</sup> [\\[63\\]](#page-16-25) and for gapless superconductors, actually substantial evidence suggest that the TDGL theory is surprisingly accurate even for temperatures far below T<sup>c</sup> [\\[64,](#page-16-26) [65\\]](#page-17-0). Therefore, it can be used to obtain a qualitative, or even quantitative result by considering the dependence of relevant quantities on temperature [\\[58,](#page-16-23) [66,](#page-17-1) [67\\]](#page-17-2). In addition to the vortex statics, the TDGL equations can also be used to study non-equilibrium vortex configurations [\\[68\\]](#page-17-3) and in the past decades, TDGL simulations have been applied to reproduce and reveal numerous experimental results [\\[69–](#page-17-4)[79\\]](#page-17-5).\n\nAlthough the TDGL theoretical framework has a long history dating back to 1960's, TDGL equations still remains a powerful method to investigate the superconducting vortex behaviors due in part to its simplicity compared to alternative microscopic theories. In recent years, researchers have explored some technologically relevant electromagnetic properties of superconductors by means of TDGL simulations. The present work aims at showcasing recent advancements in the TDGL simulations for some applications of superconductors, namely vortex rectifications with ratchet potentials, vortex pinning and critical current of polycrystalline superconductors, and the vortex behaviors in superconducting radio-frequency (SRF) cavities with superconductor–insulator–superconductor (S-I-S) multilayer structures. These examples merely scratch the surface of TDGL's ongoing advancement towards large-scale applications. We anticipate that commercial solvers will soon incorporate TDGL into their toolkits, thereby democratizing and catalyzing the consolidation of this already thriving modeling environment.\n\n### II. Superconducting vortex rectifiers\n\nVortex rectification, vortex ratchet, or vortex diode effect generally refer to the drifting of vortices along a particular direction when they are shacked by a zero-mean symmetrical force. The resulting biased motion may arises from a pinning potential with lack of inversion symmetry. This method to induce vortex-diode effect was originally proposed by Lee *et al*.[\\[80\\]](#page-17-6) by considering a saw-tooth pinning potential in a superconductor in order to remove the unwanted magnetic flux trapped in it. This pioneer work fostered many theoretical and experimental efforts on the design, manufacturing, and optimization of vortex rectifiers [\\[54,](#page-16-20) [81–](#page-17-7)[88\\]](#page-17-8). Direction reversal of the vortex rectification was observed when asymmetric pinning sites trap vortices, due to the interaction between the trapped vortices and the mobile interstitial vortices [\\[81\\]](#page-17-7). By varying the applied magnetic field in nano-scaled asymmetric traps, de Souza Silva *et al.* achieved controlled multiple reversal of the vortex rectifications [\\[82,](#page-17-9) [83\\]](#page-17-10). Through now conventional nanofababrication techniques, various asymmetric pinning landscapes, such as boomerang-shaped holes [\\[89,](#page-17-11) [90\\]](#page-17-12), triangular holes [\\[91\\]](#page-17-13), spacing-graded density of pinning sites [\\[92\\]](#page-17-14), antidots triplets [\\[87\\]](#page-17-15), conformal pinning arrays [\\[93\\]](#page-17-16), and many others were proposed in order to break the inversion symmetry of the pinning landscape in superconductors. Besides asymmetric pinning landscapes, vortex rectification can also be achieved by time-asymmetric ac current [\\[94,](#page-17-17) [95\\]](#page-17-18) and asymmetric sample geometry [\\[96](#page-18-0)[–99\\]](#page-18-1). More recently, tunable vortex rectifications were accomplished by using an array of magnetic bars able to be configured in various spin-ice states [\\[2\\]](#page-15-1).\n\nNumerical simulations within the time-dependent Ginzburg–Landau formalism have been successfully applied to explore vortex ratchets. Berdiyorov *et al.* [\\[86\\]](#page-17-19) proposed a ratchet mechanism resulting from an inhomogeneous phase change in a Josephson junction. In order to realize such phase distribution, an Abrikosov vortex was strategically pinned nearby the junction. When the pinned vortex is located in the axis of symmetry of the device, vortex ratchet is absent. However, when the Abrikosov vortex is located away from the axis of symmetry, an asymmetric phase is imprinted on the Josephson junction, which leads to an asymmetric potential for the motion of a Josephson flux along the junction.\n\nAnother interesting rectification effect happens at the sample's borders, when vortex barriers for entering and exciting the sample are different [\\[100\\]](#page-18-2). This effect has been demonstrated by introducing artificial roughness along one of the sample borders [\\[98\\]](#page-18-3). TDGL simulations provide an insight for the mechanism responsible of the ratchet [\\[98\\]](#page-18-3): the border defects enhance the current crowding, which has a significant impact on the vortex nucleation process. These effects have been often neglected when interpreting the vortex ratchets observed in arrays of asymmetric pinning potentials or, more recently, in samples exhibiting superconducting diode effect attributed to non-geometrical breaking symmetry properties [\\[101\\]](#page-18-4).\n\nAsymmetric barriers for vortex penetration are also responsible of rectification effects in ring-shaped superconductors. This situation was investigated based on TDGL equations by Jiang et al. [\\[102\\]](#page-18-5) for a narrow pinning-free superconducting ring. The ratchet effect is particularly prominent at low magnetic fields, weakens as magnetic field increases, and eventually exhibits a reversal ratchet signal at high magnetic fields. Interestingly, the authors show that the unusual reversal ratchet signal weakens and eventually vanishes when the frequency and ring width is increased.\n\nAn important question that was evoked in Ref. [\\[84\\]](#page-17-20) concerns the characteristic spatial scale in which the broken symmetry needs to occur to induce rectification. In this work it was shown that the rectification signal is as important in small-scale as in large-scale asymmetric pinning landscapes, although the number of reversals may change significantly. In the same vein, it was later demonstrated that a superconducting film patterned with a conformal array of nanoscale holes also exhibits vortex ratchet effect [\\[103\\]](#page-18-6). In this case, the diode effect can be easily switched on/off by tuning the magnetic field and the rectification signal can be three orders of magnitude larger than that from a spatially-localized fluxquantum diode. An enhancement of the rectification can be achieved by lowering the temperature, which demonstrates a temperature scalable superconducting diode. The results obtained by TDGL simulations show qualitative agreement with the experimental data.\n\nA different way to create vortex ratchets can be realized using magnetic dipoles with in-plane magnetic moment [\\[104\\]](#page-18-7). In this case, the spatial inversion symmetry is broken not by the geometry of the pinning sites but rather by the interactions between vortices and magnetic dipoles. References [\\[83,](#page-17-10) [105\\]](#page-18-8), unambiguously demonstrate experimentally that in-plane magnetized dipoles can indeed rectify the vortex motion. The interplay of vortices and antivortices in hybrid superconductor/ferromagnetic systems are an interesting example of the ratchet effect of binary mixtures [\\[106\\]](#page-18-9), where the drift direction is assisted by the interaction between the particles of different species. Some different examples can also be observed in other physical systems such as ion mixtures in cell membranes [\\[107\\]](#page-18-10) and Abrikosov–Josephson vortex mixtures in cuprate high-Tc superconductors [\\[94\\]](#page-17-17).\n\nThe frequency range of diode effect in a superconducting microbridges of Nb3Sn has been adressed by Sara *et al.* [\\[108\\]](#page-18-11). They documented superconducting diode rectification at frequencies up to 100 kHz. Without considering the grain boundary effect, a qualitative explanation of the diode action was obtained via finite-element modeling using TDGL equations. Based on their experimental and modeling results, they conclude that this kind of diode effect can be functional at 2–3 orders higher frequencies than 100 kHz. Dobrovolskiy *et al* [\\[109\\]](#page-18-12) explored the upper frequency limits of vortex ratchet. They demonstrated that the rectifications of voltage cannot be observed for frequency exceeds 700 MHz although an ac loss response generated by vortices can be still observed at 2 GHz.\n\nThe above described conventional asymmetric pinning sites do not vary with time and space, offering no margin for tunability once they are manufactured. Ratchets based on magnetic landscape exhibit some degree of control, although limited to few configurations which typically require invasive procedures for switching among them [\\[110\\]](#page-18-13). An elegant way to achieve a higher degree of control is by introducing spatially confined and time-varying pinning potential, so called dynamic pinning centers. Recently, it has been predicted based on TDGL equations the generation of an open voltage induced by vortex dragging through a dynamic pinning landscape [\\[111\\]](#page-18-14). Fig. [1](#page-4-0) shows the numerical model used in simulations, which consists a superconducting strip without intrinsic pinning sites exposed to a perpendicular magnetic field Ha. The dynamic pinning landscape arranged in square array keeps moving through the strip with a certain velocity vp. The irradiation collimated through a sliding mask, can lead to localized hot spots or generation of quasiparticle excitations [\\[112\\]](#page-18-15) in the superconducting film.\n\nThe generalized TDGL equations employed to study the vortex ratchet effect with a dynamic pinning landscape are,\n\n$$\\begin{split} &\\frac{u}{\\sqrt{1+\\gamma^2|\\psi|^2}} \\left( \\frac{\\partial}{\\partial t} + \\frac{\\gamma^2}{2} \\frac{\\partial |\\psi|^2}{\\partial t} \\right) \\psi \\\\ &= \\left( \\nabla - i\\mathbf{A} \\right)^2 \\psi + \\left( f(t, \\mathbf{r}) - |\\psi|^2 \\right) \\psi, \\end{split} \\tag{1}$$\n\n$$\\frac{\\partial \\mathbf{A}}{\\partial t} = \\text{Re}\\left[\\psi^\\*(-i\\nabla - \\mathbf{A})\\psi\\right] - \\kappa^2 \\nabla \\times \\nabla \\times \\mathbf{A}.\\qquad(2)$$\n\nThe detailed normalization of the relevant physical quantities in these equations can be seen in Refs. [\\[111,](#page-18-14) [113\\]](#page-18-16). The parameters u = 5.79 and γ = 20 are used in the numerical simulations according to Refs. [\\[5,](#page-15-15) [73,](#page-17-21) [114,](#page-18-17) [115\\]](#page-18-18).\n\n$$f(t, \\mathbf{r}) = \\begin{cases} 1, |\\mathbf{r} - P\\_0 - \\mathbf{v}\\_\\mathbf{p} t| < R \\\\ 0, \\quad \\text{otherwise} \\end{cases} \\tag{3}$$\n\nwhere P<sup>0</sup> is the initial position for the centers of all pinning sites. The function f(t, r) reflects the information of dynamic pinning landscape. Periodic boundary conditions with ψ(x, y) = ψ(x + L, y) and A(x, y) = A(x + L, y) are used along x−axis. As for y-direction, (∇ − iA)ψ|n=0 are used for superconductor-vacuum boundary conditions. Note that the temperature rise induced by vortex motion is normally neglected in most numerical simulations for the cases of efficient heat diffusion or slow vortex motion. This approach is justified by the fact that vortex rectification reaches an optimum performance for intermediate vortex speeds (or excitation currents) and deteriorates as vortex velocity increases [\\[116\\]](#page-18-19). If, however, local temperature increase is taken into account, the natural consequence will be a decrease of the ratchet efficiency and a shift towards lower excitation currents of the optimum rectification conditions. Some numerical simulations with TDGL equations coupled with heating diffusion equation can been seen in Refs. [\\[117–](#page-18-20)[119\\]](#page-18-21).\n\nThe resulting open circuit voltage V x dc without applied current can be tuned by varying characteristic sizes, velocities, and densities of the dynamic pinning landscape. The edge barriers have a strong impact on the induced voltage and the vortex dynamics. In particular, significantly different features of the induced voltage are observed in the cases of dragging the vortices along the superconducting strip or perpendicular to the sample edges. Actually, the vortex dragging is similar to the well-known Giaever's dc transformer [\\[120,](#page-18-22) [121\\]](#page-18-23) consisting of a bilayered structure in which the vortices in a layer can be dragged by the magnetically-coupled vortices in the contiguous layer. The proposed vortex-dragging system using dynamic pinning landscapes provides new insights and a broader spectrum of possible spatio-temporal vortex manipulations. Subsequently, considering the heat dissipation equation, the heating effect on vortex dynamics of the superconducting strip using TDGL simulations was studied [\\[122\\]](#page-18-24). The results indicate that there exist three distinct velocity ranges depending on the vortex dynamics and the induced voltage when the dynamic heat source moves along the superconducting strip. The non-linear voltage versus velocity of the dynamic heating source is similar to the case without the thermal effect [\\[111\\]](#page-18-14). The dynamic pinning landscape can induce not only an open circuit voltage but also a ratchet effects under ac current [\\[113,](#page-18-16) [123\\]](#page-18-25).\n\nFor a current-carrying superconducting strip, the superconductor is subjected to a square-wave ac current Ia(t). The dynamic pinning potential can enhance or prevent the vortex motion depending on the ac currents [\\[124\\]](#page-18-26). This leads to a vortex rectification due to the broken inversion symmetry of vortex motion. When the sliding pinning orientation is perpendicular to the direction of applied current (i.e., θ = 90◦ ), the Lorentz force-induced vortex motion is parallel to the direction of the sliding pinning landscape. The voltage V <sup>x</sup> = R ∂A ∂t dl is calculated between two points as indicated in Fig. [1.](#page-4-0) The rectified dc voltage Vdc is measured within one period of ac current. Fig. [2\\(](#page-4-1)a) shows the evolution of the rectified dc voltage Vdc with amplitude of ac current. There is no rectified voltage signal for a static pinning potential (with ν<sup>p</sup> = 0) due to symmetric pinning effect. However, the inversion symmetry is broken when the pinning potential moves across the sample. Under this circumstance, a non-zero dc rectified voltage emerges. Note that Vdc is finite even without any applied current due to the vortex drag caused by the sliding pinning potential. One can see a reversal of the ratchet signal with increasing ac amplitude, suggesting that vortices do not always move preferentially along the dynamic pin-\n\n<span id=\"page-4-0\"></span>![](_page_4_Figure_2.jpeg)\n\nFigure 1 Schematic diagram illustrating a possible realization of a dynamic pinning potential. The sliding mask allows spatially selected filtering of irradiation which locally deplets the superconducting condensate. In the example, the layout of a sliding mask consist of a square lattice of circular holes with radius R and period d. Besides its intensity, the dynamic pinning potential can be tuned by varying the velocity vp and in-plane orientation θ of its motion. The superconducting strip of width w along the y direction and infinite length along the x direction, is applied by a square-wave ac current Ia(t) and a perpendicular magnetic field Ha. The rectified dc voltage V x dc is measured along the direction of applied current. Adapted from Ref. [\\[113\\]](#page-18-16).\n\nning potential. Schematic views of vortex rectification mechanisms at small and large ac amplitudes are shown in Fig. [3.](#page-5-0) For the smaller ac amplitude, because the Lorentz force (FL) and the drag force (Fp) act together on vortices along the same direction for +Ia, it is easier for vortices to moves upward than downward. The number of vortices across the sample for +I<sup>a</sup> is greater than that for -I<sup>a</sup> (see Fig. [3\\(](#page-5-0)a)). Therefore, the voltage for the case of +I<sup>a</sup> is greater than that for the case of -Ia. Thus a positive rectified voltage Vdc can be observed in the case of small Iac. At small currents, the positive Vdc is mainly controlled by the number of vortices across the sample because of the relative strong edge barrier effect.\n\nWith increasing ac amplitude, the rectified voltage becomes negative. This can be illustrated by the completely different V (t) characteristics at time intervals with +I<sup>a</sup> and -I<sup>a</sup> in Fig. [2\\(](#page-4-1)b). Snapshots 1 and 2 of Fig. [2\\(](#page-4-1)b) show synchronous vortex motions for the case of +Ia, whereas snapshots 3 and 4 indicate that vortex chains move very fast along the pinning potential. This results in larger voltage for -I<sup>a</sup> than that for +Ia. An earlier experimental and theoretical work [\\[125\\]](#page-18-27) observed the stripe patterns in a type-II superconducting film with periodic antidots that can be stabilized by literally freezing their motion via a fast thermal quench. The arrows on the top of each snapshot in Fig[.2\\(](#page-4-1)b) indicate the directions of instantaneous applied Lorentz force. At larger current where the\n\n<span id=\"page-4-1\"></span>![](_page_4_Figure_6.jpeg)\n\nFigure 2 Rectified voltage produced by the system depicted in Fig. 1 for θ = 90◦. (a) The measured dc voltage Vdc as a function of ac current amplitude Iac at a magnetic field Ha= 0.2 and temperature T = 0.8Tc for several velocities νp. See the related videos in Ref. [\\[113\\]](#page-18-16). (b) Voltage versus time at Iac= 0.1, Ha= 0.2 and νp=0.02 as indicated in (a). The black arrows show the direction of vortex motion. Snapshops of the Cooper pair density at different instances are shown as insets. Adapted from Ref. [\\[113\\]](#page-18-16).\n\nLorentz force dominates and the edge barriers are relatively weak, the pinning effect of the sliding pinning potential on the moving vortices depends on their relative velocity. At larger current the Lorentz force drives the vortices faster than the dynamic pinning. In this case the dynamic pinning impedes vortices to move upward for +Ia. The relative velocity ∆v<sup>3</sup> between the moving vortices and dynamic pinning for +I<sup>a</sup> is smaller than for -Ia. Vortices would move more easily downward with high relative velocity as shown in Fig. [3\\(](#page-5-0)b). This leads to a negative voltage Vdc for larger ac amplitude.\n\nWhen the sliding potential moves along θ = 45◦ , the\n\n<span id=\"page-5-0\"></span>![](_page_5_Figure_1.jpeg)\n\nFigure 3 Schematic view of vortex rectification mechanisms with increasing ac current amplitudes. At smaller ac amplitudes, vortices move upward more easily (a), while at larger ac amplitudes, vortices move downward more easily (b). The black arrows indicate the drag force Fp induced by the dynamic pinning, and the red arrows indicate the Lorentz force F<sup>L</sup> produced by Ia.\n\narray of dynamic pinning potential moving across the sample at θ = 45◦ can induce both longitudinal and transverse ratchet effects. Fig. [4](#page-5-1) shows the rectified voltages V x dc measured along x direction within one cycle of applied ac current at a magnetic field Ha=0.1. Additionally, the voltages V x represent the average value for +I<sup>a</sup> and −I<sup>a</sup> measured along x. Here we use the absolute value of V <sup>x</sup> both for +I<sup>a</sup> and −Ia. It can be found that by increasing ac current amplitude, four regions with polarity change of rectified voltage appear. Although the reversal mechanism of vortex rectifications was revealed by the change of \"easy direction\" of vortex motion induced by the sliding potential discussed above, it is not sufficient to understand the unexpected multiple reversals of vortex rectification.\n\nWe identify four distinct vortex dynamics regimes depending on the ac amplitude (see Fig. [5\\)](#page-6-0), which can explain the physical mechanism behind the multiple reversals of rectification. In region I, at small currents, both 45◦ and −135◦ are easy directions because the superconductivity along the sliding channels is suppressed. The smaller Lorentz force F<sup>L</sup> along y direction cannot drive the vortices out of the sliding channels. The vortices always move along the sliding directions (panels 1 and 6 of Fig. [4\\)](#page-5-1). On the other hand, vortices dragged by the dynamic pinning landscape along 45◦\n\n<span id=\"page-5-1\"></span>![](_page_5_Figure_5.jpeg)\n\nFigure 4 Average dc voltage V x dc (a) as a function of ac current amplitude Iac at a magnetic field Ha= 0.1 for several dynamic pinning velocities ν<sup>p</sup> when the sliding pinning potential moves at θ = 45◦. The absolute values of longitudinal voltage V <sup>x</sup> versus current amplitude (b). Panels 1-10 show snapshots of Cooper-pair density for +I<sup>a</sup> (left column) and −I<sup>a</sup> (right column) as indicated in the I-V curves. The blue and red arrows indicate the directions for +Ia and −Ia, respectively. Adapted from Ref. [\\[123\\]](#page-18-25).\n\nare slower than v<sup>p</sup> for +Ia. In other words, the 45◦ direction for +I<sup>a</sup> is an easier direction than −135◦ for −Ia. As a consequence, one can observe a positive voltage V x dc.\n\nWith increasing ac current, in region II, the vortex velocity induced by F<sup>L</sup> is faster than v<sup>p</sup> of the sliding potential, which acts as a pinning force. The pinning strength depends on their relative velocity. The relative velocity between vortices and sliding potential for +I<sup>a</sup> is smaller than that for −Ia. Therefore, the pinning effect is larger for +I<sup>a</sup> than for −Ia. This implies that −135◦ for −I<sup>a</sup> is an easier direction. This results in a negative rectified voltage V x dc.\n\nIn region III of Fig. [5,](#page-6-0) one can observe a resurgence of a positive rectified voltage V x dc with further increasing ac current. The sliding channels act as an easier direction, which attracts vortices moving along −135◦ . In this case, the vortives cannot be driven out of the channels by F<sup>L</sup> for −I<sup>a</sup> (see panels 8-9). However, vortices can be driven our of the channels by a sufficiently strong F<sup>L</sup> for +Ia. Thus, one can observe some vertical vortex motion along +y direction for +I<sup>a</sup> (panel 4), which leads to an important contribution to V x for +Ia, thus making the rectified voltage V x dc to become positive\n\n<span id=\"page-6-0\"></span>![](_page_6_Figure_2.jpeg)\n\nFigure 5 Schematic view of vortex rectification mechanisms with increasing ac current amplitude in which four different regimes develop. The sliding potential moves at θ = 45◦ and restricts the motion of vortices into the channel (the shaded area). The black thick arrows indicate the much easier direction for vortex motion and the thin arrows show the hard directions. The blue and red arrows indicate the Lorentz force acting on vortices for +I<sup>a</sup> and −Ia, respectively. Adapted from Ref. [\\[123\\]](#page-18-25).\n\nagain. Finally, in region IV of Fig. [5,](#page-6-0) the current is so large that the Lorentz force can drive the vortices out of sliding channel. Panels 5 and 10 in Fig. [4](#page-5-1) show that vortices jump out from a sliding channel and move vertically to another sliding channel for both +I<sup>a</sup> and −Ia. Since vortices move more\n\n## III. Critical current density of polycrystalline Nb3Sn\n\nThe critical current describes the dissipation-free currentcarrying capacity, which is the most important parameter for superconductors used in the manufacturing of high-field magnets. The Lorentz force makes vortices to immediately react to an applied current in a pinning-free superconductor. This motion causes energy dissipation and the presence of nonzero resistance. In this case, the movement of vortices plays a crucial role on the electromagnetic properties because it leads to an increase of the local temperature and can even lead to the catastrophic quenching of superconducting devices. Fortunately, the interaction between non-superconducting defects and vortices can immobilize the vortices by trapping them at the pinning centers. Unfortunately, the critical current density (Jc), which is determined by the pinning force acting on the vortices, is typically much smaller than the maximum possible, the depairing current density. Therefore, improving vortex pinning is an essential step on the quest for high critical current density [\\[126,](#page-18-28) [127\\]](#page-18-29).\n\nTDGL theory offers a powerful tool to explore the interactions between vortices and pinning sites. With the development of computational resources, the last decades have witnessed the evolution of TDGL simulations from small samples to large-scale devices. Additionally, researchers have been able to introduce realistic pinning landscapes into TDGL simulations thus extending the research beyond regular artificial pinning sites [\\[22,](#page-15-12) [23,](#page-15-16) [72,](#page-17-22) [74,](#page-17-23) [128](#page-18-30)[–130\\]](#page-19-0).\n\nSuperconducting films are ideal systems to examine the effects of diverse pinning environments on the critical current. Generally, pinning centers impede the mobility of vortices and, consequently, the associated dissipation [\\[131,](#page-19-1) [132\\]](#page-19-2). Preliminary investigations have revealed that the critical current density in regularly perforated superconducting films does not exhibit a monotonic dependence with the applied magnetic field. Instead, it displays significant matching features, characterized by the presence of peaks at specific field values that correspond to a commensuration between the number of defects and vortices. Mkrtchyan and Schmidt demonstrated that the number of vortices captured by a hole depends solely on the size of the hole [\\[133\\]](#page-19-3). However, for periodic pinning arrays, the distance between holes, the temperature, and the applied field also affect the number of vortices trapped [\\[134,](#page-19-4) [135\\]](#page-19-5). Later on, experiments and numerical studies were conducted on various artificial pinning array configurations (pinscapes), such as arrays of stripes [\\[136\\]](#page-19-6), square arrays of antidots [\\[15,](#page-15-17) [17,](#page-15-18) [137\\]](#page-19-7), hexagonal (or triangular) pinning lattices [\\[138,](#page-19-8) [139\\]](#page-19-9), or honeycomb arrays [\\[140,](#page-19-10) [141\\]](#page-19-11), just to name a few.\n\nA forward time algorithm has been typically used in early TDGL simulations. Here, the time step depends on the grid-size and on the GL parameter κ and thus the time step should be very small for large κ in order to avoid divergences. A semi-implicit numerical algorithm was proposed in 2002 [\\[62\\]](#page-16-24). More recently, Sadovskyy introduced GPU parallel TDGL simulations to accelerate the calculation speed [\\[72\\]](#page-17-22). In this case, TDGL simulations can handle large-scale samples on a desktop computer. These authors performed TDGL simulations for a Dy-doped YBa2Cu3O7−<sup>δ</sup> film with real pinning landscape generated by reconstructive 3D scanning-transmission-electron-microscopy tomography [\\[72\\]](#page-17-22). They obtained almost the same functional dependencies and critical current values from simulations than from experiments. Furthermore, they were able to optimize the pinning landscape in order to achieve higher critical current densities. Sadovskyy used an actual Dy-doped YBa2Cu3O7−<sup>δ</sup> film to reconstructive complex pinning landscapes and the effect of geometric confinement. Note that vortex pinning characteristics in these pinning landscapes such as inclusions, defects, and cross-sectional morphology are completely different from that in the polycrystalline superconducting materials with natural grain boundaries. In 2016, Sadovskyy *et al.* proposed a new critical current design paradigm, which aimed to predict the best defects in superconductors for targeted applications by clarifying the vortex dynamics and the associated critical current density [\\[74\\]](#page-17-23), and verified it on rare earth Ba-Cu oxide coated conductors. Sadovskyy *et al.* [\\[142\\]](#page-19-12) utilized a large-scale numerical simulation based on TDGL equations to solve the optimization of randomly distributed metallic spherical inclusions in the vortex pinning landscape and concluded that the optimal inclusion density depends on the magnetic field. Subsequently, they conducted comprehensive research on the performance of superconductors with randomly placed spherical, elliptical, and cylindrical defects, predicting the optimal structures for pinning centers that lead to the highest achievable critical current [\\[143\\]](#page-19-13).\n\nIn 2004, Palau *et al.* [\\[144\\]](#page-19-14) developed an inductive method which can simultaneously determine the inta- and inter-grain critical current density of YBCO coated conductors, paving the way for fully studying the relationship between grain size and vortex pinning effects. In 2006, Palau *et al.* [\\[145\\]](#page-19-15) experimentally measured the relationship between critical current (Jc) and temperature, magnetic field and angle of highly twinned YBa2Cu3O<sup>7</sup> thin films. They found that twin boundaries (TB) could either enhance the overall J<sup>c</sup> by serving as pinning centers or reduce J<sup>c</sup> by acting as channels for flux cutting.\n\nIt was found that for polycrystalline materials like Nb3Sn, vortex pinning is primarily caused by the suppressed superconductivity at grain boundaries. Unlike the point-like pinning systems, grain boundaries (GBs) are interconnected, thus forming a mesh pattern on the plane. Experiments show that reducing the grain size can significantly improve the critical current density of Nb3Sn. Xue *et al.* [\\[146\\]](#page-19-16) have provided a theoretical model based on the Abrikosov-Josephson (AJ) vortex distribution along a grain boundary combined with the macroscopic critical state model of high-temperature superconductors (HTS). Furthermore, Liu *et al.* [\\[147\\]](#page-19-17) proposed a grain boundary model based on molecular dynamics. Nevertheless, these models solely focus on investigating individual grain boundaries or a few grain boundaries rather than considering the impact of a grain boundary network on the vortex behavior. In 2021, a large-scale molecular dynamics model was developed by Xue *et al.*, uncovering the role of grain boundaries on the vortex dynamics of type-II superconductors [\\[148\\]](#page-19-18). By employing Voronoi diagrams they investigated the vortex dynamics of polycrystalline superconductors containing random point defects and forming grain boundary networks [\\[149\\]](#page-19-19).\n\nIn order to simulate a real polycrystalline system, a method of generating grain morphology by Voronoi mosaic has been proposed, which has become the latest approach to simulate mesoscopic polycrystalline systems [\\[150\\]](#page-19-20). The\n\n<span id=\"page-7-0\"></span>![](_page_7_Figure_5.jpeg)\n\nFigure 6 Schematic diagram of numerical model for a current-carrying superconducting film in a vertical magnetic field and three different patterns of GBs with a constant grain size of thirty-eight (approximately 115 nm in SI unit) produced by voronoi polygons. Adapted from Ref. [\\[23\\]](#page-15-16).\n\nVoronoi diagram has n D-dimensional polyhedra. They form an area around n seed points. Each polyhedron includes all points closer to its seed point than to any other point in the region. Physically speaking, this is equivalent to a polycrystalline material in which all grains nucleate simultaneously and grow uniformly at the same rate [\\[24\\]](#page-15-19). The structures generated by this method are in agreement with the actual size of polycrystalline grains and their nearest-neighbor distribution [\\[24\\]](#page-15-19) and have been widely used in polycrystal simulations, including those that consider the impact of grain size on grain boundary resistivity [\\[25\\]](#page-15-20). Blair and Hampshire used this method to simulate a small-sized two-dimensional (2D) polycrystalline system [\\[26\\]](#page-15-13), and obtained as preliminary conclusion that grain boundaries affect the critical current properties. Although the simulation captured the actual polycrystalline system, it still failed to achieve the macroscopic statistical effect. In order to address this issue, it is necessary to combine Voronoi mosaic and GPU parallel computations for simulating a sufficiently large sample.\n\nFor a current-carrying polycrystalline superconducting thin film exposed to a magnetic field as shown in Fig. [6,](#page-7-0) the random artificial pinning sites and grain boundaries can be introduced into TDGL equations as follows,\n\n$$\\begin{aligned} \\left[ u(\\partial\\_t + i\\tilde{\\mu}) \\right] b(\\mathbf{r}) \\tilde{\\psi} \\Big] &= (\\nabla - \\mathrm{i}A)^2 \\left[ b(\\mathbf{r}) \\tilde{\\psi} \\right] + \\\\ &\\epsilon(\\mathbf{r}) b(\\mathbf{r}) \\tilde{\\psi} - b(\\mathbf{r}) \\left| \\tilde{\\psi} \\right|^2 \\tilde{\\psi} \\end{aligned} \\quad (4)$$\n\n$$\n\\Delta \\tilde{\\mu} = \\nabla \\text{Im} \\left\\{ b \\left( r \\right) \\tilde{\\psi}^\\* \\left( \\nabla - \\text{i} \\tilde{A} \\right) \\left[ b \\left( r \\right) \\tilde{\\psi} \\right] \\right\\} \\qquad (5)\n$$\n<span id=\"page-8-0\"></span>![](0__page_8_Figure_2.jpeg)\n\nFigure 7 The variations of maximal (Jc) with magnetic field by varying the density of artificial pinning sites for two cases where artificial pinning sites are randomly distributed only inside the crystalline grains (case 1), and random artificial pinning sites only distributed on GBs (case 2).\n\nwhere ϵ(r) can be used to tune the superconductivity of the grain boundary by decreasing Tc; b(r) equals to 1 in the superconducting regions and 0 elsewhere. Note that both ϵ(r) and b(r) should be periodic in order to satisfy the periodic boundary condition.\n\nThe grain structure in Fig. [6](#page-7-0) is characterized by an adjustable average grain size. When the mean grain size is constant, the size distribution follows a Gaussian distribution. In the numerical simulation, the pinning can vary with the suppression of superconductivity at the grain boundaries. Additionally, artificial pinning sites are randomly introduced in the simulated region.\n\nAs shown in the Fig. [6](#page-7-0) [\\[23\\]](#page-15-0), a number of different GB patterns are created by Voronoi diagram, and these different GB configurations exhibit a consistent average grain size. The critical current densities of different GB patterns are calculated by using two different average Cooper pair densities. The simulation results show that for a given |ψ|GB, the J<sup>c</sup> are nearly identical. This demonstrates that the modeled region is large enough, and the simulated J<sup>c</sup> is a statistically reliable result, which is not affected by the randomly generated GB configurations.\n\nThe relationship between the critical current density and the magnetic field, obtained using the aforementioned approach, is compared with the widely acknowledged scaling law [\\[151\\]](#page-19-0) and a modified scaling law [\\[152\\]](#page-19-1) that have been substantiated through numerous experimental validations [\\[153\\]](#page-19-2). It illustrates that the simulated results agree well with the scaling law and the modified scaling law from experiments (see Fig. 10 in Ref. [\\[23\\]](#page-15-0)). Those authors investigated the critical current density in polycrystalline systems [\\[23,](#page-15-0) [130\\]](#page-19-3) and demonstrated that the relationship between critical current density and the superconductivity at the grain boundaries is non-monotonic [\\[23\\]](#page-15-0). Furthermore, the optimal order parameter of GBs to achieve maximum critical current depends on the applied magnetic field. For higher magnetic fields (10-16 T), it was found that the optimal superconductivity (order parameter) of GBs is approximately 0.8-0.9.\n\nIn addition, the effect of grain size on critical current density was also explored by numerical simulations [\\[23\\]](#page-15-0). Refining the grains enhances J<sup>c</sup> under weak magnetic fields (H<sup>a</sup> = 0.005). However, in a strong magnetic field, J<sup>c</sup> varies complexly. At H<sup>a</sup> = 0.5, smaller grain sizes only raise critical current density if the superconductivity at grain boundaries is slightly suppressed. But, if superconductivity at GBs is greatly suppressed, then critical current density drops with smaller grains (see Fig. 7 and Fig. 8 in Ref. [\\[23\\]](#page-15-0)).\n\nIn addition to the aforementioned investigations on polycrystalline superconducting materials, we have performed further numerical simulations by introducing artificial pinning sites. Here we consider two different cases, i.e., (i) the artificial pinning sites only randomly distributed inside crystalline grains and (ii) random artificial pinning sites only distributed on the GBs. Fig. [7](#page-8-0) shows the maximal current density by varying the density of artifical pinning sites at various applied magnetic fields. Comparing these two cases, one can see that the critical current decreases more rapidly in the last scenario than in the other two cases. This indicates that artificial pinning sites should be introduced inside crystalline grains rather than on GBs in order to achieve maximal current density.\n\n## IV. Superconducting radio-frequency cavities\n\nSuperconducting radio-frequency (SRF) cavities are essential components in particle accelerators due to the extremely low power loss under radio-frequency (RF) electromagnetic fields. The quality factor (Q) and the accelerating gradient (Eacc) are two key parameters for SRF cavities [\\[154\\]](#page-19-4). Q describes the efficiency of the SRF cavity, which is determined by the surface resistance (Rs). Substantial evidence points to the fact that the surface resistance results from the vortex penetrations and vortex motions in SRF cavities. The effect of vortices on the surface residual resistance is particularly important, as even at densities of the trapped flux as low as that of the geomagnetic field can lead to Rres ∼ 1 nΩ in magnetically shielded high-purity niobium cavity at 2 K and 2 GHz. Several reports show that grain boundaries can give rise to a strong nonlinearity of the electromagnetic response of polycrystalline superconductors, which is crucial for Nb3Sn thinfilm coatings of high-Q resonator cavities in particle accelerators [\\[155–](#page-19-5)[158\\]](#page-19-6).\n\nAnother key parameter of SRF cavities is Eacc which determines how much energy can be transferred to a charge particle beam, which in turn is proportional to the peak magnetic field parallel to the cavity surface [\\[154\\]](#page-19-4). The superheating field Hsh is the peak magnetic field that the SRF cavities can withstand, which is estimated by indirect experiments based on detecting the onset of the nonlinearity of initial magnetization in superconductor [\\[159–](#page-19-7)[161\\]](#page-20-0) and by direct experiments of imaging vortices with a scanning Hall probe microscope [\\[162\\]](#page-20-1).\n\nThus, optimizing both the quality factor and the accelerating gradient, requires a profound understanding on the physics behind the superheating field and vortex dynamics of SRF cavities. The increasing interests in understanding the vortex nucleation and vortex dynamics of SRF cavities under AC magnetic fields have motivated the applications of TDGL simulations to the particular case of SRF cavities.\n\nIn 2017, Liarte *et al.* [\\[163\\]](#page-20-2) used TDGL theory to develop a 2D system with external magnetic field perpendicular to the 2D plane. This model allows one to investigate how the disorder, inhomogeneities, and material anisotropy influence the vortex nucleation under a parallel field and help to identify the regimes or configurations that can have negative consequences for cavity performance. It provides valuable information for understanding the effects of trapped vortices on the residual magnetic flux in SRF cavities.\n\nLater on, the superheating field of a SRF cavity under an AC magnetic field and an AC current has been studied [\\[164,](#page-20-3) [165\\]](#page-20-4). Sheikhzada *et al.* calculated the dynamic depairing current density and calculated the current-dependent kinetic inductance both in equilibrium and non-equilibrium states near the critical temperature T<sup>c</sup> by solving the TDGL equations. They found that an ac current density produces multiple harmonics of the electric field, with the amplitudes of the higher-order harmonics diminishing as τ<sup>E</sup> increases. Their calculation results first demonstrated that the dynamic superheating field at T ≈ T<sup>c</sup> can exceed the static Hsh by 41% [\\[166\\]](#page-20-5).\n\nReal SRF resonant cavities inevitably contain impurities and defects [\\[65,](#page-17-0) [167–](#page-20-6)[171\\]](#page-20-7). The effect of surface roughness or point-like defects and grain boundaries on vortex penetration and heating dissipation in SRF cavities has been explored by TDGL equations. It was found that the surface defects and inhomogeneities will decrease the Hsh and cause the degradation of SRF properties. Pack *et al.* [\\[65\\]](#page-17-0) simulated the nucleation of vortices in the presence of both geometric and material inhomogeneities by solving TDGL equations with finiteelement method. In the two-dimensional case, they defined two geometries: an infinite cylinder and a thin film. In the 3D case they considered a rectangular box cut out of a thin film. The numerical results showed that even a small amount of disorder localizes the critical mode and can have a significant reduction in the effective superheating field for a particular sample. However, their results using the 3D model indicated that when defects are perpendicular to the magnetic field, the\n\n<span id=\"page-9-0\"></span>![](0__page_9_Figure_6.jpeg)\n\nFigure 8 A schematic view of the S-I-S multilayer structure. The S-I-S structure is infinite along the z axis and all the layers are parallel to the y − z plane in the numerical model. The external magnetic field Ha is along the z axis. The material for the coating layer is Nb3Sn (or NbN) and the material for the bulk superconductor is Nb. Adapted from Ref. [\\[172\\]](#page-20-8)\n\nsuperheating field is effectively raised. Oripov *et al.* [\\[169\\]](#page-20-9) solved the TGDL equations with COMSOL software for a semi-infinite superconductor with point-like defects under a spatially non-uniform applied RF magnetic field. These simulations have proven very useful in understanding the measured third-harmonic response of Nb materials, subjected to intense localized RF magnetic fields. The simulations also indicate that vortex semi-loops are attracted towards the defect location and are distorted in shape. It is plausible that vortex semi-loops are one of the key sources of dissipation inside an SRF cavity at high operating power.\n\nCarlson *et al.* [\\[170\\]](#page-20-10) studied the mechanism of effects of GBs on magnetic vortex nucleations in Nb3Sn superconducting RF cavities and estimated the losses due to vortices filling grain boundaries. The numerical model consists of a film which lies perpendicular to an applied magnetic field Ha. Their calculations indicate that the grain boundaries act as both nucleation sites for vortex penetration and pinning sites for vortices after nucleation, depending on the magnitude of the applied field. Vortices nucleate and annihilate once per RF cycle. They estimated the losses associated to this process. It indicated that as long as vortices do not penetrate the bulk grain, losses are localized near the grain boundary, which does not lead to a global quench. Wang [\\[171\\]](#page-20-7) performed TDGL simulations to better understand the measured third harmonic response, and compare these to the results obtained in Nb/Cu films. The third harmonic response of RF vortex nucleation caused by grain boundaries agree qualitatively well with the experimental data. Moreover, the density of surface defects that nucleate RF vortices, and how deep an RF vortex travels through these surface defects, can be extracted qualitatively from the measurements. They showed that the HiPIMS 75 V bias Nb/Cu sample is the best sample for SRF applications from the point of view of these two properties.\n\nTDGL theory has also been used to study how to optimize the SRF properties. Sitaraman *et al.* [\\[173\\]](#page-20-11) used TDGL equations to extend the theory of hydride dissipation to subsurface hydrides and calculate the high-field Q-slope (HFQS) caused by surface hydrides. They showed that sub-surface hydrides cause HFQS behavior. They found that the abrupt onset of HFQS is due to a transition from Meissner state to mix state and it is not necessary to entirely remove hydrides in order to eliminate the HFQS. It is only necessary to eliminate large hydrides which trigger the transition into the vortex state significantly below the niobium superheating field. Thus, creating more hydride nucleation sites near the surface can have a beneficial effect by decreasing the characteristic size of hydrides.\n\nThe present record field of conventional Nb cavities [\\[174,](#page-20-12) [175\\]](#page-20-13) is close to the theoretical field limit (Hsh). Yet, an alternative approach to further improve the performance of SRF cavities has been proposed by Gurevich [\\[176\\]](#page-20-14), by using S-I-S multilayer structures (see Figure [8\\)](#page-9-0). As shown in Fig. [8,](#page-9-0) a 2D numerical model was proposed in Ref. [\\[172\\]](#page-20-8) for this multilayer structure, where a Nb3Sn-insulator-Nb structure is assumed to be infinite along the z-axis.\n\nThe TDGL equations for the S-I-S multilayer structure can be written as\n\n<span id=\"page-10-0\"></span>\n$$\\begin{split} \\frac{\\hbar^2}{2m\\_{s1}D\\_1} \\Big( \\partial\\_t + i \\frac{e\\_s}{\\hbar} \\varphi \\Big) \\psi &= \\frac{\\hbar^2}{2m\\_{s1}} \\Big( \\nabla - i \\frac{e\\_s}{\\hbar} \\mathbf{A} \\Big)^2 \\psi \\\\ &+ \\left| a\\_1(T) |\\psi - b\\_1| \\psi \\right|^2 \\psi \\end{split} (6)$$\n\n<span id=\"page-10-2\"></span>\n$$\\begin{split} \\frac{1}{\\mu\\_0} \\nabla \\times \\left( \\nabla \\times \\mathbf{A} - \\mu\\_0 \\mathbf{H} \\right) &= \\frac{\\hbar e\\_s}{2m\\_{s1}i} \\left( \\psi^\\* \\nabla \\psi - \\psi \\nabla \\psi^\\* \\right) \\\\ &- \\frac{e\\_s^2}{m\\_{s1}} |\\psi|^2 \\mathbf{A} + \\sigma\\_1 \\left( -\\nabla \\varphi - \\partial\\_t \\mathbf{A} \\right) \\end{split} \\tag{7}$$\n\n<span id=\"page-10-1\"></span>\n$$\\begin{split} \\frac{\\hbar^2}{2m\\_{s2}D\\_2} \\left( \\partial\\_t + i \\frac{e\\_s}{\\hbar} \\varphi \\right) \\psi &= \\frac{\\hbar^2}{2m\\_{s2}} \\left( \\nabla - i \\frac{e\\_s}{\\hbar} \\mathbf{A} \\right)^2 \\psi \\\\ &+ \\left| a\\_2(T) |\\psi - b\\_2| \\psi \\right|^2 \\psi \\end{split} \\tag{8}$$\n\n<span id=\"page-10-3\"></span>\n$$\\begin{split} \\frac{1}{\\mu\\_0} \\nabla \\times \\left( \\nabla \\times \\mathbf{A} - \\mu\\_0 \\mathbf{H} \\right) &= \\frac{\\hbar e\\_s}{2m\\_{s2}i} \\left( \\psi^\\* \\nabla \\psi - \\psi \\nabla \\psi^\\* \\right) \\\\ &- \\frac{e\\_s^2}{m\\_{s2}} |\\psi|^2 \\mathbf{A} + \\sigma\\_2 \\left( -\\nabla \\varphi - \\partial\\_t \\mathbf{A} \\right) \\end{split} \\tag{9}$$\n\nwhere subscripts '1' and '2' denote Nb3Sn and Nb, respectively. D1, a1, b1, D2, a<sup>2</sup> and b<sup>2</sup> are phenomenological constants. Here, φ is the electric scalar potential, which is included to retain the gauge invariance of the equation; ms<sup>1</sup> and ms<sup>2</sup> represent effective masses of the Cooper pairs in Nb3Sn and Nb, respectively; e<sup>s</sup> is the effective charge; ℏ is the Planck constant; µ<sup>0</sup> is vacuum permeability; and H is the external magnetic field.\n\nThe dimensionless process of TDGL-I equations are as follows. Lengths are scaled by the coherence length ξ = ℏ/ p 2ms1a1(0), time by Ginzburg–Landau relaxation time τ = ξ <sup>2</sup>/D1, ψ by ψ<sup>0</sup> = p |a1(0)|/b1. Note that ξes/ℏ = 1/A0, τes/ℏ = 1/φ and φ(r) = 0 at all times, the equations [\\(6\\)](#page-10-0) and [\\(8\\)](#page-10-1) can be simplified to\n\n$$\\partial\\_t \\psi = \\left(\\nabla - i\\mathbf{A}\\right)^2 \\psi + \\left(1 - T\\_1\\right) \\psi - \\left|\\psi\\right|^2 \\psi \\qquad (10)$$\n\n$$\\partial\\_t \\psi = \\frac{D\\_2}{D\\_1} (\\nabla - i\\mathbf{A})^2 \\psi + \\frac{m\\_{s2} D\\_2 a\\_2(0)}{m\\_{s1} D\\_1 a\\_1(0)} (1 - T\\_1) \\psi - \\frac{m\\_{s2} D\\_2 b\\_2}{m\\_{s1} D\\_1 b\\_1} |\\psi|^2 \\psi \\tag{11}$$\n\nwhere T<sup>1</sup> = T /Tc<sup>1</sup> and T<sup>2</sup> = T /Tc2. T, T<sup>1</sup> and T<sup>2</sup> are working temperature, critical temperature for Nb3Sn and Nb, respectively.\n\nThe magnetic field is scaled by Hc<sup>2</sup> = Φ0/2πξ<sup>2</sup> . The resistivities σ<sup>1</sup> and σ<sup>2</sup> are scaled by the normal resistivity σ<sup>0</sup> = 1/κ<sup>2</sup> <sup>1</sup>D1µ<sup>0</sup> and we set σ1/σ0. TDGL-II equations [\\(7\\)](#page-10-2) and [\\(9\\)](#page-10-3) can be simplified to\n\n$$\\partial\\_t \\mathbf{A} = \\frac{1}{2i} \\cdot (\\psi^\\* \\nabla \\psi - \\psi \\nabla \\psi^\\*) - |\\psi|^2 \\cdot \\mathbf{A} - \\kappa\\_1^2 \\cdot \\nabla \\times \\nabla \\times \\mathbf{A} \\tag{12}$$\n\n$$\\begin{split} \\partial\\_t \\mathbf{A} &= \\frac{1}{2i} \\cdot \\frac{\\kappa\\_1^2 D\\_1 m\\_{s2}}{\\kappa\\_2^2 D\\_2 m\\_{s1}} \\cdot (\\psi^\\* \\nabla \\psi - \\psi \\nabla \\psi^\\*) - \\\\ &\\frac{\\kappa\\_1^2 D\\_1 m\\_{s2}}{\\kappa\\_2^2 D\\_2 m\\_{s1}} \\cdot |\\psi|^2 \\cdot \\mathbf{A} - \\kappa\\_1^2 \\cdot \\nabla \\times \\nabla \\times \\mathbf{A} \\end{split} \\tag{13}$$\n\nThe effects of temperature and GBs are introduced in TDGL equations by the function f(r, t), which can be denoted as 1 − T(r, t) − g(r). The temperature gradient is imposed through the temperature field T(r, t) that is a function of the distributed over space and time. The pinning effect on vortices mainly comes from the suppressed superconductivity at\n\n<span id=\"page-11-2\"></span>![](0__page_11_Figure_1.jpeg)\n\nFigure 9 Magnetic field attenuation along the x-axis in the Nb3Sn−insulator−Nb multilayer structure (λ<sup>1</sup> = 84 nm and λ<sup>2</sup> = 40 nm) calculated using TDGL theory and London theory at 0 K. Adapted from Ref. [\\[172\\]](#page-20-8).\n\nthe GBs, which can be modulated by the g(r) function in the TDGL equation. We define the average superconducting electron density at GBs (|ψ|GB) as a parameter to quantify the suppression of superconductivity on GBs, which can be tuned by function g(r). A temperature-independent GL parameter κ has been adopted in the above TDGL equations, i.e., the same functional temperature dependence of both coherence length and penetration depth. This is an acceptable approach for temperatures not too far from the critical temperature. However, for simulations intending to cover the whole temperature range 0 < T < Tc, there is experimental evidence demonstrating that κ varies with temperature [\\[177,](#page-20-15) [178\\]](#page-20-16). This effect that can be included in the TDGL equations by including suitable temperature-dependent kernels [\\[67\\]](#page-17-1). Furthermore, TDGL offer a large degree of flexibility to accommodate spatially dependent material parameters such as meanfree-path, conductivity, critical temperature, etc. A highly illustrative example showcasing the success of this approach in direct comparison con experimental results can be found in Ref. [\\[179\\]](#page-20-17).\n\nExperiments and numerical simulations clearly show that quickly cooling the sample can freeze the dynamic phase in the presence of a bias current and applied field [\\[125\\]](#page-18-0). In order to consider the temperature variations induced by dissipated energy, the thermal diffusion equation [\\(14\\)](#page-11-0) is used to obtain the temperature field, where λ(T) is the temperaturedependent thermal diffusion coefficient, and C(T) is the temperature-dependent volume-specific heat. *W* represents the heat source induced by vortex motion. The first term of equation [\\(15\\)](#page-11-1) accounts for energy dissipation due to induced electric fields, and the second term is related to the relaxation of the order parameter. Considering that the contribution of the order parameter relaxation to the heat source can be neglected, we focused on the first term. The finite difference method(FDM) algorithm are employed to solve the heat diffusion equation with open boundary conditions along x direction and periodic boundary condition along y direction, respectively.\n\n<span id=\"page-11-0\"></span>\n$$\\left(\\nabla(\\lambda(T)\\nabla T) - C(T)\\frac{\\partial T}{\\partial t} + W\\_s = 0\\right) \\tag{14}$$\n\n<span id=\"page-11-1\"></span>\n$$W = \\left(\\frac{\\partial \\mathbf{A}}{\\partial t}\\right)^2 + \\frac{2u}{\\sqrt{1 + \\gamma^2 |\\psi|^2}} \\left[ \\left|\\frac{\\partial \\psi}{\\partial t}\\right|^2 + \\frac{\\gamma^2}{4} \\left(\\frac{\\partial |\\psi|^2}{\\partial t}\\right)^2 \\right] \\tag{15}$$\n\nVodolazov *et al.* [\\[183](#page-20-18)[–185\\]](#page-20-19) investigated the dependence of the critical current on magnetic field, photon detection, and photon-triggered instability in a superconducting strip, based on coupled TDGL and heat diffusion equations. Elmurodov *et al.* [\\[186\\]](#page-20-20) coupled the TDGL equations to heat diffusion and investigated the phase-slip phenomena in one dimensional (1D) NbN systems. Berdiyorov *et al.* [\\[73\\]](#page-17-2) study a strip with holes by thermal-magnetic coupling and reveal the motion of current-excited vortices as an origin for the magnetoresistance oscillations in mesoscopic superconductors. Jing *et al.* [\\[187,](#page-20-21) [188\\]](#page-20-22) consider the thermal effect on the vortex dynamics of superconducting thin films. Antonio *et al.* [\\[189\\]](#page-20-23) show that a microwave closed to the excitation frequency of Pb can effectively inhibit flux avalanches in Pb superconducting films when approaching the critical temperature or magnetic field.\n\nWe consider a Nb3Sn-insulator-Nb multilayer structure with 720 nm × 720 nm in the x – y plane with infinite length and magnetic field along the z − axis. The size of simulated region is thus very small compared with that corresponding to real cavities. However, the fact that the magnetic field decreases within a short distance of about hundreds of nm and that SRF cavities exhibit rotation symmetry, permits us to faithfully describe the physical phenomena using the dimensions used in the simulation. Similarly, it is a common practice to experimentally determine the critical field and performance of the cavities from samples much smaller than the real cavity. Real cavities are made on oxygen-free copper (mm thickness) coated with a Nb layer (µm thickness).\n\nFigure [9](#page-11-2) shows the magnetic field distributions of the SIS multilayer structure at H<sup>a</sup> = 0.024. It can be seen from the magnetic field attenuation that our numerical results match the theoretical formulas quite well for the Nb3Sn–insulator–Nb multilayer structure.\n\nThe surface defects and surface roughness (Figure [10\\)](#page-12-0) in the S-I-S structure under quasi-static magnetic field not only has a significant impact on the superheating field, but also causes difficulties on the optimization strategy based on S-I-S structure. Although the number of pointlike defects increases with the thickness of the superconducting layer (dS), the decreasing slope of superheating field of the resonant cavity in\n\n<span id=\"page-12-0\"></span>![](0__page_12_Figure_1.jpeg)\n\n<span id=\"page-12-1\"></span>Figure 10 Schematic views of S-I-S cavity with (a) pointlike defects, (b) surface roughness, (c) cracks, and Hsh attenuation due to (d) pointlike defects, (e) surface roughness, (f) cracks. Adapted from Ref. [\\[172\\]](#page-20-8)\n\n![](0__page_12_Figure_3.jpeg)\n\nFigure 11 The variations of the voltage squared averaged over time and depth (V 2 av) with increasing amplitude of RF magnetic field in SIS multilayer and single Nb structures at 1GHz (a) and 8GHz (b). Adapted from Ref. [\\[172\\]](#page-20-8).\n\nS-I-S structures with density of defects seems to be independent on the thicknesses of superconducting layer and insulator layer.\n\nIn order to describe the main characteristic of complex surface topographies of real materials, we choose a sine function to mimic the surface roughness (Figure [10\\)](#page-12-0). One can observe that Hsh is significantly reduced due to the surface roughness. This may be attributed to the fact that surface roughness changes the effective thickness of the coating layer.\n\nFig. [10\\(](#page-12-0)c,f) show the variations of Hsh of the S-I-S multilayer structure (dS = 126 nm and dI = 21.6 nm) with length of cracks. Note that Hsh of the coating layer (blue solid line) decreases rapidly with the length of cracks. However, it is interesting to note that Hsh decreases very slightly and even increases a little when the crack length is in the range from 25 nm to 100 nm.\n\nThe S-I-S structure cavity is generally operated under magnetic field with radio frequency. When the SRF cavity is exposed to a magnetic field with small amplitude and low frequency radio frequency, the induced voltage of the S-I-S structure resonant cavity is lower than that of the single-layer Nb structure resonant cavity (see figure [11\\)](#page-12-1). However, when the resonant cavity is exposed to a magnetic field with large amplitude and high frequency radio frequency, the induced voltage of the S-I-S structure resonant cavity is greater than that of the single-layer Nb structure resonant cavity. More-\n\n<span id=\"page-13-0\"></span>![](0__page_13_Figure_1.jpeg)\n\nFigure 12 (a-b) Variations of maximum temperature with defect size and superconductivity of GBs <sup>|</sup>ψ˜|GB in S-I-S multilayer structures. Contour plots of Cooper pair density in S-I-S multilayer structures with/without surface defects (c) and with GBs of different <sup>|</sup>ψ˜|GB (d). Adapted from Ref. [\\[180\\]](#page-20-24)\n\nover, the optimal superconducting layer thickness and maximum insulation layer thickness under AC fields are inconsistent with those under quasi-static magnetic fields. Note that figure [11](#page-12-1) reveals that the superheating field tends to decrease as frequency increases. The simulated results indicate that the effects of the frequency, amplitude, surface roughness, and defects of the RF magnetic field should be considered when evaluating the actual performance of the resonant cavity of the S-I-S multilayer structure. Further research on the optimal superconducting layer thickness and optimal insulation layer thickness under alternating fields is also needed.\n\nPathirana *et al.* calculated the DC superheating field for superconductors with an inhomogeneous impurity concentration or with S-I-S structures by TDGL [\\[190\\]](#page-20-25). The rapid vortex motion accompanied by high energy dissipation can cause thermomagnetic instabilities in SRF cavities. The local thermomagnetic instability can lead to quenches due to rapid local temperature rise, and even induce damage in the superconducting cavity. In addition, microscopic defects on the inner surface of the superconducting cavity and grain boundaries in the Nb3Sn material are crucial on the vortex dynamics. Therefore, it is necessary to explore the vortex dynamics by coupling the TDGL equations and thermal diffusion equation [\\[126\\]](#page-18-1) in order to accurately simulate the performance of the SRF cavity.\n\nWang *et al.* [\\[180\\]](#page-20-24) explored the effects of tiny surface defects on the thermomagnetic instabilities of the superconducting cavity. As shown in Fig. [12\\(](#page-13-0)a, c), the S-I-S structure can remain in the Meissner state, whereas surface defects lead to vortex penetration, which causes local rapid increase of temperature (but not quench yet). particularly, when the defectsize exceeds a certain value, it causes global quench. The thermomagnetic instabilities also depends on the amplitude and frequency of magnetic field.\n\nFor the case of Nb3Sn layer with both GBs and small surface defects, as shown in Fig. [12\\(](#page-13-0)b, d), the influence of GBs on thermomagnetic instabilities of the S-I-S multilayer structure is not monotonic. When the superconductivity of GBs is weak, vortices mainly enter the superconductor through GBs, which leads to small energy dissipation. With increasing the superconductivity of GBs, more vortices penetrate into the superconductor and interstitial vortices inside crys-\n\n<span id=\"page-14-0\"></span>![](0__page_14_Figure_1.jpeg)\n\nFigure 13 Schematic of SRF cavity structure (a) and numerical models with array of antidots (b) and GBs (c). Panels 1-3 show the variations of temperature gradient with time used in numerical simulations. Adapted from Refs. from [\\[181\\]](#page-20-26) and [\\[182\\]](#page-20-27).\n\ntalline grain can be observed, which can cause global quenching. However, the superconductivity of GBs exceeds a certain value, the maximum temperature decreases. In this case, vortices mainly nucleate at surface defects and the energy dissipation by vortex motion is much smaller than aforementioned cases.\n\nIt has been found that the number of vortices trapped nearby surface of SRF cavity is very strongly dependent on the temperature gradient. [\\[191–](#page-20-28)[194\\]](#page-21-1). In addition, ultrahigh-vacuum (UHV) furnace treatment not only changes the micro-structure inside the cavity such as grain size and dislocation content [\\[195,](#page-21-2) [196\\]](#page-21-3), but also has a significant influence on flux expulsion. A large number of experiments have been done to explore the effective of flux expulsion by space temperature gradients (temperature brooms) [\\[192,](#page-20-29) [196,](#page-21-3) [197\\]](#page-21-4). Due to pinning effect of numerous defects in pure niobium cavities on vortices, it is difficult to expel vortices from the sample, which reduces the quality factor Q<sup>0</sup> of the SRF cavities. It was found that cooling the superconducting cavities with a large spatial temperature gradient is an effective way to expel the trapped magnetic flux. Based on TDGL theory, as shown in Fig. [13,](#page-14-0) Li *et al.* [\\[181\\]](#page-20-26) and He *et al.* [\\[182\\]](#page-20-27) investigated the effect of linear temperature gradient on magnetic flux expulsion in pure Nb and Nb3Sn SRF cavities with antidots and GBs. The initial maximum temperature Tmax (greater than Tc) is decreased to working temperature T<sup>0</sup> = 2 K with time in the simulations. They demonstrated that the temperature broom can remove the vortices from clean sample more easily than from the samples with defects. Moreover, larger spatial temperature gradient can sweep more vortices out of the samples.\n\nAs for the samples with GBs, the effects of grain size, pinning potential of GBs, and rates of temperature gradient with time on flux expulsion were theoretically investigated. Similar to the case of antidots, larger temperature gradient is more effective to sweep the vortices, which is in excellent agreement with the experimental results [\\[191,](#page-20-28) [196,](#page-21-3) [197\\]](#page-21-4). For strong superconductivity of GBs (large |ψ|GB), the expelling efficiency of temperature gradient on vortices is a monotonic function of grain size. However, for weak superconductivity of GBs (small |ψ|GB), the expelling efficiency of temperature gradient on vortices first increases and then decreases with increasing the grain size.\n\n## V. Conclusions\n\nDue to their unique electromagnetic properties, superconductors continue to attract considerable academic interest not only because of their rich underlying physical mechanisms, but also motivated by the fast developing body of applications in superconducting electronics and high current and/or high magnetic fields. Even though there is growing evidence suggesting that new materials with superconducting critical temperatures will be able to reach high enough values requiring conventional cooling apparatuses, as of today technological relevant superconductors still require rather costly refrigeration systems. In this context, the invaluable help and contribution of numerical tools become commendable. In this quest, TDGL equations provide an elegant and powerful tool to investigate the electromagnetic properties of superconductors for which the macroscopic properties are ultimately dictated by the microscopic behavior of vortices. By means of high-performance parallel computation with graphics processing units (GPUs), large-scale TDGL simulations can be employed to deal with samples having realistic pinning landscapes and large sizes thus reconnecting with alternative numerical mean-value approaches. Three case studies were presented and discussed, namely (i) superconducting vortex rectifications and/or superconducting diode effect, (ii) critical current density of vortex pinning/depinning in the presence of various pinning landscapes, and (iii) vortex penetrations in SRF cavities. Hand by hand with the continuous development of computing power along with more efficient algorithms, TDGL simulations are progressively approaching the complexity inherent to real devices with 3D architectures, large sizes, and multi-physics (thermal equations, strain, etc.) which will eventually lead to the ultimate goal of improving the electromagnetic properties of superconductors by design.\n\n## Acknowledgements\n\nWe acknowledge support by the National Natural Science Foundation of China (Grant Nos. 12372210 and 11972298).\n\n## References\n\n- [1] P. Gammel, \"Why vortices matter\", *Nature*, vol.411, no.1476-4687, pp.434–435, doi:10.1038/35078187, 2001.\n- [2] Y.-L. Wang, X. Ma, J. Xu, Z.-L. Xiao, *et al.*, \"Switchable geometric frustration in an artificial-spin-ice-superconductor heterosystem\", *Nature Nanotechnology*, vol.13, no.7, pp.560–565, doi:10. 1038/s41565-018-0162-7, 2018.\n- [3] E. Sardella, P. Filho, C. de Souza Silva, L. Cabral, and W. Ortiz, \"Vortex-antivortex annihilation dynamics in a square mesoscopic superconducting cylinder\", *Physical Review B (Condensed Matter and Materials Physics)*, vol.80, no.1, artilce no.012506, doi:10.1103/ PhysRevB.80.012506, 2009.\n- [4] R. B. Kramer, A. Silhanek, W. Gillijns, and V. Moshchalkov, \"Imaging the statics and dynamics of superconducting vortices and antivortices induced by magnetic microdisks\", *Physical Review X*, vol.1, no.2, artilce no.021004, doi:10.1103/PhysRevX.1.021004, 2011.\n- [5] G. Berdiyorov, M. Milosevic, and F. Peeters, \"Kinematic vortexantivortex lines in strongly driven superconducting stripes\", *Physical Review B (Condensed Matter and Materials Physics)*, vol.79, no.18, artilce no.184506, doi:10.1103/PhysRevB.79.184506, 2009.\n- [6] A. He, C. Xue, H. Yong, and Y. Zhou, \"The guidance of kinematic vortices in a mesoscopic superconducting strip with artificial defects\", *Superconductor Science and Technology*, vol.29, no.6, artilce no.065014, doi:10.1088/0953-2048/29/6/065014, 2016.\n- [7] L. R. Cadorim, L. V. d. Toledo, W. A. Ortiz, J. Berger, and E. Sardella, \"Closed vortex state in three-dimensional mesoscopic superconducting films under an applied transport current\", *Physics Review B*, vol.107, no.9, artilce no.094515, doi:10.1103/PhysRevB.107.094515, 2023.\n- [8] A. Kanda, B. Baelus, F. Peeters, K. Kadowaki, and Y. Ootuka, \"Experimental evidence for giant vortex states in a mesoscopic superconducting disk\", *Physical Review Letters*, vol.93, no.25, artilce no.257002, doi:10.1103/PhysRevLett.93.257002, 2004.\n- [9] I. Grigorieva, W. Escoffier, V. Misko, B. Baelus, *et al.*, \"Pinninginduced formation of vortex clusters and giant vortices in mesoscopic superconducting disks\", *Physical Review Letters*, vol.99, no.14, pp.1– 4, doi:10.1103/PhysRevLett.99.147003, 2007.\n- [10] R. Kramer, A. Silhanek, J. Van de Vondel, B. Raes, and V. Moshchalkov, \"Symmetry-induced giant vortex state in a superconducting pb film with a fivefold penrose array of magnetic pinning centers\", *Physical Review Letters*, vol.103, no.6, artilce no.067007, doi:10.1103/PhysRevLett.103.067007, 2009.\n- [11] B. Plourde, D. Van Harlingen, D. Vodolazov, R. Besseling, *et al.*, \"Influence of edge barriers on vortex dynamics in thin weak-pinning superconducting strips\", *Physical Review B (Condensed Matter and Materials Physics)*, vol.64, no.1, pp.014503/1–6, doi:10.1103/ PhysRevB.64.014503, 2001.\n- [12] D. Y. Vodolazov, \"Flux-flow instability in a strongly disordered superconducting strip with an edge barrier for vortex entry\", *Superconductor Science and Technology*, vol.32, no.11, artilce no.115013, doi: 10.1088/1361-6668/ab4168, 2019.\n- [13] A. Bezuglyj, V. Shklovskij, B. Budinska, B. Aichner, ´ *et al.*, \"Vortex jets generated by edge defects in current-carrying superconductor thin strips\", *Physical Review B*, vol.105, no.21, artilce no.214507, doi:10. 1103/PhysRevB.105.214507, 2022.\n- [14] M. Motta, F. Colauto, W. Ortiz, J. Fritzsche, *et al.*, \"Enhanced pinning in superconducting thin films with graded pinning landscapes\", *Applied physics letters*, vol.102, no.21, doi:10.1063/1.4807848, 2013.\n- [15] G. Berdiyorov, M. Milosevi ˇ c, and F. Peeters, \"Vortex configurations ´ and critical parameters in superconducting thin films containing antidot arrays: Nonlinear ginzburg-landau theory\", *Physical Review B*, vol.74, no.17, artilce no.174512, doi:10.1103/PhysRevB.74.174512, 2006.\n- [16] D. Ray, C. O. Reichhardt, B. Janko, and C. Reichhardt, \"Strongly enhanced pinning of magnetic vortices in type-II superconductors by conformal crystal arrays\", *Physical Review Letters*, vol.110, no.26, artilce no.267001, doi:10.1103/PhysRevLett.10.267001, 2013.\n- [17] Y. Wang, L. R. Thoutam, Z. Xiao, B. Shen, *et al.*, \"Enhancing superconducting critical current by randomness\", *Physical Review B*, vol.93, no.4, artilce no.045111, doi:10.1103/PhysRevB.93.045111, 2016.\n- [18] C. Xue, J.-Y. Ge, A. He, V. Zharinov, *et al.*, \"Tunable artificial vortex ice in nanostructured superconductors with a frustrated kagome lattice of paired antidots\", *Physical Review B*, vol.97, no.13, artilce no.134506, doi:10.1103/PhysRevB.97.134506, 2018.\n- [19] M. Milosevi ˇ c and F. Peeters, \"Vortex-antivortex lattices in supercon- ´ ducting films with magnetic pinning arrays\", *Physical review letters*, vol.93, no.26, artilce no.267006, doi:10.1103/PhysRevLett.93. 267006, 2004.\n- [20] M. Al-Qurainy, A. Jones, S. Rubanov, S. Fedoseev, *et al.*, \"Large artificial ferromagnetic dot arrays for the critical current enhancement in superconducting yba2cu3o thin films\", *Superconductor Science and Technology*, vol.33, no.10, artilce no.105006, doi:10.1088/ 1361-6668/abacb0, 2020.\n- [21] J. Jiang, M. Milosevi ˇ c, Y.-L. Wang, Z.-L. Xiao, ´ *et al.*, \"Field-free superconducting diode in a magnetically nanostructured superconductor\", *Physical Review Applied*, vol.18, no.3, artilce no.034064, doi: 10.1103/PhysRevApplied.18.034064, 2022.\n- [22] G. J. Carty and D. P. Hampshire, \"Visualizing the mechanism that determines the critical current density in polycrystalline superconductors using time-dependent ginzburg-landau theory\", *Physical Review B*, vol.77, no.17, artilce no.172501, doi:10.1103/PhysRevB.77. 172501, 2008.\n- <span id=\"page-15-0\"></span>[23] H.-X. Ren and C. Xue, \"Improving critical current density of nb3sn by optimizing pinning potential of grain boundary and grain size\", *Superconductor Science and Technology*, vol.35, no.7, artilce no.075001, doi:10.1088/1361-6668/ac6b5f, 2022.\n- [24] R. Quey, P. Dawson, and F. Barbe, \"Large-scale 3d random polycrystals for the finite element method: Generation, meshing and remeshing\", *Computer Methods in Applied Mechanics and Engineering*, vol.200, no.17-20, pp.1729–1745, doi:10.1016/j.cma.2011. 01.002, 2011.\n- [25] G. Dezanneau, A. Morata, A. Tarancon, M. Salleras, ´ *et al.*, \"Grain-boundary resistivity versus grain size distribution in threedimensional polycrystals\", *Applied physics letters*, vol.88, no.14, pp.141920–1–3, doi:10.1063/1.2189017, 2006.\n- [26] A. Blair, I and D. P. Hampshire, \"Modeling the critical current of polycrystalline superconducting films in high magnetic fields\", *IEEE transactions on applied superconductivity*, vol.29, no.5, doi:10.1109/ TASC.2019.2895213, 2019.\n- [27] B. W. Gardner, J. C. Wynn, D. A. Bonn, R. Liang, *et al.*, \"Manipulation of single vortices in yba2cu3o6.354 with a locally applied magnetic field\", *Applied Physics Letters*, vol.80, no.6, pp.1010–1012, doi:10.1063/1.1445468, 2002.\n- [28] E. W. J. Straver, J. E. Hoffman, O. M. Auslaender, D. Rugar, and K. A. Moler, \"Controlled manipulation of individual vortices in a superconductor\", *Applied Physics Letters*, vol.93, no.17, artilce no.172514, doi:10.1063/1.3000963, 2008.\n- [29] O. M. Auslaender, L. Luan, E. W. J. Straver, J. E. Hoffman, *et al.*, \"Mechanics of individual isolated vortices in a cuprate superconductor\", *Nature Physics*, vol.5, no.16, doi:10.1038/nphys1127, 2008.\n- [30] I. Keren, A. Gutfreund, A. Noah, N. Fridman, *et al.*, \"Chipintegrated vortex manipulation\", *Nano Letters*, vol.23, no.10, artilce no.4669–4674, doi:10.1021/acs.nanolett.3c00324, 2023.\n- [31] A. Kremen, S. Wissberg, N. Haham, E. Persky, *et al.*, \"Mechanical control of individual superconducting vortices\", *Nano Letters*, vol.16, no.3, doi:10.1021/acs.nanolett.5b04444, 2016.\n- [32] I. S. Veshchunov, W. Magrini, S. V. Mironov, A. G. Godin, *et al.*, \"Optical manipulation of single flux quanta\", *Nature Communications*, vol.7, no.1, pp.2041–1723, doi:10.1038/ncomms12801, 2016.\n- [33] A.-L. Zhang, V. N. Gladilin, J. Van de Vondel, V. V. Moshchalkov, and J.-Y. Ge, \"Tunable noninteger flux quantum of vortices in superconducting strips\", *Nano Letters*, vol.22, no.17, doi:10.1021/acs. nanolett.2c02356, 2022.\n- [34] J.-Y. Ge, V. N. Gladilin, J. Tempere, J. Devreese, and V. V. Moshchalkov, \"Controlled generation of quantized vortex–antivortex pairs in a superconducting condensate\", *Nano Letters*, vol.17, no.08, pp.1530–6984, doi:10.1021/acs.nanolett.7b02180, 2017.\n- [35] C. Reichhardt and C. J. O. Reichhardt, \"Reversible to irreversible transitions for cyclically driven particles on periodic obstacle arrays\", *The Journal of Chemical Physics*, vol.156, no.12, doi:10.1063/ 5.0087916, 2022.\n- [36] J. Bardeen and M. Stephen, \"Theory of the motion of vortices in superconductors\", *Physical Review*, vol.140, no.4A, artilce no.A1197, doi:10.1103/PhysRev.140.A1197, 1965.\n- [37] M. Tinkham, \"Viscous flow of flux in type-II superconductors\", *Physical Review Letters*, vol.13, no.26, artilce no.804, doi:10.1103/ PhysRevLett.13.804, 1964.\n- [38] R. G. Mints and R. A. V., \"Flux jump and critical state stability in superconductors\", *Journal of physics d-applied physics*, vol.8, no.15, pp.1769–1782, doi:10.1088/0022-3727/8/15/009, 1975.\n- [39] M. N. Wilson, \"Superconducting magnets for accelerators: A review\", *IEEE transactions on applied superconductivity*, vol.7, no.2, 1, pp.727–732, doi:10.1109/77.614607, 1997.\n- [40] M. R. Wertheimer and J. G. Gilchrist, \"Flux jumps in type II superconductors\", *Journal of Physics and Chemistry of Solids*, vol.28, no.12, pp.2509–2524, doi:https://doi.org/10.1016/0022-3697(67) 90038-8, 1967.\n- [41] J. Vestgarden, D. Shantsev, Y. Galperin, and T. Johansen, \"Dynam- ˚ ics and morphology of dendritic flux avalanches in superconducting films\", *Physical Review B*, vol.84, no.5, artilce no.054537, doi: 10.1103/PhysRevB.84.054537, 2011.\n- [42] L. Jiang, C. Xue, L. Burger, B. Vanderheyden, *et al.*, \"Selective triggering of magnetic flux avalanches by an edge indentation\", *Physics Review B*, vol.101, no.22, doi:10.1103/PhysRevB.101.224505, 2020.\n- [43] S. Lee, S. Bending, and A. V. Silhanek, \"Local Probes of Magnetic Field Distribution\", in press, num Pages: 23, 2021.\n- [44] S. J. Bending, \"Local magnetic probes of superconductors\", *Advances in Physics*, vol.48, no.4, pp.449–535, doi:10.1080/ 000187399243437, 1999.\n- [45] A. Oral, S. Bending, and M. Henini, \"Real-time scanning hall probe microscopy\", *Applied physics letters*, vol.69, no.9, pp.1324–1326, doi:10.1063/1.117582, 1996.\n- [46] L. Embon, Y. Anahory, Z. L. Jeli ˇ c, E. O. Lachman, ´ *et al.*, \"Imaging of super-fast dynamics and flow instabilities of superconducting vortices\", *Nature communications*, vol.8, no.1, artilce no.85, doi: 10.1038/s41467-017-00089-3, 2017.\n- [47] E. Persky, A. V. Bjorlig, I. Feldman, A. Almoalem, *et al.*, \"Magnetic memory and spontaneous vortices in a van der waals superconductor\", *Nature*, vol.607, no.7920, pp.692+, doi:10.1038/\n\ns41586-022-04855-2, 2022.\n\n- [48] J. A. Bert, B. Kalisky, C. Bell, M. Kim, *et al.*, \"Direct imaging of the coexistence of ferromagnetism and superconductivity at the laalo3/srtio3 interface\", *Nature physics*, vol.7, no.10, pp.767–771, doi:10.1038/nphys2079, 2011.\n- [49] C. Duran, P. Gammel, R. Miller, and D. Bishop, \"Observation of magnetic-field penetration via dendritic growth in superconducting niobium films\", *Physical Review B*, vol.52, no.1, artilce no.75, doi: 10.1103/PhysRevB.52.75, 1995.\n- [50] A. Bezryadin, Y. N. Ovchinnikov, and B. Pannetier, \"Nucleation of vortices inside open and blind microholes\", *Physical Review B*, vol.53, no.13, artilce no.8553, doi:10.1103/PhysRevB.53.8553, 1996.\n- [51] H. Suderow, M. Crespo, P. Martinez-Samper, J. Rodrigo, *et al.*, \"Scanning tunneling microscopy and spectroscopy at very low temperatures\", *Physica C: Superconductivity*, vol.369, no.1-4, pp.106– 112, doi:10.1016/s0921-4534(01)01228-x, 2002.\n- [52] R. Panghotra, M. Timmermans, C. Xue, B. Raes, *et al.*, \"Exploring the impact of core expansion on the vortex distribution in superconducting-normal-metal hybrid nanostructures\", *Physics Review B*, vol.100, no.5, doi:10.1103/PhysRevB.100.054519, 2019.\n- [53] J. Groth, C. Reichhardt, C. Olson, S. Field, and F. Nori, \"Vortex plastic motion in twinned superconductors\", *Physical Review Letters*, vol.77, no.17, pp.3625–3628, doi:10.1103/PhysRevLett.77. 3625, 1996.\n- [54] J. Van de Vondel, V. Gladilin, A. Silhanek, W. Gillijns, *et al.*, \"Vortex core deformation and stepper-motor ratchet behavior in a superconducting aluminum film containing an array of holes\", *Physical Review Letters*, vol.106, no.13, artilce no.137003, doi:10.1103/physrevlett. 106.137003, 2011.\n- [55] C. Reichhardt and C. J. O. Reichhardt, \"Commensurability effects at nonmatching fields for vortices in diluted periodic pinning arrays\", *Physical Review B*, vol.76, no.9, doi:10.1103/PhysRevB.76.094512, 2007.\n- [56] C. Reichhardt, C. Olson, and F. Nori, \"Dynamic vortex phases and pinning in superconductors with twin boundaries\", vol.61, no.5, pp.3665–3671, doi:10.1103/PhysRevB.61.3665, 2000.\n- [57] X. Ma, C. J. O. Reichhardt, and C. Reichhardt, \"Reversible vector ratchets for skyrmion systems\", *Physics Review B*, vol.95, no.10, doi: 10.1103/PhysRevB.95.104401, 2017.\n- [58] V. L. Ginzburg, \"On the theory of superconductivity\", *Il Nuovo Cimento (1955-1965)*, vol.2, pp.1234–1250, doi:10.1007/bf02731579, 1955.\n- [59] M. Tinkham, \"Introduction to superconductivity\", *New York: McGraw-Hill*, in press, 1975.\n- [60] R. Kato, Y. Enomoto, and S. Maekawa, \"Computer simulations of dynamics of flux lines in type-II superconductors\", *Physical review B*, vol.44, no.13, artilce no.6916, doi:10.1103/physrevb.44.6916, 1991.\n- [61] W. Gropp, H. Kaper, G. Leaf, D. Levine, *et al.*, \"Numerical simulation of vortex dynamics in type-II superconductors\", *Journal of Computational Physics*, vol.123, no.2, pp.254–66, doi:https://doi.org/10.1006/ jcph.1996.0022, 1996.\n- [62] T. Winiecki and C. Adams, \"Fast semi-implicit finite-difference method for the tdgl equations\", *Journal of Computational Physics*, vol.179, no.1, pp.127–39, doi:https://doi.org/10.1006/jcph.2002. 7047, 2002.\n- [63] L. Gor'kov, \"Microscopic derivation of the ginzburg-landau equations in the theory of superconductivity\", *Sov. Phys. JETP*, vol.9, no.6, pp.1364–1367, doi:WOS:A1959WN05500041, 1959.\n- [64] G. Catelani and J. Sethna, \"Temperature dependence of the superheating field for superconductors in the high-kappa london limit\", *Physical Review B (Condensed Matter and Materials Physics)*, vol.78, no.22, artilce no.224509 (7 pp.), doi:10.1103/PhysRevB.78.224509, 2008.\n- [65] A. R. Pack, J. Carlson, S. Wadsworth, and M. K. Transtrum, \"Vortex nucleation in superconductors within time-dependent ginzburglandau theory in two and three dimensions: Role of surface defects and material inhomogeneities\", *Physics Review B*, vol.101, no.14, doi:10.1103/PhysRevB.101.144504, 2020.\n- [66] D. Stosic, D. Stosic, T. Ludermir, B. Stosic, and M. V. Milosevic, \"Gpu-advanced 3d electromagnetic simulations of superconductors in the ginzburg-landau formalism\", *Journal of Computational Physics*, vol.322, pp.183–198, doi:https://doi.org/10.1016/j.jcp.2016.06.040, 2016.\n- [67] A. Muller, M. Milosevi ˇ c, S. Dale, M. Engbarth, and S. Bending, ´ \"Magnetization measurements and ginzburg-landau simulations of micron-size beta-tin samples: Evidence for an unusual critical behavior of mesoscopic type-I superconductors\", *Physical Review Letters*, vol.109, no.19, artilce no.197003 (5 pp.), doi:10.1103/PhysRevLett. 109.197003, 2012.\n- [68] I. A. Sadovskyy, A. E. Koshelev, C. L. Phillips, D. A. Karpeyev, and A. Glatz, \"Stable large-scale solver for ginzburg-landau equations for superconductors\", *Journal of Computational Physics*, vol.294, pp.639–654, doi:10.1016/j.jcp.2015.04.002, 2015.\n- [69] C. Xue, J. Y. Ge, A. He, V. S. Zharinov, *et al.*, \"Mapping degenerate vortex states in a kagome lattice of elongated antidots via scanning hall probe microscopy\", *Physics Review B*, vol.96, no.2, artilce no.024510, doi:10.1103/PhysRevB.96.024510, 2017.\n- [70] C. Xue, J.-Y. Ge, A. He, V. S. Zharinov, *et al.*, \"Stability of degenerate vortex states and multi-quanta confinement effects in a nanostructured superconductor with kagome lattice of elongated antidots\", *New Journal of Physics*, vol.20, no.9, artilce no.093030, doi: 10.1088/1367-2630/aae02d, 2018.\n- [71] J.-Y. Ge, V. N. Gladilin, J. Tempere, C. Xue, *et al.*, \"Nanoscale assembly of superconducting vortices with scanning tunnelling microscope tip\", *Nature communications*, vol.7, no.1, artilce no.13880, doi: 10.1038/ncomms13880, 2016.\n- [72] I. A. Sadovskyy, A. E. Koshelev, A. Glatz, V. Ortalan, *et al.*, \"Simulation of the vortex dynamics in a real pinning landscape of YBa2Cu3O7−<sup>δ</sup> coated conductors\", *Physics Review Applied*, vol.5, no.1, artilce no.014011, doi:10.1103/PhysRevApplied. 5.014011, 2016.\n- [73] G. Berdiyorov, M. Milosevi ˇ c, M. Latimer, Z. Xiao, ´ *et al.*, \"Large magnetoresistance oscillations in mesoscopic superconductors due to current-excited moving vortices\", *Physical Review Letters*, vol.109, no.5, artilce no.057004 (6 pp.), doi:10.1103/PhysRevLett. 109.057004, 2012.\n- [74] I. A. Sadovskyy, Y. Jia, M. Leroux, J. Kwon, *et al.*, \"Toward superconducting critical current by design\", *Advanced Materials*, vol.28, no.23, pp.4593–4600, doi:10.1002/adma.201600602, 2016.\n- [75] F. Zhang, L. Wang, B. Qi, B. Zhao, *et al.*, \"Ein2 mediates direct regulation of histone acetylation in the ethylene response\", *Proceedings of the National Academy of Sciences*, vol.114, no.38, pp.10274–10279, doi:10.1073/pnas.1707937114, 2017.\n- [76] L. Bishop-Van Horn, \"Pytdgl: Time-dependent ginzburg-landau in python\", *Computer Physics Communications*, vol.291, artilce no.108799, doi:10.1016/j.cpc.2023.108799, 2023.\n- [77] S. Banerjee, C. Dasgupta, S. Mukerjee, T. Ramakrishnan, and K. Sarkar, \"High temperature superconductivity in the cuprates: Materials, phenomena and a mechanism\", vol.2005, no.1, doi:10.1063/ 1.5050718, 2018.\n- [78] K. Sarkar, S. Banerjee, S. Mukerjee, and T. Ramakrishnan, \"The correlation between the nernst effect and fluctuation diamagnetism in strongly fluctuating superconductors\", *New Journal of Physics*, vol.19, no.7, artilce no.073009, doi:10.1088/1367-2630/ aa72ac, 2017.\n- [79] K. Sarkar, S. Banerjee, S. Mukerjee, and T. Ramakrishnan, \"Doping\n\ndependence of fluctuation diamagnetism in high tc superconductors\", *Annals of Physics*, vol.365, pp.7–23, doi:10.1016/j.aop.2015.11.003, 2016.\n\n- [80] C.-S. Lee, B. Janko, I. Derenyi, and A.-L. Barabasi, \"Reducing vortex density in superconductors using the 'ratchet effect\"', *Nature*, vol.400, no.6742, pp.337–40, doi:10.1038/22578, 1999.\n- [81] J. Villegas, S. Savel'ev, F. Nori, E. Gonzalez, *et al.*, \"A superconducting reversible rectifier that controls the motion of magnetic flux quanta\", *Science*, vol.302, no.5648, pp.1188–91, doi:10.1126/ science.1090390, 2003.\n- [82] C. de Souza Silva, J. Van De Vondel, M. Morelle, and V. Moshchalkov, \"Controlled multiple reversals of a ratchet effect\", *Nature*, vol.440, no.7084, pp.651–4, doi:10.1038/nature04595, 2006.\n- [83] C. de Souza Silva, A. Silhanek, J. Van de Vondel, W. Gillijns, *et al.*, \"Dipole-induced vortex ratchets in superconducting films with arrays of micromagnets\", *Physical Review Letters*, vol.98, no.11, pp.117005/1–4, doi:10.1103/PhysRevLett.98.117005, 2007.\n- [84] W. Gillijns, A. V. Silhanek, V. V. Moshchalkov, C. J. O. Reichhardt, and C. Reichhardt, \"Origin of reversed vortex ratchet motion\", *Physics Review Letters*, vol.99, no.24, doi:10.1103/PhysRevLett.99. 247002, 2007.\n- [85] Q. Lu, C. Reichhardt, and C. Reichhardt, \"Reversible vortex ratchet effects and ordering in superconductors with simple asymmetric potential arrays\", *Physical Review B (Condensed Matter and Materials Physics)*, vol.75, no.5, pp.54502–1–9, doi:10.1103/PhysRevB.75. 054502, 2007.\n- [86] G. Berdiyorov, M. Milosevi ˇ c, L. Covaci, and F. Peeters, \"Rectifica- ´ tion by an imprinted phase in a josephson junction\", *Physical Review Letters*, vol.107, no.17, artilce no.177008 (5 pp.), doi:10.1103/ PhysRevLett.107.177008, 2011.\n- [87] A. He, C. Xue, and Y. Zhou, \"Vortex pinning and rectification effect in a nanostructured superconducting film with a square array of antidot triplets\", *Chinese Physics B*, vol.27, no.5, artilce no.057402, doi:10. 1088/1674-1056/27/5/057402, 2018.\n- [88] V. A. Shklovskij, V. V. Sosedkin, and O. V. Dobrovolskiy, \"Vortex ratchet reversal in an asymmetric washboard pinning potential subject to combined dc and ac stimuli\", *Journal of Physics: Condensed Matter*, vol.26, no.2, artilce no.025703, doi:10.1088/0953-8984/26/ 2/025703, 2014.\n- [89] B. Zhu, F. Marchesoni, and F. Nori, \"Controlling the motion of magnetic flux quanta\", *Physical Review Letters*, vol.92, no.18, pp.180602/1–4, doi:10.1103/PhysRevLett.92.180602, 2004.\n- [90] B. L. T. Plourde, \"Nanostructured superconductors with asymmetric pinning potentials: Vortex ratchets\", *IEEE transactions on applied superconductivity*, vol.19, no.5, pp.3698–3714, doi:10.1109/TASC. 2009.2028873, 2009.\n- [91] S. Ooi, T. Mochiku, and K. Hirata, \"Vortex ratchet effect in singlecrystal films of Bi2Sr2CaCu2O8+y\", *Physica C: Superconductivity*, vol.468, no.15-20, pp.1291–1294, doi:10.1016/j.physc.2008.05.012, 2008.\n- [92] T. Wu, L. Horng, J. Wu, R. Cao, *et al.*, \"Vortex ratchet effect in a niobium film with spacing-graded density of pinning sites\", *Journal of Applied Physics*, vol.102, pp.033918–1–4, doi:10.1063/1.2767386, 2007.\n- [93] C. Reichhardt, D. Ray, and C. J. O. Reichhardt, \"Reversible ratchet effects for vortices in conformal pinning arrays\", *Physics Review B*, vol.91, no.18, artilce no.184502, doi:10.1103/PhysRevB.91.184502, 2015.\n- [94] D. Cole, S. Bending, S. Savel'ev, A. Grigorenko, *et al.*, \"Ratchet without spatial asymmetry for controlling the motion of magnetic flux quanta using time-asymmetric drives\", *Nature Materials*, vol.5, pp.305–11, doi:10.1038/nmat1608, 2006.\n- [95] S. Ooi, S. Savelev, M. Gaifullin, T. Mochiku, *et al.*, \"Nonlinear\n\nnanodevices using magnetic flux quanta\", *Physical Review Letters*, vol.99, no.20, pp.207003–1–4, doi:10.1103/PhysRevLett.99.207003, 2007.\n\n- [96] O. A. Adami, D. Cerbu, D. Cabosart, M. Motta, *et al.*, \"Current crowding effects in superconducting corner-shaped al microstrips\", *Applied Physics Letters*, vol.102, no.5, doi:10.1063/1.4790625, 2013.\n- [97] J. Ji, J. Yuan, G. He, B. Jin, *et al.*, \"Vortex ratchet effects in a superconducting asymmetric ring-shaped device\", *Applied Physics Letters*, vol.109, no.24, doi:10.1063/1.4971835, 2016.\n- [98] D. Cerbu, V. N. Gladilin, J. Cuppens, J. Fritzsche, *et al.*, \"Vortex ratchet induced by controlled edge roughness\", *New Journal of Physics*, vol.15, no.6, artilce no.063022, doi:10.1088/1367-2630/15/ 6/063022, 2013.\n- [99] J. Ji, X. Jiang, J. Yuan, G. He, *et al.*, \"Ratchet effects in superconducting ring-shaped devices\", *Superconductor Science and Technology*, vol.30, no.10, artilce no.105003, doi:10.1088/1361-6668/ aa821c, 2017.\n- [100] D. Vodolazov and F. Peeters, \"Superconducting rectifier based on the asymmetric surface barrier effect\", *Physics Review B*, vol.72, no.17, doi:10.1103/PhysRevB.72.172508, 2005.\n- [101] Y. Hou, F. Nichele, H. Chi, A. Lodesani, *et al.*, \"Ubiquitous superconducting diode effect in superconductor thin films\", *Physics Review Letters*, vol.131, no.2, doi:10.1103/PhysRevLett.131.027001, 2023.\n- [102] J. Jiang, Y.-L. Wang, M. Milosevi ˇ c, V, Z.-L. Xiao, ´ *et al.*, \"Reversible ratchet effects in a narrow superconducting ring\", *Physics Review B*, vol.103, no.1, artilce no.014502, doi:10.1103/PhysRevB.103.014502, 2021.\n- [103] Y.-Y. Lyu, J. Jiang, Y.-L. Wang, Z.-L. Xiao, *et al.*, \"Superconducting diode effect via conformal-mapped nanoholes\", *Nature communications*, vol.12, no.1, artilce no.2703, doi:10.1038/ s41467-021-23077-0, 2021.\n- [104] G. Carneiro, \"Tunable interactions between vortices and a magnetic dipole\", *Physical Review B (Condensed Matter and Materials Physics)*, vol.72, no.14, pp.144514–1–10, doi:10.1103/PhysRevB.72. 144514, 2005.\n- [105] A. V. Silhanek, N. Verellen, V. Metlushko, W. Gillijns, *et al.*, \"Rectification effects in superconductors with magnetic pinning centers\", *Physica C: Superconductivity and its Applications*, vol.468, no.7-10, pp.563–567, doi:10.1016/j.physc.2007.11.068, 2008.\n- [106] S. Savel'ev, F. Marchesoni, and F. Nori, \"Controlling transport in mixtures of interacting particles using brownian motors\", *Physical Review Letters*, vol.91, no.1, pp.010601/1–4, doi:10.1103/ PhysRevLett.91.010601, 2003.\n- [107] J. Morais-Cabral, Y. Zhou, and R. MacKinnon, \"Energetic optimization of ion conduction rate by the k+selectivity filter\", *Nature*, vol.414, no.6859, pp.37–42, doi:10.1038/35102000, 2001.\n- [108] S. Chahid, S. Teknowijoyo, I. Mowgood, and A. Gulian, \"Highfrequency diode effect in superconducting nb3sn microbridges\", *Physics Review B*, vol.107, no.5, artilce no.054506, doi:10.1103/ PhysRevB.107.054506, 2023.\n- [109] O. V. Dobrovolskiy, E. Begun, V. M. Bevz, R. Sachser, and M. Huth, \"Upper frequency limits for vortex guiding and ratchet effects\", *Physics Review Applied*, vol.13, no.2, artilce no.024012, doi:10.1103/ PhysRevApplied.13.024012, 2020.\n- [110] A. Silhanek, W. Gillijns, V. Moshchalkov, V. Metlushko, *et al.*, \"Manipulation of the vortex motion in nanostructured ferromagnetic/superconductor hybrids\", *Applied Physics Letters*, vol.90, no.18, pp.182501–1–3, doi:10.1063/1.2734874, 2007.\n- [111] C. Xue, A. He, M. Milosevi ˇ c, V, A. Silhanek, V, and Y.-H. Zhou, ´ \"Open circuit voltage generated by dragging superconducting vortices with a dynamic pinning potential\", *New Journal of Physics*, vol.21, no.11, doi:10.1088/1367-2630/ab54ae, 2019.\n- [112] L. Testardi, \"Destruction of superconductivity by laser light\", *Physi-*\n\n*cal Review B (Solid State)*, vol.4, no.7, pp.2189–95, 1971.\n\n- [113] A. He, C. Xue, and Y.-H. Zhou, \"Switchable reversal of vortex ratchet with dynamic pinning landscape\", *Applied Physics Letters*, vol.115, no.3, doi:10.1063/1.5100988, 2019.\n- [114] L. Kramer and R. Watts-Tobin, \"Theory of dissipative currentcarrying states in superconducting filaments\", *Physical Review Letters*, vol.40, no.15, pp.1041–4, doi:10.1103/PhysRevLett.40.1041, 1978.\n- [115] R. Watts-Tobin, Y. Krahenbuhl, and L. Kramer, \"Nonequilibrium theory of dirty, current-carrying superconductors: Phase-slip oscillators in narrow filaments near tc\", *Journal of Low Temperature Physics*, vol.42, no.5-6, pp.459–501, doi:10.1007/BF00117427, 1981.\n- [116] J. Van de Vondel, V. N. Gladilin, A. V. Silhanek, W. Gillijns, *et al.*, \"Vortex core deformation and stepper-motor ratchet behavior in a superconducting aluminum film containing an array of holes\", *Nature Communications*, vol.106, no.4, artilce no.137007, doi:10.1103/ PhysRevLett.106.137003, 2011.\n- [117] J. Van de Vondel, V. N. Gladilin, A. V. Silhanek, W. Gillijns, *et al.*, \"Critical currents of the phase slip process in the presence of electromagnetic radiation: Rectification for time asymmetric ac signal\", *Physics Review B*, vol.72, no.7, artilce no.134509, doi:10.1103/ PhysRevB.72.134509, 2005.\n- [118] D. Y. Vodolazov, F. M. Peeters, I. V. Grigorieva, and A. K. Geim, \"Nonlocal response and surface-barrier-induced rectification in hallshaped mesoscopic superconductors\", *Physics Review B*, vol.72, no.6, artilce no.024537, doi:10.1103/PhysRevB.72.024537, 2005.\n- [119] D. Y. Vodolazov, F. M. Peeters, I. V. Grigorieva, and A. K. Geim, \"Jiang, ji and wang, yong-lei and milosevi ˇ c, m. v. and xiao, zhi-li and ´ peeters, f. m. and chen, qing-hu\", *Physics Review B*, vol.103, no.8, artilce no.014502, doi:10.1103/PhysRevB.103.014502, 2021.\n- [120] I. Giaever, \"Magnetic coupling between two adjacent type-II superconductors\", *Phys. Rev. Lett.*, vol.15, no.21, pp.825–827, doi: 10.1103/PhysRevLett.15.825, 1965.\n- [121] I. Giaever, \"Flux pinning and flux-flow resistivity in magnetically coupled superconducting films\", *Phys. Rev. Lett.*, vol.16, no.11, pp.460–462, doi:10.1103/PhysRevLett.16.460, 1966.\n- [122] Z. Chen, H. Yong, and Y. Zhou, \"Manipulation of vortex arrays with thermal gradients by applying dynamic heat sources\", *Superconductor Science and Technology*, vol.34, no.4, artilce no.045005, doi: 10.1088/1361-6668/abdede, 2021.\n- [123] A. He and C. Xue, \"Multiple reversals of vortex ratchet effects in a superconducting strip with inclined dynamic pinning landscape\\*\", *Chinese Physics B*, vol.29, no.12, artilce no.127401, doi:10.1088/ 1674-1056/abbbe5, 2020.\n- [124] J. Van de Vondel, A. V. Silhanek, V. V. Moshchalkov, B. Ilic, *et al.*, \"Probing the discrete motion of vortices with rf excitations\", *Physica C: Superconductivity and its Applications*, vol.470, no.19, SI, pp.857–859, doi:10.1016/j.physc.2010.02.079, 2010.\n- [125] A. V. Silhanek, M. V. Milosevi ˇ c, R. B. G. Kramer, G. R. Berdiy- ´ orov, *et al.*, \"Formation of stripelike flux patterns obtained by freezing kinematic vortices in a superconducting pb film\", *Physics Review B*, vol.104, no.4, artilce no.017001, doi:10.1103/PhysRevLett. 104.017001, 2010.\n- [126] S. Eley, A. Glatz, and R. Willa, \"Challenges and transformative opportunities in superconductor vortex physics\", *Applied Physics Letters*, vol.130, no.5, doi:10.1063/5.0055611, 2021.\n- [127] S. Foltyn, L. Civale, J. MacManus-Driscoll, Q. Jia, *et al.*, \"Materials science challenges for high-temperature superconducting wire\", *Nature Materials*, vol.6, no.9, pp.631–42, doi:10.1038/nmat1989, 2007.\n- [128] M. Machida and H. Kaburaki, \"Direct simulation of the timedependent ginzburg-landau equation for type-II superconducting thin film: Vortex dynamics and V-I characteristics\", *Physical Review Letters*, vol.71, no.19, pp.3206–9, doi:10.1103/PhysRevLett.71.3206,\n\n1993.\n\n- [129] G. R. Berdiyorov, M. V. Milosevi ˇ c, and F. M. Peeters, \"Supercon- ´ ducting films with antidot arrays—novel behavior of the critical current\", *EPL (Europhysics Letters)*, vol.74, no.3, pp.493–499, doi: 10.1209/epl/i2006-10013-1, 2006.\n- [130] A. Blair *et al.*, \"*Simulations of Critical Currents in Polycrystalline Superconductors Using Time-Dependent Ginzburg–Landau Theory*\", *Doctor's thesis*, Durham University, 2021.\n- [131] G. Blatter, M. Feigel'man, V. Geshkenbein, A. Larkin, and V. Vinokur, \"Vortices in high-temperature superconductors\", *Reviews of Modern Physics*, vol.66, no.4, pp.1125–388, doi:10.1103/ RevModPhys.66.1125, 1994.\n- [132] G. Blatter, \"Vortex matter\", *Physica C: Superconductivity and its Applications*, vol.282, no.1, pp.19–26, doi:10.1016/S0921-4534(97) 00197-4, 1997.\n- [133] G. Mkrtchyan and V. Shmidt, \"Interaction between a cavity and a vortex in a superconductor of the second kind\", *Soviet Journal of Experimental and Theoretical Physics*, vol.34, artilce no.195, 1972.\n- [134] A. Silhanek, S. Raedts, M. Van Bael, and V. Moshchalkov, \"Experimental determination of the number of flux lines trapped by microholes in superconducting samples\", *Physical Review B (Condensed Matter and Materials Physics)*, vol.70, no.5, pp.54515–1–5, doi:10.1103/PhysRevB.70.054515, 2004.\n- [135] M. Doria and G. Zebende, \"Multiple trapping of vortex lines by a regular array of pinning centers\", *Physical Review B (Condensed Matter and Materials Physics)*, vol.66, no.6, pp.064519/1–8, doi: 10.1103/PhysRevB.66.064519, 2002.\n- [136] O. Dobrovolskiy, E. Begun, M. Huth, V. Shklovskij, and M. Tsindlekht, \"Vortex lattice matching effects in a washboard pinning potential induced by co nanostripe arrays\", *Physica C: Superconductivity and its Applications*, vol.471, no.15-16, pp.449–52, doi: 10.1016/j.physc.2011.05.245, 2011.\n- [137] M. Baert, V. Metlushko, R. Jonckheere, V. Moshchalkov, and Y. Bruynseraede, \"Composite flux-line lattices stabilized in superconducting films by a regular array of artificial defects\", *Physics Review Letters*, vol.74, no.16, pp.3269–3272, doi:10.1103/PhysRevLett.74. 3269, 1995.\n- [138] M. Kemmler, D. Bothner, K. Ilin, M. Siegel, *et al.*, \"Suppression of dissipation in nb thin films with triangular antidot arrays by random removal of pinning sites\", *Physics Review B*, vol.79, no.18, doi:10. 1103/PhysRevB.79.184509, 2009.\n- [139] S. Rablen, M. Kemmler, T. Quaglio, R. Kleiner, *et al.*, \"Bitter decoration of vortex patterns in superconducting nb films with random, triangular, and penrose arrays of antidots\", *Physics Review B*, vol.84, no.18, doi:10.1103/PhysRevB.84.184520, 2011.\n- [140] M. L. Latimer, G. R. Berdiyorov, Z. L. Xiao, W. K. Kwok, and F. M. Peeters, \"Vortex interaction enhanced saturation number and caging effect in a superconducting film with a honeycomb array of nanoscale holes\", *Physics Review B*, vol.85, no.1, doi:10.1103/PhysRevB.85. 012505, 2012.\n- [141] C. Reichhardt and C. J. O. Reichhardt, \"Spontaneous transverse response and amplified switching in superconductors with honeycomb pinning arrays\", *Physics Review Letters*, vol.100, no.16, doi: 10.1103/PhysRevLett.100.167002, 2008.\n- [142] A. E. Koshelev, I. A. Sadovskyy, C. L. Phillips, and A. Glatz, \"Optimization of vortex pinning by nanoparticles using simulations of the time-dependent ginzburg-landau model\", *Physics Review B*, vol.93, no.6, doi:10.1103/PhysRevB.93.060508, 2016.\n- [143] G. Kimmel, I. A. Sadovskyy, and A. Glatz, \"Insilico optimization of critical currents in superconductors\", *Physics Review E*, vol.96, no.1, doi:10.1103/PhysRevE.96.013318, 2017.\n- [144] A. Palau, T. Puig, X. Obradors, E. Pardo, *et al.*, \"Simultaneous inductive determination of grain and intergrain critical current densities of\n\nYBa2Cu3O7−<sup>x</sup> coated conductors\", *Applied Physics Letters*, vol.84, no.2, pp.230–232, doi:10.1063/1.1639940, 2004.\n\n- [145] A. Palau, J. H. Durrell, J. L. MacManus-Driscoll, S. Harrington, *et al.*, \"Crossover between channeling and pinning at twin boundaries in YBa2Cu3O<sup>7</sup> thin films\", *Physics Review Letters*, vol.97, no.25, doi: 10.1103/PhysRevLett.97.257002, 2006.\n- [146] F. Xue, Y. Gu, and X. Gou, \"Critical current density through grain boundaries in high-temperature superconductors\", *Journal of Superconductor and Novel Magnetism*, vol.29, no.11, pp.2711–2716, doi: 10.1007/s10948-016-3729-2, 2016.\n- [147] Y.-B. Liu, Z.-Y. Shao, Y. Cao, and F. Yang, \"Unconventional superfluidity of superconductivity on penrose lattice\", *Science China Physics, Mechanics & Astronomy*, vol.66, no.9, doi:10.1007/ s11433-023-2139-0, 2023.\n- [148] Y. Liu, X.-F. Gou, and F. Xue, \"Barrier or easy-flow channel: The role of grain boundary acting on vortex motion in type-II superconductors\", *Chinese Physics B*, vol.30, no.9, pp.2711–2716, doi: 10.1088/1674-1056/ac11ea, 2021.\n- [149] Y. Liu, F. Xue, and X.-F. Gou, \"Role of grain boundary networks in vortex motion in superconducting films\", *Chinese Physics B*, vol.33, no.1, doi:10.1088/1674-1056/ace315, 2024.\n- [150] T. Luther and C. Koenke, \"Polycrystal models for the analysis of intergranular crack growth in metallic materials\", *Engineering Facture Mechanics*, vol.76, no.15, pp.2332–2343, doi:10.1016/ j.engfracmech.2009.07.006, 2009.\n- [151] E. Kramer, \"Scaling laws for flux pinning in hard superconductors\", *Journal of Applied Physics*, vol.44, no.3, pp.1360–1370, doi:10.1063/ 1.1662353, 1973.\n- [152] D. Rodrigues, Jr., L. B. S. Da Silva, C. A. Rodrigues, N. F. Oliveira, Jr., and C. Bormio-Nunes, \"Optimization of heat treatment profiles applied to nanometric-scale Nb3Sn wires with Cu-Sn artificial pinning centers\", *IEEE transactions on applied superconductivity*, vol.21, no.3, 3, pp.3150–3153, doi:10.1109/TASC.2010.2093104, 2011.\n- [153] X. Xu, J. Rochester, X. Peng, M. Sumption, and M. Tomsic, \"Ternary Nb3Sn superconductors with artificial pinning centers and high upper critical fields\", *Superconductor Science and Technology*, vol.32, no.2, doi:10.1088/1361-6668/aaf7ca, 2019.\n- [154] S. Posen and D. L. Hall, \"Nb3Sn superconducting radiofrequency cavities: Fabrication, results, properties, and prospects\", *Superconductor Science and Technology*, vol.30, no.3, doi:10.1088/ 1361-6668/30/3/033004, 2017.\n- [155] C. Sundahl, J. Makita, P. B. Welander, Y.-F. Su, *et al.*, \"Development and characterization of Nb3Sn/Al2O3 superconducting multilayers for particle accelerators\", *Scientific Reports*, vol.11, no.1, doi: 10.1038/s41598-021-87119-9, 2021.\n- [156] J. Lee, S. Posen, Z. Mao, Y. Trenikhina, *et al.*, \"Atomic-scale analyses of Nb3Sn on nb prepared by vapor diffusion for superconducting radiofrequency cavity applications: A correlative study\", *Superconductor Science and Technology*, vol.32, no.2, doi:10.1088/1361-6668/ aaf268, 2019.\n- [157] J. Lee, Z. Mao, K. He, Z. H. Sung, *et al.*, \"Grain-boundary structure and segregation in Nb3Sn coatings on nb for high-performance superconducting radiofrequency cavity applications\", *ACTA Materialia*, vol.188, pp.155–165, doi:10.1016/j.actamat.2020.01.055, 2020.\n- [158] A. Gurevich, \"Theory of rf superconductivity for resonant cavities\", *Superconductor Science and Technology*, vol.30, no.3, doi:10.1088/ 1361-6668/30/3/034004, 2017.\n- [159] A. Joseph and W. Tomasch, \"Experimental evidence for delayed entry of flux into type-2 superconductor\", *Physics Review Letters*, vol.12, no.9, pp.219–&, doi:10.1103/PhysRevLett.12.219, 1964.\n- [160] R. Deblois and W. Desoebo, \"Surface barrier in type-2 superconductors\", *Physics Review Letters*, vol.12, no.18, pp.499–&, doi:10.1103/\n\nPhysRevLett.12.499, 1964.\n\n- [161] A. Joseph, W. Tomasch, and H. Fink, \"Intrinsic size effects in type-2 superconducting films\", *Physics Review*, vol.157, no.2, pp.315–&, doi:10.1103/PhysRev.157.315, 1967.\n- [162] J. Gutierrez, B. Raes, J. Van de Vondel, A. V. Silhanek, *et al.*, \"First vortex entry into a perpendicularly magnetized superconducting thin film\", *Physics Review B*, vol.88, no.18, doi:10.1103/PhysRevB.88. 184504, 2013.\n- [163] D. B. Liarte, T. Arias, D. L. Hall, M. Liepe, *et al.*, \"Srf theory developments from the center for bright beams\", in press, doi:arXiv: 1707.09025, 2017.\n- [164] B. Oripov, T. Bieler, G. Ciovati, S. Calatroni, *et al.*, \"High-frequency nonlinear response of superconducting cavity-grade nb surfaces\", *Physics Review Applied*, vol.11, no.6, doi:10.1103/PhysRevApplied. 11.064030, 2019.\n- [165] A. Sheikhzada and A. Gurevich, \"Dynamic pair-breaking current, critical superfluid velocity, and nonlinear electromagnetic response of nonequilibrium superconductors\", *Physics Review B*, vol.102, no.10, doi:10.1103/PhysRevB.102.104507, 2020.\n- [166] A. Gurevich, T. Kubo, and J. A. Sauls, \"Challenges and opportunities of srf theory for next generation particle accelerators\", *arXiv preprint arXiv:2203.08315*, in press, doi:10.48550/arXiv.2203.08315, 2022.\n- [167] O. Dobrovolskiy, V, D. Y. Vodolazov, F. Porrati, R. Sachser, *et al.*, \"Ultra-fast vortex motion in a direct-write nb-c superconductor\", *Nature communications*, vol.11, no.1, doi:10.1038/ s41467-020-16987-y, 2020.\n- [168] Z. Lin, M. Qin, D. Li, P. Shen, *et al.*, \"Enhancement of the lower critical field in fese-coated nb structures for superconducting radiofrequency applications\", *Superconductor Science and Technology*, vol.34, no.1, doi:10.1088/1361-6668/abc568, 2021.\n- [169] B. Oripov and S. Anlage, \"Time-dependent ginzburg-landau treatment of rf magnetic vortices in superconductors: Vortex semiloops in a spatially nonuniform magnetic field\", *Physics Review E*, vol.101, no.3, doi:10.1103/PhysRevE.101.033306, 2020.\n- [170] J. Carlson, A. Pack, M. K. Transtrum, J. Lee, *et al.*, \"Analysis of magnetic vortex dissipation in sn-segregated boundaries in Nb3Sn superconducting rf cavities\", *Physics Review B*, vol.103, no.2, doi: 10.1103/PhysRevB.103.024516, 2021.\n- [171] C.-Y. Wang, C. Pereira, S. Leith, G. Rosaz, and S. M. Anlage, \"Microscopic examination of srf-quality nb films through local nonlinear microwave response\", in press, doi:arXiv:2305.07746, 2023.\n- [172] Q.-Y. Wang, C. Xue, C. Dong, and Y.-H. Zhou, \"Effects of defects and surface roughness on the vortex penetration and vortex dynamics in superconductor-insulator-superconductor multilayer structures exposed to rf magnetic fields: Numerical simulations within tdgl theory\", *Superconductor Science and Technology*, vol.35, no.4, doi: 10.1088/1361-6668/ac4ad1, 2022.\n- [173] N. S. Sitaraman, T. A. Arias, M. U. Liepe, J. Lee, *et al.*, \"A comprehensive picture of hydride formation and dissipation\", *A Comprehensive Picture of Hydride Formation and Dissipation*, in press, doi: 10.18429/JACoW-SRF2023-MOPMB020, 2023.\n- [174] R. L. Geng, G. V. Eremeev, H. Padamsee, and V. D. Shemelin, \"High gradient studies for ilc with single-cell re-entrant shape and elliptical shape cavities made of fine-grain and large-grain niobium\", in press, pp.4093+, 2007.\n- [175] K. Watanabe, S. Noguchi, E. Kako, K. Umemori, and T. Shishido, \"Development of the superconducting rf 2-cell cavity for cerl injector at kek\", *Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment*, vol.714, pp.67–82, doi:10.1016/j.nima.2013.02.035, 2013.\n- [176] A. Gurevich, \"Enhancement of rf breakdown field of superconductors by multilayer coating\", *Applied Physics Letters*, vol.88, no.1, doi:10. 1063/1.2162264, 2006.\n- [177] A. Paskin, M. Strongin, P. P. Craig, and D. G. Schweitzer, \"Temperature dependence of the ginzburg-landau coefficient in type-I superconductors\", *Physical Review*, vol.137, no.6A, artilce no.A1816, doi: 10.1103/PhysRev.137.A1816, 1965.\n- [178] V. P. Mineev and V. P. Michal, \"Temperature-dependent ginzburg– landau parameter\", *Journal of the physical society of Japan*, vol.81, no.9, artilce no.093701, doi:10.1143/JPSJ.81.093701, 2012.\n- [179] J. Lombardo, Z. L. Jeli ˇ c, X. D. Baumans, J. E. Scheerder, ´ *et al.*, \"In situ tailoring of superconducting junctions via electro-annealing\", *Nanoscale*, vol.10, no.4, pp.1987–1996, doi:10.1039/c7nr08571k, 2018.\n- [180] Y. Wang, \"Effects of defects on the vortex dynamics and thermomagnetic instability in sis multilayer structures. master thesis\", *Northwestern Polytechnical University*, in press, 2023.\n- [181] N.-N. Li and A. He, \"Effect of defects on flux expulsion of pure niobium superconducting radio frequency cavities via spatial temperature gradient\", *Physica C: Superconductivity and its Applications*, vol.615, doi:10.1016/j.physc.2023.1354391, 2023.\n- [182] A. He and X.-N. Hu, \"Achieving optimal magnetic flux expulsion of a Nb3Sn superconducting radio-frequency cavity via spatial temperature gradient\", *Physics Letters A*, vol.487, doi:10.1016/j.physleta. 2023.129129, 2023.\n- [183] D. Vodolazov, F. Peeters, M. Morelle, and V. Moshchalkov, \"Masking effect of heat dissipation on the current-voltage characteristics of a mesoscopic superconducting sample with leads\", *Physics Review B*, vol.71, no.18, doi:10.1103/PhysRevB.71.184502, 2005.\n- [184] A. N. Zotova and D. Y. Vodolazov, \"Photon detection by currentcarrying superconducting film: A time-dependent ginzburg-landau approach\", *Physics Review B*, vol.85, no.2, doi:10.1103/PhysRevB. 85.024509, 2012.\n- [185] D. Y. Vodolazov and T. M. Klapwijk, \"Photon-triggered instability in the flux flow regime of a strongly disordered superconducting strip\", *Physics Review B*, vol.100, no.6, doi:10.1103/PhysRevB.100.064507, 2019.\n- [186] A. K. Elmurodov, F. M. Peeters, D. Y. Vodolazov, S. Michotte, *et al.*, \"Phase-slip phenomena in nbn superconducting nanowires with leads\", *Physics Review B*, vol.78, no.21, doi:10.1103/PhysRevB.78. 214519, 2008.\n- [187] Z. Jing, H. Yong, and Y. Zhou, \"Thermal coupling effect on the vortex dynamics of superconducting thin films: Time-dependent ginzburg-landau simulations\", *Superconductor Science and Technology*, vol.31, no.5, doi:10.1088/1361-6668/aab3be, 2018.\n- [188] J. Ze, \"Effects of edge cracks on the thermomagnetic instabilities of type-II superconducting thin films\", *Journal information*, vol.10, no.3, 2023.\n- [189] A. Lara, F. G. Aliev, V. V. Moshchalkov, and Y. M. Galperin, \"Thermally driven inhibition of superconducting vortex avalanches\", *Physics Review Applied*, vol.8, no.3, doi:10.1103/PhysRevApplied.8. 034027, 2017.\n- [190] W. Pathirana and A. Gurevich, \"Superheating field in superconductors with nanostructured surfaces\", *Frontiers in Electronic Materials*, vol.3, no.1, doi:10.3389/femat.2023.1246016, 2023.\n- [191] S. Huang, T. Kubo, and R. L. Geng, \"Dependence of trapped-fluxinduced surface resistance of a large-grain nb superconducting radiofrequency cavity on spatial temperature gradient during cooldown through Tc\", *Phys. Rev. Accel. Beams*, vol.19, no.9, doi:10.1103/ PhysRevAccelBeams.19.082001, 2016.\n- [192] A. Romanenko, A. Grassellino, O. Melnychuk, and D. A. Sergatskov, \"Dependence of the residual surface resistance of superconducting radio frequency cavities on the cooling dynamics around Tc\", *Journal of Applied Physics*, vol.115, no.18, doi:10.1063/1.4875655, 2014.\n- [193] M. Martinello, M. Checchin, A. Grassellino, A. C. Crawford, *et al.*, \"Magnetic flux studies in horizontally cooled elliptical supercon-\n\nducting cavities\", *Journal of Applied Physics*, vol.118, no.4, doi: 10.1063/1.4927519, 2015.\n\n- [194] J. M. Vogt, O. Kugeler, and J. Knobloch, \"Impact of cool-down conditions at Tc on the superconducting rf cavity quality factor\", *Physics Review Special TOPICS-accelerator and Beams*, vol.16, no.10, doi: 10.1103/PhysRevSTAB.16.102002, 2013.\n- [195] S. Posen, A. Romanenko, A. Grassellino, O. S. Melnychuk, and D. A. Sergatskov, \"Ultralow surface resistance via vacuum heat treatment of superconducting radio-frequency cavities\", *Physics Review Applied*, vol.13, no.1, doi:10.1103/PhysRevApplied.13.014024, 2020.\n- [196] S. Posen, M. Checchin, A. C. Crawford, A. Grassellino, *et al.*, \"Efficient expulsion of magnetic flux in superconducting radiofrequency cavities for high Q<sup>0</sup> applications\", *Journal of Applied Physics*, vol.119, no.21, doi:10.1063/1.4953087, 2016.\n- [197] A. Romanenko, A. Grassellino, A. C. Crawford, D. A. Sergatskov, and O. Melnychuk, \"Ultra-high quality factors in superconducting niobium cavities in ambient magnetic fields up to 190 mG\", *Applied Physics Letters*, vol.105, no.23, doi:10.1063/1.4903808, 2014.\n\n![](1__page_21_Picture_7.jpeg)\n\nCun Xue is currently an associate professor of Department of Engineering Mechanics, at Northwestern Polytechnical University. He received the B.S. and Ph.D. degrees from Lanzhou University of solid mechanics, Lanzhou, China, in 2010 and 2016, respectively. He was a visiting student at KU Leuven Belgium during 2014-2015. His research interests mainly focus on multifield coupling problems of the applications of superconductors, including superconducting magnets, superconducting radio-frequency cavities, and su-\n\nperconducting devices. (Email: xuecun@nwpu.edu.cn)\n\n![](1__page_21_Picture_10.jpeg)\n\nQing-Yu Wang received the B.S. degree from Lanzhou University, China, in 2019. He is currently a Ph.D. student in the School of Aeronautics, Northwestern Polytechnical University. His current research interests include thermomagnetic instability, vortex dynamics of superconductor under mechanical loading. (Email: qywang@mail.nwpu.edu.cn)\n\n![](1__page_21_Picture_12.jpeg)\n\nHan-Xi Ren received the B.S. degree from Northwestern Polytechnical University, China, in 2023. He is currently a Ph.D. student in the School of Aeronautics, Northwestern Polytechnical University. His current research interests include multi-field coupling of high-field Nb3Sn superconducting magnet coils and optimization of critical properties of superconducting wires. (Email: renhanxi@mail.nwpu.edu.cn)\n\n![](1__page_21_Picture_14.jpeg)\n\nAn He is an associate professor at the School of Science, Chang 'an University. She received her B.S. and Ph.D. degrees from Lanzhou University in 2011 and 2016, respectively. She was a visiting student at University of Antwerp Belgium during 2014-2015. She mainly engaged in multifield coupling performance analysis of superconducting materials. (Email: hean@chd.edu.cn)\n\n<span id=\"page-21-0\"></span>![](1__page_21_Picture_16.jpeg)\n\nAlejandro Silhanek is a professor of Department of Physics, at the University of Liege, Bel- ` gium. He received the Ph.D. degree in Physics from Instituto Balseiro, Bariloche (Argentina) in 2001. He was awarded Directors funded Postdoctoral fellow, Los Alamos National Laboratory (USA) from 2004 to 2006 and Postdoctoral Researcher at the KU Leuven Belgium from 2006 to 2011. The scientific activities of his group are mainly within the field of experimental mesoscopic physics, nanoscience and nanotechnology,\n\nmagnetism, superconductivity, electromigration, low -frequency metamaterials and quantum transport. (Email: asilhanek@uliege.be)",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Review",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              48.67236328125,
+              129.781005859375
+            ],
+            [
+              92.00833129882812,
+              129.781005859375
+            ],
+            [
+              92.00833129882812,
+              144.47515869140625
+            ],
+            [
+              48.67236328125,
+              144.47515869140625
+            ]
+          ]
+        },
+        {
+          "title": "Case studies on time-dependent Ginzburg-Landau\nsimulations for superconducting applications",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              47.7265625,
+              159.827392578125
+            ],
+            [
+              503.166015625,
+              159.827392578125
+            ],
+            [
+              503.166015625,
+              208.38623046875
+            ],
+            [
+              47.7265625,
+              208.38623046875
+            ]
+          ]
+        },
+        {
+          "title": "I. Introduction",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              48.52685546875,
+              497.936279296875
+            ],
+            [
+              121.12400817871094,
+              497.936279296875
+            ],
+            [
+              121.12400817871094,
+              508.936279296875
+            ],
+            [
+              48.52685546875,
+              508.936279296875
+            ]
+          ]
+        },
+        {
+          "title": "II. Superconducting vortex rectifiers",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              48.23583984375,
+              77.442138671875
+            ],
+            [
+              222.2360076904297,
+              77.442138671875
+            ],
+            [
+              222.2360076904297,
+              89.35430908203125
+            ],
+            [
+              48.23583984375,
+              89.35430908203125
+            ]
+          ]
+        },
+        {
+          "title": "III. Critical current density of polycrystalline\nNb3Sn",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              46.63525390625,
+              510.2612609863281
+            ],
+            [
+              291.65692138671875,
+              510.2612609863281
+            ],
+            [
+              291.65692138671875,
+              535.2811889648438
+            ],
+            [
+              46.63525390625,
+              535.2811889648438
+            ]
+          ]
+        },
+        {
+          "title": "IV. Superconducting radio-frequency cavities",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              303.529296875,
+              461.0391845703125
+            ],
+            [
+              517.9840698242188,
+              461.0391845703125
+            ],
+            [
+              517.9840698242188,
+              472.0391845703125
+            ],
+            [
+              303.529296875,
+              472.0391845703125
+            ]
+          ]
+        },
+        {
+          "title": "V. Conclusions",
+          "heading_level": null,
+          "page_id": 14,
+          "polygon": [
+            [
+              303.529296875,
+              342.13739013671875
+            ],
+            [
+              375.119140625,
+              342.13739013671875
+            ],
+            [
+              375.119140625,
+              353.13739013671875
+            ],
+            [
+              303.529296875,
+              353.13739013671875
+            ]
+          ]
+        },
+        {
+          "title": "Acknowledgements",
+          "heading_level": null,
+          "page_id": 15,
+          "polygon": [
+            [
+              48.635986328125,
+              110.0323486328125
+            ],
+            [
+              139.978515625,
+              110.0323486328125
+            ],
+            [
+              139.978515625,
+              121.0323486328125
+            ],
+            [
+              48.635986328125,
+              121.0323486328125
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 15,
+          "polygon": [
+            [
+              48.89799880981445,
+              160.18939208984375
+            ],
+            [
+              100.69140625,
+              160.18939208984375
+            ],
+            [
+              100.69140625,
+              171.18939208984375
+            ],
+            [
+              48.89799880981445,
+              171.18939208984375
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              194
+            ],
+            [
+              "Line",
+              69
+            ],
+            [
+              "Text",
+              13
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              233
+            ],
+            [
+              "Line",
+              107
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "PageHeader",
+              3
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              256
+            ],
+            [
+              "Line",
+              107
+            ],
+            [
+              "Text",
+              8
+            ],
+            [
+              "PageHeader",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              475
+            ],
+            [
+              "Line",
+              136
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "PageHeader",
+              3
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Equation",
+              3
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              365
+            ],
+            [
+              "Line",
+              87
+            ],
+            [
+              "PageHeader",
+              3
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              404
+            ],
+            [
+              "Line",
+              83
+            ],
+            [
+              "TextInlineMath",
+              5
+            ],
+            [
+              "PageHeader",
+              3
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              246
+            ],
+            [
+              "Line",
+              84
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "PageHeader",
+              3
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              340
+            ],
+            [
+              "Line",
+              108
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "PageHeader",
+              3
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Equation",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              274
+            ],
+            [
+              "Line",
+              89
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "PageHeader",
+              3
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              267
+            ],
+            [
+              "Line",
+              86
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "PageHeader",
+              3
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              977
+            ],
+            [
+              "Line",
+              208
+            ],
+            [
+              "Equation",
+              8
+            ],
+            [
+              "TextInlineMath",
+              5
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Reference",
+              4
+            ],
+            [
+              "PageHeader",
+              3
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              439
+            ],
+            [
+              "Line",
+              133
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "PageHeader",
+              3
+            ],
+            [
+              "Reference",
+              3
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Equation",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              247
+            ],
+            [
+              "Line",
+              77
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "PageHeader",
+              3
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              115
+            ],
+            [
+              "Line",
+              45
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "PageHeader",
+              3
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 14,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              229
+            ],
+            [
+              "Line",
+              90
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "PageHeader",
+              3
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 15,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              410
+            ],
+            [
+              "Line",
+              124
+            ],
+            [
+              "ListItem",
+              28
+            ],
+            [
+              "PageHeader",
+              3
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 16,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              443
+            ],
+            [
+              "Line",
+              126
+            ],
+            [
+              "ListItem",
+              36
+            ],
+            [
+              "PageHeader",
+              3
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 17,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              443
+            ],
+            [
+              "Line",
+              127
+            ],
+            [
+              "ListItem",
+              31
+            ],
+            [
+              "PageHeader",
+              3
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 18,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              447
+            ],
+            [
+              "Line",
+              127
+            ],
+            [
+              "ListItem",
+              33
+            ],
+            [
+              "PageHeader",
+              3
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "ListGroup",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 19,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              449
+            ],
+            [
+              "Line",
+              127
+            ],
+            [
+              "ListItem",
+              32
+            ],
+            [
+              "PageHeader",
+              3
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "ListGroup",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 20,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              424
+            ],
+            [
+              "Line",
+              127
+            ],
+            [
+              "ListItem",
+              33
+            ],
+            [
+              "PageHeader",
+              3
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 21,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              162
+            ],
+            [
+              "Line",
+              69
+            ],
+            [
+              "Text",
+              9
+            ],
+            [
+              "Picture",
+              5
+            ],
+            [
+              "ListItem",
+              4
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "ListGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 22,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Case studies on time-dependent Ginzburg-Landau simulations for superconducting applications",
+    "authors": [
+      {
+        "authors_list": [
+          "Xue, Cun",
+          "Wang, Qing-Yu",
+          "Ren, Han-Xi",
+          "He, An",
+          "Silhanek, A. V."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "The macroscopic electromagnetic properties of type II superconductors are primarily influenced by the behavior of microscopic superconducting flux quantum units. Time-dependent Ginzburg-Landau (TDGL) equations provide an elegant and powerful tool for describing and examining both the statics and dynamics of these superconducting entities. They have been instrumental in replicating and elucidating numerous experimental results over the past decades.This paper provides a comprehensive overview of the progress in TDGL simulations, focusing on three key aspects of superconductor applications. The initial section delves into vortex rectification in superconductors described within the TDGL framework. We specifically highlight the superconducting diode effect achieved through asymmetric pinning landscapes and the reversible manipulation of vortex ratchets with dynamic pinning landscapes. The subsequent section reviews the achievements of TDGL simulations concerning the critical current density of superconductors, emphasizing the optimization of pinning sites, particularly vortex pinning and dynamics in polycrystalline Nb$_3$Sn with grain boundaries. The third part concentrates on numerical modeling of vortex penetration and dynamics in superconducting radio frequency (SRF) cavities, including a discussion of superconductor insulator superconductor multilayer structures. In the last section, we present key findings, insights, and perspectives derived from the discussed simulations.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2403.03729"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.2403.03729",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2024arXiv240303729X"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

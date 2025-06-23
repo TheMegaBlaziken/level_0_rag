@@ -1,0 +1,1583 @@
+{
+  "id": "4b8edf9e5c447501da56bbd149f7eaaa",
+  "pdf_path": "apl/Superconductors/arXiv:2208.12379.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# CHALLENGES AND OPPORTUNITIES TO ASSURE FUTURE MANUFACTURING OF MAGNET CONDUCTORS FOR THE ACCELERATOR SECTOR\n\n## White Paper for the Accelerator Frontier Snowmass '21\n\nLance Cooley1,2, David Larbalestier1,2, and Kathleen Amm3 \n\n- 1 Applied Superconductivity Center (ASC), National High Magnetic Field Laboratory (NHMFL), Florida State University\n- 2 College of Engineering, Department of Mechanical Engineering, Florida A&M University and Florida State University\n- 3 Superconducting Magnet Division, Brookhaven National Laboratory (BNL)\n\n## Executive Summary\n\n*Nb3Sn magnet conductors will continue to be the workhorse material for accelerator magnets over the coming decade because they can deliver significantly higher magnetic fields than Nb-Ti at significantly lower cost than higher performance HTS conductors. High current-density Nb3Sn conductor suitable for present accelerator magnets for the High-Luminosity LHC (Hi-Lumi) upgrade, i.e. ~12 T field, is commercially produced in long lengths in a mature fabrication process. R&D enhancements for \"advanced Nb3Sn\" could improve performance by 30% or more in the 15-16 T field range envisioned for future dipoles, and conductors could become available in 2–5 years. New developments in cabled REBCO tape HTS conductors and 2212 round-wire strand are creating opportunities for hybrid Nb3Sn-HTS dipole magnets approaching 20 T and solenoid magnets pushing toward 50 T. Disruption of Nb-Ti and Nb3Sn magnet technology and increasing cross-over points for hybrid and stand-alone HTS options operating above 4 K temperature should be expected as HTS magnet technology continues to develop and mature.* \n\n*No superconductor is presently manufactured at the huge scale required for a high energy or muon collider. MRI Nb-Ti is the only present tonnage conductor, but its architecture is simpler than any envisaged accelerator conductor. Moreover, it is made at very small margin because of continuing large cost pressures from the MRI magnet makers. The superconductor industry of today lacks adequate economic margins from Nb-Ti MRI wire manufacture to support development of innovations such as advanced Nb3Sn and HTS conductors. Market pull for the Hi-Lumi grade of Nb3Sn exists is presently insufficient to drive manufacturing scale beyond the 30-ton Hi-Lumi procurement.* \n\n*Accelerator magnets require premium grades of Nb3Sn conductor that have a limited supplier base. For example, the Nb3Sn conductor used for the High-Luminosity LHC has only one supplier that can meet the required performance and piece length, whereas the larger procurement activity for ITER was sourced from 8 suppliers. With Hi-Lumi coming to an end, there is significant concern about how to keep premium Nb3Sn manufacturing active enough to prevent loss of expertise and atrophy of capabilities. It is our view that present public-private partnerships must be enhanced. Annual procurements of significant scale and conductor stockpiling will be necessary to maintain preproduction readiness of existing conductor designs. Re-thinking the innovation network will be needed to facilitate conductor innovation in view of the tension between large-volume, low-margin tonnage Nb-Ti and the smaller-scale, Hi-Lumi Nb3Sn with limited end-use pull, and developmental Nb3Sn and HTS conductors which cannot be funded by present industry profit margins.* \n\n*Broader coordination between federal offices and the conductor-magnet industry ecosystem could encourage the emergence of marketplace demand that results in both better and lower cost conductors. Synergies are envisioned between a sustained development program for a muon collider and technology maturation for emerging industries since both entities require high-field solenoids. Increased partnership between accelerator sector magnet developers and magnet technology for industry could provide important bridges across development obstacles by making national laboratory infrastructure available to companies. The reshaping of national agendas to address climate and energy sustainability is instigating new applications in fusion and electric machines with crossfertilization to accelerators. Transformations in health and medicine also have potential overlap with conductor and magnet technology in the accelerator sector. A portfolio of industries could be nurtured by the accelerator sector via innovation institutes and magnet technology centers of excellence to serve national and economic security needs and advance future accelerator technology needs.* \n\n### Development path of magnet conductors from small samples to large-scale production\n\n#### Basic requirements at small-sample scale\n\nSuperconducting materials that could eventually become important conductors start out from discoveries with small samples, e.g., pellets, thin films, small cast or melted rods, etc. Among the starting points of today's conductors are arc-melted alloys of Nb, sintered powders of MgB2 and (BaxK1-x)2FeAs, and films of YBa2Cu3O7 (YBCO, or more generally REBCO where RE= Y or other rare earth element). Measurements of certain basic properties reveal whether the material has potential to impact magnet technology. Among the first tests of a new material are the determination of basic attributes including:\n\n- 1. Whether there is a high enough upper critical field or irreversibility field at accelerator operating temperature (usually 4 K). See Figure 1.\n- 2. Whether high macroscopic (across many grains) and microscopic (within one grain or crystal) critical current density *J*c is present. See Figure 2.\n\n![](_page_1_Figure_6.jpeg)\n\n**Figure 1:** A plot of upper critical field or irreversibility field vs. temperature for magnet conductors used by the accelerator sector and potential new conductors.\n\n![](_page_2_Figure_0.jpeg)\n\n**Figure 2:** Critical current density of industrial wires and tapes used in superconducting magnets. Plot is maintained by Peter Lee, see https://nationalmaglab.org/magnet-development/appliedsuperconductivity-center/plots.\n\n- 3. When blockage of current is evident, understanding the cause of the connectivity obstruction must be attained, so that methods of enhancing that connectivity can be developed (for example, by melt texturing of Bi-2212 (Bi2Sr2CaCu2O8) or the biaxial growth of REBCO on textured templates).\n- 4. Whether the synthesis methods are compatible with parallel-bonded high conductivity metals, especially copper.\n- 5. Whether there is significant crystalline and property anisotropy, which may strongly impact vortex pinning and mechanical properties.\n- 6. Whether there are ready means to increase flux pinning by suitable additives and mitigate connectivity limitations by for example grain boundary engineering.\n\nStatement: Support of materials science research that allows the HEP community to capitalize on new materials and enables their application to provide technological breakthroughs is and has been vital to the development of superconducting applications.\n\n#### Considerations for research on nascent wires\n\nResearch to develop a new material in a wire or tape form takes place using billets or stacks that are up to about 2 kg mass and lengths ranging from a few meters to 100 m. These ranges are tied to the capabilities for development in university, SBIR, and industry research settings. To perform the first stages of wire development, requirements *in addition to those for basic material studies above* are:\n\n- 1. Compatibility with copper wire fabrication methods, i.e. wire or tube drawing to large strain. *Composite* wire manufacturing approaches include combinations of ductile metals (e.g. Cu + Nb-Ti alloy, Cu + Nb + Sn for later reaction to form brittle Nb3Sn) and combinations of packed powders in ductile tubes (e.g. Cu or Cu-alloy tube + MgB2 powder, Ag tube + Bi-2212 powder, possibly Cu tube + powder of Fe-based superconductor).\n- 2. If not, then compatibility with long-length fabrication by other means, e.g. reel-to-reel deposition on (REBCO and its buffer and template layers on Hastelloy or stainless steel) or printing. The 2D conductors emerging from such processes complicates magnet technology.\n- 3. Understanding how processing serves to define properties is the basic materials science paradigm that drives all optimization. The materials science involved in the discovery of a promising superconductor can be very different than the materials science that goes into production of viable magnet conductors capable of being fabricated in long lengths. All processing steps must serve the optimization of structure and thereby optimization of properties—this was the key lesson from the development of Nb-Ti magnet conductors.\n- 4. Development of heat treatments and other reaction processes that are compatible with magnets. Essentially all materials with operational envelopes beyond Nb-Ti are brittle, meaning that they must be made from ductile components that are placed into a furnace to allow the superconductor to form *in-situ* via reaction, e.g. 3Nb + Sn Nb3Sn. To avoid cracking of the brittle material, magnets are usually fabricated by \"wind and react\" methods, which implies that the conditions for the superconductor formation reaction must also be compatible with the materials used in the magnet. This includes compatibility with insulation and with mechanical and structural components. Nb3Sn and Bi-2212 are generally used in a wind-and-react approach.\n- 5. Understanding of how the materials depend on strain, both reversibly and irreversibly. These properties must be understood at the basic superconducting materials level and at the conductor level where normal metal conductor such as Cu or a strong substrate like Hastelloy may be present. The strain limits must be determined at the whole-conductor level, and these may enable alternative \"react and wind\" magnet strategies, where the conductor is reacted to form the brittle superconductor on a spool and subsequent magnet winding avoids strain above the threshold for cracking (REBCO is always supplied in this final superconducting state).\n- 6. If the superconductor is not isotropic and is formed with texture on a tape substrate (e.g. REBCO), then understanding of the variation of properties with orientation is essential.\n\n### Considerations for industry R&D and scale-up\n\nTransfer of nascent wire ideas to industry comes with expectations of a product and viability of a marketplace. Trials scale to the size of partial and full billets, for instance 10, 20, and 45 kg for Nb3Sn corresponding approximately to 1–10 km single wire piece lengths. Basic attributes of a product need to emerge from industrial R&D, including:\n\n- 1. Compatibility with existing manufacturing infrastructure to avoid unnecessary new investment in infrastructure that would generate a wider \"valley of death\" before adoption.\n- 2. Understanding requirements for specialty manufacturing. Some manufacturing paths require techniques that do not overlap the art of copper wire manufacturing. Examples include the special NbSn2 powder manufacture developed for powder-in-tube (PIT) Nb3Sn, vapor deposition methods, specialty shape forming, and additive methods. Specialty manufacturing requirements can be a significant cost detriment, as for example for PIT Nb3Sn.\n- 3. Flexibility of conductor architecture and opportunity for innovation. Innovation cycles of \"better, faster, cheaper\" greatly help both users and manufacturers.\n- 4. Scaling to long length with high yield, low breakage, and low rejection rates. Product margin must cover capital, operating, and materials expenses associated with unsellable pieces not suitable for customer use.\n- 5. Consistency of superconducting and mechanical properties along the length of single pieces, from piece to piece, and from production batch to batch.\n- 6. Consistency of key performance parameters such as critical current along the length of single pieces, from piece to piece, and from batch to batch. For Nb3Sn, conductor optimization has at least two performance parameters: critical current and copper conductivity.\n- 7. Development of measurement and testing capabilities needed to unambiguously validate key properties.\n\n### Considerations for industry production readiness\n\nThe full production run for a future accelerator facility could require procurement of hundreds or thousands of tons of magnet conductor over a period of several years. Production readiness requires:\n\n- 1. Determination of production specifications and related quality assurance.\n- 2. Demonstrated ability to deliver to specifications with low reject rate.\n- 3. Successful delivery of orders of significant size sustained over long duration. Annual procurements of 100–1000 kg were sustained over a decade during LARP [1], establishing manufacturing capability and generating much-needed production and delivery statistics. Similar procurements preceded the major production runs for the LHC, ITER, SSC, and RHIC.\n- 4. Sufficient information to arrive at a procurement cost estimate.\n- 5. Availability of test facilities and inter-laboratory benchmarks or standards to verify the above.\n\nStatement: Driven by magnet development needs at national laboratories, collaborations between fundamental materials researchers in universities and labs with the conductor manufacturers has produced a 40-year long virtuous cycle of continuous conductor development for the accelerator sector. Sustained support for this \"secret sauce\" is vital to optimization of future conductors too.\n\nStatement: Sustained large procurements of conductor are vital to keep manufacturing capability warm, encourage retention of know-how and workforce, validate expectations for a production run, and encourage growth in the related non-research marketplace.\n\nStatement: Discussion about conductor cost should not begin until production readiness has been achieved and supply chains are established.\n\nStatement: Support of standards and test facilities is crucial for industries to quantify performance and assess technology and manufacturing advancement.\n\n# Magnet conductors in the Accelerator Sector portfolio for the next decade\n\nTable I summarizes in approximate terms the conductors available for procurement in 1 km lengths that meet the requirements of accelerator magnets. For example, Nb3Sn conductor designs for the High-Luminosity LHC upgrade (\"Hi-Lumi LHC\") are referenced but those for fusion are omitted, because fusion designs are optimized with parameters unsuitable for high-field accelerator magnets. The conductor development life cycle described above occurs over ~1 decade of time, so the position of Nb3Sn as the workhorse conductor and HTS as contributing conductors should only be expected to change slowly. We comment about potential disruptive factors, which could change the table substantially, at the end of this document. Several Nb3Sn conductors under development, e.g. PIT and Hf-alloyed variants, have the potential to reach 1 km length and would be expected to have manufacturing profiles like the production conductors shown below. A comprehensive review of development activity led by CERN was published recently [2]. MgB2 and Bi-2223 conductors are included because of their potential role in supporting\n\n| Table I: Magnet conductors available for procurement in length > 1 km |                 |                   |               |                           |\n|-----------------------------------------------------------------------|-----------------|-------------------|---------------|---------------------------|\n| SC material                                                           | Billet or batch | Annual production | Relative cost | Comments                  |\n|                                                                       | mass            |                   |               |                           |\n| Nb-Ti                                                                 | 200-400 kg      | Hundreds of tons  | 1             | Driven by MRI industry    |\n| Nb3Sn RRP                                                             | 45 kg           | 5–10 tons         | 5             | Driven by general purpose |\n|                                                                       |                 |                   |               | and NMR magnets and by    |\n|                                                                       |                 |                   |               | Hi-Lumi LHC               |\n| Nb3Sn PIT                                                             | 45 kg           | < 1 ton           | 8             | Cheaper RRP is also       |\n|                                                                       |                 |                   |               | generally more capable    |\n| Bi-2212                                                               | 20 kg           | < 1 ton           | 20–50         | See note (1).             |\n| REBCO                                                                 | 10 kg           | < 1 ton; few tons | 20–50         | See note (2).             |\n|                                                                       |                 | for fusion        |               |                           |\n| Bi-2223                                                               | 20 kg           | < 1 ton           | 20–30         | Current leads (3).        |\n| MgB2                                                                  | 20 kg           | < 1 ton           | 2 [5]         | Current transfer cables   |\n|                                                                       |                 |                   |               | feeding magnets.          |\n\n### Notes:\n\n(1) Costs for Bi-2212 are artificially high because full-time R&D teams are supported by only a few conductor orders per year.\n\n(2) Privately funded fusion projects, which target e.g. 20 T at 20 K, envision magnets that do not require large stores of helium. This could make REBCO the choice for the accelerator sector if avoidance of helium becomes a priority. (3) Although Bi-2223 (i.e. conductor based on Bi2Sr2Ca2Cu3O14) has current density that is at present significantly lower than that of either Bi-2212 and REBCO, Bi-2223 is unique for bridging temperature zones from 110 K downward, such as for magnet current leads.\n\naccelerator magnets, e.g. like has been done for the CERN Superconducting Link [3], and in niche magnets where heat load is important [4].\n\nStatement: End-use pull is the most significant factor that drives down cost and motivates production scale-up. End-use pull from marketplace products is weak for Nb3Sn compared to Nb-Ti. Commercial HTS magnet technology is just beginning and synergistic development with the accelerator sector is now starting, especially through SBIR and STTR vehicles.\n\n#### Restacked-rod-process RRP Nb3Sn conductor: the present workhorse conductor\n\nThe conductor produced for the Hi-Lumi LHC, shown in Figure 3, uses an architecture called \"restacked rod process\" [7],[8] wherein monofilament rods of Nb or Nb alloy are sheathed in copper, extruded, drawn, and stacked in an annulus around a central Cu core, wrapped with a diffusion barrier, and extruded a second\n\n![](_page_5_Picture_8.jpeg)\n\n**Figure 3**: Cross-section of different 0.85 mm diameter Hi-Lumi LHC quadrupole conductors: At left is a 108/127 RRP strand from Bruker-OST, center is a 132/169 RRP strand from Bruker-OST, and at right is a 192/217 PIT strand from Bruker-EAS. Images were supplied by the manufacturers to the upgrade project as part of quality control. See Ferracin *et al.* [6].\n\ntime. Part of the core is then replaced with tin, and this assembly forms what is called a sub-element. After further drawing, the sub-elements are stacked (i.e. the original rods are re-stacked) and further drawing proceeds to the final size. A reaction sequence produces mixed Cu-Sn phases at low to moderate temperatures (below 400 °C) before a final high-temperature segment facilitates a diffusion reaction between Cu-Sn and Nb (or Nb-alloy) to form Nb3Sn (or Nb3Sn alloyed with Ti, Ta, etc.) [9].\n\nConductor naming typically refers to the number of sub-elements that occupy a theoretical number of sub-element sites while keeping hexagonal symmetry. The theoretical number obeys the formula 3*n*(*n–*1) + 1 for *n* layers around a central rod (the first layer), i.e. 1, 7, 19, 37, 61, 91, 127, 169, 217, 271, … for *n* = 1 to 10. The number *n* also identifies the number of hexagonal units along the flat outer edge of the stack. The Hi-Lumi quadrupole strand used 108 of 127 possible sites, and so was identified as \"108/127\", with the central 19 sites being copper. Research strands leading up to the Hi-Lumi LHC project explored configurations restacks from 61 up to 217 sub-elements, including copper [10],[11]. Procurements in 2021- 2022 specify 150/169 and 162/169 designs and 1.0 to 1.1 mm final diameter.\n\nA key limitation on reducing hysteretic losses and minimizing field errors due to large magnetization currents is presented by the fact that the final reaction stage grows the individual Nb filaments into a solid Nb3Sn annulus that makes the effective filament diameter *deff* that of the whole connected annulus rather than the starting Nb filament unless countermeasures are taken to divide the annulus, e.g. by substituting pure Ta rods [12]. Here, the product *J*c*d*eff is associated with energy contained in the strand magnetization, which can be uncontrollably released as a flux jump and potentially initiate a magnet quench. The effective filament diameter is approximately given by\n\n$$d\\_{\\rm eff} = d\\_{\\rm w} [N(1+R)]^{-1/2}$$\n\nwhere *dw* is the wire diameter, *N* is the number of sub-elements and *R* is the ratio of stabilizer copper area to total sub-element area. Flux jumps are serious challenges for *d*eff > 60 µm. For the 0.85 mm diameter Hi-Lumi quadrupole strand, *d*eff is nominally 55 µm. Re-stacking a larger number of sub-elements to make *deff* smaller, increasing *N,* however, works in opposition to manufacturing yield, uniformity, performance, and cost. These trade-offs presently dictate present RRP design optimizations. Cables for future dipoles using present RRP designs will need larger diameter strands to carry more current, with present procurements seeking 1.0 to 1.2 mm diameter. Keeping *d*eff at ~60 µm requires re-stacks with *N*~200. Higher *Jc* Nb3Sn conductors would allow smaller wires, adding flexibility into the RRP strand design and also the fabrication of cables made from them.\n\nThe RRP design has proven to be quite flexible in over a decade of development. The tin insertion step and the stacking pattern in the annulus provides the means to vary the ratio of Nb to Sn, thereby tuning the Nb3Sn reaction dynamics. Higher Sn content, e.g. a Nb:Sn ratio of 3.4:1, creates higher tin activity and drives the average Nb3Sn composition across the layer closer to stoichiometry for a typical final reaction stage, e.g. 665 °C for 48 hours. This results in higher irreversibility field and *Jc*. However, aggressive reactions can drive Sn through the diffusion barrier and into the copper. Tin is a strong electron scatterer in copper, and even as little as 0.1% Sn can reduce the conductivity, as measured by the residual resistance ratio RRR, by a factor of 10 [13]. The resulting contamination adversely affects quench protection. A reduction in the availability of Sn, by using Nb:Sn ratios of 3.5:1 to 3.6:1, results in better ability to aggressively drive the diffusion reaction with less risk of reducing RRR [11]. This gives better multiparameter optimization [1]. Figure 4 shows the outcome of this change for the Hi-Lumi LHC production run, which used a ratio of 3.6:1.\n\nAdjustments of the architecture provide resilience against damage due to cabling. The process to make Rutherford cables requires rolling through a Turk's head where sharp bends at the cable edges lock in the strand geometry. Cabling research, which is not discussed at length in this document, typically probes the limit of compaction where strands are locked into position, but the performance is not seriously degraded. The RRP architecture facilitates some degree of adjustment to accommodate deformation of sub-elements during cabling. However, excessive local shear deformation of sub-elements can break diffusion barriers and allow Sn to have unobstructed access to the copper, usually resulting in significant loss of RRR. For Hi-Lumi quadrupole strands, rolling of round test strands to 85% of the initial diameter produced properties\n\n![](_page_7_Figure_0.jpeg)\n\n**Figure 4:** Cumulative data for RRP strand delivered for the US contribution to the Hi-Lumi LHC upgrade is represented in this plot of the RRR vs wire critical current at 15 T, 4.2 K. Each dot represents a quality control sample tested by the manufacturer, and the different shading identifies different procurement stages over the entire run. Importantly, these data are for strand rolled to reduce the diameter by 15%, which was found to simulate very well the degradation at sharp bends in Rutherford cables. Vertical and horizontal lines define the specifications for rolled strand*.*\n\nthat tracked well with the degraded properties observed from strands extracted from cables, where in particular the RRR of the rolled strand was less than that measured around the sharp bends in cables [14],[15]. Rolled strand experiments thus provided a conservative predictor of cable performance. Also important is that the critical current of RRP strands is quite robust against rolling or cabling, because for reasons not fully understood the Nb-Sn diffusion reaction converts nearly as much of the sub-element area to Nb3Sn in distorted sub-elements as for sub-elements free from distortion.\n\nThe continued improvement of RRP conductors will be vital to future colliders. Two sections below address activities that crosscut all Nb3Sn conductor designs: (a) replacement of Pure Nb filaments by Nballoys; and (b) incorporating high heat-capacity materials into the strand architecture. In addition to these opportunities, improvement of RRP conductors also needs research attention given to:\n\n- Understanding better how the sequence of Cu-Sn and Cu-Sn-Nb phases that evolve during the reaction heat treatment might be optimized for better Nb3Sn performance at >15 T. Prior work [16],[17] identified opportunities that that have not yet been fully exploited.\n- Reducing *d*eff without concomitant loss of *Jc* performance, loss of yield, or increase of cost.\n- Scaling production to 100 kg billets or larger.\n- Modifying the conductor architecture and heat treatment to optimize properties above 15 T.\n\n#### Powder-in-tube PIT conductor and rod-in-tube RIT conductors\n\nTube-based Nb3Sn approaches replace the annulus of stacked rods in RRP conductors with a solid tube of Nb or Nb-alloy. In principle, this removes one stage from the fabrication process, i.e. RRP: monofilament Cu/Nb, sub-element annulus, finished conductor; PIT: packed mono-tubes, finished conductor. The tin source, often combined with copper, can be a powder or a rod inserted in the center of the tube, whereby a radial diffusion reaction is used to form the Nb3Sn layer. The assembled tube and core material is restacked in a similar fashion as described for RRP conductors, where design flexibility is provided by tube shape (hexagonal or round), separation, and composition of components in the tube core. Reports [18] investigated restacks with as many as 744 tube sub-elements (*n* = 18 with 169 sub-elements being Cu) at tube diameter approaching 15 µm for 0.7 mm wire diameter.\n\nTubes are sourced as a raw material, which means that conductor manufacturing must extend from the art of composite wire drawing to also encompass the art of seamless tube manufacture. Piercing plates followed by deep drawing or spinning, dynamic flow forming, hydroforming, electroforming, and seamless mandrel extrusion are established methods for tube manufacture. Tubular conductors can in principle be made both with powder inside the tube [19],[20] as in the PIT conductors made by Bruker-EAS using NbSn2 powder [19], or with solid rods, as for the conductors rod-in-tube conductors made by HyperTech Research [20]. More than a decade of development both for NMR magnet and for Hi-Lumi have shown it to be a flexible architecture but also one which is ultimately inferior to RRP architectures. An important mechanical concern is that all powder conductors require powder sliding during wire fabrication and this cannot be accomplished with full density cores. Typical residual porosities are about 1/3 which leads to greater irreversible strain sensitivity than in full density RRP wires [21],[22],[23]. A second factor is that the reaction path from the NbSn2 source to Nb3Sn goes through \"Nausite\" Nb0.25Cu0.75Sn2 and Nb6Sn5 which forms as a very large grain phase that rejects Cu into its grain boundaries when finally converting to very large grain Nb3Sn with poor vortex pinning, impaired connectivity and low *Jc* properties [24],[25],[26],[27]. Thus the highest *Jc* values of PIT have always been inferior to those of RRP conductor when expressed in the important conductor metric of *Jc* equal to the critical current divided by the area of all phases including the diffusion barrier needed to make the Nb3Sn.\n\nIn addition to these important areas, and in addition to the research topics discussed for RRP conductors, further improvement of tube-type Nb3Sn conductors could result from:\n\n- Improved manufacturing experience with tubes\n- Improved manufacturing of fine powders of Nb-Sn and Cu-Sn intermetallic compounds\n- Development of full density routes using ductile Cu and Sn components\n- Continued use in magnets to reveal conductor vulnerabilities\n\n#### Other Nb3Sn designs\n\nA significant advantage of the RRP and PIT conductor designs above is the placement of tin, generally as a Cu-Sn phase, next to the niobium in sub-elements. This creates high tin activity, which leads to rapid reaction and smaller composition gradients in the Nb3Sn that yield higher *Jc* in the layer and higher irreversibility field averaged over the whole A15 phase layer. Some conductors produced for ITER incorporated a large central source of tin or used bronze as the Sn source. The reduced tin activity of bronze works against achieving the higher layer *Jc* properties of RRP and PIT, while the low solubility of Sn in -Cu Sn bronze means that the fractional cross-section of A15 that can be formed with bronze conductors is about half that in RRP and PIT. Thus, high Sn conductors develop high *Jc* both because of better layer properties and a higher volume fraction of the A15 in the overall reaction mixture.\n\nInteresting exceptions have been summarized by Hopkins [28],[29] working in conjunction with CERN and manufacturers in Japan and Russia. Distributed-tin designs could advance after extended R&D to approach performance targets for high-field magnets. Continued support of research into alternative designs and in manufacturing capabilities worldwide will be required to alleviate supply chain challenges if production for future facilities is on the scale of that completed for ITER (which sourced from 8 manufacturers) and well beyond the scale of the Hi-Lumi LHC upgrade (which sourced from 1 manufacturer). Consolidation of manufacturing since the ITER procurement has reduced the overall manufacturing capacity and capabilities, however. At present no new architecture yet challenges RRP for overall conductor *Jc*, scale and supplied piece length. In our opinion, one of the biggest challenges of all high Sn routes is the complexity of the initial Sn-Cu mixing and then the various kinds of reaction layer that form while diffusing Sn form its source into the Nb.\n#### Advanced Nb alloys for Nb3Sn conductors\n\nThe metals in Groups IVa, Va (Nb is in group Va), and VIa form body-centered cubic alloys with significant mutual solubility. This condition permits adding elements that have strong affinity for oxygen (e.g. Zr, Hf) as well as elements with high atomic number (e.g. Ta, Hf, W). Development of Nb3Sn tape over 30 years ago by General Electric [30], [31] utilized Nb1%Zr alloy coupled with anodization to create *in-situ* oxidation, by which ZrO2 particles constrained Nb3Sn grain growth during a subsequent high-temperature reaction. Virtually all Nb3Sn conductors use grain boundaries as vortex pinning centers to drive up *Jc*. In addition to the much greater electromagnetic stability of bronze multifilament conductors, the ability to form the A15 phase at 650-700 C ensured that grain sizes of 100-200 nm were possible, not the micronsizes of tapes formed above 930 C. Tapes disappeared from the market shortly after low temperature reacted, multifilament bronze conductors appeared [32] due to their excellent electromagnetic stability and much higher *Jc*. When accelerator builders took up the challenge of making Nb3Sn suitable for accelerators, it was realized that bronze conductors could not generate sufficient critical current density and this stimulated much of the internal tin architectures that form the precursors for today's RRP & PIT conductors. Dietderich *et al.* [32] broadened the discussion by noting that oxide particles could not only constrain A15 grain growth but also form strong vortex pinning centers within Nb3Sn grains. Under the stimulus of the challenges of an Energy Frontier Hadron Collider, a number of researchers [34], [35], [36], [37], [38] have subsequently explored the potential benefits of using internal oxidation to improve flux pinning and increase *Jc* at high field in Nb3Sn conductors. Conductor designs to achieve this goal will be discussed shortly.\n\nThe benefits of enhanced vortex pinning would be lost without concomitant retention or increase of the upper critical field. Here, addition of elements with high atomic number provides spin-orbit scattering [39], [40], [41] and suppression of any paramagnetic limiting, thereby enhancing the upper critical field. Tarantini *et al.* [42], [43] show the opportunities for increasing the upper critical field of Nb3Sn conductors when alloyed with both Ta and Hf.\n\nBecause a central goal of all Nb3Sn conductor development is to grow the A15 phase with grain size significantly smaller than 100 nm, these recent efforts focused attention on how the nucleation of the A15 phase occurs at the Nb-Sn reaction front. An important new observation in [37] is that addition of 1at.%Hf to Nb4at%.Ta raises the recrystallization temperature of the generally used pure Nb rods in standard RRP designs above that of the normal A15 reaction temperature. It appears that A15 nucleation occurs by diffusion of Sn into the alloy GBs, which allows A15 grains as small as 50 nm even in the absence of any oxide particles which confer similar benefits [34,35,36]. This new combination of grain refinement techniques is under active study at the present time.\n\nDevelopment of conductors by both RRP and tube routes is presently underway using advanced alloys in both university and national lab and industry. These developments demonstrate well the presence of a collaborative ecosystem linking initial discovery in universities with \"nascent\" wires made in university or small business to quasi-industry R&D. Greater conductor development resources could greatly accelerate the ability to ensure that real magnet conductors become available in the next 3-5 years. Special Nb alloy melting has been addressed by multiple raw material suppliers, and fabrication activity also spans multiple industry participants.\n\n#### Additions of high heat capacity materials into conductors\n\nResearch from the Kurchatov Institute and Bochvar Institute in Moscow more than a decade ago demonstrated the ability of rare earth additives to add stability to magnet windings [44], [45] that could accelerate the rate of magnet training [46]. More recent considerations [47], [48] identify several challenges of Nb3Sn magnets that could be alleviated by the addition of rare-earth oxides. As discussed earlier, the sub-element diameter of present RRP and PIT conductor types fall into a regime where magnetization instabilities can be a significant factor in initiating training in present Nb3Sn dipoles. This challenge will become more difficult if *Jc* is further increased using advanced conductor designs if *d*eff remains the same. Addition of a material with high heat capacity could offer an important stability counterbalance to the potential increase of sub-bundle magnetic energy by helping absorb and slow the energy released during flux jumps. Magnet stability and training can be addressed at the strand, cable, and coil level by further additions of materials with high heat capacity, e.g. via additives to epoxy or additions to the cable core. These are activities outside of the scope of this white paper.\n\nDevelopment of Nb3Sn conductors with high heat-capacity additives is underway in parallel with investigation of advanced alloys mentioned above. Challenges exist in identifying and then optimizing powders for both properties and compatibility with manufacturing.\n\nStatement: Nb3Sn conductors with advanced designs and improved performance at high field are presently in R&D. Pushing them into industrial pilot plant production so that magnet lengths of wire can be made within the next 3-5 years and will allow proper test of the magnet potential.\n\n### Bi-2212 round wire conductor\n\nConductors made from high-temperature superconductor (HTS) are capable of much higher fields than any Nb-based conductor, as Figure 1 shows. Bi-2212 is quite unique as a cuprate HTS material in being able to develop high *Jc* in a multifilament round wire form without macroscopic texture. Bi-2212 offers the potential to displace Nb3Sn above about 15 T field, see Figure 2, in round multifilament wire form. A key advantage of Bi-2212 over REBCO and Bi-2223 is that the processing that develops high *Jc* passes through a state in which starting Bi-2212 powder melts to an almost complete liquid phase. Careful resolidification under conditions of sparse nucleation allows rapid growth of a few grains in the confined Ag filament tubes [49]. All cuprate superconductors require texture to permit current to pass from grain to grain; in the case of Bi-2212 made by powder-in-tube methods the melting step allows disconnected Bi-2212 phase powders that deform inside their Ag tubes by particle rolling to form connected dense liquid regions on melting. The problem of the melting though is that the residual 1/3 volume is principally air that suffers an ~4-fold increase in pressure that can swell or even burst the very soft Ag sheath. The oxygen can pass through the Ag but this is only 20% of the gas pressure since nitrogen remains trapped. During the slow solidification process that ensures sparse nucleation, large grains form randomly with low density. Fortunately, the 3 crystallographic axes have significantly different growth rates. Within filament tubes of ~15 m diameter, the most rapid *a*-axis growth gobbles up off-axis grains and generates a strong [100] texture along the filament axis. The *b*-axis is orthogonal to *a* thus generating a biaxial texture of ~15. A key issue of this aligned microstructure is that obvious weak link connections are suppressed, unlike Bi-2223, where only a uniaxial texture exists [51] [49], [50], [51].\n\nThe second important step in obtaining high *Jc* is remedy the effects of entrained air in the powder and its tendency both to burst the wire during heat treatment (HT) and divide the filament into full density regions and voids or bubbles across which current flows only by bridging the voids by a few rapidly growing large Bi-2212 grains [51], [52]. The remedy is to perform the HT under sufficient pressure to prevent any effect of the internal gas pressure [53], [54] that would prevent full densification of the Bi-2212 filaments. Operation over the range 20-100 bar total pressure (1 bar is always oxygen with balance argon) allows >95% density of the Bi-2212. Because 2%O2 in argon is standard welding gas, we have standardized to this formulation also for 50 bar overpressure HT.\n\nFigure 5 summarizes the HT, the texture, and the final filament structure of an optimally processed Bi-2212 wire after such a 50 bar over-pressure HT. Such an OPHT for coils necessitates a wind-and-react magnet approach in specially designed apparatus at Florida State University shown in Figure 6.\n\n![](0__page_11_Figure_0.jpeg)\n\n**Figure 5:** The melt-solidification process sequence and the resulting microstructure of Bi-2212 strand. A key aspect, partly related to the crystal structure of Bi-2212, is that crystal growth during slow resolidification is much faster along the crystallographic *a* direction, which lies within the copper-oxide planes. When the filaments are well-defined and separated, as in the bottom right photo, this leads to the formation of macroscopic texture and alignment of the copper-oxide planes, as represented by the predominance of green color in the orientation-dependent image of a longitudinal cross section at top right. Texture is essential for avoiding obstruction to carrying current when anisotropic superconductors such as Bi-2212 are used.\n\n![](0__page_11_Picture_2.jpeg)\n\n**Figure 6:** Reaction furnaces for Bi-2212 test coils operating at 50 bar pressure through the reaction sequences like that shown in Figure 5. Dimensions reflect the internal diameter and length of the uniform temperature zone. The larger furnace at right is being commissioned in 2022.\n\nA round wire HTS architecture is important for the accelerator sector in several ways. First, wire-drawing techniques presently applied to copper-clad superconductors can be applied to Bi-2212 in large degree. This could permit scaleup and quality control like that essential to largescale production of Nb-Ti and Nb3Sn conductors for accelerator magnets. Second, cabling techniques are generally unchanged between Nb-based conductors and Bi-2212. Third, although the need for twisting is not fully clarified, twisted conductors have been produced. This could provide an important advantage for ac loss in rotating machines, with possibly greater impact than the need to reduce losses upon ramping of accelerator magnets. Fourth, existing insulation winding and braiding schemes can be adapted to accommodate the temperature and chemical interactions for Bi-2212.\n\nMany of the basic requirements for understanding Bi-2212 conductors and obstacles to their use in magnets were worked out by the Very High Field Superconducting Magnet Collaboration between 2009 and 2013, which combined HEP national laboratory teams with university groups. Further advances were achieved by advancing the production of Bi-2212 powder between 2013 and 2018 with a standard composition, the so-called \"521\" formulation [55]. Multiple, small-scale, manufacturers have produced good, fine powders that facilitate conductor fabrication with low breakage. Continued support from both DOE-HEP and the National Science Foundation (NSF) via the National High Magnetic Field Laboratory (NHMFL) has led to demonstrations of good reproducibility for coil reactions based on conductor witness samples.\n\nNew over-pressure reaction systems should allow dipole model coils up to 1 m length and 250 mm diameter to be completed by end of 2024, if provided adequate resources. This infrastructure should also facilitate exploration of laboratory solenoids and NMR systems at well above 30 T field. Infrastructure for longer magnets has received initial informal consideration.\n\n#### REBCO conductor\n\nREBCO became a viable high-field magnet conductor when high-strength Hastelloy substrates became dominant [56], [57] and when advanced pinning center design showed how to develop extremely high layer current density in manufactured tapes [58], [59]. REBCO rapidly became the basis for high field magnets, especially the 32 T user magnet at the NHMFL [60], [61] and the Bruker Biospin 28.2 T, 1.2 GHz NMR system. Numerous other magnet demonstrations above 25 T have now been made as Table II summarizes. Such work, as for Bi-2212, has important bearing on the solenoids for a potential muon collider. Several projects are underway aiming toward 40 T magnets [62].\n\nFurther advances to reduce the Hastelloy thickness from a standard 50 m to 30 µm [63] provide a significant enhancement of the winding current density, especially in the so-called \"no insulation\" condition [64]. This enhancement led to achievement of winding current densities of over 1400 A mm-2 and reaching beyond 45 T field [65]. Stacked-tape cables [66], [67], [68] now make up a vibrant research field for fusion technology and potentially other applications for user and industry magnets. The scope of these manifold developments is too broad to summarize properly in this document.\n\nRoebel cables were first developed for REBCO conductors about 15 years ago [69], [69], and they have been implemented in short model dipole coils [71]. Extensive characterization of Roebel cables [72] uncovered susceptibility to degradation under transverse stress, which could be partly managed by epoxy impregnation. A difficulty with the Roebel design is that wide REBCO tapes are required as starting material, and over half of the starting material is cut out and discarded by the patterning process, significantly driving up the cable cost. These challenges remain at the present time.\n\nThin Hastelloy is an enabler of compact round \"wire\" REBCO cables that provide an interesting alternative to Roebel cables. Conductor on round core (CORC®) [73] and symmetric tape round (STAR) [74] are two variants envisioned for future accelerator magnets. Each consists of a REBCO production tape conductor wound in a helical fashion around a conductive core. Thin substrates reduce the strain applied to the REBCO layer [75], which permits winding on smaller forms which enables smaller wire diameter and higher current density. Wires with typical diameter of ~ 3 mm are facilitated by the 30 µm Hastelloy product. Flexibility to bend either CORC® or STAR conductors is related to the tape width and winding pitch, where conductors that are narrower (now pushing below 2 mm width) and wound with a shorter helix pitch have the best flexibility. Unfortunately, these trends drive up cost by requiring more conductor per unit length of cored wire. At the present time losses due to damaged material at the slit edges is not negligible. Indeed development of laser slitting is proceeding fast at multiple companies, making gross damages implicated in magnet damage much less likely [63].\n\nA key question for the future of REBCO coated conductor (CC) has perennially been: *When will the price come down to be attractive for electric utility users*? For more than a decade, the technical success of coated conductors in transmission cables, fault current limiters, motors and generators was thought to be a demonstration of replacement of many copper and iron machines with superconductors. The central dilemma was that coated conductors showed no possibility of getting to acceptable production levels and supposed low cost without commitments that were predictably unrewarding. All of this has potentially changed within the last two years as the case for tokamak fusion power plants operating with magnets with peak fields of 20 T at 20 K has gained huge private support. A prototype toroidal field coil used 500 km (about 1.5 ton) of 4 mm tape, well over 2 orders of magnitude more than the coated conductor put into *all*\n\nprior HTS magnets. The SPARC reactor being constructed will require 9,000 km (about 30 tons) more. Potentially therefore, there is now a very important feedback loop in place: Fusion magnet demands keep lowering the price of CC, allowing its replacement use for Cu and Fe for electro-technology. Such cost reductions have great promise for future colliders provided that suitable conductors for accelerator dipoles and quadrupoles can be developed.\n\nReal project use has many benefits one of which is that routine testing generates important information about the stability of production. Such a program for the 11 km of tape purchased for the NHMFL 32 T user solenoid showed that many aspects of one company's production had significant property fluctuations of many types, in *J*c, in dimensions, in Cu thickness and in damage generated by mechanical slitting. While some of these properties are tracked by the vendor, typically critical current properties are tracked only at 77 K and self-field. A central challenge is that the applications in the accelerator sector require verification of properties at 4 K, high field, and a range of angles, regimes in which it is much more difficult to carry out measurements due to the extremely high critical current and the associated risk for sample damage. Application of the so-called \"lift factor\" to estimate 4 K performance from 77 K breaks down when contributions from point pinning centers, e.g. oxygen vacancies, add to and compete with the correlated pinning due to artificial pinning centers, e.g. barium zirconate nanorods [76], [77], [78]. Significant variability in the 32 T conductor properties at 4 K have has been noted, even when the 77 K data shows reasonable uniformity [79]. Variations in properties have been connected to variations in the nanostructures, believed to be induced by fluctuations in growth conditions of the REBCO that are apparently beyond present process control both between different production runs and sometimes along the length of a single conductor. Some processing variations can lead to vulnerabilities in the magnet [80], [81]. In a sign that the highly optimized pinning centers possible in laboratory systems may not be replicable in 500–-1000 m lengths, one important company has recently described a much simpler chemistry based only on Y, Ba, Cu and O where the dominant pinning centers are Y2O3 nanodisks generated by controlling the excess Y present during growth [82].\n\nThe discussion above points to a need for tight feedback between characterizations at 4 K and processing by the different manufacturers. While several discussions (some referenced above) have looked at the products coming off manufacturing lines, explicit optimization for 4 K and high field is only just beginning. A significant characterization effort is going into the manufacturing of cables, especially for fusion, and the research and development of very high field magnets. Several facilities around the world, notably at NHMFL, Robinson Research Institute, Tohoku University, and University of Geneva, are providing detailed characterizations of the strand for these cables in a field and angular range of interest for the accelerator sector. The vulnerability of cables to stress is receiving new attention in accelerator magnets [71],[83] and some fusion cable tests [84], [85], [86].\n\n#### Iron-based superconductors\n\nIron based superconductors (FBS) present the opportunity of a material with very interesting primary properties and potential to become an important conductor. It is now in the delicate transition from the research lab to industry. Routes to make it as simple wires using the powder in tube route have been demonstrated [87], [88] but at present the best current densities are not compelling for applications, being about 100-300 A/mm2 at 10 T 4.2 K.\n\nFBS encompass several compound classes [89], [90], [91]. They are medium temperature superconductors with the interesting compounds having critical temperature *Tc* lying in the 35-55 K range and extrapolated upper critical fields >50 T at 0 K (see Figure 1). In the rather isotropic so-called 122 compounds, of which (K,Ba)Fe2As2 may be the most interesting example, critical temperature *Tc* is ~35 K and *Hc2*(0) as high as 90 T with virtually no *Hc2* anisotropy. The lack of anisotropy and the very high *Hc2* are unequalled by any other superconducting compounds, setting up an immediately strong practical and scientific case for their use [92], [93]. Single crystals can have *Jc* values exceeding 10<sup>5</sup> A/mm<sup>2</sup> at 4.2 K and a few tesla. Sadly, early experiments [94], [95], [96] with [001] thin film bicrystals showed evidence for weak link behavior beyond about 5 misorientation, albeit with about a factor of 10 less angular *Jc* sensitivity than in YBCO bicrystals. It is now accepted that there is an intrinsic weak link behavior in FBS.\n\nHowever, early wires did demonstrate on the scale of magneto-optical imaging resolution, (~5 mm), that current flow was uniform [87] and that transport and magnetization (using the whole sample dimensions) measurements of *Jc* agreed, all of which argues in favor of there being a true long-range supercurrent. The reasonable conclusion is that there are percolative supercurrent paths through the generally 100-500 nm grains that are much more effective than in comparable polycrystalline REBCO bulk or wire samples.\n\nAt this stage there is a strong Chinese program that has publicly announced a belief that FBS, especially (K,Ba)Fe2As2 can become a viable conductor and the group of Ma at CAS-Beijing has demonstrated 100 m long monofilament wires [97]. Their wires, actually tapes, do exhibit some mechanical texturing in rolling that appears to enhance *Jc* in the favorable direction, but not yet to a level that is compelling for applications. In summary FBS materials are at the interesting stage where fine-grain polycrystalline compacts can be made as bulks or wires by PIT fabrication routes with current densities that approach the lower level of interest for applications (~100 A/mm2 in 10 T at 4 K). The problem of not-yet-high-enough *Jc* appears to be one of degraded percolative connectivity. Whether the connectivity is best enhanced by texture, by greater attention to purity (especially of grain boundaries) or managing of internal strain within the conductor (the *Tc* of all FBS is very sensitive to the Fe-As bond angle) is not yet clear and is being actively studied by multiple groups [97], [98], [99], [100]. In short, the scientific case for researching how to enhance the connectivity of polycrystalline FBS remains strong because the route to wires is quite open if the appropriate materials processing route to higher connectivity can be understood. Moreover, their raw materials are inexpensive and routes to make wire conductors might be compatible with copper composite wire manufacturing.\n\n# The role of public-private partnerships in conductor development\n\n#### Conductor Development Support under DOE-HEP\n\nSuperconducting wire development has been supported by DOE-HEP ever since the Tevatron, initially within the Fermilab, BNL and LBNL programs [101], [102] and then with the University of Wisconsin program [103]. Fermilab showed how to make Nb-Ti at scale for the Tevatron and exposed the fact that wire properties were variable and poorly understood. This attracted the attention of the Wisconsin group who saw the opportunity for improved wires flowing from a proper understanding of the process. The principal vehicle for stimulating the virtuous cycle of better understanding leading to higher *Jc* leading to better wires was an annual workshop (The Nb-Ti Workshop first held in 1983, still running annually under the new title of the Low Temperature/High Field Superconductor Workshop). This workshop, now generally called LTSW, has always been small, typically 75 persons, to allow an unscripted discussion and interaction vehicle for the magnet users, the superconducting industry and the researchers trying to understand the pathways to better conductors. The Nb-Ti developments generated by this public-private partnership led not only to the SSC, RHIC and LHC conductors, but also to the huge tonnage industry of Nb-Ti for MRI magnets.\n\nThe success of this program then led to a new program whose goal was to develop new and much higher *Jc* Nb3Sn for accelerator magnets [104], [105], [106]. Under the Conductor Development Program (CDP), large manufacturers supplying Nb-Ti wire for the MRI industry, who were not eligible for incentives like those given to small businesses, were aided to innovate new wire products. Awards were based on proposals for innovative work and industry cost-share. This public-private partnership model led to key innovations of the RRP conductor in the years leading up to the Hi-Lumi LHC upgrade production run [1]. Combined investment of just under \\$4 million by LARP and CDP between 2005 and 2014 advanced the RRP configuration through 61, 127, and 169 stack variants as well as established production readiness [107]. While the scale of internal matching funds are not available to the public, a good estimate of the total *annual*\n\ndevelopment investment in high-*Jc* Nb3Sn conductor is \\$1 million. This was followed by pre-production procurements of about 1 ton leading up to the Hi-Lumi LHC upgrade.\n\nUnfortunately, the landscape for public-private partnerships has changed. Margins derived from medical imaging systems have decreased significantly since about 2000, which has practically eliminated the funds available for industrial cost share. The successor to CDP under DOE-HEP, the Conductor Procurement and R&D Program or CPRD, has broadened its scope to support Nb3Sn, Bi-2212, and most recently REBCO, but has not been able to provide resources like those described above leading up to the Hi-Lumi LHC upgrade. As a result, advance of Nb3Sn with new alloys and additives, as well as advance of Bi-2212 and REBCO as magnet conductors for the accelerator sector, has not proceeded as quickly as the program would like. Significant additional support does come under small business programs grants and research investigator awards, and these have been essential for supporting conductor development through the nascent wire stage.\n\n#### Nurturing the industry ecosystem\n\nReal challenges lie in moving conductor development from nascent wires into industry R&D and preproduction. Present industry \"pull\" for high-performance Nb3Sn wire is ~1 ton annually, which is orders of magnitude below production levels that would be needed for a major science facility. Importantly, the medical imaging market has not taken up Nb3Sn conductors in a major way, and other markets for therapy and high-field NMR magnets do not generate as large a demand for advanced conductor as the MRI sector. The conclusion of the Nb3Sn production run for the Hi-Lumi LHC upgrade could mark an important point in time, where investment decisions for Nb3Sn, especially the premium RRP grades sought by accelerators, and Bi-2212 face a long, uncertain period until a possible future accelerator facility is launched, with a very modest marketplace in the interim. (We discuss REBCO in view of private funding for fusion below.) These considerations could force a shutdown of manufacturing in the US and consolidation of resources to other locations. Atrophy of expertise and capability would then follow, which would make the re-start period much longer and more expensive.\n\nContinuity of the CPRD program is presently integrated within the goals of MDP. Actions to sustain and augment MDP and CPRD will be essential to continuing conductor development under the present mechanisms. This model is unlikely, however, to successfully compensate for the huge cost pressures felt by the wire industry from the MRI magnet manufacturers for whom Nb-Ti has become a commodity. It is important to note that the conductors desired by the accelerator sector generally require the highest performance: for example, Nb3Sn for accelerator use has the highest *Jc* of all routes. Although today's RRP wires do find application for many types of laboratory magnets, including the highest performance NMR magnet wires [108], manufacturing of strand for accelerators is always aiming for the highest properties that renders their goals somewhat decoupled from manufacturing to meet the needs of other customers. The recent end of the production run for the Hi-Lumi LHC upgrade places urgency on finding a better model for assuring conductor supply for a future science facility. This loss of demand, taken together with considerations such as manufacturing leases, anticipated conductor orders, and federal project profiles, could compel manufacturers to take actions that significantly impair US conductor manufacturing by 2024.\n\nDuring 2022, supply-chain exercises in the DOE were initiated by an Executive Order [109], which propagated to various workshops and reports [110]. Funds were provided by the DOE Office of Accelerator R&D and Production (ARDAP) to explore the nature of public-private partnerships that could alleviate magnet conductor supply-chain risks and better assure availability of production for the accelerator sector. A workshop held 13-14 March 2022 at Tufts University debated many aspects of a potential business plan going forward. Among the elements thought to be essential for the plan are:\n\n Sustained magnet development programs like those driven by the accelerator sector, e.g. LARP and programs proposed for consideration by HEP [111]. Magnet development programs provide a virtuous cycle of defining ever more challenging targets and goals, pushing industry to develop ever better conductors in large quantities, making and testing lots of magnets (sometimes to the point of failure), and exposing and solving issues that underpin the advancing technology. Programs with coupling to solenoids and other magnet configurations used by industry applications would especially be beneficial to the accelerator sector – industry ecosystem. R&D toward muon colliders are especially exciting for this reason.\n\n- Sustained annual acquisitions of conductor over and above R&D wires to keep manufacturing \"warm\" at a pre-production level. Acquisitions of raw material, e.g. advanced Nb-Ta-Hf alloy, needed to allow emerging ideas to enter industrial R&D production could be very valuable and are presently being nurtured at a low level by CDRP. Pre-production levels for Nb3Sn would be 1 ton per year with configurations meeting standard specifications, e.g. the Hi-Lumi LHC upgrade specification. The configurations should anticipate future use by the accelerator sector, where for instance 1.0 mm diameter wires might be favored over 0.85 mm diameter.\n- Managing a limited conductor stockpile as a national resource for both accelerator magnet R&D and growth of the commercial magnet industry. The stockpile would be limited to avoid inventories of obsolete conductors where R&D is rapidly moving. Development of new product lines and valley-of-death development challenges have been traditionally assisted by public funds, especially in technology areas of strategic interest. Assistance could involve withdrawals from the stockpile as prudent. Over the long term, development of market pull should emerge, creating a virtuous cycle like the development of Nb-Ti conductors.\n- Nurturing workforce pipelines by supporting student internships in industry settings, industry traineeships at academic institutions, training partnerships, and post-graduate incentives. Besides universities, trade schools and junior colleges are seen as adding journeyman skills to the conductor and magnet manufacturing workforce.\n- Coordinating an innovation institute to centralize a pool of manufacturing knowledge and establish a creative common around the key questions for conductor R&D and scale-up. Such an institute would build on the capabilities developed over 40 years by the culture of the Nb-Ti workshop and LTSW/HFSW. Entrepreneurial ideas that have strong merit often do not produce fruit for reasons related to limited resources or technical difficulties. An institute would coordinate access to capabilities and equipment, facilitate exploration of ideas through multiple attempts, encourage debugging of failures, and catalog methods with appropriate propriety. Legal teams involved in partnerships could be encouraged at early stages. Marketing and communication teams could also be engaged during early discussions.\n- Incubate component development especially where components, such as superconducting solenoids, provide a strategic or critical advantage for larger systems. Products and components could be listed on the federal register.\n- Incentivize industry ecosystem collaboration between national laboratories, universities, and industries. Activities to coordinate accelerator magnet manufacturing could be established in ways that cross boundaries of national laboratories and harvest the wealth of innovations in academia. Simplification of partnership mechanisms between national labs and industry would be helpful, such as via technical services frameworks and updates structures for collaborative research agreements.\n- Provide industry access to measurements and test facilities at low cost. Quality plans associated with major procurements usually place the burden of quality control on the conductor supplier. However, significant time and expense is required to set up quality control capabilities, qualify them via benchmarks and inter-laboratory comparisons, and adequately carry out quality measurements. User facilities for industries at national laboratories could be helpful. For HTS conductors like REBCO, the present in-line capabilities often do not probe the conditions for end use of the product. Feedback between quality measurements and processing must be tightly looped, especially during R&D phases.\n\n## Potential favorable disruptive factors in science and industry\n\nClose engagement of the HEP magnet development community with other areas of magnet research and development could prove to be very helpful for magnet conductor development.\n\nPrivately funded fusion energy research is acquiring REBCO conductor at the scale of a large science facility project, with ~\\$1 billion overall investment and a significant portion, ~\\$100 million, landing on conductor. This should drive several positive activities reminiscent of the virtuous cycle of development for Nb-Ti conductors:\n\n- Magnet \"pull\" is being created by the vision and objectives of the fusion projects. A huge amount of credit is owed to the project leaders and their supporters.\n- Multiple vendors are competing to provide conductor that meets a common specification. If the specification and conductor samples can be shared with publicly funded research groups, then a basis of important processing – structure – property links can be determined for each conductor, and research to reduce or eliminate property variations can begin. Coupling to lab and university groups could provide diagnosis and feedback to the manufacturers. Programs like INFUSE are already allowing a start on such collaborations.\n- Techniques are being developed to measure *Jc* properties at the field, field angle, and temperature of anticipated end use, besides the usual manufacturer characterizations at 77 K and self-field. The related measurement science, e.g. that performed for high-field magnet projects such as the 32T user magnet at NHMFL [79], is undergoing continuous activity in response. The high current density of REBCO makes transport measurements especially vulnerable to burn-out, and magnetometry is emerging as an alternative technique [112]. Better networking between the laboratories, universities, and private projects could improve the capability of manufacturers and partner labs to provide quality assurance relevant for enduse conditions.\n- Many small test magnets are being manufactured and tested to conductor limits, but there is still much confidentiality associated both with successes and failures of HTS magnets. An important lesson of the Nb-Ti Workshop is that manufacturers originally came to the workshop with a view that they each had an optimized process that was proprietary and special. The strong interactivity of presentation and discussion at the workshops soon lead to entirely new ways of looking at optimization and the ultimate potential of Nb-Ti, leading to the recognition that sharing of experience drove an ultimately much more rewarding technology. If the results of present magnet testing within the various laboratories and research groups could also be shared, broad discussion could occur about potential conductor vulnerabilities exposed by tests. These discussions pull the materials characterizations and help define the topics for PhD research in university groups.\n\nSuperconducting rotating machines for sustainable energy are presently entering the marketplace. Many activities worldwide aim to develop wind turbines in the 15–25 MW range [113], [114]. Propulsion for ships, trains, and airplanes is also under development based on the significant increase in power density supplied by high-field superconducting coils. For example, electric aircraft are envisioned to significantly exceed 10 kW / kg and displace high-bypass turbofans as the propulsion unit [115]. Racetrack field coil configurations in many machines have synergy with dipole magnets in accelerators, so there could be opportunity for public-private partnerships. Many envisioned applications operate at temperature higher than 10 K, for which HTS and possibly iron-based superconductors are attractive. A 10 GW wind farm could require procurement of 100 tons of conductor.\n\nChanges in medical diagnosis and therapy guidelines could drive increased development of high-field imaging systems, particle-beam therapy systems, and high-field NMR tools for *in vivo* characterization. Industry has begun to put 30-tesla class NMR systems into service, which require HTS conductors, but\nresults from using these systems is only beginning to disseminate to the medical community. Industry has also begun to deploy compact synchrotron sources using high-field magnets on gantries, but these are in early stages of market penetration and the business drivers are still clarifying. World-class facilities like ISEULT have just begun courses of scientific research relevant for diseases of the brain and other potential therapies where extremely high resolution is needed.\n\n## References\n\n- [1] Cooley, L. D., Ghosh, A. K., Dietderich, D. R., & Pong, I. (2017). Conductor specification and validation for high-luminosity LHC quadrupole magnets. *IEEE Transactions on Applied Superconductivity*, *27*(4), Art. no. 6000505.\n- [2] Ballarino, Amalia, Simon C. Hopkins, Bernardo Bordini, David Richter, Davide Tommasini, Luca Bottura, Michael Benedikt et al. \"The CERN FCC conductor development program: A worldwide effort for the future generation of high-field magnets.\" *IEEE Transactions on Applied Superconductivity* 29, no. 5 (2019): 1-9.\n- [3] Yamamoto, A., & Ballarino, A. (2022). Advances in MgB2 Superconductor Applications for Particle Accelerators. *arXiv preprint arXiv:2201.09501*.\n- [4] Patel, D., Hossain, M.S.A., Qiu, W., Jie, H., Yamauchi, Y., Maeda, M., Tomsic, M., Choi, S. and Kim, J.H., 2017. Solid cryogen: a cooling system for future MgB2 MRI magnet. *Scientific reports*, *7*(1), pp.1-8.\n- [5] Magnusson, N., Eliassen, J.C., Abrahamsen, A.B., Hellesø, S.M., Runde, M., Nysveen, A., Moslått, L.E., Bjerkli, J. and King, P., 2018. Fabrication of a scaled MgB2 racetrack demonstrator pole for a 10-MW direct-drive wind turbine generator. *IEEE Transactions on Applied Superconductivity*, *28*(4), Art. no 5207105.\n- [6] Ferracin, P. *et al.*, 2015. Development of MQXF: The Nb3Sn Low- Quadrupole for the Hi-Lumi LHC. *IEEE Transactions on Applied Superconductivity*, 26(4), Art. no. 4000207.\n- [7] Parrell, J.A., Zhang, Y., Field, M.B., Cisek, P. and Hong, S., 2003. High field Nb/sub 3/Sn conductor development at Oxford Superconducting Technology. *IEEE Transactions on Applied Superconductivity*, *13*(2), pp.3470-3473.\n- [8] Parrell, J.A., Field, M.B., Zhang, Y. and Hong, S., 2005. Advances in Nb/sub 3/Sn strand for fusion and particle accelerator applications. *IEEE Transactions on Applied Superconductivity*, *15*(2), pp.1200-1204.\n- [9] Ghosh, A.K., Sperry, E.A., D'Ambra, J. and Cooley, L.D., 2009. Systematic Changes of the Nb-Sn Reaction With Time, Temperature, and Alloying in Restacked-Rod-Process (RRP) Nb3Sn Strands. *IEEE Transactions on Applied Superconductivity*, *19*(3), pp.2580-2583.\n- [10] Cooley, L.D., Chang, P.S. and Ghosh, A.K., 2007. Magnetization, RRR and Stability of Nb3Sn Strands With High Sub-Element Number. *IEEE Transactions on Applied Superconductivity*, *17*(2), pp.2706-2709.\n- [11] Field, M.B., Zhang, Y., Miao, H., Gerace, M. and Parrell, J.A., 2013. Optimizing Nb3Sn Conductors for High Field Applications. *IEEE Transactions on Applied Superconductivity*, *24*(3), Art. no. 6001105.\n- [12] Ghosh, A.K., Cooley, L.D., Moodenbaugh, A.R., Parrell, J., Field, M.B., Zhang, Y. and Hong, S., 2005. Magnetization studies of high Jc Nb3Sn strands. *IEEE Transactions on Applied Superconductivity*, *15*(2), pp.3494-3497.\n- [13] Fickett, F.R., 1982. Electric and magnetic properties of CuSn and CuNi alloys at 4 K. *Cryogenics*, *22*(3), pp.135-137.\n- [14] Sumption, M.D., Susner, M., Collings, E.W., Dietderich, D.R., Barzi, E., Turrioni, D., Yamada, R. and Zlobin, A.V., 2009. Effect of Cable Edge Deformation on RRR and Magnetization of Strands Extracted From Nb3Sn Rutherford-Type Cables. *IEEE Transactions on Applied Superconductivity*, *19*(3), pp.2481-2485.\n- [15] Ian Pong, Lawrence Berkeley National Lab, presented at the High-Luminosity LHC Accelerator Upgrade Project review.\n- [16] Sanabria, C., Field, M., Lee, P.J., Miao, H., Parrell, J. and Larbalestier, D.C., 2018. Controlling Cu–Sn mixing so as to enable higher critical current densities in RRP® Nb3Sn wires. *Superconductor Science and Technology*, *31*(6), p.064001.\n- [17] Pong, I., Oberli, L.R. and Bottura, L., 2013. Cu diffusion in Nb3Sn internal tin superconductors during heat treatment. *Superconductor Science and Technology*, *26*(10), p.105002.\n- [18] Sumption, M.D., Bhartiya, S., Kovacks, C., Peng, X., Gregory, E., Tomsic, M.J. and Collings, E.W., 2012. Critical current density and stability of Tube Type Nb3Sn conductors. *Cryogenics*, *52*(2-3), pp.91-99.\n- [19] Lindenhovius, J.L.H., Hornsveld, E.M., Den Ouden, A., Wessel, W.A. and ten Kate, H.H., 2000. Powder-in-tube (PIT) Nb3Sn conductors for high-field magnets. *IEEE Transactions on Applied Superconductivity*, *10*(1), pp.975-978.\n- [20] Motowidlo, L.R. and Ozeryansky, G.M., 2008, March. A Nb3Sn conductor via Cu5Sn4 PIT process for high field applications. In *AIP Conference Proceedings* (Vol. 986, No. 1, pp. 269- 276). American Institute of Physics.\n- [21] Gao, P., Dhallé, M., Bordini, B., Ballarino, A. and Ten Kate, H.H.J., 2020. Transverse-pressure susceptibility of high-Jc RRP and PIT types of Nb3Sn Rutherford cables for accelerator magnets. *Superconductor Science and Technology*, *33*(12), p.125005.\n- [22] Segal, C., Tarantini, C., Lee, P.J., Sailer, B., Thoener, M., Schlenga, K., Ballarino, A., Bottura, L., Bordini, B., Scheuerlein, C. and Larbalestier, D.C., 2016. Evaluation of critical current density and residual resistance ratio limits in powder in tube Nb3Sn conductors. *Superconductor Science and Technology*, *29*(8), p.085003.\n- [23] Brown, M., Tarantini, C., Starch, W., Oates, W., Lee, P.J. and Larbalestier, D.C., 2016. Correlation of filament distortion and RRR degradation in drawn and rolled PIT and RRP Nb3Sn wires. *Superconductor Science and Technology*, *29*(8), p.084008.\n- [24] Di Michiel, M. and Scheuerlein, C., 2007. Phase transformations during the reaction heat treatment of powder-in-tube Nb3Sn superconductors. *Superconductor Science and Technology*, *20*(10), p.L55.\n- [25] Segal, C., Tarantini, C., Lee, P.J. and Larbalestier, D.C., 2017, December. Improvement of small to large grain A15 ratio in Nb3Sn PIT wires by inverted multistage heat treatments. In *IOP Conference Series: Materials Science and Engineering* (Vol. 279, No. 1, p. 012019). IOP Publishing.\n- [26] Lachmann, J., Huber, N. and Leineweber, A., 2020. Nausite and NbSn2–Growth and distinction of structural related intermetallic phases in the Cu–Nb–Sn system. *Materials Characterization*, *168*, p.110563.\n- [27] Lachmann, J., Kriegel, M.J., Leineweber, A., Shang, S.L. and Liu, Z.K., 2022. Thermodynamic re-modelling of the Cu–Nb–Sn system: Integrating the nausite phase. *Calphad*, *77*, p.102409.\n- [28] Hopkins, S.C., Baskys, A., Bordini, B., Fleiter, J. and Ballarino, A., 2020, June. Design, performance and cabling analysis of Nb3Sn wires for the FCC study. In *Journal of Physics: Conference Series* (Vol. 1559, No. 1, p. 012026). IOP Publishing.\n- [29] Hopkins, S.C., Baskys, A., Ballarino, A., Lachmann, J. and Leineweber, A., 2021. Phase Evolution During Heat Treatment of Nb3Sn Wires Under Development for the FCC Study. *IEEE Transactions on Applied Superconductivity*, *31*(5), Art. no. 6000706.\n- [30] Rumaner, L.E. and Benz, M.G., 1994. Effect of oxygen and zirconium on the growth and superconducting properties of Nb3Sn. *Metallurgical and Materials Transactions A*, *25*(1), pp.203-212.\n- [31] Rumaner, L.E., Benz, M.G. and Hall, E.L., 1994. The role of oxygen and zirconium in the formation and growth of Nb3Sn grains. *Metallurgical and Materials Transactions A*, *25*(1), pp.213-219.\n- [32] Larbalestier, D., Madsen, P., Lee, J., Wilson, M. and Charlesworth, J., 1975. Multifilamentary niobium tin magnet conductors. IEEE Transactions on Magnetics, 11(2), pp.247-250.\n- [33] Dietderich, D.R., Kelman, M., Litty, J.R. and Scanlan, R.M., 1998. High Critical Current Densities in Nb3Sn Films with Engineered Microstructures—Artificial Pinning Microstructures. In *Advances in Cryogenic Engineering Materials* (pp. 951-958). Springer, Boston, MA.\n- [34] Motowidlo, L.R., Lee, P.J., Tarantini, C., Balachandran, S., Ghosh, A.K. and Larbalestier, D.C., 2017. An intermetallic powder-in-tube approach to increased flux-pinning in Nb3Sn by internal oxidation of Zr. *Superconductor Science and Technology*, *31*(1), p.014002.\n- [35] Xu, X., Rochester, J., Peng, X., Sumption, M. and Tomsic, M., 2019. Ternary Nb3Sn superconductors with artificial pinning centers and high upper critical fields. *Superconductor Science and Technology*, *32*(2), p.02LT01.\n- [36] Xu, X., 2017. A review and prospects for Nb3Sn superconductor development. *Superconductor Science and Technology*, *30*(9), p.093001.\n- [37] Balachandran, S., Tarantini, C., Lee, P.J., Kametani, F., Su, Y.F., Walker, B., Starch, W.L. and Larbalestier, D.C., 2019. Beneficial influence of Hf and Zr additions to Nb4at% Ta on the vortex pinning of Nb3Sn with and without an O source. *Superconductor Science and Technology*, *32*(4), p.044006.\n- [38] Ortino, M., Pfeiffer, S., Baumgartner, T., Sumption, M., Bernardi, J., Xu, X. and Eisterer, M., 2021. Evolution of the superconducting properties from binary to ternary APC-Nb3Sn wires. *Superconductor Science and Technology*, *34*(3), p.035028.\n- [39] Hake, R.R., 1967. Paramagnetic superconductivity in extreme type-II superconductors. *Physical Review*, *158*(2), p.356.\n- [40] Orlando, T.P., McNiff Jr, E.J., Foner, S. and Beasley, M.R., 1979. Critical fields, Pauli paramagnetic limiting, and material parameters of Nb3Sn and V3Si. *Physical Review B*, *19*(9), p.4545.\n- [41] Godeke, A., 2006. A review of the properties of Nb3Sn and their variation with A15 composition, morphology and strain state. *Superconductor Science and Technology*, *19*(8), p.R68.\n- [42] Tarantini, C., Balachandran, S., Heald, S.M., Lee, P.J., Paudel, N., Choi, E.S., Starch, W.L. and Larbalestier, D.C., 2019. Ta, Ti and Hf effects on Nb3Sn high-field performance: temperaturedependent dopant occupancy and failure of Kramer extrapolation. *Superconductor Science and Technology*, *32*(12), p.124003.\n- [43] Tarantini, C., Kametani, F., Balachandran, S., Heald, S.M., Wheatley, L., Grovenor, C.R., Moody, M.P., Su, Y.F., Lee, P.J. and Larbalestier, D.C., 2021. Origin of the enhanced Nb3Sn performance by combined Hf and Ta doping. *Scientific Reports*, *11*(1), pp.1-8.\n- [44] Keilin, V.E., Kovalev, I.A., Kruglov, S.L., Lupanov, D.E. and Shcherbakov, V.I., 2008. Increasing thermomagnetic stability of composite superconductors with additives of extremelylarge-heat-capacity substances. *Technical Physics Letters*, *34*(5), pp.418-420.\n- [45] Keilin, V.E., Kovalev, I.A., Kruglov, S.L., Shutova, D.I., Vorobjeva, A.E., Medvedev, M.I. and Shikov, A.K., 2009. Considerable stability increase of Nb3Sn multifilamentary wire internally doped with a large heat capacity substance (PrB6). *Superconductor Science and Technology*, *22*(8), p.085007.\n- [46] Keilin, V.E., Kovalev, I.A., Kruglov, S.L., Shikov, A.K., Shutova, D.I., Vorobjeva, A.E., Medvedev, M.I., Potanina, L.V. and Salunin, N.I., 2011. Utilization of large heat capacity substances for improving the stability of superconducting magnets. *Cryogenics*, *51*(7), pp.359- 365.\n- [47] Xu, X., Li, P., Zlobin, A.V. and Peng, X., 2018. Improvement of stability of Nb3Sn superconductors by introducing high specific heat substances. *Superconductor Science and Technology*, *31*(3), p.03LT02.\n- [48] Xu, X., Zlobin, A.V., Peng, X. and Li, P., 2019. Development and study of Nb3Sn wires with high specific heat. *IEEE Transactions on Applied Superconductivity*, *29*(5), Art. no. 6000404.\n- [49] Oz, Y., *et al.*, Applied Superconductivity Center, NHMFL, manuscript in review; Oz, Y. \"Investigation of the Transport and Magnetization Properties of High Jc Bi-2212 Round Wires\", PhD thesis, Florida State University, 2021.\n- [50] Kametani, F., Jiang, J., Matras, M., Abraimov, D., Hellstrom, E.E. and Larbalestier, D.C., 2015. Comparison of growth texture in round Bi2212 and flat Bi2223 wires and its relation to high critical current density development. Scientific Reports, 5(1), pp.1-9.\n- [51] Kametani, F., E. G. Lee, T. Shen, P. J. Lee, J. Jiang, E. E. Hellstrom, and D. C. Larbalestier. \"An explanation of how split melt processing can enhance the critical current density of Bi2212 round wires based on examination of bubble size and density formed in the melt.\" Superconductor Science and Technology 27, no. 5 (2014): 055004.\n- [52] Kametani, F., Shen, T., Jiang, J., Scheuerlein, C., Malagoli, A., Di Michiel, M., Huang, Y., Miao, H., Parrell, J.A., Hellstrom, E.E. and Larbalestier, D.C., 2011. Bubble formation within filaments of melt-processed Bi2212 wires and its strongly negative effect on the critical current density. Superconductor Science and Technology, 24(7), p.075009.\n- [53] Jiang, J., Starch, W.L., Hannion, M., Kametani, F., Trociewitz, U.P., Hellstrom, E.E. and Larbalestier, D.C., 2011. Doubled critical current density in Bi-2212 round wires by reduction of the residual bubble density. Superconductor Science and Technology, 24(8), p.082001.\n- [54] Larbalestier, David C., J. Jiang, UP al Trociewitz, F. Kametani, C. Scheuerlein, M. Dalban-Canassy, M. Matras et al. \"Isotropic round-wire multifilament cuprate superconductor for generation of magnetic fields above 30 T.\" Nature materials 13, no. 4 (2014): 375-381.\n- [55] Jiang, J., Bradford, G., Hossain, S.I., Brown, M.D., Cooper, J., Miller, E., Huang, Y., Miao, H., Parrell, J.A., White, M. and Hunt, A., 2019. High-performance Bi-2212 round wires made with recent powders. IEEE Transactions on Applied Superconductivity, 29(5), Art. no. 6400405.\n- [56] Hazelton, D.W. and Selvamanickam, V., 2009. SuperPower's YBCO coated high-temperature superconducting (HTS) wire and magnet applications. Proceedings of the IEEE, 97(11), pp.1831-1836.\n- [57] Hazelton, D.W., Selvamanickam, V., Duval, J.M., Larbalestier, D.C., Markiewicz, W.D., Weijers, H.W. and Holtz, R.L., 2009. Recent developments in 2G HTS coil technology. IEEE Transactions on Applied Superconductivity, 19(3), pp.2218-2222.\n- [58] Selvamanickam, V., Chen, Y., Kesgin, I., Guevara, A., Shi, T., Yao, Y., Qiao, Y., Zhang, Y., Majkic, G., Carota, G. and Rar, A., 2011. Progress in performance improvement and new research areas for cost reduction of 2G HTS wires. IEEE Transactions on Applied Superconductivity, 21(3), pp.3049-3054.\n- [59] Matsumoto, K. and Mele, P., 2009. Artificial pinning center technology to enhance vortex pinning in YBCO coated conductors. Superconductor Science and Technology, 23(1), p.014001.\n- [60] Markiewicz, W.D., Larbalestier, D.C., Weijers, H.W., Voran, A.J., Pickard, K.W., Sheppard, W.R., Jaroszynski, J., Xu, A., Walsh, R.P., Lu, J. and Gavrilin, A.V., 2011. Design of a superconducting 32 T magnet with REBCO high field coils. IEEE Transactions on Applied Superconductivity, 22(3), pp. 4300704.\n- [61] Weijers, H.W., Markiewicz, W.D., Voran, A.J., Gundlach, S.R., Sheppard, W.R., Jarvis, B., Johnson, Z.L., Noyes, P.D., Lu, J., Kandel, H. and Bai, H., 2013. Progress in the development of a superconducting 32 T magnet with REBCO high field coils. IEEE Transactions on Applied Superconductivity, 24(3), Art. no. 4301805.\n- [62] Bai, H., Bird, M.D., Cooley, L.D., Dixon, I.R., Kim, K.L., Larbalestier, D.C., Marshall, W.S., Trociewitz, U.P., Weijers, H.W., Abraimov, D.V. and Boebinger, G.S., 2020. The 40 T superconducting magnet project at the National High Magnetic Field Laboratory. IEEE Transactions on Applied Superconductivity, 30(4), Art. no. 4300405.\n- [63] Sundaram, A., Zhang, Y., Knoll, A.R., Abraimov, D., Brownsey, P., Kasahara, M., Carota, G.M., Nakasaki, R., Cameron, J.B., Schwab, G. and Hope, L.V., 2016. 2G HTS wires made on 30 μm thick Hastelloy substrate. Superconductor Science and Technology, 29(10), p.104007.\n- [64] Hahn, S., Park, D.K., Voccio, J., Bascuñán, J. and Iwasa, Y., 2011. No-Insulation (NI) HTS Inserts for > 1 GHz LTS/HTS NMR Magnets. IEEE Transactions on Applied Superconductivity, 22(3), Art. no. 4302405.\n- [65] Hahn, S., Kim, K., Kim, K., Hu, X., Painter, T., Dixon, I., Kim, S., Bhattarai, K.R., Noguchi, S., Jaroszynski, J. and Larbalestier, D.C., 2019. 45.5-tesla direct-current magnetic field generated with a high-temperature superconducting magnet. Nature, 570(7762), pp.496-499.\n- [66] Hartwig, Z.S., Vieira, R.F., Sorbom, B.N., Badcock, R.A., Bajko, M., Beck, W.K., Castaldo, B., Craighill, C.L., Davies, M., Estrada, J. and Fry, V., 2020. VIPER: an industrially scalable high-current high-temperature superconductor cable. Superconductor Science and Technology, 33(11), p.11LT01.\n- [67] Wolf, M.J., Fietz, W.H., Bayer, C.M., Schlachter, S.I., Heller, R. and Weiss, K.P., 2016. HTS CroCo: A stacked HTS conductor optimized for high currents and long-length production. IEEE Transactions on Applied Superconductivity, 26(2), Art. no. 6400106.\n- [68] Uglietti, D., Bykovsky, N., Wesche, R. and Bruzzone, P., 2014. Development of HTS conductors for fusion magnets. IEEE Transactions on Applied Superconductivity, 25(3), Art. no. 4202106.\n- [69] Badcock, Rodney Alan, Nicholas J. Long, Marc Mulholland, Sebastian Hellmann, Alan Wright, and Kent A. Hamilton. \"Progress in the manufacture of long length YBCO Roebel cables.\" IEEE Transactions on Applied Superconductivity 19, no. 3 (2009): 3244-3247.\n- [70] Goldacker, W., Grilli, F., Pardo, E., Kario, A., Schlachter, S.I. and Vojenčiak, M., 2014. Roebel cables from REBCO coated conductors: a one-century-old concept for the superconductivity of the future. Superconductor Science and Technology, 27(9), p.093001.\n- [71] Kirby GA, Van Nugteren J, Bajas H, Benda V, Ballarino A, Bajko M, Bottura L, Broekens K, Canale M, Chiuchiolo A, Gentini L. First cold powering test of REBCO roebel wound coil for the EuCARD2 future magnet development project. IEEE Transactions on Applied Superconductivity. 2017 Jan 26;27(4) Art. no. 4003307.\n- [72] Uglietti, D., Wesche, R. and Bruzzone, P., 2013. Effect of transverse load on the critical current of a coated conductor Roebel cable. Superconductor Science and Technology, 26(7), p.074002.\n- [73] van der Laan, D.C., Noyes, P.D., Miller, G.E., Weijers, H.W. and Willering, G.P., 2013. Characterization of a high-temperature superconducting conductor on round core cables in magnetic fields up to 20 T. Superconductor Science and Technology, 26(4), p.045005.\n- [74] Kar, S., Luo, W., Yahia, A.B., Li, X., Majkic, G. and Selvamanickam, V., 2018. Symmetric tape round REBCO wire with Je (4.2 K, 15 T) beyond 450 A mm−2 at 15 mm bend radius: A viable candidate for future compact accelerator magnet applications. Superconductor Science and Technology, 31(4), p.04LT01.\n- [75] Van der Laan, D.C., Weiss, J.D. and McRae, D.M., 2019. Status of CORC® cables and wires for use in high-field magnets and power systems a decade after their introduction. Superconductor Science and Technology, 32(3), p.033001.\n- [76] Xu, A., Khatri, N., Liu, Y., Majkic, G., Galstyan, E., Selvamanickam, V., Chen, Y., Lei, C., Abraimov, D., Hu, X. and Jaroszynski, J., 2014. Broad temperature pinning study of 15 mol.% Zr-Added (Gd, Y)–Ba–Cu–O MOCVD coated conductors. IEEE Transactions on Applied Superconductivity, 25(3), Art. no. 6603105.\n- [77] Tsuchiya, K., Wang, X., Fujita, S., Ichinose, A., Yamada, K., Terashima, A. and Kikuchi, A., 2021. Superconducting properties of commercial REBCO-coated conductors with artificial pinning centers. Superconductor Science and Technology, 34(10), p.105005.\n- [78] Senatore, C., Barth, C., Bonura, M., Kulich, M. and Mondonico, G., 2015. Field and temperature scaling of the critical current density in commercial REBCO coated conductors. Superconductor Science and Technology, 29(1), p.014002.\n- [79] Francis, A., Abraimov, D., Viouchkov, Y., Su, Y., Kametani, F. and Larbalestier, D.C., 2020. Development of general expressions for the temperature and magnetic field dependence of the\n\ncritical current density in coated conductors with variable properties. Superconductor Science and Technology, 33(4), p.044011.\n\n- [80] Hu, X., Rossi, L., Stangl, A., Sinclair, J.W., Kametani, F., Abraimov, D., Polyanskii, A., Coulter, J.Y., Jaroszynski, J. and Larbalestier, D.C., 2016. An experimental and analytical study of periodic and aperiodic fluctuations in the critical current of long coated conductors. IEEE Transactions on Applied Superconductivity, 27(4), Art. no.9000205.\n- [81] Hu, X., Polyanskii, A.A., Abraimov, D., Gavrilin, A.V., Weijers, H.W., Jaroszynski, J. and Larbalestier, D.C., 2022. Analyses of local burnout in a sub-scale test coil for the 32 T magnet after spontaneous quenches during fast ramping. Superconductor Science and Technology.\n- [82] Molodyk, A., Samoilenkov, S., Markelov, A., Degtyarenko, P., Lee, S., Petrykin, V., Gaifullin, M., Mankevich, A., Vavilov, A., Sorbom, B. and Cheng, J., 2021. Development and large volume production of extremely high current density YBa2Cu3O7 superconducting wires for fusion. Scientific Reports, 11(1), pp.1-11.\n- [83] Rossi, L., Badel, A., Bajas, H., Bajko, M., Ballarino, A., Barth, C., Betz, U., Bottura, L., Broggi, F., Chiuchiolo, A. and Dhalle, M., 2017. The EuCARD2 future magnets program for particle accelerator high-field dipoles: Review of results and next steps. IEEE Transactions on Applied Superconductivity, 28(3), Art. no. 4001810.\n- [84] Bykovsky, N., Uglietti, D., Sedlak, K., Stepanov, B., Wesche, R. and Bruzzone, P., 2016. Performance evolution of 60 kA HTS cable prototypes in the EDIPO test facility. Superconductor Science and Technology, 29(8), p.084002.\n- [85] Bykovsky, N., Uglietti, D., Wesche, R. and Bruzzone, P., 2018. Damage investigations in the HTS cable prototype after the cycling test in EDIPO. IEEE Transactions on Applied Superconductivity, 28(4), Art. no. 4801705.\n- [86] Mulder, T., Weiss, J., van der Laan, D., Dudarev, A. and ten Kate, H., 2020. Recent progress in the development of CORC cable-in-conduit conductors. IEEE Transactions on Applied Superconductivity, 30(4), Art. no. 4800605.\n- [87] Weiss, J. D., C. Tarantini, J. Jiang, F. Kametani, A. A. Polyanskii, D. C. Larbalestier, and E. E. Hellstrom. \"High intergrain critical current density in fine-grain (Ba0 6K0.4) Fe2As2 wires and bulks.\" Nature Materials 11, no. 8 (2012): 682-685.\n- [88] Gao, Zhaoshun, Lei Wang, Chao Yao, Yanpeng Qi, Chunlei Wang, Xianping Zhang, Dongliang Wang, Chengduo Wang, and Yanwei Ma. \"High transport critical current densities in textured Fe-sheathed Sr1− xKxFe2As2+Sn superconducting tapes.\" Applied Physics Letters 99, no. 24 (2011): 242506.\n- [89] Wang, Nan Lin, Hideo Hosono, and Pengcheng Dai, eds. Iron-based superconductors: materials, properties and mechanisms. CRC Press, 2012.\n- [90] Ishida, Kenji, Yusuke Nakai, and Hideo Hosono. \"To what extent iron-pnictide new superconductors have been clarified: a progress report.\" Journal of the Physical Society of Japan 78, no. 6 (2009): 062001.\n- [91] Hosono, Hideo, Akiyasu Yamamoto, Hidenori Hiramatsu, and Yanwei Ma. \"Recent advances in iron-based superconductors toward applications.\" Materials Today 21, no. 3 (2018): 278-302.\n- [92] Hunte, F., J. Jaroszynski, A. Gurevich, D. C. Larbalestier, Rongying Jin, A. S. Sefat, Michael A. McGuire, Brian C. Sales, David K. Christen, and David Mandrus. \"Two-band superconductivity in LaFeAsO0.89F0.11 at very high magnetic fields.\" Nature 453, no. 7197 (2008): 903-905.\n- [93] Yamamoto, A., J. Jaroszynski, C. Tarantini, L. Balicas, J. Jiang, A. Gurevich, D. C. Larbalestier et al. \"Small anisotropy, weak thermal fluctuations, and high field superconductivity in Co-doped iron pnictide Ba(Fe1−xCox)2As2.\" Applied Physics Letters 94, no. 6 (2009): 062511.\n- [94] Lee, S., J. Jiang, J. D. Weiss, C. M. Folkman, C. W. Bark, C. Tarantini, A. Xu et al. \"Weak-link behavior of grain boundaries in superconducting Ba(Fe1−xCox)2As2 bicrystals.\" Applied Physics Letters 95, no. 21 (2009): 212505.\n- [95] Katase, Takayoshi, Yoshihiro Ishimaru, Akira Tsukamoto, Hidenori Hiramatsu, Toshio Kamiya, Keiichi Tanabe, and Hideo Hosono. \"Advantageous grain boundaries in iron pnictide superconductors.\" Nature Communications 2, no. 1 (2011): 1-6.\n- [96] Tarantini, Chiara, Chongin Pak, Yi-Feng Su, Eric E. Hellstrom, David C. Larbalestier, and Fumitake Kametani. \"Effect of heat treatments on superconducting properties and connectivity in K-doped BaFe2As2.\" Scientific Reports 11, no. 1 (2021): 1-11.\n- [97] Ma, Y., 2015. Development of high-performance iron-based superconducting wires and tapes. Physica C: Superconductivity and its Applications, 516, pp.17-26.\n- [98] Pak, C., Y. F. Su, Y. Collantes, C. Tarantini, E. E. Hellstrom, D. C. Larbalestier, and F. Kametani. \"Synthesis routes to eliminate oxide impurity segregation and their influence on intergrain connectivity in K-doped BaFe2As2 polycrystalline bulks.\" Superconductor Science and Technology 33, no. 8 (2020): 084010.\n- [99] Iida, Kazumasa, Jens Hänisch, and Akiyasu Yamamoto. \"Grain boundary characteristics of Febased superconductors.\" Superconductor Science and Technology 33, no. 4 (2020): 043001.\n- [100] Pyon, Sunseng, Haruto Mori, Tsuyoshi Tamegai, Satoshi Awaji, Hijiri Kito, Shigeyuki Ishida, Yoshiyuki Yoshida, Hideki Kajitani, and Norikiyo Koizumi. \"Fabrication of small superconducting coils using (Ba, A)Fe2As2 (A: Na, K) round wires with large critical current densities.\" Superconductor Science and Technology 34, no. 10 (2021): 105008.\n- [101] McInturff, A., R. Lundy, R. Remsbottom, and M. Wake. \"Ic (H, T) measurements for multikiloampere superconducting magnet conductor.\" *IEEE Transactions on Magnetics* 21, no. 2 (1985): 975-978.\n- [102] Taylor, C. E. \"Recent advances in the technology of superconducting accelerator magnets.\" *IEEE Transactions on Nuclear Science* 32, no. 5 (1985): 3562-3564.\n- [103] Larbalestier, D. \"Superconducting materials--A review of recent advances and current problems in practical materials.\" *IEEE Transactions on Magnetics* 17, no. 5 (1981): 1668-1686.\n- [104] Scanlan, Ronald M. \"Development of superconducting strand and cable with improved properties for use in SSC magnets.\" In Supercollider 1, pp. 219-222. Springer, Boston, MA, 1989.\n- [105] Scanlan, R.M., Dietderich, D.R. and Higley, H.C., 2000. Conductor development for high field dipole magnets. *IEEE Transactions on Applied Superconductivity*, 10(1), pp.288-293.\n- [106] Scanlan, R.M. and Dietderich, D.R., 2003. Progress and plans for the US HEP conductor development program. *IEEE Transactions on Applied Superconductivity*, 13(2), pp.1536-1541.\n- [107] Arup Ghosh, unpublished records from Brookhaven National Laboratory, 2003 to 2015.\n- [108] Wikus, Patrick, Wolfgang Frantz, Rainer Kümmerle, and Patrik Vonlanthen. \"Commercial gigahertz-class NMR magnets.\" Superconductor Science and Technology 35, no. 3 (2022): 033001.\n- [109] [ExecutiveOrder2022Feb] Joseph R. Biden Presidential Executive Order 14017, February 24, 2021.\n- [110] US Department of Energy, \"America's Strategy to Secure the Supply Chain for a Robust Clean Energy Transition\", February 24, 2022.\n- [111] Shiltsev, Vladimir, Stephen Gourlay, and Tor Raubenheimer. Snowmass' 21 Accelerator Frontier. No. FERMILAB-CONF-21-256-AD-APC. SLAC National Accelerator Lab., Menlo Park, CA (United States); Fermi National Accelerator Lab.(FNAL), Batavia, IL (United States), 2021, available at https://arxiv.org/abs/2208.09552 .\n- [112] Jaroszynski, Jan, A-M. Constantinescu, George Miller, A. Xu, A. Francis, Timothy P. Murphy, and D. C. Larbalestier. \"Rapid assessment of REBCO CC angular critical current density Jc (B, T= 4.2, K, θ) using torque magnetometry up to at least 30 tesla.\" Superconductor Science and Technology (2022) (accepted article).\n- [113] Winkler, T. and EcoSwing Consortium, 2019, April. The ecoswing project. In IOP Conference Series: Materials Science and Engineering (Vol. 502, No. 1, p. 012004). IOP Publishing.\n- [114] Kolchanova, I. and Poltavets, V., 2021, November. Superconducting generators for wind turbines. In 2021 International Conference on Electrotechnical Complexes and Systems (ICOECS) (pp. 529-533). IEEE.\n- [115] Grilli, F., Benkel, T., Hänisch, J., Lao, M., Reis, T., Berberich, E., Wolfstädter, S., Schneider, C., Miller, P., Palmer, C. and Glowacki, B., 2020, July. Superconducting motors for aircraft propulsion: the Advanced Superconducting Motor Experimental Demonstrator project. In Journal of Physics: Conference Series (Vol. 1590, No. 1, p. 012051). IOP Publishing.",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "CHALLENGES AND OPPORTUNITIES TO ASSURE FUTURE MANUFACTURING OF \nMAGNET CONDUCTORS FOR THE ACCELERATOR SECTOR",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              82.3271484375,
+              70.81787109375
+            ],
+            [
+              533.2349853515625,
+              70.81787109375
+            ],
+            [
+              533.2349853515625,
+              100.93359375
+            ],
+            [
+              82.3271484375,
+              100.93359375
+            ]
+          ]
+        },
+        {
+          "title": "White Paper for the Accelerator Frontier \nSnowmass '21",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              208.4326171875,
+              113.5986328125
+            ],
+            [
+              406.3035888671875,
+              113.5986328125
+            ],
+            [
+              406.3035888671875,
+              140.4755859375
+            ],
+            [
+              208.4326171875,
+              140.4755859375
+            ]
+          ]
+        },
+        {
+          "title": "Executive Summary",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              70.6728515625,
+              262.001953125
+            ],
+            [
+              179.95321655273438,
+              262.001953125
+            ],
+            [
+              179.95321655273438,
+              275.537109375
+            ],
+            [
+              70.6728515625,
+              275.537109375
+            ]
+          ]
+        },
+        {
+          "title": "Development path of magnet conductors from small samples to large-scale production",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              71.5693359375,
+              245.759765625
+            ],
+            [
+              533.2823486328125,
+              245.759765625
+            ],
+            [
+              533.2823486328125,
+              257.8897705078125
+            ],
+            [
+              71.5693359375,
+              257.8897705078125
+            ]
+          ]
+        },
+        {
+          "title": "Basic requirements at small-sample scale",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              72.017578125,
+              272.63671875
+            ],
+            [
+              274.6220703125,
+              272.63671875
+            ],
+            [
+              274.6220703125,
+              283.47601318359375
+            ],
+            [
+              72.017578125,
+              283.47601318359375
+            ]
+          ]
+        },
+        {
+          "title": "Considerations for research on nascent wires",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              72.30571746826172,
+              639.6328125
+            ],
+            [
+              293.3468933105469,
+              639.6328125
+            ],
+            [
+              293.3468933105469,
+              652.0078125
+            ],
+            [
+              72.30571746826172,
+              652.0078125
+            ]
+          ]
+        },
+        {
+          "title": "Considerations for industry R&D and scale-up",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              71.64404296875,
+              478.7578125
+            ],
+            [
+              296.4375,
+              478.7578125
+            ],
+            [
+              296.4375,
+              491.97601318359375
+            ],
+            [
+              71.64404296875,
+              491.97601318359375
+            ]
+          ]
+        },
+        {
+          "title": "Considerations for industry production readiness",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              71.64404296875,
+              175.18359375
+            ],
+            [
+              310.78125,
+              175.18359375
+            ],
+            [
+              310.78125,
+              188.43597412109375
+            ],
+            [
+              71.64404296875,
+              188.43597412109375
+            ]
+          ]
+        },
+        {
+          "title": "Magnet conductors in the Accelerator Sector portfolio for the next decade",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              71.71875,
+              549.9140625
+            ],
+            [
+              465.3708801269531,
+              549.9140625
+            ],
+            [
+              465.3708801269531,
+              564.609375
+            ],
+            [
+              71.71875,
+              564.609375
+            ]
+          ]
+        },
+        {
+          "title": "Notes:",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              72.09228515625,
+              267.802734375
+            ],
+            [
+              101.04676055908203,
+              267.802734375
+            ],
+            [
+              101.04676055908203,
+              279.791015625
+            ],
+            [
+              72.09228515625,
+              279.791015625
+            ]
+          ]
+        },
+        {
+          "title": "Restacked-rod-process RRP Nb\n3\nSn conductor: the present workhorse conductor",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              72.4658203125,
+              468.703125
+            ],
+            [
+              461.98828125,
+              468.703125
+            ],
+            [
+              461.98828125,
+              481.8515625
+            ],
+            [
+              72.4658203125,
+              481.8515625
+            ]
+          ]
+        },
+        {
+          "title": "Powder-in-tube PIT conductor and rod-in-tube RIT conductors",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              72.24169921875,
+              635.765625
+            ],
+            [
+              377.76385498046875,
+              635.765625
+            ],
+            [
+              377.76385498046875,
+              647.3671875
+            ],
+            [
+              72.24169921875,
+              647.3671875
+            ]
+          ]
+        },
+        {
+          "title": "Other Nb\n3\nSn designs",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              72.09228515625,
+              433.51171875
+            ],
+            [
+              175.5856170654297,
+              433.51171875
+            ],
+            [
+              175.5856170654297,
+              444.5818786621094
+            ],
+            [
+              72.09228515625,
+              444.5818786621094
+            ]
+          ]
+        },
+        {
+          "title": "Advanced Nb alloys for Nb\n3\nSn conductors",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              71.71875,
+              74.6402587890625
+            ],
+            [
+              276.2356872558594,
+              74.6402587890625
+            ],
+            [
+              276.2356872558594,
+              85.8515625
+            ],
+            [
+              71.71875,
+              85.8515625
+            ]
+          ]
+        },
+        {
+          "title": "Additions of high heat capacity materials into conductors",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              71.79345703125,
+              601.734375
+            ],
+            [
+              350.6309814453125,
+              601.734375
+            ],
+            [
+              350.6309814453125,
+              612.5625
+            ],
+            [
+              71.79345703125,
+              612.5625
+            ]
+          ]
+        },
+        {
+          "title": "Bi-2212 round wire conductor",
+          "heading_level": null,
+          "page_id": 10,
+          "polygon": [
+            [
+              71.12109375,
+              244.40625
+            ],
+            [
+              219.59033203125,
+              244.40625
+            ],
+            [
+              219.59033203125,
+              256.0078125
+            ],
+            [
+              71.12109375,
+              256.0078125
+            ]
+          ]
+        },
+        {
+          "title": "REBCO conductor",
+          "heading_level": null,
+          "page_id": 12,
+          "polygon": [
+            [
+              71.830810546875,
+              190.3623046875
+            ],
+            [
+              160.85610961914062,
+              190.3623046875
+            ],
+            [
+              160.85610961914062,
+              201.48046875
+            ],
+            [
+              71.830810546875,
+              201.48046875
+            ]
+          ]
+        },
+        {
+          "title": "Iron-based superconductors",
+          "heading_level": null,
+          "page_id": 13,
+          "polygon": [
+            [
+              71.457275390625,
+              519.36328125
+            ],
+            [
+              211.51124572753906,
+              519.36328125
+            ],
+            [
+              211.51124572753906,
+              530.19140625
+            ],
+            [
+              71.457275390625,
+              530.19140625
+            ]
+          ]
+        },
+        {
+          "title": "The role of public-private partnerships in conductor development",
+          "heading_level": null,
+          "page_id": 14,
+          "polygon": [
+            [
+              72.0,
+              385.8697509765625
+            ],
+            [
+              419.3027648925781,
+              385.8697509765625
+            ],
+            [
+              419.3027648925781,
+              397.93359375
+            ],
+            [
+              72.0,
+              397.93359375
+            ]
+          ]
+        },
+        {
+          "title": "Conductor Development Support under DOE-HEP",
+          "heading_level": null,
+          "page_id": 14,
+          "polygon": [
+            [
+              72.09228515625,
+              412.62890625
+            ],
+            [
+              313.931640625,
+              412.62890625
+            ],
+            [
+              313.931640625,
+              423.45703125
+            ],
+            [
+              72.09228515625,
+              423.45703125
+            ]
+          ]
+        },
+        {
+          "title": "Nurturing the industry ecosystem",
+          "heading_level": null,
+          "page_id": 15,
+          "polygon": [
+            [
+              71.419921875,
+              241.13519287109375
+            ],
+            [
+              237.0748291015625,
+              241.13519287109375
+            ],
+            [
+              237.0748291015625,
+              251.74188232421875
+            ],
+            [
+              71.419921875,
+              251.74188232421875
+            ]
+          ]
+        },
+        {
+          "title": "Potential favorable disruptive factors in science and industry",
+          "heading_level": null,
+          "page_id": 17,
+          "polygon": [
+            [
+              71.19580078125,
+              72.75146484375
+            ],
+            [
+              367.25152587890625,
+              72.75146484375
+            ],
+            [
+              367.25152587890625,
+              85.60986328125
+            ],
+            [
+              71.19580078125,
+              85.60986328125
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 18,
+          "polygon": [
+            [
+              71.5693359375,
+              152.2705078125
+            ],
+            [
+              144.50027465820312,
+              152.2705078125
+            ],
+            [
+              144.50027465820312,
+              166.30792236328125
+            ],
+            [
+              71.5693359375,
+              166.30792236328125
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              91
+            ],
+            [
+              "Line",
+              43
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "ListItem",
+              3
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              97
+            ],
+            [
+              "Line",
+              39
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "ListItem",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              51
+            ],
+            [
+              "Line",
+              22
+            ],
+            [
+              "ListItem",
+              4
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              120
+            ],
+            [
+              "Line",
+              50
+            ],
+            [
+              "ListItem",
+              10
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              98
+            ],
+            [
+              "Line",
+              43
+            ],
+            [
+              "ListItem",
+              8
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              84
+            ],
+            [
+              "TableCell",
+              71
+            ],
+            [
+              "Line",
+              43
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "PictureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              143
+            ],
+            [
+              "Line",
+              51
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              96
+            ],
+            [
+              "Line",
+              41
+            ],
+            [
+              "ListItem",
+              4
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              120
+            ],
+            [
+              "Line",
+              51
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "ListItem",
+              4
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              115
+            ],
+            [
+              "Line",
+              54
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              96
+            ],
+            [
+              "Line",
+              43
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              90
+            ],
+            [
+              "Line",
+              46
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              104
+            ],
+            [
+              "Line",
+              51
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              118
+            ],
+            [
+              "Line",
+              53
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 14,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              111
+            ],
+            [
+              "Line",
+              50
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 15,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              103
+            ],
+            [
+              "Line",
+              51
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "ListItem",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 16,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              102
+            ],
+            [
+              "Line",
+              48
+            ],
+            [
+              "ListItem",
+              7
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 17,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              102
+            ],
+            [
+              "Line",
+              49
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "ListItem",
+              4
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 18,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              173
+            ],
+            [
+              "Line",
+              49
+            ],
+            [
+              "ListItem",
+              14
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 19,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              187
+            ],
+            [
+              "Line",
+              51
+            ],
+            [
+              "ListItem",
+              17
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 20,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              194
+            ],
+            [
+              "Line",
+              52
+            ],
+            [
+              "ListItem",
+              17
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 21,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              136
+            ],
+            [
+              "Line",
+              52
+            ],
+            [
+              "ListItem",
+              15
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 22,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              137
+            ],
+            [
+              "Line",
+              51
+            ],
+            [
+              "ListItem",
+              16
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 23,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              139
+            ],
+            [
+              "Line",
+              52
+            ],
+            [
+              "ListItem",
+              15
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 24,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              148
+            ],
+            [
+              "Line",
+              51
+            ],
+            [
+              "ListItem",
+              19
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 25,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              19
+            ],
+            [
+              "Line",
+              8
+            ],
+            [
+              "ListItem",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 26,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Challenges and opportunities to assure future manufacturing of magnet conductors for the accelerator sector",
+    "authors": [
+      {
+        "authors_list": [
+          "Cooley, Lance",
+          "Larbalestier, David",
+          "Amm, Kathleen"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "We take a comprehensive look at conductors used in superconducting magnets for the accelerator sector and explore the ramifications of the present marketplace for supply of conductor to future accelerator facilities. While there are thousands of superconductors, many of which have promising properties for applications, we outline the journey a promising material must take to become a magnet conductor that is manufactured at the scale needed for an accelerator facility. Among the few materials that actually reach this scale, Nb$_{3}$Sn is arguably the workhorse conductor for the next generation of accelerators. Yet, a marketplace pull equivalent to the medical imaging magnet industry, which consumes close to 1000 tons of commodity-scale Nb-Ti conductor per year, has not emerged. This aspect greatly complicates the steps that must be taken to assure readiness of manufacturing for the next accelerator facility. Meanwhile, high-temperature superconductors (HTS), which are capable of extremely high fields at low temperature, are advancing rapidly as magnet conductors, and the long horizons of large physics projects could provide time for them to emerge and displace Nb-based materials. We close by examining in more detail the ecosystem that connects accelerator magnet conductors with broader industry applications, in particular areas that are presently in rapid development such as fusion and wind turbines and which would potentially require hundreds of tons of conductor.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2208.12379"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.2208.12379",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2022arXiv220812379C"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

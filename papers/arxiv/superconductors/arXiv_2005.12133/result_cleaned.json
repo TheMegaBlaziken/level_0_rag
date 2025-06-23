@@ -1,0 +1,852 @@
+{
+  "id": "9696345fe07a3891da4695122357b5b2",
+  "pdf_path": "apl/Superconductors/arXiv:2005.12133.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# Ab initio theory of the impact of grain boundaries and substitutional defects on superconducting Nb3Sn\n\nMichelle M Kelley, Nathan S Sitaraman and Tom´as A Arias\n\nDepartment of Physics, Cornell University, Ithaca, New York 14853, USA E-mail: mmk255@cornell.edu\n\nAbstract. Grain boundaries play a critical role in superconducting applications of Nb3Sn: in dc applications, grain boundaries preserve the material's inherently high critical current density by pinning flux, while in ac applications grain boundaries can provide weak points for flux entry leading to significant dissipation. We present the first ab initio study to investigate the physics of different grain boundary types in Nb3Sn and their impact on superconductivity using densityfunctional theory. We identify an energetically favorable selection of high-angle tilt and twist grain boundaries of distinct orientations. We find that clean grain boundaries free of point defects reduce the Fermi-level density of states by a factor of two, an effect that decays back to the bulk electronic structure ∼1–1.5 nm from the boundary. We further calculate the binding free-energies of tin substitutional defects to multiple boundaries, finding a strong electronic interaction that extends to a distance comparable to that of the reduction of density of states. Associated with this interaction, we discover a universal trend in defect electronic entropies near a boundary. We then probe the effects of defect segregation on grain boundary electronic structure and calculate the impact of substitutional impurities on the Fermi-level density of states in the vicinity of a grain boundary. We find that titanium and tantalum defects have little impact regardless of placement, whereas tin, copper, and niobium defects each have a significant impact but only on sites away from the boundary core. Finally, we introduce a model for a local superconducting transition temperature and consider how grain boundary composition affects Tc as a function of distance from the boundary plane. The methodology established in this manuscript can be applied to other A15 superconductors in addition to Nb3Sn.\n\nKeywords: Nb3Sn, grain boundaries, density functional theory, electronic structure, superconductivity, A15 superconductors, local T<sup>c</sup>\n\n### 1. Introduction\n\nConventional niobium-based superconductors continue to dominate industrial superconducting technologies, and with alluring prospects of high-T<sup>c</sup> superconductors stunted by their disappointing transport properties, further optimization of Nb3Sn in particular may be the most promising path towards higher performing devices [\\[1–](#page-9-0)[5\\]](#page-9-1). While niobium-titanium alloys are the most widely-used superconductor, especially for highfield magnets in particle accelerators, Nb3Sn offers the potential to operate both at higher fields and temperatures [\\[6,](#page-9-2) [7\\]](#page-9-3). However, many applications have historically avoided Nb3Sn, despite its superior superconducting properties, considering the challenges involved in manufacturing the material in a way that preserves its desirable properties. The vitality of industrial applications of Nb3Sn was made possible through the pioneering research of Dr. Suenaga and his colleagues at Brookhaven National Lab starting in the mid-1970s, notably through their research examining microstructural details that impact the material's superconducting performance and in particular, the studies revealing the importance of grain boundaries [\\[8](#page-9-4)[–15\\]](#page-9-5). Since then, Nb3Sn has been used or is actively being developed for superconducting applications in particle accelerators, fusion reactors, nuclear magnetic resonance instruments, and for nonmagnet applications such as superconducting radio frequency (SRF) cavities [\\[16](#page-9-6)[–20\\]](#page-9-7). While Nb–Ti is recognized to be performing close to its intrinsic limits, superconducting applications adopting Nb3Sn continue to improve, but the material's success hinges on controlling defects that impact performance and, moreover, a microscopic theory to predict the impact of competing defects known to be fundamental to the material's performance since the mid-1970s.\n\nNb3Sn is a type-II superconductor belonging to the A15 class of superconductors which held the record for highest T<sup>c</sup> from 1954–1986 [\\[21–](#page-9-8)[24\\]](#page-9-9). With a critical temperature of 18 K, Nb3Sn lives in an interesting regime sharing features of both elemental and high-T<sup>c</sup> superconductors. Grain boundaries are known to degrade the superconducting properties of cuprates, iron-based superconductors, and other modern high-T<sup>c</sup> superconductors, providing structural disorder on length scales comparable to their notably short coherence lengths [\\[25–](#page-9-10)[31\\]](#page-9-11). Nb3Sn is a conventional superconductor based on the elemental superconductor niobium, but unlike niobium, which has a coherence length of ∼50 nm, Nb3Sn has a coherence length of ∼3 nm, approaching the scale of structural disorder from grain boundaries [\\[2,](#page-9-12) [32,](#page-9-13) [33\\]](#page-9-14). There is even speculation that grain boundaries in Nb3Sn may exhibit Josephson-like effects [\\[34–](#page-9-15)[36\\]](#page-9-16).\n\nOptimization of Nb3Sn for superconducting applications hinges on achieving ideal grain boundary behavior. Grain boundaries in Nb3Sn are fundamental for growing the material itself [\\[8,](#page-9-4)[9,](#page-9-17)[37–](#page-9-18)[39\\]](#page-9-19), and prevailing limitations spotlight differing roles of grain boundaries in dc vs. ac applications. In dc applications such as superconducting wires, high grain boundary densities provide needed pinning centers to prevent vortices from limiting the critical current density [\\[5,](#page-9-1) [40,](#page-9-20) [41\\]](#page-9-21). In ac applications such as SRF cavities, significant dissipation arises once flux penetrates the cavity surface, and grain boundaries can lower the barrier for flux penetration [\\[33,](#page-9-14) [42–](#page-9-22)[44\\]](#page-10-0). The target field of use also needs to be considered when optimizing the material, governing whether to prioritize grain boundary size or composition as both are observed to affect transport properties [\\[4,](#page-9-23) [45,](#page-10-1) [46\\]](#page-10-2).\n\nDisorder and internal variations in stoichiometry in Nb3Sn are known to have a profound effect on the material's properties [\\[2,](#page-9-12) [47,](#page-10-3) [48\\]](#page-10-4), and stoichiometric variations at grain boundaries has been observed experimentally [\\[11,](#page-9-24) [41,](#page-9-21) [49\\]](#page-10-5). Numerical simulations based on empirical inputs find that strong gradients of tin composition can reduce the critical current density, the flux pinning force density, and flux pinning scaling field in superconducting wires [\\[50](#page-10-6)[–52\\]](#page-10-7). These simulations have been successful at describing experimental data and mapping back onto empirical laws, but there still lacks a microscopic theory on the role of grain boundaries in this material. Developing a microscopic description that readily contrasts effects caused by clean grain boundaries from effects caused by grain boundaries with stoichiometry gradients could advance applications of this material by identifying specific defect characteristics to control more precisely.\n\nNb3Sn is often engineered with ternary elements for various optimizations. Copper helps Nb3Sn growth by lowering the A15 formation temperature, and titanium and tantalum raise Hc2 and prevent the transformation into the tetragonal phase [\\[2,](#page-9-12) [15,](#page-9-5) [48,](#page-10-4) [53,](#page-10-8) [54\\]](#page-10-9). These impurities have been observed at and around grain boundaries with many reporting pronounced segregations of copper and titanium at grain boundaries [\\[11,](#page-9-24) [41,](#page-9-21) [55,](#page-10-10) [56\\]](#page-10-11). Experimentally, we can see only how atomic composition varies locally and cannot directly see local deviations in the electronic properties. Due to experimental limitations, the impact of different defects on the local superconducting properties near grain boundaries is an area hardly explored [\\[57\\]](#page-10-12). As Nb3Sn continues to be optimized, distinguishing the effects among defects opens up exciting prospects for grain boundary engineering, for advances in artificial pinning centers, and for developments in promising precipitates to add to the material [\\[58–](#page-10-13)[64\\]](#page-10-14). No comprehensive study of grain boundaries in Nb3Sn using density-functional theory currently exists, and ab initio calculations would allow us to extend our understanding beyond the limits of analyses which rely upon general empirical laws.\n\nThis work presents a study of the influence of grain boundaries on the properties of Nb3Sn from first principles using density-functional theory. We identify a selection of energetically favorable structures featuring both tilt and twist grain boundaries, study the impact of boundaries on the electronic structure, and investigate the behavior of point defects near a boundary. Motivated by recent experiments that found highly degraded quality factors in Nb3Sn SRF cavities with excess tin at grain boundaries, we contrast how the local superconducting properties are impacted near a clean grain boundary versus a grain boundary containing their measured tin concentration profile [\\[49\\]](#page-10-5).\n\n### 2. Methods\n\nWe perform density-functional theory (DFT) calculations within the pseudopotential framework using open-source plane wave software JDFTx [\\[65,](#page-10-15) [66\\]](#page-10-16). The electronic states are calculated for the outer electrons of niobium (4p <sup>6</sup>5s <sup>2</sup>4d 3 ) and tin (4d <sup>10</sup>5s <sup>2</sup>5p 2 ) while the atomic cores are treated using ultrasoft pseudopotentials [\\[67\\]](#page-10-17). We use the Perdew-Burke-Ernzerhof (PBE) approximation to the exchange-correlation functional and employ a 12 Hartree planewave cutoff energy [\\[68\\]](#page-10-18). Defect energies are calculated at high electronic temperatures using a Fermi function with a 5 milli-Hartree electronic temperature, chosen to be close to the experimental growth temperature of Nb3Sn cavities [\\[33,](#page-9-14) [69,](#page-10-19) [70\\]](#page-10-20). Parameters relevant to our superconductivity analysis such as the densities of states are calculated at zero-temperature using the cold-smearing method developed by Marzari where we again use a smearing width of 5 mH to maintain the same tolerance with respect to k-point sampling [\\[71\\]](#page-10-21). With these parameters, we calculate the lattice parameter for cubic A15 Nb3Sn to be 5.271 ˚A, in excellent agreement to its measured value of 5.289 ˚A [\\[2,](#page-9-12) [72\\]](#page-10-22). For cubic A15 Nb3Sn we sample 6<sup>3</sup> k-points in the Brillouin zone then transform to a maximally localized Wannier function basis to perform a dense Monte Carlo sampling to accurately calculate the density of states [\\[73\\]](#page-10-23). The kpoint meshes for the grain-boundary cells are chosen to have a sampling density comparable to the unit cell calculation, and their densities of states are calculated with a tetrahedral interpolation scheme. All results of the boundary cells involve fully relaxed internal atomic coordinates. We also consider the effects of lattice relaxation by setting the interfacial plane at the bulk lattice constant and allowing the lattice to relax along the boundary plane normal. We note, however, that the lattice relaxations do not significantly change any of the boundary energies so the results reported in this paper are calculated at the bulk lattice constant.\n\n### 3. Boundary structures and energies\n\nNb3Sn is an intermetallic alloy in the A15 phase; its cubic unit cell is displayed in figure [1\\(](#page-3-0)a) [\\[74\\]](#page-10-24). The A15 structure is characterized with one species of atom (tin) forming a bcc-lattice and each cube face containing two of the other atomic species (niobium). The atoms on each cube face form long one-dimensional chains of transition metals in the three orthogonal directions [\\[75\\]](#page-10-25). This particular structure is characteristically accompanied with a high Fermi-level density of states [\\[72\\]](#page-10-22).\n\nThe electronic structure and properties of the A15 superconductors are known to be extremely sensitive to point defects, particularly when the structure strays away from its ideal stoichiometry [\\[47,](#page-10-3) [76\\]](#page-10-26). Here, we investigate the impact of extended defects on the properties of Nb3Sn by performing DFT calculations on grain boundaries, including boundaries containing point defects. To our knowledge, the only existing firstprinciples studies on grain boundaries in this material are an unpublished thesis [\\[77\\]](#page-10-27) and a recent study that looked at three defect sites in one boundary cell but included no results on the electronic structure [\\[49\\]](#page-10-5).\n\nA grain boundary refers to the interface between two crystal grains of differing orientations or compositions. Geometrically, grain boundaries can be described by the interfacial plane, axis of rotation, and misorientation angle between the two grains [\\[78\\]](#page-10-28). The two idealized boundary types are the twist and tilt boundaries, and an example of each is shown in figure [1\\(](#page-3-0)b) and (c) respectively.\n\nGrain boundaries are planar defects with excess free energy per unit area, corresponding to the energy to form the surface defect. For a simple estimate of a grain boundary energy, we follow Ref. [79](#page-10-29) to estimate the amount of elastic work done to create a surface based on the material's elastic modulus. Since Nb3Sn\n\n![](_page_3_Figure_2.jpeg)\n\n<span id=\"page-3-0\"></span>Figure 1. Atomic structures with niobium colored in blue and tin in red. (a) The unit cell of cubic A15 Nb3Sn with the tin atoms forming a bcc-lattice and chains of niobium atoms running along the faces of the cubes in the three orthogonal directions. Relaxed atomic positions in (b) the (110)-twist boundary cell and (c) the (110)-tilt boundary cell reported in table [1.](#page-3-1)\n\n<span id=\"page-3-1\"></span>Table 1. List of boundaries labeled with their interfacial plane and boundary type, misorientation angle, distance between boundaries, and relaxed grain boundary energy, γ.\n\n| Boundary    | θ     | Grain Separation | γ (mJ m−2<br>) |\n|-------------|-------|------------------|----------------|\n| (110)-tilt  | 90◦   | 2.99 nm          | 1455           |\n| (112)-tilt  | 70.5◦ | 2.59 nm          | 840            |\n| (120)-tilt  | 53.1◦ | 2.36 nm          | 1440           |\n| (100)-twist | 90◦   | 2.64 nm          | 650            |\n| (110)-twist | 70.5◦ | 2.36 nm          | 1300           |\n\nhas a elastic modulus of ∼127 GPa [\\[80\\]](#page-10-30), we expect grain boundary energies roughly in the range of 700– 1500 mJ m<sup>−</sup><sup>2</sup> .\n\nTable [1](#page-3-1) lists a selection of relaxed tilt and twist grain boundary cells with the fourth column indicating the surface formation energy of each boundary. The amount of energy to form a surface defect from a pure bulk crystal is determined by the energy difference between the total energy of a cell containing the surface defect and the total energy of a bulk cell containing the same number of atoms. The grain boundary energy, γ, is this energy difference divided by the area of the interfacial plane to become an intensive quantity\n\n$$\\gamma = \\frac{(E\\_{\\rm GB} - E\\_{\\rm bulk})}{2A},\\tag{1}$$\n\nwhere EGB and Ebulk refer to the total energies of the boundary structure and the bulk structure of the same size, and A is the area of one of the two interfaces contained within a surface defect unit cell. All table entries except for the (100)-twist involve symmetric structures, meaning the uniform bulk crystal is restored with a vanishing misorientation angle [\\[81\\]](#page-11-0). In the case of the (100)-twist, two niobium atoms overlap near the boundary plane and one niobium atom removed at each interface is thereby removed. A chemical potential enters the surface energy calculation to account for the change in stoichiometry, and we use the chemical potential of bulk niobium as Nb3Sn is often grown on a niobium substrate.\n\nThe structures in table [1](#page-3-1) all fall within the expected energy range, and we have succeeded in identifying structures near the low end of the expected energy range for both the tilt and twist classes. These low energy boundaries provide representative examples of high-angle boundaries that we would expect to find in realistic samples. Understanding grain boundary structures and energies can advance applications of this material as grain boundary energies are one of the key factors driving grain growth, and larger grains produce weaker flux pinning force densities [\\[5,](#page-9-1) [82,](#page-11-1) [83\\]](#page-11-2).\n\n# 4. The impact of a clean boundary on electronic structure\n\nA notable feature of the A15 superconductors is their high Fermi-level density of states. For weaklycoupled superconductors, the critical temperature can be described with the BCS equation, which exhibits an exponential dependence on the Fermi-level density of\n\n![](_page_4_Figure_1.jpeg)\n\n<span id=\"page-4-1\"></span>Figure 2. (a) Total density of states in bulk Nb3Sn calculated in a maximally localized Wannier function basis. The d-orbital projected density of states of niobium atoms plotted on the same scale in (b) a pure bulk cell, and in the (c) bulk region and (d) grain boundary core of (112)-tilt boundary cell. Each of (b–d) are plotted on the same scale for direct comparison.\n\nstates N(0)\n\n<span id=\"page-4-0\"></span>\n$$k\\_{\\rm B}T\\_{\\rm c} = 1.14 E\\_{\\rm D} \\text{e}^{-1/N(0)V},\\tag{2}$$\n\nand E<sup>D</sup> refers to the cutoff energy for phonons in the Debye model. Strongly-coupled superconductors such as Nb3Sn are more accurately described with Eliashberg theory applied within a density-functional framework to calculate the electron-phonon coupling, V from first principles [\\[84](#page-11-3)[–86\\]](#page-11-4). The critical temperature in this case is determined with the phenomenological McMillan formula, which exhibits the same exponential dependence on N(0) as equation [\\(2\\)](#page-4-0) [\\[87\\]](#page-11-5).\n\nFigure [2\\(](#page-4-1)a) shows the total density of states of cubic A15 Nb3Sn. To visualize the contribution of the 1D niobium chains, we plot the partial projected density of states along d-orbitals of bulk niobium atoms in figure [2\\(](#page-4-1)b).\n\nThe high peak in the density of states at the Fermi-level varies rapidly on small energy scales, dropping by more than a factor of 2 within 0.2 eV. This feature is a result of the conducting d-orbitals of the long 1D-chains of niobium atoms, or other transition metals for the other A15 superconductors [\\[2,](#page-9-12) [72\\]](#page-10-22). This is confirmed by comparing figure [2\\(](#page-4-1)a) and (b), revealing the direct correspondence between the niobium atom d-orbital projected density of states with the total density of states.\n\nGiven the strong dependence superconductivity has on the Fermi-level density of states, especially for the A15 superconductors, we investigate how grain boundaries impact the density of states. In figure [2](#page-4-1) we plot the d-orbital projected density of states of (c) six niobium atoms in the bulk region and (d) six niobium atoms on the grain boundary core in the (112)-tilt boundary. We note that figures [2\\(](#page-4-1)b–d) are plotted on the same scale and can be compared relative to one another. The niobium atoms in the bulk region of the boundary cell have densities of states nearly indistinguishable from that of niobium atoms in infinite bulk Nb3Sn, showing that our cell is converged with respect to the boundary separation. For the niobium atoms on the grain-boundary core, the Fermi-level density of states is significantly reduced, roughly by a factor of two. A global reduction of this magnitude would decrease the superconducting transition temperature by over 10 K, a significant portion of its experimentally measured value of 18 K.\n\nTo see how far this reduction extends into the crystal, we perform local density of states calculations, averaging over slabs perpendicular to the boundary plane. Results from this local density of states analysis and the corresponding profile of the Fermi-level density of states are plotted in figure [3](#page-5-0) for the (112)-tilt boundary. We find that the factor of two reduction in the Fermi-level density of states at the grain boundary core decays smoothly back to the bulk value, in ∼1 nm from this boundary, and in ∼1–1.5 nm from boundaries in general. This range of impact of the boundary on the electronic structure is surprisingly wide, a fact which we will see has important implications for impurities and the impact of boundaries on Tc.\n\n# 5. Interactions between boundaries and point defects\n\n# 5.1. Binding energy of tin antisite defects to a boundary\n\nUnderstanding how defects interact with grain boundaries in Nb3Sn can advance growth techniques and superconducting applications of this material. The diffusivity of tin atoms through grain boundaries relative to bulk is important for Nb3Sn growth [\\[88\\]](#page-11-6). Tin defects at grain boundaries have been observed to be particularly detrimental to the material's superconducting properties across multiple applications [\\[5,](#page-9-1)[41,](#page-9-21)[49\\]](#page-10-5). Accordingly, we first turn our attention towards tin defects near a grain boundary.\n\nThe prevailing tin defect in A15 Nb3Sn consists of a tin atom sitting on niobium site, denoted as SnNb [\\[38\\]](#page-9-25). In the top panel of figure [4,](#page-5-1) we plot the defect free-energies of tin substitutions relative to a tin substitution in bulk as a function of distance from a boundary in the (110)-tilt, (112)-tilt, and (100)-twist boundary cells. The bottom panel of figure [4](#page-5-1) displays the electronic entropy component of these free energies.\n\nWe find a strong, extended electronic interaction between tin antisite defects and grain boundaries that\n\n![](_page_5_Figure_1.jpeg)\n\n![](_page_5_Figure_2.jpeg)\n\n<span id=\"page-5-0\"></span>Figure 3. Local density of states curves across slabs in the (112)-tilt boundary cell (top). The corresponding Fermilevel density of states profile as a function of distance from the boundary (bottom).\n\ndecays to bulk behavior within ∼1–1.5 nm. Near the boundary, we find a range of attractive and repulsive sites in each of the three boundary cells and conclude that the trends in these antisite freeenergies may be complicated by structural details of the boundaries. Remarkably, however, the electronic entropy components of these free energies collapse onto a single curve when plotted as a function of distance. The resulting curve explains the general magnitude and range of the interaction with the boundary. We find significant free-energy gains approaching ∼0.5 eV favoring segregation of tin defects towards grain boundaries, providing an important gettering effect that could be exploited in the production of the superconducting material to control how tin distributes within various regions throughout the crystalline matrix.\n\n# 5.2. Impact of substitutional defects on a boundary's electronic structure\n\nTo gain insight on the combined effect of defects and grain boundaries on superconductivity in this material, we look to see how various defects impact\n\nFigure 4. Binding free-energies of SnNb defects to grain boundaries (top) and the corresponding electronic entropy contributions to the free energy (bottom) calculated at a high electronic temperature of 5 milliHartree comparable to experimental growth temperatures.\n\n<span id=\"page-5-1\"></span>\f!#-\n\nthe local Fermi-level density of states. In light of the nearly universal electronic interactions calculated above, we consider for these investigations a single example for a case study, selecting the (112)-tilt boundary which contains an interfacial plane that has been experimentally observed [\\[49\\]](#page-10-5).\n\nBecause of the prevalence of metallic substitutions detected at grain boundaries in Nb3Sn [\\[11,](#page-9-24) [41,](#page-9-21) [49\\]](#page-10-5), we consider the two antisite defects SnNb and NbSn as well as defects of common ternary additions TiNb, TaNb, and CuSn [\\[12,](#page-9-26) [82\\]](#page-11-1). For a defect on the grain boundary core, we put the defect atom on the lowestenergy defect site identified within the core of the (112)-tilt boundary. We then compare the effect of this substitutional defect to the same defect when instead placed in the bulk region in a second calculation.\n\nAbove, we investigated the effect of a clean grain boundary on the local Fermi-level density of states. Here, we repeat the same procedure in the presence of one substitutional defect. Figure [5\\(](#page-6-0)a) compares the profiles of the Fermi-level density of states resulting from SnNb, NbSn, TiNb, TaNb, and CuSn defects, and figure [5\\(](#page-6-0)b) indicates the substitution sites that we use in this study. The profile of the clean grain boundary\n![](0__page_6_Figure_1.jpeg)\n\nFigure 5. (a) Local Fermi-level density of states across the (112)-tilt boundary including one defect atom on the grain boundary core (dotted lines) or in bulk (solid lines). (b) Atomic configuration displaying the tin and niobium atoms (red, blue), and the tin and niobium sites for substitutional defects (black, white).\n\nfree of point defects is displayed in figure [3.](#page-5-0)\n\nWe find that, because a clean grain boundary itself already degrades the Fermi-level density of states by a factor of two, placing a point defect on the grain boundary core does not degrade it further. In contrast, placing defects in the bulk region allows for a greater impact on the local Fermilevel density of states. The most notable reductions arise from the SnNb, NbSn, and CuSn defects in bulk. These particular point defects profoundly disturb the conducting d-orbitals along the niobium chains. Interestingly, the TiNb and TaNb defects in bulk preserve most of the Fermi-level density of states, likely due to the chemical similarity of these elements to niobium, consistent with empirical observations that these elements do not degrade, and even can slightly enhance, superconducting performance [\\[15\\]](#page-9-0).\n\nThe disparity between the effects from these defects underscores the importance of distinguishing variations in stoichiometry arising from ternary elements from intrinsic variations in tin content which can have entirely different consequences for the superconductivity of the material. Furthermore, the strong dependence on the impurities' positions indicates the importance of high-resolution atomic imaging to measure atomic composition profiles and accurately determine the spatial extent of defect segregation.\n\n## 6. Superconductivity and grain boundary composition\n\nFinally, we can put the above results together to produce a model of how grain boundary composition affects the local superconducting properties in Nb3Sn. A popular model to describe flux pinning at grain boundaries uses diffuse isotropic scattering to estimate how the electronic mean free path is reduced near a boundary, likewise reducing the coherence length and causing local variations of the superconducting properties [\\[89\\]](#page-11-0). Given the sensitivity that T<sup>c</sup> in Nb3Sn has to variations in the Fermi-level density of states, we expect these variations to be fundamental in determining the local superconducting properties. Accordingly, we present an alternative model of local superconductivity that may be better suited for Nb3Sn and the other A15 superconductors.\n\nHere, we study the impact of a grain boundary with tin concentrations corresponding to measurements of Ref. [49](#page-10-0) that reported a Gibbsian interfacial excess of 10–20 tin atoms/nm<sup>2</sup> . To model their observations, we include tin defects at locations corresponding to the experimentally observed concentration profile within the (110)-tilt boundary cell displayed in figure [6\\(](#page-7-0)a). Ref. [49](#page-10-0) reports a segregation width of ∼3 nm containing a maximum tin concentration of 35%, and the gray curve in figure [6\\(](#page-7-0)b) approximates this with a Gaussian displaying a peak concentration of 35% and a width of 4σ = 3 nm. To ensure we do not overestimate the effects of tin-segregated grain boundaries, we add a modest excess of 10 tin atoms/nm<sup>2</sup> spanning a slightly smaller width than that reported. To confirm that our choice of defect locations for the excess tin atoms reproduces the experimental profile, figure [6\\(](#page-7-0)b) shows our final atomic arrangement convolved with a Gaussian corresponding to the lateral resolution of the probe used in the aforementioned experiments. We have confirmed that our results are insensitive to rearrangement of the defects, provided the concentration profile remains the same.\n\nThe depression in the Fermi-level density of states from the tin-rich boundary extends much further than that of its stoichiometric counterpart, while the depth of the depression is only slightly deeper. To understand the impact of the clean and tin-rich boundary structures on the local superconducting transition temperature Tc, we note that first principles studies in Nb3Sn have established that the primary impact on T<sup>c</sup> in this material comes from the Fermilevel density of states as opposed to other factors. Specifically, a first principles study on the impact on strain in Nb3Sn showed that ∼80% of the degradation of the superconducting properties from strain comes from the reduction in the Fermi-level density of states [\\[90\\]](#page-11-1), and another first principles study on\n\n![](0__page_7_Figure_1.jpeg)\n\n<span id=\"page-7-0\"></span>Figure 6. (a) Two-dimensional slice of the electron density in the (110)-tilt boundary. (b) Atomic concentration profile added to the (110)-tilt boundary to simulate the interfacial excess measurements reported in Ref. [49,](#page-10-0) approximated by the gray curve. (c) Local Fermi-level density of states profiles around the clean and tin-rich (110)-tilt boundaries. (d) Resulting estimates of a local superconducting transition temperature Tc obtained by averaging the profiles over the volume of a sphere. Solid lines represent an average over the expected size of a Cooper pair in this material and dotted lines display how this result changes with size.\n\nantisite defects in Nb3Sn also found T<sup>c</sup> to be strongly correlated with the Fermi-level density of states [\\[76\\]](#page-10-1). To provide local values for Tc, the Fermi-level density of states must be averaged over an appropriate length scale corresponding to the superconducting coherence length. Figure [6\\(](#page-7-0)d) shows estimates for a local T<sup>c</sup> obtained by integrating the density of states profiles in figure [6\\(](#page-7-0)c) over a sphere of radius 3 nm to coincide with the coherence length of Nb3Sn. To explore the sensitivity of this result to the form of the averaging, figure [6\\(](#page-7-0)d) also shows the result from averaging over a sphere of radius 5 nm.\n\nWe find, regardless of the form of the averaging, the reduction in T<sup>c</sup> to be wider and much deeper for the tin-rich boundary than for the clean boundary, although the magnitude of the effect is sensitive to averaging. The local T<sup>c</sup> around a clean grain boundary is barely degraded because the depression in the density of states has a diameter of ∼2 nm while a Cooper pair has a radius of 3 nm. However, a boundary filled with tin-defects widens the depression in the density of states, to the detriment of the local superconducting properties: the reduction in T<sup>c</sup> becomes significantly wider and deeper. This result correlates well with the findings of Ref. [49,](#page-10-0) reporting high quality factors from Nb3Sn SRF cavities containing clean grain boundaries and degraded quality factors from cavities containing tin-rich grain boundaries. We predict similar degradations in the local superconducting properties from boundaries filled with NbSn and CuSn defects, and note that similar effects on copper's influence have been observed [\\[60\\]](#page-10-2).\n\nGrain boundaries with low T<sup>c</sup> are a candidate mechanism that lowers the first vortex entry field in Nb3Sn SRF cavities, and enhancing flux pinning in Nb3Sn superconducting wires is the only opportunity to improve critical current densities [\\[5,](#page-9-1) [91\\]](#page-11-2). Ginzburg-Landau simulations can build off of these local T<sup>c</sup> estimates to further our understanding of flux penetration and pinning at grain boundaries in Nb3Sn and how these processes are affected by grain boundary composition [\\[42,](#page-9-2) [44,](#page-10-3) [51\\]](#page-10-4).\n\n## 7. Conclusions\n\nThis paper presents the first ab initio investigation of the physics of different boundary types in Nb3Sn. To our knowledge, this study is the first to consider twist boundaries in addition to tilts and to include boundary planes with distinct orientations. We present a selection of energetically favorable structures and identify structures at the low end of the expected energy range for both boundary types. These representative structures provide a foundation to examine the physics of grain boundaries in superconducting Nb3Sn broadly.\n\nWe present the impact of multiple classes of grain boundaries on the electronic structure and find that the Fermi-level density of states is significantly degraded, which is expected from the disrupted niobium chains in the A15 phase. A global reduction of this amount would decrease T<sup>c</sup> by over 10 K. We find that grain boundaries have a striking long-range effect on the electronic structure, where the depression in the Fermilevel density of states extends out to ∼1–1.5 nm on each side. The narrowest depressions occur in the symmetric boundaries we study, widening slightly in the asymmetric cell we consider, and so we anticipate random high-angle grain boundaries in general to have depressions on the wider side of this range because of the greater disruption within the structure.\n\nLooking towards the impact of a boundary's electronic structure on the binding energy of defects, we find a strong electronic interaction that also extends out ∼1–1.5 nm. Defect free-energies near the boundary are complicated by local structural details, but the electronic entropy contributions to the defectboundary interaction remarkably collapse onto a single curve. This attractive electronic entropy contribution provides a ready explanation for the magnitude and range of the interaction favoring tin segregation at grain boundaries. We predict grain boundaries to have a full-width interaction range of ∼2–3 nm with point defects, correlating well with atomic content measurements [\\[11,](#page-9-3) [41,](#page-9-4) [49\\]](#page-10-0).\n\nDefects also affect the electronic structure of grain boundaries. We find that point defects on the grain boundary core do not degrade the Fermi-level density of states much beyond the impact of the boundary itself. However, point defects away from the boundary core have much more of a relative impact, with bulk SnNb, NbSn, CuSn defects in particular being severely detrimental. In contrast, we find evidence that other defects such as TiNb and TaNb can be used as dopants at low concentration without severely impacting the electronic structure of the material. Electronic structure studies such as these can inform further exploration of prospective dopants without the cost and challenges of experimentally examining every possible dopant.\n\nFinally, we introduce a novel model for a local superconducting transition temperature T<sup>c</sup> in the vicinity of a grain boundary that we expect to be applicable for Nb3Sn and the other A15 superconductors. Given the fact that the transition temperature in Nb3Sn is most sensitive to the Fermilevel density of states and the damaging impact SnNb defects have on this quantity, we contrast the effect of a clean grain boundary from the effect of a boundary containing a tin concentration profile analogous to those observed in experiment. We find a wide depression in the Fermi-level density of states from the tin-rich boundary that extends further than from a clean boundary of the same structure. We predict that this wider depression causes a large reduction in T<sup>c</sup> around the tin-rich boundary compared to the slight reduction in T<sup>c</sup> around a clean boundary. This result explains from first principles why grain boundaries with excess tin are significantly more detrimental to superconductivity than are clean grain boundaries and provides a fundamental understanding of how the control of SnNb defects becomes crucial for superconducting applications of Nb3Sn.\n\nLong standing efforts towards improving the performance of Nb3Sn are resulting in a resurgence of the material, allowing for large scale superconducting applications to operate at higher fields and temperatures. Improving critical current densities in Nb3Sn requires recognizing the relevant microstructures worth controlling. Producing finer grains without deleterious tin gradients is an ongoing challenge, and densityfunctional theory can potentially identify candidate additives to aid in experimental developments. In order to continue improving applications of Nb3Sn, it is imperative to continue improving our microscopic description of competing defects within the material, and ab initio grain boundary calculations provide a promising new perspective previously overlooked.\n\n## Acknowledgments\n\nWe would like to thank Jim Sethna, David Muller, Matthias Liepe, and Ryan Porter of Cornell University and Sam Posen of Fermilab for insightful discussions regarding grain boundaries and Nb3Sn, Jaeyel Lee and David Seidman of Northwestern University for sharing their experimental measurements, and Ravishankar Sundararaman of Rensselaer Polytechnic Institute for all the momentous first-principles software he continues to develop.\n\nThis work was supported by the US National Science Foundation under award PHY-1549132, the Center for Bright Beams.\n\n## References\n\n- [1] Jin S and Graebner J 1991 Processing and fabrication techniques for bulk high-Tc superconductors: A critical review Mater. Sci. Eng. B 7 [243 – 260.](http://dx.doi.org/https://doi.org/10.1016/0921-5107(91)90001-C)\n- [2] Godeke A 2006 A review of the properties of Nb3Sn and their variation with A15 composition, morphology and strain state Supercond. Sci. Technol. 19 [R68.](http://dx.doi.org/10.1088/0953-2048/19/8/R02)\n- [3] Foltyn S R, Civale L, MacManus-Driscoll J L, Jia Q X, Maiorov B, Wang H and Maley M 2007 Materials science challenges for high-temperature superconducting wire Nat. Mater. 6 [631–642.](http://dx.doi.org/https://doi.org/10.1038/nmat1989)\n- [4] Lee P J and Larbalestier D C 2008 Microstructural factors important for the development of high critical current density Nb3Sn strand Cryogenics 48 [283 – 292](http://dx.doi.org/https://doi.org/10.1016/j.cryogenics.2008.04.005) Special Issue: Low-Tc Superconducting Materials.\n- <span id=\"page-9-1\"></span>[5] Xu X 2017 A review and prospects for Nb3Sn superconductor development Supercond. Sci. Technol. 30 [093001.](http://dx.doi.org/10.1088/1361-6668/aa7976)\n- [6] Garber M, Suenaga M, Sampson W B and Sabatini R L 1986 Critical current studies on fine filamentary NbTi accelerator wires Advances in Cryogenic Engineering Materials (Boston: Springer) [707–714.](http://dx.doi.org/10.1007/978-1-4613-9871-4_84)\n- [7] Ballarino A and Bottura L 2015 Targets for R&D on Nb3Sn conductor for high energy physics IEEE Trans. Appl. Supercond. 25 [1–6.](http://dx.doi.org/10.1109/TASC.2015.2390149)\n- [8] Farrell H H, Gilmer G H and Suenaga M 1974 Grain boundary diffusion and growth of intermetallic layers: Nb3Sn J. Appl. Phys. 45 [4025–4035.](http://dx.doi.org/10.1063/1.1663907)\n- [9] Farrell H H, Gilmer G H and Suenaga M 1975 Diffusion mechanisms for the growth of Nb3Sn intermetallic layers Thin Solid Films 25 [253–264.](http://dx.doi.org/10.1016/0040-6090(75)90261-8)\n- [10] Suenaga M, Sampson W and Luhman T 1981 Fabrication techniques and properties of multifilamentary Nb3Sn conductors IEEE Trans. Magn. 17 [646–653.](http://dx.doi.org/10.1109/TMAG.1981.1060995)\n- <span id=\"page-9-3\"></span>[11] Suenaga M and Jansen W 1983 Chemical compositions at and near the grain boundaries in bronze-processed superconducting Nb3Sn Appl. Phys. Lett. 43 [791–793.](http://dx.doi.org/10.1063/1.94457)\n- [12] Tafto J, Suenaga M and Welch D O 1984 Crystal site determination of dilute alloying elements in polycrystalline Nb3Sn superconductors using a transmission electron microscope J. Appl. Phys. 55 [4330–4333.](http://dx.doi.org/10.1063/1.333045)\n- [13] Suenaga M 1985 Optimization of Nb3Sn IEEE Trans. Magn. 21 [1122–1128.](http://dx.doi.org/10.1109/TMAG.1985.1063633)\n- [14] Suenaga M, Klamut C, Higuchi N and Kuroda T 1985 Properties of Ti alloyed multifilamentary Nb3Sn wires by internal tin process IEEE Trans. Magn. 21 [305–308.](http://dx.doi.org/10.1109/TMAG.1985.1063675)\n- <span id=\"page-9-0\"></span>[15] Suenaga M, Welch D O, Sabatini R L, Kammerer O F and Okuda S 1986 Superconducting critical temperatures, critical magnetic fields, lattice parameters, and chemical compositions of \"bulk\" pure and alloyed Nb3Sn produced by the bronze process J. Appl. Phys. 59 [840–853.](http://dx.doi.org/10.1063/1.336607)\n- [16] Parrell J A, Field M B, Zhang Y and Hong S 2005 Advances in Nb3Sn strand for fusion and particle accelerator applications IEEE Trans. Appl. Supercond. 15 [1200–](http://dx.doi.org/10.1109/TASC.2005.849531) [1204.](http://dx.doi.org/10.1109/TASC.2005.849531)\n- [17] Ciazynski D 2007 Review of Nb3Sn conductors for ITER Fusion Eng. Des. 82 [488 – 497](http://dx.doi.org/https://doi.org/10.1016/j.fusengdes.2007.01.024) Proceedings of the 24th Symposium on Fusion Technology.\n- [18] Sharma R G 2015 Superconductivity: Basics and Applications to Magnets [\\(Cham: Springer International](http://dx.doi.org/10.1557/mrs.2015.217) [Publishing\\).](http://dx.doi.org/10.1557/mrs.2015.217)\n- [19] Posen S, Liepe M and Hall D L 2015 Proof-of-principle demonstration of Nb3Sn superconducting radiofrequency cavities for high Q<sup>0</sup> applications Appl. Phys. Lett. [106](http://dx.doi.org/10.1063/1.4913247) [0–4.](http://dx.doi.org/10.1063/1.4913247)\n- [20] Ambrosio G 2015 Nb3Sn high field magnets for the high luminosity LHC upgrade project IEEE Trans. Appl. Supercond. 25 [1–7.](http://dx.doi.org/https://doi.org/10.1109/TASC.2014.2367024)\n- [21] Echarri A and Spadoni M 1971 Superconducting Nb3Sn: A review Cryogenics 11 [274–284.](http://dx.doi.org/10.1016/0011-2275(71)90183-4)\n- [22] Dew-Hughes D 1975 Superconducting A-15 compounds: A review Cryogenics 15 [435–454.](http://dx.doi.org/10.1016/0011-2275(75)90019-3)\n- [23] Fl¨ukiger R 1987 Atomic Ordering, Phase Stability and Superconductivity in Bulk and Filamentary A15 Type compounds PhD thesis Institut f¨ur Technische Physik Forschungszentrum Karlsruhe.\n- [24] Stewart G R 2015 Superconductivity in the A15 structure Phys. C Supercond. its Appl. 514 [28–35.](http://dx.doi.org/10.1016/j.physc.2015.02.013)\n- [25] Babcock S E and Vargas J L 1995 The nature of grain boundaries in the high-Tc superconductors Annu. Rev. Mater. Sci. 25 [193–222.](http://dx.doi.org/10.1146/annurev.ms.25.080195.001205)\n- [26] Dimos D, Chaudhari P and Mannhart J 1990 Superconducting transport properties of grain boundaries in YBa2Cu3O<sup>7</sup> bicrystals Phys. Rev. B 41 [4038–4049.](http://dx.doi.org/10.1103/PhysRevB.41.4038)\n- [27] Hilgenkamp H and Mannhart J 2002 Grain boundaries in high-Tc superconductors Rev. Mod. Phys. 74 [485–549.](http://dx.doi.org/10.1103/revmodphys.74.485)\n- [28] Gurevich A 2011 To use or not to use cool superconductors? Nat. Mater. 10 [255–259.](http://dx.doi.org/10.1038/nmat2991)\n- [29] Katase T, Ishimaru Y, Tsukamoto A, Hiramatsu H, Kamiya T, Tanabe K and Hosono H 2011 Advantageous grain boundaries in iron pnictide superconductors Nat. Commun. 2 [1–6.](http://dx.doi.org/10.1038/ncomms1419)\n- [30] Durrell J H, Eom C B, Gurevich A, Hellstrom E E, Tarantini C, Yamamoto A and Larbalestier D C 2011 The behavior of grain boundaries in the Fe-based superconductors Rep. Prog. Phys. 74 [124511.](http://dx.doi.org/10.1088/0034-4885/74/12/124511)\n- [31] Iida K, Hnisch J and Yamamoto A 2020 Grain boundary characteristics of Fe-based superconductors Supercond. Sci. Technol. 33 [043001.](http://dx.doi.org/10.1088/1361-6668/ab73ef)\n- [32] Draskovic J, Lemberger T R, Peters B, Yang F, Ku J, Bezryadin A and Wang S 2013 Measuring the superconducting coherence length in thin films using a two-coil experiment Phys. Rev. B 88 [1–5.](http://dx.doi.org/10.1103/PhysRevB.88.134516)\n- [33] Posen S and Hall D L 2017 Nb3Sn superconducting radiofrequency cavities: Fabrication, results, properties, and prospects Supercond. Sci. Technol. 30 [033004.](http://dx.doi.org/10.1088/1361-6668/30/3/033004)\n- [34] Gurevich A 1992 Nonlocal Josephson electrodynamics and pinning in superconductors Phys. Rev. B 46 [5–6.](http://dx.doi.org/https://doi.org/10.1103/PhysRevB.46.3187)\n- [35] Hall D L, Liepe M, Porter R D, Cueva P, Liarte D B, Muller D A and Sethna J P 2017 Cavity quench studies in Nb3Sn using temperature mapping and surface analysis of cavity cut-outs In 18th International Conference on RF Superconductivity [pages 840–843.](http://dx.doi.org/10.18429/JACoW-SRF2017-THPB041)\n- [36] Sheikhzada A and Gurevich A 2014 Nonlinear dynamics of Josephson vortices in a film screen under dc and ac magnetic fields Phys. C Supercond. its Appl. [506](http://dx.doi.org/10.1016/j.physc.2014.08.006) 59– [68.](http://dx.doi.org/10.1016/j.physc.2014.08.006)\n- [37] Togano K, Asano T and Tachikawa K 1979 Effects of magnesium addition to the CuSn matrix in the composite-processed Nb3Sn superconductor J. Less-Common Met. 68 [15–22.](http://dx.doi.org/10.1016/0022-5088(79)90268-6)\n- [38] Besson R, Guyot S and Legris A 2007 Atomic-scale study of diffusion in A15 Nb3Sn Phys. Rev. B 75 [1–7.](http://dx.doi.org/10.1103/PhysRevB.75.054105)\n- [39] Santra S, Suwas S and Paul A 2015 Effect of Nb orientation and deformation on the growth of Nb3Sn intermetallic superconductor by bronze technique Philos. Mag. Lett. 95 [504–510.](http://dx.doi.org/10.1080/09500839.2015.1112045)\n- [40] Scanlan R M, Fietz W A and Koch E F 1975 Flux pinning centers in superconducting Nb3Sn J. Appl. Phys. [46](http://dx.doi.org/10.1063/1.321816) [2244–2249.](http://dx.doi.org/10.1063/1.321816)\n- <span id=\"page-9-4\"></span>[41] Sandim M J, Tytko D, Kostka A, Choi P, Awaji S, Watanabe K and Raabe D 2013 Grain boundary segregation in a bronze-route Nb3Sn superconducting wire studied by atom probe tomography Supercond. Sci. Technol. 26 [055008.](http://dx.doi.org/10.1088/0953-2048/26/5/055008)\n- <span id=\"page-9-2\"></span>[42] Transtrum M K, Catelani G and Sethna J P 2011 Superheating field of superconductors within Ginzburg-Landau theory Phys. Rev. B 83 [1–8.](http://dx.doi.org/10.1103/PhysRevB.83.094505)\n- [43] Liarte D B, Posen S, Transtrum M K, Catelani G, Liepe M and Sethna J P 2017 Theoretical estimates\n\nof maximum fields in superconducting resonant radio frequency cavities: Stability theory, disorder, and laminates Supercond. Sci. Technol. 30 [0–22.](http://dx.doi.org/10.1088/1361-6668/30/3/033002)\n\n- <span id=\"page-10-3\"></span>[44] Carlson J, Pack A, Transtrum M K, Lee J, Seidman D N, Liarte D B, Sitaraman N, Senanian A, Sethna J P, Arias T and Posen S 2020 Analysis of magnetic vortex dissipation in Sn-segregated boundaries in Nb3Sn SRF cavities arXiv:2003.03362.\n- [45] Lee P J and Larbalestier D C 2001 Compositional and microstructural profiles across Nb3Sn filaments produced by different fabrication methods IEEE Trans. Appl. Supercond. 11 [3671–3674.](http://dx.doi.org/10.1109/77.919861)\n- [46] Lee P J and Larbalestier D C 2005 Microstructure, microchemistry and the development of very high Nb3Sn layer critical current density IEEE Trans. Appl. Supercond. 15 [3474 – 3477.](http://dx.doi.org/10.1109/TASC.2005.849064)\n- [47] Mentink M G T, Dhalle M M J, Dietderich D R, Godeke A, Hellman F and ten Kate H H J 2017 The effects of disorder on the normal state and superconducting properties of Nb3Sn Supercond. Sci. Technol. 30 [25006.](http://dx.doi.org/10.1088/1361-6668/30/2/025006)\n- [48] Fl¨ukiger R, Uglietti D, Senatore C and Buta F 2008 Microstructure, composition and critical current density of superconducting Nb3Sn wires Cryogenics 48 [293–307.](http://dx.doi.org/10.1016/j.cryogenics.2008.05.005)\n- <span id=\"page-10-0\"></span>[49] Lee J, Mao Z, He K, Sung Z H, Spina T, Baik S I, Hall D L, Liepe M, Seidman D N and Posen S 2020 Grain-boundary structure and segregation in Nb3Sn coatings on Nb for high-performance superconducting radiofrequency cavity applications Acta Mater. 188 [155–165.](http://dx.doi.org/10.1016/j.actamat.2020.01.055)\n- [50] Cooley L D, Fischer C M, Lee P J and Larbalestier D C 2004 Simulations of the effects of tin composition gradients on the superconducting properties of Nb3Sn conductors J. Appl. Phys. 96 [2122–2130.](http://dx.doi.org/10.1063/1.1763993)\n- <span id=\"page-10-4\"></span>[51] Li Y and Gao Y 2017 GLAG theory for superconducting property variations with A15 composition in Nb3Sn wires Sci. Rep. 7 [1–13.](http://dx.doi.org/10.1038/s41598-017-01292-4)\n- [52] Baumgartner T, Pfeiffer S, Bernardi J, Ballarino A and Eisterer M 2018 Effects of inhomogeneities on pinning force scaling in Nb3Sn wires Supercond. Sci. Technol. 31 [084002.](http://dx.doi.org/10.1088/1361-6668/aac87e)\n- [53] Goldacker W and Flkiger R 1985 Phase transitions and superconducting properties of binary and Ti, Ta, Ga and H alloyed Nb3Sn Physica B+C 135 [359 – 363.](http://dx.doi.org/https://doi.org/10.1016/0378-4363(85)90506-6)\n- [54] Flkiger R, Senatore C, Cesaretti M, Buta F, Uglietti D and Seeber B 2008 Optimization of Nb3Sn and MgB<sup>2</sup> wires Supercond. Sci. Technol. 21 [054015.](http://dx.doi.org/10.1088/0953-2048/21/5/054015)\n- [55] Rodrigues D, Pinatti D G, Foner S and Thiemet C L 1995 Grain boundary compositions, transport and flux pinning of multifilamentary Nb3Sn wires IEEE Trans. Appl. Supercond. 5 [1607–1610.](http://dx.doi.org/10.1109/77.402881)\n- [56] Suenaga M 2007 Understanding Properties and Fabrication Processes of Superconducting Nb3Sn Wires Cryogenic Engineering (New York: Springer) [285–308.](http://dx.doi.org/10.1007/0-387-46896-X_12)\n- [57] Marken K R, Kwon S J, Lee P J and Larbalestier D C 1986 Characterization Studies of a Fully Reacted High Bronze-To-Niobium Ratio Filamentary Nb3Sn Composite Advances in Cryogenic Engineering Materials (Boston: Springer) [967–975.](http://dx.doi.org/10.1007/978-1-4613-9871-4_115)\n- [58] Dietderich D R and Scanlan R M 1997 Nb3Sn artificial pinning microstructures IEEE Trans. Appl. Supercond. 7 [1201–1204.](http://dx.doi.org/10.1109/77.620719)\n- [59] Dietderich D R, Kelman M, Litty J R and Scanlan R M 1998 High Critical Current Densities in Nb3Sn Films with Engineered Microstructures - Artificial Pinning Microstructures Advances in Cryogenic Engineering Materials (Boston: Springer) [951–958.](http://dx.doi.org/10.1007/978-1-4757-9056-6_125)\n- <span id=\"page-10-2\"></span>[60] Rodrigues C A and Rodrigues D 2007 Flux pinning behavior of Nb3Sn superconductors with nanostructured pinning centers IEEE Trans. Appl. Supercond. 17 [2627–2630.](http://dx.doi.org/10.1109/TASC.2007.897988)\n- [61] Raabe D, Herbig M, Sandl¨obes S, Li Y, Tytko D, Kuzmina M, Ponge D and Choi P P 2014 Grain boundary\n\nsegregation engineering in metallic alloys: A pathway to the design of interfaces Curr. Opin. Solid State Mater. Sci. 18 [253–261.](http://dx.doi.org/10.1016/j.cossms.2014.06.002)\n\n- [62] Xu X, Sumption M, Peng X and Collings E W 2014 Refinement of Nb3Sn grain size by the generation of ZrO<sup>2</sup> precipitates in Nb3Sn wires Appl. Phys. Lett. [104](http://dx.doi.org/10.1063/1.4866865) [082602.](http://dx.doi.org/10.1063/1.4866865)\n- [63] Baumgartner T, Eisterer M, Weber H W, Fl¨ukiger R, Scheuerlein C and Bottura L 2015 Performance boost in industrial multifilamentary Nb3Sn wires due to radiation induced pinning centers Sci. Rep. 5 [10236.](http://dx.doi.org/10.1038/srep10236)\n- [64] Xu X, Rochester J, Peng X, Sumption M and Tomsic M 2019 Ternary Nb3Sn superconductors with artificial pinning centers and high upper critical fields Supercond. Sci. Technol. 32 [02LT01.](http://dx.doi.org/10.1088/1361-6668/aaf7ca)\n- [65] Payne M C, Teter M P, Allan D C, Arias T A and Joannopoulos J D 1992 Iterative minimization techniques for ab initio total-energy calculations: molecular dynamics and conjugate gradients Rev. Mod. Phys. [64](http://dx.doi.org/10.1103/RevModPhys.64.1045) [1045–1097.](http://dx.doi.org/10.1103/RevModPhys.64.1045)\n- [66] Sundararaman R, Letchworth-Weaver K, Schwarz K A, Gunceler D, Ozhabes Y and Arias T A 2017 JDFTx: Software for joint density-functional theory SoftwareX 6 [278–284.](http://dx.doi.org/10.1016/j.softx.2017.10.006)\n- [67] Garrity K F, Bennett J W, Rabe K M and Vanderbilt D 2014 Pseudopotentials for high-throughput DFT calculations Comput. Mater. Sci. 81 [446–452.](http://dx.doi.org/10.1016/j.commatsci.2013.08.053)\n- [68] Perdew J P, Burke K and Ernzerhof M 1996 Generalized gradient approximation made simple Phys. Rev. Lett. 77 [3865–3868.](http://dx.doi.org/10.1103/PhysRevLett.77.3865)\n- [69] Lee J, Posen S, Mao Z, Trenikhina Y, He K, Hall D L, Liepe M and Seidman D N 2019 Atomic-scale analyses of Nb3Sn on Nb prepared by vapor diffusion for superconducting radiofrequency cavity applications: A correlative study Supercond. Sci. Technol. 32 [024001.](http://dx.doi.org/10.1088/1361-6668/aaf268)\n- [70] Porter R D, Arias T, Cueva P, Hall D L, Liepe M, Maniscalco J T, Muller D A and Sitaraman N 2018 Next generation Nb3Sn SRF cavities for linear accelerators In Proceedings of LINAC2018 [pages 462–465.](http://dx.doi.org/10.18429/JACoW-LINAC2018-TUPO055)\n- [71] Marzari N, Vanderbilt D, De Vita A and Payne M C 1999 Thermal contraction and disordering of the Al(110) surface Phys. Rev. Lett. 82 [3296–3299.](http://dx.doi.org/10.1103/PhysRevLett.82.3296)\n- [72] Devantay H, Jorda J L, Decroux M, Muller J and Fl¨ukiger R 1981 The physical and structural properties of superconducting A15-type Nb-Sn alloys J. Mater. Sci. 16 [2145–2153.](http://dx.doi.org/10.1007/BF00542375)\n- [73] Marzari N and Vanderbilt D 1997 Maximally localized generalized Wannier functions for composite energy bands Phys. Rev. B 56 [12847–12865.](http://dx.doi.org/10.1103/PhysRevB.56.12847)\n- [74] Momma K and Izumi F 2011 VESTA3 for three-dimensional visualization of crystal, volumetric and morphology data J. Appl. Crystallogr. 44 [1272–1276.](http://dx.doi.org/10.1107/S0021889811038970)\n- [75] King R B 1990 Topological aspects of the chemical bonding in superconducting transition-metal borides, silicides, and alloys Inorg. Chem. 29 [2164–2170.](http://dx.doi.org/10.1021/ic00336a025)\n- <span id=\"page-10-1\"></span>[76] Sitaraman N S, Carlson J, Pack A R, Porter R D, Liepe M U, Transtrum M K and Arias T A 2019 Ab Initio Study of Antisite Defects in Nb3Sn: Phase Diagram and Impact on Superconductivity arXiv:1912.07576.\n- [77] Byrne P J P 2017 Superconducting Properties from First Principles Calculations: An Ab-Initio Study of the properties of Superconductors under Perturbations PhD thesis Durham University.\n- [78] Smallman R and Ngan A 2014 Surfaces, Grain Boundaries and Interfaces Modern Physical Metallurgy (Oxford: Butterworth-Heinemann) [415–442.](http://dx.doi.org/10.1016/b978-0-08-098204-5.00010-9)\n- [79] Rohrer G S 2011 Grain boundary energy anisotropy: A review J. Mater. Sci. 46 [5881–5895.](http://dx.doi.org/10.1007/s10853-011-5677-3)\n- [80] Hojo M, Matsuoka T, Hashimoto M, Tanaka M, Sugano M, Ochiai S and Miyashita K 2006 Direct measurement of\n\nelastic modulus of Nb3Sn using extracted filaments from superconducting composite wire and resin impregnation method Phys. C Supercond. its Appl. [445-448](http://dx.doi.org/10.1016/j.physc.2006.05.033) 814–818.\n\n- [81] Runnels B, Beyerlein I J, Conti S and Ortiz M 2016 A relaxation method for the energy and morphology of grain boundaries and interfaces J. Mech. Phys. Solids 94 [388 – 408.](http://dx.doi.org/https://doi.org/10.1016/j.jmps.2015.11.007)\n- [82] Livingston J D 1977 Grain size in A15 reaction layers Phys. Status Solidi 44 [295–301.](http://dx.doi.org/10.1002/pssa.2210440131)\n- [83] G lowacki B A and Evetts J E 1988 Tin supply and microstructure development during reaction of an external tin process Nb3Sn multifilamentary composite J. Mater. Sci. 23 [1961–1966.](http://dx.doi.org/10.1007/BF01115757)\n- [84] Eliashberg G M 1960 Interactions between electrons and lattice vibrations in a superconductor Sov. Phys. - JETP (Engl. Transl.) 11:3.\n- [85] Brown A M, Sundararaman R, Narang P, Goddard W A and Atwater H A 2016 Ab initio phonon coupling and optical response of hot electrons in plasmonic metals Phys. Rev. B 94 [1–10.](http://dx.doi.org/10.1103/PhysRevB.94.075120)\n- [86] Brown A M, Sundararaman R, Narang P, Goddard W A and Atwater H A 2016 Nonradiative plasmon decay and hot carrier dynamics: Effects of phonons, surfaces, and geometry ACS Nano 10 [957–966.](http://dx.doi.org/10.1021/acsnano.5b06199)\n- [87] McMillan W L 1968 Transition temperature of strongcoupled superconductors Phys. Rev. 167 [331–344.](http://dx.doi.org/10.1103/PhysRev.167.326)\n- [88] Osamura K, Ochiai S, Kondo S, Namatame M and Nosaki M 1986 Influence of third elements on growth of Nb3Sn compounds and on global pinning force J. Mater. Sci. 21 [1509–1516.](http://dx.doi.org/10.1007/BF01114703)\n- <span id=\"page-11-0\"></span>[89] Zerweck G 1981 On pinning of superconducting flux lines by grain boundaries J. Low Temp. Phys. 42 [1–9.](http://dx.doi.org/10.1007/BF00116692)\n- <span id=\"page-11-1\"></span>[90] Godeke A, Hellman F, Kate H H and Mentink M G 2018 Fundamental origin of the large impact of strain on superconducting Nb3Sn Supercond. Sci. Technol. [31](http://dx.doi.org/10.1088/1361-6668/aad980) [105011.](http://dx.doi.org/10.1088/1361-6668/aad980)\n- <span id=\"page-11-2\"></span>[91] Pack A R, Carlson J, Wadsworth S and Transtrum M K 2020 Vortex nucleation in superconductors within timedependent Ginzburg-Landau theory in two and three dimensions: Role of surface defects and material inhomogeneities Phys. Rev. B 101 [1–10.](http://dx.doi.org/10.1103/PhysRevB.101.144504)",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Ab initio theory of the impact of grain boundaries\nand substitutional defects on superconducting\nNb3Sn",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              95.90999603271484,
+              148.458984375
+            ],
+            [
+              455.4140625,
+              148.458984375
+            ],
+            [
+              455.4140625,
+              199.865478515625
+            ],
+            [
+              95.90999603271484,
+              199.865478515625
+            ]
+          ]
+        },
+        {
+          "title": "1. Introduction",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              58.79443359375,
+              62.08697509765625
+            ],
+            [
+              137.0204620361328,
+              62.08697509765625
+            ],
+            [
+              137.0204620361328,
+              72.049560546875
+            ],
+            [
+              58.79443359375,
+              72.049560546875
+            ]
+          ]
+        },
+        {
+          "title": "2. Methods",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              58.906494140625,
+              435.7550354003906
+            ],
+            [
+              118.037109375,
+              435.7550354003906
+            ],
+            [
+              118.037109375,
+              445.7176208496094
+            ],
+            [
+              58.906494140625,
+              445.7176208496094
+            ]
+          ]
+        },
+        {
+          "title": "3. Boundary structures and energies",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              308.390625,
+              268.38323974609375
+            ],
+            [
+              493.76055908203125,
+              268.38323974609375
+            ],
+            [
+              493.76055908203125,
+              278.3458251953125
+            ],
+            [
+              308.390625,
+              278.3458251953125
+            ]
+          ]
+        },
+        {
+          "title": "4. The impact of a clean boundary on\nelectronic structure",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              308.98828125,
+              633.7697601318359
+            ],
+            [
+              501.43359375,
+              633.7697601318359
+            ],
+            [
+              501.43359375,
+              655.6873626708984
+            ],
+            [
+              308.98828125,
+              655.6873626708984
+            ]
+          ]
+        },
+        {
+          "title": "5. Interactions between boundaries and point\ndefects",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              308.689453125,
+              423.7998046875
+            ],
+            [
+              539.384765625,
+              423.7998046875
+            ],
+            [
+              539.384765625,
+              445.7173767089844
+            ],
+            [
+              308.689453125,
+              445.7173767089844
+            ]
+          ]
+        },
+        {
+          "title": "5.1. Binding energy of tin antisite defects to a\nboundary",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              308.390625,
+              457.5758056640625
+            ],
+            [
+              513.984375,
+              457.5758056640625
+            ],
+            [
+              513.984375,
+              479.4933776855469
+            ],
+            [
+              308.390625,
+              479.4933776855469
+            ]
+          ]
+        },
+        {
+          "title": "5.2. Impact of substitutional defects on a boundary's\nelectronic structure",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              59.3173828125,
+              660.1007995605469
+            ],
+            [
+              288.8173828125,
+              660.1007995605469
+            ],
+            [
+              288.8173828125,
+              682.0184020996094
+            ],
+            [
+              59.3173828125,
+              682.0184020996094
+            ]
+          ]
+        },
+        {
+          "title": "6. Superconductivity and grain boundary\ncomposition",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              310.1099853515625,
+              62.08673095703125
+            ],
+            [
+              518.5276489257812,
+              62.08673095703125
+            ],
+            [
+              518.5276489257812,
+              84.00433349609375
+            ],
+            [
+              310.1099853515625,
+              84.00433349609375
+            ]
+          ]
+        },
+        {
+          "title": "7. Conclusions",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              58.94384765625,
+              61.92333984375
+            ],
+            [
+              133.17491149902344,
+              61.92333984375
+            ],
+            [
+              133.17491149902344,
+              72.049560546875
+            ],
+            [
+              58.94384765625,
+              72.049560546875
+            ]
+          ]
+        },
+        {
+          "title": "Acknowledgments",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              310.1099853515625,
+              543.351806640625
+            ],
+            [
+              399.9228515625,
+              543.351806640625
+            ],
+            [
+              399.9228515625,
+              553.3144073486328
+            ],
+            [
+              310.1099853515625,
+              553.3144073486328
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              59.16796875,
+              62.08697509765625
+            ],
+            [
+              114.6005859375,
+              62.08697509765625
+            ],
+            [
+              114.6005859375,
+              72.049560546875
+            ],
+            [
+              59.16796875,
+              72.049560546875
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              94
+            ],
+            [
+              "Line",
+              33
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              305
+            ],
+            [
+              "Line",
+              98
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              312
+            ],
+            [
+              "Line",
+              115
+            ],
+            [
+              "Text",
+              8
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              222
+            ],
+            [
+              "Line",
+              67
+            ],
+            [
+              "TableCell",
+              24
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              282
+            ],
+            [
+              "Line",
+              95
+            ],
+            [
+              "Text",
+              8
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              269
+            ],
+            [
+              "Line",
+              120
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              246
+            ],
+            [
+              "Line",
+              92
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              189
+            ],
+            [
+              "Line",
+              52
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              284
+            ],
+            [
+              "Line",
+              108
+            ],
+            [
+              "Text",
+              9
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              654
+            ],
+            [
+              "Line",
+              140
+            ],
+            [
+              "ListItem",
+              43
+            ],
+            [
+              "Reference",
+              5
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              592
+            ],
+            [
+              "Line",
+              141
+            ],
+            [
+              "ListItem",
+              37
+            ],
+            [
+              "Reference",
+              5
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              178
+            ],
+            [
+              "Line",
+              42
+            ],
+            [
+              "ListItem",
+              11
+            ],
+            [
+              "Reference",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 12,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "$\\textit{Ab Initio}$ Theory of the Impact from Grain Boundaries and Substitutional Defects on Superconducting Nb$_3$Sn",
+    "authors": [
+      {
+        "authors_list": [
+          "Kelley, Michelle M.",
+          "Sitaraman, Nathan S.",
+          "Arias, Tomás A."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Grain boundaries play a critical role in applications of superconducting Nb$_3$Sn: in dc applications, grain boundaries preserve the material's inherently high critical current density by pinning flux, while in ac applications grain boundaries can provide weak points for flux entry and lead to significant dissipation. We present the first $\\textit{ab initio}$ study to investigate the physics of different boundary types in Nb$_3$Sn using density functional theory. We identify an energetically favorable selection of tilt and twist grain boundaries of distinct orientations. We find that clean grain boundaries free of point defects reduce the Fermi-level density of states by a factor of two, an effect that decays back to the bulk electronic structure $\\sim1-1.5$ nm from the boundary. We further calculate the binding free-energies of tin substitutional defects to multiple boundaries, finding a strong electronic interaction that extends to a distance comparable to that of the reduction of density of states. Associated with this interaction, we discover a universal trend in defect electronic entropies near a boundary. We probe the effects of defect segregation on grain boundary electronic structure and calculate the impact of substitutional impurities on the Fermi-level density of states in the vicinity of a grain boundary, finding that titanium and tantalum have little impact regardless of placement, whereas tin, copper, and niobium defects each have a significant impact but only on sites away from the boundary core. Finally, we consider how all of these effects impact the local superconducting transition temperature $T_\\textrm{c}$ as a function of distance from the boundary plane.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2005.12133"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.2005.12133",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2020arXiv200512133K"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

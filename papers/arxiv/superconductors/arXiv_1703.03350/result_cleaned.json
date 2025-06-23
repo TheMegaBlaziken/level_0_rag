@@ -1,0 +1,947 @@
+{
+  "id": "0bf00c07110473ae8d472a408e9c0c35",
+  "pdf_path": "apl/Superconductors/arXiv:1703.03350.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **High-***T***<sup>C</sup> superconductivity in Cs3C<sup>60</sup> compounds governed by local Cs-C<sup>60</sup> Coulomb interactions**\n\n#### **Dale R. Harshman<sup>1</sup> and Anthony T. Fiory 2**\n\n<sup>1</sup> Department of Physics, The College of William and Mary, Williamsburg, Virginia 23187, USA <sup>2</sup> Department of Physics, New Jersey Institute of Technology, Newark, New Jersey 07102, USA\n\nE-mail: drh@physikon.net\n\nReceived 5 September 2016 Accepted for publication 2 Feb 2017 Published 2 March 2017†\n\n# **Abstract**\n\nUnique among alkali-doped *A*3C<sup>60</sup> fullerene compounds, the A15 and fcc forms of Cs3C<sup>60</sup> exhibit superconducting states varying under hydrostatic pressure with highest transition temperatures at *T*C meas = 38.3 and 35.2 K, respectively. Herein it is argued that these two compounds under pressure represent the optimal materials of the *A*3C<sup>60</sup> family, and that the C60-associated superconductivity is mediated through Coulombic interactions with charges on the alkalis. A derivation of the interlayer Coulombic pairing model of high-*T*<sup>C</sup> superconductivity employing non-planar geometry is introduced, generalizing the picture of two interacting layers to an interaction between charge reservoirs located on the C<sup>60</sup> and alkali ions. The optimal transition temperature follows the algebraic expression, *T*C0 = (12.474 nm<sup>2</sup> K)/ℓζ, where ℓ relates to the mean spacing between interacting surface charges on the C<sup>60</sup> and ζ is the average radial distance between the C<sup>60</sup> surface and the neighboring Cs ions. Values of *T*C0 for the measured cation stoichiometries of Cs3–xC<sup>60</sup> with x 0 are found to be 38.19 and 36.88 K for the A15 and fcc forms, respectively, with the dichotomy in transition temperature reflecting the larger ζ and structural disorder in the fcc form. In the A15 form, modeled interacting charges and Coulomb potential *e* 2 /ζ are shown to agree quantitatively with findings from nuclear-spin relaxation and mid-infrared optical conductivity. In the fcc form, suppression of *T*<sup>C</sup> meas below *T*C0 is ascribed to native structural disorder. Phononic effects in conjunction with Coulombic pairing are discussed.\n\nKeywords: High-*T*<sup>C</sup> superconductivity; doped buckminsterfullerenes; transition temperature; Cs3C<sup>60</sup> PACS numbers: 74.20.-z, 74.62.-c, 74.70.-Wz\n\n[doi: 10.1088/1361-648X/aa5dbd](http://iopscience.iop.org/article/10.1088/1361-648X/aa5dbd)\n\n<sup>†</sup>J. Phys.: Condens. Matter **29** (2017) 145602 (8pp)\n\n#### **1. Introduction**\n\nThe buckminsterfullerene, i.e. the C<sup>60</sup> molecule, was the first fullerene to be successfully synthesized [1], with the production of significant quantities of C<sup>60</sup> crystals subsequently reported [2]. Following the discovery of metallic conduction in alkali-doped C<sup>60</sup> [3], superconductivity was reported for facecentered cubic (fcc) *A3*C<sup>60</sup> compounds at ambient pressure with alkali *A* (as single or dual species) occupying the two tetrahedral (T) and one octahedral (O) interstitial sites per C<sup>60</sup> [4-6].\n\nThe highest transition temperatures for the *A*3C<sup>60</sup> family are found in the Cs3C<sup>60</sup> materials: *T*<sup>C</sup> meas = 38.3 K for the more ordered A15 structure with bcc C<sup>60</sup> packing (Pm3¯n) and *T*C meas = 35.2 K for fcc packing (Fm3¯m), as measured under hydrostatic pressures of 0.93 and 0.73 GPa, respectively [7,8], and corresponding to diamagnetic shielding fractions approaching maxima [8,9] (see also [10] for earlier work on A15 Cs3C60). Both macrostructural forms also exhibit an antiferromagnetic (Mott) insulating state at zero applied pressure [7,8]. An important difference between these two forms exists in the ordering of the C<sup>60</sup> molecules; the merohedral (orientational) disorder of the C<sup>60</sup> molecules evident in the fcc *A*3C<sup>60</sup> superconductors [11,12], including fcc Cs3C60, is absent in A15 Cs3C<sup>60</sup> [7,9].\n\nIn a recent study of superconducting RbxCs3–xC<sup>60</sup> under pressure, dome behavior, i.e. a local maximum, was observed in the variation of *T*<sup>C</sup> with the volume per C<sup>60</sup> ion ( ) for x 1, where maximum transition temperature *T*C max and corresponding increase as x → 0 [13]. The same can be stated for A15 Cs3C60, which also exhibits a dome-like dependence of *T*<sup>C</sup> on [7,8]. These results demonstrate that A15 and fcc Cs3C<sup>60</sup> under hydrostatic pressure represent the optimal and nearly optimal compounds for these two structural forms, respectively, wherein *T*<sup>C</sup> meas is taken to equal *T*<sup>C</sup> max; the presence of C60 merohedral and Cs(O)-site disorder in fcc Cs3C<sup>60</sup> (and fcc *A*3C<sup>60</sup> in general) [11,12,14] is expected to suppress *T*<sup>C</sup> meas .\n\nCorrelation between *T*<sup>C</sup> and lattice parameter *a*<sup>0</sup> (equivalently, ) for fcc *A*3C<sup>60</sup> compounds at ambient pressure [6,15] has been cited as evidence of phonon involvement, possibly indicative of a BCS (Bardeen, Cooper, Schrieffer) type of mechanism wherein the C60– C<sup>60</sup> separation determines the electron density of states at the Fermi level (DOS). This approach typically assumes that the intramolecular modes (34–195 meV, see e.g. [16]) play the dominate role in superconductivity, and focuses on electron-phonon coupling constants in the presence of an enhanced Jahn-Teller effect. Seemingly not understood from theoretical treatments along these lines are the depressed *T*<sup>C</sup> and vanishing superconductivity observed for the compounds LixCsC<sup>60</sup> [17], Na2CsxC<sup>60</sup> [18] and K3xBaxC<sup>60</sup> [18] with the C<sup>60</sup> charge state deviating from the nominal 3 (e.g. by 0.5 for integer *x*) [19], particularly in view of the theoretically expected smooth DOS near half filling of the *t*1u band [18,20]. An optimal doping level is evidently fundamental in *A*3C<sup>60</sup> and evocative of high-*T*<sup>C</sup> superconductivity (e.g. doping in cuprates [21]). Early theoretical works also do not anticipate the non-linear and non-monotonic behavior in *T*<sup>C</sup> *vs*. subsequently reported for RbxCs3–xC<sup>60</sup> under pressure, although a possibly maximum *T*<sup>C</sup> was mentioned (an extensive review is given in [22]). A more recently presented theoretical *T*- phase diagram for Cs3C<sup>60</sup> was derived from a Hubbard model and negative Hund's coupling, finding a maximum *T*<sup>C</sup> at the metalinsulator phase boundary [23] (methodology reviewed in [24,25]), the locus of which follows results from RbxCs3–xC<sup>60</sup> [13].\n\nThe optimization behavior observed as maxima in the variations of *T*<sup>C</sup> with for A15 [7] and fcc [8] Cs3C<sup>60</sup> is reminiscent of characteristics typically found in high-*T*<sup>C</sup> materials. Telling evidence of unconventional superconductivity in Cs3C60 is the absence of a Hebel-Slichter coherence peak in the nuclear spin relaxation rates in the A15 form under pressure [26]. Additionally, for fcc RbCs2C60, where *T*<sup>C</sup> = 32.9 K is nearly maximized at ambient pressure (*T*<sup>C</sup> max = 33.2 K at *P* ≈ 0.17 GPa), both the specific heat jump and the superconducting energy gap notably exceed weak-coupling BCS expectations [13]. Pursuing the analogy to high-*T*<sup>C</sup> in this work, *T*<sup>C</sup> meas is identified with *T*C0 determined by the interfacial Coulomb-mediated pairing model in [27]. Data for other *A*3C<sup>60</sup> superconductors at ambient pressure provide a continuation of the *T*<sup>C</sup> variation to lower values (e.g. figure 4(a) in [8]), together with a diminishing Meissner effect [6] and apparent superfluid density [28],<sup>1</sup> in a manner consistent with non-optimal behavior. Owing to merohedral disorder and large spatial fluctuations, particularly of the Cs ions occupying the (O) sites [12,14], fcc Cs3C<sup>60</sup> provides a good test case for the role of such defects in suppressing *T*<sup>C</sup> meas below *T*C0. Consequently, the present work focuses on the optimal *T*<sup>C</sup> regions of the *T*- phase diagrams for A15 and fcc Cs3C60, where it is found that interfacial Coulombic interactions dominate.\n\nThe Coulombic-based model [27] discussed herein locates the interacting charges\n\nin two reservoirs, one superconducting (type I) and the other mediating (type II). In the layered high-*T*<sup>C</sup> superconductors, the two reservoirs are formed in adjacent layered-crystal structures separated by an interaction distance ζ. Thin film studies of cuprates have determined that one each of the two charge reservoirs is sufficient to create and sustain the high-*T*<sup>C</sup> superconductive state [29]. When viewing the macroscopically cubic *A*3C<sup>60</sup> packing structures from a local perspective, the C sites on a given C<sup>60</sup> can be treated as a single layer with nonplanar character. Since superconducting pairs form locally, the C<sup>60</sup> is identified as the type I structure and the surrounding nearest-neighbor alkalis as the type II structure. Within the Coulombic pairing model, the charges on C<sup>60</sup> anions interact with the charges associated with alkali cations, distinguishing it from theories founded on intramolecular coupling. The presence of cationic charges is indicated from NMR spin-lattice relaxation, hyperfine coupling constants and other measurements, which are discussed in section 3 [12,26].\n\nSection 2 presents the derivation adapted to Cs3C<sup>60</sup> of the Coulombic pairing model based on the inter-reservoir Coulomb interaction between physically separated charge interfaces; *T*C0 values for the optimal A15 and fcc forms of Cs3C<sup>60</sup> (under optimal applied hydrostatic pressure) are calculated. Key experimental results and interpretations are considered in section 3 and conclusions are summarized in section 4.\n\n#### **2. Interlayer Coulombic Pairing Model**\n\nThe model first described in [27] regarding the pairing mechanism governing high-*T*<sup>C</sup> superconductivity assumes a layered 2D-like interaction structure comprising a superconducting type I charge reservoir and a mediating type II reservoir, typically of opposite\n\n<sup>1</sup> Muon-spin depolarization rates for ambient pressure *A*3C<sup>60</sup> superconductors resemble those for nonoptimally doped cuprate superconductors.\n\nsign, that are physically separated by an interaction distance ζ defined normal to the layers. In the case of YBa2Cu3O7–δ, for example, the interaction occurs between adjacent BaO (*p*type) and CuO<sup>2</sup> (*n*-type) 2D layers, separated by an interaction distance ζ, with the former designated as part of the type I reservoir (BaO-CuO-BaO) and the latter assigned to the type II reservoir (CuO2-Y-CuO2). Consideration of thin-film samples of YBa2Cu3O7–δ, Bi2Sr2CaCu2O8+δ and La2–xSrxCuO<sup>4</sup> has, in fact, shown that the minimum superconducting entity is commensurate with a single formula unit structure [29]. The presence of these two disparate charge reservoirs is the probable source of differing conclusions regarding the ground-state symmetry in some high-*T*<sup>C</sup> superconductors [30]. At the time of this writing, this model has already been validated with a statistical deviation between the calculated and measured *T*C0 of ±1.35 K for 48 different layered materials from seven superconducting families (cuprates, ruthenates, rutheno-cuprates, iron-pnictides and ET-based [bis(ethylenedithio)tetrathiafulvalene] organics [27,31,32]; iron-chalcogenides [33]; intercalated group-4-metal nitride-halides [34,35]) with measured *T*<sup>C</sup> meas values ranging from ~7 to 150 K.\n\n## *2.1.**TC0 and charge allocation*\n\nAs originally formulated for layered structures, the algebraic expression defining the optimal transition temperature *T*C0 is given by [27],\n\n$$T\\_{\\rm C0} = k\\_{\\rm B}^{-1} \\not\\supset (\\sigma \\eta \\!\\!/ \\!A)^{1/2} \\not\\subset ^{-1} = k\\_{\\rm B}^{-1} \\not\\supset (\\ell \\!\\!\\!\\zeta)^{-1} \\,. \\tag{1}$$\n\nHere, σ is the fractional charge for participating carriers per formula unit, *A* is the basal plane area, which is the same for the two reservoirs in layered structures, η is the number of chargecarrying type II layers (e.g. η = 2 for YBa2Cu3O7–δ), and the universal constant β = 0.1075 ± 0.0003 eV Å<sup>2</sup> was determined previously from experimental data for *T*C meas [27]. The length ℓ = (*A*/ση)1/2 defined in equation (1) relates to the mean spacing between interacting charges. The *T*C0 defined in equation (1) should be considered as an upper limit on the experimentally observed transition temperature, given *T*<sup>C</sup> < *T*C0 for non-optimal materials. The optimization of the superconducting state is achieved when the two interacting charge reservoirs are in equilibrium.\n\nDefining β = *e* <sup>2</sup>, where = 0.00747 Å is about twice the reduced electron Compton wavelength, points out the presence of the Coulomb potential *e* 2 ζ –1 in equation (1). As such, the physics contained in equation (1) is interpreted in terms of superconductive pairing mediated by coupling or exchange of virtual bosons with energies on the order of *e* 2 ζ –1 [27]. A related model with spatially indirect Coulomb interactions involving charges on neighboring ions within the unit cell was first suggested in 1987 as a possible electronic excitation mechanism for high-*T*<sup>C</sup> superconductivity [36]. Around the same time it was also proposed that interactions between neighboring cations and anions are unscreened, owing to the low free electron density in high-*T*<sup>C</sup> materials [37]. Not surprisingly, high energy components of electron-boson coupling functions for high-*T*<sup>C</sup> cuprate superconductors are, in fact, experimentally observable in thermal reflectance spectra [38,39].\n\nDirect doping may be either cationic or anionic, occurring in the type I reservoir as in the case of La2–xSrxCuO4–δ, the type II reservoir, e.g. Ba2Y(Ru1–xCux)O<sup>6</sup> [27], or both as in the ternary Fe-based chalcogenides (e.g. *A*xFe2–ySe<sup>2</sup> [33]) and (CaxLa1–x)(Ba1.75–xLa0.25+x)Cu3O<sup>y</sup> [31]. For *A*3–xC<sup>60</sup> doping is introduced by 3–x cation dopants per formula unit in the type II reservoir, such that σ is given as,\n\n$$\n\\sigma = \\gamma \\text{ } \\nu \\text{ ( $\\mathfrak{Z}$ -x]; for } \\mathbf{x} \\approx \\mathbf{0} \\text{ , } \\tag{2}\n$$\n\nwhere *v* is the cation valence and the factor γ derives from the allocation of the dopant by considering a given compound's structure. Equation (2) assumes that σ is determined solely by the cation stoichiometry and that vacancy content x is randomly distributed. Following the procedure generally applied to high-*T*<sup>C</sup> superconductors, the charge introduced by the dopant is shared equally between the two charge reservoirs. Additionally, the methodology requires the doped charge to be distributed pairwise between the charge-carrying layer types within each of the charge reservoirs. Consequently, γ can be determined by applying the following two charge allocation rules [27],\n\n- (1a) Sharing between N (typically 2) ions or structural layers/surfaces introduces a factor of 1/N in γ.\n- (1b) Doping is shared equally between the two reservoirs, resulting in a factor of 1/2.\n\nGiven that γ less than unity is thusly obtained, the participating charge fraction σ is correspondingly smaller than the doping content. For optimal cuprate compounds where the doping is not known, σ is calculated by scaling to σ<sup>0</sup> = 0.228 of YBa2Cu3O6.92, as discussed in [27,31,32], along with the role played by electronegativity [32].\n\n### *2.2.**Application to cubic A3C<sup>60</sup>*\n\nThe *A*3C<sup>60</sup> compounds are treated herein as Coulomb-based high-*T*<sup>C</sup> superconductors, focusing on the A15 and fcc optimal forms of Cs3C60. Although the ambient-pressure fcc *A*3C<sup>60</sup> superconductors have attracted the early attention in this field [22], equation (1) is not expected to accurately reflect measured values of *T*<sup>C</sup> for these materials because of the nonoptimal behaviors pointed out earlier.\n\nThe A15 and fcc forms of Cs3C<sup>60</sup> provide for an interesting case of the subject model in which the Coulombic pairing involves interactions between interfacial structures formed by the surface of the type I reservoir comprising an individual C<sup>60</sup> fullerene and the type II reservoir consisting of neighboring interstitial Cs cations distributed on an enclosing virtual surface. Both reservoirs each contain a single layer per formula unit, i.e. υ = 1 and η = 1 for types I and II, respectively, in the notation of [27]. Thus the area *A* in equation (1) is defined naturally as the surface area of the C<sup>60</sup> molecule, whereas the area of the virtual surface of Cs ions is inconsequential in determining *T*C0. Moreover, ζ, determined as below, differs significantly between the two structural forms. Given the *n*-type character of these materials, one associates the superconducting condensate with the C<sup>60</sup> molecules and with the pairing mediated through Coulomb interactions with the (presumably) positive charges on the cations.\n\nThe C<sup>60</sup> molecule has a diameter of 7.1 Å (radius *R* = 3.55 Å) [40], 2 and comprises 12 regular pentagons with a C–C bond length of *d*5:6 = 1.45 Å and 20 hexagons with C–C bond lengths of *d*5:6 and *d*6:6 = 1.40 Å. From an equalweighting average of *d* = (1.45 + 1.40)/2 = 1.425 Å [41], the total surface area of the C<sup>60</sup> molecule at standard temperature and pressure, modeled with regular polygons, is *A* = 20(5.2757 Å<sup>2</sup> ) + 12(3.6173 Å<sup>2</sup> ) = 148.922 Å<sup>2</sup> . For simplicity, C<sup>60</sup> area *A* is assumed to remain essentially invariant with alkali doping and applied pressure [42]. Since υ = η = 1, the γ factor from rule (1a) is unity and that from rule (1b) is 1/2, giving γ = 1/2. From equation (2) one determines σ = (1/2) [3–x], and equation (1) reduces to,\n\n<sup>2</sup> C<sup>60</sup> diameter is given as 7.113(10) Å at ambient temperature, whence the approximation 7.1 Å derives.\n\n$$T\\_{\\rm C0} = (72.28 \\text{ K-Å}) \\text{ ( $\\odot$ -x]}^{1/2} \\text{  $\\uparrow$ }^{-1},\\tag{3}$$\n\nwhere x 0 is near the optimal stoichiometric value (x = 0 was determined for fcc *A*3C<sup>60</sup> superconductors at ambient pressure [43]). Also following from equations (1) and (2) is the interaction charge spacing ℓ = (17.258 Å) [3–x]–1/2 .\n\nThe interaction distance ζ is found by taking the average projected radial distance between a given C<sup>60</sup> ion, comprising the type I structure, and its nearest neighbor Cs ions, comprising the type II structure, noticing that for both the A15 and fcc structures, the Cs on interstitial sites are facing points on C<sup>60</sup> unoccupied by C. From this perspective, the Cs and C positions have direct correspondence to layered structures in, e.g. intercalated β-form group-4-metal nitride-halides [35].\n\nIn the A15 structure (bcc packing, space group Pm3¯n), the Cs are located at tetrahedral (T) sites facing the C<sup>60</sup> hexagons [9]. The A15 interacting structural unit is illustrated in figure 1 (a), where the 12 Cs at (T) sites form an icosahedron enclosing the truncated icosahedron representing the C60. The length ζ is the distance from the (T) site to the nearest C-hexagon center.\n\nIn the fcc structure (Fm3¯m), the Cs are distributed between (T) and octahedral (O) sites with respective occupancy ratio 2:1, and face Chexagons or C-6:6 bonds, respectively [8]. The fcc interacting structural unit is illustrated in figure 1(b), where the 8 Cs at (T) sites and the 6 Cs at (O) sites comprise the C<sup>60</sup> nearest neighbors. Unlike the A15 polymorph, the C<sup>60</sup> molecules of the fcc form exhibit merohedral disorder [12,41], and the Cs occupying the (O) sites show considerable Debye-Waller factor disordering (0.372(1) Å rms at 30 K) [8]. The A15 and fcc structures each have 3 Cs per C60, accounting for the 4-fold and 6-fold coordinations at (T) and (O) sites, respectively.\n\nAt ambient pressure, samples of nearly stoichiometric Cs3C<sup>60</sup> are observed to be Mott insulators, exhibiting antiferromagnetism with Néel temperatures of ~46 and ~2 K for the A15 and fcc forms, respectively [7,8]. Under hydrostatic pressure, these two forms become superconducting. Optimal superconductivity for Cs3xC<sup>60</sup> in the A15 form occurs at applied pressure *P* = 0.93 GPa with *T*<sup>C</sup> meas = 38.3 K, = 766.8 Å 3 and lattice parameter *a*<sup>0</sup> = 11.532 Å, as determined from the highest *T*<sup>C</sup> presented in figure 4a of [8] and figure 4 of [7]; Cs stoichiometry 3–x = 2.85(1) is reported in\n\n![](_page_5_Figure_7.jpeg)\n\n**Figure 1.** Structures of C<sup>60</sup> and nearest neighbor Cs sites in Cs3C60. (a) A15 structure, showing the 12 tetrahedral Cs sites (magenta symbols) at a distance ζ from C<sup>60</sup> hexagon faces; (b) fcc structure, showing the 8 tetrahedral Cs sites (magenta symbols) at a distance ζ(T) from C<sup>60</sup> hexagon faces and the 6 octahedral Cs sites (green symbols) at a distance ζ(O) from C<sup>60</sup> 6:6 bonds.\n\n[9].<sup>3</sup> The data indicate some sample dependence, with the highest *T*<sup>C</sup> ranging from 38.0 to 38.3 K and the corresponding *P* varying between 0.71 and 0.93 GPa; A15-form enrichment varies up to 77.7(6)%, the remainder being bco- and fcc-phase material [7].\n\nFor fcc Cs3xC60, *T*<sup>C</sup> meas = 35.2 K occurs at *P* = 0.73 GPa with = 759.6 Å 3 and lattice parameter *a*<sup>0</sup> = 14.4838 Å, as determined from the increasing-*P* datum of highest *T*<sup>C</sup> in figure 3a and figure 4a of [8]. Data determining highest *T*<sup>C</sup> and corresponding *P* lie in ranges 34.2–35.2 K and 0.73–0.79 GPa, respectively. The Cs stoichiometry is 3–x = 2.901(6) and fccform enrichment is 85.88(2)% [8].\n\nDetermining ζ for the A15 form is straight forward since Rietveld refinement indicates that the Cs cations occupy only the hexagon-coordinated (T) 6*d* sites; the 6*c* sites are left empty [see figure 1(a)]. Given that the (T) site is located a distance 51/2 *a*0/4 = 6.4463 Å from the C<sup>60</sup> center, and the distance from the Chexagon center to the C<sup>60</sup> center is (*R* 2 – *d* 2 ) 1/2 = 3.2514 Å, one has for the interaction distance ζ = 51/2 *a*0/4 – (*R* 2 – *d* 2 ) 1/2 = 3.1952 Å. From this, equation (3) gives *T*C0 = 38.19(7) K with ℓ = 10.223(18) Å for 3–x = 2.85(1) and 39.18 K with ℓ = 9.9639 Å upon setting *x* = 0, results that are within 0.1 and 0.9 K, respectively, of experiment. For the fcc structure, ζ is determined by averaging the ζ(T) and ζ(O) distances shown in figure 1(b). From [12], the (T) sites are located over the center of the Chexagons at the distance 31/2 *a*0/4 from the C<sup>60</sup> center and the distance ζ(T) = 31/2 *a*0/4 – [*R* 2 – *d* 2 ] 1/2 = 3.0202 Å from the C-hexagon center. The (O) sites lie above the midpoint of C-6:6 bonds, which are at distance *a*0/2 from the C<sup>60</sup> center, and the distance of ζ(O) = *a*0/2 – [*R* 2 – (*d*6:6/2) 2 ] 1/2 = 3.7616 Å from the C-6:6 bond. Using the same procedure for treating the layered high-*T*<sup>C</sup> materials [27] and averaging these distances over the eight (T) and six (O) Cs neighbors surrounding a given C60, ζ = (8/14)ζ(T) + (6/14)ζ(O) = 3.3380 Å. From equation (3), one obtains *T*C0 = 36.88(4) K with ℓ = 10.134(10) Å for 3–x = 2.901(6). While the agreement with experiment is reasonable, the 1.7-K difference is sufficiently large to suggest that structural disorder may be a factor. Deviation from the assumed random Cs distribution, e.g. conjecturing that the (T) sites contain 5.0 (1) % vacancies and full occupation of the (O) sites, potentially increases ζ by 0.0255 Å and reduces *T*C0 by 0.28 K. Setting x = 0 in equation (3), with ℓ = 9.9639 Å, yields *T*C0 = 37.51 K.\n\n**Table 1.** Structural and electronic parameters of optimal A15 [7] and fcc [8] Cs3–xC<sup>60</sup> superconductors. From experimental data for given structural form and Cs stoichiometry are optimal applied pressure *P* with corresponding lattice parameter *a*0, transition temperature *T*<sup>C</sup> meas and interaction distance ζ. Optimal transition temperature *T*C0 is calculated for experimental x and projection to x = 0.\n\n| Structure | 3–x      | P<br>(GPa) | a0<br>(Å) | meas<br>TC<br>(K) | ζ<br>(Å) | TC0<br>(K) | TC0 (x=0) (K) |\n|-----------|----------|------------|-----------|-------------------|----------|------------|---------------|\n| A15       | 2.85(1)  | 0.93       | 11.5315   | 38.3              | 3.1949   | 38.19      | 39.18         |\n| fcc       | 2.901(6) | 0.73       | 14.4838   | 35.2              | 3.3380   | 36.88      | 37.51         |\n|           |          |            |           |                   |          |            |               |\n\n<sup>3</sup> Note that highest-*T*<sup>C</sup> pressure of 7.9 kbar is corrected higher in [7].\nThe relevant structural and electronic values for A15 and fcc Cs3C<sup>60</sup> are listed in Table 1 and the results for *T*<sup>C</sup> meas are graphically presented as functions of (ℓζ)–1 in comparison to other high-*T*<sup>C</sup> compounds in figure 2; (ℓζ)–1 = 0.0306 and 0.0296 Å –2 for A15 and fcc Cs3C60, respectively. The diagonal line is the theoretical expression for *T*C0 of equation (1). Given the relatively small variation in ℓ, the higher *T*<sup>C</sup> meas and *T*C0 of the A15 form appear largely determined by the smaller ζ and absence of structural disorder.\n\n#### **3. Discussion**\n\nHaving identified the optimal and near-optimal compounds, A15 and fcc Cs3C<sup>60</sup> (at optimal ), respectively, and accurately calculating their transition temperatures, consideration is now given to understanding the electronic origins of the pairing mechanism,\n\n![](0__page_7_Figure_3.jpeg)\n\n**Figure 2.** Measured optimal transition temperature *T*<sup>C</sup> meas versus (ℓζ)–1 for A15 Cs2.85(1)C<sup>60</sup> and fcc Cs2.901(6)C<sup>60</sup> (legend upper left), compared to other high-*T*<sup>C</sup> superconductors: cuprates; iron pnictides and chalcogenides; intercalated group-4-metal nitride-chlorides; and RuO- and ET-based compounds (legend lower right). The line represents *T*C0 defined in equation (1).\n\nciting evidence for intra-cell charge transfer and of the *e* 2 /ζ interaction potential. Suppression of *T*C meas below *T*C0, as displayed by the fcc form, is also assessed from the perspective of merohedral and Cs(O)-site disordering, with comparisons to RbxCs3–xC<sup>60</sup> as well as alkali-intercalated TiNCl superconductors, where disorder-induced pair breaking is evident. Phonon-related phenomena are discussed in the context of interlayer Coulombic pairing.\n\n# *3.1. A15 Cs3C<sup>60</sup>*\n\nCurrently available experimental data on A15 Cs3C<sup>60</sup> are reported for samples containing Cs vacancies along with minority phase bco and fcc inclusions [7]. Nevertheless, the A15 form stands out as a special case because of minimal disorder in Cs positions and C<sup>60</sup> orientations and, additionally, a unique Cs-C<sup>60</sup> separation determines the interaction distance ζ. Agreement of *T*C0 to within 0.3 % of *T*<sup>C</sup> meas for A15-form Cs2.85(1)C<sup>60</sup> under optimal applied pressure confers experimental validation to the Cs-C<sup>60</sup> Coulomb interaction model of high-*T*<sup>C</sup> superconductivity presented in section 2. In the following, independent experimental evidence is related to the parameters and ζ in equation (1).\n\nIn allocating doping charges equally between the two reservoirs, as specified by rule 1(b), the fractional charge is distributed evenly among the 12 Cs ions hosting the type II reservoir, predicting a reduction of the Cs charge state by 1/12 relative to unity. The electronic charge hosted by Cs also becomes superconducting, as shown by the gap-opening drop in NMR spin-lattice relaxation rate ( <sup>133</sup>*T*1*T*) 1 of <sup>133</sup>Cs for *T* < *T*<sup>C</sup> [44]. As is normally expected for metallic bonding, for example, non-integral and incomplete alkali-to-C<sup>60</sup> charge transfer was previously calculated for K3C<sup>60</sup> from crystal orbital theory [45].\n\nNormal-state (*T* > *T*C) NMR results, ( <sup>133</sup>*T*1*T*) 1 = 0.0309 s<sup>1</sup>K 1 for <sup>133</sup>Cs and ( <sup>13</sup>*T*1*T*) 1 = 0.0182 s<sup>1</sup>K 1 for <sup>13</sup>C (figure 4(b) for *P* = 11 kbar in [26]), provide information on the relative electronic densities of states at the Cs and C sites, *N*Cs(EF) and *N*C(EF), respectively. Using the scaling approximation, ( <sup>133</sup>*T*1*T*) 1 /( <sup>13</sup>*T*1*T*) 1 (*A*Cs 2 /*A*<sup>C</sup> 2 ) [*N*Cs(EF)/*N*C(EF)]<sup>2</sup> , with hyperfine coupling constants determined for closely related fcc-form compounds, *A*Cs 2 1/2 = 2 876 MHz (table S3 for Cs(T) sites in [12]) and *A*<sup>C</sup> 2 1/2 = 2 4.36 MHz (table S4 in [13]), one obtains the ratio *N*Cs(EF)/*N*C(EF) 0.092; the modeled charge on Cs relative to C60, i.e. 1/12 = 0.083, stands in good agreement. This result indicates that an appreciable fraction of the electronic density of states resides on the Cs ions, providing the means for the Coulombic pairing interaction.\n\nThe Coulomb potential e<sup>2</sup> /ζ imbedded in the expression for *T*C0 in equation (1) reflects transfer of unit charge between the two charge reservoirs; the possibility exists that a perturbing external electromagnetic field can induce electron transfer from a C<sup>60</sup> ion to one or more of its neighboring Cs ions. The externally probed charge transfer energy is screened in this case and given by e<sup>2</sup> /*n*ζ, where is the optical dielectric constant and *n* is the number of Cs ions participating in the charge transfer excitation. Forming an optically active electric dipole involves a portion of the 12 available nearest neighbor Cs ions, which constrains *n* to values of about 6 or fewer. Taking = 4.4 from band structure theory [20] and ζ = 3.1949 Å from Table 1, one derives local oscillator energies *ħ*n = e<sup>2</sup> /*n*ζ in the range 0.17eV to 1.02 eV for *n* from 1 to 6. For comparison to experiment, the optical conductivity 1() reported for a compressed phase of A15 Cs3C<sup>60</sup> (*P* = 18 kbar) shows a broad distribution in the mid-infrared component, resolved over the energy range ~0.1 to ~0.84 eV (figure 1I in [46]). The peak observed at 0.17 eV and the maximum evident at ~0.33 eV are in good accord with predicted *ħ*<sup>6</sup> 0.17 eV and *ħ*<sup>3</sup> 0.34 eV, respectively.\n\nRecognizing that the trend of *T*<sup>C</sup> increasing with for fcc *A*3C<sup>60</sup> compounds extends to optimal A15 Cs3C60, differences in electronic properties are also worthy of note. Experiment finds comparatively small values of plasma energy *ħ*p 0.35 eV and damping factor *ħ*p 0.05 eV in compressed-phase A15 Cs3C<sup>60</sup> (estimates from Drude-Lorentz component in 1() from figure 1I in [46]), in relation to Rb3C<sup>60</sup> (0.89 and 0.30 eV, respectively) and K3C<sup>60</sup> (1.08 and 0.18 eV, respectively) [47]. Lowest <sup>p</sup> indicates strongest Coulomb repulsion, while lowest <sup>p</sup> reflects the minimized structural disorder. When this family of compounds is compared from the perspective of band structure theory, optimal A15 Cs3C<sup>60</sup> has the largest band width and the weakest modeled correlation strength, including expanded at the metal-insulatortransition [20]. Together, these results portend diminished phononic behavior in the optimal superconducting state of A15 Cs3C60.\n\nSpin-lattice relaxation measurements of the reduced superconducting gap for A15 Cs3C<sup>60</sup> give values of 2Δ/*k*B*T*<sup>C</sup> = 5.9 and 4.86 for <sup>133</sup>Cs-NMR (at 0.59 and 1.1 GPa), and 5.4 and 4.4 for <sup>13</sup>C-NMR (at 0.58 and 1.1 GPa) [26]. Assuming the trend follows through the peak at 0.93 GPa, these results indicate strong-coupling for the optimal superconducting state.\n\n## *3.2.**fcc Cs3C<sup>60</sup>*\n\nAmong the structural distinctions of optimal fccform Cs3C<sup>60</sup> are that the Cs(O)-C<sup>60</sup> separation ζ(O) is disordered by 10%, as determined from the Cs(O) Debye-Waller factor, and is on average 24.5% larger than the Cs(T)-C<sup>60</sup> separation ζ(T) [8]. For fcc *A*3C<sup>60</sup> generally, the interaction distance ζ is the weighted average of ζ(O) and ζ(T); an average of reciprocal distances may also be considered, reducing the value of ζ for optimal fcc Cs3C<sup>60</sup> by 1.2%.\n\nComparing results in section 2 for fcc Cs2.901(6)C<sup>60</sup> under optimal applied pressure, *T*C0 exceeds *T*<sup>C</sup> meas by 4.7(1) %. A possible origin for this divergence could be suppression of *T*<sup>C</sup> owing to pair-breaking caused by the intrinsic structural disorder. Since the difference between *T*C0 and *T*<sup>C</sup> meas is small, the pair-breaking parameter is approximately given as = (4/)*k*B(*T*C0*T*<sup>C</sup> meas) = 0.19 meV [48]. As expected for presumably weak perturbations on superconductive pairing, this result finds is considerably smaller than the damping factors found for *A*3C<sup>60</sup> compounds (e.g. *ħ*<sup>p</sup> 50 meV). An analogous pair-breaking effect obeying a remote Coulomb scattering (RCS) form, RCS = *x a*<sup>1</sup> exp(*k*1ζ), was previously shown to fit data on alkali-intercalated TiNCl superconductors with interaction distance ζ, alkali content *x* per TiNCl, and fitted parameters *a*<sup>1</sup> = 23.9(1.0) meV and *k*<sup>1</sup> = 0.727(23) Å 1 [34]. Applying this result to the Cs(O) sites, using ζ(O) and taking *x* = 6/60 = 0.1, a prediction RCS = 0.16 meV is obtained. That RCS is close to calculated from *T*<sup>C</sup> meas suggests that Cs(O) disorder is effective in suppressing the transition temperature to the level observed.\n\nIt is instructive to compare fcc Cs3C<sup>60</sup> with the fcc RbxCs3xC<sup>60</sup> alloys under applied pressures, for which *T*<sup>C</sup> *vs.* exhibits maxima *T*<sup>C</sup> max. These maxima and the corresponding systematically decrease with x, as shown in figure 3. Data for x = 0 are for the optimal fcc Cs2.901(6)C<sup>60</sup> [8]; data for 0.35 x 1 are read from figure 1(E) in [13], which indicates little change in *T*<sup>C</sup> max for 1 ≤ x ≤ 2.\n\nThe decrease in *T*<sup>C</sup> max with x suggests an additional pair breaking effect is contributed by alloying disorder, while the in decrease is likely associated with the decrease in average cationic size. Considering the results for RbCs2C60, one can explain the suppressed *T*<sup>C</sup> max = 33.2 K at = 755.5 Å<sup>3</sup> with pair breaking parameter = 0.49 meV and theoretical *T*C0 = 37.63 K (ζ = 3.3259 Å, ℓ = 9.964 Å).\n\nThe transformation from weak-coupling BCS-like behavior to unconventional superconductivity in fcc Cs3C<sup>60</sup> may be illustrated by considering NMR and specific heat data for the RbxCs3xC<sup>60</sup> alloys at ambient pressure. For Rb3C<sup>60</sup> at x = 3, for which = 737 Å<sup>3</sup> is under expanded relative to optimal Cs3C60, 2Δ/*k*B*T*<sup>C</sup> = 3.6(1), determined from <sup>13</sup>C NMR *T*<sup>1</sup> measurements, and the specific heat jump at *T*<sup>C</sup> are both consistent with weak-coupling BCS theory [13]; weak coupling is reported for K3C<sup>60</sup> [13] and several of the ambient-pressure fcc *A*3C<sup>60</sup> superconductors as\n\n![](0__page_9_Figure_5.jpeg)\n\n**Figure 3.** Maximum measured transition temperature *T*C max plotted against Rb content x in RbxCs3–xC<sup>60</sup> for x = 0 (from [8]) and x = 0.35, 0.5, 0.75 and 1 (from [13]), denoted by circle symbols. Triangles denote corresponding measured (from [8] and [13]). Dashed curves are guides to the eye.\n\nwell [19]. The optimally compressed Cs3C<sup>60</sup> at = 759.6 Å<sup>3</sup> is bounded on either side by two ambient-pressure compounds; RbCs2C<sup>60</sup> with = 762 Å<sup>3</sup> is slightly over expanded and Rb2CsC<sup>60</sup> with = 741 Å 3 is under expanded, both relative to optimal. For RbCs2C60, where pressure dependence data indicate closest proximity to *T*<sup>C</sup> max at ambient pressure, 2Δ/*k*B*T*<sup>C</sup> = 4.9 and the specific heat jump at *T*<sup>C</sup> is also strongly enhanced above weak-coupling BCS [13,26]; in comparison, 2Δ/*k*B*T*<sup>C</sup> = 4.3 for Rb2CsC60, with a correspondingly smaller, but still significant, enhancement in the specific heat jump [13]. These results are also confirmed by <sup>87</sup>Rb NMR. Differing trends are observed for fcc Cs3C<sup>60</sup> under applied pressures, where 2Δ/*k*B*T*<sup>C</sup> = 4.3(1) at = 766 Å<sup>3</sup> from <sup>133</sup>Cs NMR, indicating strong coupling, and 2Δ/*k*B*T*<sup>C</sup> = 3.4(1) and 3.8(2) at = 757 and 762 Å 3 , respectively, indicating weak coupling, as read from figure 3(c) in [49]. Another inconsistency is found near the metal-insulator-transition, where NMR *T*<sup>1</sup> indicates strong coupling for fcc Cs3C<sup>60</sup> and Rb0.35Cs2.65C60, whereas weak coupling agrees with the specific heat jump in the alloy [13,49]. While findings of strong coupling are noted hallmarks of high-*T*<sup>C</sup> superconductivity [50], such discrepancies remain to be explained.\n\n### *3.3. Origin of Phononic Effects*\n\nFor ambient-pressure fcc *A*3C<sup>60</sup> superconductors, results drawn from isotopic substitution, electronic specific heat, NMR, lattice expansion and other experimental techniques have provided much impetus for basing pairing theory on C60-localized vibrations, molecular distortion, on-site Coulomb repulsion *U* and *t*1u band width *W*; using viable estimates of electron-phonon coupling λ = 0.3, *U*/*W* = 1.5 and *W* = 0.6 eV, however, places a limit of 15–20 K on the highest calculated BCS-like *T*C [19,22]. Comparison with optimally compressed forms of Cs3C60, exhibiting unconventional non-BCS-like signatures and significantly higher *T*<sup>C</sup> values, suggests that the ambient-pressure fcc *A*3C<sup>60</sup> compounds are formed with non-optimal . It is also clear that interlayer C60-Cs Coulomb mediation dominates in Cs3C60 at optimal , as revealed by the excellent agreement between theory and experiment.\n\nIn addition to the dome in *T*<sup>C</sup> versus , evidence supporting an underlying novel superconductivity mechanism extending even into the non-optimal regime include maximum *T*<sup>C</sup> occurring at stoichiometric doping [18], absence of resistivity saturation at high temperature [51], transformation in resistivity from a high-order temperature dependence for K3C<sup>60</sup> to a linear temperature dependence for Rb3C<sup>60</sup> at constant volume [52] and the presence of a spin gap below 100 K [8], even though some arguments have been put forth in terms of phononic pairing [22]. Consequently, an intriguing question concerning the non-optimal superconducting states is whether a portion of the Coulombic pairing energy is imparted to C60 ion phononics, inducing some BCS-like phenomena. In this view of materials characterized by *T*<sup>C</sup> ≪ *T*C0, intra-C<sup>60</sup> dynamics provide a sympathetic response to the native Coulombic-based superconductivity.\n\nSympathetic response of the lattice may also account for the appearance of a weakcoupling BCS signature in under compressed material near the insulating phase boundary, as noted above [13]. This is the region of the *T*C phase diagram where a strongcorrelation Hubbard model for fcc Cs3C<sup>60</sup> with negative Hund's coupling finds strongest phonon involvement [23-25]. In the vicinity of optimal 762 Å 3 , this theory provides the result *T*<sup>C</sup> 20 K (read from figure 2 in [23])\n\nfalling significantly below the experimental *T*C meas = 35.2 K. Given the limitations on *T*<sup>C</sup> obtained from two phonon-based models, the influence of phonon-based interactions appears mainly confined to phases of non-optimal .\n\n### **4. Conclusion**\n\nIt is argued that the A15 and fcc forms of Cs3C60, with transition temperatures maximized under hydrostatic pressure, respectively represent the optimal and near-optimal superconducting compounds of these two representative macrostructures of the *A*3C<sup>60</sup> family. This designation is supported by previously established phase diagrams and other experimental evidence.\n\nThe agreement of *T*C0 (=38.19 K) to within 0.3 % of *T*<sup>C</sup> meas (=38.3 K) for A15 Cs2.85(1)C<sup>60</sup> at optimal confirms the high-*T*<sup>C</sup> nature of the optimal superconducting state and the validity of the Cs-C<sup>60</sup> Coulomb pairing interaction as described in section 2. By analyzing NMR (<sup>133</sup>*T*1*T*) 1 and (<sup>13</sup>*T*1*T*) 1 measurements of A15 Cs3C60, in combination with hyperfine coupling constants derived for closely-related fcc compounds, an estimate of the ratio *N*Cs(EF)/*N*C(EF) 9% is derived, which is similar in magnitude as the modeled 1/12 (8%) charge allocation on Cs relative to C60. Additionally, it is shown that evidence of the Coulomb potential e<sup>2</sup> /ζ, imbedded in equation (1), is found in the broad mid-infrared component of the optical conductivity of A15 Cs3C<sup>60</sup> [46], which is modeled by optically active electric dipoles of local oscillator energies *ħ*n = e<sup>2</sup> /*n*ζ forming between the C<sup>60</sup> and a portion *n* of the 12 nearest-neighbor Cs cations. In particular, *ħ*<sup>6</sup> 0.17 eV and *ħ*<sup>3</sup> 0.34 eV are in excellent agreement with the peak observed at 0.17 eV and the maximum evident at ~0.33 eV, respectively.\n\nFor fcc Cs2.901(6)C<sup>60</sup> under optimal applied pressure, *T*C0 is seen to exceed *T*<sup>C</sup> meas by 1.7 K, which is attributed to the suppression of *T*<sup>C</sup> owing to disorder-induced pair-breaking with ≈ (4/)*k*B(*T*C0*T*<sup>C</sup> meas) = 0.19 meV [48]. Drawing an analogy with RCS pair breaking in alkali-intercalated TiNCl [34], and applying this result to the Cs(O) sites, a value of RCS = 0.16 meV is obtained in reasonable agreement with above. This agreement indicates that the Cs(O) site fluctuations may be responsible for the observed suppression in *T*<sup>C</sup> meas . Extending the calculations of *T*C0 to x = 0, assuming unchanged structural parameters, yields values of 39.18 and 37.51 K for the A15 and fcc forms, respectively.\n\nFor non-optimal *A*3C<sup>60</sup> materials, a hypothesis is presented attributing the observed BCS-like phenomena to a sympathetic response of the lattice to the native Coulomb-mediated superconductivity. This deduction follows from inadequately low values of *T*<sup>C</sup> and absences of either *T*C- or stoichiometry optimization domes evident in pairing theories based on C<sup>60</sup> phononics, as well as other theoretical shortcomings that have been noted [19,22]. With their focus on alkali *A* for chiefly controlling doping and lattice spacing, prior theoretical works have notably overlooked the electronic charges at *A* sites that are essential for high-*T*<sup>C</sup> superconductivity.\n\nIn conclusion, the successful predictions given herein demonstrate the validity of the interfacial Coulombic pairing theory as applied to the superconductivity in optimal Cs3C<sup>60</sup> and the near-optimal *A*3C<sup>60</sup> family in general.\n\n### **Acknowledgments**\n\nThe authors are grateful for support from the College of William and Mary, the New Jersey Institute of Technology, and the University of Notre Dame.\n\n#### **References**\n\n- [1] Kroto H W, Heath J R, O'Brien S C, Curl R F and Smalley R E 1985 *Nature* **318** 162\n- [2] Krätchmer W, Lamb L D, Fostiropoulos K and Huffman D R 1990 *Nature* **347** 354\n- [3] Haddon R C, Hebard A F, Rosseinsky M J, Murphy D W, Duclos S J, Lyons K B, Miller B, Rosamilia J M, Fleming R M, Kortan A R, Glarum S H, Makhija A V, Muller A J, Eick R H, Zahurak S M, Tycko R, Dabbagh G and Thiel A F 1991 *Nature* **350** 320\n- [4] Hebard A F, Rosseinsky M J, Haddon R C, Murphy D W, Glarum S H, Palstra T T M, Ramirez A P and Kortan A R 1991 *Nature* **350** 600\n- [5] Tanigaki K, Ebbesen T W, Saito S, Mizuki J, Tsai J S, Kubo Y and Kuroshima S 1991 *Nature* **352** 222\n- [6] Fleming R M, Ramirez A P, Rosseinsky M J, Murphy D W, Haddon R C, Zahurak S M and Makhija A V 1991 *Nature* **352** 787\n- [7] Takabayashi Y, Ganin A Y, Jeglič P, Arčon D, Takano T, Iwasa Y, Ohishi Y, Takata M, Takeshita N, Prassides K and Rosseinsky M J 2009 *Science* **323** 1585 and Online Supplementary Information\n- [8] Ganin A Y, Takabayashi Y, Jeglič P, Arčon D, Potočnik A, Baker P J, Ohishi Y, McDonald M T, Tzirakis M D, McLennan A, Darling G R, Takata M, Rosseinsky M J and Prassides K 2010 *Nature* **466** 221 and Online Supplementary Information\n- [9] Ganin A Y, Takabayashi Y, Khimyak Y Z, Margadonna S, Tamai A, Rosseinsky M J and Prassides K 2008 *Nat. Mater.* **7** 367 and Online Supplementary Information.\n- [10] Palstra T T M 2008 *Nat. Mater.* **7** 350\n- [11] Stephens P W, Mihaly L, Lee P L, Whetten R L, Huang S-M, Kaner R, Deiderich F and Holczer K 1991 *Nature* **351** 632\n- [12] Potočnik A, Ganin A Y, Takabayashi Y, McDonald M T, Heinmaa I, Jelič P, Stern R, Rosseinsky M J, Prassides K and Arčon D 2014\n\n*Chem. Sci.* **5** 3008 and Online Supplementary Information\n\n- [13] Zadik R H, Takabayashi Y, Klupp G, Colman R H, Ganin A Y, Potočnik A, Jeglič P, Arčon D, Matus P, Kamarás K, Kasahara Y, Iwasa Y, Fitch A N, Ohishi Y, Garbarino G, Kato K, Rosseinsky M J and Prassides K 2015 *Sci. Adv.* **1** e1500059\n- [14] Nowitzke G, Wortmann G, Werner H and Schögl R 1996 *Phys. Rev. B* **54** 13230\n- [15] Prassides K, Christides C, Thomas I M, Mizuki J, Tanigaki K, Hirosawa I and Ebbesen T W 1994 Science **263** 950\n- [16] Bethune D S, Meijer G, Tang W C, Rosen H J, Golden W G, Seki H, Brown C A and de Vries M S 1991 *Chem. Phys. Lett.* **179** 181\n- [17] Kosaka M, Tanigaki K, Prassides K, Margadonna S, Lappas A, Brown C M and Fitch A N 1999 Phys. Rev. B **59** R6628\n- [18] Yildirim T, Barbedette L, Fischer J E, Lin C L, Robert J, Petit P and Palstra T T M 1996 *Phys. Rev. Lett.* **77** 167\n- [19] Gunnarsson O 1997 *Rev. Mod. Phys.* **69** 575\n- [20] Nomura Y, Nakamura K and Arita R 2012 *Phys. Rev. B* **85** 155452\n- [21] Keren A, Kanigel A and Bazalitsky G 2006 *Phys. Rev. B* **74** 172506\n- [22] Gunnarsson O 2004 *Alkali-Doped Fullerides: Narrow-Band Solids with Unusual Properties* (Singapore: World Scientific Publ. Co)\n- [23] Nomura Y, Sakai S, Capone M and Arita R 2015 *Sci. Adv.* **1** 1500568\n- [24] Capone M, Fabrizio M, Castellani C and Tosatti E 2002 *Science* **296** 2364\n- [25] Capone M, Fabrizio M, Castellani C and Tosatti E 2009 *Rev. Mod. Phys.* **81** 943\n- [26] Wzietek P, Mito T, Alloul H, Pontiroli D, Aramini M and Riccò M 2014 *Phys. Rev. Lett.* **112** 066401 and Online Supplementary Information\n- [27] Harshman D R, Fiory A T and Dow J D 2011 *J. Phys.: Condens. Matter* **23** 295701 Harshman D R, Fiory A T and Dow J D 2011 *J. Phys.: Condens. Matter* **23** 349501 (corrigendum)\n- [28] Uemura Y J, Keren A, Le L P, Luke G M, Wu W D, Tsai J S, Tanigaki K, Holczer K, Donovan S and Whetten R L 1994 *Physica C* **235-240** 2501\n- [29] Harshman D R and Fiory A T 2012 *Emerg. Mater. Res.* **1** 4\n- [30] Harshman D R, Dow J D and Fiory A T 2011 *Phil. Mag.* **91** 818\n- [31] Harshman D R and Fiory A T 2012 *Phys. Rev. B*  **86** 144533\n- [32] Harshman D R and Fiory A T 2015 *J. Phys. Chem. Solids* **85** 106\n- [33] Harshman D R and Fiory A T 2012 *J. Phys.: Condens. Matter* **24** 135701\n- [34] Harshman D R and Fiory A T 2014 *Phys. Rev. B.* **90** 186501\n- [35] Harshman D R and Fiory A T 2015 *J. Supercond. Nov. Magn.* **28** 2967\n- [36] Little W A 1987 *Novel Superconductivity* ed S A Wolf and V Z Kresin (NewYork: Plenum) p 341 Little W A, Collman J P, Yee G T, Holcomb M J, McDevitt J T and Brown G E, 1988 *J. Am. Chem. Soc.* **110** 1301\n- [37] Varma C M, Schmitt-Rink S and Abrahams E 1987 *Sol. State Commun.* **62** 681\n- [38] Holcomb M J, Collman J P and Little W A 1994 *Phys. Rev. Lett.* **73** 2360\n- [39] Holcomb M J, Perry C L, Collman J P and Little W A 1996 *Phys. Rev. B* **53** 6734\n- [40] Hedberg K, Hedberg L, Bethune D S, Brown C A, Dorn H C, Johnson R D and deVries M 1991 *Science* **254** 410\n- [41] Pennington C H and Stenger V A 1996 *Rev. Mod. Phys.* **68** 855\n- [42] Kaur N, Gupta S, Dharamvir K and Jindal V K 2009 *Shock Waves – 26th International Symposium on Shock Waves* vol 2, ed K Hannemann and F Seiler (Berlin: Springer) pp 1017\n- [43] Haddon R C (1993) *Pure Appl. Chem.* **65** 11\n- [44] Alloul H, Ihara Y, Mito T, Wzietek P, Aramini M, Pontiroli D and Ricco M 2013 *J. Phys.: Conf. Ser.* **449** 012030\n- [45] Schulte J and Böhm M C 1995 *Solid State Commun.* **93** 249\n- [46] Baldassarre L, Perucchi A, Mitrano M, Nicoletti D, Marini C, Pontiroli D, Mazzani M, Aramini M, Riccó M, Giovannetti G, Capone M and Lupi S 2015 *Sci. Rep.* **5** 15240\n- [47] Iwasa Y and Kaneyasu T 1995 *Phys. Rev. B* **51** 3678\n- [48] Tinkham M 1996 *Introduction to Superconductivity*, 2nd edn (NewYork: McGraw Hill)\n- [49] Potočnik A, Krajnc A, Jeglič P, Takabayashi Y, Ganin A Y, Prassides K, Rosseinsky M J and Arčon D 2014 *Sci. Rep.* **4** 4265\n- [50] Harshman D R and Fiory A T 2011 *J. Phys.: Condens. Matter* **23** 315702\n- [51] Hebard A F, Palstra T T M, Haddon R C and Fleming R M 1993 *Phys. Rev. B* **48** 9945\n- [52] Zettl A, Lu L, Xiang X-D, Hou J G, Vareka W A and Fuhrer M S 1994 *J. Supercond.* **7** 639",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "High-TC superconductivity in Cs3C60\ncompounds governed by local Cs-C60\nCoulomb interactions",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              71.5693359375,
+              71.97802734375
+            ],
+            [
+              466.76953125,
+              71.97802734375
+            ],
+            [
+              466.76953125,
+              155.07421875
+            ],
+            [
+              71.5693359375,
+              155.07421875
+            ]
+          ]
+        },
+        {
+          "title": "Dale R. Harshman1\nand Anthony T. Fiory\n2",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              71.34521484375,
+              176.25421142578125
+            ],
+            [
+              305.7197265625,
+              176.25421142578125
+            ],
+            [
+              305.7197265625,
+              191.3291015625
+            ],
+            [
+              71.34521484375,
+              191.3291015625
+            ]
+          ]
+        },
+        {
+          "title": "Abstract",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              71.49462890625,
+              325.6171875
+            ],
+            [
+              117.21533203125,
+              325.6171875
+            ],
+            [
+              117.21533203125,
+              338.765625
+            ],
+            [
+              71.49462890625,
+              338.765625
+            ]
+          ]
+        },
+        {
+          "title": "1. Introduction",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              71.64404296875,
+              73.1192626953125
+            ],
+            [
+              152.77587890625,
+              73.1192626953125
+            ],
+            [
+              152.77587890625,
+              84.15924072265625
+            ],
+            [
+              71.64404296875,
+              84.15924072265625
+            ]
+          ]
+        },
+        {
+          "title": "2. Interlayer Coulombic Pairing Model",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              323.630859375,
+              585.4921875
+            ],
+            [
+              525.041015625,
+              585.4921875
+            ],
+            [
+              525.041015625,
+              597.09375
+            ],
+            [
+              323.630859375,
+              597.09375
+            ]
+          ]
+        },
+        {
+          "title": "2.1. TC0 and charge allocation",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              71.5693359375,
+              506.6015625
+            ],
+            [
+              229.5,
+              506.6015625
+            ],
+            [
+              229.5,
+              518.9408569335938
+            ],
+            [
+              71.5693359375,
+              518.9408569335938
+            ]
+          ]
+        },
+        {
+          "title": "2.2. Application to cubic A3C60",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              71.49462890625,
+              543.9492797851562
+            ],
+            [
+              234.580078125,
+              543.9492797851562
+            ],
+            [
+              234.580078125,
+              555.7808532714844
+            ],
+            [
+              71.49462890625,
+              555.7808532714844
+            ]
+          ]
+        },
+        {
+          "title": "3. Discussion",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              71.49462890625,
+              259.769287109375
+            ],
+            [
+              146.94873046875,
+              259.769287109375
+            ],
+            [
+              146.94873046875,
+              270.80926513671875
+            ],
+            [
+              71.49462890625,
+              270.80926513671875
+            ]
+          ]
+        },
+        {
+          "title": "3.1. A15 Cs3C60",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              322.734375,
+              230.6993408203125
+            ],
+            [
+              405.80859375,
+              230.6993408203125
+            ],
+            [
+              405.80859375,
+              243.052734375
+            ],
+            [
+              322.734375,
+              243.052734375
+            ]
+          ]
+        },
+        {
+          "title": "3.2. fcc Cs3C60",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              324.07000732421875,
+              615.7392730712891
+            ],
+            [
+              402.8203125,
+              615.7392730712891
+            ],
+            [
+              402.8203125,
+              627.5708618164062
+            ],
+            [
+              324.07000732421875,
+              627.5708618164062
+            ]
+          ]
+        },
+        {
+          "title": "3.3. Origin of Phononic Effects",
+          "heading_level": null,
+          "page_id": 10,
+          "polygon": [
+            [
+              72.02399444580078,
+              515.49609375
+            ],
+            [
+              235.32559204101562,
+              515.49609375
+            ],
+            [
+              235.32559204101562,
+              527.1492919921875
+            ],
+            [
+              72.02399444580078,
+              527.1492919921875
+            ]
+          ]
+        },
+        {
+          "title": "4. Conclusion",
+          "heading_level": null,
+          "page_id": 11,
+          "polygon": [
+            [
+              71.457275390625,
+              174.1793212890625
+            ],
+            [
+              148.517578125,
+              174.1793212890625
+            ],
+            [
+              148.517578125,
+              185.3349609375
+            ],
+            [
+              71.457275390625,
+              185.3349609375
+            ]
+          ]
+        },
+        {
+          "title": "Acknowledgments",
+          "heading_level": null,
+          "page_id": 11,
+          "polygon": [
+            [
+              324.07000732421875,
+              646.0992889404297
+            ],
+            [
+              421.35064697265625,
+              646.0992889404297
+            ],
+            [
+              421.35064697265625,
+              657.80859375
+            ],
+            [
+              324.07000732421875,
+              657.80859375
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 12,
+          "polygon": [
+            [
+              71.71875,
+              114.1793212890625
+            ],
+            [
+              131.4412841796875,
+              114.1793212890625
+            ],
+            [
+              131.4412841796875,
+              125.21929931640625
+            ],
+            [
+              71.71875,
+              125.21929931640625
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              253
+            ],
+            [
+              "Line",
+              39
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Footnote",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              546
+            ],
+            [
+              "Line",
+              92
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              399
+            ],
+            [
+              "Line",
+              87
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Footnote",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              462
+            ],
+            [
+              "Line",
+              103
+            ],
+            [
+              "TextInlineMath",
+              5
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              404
+            ],
+            [
+              "Line",
+              87
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "ListItem",
+              2
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Footnote",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              320
+            ],
+            [
+              "Line",
+              70
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              435
+            ],
+            [
+              "Line",
+              107
+            ],
+            [
+              "TableCell",
+              32
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              373
+            ],
+            [
+              "Line",
+              82
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              594
+            ],
+            [
+              "Line",
+              112
+            ],
+            [
+              "TextInlineMath",
+              6
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              476
+            ],
+            [
+              "Line",
+              83
+            ],
+            [
+              "TextInlineMath",
+              5
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              460
+            ],
+            [
+              "Line",
+              93
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              423
+            ],
+            [
+              "Line",
+              92
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              793
+            ],
+            [
+              "Line",
+              91
+            ],
+            [
+              "ListItem",
+              27
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              577
+            ],
+            [
+              "Line",
+              63
+            ],
+            [
+              "ListItem",
+              25
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 14,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "High-T <SUB>C</SUB> superconductivity in Cs<SUB>3</SUB>C<SUB>60</SUB> compounds governed by local Cs-C<SUB>60</SUB> Coulomb interactions",
+    "authors": [
+      {
+        "authors_list": [
+          "Harshman, Dale R.",
+          "Fiory, Anthony T."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Unique among alkali-doped A <SUB>3</SUB>C<SUB>60</SUB> fullerene compounds, the A15 and fcc forms of Cs<SUB>3</SUB>C<SUB>60</SUB> exhibit superconducting states varying under hydrostatic pressure with highest transition temperatures at T<SUB>\\text{C</SUB>}<SUP>\\text{meas</SUP>}   =  38.3 and 35.2 K, respectively. Herein it is argued that these two compounds under pressure represent the optimal materials of the A <SUB>3</SUB>C<SUB>60</SUB> family, and that the C<SUB>60</SUB>-associated superconductivity is mediated through Coulombic interactions with charges on the alkalis. A derivation of the interlayer Coulombic pairing model of high-T <SUB>C</SUB> superconductivity employing non-planar geometry is introduced, generalizing the picture of two interacting layers to an interaction between charge reservoirs located on the C<SUB>60</SUB> and alkali ions. The optimal transition temperature follows the algebraic expression, T <SUB>C0</SUB>  =  (12.474 nm<SUP>2</SUP> K)/ℓζ, where ℓ relates to the mean spacing between interacting surface charges on the C<SUB>60</SUB> and ζ is the average radial distance between the C<SUB>60</SUB> surface and the neighboring Cs ions. Values of T <SUB>C0</SUB> for the measured cation stoichiometries of Cs<SUB>3-x </SUB>C<SUB>60</SUB> with x  ≈  0 are found to be 38.19 and 36.88 K for the A15 and fcc forms, respectively, with the dichotomy in transition temperature reflecting the larger ζ and structural disorder in the fcc form. In the A15 form, modeled interacting charges and Coulomb potential e<SUP>2</SUP>/ζ are shown to agree quantitatively with findings from nuclear-spin relaxation and mid-infrared optical conductivity. In the fcc form, suppression of T<SUB>\\text{C</SUB>}<SUP>\\text{meas</SUP>} below T <SUB>C0</SUB> is ascribed to native structural disorder. Phononic effects in conjunction with Coulombic pairing are discussed.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Journal of Physics Condensed Matter",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1703.03350"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1088/1361-648X/aa5dbd",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2017JPCM...29n5602H"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

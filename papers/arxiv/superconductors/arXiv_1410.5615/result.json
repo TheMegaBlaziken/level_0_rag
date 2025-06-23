@@ -1,0 +1,453 @@
+{
+  "id": "a1d28de1bfaa4c66f6d7f3966394dd4b",
+  "pdf_path": "apl/Superconductors/arXiv:1410.5615.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **Vortex-penetration field at a groove with a depth smaller than the penetration depth**<sup>∗</sup>\n\nTakayuki Kubo†\n\nKEK, High Energy Accelerator Research Organization, Tsukuba, Ibaraki 305-0801 Japan\n\n### *Abstract*\n\nAnalytical formula to evaluate the vortex-penetration field at a groove with a depth smaller than penetration depth is derived, which can be applied to surfaces of cavities or test pieces made from extreme type II superconductors such as nitrogen-doped Nb or alternative materials like Nb3Sn or NbN.\n\n### **INTRODUCTION**\n\nThe vortex-penetration field B<sup>v</sup> is the field at which a vortex overcome the Bean-Livingston barrier [\\[1\\]](#page-2-0) and start to penetrate into the superconductor (SC). B<sup>v</sup> of extreme type II SC, where the penetration depth λ is much larger than the coherence length ξ, can be evaluated in the framework of the London theory. Materials that attract much attentions in the field of SC accelerating cavity such as dirty Nb like nitrogen-doped Nb and alternative materials like Nb3Sn or NbN are all categorized into this class. For an SC with an ideal flat surface, B<sup>v</sup> is given by B<sup>v</sup> = φ0/(4πλξ) ≃ 0.7Bc, where φ<sup>0</sup> is the flux quantum and B<sup>c</sup> is the thermodynamic critical magnetic field. Actually, experiments shows fields can not reach such a level. More realistic assumption, such as surface irregularities, should be incorporated.\n\nIn this paper we consider a groove with a depth δ smaller than λ as a simple example of a surface irregularity, which assume irregularities on cavity surfaces or test pieces made from extreme type II SC such as a nitrogen-doped Nb or alternative materials. B<sup>v</sup> at this type of irregularity has not been obtained so far, in spite of the fact that there are many studies on B<sup>v</sup> at a surface irregularity [\\[2,](#page-2-1) [3,](#page-2-2) [4,](#page-2-3) [5\\]](#page-2-4).\n\n### **MODEL**\n\nLet us consider a groove shown in Fig. [1\\(](#page-0-0)a). Gray and white regions represent the SC and the vacuum, respectively. Surface, groove and applied magnetic-field are perpendicular to the x-y plane. The half width of the groove and the slope angle are given by R and π(α − 1)/2, respectively, and thus the depth is given by δ = R tan[π(α− 1)/2], where 1 < α < 2. The depth is assumed to satisfy ξ ≪ δ ≪ λ.\n\n![](_page_0_Figure_12.jpeg)\n\n<span id=\"page-0-0\"></span>Figure 1: (a) Groove with a depth that is smaller than the penetration depth of the material and (b) its map on the wplane.\n\n## **FORCES ACTING ON A VORTEX AND THE VORTEX-PENETRATION FIELD**\n\nSuppose a vortex is at the position (x, y) = (0, δ + ξ), inside the bottom of groove. This vortex feels two distinct forces: (i) F<sup>M</sup> a force from a Meissner current due to an external field and (ii) F<sup>I</sup> a force due to an image antivortex that is introduced to satisfy the boundary condition of zero current normal to the surface. The former and the latter draw the vortex to the inside and the outside of the SC, respectively. The vortex-penetration field is a field at which these competing forces are balanced.[1](#page-0-1)\n\n### *Force due to an external field*\n\nAn external magnetic-field pushes a vortex into the superconductor by a force F<sup>M</sup> = J<sup>M</sup> × φ0ˆz, where J<sup>M</sup> is a Meissner screening-current, <sup>φ</sup><sup>0</sup> = 2.<sup>07</sup> <sup>×</sup> <sup>10</sup>−<sup>15</sup> Wb is the flux quantum and ˆz is the unit vector parallel to the z-axis. To evaluate FM, we evaluate J<sup>M</sup> as follows. J<sup>M</sup> satisfies div J<sup>M</sup> = 0 and one of the Maxwell equations, J<sup>M</sup> = rot H, where the magnetic field H plays the role of the vector potential of JM. For our two-dimensional problem, H can be written as H = (0, 0, −ψ(x, y)), and J<sup>M</sup>\n\n<sup>∗</sup> The work is supported by JSPS Grant-in-Aid for Young Scientists (B), Number 26800157\n\n<sup>†</sup> kubotaka@post.kek.jp\n\n<span id=\"page-0-1\"></span><sup>1</sup>Detailed reviews are given in Ref. [\\[6,](#page-2-5) [7\\]](#page-2-6).\n\nis given by J<sup>M</sup> = rot H = (−∂ψ/∂y, ∂ψ/∂x, 0). On the other hand, since λ is assumed to be much larger than the typical scale of the model, the London equation is reduced to rot J<sup>M</sup> = −△H = 0, which allows us to introduce a scalar potential of JM. For our two-dimensional problem the scalar potential can be written as φ(x, y), and J<sup>M</sup> is given by J<sup>M</sup> = −gradφ = (−∂φ/∂x, −∂φ/∂y, 0). Since both the two approaches should lead the same JM, we find\n\n$$J\\_{\\rm Mx} = -\\frac{\\partial \\phi}{\\partial x} = -\\frac{\\partial \\psi}{\\partial y}, \\qquad J\\_{\\rm My} = -\\frac{\\partial \\phi}{\\partial y} = \\frac{\\partial \\psi}{\\partial x}, \\tag{1}$$\n\nwhich are the Cauchy-Riemann conditions. Thus a function defined by\n\n$$\\Phi\\_{\\mathcal{M}}(z) \\equiv \\phi(x, y) + i\\psi(x, y) \\,, \\tag{2}$$\n\nis an holomorphic function of a complex variable z = x + iy, which is called the complex potential. If ΦM(z) is given, components of J<sup>M</sup> are derived from\n\n<span id=\"page-1-1\"></span>\n$$J\\_{\\mathbf{M}x} - iJ\\_{\\mathbf{M}y} = -\\frac{\\partial \\phi}{\\partial x} + i\\frac{\\partial \\phi}{\\partial y} = -\\frac{\\partial \\phi}{\\partial x} - i\\frac{\\partial \\psi}{\\partial x} = -\\frac{d\\Phi\\_{\\mathbf{M}}(z)}{dz},\\tag{3}$$\n\nwhere the property of the holomorphic function, Φ ′ <sup>M</sup>(z) = ∂φ/∂x+i∂ψ/∂x, is used. Thus our two-dimensional problem is reduced to a problem of finding ΦM(z).\n\nThe complex potential ΦM(z) is derived from a complex potential ΦeM(w) on a complex w-plane shown in Fig. [1\\(](#page-0-0)b) through a conformal mapping z = F(w), by which orthogonal sets of field lines in the w-plane are transformed into those in the z-plane. The map is given by the Schwarz-Christoffel transformation,\n\n<span id=\"page-1-2\"></span>\n$$z = F(w) = K\\_1 \\int\\_0^w f(w) dw + K\\_2 \\,. \\tag{4}$$\n\nThe function f(w) is given by\n\n$$f(w) = w^{\\alpha - 1} (w^2 - 1)^{-\\frac{\\alpha - 1}{2}},\\tag{5}$$\n\nand the constants K<sup>1</sup> and K<sup>2</sup> are given by\n\n$$K\\_1 = \\frac{\\sqrt{\\pi}R}{\\Gamma(\\frac{\\alpha}{2})\\Gamma(\\frac{3-\\alpha}{2})\\cos\\frac{\\pi(\\alpha-1)}{2}},\\qquad(6)$$\n\n$$K\\_2 \\quad = \\quad i\\delta = iR\\tan\\frac{\\pi(\\alpha - 1)}{2},\\tag{7}$$\n\nwhich are determined by conditions that A′ and C ′ on the w-plane are mapped into A and C on the z-plane, respectively. The complex potential on the w-plane is given by ΦeM(w) = Je0w (Je<sup>0</sup> ≡ K1J0), which reproduces the current distribution on the <sup>w</sup>-plane: <sup>−</sup>Φe′ <sup>M</sup>(w) = −Je0. Thus the complex potential on the z-plane is given by\n\n<span id=\"page-1-0\"></span>\n$$\\Phi\\_{\\mathcal{M}}(z) = \\tilde{\\Phi}\\_{\\mathcal{M}}(F^{-1}(z)) = F^{-1}(z)\\tilde{J}\\_0 \\,, \\tag{8}$$\n\nwhere F −1 is an inverse function of F.\n\nAll that is left is to substitute Eq. [\\(8\\)](#page-1-0) into Eq. [\\(3\\)](#page-1-1). The we obtain\n\n<span id=\"page-1-4\"></span>\n$$J\\_{\\rm Mx} - iJ\\_{\\rm My} = -\\frac{J\\_0}{f(w)},\\tag{9}$$\n\nwhere dF <sup>−</sup><sup>1</sup>/dz = dw/dz = (dz/dw) <sup>−</sup><sup>1</sup> = (dF/dw) −1 is used. In order to evaluate J<sup>M</sup> at the vortex position z = z<sup>v</sup> ≡ i(δ+ξ), w corresponding to z<sup>v</sup> is necessary. While no closed form of w = F −1 (z) exist, that of an approximate expression can be derived. Suppose w = iǫ (0 < ǫ ≪ 1) is mapped into z = z<sup>v</sup> on the z-plane by Eq. [\\(4\\)](#page-1-2). Then we obtain i(δ + ξ) ≃ iδ + iK1ǫ <sup>α</sup>/α, and find a relation\n\n$$\n\\epsilon = \\left(\\frac{\\alpha \\xi}{K\\_1}\\right)^{\\frac{1}{\\alpha}},\\tag{10}\n$$\n\nwhich immediately leads\n\n<span id=\"page-1-3\"></span>\n$$f(i\\epsilon) \\simeq \\epsilon^{\\alpha - 1} = \\left(\\frac{\\alpha \\xi}{K\\_1}\\right)^{\\frac{\\alpha - 1}{\\alpha}}.\\tag{11}$$\n\nSubstituing Eq. [\\(11\\)](#page-1-3) into Eq. [\\(9\\)](#page-1-4), we find\n\n$$J\\_{\\mathbf{M}x}(z\\_v) = -\\left(\\frac{K\\_1}{\\alpha \\xi}\\right)^{\\frac{\\alpha - 1}{\\alpha}} J\\_0, \\qquad \\qquad J\\_{\\mathbf{M}y}(z\\_v) = 0. \\tag{12}$$\n\nThen the force due to the external field can be evaluated as\n\n<span id=\"page-1-7\"></span>\n$$\\begin{aligned} \\mathbf{F}\\_{\\mathbf{M}} &= \\mathbf{J}\\_{\\mathbf{M}} \\times \\phi\\_0 \\mathbf{\\hat{z}} \\\\ &= \\left( \\frac{\\sqrt{\\pi}}{\\Gamma(\\frac{\\alpha}{2}) \\Gamma(\\frac{3-\\alpha}{2}) \\alpha \\cos \\frac{\\pi(\\alpha-1)}{2}} \\frac{R}{\\xi} \\right)^{\\frac{\\alpha-1}{\\alpha}} \\phi\\_0 J\\_0 \\mathbf{\\hat{y}}(\\mathbf{l}\\mathbf{3}) \\end{aligned}$$\n\nwhere yˆ is the unit vector parallel to the y-axis.\n\n### *Force due to the image antivortex*\n\nA current associated with a vortex near the surface satisfies the boundary condition of zero current normal to the surface. This boundary condition can be satisified by removing the surface and introducing appropriate image antivortex (antivotices). Then the current can be expressed as JV+I = J<sup>V</sup> + J<sup>I</sup> , where J<sup>V</sup> and J<sup>I</sup> represent currents due to the vortex and image antivortex (antivortices), respectively. The force due to the image antivortex (antivortices) FI is given by F<sup>I</sup> = J<sup>I</sup> × φ0zˆ. Thus our next task is to evaluate J<sup>I</sup> at the vortex position z = z<sup>v</sup> ≡ i(δ + ξ).\n\nA scalar and a vector potentials of JV+I, and the complex potential ΦV+I can be introduced in much the same way as the above. Then components of JV+I are given by\n\n<span id=\"page-1-6\"></span>\n$$J\\_{\\rm V+Ix} - iJ\\_{\\rm V+Iy} = -\\frac{d\\Phi\\_{\\rm V+I}(z)}{dz},\\tag{14}$$\n\nwhere ΦV+I(z) can be derived from the complex potential ΦeV+I(w) on the w-plane. Since the vortex and the image antivortex on the w-plane are located at w = +iǫ and −iǫ, respectively, ΦeV+I(w) is given by\n\n$$\\tilde{\\Phi}\\_{\\rm V+I}(w) = \\frac{i\\phi\\_0}{2\\pi\\mu\\_0\\lambda^2} \\left[ \\log(w - i\\epsilon) - \\log(w + i\\epsilon) \\right], \\tag{15}$$\n\nand thus the complex potential on the z-plane is given by\n\n<span id=\"page-1-5\"></span>\n$$\\Phi\\_{\\rm V+I}(z) = \\widetilde{\\Phi}\\_{\\rm V+I}(F^{-1}(z))\\,. \\tag{16}$$\n\nF is the Schwarz-Christoffel transformation given by Eq. [\\(4\\)](#page-1-2). Substituting Eq. [\\(16\\)](#page-1-5) into Eq. [\\(14\\)](#page-1-6), we find\n\n$$J\\_{\\rm V+Ix} - iJ\\_{\\rm V+Iy} = \\frac{1}{K\\_1 f(w)} \\frac{-i\\phi\\_0}{2\\pi\\mu\\_0\\lambda^2} \\left(\\frac{1}{w - i\\epsilon} - \\frac{1}{w + i\\epsilon}\\right). \\tag{17}$$\n\nAt the vortex position z = z<sup>v</sup> or w = iǫ, the first term of the square bracket diverges, which is contribution from the current due to the vortex and should be abandoned for the computation of J<sup>I</sup> . Then J<sup>I</sup> at the vortex position is give by\n\n$$iJ\\_{\\rm Ix} - iJ\\_{\\rm Iy} = \\frac{1}{K\\_1 f(i\\epsilon)} \\frac{i\\phi\\_0}{2\\pi\\mu\\_0\\lambda^2} \\left(\\frac{1}{2i\\epsilon}\\right) = \\frac{\\phi\\_0}{4\\pi\\mu\\_0\\lambda^2\\xi\\alpha},\\tag{18}$$\n\nor,\n\n$$J\\mathbf{l}\\_x(z\\_v) = \\frac{\\phi\\_0}{4\\pi\\mu\\_0\\lambda^2\\xi\\alpha}, \\qquad \\qquad J\\mathbf{l}\\_y(z\\_v) = 0,\\tag{19}$$\n\nwhere a relation ǫf(iǫ) = ǫ <sup>α</sup> = αξ/K<sup>1</sup> is used. Then the force due to the image anti-vortex is given by\n\n<span id=\"page-2-7\"></span>\n$$\\mathbf{F}\\_{\\rm I} = \\mathbf{J}\\_{\\rm M} \\times \\phi\\_0 \\hat{\\mathbf{z}} = -\\frac{\\phi\\_0^2}{4\\pi\\mu\\_0\\lambda^2\\xi\\alpha} \\hat{\\mathbf{y}}\\,. \\tag{20}$$\n\nNote that Eq. [\\(20\\)](#page-2-7) is reduced to the force from the flat surface when α = 1, and is maximized when the groove is a crack with α ≃ 2. Eq. [\\(20\\)](#page-2-7) is identical with that given in Ref. [\\[3\\]](#page-2-2).\n\n### *Vortex-penetration field*\n\nThe vortex-penetration field B<sup>v</sup> can be evaluated by balancing the two competing forces given by Eq. [\\(13\\)](#page-1-7) and [\\(20\\)](#page-2-7):\n\n$$\\left(\\frac{\\sqrt{\\pi}}{\\Gamma(\\frac{\\alpha}{2})\\Gamma(\\frac{3-\\alpha}{2})\\alpha\\cos\\frac{\\pi(\\alpha-1)}{2}}\\frac{R}{\\xi}\\right)^{\\frac{\\alpha-1}{\\alpha}}\\phi\\_0 J\\_0 = \\frac{\\phi\\_0^2}{4\\pi\\mu\\_0\\lambda^2\\xi\\alpha} . \\tag{21}$$\n\nThe surface current J<sup>0</sup> is given by J<sup>0</sup> = −µ −1 0 dB/dx|x=0 = B0/µ0Λ, where B<sup>0</sup> is the surface magnetic-field and Λ is a quantity with the dimension of length. For examples,\n\n$$\\Lambda = \\begin{cases} \\lambda & \\text{(semi-infinite SC)},\\\\ \\lambda \\frac{\\cosh\\frac{d\\_S}{\\lambda} + (\\frac{\\lambda'}{\\lambda} + \\frac{d\\_T}{\\lambda})\\sinh\\frac{d\\_S}{\\lambda}}{\\sinh\\frac{d\\_S}{\\lambda} + (\\frac{\\lambda'}{\\lambda} + \\frac{d\\_T}{\\lambda})\\cosh\\frac{d\\_S}{\\lambda}} & \\text{(multilayer SC)}. \\end{cases} (22)$$\n\nwhere d<sup>S</sup> , dI, and λ ′ are an SC layer thickness, insulator layer thickness and penetration depth of SC substrate material, respectively.[2](#page-2-8) The finally we obtain\n\n<span id=\"page-2-9\"></span>\n$$B\\_v = \\frac{\\phi\\_0}{4\\pi\\lambda\\xi} \\frac{\\Lambda}{\\lambda} \\frac{1}{\\alpha} \\left( \\frac{\\Gamma(\\frac{\\alpha}{2})\\Gamma(\\frac{3-\\alpha}{2})\\alpha\\cos\\frac{\\pi(\\alpha-1)}{2}}{\\sqrt{\\pi}} \\frac{\\xi}{R} \\right)^{\\frac{\\alpha-1}{\\alpha}}, (23)$$\n\nNote that Eq. [\\(23\\)](#page-2-9) is reduced to B<sup>v</sup> of semi-infinite SC or multilayer SC with ideal flat-surface when α = 1.\n\n### **SUMMARY**\n\nAnalytical formula to evaluate the vortex-penetration field at a groove with a depth smaller than penetration depth was derived. The formula would be useful to analyze relation between surfaces and performance-test results of cavities or test pieces made from extreme type II SC such as a dirty Nb like nitrogen-doped Nb or alternative materials like Nb3Sn or NbN.\n\n### **REFERENCES**\n\n- <span id=\"page-2-1\"></span><span id=\"page-2-0\"></span>[1] C. P. Bean and J. D. Livingston, Phys. Rev. Lett. **12**, 14 (1964).\n- <span id=\"page-2-2\"></span>[2] F. Bass, V. D. Freilikher, B. Ya. Shapiro, and M. Shvartser, Physica C **260**, 231 (1996).\n- <span id=\"page-2-3\"></span>[3] A. Buzdin and M. Daumens, Physica C **294**, 257 (1998).\n- <span id=\"page-2-4\"></span>[4] A. Buzdin and M. Daumens, Physica C **332**, 108 (2000).\n- <span id=\"page-2-5\"></span>[5] A. Yu. Aladyshkin, A. S. Mel'nikov, I. A. Shereshevsky, and I. D. Tokman, Physica C **361**, 67 (2001).\n- <span id=\"page-2-6\"></span>[6] T. Kubo, Y. Iwashita, and T. Saeki, in *Proceedings of SRF2013, Paris, France* (2013), p. 427, TUP007.\n- <span id=\"page-2-10\"></span>[7] T. Kubo, Y. Iwashita, and T. Saeki, in *Proceedings of IPAC'14, Doresden, Germany* (2014), p. 2522, WEPRI023.\n- <span id=\"page-2-11\"></span>[8] A. Gurevich, Appl. Phys. Lett. **88**, 012511 (2006).\n- [9] T. Kubo, Y. Iwashita, and T. Saeki, Appl. Phys. Lett. **104**, 032603 (2014).\n- <span id=\"page-2-12\"></span>[10] T. Kubo, Y. Iwashita, and T. Saeki, in *Proceedings of IPAC'13, Shanghai, China* (2013), p. 2343, WEPWO014.\n\n<span id=\"page-2-8\"></span><sup>2</sup>See Ref. [\\[8,](#page-2-10) [9\\]](#page-2-11). Detailed reviews are given in Ref. [\\[6,](#page-2-5) [7,](#page-2-6) [10\\]](#page-2-12).",
+    "html": null,
+    "images": {
+      "_page_0_Figure_12.jpeg": "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VGB+FO8qLcreWm5BhTtGQPQVh7/Fv/PHQv8Av9N/8TRv8W/88dC/7/Tf/E0AbK2tsjBlgiVh0IQA0La2ysGWCIMDkEIMisbf4t/546F/3+m/+Jo3+Lf+eOhf9/pv/iaANt4IZHDvFGzDozKCR+NPwKwd/i3/AJ46F/3+m/8AiaXf4t/546F+E03/AMTQBvV12h/8gmH6t/M1xdp9q+yR/bRCLnH7wQElAc9iQD0xXaaH/wAgmH6t/M0AWr//AJB1z/1yb+Rrhh0rub//AJB1z/1yb+Rrhh0oAWiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigCO4/49pf8Acb+VYngf/kRdD/680rbuP+PaX/cb+VYngf8A5EXQ/wDrzSgDfooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAxRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRiiigArrtD/wCQTD9W/ma5Guu0P/kEw/Vv5mgC1f8A/IOuf+uTfyNcMOldzf8A/IOuf+uTfyNcMOlAC0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAR3H/HtL/uN/KsTwP8A8iLof/Xmlbdx/wAe0v8AuN/KsTwP/wAiLof/AF5pQBv0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFddof/IJh+rfzNcjXXaH/wAgmH6t/M0AWr//AJB1z/1yb+Rrhh0rub//AJB1z/1yb+Rrhh0oAWiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigCO4/49pf8Acb+VYngf/kRdD/680rbuP+PaX/cb+VYngf8A5EXQ/wDrzSgDfooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK67Q/+QTD9W/ma5Guu0P8A5BMP1b+ZoAtX/wDyDrn/AK5N/I1ww6V3N/8A8g65/wCuTfyNcMOlAC0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAR3H/HtL/uN/KsTwP/AMiLof8A15pW3cf8e0v+438qxPA//Ii6H/15pQBv0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFddof8AyCYfq38zXI112h/8gmH6t/M0AWr/AP5B1z/1yb+Rrhh0rub/AP5B1z/1yb+Rrhh0oAWiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigCO4/49pf9xv5VieB/+RF0P/rzStu4/wCPaX/cb+VYngf/AJEXQ/8ArzSgDfooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK67Q/+QTD9W/ma5Guu0P/AJBMP1b+ZoAtX/8AyDrn/rk38jXDDpXc3/8AyDrn/rk38jXDDpQAtFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAEdx/wAe0v8AuN/KsTwP/wAiLof/AF5pW3cf8e0v+438qxPA/wDyIuh/9eaUAb9FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABXXaH/wAgmH6t/M1yNddof/IJh+rfzNAFq/8A+Qdc/wDXJv5GuGHSu5v/APkHXP8A1yb+Rrhh0oAWiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigCO4/49pf9xv5VieB/wDkRdD/AOvNK27j/j2l/wBxv5VieB/+RF0P/rzSgDfooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACoLq8trGBp7qeOCIdXkYKB+Jqeuc1vwdaeIdXtrvUbiea1gU4siQIy3qcYNAGrZ6zpmoSmKz1G1uJAMlYpVY/oa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XNdeyrtP0rzz4O8aBq3/AGFZ/wD0KgD0eiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAhuIfPheLeyB1K7kOGGe4PrWRovhbR9BZpbS1BuX/1l1Mxkmc+7tzW4a4HwxqV7dfFDxdZT3c0lpbLD5MLuSkeRzgdqAO93DpTq8/0nUr6b4x+INOku5msobGCSKAudiMepA9a9AoAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAGsua4+/+GukanKkl5faxKY5fOjDajIRG/qozxiuyooAzdI0ePR7VoIrm7uAzbi11O0rfm3atKiigAooooAKKKKACiiigAooooAKrXNha3ZBuLaGYjp5iBsfnVmigCOKFIUEcaKiAYVVGAB9KkoooAKKKKACiiigAooooAKKKKACiiigAooooAydY8OabrwiGowNL5WdmJXTGf8AdIrM0/4eeGdKu47mx0/yZI33qVmkxu9cbsGupooAQDFLRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFcdf+CLg+KJ/EGi6zJpl3cxCK5TyVljlx0baeh9/wD69djRQBx/h7wGmgeJ77XP7Uurye8gWOX7RgsWBzuyPbAwAAMV2FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf//Z"
+    },
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Vortex-penetration field at a groove with a depth smaller than\nthe penetration depth∗",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              108.474609375,
+              103.90484619140625
+            ],
+            [
+              486.5364990234375,
+              103.90484619140625
+            ],
+            [
+              486.5364990234375,
+              136.1307373046875
+            ],
+            [
+              108.474609375,
+              136.1307373046875
+            ]
+          ]
+        },
+        {
+          "title": "Abstract",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              55.95556640625,
+              204.9053955078125
+            ],
+            [
+              97.16324615478516,
+              204.9053955078125
+            ],
+            [
+              97.16324615478516,
+              216.860595703125
+            ],
+            [
+              55.95556640625,
+              216.860595703125
+            ]
+          ]
+        },
+        {
+          "title": "INTRODUCTION",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              125.13427734375,
+              317.7873229980469
+            ],
+            [
+              221.3917236328125,
+              317.7873229980469
+            ],
+            [
+              221.3917236328125,
+              329.7425231933594
+            ],
+            [
+              125.13427734375,
+              329.7425231933594
+            ]
+          ]
+        },
+        {
+          "title": "MODEL",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              150.23583984375,
+              625.4680328369141
+            ],
+            [
+              196.2546844482422,
+              625.4680328369141
+            ],
+            [
+              196.2546844482422,
+              637.4232330322266
+            ],
+            [
+              150.23583984375,
+              637.4232330322266
+            ]
+          ]
+        },
+        {
+          "title": "FORCES ACTING ON A VORTEX AND\nTHE VORTEX-PENETRATION FIELD",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              312.57421875,
+              493.4671936035156
+            ],
+            [
+              528.92578125,
+              493.4671936035156
+            ],
+            [
+              528.92578125,
+              519.34228515625
+            ],
+            [
+              312.57421875,
+              519.34228515625
+            ]
+          ]
+        },
+        {
+          "title": "Force due to an external field",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              304.3564453125,
+              643.2650909423828
+            ],
+            [
+              444.65625,
+              643.2650909423828
+            ],
+            [
+              444.65625,
+              655.2202911376953
+            ],
+            [
+              304.3564453125,
+              655.2202911376953
+            ]
+          ]
+        },
+        {
+          "title": "Force due to the image antivortex",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              303.01171875,
+              450.0650634765625
+            ],
+            [
+              465.02801513671875,
+              450.0650634765625
+            ],
+            [
+              465.02801513671875,
+              462.020263671875
+            ],
+            [
+              303.01171875,
+              462.020263671875
+            ]
+          ]
+        },
+        {
+          "title": "Vortex-penetration field",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              56.217041015625,
+              453.06524658203125
+            ],
+            [
+              170.33203125,
+              453.06524658203125
+            ],
+            [
+              170.33203125,
+              465.02044677734375
+            ],
+            [
+              56.217041015625,
+              465.02044677734375
+            ]
+          ]
+        },
+        {
+          "title": "SUMMARY",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              386.384765625,
+              102.8670654296875
+            ],
+            [
+              453.3515319824219,
+              102.8670654296875
+            ],
+            [
+              453.3515319824219,
+              114.822265625
+            ],
+            [
+              386.384765625,
+              114.822265625
+            ]
+          ]
+        },
+        {
+          "title": "REFERENCES",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              381.3046875,
+              213.86712646484375
+            ],
+            [
+              461.6871337890625,
+              213.86712646484375
+            ],
+            [
+              461.6871337890625,
+              225.82232666015625
+            ],
+            [
+              381.3046875,
+              225.82232666015625
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              411
+            ],
+            [
+              "Line",
+              72
+            ],
+            [
+              "SectionHeader",
+              6
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Footnote",
+              3
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              1178
+            ],
+            [
+              "Line",
+              181
+            ],
+            [
+              "Equation",
+              16
+            ],
+            [
+              "TextInlineMath",
+              11
+            ],
+            [
+              "Text",
+              8
+            ],
+            [
+              "Reference",
+              8
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              673
+            ],
+            [
+              "Line",
+              153
+            ],
+            [
+              "Reference",
+              13
+            ],
+            [
+              "ListItem",
+              10
+            ],
+            [
+              "Equation",
+              7
+            ],
+            [
+              "TextInlineMath",
+              5
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "Footnote",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/7xQRRT45OjEhJI-8q8S7aA"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 3,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Vortex-penetration field at a groove with a depth smaller than the penetration depth",
+    "authors": [
+      {
+        "authors_list": [
+          "Kubo, Takayuki"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Analytical formula to evaluate the vortex-penetration field at a groove with a depth smaller than penetration depth is derived, which can be applied to surfaces of cavities or test pieces made from extreme type II superconductors such as nitrogen-doped Nb or alternative materials like Nb3Sn or NbN.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1410.5615"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.1410.5615",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2014arXiv1410.5615K"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

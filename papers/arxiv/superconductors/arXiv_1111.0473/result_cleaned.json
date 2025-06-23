@@ -1,0 +1,359 @@
+{
+  "id": "c23b5993786cc04700dee5bb318620a7",
+  "pdf_path": "apl/Superconductors/arXiv:1111.0473.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "[We gratefully acknowledge support from](https://confluence.cornell.edu/x/ALlRF) [the Simons Foundation and University of Pennsylvania .](https://confluence.cornell.edu/x/ALlRF) [Cornell University](https://www.cornell.edu/)\n\n## **> [cond-mat.supr-con](file:///list/cond-mat.supr-con/recent) [arxiv logo](file:///)**\n\n| All papers<br>˅ |\n|-----------------|\n\n([Help](https://info.arxiv.org/help) | [Advanced search\\)](file:///find)\n\n## **PDF unavailable for [1111.0473](file:///abs/1111.0473)...**\n\nThe author has provided no source to generate PDF, and no PDF.\n\nLink back to: [arXiv,](http://arXiv.org/) [form interface,](http://arxiv.org/form) [contact](file:///help/contact).\n\n[About](https://arxiv.org/about)\n\n## [Help](https://arxiv.org/help)\n\n![](_page_1_Picture_1.jpeg)\n\n[Contact](https://arxiv.org/help/contact)\n\n![](_page_2_Picture_0.jpeg)\n\n[Subscribe](https://arxiv.org/help/subscribe)\n\n[Copyright](https://arxiv.org/help/license)\n\n[Privacy Policy](https://arxiv.org/help/policies/privacy_policy)\n\n[Web Accessibility Assistance](https://arxiv.org/help/web_accessibility)\n\n[arXiv Operational Status](https://status.arxiv.org)\n\n![](_page_4_Picture_0.jpeg)\n\n## Get status notifications via\n\n![](_page_5_Picture_1.jpeg)\n\n[email](https://subscribe.sorryapp.com/24846f03/email/new) or\n\n![](_page_6_Picture_0.jpeg)\n\n[slack](https://subscribe.sorryapp.com/24846f03/slack/new)",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "> cond-mat.supr-con\narxiv logo",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              61.8408203125,
+              120.770263671875
+            ],
+            [
+              499.7913818359375,
+              120.770263671875
+            ],
+            [
+              499.7913818359375,
+              147.699462890625
+            ],
+            [
+              61.8408203125,
+              147.699462890625
+            ]
+          ]
+        },
+        {
+          "title": "PDF unavailable for 1111.0473...",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              62.1318359375,
+              251.81884765625
+            ],
+            [
+              509.6383361816406,
+              251.81884765625
+            ],
+            [
+              509.6383361816406,
+              281.42041015625
+            ],
+            [
+              62.1318359375,
+              281.42041015625
+            ]
+          ]
+        },
+        {
+          "title": "Help",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              81.9208984375,
+              61.772705078125
+            ],
+            [
+              113.14999389648438,
+              61.772705078125
+            ],
+            [
+              113.14999389648438,
+              75.751220703125
+            ],
+            [
+              81.9208984375,
+              75.751220703125
+            ]
+          ]
+        },
+        {
+          "title": "Get status notifications via",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              82.86669921875,
+              61.05322265625
+            ],
+            [
+              249.59397888183594,
+              61.05322265625
+            ],
+            [
+              249.59397888183594,
+              75.751220703125
+            ],
+            [
+              82.86669921875,
+              75.751220703125
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              34
+            ],
+            [
+              "Line",
+              11
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TableCell",
+              2
+            ],
+            [
+              "Form",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              3
+            ],
+            [
+              "Line",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              7
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Line",
+              4
+            ],
+            [
+              "Picture",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Line",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Picture",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              4
+            ],
+            [
+              "Line",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Picture",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Line",
+              1
+            ],
+            [
+              "Span",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/tmpzshjr5bs"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 7,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Tensile strain dependence of critical current of RHQ-Nb<SUB>3</SUB>Al wires",
+    "authors": [
+      {
+        "authors_list": [
+          "Jin, Xinzhe",
+          "Oguro, Hidetoshi",
+          "Nakamoto, Tatsushi",
+          "Awaji, Satoshi"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Nb<SUB>3</SUB>Al superconducting wires produced by rapid heating and quenching (RHQ) have been developed for high-field accelerator magnets. It is known that critical currents of A15 superconductors (e.g., Nb<SUB>3</SUB>Al and Nb<SUB>3</SUB>Sn) have a dependence on stress/strain. It is thus important to clarify the stress/strain behavior of the RHQ-Nb<SUB>3</SUB>Al wires for the development of high-field accelerator magnets. We recently started experimentally investigating the strain dependence of the critical current of the RHQ-Nb<SUB>3</SUB>Al wires with a Ta interfilament by measuring their critical currents under longitudinal tensile strains. To evaluate the effect of residual strain in Nb<SUB>3</SUB>Al filaments induced by thermal contraction of the materials in the wire, neutron diffraction measurements were performed at room temperature.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Cryogenics",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1111.0473"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1016/j.cryogenics.2012.09.006",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2012Cryo...52..805J"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

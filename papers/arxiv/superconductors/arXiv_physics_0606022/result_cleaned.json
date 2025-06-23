@@ -1,0 +1,1148 @@
+{
+  "id": "a874401bbb678191b5e62613a3ef8c88",
+  "pdf_path": "apl/Superconductors/arXiv:physics_0606022.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# Im proved \fnaldoublet designs for the ILC baseline sm all crossing angle schem e\n\nR .A ppleby,P.Bam bade<sup>y</sup>\n\nJanuary 25,2022\n\n#### A bstract\n\nT heILC baselineconsistsoftwo interaction regions,onew ith a 20m rad crossing angle and the other w ith a 2m rad crossing angle. It is know n that the outgoing beam losses in the \fnaldoublet and subsequent extraction line are larger in the 2m rad than in the 20m rad layout. In this work, we exploit N bT iand N b3Sn superconducting m agnet technologies to redesign and optim ise the \fnaldoublet, w ith the aim of providing satisfactory outgoing disrupted beam power losses in this region. W e present three new \fnaldoublet layouts,speci\fcally optim ised for the 500 G eV and the 1 TeV m achines.\n\nr.b.appleby@ dl.ac.uk, T he C ockcroft Institute and the U niversity of M anchester, O xford R oad, M anchester,M 13 9PL,U K\n\n<sup>y</sup>Laboratoire de l'A ccelerateur Lineaire,C N R S/IN 2P3 and U niversite Paris Sud 11,B^atim ent 200, B.P.34,F-91898 O rsay,C edex,France\n\n## 1 IN T RO D U CT IO N\n\nEU RO TeV -R eport-2006-022\n\nThecurrentbaselinecon\fguration oftheInternationalLinearCollider[\\[1\\]](#page-12-0)consistsoftwo interaction regions (IR s) and two detectors,with one IR having a large beam crossing angle and one having a sm allbeam crossing angle. The large crossing angle layout has an angle of 20m rad between the beam s, and is derived from the large crossing angle design ofthe N ext Linear Collider [\\[2\\]](#page-13-0). Its opticalproperties are wellunderstood,and the extraction line successfully transports the disrupted beam to the dum p,for a wide range of proposed beam param eter sets [\\[3\\]](#page-13-1). Furtherm ore, the design includes downstream diagnostics for energy and polarisation m easurem ent. The 2m rad interaction region layoutpresentsm ore technicalchallenges,m ainly resulting from transporting the outgoing disrupted beam o-axis in the \fnaldoublet. This design is m ore recent and the\frstcom pleteopticswaspresented atSnowm ass2005 [\\[4\\]](#page-13-2).Thislayoutwasdeveloped for1 TeV using N bTisuperconducting \fnaldoubletm agnetsand included downstream energy and polarim etry m easurem ent chicanes.\n\nThe current ILC param eter space is docum ented in [\\[5\\]](#page-13-3)and the key param eters are listed in Table [1.](#page-2-0) These consist ofsets ofrepresentative beam param eters,designed to assure \nexibility in case of unexpected practicallim itations in achieving som e of the m achine goals. The m ost challenging of these sets is known as the H igh Lum inosity set, which aim s to m axim ise the instantaneous lum inosity by m ore strongly focusing the beam s at the IP,thereby signi\fcantly enhancing disruption eects. A necessary criterion forthe perform ance ofthe extraction line design isitsability to accom m odate thebroadestpossiblerangeofbeam param eters.The20m rad schem eissuccessfulforthe m ajority ofparam etersets,butthe current(baseline)2m rad design showsunacceptable beam power loss,both in the \fnaldoublet and in the extraction line,for som e ofthe beam param etersconsidered.\n\nIn thiswork,we exploitthe lim itsofcurrentm agnettechnology aswellastechnology stillunder developm ent to optim ise the 2m rad \fnaldoublet layout. W e present three new \fnaldoublet designs,one optim ised for the baseline energy of500 G eV and two for the upgrade energy of1 TeV .W e optim ise the m agnet param eters with respect to powerdeposition from charged beam and radiative Bhabha particle losses,with thegoal ofaccom m odating allILC beam param eter sets. W e \fnd that this is possible by using N bTitechnology forthe 500 G eV m achine,and by using new N b3Sn technology forthe 1 TeV upgrade. H owever,an increase in pole tip \feld,som ewhat beyond the currently planned lim its for N b3Sn technology,would be required to achieve power losses sm all enough to avoid quenching ofthe \fnaldoublet m agnets for the case ofthe Low Power and H igh Lum inosity beam param eters at 1 TeV .W e include a fullset ofm agnet and opticalparam etersforevaluation by m agnetdesigners.\n\nIn Section [2](#page-2-1) wediscusstheavailablem agnettechnologiesand theconstraintswe place on m agnetparam eters.W edescribeour\fnaldoubletoptim isation procedurein Section [3](#page-4-0) and present the resulting m agnet param eters for each case. The beam transport and resulting losses with our new doublets are presented in Section [4,](#page-6-0) and we draw our conclusions in Section [5.](#page-11-0) W e \fnd that the proposed new \fnal doublet layouts have considerably betterbeam transportpropertiesthan the current ones.\n\n| Set         | Energy   | Nb   | Iav<br>[A ] | B     | 2<br>1 ]<br>L<br>[m<br>s |  |\n|-------------|----------|------|-------------|-------|--------------------------|--|\n| N om inal   | 500 G eV | 2820 | 0.0104      | 0.022 | 2.03E38                  |  |\n| Low Power   | 500 G eV | 1330 | 0.0069      | 0.057 | 2.05E38                  |  |\n| H igh Lum . | 500 G eV | 2820 | 0.0104      | 0.070 | 4.92E38                  |  |\n| N om inal   | 1 TeV    | 2820 | 0.0104      | 0.050 | 2.82E38                  |  |\n| Low Power   | 1 TeV    | 1330 | 0.0069      | 0.134 | 2.92E38                  |  |\n| H igh Lum . | 1 TeV    | 2820 | 0.0104      | 0.178 | 7.88E38                  |  |\n\n<span id=\"page-2-0\"></span>Table 1:K ey param etersofthe beam param etersets used in thiswork.\n\n## <span id=\"page-2-1\"></span>2 M AG N ET PA RA M ET ERS\n\n#### 2.1 Current baseline design\n\nEU RO TeV -R eport-2006-022\n\nThe \fnal doublet in the 2m rad schem e is based a superconductive large bore Q D 0 m agnet and on a norm alconducting sm aller aperture Q F1 m agnet. The two nearby sextupoles for local chrom aticity correction, SD 0 and SF1, are also superconductive large bore m agnets. In the current design, the choice of superconductive technology for Q D 0 is N bTiand the m axim um pole tip \feld which is assum ed to be achievable is 5.6 T.In this work we always take l to be 4.5m and the Q D -Q F distance to be 9m . The outgoing beam passes through the coilpocket ofQ F1,where the \feld is m odelled by a standard m ultipole expansion. The outer coilradius,which is available for beam passage,is115m m .In thisdesign,the doubletwasoptim ised forthe TeV m achine,and the 500 G eV layout wasobtained by scaling down the \felds.\n\n#### 2.2 M axim um pole tip \feld for N bT i\n\nForthe N bTim agnets[\\[6\\]](#page-13-4)considered in thiswork,we assum e a m axim um pole tip \feld of 6.28 T. This is around the m axim um \feld that current coil designs can produce, and includes the \feld-reducing eects ofthe externalsolenoid and a safety m agin [\\[7\\]](#page-13-5). Thiscorrespondsto a gradientof180 T m <sup>1</sup> in a m agnetofradialaperture 35m m .The sextupolesarerequired to belargeboresuperconducting m agnets,to allow thetransport ofthe outgoing beam .W e follow the technology choice ofthe currentdesign,and adopt a m axim um \feld of4.04T in SD 0 and SF1 (with radialaperturesof88m m and 112m m , respectively)<sup>1</sup>.\n\n### 2.3 Expected m axim um pole tip \feld for N b3Sn\n\nW ealsoproposetouseN b3Sn-based technology [\\[6\\]](#page-13-4)forQ D 0at1TeV .Thehighergradient perm itted by this m agnet willim prove the beam transport properties ofthe doublet, by allowing a m ore com pact design. These m agnets have yet to be proven,but in the\n\n<sup>1</sup>T he m axim um \feld in a sextupole probably hassom e dependance on itsaperture.T hispointshould be checked w ith experts,to assessthe feasibility ofour proposed m agnets.\n\ntim escales ofthe ILC TeV upgrade,should hopefully be readily available<sup>2</sup>. O fcourse, such an upgrade would require replacing the \fnaldoublet,but this is rather m inor on the scale of the 1 TeV energy upgrade. Furtherm ore the geom etry of the extraction line would need to be m aintained.The m axim um pole tip \feld which we assum e willbe achievablewith N b3Sn is8.8T (taking into accountthepresenceofa solenoid background \feld).This corresponds to a 250 T m 1 gradientfora 35m m radialaperture.\n\n#### 2.4 O utline ofdoublet designs\n\nEU RO TeV -R eport-2006-022\n\nIn thiswork,weproposethree new doubletlayouts.W eshalloptim ise thelayoutforthe 500 G eV m achine,using N bTiforQ D 0 ata m axim um poletip \feld of6.28 T.Thebeam transport properties ofsuch a layout willbe considerably better that the scaled down version ofthe 1 TeV existing baseline,because the m agnet length can be reduced. The sextupoles shallbe optim ised versions ofthe current baseline. W e shallthen calculate the layoutsforthe TeV m achine,\frstly using N bTiforQ D 0 asthe design for500 G eV , and secondly with N b3Sn. The resulting doublets are intended to replace the present design.\n\nThe currentbaseline m agnetsare sum m arised in Table [2.](#page-3-0)In Table [3](#page-4-1) we describe our proposed m agnettechnology lim itsforthis work.\n\n| M agnet | Length | Strength       | radialaperture | gradient       | P T<br>B |\n|---------|--------|----------------|----------------|----------------|----------|\n| Q D 0   | 2.5m   | 1<br>-0.0958 m | 35m m          | 1<br>159.4 T m | 5.58 T   |\n| SD 0    | 3.8m   | 2<br>0.6254 m  | 88m m          | -              | 4.04 T   |\n| Q F1    | 2.0m   | 1<br>0.0407 m  | 10m m          | 1<br>67.8 T m  | 0.68 T   |\n| SF1     | 3.8m   | 2<br>-0.2039 m | 112m m         | -              | 2.13 T   |\n\n<span id=\"page-3-0\"></span>Table 2:Q uadrupole and sextupole param eters at p s = 1 TeV for the current baseline design.\n\n#### <span id=\"page-3-1\"></span>2.5 A ssum ed power deposition tolerances\n\nSuperconductive m agnetswillquench iftoo m uch beam powerisdeposited in them ,and both integrated powerand localised powerdensity toleranceshave been speci\fed by the CER N group for the LH C quadrupoles used in this work. The m axim um integrated power which can be tolerated per unit length is in the range 5-10 W m <sup>1</sup> . H owever, fora few speci\fc m agnetslike those in the \fnaldoublet,thistolerance can presum ably be relaxed a bit if m ore cryogenic power can be used. The highest localised power density which can be accepted is 0.5 m W g <sup>1</sup> . This tolerance is im portant to consider in this work because the outgoing beam is transported o-axis through severalofthe\n\n<sup>2</sup>T he developm ent of superconductive m agnets based on N b3Sn technology is also being strongly stim ulated by the LH C lum inosity upgrade program m e,w hich also requireshigher gradientsforits low -beta insertion quadrupoles.\n\n<span id=\"page-4-1\"></span>Table 3:The lim iting param eters ofthe \fnaldoublet m agnets. N ote that these m axim um \feldsinclude the reductionsexpected from the solenoid background \feld atthe location ofthe m agnets.\n\nEU RO TeV -R eport-2006-022\n\n| M agnet        | Type | M axim um<br>eld    |\n|----------------|------|---------------------|\n| Q D 0 (N bTi)  | SC   | 6.28 T              |\n| Q D 0 (N b3Sn) | SC   | 8.75 T              |\n| SD 0           | SC   | 4.04 T (r= 88m m )  |\n| Q F1           | N C  | 1.02 T              |\n| SF1            | SC   | 2.13 T (r= 112m m ) |\n\n\fnaldoublet m agnets,and so particles at the lower end ofthe energy distribution can getover-focused onto the edge ofthe m agnetaperture on one side.Since these particles are essentially concentrated in a plane (except for their verticalangular spread), the localpower density can becom e high. W e rely on detailed com putations perform ed at R H U L with the G EA N T-4 based BD SIM sim ulation [\\[8\\]](#page-13-6),following sim ilar calculations atSLAC [\\[9\\]](#page-13-7).These calculationshave shown thatforabout1 W incidentbeam poweron the edge ofQ D 0,a m axim um power density ofabout 4 m W g <sup>1</sup> can be reached inside the N bTicoils. Ifa 3 m m Tungsten liner (corresponding to about 1 radiation length) isused to thicken the beam pipe and spread outthe showers atthe location ofthe loss, the m axim um power density can be brought down to about 0.3 m W g <sup>1</sup> in the sam e conditions. Based on these num bers,we use 1 W as the m axim um value for the power deposited on the edge ofQ D 0. This 1 W \\$ 0.3 m W g <sup>1</sup> equivalence,found between totalincidentpowerand powerdensity in Q D 0,willhaveto bechecked forotherm agnet con\fgurationsand beam param eters,especially in the case ofthe sextupoles.\n\n## <span id=\"page-4-0\"></span>3 FIN A L D O U B LET O PT IM ISAT IO N\n\nIn this section,we shalldiscuss our optim isation ofthe \fnaldoublet layout. W e shall start with the optim isation ofQ D 0. Severalstudies ofthe power deposition into Q D 0 have shown thatthe charged beam lossand the lossfrom radiative Bhabhasexceed the quench lim itsofthecoils,forsom eoftheproposed beam param eters.Therefore,thegoal ofouroptim isation isto reducetheselossesto acceptablelevels,forallbeam param eters. N ote that we work in term s of total incident power, and consider the conversion to localised losses separately (see Section [2.5\\)](#page-3-1). The optim isation procedure described in the following isapplied to allthree \fnaldoublet designs outlined in Section [2.](#page-2-1)\n\nTheunderlaying principle is,in the\frstinstance,to m akethem agnetasshortaspossible within the constraintsofthe available pole tip \feld.H ence we begin by increasing the \feld ofQ D 0 to the m axim um possible value,and decrease the length in proportion.\n\nW e then perform a scan ofthe aperture and pole tip \feld,adjusting the length to m aintain the overallfocusing strength,and using the totalpower deposition from the dierent beam param eter sets as \fgure ofm erit. The m agnitude ofthe beam strahlung\n\nenergy lossforthe Low Powerand H igh Lum inosity beam param etersitsuch thatthese sets dom inate the optim isation. Both the eects from the charged beam ,for vertical osetsatthe interaction pointm axim ising the beam strahlung losses,and the com bined eects ofradiative Bhabhas and the charged beam (collided in this case without a signi\fcantverticaloset)are considered. W e generally \fnd a m im im um in the totalpower deposition which is very sim ilar for allparam eters sets, as the dependance ofthe totalpower versus aperture and length found from the scanning is rather shallow. This procedure allows a power-optim ised Q D 0 length,aperture and pole tip \feld,with the constraints ofm aintaining the constant integrated focusing strength needed to achieve the required dem agni\fcation and keeping the pole tip below a given assum ption on the m axim um value achievable. N ote that the form er constraint m aintains the dem agni-\n\nEU RO TeV -R eport-2006-022\n\n\fcation ofthe \fnaltelescope,and also m aintains the integrated strength ofQ F1. To ensure that the m im im um we reach in the 3-dim ensinalspace ofthe scan is a true and globalm inim um ,we begin with a variety ofinitialm agnetconditions (i.e.origin in our space).W e \fnd thatwe alwaysconverge to the sam e pointin allcases.W e perform this optim isation forthe three cases we considerin thiswork and the resultisa setofthree Q D 0-Q F1 system s.\n\nO nce Q D 0 has been optim ised,we can \ft for the localchrom aticity correction sextupoles. For these sextupoles, located in the im m ediate vicinity of the \fnaldoublet quadrupoles, we assum e the sam e m axim um pole tip \felds as in the baseline. The chrom aticity is corrected,and the required sextupole strengths calculated,by using a sim pli\fed m odelofthe system ,consisting ofthe \fnaldoubletregion and two upstream bends to generate the required dispersion. The bend strengths are \ftted to give <sup>x</sup> = 0 and <sup>0</sup> <sup>x</sup> = 10m rad atthe interaction point.N ote thatthe lattervalue ischosen to give acceptable sextupole strengths,whilst m aintaining the beam angular divergence close to its intrinsic value. W hile a fulltreatm ent ofthe \fnalfocus chrom aticity correction includes the condition ofzeroing the T<sup>126</sup> and T<sup>346</sup> m atrix elem ent across the fullsystem ,it has been shown that,to a good approxim ation,sextupole strengths consistent with those in such a fulltreatm ent can be obtained by zeroing the T<sup>166</sup> and T<sup>346</sup> m atrix elem ents across the sim pli\fed system [\\[10\\]](#page-13-8). W e apply such a procedure to com pute the sextupole strengths in this work. The inter-m agnet distances chosen are shown in Table [4.](#page-6-1)In this work,the opticscode M A D [\\[11\\]](#page-13-9)wasused to com pute the chrom aticity correction.\n\nThe length ofthe optim ised sextupoleswaschosen to give a reasonable starting point forthebeam transport.Thesextupolelengthsarehencenotfully optim ised,and require som e further study. To optim ise the sextupole apertures,a \ftis perform ed,within the m axim alvalue assum ed forthe pole tip \felds,and requiring no loss when transporting a N om inal,Low Power or H igh Lum inosity beam . The inter-m agnet spacings were optim ised forbeam transport.The technologicalconstraintslim itthe m axim um aperture, and we \ftthe aperture by requiring no losswhen transporting a nom inal,low poweror high lum inosity beam .Theavailableapertureiscom puted from thequadraticriseofthe\n\n\feld in thebeam pipeofthesextupole.N otethatweconsiderboth theradiativeBhabha contribution to the power deposition and the eect ofa vertically oset beam . The requirem ent ofsm allenough loss(1 W in total)isvery stringent,particularly in the case\n\nofthe H igh Lum inosity oset beam s,and results in large sextupole apertures. These could be considerably reduced by relaxing the beam transportrequirem ent,forinstance ifone would avoid beam param eteroptim isationswith very large beam strahlung energy losses.\n\nEU RO TeV -R eport-2006-022\n\nTheresultsoftheoptim isation can befound in table[5](#page-6-2) forN bTiat500 G eV ,in table[6](#page-6-3) for N bTiat 1 TeV and in table [7](#page-7-0) for N b3Sn at 1 TeV .These tables show the m agnet param eters of the two quadrupoles and two sextupoles m aking up the \fnal doublet layout.\n\n|            | N bTi,500 G eV | N bTi,1 TeV | N b3Sn,1 TeV |  |  |\n|------------|----------------|-------------|--------------|--|--|\n| Q D 0-SD 0 | 0.8m           | 0.3m        | 0.3m         |  |  |\n| SD 0-Q F1  | 5.7m           | 4.9m        | 4.9m         |  |  |\n| Q F1-SF1   | 0.5m           | 0.3m        | 0.3m         |  |  |\n\n<span id=\"page-6-1\"></span>Table 4:The inter-m agnetdriftspacesused in the \fnaldoublet.In allthe layouts,l is taken to be 4.5m ,and the totalQ D -Q F distance isalways 9m .\n\n<span id=\"page-6-2\"></span>Table 5:Q uadrupole and sextupole param etersat p s= 500 G eV forN bTi.\n\n| M agnet | Length | Strength       | radialaperture | gradient       | P T<br>B |\n|---------|--------|----------------|----------------|----------------|----------|\n| Q D 0   | 1.23m  | 1<br>-0.1940 m | 39m m          | 1<br>161.6 T m | 6.30 T   |\n| SD 0    | 2.5m   | 2<br>1.1166 m  | 76m m          | -              | 2.69 T   |\n| Q F1    | 1.0m   | 1<br>0.0815 m  | 15m m          | 1<br>67.9 T m  | 1.02 T   |\n| SF1     | 2.5m   | 2<br>-0.2731 m | 151m m         | -              | 2.59T    |\n\n<span id=\"page-6-3\"></span>Table 6:Q uadrupole and sextupole param eters at p s= 1 TeV forN bTi.\n\n| M agnet | Length | Strength       | radialaperture | gradient       | P T<br>B |\n|---------|--------|----------------|----------------|----------------|----------|\n| Q D 0   | 2.47m  | 1<br>-0.0970 m | 39m m          | 1<br>161.7 T m | 6.31 T   |\n| SD 0    | 3.8m   | 2<br>0.5993 m  | 87m m          | -              | 3.78 T   |\n| Q F1    | 2.0m   | 1<br>0.0407 m  | 15m m          | 1<br>67.8 T m  | 1.02 T   |\n| SF1     | 3.8m   | 2<br>-0.1644 m | 146m m         | -              | 2.92 T   |\n\n# <span id=\"page-6-0\"></span>4 PA RT ICLE LO SSES IN T H E O PT IM ISED FIN A L D O U B LET\n\nIn this section,power depositions from particle losses are com puted for the three optim ised \fnaldoubletsdescribed in Section [2.](#page-2-1)Forcom pletenessweincludethepowerlosses\n\n| M agnet | Length | Strength       | radialaperture | gradient      | P T<br>B |\n|---------|--------|----------------|----------------|---------------|----------|\n| Q D 0   | 2.0m   | 1<br>-0.12 m   | 44m m          | 1<br>200 T m  | 8.80 T   |\n| SD 0    | 3.8m   | 2<br>0.6454 m  | 95.1m m        | -             | 4.87 T   |\n| Q F1    | 2.0m   | 1<br>0.0407 m  | 15m m          | 1<br>67.8 T m | 1.02 T   |\n| SF1     | 3.8m   | 2<br>-0.1689 m | 163m m         | -             | 3.74 T   |\n\n<span id=\"page-7-0\"></span>Table 7:Q uadrupole and sextupole param eters at p s= 1 TeV forN b3Sn.\n\nfor the current baseline layout,both at 500 G eV and 1 TeV .The disrupted beam was calculated using the beam -beam sim ulator G U IN EA -PIG [\\[12\\]](#page-13-10),with the beam param eterstaken from [\\[3,](#page-13-1)[5\\]](#page-13-3),and the particle ray-tracing wasperform ed using the program m e D IM A D [\\[13\\]](#page-13-11).W e\fnd thatitisnecessary to prim arily considertheLow powerand H igh Lum inosity beam param etersets,due to theirhigh beam strahlung energy loss.W e also conservatively consider the transport ofthe disrupted beam for collisions with vertical osets chosen to m axim ise the corresponding beam strahlung energy loss. Such osets, typically ofabout a hundred m icrons,are expected in the course oftuning the accelerator,in particular during the settling ofthe trajectory feedback system at the IP.For the norm allum inosity-producing zero oset collisions, the eect of radiative Bhabha processes is included. W e use 1.28 m illion m acroparticles to represent the disrupted charged beam . The resulting m inim um power loss is oforder 0.5 to 1 W ,which can hence be considered asthe upperbound forcaseswith zero particle loss<sup>3</sup>.The radiative Bhabha losses,on the otherhand,are notstatistics lim ited.\n\n#### 4.1 Results for E= 500 G eV\n\nEU RO TeV -R eport-2006-022\n\nIn Table [8](#page-8-0) we show,for reference,the power losses forthe baseline lattice at 500 G eV . Thislatticeisobtained by scaling down the1 TeV m agnetparam eters.Tabl[e9](#page-8-1) showsthe powerlosses forthe optim ised 500 G eV N bTilattice,produced following the procedure described in Section [3](#page-4-0) and using the lim itsforthe m agnetparam eterslisted in Table [3.](#page-4-1) N otethattheouterpocketradiusofQ F1wasincreased by 1m m (from 115m m to116m m ) to accom m odate the charged beam ofthe high lum inosity param etersetwith a vertical oset.Com parison oftheperform anceofthebaseline \fnaldoubletat500 G eV ,Table [8,](#page-8-0) with the perform ance ofthe new N bTidoublet optim ised for 500 G eV ,Table [9,](#page-8-1)shows the bene\ft of the new \fnaldoublet layout. The power losses for all param eter sets are greatly reduced and,following the argum ents about quenching ofsuperconducting m agnets in Section [2,](#page-2-1) the power losses should be sm all enough for successful beam transportto be achieved.\n\nFigure [1](#page-9-0) illustrates how m uch the power losses would be further reduced ifresearch and developm ent provided a stronger (i.e. larger)m agnetic gradient. This curve shows the power deposition from radiative Bhabhas forthe H igh Lum inosity beam param eter set,as a function ofm agnet scale factor for the optim ised N bTi500 G eV \fnaldoublet\n\n<sup>3</sup>Strictly speaking the 95% con\fdence levelupper lim it is three tim es this value,or 1.5 to 3 W .\n(solid curve) and the sam e m agnetwith an extra 20% ofgradientin Q D 0.\n\nFigure[2](#page-10-0) showsthe powerdeposition from radiative Bhabhasforthe Low Powerbeam param eter set,as a function ofthe Q D 0 aperture<sup>4</sup> . The m inim um in the power loss curve isreasonably shallow,which could be used to reduce the large externalsize ofthe m agnet.N otethatalso including thecharged beam lossesm ay m ovethistotalm inim um to slightly largeraperture.\n\nFinally,the linear optics for the baseline \fnaldoublet and the optim ised N bTi\fnal doubletat500 G eV (nom inalparam eters)can be seen in \fgures[3](#page-11-0) and [4.](#page-12-0)\n\n| Beam                    | Q D 0   | SD 0 | Q F1   | SF1       |\n|-------------------------|---------|------|--------|-----------|\n| N om inal               | 0 W     | 0 W  | 0 W    | 0 W       |\n| N om inal(dy= 200nm )   | 0 W     | 0 W  | 0 W    | 0 W       |\n| N om ialR B             | 0.40 W  | 0 W  | 0.01 W | 0.11 W    |\n| low power               | 7.61 W  | 0 W  | 0 W    | 469.76 W  |\n| Low power (dy= 120nm )  | 7.77 W  | 0 W  | 0 W    | 188.05 W  |\n| Low power R B           | 0.39 W  | 0 W  | 0.01 W | 0.10 W    |\n| H igh lum .             | 91.81 W | 0 W  | 0 W    | 1399.82 W |\n| H igh lum .(dy= 120nm ) | 88.86 W | 0 W  | 5.42 W | 192.52 W  |\n| H igh lum .R B          | 0.97 W  | 0 W  | 0.03 W | 0.25 W    |\n\nTable 8:The power losses on the m agnetsforthe baseline N bTi500 G eV lattice.\n\nTable 9:The power losses on the m agnetsforthe optim ised N bTi500 G eV lattice.\n\n| Beam                    | Q D 0  | SD 0 | Q F1   | SF1    |\n|-------------------------|--------|------|--------|--------|\n| N om inal               | 0 W    | 0 W  | 0 W    | 0 W    |\n| N om inal(dy= 200nm )   | 0 W    | 0 W  | 0 W    | 0 W    |\n| N om ialR B             | 0.05 W | 0 W  | 0.13 W | 0.03 W |\n| low power               | 0 W    | 0 W  | 0 W    | 0 W    |\n| Low power(dy= 120nm )   | 0 W    | 0 W  | 0 W    | 0 W    |\n| Low powerR B            | 0.05 W | 0 W  | 0.13 W | 0.03 W |\n| H igh lum .             | 0 W    | 0 W  | 0 W    | 0 W    |\n| H igh lum .(dy= 120nm ) | 0 W    | 0 W  | 0 W    | 0 W    |\n| H igh lum .R B          | 0.12 W | 0 W  | 0.33 W | 0.08 W |\n\n## 4.2 Results for E= 1 TeV\n\nEU RO TeV -R eport-2006-022\n\nIn Table [10](#page-9-0) we show,for reference,the power losses for the baseline lattice at 1 TeV . Table [11](#page-10-1) showsthe powerlossesin theN bTi\fnaldoublet,optim ised for1 TeV .The low\n\n<sup>4</sup>T he dependence show n here is forthe baseline doubletat500 G eV .A sim ilarly shallow behaviouris obtained for the other cases.\n\n![](0__page_9_Figure_0.jpeg)\n\nFigure 1 : The bene cial e ect of a 20% gradient increase, for the High Lum inosty param eter set radiative Bhabha losses. The solid line is the power losses for the N b i 500 G eV optim issd doublet described in the text, and the dotted line show s the power losses achieved if an extra 20% of m agnetic gradient becam e available.\n\nm aximum gradient possible with this m agnet technology means that, whilst the losses are lower than the baseline design at 1 TeV , they are still too high to avoid m agnet quenching. This indicates that higher gradient m agnets are required.\n\n| B eam                   | OD 0       | SD 0 | QF1      | SF 1      |\n|-------------------------|------------|------|----------|-----------|\n| Nom inal                | 0 W        | 0 W  | 0 W      | 0 W       |\n| N om inal (dy= 100nm )  | 3.39 W     | 0 W  | 0 W      | 0 W       |\n| Nom inalRB              | 1.02 W     | 0 W  | 0.01 W   | 0.30 W    |\n| Low Power               | 755.05 W   | 0 W  | 7.63 W   | 95.37 W   |\n| Low Power (dy= 120nm )  | 897.46 W   | 0 W  | 20.98 W  | 109.49 W  |\n| Low Power RB            | 1.19 W     | 0 W  | 0.03 W   | 0.34 W    |\n| High Lum .              | 8430 59 W  | 0 W  | 190 17 W | 878.12 W  |\n| H igh Lum . (dy= 80nm ) | 14076.00 W | 0 W  | 454 53 W | 1514.45 W |\n| High Lum . R B          | 3.60 W     | 0 W  | 0.11 W   | 0.92 W    |\n\n<span id=\"page-9-0\"></span>Table 10: The power losses on the m agnets for the baseline 1 Tev lattice.\n\nFinally, Table 12 shows the power bsses in the Nb3Sn nal doublet, optim issd for 1 TeV . The higher gradients expected from using N b35n superconductive m aterial enable to signi cantly reduce the power deposition as com pared to both the baseline and optimised N bT i naldoublet designs. How ever, the losses are still in excess of the quending lim its of the m agnets. To understand what in proven ent in superconducting technology would be required, we computed how much larger the pole tip eld in QD 0 would need to be to bring the sum of the charged beam and radiative Bhabha losses to less than 1W ,\n\n![](0__page_10_Figure_0.jpeg)\n\n<span id=\"page-10-0\"></span>Figure 2: The power loss from the Low Power param eter set radiative Bhabhas, as a function of the QD 0 aperture. This plot shows the shallow minimum in the power loss curve, which could be used to reduce the large external size of the m agnet. Note, the dependence shown here is for the baseline doublet at 500 G eV . A similarly shallow behaviour is obtained for the other cases.\n\nfor the Low Power beam param eter set. The result was that a pole tip sed of 11T in a m agnet w ith an aperture of 35mm would be needed for the Low Power beam param eter set to be accomm odated in the naldoublet at 1 TeV . The feasibility of such large pole tip elds on the time scale of the 1 TeV energy upgrade of the ILC needs to be discussed w ith relevant superconductive m agnet experts. A ltematively, beam param eters at 1 TeV m ay be optim issd with som ewhat lower beam strahlung energy loss, including for total beam powers as low as in the present Low Power param eter set. Such sets would result in signi cantly easier nal doublet designs.\n\n<span id=\"page-10-1\"></span>\n\n| مليون الا تي تا تا تا تاريخ الله عليها الا الان الان الان الان الان الان الان الان الاستقل الان الان الال الالت التي تعلق الم |           |          |          |          |  |\n|-------------------------------------------------------------------------------------------------------------------------------|-----------|----------|----------|----------|--|\n| B eam                                                                                                                         | OD 0      | SD U     | QF1      | SF 1     |  |\n| Nom inal                                                                                                                      | 0 W       | 0 W      | 0 W      | 0 W      |  |\n| N om inal (dy= 100nm )                                                                                                        | 0 W       | 0 W      | 0 W      | 0 W      |  |\n| Nom inalR B                                                                                                                   | 0.73 W    | 0 w      | 0.06 W   | 0.16 W   |  |\n| Low Power                                                                                                                     | 223.94 W  | 27.85 W  | 5.76 W   | 8.07 W   |  |\n| Low Power (dy= 120nm )                                                                                                        | 271 85 W  | 6.77 W   | 11.39 W  | 10.66 W  |  |\n| Low Power RB                                                                                                                  | 0.15 W    | 0 W      | 0.39 W   | 0.10 W   |  |\n| High Lum .                                                                                                                    | 3169.79 W | 703.78 W | 54.96 W  | 122.87 W |  |\n| H igh Lum . (dy= 80nm )                                                                                                       | 5501 98 W | 409.85 W | 352.71 W | 236.43 W |  |\n| High Lum . R B                                                                                                                | 2.55 W    | OW       | 0.12 W   | 0.36 W   |  |\n\nTable 11 · The nower losses on the magnets for the N hT i 1 TeV latting\n\n![](0__page_11_Figure_0.jpeg)\n\n<span id=\"page-11-0\"></span>Figure 3:The linear optics in the baseline \fnaldoublet for the nom inalparam eters at 500 G eV .\n\n## 5 CO N CLU SIO N S\n\nEU RO TeV -R eport-2006-022\n\nIn thisnote,we have described a detailed study ofthepowerdeposition in the\fnaldoubletofthe ILC 2m rad crossing-angle layout,from both the disrupted charged beam and from the radiative Bhabha events. W e exploited superconductive m agnet technologies both currently available and expected to be developed through on-going R & D :N bTi and N b3Sn with m axim um pole tip \felds ofrespectively 6.28 T and 8.8 T.\n\nW e \fnd thatusing N bTitechnology to optim ise the 500 G eV baseline \fnaldoubletis adequate to obtain sm allenough beam powerdepositionsin the \fnaldoublet,provided a Tungsten liner is included in the design of the vacuum cham ber to spread out the showers and reduce the m axim um power density at the location where m ost losses are concentrated. This doublet now needs to be integrated into the \fnalfocus system and extraction line. W hen this willbe done,we willpropose that it becom e the baseline for the 2m rad at 500G eV ,with the assum ption that it would have to be replaced at the tim e ofthe 1 TeV energy upgrade. In allcases, the sextupole lengths, strengths and apertures are not fully optim ised. Som e m ore work is stillneeded here,in view of reducing their sizes and ease their integration with the detector. It is also necessary to include the extraction line m agnetsin a furtheroptim isation.\n\nA \fnaldoubletbased on N bTitechnology doesnot,on the otherhand,provide sm all enough beam powerdepositionsat1 TeV ,forseveralofthebeam param etersetsconsidered. Exploiting N b3Sn superconductive technology can however im prove the situation considerably,asthe higherexpected gradientswould allow signi\fcantly lowerpowerde-\n\n![](0__page_12_Figure_0.jpeg)\n\n<span id=\"page-12-0\"></span>Figure 4: The linear optics in the optim issd N bT i nal doublet for the nom inal param eters at 500 G eV .\n\npositions. The optim issd layout show s far superior power loss behavior than the current 1 TeV machine baseline nal doublet, but is still in excess of the quenching limit for the beam param eter sets with the largest beam strahlung energy loss. A 35mm QD 0 w ith a pole tip eld of around 11 T would be needed to a avoid quenching of this m agnet, in the case of the Low Power beam param eters.\n\nW e expect further R & D in superconductive m agnet technology to enable increases in m axin um available pole tip eld in the fisture, which will ease the design of the 2m rad beam crossing angle layout. An altemative path is to constrain the optim isation of the beam param eters at 1 TeV with an upper bound on the beam strahlung energy loss. This would also be m otivated since a very large beam strahlung energy loss is undesimble for several other reasons.\n\n## A cknow ledgem ent\n\nW e would like to thank Andrei Seryi and Deepa AngalK alinin for helpful advice and assistance, G raham e B lair for useful discussions and John C arter for his assistance com puting the e ect of a Tungsten liner in the vacuum chamber.\n\n## References\n\n[1] The ILC BCD , http://www.linearcollider.org/wiki/doku.php?id=bod.home\n\n| Beam                   | Q D 0    | SD 0 | Q F1      | SF1      |\n|------------------------|----------|------|-----------|----------|\n| N om inal              | 0 W      | 0 W  | 0 W       | 0 W      |\n| N om inal(dy= 100nm )  | 0 W      | 0 W  | 0 W       | 0 W      |\n| N om inalR B           | 0.32 W   | 0 W  | 0.34 W    | 0.10 W   |\n| Low Power              | 20.52 W  | 0 W  | 28.73 W   | 27.56 W  |\n| Low Power (dy= 120nm ) | 7.77 W   | 0 W  | 48.03 W   | 40.71 W  |\n| Low Power R B          | 0.37 W   | 0 W  | 0.39 W    | 0.12 W   |\n| H igh Lum .            | 264.42 W | 0 W  | 477.77 W  | 439.98 W |\n| H igh Lum .(dy= 80nm ) | 473.00 W | 0 W  | 1286.15 W | 670.40 W |\n| H igh Lum .R B         | 1.09 W   | 0 W  | 1.19 W    | 0.36 W   |\n\n<span id=\"page-13-0\"></span>Table 12:The power losses on the m agnets forthe N b3Sn 1 TeV lattice.\n\n- [2]<http://www-project.slac.stanford.edu/lc/>\n- [3] D .Schulte,EuroTeV m em o 2005-004-1\n\nEU RO TeV -R eport-2006-022\n\n- [4] A ppleby etal,EuroTeV report2006-001-01, [http://alcpg2005.colorado.edu:8080/alcpg2005/program /accelerator/W G 4/aug17](http://alcpg2005.colorado.edu:8080/alcpg2005/program/accelerator/WG4/aug17_nosochkov_extraction2mrad.pdf) nosochkov extraction2m rad.pdf\n- [5] [http://www-project.slac.stanford.edu/ilc/acceldev/beam par/Suggested%](http://www-project.slac.stanford.edu/ilc/acceldev/beampar/Suggested) 20ILC% 20Beam % 20Param eter% 20Space.pdf\n- [6] Bruning etal,LH C projectreport785,CA R E-Conf-04-005-H H H\n- [7] BrettParker,private com m unication\n- [8] John Carter,private com m unication,see talk by R .A ppleby,LCW S06,India,9-13 M arch 2006\n- [9] Lew K eller,TakashiM aruyam a,private com m unication\n- [10] A .Seryi,U nit 6 ofPhysics and Technology ofLinear Collider Facilities,U S-PA S, Santa Barbara,June 2003\n- [11] [http://www.cern.ch/m ad](http://www.cern.ch/mad)\n- [12] [http://www-project.slac.stanford.edu/lc/local/accelphysics/codes/gp/Sram ek/index.htm](http://www-project.slac.stanford.edu/lc/local/accelphysics/codes/gp/Sramek/index.htm)\n- [13] [http://www.slac.stanford.edu/accel/nlc/local/A ccelPhysics/codes/dim ad/](http://www.slac.stanford.edu/accel/nlc/local/AccelPhysics/codes/dimad/)\n\n![](0__page_14_Picture_0.jpeg)",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Im proved \fnaldoublet designs for the ILC baseline sm all\ncrossing angle schem e",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              73.3623046875,
+              188.263916015625
+            ],
+            [
+              526.688720703125,
+              188.263916015625
+            ],
+            [
+              526.688720703125,
+              227.4390869140625
+            ],
+            [
+              73.3623046875,
+              227.4390869140625
+            ]
+          ]
+        },
+        {
+          "title": "A bstract",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              275.3701171875,
+              344.9126281738281
+            ],
+            [
+              321.1857604980469,
+              344.9126281738281
+            ],
+            [
+              321.1857604980469,
+              355.82171630859375
+            ],
+            [
+              275.3701171875,
+              355.82171630859375
+            ]
+          ]
+        },
+        {
+          "title": "1 IN T RO D U CT IO N",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              74.33349609375,
+              18.94415283203125
+            ],
+            [
+              232.48828125,
+              18.94415283203125
+            ],
+            [
+              232.48828125,
+              36.1595458984375
+            ],
+            [
+              74.33349609375,
+              36.1595458984375
+            ]
+          ]
+        },
+        {
+          "title": "2 M AG N ET PA RA M ET ERS",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              74.03466796875,
+              179.743896484375
+            ],
+            [
+              300.3689880371094,
+              179.743896484375
+            ],
+            [
+              300.3689880371094,
+              196.95928955078125
+            ],
+            [
+              74.03466796875,
+              196.95928955078125
+            ]
+          ]
+        },
+        {
+          "title": "2.1 Current baseline design",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              73.810546875,
+              211.709716796875
+            ],
+            [
+              257.888671875,
+              211.709716796875
+            ],
+            [
+              257.888671875,
+              226.055908203125
+            ],
+            [
+              73.810546875,
+              226.055908203125
+            ]
+          ]
+        },
+        {
+          "title": "2.2 M axim um pole tip \feld for N bT i",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              74.2587890625,
+              398.54986572265625
+            ],
+            [
+              322.734375,
+              398.54986572265625
+            ],
+            [
+              322.734375,
+              412.8960876464844
+            ],
+            [
+              74.2587890625,
+              412.8960876464844
+            ]
+          ]
+        },
+        {
+          "title": "2.3 Expected m axim um pole tip \feld for N b3Sn",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              74.109375,
+              556.4697265625
+            ],
+            [
+              390.44775390625,
+              556.4697265625
+            ],
+            [
+              390.44775390625,
+              571.8462066650391
+            ],
+            [
+              74.109375,
+              571.8462066650391
+            ]
+          ]
+        },
+        {
+          "title": "2.4 O utline ofdoublet designs",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              73.6611328125,
+              128.07000732421875
+            ],
+            [
+              277.4085388183594,
+              128.07000732421875
+            ],
+            [
+              277.4085388183594,
+              142.41619873046875
+            ],
+            [
+              73.6611328125,
+              142.41619873046875
+            ]
+          ]
+        },
+        {
+          "title": "2.5 A ssum ed power deposition tolerances",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              73.3623046875,
+              469.5899353027344
+            ],
+            [
+              351.0867919921875,
+              469.5899353027344
+            ],
+            [
+              351.0867919921875,
+              483.9361572265625
+            ],
+            [
+              73.3623046875,
+              483.9361572265625
+            ]
+          ]
+        },
+        {
+          "title": "3 FIN A L D O U B LET O PT IM ISAT IO N",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              74.33349609375,
+              421.5439453125
+            ],
+            [
+              376.5234375,
+              421.5439453125
+            ],
+            [
+              376.5234375,
+              438.7593688964844
+            ],
+            [
+              74.33349609375,
+              438.7593688964844
+            ]
+          ]
+        },
+        {
+          "title": "4 PA RT ICLE LO SSES IN T H E O PT IM ISED FIN A L\nD O U B LET",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              73.6611328125,
+              577.5439300537109
+            ],
+            [
+              490.67578125,
+              577.5439300537109
+            ],
+            [
+              490.67578125,
+              616.5991363525391
+            ],
+            [
+              73.6611328125,
+              616.5991363525391
+            ]
+          ]
+        },
+        {
+          "title": "4.1 Results for E= 500 G eV",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              74.33349609375,
+              376.4700012207031
+            ],
+            [
+              254.6015625,
+              376.4700012207031
+            ],
+            [
+              254.6015625,
+              390.81622314453125
+            ],
+            [
+              74.33349609375,
+              390.81622314453125
+            ]
+          ]
+        },
+        {
+          "title": "4.2 Results for E= 1 TeV",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              74.33349609375,
+              575.5499267578125
+            ],
+            [
+              237.447265625,
+              575.5499267578125
+            ],
+            [
+              237.447265625,
+              589.8961181640625
+            ],
+            [
+              74.33349609375,
+              589.8961181640625
+            ]
+          ]
+        },
+        {
+          "title": "5 CO N CLU SIO N S",
+          "heading_level": null,
+          "page_id": 11,
+          "polygon": [
+            [
+              74.18408203125,
+              327.703857421875
+            ],
+            [
+              222.626953125,
+              327.703857421875
+            ],
+            [
+              222.626953125,
+              345.146484375
+            ],
+            [
+              74.18408203125,
+              345.146484375
+            ]
+          ]
+        },
+        {
+          "title": "A cknow ledgem ent",
+          "heading_level": null,
+          "page_id": 12,
+          "polygon": [
+            [
+              72.0,
+              515.109375
+            ],
+            [
+              219.75,
+              515.109375
+            ],
+            [
+              219.75,
+              528.2578125
+            ],
+            [
+              72.0,
+              528.2578125
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 12,
+          "polygon": [
+            [
+              72.75,
+              609.75
+            ],
+            [
+              160.76953125,
+              609.75
+            ],
+            [
+              160.76953125,
+              623.00390625
+            ],
+            [
+              72.75,
+              623.00390625
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              44
+            ],
+            [
+              "Line",
+              20
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Footnote",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              123
+            ],
+            [
+              "Line",
+              45
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              184
+            ],
+            [
+              "TableCell",
+              43
+            ],
+            [
+              "Line",
+              38
+            ],
+            [
+              "SectionHeader",
+              4
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Footnote",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              168
+            ],
+            [
+              "Line",
+              41
+            ],
+            [
+              "TableCell",
+              35
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Footnote",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              132
+            ],
+            [
+              "Line",
+              40
+            ],
+            [
+              "TableCell",
+              18
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              130
+            ],
+            [
+              "Line",
+              47
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              239
+            ],
+            [
+              "TableCell",
+              77
+            ],
+            [
+              "Line",
+              38
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Reference",
+              4
+            ],
+            [
+              "Table",
+              3
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "TableGroup",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              184
+            ],
+            [
+              "Line",
+              43
+            ],
+            [
+              "TableCell",
+              34
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Footnote",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              252
+            ],
+            [
+              "TableCell",
+              100
+            ],
+            [
+              "Line",
+              37
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "Table",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "TableGroup",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Footnote",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "TableCell",
+              50
+            ],
+            [
+              "Line",
+              31
+            ],
+            [
+              "Span",
+              31
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "TableCell",
+              51
+            ],
+            [
+              "Line",
+              27
+            ],
+            [
+              "Span",
+              27
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              123
+            ],
+            [
+              "Line",
+              57
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              46
+            ],
+            [
+              "Span",
+              46
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "ListItem",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              153
+            ],
+            [
+              "TableCell",
+              51
+            ],
+            [
+              "Line",
+              28
+            ],
+            [
+              "ListItem",
+              12
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 14,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Picture",
+              1
+            ],
+            [
+              "Line",
+              1
+            ],
+            [
+              "Span",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 15,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Improved final doublet designs for the ILC small crossing angle scheme",
+    "authors": [
+      {
+        "authors_list": [
+          "Appleby, R.",
+          "Bambade, P."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "The ILC baseline consists of two interaction regions, one with a 20mrad crossing angle and the other with a 2mrad crossing angle. It is known that the outgoing beam losses in the final doublet and subsequent extraction line are larger in the 2mrad than in the 20mrad layout. In this work, we exploit NbTi and Nb$_3$Sn superconducting magnet technologies to redesign and optimise the final doublet, with the aim of providing satisfactory outgoing disrupted beam power losses in this region. We present three new final doublet layouts, specifically optimised for the 500 GeV and the 1 TeV machines.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Journal of Instrumentation",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:physics/0606022"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1088/1748-0221/1/10/P10005",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2006JInst...110005A"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

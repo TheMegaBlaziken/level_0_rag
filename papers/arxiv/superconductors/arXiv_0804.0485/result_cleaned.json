@@ -1,0 +1,384 @@
+{
+  "id": "57d23d03ecc2682391427c2a856411e8",
+  "pdf_path": "apl/Superconductors/arXiv:0804.0485.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "## **Very High Field Two-Band Superconductivity in LaFeAsO0.89F0.11**\n\n**F. Hunte, J. Jaroszynski, A. Gurevich, D. C Larbalestier** \n\n*National High Magnetic Field Laboratory, Florida State University, Tallahassee, Florida 32310, USA.* \n\n## **R. Jin, A.S. Sefat, M.A. McGuire, B.C. Sales, D.K. Christen, D. Mandrus**\n\n*Oak Ridge National Laboratory, P.O. Box 2008, Oak Ridge, TN, USA.* \n\n**The ongoing search for new superconductors has recently yielded a new family of oxypnictides composed of alternating La2O2-xFx and Fe2As2 layers [1-4] with transition temperatures** *Tc* **of 25-28 K, which can be raised to 40-43 K by replacing La by Ce [5] or Sm [6] or to 52 K by replacing La with Nd and Pr [7, 8]. Recent experiments and band structure calculations have suggested an unconventional multiband superconductivity in the layers of paramagnetic Fe ions, which would normally destroy superconductivity in the traditional mechanism of the s-wave Cooper pairing. Here we report very high-field resistance measurements up to 45T, which show a remarkable enhancement of the upper critical fields** *Bc2* **at low temperatures, as compared to those expected from the already high slopes of**  *dBc2/dT* **ª 2T/K near** *Tc .* **The deduced** *Bc2(0)* **ª 63-65 T exceeds the paramagnetic limit, consistent with strong coupling and important two-band effects in LaFeAsO0.89F0.11. We argue that oxypnictides are emerging as a new class of highfield superconductors surpassing the** *Bc2* **of Nb3Sn, MgB2, and the Chevrel phases and perhaps approaching the 100T field benchmark of the high-Tc cuprates.** \n\nThe recent synthesis of the novel superconductor LaFeAsO0.89F0.1 with the transition temperature of Tc = 26K [1-4] has been quickly followed by reports of even higher Tc = 41K in CeFeAsO0.89F0.1 [5], Tc = 43K in SmFeAsO0.89F0.1 [6] and Tc = 52K in NdFeAsO0.89F0.1 and PrFeAsO0.89F0.1 [7,8] These discoveries have generated much interest in the mechanisms and manifestations of unconventional superconductivity in the family of doped quaternary layered oxypnictides LOMPn (L = La, Pr, Ce, Sm; M = Mn, Fe, Co, Ni; Pn=P, As) [9, 10], because many features of these materials clearly set them apart from other superconductors. First, ab-initio calculations indicate that superconductivity originates from the d-orbitals of what would normally be expected to be pairbreaking magnetic Fe ions, suggesting that new non-phonon pairing mechanisms are responsible for the high Tc [11, 12]. Second, F-doped LaFeAsO is a semimetal, which exhibits strong ferromagnetic and antiferromagnetic fluctuations and a possible spin density wave instability around 150K in the parent undoped LaFeAsO [5,13-16]. And third, superconductivity emerges on several disconnected pieces of the Fermi surface [11,12,17,18], thus exhibiting the multi-gap pairing, which has recently attracted so much attention in MgB2 [19].\n\nGiven the importance of magnetic correlations in the doped oxypnictides, transport measurements at very high magnetic fields are vital to probe the mechanisms of superconductivity. Indeed, first measurements of the upper critical field Bc2 at low fields B < 7T have yielded a slope Bc2 / (Tc) = dBc2/dT º 2T/K near Tc, for both La and Sm based oxypnictides [2-6]. From the conventional one-band Werthamer-Helfand-Hohenberg (WHH) theory [20] such slopes already imply rather high values Bc2(0) = 0.69TcBc2 / º 36T for LaFeAsO0.89F0.1, Bc2(0) º 59.3T for SmFeAsO0.89F0.1, and Bc2(0) º 72 T for PrFeAsO0.89F0.1, all well above Bc2 of Nb3Sn. However, studies of the high-field superconductivity in MgB2 alloys have shown that the upward curvature of Bc2(T) resulting from the multiband effects can significantly increase Bc2(0) as compared to the WHH one-band extrapolation (see, e.g., the review [21] and references therein). To address these important issues, we have performed high-field dc transport measurements on LaFeAsO0.89F0.1 samples up to 45T. We show that Bc2(T) indeed exhibits two-gap behavior similar to that in MgB2, and Bc2(0) values exceed the WHH extrapolation by the factor ~ 2. Moreover, the observed Bc2(0) also exceeds the BCS paramagnetic limit Bp[T] = 1.84Tc[K] = 47T for Tc = 26K .\n\nPolycrystalline LaFeAsO0.89F0.11 samples were made by solid state synthesis [4]. A sample ~ 3 x 1 x 0.5 mm was used for our four probe transport measurements in the 45T Hybrid magnet at the NHMFL, supplemented by low field measurements in a 9T superconducting magnet. Our low-field data agreed well with the earlier data taken at ORNL on the same sample [4], indicating its good temporal and atmospheric stability. The 45T Hybrid magnet was swept only from 11.5T to 45T due to the constant 11.5T background of the outsert magnet while lower fields were swept from 0T to 9T in a PPMS with resistivity measured in AC mode using a 5mA excitation current, whereas the high field resistance R(B) was measured by a Keithley nanovoltmeter at 2mA. The temperature range from 30K to 2.5K was explored using a rotator probe with particular emphasis on the behavior of *Bc2* at low temperature (<10 K).\n\nThe results of our high-field measurements of the sample resistance R(B) are shown in Figure 1. The broad R(B) transitions are not surprising because the sample consists of anisotropic crystalline grains with different orientations of the c-axis. Given the predicted high resistivity ratio G = rc/rab º 10-15 for this layered compound [11], the local Bc2(q) º Bc2(0)[cos2 q + G-1sin2 q] -1/2 should vary strongly, depending on the angle q between the c-axis in the grain and the applied field. Thus, we can identify two characteristic fields: the high field onset Bmax of the superconducting transition, and the zero-resistance, low-field onset Bmin, as illustrated by Figure 1. The in-field transitions are shown in Figure 1a for B perpendicular to the broad 1 mm wide face of the sample and Figure. 1b for B applied along the shortest sample dimension (in both cases transport current was always perpendicular to **B**). A difference in the R(B) curves seen in Figures 1a and 1b indicates some grain texture in the sample, so the zero-resistance field Bmin in Figure 1b is higher than in Figure 1a. For example, at 4.2K, we have Bmin = 25T and 36T, respectively, suggesting that the plate-like grains tend to align their ab planes parallel to the broad face of the sample.\n\n![](_page_2_Figure_0.jpeg)\n\n**Figure 1 (a)** The resistance R(B) for different temperatures taken in swept fields in the 45T hybrid magnet at a measuring current of 2 mA and from 0-9T in a superconducting magnet at a measuring current of 5 mA for B applied perpendicular to the broad face of the sample. **(b)** R(B) data taken in the hybrid magnet at different temperatures for B parallel to the broad sample face, which we believe has a higher fraction of ab-oriented grains.\n\n![](_page_2_Figure_2.jpeg)\n\n**Figure 2. (a)** The measured fields Bmax(T) and Bmin(T) (squares) and the midpoint transition fields (circles). The full and open symbols correspond to the parallel and perpendicular field orientations. The dashed line shows the WHH curve defined by the slope of Bmin(T) at Tc. **(b)** Bmax(T) (black) and Bmin(T) (red) plotted as functions of the reduced temperature T/Tc. The data points above 45T were extracted by linear extrapolation of R(B) at B < 45T to R(B) = 0.9Rn(Tc) as shown by dashed lines in Figure 1. The lines correspond to Bc2(T) calculated from the two-gap theory for the parameters described in the text.\n\nShown in Figure 2a are the temperature dependencies of the fields Bmin(T), Bmid(T) and Bmax(T) extracted from the measured curves R(B) evaluated at 90%, 50%, and 10% of the normal state resistance Rn(Tc), respectively. The interpretation of Bmin and Bmax in polycrystals is often complicated by strong vortex pinning and the particulars of the grain misorientation distribution. However in our case, analysis is greatly simplified because: 1. The measured magnetization curves are nearly reversible, suggesting weak pinning. 2. Crystalline anisotropy of the layered LaFeAsO0.89F0.1 compound results in a very broad distribution of the local Bc2(q) values of different grains. Thus, Bmax(T) can be associated with the larger in-plane upper critical field Bc2||(T) º Bc2^(T)G1/2 because grains with their ab planes oriented along the applied field first become superconducting upon cooling. In turn, the zero-resistance field Bmin(T) can be interpreted as the field, below which those superconducting grains with Bc2(q) > B form a percolative path at the low measuring current density º 0.2 A/cm2 . For G >> 1 and negligible thermal activation of vortices, the effective medium theory then gives Bmin(T) º pcBc2^(T), where pc = 1- xc, and xc ~ 1/3 is the 3D percolation threshold. Therefore, we conclude that Bmax(T) and Bmin(T) reflect the temperature dependencies of Bc2||(T) and Bc2^(T), respectively.\n\nAs is evident from Figure 2, Bc2^(T) exhibits a significant upward curvature, which is much less pronounced for Bc2||(T). Because this behavior is strikingly similar to that observed on MgB2 dirty films [21], we can conclude, in agreement with the ab-initio calculations [11, 12], that superconductivity in LaFeAsO0.89F0.1 indeed results from two bands: a nearly 2D electron band with high in-plane diffusivity D1 and a more isotropic heavy hole band with smaller diffusivity D2. The upward curvature of Bc2(T) is then controlled by the ratio h = D2/D1: for h << 1, the upward curvature is pronounced, while for h º 1, Bc2(T) exhibits a more traditional WHH-like behavior [20]. For field along the ab plane, the parameter h should be replaced with h = D2/[D1 (ab)D1 (c) ] 1/2, allowing strong anisotropy D1 (ab) >> D1 (c) to significantly increase h for B||ab as compared to B||c [21]. In this case the upward curvature of Bc2||(T) does become less pronounced than for Bc2^(T), in agreement with the results shown in Figure 2.\n\nTo check the self-consistency of our interpretation, we fit Bc2^(T) in Figure 2, using the two-gap theory outlined in the supplemental material. We took h = 0.08 and the interband BCS coupling constants l12 = l21 = 0.5, but the results turn out not to be particularly sensitive to the choice of either l12 and l21 or the intraband coupling constants l11 and l22. For example, Figure 2 shows a rather good fit of the theory to the data for the case of the strong interband repulsion l12l21 >> l11l22 suggested in Ref. 12. However, using Eqs. (1)-(3) of the supplemental material, we can also show that the fit remains nearly as good, even if we assume that intraband pairing is significant l11l22 > l12l21 with all coupling constants being of the same order of magnitude. Thus, our experimental data do not enable us to distinguish between different pairing scenarios suggested in the literature, yet they do indicate significant difference in the effective masses in the electron and hole bands. For B||ab, we rescaled the parameter h Ø hG1/2 º 0.31, taking the estimate G = rc/rab º 15 suggested in Ref. [11], which describes Bc2||(T) well, as is evident from Figure 2. Therefore the two-gap scenario is qualitatively consistent with our experimental data.\n\nIn conclusion, the newly discovered LaFeAsO0.89F0.11 shows exceptionally high *Bc2*. Even more remarkable is that this obviously non-optimized material has been quickly synthesized in bulk form showing zero resistance above 35T at 2.5K! Moreover, given the high values of the slope Bc2 / º 2-3 T/K which have also been observed on the Smbased oxypnictide with Tc = 43 K [6] and Pr or Nd based compounds with Tc = 52K, we could suggest that the values Bc2||(T) and Bc2^(T) would likely increase by the factor 1.5- 2 as compared to LaFeAsO0.89F0.11. Thus, based on the recent experimental data of several groups, as well as the results reported in this work, we can conclude that doped oxypnictides could become a new family of high-field superconductors for which extensive high-field pulse measurements will be required to fully reveal the novel physics of competing superconducting and magnetic orders. This will be of great scientific interest and may also have great importance for high-field applications.\n\n**Acknowledgements.** Work at the NHMFL was supported by IHRP 227000-520-003597- 5063 under NSF Cooperative Agreement DMR-0084173, by the State of Florida, by the NSF Focused Research Group on Magnesium Diboride (FRG) DMR-0514592 and by AFOSR under grant FA9550-06-1-0474. Work at ORNL was supported by the Division of Materials Science and Engineering, Office of Basic Energy Sciences under Contract No. DE-AC05-00OR22725. We are very grateful for discussions with G. Boebinger, E. Hellstrom, P. Lee, J. Jiang and C. Tarantini at the NHMFL.\n\n## **References**\n\n- 1. Kamihara,Y., Watanabe, T., Hirano, M. & Hosono, H. Iron-Based Layered Superconductor La[O1-*x*F*x*]FeAs (*x* = 0.05-0.12) with *T*c = 26 K. *J. Am. Chem. Soc*. **130**, 3296-3297 (2008).\n- 2. Zhu, X., Yang, H., Fang, L., Mu. G. & Wen, H.-H. Upper critical field, Hall effect and magnetoresistance in the iron-based layered superconductor LaO0.9F0.1-δAs. Preprint at 〈http://arxiv.org/abs/0803.1288v1〉 (2008).\n- 3. Chen, G.F., Li, Z., Li, G., Zhou, J., Wu, D., Dong, J., Hu, W.Z., Zheng, P., Chen, Z.J., Luo, J.L. & Wang, N.L. Superconducting properties of Fe-based layered superconductor LaO0.9F1-δ FeAs. Preprint at 〈http://arxiv.org/abs/0803.0128v1〉 (2008).\n- 4. Sefat, A.S., McGuire, M.A., Sales, B.C., Jin, R., Hove, J.Y. & Mandrus, D. Electron correlations in the low carrier density LaFeAsO0.8.9F0.11 superconductor (Tc = 28K). Preprint at 〈http://arxiv.org/abs/0803.2528〉 (2008).\n- 5. Chen, G.F., Li, Z., Wu, D., Li, G., Hu, W.Z., Dong, J., Zheng, P., Luo, J.L. & Wang, N.L., Superconductivity at 41K and its competition with spin-density-wave instability in layered CeO1-xFx FeAs. Preprint at 〈 http://arxiv.org/abs/0803.3790v2〉 (2008).\n- 6. Chen, X.H., Wu, T., Wu, G., Liu, R.H., Chen, H. & Fang, D.F. Superconductivity at 43 K in Samarium-arsenide Oxides SmFeAsO1-xFx. Preprint at 〈http://arxiv.org/abs/0803.3603v1〉 (2008).\n- 7. Ren, Z-A., Yang, J., Lu, W., Yi, W., Shen, X-L., Li, Z-C., Che, G-C., Dong, X-L., Sun, L-L., Zhou, F. & Zhao, Z.-X. Superconductivity in iron-based F-doped layered quaternary compound Nd[O1-xFx]FeAs. Preprint at 〈http://arxiv.org/abs/0803.4234〉 (2008).\n- 8. Ren, Z-A., Yang, J., Lu, W., Yi, W., Che, G-C., Dong, X-L., Sun, L-L. & Zhao, Z.-X. Superconductivity at 52K in iron-based F-doped layered quaternary compound Pr[O1 xFx]FeAs. Preprint at 〈http://arxiv.org/abs/0803.4283〉 (2008).\n- 9. Zimmer, B. I, Jeitschko, W., Albering, J.H., Glaum, R. & Reehuis, M. The rate earth transition metal phosphide oxides LnFePO, LnRuPO and LnCoPO with ZrCuSiAs type structure. *J. Alloys Compd*. **229**, 238-242 (1995).\n- 10. Quebe, P., Terbuchte, L.J. & Jeitschko, W. Quaternary rare earth transition metal arsenide oxides *RT*AsO (*T*=Fe, Ru, Co) with ZrCuSiAs type structure. *J. Alloys Compd*., **302**, 70-74 (2000).\n- 11. Singh, D.J. and Du, M.H. LaFeAsO1-xFx: A low carrier density superconductor near itinerant magnetism. Preprint at 〈http://arxiv.org/abs/0803.0429v1〉 (2008).\n- 12. Mazin, I.I., Singh, D.H., Johannes, M.D. & Du, M.H. Unconventional sign-reversal superconductivity in LaFeAsO1-xFx. Preprint at 〈http://arxiv.org/abs/0803.2740v1〉 (2008).\n- 13. Cao, C., Hirschfeld, P.J. & Cheng, H-P. Coexistence of antiferromagnetism with superconductivity in LaO1-xFxFeAs: effective Hamiltonian from ab initio studies. Preprint at 〈 http://arxiv.org/abs/0803.3236〉 (2008).\n- 14. Dai, X., Fang, Z., Zhou, Y. & Zhang, F. Even parity, orbital singlet and spin triplet pairing for superconducting La(O1-xFx)FeAs. Preprint at 〈http://arxiv.org/abs/0803.3982v1〉 (2008).\n- 15. Dong, J., Zhang, H.J., Xu, G., Li, Z., Li, G., Hu, W.Z., Chen, G.F., Dai, X., Luo, J.L., Fang, Z. & Wang, N.L. Competing orders and spin-density wave instability in La(O1 xFx)FeAs. Preprint at 〈http://arxiv.org/abs/0803.3426v1〉 (2008).\n- 16. Ma, F. & Lu, Z-Y. Iron-based superconductor LaO1-xFxFeAs superconductor: an antiferromagnetic semimetal. Preprint at 〈http://arxiv.org/abs/0803.3286v1〉 (2008).\n- 17. Kuroki, K., Onari, S., Arita, R., Usui, H., Tanaka, Y., Kontani, H. & Aoki, H. Unconventional superconductivity originating from disconnected Fermi surfaces in La LaO1-xFxFeAs. Preprint at 〈http://arxiv.org/abs/0803.3325v1〉 (2008).\n- 18. Lebgue, S. Electronic structure and properties of the Fermi surface of the superconductor LaOFeP. *Phys. Rev.* B **75**, 035110 (2007).\n- 19. Nagamatsu, J., Nakagawa, N., Muranaka, T., Zenitani, Y., Akimitsu. Superconductivity at 39 K in magnesium diboride. *Nature* **410**, 63-64 (2001).\n- 20. Werthamer, N.R., Helfand, E., Hohenberg, P. C. Temperature and Purity Dependence of the Superconducting Critical Field, *Hc*2. III. Electron Spin and Spin-Orbit Effects. *Phys. Rev.***147**, 295-302 (1966).\n- 21. Gurevich, A. Limits of the upper critical field in dirty two-gap superconductors. *Physica C* **456**, 160-169 (2007); Enhancement of the upper critical field by nonmagnetic impurities in dirty two-gap superconductors *Phys. Rev. B* **67**, 184515 (2003).\n\n## **Supplemental material: the two gap theory.**\n\nTo analyze the experimental data, we use the theory of two-gap s-wave pairing, which has been recently applied to describe the behavior of MgB2 (see, e.g., a review Ref. [21] and references therein). For the sake of simplicity, we neglect here the paramagnetic effects and interband impurity scattering. In which case Tc = 1.14w0exp[(l0 - l+)/2w], where ω0 is the cutoff frequency of the exchange boson, λ± = λ<sup>11</sup> ± λ22, λ0 = (λ- + 4λ12λ21) 1/2, w =λ11λ22 - λ12λ21, λmn is the 2×2 matrix of the BCS coupling constants where the diagonal elements λ11 and λ22 quantify the pairing strength in the bands 1 and 2 and the off-diagonal components λ12 and λ21 describe the interband coupling. For w < 0, superconductivity can result from strong interband repulsion giving rise to the interband π shift between the order parameters on the disconnected parts of the Fermi surface [12]. Hc2 is described by the following parametric equation [21]\n\n$$\\ln\\frac{T\\_c}{T} = \\frac{1}{2} \\left[ U(\\mathbf{s}) + U(\\eta \\mathbf{s}) + \\frac{\\mathcal{\\lambda}\\_0}{\\mathbf{w}} \\right] - \\left\\{ \\frac{1}{4} \\left[ U(\\mathbf{s}) - U(\\eta \\mathbf{s}) - \\frac{\\mathcal{\\lambda}\\_-}{\\mathbf{w}} \\right]^2 + \\frac{\\mathcal{\\lambda}\\_{12} \\mathcal{\\lambda}\\_{21}}{\\mathbf{w}^2} \\right\\}^{1/2}, \\tag{1}$$\n \n$$H\\_{c2} = 2\\phi\\_0 \\text{Ts} / D\\_1, \\qquad \\eta = D\\_2 / D\\_1,\\tag{2}$$\n\n$$U(\\mathbf{s}) = \\psi(\\mathbf{s} + 1/\\mathcal{D}) - \\psi(1/\\mathcal{D}),\\tag{3}$$\n\nwhere the change of the parameter s from 0 to ∞ corresponds to the change of T from Tc to 0, ψ(x) is the di-gamma function, D1 and D2 are the electron (hole) diffusivities in the bands 1 and 2, and φ0 is the magnetic flux quantum. Equations (1-3), used to fit the data shown in Figure 2b enable us to take into account the effects of very different mobility and anisotropy in the heavy 3D hole band and 2D electron band in LaFeOF compounds. For B||ab, the anisotropic diffusivity D1 should be replaced with D1 → [D1 (ab)D1 (c)] 1/2.",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Very High Field Two-Band Superconductivity in LaFeAsO0.89F0.11",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              89.7978515625,
+              106.0474853515625
+            ],
+            [
+              484.7052001953125,
+              106.0474853515625
+            ],
+            [
+              484.7052001953125,
+              121.03607177734375
+            ],
+            [
+              89.7978515625,
+              121.03607177734375
+            ]
+          ]
+        },
+        {
+          "title": "R. Jin, A.S. Sefat, M.A. McGuire, B.C. Sales, D.K. Christen, D. Mandrus",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              118.7841796875,
+              218.40155029296875
+            ],
+            [
+              494.94000244140625,
+              218.40155029296875
+            ],
+            [
+              494.94000244140625,
+              230.677734375
+            ],
+            [
+              118.7841796875,
+              230.677734375
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              277.611328125,
+              335.7615051269531
+            ],
+            [
+              336.9732360839844,
+              335.7615051269531
+            ],
+            [
+              336.9732360839844,
+              347.853515625
+            ],
+            [
+              277.611328125,
+              347.853515625
+            ]
+          ]
+        },
+        {
+          "title": "Supplemental material: the two gap theory.",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              192.4453125,
+              73.50152587890625
+            ],
+            [
+              420.3035888671875,
+              73.50152587890625
+            ],
+            [
+              420.3035888671875,
+              85.50152587890625
+            ],
+            [
+              192.4453125,
+              85.50152587890625
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              83
+            ],
+            [
+              "Line",
+              35
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              130
+            ],
+            [
+              "Line",
+              50
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              31
+            ],
+            [
+              "Line",
+              11
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              194
+            ],
+            [
+              "Line",
+              52
+            ],
+            [
+              "TextInlineMath",
+              4
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              150
+            ],
+            [
+              "Line",
+              44
+            ],
+            [
+              "ListItem",
+              8
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              157
+            ],
+            [
+              "Line",
+              34
+            ],
+            [
+              "ListItem",
+              13
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              311
+            ],
+            [
+              "Line",
+              82
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Equation",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/7yu9Y37mahOKBIu3O1F59A"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 7,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Very High Field Two-Band Superconductivity in LaFeAsO_0.89F_0.11",
+    "authors": [
+      {
+        "authors_list": [
+          "Hunte, F.",
+          "Jaroszynski, J.",
+          "Gurevich, A.",
+          "Larbalestier, D. C.",
+          "Jin,"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "The ongoing search for new superconductors has recently yielded a new family of oxypnictides composed of alternating La_2O_{2-x}F_x and Fe_2As_2 layers [1-4] with transition temperatures T_c of 25-28 K, which can be raised to 40-43 K by replacing La with Ce [5] or Sm [6] or to 52 K by replacing La with Nd and Pr [7, 8]. Recent experiments and band structure calculations have suggested an unconventional multiband superconductivity in the layers of paramagnetic Fe ions, which would normally destroy superconductivity in the traditional mechanism of the s-wave Cooper pairing. Here we report very high-field resistance measurements up to 45T, which show a remarkable enhancement of the upper critical fields B_c2 at low temperatures, as compared to those expected from the already high slopes of dB_c2/dT ~ 2T/K near T_c . The deduced B_c2(0) ~ 63-65 T exceeds the paramagnetic limit, consistent with strong coupling and important two-band effects in LaFeAsO_0.89F_0.11. We argue that oxypnictides are emerging as a new class of high-field superconductors surpassing the B_c2 of Nb_3Sn, MgB_2, and the Chevrel phases and perhaps approaching the 100T field benchmark of the high-T_c cuprates.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:0804.0485"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.0804.0485",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2008arXiv0804.0485H"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

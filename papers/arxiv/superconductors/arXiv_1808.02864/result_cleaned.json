@@ -1,0 +1,1066 @@
+{
+  "id": "260b25e4892e852ce0cafec034b83915",
+  "pdf_path": "apl/Superconductors/arXiv:1808.02864.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **Stable, predictable and training-free operation of superconducting Bi-2212 Rutherford cable racetrack coils at the very high wire current density of more than 1000 A/mm<sup>2</sup>**\n\nTengming Shen1, \\*, Ernesto Bosque2 , Daniel Davis1,2, Jianyi Jiang2 , Marvis White<sup>3</sup> , Kai Zhang<sup>1</sup> , Hugh Higley<sup>1</sup> , Marcos Turqueti<sup>1</sup> , Yibing Huang<sup>4</sup> , Hanping Miao<sup>4</sup> , Ulf Trociewitz<sup>2</sup> , Eric Hellstrom<sup>2</sup> , Jeffrey Parrell 4 , Andrew Hunt<sup>3</sup> , Stephen Gourlay<sup>1</sup> , Soren Prestemon<sup>1</sup> , David Larbalestier<sup>2</sup>\n\n*<sup>1</sup> Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA*\n\n*2 National High Magnetic Field Laboratory, Florida State University, Tallahassee FL 32310, USA*\n\n*3 nGimat LLC, Lexington, KY 40551, USA*\n\n*4 Bruker OST LLC, Carteret, NJ 07008, USA*\n\n*\\*Email: tshen@lbl.gov*\n\n#### *Abstract*\n\nHigh-temperature superconductors (HTS) could enable high-field magnets much stronger than is possible with Nb-Ti and Nb3Sn, but two key limiting factors have so far been the difficulty of achieving high critical current density in long-length conductors, especially in high-current cables, and the danger of quenches out of the superconducting into the normal state. Most HTS magnets made so far have been made out of REBCO coated conductor, which is now available in lengths of 200-300 m. Here we demonstrate stable, reliable and training-quench-free performance of Bi-2212 racetrack coils wound with a 17-strand Rutherford cable fabricated from wires made with nanospray Bi-2212 powder. These multifilament wires are now being delivered in single lengths of more than 1 km with a new record whole-wire critical current density up to 950 A/mm<sup>2</sup> at 30 T at 4.2 K. These coils carried up to 8.6 kA while generating a peak field of 3.5 T at 4.2 K, at a wire current density of 1020 A/mm<sup>2</sup> . Quite different from the unpredictable training performance of Nb-Ti and Nb3Sn magnets, these Bi-2212 magnets showed no training quenches and entered the flux flow state in a stable manner before thermal runaway and quench occurred. Also quite different from Nb-Ti, Nb3Sn, and REBCO magnets for which localized thermal runaways occur at unpredictable locations, the quenches of Bi-2212 magnets consistently occurred in the high field regions over a conductor length greater than one meter. These characteristics make quench detection rather simple, enabling safe protection, and suggest a new paradigm of constructing quench-predictable superconducting magnets from Bi-2212, which is, like Nb-Ti and Nb3Sn, isotropic, round, multifilament, uniform over km lengths and suitable for Rutherford cable use but, unlike them, much more tolerant of the energy disturbances that often lead Nb-based superconducting magnets to premature quench and long training cycles. \n\nHigh field superconducting magnets are used in particle colliders<sup>1</sup> , fusion energy devices<sup>2</sup> , magnetic resonance imaging (MRI), ion beam cancer therapy<sup>3</sup> , as well as thousands of nuclear magnetic resonance (NMR) and general laboratory magnets. So far, virtually all superconducting magnets have been made from two Nb-based low temperature superconductors (Nb-Ti with superconducting transition temperature *T*<sup>c</sup> of 9.2 K and Nb3Sn with *T*<sup>c</sup> of 18.3 K). The 8.33 T Nb-Ti accelerator dipole magnets of the large hadron collider (LHC) at CERN enabled the discovery of the Higgs Boson and the ongoing search for physics beyond the standard model of high energy physics. Nb3Sn magnets are key to the International Thermonuclear Experimental Reactor (ITER) Tokamak and to the highluminosity upgrade of the LHC<sup>4</sup> that aims to increase the luminosity by a factor of 5-10. \n\nNb-Ti and Nb3Sn magnets predominately work at 1.8-5 K, generating magnetic fields seldom greater than 20 T. The superconducting magnet community has long sought to broaden the superconducting application space to higher fields at low temperatures (4.2-20 K) or higher temperatures (20-77 K) using high-temperature superconductors (HTS)<sup>5</sup> . Cuprate superconductors, discovered in the 1980s, and iron-based superconductors, discovered about 10 years ago, both have upper critical magnetic fields (*Hc2*) exceeding 50 T at 4.2 K6-8 , much greater than that of Nb-Ti (~14 T at 1.8 K) and Nb3Sn (~26- 27 T at 1.8 K), making them potentially useful for making much stronger high-field magnets 9 , like the 30 T superconducting solenoids needed for 1.3 GHz NMR spectrometers <sup>10</sup> and 20 T accelerator dipoles for a potential high-energy upgrade of the LHC11. Significant progress has been made, particularly in solenoids made of REBa2Cu3Ox (REBCO), culminating in a 32 T user solenoid recently constructed at the National High Magnetic Field Laboratory (NHMFL)9,12. After three decades of arduous conductor development, high-temperature cuprate superconducting conductors, including Bi2Sr2CaCu2Ox (Bi-2212) 13, (Bi,Pb)2Sr2Ca2Cu3Ox (Bi-2223) 14, and REBCO9 , are being commercially produced in practical forms of metal/superconductor composite conductorsin lengths suitable for making magnets, though long-length REBCO tapes often have localized processing defects 15. These materials can deliver high critical current density in strong magnetic fields at 4.2 K or 1.8 K above 23 T, where the *J*<sup>c</sup> of Nb3Sn wires ceases to be useful. \n\nAll superconducting magnets are susceptible to quench16,17 when local regions lose superconductivity, producing hot spots with rapidly rising temperature that may, without suitable protection, lead to local degradation or burnout. An important drawback of Nb-Ti and Nb3Sn superconducting magnets is their low thermal stability against quench. Tiny, transient point disturbances as small as 10-6 J from conductor motion are very common due to the large thermal and electromagnetic stresses and they  can cause localized temperature rises sufficiently large to initiate quench of the whole magnet. The small thermal margin of Nb-Ti and Nb3Sn and their low heat capacity below *Tc* give them little protection against such energy inputs. To overcome such instabilities, the main-ring LHC Nb-Ti dipole and quadrupole magnets are cooled by 1.8 K superfluid helium that penetrates into the windings, where it acts both as a powerful coolant due to its high thermal conductivity and a thermal stabilizer due to the very high specific heat of superfluid He which is much higher than that of the oxygen-freehigh-conductivity copper (OFHC) that thermally stabilizes and protects the Nb-Ti cable during quench. The quench problem is also a costly and still unsolved issue for the Nb3Sn magnets being considered for future high-energy proton colliders and a high-energy upgrade of the LHC, in spite of its *Tc* being twice that of Nb-Ti (18 versus 9 K). The reason is that Nb3Sn windings cannot be permeated with superfluid helium because they must be epoxy-impregnated to protect them against the large crushing forces in the magnets. Epoxy-impregnated magnets generally experience epoxy cracking and interfacial shearing and debonding and the poor winding thermal conductivity and energy disturbances produced by such cracking often results in long quench training, currently as many as 20-30 quenches for the HL-LHC Nb3Sn quadrupole magnets18. Such training results in significant helium loss and high labor costs, significant drawbacks in considering future high-energy protonproton colliders that need thousands of such magnets. For other smaller scale, one-of-a-kind physics experiments, this problem can also be severe. An example is MICE, the Muon Ionization Cooling Experiment, built with a cryocooler-cooled, epoxy-impregnated Nb-Ti conductor. Both MICE solenoids underwent a long training despite using a highly stabilized wire with a high (3:1) Cu to superconductor ratio. Due to its high stored magnetic energy, each quench of the Nb-Ti spectrometer solenoid evaporated 800 L of liquid helium. Even worse, the MICE spectrometer solenoids had a poor training memory and needed retraining after thermal cycling19. The cost of training these magnets, despite the low cost of Nb-Ti wires, was a big financial distress. \n\nDue to their much higher *T*<sup>c</sup> and *H*c2, HTS magnets have much higher enthalpy stability margin against quench, making quench less likely though this remains to be proved experimentally, especially for accelerator magnets20. Despite frequent Nb-Ti and Nb3Sn magnet quenches, protection during quench is generally not an issue because quench propagation velocities are rapid and the stored magnetic energies can be safely dissipated over large volumes of the coil or transferred to an external protection circuit. By such methods, even magnets with wire engineering (i.e. whole wire) current density *JE* of 1000 A/mm<sup>2</sup> have rarely been damaged. However, the paradox for HTS magnets is that, when quench does occur, it is a much bigger threat than in LTS magnets because normal zones are  smaller, quench velocities much smaller, with the consequence of much higher energy density in much smaller normal zones. Several REBCO and Bi-2223 magnet systems have been degraded during quench21-27, likely when small normal zones generated too little voltage for warning, making active quench protection unable to prevent local overheating as magnetic energy turned into very localized heating. A key challenge of HTS magnets is thus the timely detection of small hot spots that grow only at several cm/s, rather than the two orders of magnitude larger rate in Nb-Ti and Nb3Sn magnets.\n\nAll of these concerns are very much reduced in the Bi-2212 magnets described here, even though they were quenched at a new record, high wire current density *J*<sup>E</sup> of up to 1000 A/mm<sup>2</sup> . Greatly assisting this performance is the use of a rather uniform, isotropic, multifilamentary HTS Bi-2212 round wire Rutherford cable13. We experimentally demonstrate quench-training-free operation of epoxyimpregnated racetrack coils at currents above 8 kA, values that exceed the benchmark current and *J*<sup>E</sup> values needed for demanding high-energy physics collider magnets. We further suggest a new paradigm of constructing quench-predictable superconducting magnets from Bi-2212, and explain how and why quench can be managed with Bi-2212. \n\n#### **Methods**\n\n#### *Wire and cable design and fabrication*\n\nA 440 m long, 0.8 mm diameter Bi-2212 round wire was fabricated by Bruker OST LLC by theirstandard powder-in-tube technique using a novel precursor Bi-2212 powder made at nGimat LLC by a nanospray combustion technology. This new powder appears to eclipse the earlier industrial benchmark Bi-2212 powder made by the melt-casting approach at Nexans28. The wire has an architecture of 55 x 18 (18 bundles of 55 filaments). The Bi-2212 filling factor of the as-drawn wire is ~25% and porosity occupies roughly 30% of the filament cross-section as delivered. The matrix Ag surrounding the filaments has a very high electrical conductivity as judged by a resistance ratio >100 and very high thermal conductivity29,30. 17-strand Rutherford cables were made at LBNL with a width of 7.8 mm and a thickness of 1.44 mm. The cable insulation was a braided mullite sleeve with a wall thickness of ~150 µm.\n\n### *Coil design, fabrication, and test*\n\nTwo 2-layer, 6-turns per layer subscale racetrack coils (RC5 and RC6) without any internal joints using 8 m long Rutherford cables with 140 m of 0.8 mm wire in each cable were wound on an Inconel 600 pole island. Each coil was assembled inside an Inconel 600 structure of side bars and top and bottom plates and then heat treated by an overpressure processing heat treatment (OPHT) technology at the  NHMFL with a gas pressure of 50 bar in flowing Ar/O2 (oxygen partial pressure PO2 = 1 bar). OPHT removes most of the starting porosity in the wire, increasing the filament density to >95%. The coil and its reaction structure weighs ~8 kg and measures 37 cm x 12 cm x 3.1 cm. After reaction, the coil was instrumented with voltage taps on each turn, and impregnated with epoxy resin (RC5 used the rather brittle CTD 101K epoxy adopted for High-Luminosity LHC (HL-LHC) Nb3Sn magnets, while the more fracture-resistant NHMFL \"mix-61\" epoxy, developed for the large-bore 900 MHz NMR magnet was used for RC6).\n\nThe coils were tested inside their Inconel reaction structure. They were powered with a 20 V, 24 kA DC power supply, while the terminal voltages were monitored using a fast, FPGA-based quench detection system. Upon detecting a quench, the FPGA board sent commands to open an SCR electrical switch that inserted a room temperature dump resistor (20 mW) across the coils, forcing the magnet current to decay to zero within <10 ms. The magnet voltage was recorded using a 18-bit ADC system with a programmable isolation amplifier and a flexible, software-controlled measurement range that could be set from ±0.1 mV to ±5 V at both 10 Hz and 1 kHz. \n\n#### **Results**\n\n#### *The high critical current density of these Bi-2212 wires*\n\nThe 4.2 K wire current density *J*<sup>E</sup> of the optimally processed strand used in this study is shown in Figure 1 28. *JE* is greater than that of the HL-LHC RRP (Rod Restack Process) Nb3Sn strand above 11 T and it also has a much less field-sensitive characteristic, achieving 1365 A/mm<sup>2</sup> at 15 T, twice the target desired by the Future Circular Collider (FCC) for Nb3Sn strands31, and 1000 A/mm2 at 27 T, 65% better than the previous record Bi-2212 performance32. \n\n#### *Quench performance of the coils*\n\nRamping up the current of any superconducting magnet eventually leads to a quench, and this was no different for RC5 and RC6. The coil voltages of RC5 and RC6 shown in Figure 2 exhibit characteristic quench behavior, with *V*<sup>13</sup> (the whole coil terminal voltage) and *V*<sup>12</sup> (one half of the coil) going positive due to one half coil entering the dissipative state first, while *V*<sup>23</sup> (the second half the coil) trends negative due to its inductive response to the growing normal zone in coil 1. Despite the small coil inductance (~35 µH), the voltage noise is on the order of mV, making it difficult to set the quench detection voltage to be less than 10 mV. \n\nThe quench current of RC5 and RC6 actually increased slightly on raising d*I*/d*t* from 30 A/s to 200 A/s (Figure 3) and they exhibited no quench training at all. *I*<sup>q</sup> remained nearly unchanged (average current = 8604 A, standard deviation = 4.1 A for RC6) during consecutive quenches and after thermal cycling to room temperature and back to 4.2 K (Figure 4) (*I*<sup>q</sup> did drop about ~0.5% after the thermal cycling to 4.2 K but remained unchanged throughout the second test. No second thermal cycling test was performed). \n\nTo examine the nature of the RC5 and RC6 quenches, the magnets were powered up using a staircase scheme, during which the coil current was periodically held constant so as to zero inductive voltages, minimize noise and allow the maximum insight into dissipation within the coils. The terminal and turn-to-turn voltages of RC5 (Figure 5) show that several turns had started to dissipate before the terminal voltage *V*<sup>13</sup> exceeded 0.1 V, which indicates that quench was triggered by a significant length of cable entering the dissipative state, rather than being triggered by point disturbances as is generally the case for Nb3Sn magnets. The signals taken during stable-current portions of the staircase ramp show that resistive voltage signals became visible at 7000 A well below the >8000 A of *I*<sup>q</sup> and that they steadily increased with increasing current. From *t* = 447 s to *t* = 507 s, the current was held at 7925 A and the resistive voltage of the ramp turn (a 14 cm long section that transitions between the two coil layers in the peak field region. See Figure 5c) was 3.6 µV, generating a steady joule heating of 28.5 mW. The total heat input during this hold from 447 to 507 s was ~1.71 J, which, though significant, did not cause the coil to quench. When the coil current was raised and held at 8130 A, the resistive voltage of the ramp turn was 9.4 µV and the joule heating 76.4 mW, which caused a thermal runaway in less than 4 seconds. Such a high thermal stability is in strong contrast to the instability that characterizes Nb-Ti and Nb3Sn magnets, for which a disturbance as small as 1 µJ is sufficient to cause the coil to quench. \n\n## *The global superconducting-normal transition: Coil E-I curve and Ic*\n\nFigure 6 plots the *E*-*I* curve of RC5 and RC6, where the electric field *E* is derived from the resistive signals during the current-hold parts of the staircase current ramps when the inductive ramping signals were absent. Figure 6 suggests that the resistive signals were driven by usual power law resistive transition losses (*V* ~*I n* , where *n* is 20-30) during the smooth transition of the Bi-2212 cable from the superconducting to the normal state. The critical current *I*c, defined at an electric field criterion of 0.1 µV/cm, was 7550 A for RC5 and 7750 A for RC6. The *n*-values determined by the power law fitting the *E*-*I* curve were 22 for RC5 and 24 for RC6, values very similar to those obtained in short  single wire samples. This speaks to the excellent uniformity and current sharing of the Rutherford cables used in these two magnets.\n\n#### **Discussion**\n\nThe baseline magnet technology for future high energy proton colliders is the 12-16 T wind-and-react, epoxy-impregnated Nb3Sn magnets with lengthy and costly training. An important and novel outcome of this work is experimental demonstration of quench-training-free operations of epoxy-impregnated Bi-2212 magnets at the very high current density of 1000 A/mm<sup>2</sup> . This performance provided a proofof-principle that Bi-2212 should be considered for the 16-20 T accelerator magnet technology for future colliders. It is very important that neither RC5 nor RC6 quenched as a result of transient, tiny, and localized disturbances that normally give early and unpredictable quenches below *Ic* for Nb-Ti and Nb3Sn magnets. Stable operation in the dissipative state was observed in RC5 and RC6, three other impregnated coils RC1 (wax), RC2 (brittle CTD-101K epoxy), and RC3 (NHMFL mix-61 tough epoxy) 33, and coils made from Bi-2212 tapes34. Another sign of the great stability of RC5 and RC6 is the insensitivity of their quench current to ramp rate. Indeed, these Bi-2212 magnets quenched due to continuous joule heating when the cable current approached the natural transition of the cable from the fully superconducting to the partially dissipative state of the critical current transition. \n\nA vital concern for any HTS magnet is the need to detect quench so that active protection can be triggered. The greatest danger is localized thermal runaway at unexpected locations. Long quench training of Nb3Sn magnets is a cumbersome and costly problem but it seldom risks coil loss. In contrast, failing to detect a quench in a much more stable HTS magnet puts the HTS magnet in great danger because the dissipative zones propagate only slowly and overheat quickly. At the very high wire current density of 1000 A/mm<sup>2</sup> safely demonstrated in these Bi-2212 racetrack magnets, hot spot temperatures can rise at hundreds of K/s, thus making rapid (<10 ms) detection and rapid switching of the dump resistor vital to a safe quench without magnet burnout. The state-of-the-art quench detection for Nb-Ti and Nb3Sn magnets relies on fast (>10 k-samples/s) but low precision (mV resolution) voltage measurements to define a typical threshold in the range of 100 mV to several volts. Due to the fast quench propagation velocities (typically 10 m/s for Nb-Ti and Nb3Sn magnets), 100 mV develops across growing normal zones in a negligible 0.1 ms. By contrast, at the typical 1 cm/s quench velocities of HTS conductors, resistive voltages across a localized hot spot increase at less than 0.1 mV within 0.1 ms. Most HTS magnets made so far have been made out of REBCO coated conductor. Important concerns with REBCO conductors, despite their high stability, are that they contain localized \n\ndefects either pre-existing <sup>15</sup> or created during coil winding or during magnet operation 22, that their critical current is anisotropic in magnetic field, and that this anisotropy depends on flux pinning and therefore REBCO processing conditions; these uncertainties mean that quench is often localized, unpredictable, unexpected, and catastrophic 21-23,27. This is illustrated by a single-layer coil wound from a 2 m long REBCO single tape (2 mm wide, 100 µm in thickness with 40 µm Cu) with a known defected 2 cm section (*I*<sup>c</sup> = 48 A versus ~55 A for other sections at 77 K). This coil went into a thermal run-away at 60 K at ~200 A, with the last recorded terminal voltage of 1.2 mV (DAQ rate at 10 samples/s) and the voltage across its defective section of 0.4 mV, resulting in unexpected burnout in another coil section. In spite of these dangers, the default quench detection method for REBCO magnets is still a voltage measurement in the mV range with a control limit of several or tens of mV21- 25. It is thus no surprise that many REBCO magnets have been damaged during quench. \n\nAn important advantage of Bi-2212 coils revealed by this work is that their quench is global and essentially predictable. Several meters of the Bi-2212 cable in the high field region developed stable voltages (tens to hundreds of µV) well before thermal runaway and they then enter thermal runaway nearly simultaneously, as observed in RC1, RC2, and RC3<sup>33</sup> and a single-strand (140 m long), epoxy impregnated Bi-2212 solenoid tested in a background field of 14 T35. The predictable quench behavior of these Bi-2212 coils is due to the uniqueness of Bi-2212 as a round, isotropic multifilament HTS wire, now available in km-lengths with excellent current sharing in classic Bi-2212 Rutherford cables (evidenced by a *n*-value of greater than 20 (Figure 6)). By contrast, REBCO strands are monofilaments with many localized defects<sup>15</sup> and do not carry current uniformly due to their large critical current anisotropy and large screening current effects.\n\nA key understanding revealed in this letter is that quench locations of Bi-2212 magnets are predictable. Unlike Nb-Ti and Nb3Sn magnets that do not always quench in their high field regions due to their vulnerability to random point disturbances, and unlike REBCO magnets that do not always quench in the high field regions due to localized defects and their large temperature-dependent anisotropy, a stable transition is observable before quench for Bi-2212 magnets and they consistently enter into thermal runaway in their high field regions, where quench is expected. An important technological consequence is that standalone Bi-2212 magnets may be made quench-free, since their operation margins can be understood quantitatively by measuring the rise of resistive voltage in the high field region with a staircase current ramp with an accuracy of 0.1 µV, which is an improvement of orders of magnitude over the sensitivity of quench detection used by Nb-based magnets.\n\nOur work therefore shows why and how quenches can be detected for Bi-2212 magnets. Its >20 T high-field magnet applications are most likely going to be hybrid ones with a background magnetic field provided by Nb-Ti and Nb3Sn outsert magnets. Through magnetic coupling quench of Nb-Ti and Nb3Sn magnets would trigger the HTS magnet to quench. In the case of the Nb-Ti/Nb3Sn/REBCO 32 T magnet 12, the inner 17 T, 34 mm bore, ~100 kg REBCO magnet is powered with an independent power supply circuit and has to be protected with a total heater energy of 160 kJ, supplied by a high voltage battery system, in comparison to 300 J for active protection of the outsert 1400 kg, 15 T, 250 mm bore Nb-Ti/Nb3Sn magnet 9,36,37. Bi-2212 presents a feasible path to developing commercial, more userfriendly 25-30 T solenoid systems than the 32 T magnet. Being a round wire with a flexible diameter and current-carrying capability, Bi-2212 inserts can be placed in electrical series with the background Nb-Ti and Nb3Sn magnets, so that the quench protection of such system can be much simpler. \n\nWe finally emphasize that the stable and safe quench performance described here was obtained on wires with the very high wire critical current density of 1000 A/mm<sup>2</sup> , current densities well above those required for efficient dipole magnet design. We emphasize that even higher wire current densities of 1800 A/mm<sup>2</sup> at 5 T and 4.2 K and 1000 A/mm<sup>2</sup> at 27 T and 4.2 K are available from shortsamples of these wires 13' 32. As usual, there is a gap between magnet and best short sample performance, but it is important to note that recent Bi-2212 conductor improvement has passed into the magnets too. The quench current of RC6 is 8.6 kA, whereas the best performance coil RC2 made with previous generation wires <sup>13</sup> using Nexans granulate powder had *I*<sup>q</sup> of 5.7 kA 33. Bi-2212 cables have leapt beyond the benchmark wire *J*<sup>E</sup> needed by high-energy physics particle collider magnets, typically made of Rutherford cables with an average cable current density 400-750 A/mm<sup>2</sup> and a wire *J*<sup>E</sup> of 600-1000 A/mm<sup>2</sup> . Bi-2212 wires now enable such current densities for 20-T class dipoles. The breakthrough was made possible by better powders made by a combustion chemical vapor condensation38,39,40, which eclipse the previous melt-cast41, aerosol spray pyrolysis and liquid coprecipitation powders 13,33. Now it appears that highly homogeneous, 100-500 nm powders with excellent composition control (+/-2% for Ca and +/-1% for others), a low impurity level, and low risk of powder agglomeration can be made. Such powders enable uniform drawing of wires with fine superconductor filaments (10-20 µm in diameter) by the powder-in-tube method. \n\n#### **Conclusions**\n\nWe have demonstrated that the exceptionally high wire current density of 1000 A/mm<sup>2</sup> can be reached in an HTS Bi-2212 magnet and that the onset of thermal runaway is nonlocalized, enabling  safe protection against quench. Quenches consistently occurred in the high field regions and exhibited a highly uniform resistive transition of the cable that permits detection of the resistive transition voltages well before quench. This high wire current density was made possible by a new nanospray combustion powder technology. The feasible quench detection and possible quench-free operation for standalone Bi-2212 magnets enables magnet use of the unique characteristics so far only found in Bi-2212, a combination of high stability that comes with high-*T*<sup>c</sup> cuprate superconductors, isotropic behavior due to the round, multifilamentary wire architecture, and the ability to produce long wires and cables with high uniformity and current sharing. With these capabilities, Bi-2212 has taken a huge step towards practical applications such as user-friendly, 25-30 T class solenoid research magnets <sup>42</sup> , 20-T class, canted cosine theta geometry43,44, accelerator magnets useful for future high-energy colliders, including a high-energy LHC upgrade, and >1.3 GHz NMR magnets due to Bi-2212 being the only isotropic, multifilamentary HTS round wire that permits high magnetic field quality. \n\n#### **Acknowledgements**\n\nWork at LBNL was supported by the Director, Office of Science of the U.S. Department of Energy (DOE) under Contract No. DE-AC02-05CH11231. Work at the NHMFL was supported by the US DOE Office of High Energy Physics (OHEP) under grant number DE-SC0010421, by the National Institutes of Health under Award Number R21GM111302, and by the NHMFL, which was supported by the National Science Foundation under Award Numbers DMR-1157490 and DMR-1644779, and by the State of Florida. Work at Bruker OST and nGimat was supported by the U.S. DOE OHEP through a SBIR award DE-SC0009705. This work was amplified by the U.S. Magnet Development Program (MDP). T.S. acknowledges support from the U.S. DOE Early Career Research Program, K.Z. acknowledges support from the China Scholarship Council, and D.D. acknowledges support from the U.S. DOE Office of Science Graduate Student Research Program. \n\n#### **Author contributions**\n\nT.S., D.L., S.G. and S.P. planned the research and T.S. supervised the research. M.W. and A.H. fabricated the powder, Y.H., H.M. and J.P. fabricated the wire, J.J. characterized the short samples, H.H. and T.S. fabricated the cable and wound the coils, E.B., U.T. and E.H. performed the heat treatment of the coils, and T.S. K.Z., D.D. and M.T. performed the high current coil measurement. T.S., D.L. and S.G. contributed to the discussion and interpretation of the results. T.S. and D.L. took the lead in preparing the paper. \n\n#### **Additional Information**\n\nThe author(s) declare no competing interests.\n## **REFERENCES**\n\n- 1 Rossi, L. Superconductivity: its role, its success and its setbacks in the Large Hadron Collider of CERN. *Supercond. Sci. and Technol.* **23**, 034001 (2010).\n- 2 Mitchell, N. *et al.* The ITER magnet system. *IEEE Trans. Appl. Supercond.* **18**, 435-440 (2008).\n- 3 Alonso, J. R. & Antaya, T. A. Superconductivity in medicine. *Rev. Accel. Sci. Technol.* **5**, 227-263 (2012).\n- 4 Apollinari, G., Brüning, O., Nakamoto, T. & Rossi, L. High Luminosity Large Hadron Collider HL-LHC. *arXiv preprint arXiv:1705.08830* (2017).\n- 5 Weijers, H. *et al.* The generation of 25.05 T using a 5.11 T Bi2Sr2CaCu2Ox superconducting insert magnet. *Supercond. Sci. and Technol.* **17**, 636 (2004).\n- 6 Yuan, H. *et al.* Nearly isotropic superconductivity in (Ba,K)Fe2As2. *Nature* **457**, 565 (2009).\n- 7 Hunte, F. *et al.* Two-band superconductivity in LaFeAsO0.89F0.11 at very high magnetic fields. *Nature* **453**, 903 (2008).\n- 8 Ando, Y. *et al.* Resistive upper critical fields and irreversibility lines of optimally doped high-T c cuprates. *Phys. Rev. B* **60**, 12475 (1999).\n- 9 Markiewicz, W. D. *et al.* Design of a superconducting 32 T magnet with REBCO high field coils. *IEEE Trans. Appl. Supercond.* **22**, 4300704 (2012).\n- 10 Iwasa, Y. HTS and NMR/MRI magnets: Unique features, opportunities, and challenges. *Physica C* **445**, 1088-1094 (2006).\n- 11 Bottura, L., de Rijk, G., Rossi, L. & Todesco, E. Advanced accelerator magnets for upgrading the LHC. *IEEE Trans. Appli. Supercond.* **22**, 4002008-4002008 (2012).\n- 12 NHMFL press release (https://nationalmaglab.org/news-events/news/new-world-record-magnetfulfills-superconducting-promise, 2017).\n- 13 Larbalestier, D. C. *et al.* Isotropic round-wire multifilament cuprate superconductor for generation of magnetic fields above 30 T. *Nat. Mater.* **13**, 375 (2014).\n- 14 Nakashima, T. *et al.* Drastic improvement in mechanical properties of DI-BSCCO wire with novel lamination material. *IEEE Trans. Appl. Supercond.* **25**, 1-5 (2015).\n- 15 Rossi, L. *et al.* Sample and length-dependent variability of 77 and 4.2 K properties in nominally identical RE123 coated conductors. *Supercond. Sci. and Technol.* **29**, 054006 (2016).\n- 16 Wilson, M. N. *Superconducting magnets*. (Clarendon Press; Oxford (UK), 1983).\n- 17 Iwasa, Y. *Case studies in superconducting magnets: design and operational issues*. (Springer Science & Business Media, 2009).\n- 18 Chlachidze, G. *et al.* Performance of the first short model 150-mm-aperture Nb3Sn quadrupole MQXFS for the High-Luminosity LHC upgrade. *IEEE Trans. Appl. Supercond.* **27**, 4000205 (2017).\n- 19 Feher, S., Bross, A. & Hanlet, P. Operational Experience with the MICE Spectrometer Solenoid System. *IEEE Trans. Appl. Supercond.* **28**, 4101304 (2018).\n- 20 Van Nugteren, J. *et al.* Powering of an HTS dipole insert-magnet operated standalone in helium gas between 5 and 85 K. *Supercond. Sci. and Technol.* **31**, 065002 (2018).\n- 21 Awaji, S. *et al.* First performance test of a 25 T cryogen-free superconducting magnet. *Supercond. Sci. and Technol.* **30**, 065001 (2017).\n- 22 Kajita, K. *et al.* Degradation of a REBCO coil due to cleavage and peeling originating from an electromagnetic force. *IEEE Trans. Appl. Supercond.* **26**, 4301106 (2016).\n- 23 Kajita, K., Takao, T., Maeda, H. & Yanagisawa, Y. Degradation of a REBCO conductor due to an axial tensile stress under edgewise bending: a major stress mode of deterioration in a high field REBCO coil's performance. *Supercond. Sci. and Technol.* **30**, 074002 (2017).\n- 24 Terao, Y. *et al.* Newly designed 3 T MRI magnet wound with Bi-2223 tape conductors. *IEEE Trans. Appl. Supercond.* **23**, 4400904 (2013).\n- 25 Terao, Y. *et al.* Analysis of an abnormal event in a 3-T MRI magnet wound with Bi-2223 tape conductors. *IEEE Trans. Appl. Supercond.* **24**, 4401105 (2014).\n- 26 Wang, X. *et al.* A viable dipole magnet concept with REBCO CORC® wires and further development needs for high-field magnet applications. *Supercond. Sci. and Technol.* **31**, 045007 (2018).\n- 27 Michael, P. C. *et al.* Assembly and Test of a 3-Nested-Coil 800-MHz REBCO Insert (H800) for the MIT 1.3 GHz LTS/HTS NMR Magnet. *IEEE Trans. Appl. Supercond.* (2019).\n- 28 Jiang, J. *et al.* High performance Bi-2212 round wires made with recent powders. *IEEE Trans. Appl. Supercond.* **29**, 6400405 (2019).\n- 29 Li, P., Ye, L., Jiang, J. & Shen, T. RRR and thermal conductivity of Ag and Ag-0.2 wt.% Mg alloy in Ag/Bi-2212 wires. *IOP Conf. Ser.: Mater. Sci. Eng.* **102**, 012027 (2015).\n- 30 Bonura, M. *et al.* Very-high thermal and electrical conductivity in overpressure-processed Bi2Sr2CaCu2O8+x wires. *Mater. Res. Express* **5**, 056001 (2018).\n- 31 Ballarino, A. & Bottura, L. Targets for R&D on Nb3Sn conductor for high energy physics. *IEEE Trans. Appl. Supercond.* **25**, 6000906 (2015).\n- 32 Jiang, J. *et al.* Effects of filament size on critical current density in overpressure processed Bi-2212 round wire. *IEEE Trans. Appl. Supercond.* **27**, 6400104 (2017).\n- 33 Zhang, K. *et al.* Tripled critical current in racetrack coils made of Bi-2212 Rutherford cables with overpressure processing and leakage control. *Supercond. Sci. and Technol.* **31**, 105009 (2018).\n- 34 Awaji, S., Watanabe, K., Motokawa, M., Wakuda, T. & Okada, M. Stability for Ag sheathed Bi2Sr2CaCu2O8 tape coils under strong electromagnetic force state. *Physica C* **341**, 2597-2598 (2000).\n- 35 Shen, T., Ye, L. & Li, P. Feasible voltage-tap based quench detection in a Ag/Bi-2212 coil enabled by fast 3D normal zone propagation. *Supercond. Sci. and Technol.* **29**, 08LT01 (2016).\n- 36 Weijers, H. *et al.* Progress in the development of a superconducting 32 T magnet with REBCO high field coils. *IEEE Trans. Appl. Supercond.* **24**, 4301805 (2014).\n- 37 Weijers, H. W. *et al.* Progress in the development and construction of a 32-T superconducting magnet. *IEEE Trans. Appl. Supercond.* **26**, 4300807 (2016).\n- 38 Oljaca, M., Xing, Y., Lovelace, C., Shanmugham, S. & Hunt, A. Flame synthesis of nanopowders via combustion chemical vapor deposition. *J. Mater. Sci. Lett.* **21**, 621-626 (2002).\n- 39 Hunt, A., Carter, W. & Cochran Jr, J. Combustion chemical vapor deposition: A novel thin-film deposition technique. *Appl. Phys. Lett.* **63**, 266-268 (1993).\n- 40 Hunt, A., Cochran Jr, J. & Carter, W. Combustion chemical vapor deposition of films and coatings. US patent 5652021 (1997).\n- 41 Bock, J. & Preisler, E. Preparation of single phase 2212 bismuth strontium calcium cuprate by melt processing. *Solid State Commun.* **72**, 453-458 (1989).\n- 42 Melhem, Z., Ball, S. & Chappell, S. Development of Bi-2212 insert coils for ultra high field magnet applications. *Phys. Procedia* **36**, 805-811 (2012).\n- 43 Caspi, S. *et al.* Design of an 18-T canted cosine–theta superconducting dipole magnet. *IEEE Trans. Appl. Supercond.* **25**, 4000205 (2015).\n- 44 Goodzeit, C., Ball, M. & Meinke, R. The double-helix dipole-a novel approach to accelerator magnet design. *IEEE Trans. Appl. Supercond.* **13**, 1365-1368 (2003).\n\n## **List of Figures**\n\nFigure 1: *J*E(*B*) of an optimally processed sample of the strand used in this study in comparison to that of a Bi-2212 with the previous record performance, the LHC Nb-Ti strand, and the HL-LHC RRP Nb3Sn strand.\n\nFigure 2: Coil voltages (RC5) during a linear current ramp (see inset in b) that ended with a quench. **a** Voltage tap map. **b** Coil voltages *V*<sup>13</sup> (whole coil) and *V*<sup>12</sup> and *V*<sup>23</sup> (individual layers). \n\nFigure 3: Ramp rate dependence of the quench current Iq of RC5 and RC6 during linear current ramps. Inset shows a 3D display of the contours of the surface magnetic flux density generated by RC6 at 8600 A.\n\nFigure 4: *I*<sup>q</sup> of RC6 for consecutive quenches before and after thermal cycling to room temperature and back to 4.2 K. \n\nFigure 5: Voltage development of RC5 for staircase ramps of the magnet current that ended with thermal runaway and energy extraction by switching in a dump resistor. The current ramp scheme contains current holding steps during which coil inductive signals die away and noise is much reduced **b**. The coil and turn-toturn voltages are shown in **b** and **d**, respectively. The ramp turn voltage is highlighted in **c**. The ramp turn is a 14 cm long section that transitions between the two coil layers in the peak field region. In **d**, L1-T1 means the turn #1 of the coil layer #1 (other turns follow the same naming method.) and it is the outermost turn in the low field region. The voltage tap length of turns decreases from 62 cm for L1-T1 and L2-T1 gradually to 52 cm for L1-T6 and L2-T6.\n\nFigure 6: The *E*-*I* transition of RC5 and RC6 derived from tests with staircase powering schemes for the ramp turns. \n\nFigure 1:\n\n![](0__page_13_Figure_1.jpeg)\n\nFigure 2:\n\n![](0__page_14_Figure_1.jpeg)\n\n![](0__page_14_Figure_2.jpeg)\n\nFigure 3:\n\n![](0__page_15_Figure_1.jpeg)\n\nFigure 4:\n\n![](0__page_16_Figure_1.jpeg)\n\nFigure 5:\n\n![](0__page_17_Figure_1.jpeg)\n\n![](0__page_18_Figure_0.jpeg)\n\n![](0__page_19_Figure_0.jpeg)\n\n![](0__page_19_Figure_1.jpeg)",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Stable,\tpredictable\tand\ttraining-free\toperation\tof\tsuperconducting Bi-\n2212\tRutherford\tcable racetrack\tcoils\tat\tthe\tvery\thigh\twire\tcurrent\t\ndensity\tof\tmore\tthan\t1000\tA/mm2",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              89.349609375,
+              74.5400390625
+            ],
+            [
+              525.041015625,
+              74.5400390625
+            ],
+            [
+              525.041015625,
+              126.1669921875
+            ],
+            [
+              89.349609375,
+              126.1669921875
+            ]
+          ]
+        },
+        {
+          "title": "Abstract",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              89.4990234375,
+              318.2193603515625
+            ],
+            [
+              127.59591674804688,
+              318.2193603515625
+            ],
+            [
+              127.59591674804688,
+              329.0193786621094
+            ],
+            [
+              89.4990234375,
+              329.0193786621094
+            ]
+          ]
+        },
+        {
+          "title": "Methods",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              89.349609375,
+              359.9793701171875
+            ],
+            [
+              131.9326171875,
+              359.9793701171875
+            ],
+            [
+              131.9326171875,
+              370.77935791015625
+            ],
+            [
+              89.349609375,
+              370.77935791015625
+            ]
+          ]
+        },
+        {
+          "title": "Wire\tand\tcable\tdesign\tand\tfabrication",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              89.6484375,
+              386.13934326171875
+            ],
+            [
+              263.3636779785156,
+              386.13934326171875
+            ],
+            [
+              263.3636779785156,
+              396.9393615722656
+            ],
+            [
+              89.6484375,
+              396.9393615722656
+            ]
+          ]
+        },
+        {
+          "title": "Coil\tdesign,\tfabrication,\tand\ttest",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              89.2001953125,
+              620.3793640136719
+            ],
+            [
+              238.0166015625,
+              620.3793640136719
+            ],
+            [
+              238.0166015625,
+              631.51171875
+            ],
+            [
+              89.2001953125,
+              631.51171875
+            ]
+          ]
+        },
+        {
+          "title": "Results",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              89.05078125,
+              369.099365234375
+            ],
+            [
+              123.416015625,
+              369.099365234375
+            ],
+            [
+              123.416015625,
+              379.8993835449219
+            ],
+            [
+              89.05078125,
+              379.8993835449219
+            ]
+          ]
+        },
+        {
+          "title": "The\thigh\tcritical\tcurrent\tdensity\tof\tthese\tBi-2212\twires",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              89.42431640625,
+              395.2593994140625
+            ],
+            [
+              336.4293518066406,
+              395.2593994140625
+            ],
+            [
+              336.4293518066406,
+              406.05938720703125
+            ],
+            [
+              89.42431640625,
+              406.05938720703125
+            ]
+          ]
+        },
+        {
+          "title": "Quench\tperformance\tof\tthe\tcoils",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              89.349609375,
+              527.9793701171875
+            ],
+            [
+              237.53892517089844,
+              527.9793701171875
+            ],
+            [
+              237.53892517089844,
+              538.7793579101562
+            ],
+            [
+              89.349609375,
+              538.7793579101562
+            ]
+          ]
+        },
+        {
+          "title": "The\tglobal\tsuperconducting-normal transition:\tCoil\tE-I\tcurve\tand\tIc",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              89.4990234375,
+              551.0193634033203
+            ],
+            [
+              390.9955139160156,
+              551.0193634033203
+            ],
+            [
+              390.9955139160156,
+              562.4132537841797
+            ],
+            [
+              89.4990234375,
+              562.4132537841797
+            ]
+          ]
+        },
+        {
+          "title": "Discussion",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              89.27490234375,
+              120.2193603515625
+            ],
+            [
+              140.250732421875,
+              120.2193603515625
+            ],
+            [
+              140.250732421875,
+              131.01934814453125
+            ],
+            [
+              89.27490234375,
+              131.01934814453125
+            ]
+          ]
+        },
+        {
+          "title": "Conclusions",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              89.7978515625,
+              650.3793640136719
+            ],
+            [
+              144.03244018554688,
+              650.3793640136719
+            ],
+            [
+              144.03244018554688,
+              661.1793670654297
+            ],
+            [
+              89.7978515625,
+              661.1793670654297
+            ]
+          ]
+        },
+        {
+          "title": "Acknowledgements",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              89.349609375,
+              341.7393798828125
+            ],
+            [
+              180.3427734375,
+              341.7393798828125
+            ],
+            [
+              180.3427734375,
+              352.53936767578125
+            ],
+            [
+              89.349609375,
+              352.53936767578125
+            ]
+          ]
+        },
+        {
+          "title": "Author\tcontributions",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              89.4990234375,
+              538.7793579101562
+            ],
+            [
+              185.85867309570312,
+              538.7793579101562
+            ],
+            [
+              185.85867309570312,
+              549.5793609619141
+            ],
+            [
+              89.4990234375,
+              549.5793609619141
+            ]
+          ]
+        },
+        {
+          "title": "Additional\tInformation",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              89.87255859375,
+              656.3793640136719
+            ],
+            [
+              195.43359375,
+              656.3793640136719
+            ],
+            [
+              195.43359375,
+              667.1793670654297
+            ],
+            [
+              89.87255859375,
+              667.1793670654297
+            ]
+          ]
+        },
+        {
+          "title": "REFERENCES",
+          "heading_level": null,
+          "page_id": 10,
+          "polygon": [
+            [
+              89.12548828125,
+              109.1513671875
+            ],
+            [
+              143.51220703125,
+              109.1513671875
+            ],
+            [
+              143.51220703125,
+              120.48785400390625
+            ],
+            [
+              89.12548828125,
+              120.48785400390625
+            ]
+          ]
+        },
+        {
+          "title": "List\tof\tFigures",
+          "heading_level": null,
+          "page_id": 12,
+          "polygon": [
+            [
+              89.05078125,
+              87.205078125
+            ],
+            [
+              152.5514373779297,
+              87.205078125
+            ],
+            [
+              152.5514373779297,
+              98.37933349609375
+            ],
+            [
+              89.05078125,
+              98.37933349609375
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              207
+            ],
+            [
+              "Line",
+              51
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              221
+            ],
+            [
+              "Line",
+              43
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              155
+            ],
+            [
+              "Line",
+              33
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              205
+            ],
+            [
+              "Line",
+              33
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              187
+            ],
+            [
+              "Line",
+              30
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              258
+            ],
+            [
+              "Line",
+              34
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              156
+            ],
+            [
+              "Line",
+              34
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              239
+            ],
+            [
+              "Line",
+              32
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              201
+            ],
+            [
+              "Line",
+              35
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              128
+            ],
+            [
+              "Line",
+              32
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              301
+            ],
+            [
+              "Line",
+              49
+            ],
+            [
+              "ListItem",
+              25
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              224
+            ],
+            [
+              "Line",
+              39
+            ],
+            [
+              "ListItem",
+              19
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              128
+            ],
+            [
+              "Line",
+              20
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              18
+            ],
+            [
+              "Span",
+              18
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 14,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              36
+            ],
+            [
+              "Span",
+              36
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 15,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              23
+            ],
+            [
+              "Span",
+              23
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 16,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              20
+            ],
+            [
+              "Span",
+              20
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 17,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              29
+            ],
+            [
+              "Span",
+              29
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 18,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Figure",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "Line",
+              1
+            ],
+            [
+              "Span",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 19,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              17
+            ],
+            [
+              "Span",
+              17
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 20,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Stable, predictable and training-free operation of superconducting Bi-2212 Rutherford cable racetrack coils at the wire current density of 1000 A/mm<SUP>2</SUP>",
+    "authors": [
+      {
+        "authors_list": [
+          "Shen, Tengming",
+          "Bosque, Ernesto",
+          "Davis, Daniel",
+          "Jiang, Jianyi",
+          "White,"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "High-temperature superconductors (HTS) could enable high-field magnets stronger than is possible with Nb-Ti and Nb<SUB>3</SUB>Sn, but two challenges have so far been the low engineering critical current density J<SUB>E</SUB>, especially in high-current cables, and the danger of quenches. Most HTS magnets made so far have been made out of REBCO coated conductor. Here we demonstrate stable, reliable and training-quench-free performance of Bi-2212 racetrack coils wound with a Rutherford cable fabricated from wires made with a new precursor powder. These round multifilamentary wires exhibited a record J<SUB>E</SUB> up to 950 A/mm<SUP>2</SUP> at 30 T at 4.2 K. These coils carried up to 8.6 kA while generating 3.5 T at 4.2 K at a J<SUB>E</SUB> of 1020 A/mm<SUP>2</SUP>. Different from the unpredictable training performance of Nb-Ti and Nb<SUB>3</SUB>Sn magnets, these Bi-2212 magnets showed no training quenches and entered the flux flow state in a stable manner before thermal runaway and quench occurred. Also different from Nb-Ti, Nb<SUB>3</SUB>Sn, and REBCO magnets for which localized thermal runaways occur at unpredictable locations, the quenches of Bi-2212 magnets consistently occurred in the high field regions over a long conductor length. These characteristics make quench detection simple, enabling safe protection, and suggest a new paradigm of constructing quench-predictable superconducting magnets from Bi-2212.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Scientific Reports",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1808.02864"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1038/s41598-019-46629-3",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2019NatSR...910170S"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

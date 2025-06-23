@@ -1,0 +1,874 @@
+{
+  "id": "562797f265db8ca9129e1af234a897ba",
+  "pdf_path": "apl/Superconductors/arXiv:2203.08132.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **Hybrid conformal REBCO dipole for a next hadron collider**\n\n#### **Peter M McIntyre\\*<sup>1</sup>**\n\nTexas A&M University and Accelerator Technology Corp. p-mcintyre@tamu.edu\n\n**Abstract**. **A strategy is presented by which a tape-stack REBCO cable may be configured in a** *conformal winding* **in such a way that the favorable** ∥ **orientation is sustained everywhere in the winding. A method for** *dynamic current sharing* **is discussed, in which current would naturally re-distribute among the tapes of each cable turn as the winding current is increased without inducing premature quench. A dipole geometry is presented in which such a conformal REBCO insert winding is configured within a** *cable-in-conduit Nb3Sn outsert winding* **so that the sub-windings can be separately fabricated, and then assembled in a common structure and preloaded for effective stress management. The total cost of superconductor in this dipole is likely a minimum among the design options for 18 T. Plans for development of the coil technologies and a model dipole are presented.**\n\n### **Introduction**\n\nThe total cost/TeV for the superconducting magnets and the tunnel must be reduced by a factor ~five if any future hadron collider proposal is to be feasible.The FCC-hh proposal [1] highlighted the challenges of magnet technology that dominate the cost of a ~100 TeV, 100 km circumference collider. It has inspired many design efforts to push superconducting dipole technology to 16-20 T [2]. Those challenges have inspired many efforts worldwide to improve the cost/TeV of superconducting dipoles.\n\nThe recent review by van Nugteren *et al*. [3] examines the several challenges in developing hybrid dipoles that incorporate an inner winding of REBCO and an outer winding of Nb3Sn to produce ~20 T bore field. Among the challenges is that REBCO is ruinously expensive ~ 100/m for a single thin tape. A related challenge is that REBCO is a highly anisotropic superconductor [4] with a critical current that is strongly dependent on the magnitude and direction of the magnetic field in which it is operating (Figure 1). The critical current is approximately 3x greater when the magnetic field at the tape is parallel to the tape face (∥, q=90°), corresponding to ~2000 A/mm2 @ 20 K, than when it is perpendicular to the tape face (\\$, q=0°), corresponding to ~700 A/mm2 @ 4.2 K.\n\nIn recent papers [5] we presented a conformal winding method in which a REBCO insert winding can be configured in a hybrid dipole so that the tapes within the winding are everywhere oriented parallel to the field at the tape, so that the winding can use the full capacity of the REBCO tapes. Figure 2 shows an example field design for such a dipole. The insert winding consists of a tape-stack cable in which 25 REBCO tapes are stacked face-to-face, and each turn of the cable is oriented closely parallel to the field at that location.\n\nClustering REBCO tapes has been used by several authors, including Roebel cable [6], CORC [7], cable-in-conduit [8], and stacked tapes [9]. In most cases REBCO tapes are stacked in a face-on cluster and multiple clusters are cabled with a twist pitch so that each tape spends equal length on the inside and outside of the cable in a winding. Yagotintsev *et al*. [10] review the measurements of AC loss and contact resistance in those several forms of clustered-tape\n\n<sup>1</sup> The ARL/ATC collaboration includes Cannon Coates, Tim Elliott, Ray Garrison, Gareth May, John Rogers, Christian Ratcliffe, and Daya Rathnayaka.\n\n![](_page_1_Figure_0.jpeg)\n\n*Figure 1. Dependence of Ic on the angle between the tape face normal and the magnetic field, for various field strengths (30 K temperature) (from Ref. 4).*\n\nconductors. But all of the present approaches to tape clustering involve twisting the cluster and so forego any possibility to sustain the ∥ condition that would make it possible to use REBCO tape to its full potential. That is the goal of the conformal winding method.\n\nThere are two challenges in making the conformal winding realizable:\n\n- Can uniformly high critical current be sustained in the end windings of the dipole insert (where the magnetic field and the winding must both be flared) and in the leads, just as it is in the body?\n- Can the tape-cluster cable support dynamic current-sharing within each cable turn so that inductive forces within the non-insulated cable do not concentrate its current in outer tapes and drive premature quench?\n\n# **Optimization of conformal winding**\n\nThe hybrid dipole shown in Figure 1 contains an insert winding made from rectangular REBCO tape-stack cable and an outsert winding made from Nb3Sn Cable-in-Conduit 'Super-CIC' [11]. Table 1 summarizes the main parameters of both windings. The tape-stack cable contains 25 6-mm-wide REBCO tapes with 100 µm Cu clad to one side. The SuperCIC cable contains 17 0.85 mm-diameter wires of Hi-Lumi-class 108/127 Nb3Sn/Cu wires, spiralwrapped as a single layer around a thin-wall perforated center tube, then pulled as loose fit through a bronze sheath tube and drawn to compress the wires against the center tube to immobilize them.\n\nThe windings are operated in series, and the number of wires in each winding are chosen so that a cable current of 17.5 kA produces ~18 T bore field and corresponds approximately to critical current in each winding. The REBCO insert can operate at up to 20K, while the Nb3Sn winding operates at ~5K.\n\n# **Conformal geometry at injection field**\n\nThe field distribution in the winding region is significantly different at injection field and at collision field, due to progressive saturation in the flux return. Figure 3 shows the field distribution at injection field (1.75 kA winding current). There is a significant angle q between the tape face and the field direction in several blocks, but the value of || is low enough that the critical current '(||, ) is sufficient that there is no risk of quenching providing that currentsharing is dynamically stable (the subject of the next section).\n\n*Table 1. Main parameters of the 18 T hybrid dipole.*\n\n| Bore field @ 4.2K short-sample                | 18.3       | T     |\n|-----------------------------------------------|------------|-------|\n| Cable current (windings in series)            | 17.5       | kA    |\n| Aperture: horizontal, vertical                | 40, 30     | mm    |\n| REBCO: #tapes/cable x #cables/shell x #shells | 25x 16 x 3 |       |\n| Nb3Sn CIC: #wires/CIC x #cables/layer         | 17x 16 x 8 |       |\n| x#layers                                      |            |       |\n| Bmax in REBCO, Nb3Sn CIC                      | 20.0, 11.8 | T     |\n| Sextupole @ full field, injection field       | -5, -21    | units |\n|                                               |            |       |\n\n![](_page_2_Figure_2.jpeg)\n\n#### **Body field simulations**\n\n*Figure 3. Field distribution at injection field.*\n\nThe rectangular REBCO tape-stack cables are oriented along a curving contour to conform with the flaring behavior of the magnetic field in the region of the insert winding. The cylindrical CIC cables are oriented in a rectangular block-coil array in the outsert winding. There is also a 'sextupole correction' sub-winding of REBCO cables located inside and above the main REBCO insert, which is operated in series to correct sextupole in the bore field. Immediately above the bore tube is a steel flux plate that suppresses multipoles at injection field to suppress the effects of persistent currents and snap-back at injection field. The REBCO insert contributes ~8 and the CIC winding ~10 to the bore field.\n\nFigure 4 shows a detailed cross-section of three particular 3-turn blocks within the REBCO insert winding: the top-right block, the mid-plane block, and the sextupole block. These blocks exhibit variously the highest field or the maximum deviation from the ∥ orientation for some of the constituent tapes. The current capacity of the *n*th tape in each cluster can be estimated by extracting the local sheet critical current density *Kn(u)* as a function of the location *u* across the width of that tape*,* using the local values for |(, )| and q, and adding the contributions for segments spanning the entire width *<sup>w</sup>* of that tape: '4 <sup>=</sup> <sup>∫</sup> 4() : ; . The total cable current capacity is then obtained by adding the maximum current capacity of the 25 tapes in that cable segment. The maximum cable current for each cable is shown in the figure for each of the inner and outer cable turns.\n\n#### **End Field Simulations**\n\nAn additional challenge is to design a winding strategy for the magnet ends that does not compromise the operational current capacity. In the 3D end regions of the dipole, fields flare and bend in a disorderly fashion raising concerns about the critical current of the cables. The flared ends of the tape-stack winding are formed using the method first pioneered by Willy Sampson (BNL) in the 1970s. Figure 5 shows a flared-end quadrupole containing a stackedtape winding of dip-process Nb3Sn tape. Each tape-stack cable is twisted about its axis as it is flared vertically for form a catenary in which all tapes remain as a stack but no tape is bent in the hard direction. With this approach each tape face naturally follows closely the flaring of the magnetic field in the end.\n\nThis twisted-flare end has been modeled in a 3-D CAD design of the flared end, and the fields have been modeled using 3-D COMSOL. Figure 4 shows the results in three example cross sections through the end region: a) a y/z cross section through the vertical midplane; b) an x/y cross section at the transition from body to flared end; and c) an x/y cross section at a location 3 cm into the body from that transition. We are estimating '(||, ) for each tape\n\n![](_page_3_Figure_0.jpeg)\n\n*Figure 4. Detailed simulation of the orientation of magnetic field and tape faces for the a) top right; b) mid-plane; and c) sextupole 3-turn blocks of tape-stack cables in the REBCO insert winding.*\n\nwithin each layer of each cross section using the data of Figure 1, and adding them to obtain the *Ic* in each tape-stack cable at that location.\n\nThere is a compensating interplay that sustains *Ic* with little or no degradation through the flared ends: the inner tapes are well-aligned to with the field direction but have the strongest value, while the outer tapes flare with significant angle with respect to the field but the field strength is low enough that the angular dependence of Ic is also broadened. *The flared-end regions do not present a 'weak sister' limit to the Ic of the cable in any turn of the winding.*\n\n## **Dynamic current-sharing in the conformal winding**\n\nAs the dipole is ramped to increase the bore field from its value Bi at injection energy to Bc at collision energy, the current within each tape-cluster cable is increased proportionately. As shown in Figure 6, the magnetic field at each cable produces a Lorentz force ⃗ that pushes current flowing within each tape-cluster cable away from the dipole bore. Thus, even if current were injected so that it was initially distributed equally among all tapes within a first turn of cable, the Lorentz force would re-distribute current to the outermost tapes within the winding. It would therefore seem that as coil current were increased the outermost tape would quench when the overall cable current was still only a fraction of the desired current!\n\nBut REBCO can operate at 30 K, where the heat capacity of the tape (~T3 ), and the conduction to remove heat ~(Thot-T) are both much greater than at liquid helium temperature, so we conjecture that it may be possible to operate a cable of stacked non-insulated tapes *without transposition* and rely upon the 'soft' approach to quench in each tape layer to force re-distribution of current to neighboring tapes within the cable as the cable current is further increased. This strategy has been used to good effect in 'no-insulator' (*NI*) pancake windings for highfield solenoids [12], but never in a dipole. We now analyze the dynamics of quasi-equilibrium current-sharing among the tapes within a non-transposed cable in the dipole of Figure 2, using the modelling approach of Noguchi [13].\n\nThe REBCO layer within each exhibits a retarding electric field *Ez* that is current dependent:\n\n$$E\\_z = E\\_0 (I/I\\_c)^n \\tag{1}$$\n\nwhere *E0* = 10-6 *V/m* is the quench criterion, '(||, , ) is the critical current for the conditions (*B,*q,T) for that tape, and *n*~30 is the index that characterizes the power-law dependence of the superconductornormal transition for REBCO.\n\n![](_page_3_Picture_10.jpeg)\n\n*Figure 5. Example of flared ends in a tape-stack cable: Sampson's flared-end quadrupole using dip-coated Nb3Sn superconducting tape.*\n\n![](_page_4_Figure_0.jpeg)\n\n*Figure 6. Schematic illustration of current-sharing dynamics in a conformal winding of tape-stack REBCO cable.*\n\n![](_page_4_Figure_2.jpeg)\n\n*Figure 7. Detail showing a block of 3 tape-stack tapes, each containing 25 tapes, with a laminar spring to provide uniform ~1 MPa compression to all cables.*\n\nThe dynamics is analogous to the Hall effect, in which the superconducting transport is acted upon by the transverse Lorentz force, by a transverse electric field produced by the potential difference between neighboring tapes when they carry different currents, and by a contact resistivity *Rc* between adjacent tapes through which current is displaced by Lorentz forces.\n\nFollowing Ref. 13, the time dependent distribution of current in a tape-stack cable can be estimated in a simple model in which the full length of one half-turn of the tape-stack cable is treated as a series-parallel L/R network. Each tape within a half-turn of one cable has a self-\n\n$$\\begin{aligned} \\text{induced per unit length} \\qquad & \\tilde{\\mathcal{L}} = \\frac{\\mu\\_0 x}{\\omega g} = 4 \\times 10^{-4} H/m \\qquad (2) \\\\ \\text{and power-law series resistance/length} \\qquad & \\tilde{R}\\_s = \\frac{E}{I} = \\frac{E\\_0}{I\\_0} \\left(\\frac{I}{I\\_0}\\right)^{\\mathbf{n}-1} = \\{0.7 n\\Omega/m\\} \\left(\\frac{I}{I\\_0}\\right)^{\\mathbf{n}-1} \\qquad (3) \\\\ \\text{where } \\omega = \\omega\\_0 \\qquad \\dots \\qquad \\omega\\_0 = \\omega\\_0 \\qquad \\dots \\qquad \\omega\\_0 = \\omega\\_0 \\qquad (4) \\end{aligned}$$\n\nwhere *w*=6 mm is the tape width, *g*=10 cm is the vertical gap in the steel flux return, and *x*~10 cm is the horizontal width of the tape loop.\n\nLu *et al*. [14] measured the dependence of the contact surface resistance *Rc* upon the compression among the tapes in the stack, shown in Figure 8. As shown in Figure 7, each turn of tape-cluster cable in the conformal winding is supported by a laminar spring that provides ~1 MPa uniform compression all tapes of the tape-cluster, corresponding to *Rc* ~35 µW-cm2. The parallel resistance Rp by which a tape segment shares current with its neighbors is obtained by dividing *Rc* by the segment area: B <sup>=</sup> CD ℒ: <sup>=</sup> (;.GHI∙K) <sup>ℒ</sup> (4)\n\nFrom these quantities, we can extract two reults that characterize the scale of current-sharing. First, the scale length l over which this homogenization operates is the winding length for which *Rp ~ Rs*l:\n\n$$\n\\lambda = \\sqrt{\\frac{R\\_c}{\\omega \\tilde{R}\\_s}} = 2 \\,\\mathrm{9m} \\left(\\frac{l}{l\\_c}\\right)^{-11.5} \\tag{5}\n$$\n\nl is much longer than any reasonable winding length, so the current distribution would relax uniformly along the winding.\n\nSecond, we can estimate the time constant with which a difference in current between successive tapes in a tape-stack cable relaxes to an equilibrium governed by the Lorentz force and the 2-D distribution of resistance within a tape-stack cable. The change in *Figure 8. Contact resistance between* \n\n![](_page_4_Figure_13.jpeg)\n\n*two copper-clad REBCO tapes as a function of compression.*\n\ninductance *dL* along one winding length ℒ between one tape and the next is\n\n$$dL = \\frac{\\mu\\_0}{\\omega g} \\mathcal{L}; \\qquad dL[\\mu H] = 0.4 \\mathcal{L}[m] \\tag{6}$$\n\nSo the time constant for relaxation between tapes is = bc Cd ; []~(1 second) ℒ[]l (7)\n\nIn a conformal winding for a collider dipole, the current re-distributes rapidly enough that no tape should reach *Ic* prematurely. From this simple model, we predict that, as coil current is increased from zero, current would accumulate in the outermost tape of each tape-stack cable until the coil current approaches a limit *I0* ~ 0.8 *NIc(B,T,*q) for that tape. Then as coil current is further increased, current shares to the neighboring tape until the coil current reached *2 Ic* in the two tapes. Then as coil current is further increased, current would share to the 3rd tape, *etc*., until finally current would become ~homogeneous throughout the cable as the current approached an ultimate limit of *~NI0*.\n\n#### **Field homogeneity for collider requirements**\n\nField homogeneity is of particular concern for the dipole magnets of an accelerator or collider. The sextupole harmonic can be selectively canceled by placement of one correction turn in the winding, at the location shown in Figure 2. The particular example magnetic design shown has been optimized to produce nearly pure dipole field over a dynamic range of field 0.2-4 T, in which the amplitudes *bn* are all <10-4 over that range.\n\nCurrent-sharing poses a further challenge for field homogeneity, however. At injection field, the current in each tape cluster is located mainly in the outermost tape; at collision field, the current is ~equally shared, so the 'current position' for that cable turn is shifted inwards by half the cluster width.\n\n$$\\text{Conventional the n}^{\\text{th}} \\text{ multiplier of a dipole field distribution is defined at each location}$$\n\n$$\\vec{r} = r(\\ $\\cos\\theta + \\$ \\sin\\theta) \\text{ by the expansion } B\\_x + iB\\_y = \\sum b\\_n e^{-n\\ell\\theta} \\left(\\frac{r}{n}\\right)^{n-1} \\tag{8}$$\n\nThe multipoles have been evaluated for the magnetic design of Figure 2 for the maximum field ( limiting cases. The difference in the calculated multipoles is Dbn <0.5x10-4 for all multipoles! This remarkable result is a consequence of the conformal design strategy: because each tape in the cable is oriented so its face is closely parallel to |⃗, the field distribution is insensitive to the horizontal position of the 'current center position' of that cluster.\n\nPrestemon *et al*. [15] modeled current transfer in a stacked-tape cable and found that a region of cable with coupling resistance ~10 Ω is effective in equalizing current among its tapes. The laminar spring sustains 1 MPa compression, so the characteristic length of cable for stability is\n\n$$L \\sim \\frac{35\\mu\\Omega \\cdot cm^2}{10n\\Omega \\cdot 6mm} = 60\\text{m} \\tag{9}$$\n\nThis is conveniently the approximate length for one turn of a collider dipole so ramping current should stabilize turn-by-turn.\n\n![](_page_6_Picture_0.jpeg)\n\n*Figure 9. a) Cross-section of cable-in-conduit; b) NbTi CIC winding for a 3 T large-aperture dipole for JLEIC, showing flared ends.*\n\n# **Conductor cost for the 18 T dipole**\n\nThe importance of the REBCO-hybrid dipole technology comes in its impact on the cost of the superconductor required for an 18 T collider dipole. The total inventory of REBCO tape and Nb3Sn wire required for the design of Figure 2 and Table 1 is summarized in Table 2.\n\n*Table 2. Superconductor cost/bore/m for the 18 T dipole. Prices are small-quantity prices actually paid by ATC in recent purchases.*\n\n|            |                                             |              | \\$224K/bore/m |\n|------------|---------------------------------------------|--------------|---------------|\n| Nb3Sn CIC: | 17 wires/CIC x 16 cables/layer x # 8 layers | 0.85 mm dia. | \\$39K/bore/m  |\n| REBCO:     | 25 tapes/cable x 16 cables/shell x 3 shells | 6 mm wide    | \\$185K/bore/m |\n\nFor a collider with √ = 100 , the total dipole bore length required is 116 km, corresponding to a superconductor cost of \\$26 billion. That is far more than has ever been invested in an facility for high-energy physics, but the prospect for cost reduction in huge quantity just might reduce it to feasible scale. In any case the superconductor cost for\n\nOf course the superconductor is only one component of the cost of a dipole, but for all conceptual designs of dipoles to date it is the *dominant* component. Another important element of cost and performance is the integration of REBCO insert and Nb3Sn outsert into the dipole structure. The Nb3Sn outsert must be completed and heat-treated as a separate structure, and then assembled with the REBCO insert in a structure that provides for preload and stress management between the two sub-windings. The structure shown in Figure 2 provides a clean separation of the two sub-windings: the REBCO insert is wound onto a structure that embraces the beam tube; the Nb3Sn outsert is fabricated in two half-shells; and the half-shells are assembled onto the insert. We have successfully fabricated flared-end dipoles using cable-in-conduit (for the JLEIC dipole. Figure 9 shows a cross-section of Nb3Sn CIC, fabricated at Accelerator Technology Corp. (ATC) for a 3 T large-aperture dipole for JLEIC. Also shown is the completed winding, fabricated at the Accelerator Research Lab (ARL) at Texas A&M University. An important attribute of CIC is that it supports bending flared ends in a compact geometry, with no degradation of the internal support and registration of the wires, and it provides robust structure for stress-management in the end winding. Those provisions are unique among all conceptual designs for >16 T hybrid dipoles, and should make fabrication and assembly workable.\n\n![](_page_7_Figure_0.jpeg)\n\n# **Plans for development**\n\nThe ARL and ATC have teamed to develop the coil technology for the REBCO stacked-tape cable and for the Nb3Sn cable-in-conduit. ATC received SBIR funding to develop the Nb3Sn CIC cable [ 16]. That project should produce the quantity of CIC that is required for the 1 m prototype hybrid dipole that is described below. ARL has submitted a proposal for 3-year funding to develop the REBCO stacked-tape cable of Figure 7 and to build and test the model dipole described below.\n\n#### **1-meter 15 T model dipole**\n\nDeveloping the 18 T hybrid dipole requires a succession of buildand-test developments. For this purpose we have designed a 15 T model dipole that is identical to the full design, but with fewer layers of the outsert Nb3Sn CIC winding. Figure 11 shows the field design and an isometric view of the dipole with 1 m body length. The bore field is 14.8 T, the maximum field in the REBCO insert winding is 16.5 T, the maximum field in the Nb3Sn outsert winding is 8.9 T. Those fields assume a series winding current of 17.5 kA (just as for the 18 T dipole), and neither winding is at its short-sample limit.\n\n![](_page_7_Picture_5.jpeg)\n\n*Figure 10. ATC's cryogen-free test cryostat, showing the mounting of the 15 T model dipole and its current transformer.*\n\n# **Testing in cryogen-free test cryostat**\n\nATC is building a cryogen-free test cryostat for use in testing a REBCO-based dipole for another project. The cryostat utilizes two 2-stage 4.2 K/ 50K cryocoolers to cool HTS current leads, and a single-stage l20 K cryocooler to cool heat shields. The cryostat will be equipped to test the model dipole, as shown in Figure 10.\n\nA sequence of build/test stages is planned to mature the coil technologies and their integration into the model hybrid dipole:\n\n- Fabricate few-turn winding of Nb3Sn CIC, form the flared ends, heat-treat them, and test to establish whether CIC preserves the short-sample limit of the wire. Study quench detection and quench protection.\n- Fabricate the 4-layer outsert winding, heat-treat, install and pre-load in steel flux return. Study parameters of operation, quench detection, and quench protection.\n- Fabricate few-turn winding of REBCO stacked-tape cable, install inside the CIC dipole with independent currents, and preload the structure. Study operation, current-sharing, and quench dynamics.\n- Fabricate full REBCO insert winding, assemble Nb3Sn half-shell windings in series and preload. Study operation, current-sharing, quench dynamics, and inductive couplings.\n\n## **Conclusion**\n\nA strategy is presented by which a tape-stack REBCO cable may be configured in a *conformal winding* in such a way that the favorable ∥ orientation is sustained everywhere in the winding. A method for *dynamic current sharing* is discussed, in which current would naturally re-distribute among the tapes of each cable turn as the windng current is increased without inducing premature quench. A dipole geometry is presented in which such a conformal REBCO insert winding is configured within a *cable-in-conduit Nb3Sn outsert winding* so that the sub-windings can be separately fabricated, and then assembled in a common structure and preloaded for effective stress management.\n\nA design is presented for an 18 T hybrid conformal REBCO dipole in which the Nb3Sn CIC outsert provides 12 T and the REBCO insert provides 8 T. The total cost of superconductor in this dipole is likely a minimum among the design options for 18 T.\n\nPlans for development of the coil technologies and a model dipole are presented.\n\n# **References**\n\n- [1] Adaba A *et al*., 'FCC-hh: The Hadron Collider', *European Physical J. Special Topics* **228**, 755–1107 (2019).\n- [2] Rossi L and Todescu E, 'Conceptual design of 20 T dipoles for high-energy LHC', CERN Report, https://arxiv.org/abs/1108.1619\n\nSchoerling D *et al*., 'The 16 T Dipole Development Program for FCC and HE-LHC' IEEE Trans. Appl. Superconduct. **29**, 5, 4003109 (2019).\n\n- [3] van Nugeren J *et al*., 'Toward REBCO 20 T+ dipoles for accelerators', Proc. MT27: Int'l Conf. on Magnet Technology (2022).\n- [4] http://www.superpower-inc.com/content/2g-hts-wire\n- [5] McIntyre PM *et al*., 'REBCO-based dipole optimized for an ultimate-energy hadron collider', Proc. Appl. Superconductivity Conf. (2021).\n\nMcIntyre PM *et al*., 'Strategies for conformal REBCO windings', Proc. Int'l Cryomaterials Conf. (2022).\n\n- [6] Goldacker W, Grilli F, Pardo E, Kario A, Schlachter SI, and Vojenciak M 2014 *Supercond. Sci. Technol.* **27** 093001\n- [7] Van der Laan DC: 2015 Patent *WO2015006350A3*\n- [8] Shun Y *et al*., 2017 Patent CN107564623A\n- [9] Iwasa Y, Bascuñán J, and Hahn S 2018 Patent US10079092B2\n- [10] Yagotintsev K, Anvar VA, Gao P, Dhalle MJ, Haugan TJ, van der Laan DC, Weiss JD, Hossain MSA, and Nijhuis A 2020 *Supercond. Sci. Technol.* **33** 085009\n- [11] Breitschopf J, Chavez D, Elliott T, Kellams J, McIntyre P, and Sattarov A 2020 *IOP Conf. Ser.: Mater. Sci. Eng.* **756** 012031\n- [12] Choi S, Jo HC, Hwang YJ, Hahn S, and Ko TK 2012 *IEEE Trans. Appl. Superconduct.* **2**, 3, 4904004\n- [13] Noguchi S 2019 *IEEE Trans. Appl. Supercond.* **29**, 5, 4602607\n- [14] Lu J, Goddard R, Han K, and Hahn S 2017 *Physics: Instruments and Detectors*  1701.00447\n- [15] Martinez ACA, Ji Q, Prestemon SO, Wang X, and Mary-Cuna GHI 2020 *IEEE Trans. Appl. Superconduct.* **30**, 4, 1-5, 6600605\n- [16] 'Nb3Sn SuperCIC outsert and REBCO conformal insert for an 18 T collider dipole', DOE SBIR grant DE-SC0021688.",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Hybrid conformal REBCO dipole for a next hadron collider",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              86.8681640625,
+              75.05908203125
+            ],
+            [
+              524.9921875,
+              75.05908203125
+            ],
+            [
+              524.9921875,
+              92.09912109375
+            ],
+            [
+              86.8681640625,
+              92.09912109375
+            ]
+          ]
+        },
+        {
+          "title": "Peter M McIntyre*1",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              285.486328125,
+              120.852294921875
+            ],
+            [
+              381.521484375,
+              120.852294921875
+            ],
+            [
+              381.521484375,
+              133.16839599609375
+            ],
+            [
+              285.486328125,
+              133.16839599609375
+            ]
+          ]
+        },
+        {
+          "title": "Introduction",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              72.171875,
+              322.4757080078125
+            ],
+            [
+              137.81588745117188,
+              322.4757080078125
+            ],
+            [
+              137.81588745117188,
+              334.86767578125
+            ],
+            [
+              72.171875,
+              334.86767578125
+            ]
+          ]
+        },
+        {
+          "title": "Optimization of conformal winding",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              72.0263671875,
+              467.6756896972656
+            ],
+            [
+              255.6572265625,
+              467.6756896972656
+            ],
+            [
+              255.6572265625,
+              480.203125
+            ],
+            [
+              72.0263671875,
+              480.203125
+            ]
+          ]
+        },
+        {
+          "title": "Conformal geometry at injection field",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              100.61865234375,
+              665.6240234375
+            ],
+            [
+              295.380859375,
+              665.6240234375
+            ],
+            [
+              295.380859375,
+              678.1557006835938
+            ],
+            [
+              100.61865234375,
+              678.1557006835938
+            ]
+          ]
+        },
+        {
+          "title": "Body field simulations",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              99.6728515625,
+              249.27569580078125
+            ],
+            [
+              216.0791015625,
+              249.27569580078125
+            ],
+            [
+              216.0791015625,
+              261.27569580078125
+            ],
+            [
+              99.6728515625,
+              261.27569580078125
+            ]
+          ]
+        },
+        {
+          "title": "End Field Simulations",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              100.109375,
+              535.7060546875
+            ],
+            [
+              216.224609375,
+              535.7060546875
+            ],
+            [
+              216.224609375,
+              547.835693359375
+            ],
+            [
+              100.109375,
+              547.835693359375
+            ]
+          ]
+        },
+        {
+          "title": "Dynamic current-sharing in the conformal winding",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              72.09912109375,
+              335.1957092285156
+            ],
+            [
+              334.6639099121094,
+              335.1957092285156
+            ],
+            [
+              334.6639099121094,
+              347.61279296875
+            ],
+            [
+              72.09912109375,
+              347.61279296875
+            ]
+          ]
+        },
+        {
+          "title": "Field homogeneity for collider requirements",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              72.3173828125,
+              267.7557373046875
+            ],
+            [
+              301.4921875,
+              267.7557373046875
+            ],
+            [
+              301.4921875,
+              279.77587890625
+            ],
+            [
+              72.3173828125,
+              279.77587890625
+            ]
+          ]
+        },
+        {
+          "title": "Conductor cost for the 18 T dipole",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              71.7353515625,
+              276.89794921875
+            ],
+            [
+              250.1279296875,
+              276.89794921875
+            ],
+            [
+              250.1279296875,
+              290.46533203125
+            ],
+            [
+              71.7353515625,
+              290.46533203125
+            ]
+          ]
+        },
+        {
+          "title": "Plans for development",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              72.572021484375,
+              437.4453125
+            ],
+            [
+              188.287109375,
+              437.4453125
+            ],
+            [
+              188.287109375,
+              451.1156921386719
+            ],
+            [
+              72.572021484375,
+              451.1156921386719
+            ]
+          ]
+        },
+        {
+          "title": "1-meter 15 T model dipole",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              100.400390625,
+              575.5859375
+            ],
+            [
+              236.013671875,
+              575.5859375
+            ],
+            [
+              236.013671875,
+              587.919921875
+            ],
+            [
+              100.400390625,
+              587.919921875
+            ]
+          ]
+        },
+        {
+          "title": "Testing in cryogen-free test cryostat",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              100.76416015625,
+              73.79833984375
+            ],
+            [
+              286.94140625,
+              73.79833984375
+            ],
+            [
+              286.94140625,
+              86.440673828125
+            ],
+            [
+              100.76416015625,
+              86.440673828125
+            ]
+          ]
+        },
+        {
+          "title": "Conclusion",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              72.0263671875,
+              335.68994140625
+            ],
+            [
+              130.666015625,
+              335.68994140625
+            ],
+            [
+              130.666015625,
+              348.1556701660156
+            ],
+            [
+              72.0263671875,
+              348.1556701660156
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              70.64404296875,
+              121.355712890625
+            ],
+            [
+              127.97412109375,
+              121.355712890625
+            ],
+            [
+              127.97412109375,
+              134.337646484375
+            ],
+            [
+              70.64404296875,
+              134.337646484375
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              160
+            ],
+            [
+              "Line",
+              45
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Footnote",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              151
+            ],
+            [
+              "Line",
+              49
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "ListItem",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              225
+            ],
+            [
+              "Line",
+              54
+            ],
+            [
+              "TableCell",
+              30
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              220
+            ],
+            [
+              "Line",
+              63
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "PictureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              184
+            ],
+            [
+              "Line",
+              52
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Figure",
+              3
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "FigureGroup",
+              3
+            ],
+            [
+              "Equation",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              215
+            ],
+            [
+              "Line",
+              48
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "Equation",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              101
+            ],
+            [
+              "Line",
+              33
+            ],
+            [
+              "TableCell",
+              12
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "PictureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              62
+            ],
+            [
+              "Line",
+              25
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              88
+            ],
+            [
+              "Line",
+              31
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "ListItem",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              123
+            ],
+            [
+              "Line",
+              34
+            ],
+            [
+              "ListItem",
+              16
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "ListGroup",
+              3
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/PJvQGECHHLqrEbjD4fbWkQ"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 10,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Hybrid conformal REBCO dipole for a next hadron collider",
+    "authors": [
+      {
+        "authors_list": [
+          "McIntyre, Peter M"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "A strategy is presented by which a tape-stack REBCO cable may be configured in a conformal winding in such a way that all tape faces are ~parallel to B thorughout the winding, yielding ~3x more current performance than is possible in conventional REBCO cables. A method for dynamic current sharing is discussed, in which current would naturally re-distribute among the tapes of each cable as the winding current is increased without inducing premature quench. A dipole geometry is presented in which a conformal REBCO insert winding is configured within a cable-in-conduit Nb3Sn outsert winding so that the sub-windings can be separately fabricated, and then assembled in a common structure and preloaded for effective stress management. The total cost of superconductor in this dipole is likely a minimum among the design options for 18 T. Plans for development of the coil technologies and a model dipole are presented.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2203.08132"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.2203.08132",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2022arXiv220308132M"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

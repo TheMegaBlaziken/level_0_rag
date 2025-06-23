@@ -1,0 +1,469 @@
+{
+  "id": "35f35c3d1948e429e1aa57933ef2cea4",
+  "pdf_path": "apl/Superconductors/arXiv:1202.0293.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **120-MM SUPERCONDUCTING QUADRUPOLE FOR INTERACTION REGIONS OF HADRON COLLIDERS\\***\n\nA.V. Zlobin# , V.V. Kashikhin, N.V. Mokhov, I. Novitski, Fermilab, Batavia, IL 60510, U.S.A.\n\n## *Abstract*\n\nMagnetic and mechanical designs of a Nb3Sn quadrupole magnet with 120-mm aperture suitable for interaction regions of hadron colliders are presented. The magnet is based on a two-layer shell-type coil and a cold iron yoke. Special spacers made of a low-Z material are implemented in the coil mid-planes to reduce the level of radiation heat deposition and radiation dose in the coil. The quadrupole mechanical structure is based on aluminum collars supported by an iron yoke and a stainless steel skin. Magnet parameters including maximum field gradient and field harmonics, Nb3Sn coil pre-stress and protection at the operating temperatures of 4.5 and 1.9 K are reported. The level and distribution of radiation heat deposition in the coil and other magnet components are discussed.\n\n## **INTRODUCTION**\n\nLow-beta quadrupoles used in interaction regions (IRs) of hadron colliders are exposed to a strong radiation produced by secondary particles coming from the interaction point. This radiation leads to a high level of heat deposition in the coils and total heat load in the magnet cold mass, and causes a high radiation dose in the magnet structural materials. Reliable IR magnet operation and acceptable life-time require an increased magnet operation margin, additional cryogenic power for triplet cooling and special structural materials with high radiation resistance. Taking into account the fact that radiation heat deposition in IR low-beta quadrupoles is localized in the magnet mid-planes, the above problems can be partially solved by using low-Z materials and minimizing the material volume in these areas. This approach has been previously used in the design of a separation dipole D1 proposed for the LHC IR upgrade [1]. In this paper, the abovementioned approach is applied to the IR quadrupoles suitable for the LHC luminosity upgrade [2]. For a consistent comparison with the LHC upgrade scenario described in [3], the aperture of Nb3Sn IR quadrupoles is chosen to be 120 mm, with the yoke OD of 550 mm, and the nominal field gradient of 130 T/m. The quadrupole design parameters are compared to that of the traditional quadrupole design without spacers.\n\n## **QUADRUPOLE DESIGN**\n\nThe quadrupole design is based on a two-layer shelltype coil and a cold iron yoke. The magnetic design optimization was performed using ROXIE code with nonlinear properties of the iron yoke. The main optimization objectives were highest field gradient and field quality.\n\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\n![](_page_0_Figure_11.jpeg)\n\nFigure 1: Cross-sections of the coils with (left) and without (right) mid-plane spacers.\n\nFig. 1 shows the cross-sections of coils with and without mid-plane spacers. The total spacer azimuthal thickness is 1 cm that allows the elimination of ~4 turns next to each coil mid-plane where the radiation heat and dose reach their maximum values. Both coils use a Rutherford-type cable with 40 strands of 0.7 mm in diameter. The bare cable width is 15.15 mm, and the small and large edges are 1.171 and 1.344 mm respectively. The cable insulation thickness is 0.1 mm.\n\nThe cross-section of a quadrupole based on coils with aluminium (Al) mid-plane spacers is shown in Fig. 2. The magnet mechanical structure consists of an octagonal Al collar, a two-piece iron yoke with large 105 mm holes for HeII heat exchanger, and a stainless steel skin. Two Al spacers control the gap between the two iron halves during magnet assembly and cool-down and house the yoke-skin alignment keys. The outer shape of the octagonal collar and the corresponding iron inner surface provide the alignment and surface matching at room and operation temperatures. Using the low-Z Al spacers and collar, placing the heat exchangers close to the coil midplanes and removing the iron near the magnet mid-planes improve the coil cooling conditions and the radial heat transfer in the cold mass. However, participation of both these structural elements in the coil pre-stress and support is required.\n\n![](_page_0_Figure_15.jpeg)\n\nFigure 2: Quadrupole cold mass cross-section.\n\n<sup>\\*</sup> Work supported by Fermi Research Alliance, LLC, under contract\n\nNo. DE-AC02-07CH11359 with the U.S. Department of Energy # zlobin@fnal.gov\n\n## **QUADRUPOLE PARAMETERS**\n\nThe magnet quench parameters for the two coil designs calculated for the critical current density of Nb3Sn cable Jc(12T,4.2K)=2500 A/mm<sup>2</sup> and Cu-to-nonCu ratio of 0.87 are summarized in Table 1. The smaller number of turns in the coil with mid-plane spacers (132 vs. 200 in the coil without spacers) causes the 18% reduction of its maximum gradient. Nevertheless, this design provides 23% margin with respect to the nominal operation gradient of 130 T/m even at 4.5 K. At 1.9 K the quadrupole with mid-plane spacers can provide 150 T/m gradient with almost 20% margin, sufficient to operate magnets at the luminosity of 10<sup>35</sup> cm-2 s -1 [4-5].\n\n| Table 1: Quadrupole | Parameters at 4.5 |  | and 1.9 |  | K. |\n|---------------------|-------------------|--|---------|--|----|\n|---------------------|-------------------|--|---------|--|----|\n\n|                    |                          | Magnet design  |                   |  |\n|--------------------|--------------------------|----------------|-------------------|--|\n| Parameter          | Operation<br>temperature | With<br>spacer | Without<br>spacer |  |\n| Max gradient, T/m  |                          | 159.6          | 189.9             |  |\n| Quench current, kA | 4.5 K                    | 20.32          | 15.40             |  |\n| Coil peak field, T |                          | 11.83          | 13.17             |  |\n| Max gradient, T/m  |                          | 174.5          | 208.0             |  |\n| Quench current, kA | 1.9 K                    | 22.29          | 16.92             |  |\n| Coil peak field, T |                          | 12.93          | 14.42             |  |\n\nThe optimized geometrical field harmonics at the reference radius of 40 mm and the gradient of 130 T/m for the two coil designs are presented in Table 2. Since the gap in the coil mid-planes is relatively large, the design with mid-plane spacers has a larger b<sup>18</sup> component which, however, becomes less than 1 unit at the reference radius of 39 mm.\n\nTable 2: Geometrical Harmonics at Rref=40 mm and G=130 T/m (10-4 ).\n\n|          | Magnet design |                |  |\n|----------|---------------|----------------|--|\n| Harmonic | With spacer   | Without spacer |  |\n| b6       | 0.0000        | 0.0000         |  |\n| b10      | 0.0039        | -0.0057        |  |\n| b14      | 0.0605        | -0.0278        |  |\n| b18      | -1.3996       | -0.4220        |  |\n\nThe yoke saturation effect on the load lines and the lowest order allowed harmonic b<sup>6</sup> for quadrupoles with and without coil mid-plane spacers is shown in Figs. 3-4.\n\n![](_page_1_Figure_8.jpeg)\n\nFigure 3: Quadrupole load lines.\n\n![](_page_1_Figure_10.jpeg)\n\n![](_page_1_Figure_11.jpeg)\n\nDue to a relatively large distance between the coil and yoke, the iron saturation effect on the magnet load lines is small. The b<sup>6</sup> varies within +/- 0.5 units in the gradient range of 0-130 T/m that seems acceptable without an additional correction.\n\n## **COIL STRESS**\n\nMechanical stresses in the quadrupole coil with midplane Al spacers were analyzed using ANSYS code with plastic coil material properties. The stress distributions in the coil at room temperature and at helium temperatures at zero current and at the field gradient of 130 T/m are shown in Fig. 5. The maximum room-temperature stress of 70 MPa in the coil after assembly increases after cooldown to ~110 MPa. This level of coil pre-stress allows the coil turns to be kept under compression at the nominal field gradient of 130 T/s. The maximum stress in the coil in this case does not exceed 130 MPa. To operate this magnet at the nominal field gradient of 150 T/m, the coil room temperature pre-stress needs to be increased to 90 MPa. The maximum coil stress at 150 T/m will not exceed 170 MPa which is safe for Nb3Sn magnets based on the recent studies performed using Nb3Sn quadrupole coils.\n\n## **QUENCH PROTECTION**\n\nThe 120-mm Nb3Sn quadrupoles at the nominal gradient of 130 T/m have a nominal stored energy almost a factor of two higher than the present 70-mm IR quadrupoles (MQXB). That is why their protection needs to be carefully considered. A summary of the quench analysis for 120-mm Nb3Sn quadrupoles described above is reported in Table 3.\n\n![](_page_1_Figure_17.jpeg)\n\nFigure 5: Coil stress at room temperature, at operation temperature and zero current, at 1.9 K and 130 T/m.\n\nTable 3: Quench Protection Parameters.\n\n|                               | Magnet design |           |  |\n|-------------------------------|---------------|-----------|--|\n| Parameter                     | With spacer   | No spacer |  |\n| Inductance (mH/m)             | 4.1           | 9.0       |  |\n| Stored energy @130T/m (kJ/m)  | 558           | 488       |  |\n| Operation current @130T/m (A) | 16430         | 10410     |  |\n| Max. hotspot temperature (K)  | 288           | 160       |  |\n| Max. temperature under QH (K) | 132           | 117       |  |\n\nThe analysis assumes a total heater delay of 30 ms. The quench heaters (QH) are placed on the coil outer layer and cover 60% of the turns in the coil with an Al spacer and 50% in the coil without a spacer. One can see that at 130 T/m all temperatures are below 300 K. At 150 T/m with the same heaters, the maximum hotspot temperature increases to 370 K and 180 K in coils with and without Al spacers respectively.\n\n## **RADIATION HEAT DEPOSITIONS**\n\nThe radiation analysis was performed using MARS15 code [6] for the LHC inner triplet layout v.6.5. The four quadrupoles Q1, Q2A, Q2B, and Q3 have the same crosssections and a 3.1 mm SS beam pipe. An additional 6.2 mm segmented SS liner was placed inside the Q1 beam pipe. The longitudinal distribution of maximum power density in the cross-section of quadrupoles with and without Al mid-plane spacers in the coil at the luminosity of 10<sup>35</sup> cm-2 s -1 is shown in Fig. 6. The peak power in the coil with Al spacer is reduced by almost a factor of two with respect to the traditional design and practically meets the design goal shown by the horizontal line.\n\nThe integrated power dissipation in the main components of Q1 for designs with Al collar, and with and without Al spacers is shown in Table 4 and compared with the reference quadrupole without mid-plane spacers and with SS collar [3, 5]. The dynamic heat load in the coil with Al spacers is 11% lower than in the traditional coils. The power dissipation in the Al collar is also almost a factor of two lower than in the SS collar. More transparent for particles coil and Al collar increase the heat deposition in the iron yoke by a factor of two making the radial heat distribution more uniform. The total dynamic heat loads in the case with Al spacers and collar is 4% lower than in the traditional quadrupole design.\n\n![](_page_2_Figure_6.jpeg)\n\nFigure 6: The peak power density in the coil inner layer of the quadrupole with and without Al spacers.\n\nTable 4: Radiation Dynamic Heat Load in Q1 (in Watts).\n\n|        | Magnet design |                |            |\n|--------|---------------|----------------|------------|\n| Part   | With spacer   | Without spacer | Reference* |\n| Coil   | 185           | 206            | 205        |\n| Collar | 37            | 29             | 67         |\n| Yoke   | 79            | 72             | 42         |\n| Total  | 301           | 306            | 314        |\n|        |               |                |            |\n\n\\* Coil without mid-plane spacers with SS collar.\n\n## **SUMMARY**\n\nA 120-mm Nb3Sn quadrupole magnet with Al midplane spacers and Al collar was analyzed and compared to the traditional magnet designs. It was found that the design with the Al mid-plane spacers can operate at the nominal gradient up to 150 T/m with operation margin ~20%. The mechanical analysis, performed for various operating conditions, demonstrates that the maximum stresses in the coil can be limited to a safe value of 170 MPa at the gradient of 150 T/m. The quench protection analysis shows that it is possible to operate the described Nb3Sn quadrupoles with Al spacers at field gradients up to 150 T/m within the temperature limit of 370 K with quench heaters placed on the coil outer layer covering 60% of total coil turns.\n\nThe radiation and thermal analysis of IR quadrupole magnet with mid-plane spacers was performed and compared with the traditional quadrupole design. It was found that the Al mid-plane spacers reduce the peak power density and corresponding absorbed dose in the coil by almost a factor of two, which has a noticeable impact on the coil temperature margin and magnet lifetime. In addition, making the coil mid-plane more transparent to hadronic and electromagnetic showers has an extra benefit of redistributing the radiation heat deposition in the radial direction, improving the radial heat transfer in the quadrupole cold mass. The reduction of the total dynamic heat load on the cryogenic system is about 5%.\n\n## **REFERENCES**\n\n- [1] N. Mokhov et al., \"Energy Deposition Limits in a Nb3Sn Separation Dipole Placed in Front of the LHC High-Luminosity Inner Triplet\", Proc. of PAC2003, Portland, OR, p. 1733 (2003).\n- [2] R. Ostojic, \"LHC Interaction Region Upgrade Phase I\", LHC-PROJECT-REPORT-1094, August 2008.\n- [3] V. Baglin et al., \"Conceptual Design of the LHC Interaction Region Upgrade – Phase-I\", LHC-PROJECT-REPORT-1163, 12 November 2008.\n- [4] V.V. Kashikhin et al., \"Quench Margin Measurement in Nb3Sn Quadrupole Magnets\", IEEE Transactions on Applied Superconductivity, Vol. 19, Issue 3, June 2009, Page(s): 2454 – 2457.\n- [5] V.V. Kashikhin et al., \"Performance of Nb3Sn Quadrupole Magnets under Localized Thermal Load\", CEC/ICMC'2009, Tucson, AZ, 2009.\n- [6] N.V. Mokhov, http://www-ap.fnal.gov/MARS/.",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "120-MM SUPERCONDUCTING QUADRUPOLE FOR INTERACTION \nREGIONS OF HADRON COLLIDERS*",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              77.073974609375,
+              56.19342041015625
+            ],
+            [
+              520.4320678710938,
+              56.19342041015625
+            ],
+            [
+              520.4320678710938,
+              86.5594482421875
+            ],
+            [
+              77.073974609375,
+              86.5594482421875
+            ]
+          ]
+        },
+        {
+          "title": "Abstract",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              55.6728515625,
+              122.8814697265625
+            ],
+            [
+              100.34397888183594,
+              122.8814697265625
+            ],
+            [
+              100.34397888183594,
+              134.8814697265625
+            ],
+            [
+              55.6728515625,
+              134.8814697265625
+            ]
+          ]
+        },
+        {
+          "title": "INTRODUCTION",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              124.066650390625,
+              318.3914794921875
+            ],
+            [
+              224.4440155029297,
+              318.3914794921875
+            ],
+            [
+              224.4440155029297,
+              330.3914794921875
+            ],
+            [
+              124.066650390625,
+              330.3914794921875
+            ]
+          ]
+        },
+        {
+          "title": "QUADRUPOLE DESIGN",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              104.8355712890625,
+              631.7612609863281
+            ],
+            [
+              243.65000915527344,
+              631.7612609863281
+            ],
+            [
+              243.65000915527344,
+              643.7614593505859
+            ],
+            [
+              104.8355712890625,
+              643.7614593505859
+            ]
+          ]
+        },
+        {
+          "title": "QUADRUPOLE PARAMETERS",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              86.352783203125,
+              56.1414794921875
+            ],
+            [
+              260.854248046875,
+              56.1414794921875
+            ],
+            [
+              260.854248046875,
+              68.1414794921875
+            ],
+            [
+              86.352783203125,
+              68.1414794921875
+            ]
+          ]
+        },
+        {
+          "title": "COIL STRESS",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              382.75,
+              289.7114562988281
+            ],
+            [
+              461.84521484375,
+              289.7114562988281
+            ],
+            [
+              461.84521484375,
+              301.7114562988281
+            ],
+            [
+              382.75,
+              301.7114562988281
+            ]
+          ]
+        },
+        {
+          "title": "QUENCH PROTECTION",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              352.29541015625,
+              514.011474609375
+            ],
+            [
+              490.57958984375,
+              514.011474609375
+            ],
+            [
+              490.57958984375,
+              526.011474609375
+            ],
+            [
+              352.29541015625,
+              526.011474609375
+            ]
+          ]
+        },
+        {
+          "title": "RADIATION HEAT DEPOSITIONS",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              76.2508544921875,
+              252.1514892578125
+            ],
+            [
+              268.7861328125,
+              252.1514892578125
+            ],
+            [
+              268.7861328125,
+              264.1514892578125
+            ],
+            [
+              76.2508544921875,
+              264.1514892578125
+            ]
+          ]
+        },
+        {
+          "title": "SUMMARY",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              389.8299865722656,
+              155.8814697265625
+            ],
+            [
+              454.06298828125,
+              155.8814697265625
+            ],
+            [
+              454.06298828125,
+              167.8814697265625
+            ],
+            [
+              389.8299865722656,
+              167.8814697265625
+            ]
+          ]
+        },
+        {
+          "title": "REFERENCES",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              380.1318359375,
+              506.69146728515625
+            ],
+            [
+              462.7431640625,
+              506.69146728515625
+            ],
+            [
+              462.7431640625,
+              518.6914672851562
+            ],
+            [
+              380.1318359375,
+              518.6914672851562
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              193
+            ],
+            [
+              "Line",
+              87
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "SectionHeader",
+              4
+            ],
+            [
+              "Footnote",
+              2
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              445
+            ],
+            [
+              "Line",
+              115
+            ],
+            [
+              "TableCell",
+              54
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "Figure",
+              4
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "Table",
+              3
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              439
+            ],
+            [
+              "Line",
+              111
+            ],
+            [
+              "TableCell",
+              46
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "ListItem",
+              6
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "Table",
+              2
+            ],
+            [
+              "TableGroup",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/iPwXkl-gJPXo6rx7Z-GTdg"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 3,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "120-mm superconducting quadrupole for interaction regions of hadron colliders",
+    "authors": [
+      {
+        "authors_list": [
+          "Zlobin, A. V.",
+          "Kashikhin, V. V.",
+          "Mokhov, N. V.",
+          "Novitski, I."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Magnetic and mechanical designs of a Nb3Sn quadrupole magnet with 120-mm aperture suitable for interaction regions of hadron colliders are presented. The magnet is based on a two-layer shell-type coil and a cold iron yoke. Special spacers made of a low-Z material are implemented in the coil mid-planes to reduce the level of radiation heat deposition and radiation dose in the coil. The quadrupole mechanical structure is based on aluminum collars supported by an iron yoke and a stainless steel skin. Magnet parameters including maximum field gradient and field harmonics, Nb3Sn coil pre-stress and protection at the operating temperatures of 4.5 and 1.9 K are reported. The level and distribution of radiation heat deposition in the coil and other magnet components are discussed.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1202.0293"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.1202.0293",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2012arXiv1202.0293Z"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

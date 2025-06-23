@@ -1,0 +1,886 @@
+{
+  "id": "ebe2ed698515f3b1322ba97b7e67ab2a",
+  "pdf_path": "apl/Superconductors/arXiv:cond-mat_9911191.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# **Influence of Filamentary and Strand Aspect Ratios on AC Loss in Short, Untwisted Samples of HTSC and LTSC Superconducting Multifilamentary Composites**\n\nM.D. Sumption, E. Lee, and E.W. Collings LASM, MSE, The Ohio State University Columbus, OH 43210\n\nOct 7, 1999\n\n#### **Abstract**\n\nMeasurements of magnetization, *M*, vs. magnetic field strength, *H*, have been made on HTSC Bi:2223/Ag and LTSC NbTi/matrix multifilamentary tapes as a function of ramp rate. The integrated loss, *Qtot*, was extracted from these *M-H* loops which had a maximum field amplitude of 17 kOe and ramp rates, *dH/dt*, ranging from 20 Oe/s to 700 Oe/s. All measurements were taken at 4.2 K, with *H* directed normal and parallel, respectively, to the broad tape face. The samples were from 0.5 to 1.5 cm in length, and untwisted. The expressions needed to properly extract effective transverse matrix resistivities, *r^*, are discussed and applied. In general these expressions indicate that transverse loss in untwisted strands grows linearly with the aspect ratio, in contrast to that in twisted strands, whose losses grow with the square of the aspect ratio. With low aspect-ratio LTSC tapes our equations gave the expected values of *r^*. However, departures from the expected *r^* emerged with further flattening of the strands as the filamentary array itself became sparse and highly aspected, and the filaments themselves became flattened. A model attributing the anomalous *r^*. to the effects of these features is proposed.\n\n**Key words:** Bi:2223/Ag, flat multifilamentary tape, AC loss, effective matrix resistivity\n\n#### **Introduction**\n\nThe general expressions for AC loss in twisted multifilamentary composites is well known, having been calculated by Carr<sup>1</sup> , and several others<sup>2</sup> . Carr's extensive work was a detailed examination of loss in mostly round strands, using an anisotropic-continuum-type calculation. He also calculated the loss for twisted aspected strands<sup>3</sup> , as well as untwisted round strands<sup>4</sup> . With the advent of HTSC, Kwasnitza and Clerc adapted expressions for Rutherford-type cables to describe losses in flattened strands<sup>5</sup> , obtaining results similar to those of Carr.\n\nAlthough equipment for AC loss measurement in long samples is available, it is common for AC loss to be measured on short, straight samples, either untwisted or with just a few twists. The present paper focusses on this type of measurement. As for the presentation of AC loss results, while the loss data themselves are useful for strand-to-strand intercomparison, it is more meaningful and generally useful to parameterize loss quantitatively in terms of an intrinsic property of the strand, in particular its effective transverse matrix resistivity, *r^*. To enable a *r^* to be calculated exact equations are needed. In what follows we discuss the present status of such equations as they apply to twisted and untwisted round and flattened strands and apply the appropriate ones to our experimental results on highly aspected untwisted strands. We then go on to demonstrate some significant departures from theory, and offer a model to explain them in terms of filamentary array- and filament aspect ratios, and filamentary array number density.\n\n#### **Theory: Strand Aspect Ratio**\n\nOur analysis begins with the Carr \"anisotropic-continuum\" expression<sup>1</sup> for the AC loss in a *round* twisted MF strand exposed to a transverse sinusoidal magnetic field of amplitude *Hm* and frequency *f*, viz:\n\n$$\\mathcal{Q}\\_{\\varepsilon} = \\frac{L\\_p^2}{2\\varkappa 10^9 \\text{ r}\\_{\\perp}} H\\_m^2 f \\tag{1}$$\n\nin c.g.s units (or SI units with removal of the factor 109). Here *Qe* is the eddy current coupling loss, which when added to the filamentary hysteretic loss gives the total loss, *Qtot* and *r^* is the effective matrix resistivity which we seek in parameterizing our loss results. A somewhat different approach was adopted by Campbell<sup>2</sup> , who found that for *twisted* aspected strands (aspect ratio *a/b*, sinusoidal *H* perpendicular to *a*) *Qe* can be described by\n\n$$Q\\_c = 2n \\frac{\\mathbf{p}^2}{10^9} H\\_m^2 f \\text{ ft} \\tag{2}$$\n\nwhich clearly represents *Qe* as the product of an external shape factor, *n* (which is a function of the demagnetization), and a relaxation factor , *t.* This single expression describes the *Qe* of several strand types: (i) *round twisted* with *n* = 2 and *t = L<sup>p</sup> 2 /r^(1/8p 2* ), (ii) *a » b twisted* with *n* = *a/b* and *t* = *L<sup>p</sup> 2 /r^(a/b)*(7/480), (iii) *a « b twisted* with *n* = 1 and *t = L<sup>p</sup> 2 /r^(a/b) 2* (1/16).\n\nNote that for the round twisted case, Campbell and Carr agree exactly (indicating the presence in Eqn. (1) of an *implicit n* = 2 factor, as would be expected). Otherwise, apart from some more-or-less small prefactor differences, Campbell's expressions are similar to those of Carr (above) and Kwasnitza and Clerk<sup>5</sup> in the appropriate *a/b* limit. Corrected for wave shape (sinusoidal, triangular) they are generally valid for both flat strands and cables (e.g. Takács<sup>6</sup> , flat cable). It is important to re-emphasize that the significance of the Campbell approach lies in the separability of *Qe* into contributions from (i) external-shape (via the demagnetization-associated shape factor, *n* = 1/(1 - *N*)) and (ii) internal structure. i.e. materials properties/strand design (via *t*, which embodies *r^, Lp*, and also *a/b*).\n\n*Eddy current loss in untwisted strands:* Carr's basic expression for round untwisted strands<sup>4</sup> of length *L* is the same as (1) except for a prefactor 0.81 and the replacement of *Lp* by 2*L*. With *n* no longer implicit the Carr expression becomes:\n\n$$\\mathcal{Q}\\_e = \\frac{0.8I}{4} \\text{tr} \\frac{L^2}{10^9 \\text{ r}\\_\\perp} \\text{H}\\_m(\\text{dH/dt}) \\tag{3}$$\n\nwhere a conversion from sinusoidal frequency to field ramp rate *dH/dt* was achieved using 4*Hmf* = *dH/dt*. It can easily be shown that for untwisted strands of any aspect ratio the kernel of Eqn. (3) remains unchanged, which implies an untwisted *t* that is independent of *a/b*. Equation (3) thus represents an extension of Campbell's Eqn. (2) into the realm of untwisted strands.\n\nDerived in this way, Eqn. (3) then represents the loss of an untwisted, aspected strand, treated as an anisotropic continuum. As such it should be directly applicable to flat densely filamented NbTi/CuMn tapes. We demonstrate that it is for additional clarity and to prove the correctness the expression. However, in order to treat the case of HTSC/Ag stapes, it is necessary to account for the unusual filamentary structure characteristic of these new materials, viz. filament aspect ratio and filament-array coarseness. The need for this is demonstrated by the results of experiments also performed on NbTi/Cu tapes, but his time with a relatively low number density of filaments and over a wide range of aspect ratios. The way that these factors influence enter into the volume-averaged *Qe* and hence *r^* is described in terms of the following heuristic model.\n\n#### **Theory: Filamentary Aspect Ratio and Array Structure**\n\nWhile Eqn (3) accounts for the external aspect ratio of the strands, the internal configurations must be accounted for. In order to graphically demonstrate the influence that filamentary array structure and coarseness can have, consider the three strand configurations in *Figure* 1. All of these configurations have the same superconductor to total fraction, *l*. However, the distribution of the superconducting regions is quite different in the three cases. In the \"z-stack\" arrangement of *Figure* 1 (a) and for fields applied faceon (FO) to the strand (perpendicular to the wide side of the tape) the emf loops are generated and the resulting eddy currents flow in planes which are either entirely superconducting or entirely non-superconducting. This leads to the absence of any real \"coupling\" currents. The only significant loss is the hysteretic filamentary contribution.\n\nIn *Figures* 1 (b) and 1 (c), the superconducting regions are discontinuous and arranged in distinctly different patterns. In these cases, there are regions where emf loops cut across both superconducting and non-superconducting regions. This allows for the creations of eddy current coupling loops. Qualitatively, we expect for the losses to follow the standard expressions when the filament number densities are high, but for the *eddy current portion* of the losses to tend to zero as the filaments become larger and the array coarser. It must be noted at this point that such modifications are expected to be much weaker for twisted strands, since then the current paths tend to circulate on the outside of the filamentary array at low *dH/dt* values, only crossing the strand near its center<sup>1</sup> . However, it could be expected that for strands with resistive ribbons on the inside, the current paths will again resemble those of untwisted strands, and the loss reduction factors will be similar to those of untwisted strands.\n\n### **Experimental**\n\n*Strand Materials:* Three different types of multifilamentary superconducting materials were used: (a) Fine-array NbTi/CuMn strands (NB5000) (b) coarse-array NbTi/Cu strands (NB54), and (c) Bi:2223/Ag strands (BI) of various designs. These strand types and the conditions for which they were prepared for measurement are described in Tables 1-4.\n\nNB5000 was an experimental NbTi strand which employed a CuMn matrix for proximity effect suppression and had a circular (fully filamentary) array, manufactured by Supercon. The NB5000 sample set was prepared at the Ohio State University (OSU) to several aspect ratios by rolling, pressing, or filing. The NB54 set was prepared by rolling at OSU. This entire series was vacuum annealed for 8h/400<sup>o</sup>C in order to remove the effects on the matrix resistivity of cold deformation. This precaution was not taken in preparing the NB5000 set since the deformation range was smaller and the matrix was a resistive alloy, Cu-0.6at.%Mn.\n\nThe Bi:2223/Ag sample set was prepared and delivered to us by the University of Wollongong. Sample BI19 was provided in both round and aspected forms, while BI36, BI36R, and BI9 were provided only as tapes.\n\n*Measurement:* Measurements of magnetization vs. magnetic field strength, hence the area (total AC loss, *Qtot*) and height Δ*M(H*) of the hysteresis loop, *M*(*H*), were made using a vibrating sample magnetometer. All measurements were made at 4.2 K with the timevarying field, *H*(*t*), applied either parallel (EO) or perpendicular (FO) to the strand's broad face The waveform of *H*(*t*) was triangular, with an amplitude (*Hm*) of 17 kOe, and a ramp rate, *dH*/*dt*, of 20 to 700 Oe/s. Additionally, four point resistivity ratio, RR, measurements were made on samples of BI36 and NB54. In the case of BI36, the measurements were made on a length of Ag sheath removed from a length of the original monocore after it had been annealed in air for 24h/800<sup>o</sup>C.\n\n#### **Results**\n\nThe Eq. (3) prediction has been confirmed for the NB5000 set. The dependence of *Qe* on aspect ratio (*n*, or *a/b*) is illustrated in Figure 2, and the corresponding *r^*s are presented in Table 5. Clearly by properly taking the aspect ratio into account, the correct *r^* can always be obtained. A tendency for loss to increase with increasing aspect ratio is also seen for samples NB54 in Figure 3. Here, however, the rate of increase is slower than expected, leading to a spectacular increase in *r^* with *a/b* as illustrated in Figure 4. For round strands, the extracted value of *r^* is about 6 nΩcm (only about twice the expected value of 3 nΩ based on a *RR* (4.2K) of 500, extrapolated from the direct four point resistivity measurements discussed above) and hence could be regarded as \"normal\". But, as aspect ratio increases, the calculated *r^* increases rapidly following the heuristic model based on the filamentary array geometry described above.\n\nValues of *r^* were also obtained for the HTSC tapes, Table 6. It is of course much more difficult experimentally to obtain a large, uniform data set for BI-type strands. However, it can be generally seen that for the round BI sample, *r^* is close to expectation, but for the more aspected samples, with very flattened filaments, Eqn. (3) leads to a series of *r^* values that can be an order of magnitude larger than this.\n\nWe note in passing that in MF HTSC/Ag strands the *dH/dt* dependence of Δ*M(H)* is influenced by logarithmic and exponential decay of the intrafilamentary critical state and by the strand's exponential eddy current decay. In previous papers we have considered these dynamic magnetization signatures in detail and have defined two approaches to identifying the regimes of true eddy current decay8,10. These effects were found to be negligible<sup>9</sup> for these wires at 4.2 K.\n\n#### **Discussion**\n\nIn interpreting these results, we wish to make clear that it is not the actual matrix resistivity that becomes enhanced in these untwisted, aspected strands with coarse arrays and aspected filaments. Rather, *r^* is taken as a useful measure of the *loss* of the strand that can be expected for a given *L* and *dH/dt*, and this loss is suppressed because the volume through which the eddy currents are flowing are reduced by the character of the filamentary array (in conjunction with the current paths associated with the lack of twist). It would be fair to describe this as a \"volume normalization effect\", as long as it is recognized that this volume is an intensive property of the array and its associated current paths (for this untwisted case).\n\nBoth the (linear) proportionality of loss to *n* or *a/b* in aspected fine-array strands, and the increase in *r^* for coarse-array strands are associated with the untwisted nature of the samples in this paper. That in itself is useful for interpreting the results of short sample AC loss measurements. However, we note that the expected current paths for twisted strands with resistive barriers, if we may make an analogy to superconducting Rutherford cables<sup>6</sup> , is similar to the current paths for untwisted strands. For this reason we may expect a very significant loss suppression for these types of strands, even above that which would be expected for fine-array strands.\n\n#### **Summary and Conclusions**\n\nWe have shown that for twisted MF strands, *Qe* is described by a treatment in which the loss expression is separable into two factors: (i) a demagnetization-associated shape-factor, *n*, equal to the strand's aspect ratio, *a/b*, and (ii) an intrastrand \"materials/design relaxation factor\", *t*, that embodies *r^*, *L*, and the again *a/b* to the extent that it modifies the eddy current paths. For a coarse array, however, the loss of untwisted strands does not increase as rapidly as anticipated by this expression. This has been demonstrated by measurements both on NbTi/Cu matrix strands with low numbers of filaments as well as on Bi:2223/Ag strands with small filament numbers. The anomalously high *r^* is attributed to the influence of the flattened filament array as well as filamentary array coarseness on the transverse current paths. This effect is expected to be much smaller for twisted strands, expect for the case of twisted strands with large interstrand barriers.\n\n#### **Acknowledgements**\n\nWe thank S.X. Dou and N.V. Vo of the University of Wollongong for the HTSC samples, and E. Gregory (IGC Advanced Superconductors) for the strand NB54. The research was supported by the Electric Power Research Institute under Agreement No. WO 9006-06 and the U.S. Department of Energy, Division of High Energy Physics, under Grant No. DE-FG02-95ER40900.\n\n## **References**\n\n- 1. W.J. Carr *AC loss and Macroscopic Theory of Superconductors*. Gordon and Breach, 1983 London.\n- 2. A.M. Campbell, Cryogenics 22 (1982) 3-16.\n- 3. J.H. Murphy, W.J. Carr, M.S. Walker, and P.D. Vecchio, Adv. Cryo. Eng. (Materials) 22 (1977) 420-427.\n- 4. W.J. Carr, Jr., Adv. Cryo. Eng. (Materials) 28 (1982) 581.\n- 5. K. Kwasnitza , St.Clerc, Physica C 233 (1994) 423-435.\n- 6. S. Takacs, IEEE Trans Magnetics 27 (1991) 2206-2209.\n- 7. W.J. Carr, private communication 1997.\n- 8. M.D. Sumption and E.W. Collings, presented at the ISS 1998.\n- 9. M.D. Sumption E.W. Collings N.V. Vo, S.X. Dou, In: Haruyama T, Mitsui T, Yamafuji K (eds) Proc. ICEC16/ICMC, (1997) Part 3. Elsevier Science, pp. 1609- 1612.\n- 10. M.D. Sumption N.V. Vo, S.X. Dou, E.W. Collings in: Zhou L., Weber H.W., Collings E.W. (eds) *Critical Currents in Superconductors for Practical Applications*. World Scientific (1998), Singapore, pp. 28-31.\n\n#### **List of Tables**\n\n- Table 1. Strand Material Specifications\n- Table 2. NbTi/CuMn 5000 filament samples\n- Table 3. NbTi/Cu 54 Filament Samples (Rolled)\n- Table 4. Bi:2223/Ag 36 and Filament Samples (as received)\n- Table 5. Loss-computed matrix resistivities for Nb5000/CuMn\n| Strand Material               | NB5000      | NB54          | BI36       | BI36R      | BI19       | BI9        |\n|-------------------------------|-------------|---------------|------------|------------|------------|------------|\n| Number of Filaments           | 5355        | 54            | 36         | 36         | 19         | 9          |\n| Matrix Material               | Cu-0.6At Mn | Cu            | Ag         | Ag1        | Ag         | Ag         |\n| Strand Diameter, ds<br>, mm   | 2.58        | 2.32          | 4.0 x 0.28 | 3.0 x 0.32 | 2.03       | 3.0 x 0.24 |\n| Bundle Diameter               | 1.69        | 0.118 (0.044) | 3.6 x 0.17 | 2.6 x 0.18 | 1.50       | 2.6 x 0.16 |\n| Array Geometry                | Fully Fil.  | Annular Array | Fully Fil. | Fully Fil. | Fully Fil. | Fully Fil. |\n| , μm<br>Filament Diameter, df | 1.90        | 95.18         | 370 x 8    | 280 x 20   | 173.79     | 710 x 17   |\n| Array Filling Factor, lloc    | 0.675       | 0.7262        | 0.34       | 0.34       | 0.356      | 0.34       |\n| Overall Filling Factor, ltot  | 0.402       | 0.180         | 0.218      | 0.218      | 0.194      | 0.245      |\n\nTable 1. Strand Material Specifications\n\n<sup>1</sup>The outer shell of this sample was sterling silver\n\n<sup>2</sup>Within the annular array. If we include the center in the matrix area, then *lloc* becomes 0.704.\n\n| Sample    | Aspecting | Aspect   | Aspect  | Aspect Ratio | Strand       | Length, L, | Fil. Array |\n|-----------|-----------|----------|---------|--------------|--------------|------------|------------|\n| Name      | Method    | Ratio    | Ratio   | (Filament)   | w x t, mm    | cm         | Volume,    |\n|           |           | (Strand) | (Array) |              |              |            | 10-3 cm3   |\n| NB5000-1  | None      | 1        | 1       | 1            | 2.58         | 1.335      | 41.6       |\n| NB5000-3  | Filing    | 4.13     | 3       | 1            | 2.58 x 0.625 | 1.077      | 10.35      |\n| NB5000-7  | Pressing  | 5.20     | 6.85    | 1-21         | 5.04 x .97   | 1.563      | 45.4       |\n| NB5000-12 | Rolling   | 10.2     | 12.35   | 3-161        | 5.10 x 0.50  | 1.503      | 21.60      |\n| NB5000-15 | Rolling   | 12.29    | 15      | --           | 6.03 x 0.49  | 1.096      | 77.14      |\n|           |           |          |         |              |              |            |            |\n\nTable 2. NbTi/CuMn 5000 Filament Samples\n\n1 Irregular.\n\n| Sample   | Aspect Ratio | Aspect Ratio | Aspect Ratio | Strand       | Length, L, | Fil. Array   |\n|----------|--------------|--------------|--------------|--------------|------------|--------------|\n| Name     | (Strand)     | (Array)      | (filament)   | w x t, mm    | cm         | Volume1<br>, |\n|          |              |              |              |              |            | 10-3 cm3     |\n| NB54-1   | 1            | 1            | 1            | 2.32 x 2.32  | 1.569      | 16.91        |\n| NB54-1.5 | 1.3          | 1.53         | 1.18         | 2.51 x 1.93  | 1.5105     | 18.66        |\n| NB54-2   | 1.64         | 1.97         | 1.01         | 2.76 x 1.68  | 1.561      | 18.46        |\n| NB54-2.5 | 1.92         | 2.34         | 1.03         | 2.94 x 1.52  | 1.543      | 17.58        |\n| NB54-3.  | 2.88         | 3.34         | 1.37         | 3.46 x 1.20  | 1.527      | 16.17        |\n|          |              |              |              |              |            |              |\n| NB54-6   | 5.23         | 6.2          | 1.45         | 4.24 x 0.81  | 1.525      | 13.36        |\n| NB54-13  | 11.4         | 13.15        | 2.08         | 5.15 x 0.45  | 1.509      | 17.82        |\n| NB54-17  | 12.55        | 16.67        | 2.00         | 5.52 x 0.44  | 1.508      | 18.67        |\n| NB54-22  | 23.6         | 21.33        | 2.66         | 6.61 x 0.28  | 1.493      | 21.11        |\n| NB54-30  | 32.4         | 29.5         | 2.76         | 6.00 x 0.185 | 1.512      | 12.85        |\n\nTable 3. NbTi/Cu 54 Filament Samples (Rolled)\n\n1 In this case the volume of the center hole in the annulus is counted in this number.\n\n| Sample Name | Aspect Ratio<br>(Strand) | Aspect Ratio<br>(Array) | Aspect Ratio<br>(Filament) | Strand<br>w x t, mm | Length,<br>L, cm | Fil. Array<br>Volume,<br>10-3 cm3 |\n|-------------|--------------------------|-------------------------|----------------------------|---------------------|------------------|-----------------------------------|\n| BI36-21     | 14.3                     | 21.2                    | 46                         | 4.0 x 0.28          | 1.48             | 10.9                              |\n| BI9-16      | 12.5                     | 16.13                   | 48                         | 3.0 x 0.24          | 1.52             | 7.89                              |\n| BI36R-15    | 9.4                      | 15                      | 14                         | 3.0 x 0.32          | 1.54             | 8.37                              |\n| BI36-AL-11  | 7.2                      | 10.6                    | 23                         | 2.0 x 0.28          | 0.70             | 5.02                              |\n|             |                          |                         |                            |                     |                  |                                   |\n| BI19-1      | 1                        | 1                       | 1<br>1                     | 2.03                | 1.306            | 22.99                             |\n| BI19-7      | 5.8                      | 7.45                    | 10.79                      | 3.02 x 0.52         | 1.330            | 11.39                             |\n| BI19-13     | 10.3                     | 13.23                   | 12.69                      | 3.09 x 0.30         | 1.235            | 6.24                              |\n| BI19-19     | 16.15                    | 18.72                   | 15.2                       | 3.23 x 0.20         | 1.340            | 4.72                              |\n| 1           |                          |                         |                            |                     |                  |                                   |\n\nTable 4. Bi:2223/Ag 36 and Filament Samples (as received)\n\nIrregular\n\nTable 5. Loss-computed matrix resistivities for Nb5000/CuMn\n\n| Sample name | Fil. Array<br>aspect ratio, a/b | EO (dt/dH)(Q/L2<br>) s<br>erg/Oe cm5<br>FRV2 | EO-derived<br>r^, 10-7 Ωcm | FO (dt/dH)(Q/L2<br>) s<br>erg/Oe cm5<br>FRV2 | FO-derived<br>r^, 10-7<br>Ωcm |\n|-------------|---------------------------------|----------------------------------------------|----------------------------|----------------------------------------------|-------------------------------|\n| NB5000-1    | 1                               | 21.5                                         | 3.2                        | 21.5                                         | 3.2                           |\n| NB5000-3    | 3                               | 14.113                                       | 2.4                        | 47.6                                         | 2.2                           |\n| NB5000-7    | 6.85                            | 14.6                                         | 2.3                        | 57.2                                         | 4.0                           |\n| NB5000-12   | 12.35                           | 20.7                                         | 1.7                        | 76.1                                         | 5.6                           |\n| NB5000-15   | 15                              | --                                           | --                         | 110                                          | 4.7                           |\n\n1 Round model ρ⊥ for 0.2 mm diam. strand is 3.2 x 10-7 Ωcm from earlier measurements.\n\n2 Filamentary region volume. 3\n\nFilamentary region to total strand volume is 0.73 for this sample, because it is filed.\n\n| Sample name | FO (dt/dH)(Q/L2<br>) s<br>erg/Oe cm5<br>FRV4 | Array aspect<br>ratio, a/b | Expected1<br>r^,<br>nρcm | FO-derived2<br>r^ nΩcm |\n|-------------|----------------------------------------------|----------------------------|--------------------------|------------------------|\n| BI36-21     | 1670                                         | 21.2                       | 8.49                     | 445                    |\n| BI9-16      | 819                                          | 16.1                       | 8.49                     | 68                     |\n| BI36R-15    | 595                                          | 15.0                       | 8.49                     | 87                     |\n| BI36-AL-11  | 426                                          | 10.6                       | 8.49                     | 86                     |\n| BI19-1      | 276                                          | 1                          | 8.49                     | 25.0                   |\n| BI19-7      | 539                                          | 7.45                       | 8.49                     | 47.6                   |\n| BI-19-13    | 495                                          | 13.2                       | 8.49                     | 92.0                   |\n| BI19-19     | 540                                          | 18.7                       | 8.49                     | 119                    |\n\nTable 6. Loss-computed transverse resistivities for BI Strands\n\n1 Expected *r^* = [(1+*l*)/(1*-l)]rAg,bulk*, where the filling factor *l* = 0.34\n\n2 Derived using Equation (3) with *n* = *a/b*\n\n3 Resistive sterling-silver shell\n\n4 Filamentary Region Volume\n\n<sup>5</sup> These values differ from those in Ref 8 because here we have used filamentary array aspect ratios, rather than gross strand aspect ratios.\n\n## **List of Figures**\n\n- Figure 1. Various internal array geometries; (top) z-stack, (center) interpenetrating, and (bottom) non-interpenetrating.\n- Figure 2. *Qe/L*<sup>2</sup> vs *dH/dt* for NB5000 samples.\n- Figure 3. *Qe/L<sup>2</sup>* vs *dH/dt* for NB54 samples.\n- Figure 4. Resistivity vs shape factor for NB54 samples.\n\n![](0__page_10_Figure_0.jpeg)\n\n![](0__page_10_Figure_1.jpeg)\n\nFigure 1. Various internal array geometries; (top) z-stack, (center) interpenetrating, and (bottom) non-interpenetrating.\n\n![](0__page_11_Figure_0.jpeg)\n\nFigure 2. *Qe/L<sup>2</sup>* vs *dH/dt* for NB5000 samples.\n\n![](0__page_12_Figure_0.jpeg)\n\nFigure 3. *Qe/L<sup>2</sup>* vs *dH/dt* for NB54 samples\n\n![](0__page_13_Figure_0.jpeg)\n\nFigure 4. Resistivity vs shape factor for NB54 samples",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Influence of Filamentary and Strand Aspect Ratios on AC\nLoss in Short, Untwisted Samples of HTSC and LTSC\nSuperconducting Multifilamentary Composites",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              157.1999969482422,
+              85.1856689453125
+            ],
+            [
+              456.01171875,
+              85.1856689453125
+            ],
+            [
+              456.01171875,
+              124.78564453125
+            ],
+            [
+              157.1999969482422,
+              124.78564453125
+            ]
+          ]
+        },
+        {
+          "title": "Abstract",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              90.0,
+              305.985595703125
+            ],
+            [
+              135.44384765625,
+              305.985595703125
+            ],
+            [
+              135.44384765625,
+              317.985595703125
+            ],
+            [
+              90.0,
+              317.985595703125
+            ]
+          ]
+        },
+        {
+          "title": "Introduction",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              89.4990234375,
+              73.6656494140625
+            ],
+            [
+              155.2849884033203,
+              73.6656494140625
+            ],
+            [
+              155.2849884033203,
+              85.6656494140625
+            ],
+            [
+              89.4990234375,
+              85.6656494140625
+            ]
+          ]
+        },
+        {
+          "title": "Theory: Strand Aspect Ratio",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              89.2001953125,
+              389.7454833984375
+            ],
+            [
+              238.56491088867188,
+              389.7454833984375
+            ],
+            [
+              238.56491088867188,
+              401.7454833984375
+            ],
+            [
+              89.2001953125,
+              401.7454833984375
+            ]
+          ]
+        },
+        {
+          "title": "Theory: Filamentary Aspect Ratio and Array Structure",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              89.05078125,
+              547.4255981445312
+            ],
+            [
+              374.9052429199219,
+              547.4255981445312
+            ],
+            [
+              374.9052429199219,
+              559.4255981445312
+            ],
+            [
+              89.05078125,
+              559.4255981445312
+            ]
+          ]
+        },
+        {
+          "title": "Experimental",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              89.42431640625,
+              264.515625
+            ],
+            [
+              160.3212890625,
+              264.515625
+            ],
+            [
+              160.3212890625,
+              276.70550537109375
+            ],
+            [
+              89.42431640625,
+              276.70550537109375
+            ]
+          ]
+        },
+        {
+          "title": "Results",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              90.0,
+              73.6656494140625
+            ],
+            [
+              126.80760192871094,
+              73.6656494140625
+            ],
+            [
+              126.80760192871094,
+              85.6656494140625
+            ],
+            [
+              90.0,
+              85.6656494140625
+            ]
+          ]
+        },
+        {
+          "title": "Discussion",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              89.42431640625,
+              437.0257263183594
+            ],
+            [
+              143.78524780273438,
+              437.0257263183594
+            ],
+            [
+              143.78524780273438,
+              449.0257263183594
+            ],
+            [
+              89.42431640625,
+              449.0257263183594
+            ]
+          ]
+        },
+        {
+          "title": "Summary and Conclusions",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              90.0,
+              73.6656494140625
+            ],
+            [
+              227.78396606445312,
+              73.6656494140625
+            ],
+            [
+              227.78396606445312,
+              85.6656494140625
+            ],
+            [
+              90.0,
+              85.6656494140625
+            ]
+          ]
+        },
+        {
+          "title": "Acknowledgements",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              89.4990234375,
+              296.38555908203125
+            ],
+            [
+              189.3076171875,
+              296.38555908203125
+            ],
+            [
+              189.3076171875,
+              308.38555908203125
+            ],
+            [
+              89.4990234375,
+              308.38555908203125
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              90.0,
+              419.9765625
+            ],
+            [
+              146.724609375,
+              419.9765625
+            ],
+            [
+              146.724609375,
+              432.4655456542969
+            ],
+            [
+              90.0,
+              432.4655456542969
+            ]
+          ]
+        },
+        {
+          "title": "List of Tables",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              271.44000244140625,
+              73.6656494140625
+            ],
+            [
+              340.4139709472656,
+              73.6656494140625
+            ],
+            [
+              340.4139709472656,
+              85.6656494140625
+            ],
+            [
+              271.44000244140625,
+              85.6656494140625
+            ]
+          ]
+        },
+        {
+          "title": "List of Figures",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              268.7958984375,
+              115.1856689453125
+            ],
+            [
+              343.353515625,
+              115.1856689453125
+            ],
+            [
+              343.353515625,
+              127.423828125
+            ],
+            [
+              268.7958984375,
+              127.423828125
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              70
+            ],
+            [
+              "Line",
+              23
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              243
+            ],
+            [
+              "Line",
+              71
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Equation",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              170
+            ],
+            [
+              "Line",
+              52
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              116
+            ],
+            [
+              "Line",
+              40
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              149
+            ],
+            [
+              "Line",
+              44
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              114
+            ],
+            [
+              "Line",
+              37
+            ],
+            [
+              "ListItem",
+              10
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              13
+            ],
+            [
+              "Line",
+              7
+            ],
+            [
+              "ListItem",
+              5
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              474
+            ],
+            [
+              "TableCell",
+              255
+            ],
+            [
+              "Line",
+              74
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "Table",
+              3
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "TableGroup",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              441
+            ],
+            [
+              "TableCell",
+              158
+            ],
+            [
+              "Line",
+              107
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "Table",
+              3
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "TableGroup",
+              3
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              29
+            ],
+            [
+              "Line",
+              9
+            ],
+            [
+              "ListItem",
+              4
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "TableCell",
+              6
+            ],
+            [
+              "Span",
+              5
+            ],
+            [
+              "Line",
+              3
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              60
+            ],
+            [
+              "Line",
+              25
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 12,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              92
+            ],
+            [
+              "Line",
+              41
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 13,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              51
+            ],
+            [
+              "Line",
+              20
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 14,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "AC loss and contact resistance in copper-stabilized Nb/sub 3/Al Rutherford cables with and without a stainless steel core",
+    "authors": [
+      {
+        "authors_list": [
+          "Sumption, M. D.",
+          "Scanlan, R. M.",
+          "Nijhuis, A.",
+          "Collings, E. W."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Calorimetric measurements of AC loss and hence interstrand contact resistance (ICR), were measured on three samples of Rutherford cable wound with Cu-stabilized jelly-roll type unplated Nb3Al strand. One of the cable types was furnished with a thin core of AISI 316L stainless steel and the other two were both uncored but insulated in different ways. The cables were subjected to a room-temperature-applied uniaxial pressure of 12 MPa that was maintained during the reaction heat treatment (RHT), then vacuum impregnated with CTD 101 epoxy, and repressurized to 100 MPa during AC-loss measurement. The measurements were performed at 4.2 K in a sinusoidal field of amplitude 400 mT at frequencies of 1 to 90 mHz (no DC-bias field) that was applied both perpendicular and parallel to the face of the cable (the face-on, FO, and edge-on, EO, directions, respectively). For the cored cable the FO-measured effective ICR (FO-ICR), was 5.27 &#61549;&#61527;. Those for the uncored cables were less than 0.08 &#61549;&#61527;. As shown previously for NbTi- and Nb3Sn-based Rutherford cables, the FO-ICR can be significantly increased by the insertion of a core, although in this case it is still below the range recommended for accelerator-magnet use. Post-measurement dissection of one of the cables showed that the impregnating resin had permeated between the strands and coated the core with a thin, insulating layer excepting for some sintered points of contact. In the uncored cables the strands were coated with resin except for the points of interstrand contact. It is suggested that in the latter case this tendency for partial coating leads to a processing-sensitive FO-ICR.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "IEEE Transactions on Applied Superconductivity",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:cond-mat/9911191"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1109/77.828448",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2000ITAS...10.1196S"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

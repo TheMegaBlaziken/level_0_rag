@@ -1,0 +1,882 @@
+{
+  "id": "5b47f3f4bd930563c1b5fbb31e89088f",
+  "pdf_path": "apl/Superconductors/arXiv:2203.16235.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# Comparative studies on unconventional superconductivity in Cr3Ru compounds with bcc and A15 structures\n\nZhengyan Zhu, Ying-Jie Zhang, Yiwen Li, Qing Li,[∗](#page-0-0) Wen Duan, and Hai-Hu Wen[†](#page-0-1)\n\nNational Laboratory of Solid State Microstructures and Department of Physics,\n\nCollaborative Innovation Center for Advanced Microstructures, Nanjing University, Nanjing 210093, China\n\n(Dated: March 31, 2022)\n\nChromium (Cr) is a transition metal element with 3d orbital electrons. In most compounds containing Cr, due to the correlation effect, twofold features of localization and itinerancy are expected. The localization gives rise to a magnetic moment, while the latter exhibits as the effective coherent weight for conductivity. Here we report the physical properties of Cr3Ru compounds with bcc or A15 structures by using multiple experimental tools. The resistivity measurements show sharp superconducting transitions at T<sup>c</sup> = 2.77 K and T<sup>c</sup> = 3.37 K for the bcc and A15 structures, respectively. A high residual resistivity exists for both samples with the mean-free-path in the scale of about 2 nm. Magnetization measurements also show rather narrow transitions, with a clear hump structure at high temperatures (T<sup>c</sup> ≤ T ≤ 300 K), which may be ascribed to the remaining antiferromagnetic spin fluctuations. A pronounced second peak effect has been observed in magnetization hysteresis loops in the superconducting state only for samples with bcc structure. The specific heat coefficient reveals a clear jump at Tc. We find that s-wave gaps can be adopted to fit the low temperature specific heat data of both samples yielding ratios of about 2∆/kBT<sup>c</sup> ≈ 3.6, indicating a moderate pairing strength. Interestingly, the Wilson ratios R<sup>W</sup> = Aχ0/γ<sup>n</sup> are 3.81 and 3.62 for the bcc and A15 phases, suggesting a moderate correlation effect of conducting electron in the normal state. Besides, for samples with A15 structure, another specific heat anomaly occurs at about 0.85 K and is sensitive to magnetic fields. By applying high pressures, both system will exhibit an enhancement of T<sup>c</sup> with a rate of about 0.019 K/GPa and 0.013 K/GPa for the bcc and A15 phases, respectively. We also conduct tunneling spectrum measurements on these samples, and found that the coherence peaks are strongly smeared out with a gap in the scale of about 0.3 ∼ 0.5 meV. The strong suppression to the coherence peaks may be ascribed to the strong scattering seen from the resistivity measurements. Our combinatory results point to an unconventional superconductivity in these Cr based compounds.\n\n## I. INTRODUCTION\n\nCuprates [\\[1](#page-10-0)] and iron-based superconductors [\\[2\\]](#page-10-1), as unconventional superconductors with high critical temperatures (Tc), all have strongly correlated 3d electrons. The relationship between unconventional superconductivity and strong correlation effect of 3d electrons with magnetic interactions and spin fluctuations has aroused great interest in the past decades. In recent years, lots of research have been conducted on unconventional superconductivity in other materials which contain 3d transition-metal elements [\\[3](#page-10-2)[–9\\]](#page-10-3). Chromium is a kind of 3d transition-metal elements, and the ionic state of Cr has a strong magnetic moment. Thus Cr-based superconducting compounds may have rich and novel electronic behavior. For compounds containing 3d transition-metal chromium, many works have been carried out based on a class of CrAs-based superconductors. CrAs itself is an antiferromagnet with T<sup>N</sup> at about 270 ± 10 K [\\[10\\]](#page-10-4). When applying a pressure of about 0.8 GPa, CrAs exhibits superconductivity with a T<sup>c</sup> of about 2 K [\\[11\\]](#page-10-5). Then a big family of CrAs-based superconductors with a quasi-one-dimensional (Q1D) crystal structure was discovered. There are two kinds of materials, one kind is A2Cr3As<sup>3</sup> (A = alkali metal), including Na2Cr3As<sup>3</sup> (T<sup>c</sup> ≈ 8.6 K) [\\[12](#page-10-6)], K2Cr3As<sup>3</sup> (T<sup>c</sup> ≈ 6.1 K) [\\[13\\]](#page-10-7), Rb2Cr3As<sup>3</sup> (T<sup>c</sup> ≈ 4.8 K) [\\[14](#page-10-8)], and Cs2Cr3As<sup>3</sup> (T<sup>c</sup> ≈ 2.2 K) [\\[15\\]](#page-10-9), the other is ACr3As3, including KCr3As<sup>3</sup> (T<sup>c</sup> ≈ 5 K) [\\[16\\]](#page-10-10) and RbCr3As<sup>3</sup> (T<sup>c</sup> ≈ 7.3 K) [\\[17](#page-10-11)]. There are accumulated evidence to show that some of these materials may be candidates for multiband superconductivity with spin-triplet electron pairing state [\\[18](#page-10-12)[–20\\]](#page-10-13). In addition, the study of superconductivity in Cr-based materials always attracts much attention. Pr3Cr10−xN<sup>11</sup> was found as an example of possible unconventional superconductors with strong electron correlations [\\[21\\]](#page-10-14). The ternary compound Cr2Re3B with β-Mn-Type structure was also reported to be a superconductor with T<sup>c</sup> = 4.8 K [\\[22\\]](#page-10-15). And a new discovery of superconductivity with T<sup>c</sup> ≈ 7 K at external pressure indicates the quantum criticality and unconventional superconductivity in CrB<sup>2</sup> [\\[23](#page-10-16)]. Actually in the early years, some binary Cr-based compounds were reported as superconductors [\\[24](#page-10-17)[–30](#page-10-18)], but detailed studies on physical properties are lacking. Moreover, 4d transition element Ruthenium (Ru) is one of iron's relatives with strong ferromagnetism and itinerant electron magnetism [\\[31,](#page-10-19) [32\\]](#page-10-20). In addition to Sr2RuO<sup>4</sup> [\\[33\\]](#page-10-21) as a candidate for spin-triplet superconductors [\\[34](#page-10-22)], other Rubased compounds also have unusual superconductivity,\n\nCenter for Superconducting Physics and Materials,\n\n<span id=\"page-0-0\"></span><sup>∗</sup> liqing1118@nju.edu.cn\n\n<span id=\"page-0-1\"></span><sup>†</sup> hhwen@nju.edu.cn\n\nsuch as Ru7B<sup>3</sup> as a non-centrosymmetric superconductor [\\[35](#page-11-0)] and LaRu2P<sup>2</sup> with an intricate Fermi surface topology [\\[36\\]](#page-11-1). All of these inspire us to conduct studies of physical properties in chromium-based Cr-Ru binary alloys.\n\nAccording to previous report, with the substitution of Ru, the antiferromagnetic (AF) order of Cr vanishes and superconductivity emerges gradually. And 25%Ru is in the region where the two phases coexist [\\[29\\]](#page-10-23). Another study on different Cr1−xRu<sup>x</sup> alloys has discussed the relationship between the AF spin density wave (SDW) and superconductivity [\\[37\\]](#page-11-2). They found that the two phases are exclusive. And there may be spin fluctuations near the boundary of the two phases. The band structure calculations of Cr3Ru reveal multiple sets of Fermi surfaces which are mainly contributed by the 3d orbital electrons of chromium. Interestingly, there are two kinds of structures for Cr-Ru alloys. One is the body-centered cubic (bcc) structure where Cr atoms and Ru atoms arbitrarily occupy each site [\\[29](#page-10-23)]. And the other is the cubic A-15 (β-W) crystal structure achieved after long time annealing the bcc Cr3Ru [\\[38](#page-11-3)]. And the A15 structure was reported in favor of the existence of superconductivity in many compounds [\\[39](#page-11-4)]. According to the literature [\\[30\\]](#page-10-18), the slight excess of Ru is more conducive to obtain pure phase of Cr3Ru with A15 structure, thus we synthesized two kinds of polycrystals with a ratio of Cr : Ru = 72 : 28 and carried out comparative tests with various experimental tools.\n\nIn this paper, we report the comparative studies of Cr3Ru superconductors with bcc and A15 structures. The crystal structure, chemical composition, magnetization and resistance measurements are carried out to confirm the high quality of the samples with Tc(bcc) = 2.82 K and Tc(A15) = 3.39 K, respectively. The resistance measurements both show strong residual resistance with negligible magnetoresistance. And the magnetization measurements under high magnetic field represent clear hump structures at around 150 K for two kinds of samples. The sharp specific heat jumps for both samples can be fit well with s-wave gap of 2∆/kBT<sup>c</sup> around 3.6. But the Wilson ratios are very large, about R<sup>W</sup> (bcc) = 3.81 and R<sup>W</sup> (A15) = 3.62 in these two samples. In magnetization hysteresis loops (MHLs), a second peak effect has been observed only in samples with bcc structure. Also, with the increase of the external pressure, the T<sup>c</sup> enhances linearly for two samples. In the tunneling spectra, due to strong scattering, the coherence peaks are smeared out with a gap around 0.3 ∼ 0.5 meV.\n\n## II. EXPERIMENTS\n\nThe polycrystalline samples of Cr3Ru with bcc structure were prepared by using arc-melting method. The chromium (99.98%, Alfa Aesar) and ruthenium (99.9%, Alfa Aesar) with a mole ratio of 72 : 28 were weighed, ground and pressed into tablet in a glove box filled with argon. Then the tablet was melted in the arc-melting furnace filled with pure argon. To improve the homogeneity of samples, each ingot was remelted at least three times. After that, the Cr-Ru alloy with bcc structure was obtained. Then the ingots of Cr3Ru was placed into an evacuated quartz tube and annealed at 1000◦C for one month. The samples with A15 structure can then be obtained.\n\nThe X-ray-diffraction (XRD) measurements were carried out on a Bruker D8 Advanced diffractometer with the Cu-Kα radiation. The TOPAS 4.2 software was used to refine the crystal structures by Rietveld analysis. The micrographs and the chemical composition analysis of the samples were taken by a Phenom ProX scanning electron microscope (SEM). The magnetization was measured using a SQUID-VSM (Quantum Design). The resistivity was measured by the standard four-probe method using a physical property measurement system (PPMS 16T, Quantum Design). And the resistance down to 0.4 K was measured with an additional <sup>3</sup>He insert. The specific heat was measured with the thermal-relaxation method by another option of PPMS with the <sup>3</sup>He insert. The resistivity data under high pressure were collected by our PPMS equipment adding a diamond-anvilcell (cryoDAC-PPMS, Almax easyLab) module with a four-probe van der Pauw method. The scanning tunneling spectra (STS) measurements were carried out in a scanning tunneling microscope (USM-1300, Unisoku Co., Ltd.).\n\n## III. RESULTS\n\n## A. Sample characterization\n\nFigure [1\\(](#page-2-0)a) and [1\\(](#page-2-0)b) show the XRD patterns for two kinds of polycrystalline samples of Cr3Ru and the corresponding Rietveld fitting curves. The Rietveld refinement indicates that the samples are assigned to be the cubic structure (space group: Im¯3m for bcc and Pm¯3n for A15) with the lattice parameters of 2.937 ˚A and 4.637 ˚A, respectively. The schematic crystal structures are also plotted in the insets in which the blue and yellow spheres represent Cr and Ru, respectively. In the inset of Fig. [1\\(](#page-2-0)a), Cr and Ru occupy the positions as bcc structure in a random way, but after high temperature annealing, the crystal structure becomes A15. In Fig. [1\\(](#page-2-0)a), except for a minor peak of Cr3Ru with A15 structure at around 2θ = 38◦ , all other peaks belong to bcc structure. In Fig. [1\\(](#page-2-0)b), except for a minor peak of impurities of Cr-O, all other peaks belong to Cr3Ru with A15 structure. The scanning electron microscope (SEM) images with backscattered electron (BSE) mode of the two samples are shown on the left of Fig. [1\\(](#page-2-0)c) and [1\\(](#page-2-0)d). They respectively illustrate the morphology of the sample surfaces within a 30 µm area of view. We can only see some scratches caused by physical cuts on the surfaces of the samples. In order to determine the exact element compo-\n\n![](_page_2_Figure_1.jpeg)\n\n<span id=\"page-2-0\"></span>FIG. 1. XRD patterns (black circles) with Rietveld refinement fitting curves (red lines) of (a) Cr3Ru with bcc structure and (b) Cr3Ru with A15 structure. The insets show the schematic crystal structures respectively. SEM images and the corresponding energy dispersive spectra (EDS) of (c) Cr3Ru with bcc structure and (d) Cr3Ru with A15 structure.\n\nsition of the samples, we also perform energy dispersive X-ray spectra (EDS) on a larger scale. The element compositions for two samples are Cr : Ru = 71 : 29 and 69 : 31 for bcc and A15 structure, respectively. The atomic ratios are close to our stoichiometric ratio.\n\nThe temperature dependence of resistivity at zero magnetic field for two kinds of samples are shown in Fig. [2\\(](#page-2-1)a). The onsets of the superconducting transition temperatures are almost the same. Then with the decrease of temperature, the sample with A15 structure shows a very sharp superconducting transition. But the superconducting transition width is relatively wider for the sample with bcc structure. The obtained T<sup>c</sup> from 10% of the normal state resistivity are 2.77 K for bcc, and 3.37 K for A15 structures, respectively. It should be pointed out that, according to previous reports [\\[29\\]](#page-10-23), the T<sup>c</sup> of Cr3Ru with bcc structure is significantly lower than that of A15 structure. The similar onsets of superconducting transition temperatures observed in our study may be the cause of the extra components with A15 structure in sample with bcc structure during the synthesis process. Fig. [2\\(](#page-2-1)b) represents the temperature dependence\n\n![](_page_2_Figure_5.jpeg)\n\n<span id=\"page-2-1\"></span>FIG. 2. (a) Temperature dependence of resistivity for two kinds of samples. (b) Temperature dependence of magnetic susceptibility measured in both ZFC and FC modes for two kinds of samples with the applied magnetic field of 10 Oe.\n\nof zero-field-cooled(ZFC) and field-cooled(FC) magnetization curves with the applied magnetic field of 10 Oe. Obtained T<sup>c</sup> from magnetization are 2.82 K (bcc) and 3.39 K (A15). The superconducting volumes calculated from the magnetization data are both larger than 100% due to the demagnetization effect. All of these confirm the high quality of our samples.\n\n## B. Magnetic and Electrical transport properties\n\nTo investigate the magnetization behavior of Cr3Ru under high magnetic field, we present the temperature dependent magnetic susceptibility curves under high fields in Fig. [3\\(](#page-3-0)a) and [3\\(](#page-3-0)b). We can see that the χ-T curves of both samples exhibit paramagnetic Curie-Weiss behavior in the low temperature region. And in high temperature range, the magnetic susceptibility does not change significantly with temperature. Note that the background signal near 50 K due to frozen oxygen has been subtracted by doing a Gaussian fitting. Then we fit them from 2 K to 50 K using the Curie-Weiss law, as shown by the red lines. For Cr0.72Ru0.28, the magnetic moments per unit molecule are 0.02 µB/f.u. (bcc) and 0.027 µB/f.u. (A15) for the two samples. We all know that Cr ions have a relatively large magnetic moment, but the magnetic moment of Cr-Ru alloy is very small. And the values of the magnetic susceptibility at zero tem-\n\n![](_page_3_Figure_0.jpeg)\n\n<span id=\"page-3-0\"></span>FIG. 3. Temperature dependence of magnetic susceptibility from 1.8 K to 300 K under a magnetic field of 40 kOe for samples with (a) bcc and (b) A15 structures. The insets of (a) and (b) show the temperature dependencies of magnetic susceptibility measured with ZFC and FC modes at 100 Oe.\n\nperature were estimated to be 3.56×10<sup>−</sup><sup>4</sup> emu/(mol·f.u.) (bcc) and 3.82×10<sup>−</sup><sup>4</sup> emu/(mol·f.u.) (A15), respectively. The insets in the figures represent the magnetic susceptibility with an applied magnetic field of 100 Oe. Both samples show broad hump structures in wide temperature regions centered around 150 K in the ZFC and FC curves. The hump structure centered around 150 K in the insets are similar to previous reports [\\[29](#page-10-23)]. The humps may suggest the existence of AF ordering or spin fluctuations [\\[37](#page-11-2)]. Since such humps are much weaker in the magnetization curve at higher magnetic fields, we believe that the humps in the magnetization curve may be related to the AF fluctuations.\n\nFigure [4\\(](#page-4-0)a) and [4\\(](#page-4-0)b) respectively represent the temperature dependence of resistivity for the two kinds of samples in the temperature range from 2 K to 300 K. Both samples exhibit sharp superconducting transitions at zero field. When the magnetic field up to 9 T is applied, the superconductivity is completely suppressed, and the resistivity shows normal metal behavior. It is found that ρ exhibits a T <sup>2</sup> dependence below 100 K. The residual resistivity ratio (ρ<sup>300</sup>K/ρ<sup>2</sup>K, RRR) is 1.186 for the sample with bcc structure and is 1.377 for the sample with A15 structure. To our surprise, for both kinds of samples, the temperature dependence of resistance is very weak, and large residual resistances are present. In order to explore the possible causes of the residual resistivity, we conducted the following analysis of our data. First, the normal state resistivity at 0 T and 9 T overlap well in Fig. [4\\(](#page-4-0)a) and [4\\(](#page-4-0)b). This indicates that the magnetoresistance of the samples is almost negligible. We rule out the possibility of magnetic scattering. Then we measured the Hall resistance of the samples. Due to the large thickness of the samples and the high carrier concentration, the measured Hall resistance has large noise signals, and the carrier concentration can just be roughly estimated, that is in the order 10<sup>23</sup> /cm<sup>3</sup> [\\[37\\]](#page-11-2). We calculate the mean free path of the samples according to the formula lab = ¯h(3π 2 ) 1 <sup>3</sup> /e<sup>2</sup>ρ0n 2 <sup>3</sup> , where ρ<sup>0</sup> is the residual resistivity at zero temperature and n is the carrier concentration [\\[40\\]](#page-11-5). The mean free paths of both samples are very small, about 1 ∼ 2 nm. Therefore, the cause of the large residual resistance should be impurity scattering. As we can see from the SEM images of the two samples in the left side of Fig. [1\\(](#page-2-0)c) and [1\\(](#page-2-0)d), the alloy samples are very dense and have no discernible grains. Since no obvious grains are observed in the SEM images of the samples, the possibility of grain boundary scattering can be ruled out for the large residual resistivity. Considering all facts mentioned above, we argue that it may be due to some intrinsic scattering in samples. For example, the extra Ru atoms make the original crystal structure noncentrosymmetric. The insets of Fig. [4\\(](#page-4-0)a) and [4\\(](#page-4-0)b) show the temperature dependent resistance from 6 K down to 0.4 K under different magnetic fields. With the increase of applied magnetic field, the superconducting transition temperature decreases gradually. Fig. [4\\(](#page-4-0)c) and [4\\(](#page-4-0)d) represent the upper critical field at different temperatures. We obtain the values of upper critical field from the R-T curves by using criterions of 90% Rn. By fitting the data of upper critical field H<sup>c</sup>2(T ) with the Ginzburg-Landau theory, it is obtained that the upper critical field at zero temperature is µ0H<sup>c</sup>2(0) = 4.12 T for samples with bcc structure and µ0H<sup>c</sup>2(0) = 5.05 T for samples with A15 structure. Using the formula µ0H<sup>c</sup>2(0) = Φ0/2πξ<sup>2</sup> (0), the coherence lengths for the two kinds of samples are 9 nm (bcc) and 8 nm (A15), respectively. Considering the mean free path of 1 ∼ 2 nm, it is obvious that these superconductors are in the dirty. We all know that impurity scattering will affect the electron-phonon coupling and also be detrimental to the superconducting phase coherence. It is very unusual that these Cr-based compounds still exhibit superconductivity under such strong impurity scattering.\n\n## C. Specific heat\n\nThe temperature dependencies of specific heat of Cr3Ru samples with bcc and A15 structures down to 0.4 K are given in Fig. [5\\(](#page-5-0)a) and [5\\(](#page-5-0)b). The data are plotted as C/T versus T . Sharp specific heat jump can be seen at about 2.37 K for samples with bcc structure and 3.32 K for samples with A15 structure. For Cr3Ru with bcc structure, the superconducting transition tempera-\n\n![](_page_4_Figure_1.jpeg)\n\n<span id=\"page-4-0\"></span>FIG. 4. Temperature dependence of resistivity from 2 K to 300 K under magnetic fields of 0 T and 9 T (a) for samples with bcc structure and (b) for samples with A15 structure. The insets of (a) and (b) show the temperature dependence of resistance under different magnetic fields from 0.4 K to 6 K. The upper critical field as a function of temperature (c) for samples with bcc structure and (d) for samples with A15 structure. The red lines show the fitting results obtained from the Ginzburg-Landau (GL) theory.\n\nture determined by specific heat is lower than that determined by magnetization and resistivity. This is consistent with the behavior reported previously [\\[29\\]](#page-10-23). Surprisingly, for samples with A15 structure, another anomaly occurs at about 0.85 K, as shown clearly in the inset of Fig. [5\\(](#page-5-0)b). We fit the data of the normal state using the equation Cn/T = γ<sup>n</sup> + βT <sup>2</sup> + ηT <sup>4</sup> , where γ<sup>n</sup> is the normal state electronic specific heat coefficient, called the Sommerfeld coefficient, and βT <sup>2</sup> + ηT <sup>4</sup> , are the phonon contributions according to the Debye model. The normal state fittings all satisfy the law of entropy conservation. For Cr0.72Ru0.28, the Sommerfeld coefficient γn(bcc) = 6.81 mJ/(mol·K<sup>2</sup> ) and γn(A15) = 7.66 mJ/(mol·K<sup>2</sup> ) for the two kinds of samples. Using the equation Θ<sup>D</sup> = (12π <sup>4</sup>kBNAZ/5β) 1/3 , the Debye temperatures estimated here are about 485 K (bcc) and 476 K (A15) respectively, where k<sup>B</sup> is Boltzmann constant, N<sup>A</sup> is Avogadro constant, Z is the number of atoms in one unit cell. For Cr<sup>0</sup>.<sup>72</sup>Ru<sup>0</sup>.<sup>28</sup>, use Z = 1. The specific heat jumps at Tc, namely ∆C/γnT<sup>c</sup> with ∆C estimated by entropy conservation near Tc, are about 1.2 for both of them. These are smaller than 1.43 which is predicted by the BCS theory in the weak-coupling limit. This finding is consistent with the weak phonon scattering predicted by the weak temperature dependent resistivity. The den-\n\nT (K)\n\nsity of the states near the Fermi level obtained by the equation N(ε<sup>F</sup> ) = 3γn/π<sup>2</sup>k 2 <sup>B</sup> is 2.9 states/eV for samples with bcc structure and is 3.3 states/eV for samples with A15 structure. In comparison with the density of states on the Fermi surface from the band structure calculations [\\[41](#page-11-6)], 5.2 states/eV for Cr6Ru<sup>2</sup> with A15 structure, we can calculate the carrier effective mass m<sup>∗</sup>/m<sup>e</sup> = 5.1. A slightly large effective mass means the strong electronelectron interaction. Using the zero-temperature magnetic susceptibility estimated above and the Sommerfeld coefficient here, the Wilson ratio can be calculated as R<sup>W</sup> = 4π 2k 2 B 3(gµB) 2 χ0 γn = 7.28×10<sup>4</sup> <sup>χ</sup><sup>0</sup> γn . For the two kinds of samples, the Wilson ratios are 3.81 and 3.62, respectively. These values are much larger than R<sup>W</sup> = 1 for the case of free-electron approximation. Therefore, this result implies strong electron correlations in these materials.\n\nShown in Fig. [5\\(](#page-5-0)c) and [5\\(](#page-5-0)d) are the electronic specific heat under different magnetic fields for the bcc and A15 samples obtained by subtracting the normal-state background at zero field derived above. With increasing magnetic field, the specific heat jumps become broader for samples with bcc structure, but the specific heat jumps remain steep for samples with A15 structure. And the field induced specific heat coefficient increases gradually with the increase of magnetic field. In addition, the in-\n\n![](_page_5_Figure_1.jpeg)\n\n<span id=\"page-5-0\"></span>FIG. 5. Temperature dependence of specific heat at zero magnetic field from 0.4 K to 10 K (a) for samples with bcc structure and (b) for samples with A15 structure. The red lines are the fitting curves of the normal state based on the Debye model. The inset of (b) shows the enlarged view of the anomaly around 0.85 K. The electronic specific heat under different fields (c) for samples with bcc structure and (d) for samples with A15 structure. The inset of (d) shows the temperature dependence of the anomaly under different magnetic fields. The temperature dependence of electronic specific heat coefficient at zero field and the fitting curves of different gap structures (e) for samples with bcc structure and (f) for samples with A15 structure.\n\nset of Fig. [5\\(](#page-5-0)d) shows an enlarged view of the second anomaly at 0.85 K under different magnetic fields for the A15 sample. It is clear that this anomaly shifts to lower temperatures with increasing magnetic field, thus is also sensitive to magnetic fields. The XRD on the A15 sample shows that the polycrystalline sample is quite pure, and the only impurity of CrO is not superconductive. We are not clear at this moment about the possible cause of the second specific heat anomaly in the A15 samples. It looks more like a superconducting transition, but it remains unclear whether it is due to an intrinsic transition, or due to some tiny impurity superconducting phase at low temperatures.\n\nIn order to obtain more information about the superconducting gap structure, we use the BCS formula to fit the electronic specific heat in the superconducting state. The superconducting electronic specific heat is obtained by subtracting the normal state data following the Debye model. The superconducting electronic specific heat satisfies the entropy conservation. Based on the formula of specific heat given by the BCS theory, we use different kinds of gap structures to fit our data: a\nsingle s-wave gap ∆(T, θ) = ∆0(T ), a single d-wave gap ∆(T, θ) = ∆0(T ) cos 2θ, and a single extended s-wave gap ∆(T, θ) = ∆0(T )(1 + α cos 2θ) where α is the parameter that represents anisotropy. The optimized fitting parameters according to different gap structures are shown in Fig. [5\\(](#page-5-0)e) and [5\\(](#page-5-0)f) as different fitting curves. One can see that both the single isotropic s wave model and the single extended s-wave model can well describe the experimental data for two kinds of samples, even considering the anomaly around 0.85 K. These results indicate that one gap model is sufficient to describe the data. And the anisotropy of the superconducting gaps for the two samples is also very weak. The superconducting gaps are about 0.365 meV (bcc) and 0.52 meV (A15) for the two samples, respectively. The calculated ratios of 2∆/kBT<sup>c</sup> are about 3.6 for the two samples, indicating a moderate pairing strength. We use the electronic specific heat integral to obtain the entropy, and then use the entropy integral to obtain the condensation energy of the superconductor. For Cr<sup>0</sup>.<sup>72</sup>Ru<sup>0</sup>.<sup>28</sup>, the condensation energy is 7.4 mJ/mol for samples with bcc structure, and 17.3 mJ/mol for samples with A15 structure.\n\n## D. Magnetization hysteresis loops and vortex properties\n\nFigure [6\\(](#page-7-0)a) and [6\\(](#page-7-0)b) show the MHLs measured at different temperatures for the two kinds of samples. The insets show the lower critical field for the bcc and A15 samples, respectively. The lower critical fields at different temperatures are determined where M(H) deviates from the linear line corresponding to the Meissner state. The lower critical fields of the samples are very small, which means that the quantized flux can very easily enter the superconductors. The samples with bcc structure at different temperatures have a pronounced second magnetization peak effect as can be seen in the inset of Fig. [6\\(](#page-7-0)c). And the position of the second peak gradually shifts to lower fields with increase of temperature. But the second peaks can only exist below 2.2 K. Besides, the second peak effect has not been observed for samples with A15 structure. Therefore, the cause of second peak effect is elusive, which depends on the intrinsic properties of the samples. The MHLs at fixed temperatures are symmetrical around the horizontal axis, indicating a dominant bulk pinning, therefore the Bean critical state model is applicable in this case. From these MHLs, we calculate the critical current density J<sup>c</sup> based on the formula according to the Bean critical state model J<sup>c</sup> = 20∆M/[a(1 − a/3b)], as seen in Fig. [6\\(](#page-7-0)c), where ∆M is the width of MHLs with the unit of emu/cm<sup>3</sup> , a and b are the width and length of the samples. With increasing temperature, the critical current decreases gradually. At 1.8 K, we have J<sup>c</sup> = 1.2×10<sup>4</sup> A/cm<sup>2</sup> (bcc) and J<sup>c</sup> = 5.2×10<sup>4</sup> A/cm<sup>2</sup> (A15) for the bcc and A15 samples, respectively. As we all know, impurities and other defects will form vortex pinning centers, which will hinder the movement of vortices. Therefore, the more flux pinning centers, the greater the critical current of the sample. The large critical current density of the two samples indicates many defects in the samples, which is consistent with the high residual resistivity in our electrical resistive measurement.\n\n### E. Scanning tunneling spectrum\n\nWe further measure the scanning tunneling spectra (STS) on the two samples to investigate the superconducting gap structure. The temperature dependence of the tunneling spectrum for the two samples are plotted in Fig. [7\\(](#page-7-1)a) and [7\\(](#page-7-1)b). It shows that the superconducting gap disappears at around 5 K, close to the critical temperature of the two samples. However, the coherence peaks are blurred and further smeared with the increase of temperature. At T = 0.4 K, the superconducting gap feature with clear suppression of density of states near the Fermi energy can be seen from the spectrum for both samples. Outside the gap, one can see a roughly symmetric background. It can be further illustrated after dividing by the normal state background as can be seen in Fig. [7\\(](#page-7-1)c) and [7\\(](#page-7-1)d). However, one can see that at zero energy, the suppression of the density of states for the two samples is very low. Considering that the samples are not cleaved in situ, we speculate that there could be strong scattering on the sample surface by the impurities or defects. And this could be the reason for the elevated value of density of states near the Fermi energy. In this case, it seems difficult to determine the pairing symmetry of the superconducting gap for two samples from STS results. However, from the specific heat results, it is konwn that the superconductors could have s wave gaps, thus it is reasonable to use an s wave superconducting gap to fit the data. We thus use the Dynes model to fit our data. The fitting results are also presented in Fig. [7\\(](#page-7-1)c) and [7\\(](#page-7-1)d). It seems that the tunneling spectrum can be fitted quite well for both samples and that we succeed in getting the superconducting gap size, that is 0.44 meV for bcc sample and 0.3 meV for A15 sample. The smeared and suppressed coherence peaks may be induced by the high scattering rate in the samples, since the mean-free pathes are quite small comparting with the coherence length for both samples.\n\n# F. Evolution of superconducting properties at high pressures\n\nFigure [8\\(](#page-8-0)a) and [8\\(](#page-8-0)b) show the temperature dependence of resistance for the two kinds of samples under different external pressures. We can see that the RRR does not change much with increasing pressure, and is always very small, showing a large residual resistance. But the superconducting transition temperature increases gradually with the increase of pressure for the two samples, and\n\n![](0__page_7_Figure_0.jpeg)\n\n<span id=\"page-7-0\"></span>FIG. 6. Magnetization hysteresis loops (MHLs) at different temperatures (a) for samples with bcc structure and (b) for samples with A15 structure. The insets of (a) and (b) show the temperature dependent lower critical fields. Magnetic field dependence of critical current density estimated by the Bean critical state model (c) for samples with bcc structure and (d) for samples with A15 structure. The inset of (c) shows the zoom-in view of MHLs with clear second peak effect.\n\n![](0__page_7_Figure_2.jpeg)\n\n<span id=\"page-7-1\"></span>FIG. 7. Temperature dependence of the tunneling spectrum (a) on samples with bcc structure and (b) on samples with A15 structure. Tunneling spectrum measured at 0.4 K divided by the normal state background (c) for samples with bcc structure and (d) for samples with A15 structure, respectively (red circles). Each spectrum is fitted by the Dynes model using an s wave superconducting gap function (blue line)\n\n![](0__page_8_Figure_0.jpeg)\n\n<span id=\"page-8-0\"></span>FIG. 8. Temperature dependence of resistance for the two kinds of samples at different external pressures (a) for samples with bcc structure and (b) for samples with A15 structure. The insets of (a) and (b) show enlarged views around the superconducting transitions. Temperature dependence of resistance under different magnetic fields (c) at 52.4 GPa for samples with bcc structure and (b) at 49.4 GPa for samples with A15 structure. (e) The upper critical field (symbols) and fitting curves (lines) by the GL theory for the two samples at the highest external pressures. (f) Pressure dependence of superconducting transition temperatures for the two samples.\n\nthe superconducting transition remains steep, as shown in the inset of Fig. [8\\(](#page-8-0)a) and [8\\(](#page-8-0)b). Under the maximum pressure of about 50 GPa, the T<sup>c</sup> can reach about 4 K. We obtain the values of T<sup>c</sup> from the R-T curves by using criteria of 90% R<sup>n</sup> and 10% R<sup>n</sup> for all samples and plot them in Fig. [8\\(](#page-8-0)f). Compared with samples with A15 structure, with the increase of pressure, the ratio of increasing T<sup>c</sup> is greater for samples with bcc structure. Surprisingly, the relationship of T<sup>c</sup> and pressure shows a roughly linear behavior and the increase is unsaturated up to the highest pressure in our measurement. In some alloys like NbTi and (ScZrNbTa)<sup>0</sup>.<sup>6</sup>(RhPd)<sup>0</sup>.<sup>4</sup>, the T<sup>c</sup> is robust against large volume shrinkage and shows a monotonous increase with pressure [\\[42,](#page-11-0) [43\\]](#page-11-1). In Fig. [8\\(](#page-8-0)c) and [8\\(](#page-8-0)d), we present the temperature dependence of resistance under different magnetic fields at the highest pressure for both samples. Although the T<sup>c</sup> of the two samples at the highest pressure are very close, the upper critical fields are different. For samples with bcc structure, with the increase of pressure, the upper critical field of the sample does not increase, which is still about µ0H<sup>c</sup>2(0) = 4.1 T. But for samples with A15 structure, the upper critical field changes from µ0H<sup>c</sup>2(0) = 5.05 T at ambient pressure to µ0H<sup>c</sup>2(0) = 6.15 T at 49.4 GPa.\n\n#### IV. DISCUSSIONS\n\nFor two kinds of Cr3Ru samples with bcc and A15 structures, most of their physical properties show similar unusual behavior. Firstly, very large residual resistivity is found in resistance measurements. The origin of the large residual resistance can be ascribed to the strong scattering in the samples. Considering that the mean free path we obtained for the samples are about 1 ∼ 2 nm, which are relatively small compared with the coherence length of about 8 ∼ 9 nm. If the grain boundary scattering with the grain size also about 1 ∼ 2 nm results in this strong scattering, it is inconceivable that superconductivity is formed in such small grains. Therefore, we tend to think that Cr itself in the system leads to strong scattering, namely, the strong scattering is intrinsic. The slight non-stoichiometry of the Ru and Cr ratios, or the mutual occupation of the Ru and Cr atoms may be the cause for this strong scattering. Secondly, we find strange humps in the M(T) curves for both ZFC and FC modes in high temperature region. According to previous reports [\\[29,](#page-10-0) [37](#page-11-2)], the cause of the humps may be the AF ordered phase or the spin fluctuations near phase boundary. Because such humps are less obvious in high field magnetization curves, we tend to attribute it to some AF spin fluctuations which are suppressed under high magnetic field [\\[44](#page-11-3)]. Thirdly, using the parameters obtained by magnetization and specific heat, the Wilson ratios of the samples are calculated to be larger than that of free-electron ones. Combined with the calculated carrier effective mass, we conclude that there may be moderate electron correlations in these materials. Last but not least, the suppression of the density of states for the samples as observed in tunneling measurements is rather weak at zero energy. This confirms once again there could be strong scattering on the sample surface which diminishes the coherent weight of the Bogoliubov quasiparticles. However, the polycrystalline samples are very pure with only small amount of impurities seen from the XRD patterns. Considering a slight excess of Ru atoms, the original crystal structure may become noncentrosymmetric which brings about such strong scattering. It is widely perceived that unconventional superconductivity may arise in compounds with magnetic elements which yield the magnetic spin fluctuations. We highly suspect that the Cr elements in the present two compounds should also contribute spin fluctuations, as suggested by the non-monotonic temperature dependence of magnetic susceptibility in the normal states. Therefore it is reasonable to believe that the superconductivity found in such a system with strong scattering, moderate electron correlation and AF spin fluctuations is unconventional.\n\nThe two kinds of materials with different structures also show differences in some physical properties. Only the samples with bcc structure exhibit a pronounced second magnetization peak effect below 2.2 K in the MHLs, and the position of the second peak gradually shifts to lower fields with increasing temperature. This difference may be induced by the different microstructures and vortex pinning landscape in these two materials. Besides, only the samples with A15 structure have shown a second specific heat jump in the low temperature region. This anomaly shifts to lower temperatures with increasing magnetic field. We can rule out the possibility that this second specific heat jump is due to some secondary impurity phase, since the XRD patterns show only the tiny impurity phase of Cr oxide which is not superconductive. It is also difficult to attribute this transition to any possible AF order developed below T<sup>c</sup> since this anomaly can be easily removed by a weak magnetic field. If it would be corresponding to an AF order, a higher magnetic field is needed even the Neel temperature is only 0.85 K. This second specific heat jump may be understood as a phase transition due to unconventional superconductivity. Thus we consider the possibility of a second superconducting transition in this Cr3Ru with A15 structure. According to the theoretical study [\\[45\\]](#page-11-4), a hidden transition from an s + d state to an s + e iηd state may occur leading to a second jump of specific heat far below Tc. Due to the magnetic nature of the Cr atoms and the correlation effect, together with the extra amount of Cr beyond the stoichiometry, the system may be noncentrosymmetric, which leads to the existence of, or partially the chiral superconductivity. This peculiar property may further corroborate that the superconductivity of Cr3Ru is unconventional.\n\n#### V. CONCLUSIONS AND PERSPECTIVES\n\nIn summary, we have successfully synthesized polycrystalline superconducting samples of Cr3Ru with bcc structure and A15 structures. The XRD and EDS analyses confirm the high quality of our samples. And the magnetization and resistivity measurements all exhibit sharp superconducting transitions, with T<sup>c</sup> = 2.82 K (bcc) and T<sup>c</sup> = 3.39 K (A15), respectively. The two kinds of samples show many similar unusual physical properties. In magnetization measurements, clear hump structures exist at around 150 K, which are possibly related to antiferromagnetic spin fluctuations. The resistance measurements show a strong residual resistivity with a mean-freepath of about 2 nm for the two samples, indicating an intrinsic strong scattering effect. The low temperature specific heat can be fitted by the s-wave gap for the two samples, the calculated ration 2∆/kBT<sup>c</sup> is around 3.6, indicating a moderate pairing strength. Yet the Wilson ratios are 3.81 and 3.62 for the bcc and A15 samples, suggesting strong electron correlation effect. The two kinds of samples exhibit small lower critical fields and moderate critical current densities. Furthermore, the superconducting transition temperatures both enhance slightly at the external high pressure. Due to strong scattering, the coherence peaks are smeared out on the tunneling spectrum with a gap around 0.3 ∼ 0.5 meV. These two kinds of samples with different structures show some difference. A pronounced second peak effect has been observed only in samples with bcc structure below 2.2 K. And only in the samples with A15 structure, we observed the second specific heat jump at about 0.85 K, and it is sensitive to magnetic fields. All these evidences confirm that the Cr-\n\n- [1] J. G. Bednorz and K. A. M¨uller, Z. Phys. B 64, 189 (1986).\n- [2] H. Takahashi, K. Igawa, K. Arii, Y. Kamihara, M. Hirano, and H. Hosono, Nature 453, 376-378 (2008).\n- [3] K. Takada, H. Sakurai, E. Takayama-Muromachi, F. Izumi, R. A. Dilanian, and T. Sasaki, Nature 422, 53-55 (2003).\n- [4] D. Li, K. Lee, B. Y. Wang, M. Osada, S. Crossley, H. R. Lee, Y. Cui, Y. Hikita, and H. Y. Hwang, Nature 572, 624-627 (2019).\n- [5] Q. Gu, Y. Li, S. Wan, H. Li, W. Guo, H. Yang, Q. Li, X. Zhu, X. Pan, Y. Nie, and H. H. Wen, Nat. Commun. 11, 6027 (2020).\n- [6] Q. Li, C. He, J. Si, X. Zhu, Y. Zhang, and H. H. Wen, Commun. Mater. 1, 16 (2020).\n- [7] B. R. Ortiz, L. C. Gomes, J. R. Morey, M. Winiarski, M. Bordelon, J. S. Mangum, I. W. H. Oswald, J. A. Rodriguez-Rivera, J. R. Neilson, S. D. Wilson, E. Ertekin, T. M. McQueen, and E. S. Toberer, Phys. Rev. Mater. 3, 094407 (2019).\n- [8] B. R. Ortiz, S. M. Teicher, Y. Hu, J. L. Zuo, P. M. Sarte, E. C. Schueller, A. M. Abeykoon, M. J. Krogstad, S. Rosenkranz, R. Osborn, R. Seshadri, L. Balents, J. He, and S. D. Wilson, Phys. Rev. Lett. 125, 247002 (2020).\n- [9] J. G. Cheng, K. Matsubayashi, W. Wu, J. P. Sun, F. K. Lin, J. L. Luo, and Y. Uwatoko, Phys. Rev. Lett. 114, 117001 (2015).\n- [10] K. Selte, A. Kjekshus, W. E. Jamison, A. F. Andresen, and J. E. Engebretsen, Acta Chem. Scand. 25, 1703-1714 (1971).\n- [11] W. Wu, J. Cheng, K. Matsubayashi, P. Kong, F. Lin, C. Jin, N. Wang, Y. Uwatoko, and J. Luo, Nat. Commun. 5, 5508 (2014).\n- [12] Q. G. Mu, B. B. Ruan, B. J. Pan, T. Liu, J. Yu, K. Zhao, G. F. Chen, and Z. A. Ren, Phys. Rev. Mater. 2, 034803 (2018).\n- [13] J. K. Bao, J. Y. Liu, C. W. Ma, Z. H. Meng, Z. T. Tang, Y. L. Sun, H. F. Zhai, H. Jiang, H. Bai, C. M. Feng, Z. A. Xu, and G. H. Cao, Phys. Rev. X 5, 011013 (2015).\n- [14] Z. T. Tang, J. K. Bao, Y. Liu, Y. L. Sun, A. Ablimit, H. F. Zhai, H. Jiang, C. M. Feng, Z. A. Xu, and G. H. Cao, Phys. Rev. B 91, 020506(R) (2015).\n- [15] Z. T. Tang, J. K. Bao, Z. Wang, H. Bai, H. Jiang, Y. Liu, H. F. Zhai, C. M. Feng, Z. A. Xu, and G. H. Cao, Sci. China Mater. 58, 16-20 (2015).\n\nRu alloy has an unconventional superconductivity, short mean free path and strong scattering. Further studies are highly desired in order to improve the T<sup>c</sup> higher.\n\n#### ACKNOWLEDGMENTS\n\nWe are grateful for the useful discussions with Joerg Schmallian and Ilya Eremin. This work was supported by the National Natural Science Foundation of China (Grant Nos. 11927809 and 12061131001), and the Strategic Priority Research Program of Chinese Academy of Sciences (Grant No. XDB25000000).\n\n- [16] Q. G. Mu, B. B. Ruan, B. J. Pan, T. Liu, J. Yu, K. Zhao, G. F. Chen, and Z. A. Ren, Phys. Rev. B 96, 140504(R) (2017).\n- [17] T. Liu, Q. G. Mu, B. J. Pan, J. Yu, B. B. Ruan, K. Zhao, G. F. Chen, and Z. A. Ren, Europhys. Lett. 120, 27006 (2018).\n- [18] C. Y. Guo, M. Smidman, B. Shen, W. Wu, F. K. Lin, X. L. Han, Y. Chen, F. Wu, Y. F. Wang, W. B. Jiang, X. Lu, J. P. Hu, J. L. Luo, and H. Q. Yuan, Phys. Rev. B 98, 024520 (2018).\n- [19] Z. Liu, M. Chen, Y. Xiang, X. Chen, H. Yang, T. Liu, Q. G. Mu, K. Zhao, Z. A. Ren, and H. H. Wen, Phys. Rev. B 100, 094511 (2019).\n- [20] J. Yang, J. Luo, C. Yi, Y. Shi, Y. Zhou, and G. Q. Zheng, Sci. Adc. 7, eabl4432 (2021).\n- [21] W. Wu, K. Liu, Y. Li, Z. Yu, D. Wu, Y. Shao, S. Na, G. Li, R. Huang, T. Xiang, and J. Luo, Natl. Sci. Rev. 7, 21 (2020).\n- [22] H. Niimura, K. Kawashima, K. Inoue, M. Yoshikawa, and J. Akimitsu, J. Phys. Soc. Jpn. 83, 044702 (2014).\n- [23] C. Pei, P. Yang, C. Gong, Q. Wang, Y. Zhao, L. Gao, K. Chen, Q. Yin, S. Tian, C. Li, W. Cao, H. Lei, J. Cheng, and Y. Qi, [arXiv:2109.15213.](http://arxiv.org/abs/2109.15213)\n- [24] B. T. Matthias, T. H. Geballe, V. B. Compton, E. Corenzwit, and G. W. Hull, Phys. Rev. 128, 588 (1962).\n- [25] E. Bucher, F. Heiniger, J. Muheim, and J. Muller, Rev. Mod. Phys. 36, 146 (1964).\n- [26] B. Matthias, V. B. Compton, H. Suhl, and E. Corenzwit, Phys. Rev. 115, 1597 (1959).\n- [27] K. Andres, E. Bucher, J. P. Maita, and R. C. Sherwood, Phys. Rev. 178, 702 (1969).\n- [28] Y. Nishihara, Y. Yamaguchi, T. Kohara, and M. Tokumoto, Phys. Rev. B 31, 5775 (1985).\n- <span id=\"page-10-0\"></span>[29] Y. Nishihara, Y. Yamaguchi, M. Tokumoto, K. Takeda, and K. Fukamichi, Phys. Rev. B 34, 3446 (1986).\n- [30] T. F. Smith, J. Low Temp. Phys. 6, 171-195 (1972).\n- [31] T. Kiyama, K. Yoshimura, K. Kosuge, Y. Ikeda, and Y. Bando, Phys. Rev. B 54, R756 (1996).\n- [32] I. Felner and I. Nowik, J. Phys. Chem. Solids 45, 419 (1984).\n- [33] Y. Maeno, H. Hashimoto, K. Yoshida, S. Nishizaki, T. Fujita, J. G. Bednorz, and F. Lichtenberg, Nature 372, 532-534 (1994).\n- [34] Y. Maeno, S. Kittaka, T. Nomura, S. Yonezawa, and K. Ishida, J. Phys. Soc. Jpn. 81, 011009 (2011).\n- [35] L. Fang, H. Yang, X. Zhu, G. Mu, Z. S. Wang, L. Shan, C. Ren, and H. H. Wen, Phys. Rev. B 79, 144509 (2009).\n- [36] E. Razzoli, M. Kobayashi, V. N. Strocov, B. Delley, Z. Bukowski, J. Karpinski, N. C. Plumb, M. Radovic, J. Chang, T. Schmitt, L. Patthey, J. Mesot, and M. Shi, Phys. Rev. Lett. 108, 257005 (2012).\n- <span id=\"page-11-2\"></span>[37] K. Chatani and Y. Endoh, J. Phys. Soc. Jpn. 72, 17 (2003)\n- [38] J. Muller, Rep. Prog. Phys. 43, 641 (1980).\n- [39] A. R. Sweedler, D. G. Schweitzer, and G. W. Webb, Phys. Rev. Lett. 33, 168 (1974).\n- [40] S. Khim, B. Lee, J. W. Kim, E. S. Choi, G. R. Stewart, and K. H. Kim, Phys. Rev. B 84, 104502 (2011).\n- [41] C. E. Calderon, J. J. Plata, C. Toher, C. Oses, O. Levy, M. Fornari, A. Natan, M. J. Mehl, G. Hart, M. B.\n\nNardelli, and S. Curtarolo, Comput. Mater. Sci. 108, 233 (2015).\n\n- <span id=\"page-11-0\"></span>[42] C. Huang, J. Guo, J. Zhang, K. Stolze, S. Cai, K. Liu, H. Weng, Z. Lu, Q. Wu, T. Xiang, R. J. Cava, and L. Sun, Phys. Rev. Mater. 4, 071801(R) (2018).\n- <span id=\"page-11-1\"></span>[43] L. Sun and R. J. Cava, Phys. Rev. Mater. 3, 090301 (2019).\n- <span id=\"page-11-3\"></span>[44] M. Ramazanoglu, B. G. Ueland, D. K. Pratt, L. W. Harriger, J. W. Lynn, G. Ehlers, G. E. Granroth, S. L. Bud'ko, P. C. Canfield, D. L. Schlagel, A. I. Goldman, T. A. Lograsso, and R. J. McQueeney, Phys. Rev. B 98, 134512 (2018).\n- <span id=\"page-11-4\"></span>[45] K. R. Islam, J. B¨oker, I. M. Eremin, and A. V. Chubukov, Phys. Rev. B 104, 094522 (2021).",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Comparative studies on unconventional superconductivity in Cr3Ru compounds with\nbcc and A15 structures",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              56.77734375,
+              52.74151611328125
+            ],
+            [
+              558.27197265625,
+              52.74151611328125
+            ],
+            [
+              558.27197265625,
+              78.61700439453125
+            ],
+            [
+              56.77734375,
+              78.61700439453125
+            ]
+          ]
+        },
+        {
+          "title": "I. INTRODUCTION",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              122.59423828125,
+              413.0333251953125
+            ],
+            [
+              228.72622680664062,
+              413.0333251953125
+            ],
+            [
+              228.72622680664062,
+              421.9997253417969
+            ],
+            [
+              122.59423828125,
+              421.9997253417969
+            ]
+          ]
+        },
+        {
+          "title": "II. EXPERIMENTS",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              125.43310546875,
+              642.5936431884766
+            ],
+            [
+              227.2905731201172,
+              642.5936431884766
+            ],
+            [
+              227.2905731201172,
+              651.62109375
+            ],
+            [
+              125.43310546875,
+              651.62109375
+            ]
+          ]
+        },
+        {
+          "title": "III. RESULTS",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              402.521484375,
+              411.473388671875
+            ],
+            [
+              476.630859375,
+              411.473388671875
+            ],
+            [
+              476.630859375,
+              420.4397888183594
+            ],
+            [
+              402.521484375,
+              420.4397888183594
+            ]
+          ]
+        },
+        {
+          "title": "A. Sample characterization",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              373.08026123046875,
+              436.5534973144531
+            ],
+            [
+              505.811279296875,
+              436.5534973144531
+            ],
+            [
+              505.811279296875,
+              445.5198974609375
+            ],
+            [
+              373.08026123046875,
+              445.5198974609375
+            ]
+          ]
+        },
+        {
+          "title": "B. Magnetic and Electrical transport properties",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              322.734375,
+              504.59307861328125
+            ],
+            [
+              554.3790283203125,
+              504.59307861328125
+            ],
+            [
+              554.3790283203125,
+              513.5625
+            ],
+            [
+              322.734375,
+              513.5625
+            ]
+          ]
+        },
+        {
+          "title": "C. Specific heat",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              397.142578125,
+              619.4336090087891
+            ],
+            [
+              479.56365966796875,
+              619.4336090087891
+            ],
+            [
+              479.56365966796875,
+              628.3999938964844
+            ],
+            [
+              397.142578125,
+              628.3999938964844
+            ]
+          ]
+        },
+        {
+          "title": "D. Magnetization hysteresis loops and vortex\nproperties",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              66.33984375,
+              333.8337097167969
+            ],
+            [
+              285.435302734375,
+              333.8337097167969
+            ],
+            [
+              285.435302734375,
+              353.267578125
+            ],
+            [
+              66.33984375,
+              353.267578125
+            ]
+          ]
+        },
+        {
+          "title": "E. Scanning tunneling spectrum",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              360.984375,
+              147.35369873046875
+            ],
+            [
+              517.5703125,
+              147.35369873046875
+            ],
+            [
+              517.5703125,
+              156.5244140625
+            ],
+            [
+              360.984375,
+              156.5244140625
+            ]
+          ]
+        },
+        {
+          "title": "F. Evolution of superconducting properties at high\npressures",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              316.7578125,
+              609.3532257080078
+            ],
+            [
+              561.4923706054688,
+              609.3532257080078
+            ],
+            [
+              561.4923706054688,
+              629.578125
+            ],
+            [
+              316.7578125,
+              629.578125
+            ]
+          ]
+        },
+        {
+          "title": "IV. DISCUSSIONS",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              125.9560546875,
+              126.8338623046875
+            ],
+            [
+              225.1669921875,
+              126.8338623046875
+            ],
+            [
+              225.1669921875,
+              135.80023193359375
+            ],
+            [
+              125.9560546875,
+              135.80023193359375
+            ]
+          ]
+        },
+        {
+          "title": "V. CONCLUSIONS AND PERSPECTIVES",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              332.880859375,
+              482.0325012207031
+            ],
+            [
+              546.556640625,
+              482.0325012207031
+            ],
+            [
+              546.556640625,
+              490.9989013671875
+            ],
+            [
+              332.880859375,
+              490.9989013671875
+            ]
+          ]
+        },
+        {
+          "title": "ACKNOWLEDGMENTS",
+          "heading_level": null,
+          "page_id": 10,
+          "polygon": [
+            [
+              377.12109375,
+              111.11383056640625
+            ],
+            [
+              499.640625,
+              111.11383056640625
+            ],
+            [
+              499.640625,
+              120.0802001953125
+            ],
+            [
+              377.12109375,
+              120.0802001953125
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              419
+            ],
+            [
+              "Line",
+              81
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "Footnote",
+              3
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              329
+            ],
+            [
+              "Line",
+              111
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              299
+            ],
+            [
+              "Line",
+              122
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              516
+            ],
+            [
+              "Line",
+              197
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              637
+            ],
+            [
+              "Line",
+              219
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              499
+            ],
+            [
+              "Line",
+              236
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              337
+            ],
+            [
+              "Line",
+              111
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              385
+            ],
+            [
+              "Line",
+              192
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              157
+            ],
+            [
+              "Line",
+              48
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              280
+            ],
+            [
+              "Line",
+              112
+            ],
+            [
+              "TextInlineMath",
+              4
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              322
+            ],
+            [
+              "Line",
+              113
+            ],
+            [
+              "ListItem",
+              34
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              94
+            ],
+            [
+              "Line",
+              30
+            ],
+            [
+              "ListItem",
+              11
+            ],
+            [
+              "Reference",
+              5
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 12,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Comparative studies on superconductivity in Cr<SUB>3</SUB>Ru compounds with bcc and A15 structures",
+    "authors": [
+      {
+        "authors_list": [
+          "Zhu, Zhengyan",
+          "Zhang, Ying-Jie",
+          "Li, Yiwen",
+          "Li, Qing",
+          "Duan, Wen",
+          "Wen,"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Chromium (Cr) is a transition metal element with 3d orbital electrons. In most compounds containing Cr, due to the correlation effect, twofold features, namely localization and itinerancy are expected. The localization gives rise to a magnetic moment, while the latter exhibits as the effective coherent weight for conductivity. Here we report the physical properties of Cr<SUB>3</SUB>Ru compounds with body-centered cubic (bcc) and A15 structures by using multiple experimental tools. The resistivity measurements show sharp superconducting transitions at $T_{\\mathrm{c}}$ = 2.77 K and $T_{\\mathrm{c}}$ = 3.37 K for the bcc and A15 structures, respectively. A high residual resistivity exists in both phases. Magnetization measurements also show rather narrow superconducting transitions, with a clear hump feature in the intermediate temperature region (about 150 K), which may be ascribed to the remaining antiferromagnetic spin fluctuations. A pronounced second peak effect has been observed in magnetization hysteresis loops in the superconducting state only for samples with bcc structure. The specific heat coefficient reveals a clear jump at critical temperatures ( $T_{\\mathrm{c}}$ ). We find that s-wave gaps can be adopted to fit the low temperature specific heat data of both samples yielding ratios of $2\\Delta/k_{\\mathrm{B}}T_{\\mathrm{c}}$ about 3.6, indicating a moderate pairing strength. Interestingly, the Wilson ratios $R_{\\mathrm{W}} = A\\chi_{0} / \\gamma_n $ are 3.81 and 3.62 for the bcc and A15 phases, suggesting a moderate correlation effect of conducting electrons in the normal state. Besides, for samples with A15 structure, another specific heat anomaly occurs at about 0.85 K and is sensitive to magnetic fields. In addition, by applying high pressures, both systems will exhibit an enhancement of $T_{\\mathrm{c}}$ with a rate of about 0.019 K GPa<SUP>-1</SUP> and 0.013 K GPa<SUP>-1</SUP> for the bcc and A15 phases, respectively. Our combinatory results point to unusual behavior of both superconducting and normal states in these two Cr based alloys.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Journal of Physics Condensed Matter",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2203.16235"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1088/1361-648X/ac9501",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2022JPCM...34U5602Z"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

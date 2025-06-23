@@ -1,0 +1,1060 @@
+{
+  "id": "a53672a1f8da095ee9728a7c8d6f6576",
+  "pdf_path": "apl/Superconductors/arXiv:2406.00817.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# Peculiarities of niobium-based superconducting alloys in the light of crystal chemistry: A brief survey\n\nTaimo Priinits · Artjom Vargunin · Aleksandr Liivand\n\nReceived: date / Accepted: date\n\nAbstract In this survey, we focus on Nb-based binary intermetallic compounds, which have been widely used over the last 40 years to develop a range of superconducting applications, including non-standard engineering solutions in the design of large magnets. However, since the 1980s, when it became apparent that the mechanical and superior superconducting properties of ordered intermetallic alloys such as Nb3Sn were largely due to their unique structural features, much of the research interest in the science of superconducting intermetallic alloys has been redirected to the development of necessary engineering applications in high magnetic field technology. Accordingly, the important role of crystal chemistry in understanding the fundamental aspects of the material properties of the Nb3Sn family of intermetallics has been little explored. In the paper, we try to fill this gap by investigating the relationships between composition, microstructure and properties, highlighting their relevance to technological applications. Our goal is to link aspects of crystal chemistry with materials application issues. We shed light on the atomic assembly mechanisms and processes in terms of changes in the chemical environment, lattice structure, crystallization pathway, and macroscale phase textures, which can help in interpreting and explaining the prospects and limitations of the superconducting properties of Nb3Sn. In the context of past and present\n\nT. Priinits\n\nA. Vargunin\n\n#### A. Liivand\n\nprospects and limitations we briefly overview most important technological applications and discuss the various interrelations between superconductivity and structural properties of Nb-based A-15 intermetallic alloys. We argue that these interrelations can be used to find the Nb-based superconductors with more superior properties and stronger technological usability.\n\nKeywords Niobium · Intermetallic alloys · Applied superconductivity\n\n#### 1 Introduction\n\nAt present, superconductivity technology offers innovative and large-scale solutions for various physical research applications: magnetic resonance imaging (MRI), nuclear magnetic resonance (NMR), fusion energy, quantum computing, etc. On the other hand, the potential of conventional superconductivity can be utilized even more efficiently, opening up new avenues for scientific progress and breakthroughs, as well as providing directions for modern technologies to achieve zero-emission goals, develop advanced medical diagnostics and therapeutics, expand energy capacity through the construction of power plants and stations, and create technologies for space applications.\n\nIn particular, the development of modern engineering designs and innovations places new demands on both the superconducting properties of alloys, their size, forming process, usable configuration and operational stability, and the strength properties of these materials to operate successfully in strong pulsed magnetic fields. Such materials are the cornerstone for realizing advances in superconducting technologies and applications. Accordingly, addressing material science aspects such as exploring novel intermetallic design concepts,\n\nInstitute of Physics, University of Tartu, 50411 Tartu, Estonia E-mail: taimo.priinits@ut.ee\n\nInstitute of Physics, University of Tartu, 50411 Tartu, Estonia E-mail: artjom.vargunin@ut.ee\n\nInstitute of Physics, University of Tartu, 50411 Tartu, Estonia E-mail: aleksandr.liivand@ut.ee\n\nimproving the functional properties of superconducting materials, and developing new technologies to enhance the growth of critical superconducting properties is a strategic task in condensed matter physics and chemistry. Utilization of these properties opens wide opportunities for the application of superconducting compounds in scientific research and development. In modern technology there is an increasing need to apply strong magnetic fields on a large scale: in research facilities for controlled thermonuclear reactions, in plasma physics, in magnetohydrodynamic devices, in powerful motors and generators, etc. In all these cases, the use of superconducting magnets, wires and coils is the extremely promising cost-effective solution.\n\nAmong the known traditional superconducting materials, high-purity niobium and its derivatives, such as intermetallic alloys with A-15 type crystal structure [\\[1,](#page-9-0) [2,](#page-9-1) [3,](#page-9-2) [4,](#page-9-3) [5,](#page-9-4) [6,](#page-9-5) [7\\]](#page-9-6), are still in large demand in the field of applied superconductivity. This is due to the unique combination of their superior superconducting properties, such as critical temperature that can exceed 18 K, high critical current density, wide range of ideal diamagnetism, and high-frequency critical fields, which are currently unattainable for other superconductors. Such intermetallic alloys, which represent a very attractive object of solid-state research, have been the subject of numerous studies for several decades and the research interest is still at an increasing level [\\[8\\]](#page-9-7). In this context, in order to meet the growing technological demands, fundamental science is facing a number of challenges to find appropriate ways to improve the mechanical and physical properties of compound superconductors with A-15 structure. Therefore, the main purpose of this survey article is both to briefly highlight some actual aspects of the accumulated information in this field and to analyze possible relationship between fundamental research results and their present and future use in the development of high-tech superconducting applications.\n\nFollowing a viewpoint that several fundamental properties of superconductivity are intimately linked to the composition-structure-property relations, in the first part of given paper we will consider the properties that play an important role in the enabling of superconductivity. In particular, we will summarize the specific features of the crystal-chemical background underlying the main properties of Nb-based superconducting A-15 intermetallics. In order not to be overwhelmed by the vast amount of useful information obtained during more than half a century of fundamental research, we will focus on the correlation of the crystal-chemical background with structural and superconducting properties. There are many review articles in the literature, both old and new, dealing with various aspects of low temperature superconductivity and its applications [\\[2,](#page-9-1) [9,](#page-9-8) [10,](#page-9-9) [11,](#page-9-10) [12,](#page-9-11) [13,](#page-9-12) [14,](#page-9-13) [15\\]](#page-9-14). However, information on how the interplay between chemical composition and crystalline architectures may determine key factors that could be responsible for the superconducting properties of A-15 type materials is somewhat lacking in these papers. Motivated by this, we will try to complement these papers by discussing the crystal chemistry of these materials with respect to the macroscopic quantum properties of superconductivity in terms of what is understood and what is not. The second part deals with the applied aspects. By presenting several different engineering implementations as examples of current activities in applied superconductivity, we show why and how lowtemperature superconductivity can play a key role in applied science and technology. The last section is devoted to the interdisciplinary research landscape of superconducting science, addressing applications in such fields as engineering, quantum computing, medicine, etc. Having briefly outlined the new horizons opened by scientific advances in some areas of modern superconducting electronics, we thus show that A-15-type materials will remain at the center of the future technological development of modern superconducting applications.\n\n## 2 On structural chemistry of A-15-type superconducting intermetallics\n\nFrom a materials science point of view, a modern material is usually a bulk combination of two or more different chemical elements, due to the resulting structure achieving new properties that are not present in its individual components. In this respect, intermetallics are a unique class of materials characterized by the interplay of a metallic ground state and long-range ordering with high crystallographic symmetry. They are formed by the combination of two or more different elements which, in compositional ranges close to stoichiometric ratios, occupy the specific atomic positions in the crystal lattice during crystallization. Thus, the study of the processes that are responsible for the electronic and phononic properties and the strength of the interactions between them, in terms of phase and structural transformations, can provide important insights into a deep understanding of the superconducting mechanism in Nb3X compounds. The subsections presented below provides a characterization of the crystalline architecture of the binary intermetallic system and its internal microstructures. The survey focuses on crystal chemical parameters such as composition, lattice structure, stability and structural transformations, crystallographic patterns, which may be crucial for understanding the superconducting properties of an intermetallic system.\n\nTo best illustrate the role that niobium plays in the A-15 structure, we also include an overview of our recent results [\\[16\\]](#page-9-15) that cover several key aspects of alloy crystal chemistry in terms of settings, interpretation, characterization, and modeling. The key aspects are summarized in subsections 2.2 – 2.4. This paper [\\[16\\]](#page-9-15) gives a complete description of the methods of crystal chemical modeling and DFT-based simulations of structure and properties.\n\n## 2.1 Crystallographic data, stoichiometry and structural orderings\n\nThe properties of intermetallic niobium alloys of binary composition have been the subject of extensive research during more than half a century; much useful information has become widely available [\\[9,](#page-9-8) [10,](#page-9-9) [14,](#page-9-13)[17,](#page-9-16)[18,](#page-9-17) [19\\]](#page-9-18). As a background to our further work, in which niobiumcontaining compounds will be discussed in terms of the interplay between structural chemistry and properties, it may be instructive to first summarize some of their important crystal-chemical details. The A-15 crystal framework has a wide range of binary compositions with a nominal stoichiometric ratio of A3B. The A atom, which is the base of the alloy, belongs to one of the transition metals such as Ti, Nb, V, Zr, Ta, Cr or Mo. The B atom represents a large number of alloying elements that include metals of groups IIIB and IVB, either one of the noble metals such as Pt, Au, Ge, Os, Ir, etc., or one of the metalloids such as Al or Sn [\\[18\\]](#page-9-17). An interesting fact regarding the interactions that are responsible for a superconducting state is that the A-15 cubic structure is one of the close-packed crystal structures [\\[9,](#page-9-8) [20\\]](#page-9-19). However, there must be a near stoichiometric balance between the A and B components, since violating such a specific compositional ratio on a macroscopic scale destabilizes the entire arrangement, making it completely impossible to form a stable A-15 phase [\\[17,](#page-9-16) [21\\]](#page-9-20).\n\nThe standard elemental description of the lattice structure and the composition of the stoichiometric composition of A3B is given in the left panel (a) of Figure [1.](#page-3-0) Upon crystallization, this composition acquires the A-15 cubic lattice, which corresponds to the Cr3Si structure type [\\[18\\]](#page-9-17). As seen in Figure [1\\(](#page-3-0)a), the peculiarity of the alloy lattice geometry is that each of the two constituents is accommodated on its own individual sublattice, whose crystallographic orbits are given by the 6c and 2a Wyckoff positions for the atoms A and B, respectively. In the framework of a more detailed crystallographic description, one can mention a characteristic feature of the lattice structure of A-15, which is a quasi-one-dimensional arrangement of A atoms [\\[9,](#page-9-8)\n\n[17,](#page-9-16) [22\\]](#page-9-21). In particular, A-type atoms occupying positions with tetragonal site symmetry (point group D2d) are uniformly arranged in pairs on the faces of the cubic lattice along three orthogonal axes. The atoms of each A pair are separated by half the length of the unit cell; a total of six A atoms are distributed at 6c Wyckoff position with a set of coordinates: ( 1 4 , 0, 1 2 ), ( 3 4 , 0, 1 2 ), ( <sup>1</sup> 2 , 1 4 , 0), ( <sup>1</sup> 2 , 3 4 , 0), (0, 1 2 , 1 4 ), and (0, 1 2 , 3 4 ). On a larger scale, this arrangement results in atoms A forming mutually orthogonal chains in directions parallel to the edges of unit cells, where the distance between these atoms in the chain is smallest compared to the distance between the nearest atoms belonging to different chains (as shown in Figure [1\\(](#page-3-0)a) with the orange lines).\n\nIt has also been suggested that the short distance between nearest neighboring Nb atoms in the A-15 crystal system could be responsible for generating some specific features of the electronic spectrum at the Fermi surface compared to the regular bcc structure and the increase of the superconducting critical temperature [\\[5\\]](#page-9-4), also atom size ratios and electronegativity are two of the most important parameters affecting the lattice constant [\\[17\\]](#page-9-16). To illustrate the effects from the side of A-15 lattice geometry, we have summarized some physical data in Table [1.](#page-2-0) This table shows the lattice constants and the charge per atom of some technologically important Nb3X compounds compared to Nb and Nb – Ti. It can be seen that the average number of valence electrons per atom is close to 5 for the Nb3X systems. This would also support superconductivity according to the empirical Matthias rule [\\[3\\]](#page-9-2).\n\n<span id=\"page-2-0\"></span>Table 1 Some physical properties of several technologically interesting intermetallics of the Nb3X family compared to the pure Nb and NbTi intermetallic alloy. The intermetallic behaviour is characterized by the value of lattice constant (a), resonance effect in terms of valence electron number per atom [\\[3\\]](#page-9-2), superconducting temperature Tc, and critical magnetic field Hc<sup>2</sup> at the temperature 4.2 K.\n\n| Compound       | a (˚A)         | el/atom     | Tc (K)                | Hc2 (T)          |\n|----------------|----------------|-------------|-----------------------|------------------|\n| Nb3Al<br>Nb3Ga | 5.187<br>5.164 | 4.5<br>4.5  | 17.5 [23]<br>20.3 [9] | 31 [6]<br>32 [6] |\n| Nb3Ge          | 5.166          | 4.75        | 23.0 [9]              | 36 [24]          |\n| Nb3In<br>Nb3Sn | 5.303<br>5.289 | 4.5<br>4.75 | 8 [9]<br>18 [9]       | −<br>23 [24]     |\n| Nb             | 3.328 [25]     | 6.5         | 9.2 [26]              | 0.16 [27]        |\n| NbTi           | 3.286 [28]     | 4.5         | 10 [26]               | 11 [24]          |\n\n![](_page_3_Figure_1.jpeg)\n\n<span id=\"page-3-0\"></span>Fig. 1 Schematic comparison of structural atomic arrangements on metal and metalloid sublattices of the A3B intermetallic compound. Left panel (a): The crystallographic illustration of the A-15 lattice structure, where the dashed gray lines outline the cubic unit cell, while the orange lines outline the sketch of mutually orthogonal chains of metal A atoms. The neighboring cell A atoms (additionally marked with red cycles) are added to the unit cell drawing to make the chains more transparent. The spatial 3D configuration of the B atom sites reproduces the simple bcc lattice. Right panel (b): Crystal-plane based reconstruction of the structural motif determined by the Nb crystal lattice with symmetry of space group Im3m (No. 229). In the unit cell shown, the model of active sites are represented in terms of the crystallographic interstitials that relate to the tetrahedral position with relative coordinates isomorphic to ( <sup>1</sup> 4 , 0, 1 2 ) (shown as red balls). A set of crystal planes isometric to the (110) Miller plane is indicated in light green. The unit cells drawn in panels (a) and (b) are geometrically proportional.\n\n#### 2.2 Structural evolution and complexity\n\nThe role of niobium, interpreted in terms of the complexity of the composition and the associated lattice site activities, has not yet been fully elucidated and this has prevented the completion of a consistent crystallographic picture. On the basis of a given general classification, it may be possible to explore in a qualitative way the specificity of the behavior of Nb in the condensation of a binary alloy composition by using an appropriate structural matrix and then by modeling the corresponding solid phase relations. This problem has been considered in our work [\\[16\\]](#page-9-15) under crystal chemical analysis using the relevant resources provided online by the Bilbao Crystallographic Server [\\[29,](#page-10-6) [30,](#page-10-7) [31,](#page-10-8) [32\\]](#page-10-9). In particular, as illustrated in the right panel (b) of Figure [1,](#page-3-0) a set of special atomic positions can be introduced in order to compare the density of atomic packing between pure Nb and its binary compound Nb3Sn. It should also be underlined that due to the specific features of the crystal architecture of niobium, the densest atomic packing in mixed binary solutions can be achieved directly by filling empty sites along the planes isometrically related to the generic plane (110). Therefore, if the symmetry of the lattice allows certain crystallographic positions of atoms through which these planes can be drawn, then such atomic configurations, when assembled, will provide the necessary dense packing [\\[16\\]](#page-9-15). As shown in the (b) panel of Figure [1,](#page-3-0) in the cubic lattice of Nb, the crystallographic voids of tetrahedral origin\n\ncaptured by (110)-type planes (marked as red balls in the image) can contribute to the formation of a tightly packed structure and thus offer the possible choice for an active site.\n\n<span id=\"page-3-1\"></span>Table 2 Comparison of the compression properties of the pure Nb metal and the cubic phase of the Nb3Sn intermetallic alloy shown in terms of elastic properties such as bulk modulus, B, and shear strength expressed by the difference of the stiffness tensor components, (C<sup>11</sup> −C12)/2, (values are in GPa). V<sup>a</sup> denotes unit cell volume per atom. Numerical simulations of the structural and elastic behavior were performed using DFT calculations.\n\n| System        | Va     | B   | (C11 − C12)/2 | (C11 − C12)/3B |\n|---------------|--------|-----|---------------|----------------|\n| Nb            | 18.428 | 170 | 61.5          | 0.24           |\n| Nb3Sn (cubic) | 18.494 | 166 | 93.2          | 0.37           |\n\nThe next question that has not been fully addressed in the literature is how the interaction between the alloy base and the incorporated alloying element, as well as the interaction between the alloying elements themselves, alters the metallic bonding that is an important factor in the stable constitution of the alloy base. Table [2](#page-3-1) attempts to shed some light on this question, at least on a qualitative level. The results of DFT simulations of the binary model system niobium-tin reveal several signs of atypical behavior. Obviously, these features are related to the internal structure of a material. In particular, the analysis of the elastic behavior before and after two-component intermetallic formation showed that the key parameters such as unit cell volume per atom and bulk moduli, which are affected by composition and lattice geometry factors, have found their way during transformations to restore their values to those determined by the prototype cubic structure of pure Nb, which remained theirs as practically unchanged. Characteristics presented in the remaining two columns in terms of differences between diagonal and non-diagonal stiffness tensor components reflect the ductile/brittle classification [\\[33\\]](#page-10-10). That is, as for the comparison with Nb3Sn by means of such a recognition scheme, when the gap between C<sup>11</sup> and C<sup>12</sup> is widening, the ductility analysis indicates that the introduction of metalloid Sn is accompanied by the formation of covalent (strongly directed) bonds. Accordingly, Nb3Sn is more brittle than solid Nb. However, since directional bonding also contributes to this type of lattice ordering, this fact does not contradict the requirement of dense packing.\n\n## 2.3 On the crystallographic origins of Nb chain formation\n\nA comprehensive understanding of the processes of structural transformations within the strategy of rational modeling, which includes a close combination of both chemical principles and crystal geometry at the atomistic level, makes it possible to design realistic models on the basis of which it becomes capable to control how the evolution of electronic and phononic degrees of freedom occurs and to predict how the strength of their coupling changes. Obviously, this approach opens a wide way not only for describing many desirable properties of materials as a function of composition, structure, internal deformation, morphology, etc., but also opens new directions for describing the effects of physical forces, such as the mechanism of superconductivity. In the context of the present paper, this subsection gives a brief overview of our recent results on the structural chemistry of Nb3Sn intermetallics [\\[16\\]](#page-9-15). In particular, based on the model of the ideal stoichiometric composition Nb3Sn, we illustrate here the way in which the structural features of bulk metallic Nb determine the distribution of Sn and Nb atoms in the A-15 lattice. Figure [2](#page-5-0) represents a diagram sketch that gives a reconstruction of the mechanism of Nb chain formation in terms of the partition configuration of Nb atoms.\n\nThe left image of the sketch reflects the intermediate atomic configuration generated by the cubic distortion corresponding to the structural transformation Im3m → Pm-3n. The main factors characterizing such a global change of the highly symmetric lattice structure are a fourfold increase of the unit cell volume and\n\na decrease of the Nb site symmetry in the distorted Pm-3n lattice. However, due to crystal chemical effects, such a configuration is still poorly constrained because it remains less favorable in terms of stability. The right panel of figure [2](#page-5-0) shows that the stability can be achieved by local displacements of niobium atoms. As a result, the identical chains of niobium atoms along three orthogonal cubic axes are generated. It is interesting to emphasize that such displacements partially restores the point symmetry of the Nb sites from the input orthorhombic (D2h) to the final tetragonal (D2d). Thus, the existence of Nb chains as a prominent feature of the Nb3Sn system architecture is the direct consequence provided by the elemental Nb bcc lattice.\n\n## 2.4 Induced anisotropy as an effect of the crystallographic orientation\n\nIt has not been previously investigated whether the effect of crystallographic orientation contributes to the microstructural features introduced by the crystallization process. Crystal-chemical simulations predicted the effect of orientation-induced anisotropy for a Nb3Sn polycrystalline intermetallic system [\\[16\\]](#page-9-15). An explanation is provided in Figure [3.](#page-5-1) To see how this is done, first note that the two crystallographic models are completely equivalent when it pertains to atomic-level characterization in the single crystalline regime. More precisely, in the case of single crystal crystallization, where the possibility of orientation distributions never arises, both the local structure and the lattice structure are accurately determined by one of these two models. On the other hand, for a polycrystalline intermetallic system, the role of the grain formation mechanism is well known. In terms of alloy solidification, this means that the local structure of each grain can be unambiguously determined from the crystallographic data shown in Figure [3](#page-5-1) (e.g. unit cell, point symmetries of occupied atomic positions, and bond geometry). However, the question arises as to how grains, which typically fill structured regions, can be classified at the microstructure scale in terms of their local lattice settings and atomic positions. The results of crystal chemical modeling have shown that in the equilibrium state, due to the requirement of equivariance with respect to the A-15 lattice architecture, two macroscopic textures that are not exactly equivalent will coexist in a polycrystalline material. Thus, orientation-induced anisotropy can be expected to occur at the crystallization stage when two or more crystalline grains merge. In this process, although their regular orientation with respect to the main lattice planes is preserved, a comparison between\n\n![](_page_5_Figure_1.jpeg)\n\n<span id=\"page-5-0\"></span>Fig. 2 Reconstructive model illustrating the formation of the A-15 lattice structure for the intermetallic compound Nb3Sn and represented in terms of point symmetry changing (D2h→D2d) initial positions of niobium atoms. The atomic-scale reconstruction scheme is drawn in terms of off-center displacements of niobium atoms along the three main crystallographic directions of the cubic architecture. The atomistic model was constructed and simulated using DFT calculations.\n\n![](_page_5_Figure_3.jpeg)\n\n<span id=\"page-5-1\"></span>Fig. 3 Model of the bimodal internal microstructure associated with two lattice ordering motifs of Nb chains predicted for the Nb3Sn intermetallic compound. Atoms A and B of the A-15 cubic structure correspond to the usual distribution of Nb and Sn atoms. The illustrations of three-dimensional close-packing for both textures are shown schematically in terms of 6c (left) and 6d (right) Wyckoff positions in the unit cell of the A-15 cubic lattice, where the difference in crystallographic orientation of two texture patterns is determined by Nb atomic chains formed by occupying the 6c (blue) and 6d (red) positions, respectively. At the bottom, the schematic arrangement of single crystal grains is shown for a polycrystalline system in terms of both textures. The grains, which differ in the orientation of the chains with respect to the three planes (as indicated in the lower left corner of the figure), are arbitrarily arranged along the main cubic crystallographic axes.\n\ntwo separate grains from the microstructure composition indicates that they can be visually separated by rotating the atomic configuration by 90◦ around the main crystallographic axis (by analogy, this is similar to making a half turn around the \"twin\" axis).\n\n#### 2.5 Stoichiometric features\n\nSince the 70's, the niobium compounds of different stoichiometries have been extensively studied experimentally. The Nb based A-15 compounds were found to be highly sensitive to these variations due to the stoichiometry changing electronic properties of original crystal\n![](0__page_6_Figure_1.jpeg)\n\nNb6Sn5\n\n<span id=\"page-6-0\"></span>Fig. 4 Polar phase diagram schematically representing a series of intermediate compositions for the intermetallic system Nb-Sn in terms of the ratio Nb/Sn changing as a polar angle. The compositional region where A-15 phase is stable is marked with red.\n\nsystem [\\[17\\]](#page-9-0). For example, Nb3Ga, T<sup>c</sup> varies from 14.5 to 20.7 K depending on the Nb/Ga ratio [\\[34\\]](#page-10-0). For Nb3Sn, its T<sup>c</sup> varies from 6 to 18 K depending on the Sn content [\\[35\\]](#page-10-1). The most common reason for off-stoichiometry effect is the irregular deposition of the substrate during [\\[36,](#page-10-2) [37\\]](#page-10-3) fabrication. As mentioned above, the A-15 phase is technologically important, but it is only achievable within a certain range of stoichiometry. Figure [4](#page-6-0) illustrates this using the Nb-Sn intermetallic alloy as an example. Nb-Sn becomes superconducting in the A-15 phase from about 18 to 26% of Sn content [\\[38,](#page-10-4) [5,](#page-9-1) [39,](#page-10-5) [40,](#page-10-6) [19,](#page-9-2) [37\\]](#page-10-3), with the highest critical temperature in the range of Nb/Sn 23–26%, which is therefore a practically usable region, because T<sup>c</sup> starts to drop rapidly from 15 K at 23% Sn content to 6 K when shifting to 18% Sn content [\\[35\\]](#page-10-1). More generally, it is the long-range order that is needed for a compound to have the best properties: if a material loses long-range order due to any kind of defect, its superconducting properties begin to degrade [\\[20,](#page-9-3) [5,](#page-9-1) [35,](#page-10-1) [40,](#page-10-6) [41,](#page-10-7) [42,](#page-10-8) [43\\]](#page-10-9). A certain amount of disorder has been observed to increase the lattice parameter [\\[6,](#page-9-4) [44\\]](#page-10-10), the electron mean free path [\\[20\\]](#page-9-3), the electron-phonon interaction strength [\\[45\\]](#page-10-11), and the density of electron states near the Fermi level [\\[5,](#page-9-1) [40,](#page-10-6) [44\\]](#page-10-10). It was also found that the lattice parameter is the main factor controlling the stoichiometric composition, and further reduction of the lattice parameter with external pressure leads to suppression of superconductivity [\\[6\\]](#page-9-4).\n\n# 3 Applications\n\nThe present section provides a brief overview of the applications of niobium alloys. Figure [5](#page-7-0) illustrates the main application directions for Nb3X compounds. These directions are discussed in more detail below.\n\n### 3.1 A-15 and other Nb based superconductors\n\nA-15 compounds, namely Nb3Sn, Nb3Ga and Nb3Al, have been of interest for over 50 years for use in industrial applications due to their superior properties over pure Nb and Nb Ti alloys, namely higher critical temperature, current density and critical magnetic field strength [\\[10,](#page-9-5) [46,](#page-10-12) [47\\]](#page-10-13). Table [1](#page-2-0) summarizes some relevant properties of these systems. For large-scale applications, the production of Nb3X compounds with the required efficiency, i.e. production speed and quality, has been one of the major challenges to be overcome compared to regular Nb and the easily processable and widely used Nb-Ti alloys. For example, Nb3Sn is a brittle material, and mechanical stress has a degrading effect on the superconducting properties, which makes it difficult to use [\\[10,](#page-9-5) [47,](#page-10-13) [22\\]](#page-9-6). Moreover, the superconducting coherence length of Nb3Sn is on the nanometer scale, what causes the properties to be highly dependent on even small defects [\\[48\\]](#page-10-14).\n\n# 3.2 High Energy Physics\n\nNb-Ti was the material of choice for older colliders, but the current density required for the next generation of colliders demands materials with better performance [\\[49,](#page-10-15) [4\\]](#page-9-7). The current density for new colliders needs to be at least 10<sup>3</sup> A/mm<sup>2</sup> in magnetic fields around 25 T [\\[4\\]](#page-9-7). As planned, the design of the new Future Circular Collider will use dipole magnets with a magnetic field of 16 T. Such a massive construction will require about 8000 tons of Nb3Sn wire, which also calls for the industry to scale up production [\\[7\\]](#page-9-8). With the development of Nb3Sn wire for ITER, the scale-up for production has already begun.\n\nSuperconducting radiofrequency (SRF) cavities must be fabricated from materials with high critical temper-\n\n| Magnets for HEP                                                                                                                                                       | Magnets for MFE                                                                                                             | 900 MHz &1GHz Systems for NMR<br>and MRI                                         |\n|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|\n| Particle accelerators employing<br>higher magnetic fields<br>Dipole and quadrupole magnets<br>to provide the strong focusing of<br>the beams of circulating particles | Strong magnets with high critical<br>current density<br>High solenoidal and toroidal fields<br>to provide plasma confinment | Strong magnets with high critical<br>current density<br>Higher fields up to 30 T |\n\n<span id=\"page-7-0\"></span>Fig. 5 Illustrative scheme showing the main directions of large-scale technological applications of Nb3X superconducting wires, tapes and cables. Abbreviations used: HEP – high-energy physics, MFE – magnetic fusion energy, the others are given in the text.\n\nature and large superconducting gap, low normal resistivity, s-wave gap symmetry, and high critical magnetic field [\\[50\\]](#page-10-16). New accelerators require magnets capable of operating with magnetic fields up to 11 T [\\[49\\]](#page-10-15). For 1.3 GHz single-cell cavities, Nb3Sn has shown similar values at 4.2 K compared to niobium at 2.0 K, allowing a more energetically efficient design.\n\n### 3.3 Fusion\n\nOne of the largest fusion projects currently underway is the International Thermonuclear Experimental Reactor (ITER), where the tokamak magnet used in the design of ITER must generate magnetic fields of up to 12 T and with a current density of 1100 A/mm<sup>2</sup> at 4.2 K [\\[51\\]](#page-10-17). The construction and development of ITER requires over 600 tons of Nb3Sn, the scale of this huge amount similar to the needs of the Future Circular Collider challenges the industry to greatly increase the manufacturing rates of Nb3Sn wire [\\[52\\]](#page-10-18).\n\n# 3.4 Scientific research, biology and medicine\n\nIn contrast to industrial applications, Nb3Sn magnets have long been employed in scientific research facilities and equipment to test new theories and methods, approaches to plasma confinement, and to study the behavior of materials in high magnetic fields. In biology and medicine, MRI and NMR are two of the most important methods relevant to a given topic and used for investigations. The design of next generation magnets (above 1 GHz) is expected to use high critical currents with magnetic fields up to 30 T [\\[22\\]](#page-9-6). These parameters are not possible with normal Nb-Ti magnets and systems based on Nb3Sn or Nb3Al have to be used.\n\n### 3.5 Industry and economic benefits\n\nThe benefits of using materials with higher current densities are that the physical dimensions of the facilities can be reduced, and the higher critical temperature makes it possible to operate superconducting devices at 4.2 K instead of 2 K.\n\nSmaller facilities and higher operating temperatures reduce infrastructure, labor, and operation and maintenance costs, and also expand the range of industrial applications that use SRF accelerators (such as medical, border security, and flue gas and wastewater treatment). The ability to cool the material much farther below its critical temperature also increases the quality factor, improving its efficiency [\\[53,](#page-10-19) [54\\]](#page-10-20). Given that the global superconductivity market is estimated to be in the billions of Eur, with the largest segment covering Nb-Ti based medical applications, the use of more advanced materials can therefore bring huge economic benefits.\n\n### 3.6 Future developments in applied superconductivity\n\nFigure [6](#page-8-0) shows a selection of applications that may become commercial as the properties of superconducting devices continue to advance, compared to the wellknown, mostly large-scale applications described in the previous chapters. The first group of interest is the infrastructure for zero emission goals. For this, the superconducting energy storage devices are of interest due to the fact that these devices have much better efficiency, higher power density, charging speeds, etc., compared to the regular batteries or capacitors [\\[55\\]](#page-10-21). For superconducting components in vehicles, there is a direct interest to increase the capability of electric vehicles by reducing energy losses and increasing power, allowing to make smaller engines, with superconducting wires [\\[56\\]](#page-10-22). One of the most talked about future applications is the use of superconducting wire in the power grid. In addition to efficiency, local communities would also appreciate the reduction of the electromagnetic field generated by power lines [\\[57\\]](#page-10-23). Superconducting generators and current limiters improve the reliability and stability of the grid, helping to mitigate instabilities caused by faulty currents [\\[58\\]](#page-11-0). The second group is concerned with\n\n![](0__page_8_Figure_1.jpeg)\n\n- Superconducting generators and current limiters\n- quantum photonic integrated circuits\n- <span id=\"page-8-0\"></span>Fig. 6 Diagram showing new applications, outlook for future trends and new developments in superconducting technologies.\n\nquantum optics and information. Many quantum superconducting materials are reduced-dimensional materials in which electrons are confined in 2D layers. In these systems, electrons participate in the collective excitations that produce quantum effects [\\[59\\]](#page-11-1). Superconducting logic families use single flux quanta instead of voltage difference to transfer data. These logic gates can be optimized to operate at higher speeds or optimized to use less power for the same tasks (because at the current stage, most of the energy is dissipated as heat, and a fraction of the total energy is used to move information between logic gates) [\\[60\\]](#page-11-2). Low-noise amplifiers are devices mostly used for basic scientific measurements or for reading the qubit signal [\\[61\\]](#page-11-3). Superconducting qubit networks and high-speed computing devices use the above logic gates to perform computations [\\[60\\]](#page-11-2). Single phonon detectors are devices used in quantum repeaters, qubit readers/amplifiers, quantum gates, and quantum computers to process quantum optical information [\\[62\\]](#page-11-4). In the last group are devices for superconducting quantum systems. Muon colliders consist of precise measuring devices and high-energy accelerators to generate collisional muons; the lifetime of the muons is on the order of microseconds, making them difficult to study [\\[63\\]](#page-11-5). Radiofrequency resonators for surface ion traps are devices that could be used to enable quantum computing and information processing with ions [\\[64\\]](#page-11-6). The application of neural networks would be enhanced by superconducting devices for neuromorphic computing [\\[64\\]](#page-11-6).\n\n# 4 Conclusion\n\nAfter the discovery of the phenomenon of superconductivity in 1911, nearly half a century passed before the possibilities of material design and engineering of functional superconducting systems for the development of a wide range of applications in science, industry, medicine, and quantum computing were realized. The development of such specific materials with high sensitivity to magnetic flux has been successful, as numerous attempts by researchers over several decades of basic research have yielded suitable superconducting compounds with significant advantages for many large-scale cryogenic applications. Two key materials that have been shown to be capable of stable operation in liquid helium environments have received much attention in these developments: (i) in high energy physics, NbTi superconductors, which have shown technical success in accelerated particle physics, and (ii) Nb3Sn superconductors, which are the established basis for the design of large high field magnets.\n\nThe family of A-15 intermetallic alloys includes A3B compositions possessing ideal stoichiometric ratios. In this family, compounds based on Nb Nb3X have been of scientific and technological interest for more than 50 years. The Nb3Sn system, together with other Nbbased A-15 intermetallics, has been mainly considered in this brief survey. The main peculiarity of our work is that, in order to analyze a number of key properties of Nb intermetallics, we have made a special projection, based on crystal chemistry, between the crystallography and the ground state properties of these binary compounds. As such an approach clarified aspects of our interest related to the interplay of chemistry and crystallography, we tried to summarize some information related to the current state of technological applications of A-15 superconducting systems. Based on the analysis and simulations performed, we have filled the gap in the understanding of how the spatial rearrangement of Nb atoms into chains occurs during the formation of the Nb-based A-15 structure. Since these chains are considered by the scientific community to be conducive to the superconducting phenomenon in A-15 intermetallic alloys, we have briefly outlined the results of our modeling of the evolution of the A-15 lattice structure. We have shown that the formation of niobium chains, due to the crystallographic effect, is a necessary condition for the stabilization of the cubic lattice of Nb3Sn after the transformation from the highly symmetric lattice prototype. The other crystallographic effect we discussed is related to the phenomenon of structural shift between orientations of niobium chains. We have argued that this is a specific feature of the A-15 lattice caused by the 6c →6d bias in the occupation of the 6c Wyckoff positions. This effect occurs only at the microstructure level, where the orientation of the niobium chains leads to anisotropy due to the distinct chain patterning in the neighboring crystal grains of the polycrystalline A-15 system.\n\nWe have also surveyed how composition, stoichiometric content and lattice properties can be connected with superconducting properties. Briefly, we started with a general description of the crystal structure, namely how the atoms are arranged in the lattice unit cell (Figure [1\\)](#page-3-0). This was followed by an overview of how the formation of Nb3Sn can be represented from a crystallographic point of view within crystal structure theory. The basic modeling was used to observe several important crystal chemical aspects, such as the atomic behavior during the lattice transformations. Then, some general peculiarities of the A-15 structure were summarized - how the nearest neighbor distance might favor superconductivity by inducing peculiarities in the electronic spectrum of the Fermi level. It has also been highlighted that a deep understanding of the relationships between compositional, structural, and superconducting properties could provide insight into how to design superconductors with desirable superior properties and that belong to the most technologically exploited family of materials.\n\n#### Acknowledgements\n\n# Conflict of interest\n\nThe authors declare that they have no conflict of interest.\n\n### References\n\n- 1. B.T. Matthias, T.H. Geballe, S. Geller, E. Corenzwit, Phys. Rev. 95, 1435 (1954)\n- 2. G.R. Johnson, D.H. Douglass, J. of Low Temp. Phys. 14, 565 (1974)\n- 3. B. Matthias, (Elsevier, 1957), pp. 138–150. DOI https://doi.org/10.1016/S0079-6417(08)60104-3. URL [https://www.sciencedirect.com/science/article/](https://www.sciencedirect.com/science/article/pii/S0079641708601043) [pii/S0079641708601043](https://www.sciencedirect.com/science/article/pii/S0079641708601043)\n- <span id=\"page-9-7\"></span>4. R. Scanlan, A. Malozemoff, D. Larbalestier, Proceedings of the IEEE 92(10), 1639 (2004). DOI 10.1109/jproc. 2004.833673. URL [http://dx.doi.org/10.1109/JPROC.](http://dx.doi.org/10.1109/JPROC.2004.833673) [2004.833673](http://dx.doi.org/10.1109/JPROC.2004.833673)\n- <span id=\"page-9-1\"></span>5. A. Godeke, Superconductor Science and Technology 19(8), R68 (2006). DOI 10.1088/0953-2048/19/8/r02. URL <http://dx.doi.org/10.1088/0953-2048/19/8/R02>\n- <span id=\"page-9-4\"></span>6. G. Stewart, Physica C: Superconductivity and its Applications 514, 28 (2015). DOI 10.1016/j.physc.2015.02. 013. URL [http://dx.doi.org/10.1016/j.physc.2015.](http://dx.doi.org/10.1016/j.physc.2015.02.013) [02.013](http://dx.doi.org/10.1016/j.physc.2015.02.013)\n- <span id=\"page-9-8\"></span>7. X. Xu, Superconductor Science and Technology 30(9), 093001 (2017). DOI 10.1088/1361-6668/aa7976. URL <http://dx.doi.org/10.1088/1361-6668/aa7976>\n- 8. A.V. Narlikar, Superconductors 1st edn (Oxford University Press, 2014)\n- 9. D. Dew-Hughes, Cryogenics 15(8), 435 (1975). DOI 10. 1016/0011-2275(75)90019-3. URL [http://dx.doi.org/](http://dx.doi.org/10.1016/0011-2275(75)90019-3) [10.1016/0011-2275\\(75\\)90019-3](http://dx.doi.org/10.1016/0011-2275(75)90019-3)\n- <span id=\"page-9-5\"></span>10. W. Fietz, IEEE Transactions on Magnetics 15(1), 67 (1979). DOI 10.1109/tmag.1979.1060147. URL [http:](http://dx.doi.org/10.1109/TMAG.1979.1060147) [//dx.doi.org/10.1109/TMAG.1979.1060147](http://dx.doi.org/10.1109/TMAG.1979.1060147)\n- 11. A.I. Braginski, J.R. Gavaler, Superconducting Electronic Film Structures, Semiannual Report (Westinghouse R&D Center, 1985)\n- 12. A.I. Braginski, J.R. Gavaler, Superconducting Electronic Film Structures, Annual Report (Westinghouse R&D Center, 1987)\n- 13. X. Xu, Superconductor Science and Technology 30(9), 093001 (2017). DOI 10.1088/1361-6668/aa7976. URL <https://dx.doi.org/10.1088/1361-6668/aa7976>\n- 14. Y. Wu, L. Bao, X. Wang, Y. Wang, M. Peng, Y. Duan, Materials Today Communications 25, 101410 (2020). DOI https://doi.org/10.1016/j.mtcomm.2020.101410. URL [https://www.sciencedirect.com/science/](https://www.sciencedirect.com/science/article/pii/S2352492820324211) [article/pii/S2352492820324211](https://www.sciencedirect.com/science/article/pii/S2352492820324211)\n- 15. N. Mitchell, P. Bauer, D. Bessette, A. Devred, R. Gallix, C. Jong, J. Knaster, P. Libeyre, B. Lim, A. Sahu, F. Simon, Fusion Engineering and Design 84(2), 113 (2009). DOI https://doi.org/10.1016/j.fusengdes. 2009.01.006. URL [https://www.sciencedirect.com/](https://www.sciencedirect.com/science/article/pii/S0920379609000301) [science/article/pii/S0920379609000301](https://www.sciencedirect.com/science/article/pii/S0920379609000301). Proceeding of the 25th Symposium on Fusion Technology\n- 16. T. Priinits, A. Vargunin, A. Liivand, (2024). To be published\n- <span id=\"page-9-0\"></span>17. J. Muller, Reports on Progress in Physics 43(5), 641 (1980). DOI 10.1088/0034-4885/43/5/003. URL [http:](http://dx.doi.org/10.1088/0034-4885/43/5/003) [//dx.doi.org/10.1088/0034-4885/43/5/003](http://dx.doi.org/10.1088/0034-4885/43/5/003)\n- 18. N. Nevitt, in Intermetallic compounds, ed. by J.H. Westbrook, Wiley Series on the Science and Technology of Materials (John Willey and Sons, 1967)\n- <span id=\"page-9-2\"></span>19. H. Devantay, J.L. Jorda, M. Decroux, J. Muller, R. Fl¨ukiger, Journal of Materials Science 16(8), 2145 (1981). DOI 10.1007/bf00542375. URL [http://dx.doi.](http://dx.doi.org/10.1007/BF00542375) [org/10.1007/BF00542375](http://dx.doi.org/10.1007/BF00542375)\n- <span id=\"page-9-3\"></span>20. Z. Sun, Z. Baraissov, R.D. Porter, L. Shpani, Y.T. Shao, T. Oseroff, M.O. Thompson, D.A. Muller, M.U. Liepe, Superconductor Science and Technology 36(11), 115003 (2023). DOI 10.1088/1361-6668/acf5ab. URL [http://](http://dx.doi.org/10.1088/1361-6668/acf5ab) [dx.doi.org/10.1088/1361-6668/acf5ab](http://dx.doi.org/10.1088/1361-6668/acf5ab)\n- 21. T.J. Rathz. Susceptibility measurements on the superconducting properties of nb-ge alloys (1981). URL [https://ui.adsabs.harvard.edu/abs/1981smsp.](https://ui.adsabs.harvard.edu/abs/1981smsp.rept.....R) [rept.....R](https://ui.adsabs.harvard.edu/abs/1981smsp.rept.....R). Provided by the SAO/NASA Astrophysics Data System\n- <span id=\"page-9-6\"></span>22. B. Glowacki, Intermetallics 7(2), 117 (1999). DOI 10. 1016/s0966-9795(98)00084-3. URL [http://dx.doi.org/](http://dx.doi.org/10.1016/S0966-9795(98)00084-3) [10.1016/S0966-9795\\(98\\)00084-3](http://dx.doi.org/10.1016/S0966-9795(98)00084-3)\n- 23. R. Willens, T. Geballe, A. Gossard, J. Maita, A. Menth, G. Hull, R. Soden, Solid State Communications 7(11), 837 (1969). DOI 10.1016/0038-1098(69)90773-x. URL [http://dx.doi.org/10.1016/0038-1098\\(69\\)90773-X](http://dx.doi.org/10.1016/0038-1098(69)90773-X)\n- 24. F. Fickett, Journal of Research of the National Bureau of Standards 90(2), 95 (1985). DOI 10.6028/jres.090.007. URL <http://dx.doi.org/10.6028/jres.090.007>\n- 25. H.G. Schimmel, J. Huot, L.C. Chapon, F.D. Tichelaar, F.M. Mulder, Journal of the American Chemical Society 127(41), 14348–14354 (2005). DOI 10.1021/ja051508a. URL <http://dx.doi.org/10.1021/ja051508a>\n- 26. K. Buschow, Concise Encyclopedia of Magnetic and Superconducting Materials. Advances in Materials Sciences and Engineering (Elsevier Science, 2005). URL <https://books.google.ee/books?id=N9mvytGEBtwC>\n- 27. D.K. Finnemore, T.F. Stromberg, C.A. Swenson, Phys. Rev. 149, 231 (1966). DOI 10.1103/PhysRev. 149.231. URL [https://link.aps.org/doi/10.1103/](https://link.aps.org/doi/10.1103/PhysRev.149.231) [PhysRev.149.231](https://link.aps.org/doi/10.1103/PhysRev.149.231)\n- 28. W. Baden, A. Weiss, International Journal of Materials Research 74(2), 89–93 (1983). DOI 10.1515/ ijmr-1983-740207. URL [http://dx.doi.org/10.1515/](http://dx.doi.org/10.1515/ijmr-1983-740207) [ijmr-1983-740207](http://dx.doi.org/10.1515/ijmr-1983-740207)\n- 29. M. Aroyo, J. P´erez-Mato, D. Orobengoa, E. Tasci, G. de la Flor, A. Kirov, Bulg. Chem. Commun. 43(2), 183 (2011)\n- 30. M. Aroyo, J. P´erez-Mato, C. Capillas, E. Kroumova, S. Ivantchev, G. Madariaga, A. Kirov, H. Wondratschek, Z. Krist. 221(1), 15 (2006)\n- 31. M.I. Aroyo, A. Kirov, C. Capillas, J.M. P´erez-Mato, H. Wondratschek, Acta Cryst. A62(2), 115 (2006). DOI 10.1107/S0108767305040286\n- 32. S. Ivantchev, E. Kroumova, G. Madariaga, J.M. P´erez-Mato, M.I. Aroyo, J. Appl. Crystallogr. 33(4), 1190 (2000). DOI 10.1107/S0021889800007135\n- 33. O.N. Senkov, D.B. Miracle, Scientific Reports 11(1) (2021). DOI 10.1038/s41598-021-83953-z. URL [http:](http://dx.doi.org/10.1038/s41598-021-83953-z) [//dx.doi.org/10.1038/s41598-021-83953-z](http://dx.doi.org/10.1038/s41598-021-83953-z)\n- <span id=\"page-10-0\"></span>34. K. Inoue, A. Kikuchi, Y. Yoshida, Y. Iijima, Physica C: Superconductivity 384(3), 267–273 (2003). DOI 10.1016/s0921-4534(02)01879-8. URL [http://dx.doi.](http://dx.doi.org/10.1016/S0921-4534(02)01879-8) [org/10.1016/S0921-4534\\(02\\)01879-8](http://dx.doi.org/10.1016/S0921-4534(02)01879-8)\n- <span id=\"page-10-1\"></span>35. S. Posen, D.L. Hall, Superconductor Science and Technology 30(3), 033004 (2017). DOI 10.1088/1361-6668/30/3/ 033004. URL [http://dx.doi.org/10.1088/1361-6668/](http://dx.doi.org/10.1088/1361-6668/30/3/033004) [30/3/033004](http://dx.doi.org/10.1088/1361-6668/30/3/033004)\n- <span id=\"page-10-2\"></span>36. J. Lee, S. Posen, Z. Mao, Y. Trenikhina, K. He, D.L. Hall, M. Liepe, D.N. Seidman, Superconductor Science and Technology 32(2), 024001 (2018). DOI 10.1088/ 1361-6668/aaf268. URL [http://dx.doi.org/10.1088/](http://dx.doi.org/10.1088/1361-6668/aaf268) [1361-6668/aaf268](http://dx.doi.org/10.1088/1361-6668/aaf268)\n- <span id=\"page-10-3\"></span>37. D.F. Moore, R.B. Zubeck, J.M. Rowell, M.R. Beasley, Phys. Rev. B 20, 2721 (1979). DOI 10.1103/PhysRevB. 20.2721. URL [https://link.aps.org/doi/10.1103/](https://link.aps.org/doi/10.1103/PhysRevB.20.2721) [PhysRevB.20.2721](https://link.aps.org/doi/10.1103/PhysRevB.20.2721)\n- <span id=\"page-10-4\"></span>38. L.D. Cooley, C.M. Fischer, P.J. Lee, D.C. Larbalestier, Journal of Applied Physics 96(4), 2122 (2004). DOI 10.1063/1.1763993. URL [http://dx.doi.org/10.1063/](http://dx.doi.org/10.1063/1.1763993) [1.1763993](http://dx.doi.org/10.1063/1.1763993)\n- <span id=\"page-10-5\"></span>39. Y.J. Jo, J. Zhou, Z.H. Sung, P.J. Lee, D.C. Larbalestier, APL Materials 2(10) (2014). DOI 10.1063/1.4896935. URL <http://dx.doi.org/10.1063/1.4896935>\n- <span id=\"page-10-6\"></span>40. F. Gala, G. De Marzi, L. Muzzi, G. Zollo, Physical Chemistry Chemical Physics 18(48), 32840 (2016). DOI 10. 1039/c6cp06699b. URL [http://dx.doi.org/10.1039/](http://dx.doi.org/10.1039/c6cp06699b) [c6cp06699b](http://dx.doi.org/10.1039/c6cp06699b)\n- <span id=\"page-10-7\"></span>41. R. Besson, S. Guyot, A. Legris, Phys. Rev. B 75, 054105 (2007). DOI 10.1103/PhysRevB.75.054105. URL [https:](https://link.aps.org/doi/10.1103/PhysRevB.75.054105) [//link.aps.org/doi/10.1103/PhysRevB.75.054105](https://link.aps.org/doi/10.1103/PhysRevB.75.054105)\n- <span id=\"page-10-8\"></span>42. Y. Li, Y. Gao, Scientific Reports 7(1) (2017). DOI 10. 1038/s41598-017-01292-4. URL [http://dx.doi.org/10.](http://dx.doi.org/10.1038/s41598-017-01292-4) [1038/s41598-017-01292-4](http://dx.doi.org/10.1038/s41598-017-01292-4)\n- <span id=\"page-10-9\"></span>43. J. Lee, Z. Mao, K. He, Z.H. Sung, T. Spina, S.I. Baik, D.L. Hall, M. Liepe, D.N. Seidman, S. Posen, Acta Materialia 188, 155 (2020). DOI 10.1016/j.actamat.2020. 01.055. URL [http://dx.doi.org/10.1016/j.actamat.](http://dx.doi.org/10.1016/j.actamat.2020.01.055) [2020.01.055](http://dx.doi.org/10.1016/j.actamat.2020.01.055)\n- <span id=\"page-10-10\"></span>44. M. Putti, R. Vaglio, J.M. Rowell, Superconductor Science and Technology 21(4), 043001 (2008). DOI 10.1088/ 0953-2048/21/4/043001. URL [http://dx.doi.org/10.](http://dx.doi.org/10.1088/0953-2048/21/4/043001) [1088/0953-2048/21/4/043001](http://dx.doi.org/10.1088/0953-2048/21/4/043001)\n- <span id=\"page-10-11\"></span>45. A. Godeke, B.t. Haken, H.H.J.t. Kate, D.C. Larbalestier, Superconductor Science and Technology 19(10), R100 (2006). DOI 10.1088/0953-2048/19/10/r02. URL [http:](http://dx.doi.org/10.1088/0953-2048/19/10/R02) [//dx.doi.org/10.1088/0953-2048/19/10/R02](http://dx.doi.org/10.1088/0953-2048/19/10/R02)\n- <span id=\"page-10-12\"></span>46. J. Gavaler, M. Janocko, A. Braginski, G. Roland, IEEE Transactions on Magnetics 11(2), 192 (1975). DOI 10. 1109/tmag.1975.1058651. URL [http://dx.doi.org/10.](http://dx.doi.org/10.1109/TMAG.1975.1058651) [1109/TMAG.1975.1058651](http://dx.doi.org/10.1109/TMAG.1975.1058651)\n- <span id=\"page-10-13\"></span>47. W. Specking, H. Kiesel, H. Nakajima, T. Ando, H. Tsuji, Y. Yamada, M. Nagata, IEEE Transactions on Applied Superconductivity 3(1), 1342 (1993). DOI 10.1109/77. 233651. URL <http://dx.doi.org/10.1109/77.233651>\n- <span id=\"page-10-14\"></span>48. N.S. Sitaraman, Z. Sun, B.L. Francis, A.C. Hire, T. Oseroff, Z. Baraissov, T.A. Arias, R.G. Hennig, M.U. Liepe, D.A. Muller, M.K. Transtrum, Phys. Rev. Appl. 20, 014064 (2023). DOI 10.1103/PhysRevApplied. 20.014064. URL [https://link.aps.org/doi/10.1103/](https://link.aps.org/doi/10.1103/PhysRevApplied.20.014064) [PhysRevApplied.20.014064](https://link.aps.org/doi/10.1103/PhysRevApplied.20.014064)\n- <span id=\"page-10-15\"></span>49. P. Lee, D. Larbalestier, in Proceedings of the 2003 Bipolar/BiCMOS Circuits and Technology Meeting (IEEE Cat. No.03CH37440), PAC-03, vol. 1 (IEEE, 2003), PAC-03, vol. 1, pp. 151 – 155 Vol.1. DOI 10.1109/pac.2003.1288865. URL [http://dx.doi.org/](http://dx.doi.org/10.1109/PAC.2003.1288865) [10.1109/PAC.2003.1288865](http://dx.doi.org/10.1109/PAC.2003.1288865)\n- <span id=\"page-10-16\"></span>50. A.M. Valente-Feliciano, Superconductor Science and Technology 29(11), 113002 (2016). DOI 10.1088/ 0953-2048/29/11/113002. URL [http://dx.doi.org/10.](http://dx.doi.org/10.1088/0953-2048/29/11/113002) [1088/0953-2048/29/11/113002](http://dx.doi.org/10.1088/0953-2048/29/11/113002)\n- <span id=\"page-10-17\"></span>51. R. Fl¨ukiger, D. Uglietti, C. Senatore, F. Buta, Cryogenics 48(7-8), 293 (2008). DOI 10.1016/j.cryogenics.2008.05. 005. URL [http://dx.doi.org/10.1016/j.cryogenics.](http://dx.doi.org/10.1016/j.cryogenics.2008.05.005) [2008.05.005](http://dx.doi.org/10.1016/j.cryogenics.2008.05.005)\n- <span id=\"page-10-18\"></span>52. J. Zhou, Y. Jo, Z. Hawn Sung, H. Zhou, P.J. Lee, D.C. Larbalestier, Applied Physics Letters 99(12) (2011). DOI 10.1063/1.3643055. URL [http://dx.doi.org/10.1063/](http://dx.doi.org/10.1063/1.3643055) [1.3643055](http://dx.doi.org/10.1063/1.3643055)\n- <span id=\"page-10-19\"></span>53. L. Muzzi, G. De Marzi, A. Di Zenobio, A. della Corte, Superconductor Science and Technology 28(5), 053001 (2015). DOI 10.1088/0953-2048/28/5/053001. URL <http://dx.doi.org/10.1088/0953-2048/28/5/053001>\n- <span id=\"page-10-20\"></span>54. S. Posen, J. Lee, D.N. Seidman, A. Romanenko, B. Tennis, O.S. Melnychuk, D.A. Sergatskov, Superconductor Science and Technology 34(2), 025007 (2021). DOI 10.1088/1361-6668/abc7f7. URL [http://dx.doi.org/](http://dx.doi.org/10.1088/1361-6668/abc7f7) [10.1088/1361-6668/abc7f7](http://dx.doi.org/10.1088/1361-6668/abc7f7)\n- <span id=\"page-10-21\"></span>55. R.V. Holla, Journal of Undergraduate Research 5(1), 49 (2015)\n- <span id=\"page-10-22\"></span>56. H. Oyama, T. Shinzato, K. Hayashi, K. Kitajima, T. Ariyoshi, T. Sawai, SEI Tech. Rev 67, 22 (2008)\n- <span id=\"page-10-23\"></span>57. H. Thomas, A. Marian, A. Chervyakov, S. St¨uckrad, D. Salmieri, C. Rubbia, Renewable and Sustainable Energy Reviews 55, 59 (2016). DOI 10.1016/j.rser.2015.10.\n\n041. URL [http://dx.doi.org/10.1016/j.rser.2015.](http://dx.doi.org/10.1016/j.rser.2015.10.041) [10.041](http://dx.doi.org/10.1016/j.rser.2015.10.041)\n\n- <span id=\"page-11-0\"></span>58. Y. Shirai, T. Morimoto, K. Furushiba, M. Shiotsu, K. Fushiki, J. Baba, T. Nitta, Journal of Physics: Conference Series 43, 958–961 (2006). DOI 10. 1088/1742-6596/43/1/234. URL [http://dx.doi.org/](http://dx.doi.org/10.1088/1742-6596/43/1/234) [10.1088/1742-6596/43/1/234](http://dx.doi.org/10.1088/1742-6596/43/1/234)\n- <span id=\"page-11-1\"></span>59. B. Keimer, J.E. Moore, Nature Physics 13(11), 1045 (2017). DOI 10.1038/nphys4302. URL [http://dx.doi.](http://dx.doi.org/10.1038/nphys4302) [org/10.1038/nphys4302](http://dx.doi.org/10.1038/nphys4302)\n- <span id=\"page-11-2\"></span>60. J. Huang, R. Fu, X. Ye, D. Fan, CCF Transactions on High Performance Computing 4(1), 1 (2022). DOI 10.1007/s42514-022-00089-w. URL [http://dx.doi.org/](http://dx.doi.org/10.1007/s42514-022-00089-w) [10.1007/s42514-022-00089-w](http://dx.doi.org/10.1007/s42514-022-00089-w)\n- <span id=\"page-11-3\"></span>61. S. Pagano, C. Barone, M. Borghesi, W. Chung, G. Carapella, A.P. Caricato, I. Carusotto, A. Cian, D.D. Gioacchino, E. Enrico, P. Falferi, L. Fasolo, M. Faverzani, E. Ferri, G. Filatrella, C. Gatti, A. Giachero, D. Giubertoni, A. Greco, C. Kutlu, A. Leo, C. Ligi, G. Maccarrone, B. Margesin, G. Maruccio, A. Matlashov, C. Mauro, R. Mezzena, A.G. Monteduro, A. Nucciotti, L. Oberto, V. Pierro, L. Piersanti, M. Rajteri, A. Rettaroli, S. Rizzato, Y.K. Semertzidis, S. Uchaikin, A. Vinante, IEEE Transactions on Applied Superconductivity 32(4), 1 (2022). DOI 10.1109/tasc.2022.3145782. URL [http:](http://dx.doi.org/10.1109/TASC.2022.3145782) [//dx.doi.org/10.1109/TASC.2022.3145782](http://dx.doi.org/10.1109/TASC.2022.3145782)\n- <span id=\"page-11-4\"></span>62. J.P. Sprengers, A. Gaggero, D. Sahin, S. Jahanmirinejad, G. Frucci, F. Mattioli, R. Leoni, J. Beetz, M. Lermer, M. Kamp, S. H¨ofling, R. Sanjines, A. Fiore, Applied Physics Letters 99(18) (2011). DOI 10.1063/1.3657518. URL <http://dx.doi.org/10.1063/1.3657518>\n- <span id=\"page-11-5\"></span>63. K.R. Long, D. Lucchesi, M.A. Palmer, N. Pastrone, D. Schulte, V. Shiltsev, Nature Physics 17(3), 289 (2021). DOI 10.1038/s41567-020-01130-x. URL [http://dx.doi.](http://dx.doi.org/10.1038/s41567-020-01130-x) [org/10.1038/s41567-020-01130-x](http://dx.doi.org/10.1038/s41567-020-01130-x)\n- <span id=\"page-11-6\"></span>64. D. Gandolfi, M. Niedermayr, M. Kumph, M. Brownnutt, R. Blatt, Review of Scientific Instruments 83(8) (2012). DOI 10.1063/1.4737889. URL [http://dx.doi.org/10.](http://dx.doi.org/10.1063/1.4737889) [1063/1.4737889](http://dx.doi.org/10.1063/1.4737889)",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Peculiarities of niobium-based superconducting alloys in the\nlight of crystal chemistry: A brief survey",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              41.32421875,
+              137.36224365234375
+            ],
+            [
+              518.58984375,
+              137.36224365234375
+            ],
+            [
+              518.58984375,
+              171.23541259765625
+            ],
+            [
+              41.32421875,
+              171.23541259765625
+            ]
+          ]
+        },
+        {
+          "title": "A. Liivand",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              42.111995697021484,
+              723.3348388671875
+            ],
+            [
+              84.39453125,
+              723.3348388671875
+            ],
+            [
+              84.39453125,
+              732.638671875
+            ],
+            [
+              42.111995697021484,
+              732.638671875
+            ]
+          ]
+        },
+        {
+          "title": "1 Introduction",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              297.1910095214844,
+              447.3125
+            ],
+            [
+              369.3501281738281,
+              447.3125
+            ],
+            [
+              369.3501281738281,
+              457.424560546875
+            ],
+            [
+              297.1910095214844,
+              457.424560546875
+            ]
+          ]
+        },
+        {
+          "title": "2 On structural chemistry of A-15-type\nsuperconducting intermetallics",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              296.25390625,
+              410.1019592285156
+            ],
+            [
+              493.75311279296875,
+              410.1019592285156
+            ],
+            [
+              493.75311279296875,
+              433.333984375
+            ],
+            [
+              296.25390625,
+              433.333984375
+            ]
+          ]
+        },
+        {
+          "title": "2.1 Crystallographic data, stoichiometry and\nstructural orderings",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              41.25146484375,
+              223.3028564453125
+            ],
+            [
+              236.66160583496094,
+              223.3028564453125
+            ],
+            [
+              236.66160583496094,
+              245.857421875
+            ],
+            [
+              41.25146484375,
+              245.857421875
+            ]
+          ]
+        },
+        {
+          "title": "2.2 Structural evolution and complexity",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              40.96044921875,
+              375.8529357910156
+            ],
+            [
+              215.4911346435547,
+              375.8529357910156
+            ],
+            [
+              215.4911346435547,
+              385.84814453125
+            ],
+            [
+              40.96044921875,
+              385.84814453125
+            ]
+          ]
+        },
+        {
+          "title": "2.3 On the crystallographic origins of Nb chain\nformation",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              41.90625,
+              346.99609375
+            ],
+            [
+              247.072265625,
+              346.99609375
+            ],
+            [
+              247.072265625,
+              370.25140380859375
+            ],
+            [
+              41.90625,
+              370.25140380859375
+            ]
+          ]
+        },
+        {
+          "title": "2.4 Induced anisotropy as an effect of the\ncrystallographic orientation",
+          "heading_level": null,
+          "page_id": 4,
+          "polygon": [
+            [
+              297.19097900390625,
+              297.06689453125
+            ],
+            [
+              477.334716796875,
+              297.06689453125
+            ],
+            [
+              477.334716796875,
+              319.48248291015625
+            ],
+            [
+              297.19097900390625,
+              319.48248291015625
+            ]
+          ]
+        },
+        {
+          "title": "2.5 Stoichiometric features",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              295.671875,
+              661.2239379882812
+            ],
+            [
+              414.98828125,
+              661.2239379882812
+            ],
+            [
+              414.98828125,
+              671.1865386962891
+            ],
+            [
+              295.671875,
+              671.1865386962891
+            ]
+          ]
+        },
+        {
+          "title": "3 Applications",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              41.83349609375,
+              681.6930999755859
+            ],
+            [
+              113.77296447753906,
+              681.6930999755859
+            ],
+            [
+              113.77296447753906,
+              691.9365234375
+            ],
+            [
+              41.83349609375,
+              691.9365234375
+            ]
+          ]
+        },
+        {
+          "title": "3.1 A-15 and other Nb based superconductors",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              297.1910095214844,
+              289.18115234375
+            ],
+            [
+              497.63671875,
+              289.18115234375
+            ],
+            [
+              497.63671875,
+              299.14373779296875
+            ],
+            [
+              297.1910095214844,
+              299.14373779296875
+            ]
+          ]
+        },
+        {
+          "title": "3.2 High Energy Physics",
+          "heading_level": null,
+          "page_id": 6,
+          "polygon": [
+            [
+              297.19091796875,
+              559.5132446289062
+            ],
+            [
+              403.9296875,
+              559.5132446289062
+            ],
+            [
+              403.9296875,
+              569.830078125
+            ],
+            [
+              297.19091796875,
+              569.830078125
+            ]
+          ]
+        },
+        {
+          "title": "3.3 Fusion",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              41.68798828125,
+              341.0708923339844
+            ],
+            [
+              87.7412109375,
+              341.0708923339844
+            ],
+            [
+              87.7412109375,
+              351.0334777832031
+            ],
+            [
+              41.68798828125,
+              351.0334777832031
+            ]
+          ]
+        },
+        {
+          "title": "3.4 Scientific research, biology and medicine",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              41.4697265625,
+              512.271484375
+            ],
+            [
+              234.55859375,
+              512.271484375
+            ],
+            [
+              234.55859375,
+              522.4905090332031
+            ],
+            [
+              41.4697265625,
+              522.4905090332031
+            ]
+          ]
+        },
+        {
+          "title": "3.5 Industry and economic benefits",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              41.68798828125,
+              708.79296875
+            ],
+            [
+              195.5625,
+              708.79296875
+            ],
+            [
+              195.5625,
+              718.8545227050781
+            ],
+            [
+              41.68798828125,
+              718.8545227050781
+            ]
+          ]
+        },
+        {
+          "title": "3.6 Future developments in applied superconductivity",
+          "heading_level": null,
+          "page_id": 7,
+          "polygon": [
+            [
+              295.380859375,
+              459.2269287109375
+            ],
+            [
+              532.267578125,
+              459.2269287109375
+            ],
+            [
+              532.267578125,
+              469.18951416015625
+            ],
+            [
+              295.380859375,
+              469.18951416015625
+            ]
+          ]
+        },
+        {
+          "title": "4 Conclusion",
+          "heading_level": null,
+          "page_id": 8,
+          "polygon": [
+            [
+              41.54248046875,
+              683.5390014648438
+            ],
+            [
+              105.91250610351562,
+              683.5390014648438
+            ],
+            [
+              105.91250610351562,
+              693.9921875
+            ],
+            [
+              41.54248046875,
+              693.9921875
+            ]
+          ]
+        },
+        {
+          "title": "Acknowledgements",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              41.797119140625,
+              555.4404296875
+            ],
+            [
+              128.62890625,
+              555.4404296875
+            ],
+            [
+              128.62890625,
+              564.4853515625
+            ],
+            [
+              41.797119140625,
+              564.4853515625
+            ]
+          ]
+        },
+        {
+          "title": "Conflict of interest",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              42.0517578125,
+              586.6865234375
+            ],
+            [
+              137.359375,
+              586.6865234375
+            ],
+            [
+              137.359375,
+              597.0874633789062
+            ],
+            [
+              42.0517578125,
+              597.0874633789062
+            ]
+          ]
+        },
+        {
+          "title": "References",
+          "heading_level": null,
+          "page_id": 9,
+          "polygon": [
+            [
+              42.11199188232422,
+              655.8478546142578
+            ],
+            [
+              95.87017822265625,
+              655.8478546142578
+            ],
+            [
+              95.87017822265625,
+              665.8104553222656
+            ],
+            [
+              42.11199188232422,
+              665.8104553222656
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              149
+            ],
+            [
+              "Line",
+              76
+            ],
+            [
+              "Text",
+              9
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "Footnote",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              197
+            ],
+            [
+              "Line",
+              105
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              440
+            ],
+            [
+              "Line",
+              132
+            ],
+            [
+              "TableCell",
+              30
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              235
+            ],
+            [
+              "Line",
+              72
+            ],
+            [
+              "TableCell",
+              15
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              235
+            ],
+            [
+              "Line",
+              102
+            ],
+            [
+              "Text",
+              5
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              76
+            ],
+            [
+              "Line",
+              25
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              308
+            ],
+            [
+              "Line",
+              105
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              221
+            ],
+            [
+              "Line",
+              94
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "TableCell",
+              6
+            ],
+            [
+              "SectionHeader",
+              4
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Table",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "TableGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 8,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              238
+            ],
+            [
+              "Line",
+              105
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "ListItem",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 9,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              380
+            ],
+            [
+              "Line",
+              118
+            ],
+            [
+              "ListItem",
+              22
+            ],
+            [
+              "Reference",
+              9
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "ListGroup",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 10,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              508
+            ],
+            [
+              "Line",
+              134
+            ],
+            [
+              "ListItem",
+              35
+            ],
+            [
+              "Reference",
+              24
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "ListGroup",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 11,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              126
+            ],
+            [
+              "Line",
+              41
+            ],
+            [
+              "ListItem",
+              7
+            ],
+            [
+              "Reference",
+              7
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ]
+    },
+    "success": true,
+    "error": "",
+    "page_count": 12,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Peculiarities of niobium-based superconducting alloys in the light of crystal chemistry: A brief survey",
+    "authors": [
+      {
+        "authors_list": [
+          "Priinits, Taimo",
+          "Vargunin, Artjom",
+          "Liivand, Aleksandr"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "In this survey, we focus on Nb-based binary intermetallic compounds, which have been widely used over the last 40 years to develop a range of superconducting applications, including non-standard engineering solutions in the design of large magnets. However, since the 1980s, when it became apparent that the mechanical and superior superconducting properties of ordered intermetallic alloys such as Nb$_{3}$Sn were largely due to their unique structural features, much of the research interest in the science of superconducting intermetallic alloys has been redirected to the development of necessary engineering applications in high magnetic field technology. Accordingly, the important role of crystal chemistry in understanding the fundamental aspects of the material properties of the Nb$_{3}$Sn family of intermetallics has been little explored. In the paper, we try to fill this gap by investigating the relationships between composition, microstructure and properties, highlighting their relevance to technological applications. Our goal is to link aspects of crystal chemistry with materials application issues. We shed light on the atomic assembly mechanisms and processes in terms of changes in the chemical environment, lattice structure, crystallization pathway, and macroscale phase textures, which can help in interpreting and explaining the prospects and limitations of the superconducting properties of Nb$_{3}$Sn. In the context of past and present prospects and limitations we briefly overview most important technological applications and discuss the various interrelations between superconductivity and structural properties of Nb-based A-15 intermetallic alloys. We argue that these interrelations can be used to find the Nb-based superconductors with more superior properties and stronger technological usability.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2406.00817"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.2406.00817",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2024arXiv240600817P"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

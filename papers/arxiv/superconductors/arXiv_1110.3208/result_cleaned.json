@@ -1,0 +1,488 @@
+{
+  "id": "0b03caa383b1e4ad8937f80e4ec9b410",
+  "pdf_path": "apl/Superconductors/arXiv:1110.3208.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "# Spatial periodic and homogeneous transverse stress loading on ITER TF Nb3Sn bronze and internal tin strand\n\nA. Nijhuis, R.P. Pompe van Meerdervoort, W.A.J. Wessel\n\n*Abstract***— The transport properties of the superconducting Nb3Sn layers in the strands strongly depend on the strain state. Knowledge of the influence of axial strain, periodic bending and contact stress on the critical current (***I***c) of the used Nb3Sn strands is inevitable to gain sufficient confidence in an economic design and stable operation of ITER CICCs. In the past years we have measured the Ic and n-value of various ITER Nb3Sn strands with different layout in the TARSIS facility, when subjected to spatial periodic contact stress at a temperature of 4.2 K and in a magnet field of 12 T. Recently we have made the setup suitable for application of homogeneous load along the length of the wire (125 mm) in order to evaluate possible differences related to spatial stress and possible current distribution. We present an overview of the results obtained so far on an ITER TF bronze and internal tin strand.**\n\n*Index Terms***—Nb3Sn, strain, transverse load.** \n\n## I. INTRODUCTION\n\nHE envisaged CICCs for ITER consist out of more than 1000 strands with a strand diameter of about 0.8 mm. The conductors are cabled by twisting in several stages following a wavy pattern. During magnet operation, they carry currents in the order of 50-70 kA in a magnetic field locally exceeding 12 T, hence subjecting them to severe transverse loading (bending and contact stress) due to the huge Lorentz forces. Bending and pinching at the contacts of Nb3Sn strand affects the critical current and creates a periodic strain variation along the filaments and a strain distribution along the wires [1]. The magnitude and periodicity of the bending and contact strain (distribution) in combination with the strand stiffness and the ability of a strand to redistribute the current between the filaments, determines the impact on the critical current and nvalue of the final cabled conductor. T\n\nThe single strand properties in terms of the composite stiffness and the change of the Ic and n-value under various transverse load conditions are crucial input parameters for various models. For this reason, the TARSIS setup with different probes to simulate equivalently ITER magnet operating conditions on single strands was build. Probes were\n\ndeveloped for periodical strand bending with cyclic loading using different bending wavelengths, for the characterisation of the axial tensile stress strain behaviour of strands and subsize cables (several references can be found in [1, 2]).\n\nThe impact of local transverse loads at strand crossings has not received much attention worldwide since the first papers appeared on this subject [3-5], although for accelerator type of conductors additional effort was done [6, 7]. Recent work on homogenous stress and Nb3Sn can be found in [8]. Transverse stresses can be quite severe at one side of particularly large ITER type of cables, depending on the cabling pattern, resulting in to an accumulated load that can reach peak values in the order of 100 MPa. In particular strand types that are not well mechanically protected against severe local stresses, for example strands with large Kirkendall voids (due to the reaction of tin with niobium leaving voids where the tin was located before reaction heat treatment), may be more susceptible to this type of load [6]. The aim of this work is to quantify the influence of the transverse stress and in particular investigate the influence of stress distribution in terms of periodicity. This may lead to a better understanding of the role of the interfilament current redistribution on the average strand electric field and its distribution [9, 10].\n\nHere, we describe the modified probe to study the difference of transverse contact load on perpendicularly crossing and pinching strands and we present the first results on a bronze (BR) and internal tin (IT) ITER Nb3Sn strand.\n\n## II. EXPERIMENTAL SET UP\n\nThe design requirements of the TARSIS setup and its probe for periodic contact stress is described in detail in [2]. The advantage of the TARSIS setup is that besides precise measurement of the strand amplitude of deflection or deformation, also the applied force is monitored for transverse stress-strain analysis. Photographs of the probe with wire sample, crossing strands and homogeneous load cap is shown in [Fig. 1.](#page-1-0) The wire runs along the circumference of a cylindrical plate with an outer diameter of 47 mm and is entirely supported by the flange of the outer barrel. The cylindrical support plate has radial grooves on top from centre to the outer perimeter to guide the crossing strand sections. A cap having a flat bottom is placed on top, transferring the load from the crossing strands between cap and support plate with grooves to the circular sample wire. The load on the crossing strands is utilised by moving a thrust bar in the direction of the\n\nManuscript received 12 September 2011. This work was supported in part by the ITER International Organisation, Cadarache (France) and F4E Barcelona (Spain).\n\nA. Nijhuis, R.P. Pompe van Meerdervoort, W.A.J. Wessel are with the University of Twente, Faculty of Science & Technology, Energy, Materials & Systems, 7500AE Enschede, The Netherlands; e-mail: a.nijhuis@utwente.nl.\n\nsample. The force applied with the thrust bar is measured with a load cell outside the cryostat. For the actual deflection measurement, we attach an extensometer in each of the three slots of the barrel. The current sharing voltage per unit length (*E*) is measured by means of three pairs of voltage taps corresponding with the location of the three extensometers, so the homogeneity of the load is probed as well. The spatial periodicity (wavelength) for crossing strands is 4.7 mm and the wire length subjected to homogeneous load is 125 mm.\n\n![](_page_1_Picture_2.jpeg)\n\nFig. 1 A photograph of the of the X-strands probe (top) with test wire (soldered voltage taps are visible) and crossing wires. In the middle the flat ring is shown for homogeneous load and below with the top plate mounted.\n\n## III. STRAND AND SAMPLE PREPARATION\n\n<span id=\"page-1-0\"></span>The sample preparation is described in detail in [2]. The two Nb3Sn samples for the tests, one bronze and one internal tin type, are taken from the ITER TF production. The diameter is 0.82 mm. The wire is wound on the cylinder prior to the heat treatment with an axial pre-stress of 25 MPa. The sample is mounted on the sample holder under a slight transverse preload before heat treatment to guarantee contact with the load points and avoid settling alterations during the initial loads of the test. The applied heat treatment schedules are as specified by ITER IO. The distance between the voltage taps is 23 mm for the X-strands probe and 20 mm in the case of the homogenous stress arrangement. The filament twist pitch of the strand is about 15 mm.\n\n## IV. EXPERIMENTAL RESULTS\n\n## *A. Critical current and n-value*\n\nThe measurements are performed at a temperature of 4.2 K and a magnetic field of 12 T. The voltage current traces (V-I) at various applied contact loads are recorded from 1 µV/m up to an electric field level of at least 100 µV/m. Increasing interfilament current transfer results in a lower n-value. The longitudinal electric field in a strand *E*<sup>z</sup> is a non-linear function of the current, of the temperature and of the magnetic field. It is calculated by solving the following equations where *A*sc and *A*<sup>m</sup> are the area of the cross section which are occupied by superconductor and matrix material respectively, *J*sc and *J*<sup>m</sup> are the current density in the superconductor and in the matrix material, *E*<sup>c</sup> and *J*<sup>c</sup> are the critical parameters of the superconductors and ρm is the electrical resistivity of the matrix material. The axial strain of the Nb3Sn filaments and the stabiliser is represented by ε.\n\n$$I = J\\_{uc}A\\_{uc} + J\\_m A\\_m \\quad ; \\quad E = E\\_c \\left(\\frac{J\\_{uc}}{J\\_c\\left(T, B, \\varepsilon\\right)}\\right)^{n\\left(T, B, \\varepsilon\\right)} = \\rho\\_m\\left(T, B, \\varepsilon\\right)J\\_m \\tag{1}$$\n\nFor a given current and a possible change in the matrix resistivity, the *I*<sup>c</sup> will change accordingly.\n\nThe *n*-values are normally determined from the *V-I* curves in the electric field range of 10-100 µV/m with the commonly used power law *V-I* representation from relation (1). The *V-I* characteristic, as the current increases, gradually travels from no to full current transfer and the characteristic strongly depends on the local strain distribution and interfilament resistivity. Classically we assume strands to have a constant n value obeying a power law fit but for increasing strain, the *V-I* curve does not follow anymore the power law. This is illustrated by a few selected *V-I* curves at different loads in [Fig. 2](#page-1-1) where it clear that not only the steepness of the curves changes with increasing load but also the shape.\n\n![](_page_1_Figure_13.jpeg)\n\n<span id=\"page-1-1\"></span>Fig. 2 Examples of measured voltage current curves for virgin state, a stress level of 100 MPa and release to zero after 100 MPa.\n\nNevertheless, we keep using the classical formulation of the n-value, reflecting the steepness of the *V-I* transition between 10 and 100 µV/m, in order to avoid confusion in discussions with reference to the traditional definition.\n\nThe critical current versus the applied load for a periodicity of 4.7 mm of crossing strands is presented in [Fig. 3.](#page-2-0) The critical currents under load, taken at an electric field of 10 µV/m, are normalized to the *I*c0 in the virgin (unloaded) condition of the strand for display in the plots. The load is increased stepwise with intermediate release to zero in order to evaluate the irreversibility stress level. The irreversibility threshold may or may not be related to damage in the Nb3Sn layers but is also associated with plastic strand deformation. The applied stress (MPa) is calculated as the projected cross sectional area. So for the crossing strands (X-strand) the area is taken as the force per strand crossing, divided by the square\n\n![](_page_2_Figure_1.jpeg)\n\n<span id=\"page-2-0\"></span>Fig. 3 The reduction in critical current for the BR and IT strand versus the applied stress for the X-strands test.\n\n![](_page_2_Figure_3.jpeg)\n\n<span id=\"page-2-1\"></span>Fig. 4 The reduction of the n-value for the BR and IT strand versus the applied stress for for the X-strands test.\n\n![](_page_2_Figure_5.jpeg)\n\n<span id=\"page-2-2\"></span>Fig. 5 The reduction in critical current for the BR and IT strand versus the applied stress for homogeneous distributed load.\n\n![](_page_2_Figure_7.jpeg)\n\n<span id=\"page-2-3\"></span>Fig. 6 The reduction of the n-value for the BR and IT strand versus the applied stress for homogeneous distributed load.\n\nThe evolution of the n-value with applied stress is depicted in [Fig. 4,](#page-2-1) the critical current and n-value versus the applied load for homogeneous load is presented in [Fig. 5](#page-2-2) and [Fig. 6.](#page-2-3)\n\nThe BR-wire is clearly less sensitive then the IT-wire, to both transverse X-strand and homogeneous stress at higher load levels. However, for X-strands the irreversibility for BRwire starts to occur at about 20 MPa while for IT-wire this is much higher (about 40 MPa). For homogeneous load we find an increase of the Ic with applied load for the BR-wire up to 30 MPa, likely attributed to stress release in the strand matrix, while the IT-wire shows only a gradual decrease of the *I*c. The irreversibility stress level for homogeneous load (likely best represented by an irreversible degradation of the *n*-value, is found at 60 MPa for BR-wire while for the IT-wire it is at about 20 MPa.\n\nIn the previous figures, the reduction of the *I*<sup>c</sup> and *n*-value is plot against the applied stress in the contact zone. When we plot the reduction of the *I*<sup>c</sup> against the length of the strand which is subjected to the load, then the sensitivity is much higher for X-strands as the load is concentrated in the contact points giving high local stress (see [Fig. 7,](#page-3-0) we have observed a similar tendency for BR). For homogeneous load the applied force is distributed along the length and its impact is obviously much less. Obviously this reflects the different condition in a CICC with long or short twist pitches [1]. When we compare the influence of local periodic and homogeneous stress, the reduction in *I*<sup>c</sup> follows exactly the same tendency for both stress distributions (see [Fig. 8\\)](#page-3-1). Similar tendencies are observed for BR wire [\\(Fig. 9\\)](#page-3-2) and the evolution of the *n*-value [\\(Fig. 10](#page-3-3) and [Fig. 11\\)](#page-3-4).\n\n## V. DISCUSSION\n\nThis means that the absolute value of the stress determines the reduction in Ic and n-value and the spatial distribution seems not relevant for the measured conditions; X-strand periodicity of 4.7 mm and homogeneous distribution. In fact this is well in agreement with the results found for periodic bending with different bending wavelengths. For spatial periodic bending of three Nb3Sn strands, manufactured with different processing techniques, we found that the critical current reduction versus applied bending strain was similar for all applied wavelengths of 5.0, 7.2, 8.3 and 10.0 mm [11, 12]. Also here the periodicity is not important but only the applied peak bending strain.\n\nThe next step in this study is to test a spatial periodicity with larger spacing between the crossing strands and to evaluate the required length for interfilament current redistribution in order to reach lower average electric fields along the wires. This will be evaluated with the strand model presently under development and the ongoing studies on intrastrand resistance distribution and current transfer length [9, 10] and additional voltage taps. The interstrand current transfer length in CICCs depends on the loading history and void fraction but is expected to go with relatively long interstrand current transfer lengths.\n\n![](_page_3_Figure_1.jpeg)\n\n<span id=\"page-3-0\"></span>Fig. 7 The reduction of the Ic versus the applied load per meter strand (IT) for X-strands and homogeneous load.\n\n![](_page_3_Figure_3.jpeg)\n\n<span id=\"page-3-1\"></span>Fig. 8 The reduction of the Ic versus the applied stress (IT) for X-strands and homogeneous load.\n\n![](_page_3_Figure_5.jpeg)\n\n<span id=\"page-3-2\"></span>Fig. 9 The reduction of the Ic versus the applied stress (BR) for X-strands and homogeneous load.\n\n![](_page_3_Figure_7.jpeg)\n\n<span id=\"page-3-3\"></span>Fig. 10 The reduction of the n-value versus the applied stress (BR) for Xstrands and homogeneous load.\n\n![](_page_3_Figure_9.jpeg)\n\n<span id=\"page-3-4\"></span>Fig. 11 The reduction of the n-value versus the applied stress (IT) for Xstrands and homogeneous load.\n\n## VI. CONCLUSIONS\n\nThe effect of spatial periodic loading with crossing strands and homogeneously distributed load on the transport properties is compared for a bronze and internal tin ITER TF Nb3Sn strand.\n\nThe irreversible stress level differs for both load distributions and strand type, varying between 20 and 60 MPa. The absolute value of the stress determines the reduction in *I*<sup>c</sup> and *n*-value and the spatial distribution seems not relevant for a crossing strand periodicity of 4.7 mm compared to homogeneous distribution. This is well in agreement with the results found for periodic bending with different bending wavelengths. More work is needed to explore the relation between periodicity and performance reduction.\n\n## REFERENCES\n\n- [1] A Nijhuis and Y Ilyin, 'Transverse Load Optimisation in Nb3Sn CICC Design; Influence of Cabling, Void Fraction and Strand Stiffness', Supercond. Sci. Technol. 19 (2006) 945-962\n- [2] A Nijhuis, Y Ilyin, W A J Wessel, 'Spatial periodic contact stress and critical current of a Nb3Sn strand measured in TARSIS', 2006 Supercond. Sci. Technol. 19 1089-1096\n- [3] Bray S L and Ekin J W 1992 Adv Cryo Eng (Materials) 38 643\n- [4] Specking W, Goldacker W and Flukiger R 1988 Adv in Cryo Eng (Materials) 34 569\n- [5] Boschman H van de Klundert L J M 1990 Adv Cryo Eng 36 93\n- [6] van Oort J M 2000 'Critical current degradation in Nb3Sn superconductors in accelerator magnets' PhD thesis University of Twente ISBN 90-36514029\n- [7] Pasztor C Anghel A Jakob B Wesche R 1994 IEEE Trans Magn 30 1938-41\n- [8] Seeber B.; Ferreira A.; Abaecherli V.; et al.: Critical current of a Nb3Sn bronze route conductor under uniaxial tensile and transverse compressive stress (2007), Supercond Sci Techn 20 S184-S188\n- [9] Zhou, C., Van Lanen, E.P.A., Veldhuis, D., Dhallé, M., Nijhuis, A.,\"Direct measurement of inter-filament resistance in superconducting multifilamentary NbTi and Nb3Sn strands\" IEEE Transactions on Applied Superconductivity 21 (2011), art. no. 5634121, pp. 2501-2504\n- [10] Y. Miyoshi, E.P.A. van Lanen, C. Zhou, A. Nijhuis 'Modelling of current distribution in multifilamentary strands subjected to bending', paper presented on this conference\n- [11] A Nijhuis, N van den Eijnden, Y Ilyin, E G van Putten, G J T Veening, W A J Wessel, A den Ouden, and H H J ten Kate, 'Impact of Spatial Periodic Bending and Load Cycling on the Critical Current of a Nb3Sn Strand', Supercond. Sci. Technol. 18 (2005) S273–S283\n- [12] A Nijhuis, Y Ilyin, WA J Wessel andW Abbas, Critical current and strand stiffness of three types of Nb3Sn strand subjected to spatial pe riodic bending, Supercond. Sci. Technol. 19 (2006) 1136–1145",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Spatial periodic and homogeneous transverse \nstress loading on ITER TF Nb3Sn bronze and \ninternal tin strand",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              86.5107421875,
+              58.52728271484375
+            ],
+            [
+              529.3200073242188,
+              58.52728271484375
+            ],
+            [
+              529.3200073242188,
+              137.727294921875
+            ],
+            [
+              86.5107421875,
+              137.727294921875
+            ]
+          ]
+        },
+        {
+          "title": "I. INTRODUCTION",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              126.5537109375,
+              411.2821044921875
+            ],
+            [
+              219.1904296875,
+              411.2821044921875
+            ],
+            [
+              219.1904296875,
+              421.2420959472656
+            ],
+            [
+              126.5537109375,
+              421.2420959472656
+            ]
+          ]
+        },
+        {
+          "title": "II. EXPERIMENTAL SET UP",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              385.5567626953125,
+              536.0896911621094
+            ],
+            [
+              492.73358154296875,
+              536.0896911621094
+            ],
+            [
+              492.73358154296875,
+              546.0496826171875
+            ],
+            [
+              385.5567626953125,
+              546.0496826171875
+            ]
+          ]
+        },
+        {
+          "title": "III. STRAND AND SAMPLE PREPARATION",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              90.47021484375,
+              473.4470520019531
+            ],
+            [
+              254.0757598876953,
+              473.4470520019531
+            ],
+            [
+              254.0757598876953,
+              483.40704345703125
+            ],
+            [
+              90.47021484375,
+              483.40704345703125
+            ]
+          ]
+        },
+        {
+          "title": "IV. EXPERIMENTAL RESULTS",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              113.02620697021484,
+              657.9061126708984
+            ],
+            [
+              232.4547576904297,
+              657.9061126708984
+            ],
+            [
+              232.4547576904297,
+              667.8661117553711
+            ],
+            [
+              113.02620697021484,
+              667.8661117553711
+            ]
+          ]
+        },
+        {
+          "title": "A. Critical current and n-value",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              51.958740234375,
+              675.2591552734375
+            ],
+            [
+              182.97914123535156,
+              675.2591552734375
+            ],
+            [
+              182.97914123535156,
+              685.265625
+            ],
+            [
+              51.958740234375,
+              685.265625
+            ]
+          ]
+        },
+        {
+          "title": "V. DISCUSSION",
+          "heading_level": null,
+          "page_id": 2,
+          "polygon": [
+            [
+              406.41143798828125,
+              455.0945739746094
+            ],
+            [
+              471.868896484375,
+              455.0945739746094
+            ],
+            [
+              471.868896484375,
+              465.0545654296875
+            ],
+            [
+              406.41143798828125,
+              465.0545654296875
+            ]
+          ]
+        },
+        {
+          "title": "VI. CONCLUSIONS",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              400.3199768066406,
+              225.1669921875
+            ],
+            [
+              479.3203125,
+              225.1669921875
+            ],
+            [
+              479.3203125,
+              235.12701416015625
+            ],
+            [
+              400.3199768066406,
+              235.12701416015625
+            ]
+          ]
+        },
+        {
+          "title": "REFERENCES",
+          "heading_level": null,
+          "page_id": 3,
+          "polygon": [
+            [
+              412.98046875,
+              409.6190490722656
+            ],
+            [
+              465.03204345703125,
+              409.6190490722656
+            ],
+            [
+              465.03204345703125,
+              419.57904052734375
+            ],
+            [
+              412.98046875,
+              419.57904052734375
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              274
+            ],
+            [
+              "Line",
+              94
+            ],
+            [
+              "Text",
+              9
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Footnote",
+              2
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              425
+            ],
+            [
+              "Line",
+              116
+            ],
+            [
+              "Text",
+              7
+            ],
+            [
+              "SectionHeader",
+              3
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "Picture",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "PictureGroup",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              206
+            ],
+            [
+              "Line",
+              66
+            ],
+            [
+              "Figure",
+              4
+            ],
+            [
+              "Caption",
+              4
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "FigureGroup",
+              4
+            ],
+            [
+              "Reference",
+              4
+            ],
+            [
+              "PageHeader",
+              3
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              423
+            ],
+            [
+              "Line",
+              133
+            ],
+            [
+              "ListItem",
+              12
+            ],
+            [
+              "Figure",
+              5
+            ],
+            [
+              "Caption",
+              5
+            ],
+            [
+              "FigureGroup",
+              5
+            ],
+            [
+              "Reference",
+              5
+            ],
+            [
+              "PageHeader",
+              2
+            ],
+            [
+              "SectionHeader",
+              2
+            ],
+            [
+              "Text",
+              2
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/0WyI-7OIfV-TyaWYuUZbYg"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 4,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Spatial Periodic and Homogeneous Transverse Stress Loading on ITER TF Nb_{3}Sn Bronze and Internal Tin Strand",
+    "authors": [
+      {
+        "authors_list": [
+          "Nijhuis, A.",
+          "Pompe van Meerdervoort, R. P.",
+          "Wessel, W. A. J."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "The transport properties of the superconducting Nb3Sn layers in the strands strongly depend on the strain state. Knowledge of the influence of axial strain, periodic bending and contact stress on the critical current (Ic) of the used Nb3Sn strands is inevitable to gain sufficient confidence in an economic design and stable operation of ITER CICCs. In the past years we have measured the Ic and n-value of various ITER Nb3Sn strands with different layout in the TARSIS facility, when subjected to spatial periodic contact stress at a temperature of 4.2 K and in a magnet field of 12 T. Recently we have made the setup suitable for application of homogeneous load along the length of the wire (125 mm) in order to evaluate possible differences related to spatial stress and possible current distribution. We present an overview of the results obtained so far on an ITER TF bronze and internal tin strand.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "IEEE Transactions on Applied Superconductivity",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:1110.3208"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1109/TASC.2011.2174552",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2012ITAS...2248024N"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

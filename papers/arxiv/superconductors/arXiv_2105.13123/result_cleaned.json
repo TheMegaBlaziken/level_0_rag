@@ -1,0 +1,488 @@
+{
+  "id": "5a91ef0c31af8a0ed9e4a9d4f9daa717",
+  "pdf_path": "apl/Superconductors/arXiv:2105.13123.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "## Room temperature superconductivity dome at a Fano resonance in superlattices of wires\n\nMaria Vittoria Mazziotti1,2 , Thomas Jarlborg1,3 , Antonio Bianconi1,4,<sup>5</sup> and Antonio Valletta<sup>6</sup>\n\n<sup>1</sup> RICMASS, Rome International Center for Materials Science Superstripes, via dei Sabelli 119A, 00185 Rome, Italy\n\n<sup>2</sup> Department of Mathematics and Physics, Roma TRE University, via della Vasca Navale 84, 00146 Roma, Italy\n\n<sup>3</sup> DQMP, University of Geneva, 24 Quai Ernest-Ansermet, CH-1211 Geneva 4, Switzerland\n\n4 Institute of Crystallography, CNR, via Salaria Km 29.3, 00016 Monterotondo, (Roma) Italy\n\n<sup>5</sup> National Research Nuclear University MEPhI (Moscow Engineering Physics Institute), 115409 Moscow, Russia\n\nInstitute for Microelectronics and Microsystems IMM,CNR, via del Fosso del Cavaliere, 100, 00133 Roma, Italy\n\n\\*\\*\\* Missing PACS \\*\\*\\*\n\n6\n\nAbstract –Recently room temperature superconductivity with T<sup>C</sup> =15 degrees Celsius has been discovered in a pressurized complex ternary hydride, CSH<sup>x</sup> which is a carbon doped H3S alloy. The nanoscale structure of H3S is a particular realization of the 1993 patent claim of superlattice of quantum wires for room temperature superconductors where the maximum T<sup>C</sup> occurs at the top of a superconducting dome. Here we focus on the electronic structure of materials showing nanoscale heterostructures at atomic limit made of a superlattice of quantum wires like hole doped cuprate perovskites, organics, A15 intermetallics and pressurized hydrides. We provide a perspective of the theory of room temperature multigap superconductivity in heterogeneous materials tuned at a Fano Feshbach resonance (called also shape resonance) in the superconducting gaps focusing on H3S where the maximum T<sup>C</sup> occurs where the pressure tunes the chemical pressure near a topological Lifshitz transition. Here the superconductivity dome of T<sup>C</sup> versus pressure is driven by both electron-phonon coupling and contact exchange interaction. We show that the T<sup>C</sup> amplification up to room temperature is driven by the Fano Feshbach resonance between a superconducting gap in the anti-adiabatic regime and other gaps in the adiabatic regime. In these cases the T<sup>C</sup> amplification via contact exchange interaction is the missing term in conventional multiband BCS and anisotropic Migdal-Eliashberg theories including only Cooper pairing\n\narXiv:2105.13123v1 [cond-mat.supr-con] 26 May 2021\n\nIntroduction. – Superconductivity was discovered in 1911 in a pure elemental metal at a temperature close to zero Kelvin and it was explained by pairing mediated by electron-phonon interaction [\\[1–](#page-5-0)[3\\]](#page-5-1). Today, after 110 years, a ternary hydride CSH<sup>x</sup> [\\[4\\]](#page-5-2) at P = 265 GP a with the superconducting critical temperature T<sup>C</sup> =15 degrees Celsius has been discovered. CSH<sup>x</sup> alloy is the outcome of the material research focusing on chemical doping [\\[5](#page-5-3)[–7\\]](#page-5-4) of pure H3S [\\[8,](#page-5-5) [9\\]](#page-5-6). While the structure of H3S and its variation with pressure is well established [\\[10,](#page-5-7)[11\\]](#page-5-8), the structure of CSH<sup>x</sup> is still object of research [\\[12\\]](#page-5-9). It has been shown [\\[13,](#page-5-10) [14\\]](#page-5-11) that H3S is made of a 3D heterostructure of onedimensional (1D) hydrogen wires shown in Fig. [1.](#page-1-0) This nanoscale structure is a practical realization of the heterostructures at atomic limit formed by a superlattice of\n\nquantum wires described in Fig. [5](#page-5-12) of the claims in the 1993 patent shown in Fig. [1](#page-1-0) [\\[15,](#page-5-13) [16\\]](#page-5-14) for room temperature superconductors (RTS) driven by shape resonances [\\[17–](#page-5-15)[20\\]](#page-5-16). In this proposal for the mechanism of RTS both the internal pressure, due to lattice misfit between nanoscale modules, and the external pressure are used to tune the chemical potential in the proximity of Lifshitz transitions for strongly interacting electrons [\\[21,](#page-6-0) [22\\]](#page-6-1). In H3S the external pressure tunes the compressive strain of short H-H bonds in the wires, and the long bonds between wires up to reach the optimal strain (shown in Fig. [1\\)](#page-1-0) for the maximum of T<sup>C</sup> at the top of a superconductivity dome, Ashcroft [\\[23\\]](#page-6-2) suggested to search for room temperature superconductors by applying external pressure to composite hydrides made of hydrogen nanoscale modules where the\n\n![](_page_1_Figure_1.jpeg)\n\n<span id=\"page-1-0\"></span>Fig. 1: Panel a: The heterostructure of superconducting wires (21) embedded in the spacer material (22) presented in the claim of the patents [\\[15,](#page-5-13)[16\\]](#page-5-14) for realization of room temperature superconductors made of superlattices of quantum wires. Panel b: The nanoscale structure of H3S [\\[10,](#page-5-7) [11\\]](#page-5-8) with the Im¯3m symmetry formed by two sublattices: the hydrogen wires (green dots) and the SH spacers. The figure shows only the sublattice of hydrogen wires in the (101) planes embedded in the SH spacer material. Panel c shows the compressive strain of the lattice as a function of pressure from the structural transition at 103 GP a. The compressive strain at 160 GP a is 4 percent. Panel d shows the critical temperature of H3S and CSH<sup>x</sup> hydrides as a function of pressure [\\[4,](#page-5-2) [9,](#page-5-6) [11\\]](#page-5-8).\n\nbond lengths are already compressed by internal chemical pressure due to misfit strain in a nanoscale heterostructure.\n\nHole doped cuprate perovskites. – The correlated disorder in quantum complex matter has been unveiled in these last two decades by novel imaging methods using nanoscale X-ray diffraction [\\[24–](#page-6-3)[28\\]](#page-6-4) and XANES or EX-AFS methods of X-ray spectroscopy probing local and fast fluctuations [\\[29,](#page-6-5) [30\\]](#page-6-6) showing the formation of puddles of superlattices of quantum stripes [\\[19\\]](#page-5-17). Nanoscale inhomogeneity is controlled in hole doped cuprate perovskites [\\[20,](#page-5-16) [31–](#page-6-7)[36\\]](#page-6-8). The critical temperature at ambient pressure is controlled by both misfit strain () between nanoscale modules and hole doping δ giving the 3D phase diagram T<sup>C</sup> (δ, ), which is shown in Fig. [2.](#page-1-1) High pressure shifts the doping values for the maximum critical temperature T<sup>C</sup> = 160K [\\[37\\]](#page-6-9) The structure of cuprate perovskites is made of active metallic 2-D CuO<sup>2</sup> atomic layers intercalated by insulating spacers. The band structure for a single flat undistorted CuO<sup>2</sup> layer has been calculated assuming only Cu − O b1<sup>g</sup> orbitals in the average crystal lattice, but complexity appears due to non-stoichiometry and nanoscale phase separation in the proximity of a electronic topological Lifshitz transition or a metal-insulator transition (MIT) with magnetic or charge-density wave short-range puddles. In the proposed superstripes sce-\n\nsuperconductors belonging to many cuprate families. The critical temperature T<sup>C</sup> is plotted as a function of doping, the number of holes for Cu site, and strain, = 100(R0−R)/R0, where R is the average < CuO > bond length and R<sup>0</sup> = 197 pm, due to misfit between CuO<sup>2</sup> layers and rock salt oxide layers. T<sup>C</sup> = 130K at the top of the dome is reached at the optimum strain, 2 percent, and doping 3/16.\n\n<span id=\"page-1-1\"></span>Fig. 2: The superconducting dome for all cuprate hole doped\n\nnario the nanoscale structure is made of i) puddles of ordered 1D-chains of oxygen interstitials, ii) U stripes of undistorted CuO lattice intercalated by D stripes of distorted lattice, iii) incommensurate lattice modulation due to misfit strain iv) charge density waves puddles v) spin density wave domains, making the actual electronic structure at nanoscale very different from the band structure of a homogeneous lattice. The strained and pressurized hole doped cuprates show complex nanoscale heterostructure made of nanoscale 1D-chains (or stripes) which can be driven toward the maximum of a superconducting dome by pressure and doping. Nanoscale phase separation is a universal feature which appears in vanadates at a metal to insulator transition [\\[38,](#page-6-10) [39\\]](#page-6-11) and near a Lifshitz transition in diborides [\\[40](#page-6-12)[–43\\]](#page-6-13). Phase separation controlled by misfit strain and doping has been observed also in iron based superconductors [\\[44,](#page-6-14)[45\\]](#page-6-15). In this work we focus on 3D lattice networks of 1D chains while the majority of the research efforts in high-T<sup>C</sup> superconductivity was addressed to intrinsic effects like pseudogap, strong electronic correlation, superconducting fluctuations, quantum critical points for a single electronic component in a rigid lattice.\n\nA15 alloys. – The A15 superconductors, among which V3Si and N b3Sn are most known, have the Im¯3m lattice symmetry similar to high pressure phase of metallic H3S. The semiconductor atoms (group III-IV elements Si, Sn, Ga, Ge, In, etc) form a body centred cubic (bcc) lattice in which the metal atoms (V, N b, Cr, Mo..) form perpendicular one-dimensional chains. The DOS at E<sup>F</sup> is dominated by the metallic sites, and in the 1970s it was much discussed that the electronic structure was made up by the 1-D chains with very little interchain coupling and only minor coupling to the elements in bcc lattice [\\[46\\]](#page-6-16).\n\nThe DOS would then take an essentially 1-D shape with singular peaks at the van-Hove extremes of the d-bands. The idea was that the electron filling could put E<sup>F</sup> close to the high DOS peaks, where the high N(E<sup>F</sup> ) makes the electron-phonon coupling λ large. This 1-D model gives a plausible explanation for the high T<sup>C</sup> that was observed among the A15's at the time, i.e. just above 20 K. The 1-D composition of the electronic structure of such a relatively complicated material as the A15 compound seemed very instructive since many physical mechanisms could be clarified without the support of heavy band structure computations. Later with the development of band structure methods and computers the scientific community accepted the dogma that the electronic structures of the A15 materials could not be reduced to the 1-D chains [\\[47–](#page-6-17)[50\\]](#page-6-18). The results from different methods showed indeed DOS peaks, but also that the correct DOS shape depends on band interactions between chains as well as on the interaction between chains and the bcc positioned atoms. In fact, the correlation between calculations of electronphonon coupling and T<sup>C</sup> based on the band structure fits well with the experimentally observed T<sup>C</sup> 's [\\[51,](#page-6-19) [52\\]](#page-6-20). Calculations for V3Si have shown four pieces of Fermi surface with shapes in agreement with results from angular correlation of positron annihilation [\\[53\\]](#page-6-21). The interchain and chain-to-bcc-lattice interactions are not the most important interactions, but it was clear that essential features of the electron structure were missing if not all interactions were taken into account. This is evident from that fact that the DOS of the A15's with metallic elements (Ir, P t, Au, ..) on the bcc lattice is different from the DOS with semiconductor atoms on the bcc positions [\\[54\\]](#page-6-22). The atoms on the bcc lattice are sufficiently close to the metal chains, and s-p-orbitals are sufficiently extended to overlap and hybridize with the d-orbitals on the metal sites and to destroy the 1-D band that might come from unhybridized d-states on the chains. The other group of A15 superconductors, with heavy 5d metal atoms on the bcc lattice, could be believed to have less hybridization with the chains, since the reach of d-states is shorter than for s and p ones. However, the 5d band is filled and deep below E<sup>F</sup> , and the DOS at E<sup>F</sup> contains a considerable amount of 6s- and 6p-character. The general shape of the DOS is different from the first group of A15's with E<sup>F</sup> moved upwards because of the enhanced valence band filling, but it is not like a 1-D DOS. The stability of the A15's with 1-D chains might be due to s- and p-states on the bcc lattice, but any 1-D band structure is effectively washed out by hybridization. So-called canonical band calculations done for the V-d bands only (all 3-d on the 6 V atoms), i.e. no hybridization with anything else, not even with s or p on the V atoms themselves [\\[49\\]](#page-6-23), show no pronounced structure for the pure V-d DOS, no sharp peaks, so it did not resemble the true hybridized d-DOS nor the 1-D DOS model. This shows that even (d-) hybridization between the chains is sufficient for making the band structure 3- D in the A15's. The importance of pressure and strain\n\n![](_page_2_Figure_2.jpeg)\n\n<span id=\"page-2-0\"></span>Fig. 3: Upper panel: The total DOS for H3S with variable lattice constants between 5.6 a.u. and 6.2 a.u. in the 209 GPa and 64 GPa pressure range. Lower panel: The DOS for H3S for a cubic 64-site supercell. The (blue) thin line is the DOS for the perfectly ordered cell. The (red) heavy line shows the DOS for the disordered cell with u<sup>S</sup> = 0.01a and u<sup>H</sup> = 0.033a. This disorder corresponds to the zero-point motion (ZPM) for S while the disorder for H is less than ZPM. (From ref. [\\[14\\]](#page-5-11))\n\nfor the stability and appearing of charge density waves in A15 compounds was noticed in the 70-ties [\\[55,](#page-6-24) [56\\]](#page-6-25). Recently new light has been shed by experiments on A15 superconductors and related materials showing remarkable structural instability [\\[57\\]](#page-6-26), short range charge density waves and nanoscale phase separation [\\[58–](#page-6-27)[61\\]](#page-6-28) near a Lifshitz transition for overlapping bands in presence of electron correlations and small Fermi Surface hot spot where Migdal approximation breaks down [\\[21,](#page-6-0) [22\\]](#page-6-1).\n\nH3S hydride. – The high pressure phase of H3S is perhaps not so exotic compared to that of the A15's and other high temperature superconductors since the 3-D character remains over a large energy range of large portions of the Fermi surfaces, but it shows overlapping bands with quasi 1-D features appear in particular narrow energy regions and in particular hot spots of a small Fermi surface near the Fermi level. The unusual feature of hydrides is the light hydrogen ion mass. It makes the phonon frequency and the vibrational amplitudes of optical modes, involving H ions, very large. The popular method for calculation of λ and T<sup>C</sup> in transition metals and their compounds (A15, etc.) was applied to H3S before it was synthesized under pressure (P), and despite many uncertainties along the computations it correctly predicted a very high T<sup>C</sup> [\\[8\\]](#page-5-5). Other calculations, where strong coupling is included through the McMillan parametrization [\\[3\\]](#page-5-1) of Eliashberg solutions, confirmed these results [\\[13,](#page-5-10) [14,](#page-5-11) [62,](#page-6-29) [63\\]](#page-6-30). Retardation via electron-electron interaction enters through µ ∗ in these calculations. The single band Eliashberg theory with phonon mediated superconducting mechanism leads to high T<sup>C</sup> with high phonon frequency although λ is not very large. The contribution to λ from S ions turns out to be comparable to that from H, mainly because of the larger DOS on S. Still, the DOS at E<sup>F</sup> per atom is much lower in H3S than in good transition metal compounds, like the A15's, which emphasizes that the high phonon frequencies of hydrogen compounds push T<sup>C</sup> to the large values. The total band width is large, and it widens more with P, cf Fig. [3.](#page-2-0) The DOS is therefore expected to diminish with P, but charge transfers make E<sup>F</sup> closer to the peak in the DOS at higher pressure so that N(E<sup>F</sup> ) is highest for a = 5.6 a.u. . Orbital overlap and s-to-phybridization goes up with pressure, and this is favorable to larger dipole matrix elements in λ. One might conclude that the high T<sup>C</sup> of H3S can be understood from this, quite standard, type of calculations. But flat bands contribute to the high and narrow DOS peak at E<sup>F</sup> .\n\nThe low mass of H also makes the vibrational amplitudes < u > large. At low temperature the zero-point motion (ZPM) makes < u >= 3 2 ¯hω/K, where K is a force constant. The amplitudes increase at large T ('thermal disorder') and becomes proportional to 3kBT /K at high T. One can estimate that < u > approaches 10 percent of the H −H distance at low T [\\[14\\]](#page-5-11). This is much more than in common transition metal compounds (about 2 percent), and the electronic structure calculations have to take this into account. The real lattice is disordered. The Madelung potential - a classical variable - is not the same at every H-site, and the electronic structure - a quantum product - will be different for the disordered lattice compared to that of the perfectly ordered lattice. This can be seen on physical properties in f cc Ce, F eSi, purple bronze, etc. [\\[64–](#page-6-31)[67\\]](#page-6-32), although < u > are much smaller than in H3S.\n\nIn view of the large disorder of H in H3S one might expect that the DOS-peaks calculated for the ordered lattice will be washed out by disorder. However, the calculation for supercells of disordered H48S<sup>16</sup> show no drastic reduction of the DOS-peaks compared that of the ordered supercell, see Fig. [3.](#page-2-0) The reason is that a large amount of the DOS at E<sup>F</sup> comes from S atoms with larger mass and smaller < u >. Moreover, the states on H are s-states, which are loosely bound to the nucleus and will not easily follow the movement of the atom. On the contrary, d- and f-states in transition metals, Ce, etc. are tightly bound to the nuclei and more sensitive to lattice distortions. Another effect from disorder in H3S is that E<sup>F</sup> appears to move relative to the (wider) DOS peak compared to that of the ordered case.\n\nThe band structure of H3S is very wide, about 2 Ry for the valence bands with high band dispersion for most bands below E<sup>F</sup> (mainly s and p). Effects of energy-band broadening in these parts of k-space are less important. Flat bands are sensitive to disorder, especially at van-Hove singularities. Small hole- or electron-pockets (containing s- and p-states on H and p- and d- on S) around these points of the k-space are expected to show fluctuations controlled by the ZPM. As was discussed above, increased hybridization within the flat bands can compensate for the wider and less peaked DOS through larger λ and T<sup>C</sup> are almost the same for the ordered and disordered supercell.\n\nThe pressure variation of T<sup>C</sup> according to the Lifshitz scenario depends sensitively on how the flat bands behave close to E<sup>F</sup> . However, a simple scaling of the bands as function of P leads to T<sup>C</sup> -variations through 3 main channels; 1: The dipolar matrix element I (λ = N I<sup>2</sup> Mω<sup>2</sup> ) goes up with P because of increasing s-,p-,d- and f-admixture at E<sup>F</sup> . 2: Phonon frequency ω goes up with P (it is proportional to the square root of the bulk modulus). 3: The total DOS N goes down with P. Thus, T<sup>C</sup> should go up because of point 1, and down because of point 3. Point 2 gives two opposite effects; the ω-prefactor in the T<sup>C</sup> equation has a positive effect as function of P, but ω 2 in the denominator of λ has a strong negative effect, especially at high P when the lattice is increasingly stiff. This is seen as a saturation of the calculated T<sup>C</sup> at the highest P [\\[14\\]](#page-5-11). Disorder is real at all P, even if it is relatively less important when the lattice becomes very stiff. The widened DOS peak near E<sup>F</sup> due to disorder implies an improved stability for T<sup>C</sup> , and a boost of T<sup>C</sup> is possible if the position of E<sup>F</sup> relative to the peak could be optimized. Hence, one should increase N(E<sup>F</sup> ) through weak electron doping according to the DOS for disordered lattice, and not by hole doping as would be suggested from the DOS for perfectly ordered H3S.\n\nThe superconducting dome at a Fano resonance. – Following the experimental evidence for the presence of weakly interacting stripes in hole doped cuprate perovskites [\\[18,](#page-5-18) [19\\]](#page-5-17) the Bianconi-Perali-Valletta (BPV) theory was proposed [\\[68](#page-6-33)[–72\\]](#page-6-34). The BPV theory is based on the solution of the Nikolai Bogoliubov gap equation for a multigap superconductor which includes the interference between all pairing channels in the space of configurations following the quantum mechanics formulation of Gregor Wentzel [\\[73\\]](#page-6-35) and Richard Feynman [\\[74\\]](#page-6-36). In this formulation path integrals inspired by the Hamilton principle in classical mechanics and the non locality of the quantum wave-function play a key role. The Wentzel and Feynman approach includes the interference between scattering channels in the space of all configurations which is the outcome of the calculation of the probability amplitude associated with the entire motion of the particles as a function of time, while the Heisenberg and Schroedinger formulation calculates simply the position of the particle at a particular time. The path integral formalism of quantum mechanics predicts the configuration interaction between a first closed scattering channel and a second open scattering channel which gives a Fano resonance [\\[75\\]](#page-6-37) with its characteristic asymmetric line-shape. The Fano lineshape, of the resonance, associated to the negative and positive interference, is the smoking gun which validates the realization of quantum interference. These fundamental quantum interference phenomena due to configuration interaction between closed and open scattering channels are called (i) F ano resonance in atomic physics [\\[75\\]](#page-6-37), (ii) shape resonance in nuclear physics [\\[76\\]](#page-6-38) and in multigap superconductivity at Lifshitz transitions [\\[68,](#page-6-33) [71\\]](#page-6-39), F eshbach resonance in ultracold gases [\\[77\\]](#page-6-40).\n\nThe emergence of these quantum mechanical resonances, called here F ano resonance, between different pairing channels is not included in the BCS theory for a single band [\\[1\\]](#page-5-0) or for overlapping bands [\\[78\\]](#page-6-41) as well as in Migdal-Eliashberg [\\[2\\]](#page-5-19) theory for isotropic and anisotropic superconductivity. The BPV theory in multigap superconductors predicts the maximum critical temperature by tuning experimentally pressure, strain or charge density to drive the chemical potential at a Fano resonance between i) the pairing scattering channel, called the closed channel (c), and ii) the pairing scattering channel, called open channel (o). The closed channel (c) forms a Cooper pair in the BEC-BCS crossover regime in the hot spot of the small Fermi surface, appearing at the Lifshitz transition, at the border of the anti-adiabatic regime, where the low Fermi energy EF c is of the order of the pairing interaction energy ω0. The open channels (o) form Cooper pair in the BCS regime in the large Fermi surfaces with very high Fermi energy EF o much larger than the pairing interaction energy ω0. The Bogoliubov equation for the gaps is solved together with the density equation which allows the variation of charge superfluid densities in each Fermi surface spot following the opening of different gaps in different Fermi surface spots. At the Fano resonance the quantum interference effects are controlled by the contact exchange interactions given by the overlap of the pair wave-functions i.e., the exchange interactions between pairs in different bands which can be attractive or repulsive like in nuclei where the repulsive exchange interaction gives the Heisenberg force, and the attractive exchange interaction gives the Majorana force.\n\nThe key idea of the BPV theory is to calculate the exchange contact interaction (neglected in standard BCS theories) between two coexisting condensates in different Fermi surface spots by the overlap of the wavefunctions. Therefore the wavefunctions of electrons are calculated by solving the Schroedinger equation [\\[79\\]](#page-6-42) or the non-relativistic Dirac equation including spin-orbit interactions [\\[80\\]](#page-6-43) within a narrow energy range around the Fermi level of the order of few times the energy cut-off of the electron-phonon pairing interaction.\n\nWe propose the material design of a heterostructure of quantum wires showing room temperature superconductivity which reproduces the actual van Hove singularity at the Lifshitz transition calculated by band structure calculations of H3S. We start from the results on the Fano\n\n![](_page_4_Figure_5.jpeg)\n\n<span id=\"page-4-0\"></span>Fig. 4: The 3D phase diagram of multigap superconductivity in a superconducting superlattice of quantum stripes where the chemical potential is tuned to a Fano resonance which simulates room-temperature superconductivity in sulphur hydrides superconductors. The critical temperature T<sup>C</sup> calculated by BPV approach is plotted as a function of i) the electron-phonon coupling g = g<sup>33</sup> in the upper subband in the range 0.1 < g < 0.49 and ii) the Lifshitz parameter η given by the energy separation between the chemical potential µ and the position of Lifshitz transition EL, normalized to the transversal energy dispersion ∆E. η is tuned in the range −0.5 < η < 3. The yellow (green) dashed line represents the cut of the dome T<sup>C</sup> (η) for constant g<sup>33</sup> = 0.25 (0.33) coupling.\n\nresonance in the high T<sup>C</sup> superlattice of quantum wires proposed by Mazziotti et al. [\\[79\\]](#page-6-42) to simulate organic superconductors [\\[81,](#page-6-44) [82\\]](#page-6-45). We look for the theoretical prediction of the room temperature superconducting dome like in CSHx. In the heterostructure of quantum wires the electrons along the x-direction are free, while along the z-direction they see a periodic potential V (z) forming quantum n subbands characterized by quantized values of the transverse moment and the band index. The size of superconducting wires L and of intercalated spacers W form a periodic potential with period d = W + L and potential amplitude V . We consider a case of weakly interacting wires with a period comparable to the superconducting correlation length, and the Fermi wavelength with L = 8.50 ˚A, W = 5.50 ˚A, V = 4.16 meV , which gives a band dispersion in the transversal direction due to electron hopping between wires ∆E = 142 meV . The superconducting non-dimensional coupling constant gnn<sup>0</sup> for the three-band system and has a matrix structure that depends on the band indices n and n 0 . We choose the effective mass in the well m<sup>w</sup> = 0.86, equal to the effective mass in the free x-direction, while m<sup>b</sup> = 1.0 on the barrier, Following Ref. [\\[79\\]](#page-6-42) we have selected the intraband coupling in the lower two subbands gii = 0.1 and a weak interband coupling constant gij = 0.1 The theoretical superconducting dome at a Fano resonance is obtained by changing the coupling g = g<sup>33</sup> in the third subband, appearing at the Lifshitz transition in the range 0.1 < g < 0.49 and the softening of the renormalized cut-off energy, ˜ω0, as a function of the increasing pairing constant g according to\n\n![](_page_5_Figure_1.jpeg)\n\n<span id=\"page-5-12\"></span>Fig. 5: The curves of T<sup>C</sup> (η) versus η at constant coupling in the upper subband g = 0.33 and g = 0.25 obtained by cuts of the 3D dome shown in Fig. [4](#page-4-0) in the linear (Panel A) and log (Panel B) scale reaching the maximum T<sup>C</sup> of CSH<sup>x</sup> and H3S respectively. The asymmetric Fano line-shape of the resonance is shown in the log plot by the antiresonance for η ' −0.5 at the Lifshitz transition for the appearing of the new Fermi surface.\n\nMigdal relation [\\[2\\]](#page-5-19)\n\n$$\n\\tilde{\\omega}\\_0 = \\omega\\_0 \\sqrt{1 - 2g},\n$$\n\nwith ω<sup>0</sup> = 230 meV so that ˜ω<sup>0</sup> = ∆E for g = 0.3. The above relation stems from the screening effect of the electrons in the phonon propagator which was derived for a Fermi gas, we use here to qualitatively estimate the effect of the phonon softening frequency with increasing coupling constant approaching to the Lifshitz transition for the appearing of the third Fermi surface.\n\nThe calculated superconducting dome is shown in Fig. [4](#page-4-0) where the critical temperature is plotted as a function of the coupling g in the third subband and of the Lifshitz parameter η. The yellow (green) dashed cut of the dome in Fig. [4](#page-4-0) is obtained with the fixed coupling g<sup>33</sup> = 1/4 (g<sup>33</sup> = 1/3) reaching the maximum T<sup>C</sup> =203 K (287.7 K) as observed in SH<sup>3</sup> (SCyHx). The T<sup>C</sup> (η) curves, cuts of the dome in Fig. [4,](#page-4-0) are shown in Fig. [5.](#page-5-12) The plot of log(T<sup>C</sup> ) shows that, increasing g33, the maximum of T<sup>C</sup> increases in the range 0.5 < η < 1, at the 2D-1D dimensional crossover, while the minimum of log(T<sup>C</sup> ) is around η ' −0.5 decreases in agreement with the trend of a Fano resonance profile in the antiresonance regime.\n\nConclusions. – This work shows that a nanoscale superlattice of stripes made by strain or dopants [\\[4\\]](#page-5-2) could be a generic features in organics, perovskites, and pressurized hydrides like H3S and CSH<sup>x</sup> where the chemical potential is close to a Lifshitz transition [\\[83,](#page-6-46) [84\\]](#page-6-47). We have shown that room temperatures superconductivity in the weak coupling regime is possible in multigap superconductors by optimization of electron-phonon coupling in hot spots and tuning the contact exchange interaction\n\nbetween condensates. This work open new perspectives to develop new quantum complex materials including Majorana fermions [\\[85\\]](#page-6-48) which open new venues to quantum devices. Experimental advance in yttrium hydrides superconductors [\\[86\\]](#page-6-49) has shown notable departures of the superconducting properties from the conventional Migdal, Eliashberg and BCS theories in ref. [\\[87\\]](#page-6-50) which indicate the presence of an additional mechanism of superconductivity which is identified here as the contact exchange interaction in the Fano resonances.\n\n∗ ∗ ∗\n\nWe thank Gaetano Campi, Andrea Perali and Roberto Raimondi for helpful discussions, and we acknowledge Superstripes onlus for financial support.\n\n## REFERENCES\n\n- <span id=\"page-5-0\"></span>[1] Bardeen J., Cooper L.N., and Schrieffer J.R., Physical Review, 108 (1957) 1175.\n- <span id=\"page-5-19\"></span>[2] Migdal, A.B., JETP, 7 (1958) 996\n- <span id=\"page-5-1\"></span>[3] W.I. McMillan, Physical Review, 167 (1968) 331\n- <span id=\"page-5-2\"></span>[4] Snider, E., Dasenbrock-Gammon, N., McBride, et al., Nature, 586 (2020) 373.\n- <span id=\"page-5-3\"></span>[5] Nakanishi, A., Ishikawa, T. and Shimizu, K., Journal of the Physical Society of Japan, 87 (2018) 124711.\n- [6] Durajski, A.P, and Szczsniak, R., Physica C: Superconductivity and its Applications, 554 (2018) 38.\n- <span id=\"page-5-4\"></span>[7] Kruglov, I., Akashi, R., Yoshikawa, et al., Physical Review B, 96 (2017) 220101\n- <span id=\"page-5-5\"></span>[8] Duan D., Liu Y., Tian F, et al., Sci. Rep., 4 (2014) 6968\n- <span id=\"page-5-6\"></span>[9] Drozdov, A. P., et al, Nature, 525 (2015) 73\n- <span id=\"page-5-7\"></span>[10] Goncharov, A. F., Lobanov, S. S., Prakapenka, V. B., and Greenberg, E., Physical Review B, 95 (2017) 140101\n- <span id=\"page-5-8\"></span>[11] Duan, D., Liu, Y., Ma, Y., Shao, Z., Liu, B., and Cui, T., National Science Review, 4 (2017) 121.\n- <span id=\"page-5-9\"></span>[12] Bykova, E. Bykov, M. Chariton, S. et al, arXiv preprint, 2020 (arXiv:2012.10528)\n- <span id=\"page-5-10\"></span>[13] Bianconi A. and Jarlborg T., EPL Euro Phys. Lett., 112 (2015) 37001.\n- <span id=\"page-5-11\"></span>[14] Jarlborg T. and Bianconi A., Scientific Reports, 6 (2016) 24816.\n- <span id=\"page-5-13\"></span>[15] Bianconi, A., Patent EP0733271A1 High Tc superconductors made by metal heterostructures at the atomic limit European Patent Bulletin, 98/22 (1998-05-27)\n- <span id=\"page-5-14\"></span>[16] Bianconi A., Patent US6265019B1 Process of increasing the critical temperature Tc of a bulk superconductor by making metal heterostructures at the atomic limit Patent Official Gazette of the United States Patent and Trademark Office (PTO), 1248(4) (Jul 24, 2001) p.3989\n- <span id=\"page-5-15\"></span>[17] Bianconi, A. (2013). Bianconi, A., Nature Physics, 9 (2013) 536\n- <span id=\"page-5-18\"></span>[18] Bianconi, A. and Missori, M., Solid State Communications, 91 (1994) 287\n- <span id=\"page-5-17\"></span>[19] Bianconi, A., Saini, N.L., Lanzara, A. et al, Physical Review Letters, 76 (1996) 3412.\n- <span id=\"page-5-16\"></span>[20] Agrestini, S., Saini, N. L., Bianconi, G. and Bianconi, A , J. Phys. A: Math. Gen., 36 (2003) 9133\n- <span id=\"page-6-0\"></span>[21] Caivano, R., Fratini, M., Poccia, N., et al, Superconductor Science and Technology, 22 (2008) 014004\n- <span id=\"page-6-1\"></span>[22] Bianconi, A.; Poccia, N.; Sboychakov, A.O.; et al, Supercond. Sci. Technol., 28 (2015) 024005.\n- <span id=\"page-6-2\"></span>[23] Ashcroft, N. W., Symmetry and Heterogeneity in High Temperature Superconductors, edited by A. Bianconi,, Vol. 214 (Springer, Dordrecht) 2006, p. 3.\n- <span id=\"page-6-3\"></span>[24] Campi, G. and Bianconi, A., Condensed Matter, 4 (2019) 32\n- [25] Fratini, M. et al, Nature, 466 (2010) 841.\n- [26] Campi, G. et al, Nature, 525 (2015) 359\n- [27] Poccia, N. et al, Nature materials, 10 (2011) 733.\n- <span id=\"page-6-4\"></span>[28] Campi, G., et al, ACS nano, 12 (2017) 729.\n- <span id=\"page-6-5\"></span>[29] Della Longa, S., Soldatov, A., Pompa, M. and Bianconi, A., Computational Materials Science, 4 (1995) 199.\n- <span id=\"page-6-6\"></span>[30] Darapaneni, P., Meyer, A. M., Sereda M. et al, The Journal of Chemical Physics, 153 (2020) 054110.\n- <span id=\"page-6-7\"></span>[31] Di Castro, D., Bianconi, G., Colapietro, et al, Eur. Phys. J. B, 18 (2000) 617.\n- [32] Kusmartsev, F.V., Di Castro, D., Bianconi, G. and Bianconi, A. , Physics Letters A, 275 (2000) 118.\n- [33] Bianconi, A., Bianconi, G., Caprara, S. et al, Journal of Physics: Condensed Matter, 12 ( 2000 ) 10655.\n- [34] Makarov, I. A., Gavrichkov, V. A., Shneyder, E. I., et al, J Supercond Nov Magn, 32 (2019) 1927.\n- [35] Bianconi, A., Saini, N.L., Agrestini, S., et al, Int. J. Mod. Phys. B, 14 (2000) 3342\n- <span id=\"page-6-8\"></span>[36] Bianconi, A., Di Castro, D., Bianconi, G., et al, Physica C: Superconductivity, 341 (2000) 1719\n- <span id=\"page-6-9\"></span>[37] Yamamoto, A., Takeshita, N., Terakura, C. and Tokura, Y., Nature Communications, 6 (2015) 8990 https://doi.org/10.1038/ncomms9990\n- <span id=\"page-6-10\"></span>[38] Di Gioacchino, D., Marcelli, A., Puri, A. et al, Condensed Matter, 2 (2017) 10\n- <span id=\"page-6-11\"></span>[39] Bianconi, A., Phys. Rev. B, 26 (1982) 2741\n- <span id=\"page-6-12\"></span>[40] Bauer, E., Paul, C., Berger, S. et al, Journal of Physics: Condensed Matter, 13 (2001) L487\n- [41] Campi, G., Cappelluti, E., Proffen, Th. et al., Eur. Phys. J. B, 52 (2006) 15.\n- [42] Agrestini, S., Metallo, C., Filippi, M., et al, Physical Review B, 70 (2004) 134514\n- <span id=\"page-6-13\"></span>[43] Simonelli, L., Palmisano, V., Fratini, M. et al., Phys. Rev. B, 80 (2009) 014520\n- <span id=\"page-6-14\"></span>[44] Ricci, A., Poccia, N., Ciasca, G., Fratini, M., and Bianconi, J Supercond Nov Magn, 22 (2009) 589\n- <span id=\"page-6-15\"></span>[45] Ricci, A., Poccia, N., Joseph, B. et al, Physical Review B, 82 (2010) 144507\n- <span id=\"page-6-16\"></span>[46] Barak G., Goldberg I.B. and Weger M., J. Phys. Chem. Solids, 36 (1975) 847.\n- <span id=\"page-6-17\"></span>[47] Klein B.M., Boyer L.L., Papaconstantopoulos D.A., and Mattheiss L.F., Phys. Rev. B, 18 (1978) 6411.\n- [48] Pickett W.E., Ho K.M., and Cohen M.L., Phys. Rev. B, 19 (1979) 1734\n- <span id=\"page-6-23\"></span>[49] Jarlborg T., J. Phys. F Metal Phys., 9 (1979 ) 283\n- <span id=\"page-6-18\"></span>[50] van Kessel, A.T., Myron H.W., and Mueller, F.M., Phys. Rev. Lett., 41 (978) 181\n- <span id=\"page-6-19\"></span>[51] Klein ,B.M., Boyer L.L., and Papaconstantopoulos D.A., Phys. Rev. Lett., 42 (1977) 530\n- <span id=\"page-6-20\"></span>[52] Arbman G. and Jarlborg T., Solid State Commun., 26 (1978) 1159\n- <span id=\"page-6-21\"></span>[53] Jarlborg T., Manuel A.A. and Peter M., Phys. Rev. B, 27 (1983) 4210\n- <span id=\"page-6-22\"></span>[54] Jarlborg T., Junod A. and Peter M., Phys. Rev. B, 27 (1983) 1558\n- <span id=\"page-6-24\"></span>[55] Testardi, L. R., Reviews of Modern Physics, 47 (1975) 637\n- <span id=\"page-6-25\"></span>[56] Chu, C. W., Testardi, L. R., and Schmidt, P. H., Solid State Communications, 23 (1977) 841\n- <span id=\"page-6-26\"></span>[57] Bevk, J., Sunder, W., Hellman, F., and Geballe, T., IEEE Transactions on Magnetics , 21 (1985) 768\n- <span id=\"page-6-27\"></span>[58] Luo, H., Xie, W., Tao, J., et al. , Proc. Natl. Acad. Sci. USA, 112 (2015) E1174\n- [59] Jaouen, T., Hildebrand, B., Mottas, et al. , Physical Review B, 100 (2019) 075152\n- [60] Benedek, G., Manson, J. R., Miret-Artes, et al. ,. Condensed Matter, 5 (2020) 79\n- <span id=\"page-6-28\"></span>[61] Rajagopalan, M., Physica B: Condensed Matter, 413 (2013) 1\n- <span id=\"page-6-29\"></span>[62] Papaconstantopoulos D., Klein B.M., Mehl M.J. and Pickett, W.E., Phys. Rev. B, 91 (2015) 184511\n- <span id=\"page-6-30\"></span>[63] Bianconi A. and Jarlborg T., Nov. Supercond. Mater., 1 (2015) 37 doi 10.1515/nsm-2015-0006\n- <span id=\"page-6-31\"></span>[64] Jarlborg T., Phys. Rev. B, 59 (1999) 15002.\n- [65] Jarlborg T., Chudzinski P., and Giamarchi T., Phys. Rev. B, 85 (2012 ) 235108\n- [66] Jarlborg T., Phys. Rev. B, 89 (2014) 184426\n- <span id=\"page-6-32\"></span>[67] Jarlborg, T., Moroni, E.G., and Grimvall G., Phys. Rev. B, 55 (1997) 1288\n- <span id=\"page-6-33\"></span>[68] Perali, A., Bianconi, A., Lanzara, A., and Saini, N. L., Sol. State Commun., 100 (1996) 181\n- [69] Bianconi, A., Valletta, A., Perali, A., and Saini, N. L., Solid State Communications, 102 (1997) 369\n- [70] Valletta, A., Bianconi, A., Perali, A., and Saini, N. L., Z Phys B Con Mat, 104 (1997) 707.\n- <span id=\"page-6-39\"></span>[71] Bianconi, A., Valletta, A., Perali, A. and Saini, N. L., Physica C: Superconductivity, 296 (1998) 269\n- <span id=\"page-6-34\"></span>[72] Perali, A., Innocenti, D., Valletta, A. and Bianconi, A., Supercond. Sci. Technol., 25 (2012) 124002\n- <span id=\"page-6-35\"></span>[73] Wentzel,G., ZS f. Physik, 22 (1924) 93\n- <span id=\"page-6-36\"></span>[74] Feynman, R. P., Rev. Mod. Phys.,, 20 (1948) 367\n- <span id=\"page-6-37\"></span>[75] Fano, U., Physical Review, 124 (1961) 1866\n- <span id=\"page-6-38\"></span>[76] Feshbach, H., Annals of Physics , 19 (1962) 287\n- <span id=\"page-6-40\"></span>[77] Zhang, J., Van Kempen, E., Bourdel, T. et al., Physical Review A, 70 (2004) 030702\n- <span id=\"page-6-41\"></span>[78] Bussmann-Holder, A., Keller, H., Simon A. and Bianconi A., Condensed Matter, 4 (2019) 91\n- <span id=\"page-6-42\"></span>[79] Mazziotti, M. V., Valletta, A., Campi, G., et al., EPL Europhysics Letters, 118 (2017) 37003\n- <span id=\"page-6-43\"></span>[80] Mazziotti, M. V., Valletta, A., Raimondi, R., and Bianconi, A., Phys. Rev. B, 103 (2021) 024523\n- <span id=\"page-6-44\"></span>[81] Barba, L., Chita G., Campi, G. et al, Journal of Superconductivity and Novel Magnetism, 31 (2018) 703\n- <span id=\"page-6-45\"></span>[82] Pinto, N., Di Nicola,C., Trapananti, A. et al, Condensed Matter, 5 (2020) 78 Jarlborg, T., and Bianconi, A., Condensed Matter, 4 (2019) 15\n- <span id=\"page-6-46\"></span>[83] Bianconi, A., Journal of Superconductivity, 18 (2005) 625\n- <span id=\"page-6-47\"></span>[84] Kagan, M.Y., and Bianconi, A., Condensed Matter, 4 (2019) 51\n- <span id=\"page-6-48\"></span>[85] Mazziotti, M. V., Scopigno, N., Grilli,M., and Caprara, S., Condensed Matter, 3 (2018) 37\n- <span id=\"page-6-49\"></span>[86] Purans, J., Menushenkov, A. P., Besedin, S. P., etal., Nature Communications, 12 (2021) 1\n- <span id=\"page-6-50\"></span>[87] Troyan, I. A., Semenok, D. V., Kvashnin, A. G. et\n\nal., Advanced Materials, 33 (2021) 2006832",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "Room temperature superconductivity dome at a Fano resonance\nin superlattices of wires",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              39.744140625,
+              99.17059326171875
+            ],
+            [
+              551.63671875,
+              99.17059326171875
+            ],
+            [
+              551.63671875,
+              138.30401611328125
+            ],
+            [
+              39.744140625,
+              138.30401611328125
+            ]
+          ]
+        },
+        {
+          "title": "REFERENCES",
+          "heading_level": null,
+          "page_id": 5,
+          "polygon": [
+            [
+              321.06585693359375,
+              270.703125
+            ],
+            [
+              384.3775939941406,
+              270.703125
+            ],
+            [
+              384.3775939941406,
+              280.1859130859375
+            ],
+            [
+              321.06585693359375,
+              280.1859130859375
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              301
+            ],
+            [
+              "Line",
+              64
+            ],
+            [
+              "Text",
+              10
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              371
+            ],
+            [
+              "Line",
+              82
+            ],
+            [
+              "Caption",
+              3
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "Reference",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              310
+            ],
+            [
+              "Line",
+              90
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              610
+            ],
+            [
+              "Line",
+              123
+            ],
+            [
+              "Text",
+              6
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "TextInlineMath",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 4,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              461
+            ],
+            [
+              "Line",
+              104
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "TextInlineMath",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 5,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              630
+            ],
+            [
+              "Line",
+              99
+            ],
+            [
+              "ListItem",
+              20
+            ],
+            [
+              "Reference",
+              20
+            ],
+            [
+              "Text",
+              4
+            ],
+            [
+              "TextInlineMath",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "Equation",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 6,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              1045
+            ],
+            [
+              "Line",
+              126
+            ],
+            [
+              "ListItem",
+              67
+            ],
+            [
+              "Reference",
+              51
+            ],
+            [
+              "ListGroup",
+              2
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 7,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              15
+            ],
+            [
+              "Line",
+              3
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "ListItem",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "Text",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/zvhWlAWU4ZSdpZwoIuxJeA"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 8,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Room temperature superconductivity dome at a Fano resonance in superlattices of wires",
+    "authors": [
+      {
+        "authors_list": [
+          "Mazziotti, M. V.",
+          "Jarlborg, T.",
+          "Bianconi, A.",
+          "Valletta, A."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "Recently room temperature superconductivity with Tc=15 degrees Celsius has been discovered in a pressurized complex ternary hydride, CSHx, which is a carbon doped H3S alloy. The nanoscale structure of H3S is a particular realization of the 1993 patent claim of superlattice of quantum wires for room temperature superconductors where the maximum Tc occurs at the top of a superconducting dome. Here we focus on the electronic structure of materials showing nanoscale heterostructures at atomic limit made of a superlattice of quantum wires like hole doped cuprate perovskites, organics, A15 intermetallics and pressurized hydrides. We provide a perspective of the theory of room temperature multigap superconductivity in heterogeneous materials tuned at a Fano Feshbach resonance (called also shape resonance) in the superconducting gaps focusing on H3S where the maximum Tc occurs where the pressure tunes the chemical pressure near a topological Lifshitz transition. Here the superconductivity dome of Tc versus pressure is driven by both electron-phonon coupling and contact exchange interaction. We show that the Tc amplification up to room temperature is driven by the Fano Feshbach resonance between a superconducting gap in the anti-adiabatic regime and other gaps in the adiabatic regime. In these cases the Tc amplification via contact exchange interaction is the missing term in conventional multiband BCS and anisotropic Migdal-Eliashberg theories including only Cooper pairing",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "arXiv e-prints",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:2105.13123"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.48550/arXiv.2105.13123",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2021arXiv210513123M"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}

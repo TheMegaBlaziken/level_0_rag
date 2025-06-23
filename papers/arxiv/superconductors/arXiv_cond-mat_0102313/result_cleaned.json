@@ -1,0 +1,297 @@
+{
+  "id": "aa5370db07297f2429b2c6a5cfbb9d62",
+  "pdf_path": "apl/Superconductors/arXiv:cond-mat_0102313.pdf",
+  "marker": {
+    "status": "complete",
+    "output_format": "markdown",
+    "json": null,
+    "markdown": "## H ole carrier in M qB 2 characterized by H all M easurem ents\n\nW .N .N .K ang, C .U .Jung,K ijon H .P .K in ,M in-Seok Park, S.Y . Lee, Hyeong-Jin K in , Eun-M i Choi, K yung H ee\n\nK im , M un-Seog K im , and Sung-Ik Lee\n\nN ational C reative Research Initiative C enter for Superconductivity and Departm ent of Physics, Pohang University of Science and Technology,\n\nPohang 790-784, Republic of K orea\n\nThe longitudinal resistivity xx and Hall coe cient Ris were measured for M gB2 sintered under high pressure. W e found that Rir is positive like cuprate high-T g superconductors, and decreases as tem perature increases for 40 K < T < 300 K . The cotangent of Hall angle was found to follow a + bl 2 behavior from To to 300 K .A T = 100 K , R = 4:1 10 +1 m 3/C from which hole carrier density was determ ined to be 1 5 - 1023 / cm 3 . This carrier density is 2 - 3 orders of m agnitude larger than those of N b3 Sn and optim ally doped Y B a2C u30 y superconductors.\n\nRecently, M gB2 was found to be m etallic superconductorwith transition tem perature (Tc) of about 40 K . [1,2], and has provided great scienti c interest. Several therm odynam ic param eters have been estim ated, [3,4] such as a upper critical eld Ho2 = 13 - 18 T , a G inzburg-Landau param eter density Jc (0) 105 A /cm 2. In order to probe the nature of gap, tunneling spectroscopy m easurem ents have been reported [5,6], and they observed superconducting energy gap ( ) of 5 - 7 m eV in the fram ew ork ofthe B C S m odel. The conventional BC S electron-phonon interaction was proposed as the origin of the superconductivity based on a band calculation. [7] The possible origin of the enhanced To is suggested to originate from a strong election-phonon interaction and a enhanced phonon frequency due to the light boron m ass in M gB2 . M ost of the charge carrier density at the Ferm i level com es from the boron band. Indeed, the boron isotope e ect has been reported with an exponent of B 0:26. [8] No experim ental study on the electronic structure has been reported yet.\n\nAnother interesting feature concerning the norm alstate H all e ect in high-To cuprates is the universal tem perature dependence of the cotangent of the H all angle (cot ; ). Anderson [10] and Chien et al. [9] have proposed that the charge transport is governed by two different scattering tim es with di erent tem perature dependences. In this model, the cot ; should be proportional to T2 since the Hall angle is proportional to the inverse ofthe H all scattering time H (/ T 2 ), and has been observed for m ost high-T c superconductors. [11,12] In the m ixed-state, the ux- ow H alle ect is also quite interest ing. A puzzling sign anom aly has been observed in som e conventional superconductors [13,14] as well as in m ost of high-T 。 superconductors. [15] Even double [16,17] or trip le sign changes [15] have been observed in som e high-T 。 superconductors. Furtherm ore, a universalscaling behavior between the H all resist.ivity and the longitudinal resistivity has attracted much experim ental [15 { 18] and theoreticalinterest. [19]How ever, these H alle ects in the m ixed state are not well understood.\n\nTo understand the superconductivity in M gB2, it is\n\nessential to know the type of charge carrier and it's density, but these have not been reported yet . Theoretically, H irsch [20] proposed that the 40 K superconductivity ofM gB2 originatesm ainly from the hole carriers with boron planes acting like the Cu0 2 planes in cuprate hightem perature superconductors. He proposed that pairing of hole carriers leads to hole undressing, which is driven by Coulomb interactions. To the best of our know ledge, the H all coe cient (R H ) forM gB 2 has not been reported. For other m etal diborides (M B2, where M = Y , N b, T i, V,Cr,Zr,Mo,Ta,orW ),the sign ofRH wasobserved to be negative, [21,22] and no observation of superconductivity has been reported. Therefore, the measurem ent of the Hall e ect for M gB2 has received much scienti c attention .\n\nTo obtain reliable results from transportm easurem ents by using polycrystalline sam ples, onem ust m ake the sam ple strong and dense. In this case, sam ples sintered under high pressure suitable. In our previous report, [2] we showed that the mechanical properties, as well as the superconducting properties, were vastly enhanced for sam ples sintered at 950 C under high pressure (3 G P a range) .\n\nIn this paper, we report the rst measurem ent of the R H of M gB 2 , which was carried out using carefully prepared sample with a thin bar shape. W e found that the sign of R H is positive like those of cuprate high-To superconductors. This is contrary to m ost other m etal diborides with the sam e structure as M gB2. A lso the R H decreased as the tem perature increased, and the cotangent of the H all angle follow s a + bT 1.38 for m ost of the m easured tem perature region from 40 to 300 K . A t T = 100 K , R H = 4:1 = 10 11 m 3 /C , and the calculated hole carrier density is 1:5 1:5 1023 / cm 3 .\n\nThe polycrystalline samples (4.5 mm in diam eter and 3.3 m m in height) used in this study were sintered at 950 C under 3 G P a. The fabrication m ethod was reported in detail by Jung et al. [2] The sam ple purity was m ore than 99% as determ ined by X -ray di raction analysis. No grain boundries were observed using the scanning electron m icroscopy. In order to obtain a higher H all voltage signal, we cut the sam ple into a bar shape with a length\n\n<span id=\"page-1-0\"></span>of4 m m and a w idth of2.4 m m ,and then m echanically polished ituntilitwasvery thin (50 -100m ).T hestandard photolithography technique was adopted to align the electricalpadsshow n in the upperinsetofFig.1.To obtain good ohm ic contacts (< 1 ),we coated A u \f lm on contactpadsaftercleaning thesam plesurfacew ith an A r ion beam . T his process was done in situ in a high vacuum cham ber. T he voltage noise,w hich is detrim entalto precise m easurem ents,wassuccessfully reduced to a lowerlevelby preparing a very thin and optically clean specim en polished from a strong,dense sam ples. A fter installing a low noise pream pli\f er (N 11,EM Electronics )priorto the nanovoltm eter(H P 34420A ),weachieved a voltage resolution ofbelow 1 nV under a vias currentof 50 -100 m A .Fine tem perature controlwas crucialsince theH allsignalwasvery sm all.T helongitudinaland H all voltageswerem easured sim ultaneously by using thestandard dc 6-probe m ethod.T he m agnetic \f eld wasapplied perpendicularto the sam ple surfaceby using a superconducting m agnet system (M aglab2000 O xford Ltd.) and the applied current density was 42 A /cm <sup>2</sup>. T he H all voltage was extracted from the antisym m etric parts of the transverse voltages m easured under opposite directions to rem ove the longitudinalcom ponent due to the m isalignm ent of the H allvoltage pads. T he H allvoltage was found to be linear in both the current and the m agnetic \f eld.\n\nFig. 1 show s the tem perature dependence ofthe longitudinalresistivity, xx. T he low -\f eld m agnetization in the zero-\f eld-cooling state for the originalbulk sam ple is show n in the lowerinset ofFig. 1. T he diam agnetism is 100% to alm ost Tc; thus we norm alized to the value at lower tem perature. T he superconducting transition tem perature is 38.4 K w ith a narrow transition w idth of 0.6 K ,as judged from the 10 to 90% superconducting transition. T he resistivity value of 70 cm at 300 K iscom parableto thatofsingle crystallineinterm etallic superconductors.[\\[23\\]](#page-2-0)A s reported in our previous work, thenorm al-state xx follow sroughly aT <sup>2</sup> behaviorrather than a T <sup>3</sup> behavior, for the entire tem perature region below room tem perature.[2]N o m agnetoresistance was observed from T<sup>c</sup> to 300 K ,w hich isconsistentw ith the previous results by Jung et al.[2]and Takano et al.,[\\[4](#page-2-0)]\n\nbut di erent from the data by Finnem ore etal..[\\[3](#page-2-0)] T he tem perature dependence ofthe H allcoe cient is show n in Fig. 2. T he two curves in the inset represent the H all voltage m easured at 100 K for opposite m agnetic \f elds up to 5 T . T he clearly sym m etric and linear shape dem onstrates that the signal to noise ratio for our m easurem ent is high. T he H all coe cient was positive for alltem peratures above Tc. A t 100 K , R <sup>H</sup> = 4:1 10 <sup>11</sup> m <sup>3</sup>/C ,and the holecarrierdensity was calculated to be 1:5 10<sup>23</sup> /cm <sup>3</sup>. T he absolute value of the hole carrierdensity istwo ordersofm agnitude larger than thatofN b3Sn superconductors[\\[24](#page-2-0)]and nearly three ordersofm agnitude largerthan thatofoptim ally doped\n\nY Ba2C u3O <sup>y</sup>.[\\[11\\]](#page-2-0)\n\nH irsch o ersan explanation based on a universalm echanism by assum ing that superconductivity in M gB<sup>2</sup> is sim ilar to that in cuprate superconductorsand is driven by pairing ofheavily dressed hole carriersin a band that is alm ost full,w hereby they gain enough kinetic energy to overcom e the C oulom b energy.[\\[20](#page-2-0)]Based on this assum ption,he claim ed that the type ofthe charge carrier is positive.\n\nIn Fig. 3, we show the tem perature dependence of cot <sup>H</sup> at 5 T . A good linear \f t to a + bT1:<sup>8</sup>, rather than a+ bT<sup>2</sup>,isobserved forthe tem perature range from T<sup>c</sup> to 300 K ,In high-T<sup>c</sup> cuprates,the charge transport is governed by two di erent scattering tim es w ith different tem perature dependences [\\[9,10](#page-2-0)]A ccording to this two-scattering-tim em odel,the longitudinalconductivity ( xx) is governed by the transport scattering tim e tr, w hich isproportionalto 1=T,w hereastheH allconductivity ( xy s <sup>H</sup> tr) follow s 1=T<sup>3</sup> since the H allrelaxation rate is proportionalto 1=T<sup>2</sup>. A s a result,the cot <sup>H</sup> (= xy=xx) should follow an s T <sup>2</sup> law . O ur data is in fair agreem ent w ith a cot <sup>H</sup> s T <sup>2</sup> law , w hich is consistent w ith the observations in m ost high-T<sup>c</sup> superconductors. [\\[12\\]](#page-2-0)H owever,thisobservation cannotbeexplained by the above m odelbecause the data show xx s T <sup>2</sup>,as show n in Fig.1.\n\nIn sum m ary, we report the tem perature dependence of R <sup>H</sup> for the recently discovered binary superconductor M gB<sup>2</sup> w hich has a rem arkably high transition tem perature. W e \f nd that R<sup>H</sup> is positive like those for cuprate high-T<sup>c</sup> superconductors and that the cot <sup>H</sup> follow s a + bT<sup>2</sup> from T<sup>c</sup> to 300 K . A t T = 100 K , R <sup>H</sup> = 4:1 10 <sup>11</sup> m <sup>3</sup>/C , and the hole carrier density was1:5 10<sup>23</sup>/cm <sup>2</sup>.W e discussed the im plication ofthe hole superconductivity based on a recentm odel.\n\n## A C K N O W LE D G M E N T S\n\nW e appreciate valuable discussion w ith J. L. Tallon, T his work is supported by the M inistry ofScience and Technology ofK orea through the C reative R esearch Initiative Program .\n\nE-m ail address: silee@ postech.ac.kr or w nkang@ postech.ac.kr\n\n- [1] J. A kim itsu, Sym posium on Transition M etal O xides, Sendai,January 10,2001.J.N agam atsu,N .N akagawa, T . M uranaka, Y . Zenitani, and J. A kim itsu. (unpublished).\n- [2] C .U .Jung,M in-Seok Park,W .N .K ang,M un-Seog K im , S.Y .Lee,and Sung-Ik Lee,[cond-m at/0102215](http://arxiv.org/abs/cond-mat/0102215) (2001).\n- <span id=\"page-2-0\"></span>[3] D .K .Finnem ore,J.E.O stenson,S.L.B ud'ko,G .Lapertot,and P.C .C an\f eld[,cond-m at/0102114](http://arxiv.org/abs/cond-mat/0102114) (2001).\n- [4] Y . Takano, H . Takeya, H . Fujii, H . K um akura, T . H atano, K . Tokano, H . K ito, and H . Ihara, [cond](http://arxiv.org/abs/cond-mat/0102167)[m at/0102167](http://arxiv.org/abs/cond-mat/0102167) (2001).\n- [5] G . K arapetrov, M . Iavarone, W .K . K wok, G .W . C rabtree,and H inks,[cond-m at/0102312](http://arxiv.org/abs/cond-mat/0102312) (2001).\n- [6] A . Sharoni, I. Felner, and O . M illo\\*R acah, [cond](http://arxiv.org/abs/cond-mat/0102325)[m at/0102325](http://arxiv.org/abs/cond-mat/0102325) (2001).\n- [7] J. K ortus, I. I. M azin, K . D . B elashchenko, V . P. A ntropov,and L.L.B oyer,[cond-m at/0101446](http://arxiv.org/abs/cond-mat/0101446) (2001).\n- [8] S. L. B ud'ko, G . Lapertot, C . Petrovic, C . E. C unningham , N . A nderson, and P. C . C an\f eld, [cond](http://arxiv.org/abs/cond-mat/0101463)[m at/0101463](http://arxiv.org/abs/cond-mat/0101463) (2001),Phys.R ev.Lett.(in press).\n- [9] P.W .A nderson,Phys.R ev.Lett.67,2092 (1991).\n- [10] T .R .C hien,Z.Z.W ang,and N .P.O ng,Phys.R ev.Lett. 67,2088 (1991).\n- [11] J.M .H arris, Y .F.Yan,and N .P.O ng, Phys.R ev.B 46,14293 (1992),and references therein.\n- [12] Y . A be, K . Segawa, and Y . A ndo, Phys. R ev. B 60, R 15055 (1999),and references therein.\n- [13] W .A .R eed,E.Fawcett,and Y .B .K im ,Phys.R ev.Lett. 14,790 (1965).\n- [14] S.J.H agen,C .J.Lobb,R .L.G reene,M .G .Forrester, and J.H .K ang,Phys.R ev.B 41,11630 (1990).\n- [15] W .N .K ang,B .W .K ang,Q .Y .C hen,J.Z.W u,Y .B ai, W .K .C hu, D .K .C hristen, R .K erchner, and Sung-Ik Lee,Phys.R ev.B 61,722 (2000).\n- [16] R .C .B udhani,S.H .Liou, and Z.X .C ai, Phys.R ev. Lett.71,621 (1993).\n- [17] W .N .K ang,B .W .K ang,Q .Y .C hen,J.Z.W u,S.H . Yun,A .G apud,J.Z.Q u,W .K .C hu,D .K .C hristen, R . K erchner, and C . W . C hu, Phys. R ev.B 59, R 9031 (1999).\n- [18] W .N .K ang,D .H .K im ,S.Y .Shim ,J.H .Park,T .S. H ahn,S.S.C hoi,W .C .Lee,J.D .H ettinger,K .E.G ray, and B . G lagola, Phys.R ev.Lett.76, 2993 (1996), and references therein.\n- [19] A .T .D orsey and M .P.A .Fisher,Phys.R ev.Lett.68, 694 (1992); V . M . V inokur. V . B . G eshkenbein, M .V . Feigel'm an,and G .B latter,ibid.71,1242 (1993);Z.D . W ang,J.D ong,and C .S.T ing,ibid.72,3875 (1994);N . B .K opnin and G .E.Volovik,ibid.79,1377 (1998).\n- [20] J.E.H irsch,[cond-m at/0102115](http://arxiv.org/abs/cond-mat/0102115) (2001).\n- [21] R .W .Johnson and A .H .D aane,J.C hem .Phys.38,425 (1963).\n- [22] H .J.Juretschke and R .Steinitz, J. C hem . Phys.Solids 4,118 (1958).\n- [23] I.R .Fisher, J.R .C ooper, and R .J.C ava, Phys.R ev.B 52,15086 (1995).\n- [24] C .N olscher and G .Saem ann-Ischenko,Phys.R ev.B 32, 1519 (1985).\n\n![](_page_2_Figure_22.jpeg)\n\nFIG .1. xx - T show s overall T <sup>2</sup> behavior and a sharp transition near T<sup>c</sup> for M gB<sup>2</sup> sam ple. T he lower inset show s the low -\f eld m agnetization curve m easured in the zero-\f eld-cooling state and the upper inset show s the con-\n\n\f guration ofthe m easurem ent,nam ely six-term inalm ethod. T he two electricalpadsatboth sidesare forcurrentpath and the other four leads for longitudinal and transverse voltage m easurem ent.\n\n![](_page_2_Figure_25.jpeg)\n\nFIG .2. H allcoe cient m easured at 5 T .T he two lines in the inset represent the H all voltage m easured at 100 K for opposite two directions ofthe applied \f eld up to 5 T .\n\n![](_page_3_Figure_0.jpeg)\n\nFIG.3. Cotangent of Hall angle measured at 5 T. The curves show nearly T 1:3 behavior over the entire tem perature region m easured .",
+    "html": null,
+    "metadata": {
+      "table_of_contents": [
+        {
+          "title": "H ole carrier in M qB 2 characterized by H all M easurem ents",
+          "heading_level": null,
+          "page_id": 0,
+          "polygon": [
+            [
+              134.47265625,
+              52.5
+            ],
+            [
+              481.7109375,
+              52.5
+            ],
+            [
+              481.7109375,
+              61.5
+            ],
+            [
+              134.47265625,
+              61.5
+            ]
+          ]
+        },
+        {
+          "title": "A C K N O W LE D G M E N T S",
+          "heading_level": null,
+          "page_id": 1,
+          "polygon": [
+            [
+              379.212890625,
+              493.4618835449219
+            ],
+            [
+              499.939453125,
+              493.4618835449219
+            ],
+            [
+              499.939453125,
+              504.28125
+            ],
+            [
+              379.212890625,
+              504.28125
+            ]
+          ]
+        }
+      ],
+      "page_stats": [
+        {
+          "page_id": 0,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              98
+            ],
+            [
+              "Span",
+              98
+            ],
+            [
+              "Text",
+              8
+            ],
+            [
+              "TextInlineMath",
+              5
+            ],
+            [
+              "PageHeader",
+              1
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 1,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              464
+            ],
+            [
+              "Line",
+              114
+            ],
+            [
+              "TextInlineMath",
+              6
+            ],
+            [
+              "Text",
+              3
+            ],
+            [
+              "ListItem",
+              2
+            ],
+            [
+              "SectionHeader",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 2,
+          "text_extraction_method": "pdftext",
+          "block_counts": [
+            [
+              "Span",
+              345
+            ],
+            [
+              "Line",
+              152
+            ],
+            [
+              "ListItem",
+              22
+            ],
+            [
+              "Figure",
+              2
+            ],
+            [
+              "Caption",
+              2
+            ],
+            [
+              "FigureGroup",
+              2
+            ],
+            [
+              "Text",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "ListGroup",
+              1
+            ],
+            [
+              "Reference",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        },
+        {
+          "page_id": 3,
+          "text_extraction_method": "surya",
+          "block_counts": [
+            [
+              "Line",
+              19
+            ],
+            [
+              "Span",
+              19
+            ],
+            [
+              "Figure",
+              1
+            ],
+            [
+              "Caption",
+              1
+            ],
+            [
+              "PageFooter",
+              1
+            ],
+            [
+              "FigureGroup",
+              1
+            ]
+          ],
+          "block_metadata": {
+            "llm_request_count": 0,
+            "llm_error_count": 0,
+            "llm_tokens_used": 0
+          }
+        }
+      ],
+      "debug_data_path": "debug_data/JMFyA7yp273g0-2viAAoRg"
+    },
+    "success": true,
+    "error": "",
+    "page_count": 4,
+    "total_cost": null
+  },
+  "status": "success",
+  "metadata": {
+    "topic": "Superconductors",
+    "query": "Superconductors",
+    "rank": "",
+    "title": "Hole carrier in MgB<SUB>2</SUB> characterized by Hall measurements",
+    "authors": [
+      {
+        "authors_list": [
+          "Kang, W. N.",
+          "Jung, C. U.",
+          "Kim, Kijoon H. P.",
+          "Park, Min-Seok",
+          "Lee, S."
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "abstracts": [
+      {
+        "abstract": "The longitudinal resistivity (ρ<SUB>xx</SUB>) and Hall coefficient (R<SUB>H</SUB>) were measured for MgB<SUB>2</SUB> sintered under high pressure. We found that R<SUB>H</SUB> is positive like cuprate high-T<SUB>c</SUB> superconductors, and decreases as the temperature increases for 40 K <T<300 K. The cotangent of the Hall angle was found to follow a+bT<SUP>2</SUP> behavior from T<SUB>c</SUB> to 300 K. At T=100 K, R<SUB>H</SUB>=4.1×10<SUP>-11</SUP> m<SUP>3</SUP>/C from which the hole carrier density was determined to be 1.5×10<SUP>23</SUP>/cm<SUP>3</SUP>. This carrier density is 1-2 orders of magnitude larger than those of Nb<SUB>3</SUB>Sn and optimally doped YBa<SUB>2</SUB>Cu<SUB>3</SUB>O<SUB>y</SUB> superconductors.",
+        "source": "arXiv"
+      }
+    ],
+    "venues": [
+      {
+        "venue": "Applied Physics Letters",
+        "source": "arXiv"
+      }
+    ],
+    "pdf_urls": [
+      {
+        "pdf_download_url": [
+          "https://export.arxiv.org/pdf/arXiv:cond-mat/0102313"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "dois": [
+      {
+        "doi": "https://doi.org/10.1063/1.1392979",
+        "source": "arXiv"
+      }
+    ],
+    "urls": [
+      {
+        "url": [
+          "https://ui.adsabs.harvard.edu/abs/2001ApPhL..79..982K"
+        ],
+        "source": "arXiv"
+      }
+    ],
+    "citations": null,
+    "semanticscholar_url": "",
+    "openalex_url": "",
+    "collection": "apl"
+  }
+}
