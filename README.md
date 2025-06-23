@@ -1,6 +1,12 @@
 # Research SciFy RAG Pipeline
 
-A Retrieval-Augmented Generation (RAG) pipeline for ingesting arXiv papers into a Weaviate vector database and powering an OpenAI-backed chat interface.
+A Retrieval‑Augmented Generation (RAG) pipeline that:
+
+1. **Downloads** arXiv PDFs by ID or search query.  
+2. **Converts** PDFs to Markdown with extracted figures and AI‑generated captions.  
+3. **Ingests** Markdown text chunks and image embeddings into a Weaviate vector database.  
+4. **Provides** an interactive RAG chatbot for querying the indexed content.  
+5. **Resets** your Weaviate data with a one‑click utility.
 
 ---
 
@@ -8,125 +14,151 @@ A Retrieval-Augmented Generation (RAG) pipeline for ingesting arXiv papers into 
 
 ```
 .
-├── download_arxiv_pdfs.py      # 1️⃣ Download PDFs from arXiv
-├── pdf_to_markdown.py         # 2️⃣ Convert PDFs → Markdown + image captioning
-├── ingest_markdown.py         # 3️⃣ Ingest Markdown & images into Weaviate
-├── rag_chat.py                # 4️⃣ RAG-powered chatbot
-└── delete_cluster_data.py     # 5️⃣ Wipe / reset Weaviate data
+├── download_arxiv_pdfs.py      # Fetch PDFs from arXiv
+├── pdf_to_markdown.py         # Convert PDFs → Markdown + captions
+├── ingest_markdown.py         # Chunk & ingest Markdown + images into Weaviate
+├── rag_chat.py                # Interactive RAG chatbot interface
+└── delete_cluster_data.py     # Clear all schema & data from Weaviate
 ```
 
 ---
 
-## 🔍 File Descriptions
+## Prerequisites
 
-### 1. download_arxiv_pdfs.py  
-**Purpose:** Automatically fetch PDF files from the arXiv repository for downstream processing.
+- **Python 3.9+**  
+- **Environment Variables** (required before running):
+  - `OPENAI_API_KEY` – OpenAI API key for captioning and embeddings  
+  - `WEAVIATE_URL` – URL of your Weaviate instance  
+  - `WEAVIATE_API_KEY` – API key for Weaviate (if applicable)  
+  - `GITHUB_TOKEN` – GitHub Personal Access Token for uploading extracted images  
+  - `GITHUB_REPO` – GitHub repo in `owner/name` form for image hosting  
 
-**How it works:**
-- Uses the `arxiv` Python package to query papers by keyword, author, or category.
-- Parses command-line arguments:
-  - `--query`: search terms (e.g., "graph neural networks").
-  - `--max-results`: maximum number of papers to retrieve.
-  - `--output-dir`: directory to save downloaded PDFs.
-- Downloads each PDF as `<arxiv_id>.pdf` and logs progress with `tqdm`.
+Install dependencies (using your activated virtual environment):
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Scripts & Usage
+
+### 1. `download_arxiv_pdfs.py`
+
+**Description:** Download PDF files from arXiv by explicit IDs or by search term.
+
+**Arguments:**
+
+- `--ids, -i` &nbsp;Comma‑separated arXiv IDs (e.g., `2301.00001,2105.12345`)  
+- `--query, -q` &nbsp;Search query string (e.g., `"graph neural networks"`)  
+- `--max-results, -m` &nbsp;(with `--query`) number of papers to fetch (default: 10)  
+- `--output, -o` &nbsp;Output directory for downloaded PDFs  
+
+**Examples:**
+
+```bash
+# By IDs
+python download_arxiv_pdfs.py -i 2301.00001,2105.12345 -o ./pdfs
+
+# By search
+python download_arxiv_pdfs.py -q "machine learning" -m 20 -o ./pdfs
+```
+
+---
+
+### 2. `pdf_to_markdown.py`
+
+**Description:** Convert PDFs into Markdown, extract figures, and generate OpenAI-powered captions.
+
+**Arguments:**
+
+- `--input, -i` &nbsp;Path to a single PDF or a directory of PDFs  
+- `--output, -o` &nbsp;Path to a single Markdown file or a directory for output `.md` files  
+- `--use-llm` &nbsp;Optional flag: enable LLM-enhanced parsing mode  
+
+**Examples:**
+
+```bash
+# Single PDF → single Markdown
+python pdf_to_markdown.py -i paper.pdf -o paper.md
+
+# Folder of PDFs → folder of Markdown files (with images in subfolders)
+python pdf_to_markdown.py -i ./pdfs -o ./markdowns --use-llm
+```
+
+Output:
+
+- `<base>.md` files with text and image links  
+- `<base>_images/` directories with extracted figure images  
+- Captions inserted under each image in Markdown as `**Caption:** ...`
+
+---
+
+### 3. `ingest_markdown.py`
+
+**Description:** Split Markdown into chunks, compute embeddings, and ingest text chunks and images into Weaviate.
+
+**Arguments:**
+
+- `--input, -i` &nbsp;Directory containing `.md` files and their corresponding `_images/` folders  
+
+**Behavior:**
+
+1. Reads each Markdown file and its extracted images.  
+2. Splits text into ~1000‑word sections; embeds with OpenAI embeddings.  
+3. Uploads text sections as `DocumentChunk` objects (properties: `text`, `paper_id`, `heading`).  
+4. Computes image+caption embeddings (CLIP fusion), uploads image files to the specified GitHub repo, and stores as `PaperImage` objects (properties: `filename`, `paper_id`, `caption`, `url`).  
+
+**Example:**
+
+```bash
+python ingest_markdown.py -i ./markdowns
+```
+
+---
+
+### 4. `rag_chat.py`
+
+**Description:** Interactive RAG chatbot that retrieves relevant content (text + images) and answers queries.
 
 **Usage:**
+
 ```bash
-python download_arxiv_pdfs.py   --query "graph neural networks"   --max-results 50   --output-dir ./pdfs
+python rag_chat.py
 ```
+
+**Flow:**
+
+1. Prompts `Q>` for user query.  
+2. Embeds query and retrieves top candidates from `DocumentChunk` & `PaperImage`.  
+3. (If available) Reranks with a cross-encoder for better relevance.  
+4. Calls `openai.ChatCompletion` with retrieved context, prints answer with `[Source: <paper_id>]` citations.  
+5. Displays up to 3 most relevant figure URLs.  
+
+Type `exit` or `quit` to end the session.
 
 ---
 
-### 2. pdf_to_markdown.py  
-**Purpose:** Convert downloaded PDFs into Markdown, extract images, and generate captions.
+### 5. `delete_cluster_data.py`
 
-**How it works:**
-- Extracts text via `pdfminer.six` and converts to Markdown using `markdownify`.
-- Extracts figures with `Pillow`, saves to `images/`, and captions via OpenAI.
-- Embeds images and captions in Markdown files.
+**Description:** Wipe your entire Weaviate schema and data for a fresh start.
 
 **Usage:**
+
 ```bash
-python pdf_to_markdown.py   --input-dir ./pdfs   --output-dir ./markdown
+python delete_cluster_data.py
 ```
 
----
-
-### 3. ingest_markdown.py  
-**Purpose:** Chunk Markdown & images, embed content, and ingest into Weaviate.
-
-**How it works:**
-- Splits `.md` files into semantic chunks.
-- Requests embeddings via the OpenAI Embeddings API.
-- Constructs objects with:
-  - `text`: chunk or image caption.
-  - `metadata`: source filename, chunk index, section header.
-  - `image_url` (if applicable).
-- Uploads objects to the Weaviate `DocumentChunk` class using `weaviate-client`.
-
-**Usage:**
-```bash
-python ingest_markdown.py   --markdown-dir ./markdown   --weaviate-class DocumentChunk
-```
+Be cautious: this uses `client.schema.delete_all()` and will permanently remove all classes and objects.
 
 ---
 
-### 4. rag_chat.py  
-**Purpose:** Interactive chat interface that retrieves relevant content from Weaviate and generates answers via OpenAI.
+## Requirements
 
-**How it works:**
-- Embeds user queries via the OpenAI Embeddings API.
-- Queries Weaviate for top-K similar chunks.
-- Builds a prompt with retrieved context and calls `openai.ChatCompletion`.
-- Displays answers along with source citations.
-
-**Usage:**
-```bash
-python rag_chat.py   --weaviate-class DocumentChunk   --openai-model gpt-4o-mini
-```
+All core dependencies are listed in `requirements.txt`. Review and pin versions as needed.
 
 ---
 
-### 5. delete_cluster_data.py  
-**Purpose:** Reset or wipe data from the Weaviate instance.
-
-**How it works:**
-- Parses `--classes`; if omitted, deletes all objects.
-- Uses `weaviate-client` to purge specified classes or the entire dataset.
-
-**Usage:**
-```bash
-python delete_cluster_data.py   --classes DocumentChunk,Image
-```
-
----
-
-## 🔧 Installation
-
-1. **Clone** the repo:
-   ```bash
-   git clone https://github.com/your-username/level_0_rag.git
-   cd level_0_rag
-   ```
-2. **Create** & activate a Python 3.9+ virtual environment:
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate  # Linux/macOS
-   .venv\Scripts\activate   # Windows
-   ```
-3. **Install** dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. **Configure** environment variables in a `.env` file:
-   ```env
-   OPENAI_API_KEY=your_openai_key
-   WEAVIATE_URL=https://your-weaviate-instance.com
-   WEAVIATE_API_KEY=your_weaviate_api_key
-   ```
-
----
-
-## 🛠 Contributing & License
+## License
 
 MIT © 2025 Your Name
