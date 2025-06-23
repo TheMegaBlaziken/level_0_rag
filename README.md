@@ -161,4 +161,4 @@ All core dependencies are listed in `requirements.txt`. Review and pin versions 
 
 ## License
 
-MIT © 2025 Your Name
+MIT © 2025 Joseph Hale
