@@ -1,0 +1,12 @@
+streamlit
+python-dotenv
+openai
+weaviate-client
+torch
+transformers
+Pillow
+requests
+numpy
+pyyaml
+nltk
+FlagEmbedding 
