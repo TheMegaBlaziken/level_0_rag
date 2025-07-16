@@ -1,0 +1,28 @@
+{
+  "original": {
+    "model_name": "Original Reranker",
+    "total_questions": 5,
+    "successful_questions": 5,
+    "avg_useful_ratio": 0.72,
+    "avg_threshold": 0.8809072017669678,
+    "total_time": 222.51292371749878,
+    "avg_time_per_question": 44.50258474349975
+  },
+  "fine_tuned": {
+    "model_name": "Fine-tuned Reranker",
+    "total_questions": 5,
+    "successful_questions": 5,
+    "avg_useful_ratio": 0.75,
+    "avg_threshold": 0.8809072017669678,
+    "total_time": 202.57741475105286,
+    "avg_time_per_question": 40.51548295021057
+  },
+  "test_questions": [
+    "What is the methodology used in the CeH9 study?",
+    "How do the critical currents compare between CeH9 and Bi-2223?",
+    "What are the key findings about n-values in the research?",
+    "What experimental conditions were used in the study?",
+    "How do the results compare to traditional superconductors?"
+  ],
+  "timestamp": "2025-07-16 12:50:41"
+}
