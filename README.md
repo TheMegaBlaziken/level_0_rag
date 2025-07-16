@@ -314,4 +314,4 @@ GITHUB_PATH_PREFIX=papers
 
 ## License
 
-MIT (or your chosen license)
+MIT
