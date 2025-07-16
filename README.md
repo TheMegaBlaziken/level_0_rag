@@ -2,6 +2,8 @@
 
 A comprehensive Retrieval-Augmented Generation (RAG) pipeline for scientific papers, supporting everything from PDF download to optional reranker fine-tuning. This guide covers every step, file, and configuration needed to run and extend the system.
 
+> **📁 Large Files Note:** This repository contains only the code and configuration. Large files (PDFs, models, databases) are generated automatically when you run the pipeline. See [LARGE_FILES.md](LARGE_FILES.md) for details.
+
 ---
 
 ## Pipeline Overview
@@ -16,6 +18,41 @@ A comprehensive Retrieval-Augmented Generation (RAG) pipeline for scientific pap
 8. **(Optional) Fine-tune the Reranker**
 9. **(Optional) Evaluate and A/B Test Reranker**
 10. **(Optional) Update Pipeline to Use Fine-tuned Reranker**
+
+---
+
+## Quick Setup
+
+### Prerequisites
+- Python 3.8+
+- Docker and Docker Compose
+- OpenAI API key
+- Git
+
+### Initial Setup
+1. **Clone this repository:**
+   ```sh
+   git clone <your-repo-url>
+   cd SciFy-RAG-Project
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+3. **Set up environment variables:**
+   ```sh
+   cp env.example .env
+   # Edit .env with your actual API keys
+   ```
+
+4. **Start Weaviate:**
+   ```sh
+   docker-compose up -d
+   ```
+
+5. **Follow the pipeline steps below** - each script will generate the required large files automatically.
 
 ---
 
